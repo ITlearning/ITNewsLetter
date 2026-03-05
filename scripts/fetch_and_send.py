@@ -304,6 +304,7 @@ def enrich_item_with_openai(
         f"Snippet: {snippet}\n"
     )
     last_error: str | None = None
+    denied_models: list[str] = []
 
     for model in models:
         payload = {
@@ -372,6 +373,7 @@ def enrich_item_with_openai(
 
                 if body_text and is_openai_model_access_error(body_text):
                     last_error = f"model access denied: {model}"
+                    denied_models.append(model)
                     model_access_error = True
                     break
 
@@ -387,6 +389,8 @@ def enrich_item_with_openai(
         if model_access_error:
             continue
 
+    if denied_models:
+        return item, f"model access denied (tried: {', '.join(denied_models)})"
     return item, last_error
 
 
