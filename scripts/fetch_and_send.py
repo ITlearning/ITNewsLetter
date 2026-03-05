@@ -203,7 +203,18 @@ def post_discord(webhook_url: str, content: str, timeout_sec: int, retries: int)
                 if code in (200, 204):
                     return True, None
                 error_msg = f"unexpected status code: {code}"
-        except (HTTPError, URLError, TimeoutError) as exc:
+        except HTTPError as exc:
+            body = ""
+            try:
+                body = exc.read().decode("utf-8", errors="replace").strip()
+            except Exception:  # noqa: BLE001
+                body = ""
+
+            if body:
+                error_msg = f"HTTP Error {exc.code}: {body}"
+            else:
+                error_msg = str(exc)
+        except (URLError, TimeoutError) as exc:
             error_msg = str(exc)
 
         if attempt < retries - 1:
