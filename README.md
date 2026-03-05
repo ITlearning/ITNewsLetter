@@ -57,6 +57,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 ## Notes
 - Some newsletters do not expose RSS/Atom feeds directly.
 - Add only verified feed URLs to `config/sources.yaml`.
+- `source_type: sitemap` + `path_prefix` can be used for sites without RSS (e.g., Anthropic engineering posts).
 - New item selection is priority-based: technical/dev-use-case posts first, then general industry news.
 - GeekNews is preferred first each run; remaining slots are filled by technical/general priority.
 - Items older than 3 days are skipped by default before prioritization.

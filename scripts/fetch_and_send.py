@@ -8,12 +8,14 @@ import os
 import re
 import sys
 import time
+import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
+from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 import feedparser
@@ -146,6 +148,8 @@ class Source:
     enabled: bool
     max_items: int
     priority_boost: int
+    source_type: str
+    path_prefix: str
 
 
 def now_utc() -> datetime:
@@ -296,6 +300,8 @@ def load_sources(config_path: Path) -> list[Source]:
         feed_url = normalize_text(raw.get("feed_url") or raw.get("url"))
         enabled = bool(raw.get("enabled", True))
         max_items = safe_int(raw.get("max_items"), default_limit)
+        source_type = normalize_text(raw.get("source_type"), "rss").lower()
+        path_prefix = normalize_text(raw.get("path_prefix"))
         priority_boost = safe_int(
             raw.get("priority_boost"),
             default_source_priority_boost(name),
@@ -311,6 +317,8 @@ def load_sources(config_path: Path) -> list[Source]:
                 enabled=enabled,
                 max_items=max(1, max_items),
                 priority_boost=priority_boost,
+                source_type=source_type if source_type in {"rss", "sitemap"} else "rss",
+                path_prefix=path_prefix,
             )
         )
 
@@ -386,6 +394,9 @@ def normalize_entry(
 
 
 def fetch_source(source: Source, fetched_at: str) -> list[dict[str, str]]:
+    if source.source_type == "sitemap":
+        return fetch_sitemap_source(source, fetched_at)
+
     feed = feedparser.parse(
         source.feed_url,
         request_headers={"User-Agent": USER_AGENT},
@@ -408,6 +419,68 @@ def fetch_source(source: Source, fetched_at: str) -> list[dict[str, str]]:
         items.append(item)
 
     return items
+
+
+def slug_to_title(path: str) -> str:
+    slug = path.strip("/").split("/")[-1]
+    if not slug:
+        return "(no title)"
+    return " ".join(part.capitalize() for part in slug.split("-") if part) or "(no title)"
+
+
+def fetch_sitemap_source(source: Source, fetched_at: str) -> list[dict[str, str]]:
+    req = Request(
+        source.feed_url,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/xml,text/xml;q=0.9,*/*;q=0.8"},
+        method="GET",
+    )
+    with urlopen(req, timeout=15) as resp:
+        xml_text = resp.read().decode("utf-8", errors="replace")
+
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError as exc:
+        raise RuntimeError(f"sitemap parse error: {exc}") from exc
+
+    namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    raw_items: list[dict[str, str]] = []
+    prefix = source.path_prefix.rstrip("/")
+
+    for node in root.findall("sm:url", namespace):
+        loc_node = node.find("sm:loc", namespace)
+        if loc_node is None or not loc_node.text:
+            continue
+
+        link = normalize_text(loc_node.text)
+        path = normalize_text(urlparse(link).path)
+        if prefix:
+            if not path.startswith(prefix):
+                continue
+            if path.rstrip("/") == prefix:
+                continue
+
+        lastmod_node = node.find("sm:lastmod", namespace)
+        published = normalize_text(lastmod_node.text if lastmod_node is not None else "")
+        title = slug_to_title(path)
+
+        pseudo_entry = {
+            "id": link,
+            "title": title,
+            "link": link,
+            "published": published,
+            "summary": "",
+        }
+        raw_items.append(
+            normalize_entry(
+                source.name,
+                pseudo_entry,
+                fetched_at,
+                source.priority_boost,
+            )
+        )
+
+    raw_items.sort(key=lambda item: item.get("published_at", ""), reverse=True)
+    return raw_items[: source.max_items]
 
 
 def trim_sent_ids(sent_ids: dict[str, int], ttl_days: int, max_ids: int) -> dict[str, int]:
