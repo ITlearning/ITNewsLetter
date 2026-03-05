@@ -26,6 +26,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 3. Enable GitHub Actions.
 4. Run `Newsletter Discord Sync` once with `workflow_dispatch`.
 5. Scheduler runs every 5 minutes and sends up to 3 new items per run.
+6. Priority selection defaults to `technical 2 + general 1` per run.
 
 ## Local Dry Run
 ```bash
@@ -40,6 +41,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `MAX_STATE_IDS` (default: `3000`)
 - `MAX_NEWS_ITEMS` (default: `2000`)
 - `MAX_NEW_ITEMS_PER_RUN` (default: `3`)
+- `TECH_PRIORITY_QUOTA` (default: `2`)
 - `DISCORD_RETRY` (default: `3`)
 - `REQUEST_TIMEOUT_SEC` (default: `15`)
 - `SEND_DELAY_SEC` (default: `0.6`)
@@ -52,3 +54,4 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 ## Notes
 - Some newsletters do not expose RSS/Atom feeds directly.
 - Add only verified feed URLs to `config/sources.yaml`.
+- New item selection is priority-based: technical/dev-use-case posts first, then general industry news.

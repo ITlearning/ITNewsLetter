@@ -26,6 +26,117 @@ LAST_RUN_PATH = ROOT / "data" / "last_run.json"
 
 USER_AGENT = "ITNewsLetterBot/1.0 (+https://github.com/)"
 
+DEFAULT_SOURCE_PRIORITY_BOOST: dict[str, int] = {
+    "GeekNews": 45,
+    "iOS Dev Weekly": 24,
+    "Swift Weekly Brief": 22,
+    "Hacker News Frontpage (HN RSS)": 18,
+    "TLDR Tech": 10,
+    "TechCrunch": 6,
+}
+
+TECHNICAL_KEYWORDS = [
+    "github",
+    "repo",
+    "open source",
+    "opensource",
+    "오픈소스",
+    "개발기",
+    "사용기",
+    "실전",
+    "how to",
+    "tutorial",
+    "guide",
+    "pattern",
+    "architecture",
+    "sdk",
+    "cli",
+    "library",
+    "framework",
+    "api",
+    "implementation",
+    "show hn",
+    "build",
+    "built",
+    "swift",
+    "ios",
+    "web",
+    "oss",
+    "ai agent",
+    "ai agents",
+    "agentic",
+    "agent",
+    "multi-agent",
+    "autonomous agent",
+    "mcp",
+    "model context protocol",
+    "llm",
+    "vlm",
+    "rag",
+    "retrieval-augmented generation",
+    "prompt engineering",
+    "prompt",
+    "tool calling",
+    "function calling",
+    "tool use",
+    "context window",
+    "vector db",
+    "vector database",
+    "embedding",
+    "fine-tuning",
+    "finetuning",
+    "reasoning model",
+    "inference",
+    "copilot",
+    "cursor",
+    "claude code",
+    "codex",
+    "vibe coding",
+    "에이전트",
+    "ai 에이전트",
+    "에이전틱",
+    "멀티 에이전트",
+    "멀티에이전트",
+    "프롬프트 엔지니어링",
+    "프롬프트",
+    "툴 콜링",
+    "함수 호출",
+    "임베딩",
+    "벡터 db",
+    "벡터 데이터베이스",
+    "파인튜닝",
+    "추론",
+    "에이전트 활용",
+    "에이전트 워크플로우",
+    "에이전트 자동화",
+]
+
+GENERAL_NEWS_KEYWORDS = [
+    "acquire",
+    "acquisition",
+    "merger",
+    "funding",
+    "ipo",
+    "earnings",
+    "settles",
+    "lawsuit",
+    "regulation",
+    "antitrust",
+    "deal",
+    "announces",
+    "reported",
+    "reports",
+    "인수",
+    "투자",
+    "실적",
+    "소송",
+    "규제",
+    "주가",
+    "합병",
+    "파트너십",
+    "협약",
+]
+
 
 @dataclass
 class Source:
@@ -33,6 +144,7 @@ class Source:
     feed_url: str
     enabled: bool
     max_items: int
+    priority_boost: int
 
 
 def now_utc() -> datetime:
@@ -44,6 +156,18 @@ def safe_int(value: Any, default: int) -> int:
         return int(value)
     except (TypeError, ValueError):
         return default
+
+
+def default_source_priority_boost(source_name: str) -> int:
+    return DEFAULT_SOURCE_PRIORITY_BOOST.get(source_name, 0)
+
+
+def count_keyword_hits(text: str, keywords: list[str]) -> int:
+    total = 0
+    for keyword in keywords:
+        if keyword and keyword in text:
+            total += 1
+    return total
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -171,6 +295,10 @@ def load_sources(config_path: Path) -> list[Source]:
         feed_url = normalize_text(raw.get("feed_url") or raw.get("url"))
         enabled = bool(raw.get("enabled", True))
         max_items = safe_int(raw.get("max_items"), default_limit)
+        priority_boost = safe_int(
+            raw.get("priority_boost"),
+            default_source_priority_boost(name),
+        )
 
         if not name or not feed_url:
             continue
@@ -181,6 +309,7 @@ def load_sources(config_path: Path) -> list[Source]:
                 feed_url=feed_url,
                 enabled=enabled,
                 max_items=max(1, max_items),
+                priority_boost=priority_boost,
             )
         )
 
@@ -200,7 +329,12 @@ def parse_entry_time(entry: dict[str, Any]) -> str:
     return published
 
 
-def normalize_entry(source_name: str, entry: dict[str, Any], fetched_at: str) -> dict[str, str]:
+def normalize_entry(
+    source_name: str,
+    entry: dict[str, Any],
+    fetched_at: str,
+    source_priority_boost: int,
+) -> dict[str, str]:
     title = normalize_text(entry.get("title"), "(no title)")
     link = normalize_text(entry.get("link") or entry.get("id"))
     published_at = parse_entry_time(entry)
@@ -219,6 +353,7 @@ def normalize_entry(source_name: str, entry: dict[str, Any], fetched_at: str) ->
         "published_at": published_at,
         "summary": summary,
         "fetched_at": fetched_at,
+        "source_priority_boost": str(source_priority_boost),
     }
 
 
@@ -234,7 +369,12 @@ def fetch_source(source: Source, fetched_at: str) -> list[dict[str, str]]:
 
     items: list[dict[str, str]] = []
     for entry in feed.entries[: source.max_items]:
-        item = normalize_entry(source.name, entry, fetched_at)
+        item = normalize_entry(
+            source.name,
+            entry,
+            fetched_at,
+            source.priority_boost,
+        )
         if not item["link"]:
             continue
         items.append(item)
@@ -254,6 +394,73 @@ def trim_sent_ids(sent_ids: dict[str, int], ttl_days: int, max_ids: int) -> dict
     ordered = sorted(filtered.items(), key=lambda kv: kv[1], reverse=True)
     trimmed = ordered[:max_ids]
     return {k: v for k, v in trimmed}
+
+
+def score_and_tag_item_priority(item: dict[str, str]) -> dict[str, str]:
+    source = item.get("source", "")
+    source_boost = safe_int(
+        item.get("source_priority_boost"),
+        default_source_priority_boost(source),
+    )
+
+    text = normalize_text(f"{item.get('title', '')} {item.get('summary', '')}").lower()
+    tech_hits = count_keyword_hits(text, TECHNICAL_KEYWORDS)
+    news_hits = count_keyword_hits(text, GENERAL_NEWS_KEYWORDS)
+
+    if tech_hits > news_hits:
+        bucket = "technical"
+    elif news_hits > tech_hits:
+        bucket = "general"
+    else:
+        bucket = "technical" if source_boost >= 20 else "general"
+
+    score = source_boost + (tech_hits * 9) - (news_hits * 8)
+    if bucket == "technical":
+        score += 10
+    else:
+        score -= 4
+
+    tagged = dict(item)
+    tagged["priority_bucket"] = bucket
+    tagged["priority_score"] = str(score)
+    tagged["priority_signal"] = f"boost={source_boost},tech={tech_hits},news={news_hits}"
+    return tagged
+
+
+def priority_sort_key(item: dict[str, str]) -> tuple[int, str]:
+    return (
+        safe_int(item.get("priority_score"), 0),
+        normalize_text(item.get("published_at", "")),
+    )
+
+
+def prioritize_items(
+    items: list[dict[str, str]],
+    max_items: int,
+    technical_quota: int,
+) -> list[dict[str, str]]:
+    if max_items <= 0:
+        return []
+
+    tagged_items = [score_and_tag_item_priority(item) for item in items]
+    technical_items = [item for item in tagged_items if item.get("priority_bucket") == "technical"]
+    general_items = [item for item in tagged_items if item.get("priority_bucket") != "technical"]
+
+    technical_items.sort(key=priority_sort_key, reverse=True)
+    general_items.sort(key=priority_sort_key, reverse=True)
+
+    tech_take = min(max_items, max(0, technical_quota), len(technical_items))
+    selected = technical_items[:tech_take]
+
+    general_take = min(max_items - len(selected), len(general_items))
+    selected.extend(general_items[:general_take])
+
+    if len(selected) < max_items:
+        remaining = technical_items[tech_take:] + general_items[general_take:]
+        remaining.sort(key=priority_sort_key, reverse=True)
+        selected.extend(remaining[: max_items - len(selected)])
+
+    return selected[:max_items]
 
 
 def build_discord_content(item: dict[str, str], mention: str) -> str:
@@ -477,13 +684,15 @@ def main() -> int:
     max_state_ids = max(100, safe_int(os.getenv("MAX_STATE_IDS"), 3000))
     max_news_items = max(100, safe_int(os.getenv("MAX_NEWS_ITEMS"), 2000))
     max_new_items_per_run = max(1, safe_int(os.getenv("MAX_NEW_ITEMS_PER_RUN"), 3))
+    technical_priority_quota = max(0, safe_int(os.getenv("TECH_PRIORITY_QUOTA"), 2))
+    technical_priority_quota = min(technical_priority_quota, max_new_items_per_run)
 
     mention = os.getenv("DISCORD_MENTION", "").strip()
     openai_api_key = os.getenv("OPENAI_API_KEY", "").strip()
-    openai_model = os.getenv("OPENAI_MODEL", "gpt-4.1-mini").strip()
+    openai_model = os.getenv("OPENAI_MODEL", "gpt-4.1-mini-2025-04-14").strip()
     openai_fallback_models = os.getenv(
         "OPENAI_FALLBACK_MODELS",
-        "gpt-4.1-mini,gpt-4.1-nano,gpt-4o-mini",
+        "gpt-4.1-mini,gpt-4.1-nano-2025-04-14,gpt-4.1-nano,gpt-4o-mini-2024-07-18,gpt-4o-mini",
     ).strip()
     openai_models = build_model_candidates(openai_model, openai_fallback_models)
     openai_timeout_sec = max(5, safe_int(os.getenv("OPENAI_TIMEOUT_SEC"), 20))
@@ -522,7 +731,7 @@ def main() -> int:
 
     seen_links: set[str] = set()
     seen_title_hashes: set[str] = set()
-    new_items: list[dict[str, str]] = []
+    deduped_items: list[dict[str, str]] = []
 
     for item in candidates:
         item_id = item["id"]
@@ -539,15 +748,20 @@ def main() -> int:
         if link:
             seen_links.add(link)
         seen_title_hashes.add(title_hash)
-        new_items.append(item)
+        deduped_items.append(item)
 
-        if len(new_items) >= max_new_items_per_run:
-            break
+    new_items = prioritize_items(
+        deduped_items,
+        max_items=max_new_items_per_run,
+        technical_quota=technical_priority_quota,
+    )
 
     sent_items: list[dict[str, str]] = []
     send_failures: list[dict[str, str]] = []
     ai_failures: list[dict[str, str]] = []
     ai_enriched_total = 0
+    selected_technical_total = sum(1 for item in new_items if item.get("priority_bucket") == "technical")
+    selected_general_total = sum(1 for item in new_items if item.get("priority_bucket") != "technical")
 
     for item in new_items:
         enriched_item, ai_err = enrich_item_with_openai(
@@ -616,6 +830,10 @@ def main() -> int:
         "sources_enabled": len(enabled_sources),
         "source_failures": source_failures,
         "candidates_total": len(candidates),
+        "deduped_total": len(deduped_items),
+        "priority_technical_quota": technical_priority_quota,
+        "selected_technical_total": selected_technical_total,
+        "selected_general_total": selected_general_total,
         "new_items_total": len(new_items),
         "sent_total": len(sent_items),
         "send_failures": send_failures,
