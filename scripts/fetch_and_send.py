@@ -575,17 +575,15 @@ def prioritize_items(
 def build_discord_content(item: dict[str, str], mention: str) -> str:
     title = item.get("translated_title") or item["title"]
     title = truncate_text(title, 220)
-    date_suffix = f" ({item['published_at']})" if item.get("published_at") else ""
-    header = f"**[{item['source']}]** {title}{date_suffix}"
-
-    lines = [header]
+    lines: list[str] = [f"**{title}**", f"출처: {item['source']}"]
 
     if item.get("translated_title") and item["translated_title"] != item["title"]:
-        lines.append(f"원문: {truncate_text(item['title'], 220)}")
+        lines.append(f"원제: {truncate_text(item['title'], 220)}")
 
     if item.get("short_summary"):
         lines.append(f"요약: {truncate_text(item['short_summary'], 260)}")
 
+    lines.append("")
     lines.append(item["link"])
 
     if mention:
