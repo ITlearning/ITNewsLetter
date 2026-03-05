@@ -1,0 +1,83 @@
+defaults:
+  max_items_per_source: 20
+
+sources:
+  # Existing core feeds
+  - name: GeekNews
+    feed_url: https://news.hada.io/rss/news
+    enabled: true
+
+  - name: TLDR Tech
+    feed_url: https://tldr.tech/rss
+    enabled: true
+
+  - name: MIT Technology Review
+    feed_url: https://www.technologyreview.com/feed/
+    enabled: true
+
+  - name: TechCrunch
+    feed_url: https://techcrunch.com/feed/
+    enabled: true
+
+  - name: AI Weekly
+    feed_url: https://aiweekly.co/issues.rss
+    enabled: true
+
+  - name: Yozm IT
+    feed_url: https://yozm.wishket.com/magazine/feed/
+    enabled: true
+
+  # Requested iOS/dev feeds (verified)
+  - name: iOS Dev Weekly
+    feed_url: https://iosdevweekly.com/issues.rss
+    enabled: true
+
+  - name: Swift Weekly Brief
+    feed_url: https://swiftweekly.github.io/feed.xml
+    enabled: true
+
+  - name: Hacker News Frontpage (HN RSS)
+    feed_url: https://hnrss.org/frontpage
+    enabled: true
+
+  - name: Product Hunt Feed
+    feed_url: https://www.producthunt.com/feed
+    enabled: true
+
+  # Requested sources without verified/stable RSS (kept as candidates)
+  - name: Two Cents (candidate)
+    feed_url: https://hur.substack.com/feed
+    enabled: false
+    website_url: https://hur.substack.com
+
+  - name: MIRACLE LETTER (candidate)
+    feed_url: https://mirakleletter.stibee.com/rss
+    enabled: false
+
+  - name: NEWNEEK (candidate)
+    feed_url: https://newneek.co/rss
+    enabled: false
+
+  - name: C-Rocket Insight (candidate)
+    feed_url: https://www.crocket.co.kr/feed
+    enabled: false
+
+  - name: EO Letter (candidate)
+    feed_url: https://www.eoleter.com/feed
+    enabled: false
+
+  - name: Hacker Newsletter (candidate)
+    feed_url: https://hackernewsletter.com/feed
+    enabled: false
+
+  - name: Benedict Evans (candidate)
+    feed_url: https://www.ben-evans.com/?format=rss
+    enabled: false
+
+  - name: Emerging Tech Brew (candidate)
+    feed_url: https://www.emergingtechbrew.com/feed
+    enabled: false
+
+  - name: Morning Brew (candidate)
+    feed_url: https://www.morningbrew.com/feed
+    enabled: false
