@@ -43,6 +43,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `MAX_STATE_IDS` (default: `3000`)
 - `MAX_NEWS_ITEMS` (default: `2000`)
 - `MAX_NEW_ITEMS_PER_RUN` (default: `3`, workflow currently sets `4`)
+- `MAX_ITEM_AGE_DAYS` (default: `3`, items older than this are skipped)
 - `TECH_PRIORITY_QUOTA` (default: `2`)
 - `DISCORD_RETRY` (default: `3`)
 - `REQUEST_TIMEOUT_SEC` (default: `15`)
@@ -58,3 +59,4 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - Add only verified feed URLs to `config/sources.yaml`.
 - New item selection is priority-based: technical/dev-use-case posts first, then general industry news.
 - GeekNews is preferred first each run; remaining slots are filled by technical/general priority.
+- Items older than 3 days are skipped by default before prioritization.

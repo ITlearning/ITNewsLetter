@@ -10,6 +10,7 @@ import sys
 import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
 from urllib.error import HTTPError, URLError
@@ -327,6 +328,33 @@ def parse_entry_time(entry: dict[str, Any]) -> str:
 
     published = normalize_text(entry.get("published") or entry.get("updated"))
     return published
+
+
+def parse_published_datetime(raw: str) -> datetime | None:
+    published = normalize_text(raw)
+    if not published:
+        return None
+
+    iso_candidates = [published]
+    if published.endswith("Z"):
+        iso_candidates.append(f"{published[:-1]}+00:00")
+
+    for candidate in iso_candidates:
+        try:
+            parsed = datetime.fromisoformat(candidate)
+            if parsed.tzinfo is None:
+                parsed = parsed.replace(tzinfo=timezone.utc)
+            return parsed.astimezone(timezone.utc)
+        except ValueError:
+            continue
+
+    try:
+        parsed = parsedate_to_datetime(published)
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.astimezone(timezone.utc)
+    except (TypeError, ValueError, IndexError):
+        return None
 
 
 def normalize_entry(
@@ -692,6 +720,7 @@ def main() -> int:
     max_state_ids = max(100, safe_int(os.getenv("MAX_STATE_IDS"), 3000))
     max_news_items = max(100, safe_int(os.getenv("MAX_NEWS_ITEMS"), 2000))
     max_new_items_per_run = max(1, safe_int(os.getenv("MAX_NEW_ITEMS_PER_RUN"), 3))
+    max_item_age_days = max(1, safe_int(os.getenv("MAX_ITEM_AGE_DAYS"), 3))
     technical_priority_quota = max(0, safe_int(os.getenv("TECH_PRIORITY_QUOTA"), 2))
     technical_priority_quota = min(technical_priority_quota, max_new_items_per_run)
 
@@ -734,6 +763,17 @@ def main() -> int:
             candidates.extend(entries)
         except Exception as exc:  # noqa: BLE001
             source_failures.append({"source": source.name, "error": str(exc)})
+
+    cutoff_dt = run_started - timedelta(days=max_item_age_days)
+    aged_out_total = 0
+    fresh_candidates: list[dict[str, str]] = []
+    for item in candidates:
+        published_dt = parse_published_datetime(item.get("published_at", ""))
+        if published_dt and published_dt < cutoff_dt:
+            aged_out_total += 1
+            continue
+        fresh_candidates.append(item)
+    candidates = fresh_candidates
 
     candidates.sort(key=lambda item: item.get("published_at", ""), reverse=True)
 
@@ -842,6 +882,8 @@ def main() -> int:
         "sources_enabled": len(enabled_sources),
         "source_failures": source_failures,
         "candidates_total": len(candidates),
+        "max_item_age_days": max_item_age_days,
+        "aged_out_total": aged_out_total,
         "deduped_total": len(deduped_items),
         "priority_technical_quota": technical_priority_quota,
         "selected_geeknews_total": selected_geeknews_total,
