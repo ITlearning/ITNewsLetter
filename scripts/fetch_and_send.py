@@ -2,8 +2,10 @@
 from __future__ import annotations
 
 import hashlib
+import html
 import json
 import os
+import re
 import sys
 import time
 from dataclasses import dataclass
@@ -66,6 +68,50 @@ def normalize_text(raw: Any, fallback: str = "") -> str:
     return " ".join(text.split())
 
 
+def truncate_text(text: str, limit: int) -> str:
+    if len(text) <= limit:
+        return text
+    return text[: max(0, limit - 3)].rstrip() + "..."
+
+
+def strip_html(raw: Any, fallback: str = "") -> str:
+    text = html.unescape(str(raw or fallback))
+    text = re.sub(r"<[^>]+>", " ", text)
+    return normalize_text(text)
+
+
+def is_likely_english(text: str) -> bool:
+    ascii_letters = re.findall(r"[A-Za-z]", text)
+    hangul_letters = re.findall(r"[가-힣]", text)
+    if not ascii_letters:
+        return False
+    if hangul_letters and len(hangul_letters) >= len(ascii_letters):
+        return False
+    ratio = len(ascii_letters) / max(1, len(text))
+    return len(ascii_letters) >= 6 and ratio >= 0.2
+
+
+def parse_json_from_text(text: str) -> dict[str, Any]:
+    candidate = text.strip()
+    if candidate.startswith("```"):
+        candidate = re.sub(r"^```(?:json)?\s*", "", candidate, flags=re.IGNORECASE)
+        candidate = re.sub(r"\s*```$", "", candidate)
+
+    first = candidate.find("{")
+    last = candidate.rfind("}")
+    if first == -1 or last == -1 or last <= first:
+        return {}
+
+    fragment = candidate[first : last + 1]
+    try:
+        parsed = json.loads(fragment)
+        if isinstance(parsed, dict):
+            return parsed
+    except json.JSONDecodeError:
+        return {}
+    return {}
+
+
 def sha1_text(value: str) -> str:
     return hashlib.sha1(value.encode("utf-8")).hexdigest()
 
@@ -122,6 +168,7 @@ def normalize_entry(source_name: str, entry: dict[str, Any], fetched_at: str) ->
     title = normalize_text(entry.get("title"), "(no title)")
     link = normalize_text(entry.get("link") or entry.get("id"))
     published_at = parse_entry_time(entry)
+    summary = strip_html(entry.get("summary") or entry.get("description"))
 
     identity = normalize_text(entry.get("id")) or link or f"{source_name}|{title}|{published_at}"
     entry_id = sha1_text(identity)
@@ -134,6 +181,7 @@ def normalize_entry(source_name: str, entry: dict[str, Any], fetched_at: str) ->
         "title": title,
         "link": link,
         "published_at": published_at,
+        "summary": summary,
         "fetched_at": fetched_at,
     }
 
@@ -173,16 +221,117 @@ def trim_sent_ids(sent_ids: dict[str, int], ttl_days: int, max_ids: int) -> dict
 
 
 def build_discord_content(item: dict[str, str], mention: str) -> str:
-    title = item["title"]
-    if len(title) > 220:
-        title = title[:217] + "..."
-
+    title = item.get("translated_title") or item["title"]
+    title = truncate_text(title, 220)
     date_suffix = f" ({item['published_at']})" if item.get("published_at") else ""
     header = f"**[{item['source']}]** {title}{date_suffix}"
 
+    lines = [header]
+
+    if item.get("translated_title") and item["translated_title"] != item["title"]:
+        lines.append(f"원문: {truncate_text(item['title'], 220)}")
+
+    if item.get("short_summary"):
+        lines.append(f"요약: {truncate_text(item['short_summary'], 260)}")
+
+    lines.append(item["link"])
+
     if mention:
-        return f"{mention}\n{header}\n{item['link']}"
-    return f"{header}\n{item['link']}"
+        lines.insert(0, mention)
+    return "\n".join(lines)
+
+
+def enrich_item_with_openai(
+    item: dict[str, str],
+    api_key: str,
+    model: str,
+    timeout_sec: int,
+    retries: int,
+) -> tuple[dict[str, str], str | None]:
+    if not api_key:
+        return item, None
+    if not is_likely_english(item.get("title", "")):
+        return item, None
+
+    snippet = truncate_text(item.get("summary", ""), 800)
+    user_prompt = (
+        "아래 IT 뉴스 정보를 한국어로 정리해줘.\n"
+        "반드시 JSON만 출력해.\n"
+        '스키마: {"translated_title":"", "short_summary":""}\n'
+        "- translated_title: 자연스러운 한국어 제목(40자 내외)\n"
+        "- short_summary: 1~2문장 요약(총 120자 내외)\n\n"
+        f"Title: {item.get('title', '')}\n"
+        f"Snippet: {snippet}\n"
+    )
+    payload = {
+        "model": model,
+        "temperature": 0.2,
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    "You are a precise Korean translator and tech news summarizer. "
+                    "Output strictly valid JSON."
+                ),
+            },
+            {"role": "user", "content": user_prompt},
+        ],
+    }
+
+    body = json.dumps(payload).encode("utf-8")
+    error_msg: str | None = None
+
+    for attempt in range(retries):
+        req = Request(
+            "https://api.openai.com/v1/chat/completions",
+            data=body,
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": USER_AGENT,
+            },
+            method="POST",
+        )
+
+        try:
+            with urlopen(req, timeout=timeout_sec) as resp:
+                data = json.loads(resp.read().decode("utf-8", errors="replace"))
+                choices = data.get("choices", [])
+                if not choices:
+                    return item, "openai choices is empty"
+
+                content = choices[0].get("message", {}).get("content", "")
+                if isinstance(content, list):
+                    content = " ".join(
+                        normalize_text(part.get("text", ""))
+                        for part in content
+                        if isinstance(part, dict)
+                    )
+
+                parsed = parse_json_from_text(str(content))
+                translated_title = normalize_text(parsed.get("translated_title"))
+                short_summary = normalize_text(parsed.get("short_summary"))
+
+                if translated_title:
+                    item["translated_title"] = translated_title
+                if short_summary:
+                    item["short_summary"] = short_summary
+                return item, None
+        except HTTPError as exc:
+            body_text = ""
+            try:
+                body_text = exc.read().decode("utf-8", errors="replace").strip()
+            except Exception:  # noqa: BLE001
+                body_text = ""
+            error_msg = f"HTTP Error {exc.code}: {body_text}" if body_text else str(exc)
+        except (URLError, TimeoutError, json.JSONDecodeError) as exc:
+            error_msg = str(exc)
+
+        if attempt < retries - 1:
+            time.sleep(2**attempt)
+
+    return item, error_msg
 
 
 def post_discord(
@@ -267,9 +416,12 @@ def main() -> int:
     ttl_days = max(1, safe_int(os.getenv("STATE_TTL_DAYS"), 14))
     max_state_ids = max(100, safe_int(os.getenv("MAX_STATE_IDS"), 3000))
     max_news_items = max(100, safe_int(os.getenv("MAX_NEWS_ITEMS"), 2000))
-    max_new_items_per_run = max(1, safe_int(os.getenv("MAX_NEW_ITEMS_PER_RUN"), 30))
+    max_new_items_per_run = max(1, safe_int(os.getenv("MAX_NEW_ITEMS_PER_RUN"), 3))
 
     mention = os.getenv("DISCORD_MENTION", "").strip()
+    openai_api_key = os.getenv("OPENAI_API_KEY", "").strip()
+    openai_model = os.getenv("OPENAI_MODEL", "gpt-4o-mini").strip()
+    openai_timeout_sec = max(5, safe_int(os.getenv("OPENAI_TIMEOUT_SEC"), 20))
     discord_user_agent = os.getenv(
         "DISCORD_USER_AGENT",
         (
@@ -329,14 +481,34 @@ def main() -> int:
 
     sent_items: list[dict[str, str]] = []
     send_failures: list[dict[str, str]] = []
+    ai_failures: list[dict[str, str]] = []
+    ai_enriched_total = 0
 
     for item in new_items:
+        enriched_item, ai_err = enrich_item_with_openai(
+            item=dict(item),
+            api_key=openai_api_key,
+            model=openai_model,
+            timeout_sec=openai_timeout_sec,
+            retries=retries,
+        )
+        if ai_err:
+            ai_failures.append(
+                {
+                    "source": item["source"],
+                    "title": item["title"],
+                    "error": ai_err,
+                }
+            )
+        if enriched_item.get("translated_title") or enriched_item.get("short_summary"):
+            ai_enriched_total += 1
+
         if dry_run:
-            item["sent_at"] = fetched_at
-            sent_items.append(item)
+            enriched_item["sent_at"] = fetched_at
+            sent_items.append(enriched_item)
             continue
 
-        content = build_discord_content(item, mention=mention)
+        content = build_discord_content(enriched_item, mention=mention)
         ok, err = post_discord(
             webhook_url=webhook_url,
             content=content,
@@ -346,14 +518,14 @@ def main() -> int:
         )
 
         if ok:
-            item["sent_at"] = now_utc().isoformat()
-            sent_items.append(item)
-            sent_ids[item["id"]] = now_ts
+            enriched_item["sent_at"] = now_utc().isoformat()
+            sent_items.append(enriched_item)
+            sent_ids[enriched_item["id"]] = now_ts
         else:
             send_failures.append(
                 {
-                    "source": item["source"],
-                    "title": item["title"],
+                    "source": enriched_item["source"],
+                    "title": enriched_item["title"],
                     "error": err or "unknown error",
                 }
             )
@@ -382,6 +554,8 @@ def main() -> int:
         "new_items_total": len(new_items),
         "sent_total": len(sent_items),
         "send_failures": send_failures,
+        "ai_enriched_total": ai_enriched_total,
+        "ai_failures": ai_failures,
     }
     write_json(LAST_RUN_PATH, summary)
 

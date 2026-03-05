@@ -2,7 +2,7 @@ name: Newsletter Discord Sync
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "*/20 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -39,6 +39,8 @@ jobs:
       - name: Fetch and send
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          MAX_NEW_ITEMS_PER_RUN: "3"
         run: python scripts/fetch_and_send.py
 
       - name: Commit state files

@@ -22,6 +22,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 1. Push this repository to GitHub.
 2. In repository settings, add secret:
    - `DISCORD_WEBHOOK_URL`
+   - `OPENAI_API_KEY` (for title translation + short summary)
 3. Enable GitHub Actions.
 4. Run `Newsletter Discord Sync` once with `workflow_dispatch`.
 
@@ -37,12 +38,14 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `STATE_TTL_DAYS` (default: `14`)
 - `MAX_STATE_IDS` (default: `3000`)
 - `MAX_NEWS_ITEMS` (default: `2000`)
-- `MAX_NEW_ITEMS_PER_RUN` (default: `30`)
+- `MAX_NEW_ITEMS_PER_RUN` (default: `3`)
 - `DISCORD_RETRY` (default: `3`)
 - `REQUEST_TIMEOUT_SEC` (default: `15`)
 - `SEND_DELAY_SEC` (default: `0.6`)
 - `DISCORD_MENTION` (default: empty)
 - `DISCORD_USER_AGENT` (default: browser-like UA string)
+- `OPENAI_MODEL` (default: `gpt-4o-mini`)
+- `OPENAI_TIMEOUT_SEC` (default: `20`)
 
 ## Notes
 - Some newsletters do not expose RSS/Atom feeds directly.
