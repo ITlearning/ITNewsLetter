@@ -443,14 +443,22 @@ def prioritize_items(
         return []
 
     tagged_items = [score_and_tag_item_priority(item) for item in items]
-    technical_items = [item for item in tagged_items if item.get("priority_bucket") == "technical"]
-    general_items = [item for item in tagged_items if item.get("priority_bucket") != "technical"]
+    geeknews_items = [item for item in tagged_items if item.get("source") == "GeekNews"]
+    non_geeknews_items = [item for item in tagged_items if item.get("source") != "GeekNews"]
 
+    geeknews_items.sort(key=priority_sort_key, reverse=True)
+    selected = geeknews_items[:max_items]
+    if len(selected) >= max_items:
+        return selected
+
+    technical_items = [item for item in non_geeknews_items if item.get("priority_bucket") == "technical"]
+    general_items = [item for item in non_geeknews_items if item.get("priority_bucket") != "technical"]
     technical_items.sort(key=priority_sort_key, reverse=True)
     general_items.sort(key=priority_sort_key, reverse=True)
 
-    tech_take = min(max_items, max(0, technical_quota), len(technical_items))
-    selected = technical_items[:tech_take]
+    remaining_slots = max_items - len(selected)
+    tech_take = min(remaining_slots, max(0, technical_quota), len(technical_items))
+    selected.extend(technical_items[:tech_take])
 
     general_take = min(max_items - len(selected), len(general_items))
     selected.extend(general_items[:general_take])
@@ -760,6 +768,7 @@ def main() -> int:
     send_failures: list[dict[str, str]] = []
     ai_failures: list[dict[str, str]] = []
     ai_enriched_total = 0
+    selected_geeknews_total = sum(1 for item in new_items if item.get("source") == "GeekNews")
     selected_technical_total = sum(1 for item in new_items if item.get("priority_bucket") == "technical")
     selected_general_total = sum(1 for item in new_items if item.get("priority_bucket") != "technical")
 
@@ -835,6 +844,7 @@ def main() -> int:
         "candidates_total": len(candidates),
         "deduped_total": len(deduped_items),
         "priority_technical_quota": technical_priority_quota,
+        "selected_geeknews_total": selected_geeknews_total,
         "selected_technical_total": selected_technical_total,
         "selected_general_total": selected_general_total,
         "new_items_total": len(new_items),

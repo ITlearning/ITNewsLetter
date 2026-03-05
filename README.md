@@ -25,10 +25,10 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
    - `OPENAI_API_KEY` (for title translation + short summary)
 3. Enable GitHub Actions.
 4. Run `Newsletter Discord Sync` once with `workflow_dispatch` (first bootstrap).
-5. Scheduler runs every 5 minutes and sends up to 3 new items per run.
-6. Optional fallback: set `chain=true` on manual run to keep 5-minute self-dispatch loop.
+5. Scheduler runs every 30 minutes and sends up to 4 new items per run.
+6. Optional fallback: set `chain=true` on manual run to keep 30-minute self-dispatch loop.
 7. To enable/disable fallback globally, set repository variable `SELF_DISPATCH_ENABLED=true|false`.
-8. Priority selection defaults to `technical 2 + general 1` per run.
+8. Priority selection: fill GeekNews first (up to 4), then fill remaining by technical/general priority.
 
 ## Local Dry Run
 ```bash
@@ -42,7 +42,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `STATE_TTL_DAYS` (default: `14`)
 - `MAX_STATE_IDS` (default: `3000`)
 - `MAX_NEWS_ITEMS` (default: `2000`)
-- `MAX_NEW_ITEMS_PER_RUN` (default: `3`)
+- `MAX_NEW_ITEMS_PER_RUN` (default: `3`, workflow currently sets `4`)
 - `TECH_PRIORITY_QUOTA` (default: `2`)
 - `DISCORD_RETRY` (default: `3`)
 - `REQUEST_TIMEOUT_SEC` (default: `15`)
@@ -57,3 +57,4 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - Some newsletters do not expose RSS/Atom feeds directly.
 - Add only verified feed URLs to `config/sources.yaml`.
 - New item selection is priority-based: technical/dev-use-case posts first, then general industry news.
+- GeekNews is preferred first each run; remaining slots are filled by technical/general priority.
