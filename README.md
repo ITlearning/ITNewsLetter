@@ -44,7 +44,8 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `SEND_DELAY_SEC` (default: `0.6`)
 - `DISCORD_MENTION` (default: empty)
 - `DISCORD_USER_AGENT` (default: browser-like UA string)
-- `OPENAI_MODEL` (default: `gpt-4o-mini`)
+- `OPENAI_MODEL` (default: `gpt-4.1-mini`)
+- `OPENAI_FALLBACK_MODELS` (default: `gpt-4.1-mini,gpt-4.1-nano,gpt-4o-mini`)
 - `OPENAI_TIMEOUT_SEC` (default: `20`)
 
 ## Notes

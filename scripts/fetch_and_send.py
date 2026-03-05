@@ -112,6 +112,34 @@ def parse_json_from_text(text: str) -> dict[str, Any]:
     return {}
 
 
+def build_model_candidates(primary: str, fallback_csv: str) -> list[str]:
+    models: list[str] = []
+    for token in [primary, *fallback_csv.split(",")]:
+        model = normalize_text(token)
+        if model and model not in models:
+            models.append(model)
+    return models
+
+
+def is_openai_model_access_error(body_text: str) -> bool:
+    lowered = body_text.lower()
+    if "model_not_found" in lowered or "does not have access to model" in lowered:
+        return True
+
+    try:
+        payload = json.loads(body_text)
+        err = payload.get("error", {}) if isinstance(payload, dict) else {}
+        code = str(err.get("code", "")).lower()
+        msg = str(err.get("message", "")).lower()
+        if code == "model_not_found":
+            return True
+        if "does not have access to model" in msg:
+            return True
+    except json.JSONDecodeError:
+        return False
+    return False
+
+
 def sha1_text(value: str) -> str:
     return hashlib.sha1(value.encode("utf-8")).hexdigest()
 
@@ -244,7 +272,7 @@ def build_discord_content(item: dict[str, str], mention: str) -> str:
 def enrich_item_with_openai(
     item: dict[str, str],
     api_key: str,
-    model: str,
+    models: list[str],
     timeout_sec: int,
     retries: int,
 ) -> tuple[dict[str, str], str | None]:
@@ -252,6 +280,8 @@ def enrich_item_with_openai(
         return item, None
     if not is_likely_english(item.get("title", "")):
         return item, None
+    if not models:
+        return item, "openai model list is empty"
 
     snippet = truncate_text(item.get("summary", ""), 800)
     user_prompt = (
@@ -263,75 +293,91 @@ def enrich_item_with_openai(
         f"Title: {item.get('title', '')}\n"
         f"Snippet: {snippet}\n"
     )
-    payload = {
-        "model": model,
-        "temperature": 0.2,
-        "messages": [
-            {
-                "role": "system",
-                "content": (
-                    "You are a precise Korean translator and tech news summarizer. "
-                    "Output strictly valid JSON."
-                ),
-            },
-            {"role": "user", "content": user_prompt},
-        ],
-    }
+    last_error: str | None = None
 
-    body = json.dumps(payload).encode("utf-8")
-    error_msg: str | None = None
+    for model in models:
+        payload = {
+            "model": model,
+            "temperature": 0.2,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": (
+                        "You are a precise Korean translator and tech news summarizer. "
+                        "Output strictly valid JSON."
+                    ),
+                },
+                {"role": "user", "content": user_prompt},
+            ],
+        }
 
-    for attempt in range(retries):
-        req = Request(
-            "https://api.openai.com/v1/chat/completions",
-            data=body,
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": USER_AGENT,
-            },
-            method="POST",
-        )
+        body = json.dumps(payload).encode("utf-8")
+        model_access_error = False
 
-        try:
-            with urlopen(req, timeout=timeout_sec) as resp:
-                data = json.loads(resp.read().decode("utf-8", errors="replace"))
-                choices = data.get("choices", [])
-                if not choices:
-                    return item, "openai choices is empty"
+        for attempt in range(retries):
+            req = Request(
+                "https://api.openai.com/v1/chat/completions",
+                data=body,
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                    "Accept": "application/json",
+                    "User-Agent": USER_AGENT,
+                },
+                method="POST",
+            )
 
-                content = choices[0].get("message", {}).get("content", "")
-                if isinstance(content, list):
-                    content = " ".join(
-                        normalize_text(part.get("text", ""))
-                        for part in content
-                        if isinstance(part, dict)
-                    )
-
-                parsed = parse_json_from_text(str(content))
-                translated_title = normalize_text(parsed.get("translated_title"))
-                short_summary = normalize_text(parsed.get("short_summary"))
-
-                if translated_title:
-                    item["translated_title"] = translated_title
-                if short_summary:
-                    item["short_summary"] = short_summary
-                return item, None
-        except HTTPError as exc:
-            body_text = ""
             try:
-                body_text = exc.read().decode("utf-8", errors="replace").strip()
-            except Exception:  # noqa: BLE001
+                with urlopen(req, timeout=timeout_sec) as resp:
+                    data = json.loads(resp.read().decode("utf-8", errors="replace"))
+                    choices = data.get("choices", [])
+                    if not choices:
+                        return item, f"openai choices is empty (model={model})"
+
+                    content = choices[0].get("message", {}).get("content", "")
+                    if isinstance(content, list):
+                        content = " ".join(
+                            normalize_text(part.get("text", ""))
+                            for part in content
+                            if isinstance(part, dict)
+                        )
+
+                    parsed = parse_json_from_text(str(content))
+                    translated_title = normalize_text(parsed.get("translated_title"))
+                    short_summary = normalize_text(parsed.get("short_summary"))
+
+                    if translated_title:
+                        item["translated_title"] = translated_title
+                    if short_summary:
+                        item["short_summary"] = short_summary
+                    if translated_title or short_summary:
+                        item["ai_model"] = model
+                    return item, None
+            except HTTPError as exc:
                 body_text = ""
-            error_msg = f"HTTP Error {exc.code}: {body_text}" if body_text else str(exc)
-        except (URLError, TimeoutError, json.JSONDecodeError) as exc:
-            error_msg = str(exc)
+                try:
+                    body_text = exc.read().decode("utf-8", errors="replace").strip()
+                except Exception:  # noqa: BLE001
+                    body_text = ""
 
-        if attempt < retries - 1:
-            time.sleep(2**attempt)
+                if body_text and is_openai_model_access_error(body_text):
+                    last_error = f"model access denied: {model}"
+                    model_access_error = True
+                    break
 
-    return item, error_msg
+                last_error = (
+                    f"HTTP Error {exc.code} (model={model}): {body_text}" if body_text else str(exc)
+                )
+            except (URLError, TimeoutError, json.JSONDecodeError) as exc:
+                last_error = f"{exc} (model={model})"
+
+            if attempt < retries - 1:
+                time.sleep(2**attempt)
+
+        if model_access_error:
+            continue
+
+    return item, last_error
 
 
 def post_discord(
@@ -420,7 +466,12 @@ def main() -> int:
 
     mention = os.getenv("DISCORD_MENTION", "").strip()
     openai_api_key = os.getenv("OPENAI_API_KEY", "").strip()
-    openai_model = os.getenv("OPENAI_MODEL", "gpt-4o-mini").strip()
+    openai_model = os.getenv("OPENAI_MODEL", "gpt-4.1-mini").strip()
+    openai_fallback_models = os.getenv(
+        "OPENAI_FALLBACK_MODELS",
+        "gpt-4.1-mini,gpt-4.1-nano,gpt-4o-mini",
+    ).strip()
+    openai_models = build_model_candidates(openai_model, openai_fallback_models)
     openai_timeout_sec = max(5, safe_int(os.getenv("OPENAI_TIMEOUT_SEC"), 20))
     discord_user_agent = os.getenv(
         "DISCORD_USER_AGENT",
@@ -488,7 +539,7 @@ def main() -> int:
         enriched_item, ai_err = enrich_item_with_openai(
             item=dict(item),
             api_key=openai_api_key,
-            model=openai_model,
+            models=openai_models,
             timeout_sec=openai_timeout_sec,
             retries=retries,
         )

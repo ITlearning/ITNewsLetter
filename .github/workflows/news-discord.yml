@@ -40,6 +40,8 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: "gpt-4.1-mini"
+          OPENAI_FALLBACK_MODELS: "gpt-4.1-mini,gpt-4.1-nano,gpt-4o-mini"
           MAX_NEW_ITEMS_PER_RUN: "3"
         run: python scripts/fetch_and_send.py
 
