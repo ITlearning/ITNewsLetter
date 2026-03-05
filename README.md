@@ -42,6 +42,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `REQUEST_TIMEOUT_SEC` (default: `15`)
 - `SEND_DELAY_SEC` (default: `0.6`)
 - `DISCORD_MENTION` (default: empty)
+- `DISCORD_USER_AGENT` (default: browser-like UA string)
 
 ## Notes
 - Some newsletters do not expose RSS/Atom feeds directly.

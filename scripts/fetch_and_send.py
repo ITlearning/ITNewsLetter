@@ -185,7 +185,13 @@ def build_discord_content(item: dict[str, str], mention: str) -> str:
     return f"{header}\n{item['link']}"
 
 
-def post_discord(webhook_url: str, content: str, timeout_sec: int, retries: int) -> tuple[bool, str | None]:
+def post_discord(
+    webhook_url: str,
+    content: str,
+    timeout_sec: int,
+    retries: int,
+    user_agent: str,
+) -> tuple[bool, str | None]:
     payload = json.dumps({"content": content}).encode("utf-8")
     error_msg: str | None = None
 
@@ -193,7 +199,11 @@ def post_discord(webhook_url: str, content: str, timeout_sec: int, retries: int)
         req = Request(
             webhook_url,
             data=payload,
-            headers={"Content-Type": "application/json"},
+            headers={
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "User-Agent": user_agent,
+            },
             method="POST",
         )
 
@@ -260,6 +270,14 @@ def main() -> int:
     max_new_items_per_run = max(1, safe_int(os.getenv("MAX_NEW_ITEMS_PER_RUN"), 30))
 
     mention = os.getenv("DISCORD_MENTION", "").strip()
+    discord_user_agent = os.getenv(
+        "DISCORD_USER_AGENT",
+        (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/133.0.0.0 Safari/537.36"
+        ),
+    ).strip()
 
     if not dry_run and not webhook_url:
         print("ERROR: DISCORD_WEBHOOK_URL is required unless DRY_RUN=1", file=sys.stderr)
@@ -324,6 +342,7 @@ def main() -> int:
             content=content,
             timeout_sec=timeout_sec,
             retries=retries,
+            user_agent=discord_user_agent,
         )
 
         if ok:
