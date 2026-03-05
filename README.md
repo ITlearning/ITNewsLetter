@@ -26,8 +26,8 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 3. Enable GitHub Actions.
 4. Run `Newsletter Discord Sync` once with `workflow_dispatch` (first bootstrap).
 5. Scheduler runs every 5 minutes and sends up to 3 new items per run.
-6. Fallback is enabled: if `schedule` is delayed, a workflow-dispatch chain keeps 5-minute cadence.
-7. To stop fallback chain, set repository variable `SELF_DISPATCH_ENABLED=false` (or disable workflow once).
+6. Optional fallback: set `chain=true` on manual run to keep 5-minute self-dispatch loop.
+7. To enable/disable fallback globally, set repository variable `SELF_DISPATCH_ENABLED=true|false`.
 8. Priority selection defaults to `technical 2 + general 1` per run.
 
 ## Local Dry Run

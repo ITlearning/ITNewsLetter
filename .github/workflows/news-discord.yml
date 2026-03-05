@@ -8,7 +8,7 @@ on:
       chain:
         description: "Run in self-dispatch chain mode (fallback when schedule is delayed)"
         required: false
-        default: "true"
+        default: "false"
         type: string
 
 permissions:
@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: newsletter-discord-sync
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -66,7 +66,7 @@ jobs:
           fi
 
       - name: Fallback self-dispatch (every 5 min)
-        if: github.event_name == 'workflow_dispatch' && github.event.inputs.chain != 'false' && vars.SELF_DISPATCH_ENABLED != 'false'
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.chain == 'true' && vars.SELF_DISPATCH_ENABLED != 'false'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

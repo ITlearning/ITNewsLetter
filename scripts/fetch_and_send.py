@@ -800,6 +800,9 @@ def main() -> int:
             enriched_item["sent_at"] = now_utc().isoformat()
             sent_items.append(enriched_item)
             sent_ids[enriched_item["id"]] = now_ts
+            # Persist immediately to prevent duplicate sends on cancellation/re-run.
+            sent_ids = trim_sent_ids(sent_ids, ttl_days=ttl_days, max_ids=max_state_ids)
+            write_json(STATE_PATH, {"sent_ids": sent_ids})
         else:
             send_failures.append(
                 {
