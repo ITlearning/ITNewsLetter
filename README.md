@@ -24,9 +24,11 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
    - `DISCORD_WEBHOOK_URL`
    - `OPENAI_API_KEY` (for title translation + short summary)
 3. Enable GitHub Actions.
-4. Run `Newsletter Discord Sync` once with `workflow_dispatch`.
+4. Run `Newsletter Discord Sync` once with `workflow_dispatch` (first bootstrap).
 5. Scheduler runs every 5 minutes and sends up to 3 new items per run.
-6. Priority selection defaults to `technical 2 + general 1` per run.
+6. Fallback is enabled: if `schedule` is delayed, a workflow-dispatch chain keeps 5-minute cadence.
+7. To stop fallback chain, set repository variable `SELF_DISPATCH_ENABLED=false` (or disable workflow once).
+8. Priority selection defaults to `technical 2 + general 1` per run.
 
 ## Local Dry Run
 ```bash
