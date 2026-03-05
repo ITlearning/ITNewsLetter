@@ -91,6 +91,14 @@ def is_likely_english(text: str) -> bool:
     return len(ascii_letters) >= 6 and ratio >= 0.2
 
 
+def is_korean_dominant(text: str) -> bool:
+    hangul_letters = re.findall(r"[가-힣]", text)
+    if not hangul_letters:
+        return False
+    ascii_letters = re.findall(r"[A-Za-z]", text)
+    return len(hangul_letters) >= max(2, len(ascii_letters))
+
+
 def parse_json_from_text(text: str) -> dict[str, Any]:
     candidate = text.strip()
     if candidate.startswith("```"):
@@ -277,6 +285,8 @@ def enrich_item_with_openai(
     retries: int,
 ) -> tuple[dict[str, str], str | None]:
     if not api_key:
+        return item, None
+    if is_korean_dominant(item.get("title", "")):
         return item, None
     if not is_likely_english(item.get("title", "")):
         return item, None

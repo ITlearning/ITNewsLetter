@@ -2,7 +2,7 @@ name: Newsletter Discord Sync
 
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: newsletter-discord-sync
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   sync:

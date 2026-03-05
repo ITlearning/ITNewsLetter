@@ -25,6 +25,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
    - `OPENAI_API_KEY` (for title translation + short summary)
 3. Enable GitHub Actions.
 4. Run `Newsletter Discord Sync` once with `workflow_dispatch`.
+5. Scheduler runs every 5 minutes and sends up to 3 new items per run.
 
 ## Local Dry Run
 ```bash
