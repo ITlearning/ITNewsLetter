@@ -61,4 +61,5 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `source_type: sitemap` + `path_prefix` can be used for sites without RSS (e.g., Anthropic engineering posts).
 - New item selection is priority-based: technical/dev-use-case posts first, then general industry news.
 - GeekNews has a per-run cap to keep source diversity; remaining slots are filled by technical/general priority.
+- GeekNews posts include a short 3-4 line preview from feed summary when AI summary is not used.
 - Items older than 3 days are skipped by default before prioritization.

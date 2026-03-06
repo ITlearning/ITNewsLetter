@@ -8,6 +8,7 @@ import os
 import re
 import sys
 import time
+import textwrap
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
@@ -207,6 +208,30 @@ def strip_html(raw: Any, fallback: str = "") -> str:
     text = html.unescape(str(raw or fallback))
     text = re.sub(r"<[^>]+>", " ", text)
     return normalize_text(text)
+
+
+def to_multiline_preview(text: str, max_lines: int = 4, line_width: int = 44, max_chars: int = 280) -> str:
+    normalized = normalize_text(text)
+    if not normalized:
+        return ""
+
+    clipped = truncate_text(normalized, max_chars)
+    wrapped = textwrap.wrap(
+        clipped,
+        width=max(16, line_width),
+        break_long_words=False,
+        break_on_hyphens=False,
+    )
+    if not wrapped:
+        return clipped
+
+    if len(wrapped) > max_lines:
+        wrapped = wrapped[:max_lines]
+        wrapped[-1] = truncate_text(wrapped[-1], max(8, line_width))
+        if not wrapped[-1].endswith("..."):
+            wrapped[-1] = wrapped[-1].rstrip(".") + "..."
+
+    return "\n".join(wrapped)
 
 
 def is_likely_english(text: str) -> bool:
@@ -585,9 +610,16 @@ def build_discord_content(item: dict[str, str], mention: str) -> str:
     if item.get("translated_title") and item["translated_title"] != item["title"]:
         lines.append(f"원제: **{truncate_text(item['title'], 220)}**")
 
-    if item.get("short_summary"):
+    summary_text = normalize_text(item.get("short_summary"))
+    if not summary_text and item.get("source") == "GeekNews":
+        summary_text = to_multiline_preview(item.get("summary", ""))
+
+    if summary_text:
         lines.append("**요약**")
-        lines.append(truncate_text(item["short_summary"], 260))
+        if "\n" in summary_text:
+            lines.append(summary_text)
+        else:
+            lines.append(truncate_text(summary_text, 260))
 
     lines.append("")
     lines.append(item["link"])
