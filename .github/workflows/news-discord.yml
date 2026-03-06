@@ -2,11 +2,12 @@ name: Newsletter Discord Sync
 
 on:
   schedule:
-    - cron: "13 * * * *"
+    - cron: "0 */3 * * *"
+    - cron: "30 1-23/3 * * *"
   workflow_dispatch:
     inputs:
       chain:
-        description: "Run in self-dispatch chain mode (fallback when schedule is delayed, 60-min interval)"
+        description: "Run in self-dispatch chain mode (fallback when schedule is delayed)"
         required: false
         default: "false"
         type: string
@@ -66,12 +67,12 @@ jobs:
             echo "No state changes"
           fi
 
-      - name: Fallback self-dispatch (every 60 min)
+      - name: Fallback self-dispatch (every 90 min)
         if: github.event_name == 'workflow_dispatch' && github.event.inputs.chain == 'true' && vars.SELF_DISPATCH_ENABLED != 'false'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          sleep 3600
+          sleep 5400
           payload='{"ref":"main","inputs":{"chain":"true"}}'
           status=$(curl -sS -o /tmp/dispatch_response.txt -w "%{http_code}" \
             -X POST \

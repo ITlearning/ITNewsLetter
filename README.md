@@ -25,8 +25,8 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
    - `OPENAI_API_KEY` (for title translation + short summary)
 3. Enable GitHub Actions.
 4. Run `Newsletter Discord Sync` once with `workflow_dispatch` (first bootstrap).
-5. Scheduler runs every 60 minutes (at minute `:13`) and sends up to 3 new items per run.
-6. Optional fallback: set `chain=true` on manual run to keep 60-minute self-dispatch loop.
+5. Scheduler runs every 90 minutes and sends up to 3 new items per run.
+6. Optional fallback: set `chain=true` on manual run to keep 90-minute self-dispatch loop.
 7. To enable/disable fallback globally, set repository variable `SELF_DISPATCH_ENABLED=true|false`.
 8. Priority selection: fill GeekNews first (up to 3), then fill remaining by technical/general priority.
 
