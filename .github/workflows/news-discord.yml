@@ -53,6 +53,7 @@ jobs:
           MAX_NEW_ITEMS_PER_RUN: "3"
           MAX_ITEM_AGE_DAYS: "3"
           TECH_PRIORITY_QUOTA: "2"
+          GEEKNEWS_MAX_PER_RUN: "1"
         run: python scripts/fetch_and_send.py
 
       - name: Commit state files

@@ -539,6 +539,7 @@ def prioritize_items(
     items: list[dict[str, str]],
     max_items: int,
     technical_quota: int,
+    geeknews_cap: int,
 ) -> list[dict[str, str]]:
     if max_items <= 0:
         return []
@@ -548,9 +549,8 @@ def prioritize_items(
     non_geeknews_items = [item for item in tagged_items if item.get("source") != "GeekNews"]
 
     geeknews_items.sort(key=priority_sort_key, reverse=True)
-    selected = geeknews_items[:max_items]
-    if len(selected) >= max_items:
-        return selected
+    geeknews_cap = min(max_items, max(0, geeknews_cap))
+    selected = geeknews_items[:geeknews_cap]
 
     technical_items = [item for item in non_geeknews_items if item.get("priority_bucket") == "technical"]
     general_items = [item for item in non_geeknews_items if item.get("priority_bucket") != "technical"]
@@ -565,7 +565,12 @@ def prioritize_items(
     selected.extend(general_items[:general_take])
 
     if len(selected) < max_items:
-        remaining = technical_items[tech_take:] + general_items[general_take:]
+        # Keep feed diversity first; if non-GeekNews runs out, backfill from remaining GeekNews.
+        remaining = (
+            technical_items[tech_take:]
+            + general_items[general_take:]
+            + geeknews_items[geeknews_cap:]
+        )
         remaining.sort(key=priority_sort_key, reverse=True)
         selected.extend(remaining[: max_items - len(selected)])
 
@@ -794,7 +799,9 @@ def main() -> int:
     max_new_items_per_run = max(1, safe_int(os.getenv("MAX_NEW_ITEMS_PER_RUN"), 3))
     max_item_age_days = max(1, safe_int(os.getenv("MAX_ITEM_AGE_DAYS"), 3))
     technical_priority_quota = max(0, safe_int(os.getenv("TECH_PRIORITY_QUOTA"), 2))
+    geeknews_max_per_run = max(0, safe_int(os.getenv("GEEKNEWS_MAX_PER_RUN"), 1))
     technical_priority_quota = min(technical_priority_quota, max_new_items_per_run)
+    geeknews_max_per_run = min(geeknews_max_per_run, max_new_items_per_run)
 
     mention = os.getenv("DISCORD_MENTION", "").strip()
     openai_api_key = os.getenv("OPENAI_API_KEY", "").strip()
@@ -874,6 +881,7 @@ def main() -> int:
         deduped_items,
         max_items=max_new_items_per_run,
         technical_quota=technical_priority_quota,
+        geeknews_cap=geeknews_max_per_run,
     )
 
     sent_items: list[dict[str, str]] = []
@@ -958,6 +966,7 @@ def main() -> int:
         "aged_out_total": aged_out_total,
         "deduped_total": len(deduped_items),
         "priority_technical_quota": technical_priority_quota,
+        "geeknews_max_per_run": geeknews_max_per_run,
         "selected_geeknews_total": selected_geeknews_total,
         "selected_technical_total": selected_technical_total,
         "selected_general_total": selected_general_total,

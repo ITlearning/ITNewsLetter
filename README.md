@@ -45,6 +45,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `MAX_NEW_ITEMS_PER_RUN` (default: `3`, workflow currently sets `3`)
 - `MAX_ITEM_AGE_DAYS` (default: `3`, items older than this are skipped)
 - `TECH_PRIORITY_QUOTA` (default: `2`)
+- `GEEKNEWS_MAX_PER_RUN` (default: `1`, workflow currently sets `1`)
 - `DISCORD_RETRY` (default: `3`)
 - `REQUEST_TIMEOUT_SEC` (default: `15`)
 - `SEND_DELAY_SEC` (default: `0.6`)
@@ -59,5 +60,5 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - Add only verified feed URLs to `config/sources.yaml`.
 - `source_type: sitemap` + `path_prefix` can be used for sites without RSS (e.g., Anthropic engineering posts).
 - New item selection is priority-based: technical/dev-use-case posts first, then general industry news.
-- GeekNews is preferred first each run; remaining slots are filled by technical/general priority.
+- GeekNews has a per-run cap to keep source diversity; remaining slots are filled by technical/general priority.
 - Items older than 3 days are skipped by default before prioritization.
