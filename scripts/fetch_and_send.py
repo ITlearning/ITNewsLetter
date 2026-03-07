@@ -602,7 +602,12 @@ def prioritize_items(
     return selected[:max_items]
 
 
-def build_discord_content(item: dict[str, str], mention: str) -> str:
+def build_discord_item_block(
+    item: dict[str, str],
+    *,
+    include_summary: bool = True,
+    compact_summary: bool = False,
+) -> str:
     title = item.get("translated_title") or item["title"]
     title = truncate_text(title, 220)
     lines: list[str] = [f"[{item['source']}]", f"**{title}**"]
@@ -614,19 +619,54 @@ def build_discord_content(item: dict[str, str], mention: str) -> str:
     if not summary_text and item.get("source") == "GeekNews":
         summary_text = to_multiline_preview(item.get("summary", ""))
 
-    if summary_text:
+    if include_summary and summary_text:
         lines.append("**요약**")
-        if "\n" in summary_text:
+        if compact_summary:
+            lines.append(truncate_text(summary_text.replace("\n", " "), 120))
+        elif "\n" in summary_text:
             lines.append(summary_text)
         else:
             lines.append(truncate_text(summary_text, 260))
 
     lines.append("")
     lines.append(item["link"])
-
-    if mention:
-        lines.insert(0, mention)
     return "\n".join(lines)
+
+
+def build_discord_batch_content(
+    items: list[dict[str, str]],
+    mention: str,
+    max_chars: int = 1900,
+) -> str:
+    if not items:
+        return mention if mention else ""
+
+    def compose(include_summary: bool, compact_summary: bool) -> str:
+        header = f"이번 배치 뉴스 {len(items)}건"
+        lines: list[str] = []
+        if mention:
+            lines.append(mention)
+        lines.append(header)
+        for idx, item in enumerate(items, start=1):
+            block = build_discord_item_block(
+                item,
+                include_summary=include_summary,
+                compact_summary=compact_summary,
+            )
+            lines.append("")
+            lines.append(f"{idx}. {block}")
+        return "\n".join(lines)
+
+    for include_summary, compact_summary in [
+        (True, False),
+        (True, True),
+        (False, False),
+    ]:
+        content = compose(include_summary=include_summary, compact_summary=compact_summary)
+        if len(content) <= max_chars:
+            return content
+
+    return truncate_text(compose(include_summary=False, compact_summary=False), max_chars)
 
 
 def enrich_item_with_openai(
@@ -824,6 +864,7 @@ def main() -> int:
     timeout_sec = safe_int(os.getenv("REQUEST_TIMEOUT_SEC"), 15)
     retries = max(1, safe_int(os.getenv("DISCORD_RETRY"), 3))
     send_delay_sec = float(os.getenv("SEND_DELAY_SEC", "0.6"))
+    batch_max_chars = max(500, safe_int(os.getenv("DISCORD_BATCH_MAX_CHARS"), 1900))
 
     ttl_days = max(1, safe_int(os.getenv("STATE_TTL_DAYS"), 14))
     max_state_ids = max(100, safe_int(os.getenv("MAX_STATE_IDS"), 3000))
@@ -917,9 +958,11 @@ def main() -> int:
     )
 
     sent_items: list[dict[str, str]] = []
+    enriched_items: list[dict[str, str]] = []
     send_failures: list[dict[str, str]] = []
     ai_failures: list[dict[str, str]] = []
     ai_enriched_total = 0
+    discord_messages_sent = 0
     selected_geeknews_total = sum(1 for item in new_items if item.get("source") == "GeekNews")
     selected_technical_total = sum(1 for item in new_items if item.get("priority_bucket") == "technical")
     selected_general_total = sum(1 for item in new_items if item.get("priority_bucket") != "technical")
@@ -943,12 +986,18 @@ def main() -> int:
         if enriched_item.get("translated_title") or enriched_item.get("short_summary"):
             ai_enriched_total += 1
 
-        if dry_run:
+        enriched_items.append(enriched_item)
+
+    if dry_run:
+        for enriched_item in enriched_items:
             enriched_item["sent_at"] = fetched_at
             sent_items.append(enriched_item)
-            continue
-
-        content = build_discord_content(enriched_item, mention=mention)
+    elif enriched_items:
+        content = build_discord_batch_content(
+            enriched_items,
+            mention=mention,
+            max_chars=batch_max_chars,
+        )
         ok, err = post_discord(
             webhook_url=webhook_url,
             content=content,
@@ -958,21 +1007,24 @@ def main() -> int:
         )
 
         if ok:
-            enriched_item["sent_at"] = now_utc().isoformat()
-            sent_items.append(enriched_item)
-            sent_ids[enriched_item["id"]] = now_ts
+            sent_at = now_utc().isoformat()
+            discord_messages_sent = 1
+            for enriched_item in enriched_items:
+                enriched_item["sent_at"] = sent_at
+                sent_items.append(enriched_item)
+                sent_ids[enriched_item["id"]] = now_ts
             # Persist immediately to prevent duplicate sends on cancellation/re-run.
             sent_ids = trim_sent_ids(sent_ids, ttl_days=ttl_days, max_ids=max_state_ids)
             write_json(STATE_PATH, {"sent_ids": sent_ids})
         else:
-            send_failures.append(
-                {
-                    "source": enriched_item["source"],
-                    "title": enriched_item["title"],
-                    "error": err or "unknown error",
-                }
-            )
-
+            for enriched_item in enriched_items:
+                send_failures.append(
+                    {
+                        "source": enriched_item["source"],
+                        "title": enriched_item["title"],
+                        "error": err or "unknown error",
+                    }
+                )
         time.sleep(send_delay_sec)
 
     if not dry_run:
@@ -1004,6 +1056,8 @@ def main() -> int:
         "selected_general_total": selected_general_total,
         "new_items_total": len(new_items),
         "sent_total": len(sent_items),
+        "discord_messages_sent": discord_messages_sent,
+        "discord_batch_max_chars": batch_max_chars,
         "send_failures": send_failures,
         "ai_enriched_total": ai_enriched_total,
         "ai_failures": ai_failures,

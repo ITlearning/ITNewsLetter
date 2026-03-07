@@ -49,6 +49,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `DISCORD_RETRY` (default: `3`)
 - `REQUEST_TIMEOUT_SEC` (default: `15`)
 - `SEND_DELAY_SEC` (default: `0.6`)
+- `DISCORD_BATCH_MAX_CHARS` (default: `1900`, selected items are sent in one batched message)
 - `DISCORD_MENTION` (default: empty)
 - `DISCORD_USER_AGENT` (default: browser-like UA string)
 - `OPENAI_MODEL` (default: `gpt-4.1-mini-2025-04-14`)
@@ -62,4 +63,5 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - New item selection is priority-based: technical/dev-use-case posts first, then general industry news.
 - GeekNews has a per-run cap to keep source diversity; remaining slots are filled by technical/general priority.
 - GeekNews posts include a short 3-4 line preview from feed summary when AI summary is not used.
+- Multiple selected items are grouped into a single Discord push per run (subject to message size limit).
 - Items older than 3 days are skipped by default before prioritization.
