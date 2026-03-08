@@ -1,6 +1,39 @@
 {
   "items": [
     {
+      "id": "c925169da3f68b1c43da803675dd317217d48bc5",
+      "title_hash": "5e9f4219759f3568a22fdafb93bdf216710a3f43",
+      "source": "GeekNews",
+      "title": "파일은 인간과 에이전트가 상호작용하는 인터페이스임",
+      "link": "https://news.hada.io/topic?id=27320",
+      "published_at": "2026-03-08T19:33:05+00:00",
+      "summary": "최근 AI 에이전트 생태계 에서 파일시스템이 다시 주목받으며, 데이터베이스와는 다른 지속적 맥락 관리 수단 으로 부상 Claude Code, Cursor 등은 파일 기반 컨텍스트 저장 을 통해 장기 기억을 구현하며, CLAUDE.md , aboutme.m...",
+      "fetched_at": "2026-03-08T20:38:29.758608+00:00",
+      "source_priority_boost": "45",
+      "priority_bucket": "technical",
+      "priority_score": "91",
+      "priority_signal": "boost=45,tech=4,news=0",
+      "sent_at": "2026-03-08T20:38:37.378742+00:00"
+    },
+    {
+      "id": "2101ec2e0f712e14062bb37a2e762831a68c7b93",
+      "title_hash": "52ab731aa8ffab6f134eeb6f538bb43e6df1d837",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: I built a real-time OSINT dashboard pulling 15 live global feeds",
+      "link": "https://github.com/BigBodyCobain/Shadowbroker",
+      "published_at": "2026-03-08T19:07:33+00:00",
+      "summary": "Sup HN, So I got tired of bouncing between Flightradar, MarineTraffic, and Twitter every time something kicked off globally, so I wrote a dashboard to aggregate it all locally. It’s called Shadowbroker. I’ll admit I leaned way too hard into the \"movie hacker\" aesthetic for the UI, but the actual pipeline underneath is real. It pulls commercial/military ADS-B, the AIS WebSocket stream (about 25,000+ ships), N2YO satellite telemetry, and GDELT conflict data into a single MapLibre instance. Getting this to run without melting my browser was the hardest part. I'm running this on a laptop with an i5 and an RTX 3050, and initially, dumping 30k+ moving GeoJSON features onto the map just crashed everything. I ended up having to write pretty aggressive viewport culling, debounce the state updates, and compress the FastAPI payloads by like 90% just to make it usable. My favorite part is the signal layer—it actually calculates live GPS jamming zones by aggregating the real-time navigation degradation (NAC-P) of commercial flights overhead. It’s Next.js and Python. I threw a quick-start script in the releases if you just want to spin it up, but the repo is open if you want to dig into the backend. Let me know if my MapLibre implementation is terrible, I'm always looking for ways to optimize the rendering. Comments URL: https://news.ycombinator.com/item?id=47300102 Points: 43 # Comments: 34",
+      "fetched_at": "2026-03-08T20:38:29.758608+00:00",
+      "source_priority_boost": "18",
+      "priority_bucket": "technical",
+      "priority_score": "82",
+      "priority_signal": "boost=18,tech=6,news=0",
+      "translated_title": "실시간 글로벌 OSINT 대시보드 'Shadowbroker' 개발",
+      "short_summary": "Flightradar, MarineTraffic, 트위터 등 15개 실시간 데이터를 통합하는 OSINT 대시보드 'Shadowbroker'를 개발했다. i5와 RTX 3050 노트북에서 원활한 작동을 위해 최적화 작업을 거쳤다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-08T20:38:37.378742+00:00"
+    },
+    {
       "id": "f7321c7e85b5b55caf288f0196bfe677038900f6",
       "title_hash": "a425bdc68721d10d33f9bfb67abe8c5d69f5f8c8",
       "source": "GeekNews",
