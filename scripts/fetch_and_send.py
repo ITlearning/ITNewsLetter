@@ -153,6 +153,22 @@ class Source:
     path_prefix: str
 
 
+@dataclass
+class BatchContentResult:
+    content: str
+    mode: str
+    truncated: bool
+
+
+@dataclass
+class BatchSelection:
+    content: str
+    items: list[dict[str, str]]
+    mode: str
+    truncated: bool
+    selection_reason: str | None
+
+
 def now_utc() -> datetime:
     return datetime.now(timezone.utc)
 
@@ -162,6 +178,27 @@ def safe_int(value: Any, default: int) -> int:
         return int(value)
     except (TypeError, ValueError):
         return default
+
+
+def read_bounded_int_env(
+    name: str,
+    default: int,
+    *,
+    minimum: int,
+    maximum: int,
+) -> int:
+    raw = os.getenv(name, "").strip()
+    if not raw:
+        return default
+
+    try:
+        value = int(raw)
+    except ValueError as exc:
+        raise ValueError(f"{name} must be an integer, got {raw!r}") from exc
+
+    if value < minimum or value > maximum:
+        raise ValueError(f"{name} must be between {minimum} and {maximum}, got {value}")
+    return value
 
 
 def default_source_priority_boost(source_name: str) -> int:
@@ -637,9 +674,11 @@ def build_discord_batch_content(
     items: list[dict[str, str]],
     mention: str,
     max_chars: int = 1900,
-) -> str:
+    modes: tuple[str, ...] = ("full_summary", "compact_summary", "titles_only"),
+    allow_truncate_fallback: bool = True,
+) -> BatchContentResult:
     if not items:
-        return mention if mention else ""
+        return BatchContentResult(content=mention if mention else "", mode="empty", truncated=False)
 
     def compose(include_summary: bool, compact_summary: bool) -> str:
         header = f"이번 배치 뉴스 {len(items)}건"
@@ -657,16 +696,94 @@ def build_discord_batch_content(
             lines.append(f"{idx}. {block}")
         return "\n".join(lines)
 
-    for include_summary, compact_summary in [
-        (True, False),
-        (True, True),
-        (False, False),
-    ]:
-        content = compose(include_summary=include_summary, compact_summary=compact_summary)
-        if len(content) <= max_chars:
-            return content
+    mode_options = {
+        "full_summary": (True, False),
+        "compact_summary": (True, True),
+        "titles_only": (False, False),
+    }
 
-    return truncate_text(compose(include_summary=False, compact_summary=False), max_chars)
+    last_mode = modes[-1]
+    last_content = ""
+
+    for mode in modes:
+        include_summary, compact_summary = mode_options[mode]
+        content = compose(include_summary=include_summary, compact_summary=compact_summary)
+        last_content = content
+        if len(content) <= max_chars:
+            return BatchContentResult(content=content, mode=mode, truncated=False)
+
+    if not allow_truncate_fallback:
+        return BatchContentResult(content=last_content, mode=f"{last_mode}_overflow", truncated=True)
+
+    return BatchContentResult(
+        content=truncate_text(last_content, max_chars),
+        mode=f"{last_mode}_truncated",
+        truncated=True,
+    )
+
+
+def select_discord_batch(
+    items: list[dict[str, str]],
+    mention: str,
+    min_items: int,
+    max_items: int,
+    max_chars: int = 1900,
+) -> BatchSelection:
+    if not items:
+        return BatchSelection(
+            content=mention if mention else "",
+            items=[],
+            mode="empty",
+            truncated=False,
+            selection_reason=None,
+        )
+
+    upper_bound = min(len(items), max_items)
+    lower_bound = min(upper_bound, min_items)
+    fallback: BatchSelection | None = None
+
+    for count in range(upper_bound, lower_bound - 1, -1):
+        selected_items = items[:count]
+        batch = build_discord_batch_content(
+            selected_items,
+            mention=mention,
+            max_chars=max_chars,
+            modes=("full_summary",) if count > lower_bound else ("full_summary", "compact_summary", "titles_only"),
+            allow_truncate_fallback=count == lower_bound,
+        )
+
+        if batch.truncated and count > lower_bound:
+            continue
+
+        reason: str | None = None
+        if count < upper_bound:
+            reason = "message_too_long"
+        if batch.truncated:
+            reason = "message_too_long_min_floor"
+
+        selection = BatchSelection(
+            content=batch.content,
+            items=selected_items,
+            mode=batch.mode,
+            truncated=batch.truncated,
+            selection_reason=reason,
+        )
+
+        if not batch.truncated:
+            return selection
+        fallback = selection
+
+    if fallback is not None:
+        return fallback
+
+    batch = build_discord_batch_content(items[:upper_bound], mention=mention, max_chars=max_chars)
+    return BatchSelection(
+        content=batch.content,
+        items=items[:upper_bound],
+        mode=batch.mode,
+        truncated=batch.truncated,
+        selection_reason="message_too_long_min_floor" if batch.truncated else None,
+    )
 
 
 def enrich_item_with_openai(
@@ -869,9 +986,27 @@ def main() -> int:
     ttl_days = max(1, safe_int(os.getenv("STATE_TTL_DAYS"), 14))
     max_state_ids = max(100, safe_int(os.getenv("MAX_STATE_IDS"), 3000))
     max_news_items = max(100, safe_int(os.getenv("MAX_NEWS_ITEMS"), 2000))
-    max_new_items_per_run = max(1, safe_int(os.getenv("MAX_NEW_ITEMS_PER_RUN"), 3))
+    try:
+        min_new_items_per_run = read_bounded_int_env(
+            "MIN_NEW_ITEMS_PER_RUN",
+            5,
+            minimum=1,
+            maximum=15,
+        )
+        max_new_items_per_run = read_bounded_int_env(
+            "MAX_NEW_ITEMS_PER_RUN",
+            7,
+            minimum=1,
+            maximum=15,
+        )
+    except ValueError as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
+    if min_new_items_per_run > max_new_items_per_run:
+        print("ERROR: MIN_NEW_ITEMS_PER_RUN must be less than or equal to MAX_NEW_ITEMS_PER_RUN", file=sys.stderr)
+        return 2
     max_item_age_days = max(1, safe_int(os.getenv("MAX_ITEM_AGE_DAYS"), 3))
-    technical_priority_quota = max(0, safe_int(os.getenv("TECH_PRIORITY_QUOTA"), 2))
+    technical_priority_quota = max(0, safe_int(os.getenv("TECH_PRIORITY_QUOTA"), 3))
     geeknews_max_per_run = max(0, safe_int(os.getenv("GEEKNEWS_MAX_PER_RUN"), 1))
     technical_priority_quota = min(technical_priority_quota, max_new_items_per_run)
     geeknews_max_per_run = min(geeknews_max_per_run, max_new_items_per_run)
@@ -963,9 +1098,9 @@ def main() -> int:
     ai_failures: list[dict[str, str]] = []
     ai_enriched_total = 0
     discord_messages_sent = 0
-    selected_geeknews_total = sum(1 for item in new_items if item.get("source") == "GeekNews")
-    selected_technical_total = sum(1 for item in new_items if item.get("priority_bucket") == "technical")
-    selected_general_total = sum(1 for item in new_items if item.get("priority_bucket") != "technical")
+    prioritized_geeknews_total = sum(1 for item in new_items if item.get("source") == "GeekNews")
+    prioritized_technical_total = sum(1 for item in new_items if item.get("priority_bucket") == "technical")
+    prioritized_general_total = sum(1 for item in new_items if item.get("priority_bucket") != "technical")
 
     for item in new_items:
         enriched_item, ai_err = enrich_item_with_openai(
@@ -988,19 +1123,26 @@ def main() -> int:
 
         enriched_items.append(enriched_item)
 
+    batch_selection = select_discord_batch(
+        enriched_items,
+        mention=mention,
+        min_items=min_new_items_per_run,
+        max_items=max_new_items_per_run,
+        max_chars=batch_max_chars,
+    )
+    batch_items = batch_selection.items
+    selected_geeknews_total = sum(1 for item in batch_items if item.get("source") == "GeekNews")
+    selected_technical_total = sum(1 for item in batch_items if item.get("priority_bucket") == "technical")
+    selected_general_total = sum(1 for item in batch_items if item.get("priority_bucket") != "technical")
+
     if dry_run:
-        for enriched_item in enriched_items:
+        for enriched_item in batch_items:
             enriched_item["sent_at"] = fetched_at
             sent_items.append(enriched_item)
-    elif enriched_items:
-        content = build_discord_batch_content(
-            enriched_items,
-            mention=mention,
-            max_chars=batch_max_chars,
-        )
+    elif batch_items:
         ok, err = post_discord(
             webhook_url=webhook_url,
-            content=content,
+            content=batch_selection.content,
             timeout_sec=timeout_sec,
             retries=retries,
             user_agent=discord_user_agent,
@@ -1009,7 +1151,7 @@ def main() -> int:
         if ok:
             sent_at = now_utc().isoformat()
             discord_messages_sent = 1
-            for enriched_item in enriched_items:
+            for enriched_item in batch_items:
                 enriched_item["sent_at"] = sent_at
                 sent_items.append(enriched_item)
                 sent_ids[enriched_item["id"]] = now_ts
@@ -1017,7 +1159,7 @@ def main() -> int:
             sent_ids = trim_sent_ids(sent_ids, ttl_days=ttl_days, max_ids=max_state_ids)
             write_json(STATE_PATH, {"sent_ids": sent_ids})
         else:
-            for enriched_item in enriched_items:
+            for enriched_item in batch_items:
                 send_failures.append(
                     {
                         "source": enriched_item["source"],
@@ -1049,12 +1191,22 @@ def main() -> int:
         "max_item_age_days": max_item_age_days,
         "aged_out_total": aged_out_total,
         "deduped_total": len(deduped_items),
+        "min_new_items_per_run": min_new_items_per_run,
+        "max_new_items_per_run": max_new_items_per_run,
         "priority_technical_quota": technical_priority_quota,
         "geeknews_max_per_run": geeknews_max_per_run,
+        "prioritized_geeknews_total": prioritized_geeknews_total,
+        "prioritized_technical_total": prioritized_technical_total,
+        "prioritized_general_total": prioritized_general_total,
         "selected_geeknews_total": selected_geeknews_total,
         "selected_technical_total": selected_technical_total,
         "selected_general_total": selected_general_total,
         "new_items_total": len(new_items),
+        "batch_selected_total": len(batch_items),
+        "batch_trimmed_total": max(0, len(new_items) - len(batch_items)),
+        "batch_selection_reason": batch_selection.selection_reason,
+        "batch_content_mode": batch_selection.mode,
+        "batch_content_truncated": batch_selection.truncated,
         "sent_total": len(sent_items),
         "discord_messages_sent": discord_messages_sent,
         "discord_batch_max_chars": batch_max_chars,

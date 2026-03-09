@@ -10,6 +10,16 @@ on:
         required: false
         default: "false"
         type: string
+      min_items_per_run:
+        description: "Override min news items per run (1-15)"
+        required: false
+        default: ""
+        type: string
+      max_items_per_run:
+        description: "Override max news items per run (1-15, must be >= min)"
+        required: false
+        default: ""
+        type: string
 
 permissions:
   contents: write
@@ -49,9 +59,10 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_MODEL: "gpt-4.1-mini-2025-04-14"
           OPENAI_FALLBACK_MODELS: "gpt-4.1-mini,gpt-4.1-nano-2025-04-14,gpt-4.1-nano,gpt-4o-mini-2024-07-18,gpt-4o-mini"
-          MAX_NEW_ITEMS_PER_RUN: "2"
+          MIN_NEW_ITEMS_PER_RUN: ${{ github.event.inputs.min_items_per_run }}
+          MAX_NEW_ITEMS_PER_RUN: ${{ github.event.inputs.max_items_per_run }}
           MAX_ITEM_AGE_DAYS: "3"
-          TECH_PRIORITY_QUOTA: "1"
+          TECH_PRIORITY_QUOTA: "3"
           GEEKNEWS_MAX_PER_RUN: "1"
         run: python scripts/fetch_and_send.py
 

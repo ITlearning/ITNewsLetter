@@ -25,10 +25,11 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
    - `OPENAI_API_KEY` (for title translation + short summary)
 3. Enable GitHub Actions.
 4. Run `Newsletter Discord Sync` once with `workflow_dispatch` (first bootstrap).
-5. Scheduler runs every 4 hours (at minute `:13`) and sends up to 2 new items per run.
+5. Scheduler runs every 4 hours (at minute `:13`) and automatically sends 5-7 new items per run depending on Discord message length.
 6. Optional fallback: set `chain=true` on manual run to keep 4-hour self-dispatch loop.
 7. To enable/disable fallback globally, set repository variable `SELF_DISPATCH_ENABLED=true|false`.
-8. Priority selection: fill GeekNews first (up to configured cap), then fill remaining by technical/general priority.
+8. Manual runs can temporarily override the per-run range with `min_items_per_run` and `max_items_per_run`.
+9. Priority selection: fill GeekNews first (up to configured cap), then fill remaining by technical/general priority.
 
 ## Local Dry Run
 ```bash
@@ -42,9 +43,10 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `STATE_TTL_DAYS` (default: `14`)
 - `MAX_STATE_IDS` (default: `3000`)
 - `MAX_NEWS_ITEMS` (default: `2000`)
-- `MAX_NEW_ITEMS_PER_RUN` (default: `3`, workflow currently sets `2`)
+- `MIN_NEW_ITEMS_PER_RUN` (default: `5`)
+- `MAX_NEW_ITEMS_PER_RUN` (default: `7`)
 - `MAX_ITEM_AGE_DAYS` (default: `3`, items older than this are skipped)
-- `TECH_PRIORITY_QUOTA` (default: `2`, workflow currently sets `1`)
+- `TECH_PRIORITY_QUOTA` (default: `3`, workflow currently sets `3`)
 - `GEEKNEWS_MAX_PER_RUN` (default: `1`, workflow currently sets `1`)
 - `DISCORD_RETRY` (default: `3`)
 - `REQUEST_TIMEOUT_SEC` (default: `15`)
@@ -64,4 +66,5 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - GeekNews has a per-run cap to keep source diversity; remaining slots are filled by technical/general priority.
 - GeekNews posts include a short 3-4 line preview from feed summary when AI summary is not used.
 - Multiple selected items are grouped into a single Discord push per run (subject to message size limit).
+- Batch size is selected automatically within the configured min/max range, shrinking from max to min when the Discord message gets too long.
 - Items older than 3 days are skipped by default before prioritization.
