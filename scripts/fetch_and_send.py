@@ -272,6 +272,42 @@ def is_korean_dominant(text: str) -> bool:
     return len(hangul_letters) >= max(2, len(ascii_letters))
 
 
+def slugify_archive_item(item: dict[str, Any]) -> str:
+    item_id = normalize_text(item.get("id"))
+    if item_id:
+        return item_id
+
+    raw_title = normalize_text(item.get("translated_title") or item.get("title"))
+    title_slug = re.sub(r"[^a-z0-9]+", "-", raw_title.lower()).strip("-")[:48]
+    raw_date = normalize_text(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))[:10]
+    raw_source = re.sub(r"[^a-z0-9]+", "-", normalize_text(item.get("source")).lower()).strip("-")
+    parts = [part for part in [raw_source, title_slug, raw_date] if part]
+    if parts:
+        return "-".join(parts)
+
+    fallback = json.dumps(item, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha1(fallback.encode("utf-8")).hexdigest()
+
+
+def is_english_item(item: dict[str, Any]) -> bool:
+    if normalize_text(item.get("source")).lower() == "geeknews":
+        return False
+
+    title = normalize_text(item.get("title"))
+    summary = strip_html(item.get("summary"))
+    combined = normalize_text(" ".join(filter(None, [title, summary])))
+    if is_korean_dominant(combined):
+        return False
+    return is_likely_english(title) or is_likely_english(summary)
+
+
+def ensure_archive_detail_fields(item: dict[str, Any]) -> dict[str, Any]:
+    enriched = dict(item)
+    enriched["detail_slug"] = normalize_text(enriched.get("detail_slug")) or slugify_archive_item(enriched)
+    enriched["is_english_source"] = is_english_item(enriched)
+    return enriched
+
+
 def parse_json_from_text(text: str) -> dict[str, Any]:
     candidate = text.strip()
     if candidate.startswith("```"):
@@ -1072,11 +1108,10 @@ def enrich_item_with_openai(
     timeout_sec: int,
     retries: int,
 ) -> tuple[dict[str, str], str | None]:
+    item = ensure_archive_detail_fields(item)
     if not api_key:
         return item, None
-    if is_korean_dominant(item.get("title", "")):
-        return item, None
-    if not is_likely_english(item.get("title", "")):
+    if not item.get("is_english_source"):
         return item, None
     if not models:
         return item, "openai model list is empty"
@@ -1085,9 +1120,10 @@ def enrich_item_with_openai(
     user_prompt = (
         "아래 IT 뉴스 정보를 한국어로 정리해줘.\n"
         "반드시 JSON만 출력해.\n"
-        '스키마: {"translated_title":"", "short_summary":""}\n'
+        '스키마: {"translated_title":"", "short_summary":"", "detailed_summary":""}\n'
         "- translated_title: 자연스러운 한국어 제목(40자 내외)\n"
         "- short_summary: 1~2문장 요약(총 120자 내외)\n\n"
+        "- detailed_summary: 4~7문장 요약(총 250~600자)\n\n"
         f"Title: {item.get('title', '')}\n"
         f"Snippet: {snippet}\n"
     )
@@ -1144,12 +1180,15 @@ def enrich_item_with_openai(
                     parsed = parse_json_from_text(str(content))
                     translated_title = normalize_text(parsed.get("translated_title"))
                     short_summary = normalize_text(parsed.get("short_summary"))
+                    detailed_summary = normalize_text(parsed.get("detailed_summary"))
 
                     if translated_title:
                         item["translated_title"] = translated_title
                     if short_summary:
                         item["short_summary"] = short_summary
-                    if translated_title or short_summary:
+                    if detailed_summary:
+                        item["detailed_summary"] = detailed_summary
+                    if translated_title or short_summary or detailed_summary:
                         item["ai_model"] = model
                     return item, None
             except HTTPError as exc:

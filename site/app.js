@@ -2,6 +2,7 @@ const state = {
   items: [],
   filteredItems: [],
   metadata: null,
+  todayPicks: [],
   search: "",
   source: "all",
   slot: "all",
@@ -12,6 +13,8 @@ const elements = {
   sourceFilter: document.querySelector("#source-filter"),
   slotFilter: document.querySelector("#slot-filter"),
   resetButton: document.querySelector("#reset-filters"),
+  todaySection: document.querySelector("#today-section"),
+  todayList: document.querySelector("#today-list"),
   newsList: document.querySelector("#news-list"),
   emptyState: document.querySelector("#empty-state"),
   cardTemplate: document.querySelector("#news-card-template"),
@@ -51,6 +54,7 @@ function buildSearchHaystack(item) {
       item.translated_title,
       item.title,
       item.short_summary,
+      item.detailed_summary,
       item.summary,
       item.source,
       item.primary_slot_label,
@@ -60,9 +64,16 @@ function buildSearchHaystack(item) {
 }
 
 function clearChildren(element) {
+  if (!element) {
+    return;
+  }
   while (element.firstChild) {
     element.removeChild(element.firstChild);
   }
+}
+
+function getDetailUrl(item) {
+  return item.detail_url || "#";
 }
 
 function applyFilters() {
@@ -143,17 +154,19 @@ function renderCard(item) {
   const sourceBadge = fragment.querySelector(".badge-source");
   const slotBadge = fragment.querySelector(".badge-slot");
   const date = fragment.querySelector(".card-date");
-  const title = fragment.querySelector(".card-title");
+  const titleLink = fragment.querySelector(".card-title-link");
   const original = fragment.querySelector(".card-original");
   const summary = fragment.querySelector(".card-summary");
   const matchedTerms = fragment.querySelector(".matched-terms");
-  const link = fragment.querySelector(".card-link");
+  const detailLink = fragment.querySelector(".card-detail-link");
+  const sourceLink = fragment.querySelector(".card-source-link");
 
   card.dataset.slot = item.primary_slot || "unknown";
   sourceBadge.textContent = item.source || "Unknown";
   slotBadge.textContent = item.primary_slot_label || "미분류";
   date.textContent = formatDate(getDisplayDate(item));
-  title.textContent = item.translated_title || item.title || "(제목 없음)";
+  titleLink.textContent = item.translated_title || item.title || "(제목 없음)";
+  titleLink.href = getDetailUrl(item);
 
   if (item.translated_title && item.title && item.translated_title !== item.title) {
     original.hidden = false;
@@ -161,7 +174,8 @@ function renderCard(item) {
   }
 
   summary.textContent = item.short_summary || item.summary || "요약 없음";
-  link.href = item.link || "#";
+  detailLink.href = getDetailUrl(item);
+  sourceLink.href = item.link || "#";
 
   if (Array.isArray(item.matched_terms) && item.matched_terms.length > 0) {
     matchedTerms.hidden = false;
@@ -169,6 +183,43 @@ function renderCard(item) {
   }
 
   return fragment;
+}
+
+function renderTodayCuration() {
+  clearChildren(elements.todayList);
+
+  if (!Array.isArray(state.todayPicks) || !state.todayPicks.length) {
+    elements.todaySection.hidden = true;
+    return;
+  }
+
+  elements.todaySection.hidden = false;
+  const fragment = document.createDocumentFragment();
+
+  state.todayPicks.forEach((item) => {
+    const link = document.createElement("a");
+    link.className = "today-card";
+    link.href = getDetailUrl(item);
+
+    const source = document.createElement("span");
+    source.className = "today-source";
+    source.textContent = `${item.source || "Unknown"} · ${item.primary_slot_label || "미분류"}`;
+    link.appendChild(source);
+
+    const title = document.createElement("strong");
+    title.className = "today-title";
+    title.textContent = item.translated_title || item.title || "(제목 없음)";
+    link.appendChild(title);
+
+    const summary = document.createElement("p");
+    summary.className = "today-summary";
+    summary.textContent = item.short_summary || item.summary || "요약 없음";
+    link.appendChild(summary);
+
+    fragment.appendChild(link);
+  });
+
+  elements.todayList.appendChild(fragment);
 }
 
 function renderList() {
@@ -222,8 +273,10 @@ async function init() {
     const payload = await response.json();
     state.metadata = payload;
     state.items = Array.isArray(payload.items) ? payload.items : [];
+    state.todayPicks = Array.isArray(payload.today_picks) ? payload.today_picks : [];
     renderStats();
     renderFilterOptions();
+    renderTodayCuration();
     wireEvents();
     applyFilters();
   } catch (error) {

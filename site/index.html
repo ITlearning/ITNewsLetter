@@ -49,6 +49,15 @@
       </section>
 
       <main class="layout">
+        <section id="today-section" class="today-section" hidden aria-label="오늘의 큐레이션">
+          <div class="section-copy">
+            <p class="section-kicker">Today's Curation</p>
+            <h2>이번 배치 브리핑</h2>
+            <p class="section-description">가장 최근에 보낸 뉴스만 먼저 빠르게 훑어볼 수 있습니다.</p>
+          </div>
+          <div id="today-list" class="today-list"></div>
+        </section>
+
         <section class="control-panel" aria-label="검색과 필터">
           <div class="control-grid">
             <label class="field">
@@ -105,11 +114,14 @@
           </div>
         </div>
         <div class="card-body">
-          <h3 class="card-title"></h3>
+          <h3 class="card-title"><a class="card-title-link"></a></h3>
           <p class="card-original" hidden></p>
           <p class="card-summary"></p>
           <div class="matched-terms" hidden></div>
-          <a class="card-link" target="_blank" rel="noreferrer">원문 보기</a>
+          <div class="card-actions">
+            <a class="card-link card-detail-link">브리핑 보기</a>
+            <a class="card-link card-source-link" target="_blank" rel="noreferrer">원문 보기</a>
+          </div>
         </div>
       </article>
     </template>

@@ -9,13 +9,14 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 - Delivery to Discord webhook
 - Run summary in `data/last_run.json`
 - Archive data in `data/news.json`
+- Curation-oriented archive site with today's picks, detail pages, and related articles
 
 ## Project Structure
 - `config/sources.yaml`: feed sources
 - `config/taxonomy.yaml`: shared taxonomy + source overlays
 - `config/taxonomy_examples.yaml`: representative examples for taxonomy tuning
 - `scripts/fetch_and_send.py`: fetch, dedupe, send logic
-- `scripts/build_archive_site.py`: build static archive payload for GitHub Pages
+- `scripts/build_archive_site.py`: build static archive payload and detail pages for GitHub Pages
 - `site/`: archive website source
 - `data/state.json`: previously sent IDs
 - `data/news.json`: archived sent items
@@ -27,7 +28,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 1. Push this repository to GitHub.
 2. In repository settings, add secret:
    - `DISCORD_WEBHOOK_URL`
-   - `OPENAI_API_KEY` (for title translation + short summary)
+   - `OPENAI_API_KEY` (for English title translation + list/detail summaries)
 3. Enable GitHub Actions.
 4. Run `Newsletter Discord Sync` once with `workflow_dispatch` (first bootstrap).
 5. Scheduler runs every 4 hours (at minute `:13`) and automatically sends 5-7 new items per run depending on Discord message length.
@@ -71,8 +72,12 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - New item selection uses a shared 4-slot taxonomy: `practical_tech`, `tools_agents`, `strategy_insight`, `industry_business`.
 - GeekNews has source-specific overlay terms and a dynamic cap: up to 2 items in a 5-item batch, up to 3 items in a 6-7 item batch.
 - GeekNews posts include a short 3-4 line preview from feed summary when AI summary is not used.
+- English items can store `translated_title`, `short_summary`, and `detailed_summary` at dispatch time.
+- Korean and GeekNews items do not trigger extra detail-page GPT calls.
 - Multiple selected items are grouped into a single Discord push per run (subject to message size limit).
 - Batch size is selected automatically within the configured min/max range, shrinking from max to min when the Discord message gets too long.
 - Selection logs now include the winning taxonomy slot and matched terms for explainability.
 - Items older than 3 days are skipped by default before prioritization.
-- The archive site is built from `data/news.json` and enriches older items with taxonomy metadata during the Pages build.
+- The archive site is built from `data/news.json`, enriches older items with taxonomy metadata during the Pages build, and generates static detail pages under `dist/news/<detail-slug>/`.
+- Archive detail pages are briefing pages, not mirrored article pages: the site stores metadata, summaries, and original links, but does not mirror full article bodies.
+- The list page now highlights the latest sent batch in a dedicated today's curation section.
