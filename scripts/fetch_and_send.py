@@ -24,6 +24,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "sources.yaml"
+TAXONOMY_PATH = ROOT / "config" / "taxonomy.yaml"
 STATE_PATH = ROOT / "data" / "state.json"
 NEWS_PATH = ROOT / "data" / "news.json"
 LAST_RUN_PATH = ROOT / "data" / "last_run.json"
@@ -39,107 +40,21 @@ DEFAULT_SOURCE_PRIORITY_BOOST: dict[str, int] = {
     "TechCrunch": 6,
 }
 
-TECHNICAL_KEYWORDS = [
-    "github",
-    "repo",
-    "open source",
-    "opensource",
-    "오픈소스",
-    "개발기",
-    "사용기",
-    "실전",
-    "how to",
-    "tutorial",
-    "guide",
-    "pattern",
-    "architecture",
-    "sdk",
-    "cli",
-    "library",
-    "framework",
-    "api",
-    "implementation",
-    "show hn",
-    "build",
-    "built",
-    "swift",
-    "ios",
-    "web",
-    "oss",
-    "ai agent",
-    "ai agents",
-    "agentic",
-    "agent",
-    "multi-agent",
-    "autonomous agent",
-    "mcp",
-    "model context protocol",
-    "llm",
-    "vlm",
-    "rag",
-    "retrieval-augmented generation",
-    "prompt engineering",
-    "prompt",
-    "tool calling",
-    "function calling",
-    "tool use",
-    "context window",
-    "vector db",
-    "vector database",
-    "embedding",
-    "fine-tuning",
-    "finetuning",
-    "reasoning model",
-    "inference",
-    "copilot",
-    "cursor",
-    "claude code",
-    "codex",
-    "vibe coding",
-    "에이전트",
-    "ai 에이전트",
-    "에이전틱",
-    "멀티 에이전트",
-    "멀티에이전트",
-    "프롬프트 엔지니어링",
-    "프롬프트",
-    "툴 콜링",
-    "함수 호출",
-    "임베딩",
-    "벡터 db",
-    "벡터 데이터베이스",
-    "파인튜닝",
-    "추론",
-    "에이전트 활용",
-    "에이전트 워크플로우",
-    "에이전트 자동화",
-]
+DEFAULT_TAXONOMY_WEIGHTS: dict[str, int] = {
+    "strong_term": 5,
+    "support_term": 2,
+    "negative_term": -4,
+    "phrase_rule": 6,
+    "domain_hint": 3,
+    "no_signal_penalty": -8,
+}
 
-GENERAL_NEWS_KEYWORDS = [
-    "acquire",
-    "acquisition",
-    "merger",
-    "funding",
-    "ipo",
-    "earnings",
-    "settles",
-    "lawsuit",
-    "regulation",
-    "antitrust",
-    "deal",
-    "announces",
-    "reported",
-    "reports",
-    "인수",
-    "투자",
-    "실적",
-    "소송",
-    "규제",
-    "주가",
-    "합병",
-    "파트너십",
-    "협약",
-]
+SLOT_BUCKETS: dict[str, str] = {
+    "practical_tech": "technical",
+    "tools_agents": "technical",
+    "strategy_insight": "general",
+    "industry_business": "general",
+}
 
 
 @dataclass
@@ -211,6 +126,74 @@ def count_keyword_hits(text: str, keywords: list[str]) -> int:
         if keyword and keyword in text:
             total += 1
     return total
+
+
+def unique_preserving_order(values: list[str]) -> list[str]:
+    seen: set[str] = set()
+    unique: list[str] = []
+    for value in values:
+        if value and value not in seen:
+            seen.add(value)
+            unique.append(value)
+    return unique
+
+
+def normalize_string_list(raw: Any) -> list[str]:
+    if not isinstance(raw, list):
+        return []
+
+    values: list[str] = []
+    for item in raw:
+        text = normalize_text(item).lower()
+        if text:
+            values.append(text)
+    return unique_preserving_order(values)
+
+
+def normalize_phrase_rules(raw: Any) -> list[list[str]]:
+    if not isinstance(raw, list):
+        return []
+
+    rules: list[list[str]] = []
+    for item in raw:
+        if not isinstance(item, list):
+            continue
+        terms = normalize_string_list(item)
+        if len(terms) >= 2:
+            rules.append(terms)
+    return rules
+
+
+def normalize_taxonomy_slot(raw: Any) -> dict[str, Any]:
+    slot = raw if isinstance(raw, dict) else {}
+    return {
+        "label": normalize_text(slot.get("label")),
+        "strong_terms": normalize_string_list(slot.get("strong_terms")),
+        "support_terms": normalize_string_list(slot.get("support_terms")),
+        "negative_terms": normalize_string_list(slot.get("negative_terms")),
+        "phrase_rules": normalize_phrase_rules(slot.get("phrase_rules")),
+        "domain_hints": normalize_string_list(slot.get("domain_hints")),
+    }
+
+
+def merge_taxonomy_slot(base_slot: dict[str, Any], overlay_slot: dict[str, Any]) -> dict[str, Any]:
+    merged = {
+        "label": normalize_text(overlay_slot.get("label") or base_slot.get("label")),
+        "strong_terms": unique_preserving_order(
+            [*base_slot.get("strong_terms", []), *overlay_slot.get("strong_terms", [])]
+        ),
+        "support_terms": unique_preserving_order(
+            [*base_slot.get("support_terms", []), *overlay_slot.get("support_terms", [])]
+        ),
+        "negative_terms": unique_preserving_order(
+            [*base_slot.get("negative_terms", []), *overlay_slot.get("negative_terms", [])]
+        ),
+        "phrase_rules": [*base_slot.get("phrase_rules", []), *overlay_slot.get("phrase_rules", [])],
+        "domain_hints": unique_preserving_order(
+            [*base_slot.get("domain_hints", []), *overlay_slot.get("domain_hints", [])]
+        ),
+    }
+    return merged
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -387,6 +370,70 @@ def load_sources(config_path: Path) -> list[Source]:
     return sources
 
 
+def load_taxonomy(config_path: Path) -> dict[str, Any]:
+    if not config_path.exists():
+        raise FileNotFoundError(f"Missing taxonomy file: {config_path}")
+
+    with config_path.open("r", encoding="utf-8") as f:
+        config = yaml.safe_load(f) or {}
+
+    weights_raw = config.get("weights") or {}
+    weights = {
+        key: safe_int(weights_raw.get(key), default)
+        for key, default in DEFAULT_TAXONOMY_WEIGHTS.items()
+    }
+
+    slots_raw = config.get("slots") or {}
+    slot_order: list[str] = []
+    slots: dict[str, dict[str, Any]] = {}
+    for slot_name, slot_config in slots_raw.items():
+        normalized_name = normalize_text(slot_name).lower()
+        if not normalized_name:
+            continue
+        normalized_slot = normalize_taxonomy_slot(slot_config)
+        normalized_slot["label"] = normalized_slot["label"] or normalized_name
+        slot_order.append(normalized_name)
+        slots[normalized_name] = normalized_slot
+
+    if not slots:
+        raise ValueError(f"Taxonomy file has no slots: {config_path}")
+
+    sources_raw = config.get("sources") or {}
+    sources: dict[str, dict[str, Any]] = {}
+    for source_name, source_config in sources_raw.items():
+        normalized_source = normalize_text(source_name)
+        if not normalized_source or not isinstance(source_config, dict):
+            continue
+
+        slot_boosts_raw = source_config.get("slot_boosts") or {}
+        slot_boosts = {
+            normalize_text(slot_name).lower(): safe_int(value, 0)
+            for slot_name, value in slot_boosts_raw.items()
+            if normalize_text(slot_name)
+        }
+
+        slot_overlays_raw = source_config.get("slot_overlays") or {}
+        slot_overlays: dict[str, dict[str, Any]] = {}
+        for slot_name, slot_overlay in slot_overlays_raw.items():
+            normalized_slot = normalize_text(slot_name).lower()
+            if not normalized_slot:
+                continue
+            slot_overlays[normalized_slot] = normalize_taxonomy_slot(slot_overlay)
+
+        sources[normalized_source] = {
+            "default_slot": normalize_text(source_config.get("default_slot")).lower() or None,
+            "slot_boosts": slot_boosts,
+            "slot_overlays": slot_overlays,
+        }
+
+    return {
+        "weights": weights,
+        "slot_order": slot_order,
+        "slots": slots,
+        "sources": sources,
+    }
+
+
 def parse_entry_time(entry: dict[str, Any]) -> str:
     parsed = entry.get("published_parsed") or entry.get("updated_parsed")
     if parsed:
@@ -559,34 +606,175 @@ def trim_sent_ids(sent_ids: dict[str, int], ttl_days: int, max_ids: int) -> dict
     return {k: v for k, v in trimmed}
 
 
-def score_and_tag_item_priority(item: dict[str, str]) -> dict[str, str]:
-    source = item.get("source", "")
+def get_taxonomy_source_config(taxonomy: dict[str, Any], source_name: str) -> dict[str, Any]:
+    sources = taxonomy.get("sources", {})
+    return sources.get(source_name) or sources.get("default") or {}
+
+
+def build_source_taxonomy_slots(taxonomy: dict[str, Any], source_name: str) -> dict[str, dict[str, Any]]:
+    source_config = get_taxonomy_source_config(taxonomy, source_name)
+    slot_overlays = source_config.get("slot_overlays", {})
+
+    slots: dict[str, dict[str, Any]] = {}
+    for slot_name, base_slot in taxonomy.get("slots", {}).items():
+        overlay_slot = slot_overlays.get(slot_name, {})
+        slots[slot_name] = merge_taxonomy_slot(base_slot, overlay_slot)
+    return slots
+
+
+def match_terms_in_text(text: str, terms: list[str]) -> list[str]:
+    matched: list[str] = []
+    for term in sorted(terms, key=len, reverse=True):
+        if term and term in text and not any(term in existing for existing in matched):
+            matched.append(term)
+    return matched
+
+
+def match_phrase_rules(text: str, phrase_rules: list[list[str]]) -> list[str]:
+    matched: list[str] = []
+    for rule in phrase_rules:
+        if rule and all(term in text for term in rule):
+            matched.append(" + ".join(rule))
+    return matched
+
+
+def match_domain_hints(domain: str, hints: list[str]) -> list[str]:
+    return [hint for hint in hints if hint and hint in domain]
+
+
+def build_item_analysis_text(item: dict[str, Any]) -> tuple[str, str]:
+    link = normalize_text(item.get("link", ""))
+    parsed = urlparse(link)
+    domain = normalize_text(parsed.netloc).lower()
+    path = normalize_text(parsed.path).lower()
+    text = normalize_text(
+        " ".join(
+            [
+                normalize_text(item.get("title", "")),
+                normalize_text(item.get("translated_title", "")),
+                normalize_text(item.get("summary", "")),
+                normalize_text(item.get("short_summary", "")),
+                domain,
+                path,
+            ]
+        )
+    ).lower()
+    return text, domain
+
+
+def score_slot(
+    text: str,
+    domain: str,
+    slot_name: str,
+    slot_config: dict[str, Any],
+    source_slot_boost: int,
+    weights: dict[str, int],
+) -> tuple[int, dict[str, Any]]:
+    strong_hits = match_terms_in_text(text, slot_config.get("strong_terms", []))
+    support_hits = match_terms_in_text(text, slot_config.get("support_terms", []))
+    negative_hits = match_terms_in_text(text, slot_config.get("negative_terms", []))
+    phrase_hits = match_phrase_rules(text, slot_config.get("phrase_rules", []))
+    domain_hits = match_domain_hints(domain, slot_config.get("domain_hints", []))
+
+    score = (
+        len(strong_hits) * weights["strong_term"]
+        + len(support_hits) * weights["support_term"]
+        + len(negative_hits) * weights["negative_term"]
+        + len(phrase_hits) * weights["phrase_rule"]
+        + len(domain_hits) * weights["domain_hint"]
+        + source_slot_boost
+    )
+
+    return score, {
+        "slot": slot_name,
+        "label": slot_config.get("label", slot_name),
+        "score": score,
+        "strong_hits": strong_hits,
+        "support_hits": support_hits,
+        "negative_hits": negative_hits,
+        "phrase_hits": phrase_hits,
+        "domain_hits": domain_hits,
+    }
+
+
+def pick_primary_slot(
+    slot_scores: dict[str, int],
+    slot_order: list[str],
+    default_slot: str | None,
+) -> str:
+    if not slot_scores:
+        return default_slot or "industry_business"
+
+    ranked = sorted(
+        slot_scores.items(),
+        key=lambda kv: (
+            kv[1],
+            -slot_order.index(kv[0]) if kv[0] in slot_order else 0,
+        ),
+        reverse=True,
+    )
+    best_slot, best_score = ranked[0]
+    if best_score <= 0 and default_slot:
+        return default_slot
+    return best_slot
+
+
+def score_and_tag_item_priority(item: dict[str, Any], taxonomy: dict[str, Any]) -> dict[str, Any]:
+    source = normalize_text(item.get("source", ""))
     source_boost = safe_int(
         item.get("source_priority_boost"),
         default_source_priority_boost(source),
     )
+    source_config = get_taxonomy_source_config(taxonomy, source)
+    source_slots = build_source_taxonomy_slots(taxonomy, source)
+    source_slot_boosts = source_config.get("slot_boosts", {})
+    default_slot = source_config.get("default_slot")
+    weights = taxonomy.get("weights", DEFAULT_TAXONOMY_WEIGHTS)
+    slot_order = taxonomy.get("slot_order", [])
 
-    text = normalize_text(f"{item.get('title', '')} {item.get('summary', '')}").lower()
-    tech_hits = count_keyword_hits(text, TECHNICAL_KEYWORDS)
-    news_hits = count_keyword_hits(text, GENERAL_NEWS_KEYWORDS)
+    text, domain = build_item_analysis_text(item)
+    slot_scores: dict[str, int] = {}
+    slot_matches: dict[str, Any] = {}
 
-    if tech_hits > news_hits:
-        bucket = "technical"
-    elif news_hits > tech_hits:
-        bucket = "general"
-    else:
-        bucket = "technical" if source_boost >= 20 else "general"
+    for slot_name, slot_config in source_slots.items():
+        score, details = score_slot(
+            text=text,
+            domain=domain,
+            slot_name=slot_name,
+            slot_config=slot_config,
+            source_slot_boost=safe_int(source_slot_boosts.get(slot_name), 0),
+            weights=weights,
+        )
+        slot_scores[slot_name] = score
+        slot_matches[slot_name] = details
 
-    score = source_boost + (tech_hits * 9) - (news_hits * 8)
-    if bucket == "technical":
-        score += 10
-    else:
-        score -= 4
+    primary_slot = pick_primary_slot(slot_scores, slot_order, default_slot)
+    max_slot_score = slot_scores.get(primary_slot, 0)
+    final_score = source_boost + max_slot_score
+    if max_slot_score <= 0:
+        final_score += weights["no_signal_penalty"]
+
+    bucket = SLOT_BUCKETS.get(primary_slot, "general")
 
     tagged = dict(item)
+    tagged["primary_slot"] = primary_slot
+    tagged["primary_slot_label"] = source_slots.get(primary_slot, {}).get("label", primary_slot)
     tagged["priority_bucket"] = bucket
-    tagged["priority_score"] = str(score)
-    tagged["priority_signal"] = f"boost={source_boost},tech={tech_hits},news={news_hits}"
+    tagged["priority_score"] = str(final_score)
+    tagged["priority_signal"] = (
+        f"slot={primary_slot},boost={source_boost},slot_score={max_slot_score},"
+        + ",".join(f"{slot}={slot_scores.get(slot, 0)}" for slot in slot_order)
+    )
+    tagged["slot_scores"] = slot_scores
+    tagged["slot_matches"] = slot_matches
+    tagged["matched_terms"] = unique_preserving_order(
+        [
+            *slot_matches.get(primary_slot, {}).get("strong_hits", []),
+            *slot_matches.get(primary_slot, {}).get("support_hits", []),
+            *slot_matches.get(primary_slot, {}).get("phrase_hits", []),
+            *slot_matches.get(primary_slot, {}).get("domain_hits", []),
+        ]
+    )
     return tagged
 
 
@@ -597,44 +785,134 @@ def priority_sort_key(item: dict[str, str]) -> tuple[int, str]:
     )
 
 
+def select_diverse_items(items: list[dict[str, Any]], target_count: int) -> list[dict[str, Any]]:
+    if target_count <= 0:
+        return []
+
+    remaining = list(items)
+    selected: list[dict[str, Any]] = []
+    seen_slots: set[str] = set()
+
+    while remaining and len(selected) < target_count:
+        pick_index = 0
+        for idx, item in enumerate(remaining):
+            slot = normalize_text(item.get("primary_slot"))
+            if slot and slot not in seen_slots:
+                pick_index = idx
+                break
+
+        picked = remaining.pop(pick_index)
+        selected.append(picked)
+        slot = normalize_text(picked.get("primary_slot"))
+        if slot:
+            seen_slots.add(slot)
+
+    return selected
+
+
+def dynamic_geeknews_cap_for_count(selected_count: int, configured_cap: int) -> int:
+    if selected_count <= 0:
+        return 0
+    batch_cap = 2 if selected_count <= 5 else 3
+    return min(max(0, configured_cap), batch_cap)
+
+
+def count_items_by_slot(items: list[dict[str, Any]]) -> dict[str, int]:
+    totals: dict[str, int] = {}
+    for item in items:
+        slot = normalize_text(item.get("primary_slot"), "unknown")
+        totals[slot] = totals.get(slot, 0) + 1
+    return totals
+
+
+def enforce_geeknews_batch_cap(
+    pool_items: list[dict[str, Any]],
+    selected_items: list[dict[str, Any]],
+    configured_cap: int,
+) -> tuple[list[dict[str, Any]], str | None]:
+    if not selected_items:
+        return selected_items, None
+
+    effective_cap = dynamic_geeknews_cap_for_count(len(selected_items), configured_cap)
+    geeknews_count = sum(1 for item in selected_items if item.get("source") == "GeekNews")
+    if geeknews_count <= effective_cap:
+        return selected_items, None
+
+    kept_ids: set[str] = set()
+    adjusted: list[dict[str, Any]] = []
+    kept_geeknews = 0
+    for item in selected_items:
+        if item.get("source") != "GeekNews":
+            adjusted.append(item)
+            kept_ids.add(item["id"])
+            continue
+        if kept_geeknews < effective_cap:
+            adjusted.append(item)
+            kept_ids.add(item["id"])
+            kept_geeknews += 1
+
+    for item in pool_items:
+        if len(adjusted) >= len(selected_items):
+            break
+        if item["id"] in kept_ids:
+            continue
+        if item.get("source") == "GeekNews" and kept_geeknews >= effective_cap:
+            continue
+        if item.get("source") == "GeekNews":
+            kept_geeknews += 1
+        adjusted.append(item)
+        kept_ids.add(item["id"])
+
+    order = {item["id"]: idx for idx, item in enumerate(pool_items)}
+    adjusted.sort(key=lambda item: order.get(item["id"], 10**9))
+    return adjusted[: len(selected_items)], "geeknews_cap"
+
+
 def prioritize_items(
-    items: list[dict[str, str]],
+    items: list[dict[str, Any]],
+    taxonomy: dict[str, Any],
     max_items: int,
     technical_quota: int,
     geeknews_cap: int,
-) -> list[dict[str, str]]:
+) -> list[dict[str, Any]]:
     if max_items <= 0:
         return []
 
-    tagged_items = [score_and_tag_item_priority(item) for item in items]
+    tagged_items = [score_and_tag_item_priority(item, taxonomy=taxonomy) for item in items]
     geeknews_items = [item for item in tagged_items if item.get("source") == "GeekNews"]
     non_geeknews_items = [item for item in tagged_items if item.get("source") != "GeekNews"]
 
     geeknews_items.sort(key=priority_sort_key, reverse=True)
-    geeknews_cap = min(max_items, max(0, geeknews_cap))
-    selected = geeknews_items[:geeknews_cap]
+    geeknews_cap = min(max_items, max(0, geeknews_cap), 3)
+    selected = select_diverse_items(geeknews_items, geeknews_cap)
+    selected_ids = {item["id"] for item in selected}
 
-    technical_items = [item for item in non_geeknews_items if item.get("priority_bucket") == "technical"]
-    general_items = [item for item in non_geeknews_items if item.get("priority_bucket") != "technical"]
+    technical_items = [
+        item for item in non_geeknews_items if item.get("priority_bucket") == "technical"
+    ]
+    general_items = [
+        item for item in non_geeknews_items if item.get("priority_bucket") != "technical"
+    ]
     technical_items.sort(key=priority_sort_key, reverse=True)
     general_items.sort(key=priority_sort_key, reverse=True)
 
     remaining_slots = max_items - len(selected)
     tech_take = min(remaining_slots, max(0, technical_quota), len(technical_items))
-    selected.extend(technical_items[:tech_take])
+    selected.extend(select_diverse_items(technical_items, tech_take))
+    selected_ids.update(item["id"] for item in selected)
 
     general_take = min(max_items - len(selected), len(general_items))
-    selected.extend(general_items[:general_take])
+    selected.extend(select_diverse_items(general_items, general_take))
+    selected_ids.update(item["id"] for item in selected)
 
     if len(selected) < max_items:
-        # Keep feed diversity first; if non-GeekNews runs out, backfill from remaining GeekNews.
-        remaining = (
-            technical_items[tech_take:]
-            + general_items[general_take:]
-            + geeknews_items[geeknews_cap:]
-        )
+        remaining = [
+            item
+            for item in (technical_items + general_items + geeknews_items)
+            if item["id"] not in selected_ids
+        ]
         remaining.sort(key=priority_sort_key, reverse=True)
-        selected.extend(remaining[: max_items - len(selected)])
+        selected.extend(select_diverse_items(remaining, max_items - len(selected)))
 
     return selected[:max_items]
 
@@ -1007,7 +1285,7 @@ def main() -> int:
         return 2
     max_item_age_days = max(1, safe_int(os.getenv("MAX_ITEM_AGE_DAYS"), 3))
     technical_priority_quota = max(0, safe_int(os.getenv("TECH_PRIORITY_QUOTA"), 3))
-    geeknews_max_per_run = max(0, safe_int(os.getenv("GEEKNEWS_MAX_PER_RUN"), 1))
+    geeknews_max_per_run = max(0, safe_int(os.getenv("GEEKNEWS_MAX_PER_RUN"), 3))
     technical_priority_quota = min(technical_priority_quota, max_new_items_per_run)
     geeknews_max_per_run = min(geeknews_max_per_run, max_new_items_per_run)
 
@@ -1034,6 +1312,11 @@ def main() -> int:
         return 2
 
     sources = load_sources(CONFIG_PATH)
+    try:
+        taxonomy = load_taxonomy(TAXONOMY_PATH)
+    except (FileNotFoundError, ValueError) as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        return 2
     enabled_sources = [s for s in sources if s.enabled]
 
     state_raw = load_json(STATE_PATH, {"sent_ids": {}})
@@ -1087,6 +1370,7 @@ def main() -> int:
 
     new_items = prioritize_items(
         deduped_items,
+        taxonomy=taxonomy,
         max_items=max_new_items_per_run,
         technical_quota=technical_priority_quota,
         geeknews_cap=geeknews_max_per_run,
@@ -1101,6 +1385,7 @@ def main() -> int:
     prioritized_geeknews_total = sum(1 for item in new_items if item.get("source") == "GeekNews")
     prioritized_technical_total = sum(1 for item in new_items if item.get("priority_bucket") == "technical")
     prioritized_general_total = sum(1 for item in new_items if item.get("priority_bucket") != "technical")
+    prioritized_slot_totals = count_items_by_slot(new_items)
 
     for item in new_items:
         enriched_item, ai_err = enrich_item_with_openai(
@@ -1130,10 +1415,35 @@ def main() -> int:
         max_items=max_new_items_per_run,
         max_chars=batch_max_chars,
     )
-    batch_items = batch_selection.items
+    batch_items, geeknews_batch_reason = enforce_geeknews_batch_cap(
+        pool_items=enriched_items,
+        selected_items=batch_selection.items,
+        configured_cap=geeknews_max_per_run,
+    )
+    if geeknews_batch_reason:
+        combined_reason = batch_selection.selection_reason
+        if combined_reason:
+            combined_reason = f"{combined_reason}+{geeknews_batch_reason}"
+        else:
+            combined_reason = geeknews_batch_reason
+        rebuilt_batch = build_discord_batch_content(
+            batch_items,
+            mention=mention,
+            max_chars=batch_max_chars,
+            modes=("full_summary", "compact_summary", "titles_only"),
+            allow_truncate_fallback=True,
+        )
+        batch_selection = BatchSelection(
+            content=rebuilt_batch.content,
+            items=batch_items,
+            mode=rebuilt_batch.mode,
+            truncated=rebuilt_batch.truncated,
+            selection_reason=combined_reason,
+        )
     selected_geeknews_total = sum(1 for item in batch_items if item.get("source") == "GeekNews")
     selected_technical_total = sum(1 for item in batch_items if item.get("priority_bucket") == "technical")
     selected_general_total = sum(1 for item in batch_items if item.get("priority_bucket") != "technical")
+    selected_slot_totals = count_items_by_slot(batch_items)
 
     if dry_run:
         for enriched_item in batch_items:
@@ -1195,12 +1505,15 @@ def main() -> int:
         "max_new_items_per_run": max_new_items_per_run,
         "priority_technical_quota": technical_priority_quota,
         "geeknews_max_per_run": geeknews_max_per_run,
+        "taxonomy_slots": taxonomy.get("slot_order", []),
         "prioritized_geeknews_total": prioritized_geeknews_total,
         "prioritized_technical_total": prioritized_technical_total,
         "prioritized_general_total": prioritized_general_total,
+        "prioritized_slot_totals": prioritized_slot_totals,
         "selected_geeknews_total": selected_geeknews_total,
         "selected_technical_total": selected_technical_total,
         "selected_general_total": selected_general_total,
+        "selected_slot_totals": selected_slot_totals,
         "new_items_total": len(new_items),
         "batch_selected_total": len(batch_items),
         "batch_trimmed_total": max(0, len(new_items) - len(batch_items)),

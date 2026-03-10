@@ -63,7 +63,7 @@ jobs:
           MAX_NEW_ITEMS_PER_RUN: ${{ github.event.inputs.max_items_per_run }}
           MAX_ITEM_AGE_DAYS: "3"
           TECH_PRIORITY_QUOTA: "3"
-          GEEKNEWS_MAX_PER_RUN: "1"
+          GEEKNEWS_MAX_PER_RUN: "3"
         run: python scripts/fetch_and_send.py
 
       - name: Commit state files

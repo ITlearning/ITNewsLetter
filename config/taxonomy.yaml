@@ -1,0 +1,402 @@
+version: 1
+
+weights:
+  strong_term: 5
+  support_term: 2
+  negative_term: -4
+  phrase_rule: 6
+  domain_hint: 3
+  no_signal_penalty: -8
+
+slots:
+  practical_tech:
+    label: 실무 기술
+    strong_terms:
+      - runtime
+      - compiler
+      - framework
+      - sdk
+      - api
+      - database
+      - vector database
+      - vector db
+      - postgres
+      - sql
+      - storage
+      - cache
+      - index
+      - docker
+      - kubernetes
+      - container
+      - observability
+      - benchmark
+      - performance
+      - latency
+      - inference
+      - embedding
+      - rag
+      - distributed
+      - architecture
+      - migration
+      - production
+      - security
+      - sandbox
+      - typescript
+      - rust
+      - golang
+      - elixir
+      - uuid
+    support_terms:
+      - guide
+      - tutorial
+      - implementation
+      - how to
+      - deploy
+      - deployment
+      - testing
+      - debugging
+      - library
+      - query
+      - vector
+      - database internals
+      - 코드
+      - 성능
+      - 인프라
+      - 아키텍처
+      - 컨테이너
+      - 로컬 실행
+    negative_terms:
+      - funding
+      - acquisition
+      - ipo
+      - earnings
+      - valuation
+      - partnership
+      - lawsuit
+      - regulation
+      - 투자
+      - 인수
+      - 실적
+      - 주가
+      - 소송
+      - 규제
+    phrase_rules:
+      - [vector, query]
+      - [database, performance]
+      - [production, incident]
+      - [code, security]
+      - [docker, container]
+      - [local, run]
+      - [error, handling]
+    domain_hints:
+      - github.com
+      - docs.
+      - developer.
+      - engineering.
+      - pkg.go.dev
+      - crates.io
+      - pypi.org
+
+  tools_agents:
+    label: 도구·에이전트
+    strong_terms:
+      - claude code
+      - codex
+      - cursor
+      - copilot
+      - mcp
+      - model context protocol
+      - tool calling
+      - function calling
+      - agent memory
+      - worktree
+      - sandbox
+      - local run
+      - ide
+      - cli
+      - automation
+      - workflow
+      - multi-agent
+      - agentic
+      - playbook
+      - spec-driven
+      - coding agent
+      - ai agent
+      - prompt engineering
+      - 에이전트
+      - 워크플로우
+      - 자동화
+      - 플레이북
+      - 스펙
+    support_terms:
+      - agent
+      - prompt
+      - tool
+      - plugin
+      - extension
+      - setup
+      - template
+      - ide tooling
+      - coding tool
+      - ai coding
+      - 로컬 에이전트
+      - 툴
+      - 프롬프트
+      - 워크트리
+    negative_terms:
+      - market
+      - funding
+      - earnings
+      - lawsuit
+      - regulation
+      - 투자
+      - 실적
+      - 소송
+      - 규제
+    phrase_rules:
+      - [agent, sandbox]
+      - [agent, workflow]
+      - [tool, calling]
+      - [claude, code]
+      - [ai, coding]
+      - [local, agent]
+      - [prompt, workflow]
+    domain_hints:
+      - producthunt.com
+      - github.com
+
+  strategy_insight:
+    label: 전략·인사이트
+    strong_terms:
+      - code review
+      - future of work
+      - judgment
+      - decision
+      - taste
+      - signal
+      - noise
+      - adaptation
+      - minimum lovable product
+      - learning
+      - principles
+      - workflow design
+      - career
+      - habits
+      - bottleneck
+      - trust
+      - 리더십
+      - 코드 리뷰
+      - 판단
+      - 신호
+      - 잡음
+      - 적응
+      - 병목
+      - 신뢰
+      - 인사이트
+    support_terms:
+      - lessons
+      - mistakes
+      - essay
+      - why
+      - habits
+      - prepare
+      - future
+      - perspective
+      - playbook
+      - 전략
+      - 관점
+      - 원칙
+      - 실수
+      - 교훈
+    negative_terms:
+      - funding
+      - acquisition
+      - earnings
+      - launches
+      - announces
+      - 투자
+      - 인수
+      - 실적
+      - 출시
+    phrase_rules:
+      - [code, review]
+      - [future, work]
+      - [signal, noise]
+      - [minimum, lovable]
+      - [how, prepare]
+      - [team, workflow]
+    domain_hints:
+      - substack.com
+      - medium.com
+
+  industry_business:
+    label: 산업·비즈니스
+    strong_terms:
+      - launches
+      - launch
+      - announces
+      - funding
+      - acquisition
+      - merger
+      - ipo
+      - earnings
+      - regulation
+      - lawsuit
+      - antitrust
+      - partnership
+      - valuation
+      - market share
+      - rollout
+      - release
+      - deal
+      - enterprise
+      - startup
+      - customers
+      - 투자
+      - 인수
+      - 실적
+      - 규제
+      - 소송
+      - 파트너십
+      - 협약
+      - 출시
+    support_terms:
+      - company
+      - business
+      - platform
+      - ceo
+      - market
+      - startup
+      - industry
+      - venture
+      - company update
+      - 기업
+      - 시장
+      - 산업
+    negative_terms:
+      - compiler
+      - runtime
+      - docker
+      - kubernetes
+      - benchmark
+      - vector database
+      - mcp
+      - code review
+      - spec-driven
+      - 아키텍처
+      - 코드 리뷰
+      - 컨테이너
+    phrase_rules:
+      - [startup, funding]
+      - [company, launches]
+      - [market, share]
+      - [enterprise, platform]
+      - [supply, chain]
+      - [ai, regulation]
+    domain_hints:
+      - techcrunch.com
+      - technologyreview.com
+      - aiweekly.co
+
+sources:
+  default:
+    default_slot: industry_business
+    slot_boosts: {}
+    slot_overlays: {}
+
+  "GeekNews":
+    default_slot: strategy_insight
+    slot_boosts:
+      tools_agents: 4
+      strategy_insight: 3
+    slot_overlays:
+      practical_tech:
+        strong_terms:
+          - vector query
+          - database internals
+          - rust style
+          - uuid
+          - docker container
+          - local execution
+      tools_agents:
+        strong_terms:
+          - claude code
+          - codex security
+          - cursor
+          - mcp
+          - worktree
+          - sandbox
+          - local agent
+          - pm skills
+          - agent framework
+          - spec
+          - playbook
+        support_terms:
+          - agent
+          - workflow
+          - tool use
+          - 에이전트 활용
+          - 에이전트 워크플로우
+      strategy_insight:
+        strong_terms:
+          - minimum lovable product
+          - future
+          - taste
+          - signal
+          - noise
+          - adaptation
+          - judgment
+          - code review
+          - 다가올 10년
+          - 신호
+          - 잡음
+          - 판단
+          - 적응
+          - 병목
+          - 신뢰
+        support_terms:
+          - how to prepare
+          - lessons
+          - thought piece
+
+  "Anthropic Engineering (Claude)":
+    default_slot: practical_tech
+
+  "Hacker News Frontpage (HN RSS)":
+    default_slot: practical_tech
+    slot_boosts:
+      practical_tech: 2
+      tools_agents: 1
+
+  "Product Hunt Feed":
+    default_slot: tools_agents
+    slot_boosts:
+      tools_agents: 3
+
+  "AI Weekly":
+    default_slot: industry_business
+    slot_boosts:
+      industry_business: 3
+      strategy_insight: 1
+
+  "MIT Technology Review":
+    default_slot: industry_business
+    slot_boosts:
+      industry_business: 2
+      strategy_insight: 1
+
+  "TechCrunch":
+    default_slot: industry_business
+    slot_boosts:
+      industry_business: 3
+
+  "Yozm IT":
+    default_slot: strategy_insight
+    slot_boosts:
+      strategy_insight: 2
+      tools_agents: 1
+
+  "iOS Dev Weekly":
+    default_slot: practical_tech
+    slot_boosts:
+      practical_tech: 3

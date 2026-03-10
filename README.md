@@ -12,6 +12,8 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 
 ## Project Structure
 - `config/sources.yaml`: feed sources
+- `config/taxonomy.yaml`: shared taxonomy + source overlays
+- `config/taxonomy_examples.yaml`: representative examples for taxonomy tuning
 - `scripts/fetch_and_send.py`: fetch, dedupe, send logic
 - `data/state.json`: previously sent IDs
 - `data/news.json`: archived sent items
@@ -29,7 +31,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 6. Optional fallback: set `chain=true` on manual run to keep 4-hour self-dispatch loop.
 7. To enable/disable fallback globally, set repository variable `SELF_DISPATCH_ENABLED=true|false`.
 8. Manual runs can temporarily override the per-run range with `min_items_per_run` and `max_items_per_run`.
-9. Priority selection: fill GeekNews first (up to configured cap), then fill remaining by technical/general priority.
+9. Priority selection uses a shared 4-slot taxonomy across all sources and a GeekNews-specific overlay.
 
 ## Local Dry Run
 ```bash
@@ -46,8 +48,8 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `MIN_NEW_ITEMS_PER_RUN` (default: `5`)
 - `MAX_NEW_ITEMS_PER_RUN` (default: `7`)
 - `MAX_ITEM_AGE_DAYS` (default: `3`, items older than this are skipped)
-- `TECH_PRIORITY_QUOTA` (default: `3`, workflow currently sets `3`)
-- `GEEKNEWS_MAX_PER_RUN` (default: `1`, workflow currently sets `1`)
+- `TECH_PRIORITY_QUOTA` (default: `3`, workflow currently sets `3`; applies to `practical_tech + tools_agents`)
+- `GEEKNEWS_MAX_PER_RUN` (default: `3`, workflow currently sets `3`)
 - `DISCORD_RETRY` (default: `3`)
 - `REQUEST_TIMEOUT_SEC` (default: `15`)
 - `SEND_DELAY_SEC` (default: `0.6`)
@@ -62,9 +64,10 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - Some newsletters do not expose RSS/Atom feeds directly.
 - Add only verified feed URLs to `config/sources.yaml`.
 - `source_type: sitemap` + `path_prefix` can be used for sites without RSS (e.g., Anthropic engineering posts).
-- New item selection is priority-based: technical/dev-use-case posts first, then general industry news.
-- GeekNews has a per-run cap to keep source diversity; remaining slots are filled by technical/general priority.
+- New item selection uses a shared 4-slot taxonomy: `practical_tech`, `tools_agents`, `strategy_insight`, `industry_business`.
+- GeekNews has source-specific overlay terms and a dynamic cap: up to 2 items in a 5-item batch, up to 3 items in a 6-7 item batch.
 - GeekNews posts include a short 3-4 line preview from feed summary when AI summary is not used.
 - Multiple selected items are grouped into a single Discord push per run (subject to message size limit).
 - Batch size is selected automatically within the configured min/max range, shrinking from max to min when the Discord message gets too long.
+- Selection logs now include the winning taxonomy slot and matched terms for explainability.
 - Items older than 3 days are skipped by default before prioritization.
