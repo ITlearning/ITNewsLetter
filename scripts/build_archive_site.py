@@ -73,7 +73,7 @@ def build_payload(items: list[dict[str, Any]], taxonomy: dict[str, Any]) -> dict
         slot_name: taxonomy.get("slots", {}).get(slot_name, {}).get("label", slot_name)
         for slot_name in slot_order
     }
-    source_counts = Counter(normalize_text(item.get("source")) for item in items)
+    source_counts = Counter(str(item.get("source") or "").strip() for item in items)
     slot_counts = Counter(normalize_text(item.get("primary_slot")) for item in items)
     last_run = load_json(LAST_RUN_PATH, {})
 

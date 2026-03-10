@@ -59,6 +59,12 @@ function buildSearchHaystack(item) {
   );
 }
 
+function clearChildren(element) {
+  while (element.firstChild) {
+    element.removeChild(element.firstChild);
+  }
+}
+
 function applyFilters() {
   const query = normalizeText(state.search);
   state.filteredItems = state.items.filter((item) => {
@@ -90,18 +96,26 @@ function renderFilterOptions() {
   const sourceOptions = metadata?.sources || [];
   const slotOptions = metadata?.slots || [];
 
+  while (elements.sourceFilter.options.length > 1) {
+    elements.sourceFilter.remove(1);
+  }
+
+  while (elements.slotFilter.options.length > 1) {
+    elements.slotFilter.remove(1);
+  }
+
   sourceOptions.forEach((source) => {
     const option = document.createElement("option");
     option.value = source.name;
     option.textContent = `${source.name} (${source.count})`;
-    elements.sourceFilter.append(option);
+    elements.sourceFilter.appendChild(option);
   });
 
   slotOptions.forEach((slot) => {
     const option = document.createElement("option");
     option.value = slot.name;
     option.textContent = `${slot.label} (${slot.count})`;
-    elements.slotFilter.append(option);
+    elements.slotFilter.appendChild(option);
   });
 }
 
@@ -114,17 +128,13 @@ function renderResultsHeader() {
   elements.resultsMeta.textContent = `${total}건 표시 중`;
 }
 
-function createMatchedTerms(terms) {
-  const wrapper = document.createElement("div");
-  wrapper.className = "matched-terms";
-
+function populateMatchedTerms(container, terms) {
+  clearChildren(container);
   terms.slice(0, 4).forEach((term) => {
     const chip = document.createElement("span");
     chip.textContent = term;
-    wrapper.append(chip);
+    container.appendChild(chip);
   });
-
-  return wrapper;
 }
 
 function renderCard(item) {
@@ -155,14 +165,14 @@ function renderCard(item) {
 
   if (Array.isArray(item.matched_terms) && item.matched_terms.length > 0) {
     matchedTerms.hidden = false;
-    matchedTerms.replaceWith(createMatchedTerms(item.matched_terms));
+    populateMatchedTerms(matchedTerms, item.matched_terms);
   }
 
   return fragment;
 }
 
 function renderList() {
-  elements.newsList.replaceChildren();
+  clearChildren(elements.newsList);
 
   if (!state.filteredItems.length) {
     elements.emptyState.hidden = false;
@@ -171,8 +181,8 @@ function renderList() {
 
   elements.emptyState.hidden = true;
   const fragment = document.createDocumentFragment();
-  state.filteredItems.forEach((item) => fragment.append(renderCard(item)));
-  elements.newsList.append(fragment);
+  state.filteredItems.forEach((item) => fragment.appendChild(renderCard(item)));
+  elements.newsList.appendChild(fragment);
 }
 
 function wireEvents() {
@@ -217,11 +227,12 @@ async function init() {
     wireEvents();
     applyFilters();
   } catch (error) {
+    console.error(error);
     elements.resultsTitle.textContent = "아카이브를 불러오지 못했습니다";
     elements.resultsMeta.textContent = String(error);
     elements.emptyState.hidden = false;
     elements.emptyState.querySelector("h2").textContent = "데이터 로드 실패";
-    elements.emptyState.querySelector("p").textContent = "GitHub Pages 배포 또는 JSON 경로를 확인하세요.";
+    elements.emptyState.querySelector("p").textContent = `오류: ${String(error)}`;
   }
 }
 
