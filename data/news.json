@@ -1,6 +1,390 @@
 {
   "items": [
     {
+      "id": "efb9f0362eac6f0b6e15772c8792043566ce43b5",
+      "title_hash": "95d9de47279e24bbd05b98965ea93f19166704e1",
+      "source": "GeekNews",
+      "title": "Prompt Cultivation: 경험이 프롬프트가 되는 AI 구조에 대한 이야기",
+      "link": "https://news.hada.io/topic?id=27361",
+      "published_at": "2026-03-10T01:53:01+00:00",
+      "summary": "배경 회사에 소속된 1인 개발자입니다. AI를 활용한 사내 시스템을 만들면서 한 가지 고민에 오래 빠져있었습니다. 프롬프트를 아무리 정교하게 써도, 결국 그건 제가 설계한 거잖아요. AI가 자기 판단으로 만들어낸 게 아니라, 제가 \"이런 성격이야, 이렇게 반응해\" 하고 주입한 거요. 프",
+      "fetched_at": "2026-03-10T17:06:29.746957+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "53",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=8,practical_tech=0,tools_agents=8,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 8,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [
+            "prompt",
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "prompt",
+        "프롬프트"
+      ],
+      "detail_slug": "efb9f0362eac6f0b6e15772c8792043566ce43b5",
+      "is_english_source": false,
+      "sent_at": "2026-03-10T17:07:02.686712+00:00"
+    },
+    {
+      "id": "709de397eef9d12e7059ec9b74dd59705b664026",
+      "title_hash": "bd28e048e1b28b9a9c587ea60188be883bdfb4d8",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: DD Photos – open-source photo album site generator (Go and SvelteKit)",
+      "link": "https://github.com/dougdonohoe/ddphotos",
+      "published_at": "2026-03-10T13:13:48+00:00",
+      "summary": "HN story type: story HN points: 35 HN comments: 8 HN post text: I was frustrated with photo sharing sites. Apple's iCloud shared albums take 20+ seconds to load, and everything else comes with ads, cumbersome UIs, or social media distractions. I just want to share photos with friends and family: fast, mobile-friendly, distraction-free. So I built DD Photos. You export photos from whatever you already use (Lightroom, Apple Photos, etc.) into folders, run `photogen` (a Go CLI) to resize them to WebP and generate JSON indexes, then deploy the SvelteKit static site anywhere that serves files. Apache, S3, whatever. No server-side code, no database. Built over several weeks with heavy use of Claude Code, which I found genuinely useful for this kind of full-stack project spanning Go, SvelteKit/TypeScript, Apache config, Docker, and Playwright tests. Happy to discuss that experience too. Live example: https://photos.donohoe.info Repo: https://github.com/dougdonohoe/ddphotos HN top comments: subpixel: This is really great. At first it seems a tad over-engineered but I admit the state of the art has progressed since the days of using Yeoman to scaffold a Jekyll site. Also the fact that you don’t use Hugo deserves to be congratulated. giancarlostoro: I have a similar frustration, on my Surface Book 2, for some reason the Photos default Windows app is sluggish to death. I have to scour all sorts of third party applications to finally find one that loads correctly. I'm using an extremely vanilla configured Windows too. I rarely open that laptop anymore because of all the bloat. Someday I'll smoosh over Windows and just dump Linux on top of it, even though the su... thatcherc: This looks great! I've been using ThumbsUp[1] for a similar purpose (creating a gallery of photos I can push S3), but adding album and photo captions required some un-ergonomical tricks. I'll try this out! [1] - https://github.com/thumbsup/thumbsup",
+      "fetched_at": "2026-03-10T17:06:29.746957+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47322838",
+      "hn_story_type": "story",
+      "hn_points": "35",
+      "hn_comments_count": "8",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47322838",
+      "hn_item_text": "I was frustrated with photo sharing sites. Apple's iCloud shared albums take 20+ seconds to load, and everything else comes with ads, cumbersome UIs, or social media distractions. I just want to share photos with friends and family: fast, mobile-friendly, distraction-free. So I built DD Photos. You export photos from whatever you already use (Lightroom, Apple Photos, etc.) into folders, run `photogen` (a Go CLI) to resize them to WebP and generate JSON indexes, then deploy the SvelteKit static site anywhere that serves files. Apache, S3, whatever. No server-side code, no database. Built over several weeks with heavy use of Claude Code, which I found genuinely useful for this kind of full-stack project spanning Go, SvelteKit/TypeScript, Apache config, Docker, and Playwright tests. Happy to discuss that experience too. Live example: https://photos.donohoe.info Repo: https://github.com/dougdonohoe/ddphotos",
+      "hn_comment_preview": "subpixel: This is really great. At first it seems a tad over-engineered but I admit the state of the art has progressed since the days of using Yeoman to scaffold a Jekyll site. Also the fact that you don’t use Hugo deserves to be congratulated.\ngiancarlostoro: I have a similar frustration, on my Surface Book 2, for some reason the Photos default Windows app is sluggish to death. I have to scour all sorts of third party applications to finally find one that loads correctly. I'm using an extremely vanilla configured Windows too. I rarely open that laptop anymore because of all the bloat. Someday I'll smoosh over Windows and just dump Linux on top of it, even though the su...\nthatcherc: This looks great! I've been using ThumbsUp[1] for a similar purpose (creating a gallery of photos I can push S3), but adding album and photo captions required some un-ergonomical tricks. I'll try this out! [1] - https://github.com/thumbsup/thumbsup",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "63",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=39,practical_tech=39,tools_agents=26,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 39,
+        "tools_agents": 26,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 39,
+          "strong_hits": [
+            "typescript",
+            "database",
+            "show hn",
+            "docker",
+            "index",
+            "rust"
+          ],
+          "support_hits": [
+            "deploy"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 26,
+          "strong_hits": [
+            "claude code",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "typescript",
+        "database",
+        "show hn",
+        "docker",
+        "index",
+        "rust",
+        "deploy",
+        "github.com"
+      ],
+      "detail_slug": "709de397eef9d12e7059ec9b74dd59705b664026",
+      "is_english_source": true,
+      "translated_title": "DD Photos: 광고 없이 빠른 오픈소스 사진 앨범 생성기",
+      "short_summary": "사진 공유 사이트의 느린 속도와 광고, 복잡한 UI에 불만을 품은 개발자가 Go와 SvelteKit으로 만든 오픈소스 사진 앨범 생성기 DD Photos를 공개했다.",
+      "detailed_summary": "사진 공유 서비스의 불편함을 해소하기 위해 개발된 DD Photos는 빠르고 간편한 사진 앨범 생성기를 목표로 한다.\n- 사용자는 기존 사진 관리 프로그램에서 사진을 폴더로 내보내고, Go 기반 CLI 도구인 photogen으로 WebP 변환과 JSON 인덱스 생성을 수행한다.\n- 생성된 정적 사이트는 SvelteKit으로 만들어져 Apache, S3 등 파일 서버 어디에나 배포할 수 있으며, 서버 코드나 데이터베이스가 필요 없다.\n- 개발 과정에서 다양한 기술 스택(Go, SvelteKit/TypeScript, Docker, Playwright 테스트)을 활용했으며, AI 도구 Claude Code가 큰 도움을 줬다고 한다.\n- 사용자들은 기존 사진 앱의 느린 반응과 광고, 복잡한 UI에 공감하며, DD Photos의 간결하고 빠른 접근법에 긍정적인 반응을 보였다.\n\n이 프로젝트는 사진 공유의 본질에 집중해 불필요한 요소를 제거했다는 점에서 눈길을 끈다. 복잡한 서버 환경 없이 정적 사이트로 운영할 수 있어 유지보수가 쉽고, 모바일 친화적인 UI를 제공한다. 또한, 기존 도구 대비 가벼운 실행과 간단한 배포 방식이 사용자 경험을 크게 개선한다는 평가가 많다. 앞으로도 개인이나 소규모 그룹이 사진을 공유하는 데 실용적인 대안으로 자리잡을 가능성이 크다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-10T17:07:02.686712+00:00"
+    },
+    {
+      "id": "cc180bef5791b6bcd0b477e4f63d21153ee14744",
+      "title_hash": "d90ee88c0953585556657cd8536b40297c64902b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Debian decides not to decide on AI-generated contributions",
+      "link": "https://lwn.net/SubscriberLink/1061544/125f911834966dd0/",
+      "published_at": "2026-03-10T14:53:13+00:00",
+      "summary": "HN story type: story HN points: 105 HN comments: 77 HN top comments: mr-wendel: My two cents: I've been coding practically my entire life, but a few years back I sustained a pretty significant and lasting injury to my wrists. As such, I have very little tolerance for typing. It's been quite a problem and made full time work impossible. With the advent of LLMs, AI-autocomplete, and agent-based development workflows, my ability to deliver reliable, high-quality code is restored and (arguably) b... retired: Fork it to Slobian and let the clankers go to town creating, approving and merging pull requests by themselves. Look at the install base to see what people prefer. vladms: Very reasonable stance. I see reviewing and accepting a PR is a question of trust - you trust the submitter to have done the most he can for the PR to be correct and useful. Something might be required now as some people might think that just asking an LLM is \"the most he can done\", but it's not about using AI it's about being aware and responsible about using it.",
+      "fetched_at": "2026-03-10T17:06:29.746957+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47324087",
+      "hn_story_type": "story",
+      "hn_points": "105",
+      "hn_comments_count": "77",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47324087",
+      "hn_item_text": "",
+      "hn_comment_preview": "mr-wendel: My two cents: I've been coding practically my entire life, but a few years back I sustained a pretty significant and lasting injury to my wrists. As such, I have very little tolerance for typing. It's been quite a problem and made full time work impossible. With the advent of LLMs, AI-autocomplete, and agent-based development workflows, my ability to deliver reliable, high-quality code is restored and (arguably) b...\nretired: Fork it to Slobian and let the clankers go to town creating, approving and merging pull requests by themselves. Look at the install base to see what people prefer.\nvladms: Very reasonable stance. I see reviewing and accepting a PR is a question of trust - you trust the submitter to have done the most he can for the PR to be correct and useful. Something might be required now as some people might think that just asking an LLM is \"the most he can done\", but it's not about using AI it's about being aware and responsible about using it.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=33,practical_tech=9,tools_agents=33,strategy_insight=13,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 33,
+        "strategy_insight": 13,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 33,
+          "strong_hits": [
+            "workflow",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "workflow",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + workflow",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "workflow",
+        "ide",
+        "llm",
+        "agent",
+        "agent + workflow",
+        "ai + coding"
+      ],
+      "detail_slug": "cc180bef5791b6bcd0b477e4f63d21153ee14744",
+      "is_english_source": true,
+      "translated_title": "데비안, AI 생성 코드 기여에 대한 입장 유보",
+      "short_summary": "데비안 프로젝트가 AI가 생성한 코드 기여에 대해 명확한 결정을 내리지 않고 입장을 보류했다. 신뢰와 책임 문제를 중심으로 논의가 이어지고 있다.",
+      "detailed_summary": "**데비안 커뮤니티가 AI 생성 코드 기여에 대해 아직 명확한 정책을 정하지 않고 있다.**\n\n- 데비안은 AI가 작성한 코드나 풀 리퀘스트(PR)를 어떻게 다룰지 결정하지 않고 유보하는 입장을 밝혔다.\n- 일부 개발자는 AI 도구 덕분에 신체적 제약을 극복하고 코드 품질을 유지할 수 있게 되었다고 평가한다.\n- PR 검토는 제출자의 신뢰를 바탕으로 이루어지며, AI 사용 여부보다 책임감 있는 활용이 중요하다는 의견이 많다.\n- 한편, AI 기여를 허용하면 자동화된 PR 생성과 병합이 늘어날 수 있어 커뮤니티 내에서 우려도 존재한다.\n- 사용자 선호도와 실제 설치 기반을 참고해 향후 정책 방향을 모색하자는 제안도 나왔다.\n\n이번 논의는 AI가 개발 과정에 미치는 영향과 윤리적 책임 문제를 다시 한번 부각시켰다. 데비안처럼 전통적인 오픈소스 프로젝트는 AI 도구 활용에 신중한 태도를 보이며, 단순한 기술 도입을 넘어 신뢰와 검증 체계를 어떻게 유지할지 고민하는 모습이다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-10T17:07:02.686712+00:00"
+    },
+    {
+      "id": "a305a483acd9bf7053590e0cd8b5bca861da6113",
+      "title_hash": "2c9966b4a4f7e662ca7c120c44553851ae58af30",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "PgAdmin 4 9.13 with AI Assistant Panel",
+      "link": "https://www.pgadmin.org/docs/pgadmin4/9.13/query_tool.html#ai-assistant-panel",
+      "published_at": "2026-03-10T11:58:36+00:00",
+      "summary": "HN story type: story HN points: 54 HN comments: 17 HN top comments: chaz6: When I got the update I looked through the settings and there appears to be no way to disable it. I do not want AI anywhere near my database. I only use it for testing/staging at least so I should hopefully not have to worry about it wrecking production. panzi: Yeah, no thanks. I switched to dbeaver already anyway, because pgadmin was annoying about to which postgres versions it could connect. Too much of a hassle to setup a new version from source back when I tried. With dbeaver I just run ./dbeaver from the extracted .tag.gz. dbeaver is also not a web interface, but a real desktop application (Java, though). vavkamil: Quick fix based on https://github.com/pgadmin-org/pgadmin4/issues/9696#issuecom... Click on the \"Reset layout\" button in the query tool (located in the top right corner), and it will move the \"AI Assistant\" tab to the right. Now, when you query a table, it will default to the Query tab as always.",
+      "fetched_at": "2026-03-10T17:06:29.746957+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47322033",
+      "hn_story_type": "story",
+      "hn_points": "54",
+      "hn_comments_count": "17",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47322033",
+      "hn_item_text": "",
+      "hn_comment_preview": "chaz6: When I got the update I looked through the settings and there appears to be no way to disable it. I do not want AI anywhere near my database. I only use it for testing/staging at least so I should hopefully not have to worry about it wrecking production.\npanzi: Yeah, no thanks. I switched to dbeaver already anyway, because pgadmin was annoying about to which postgres versions it could connect. Too much of a hassle to setup a new version from source back when I tried. With dbeaver I just run ./dbeaver from the extracted .tag.gz. dbeaver is also not a web interface, but a real desktop application (Java, though).\nvavkamil: Quick fix based on https://github.com/pgadmin-org/pgadmin4/issues/9696#issuecom... Click on the \"Reset layout\" button in the query tool (located in the top right corner), and it will move the \"AI Assistant\" tab to the right. Now, when you query a table, it will default to the Query tab as always.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "47",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=23,practical_tech=23,tools_agents=11,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 23,
+        "tools_agents": 11,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 23,
+          "strong_hits": [
+            "production",
+            "database",
+            "postgres"
+          ],
+          "support_hits": [
+            "testing",
+            "query"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [
+            "setup",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "production",
+        "database",
+        "postgres",
+        "testing",
+        "query"
+      ],
+      "detail_slug": "a305a483acd9bf7053590e0cd8b5bca861da6113",
+      "is_english_source": true,
+      "translated_title": "PgAdmin 4 9.13, AI 어시스턴트 패널 추가",
+      "short_summary": "PgAdmin 4 버전 9.13에 AI 어시스턴트 패널이 도입됐다. 사용자들은 비활성화 방법 부재와 인터페이스 변경에 불만을 보였다.",
+      "detailed_summary": "**PgAdmin 4**가 9.13 버전 업데이트를 통해 AI 어시스턴트 패널을 새롭게 선보였다. 이 기능은 쿼리 작성과 데이터베이스 작업을 돕기 위해 설계됐다. 하지만 사용자 반응은 엇갈렸다.\n\n- 업데이트 후 설정에서 AI 어시스턴트를 끌 방법이 없어 불편하다는 의견이 나왔다.\n- 일부는 AI가 데이터베이스에 가까이 오는 것을 꺼려 테스트 환경에서만 사용한다고 밝혔다.\n- 기존에 PgAdmin 사용에 불만을 품고 DBeaver로 전환한 사용자도 있었다. DBeaver는 설치가 간편하고 데스크톱 애플리케이션이라는 점이 장점으로 꼽혔다.\n- UI 문제를 해결하는 임시 방안으로 쿼리 도구의 '레이아웃 초기화' 버튼을 눌러 AI 어시스턴트 탭 위치를 조정하는 방법이 공유됐다.\n- 이 조치로 쿼리 탭이 기본으로 표시되어 작업 흐름이 개선됐다.\n\n이번 업데이트는 AI 기능을 접목해 사용자 경험을 확장하려는 시도다. 그러나 AI 기능을 강제로 적용하는 방식과 설정 옵션 부족은 사용자 불만을 키웠다. 데이터베이스 관리 도구는 안정성과 사용 편의성이 중요한 만큼, 향후 AI 통합 시 선택권과 유연성을 더 고려할 필요가 있어 보인다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-10T17:07:02.686712+00:00"
+    },
+    {
       "id": "0549826d162dbd9aa1216a2e6508fe5c1ad8af96",
       "title_hash": "1ab64a093d07c8be2c2a0383cc5cd91b83781897",
       "source": "GeekNews",
