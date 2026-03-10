@@ -159,14 +159,6 @@ function finishLoadingUi(loadingEl, summaryEl, state, fallbackHtml) {
   }
 }
 
-function clearSummaryReveal(summaryEl) {
-  var lines = summaryEl.querySelectorAll(".detail-summary-line.is-reveal");
-  for (var index = 0; index < lines.length; index += 1) {
-    lines[index].classList.remove("is-reveal");
-    lines[index].style.removeProperty("--reveal-index");
-  }
-}
-
 function animateSummaryReveal(summaryEl) {
   if (!summaryEl || prefersReducedMotion()) {
     return;
@@ -176,11 +168,6 @@ function animateSummaryReveal(summaryEl) {
   if (!lines.length) {
     return;
   }
-
-  var totalDuration = (lines.length - 1) * 110 + 1200;
-  window.setTimeout(function () {
-    clearSummaryReveal(summaryEl);
-  }, totalDuration);
 }
 
 async function loadLazyDetail() {
