@@ -177,6 +177,7 @@ class BuildSiteTests(unittest.TestCase):
             self.assertTrue((dist_dir / "privacy.html").exists())
             self.assertTrue((dist_dir / "contact.html").exists())
             self.assertTrue((dist_dir / "ads.txt").exists())
+            self.assertTrue((dist_dir / "robots.txt").exists())
 
             english_detail = (dist_dir / "news" / "eng1" / "index.html").read_text(encoding="utf-8")
             korean_detail = (dist_dir / "news" / "kor1" / "index.html").read_text(encoding="utf-8")
@@ -186,6 +187,7 @@ class BuildSiteTests(unittest.TestCase):
             contact_page = (dist_dir / "contact.html").read_text(encoding="utf-8")
             index_page = (dist_dir / "index.html").read_text(encoding="utf-8")
             ads_txt = (dist_dir / "ads.txt").read_text(encoding="utf-8")
+            robots_txt = (dist_dir / "robots.txt").read_text(encoding="utf-8")
 
             self.assertIn("<ul class='detail-summary-list'>", english_detail)
             self.assertIn("<strong>핵심 변화</strong>", english_detail)
@@ -207,6 +209,8 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("GitHub Issues", contact_page)
             self.assertIn("ca-pub-3668470088067384", index_page)
             self.assertIn("pub-3668470088067384", ads_txt)
+            self.assertIn("User-agent: *", robots_txt)
+            self.assertIn("Allow: /", robots_txt)
 
             by_id = {item["id"]: item for item in archive_payload["items"]}
             self.assertEqual(by_id["kor1"]["detail_url"], "https://news.hada.io/topic?id=1")
