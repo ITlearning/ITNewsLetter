@@ -1,6 +1,533 @@
 {
   "items": [
     {
+      "id": "c1b04ee6a80a65df1134e41a94a8ca1129766331",
+      "title_hash": "84de804fd2dbda2c56e3a81109c28fdbd183051c",
+      "source": "GeekNews",
+      "title": "LangChain 스킬 공개, Claude Code 통과율 25% → 95%로 끌어올린 방법",
+      "link": "https://news.hada.io/topic?id=27359",
+      "published_at": "2026-03-10T01:26:00+00:00",
+      "summary": "LangChain이 코딩 에이전트 성능을 극적으로 향상시키는 \"스킬(Skills)\" 세트를 공개. 특히 Claude Code 같은 모델이 LangChain/LangGraph/LangSmith 관련 태스크를 수행할 때, 스킬 없이 25% 정도만 성공하던 것이 스킬 장착 후 95% 까지 올라",
+      "fetched_at": "2026-03-10T05:14:23.196161+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=2,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "claude + code"
+      ],
+      "translated_title": "LangChain 스킬 공개로 Claude Code 통과율 95% 달성",
+      "short_summary": "LangChain이 코딩 에이전트 성능을 높이는 스킬 세트를 공개해 Claude Code 모델의 성공률을 25%에서 95%로 크게 향상시켰다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-10T05:14:37.644475+00:00"
+    },
+    {
+      "id": "20cf877daa4d18f5e258002e5026c46336d89af0",
+      "title_hash": "97b243d1caf1318f5ed4c2eaadd7c716507108d2",
+      "source": "GeekNews",
+      "title": "플로리다 판사, 적색 신호 위반 카메라 단속은 위헌이라고 판결",
+      "link": "https://news.hada.io/topic?id=27364",
+      "published_at": "2026-03-10T02:33:37+00:00",
+      "summary": "브로워드 카운티 법원이 적색 신호 위반 카메라 단속법 이 차량 소유자에게 입증 책임을 전가한다며 위헌으로 판단 법원은 이 제도가 ‘준형사적(quasi-criminal)’ 절차 로 작동하며, 유죄 판정과 벌금 부과가 가능한 만큼 형사 수준의 입증 기준이 필요하다고 명시...",
+      "fetched_at": "2026-03-10T05:14:23.196161+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "58",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=13,practical_tech=0,tools_agents=4,strategy_insight=13,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 13,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "판단",
+            "신호"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단",
+        "신호"
+      ],
+      "sent_at": "2026-03-10T05:14:37.644475+00:00"
+    },
+    {
+      "id": "e28740a867c09fc89afffdaf2871f771d5cf64e8",
+      "title_hash": "252231f19db832e6ccffe520d69b00763fb95ec1",
+      "source": "GeekNews",
+      "title": "ShadowBroker - 전 세계 15개 실시간 데이터 피드를 통합한 OSINT 대시보드",
+      "link": "https://news.hada.io/topic?id=27351",
+      "published_at": "2026-03-09T23:33:00+00:00",
+      "summary": "항공기, 선박, 위성, 지진, 분쟁, CCTV, GPS 교란 등 다양한 실시간 데이터를 하나의 지리정보 기반 인터페이스 로 통합 Next.js , MapLibre GL , FastAPI , Python 으로 구축되어 분석가와 연구...",
+      "fetched_at": "2026-03-10T05:14:23.196161+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api"
+      ],
+      "sent_at": "2026-03-10T05:14:37.644475+00:00"
+    },
+    {
+      "id": "a43eda76a97e224e81deccaf0d5f9f3211cad091",
+      "title_hash": "fdc2630e3560fa90006077968e244f293f68b9d4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
+      "link": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
+      "published_at": "2026-03-09T23:22:06+00:00",
+      "summary": "Article URL: https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/ Comments URL: https://news.ycombinator.com/item?id=47317132 Points: 45 # Comments: 9",
+      "fetched_at": "2026-03-10T05:14:23.196161+00:00",
+      "source_priority_boost": "18",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "30",
+      "priority_signal": "slot=tools_agents,boost=18,slot_score=12,practical_tech=2,tools_agents=12,strategy_insight=0,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 12,
+        "strategy_insight": 0,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "translated_title": "Anthropic, Claude Code 사용자당 5천 달러 비용 아냐",
+      "short_summary": "Anthropic이 Claude Code 사용자 한 명당 5천 달러의 비용이 든다는 주장은 사실이 아니다. 관련 논란을 해명하는 글이 공개되었다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-10T05:14:37.644475+00:00"
+    },
+    {
+      "id": "1ee84b455c1012716f4876c3d76d871b6cf22f8a",
+      "title_hash": "5798533936ea63ecd40e277dbeab225dd8c28947",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "An opinionated take on how to do important research that matters",
+      "link": "https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html",
+      "published_at": "2026-03-09T16:24:22+00:00",
+      "summary": "Article URL: https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html Comments URL: https://news.ycombinator.com/item?id=47311179 Points: 102 # Comments: 24",
+      "fetched_at": "2026-03-10T05:14:23.196161+00:00",
+      "source_priority_boost": "18",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "22",
+      "priority_signal": "slot=practical_tech,boost=18,slot_score=4,practical_tech=4,tools_agents=1,strategy_insight=0,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 1,
+        "strategy_insight": 0,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "how to"
+      ],
+      "translated_title": "중요한 연구를 성공적으로 수행하는 방법에 대한 의견",
+      "short_summary": "중요한 연구를 수행하고 최우수 논문상을 받기 위한 전략과 조언을 다룬 글입니다. 연구의 방향성과 영향력에 대한 통찰을 제공합니다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-10T05:14:37.644475+00:00"
+    },
+    {
+      "id": "b817ab34432ff1af41ffa924456642f81f31e5e8",
+      "title_hash": "415d70c2a30fb455b6a45493885ac5c7df38e261",
+      "source": "Product Hunt Feed",
+      "title": "Wideframe",
+      "link": "https://www.producthunt.com/products/wideframe",
+      "published_at": "2026-03-09T00:37:36+00:00",
+      "summary": "AI Coworker for Video Editors Discussion | Link",
+      "fetched_at": "2026-03-10T05:14:23.196161+00:00",
+      "source_priority_boost": "14",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "25",
+      "priority_signal": "slot=tools_agents,boost=14,slot_score=11,practical_tech=0,tools_agents=11,strategy_insight=0,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 11,
+        "strategy_insight": 0,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "producthunt.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "producthunt.com"
+      ],
+      "translated_title": "비디오 편집자를 위한 AI 협업 도구 '와이드프레임'",
+      "short_summary": "와이드프레임은 비디오 편집자를 지원하는 AI 협업 도구로, 편집 과정에서 효율적인 소통과 작업을 돕는다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-10T05:14:37.644475+00:00"
+    },
+    {
+      "id": "6806525147f197fd9189fa1f8980e75884adaaef",
+      "title_hash": "076328ca81733e1856169400cfa8f95819a31e62",
+      "source": "Product Hunt Feed",
+      "title": "Pulldog",
+      "link": "https://www.producthunt.com/products/pulldog",
+      "published_at": "2026-03-07T12:12:03+00:00",
+      "summary": "A Mac application to keep your code reviews organized! Discussion | Link",
+      "fetched_at": "2026-03-10T05:14:23.196161+00:00",
+      "source_priority_boost": "14",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "25",
+      "priority_signal": "slot=strategy_insight,boost=14,slot_score=11,practical_tech=0,tools_agents=6,strategy_insight=11,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 6,
+        "strategy_insight": 11,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "producthunt.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 11,
+          "strong_hits": [
+            "code review"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "code review"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "code review",
+        "code + review"
+      ],
+      "translated_title": "코드 리뷰 관리를 위한 맥 앱 'Pulldog' 출시",
+      "short_summary": "Pulldog은 맥용 애플리케이션으로, 코드 리뷰를 체계적으로 관리할 수 있도록 도와줍니다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-10T05:14:37.644475+00:00"
+    },
+    {
       "id": "a74b5c6d3596d4408f131100c2466676c50d97d0",
       "title_hash": "7981945be613e5b17a951f351f7b95ba071aa09c",
       "source": "GeekNews",
