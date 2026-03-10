@@ -44,16 +44,16 @@
         <p class="detail-lead">
           원문을 대체하지 않는 브리핑 페이지입니다. 핵심만 먼저 파악한 뒤 원문으로 이동할 수 있게 정리했습니다.
         </p>
+        <div class="detail-hero-actions">
+          <a class="source-button" href="$original_link" target="_blank" rel="noreferrer">원문 보기</a>
+        </div>
       </header>
 
       <section class="detail-section detail-briefing">
         <div class="section-head">
           <div class="section-head-row">
             <h2>브리핑</h2>
-            <span class="ai-briefing-badge">
-              <img src="../../img.icons8.png" alt="" aria-hidden="true" />
-              <span>with AI</span>
-            </span>
+            $briefing_badge_html
           </div>
           <p>원문을 읽기 전 핵심만 빠르게 파악하는 요약입니다.</p>
         </div>
@@ -74,14 +74,6 @@
       </section>
 
       $matched_terms_html
-
-      <section class="detail-section detail-cta">
-        <div class="section-head">
-          <h2>원문으로 이어보기</h2>
-          <p>요약 이후의 세부 맥락과 원문 표현은 출처에서 직접 확인하세요.</p>
-        </div>
-        <a class="source-button" href="$original_link" target="_blank" rel="noreferrer">원문 보기</a>
-      </section>
 
       $pager_html
       $related_html

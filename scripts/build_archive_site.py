@@ -22,6 +22,7 @@ from fetch_and_send import (
     now_utc,
     parse_published_datetime,
     score_and_tag_item_priority,
+    to_multiline_preview,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -44,6 +45,10 @@ def sort_key(item: dict[str, Any]) -> tuple[int, str]:
 
 def build_detail_url(detail_slug: str) -> str:
     return f"./news/{detail_slug}/"
+
+
+def build_nested_detail_url(detail_slug: str) -> str:
+    return f"../{detail_slug}/"
 
 
 def normalize_string_set(values: Any) -> set[str]:
@@ -267,10 +272,18 @@ def load_detail_template() -> Template:
 
 
 def summary_for_detail(item: dict[str, Any]) -> str:
-    return (
-        normalize_text(item.get("detailed_summary"))
-        or normalize_text(item.get("short_summary"))
-    )
+    detailed = normalize_text(item.get("detailed_summary"))
+    if detailed:
+        return detailed
+
+    short_summary = normalize_text(item.get("short_summary"))
+    if short_summary:
+        return short_summary
+
+    if normalize_text(item.get("source")) == "GeekNews":
+        return to_multiline_preview(item.get("summary", ""), max_lines=5, line_width=52, max_chars=420)
+
+    return ""
 
 
 def render_summary_html(text: str) -> str:
@@ -306,7 +319,8 @@ def render_related_items_html(items: list[dict[str, Any]]) -> str:
         slot = html.escape(normalize_text(item.get("primary_slot_label"), "미분류"))
         source = html.escape(normalize_text(item.get("source"), "Unknown"))
         date = html.escape(format_date(item.get("sent_at") or item.get("published_at") or item.get("fetched_at")))
-        url = html.escape(normalize_text(item.get("detail_url"), "#"))
+        detail_slug = normalize_text(item.get("detail_slug"))
+        url = html.escape(build_nested_detail_url(detail_slug) if detail_slug else "#")
         cards.append(
             "<a class='related-card' href='{url}'>"
             "<span class='related-source'>{source}</span>"
@@ -331,7 +345,8 @@ def render_pager_link(item: dict[str, Any] | None, label: str) -> str:
     if not item:
         return ""
 
-    url = html.escape(normalize_text(item.get("detail_url"), "#"))
+    detail_slug = normalize_text(item.get("detail_slug"))
+    url = html.escape(build_nested_detail_url(detail_slug) if detail_slug else "#")
     title = html.escape(normalize_text(item.get("translated_title") or item.get("title"), "(제목 없음)"))
     return (
         "<a class='pager-link' href='{url}'>"
@@ -384,6 +399,15 @@ def render_detail_page(
     matched_terms_html = render_matched_terms_html(item.get("matched_terms", []))
     related_html = render_related_items_html(related_items)
     pager_html = render_pager_html(previous_item, next_item)
+    show_ai_badge = normalize_text(item.get("source")) != "GeekNews"
+    briefing_badge_html = ""
+    if show_ai_badge:
+        briefing_badge_html = (
+            "<span class='ai-briefing-badge'>"
+            "<img src='../../img.icons8.png' alt='' aria-hidden='true' />"
+            "<span>with AI</span>"
+            "</span>"
+        )
 
     return template.substitute(
         page_title=html.escape(translated_title),
@@ -398,6 +422,7 @@ def render_detail_page(
         source=html.escape(normalize_text(item.get("source"), "Unknown")),
         sent_date=html.escape(format_date(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))),
         slot_label=html.escape(normalize_text(item.get("primary_slot_label"), "미분류")),
+        briefing_badge_html=briefing_badge_html,
         summary_html=summary_html,
         matched_terms_html=matched_terms_html,
         original_link=html.escape(normalize_text(item.get("link"), "#")),

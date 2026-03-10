@@ -81,8 +81,7 @@ class BuildSiteTests(unittest.TestCase):
                         "id": "kor1",
                         "source": "GeekNews",
                         "title": "긱뉴스 한국어 기사",
-                        "short_summary": "한국어 브리핑 요약",
-                        "summary": "원문 전체를 복제하면 안 됩니다.",
+                        "summary": "긱뉴스 RSS에서 제공하는 한국어 요약 미리보기입니다. 원문 전체를 복제하면 안 되지만 핵심 흐름은 보여줄 수 있습니다.",
                         "link": "https://news.hada.io/topic?id=1",
                         "sent_at": "2026-03-10T02:48:40+00:00",
                     },
@@ -155,15 +154,19 @@ class BuildSiteTests(unittest.TestCase):
             english_detail = (dist_dir / "news" / "eng1" / "index.html").read_text(encoding="utf-8")
             korean_detail = (dist_dir / "news" / "kor1" / "index.html").read_text(encoding="utf-8")
             legacy_detail = (dist_dir / "news" / "legacy-eng" / "index.html").read_text(encoding="utf-8")
+            hn_detail = (dist_dir / "news" / "hn-safe" / "index.html").read_text(encoding="utf-8")
 
             self.assertIn("상세 페이지에서 보여줄 충분한 브리핑 요약입니다.", english_detail)
-            self.assertIn("한국어 브리핑 요약", korean_detail)
+            self.assertIn("긱뉴스 RSS에서 제공하는 한국어 요약 미리보기입니다.", korean_detail)
             self.assertNotIn("원문 전체를 복제하면 안 됩니다.", korean_detail)
+            self.assertNotIn("with AI", korean_detail)
+            self.assertIn("class=\"detail-hero-actions\"", english_detail)
             self.assertIn('data-item-id="legacy-eng"', legacy_detail)
             self.assertIn('data-lazy-detail-supported="true"', legacy_detail)
             self.assertIn("https://detail-api.example.com/api/lazy-detail", legacy_detail)
-            hn_detail = (dist_dir / "news" / "hn-safe" / "index.html").read_text(encoding="utf-8")
             self.assertIn('data-hn-story-id="47317132"', hn_detail)
+            self.assertIn("href=\"../", english_detail)
+            self.assertNotIn("href=\"./news/", english_detail)
 
             by_id = {item["id"]: item for item in archive_payload["items"]}
             self.assertFalse(by_id["eng1"]["lazy_detail_supported"])

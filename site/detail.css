@@ -114,8 +114,8 @@ a {
 
 .detail-hero h1 {
   margin: 0;
-  font-size: clamp(1.65rem, 3vw, 2.35rem);
-  line-height: 1.18;
+  font-size: clamp(1.42rem, 2.35vw, 1.9rem);
+  line-height: 1.24;
   letter-spacing: -0.04em;
 }
 
@@ -130,6 +130,10 @@ a {
   max-width: 42rem;
   color: var(--muted);
   line-height: 1.8;
+}
+
+.detail-hero-actions {
+  margin-top: 18px;
 }
 
 .detail-section {
@@ -448,18 +452,14 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 54px;
+  min-height: 46px;
   padding: 0 22px;
-  border-radius: 14px;
+  border-radius: 12px;
   background: var(--accent);
   color: #fff;
   text-decoration: none;
   font-weight: 700;
   box-shadow: 0 10px 22px rgba(37, 99, 235, 0.24);
-}
-
-.detail-cta {
-  text-align: center;
 }
 
 .detail-pager {
