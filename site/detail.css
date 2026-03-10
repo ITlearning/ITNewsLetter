@@ -114,8 +114,8 @@ a {
 
 .detail-hero h1 {
   margin: 0;
-  font-size: clamp(1.9rem, 4vw, 2.9rem);
-  line-height: 1.2;
+  font-size: clamp(1.65rem, 3vw, 2.35rem);
+  line-height: 1.18;
   letter-spacing: -0.04em;
 }
 
@@ -146,10 +146,38 @@ a {
   margin-bottom: 14px;
 }
 
+.section-head-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
 .section-head h2 {
   margin: 0;
   font-size: 1.06rem;
   letter-spacing: -0.03em;
+}
+
+.ai-briefing-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+  padding: 0 12px 0 8px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.76));
+  border: 1px solid rgba(129, 140, 248, 0.18);
+  color: #475569;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.ai-briefing-badge img {
+  width: 18px;
+  height: 18px;
+  display: block;
 }
 
 .section-head p {
