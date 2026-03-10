@@ -8,6 +8,7 @@ import {
   normalizeText,
 } from "./_lib/lazy-detail-config.mjs";
 import { fetchArticleText } from "./_lib/lazy-detail-extract.mjs";
+import { fetchHnDiscussionText } from "./_lib/lazy-detail-hn.mjs";
 import { generateDetailedSummary } from "./_lib/lazy-detail-openai.mjs";
 
 export const runtime = "nodejs";
@@ -129,7 +130,10 @@ export async function GET(request) {
       });
     }
 
-    const articleText = await fetchArticleText(item.link, config);
+    const articleText =
+      normalizeText(item.source) === "Hacker News Frontpage (HN RSS)" && normalizeText(item.hn_story_id)
+        ? await fetchHnDiscussionText(item, config)
+        : await fetchArticleText(item.link, config);
     const generated = await generateDetailedSummary(item, articleText, config);
     const cachePayload = {
       item_id: itemId,

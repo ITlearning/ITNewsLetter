@@ -95,6 +95,10 @@ export function evaluateLazyDetailSupport(item, config) {
   }
 
   const source = normalizeText(item.source).toLowerCase();
+  if (source === "hacker news frontpage (hn rss)" && normalizeText(item.hn_story_id)) {
+    return { supported: true, reason: "hn_api" };
+  }
+
   const domain = extractLinkDomain(item.link);
   if (!domain) {
     return { supported: false, reason: "missing_domain" };

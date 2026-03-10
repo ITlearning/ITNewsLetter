@@ -102,6 +102,10 @@ class BuildSiteTests(unittest.TestCase):
                         "short_summary": "HN 원문 후보",
                         "summary": "essay feed snippet",
                         "link": "https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html",
+                        "hn_story_id": "47317132",
+                        "hn_story_type": "story",
+                        "hn_points": "45",
+                        "hn_comments_count": "9",
                         "sent_at": "2026-03-09T22:15:00+00:00",
                     },
                     {
@@ -125,9 +129,6 @@ class BuildSiteTests(unittest.TestCase):
                         "allowed_sources": ["TechCrunch"],
                         "excluded_sources": ["GeekNews"],
                         "allowed_domains": ["techcrunch.com"],
-                        "source_domain_overrides": {
-                            "Hacker News Frontpage (HN RSS)": ["nicholas.carlini.com"]
-                        },
                     },
                     ensure_ascii=False,
                 ),
@@ -170,7 +171,8 @@ class BuildSiteTests(unittest.TestCase):
             self.assertTrue(by_id["legacy-eng"]["lazy_detail_supported"])
             self.assertEqual(by_id["legacy-eng"]["lazy_detail_reason"], "supported")
             self.assertTrue(by_id["hn-safe"]["lazy_detail_supported"])
-            self.assertEqual(by_id["hn-safe"]["lazy_detail_reason"], "supported")
+            self.assertEqual(by_id["hn-safe"]["lazy_detail_reason"], "hn_api")
+            self.assertEqual(by_id["hn-safe"]["hn_story_id"], "47317132")
 
 
 if __name__ == "__main__":

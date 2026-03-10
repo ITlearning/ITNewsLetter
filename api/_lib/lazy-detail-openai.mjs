@@ -54,19 +54,25 @@ export async function generateDetailedSummary(item, articleText, config) {
     throw new Error("No OpenAI model candidates are configured.");
   }
 
+  const isHnItem = normalizeText(item?.source) === "Hacker News Frontpage (HN RSS)";
   const userPrompt = [
-    "아래 IT 기사 원문을 바탕으로 한국어 브리핑을 만들어줘.",
+    isHnItem
+      ? "아래 Hacker News 스토리와 댓글 맥락을 바탕으로 한국어 브리핑을 만들어줘."
+      : "아래 IT 기사 원문을 바탕으로 한국어 브리핑을 만들어줘.",
     "반드시 JSON만 출력해.",
     '스키마: {"detailed_summary":""}',
     "- detailed_summary: 4~7문장, 250~700자",
     "- 기사 핵심 주장, 맥락, 실제 의미를 중심으로 정리",
     "- 긴 인용문이나 원문 문장을 그대로 베끼지 말고 재서술",
+    isHnItem
+      ? "- 외부 기사 원문이 없더라도 HN 본문과 댓글 논의에서 드러난 쟁점을 중심으로 정리"
+      : "- 원문 핵심 주장과 맥락을 중심으로 정리",
     "",
     `Title: ${normalizeText(item.title)}`,
     `Source: ${normalizeText(item.source)}`,
     `URL: ${normalizeText(item.link)}`,
     "",
-    `Article:\n${articleText.slice(0, config.maxArticleChars)}`,
+    `${isHnItem ? "HN Context" : "Article"}:\n${articleText.slice(0, config.maxArticleChars)}`,
   ].join("\n");
 
   let lastError = new Error("OpenAI request failed.");

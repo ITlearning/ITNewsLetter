@@ -99,6 +99,9 @@ def evaluate_lazy_detail_support(item: dict[str, Any], config: dict[str, Any]) -
         return False, "not_english"
 
     source = normalize_text(item.get("source")).lower()
+    if source == "hacker news frontpage (hn rss)" and normalize_text(item.get("hn_story_id")):
+        return True, "hn_api"
+
     domain = extract_link_domain(item.get("link"))
     if not domain:
         return False, "missing_domain"
@@ -162,6 +165,10 @@ def build_archive_items(
                 "detail_url": build_detail_url(detail_slug),
                 "has_detailed_summary": bool(detailed_summary),
                 "is_english_source": bool(tagged.get("is_english_source")),
+                "hn_story_id": normalize_text(tagged.get("hn_story_id")),
+                "hn_story_type": normalize_text(tagged.get("hn_story_type")),
+                "hn_points": normalize_text(tagged.get("hn_points")),
+                "hn_comments_count": normalize_text(tagged.get("hn_comments_count")),
                 "lazy_detail_supported": lazy_detail_supported,
                 "lazy_detail_reason": lazy_detail_reason,
             }

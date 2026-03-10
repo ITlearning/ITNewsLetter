@@ -5,6 +5,10 @@
 - Keep lazy detail generation safe by allowing HN only through curated downstream domains.
 - Reduce low-value batch noise from Product Hunt.
 
+> Note: this policy was later superseded by the HN API-native briefing path in
+> `2026-03-10-hn-api-briefing-design.md`, which allows HN detail briefing from
+> HN story/comment context without relying on downstream article-domain allowlists.
+
 ## Decisions
 - Disable `Product Hunt Feed` by default.
 - Raise the `Hacker News Frontpage (HN RSS)` source priority boost.

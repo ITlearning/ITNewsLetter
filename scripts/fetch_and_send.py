@@ -29,6 +29,9 @@ NEWS_PATH = ROOT / "data" / "news.json"
 LAST_RUN_PATH = ROOT / "data" / "last_run.json"
 
 USER_AGENT = "ITNewsLetterBot/1.0 (+https://github.com/)"
+HN_ITEM_ID_RE = re.compile(r"news\.ycombinator\.com/item\?id=(\d+)", re.IGNORECASE)
+HN_POINTS_RE = re.compile(r"\bPoints:\s*(\d+)\b", re.IGNORECASE)
+HN_COMMENTS_RE = re.compile(r"(?:#\s*Comments:|Comments:)\s*(\d+)\b", re.IGNORECASE)
 
 DEFAULT_SOURCE_PRIORITY_BOOST: dict[str, int] = {
     "GeekNews": 45,
@@ -229,6 +232,19 @@ def strip_html(raw: Any, fallback: str = "") -> str:
     return normalize_text(text)
 
 
+def fetch_json_url(url: str, timeout_sec: int = 15) -> Any:
+    req = Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json,text/plain;q=0.9,*/*;q=0.8",
+        },
+        method="GET",
+    )
+    with urlopen(req, timeout=timeout_sec) as resp:
+        return json.loads(resp.read().decode("utf-8", errors="replace"))
+
+
 def to_multiline_preview(text: str, max_lines: int = 4, line_width: int = 44, max_chars: int = 280) -> str:
     normalized = normalize_text(text)
     if not normalized:
@@ -272,6 +288,29 @@ def is_korean_dominant(text: str) -> bool:
     return len(hangul_letters) >= max(2, len(ascii_letters))
 
 
+def extract_hn_story_id(item: dict[str, Any]) -> str:
+    existing = normalize_text(item.get("hn_story_id"))
+    if existing:
+        return existing
+
+    for candidate in (
+        normalize_text(item.get("hn_discussion_url")),
+        normalize_text(item.get("summary")),
+        normalize_text(item.get("link")),
+    ):
+        match = HN_ITEM_ID_RE.search(candidate)
+        if match:
+            return normalize_text(match.group(1))
+    return ""
+
+
+def extract_hn_metric(text: str, pattern: re.Pattern[str]) -> str:
+    match = pattern.search(normalize_text(text))
+    if not match:
+        return ""
+    return normalize_text(match.group(1))
+
+
 def slugify_archive_item(item: dict[str, Any]) -> str:
     item_id = normalize_text(item.get("id"))
     if item_id:
@@ -305,6 +344,25 @@ def ensure_archive_detail_fields(item: dict[str, Any]) -> dict[str, Any]:
     enriched = dict(item)
     enriched["detail_slug"] = normalize_text(enriched.get("detail_slug")) or slugify_archive_item(enriched)
     enriched["is_english_source"] = is_english_item(enriched)
+    if normalize_text(enriched.get("source")) == "Hacker News Frontpage (HN RSS)":
+        hn_story_id = extract_hn_story_id(enriched)
+        if hn_story_id:
+            enriched["hn_story_id"] = hn_story_id
+            enriched["hn_discussion_url"] = normalize_text(
+                enriched.get("hn_discussion_url")
+            ) or build_hn_discussion_url(hn_story_id)
+        summary_text = normalize_text(enriched.get("summary"))
+        hn_points = normalize_text(enriched.get("hn_points")) or extract_hn_metric(summary_text, HN_POINTS_RE)
+        hn_comments_count = normalize_text(enriched.get("hn_comments_count")) or extract_hn_metric(
+            summary_text,
+            HN_COMMENTS_RE,
+        )
+        if hn_points:
+            enriched["hn_points"] = hn_points
+        if hn_comments_count:
+            enriched["hn_comments_count"] = hn_comments_count
+        if normalize_text(enriched.get("hn_story_type")) == "":
+            enriched["hn_story_type"] = "story"
     return enriched
 
 
@@ -397,7 +455,7 @@ def load_sources(config_path: Path) -> list[Source]:
                 enabled=enabled,
                 max_items=max(1, max_items),
                 priority_boost=priority_boost,
-                source_type=source_type if source_type in {"rss", "sitemap"} else "rss",
+                source_type=source_type if source_type in {"rss", "sitemap", "hn_api"} else "rss",
                 path_prefix=path_prefix,
             )
         )
@@ -540,6 +598,8 @@ def normalize_entry(
 def fetch_source(source: Source, fetched_at: str) -> list[dict[str, str]]:
     if source.source_type == "sitemap":
         return fetch_sitemap_source(source, fetched_at)
+    if source.source_type == "hn_api":
+        return fetch_hn_api_source(source, fetched_at)
 
     import feedparser
 
@@ -629,6 +689,164 @@ def fetch_sitemap_source(source: Source, fetched_at: str) -> list[dict[str, str]
     return raw_items[: source.max_items]
 
 
+def build_hn_discussion_url(story_id: int | str) -> str:
+    return f"https://news.ycombinator.com/item?id={story_id}"
+
+
+def parse_hn_story_time(raw: Any) -> str:
+    try:
+        ts = int(raw)
+    except (TypeError, ValueError):
+        return ""
+    return datetime.fromtimestamp(ts, tz=timezone.utc).isoformat()
+
+
+def normalize_hn_comment_text(raw: Any) -> str:
+    text = strip_html(raw)
+    return truncate_text(text, 420)
+
+
+def fetch_hn_comment_preview(base_url: str, story: dict[str, Any], max_comments: int = 3) -> str:
+    comment_ids = story.get("kids")
+    if not isinstance(comment_ids, list) or not comment_ids:
+        return ""
+
+    previews: list[str] = []
+    for comment_id in comment_ids[:12]:
+        try:
+            payload = fetch_json_url(f"{base_url}/item/{comment_id}.json")
+        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError):
+            continue
+
+        if not isinstance(payload, dict):
+            continue
+        if payload.get("deleted") or payload.get("dead"):
+            continue
+        if normalize_text(payload.get("type")).lower() != "comment":
+            continue
+
+        comment_text = normalize_hn_comment_text(payload.get("text"))
+        if len(comment_text) < 40:
+            continue
+
+        author = normalize_text(payload.get("by"))
+        if author:
+            previews.append(f"{author}: {comment_text}")
+        else:
+            previews.append(comment_text)
+
+        if len(previews) >= max_comments:
+            break
+
+    return "\n".join(previews)
+
+
+def build_hn_summary(story: dict[str, Any], comment_preview: str) -> str:
+    story_text = truncate_text(strip_html(story.get("text")), 1200)
+    points = safe_int(story.get("score"), 0)
+    comments_count = safe_int(story.get("descendants"), 0)
+    story_type = normalize_text(story.get("type"), "story")
+
+    parts: list[str] = [
+        f"HN story type: {story_type}",
+        f"HN points: {points}",
+        f"HN comments: {comments_count}",
+    ]
+
+    if story_text:
+        parts.append(f"HN post text: {story_text}")
+    if comment_preview:
+        parts.append(f"HN top comments:\n{comment_preview}")
+
+    return "\n".join(parts)
+
+
+def normalize_hn_entry(
+    source_name: str,
+    story: dict[str, Any],
+    fetched_at: str,
+    source_priority_boost: int,
+    base_url: str,
+) -> dict[str, str] | None:
+    try:
+        story_id = int(story.get("id"))
+    except (TypeError, ValueError):
+        return None
+
+    if story.get("deleted") or story.get("dead"):
+        return None
+
+    story_type = normalize_text(story.get("type"), "story").lower()
+    if story_type not in {"story", "job", "poll"}:
+        return None
+
+    title = normalize_text(story.get("title"), "(no title)")
+    if not title:
+        return None
+
+    published_at = parse_hn_story_time(story.get("time"))
+    outbound_url = normalize_text(story.get("url"))
+    link = outbound_url or build_hn_discussion_url(story_id)
+    comment_preview = fetch_hn_comment_preview(base_url, story)
+    summary = build_hn_summary(story, comment_preview)
+
+    pseudo_entry = {
+        "id": str(story_id),
+        "title": title,
+        "link": link,
+        "published": published_at,
+        "summary": summary,
+    }
+    item = normalize_entry(
+        source_name,
+        pseudo_entry,
+        fetched_at,
+        source_priority_boost,
+    )
+    item["hn_story_id"] = str(story_id)
+    item["hn_story_type"] = story_type
+    item["hn_points"] = str(safe_int(story.get("score"), 0))
+    item["hn_comments_count"] = str(safe_int(story.get("descendants"), 0))
+    item["hn_discussion_url"] = build_hn_discussion_url(story_id)
+    item["hn_item_text"] = truncate_text(strip_html(story.get("text")), 1200)
+    item["hn_comment_preview"] = truncate_text(comment_preview, 1200)
+    return item
+
+
+def fetch_hn_api_source(source: Source, fetched_at: str) -> list[dict[str, str]]:
+    base_url = source.feed_url.rstrip("/")
+    story_ids = fetch_json_url(f"{base_url}/topstories.json")
+    if not isinstance(story_ids, list):
+        raise RuntimeError("hn api topstories payload is not a list")
+
+    items: list[dict[str, str]] = []
+    fetch_limit = max(source.max_items * 3, source.max_items)
+    for story_id in story_ids[:fetch_limit]:
+        try:
+            story = fetch_json_url(f"{base_url}/item/{story_id}.json")
+        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as exc:
+            raise RuntimeError(f"hn item fetch failed ({story_id}): {exc}") from exc
+
+        if not isinstance(story, dict):
+            continue
+
+        item = normalize_hn_entry(
+            source.name,
+            story,
+            fetched_at,
+            source.priority_boost,
+            base_url,
+        )
+        if not item or not item.get("link"):
+            continue
+
+        items.append(item)
+        if len(items) >= source.max_items:
+            break
+
+    return items
+
+
 def trim_sent_ids(sent_ids: dict[str, int], ttl_days: int, max_ids: int) -> dict[str, int]:
     threshold_ts = int((now_utc() - timedelta(days=ttl_days)).timestamp())
 
@@ -691,6 +909,9 @@ def build_item_analysis_text(item: dict[str, Any]) -> tuple[str, str]:
                 normalize_text(item.get("translated_title", "")),
                 normalize_text(item.get("summary", "")),
                 normalize_text(item.get("short_summary", "")),
+                normalize_text(item.get("hn_item_text", "")),
+                normalize_text(item.get("hn_comment_preview", "")),
+                normalize_text(item.get("hn_story_type", "")),
                 domain,
                 path,
             ]
@@ -1116,7 +1337,32 @@ def enrich_item_with_openai(
     if not models:
         return item, "openai model list is empty"
 
-    snippet = truncate_text(item.get("summary", ""), 800)
+    source_name = normalize_text(item.get("source"))
+    is_hn_item = source_name == "Hacker News Frontpage (HN RSS)"
+    snippet_limit = 2200 if is_hn_item else 800
+    snippet_parts = [normalize_text(item.get("summary", ""))]
+    if is_hn_item:
+        hn_meta_parts: list[str] = []
+        if normalize_text(item.get("hn_story_type")):
+            hn_meta_parts.append(f"HN type: {normalize_text(item.get('hn_story_type'))}")
+        if normalize_text(item.get("hn_points")):
+            hn_meta_parts.append(f"HN points: {normalize_text(item.get('hn_points'))}")
+        if normalize_text(item.get("hn_comments_count")):
+            hn_meta_parts.append(f"HN comments: {normalize_text(item.get('hn_comments_count'))}")
+        if hn_meta_parts:
+            snippet_parts.append(" / ".join(hn_meta_parts))
+        if normalize_text(item.get("hn_item_text")):
+            snippet_parts.append(f"HN post text: {normalize_text(item.get('hn_item_text'))}")
+        if normalize_text(item.get("hn_comment_preview")):
+            snippet_parts.append(f"HN comments preview: {normalize_text(item.get('hn_comment_preview'))}")
+    snippet = truncate_text("\n".join(part for part in snippet_parts if part), snippet_limit)
+    source_note = ""
+    if is_hn_item:
+        source_note = (
+            "- 이 항목은 Hacker News 프론트페이지 스토리다.\n"
+            "- 외부 원문 전체가 아니라 HN 스토리 메타데이터, 본문, 댓글 맥락을 기준으로 정리해도 된다.\n"
+            "- 댓글에서 드러난 쟁점이나 반론이 있으면 요약에 반영해라.\n"
+        )
     user_prompt = (
         "아래 IT 뉴스 정보를 한국어로 정리해줘.\n"
         "반드시 JSON만 출력해.\n"
@@ -1124,7 +1370,9 @@ def enrich_item_with_openai(
         "- translated_title: 자연스러운 한국어 제목(40자 내외)\n"
         "- short_summary: 1~2문장 요약(총 120자 내외)\n\n"
         "- detailed_summary: 4~7문장 요약(총 250~600자)\n\n"
+        f"{source_note}"
         f"Title: {item.get('title', '')}\n"
+        f"Source: {source_name}\n"
         f"Snippet: {snippet}\n"
     )
     last_error: str | None = None

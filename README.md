@@ -96,12 +96,13 @@ Then set GitHub repository variable:
 - `source_type: sitemap` + `path_prefix` can be used for sites without RSS (e.g., Anthropic engineering posts).
 - New item selection uses a shared 4-slot taxonomy: `practical_tech`, `tools_agents`, `strategy_insight`, `industry_business`.
 - GeekNews has source-specific overlay terms and a dynamic cap: up to 2 items in a 5-item batch, up to 3 items in a 6-7 item batch.
-- HN RSS now has a stronger source prior and slot overlay so technical posts and engineering essays surface more often.
+- HN now uses the official Hacker News API, keeps a stronger source prior, and enriches stories with HN-native context so technical posts and engineering essays surface more often.
 - Product Hunt Feed is currently disabled by default because signal quality was low for the Discord batch.
 - GeekNews posts include a short 3-4 line preview from feed summary when AI summary is not used.
 - English items can store `translated_title`, `short_summary`, and `detailed_summary` at dispatch time.
 - Korean and GeekNews items do not trigger extra detail-page GPT calls.
 - Older allowlisted English articles can request a richer detail briefing on demand through the Vercel API.
+- Older HN items with a stored HN story id can request richer detail briefings from HN story/comment context without crawling the downstream article body.
 - Multiple selected items are grouped into a single Discord push per run (subject to message size limit).
 - Batch size is selected automatically within the configured min/max range, shrinking from max to min when the Discord message gets too long.
 - Selection logs now include the winning taxonomy slot and matched terms for explainability.
