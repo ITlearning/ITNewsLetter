@@ -43,7 +43,9 @@ function renderSummaryHtml(text, options) {
       return (
         "<p class='detail-summary-line is-reveal' style='--reveal-index:" +
         index +
-        "'><span class='detail-summary-text'>" +
+        "'><span class='detail-summary-text' data-text='" +
+        content +
+        "'>" +
         content +
         "</span></p>"
       );
