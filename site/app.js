@@ -12,7 +12,7 @@ const elements = {
   sourceFilter: document.querySelector("#source-filter"),
   slotFilter: document.querySelector("#slot-filter"),
   resetButton: document.querySelector("#reset-filters"),
-  newsGrid: document.querySelector("#news-grid"),
+  newsList: document.querySelector("#news-list"),
   emptyState: document.querySelector("#empty-state"),
   cardTemplate: document.querySelector("#news-card-template"),
   resultsTitle: document.querySelector("#results-title"),
@@ -75,7 +75,7 @@ function applyFilters() {
   });
 
   renderResultsHeader();
-  renderGrid();
+  renderList();
 }
 
 function renderStats() {
@@ -161,8 +161,8 @@ function renderCard(item) {
   return fragment;
 }
 
-function renderGrid() {
-  elements.newsGrid.replaceChildren();
+function renderList() {
+  elements.newsList.replaceChildren();
 
   if (!state.filteredItems.length) {
     elements.emptyState.hidden = false;
@@ -172,7 +172,7 @@ function renderGrid() {
   elements.emptyState.hidden = true;
   const fragment = document.createDocumentFragment();
   state.filteredItems.forEach((item) => fragment.append(renderCard(item)));
-  elements.newsGrid.append(fragment);
+  elements.newsList.append(fragment);
 }
 
 function wireEvents() {
