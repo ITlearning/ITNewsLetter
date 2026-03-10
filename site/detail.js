@@ -56,6 +56,10 @@ function renderInlineBriefingMarkdown(text) {
   return escapeHtml(text).replace(BRIEFING_BOLD_RE, "<strong>$1</strong>");
 }
 
+function extractInlineBriefingText(text) {
+  return String(text || "").replace(BRIEFING_BOLD_RE, "$1");
+}
+
 function renderSummaryHtml(text, options) {
   var normalized = normalizeBriefingMarkdown(text);
   if (!normalized) {
@@ -87,6 +91,20 @@ function renderSummaryHtml(text, options) {
     return attrs;
   }
 
+  function renderAnimatedContent(html, plainText) {
+    if (!animated) {
+      return html;
+    }
+
+    return (
+      "<span class='detail-summary-text' data-text='" +
+      escapeHtml(plainText) +
+      "'>" +
+      html +
+      "</span>"
+    );
+  }
+
   function flushParagraph() {
     if (!paragraphLines.length) {
       return;
@@ -94,7 +112,16 @@ function renderSummaryHtml(text, options) {
 
     var paragraph = paragraphLines.join(" ").trim();
     if (paragraph) {
-      htmlBlocks.push("<p" + buildBlockAttrs() + ">" + renderInlineBriefingMarkdown(paragraph) + "</p>");
+      htmlBlocks.push(
+        "<p" +
+          buildBlockAttrs() +
+          ">" +
+          renderAnimatedContent(
+            renderInlineBriefingMarkdown(paragraph),
+            extractInlineBriefingText(paragraph)
+          ) +
+          "</p>"
+      );
     }
     paragraphLines = [];
   }
@@ -107,7 +134,13 @@ function renderSummaryHtml(text, options) {
     var itemsHtml = listItems
       .filter(Boolean)
       .map(function (item) {
-        return "<li" + buildBlockAttrs() + ">" + renderInlineBriefingMarkdown(item) + "</li>";
+        return (
+          "<li" +
+          buildBlockAttrs() +
+          ">" +
+          renderAnimatedContent(renderInlineBriefingMarkdown(item), extractInlineBriefingText(item)) +
+          "</li>"
+        );
       })
       .join("");
 
