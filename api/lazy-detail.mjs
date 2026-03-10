@@ -40,6 +40,7 @@ export async function GET(request) {
     const config = await loadLazyDetailConfig();
     const requestUrl = new URL(request.url);
     const itemId = normalizeText(requestUrl.searchParams.get("id"));
+    const requestHnStoryId = normalizeText(requestUrl.searchParams.get("hn_story_id"));
 
     if (!itemId) {
       return jsonResponse(
@@ -109,6 +110,15 @@ export async function GET(request) {
         },
         404
       );
+    }
+
+    if (
+      normalizeText(item.source) === "Hacker News Frontpage (HN RSS)" &&
+      requestHnStoryId &&
+      !normalizeText(item.hn_story_id)
+    ) {
+      item.hn_story_id = requestHnStoryId;
+      item.hn_discussion_url = `https://news.ycombinator.com/item?id=${requestHnStoryId}`;
     }
 
     const archivedSummary = normalizeText(item.detailed_summary);

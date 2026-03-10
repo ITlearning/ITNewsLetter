@@ -162,6 +162,8 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn('data-item-id="legacy-eng"', legacy_detail)
             self.assertIn('data-lazy-detail-supported="true"', legacy_detail)
             self.assertIn("https://detail-api.example.com/api/lazy-detail", legacy_detail)
+            hn_detail = (dist_dir / "news" / "hn-safe" / "index.html").read_text(encoding="utf-8")
+            self.assertIn('data-hn-story-id="47317132"', hn_detail)
 
             by_id = {item["id"]: item for item in archive_payload["items"]}
             self.assertFalse(by_id["eng1"]["lazy_detail_supported"])

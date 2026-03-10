@@ -390,6 +390,7 @@ def render_detail_page(
         translated_title=html.escape(translated_title),
         original_title_block=original_block,
         item_id=html.escape(normalize_text(item.get("id"), item.get("detail_slug"))),
+        hn_story_id=html.escape(normalize_text(item.get("hn_story_id"))),
         has_detailed_summary=str(bool(item.get("has_detailed_summary"))).lower(),
         lazy_detail_supported=str(bool(item.get("lazy_detail_supported"))).lower(),
         lazy_detail_reason=html.escape(normalize_text(item.get("lazy_detail_reason"))),

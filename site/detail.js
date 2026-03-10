@@ -185,6 +185,7 @@ async function loadLazyDetail() {
   var lazyDetailSupported = shell.dataset.lazyDetailSupported === "true";
   var apiUrl = String(shell.dataset.lazyDetailApiUrl || "").trim();
   var itemId = String(shell.dataset.itemId || "").trim();
+  var hnStoryId = String(shell.dataset.hnStoryId || "").trim();
 
   if (hasDetailedSummary || !lazyDetailSupported || !apiUrl || !itemId) {
     return;
@@ -196,6 +197,9 @@ async function loadLazyDetail() {
   try {
     var requestUrl = new URL(apiUrl);
     requestUrl.searchParams.set("id", itemId);
+    if (hnStoryId) {
+      requestUrl.searchParams.set("hn_story_id", hnStoryId);
+    }
 
     var response = await fetch(requestUrl.toString(), {
       method: "GET",
