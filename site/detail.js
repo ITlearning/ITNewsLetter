@@ -7,50 +7,137 @@ function escapeHtml(text) {
     .replace(/'/g, "&#39;");
 }
 
+var BRIEFING_BOLD_RE = /\*\*(.+?)\*\*/g;
+
 function prefersReducedMotion() {
   return Boolean(
     window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches
   );
 }
 
+function normalizeBriefingMarkdown(text) {
+  var normalized = String(text || "").replace(/\r\n/g, "\n").replace(/\r/g, "\n").trim();
+  if (!normalized) {
+    return "";
+  }
+
+  var normalizedLines = [];
+  var previousBlank = false;
+
+  normalized.split("\n").forEach(function (rawLine) {
+    var line = String(rawLine || "")
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean)
+      .join(" ");
+
+    if (!line) {
+      if (normalizedLines.length && !previousBlank) {
+        normalizedLines.push("");
+      }
+      previousBlank = true;
+      return;
+    }
+
+    if (line.indexOf("* ") === 0) {
+      line = "- " + line.slice(2).trim();
+    } else if (line.indexOf("- ") === 0) {
+      line = "- " + line.slice(2).trim();
+    }
+
+    normalizedLines.push(line);
+    previousBlank = false;
+  });
+
+  return normalizedLines.join("\n").trim();
+}
+
+function renderInlineBriefingMarkdown(text) {
+  return escapeHtml(text).replace(BRIEFING_BOLD_RE, "<strong>$1</strong>");
+}
+
 function renderSummaryHtml(text, options) {
-  var normalized = String(text || "").trim();
+  var normalized = normalizeBriefingMarkdown(text);
   if (!normalized) {
     return "<p class='detail-summary-empty'>요약이 없습니다. 원문에서 자세히 확인하세요.</p>";
   }
 
   var settings = options || {};
   var animated = Boolean(settings.animated) && !prefersReducedMotion();
+  var lines = normalized.split("\n");
+  var htmlBlocks = [];
+  var paragraphLines = [];
+  var listItems = [];
+  var revealIndex = 0;
 
-  var parts = normalized
-    .split(/\n+/)
-    .map(function (part) {
-      return part.trim();
-    })
-    .filter(Boolean);
-
-  if (!parts.length) {
-    parts = [normalized];
+  function buildBlockClass() {
+    var classNames = ["detail-summary-block"];
+    if (animated) {
+      classNames.push("detail-summary-line", "is-reveal");
+    }
+    return classNames.join(" ");
   }
 
-  return parts
-    .map(function (part, index) {
-      var content = escapeHtml(part);
-      if (!animated) {
-        return "<p>" + content + "</p>";
-      }
+  function buildBlockAttrs() {
+    var attrs = " class='" + buildBlockClass() + "'";
+    if (animated) {
+      attrs += " style='--reveal-index:" + revealIndex + "'";
+      revealIndex += 1;
+    }
+    return attrs;
+  }
 
-      return (
-        "<p class='detail-summary-line is-reveal' style='--reveal-index:" +
-        index +
-        "'><span class='detail-summary-text' data-text='" +
-        content +
-        "'>" +
-        content +
-        "</span></p>"
-      );
-    })
-    .join("");
+  function flushParagraph() {
+    if (!paragraphLines.length) {
+      return;
+    }
+
+    var paragraph = paragraphLines.join(" ").trim();
+    if (paragraph) {
+      htmlBlocks.push("<p" + buildBlockAttrs() + ">" + renderInlineBriefingMarkdown(paragraph) + "</p>");
+    }
+    paragraphLines = [];
+  }
+
+  function flushList() {
+    if (!listItems.length) {
+      return;
+    }
+
+    var itemsHtml = listItems
+      .filter(Boolean)
+      .map(function (item) {
+        return "<li" + buildBlockAttrs() + ">" + renderInlineBriefingMarkdown(item) + "</li>";
+      })
+      .join("");
+
+    if (itemsHtml) {
+      htmlBlocks.push("<ul class='detail-summary-list'>" + itemsHtml + "</ul>");
+    }
+    listItems = [];
+  }
+
+  lines.forEach(function (line) {
+    if (!line) {
+      flushParagraph();
+      flushList();
+      return;
+    }
+
+    if (line.indexOf("- ") === 0) {
+      flushParagraph();
+      listItems.push(line.slice(2).trim());
+      return;
+    }
+
+    flushList();
+    paragraphLines.push(line);
+  });
+
+  flushParagraph();
+  flushList();
+
+  return htmlBlocks.join("");
 }
 
 function setStatus(statusEl, kind, text) {
@@ -170,21 +257,12 @@ function animateSummaryReveal(summaryEl) {
   }
 }
 
-function readSummaryText(summaryEl) {
+function readSummaryMarkdown(summaryEl) {
   if (!summaryEl) {
     return "";
   }
 
-  if (summaryEl.querySelector(".detail-summary-empty")) {
-    return "";
-  }
-
-  return Array.prototype.map
-    .call(summaryEl.querySelectorAll("p"), function (node) {
-      return String(node.textContent || "").trim();
-    })
-    .filter(Boolean)
-    .join("\n");
+  return normalizeBriefingMarkdown(summaryEl.dataset.summaryMarkdown || "");
 }
 
 function animateInitialSummary(summaryEl) {
@@ -196,12 +274,12 @@ function animateInitialSummary(summaryEl) {
     return;
   }
 
-  var text = readSummaryText(summaryEl);
-  if (!text) {
+  var markdown = readSummaryMarkdown(summaryEl);
+  if (!markdown) {
     return;
   }
 
-  summaryEl.innerHTML = renderSummaryHtml(text, { animated: true });
+  summaryEl.innerHTML = renderSummaryHtml(markdown, { animated: true });
   summaryEl.dataset.initialRevealDone = "true";
   animateSummaryReveal(summaryEl);
 }
@@ -253,11 +331,12 @@ async function loadLazyDetail() {
     }
 
     var status = String(payload.status || "");
-    var detailedSummary = String(payload.detailed_summary || "").trim();
+    var detailedSummary = normalizeBriefingMarkdown(payload.detailed_summary || "");
     var message = String(payload.message || "").trim();
 
     if ((status === "cached" || status === "generated") && detailedSummary) {
       finishLoadingUi(loadingEl, summaryEl, loadingState);
+      summaryEl.dataset.summaryMarkdown = detailedSummary;
       summaryEl.innerHTML = renderSummaryHtml(detailedSummary, { animated: true });
       animateSummaryReveal(summaryEl);
       shell.dataset.hasDetailedSummary = "true";

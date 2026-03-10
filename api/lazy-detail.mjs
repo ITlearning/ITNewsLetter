@@ -5,6 +5,7 @@ import {
   evaluateLazyDetailSupport,
   jsonResponse,
   loadLazyDetailConfig,
+  normalizeBriefingMarkdown,
   normalizeText,
 } from "./_lib/lazy-detail-config.mjs";
 import { fetchArticleText } from "./_lib/lazy-detail-extract.mjs";
@@ -91,7 +92,7 @@ export async function GET(request) {
       if (cached?.detailed_summary) {
         return jsonResponse({
           status: "cached",
-          detailed_summary: normalizeText(cached.detailed_summary),
+          detailed_summary: normalizeBriefingMarkdown(cached.detailed_summary),
           message: "저장된 상세 브리핑을 불러왔습니다.",
           cached: true,
         });
@@ -121,7 +122,7 @@ export async function GET(request) {
       item.hn_discussion_url = `https://news.ycombinator.com/item?id=${requestHnStoryId}`;
     }
 
-    const archivedSummary = normalizeText(item.detailed_summary);
+    const archivedSummary = normalizeBriefingMarkdown(item.detailed_summary);
     if (archivedSummary) {
       return jsonResponse({
         status: "cached",

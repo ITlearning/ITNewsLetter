@@ -39,6 +39,23 @@ def build_fake_urlopen(payload_by_suffix):
 
 
 class EnrichmentTests(unittest.TestCase):
+    def test_normalize_briefing_markdown_preserves_structure(self) -> None:
+        raw = "  도입 문장  \n\n* 첫 항목  \n- 둘째   항목\n\n  마무리 문장  "
+
+        normalized = fetch_and_send.normalize_briefing_markdown(raw)
+
+        self.assertEqual(normalized, "도입 문장\n\n- 첫 항목\n- 둘째 항목\n\n마무리 문장")
+
+    def test_render_briefing_markdown_html_supports_safe_subset(self) -> None:
+        rendered = fetch_and_send.render_briefing_markdown_html(
+            "도입 **강조** 문장\n\n- 첫 <항목>\n- 둘째 항목\n\n마무리"
+        )
+
+        self.assertIn("<p>도입 <strong>강조</strong> 문장</p>", rendered)
+        self.assertIn("<ul class='detail-summary-list'>", rendered)
+        self.assertIn("<li>첫 &lt;항목&gt;</li>", rendered)
+        self.assertIn("<p>마무리</p>", rendered)
+
     def test_english_item_stores_detail_fields(self) -> None:
         item = {
             "id": "abc123",
@@ -55,9 +72,11 @@ class EnrichmentTests(unittest.TestCase):
                                 "translated_title": "오픈AI, 더 빠른 코딩 워크플로 공개",
                                 "short_summary": "코드 리뷰와 자동화를 개선하는 워크플로를 공개했다.",
                                 "detailed_summary": (
-                                    "OpenAI가 팀 생산성을 높이는 새로운 코딩 워크플로를 공개했다. "
-                                    "이번 변화는 코드 리뷰와 자동화 흐름을 더 자연스럽게 연결하는 데 초점을 둔다. "
-                                    "팀 협업과 반복 업무 감소 측면에서 의미가 크다."
+                                    "새 코딩 워크플로가 공개됐다.\n\n"
+                                    "* 코드 리뷰 흐름을 더 짧게 만든다\n"
+                                    "- 자동화 연결이 자연스럽다\n"
+                                    "- 팀 협업 병목을 줄인다\n\n"
+                                    "반복 업무를 덜어주는 변화로 볼 수 있다."
                                 ),
                             }
                         )
@@ -81,6 +100,16 @@ class EnrichmentTests(unittest.TestCase):
         self.assertIn("translated_title", enriched)
         self.assertIn("short_summary", enriched)
         self.assertIn("detailed_summary", enriched)
+        self.assertEqual(
+            enriched["detailed_summary"],
+            (
+                "새 코딩 워크플로가 공개됐다.\n\n"
+                "- 코드 리뷰 흐름을 더 짧게 만든다\n"
+                "- 자동화 연결이 자연스럽다\n"
+                "- 팀 협업 병목을 줄인다\n\n"
+                "반복 업무를 덜어주는 변화로 볼 수 있다."
+            ),
+        )
         self.assertEqual(enriched["ai_model"], "gpt-test")
         mocked.assert_called_once()
 

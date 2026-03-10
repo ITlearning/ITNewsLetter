@@ -21,6 +21,42 @@ export function normalizeText(value, fallback = "") {
     .join(" ");
 }
 
+export function normalizeBriefingMarkdown(value, fallback = "") {
+  const text = String(value || fallback).replace(/\r\n/g, "\n").replace(/\r/g, "\n").trim();
+  if (!text) {
+    return "";
+  }
+
+  const normalizedLines = [];
+  let previousBlank = false;
+  for (const rawLine of text.split("\n")) {
+    let line = String(rawLine || "")
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean)
+      .join(" ");
+
+    if (!line) {
+      if (normalizedLines.length && !previousBlank) {
+        normalizedLines.push("");
+      }
+      previousBlank = true;
+      continue;
+    }
+
+    if (line.startsWith("* ")) {
+      line = "- " + line.slice(2).trim();
+    } else if (line.startsWith("- ")) {
+      line = "- " + line.slice(2).trim();
+    }
+
+    normalizedLines.push(line);
+    previousBlank = false;
+  }
+
+  return normalizedLines.join("\n").trim();
+}
+
 function toLowerSet(values) {
   if (!Array.isArray(values)) {
     return new Set();

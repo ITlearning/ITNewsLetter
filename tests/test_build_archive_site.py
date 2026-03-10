@@ -72,7 +72,12 @@ class BuildSiteTests(unittest.TestCase):
                         "title": "OpenAI ships a faster workflow",
                         "translated_title": "오픈AI, 더 빠른 워크플로 공개",
                         "short_summary": "목록용 짧은 요약",
-                        "detailed_summary": "상세 페이지에서 보여줄 충분한 브리핑 요약입니다.",
+                        "detailed_summary": (
+                            "상세 페이지 첫 문단입니다.\n\n"
+                            "- **핵심 변화**를 먼저 짚는다\n"
+                            "- 읽기 흐름을 더 빠르게 만든다\n\n"
+                            "마지막 문단에서 의미를 정리합니다."
+                        ),
                         "summary": "raw source text",
                         "link": "https://example.com/eng1",
                         "sent_at": "2026-03-10T02:48:40+00:00",
@@ -173,7 +178,9 @@ class BuildSiteTests(unittest.TestCase):
             legacy_detail = (dist_dir / "news" / "legacy-eng" / "index.html").read_text(encoding="utf-8")
             hn_detail = (dist_dir / "news" / "hn-safe" / "index.html").read_text(encoding="utf-8")
 
-            self.assertIn("상세 페이지에서 보여줄 충분한 브리핑 요약입니다.", english_detail)
+            self.assertIn("<ul class='detail-summary-list'>", english_detail)
+            self.assertIn("<strong>핵심 변화</strong>", english_detail)
+            self.assertIn("data-summary-markdown=", english_detail)
             self.assertIn("긱뉴스 RSS에서 제공하는 한국어 요약 미리보기입니다.", korean_detail)
             self.assertNotIn("원문 전체를 복제하면 안 됩니다.", korean_detail)
             self.assertNotIn("with AI", korean_detail)

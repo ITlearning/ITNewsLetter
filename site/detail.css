@@ -196,54 +196,37 @@ a {
   font-size: 1.04rem;
 }
 
-.detail-summary-line {
+.detail-summary ul {
+  margin: 0 0 16px;
+  padding-left: 22px;
+}
+
+.detail-summary li {
+  margin: 0 0 10px;
+  line-height: 1.8;
+  font-size: 1.02rem;
+}
+
+.detail-summary li:last-child {
+  margin-bottom: 0;
+}
+
+.detail-summary strong {
+  font-weight: 700;
+}
+
+.detail-summary-block {
   position: relative;
 }
 
-.detail-summary-line .detail-summary-text {
-  display: block;
+.detail-summary-line {
   position: relative;
-  color: var(--ink);
 }
 
 .detail-summary-line.is-reveal {
   opacity: 0;
   transform: translateX(10px);
   animation: detail-summary-reveal 540ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: calc(var(--reveal-index, 0) * 110ms);
-}
-
-.detail-summary-line.is-reveal .detail-summary-text {
-  isolation: isolate;
-  opacity: 0.22;
-  animation: detail-summary-text-fade 620ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
-  animation-delay: calc(var(--reveal-index, 0) * 110ms);
-}
-
-.detail-summary-line.is-reveal .detail-summary-text::after {
-  content: attr(data-text);
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(
-    92deg,
-    #6ee7ff 0%,
-    #38bdf8 18%,
-    #818cf8 36%,
-    #f472b6 54%,
-    #f59e0b 72%,
-    #fef08a 100%
-  );
-  background-size: 100% 100%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  -webkit-background-clip: text;
-  background-clip: text;
-  opacity: 0;
-  filter: saturate(1.16);
-  animation: detail-text-spectrum 980ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
   animation-delay: calc(var(--reveal-index, 0) * 110ms);
 }
 
@@ -396,42 +379,6 @@ a {
   }
 }
 
-@keyframes detail-summary-text-fade {
-  0% {
-    opacity: 0.22;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes detail-text-spectrum {
-  0% {
-    opacity: 0;
-    filter: saturate(1.24) brightness(1.04);
-  }
-
-  18% {
-    opacity: 0.92;
-  }
-
-  55% {
-    opacity: 0.72;
-    filter: saturate(1.14);
-  }
-
-  82% {
-    opacity: 0.34;
-    filter: saturate(1.16);
-  }
-
-  100% {
-    opacity: 0;
-    filter: saturate(1);
-  }
-}
-
 @keyframes detail-skeleton-shimmer {
   0% {
     background-position: 100% 0;
@@ -542,17 +489,5 @@ a {
   .detail-summary-line.is-reveal {
     opacity: 1 !important;
     transform: none !important;
-  }
-
-  .detail-summary-line .detail-summary-text,
-  .detail-summary-line.is-reveal .detail-summary-text {
-    color: inherit !important;
-    -webkit-text-fill-color: currentColor !important;
-    background: none !important;
-    filter: none !important;
-  }
-
-  .detail-summary-line.is-reveal .detail-summary-text::after {
-    content: none !important;
   }
 }

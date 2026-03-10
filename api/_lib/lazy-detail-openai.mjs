@@ -1,4 +1,14 @@
-import { normalizeText } from "./lazy-detail-config.mjs";
+import { normalizeBriefingMarkdown, normalizeText } from "./lazy-detail-config.mjs";
+
+const HUMANIZER_PROMPT_GUIDANCE = [
+  "- 한국어 문장을 사람이 쓴 것처럼 자연스럽게 써라.",
+  "- 쉼표를 과하게 쓰지 말고, 필요하면 문장을 나눠라.",
+  "- 영어 번역투를 줄이고 한국어다운 어순과 호흡을 사용하라.",
+  "- '핵심적이다', '효과적이다', '혁신적이다', '중요하다', '다양하다' 같은 상투적 표현을 반복하지 말라.",
+  "- 문장 길이와 리듬을 조금씩 다르게 써라.",
+  "- 불필요한 대명사, 지시어, 복수형 '-들' 남발을 피하라.",
+  "- 의미와 사실은 바꾸지 말고, 설명은 더 읽기 쉽게 재구성하라.",
+].join("\n");
 
 function parseJsonFromText(text) {
   const raw = String(text || "").trim();
@@ -61,12 +71,16 @@ export async function generateDetailedSummary(item, articleText, config) {
       : "아래 IT 기사 원문을 바탕으로 한국어 브리핑을 만들어줘.",
     "반드시 JSON만 출력해.",
     '스키마: {"detailed_summary":""}',
-    "- detailed_summary: 4~7문장, 250~700자",
+    "- detailed_summary: Markdown 허용. 총 350~900자.",
+    "  형식: 짧은 도입 문단 1개 + '- ' bullet 3~5개 + 의미/맥락 문단 1개",
+    "  허용 문법: 문단, '- ' bullet, '**강조**'만 사용",
     "- 기사 핵심 주장, 맥락, 실제 의미를 중심으로 정리",
     "- 긴 인용문이나 원문 문장을 그대로 베끼지 말고 재서술",
     isHnItem
       ? "- 외부 기사 원문이 없더라도 HN 본문과 댓글 논의에서 드러난 쟁점을 중심으로 정리"
       : "- 원문 핵심 주장과 맥락을 중심으로 정리",
+    "",
+    HUMANIZER_PROMPT_GUIDANCE,
     "",
     `Title: ${normalizeText(item.title)}`,
     `Source: ${normalizeText(item.source)}`,
@@ -116,7 +130,7 @@ export async function generateDetailedSummary(item, articleText, config) {
     const payload = await response.json();
     const content = extractMessageContent(payload);
     const parsed = parseJsonFromText(content);
-    const detailedSummary = normalizeText(parsed.detailed_summary);
+    const detailedSummary = normalizeBriefingMarkdown(parsed.detailed_summary);
     if (detailedSummary) {
       return {
         detailedSummary,

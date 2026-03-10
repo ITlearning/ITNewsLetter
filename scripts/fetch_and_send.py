@@ -32,6 +32,15 @@ USER_AGENT = "ITNewsLetterBot/1.0 (+https://github.com/)"
 HN_ITEM_ID_RE = re.compile(r"news\.ycombinator\.com/item\?id=(\d+)", re.IGNORECASE)
 HN_POINTS_RE = re.compile(r"\bPoints:\s*(\d+)\b", re.IGNORECASE)
 HN_COMMENTS_RE = re.compile(r"(?:#\s*Comments:|Comments:)\s*(\d+)\b", re.IGNORECASE)
+BRIEFING_BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
+
+HUMANIZER_PROMPT_GUIDANCE = """- 한국어 문장을 사람이 쓴 것처럼 자연스럽게 써라.
+- 쉼표를 과하게 쓰지 말고, 필요하면 문장을 나눠라.
+- 영어 번역투를 줄이고 한국어다운 어순과 호흡을 사용하라.
+- '핵심적이다', '효과적이다', '혁신적이다', '중요하다', '다양하다' 같은 상투적 표현을 반복하지 말라.
+- 문장 길이와 리듬을 조금씩 다르게 써라.
+- 불필요한 대명사, 지시어, 복수형 '-들' 남발을 피하라.
+- 의미와 사실은 바꾸지 말고, 설명은 더 읽기 쉽게 재구성하라."""
 
 DEFAULT_SOURCE_PRIORITY_BOOST: dict[str, int] = {
     "GeekNews": 45,
@@ -218,6 +227,85 @@ def write_json(path: Path, payload: Any) -> None:
 def normalize_text(raw: Any, fallback: str = "") -> str:
     text = str(raw or fallback).replace("\n", " ").strip()
     return " ".join(text.split())
+
+
+def normalize_briefing_markdown(raw: Any, fallback: str = "") -> str:
+    text = str(raw or fallback).replace("\r\n", "\n").replace("\r", "\n").strip()
+    if not text:
+        return ""
+
+    normalized_lines: list[str] = []
+    previous_blank = False
+    for raw_line in text.split("\n"):
+        line = " ".join(str(raw_line).strip().split())
+        if not line:
+            if normalized_lines and not previous_blank:
+                normalized_lines.append("")
+            previous_blank = True
+            continue
+
+        if line.startswith("* "):
+            line = "- " + line[2:].strip()
+        elif line.startswith("- "):
+            line = "- " + line[2:].strip()
+        normalized_lines.append(line)
+        previous_blank = False
+
+    return "\n".join(normalized_lines).strip()
+
+
+def render_inline_briefing_markdown(text: str) -> str:
+    escaped = html.escape(text)
+    return BRIEFING_BOLD_RE.sub(lambda match: f"<strong>{match.group(1)}</strong>", escaped)
+
+
+def render_briefing_markdown_html(text: str) -> str:
+    normalized = normalize_briefing_markdown(text)
+    if not normalized:
+        return "<p class='detail-summary-empty'>요약이 없습니다. 원문에서 자세히 확인하세요.</p>"
+
+    lines = normalized.split("\n")
+    html_blocks: list[str] = []
+    paragraph_lines: list[str] = []
+    list_items: list[str] = []
+
+    def flush_paragraph() -> None:
+        nonlocal paragraph_lines
+        if not paragraph_lines:
+            return
+        paragraph = " ".join(paragraph_lines).strip()
+        if paragraph:
+            html_blocks.append(f"<p>{render_inline_briefing_markdown(paragraph)}</p>")
+        paragraph_lines = []
+
+    def flush_list() -> None:
+        nonlocal list_items
+        if not list_items:
+            return
+        items_html = "".join(
+            f"<li>{render_inline_briefing_markdown(item)}</li>" for item in list_items if item
+        )
+        if items_html:
+            html_blocks.append(f"<ul class='detail-summary-list'>{items_html}</ul>")
+        list_items = []
+
+    for line in lines:
+        if not line:
+            flush_paragraph()
+            flush_list()
+            continue
+
+        if line.startswith("- "):
+            flush_paragraph()
+            list_items.append(line[2:].strip())
+            continue
+
+        flush_list()
+        paragraph_lines.append(line)
+
+    flush_paragraph()
+    flush_list()
+    return "\n".join(html_blocks)
 
 
 def truncate_text(text: str, limit: int) -> str:
@@ -1468,7 +1556,10 @@ def enrich_item_with_openai(
         '스키마: {"translated_title":"", "short_summary":"", "detailed_summary":""}\n'
         "- translated_title: 자연스러운 한국어 제목(40자 내외)\n"
         "- short_summary: 1~2문장 요약(총 120자 내외)\n\n"
-        "- detailed_summary: 4~7문장 요약(총 250~600자)\n\n"
+        "- detailed_summary: Markdown 허용. 총 350~900자.\n"
+        "  형식: 짧은 도입 문단 1개 + '- ' bullet 3~5개 + 의미/맥락 문단 1개\n"
+        "  허용 문법: 문단, '- ' bullet, '**강조**'만 사용\n\n"
+        f"{HUMANIZER_PROMPT_GUIDANCE}\n\n"
         f"{source_note}"
         f"Title: {item.get('title', '')}\n"
         f"Source: {source_name}\n"
@@ -1527,7 +1618,7 @@ def enrich_item_with_openai(
                     parsed = parse_json_from_text(str(content))
                     translated_title = normalize_text(parsed.get("translated_title"))
                     short_summary = normalize_text(parsed.get("short_summary"))
-                    detailed_summary = normalize_text(parsed.get("detailed_summary"))
+                    detailed_summary = normalize_briefing_markdown(parsed.get("detailed_summary"))
 
                     if translated_title:
                         item["translated_title"] = translated_title

@@ -19,9 +19,11 @@ from fetch_and_send import (
     ensure_archive_detail_fields,
     load_json,
     load_taxonomy,
+    normalize_briefing_markdown,
     normalize_text,
     now_utc,
     parse_published_datetime,
+    render_briefing_markdown_html,
     score_and_tag_item_priority,
     to_multiline_preview,
 )
@@ -112,7 +114,7 @@ def domain_is_allowlisted(domain: str, allowlist: set[str]) -> bool:
 
 
 def evaluate_lazy_detail_support(item: dict[str, Any], config: dict[str, Any]) -> tuple[bool, str]:
-    if normalize_text(item.get("detailed_summary")):
+    if normalize_briefing_markdown(item.get("detailed_summary")):
         return False, "already_present"
 
     if not item.get("is_english_source"):
@@ -158,7 +160,7 @@ def build_archive_items(
         tagged = score_and_tag_item_priority(ensure_archive_detail_fields(dict(item)), taxonomy=taxonomy)
         detail_slug = normalize_text(tagged.get("detail_slug"))
         item_id = normalize_text(tagged.get("id")) or detail_slug
-        detailed_summary = normalize_text(tagged.get("detailed_summary"))
+        detailed_summary = normalize_briefing_markdown(tagged.get("detailed_summary"))
         lazy_detail_supported, lazy_detail_reason = evaluate_lazy_detail_support(tagged, lazy_detail_config)
         archive_items.append(
             {
@@ -287,7 +289,7 @@ def load_detail_template() -> Template:
 
 
 def summary_for_detail(item: dict[str, Any]) -> str:
-    detailed = normalize_text(item.get("detailed_summary"))
+    detailed = normalize_briefing_markdown(item.get("detailed_summary"))
     if detailed:
         return detailed
 
@@ -302,13 +304,7 @@ def summary_for_detail(item: dict[str, Any]) -> str:
 
 
 def render_summary_html(text: str) -> str:
-    if not text:
-        return "<p class='detail-summary-empty'>요약이 없습니다. 원문에서 자세히 확인하세요.</p>"
-
-    parts = [segment.strip() for segment in text.split("\n") if segment.strip()]
-    if not parts:
-        parts = [text]
-    return "\n".join(f"<p>{html.escape(part)}</p>" for part in parts)
+    return render_briefing_markdown_html(text)
 
 
 def render_matched_terms_html(terms: list[str]) -> str:
@@ -409,6 +405,7 @@ def render_detail_page(
         original_block = f"<p class='detail-original-title'>원제: {html.escape(original_title)}</p>"
 
     summary_html = render_summary_html(summary_for_detail(item))
+    summary_markdown = summary_for_detail(item)
     matched_terms_html = render_matched_terms_html(item.get("matched_terms", []))
     related_html = render_related_items_html(related_items)
     pager_html = render_pager_html(previous_item, next_item)
@@ -436,6 +433,7 @@ def render_detail_page(
         sent_date=html.escape(format_date(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))),
         slot_label=html.escape(normalize_text(item.get("primary_slot_label"), "미분류")),
         briefing_badge_html=briefing_badge_html,
+        summary_markdown=html.escape(summary_markdown, quote=True),
         summary_html=summary_html,
         matched_terms_html=matched_terms_html,
         original_link=html.escape(normalize_text(item.get("link"), "#")),
