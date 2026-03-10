@@ -13,6 +13,7 @@
   - `tools_agents`
   - `strategy_insight`
 - Add a source-specific lazy-detail domain override for HN instead of allowing the whole source.
+- Broaden the HN override list with more engineering-blog and open-source domains seen in the archive.
 
 ## Safety Rules
 - HN lazy detail remains deny-by-default.
