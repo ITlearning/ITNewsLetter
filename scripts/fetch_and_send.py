@@ -311,6 +311,99 @@ def extract_hn_metric(text: str, pattern: re.Pattern[str]) -> str:
     return normalize_text(match.group(1))
 
 
+def duplicate_compare_title(item: dict[str, Any]) -> str:
+    source = normalize_text(item.get("source"))
+    if source == "Hacker News Frontpage (HN RSS)":
+        return normalize_text(item.get("translated_title") or item.get("title"))
+    return normalize_text(item.get("title") or item.get("translated_title"))
+
+
+def title_tokens_for_dedupe(text: str) -> set[str]:
+    normalized = normalize_text(text).lower()
+    if not normalized:
+        return set()
+    tokens = re.findall(r"[a-z0-9]+|[가-힣]+", normalized)
+    stopwords = {
+        "the",
+        "a",
+        "an",
+        "to",
+        "for",
+        "of",
+        "in",
+        "on",
+        "and",
+        "or",
+        "is",
+        "are",
+        "with",
+        "using",
+        "guide",
+        "how",
+        "show",
+        "hn",
+    }
+    return {token for token in tokens if len(token) >= 2 and token not in stopwords}
+
+
+def geeknews_hn_duplicate_preference(item: dict[str, Any]) -> tuple[int, int, str]:
+    source = normalize_text(item.get("source"))
+    if source == "Hacker News Frontpage (HN RSS)":
+        source_rank = 3
+    elif source == "GeekNews":
+        source_rank = 2
+    else:
+        source_rank = 0
+
+    time_rank = sort_time_rank(item)
+    score_rank = safe_int(item.get("priority_score"), 0)
+    return (source_rank, score_rank, time_rank)
+
+
+def are_geeknews_hn_duplicates(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    sources = {normalize_text(left.get("source")), normalize_text(right.get("source"))}
+    if sources != {"GeekNews", "Hacker News Frontpage (HN RSS)"}:
+        return False
+
+    left_title = duplicate_compare_title(left)
+    right_title = duplicate_compare_title(right)
+    if not left_title or not right_title:
+        return False
+
+    normalized_left = re.sub(r"[^a-z0-9가-힣]+", " ", left_title.lower()).strip()
+    normalized_right = re.sub(r"[^a-z0-9가-힣]+", " ", right_title.lower()).strip()
+    if normalized_left and normalized_left == normalized_right:
+        return True
+
+    left_tokens = title_tokens_for_dedupe(left_title)
+    right_tokens = title_tokens_for_dedupe(right_title)
+    if len(left_tokens) < 4 or len(right_tokens) < 4:
+        return False
+
+    overlap = len(left_tokens & right_tokens)
+    min_size = min(len(left_tokens), len(right_tokens))
+    return overlap >= 4 and (overlap / max(1, min_size)) >= 0.7
+
+
+def collapse_geeknews_hn_duplicates(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    kept: list[dict[str, Any]] = []
+
+    for item in items:
+        duplicate_index = next(
+            (index for index, existing in enumerate(kept) if are_geeknews_hn_duplicates(item, existing)),
+            None,
+        )
+        if duplicate_index is None:
+            kept.append(item)
+            continue
+
+        existing = kept[duplicate_index]
+        if geeknews_hn_duplicate_preference(item) > geeknews_hn_duplicate_preference(existing):
+            kept[duplicate_index] = item
+
+    return kept
+
+
 def slugify_archive_item(item: dict[str, Any]) -> str:
     item_id = normalize_text(item.get("id"))
     if item_id:
@@ -1043,6 +1136,12 @@ def priority_sort_key(item: dict[str, str]) -> tuple[int, str]:
     )
 
 
+def sort_time_rank(item: dict[str, Any]) -> int:
+    raw = normalize_text(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))
+    parsed = parse_published_datetime(raw)
+    return int(parsed.timestamp()) if parsed else 0
+
+
 def select_diverse_items(items: list[dict[str, Any]], target_count: int) -> list[dict[str, Any]]:
     if target_count <= 0:
         return []
@@ -1528,6 +1627,7 @@ def merge_news(existing: list[dict[str, Any]], new_sent: list[dict[str, str]], m
         by_id[item["id"]] = dict(item)
 
     merged = list(by_id.values())
+    merged = collapse_geeknews_hn_duplicates(merged)
 
     def sort_key(item: dict[str, Any]) -> str:
         return normalize_text(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))
@@ -1695,6 +1795,8 @@ def main() -> int:
             ai_enriched_total += 1
 
         enriched_items.append(enriched_item)
+
+    enriched_items = collapse_geeknews_hn_duplicates(enriched_items)
 
     batch_selection = select_discord_batch(
         enriched_items,

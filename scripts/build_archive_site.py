@@ -15,6 +15,7 @@ from fetch_and_send import (
     LAST_RUN_PATH,
     NEWS_PATH,
     TAXONOMY_PATH,
+    collapse_geeknews_hn_duplicates,
     ensure_archive_detail_fields,
     load_json,
     load_taxonomy,
@@ -49,6 +50,20 @@ def build_detail_url(detail_slug: str) -> str:
 
 def build_nested_detail_url(detail_slug: str) -> str:
     return f"../{detail_slug}/"
+
+
+def is_geeknews_item(item: dict[str, Any]) -> bool:
+    return normalize_text(item.get("source")) == "GeekNews"
+
+
+def detail_target_url(item: dict[str, Any], *, nested: bool) -> str:
+    if is_geeknews_item(item):
+        return normalize_text(item.get("link"), "#")
+
+    detail_slug = normalize_text(item.get("detail_slug"))
+    if not detail_slug:
+        return "#"
+    return build_nested_detail_url(detail_slug) if nested else build_detail_url(detail_slug)
 
 
 def normalize_string_set(values: Any) -> set[str]:
@@ -167,7 +182,7 @@ def build_archive_items(
                 "slot_scores": tagged.get("slot_scores", {}),
                 "matched_terms": tagged.get("matched_terms", []),
                 "detail_slug": detail_slug,
-                "detail_url": build_detail_url(detail_slug),
+                "detail_url": detail_target_url(tagged, nested=False),
                 "has_detailed_summary": bool(detailed_summary),
                 "is_english_source": bool(tagged.get("is_english_source")),
                 "hn_story_id": normalize_text(tagged.get("hn_story_id")),
@@ -180,7 +195,7 @@ def build_archive_items(
         )
 
     archive_items.sort(key=sort_key, reverse=True)
-    return archive_items
+    return collapse_geeknews_hn_duplicates(archive_items)
 
 
 def build_payload(items: list[dict[str, Any]], taxonomy: dict[str, Any]) -> dict[str, Any]:
@@ -280,7 +295,7 @@ def summary_for_detail(item: dict[str, Any]) -> str:
     if short_summary:
         return short_summary
 
-    if normalize_text(item.get("source")) == "GeekNews":
+    if is_geeknews_item(item):
         return to_multiline_preview(item.get("summary", ""), max_lines=5, line_width=52, max_chars=420)
 
     return ""
@@ -319,8 +334,7 @@ def render_related_items_html(items: list[dict[str, Any]]) -> str:
         slot = html.escape(normalize_text(item.get("primary_slot_label"), "미분류"))
         source = html.escape(normalize_text(item.get("source"), "Unknown"))
         date = html.escape(format_date(item.get("sent_at") or item.get("published_at") or item.get("fetched_at")))
-        detail_slug = normalize_text(item.get("detail_slug"))
-        url = html.escape(build_nested_detail_url(detail_slug) if detail_slug else "#")
+        url = html.escape(detail_target_url(item, nested=True))
         cards.append(
             "<a class='related-card' href='{url}'>"
             "<span class='related-source'>{source}</span>"
@@ -345,8 +359,7 @@ def render_pager_link(item: dict[str, Any] | None, label: str) -> str:
     if not item:
         return ""
 
-    detail_slug = normalize_text(item.get("detail_slug"))
-    url = html.escape(build_nested_detail_url(detail_slug) if detail_slug else "#")
+    url = html.escape(detail_target_url(item, nested=True))
     title = html.escape(normalize_text(item.get("translated_title") or item.get("title"), "(제목 없음)"))
     return (
         "<a class='pager-link' href='{url}'>"

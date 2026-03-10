@@ -190,6 +190,28 @@ class EnrichmentTests(unittest.TestCase):
             "https://news.ycombinator.com/item?id=47317132",
         )
 
+    def test_hn_duplicate_beats_geeknews_duplicate(self) -> None:
+        items = [
+            {
+                "id": "gn-1",
+                "source": "GeekNews",
+                "title": "Go 표준 라이브러리에 UUID 패키지 추가 제안",
+                "sent_at": "2026-03-08T08:47:14+00:00",
+            },
+            {
+                "id": "hn-1",
+                "source": "Hacker News Frontpage (HN RSS)",
+                "title": "UUID package coming to Go standard library",
+                "translated_title": "Go 표준 라이브러리에 UUID 패키지 추가 예정",
+                "sent_at": "2026-03-07T05:06:29+00:00",
+            },
+        ]
+
+        collapsed = fetch_and_send.collapse_geeknews_hn_duplicates(items)
+
+        self.assertEqual(len(collapsed), 1)
+        self.assertEqual(collapsed[0]["id"], "hn-1")
+
 
 if __name__ == "__main__":
     unittest.main()

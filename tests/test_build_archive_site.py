@@ -108,6 +108,23 @@ class BuildSiteTests(unittest.TestCase):
                         "sent_at": "2026-03-09T22:15:00+00:00",
                     },
                     {
+                        "id": "dup-gn",
+                        "source": "GeekNews",
+                        "title": "Go 표준 라이브러리에 UUID 패키지 추가 제안",
+                        "summary": "긱뉴스 중복 기사",
+                        "link": "https://news.hada.io/topic?id=27299",
+                        "sent_at": "2026-03-08T08:47:14+00:00",
+                    },
+                    {
+                        "id": "dup-hn",
+                        "source": "Hacker News Frontpage (HN RSS)",
+                        "title": "UUID package coming to Go standard library",
+                        "translated_title": "Go 표준 라이브러리에 UUID 패키지 추가 예정",
+                        "short_summary": "HN 중복 기사",
+                        "link": "https://github.com/golang/go/issues/62026",
+                        "sent_at": "2026-03-07T05:06:29+00:00",
+                    },
+                    {
                         "id": "old1",
                         "source": "TechCrunch",
                         "title": "Older story",
@@ -169,6 +186,7 @@ class BuildSiteTests(unittest.TestCase):
             self.assertNotIn("href=\"./news/", english_detail)
 
             by_id = {item["id"]: item for item in archive_payload["items"]}
+            self.assertEqual(by_id["kor1"]["detail_url"], "https://news.hada.io/topic?id=1")
             self.assertFalse(by_id["eng1"]["lazy_detail_supported"])
             self.assertEqual(by_id["eng1"]["lazy_detail_reason"], "already_present")
             self.assertFalse(by_id["kor1"]["lazy_detail_supported"])
@@ -178,6 +196,8 @@ class BuildSiteTests(unittest.TestCase):
             self.assertTrue(by_id["hn-safe"]["lazy_detail_supported"])
             self.assertEqual(by_id["hn-safe"]["lazy_detail_reason"], "hn_api")
             self.assertEqual(by_id["hn-safe"]["hn_story_id"], "47317132")
+            self.assertIn("dup-hn", by_id)
+            self.assertNotIn("dup-gn", by_id)
 
 
 if __name__ == "__main__":
