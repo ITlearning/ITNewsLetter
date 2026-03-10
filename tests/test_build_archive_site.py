@@ -62,12 +62,13 @@ class BuildSiteTests(unittest.TestCase):
             dist_dir = tmp_root / "dist"
             news_path = tmp_root / "news.json"
             last_run_path = tmp_root / "last_run.json"
+            allowlist_path = tmp_root / "lazy_detail_allowlist.json"
 
             payload = {
                 "items": [
                     {
                         "id": "eng1",
-                        "source": "AI Weekly",
+                        "source": "TechCrunch",
                         "title": "OpenAI ships a faster workflow",
                         "translated_title": "오픈AI, 더 빠른 워크플로 공개",
                         "short_summary": "목록용 짧은 요약",
@@ -86,6 +87,15 @@ class BuildSiteTests(unittest.TestCase):
                         "sent_at": "2026-03-10T02:48:40+00:00",
                     },
                     {
+                        "id": "legacy-eng",
+                        "source": "TechCrunch",
+                        "title": "Legacy English story",
+                        "short_summary": "기존 짧은 요약",
+                        "summary": "legacy feed snippet",
+                        "link": "https://techcrunch.com/2026/03/01/legacy-english-story/",
+                        "sent_at": "2026-03-09T22:30:00+00:00",
+                    },
+                    {
                         "id": "old1",
                         "source": "TechCrunch",
                         "title": "Older story",
@@ -100,12 +110,25 @@ class BuildSiteTests(unittest.TestCase):
                 json.dumps({"executed_at": "2026-03-10T02:48:40+00:00"}, ensure_ascii=False),
                 encoding="utf-8",
             )
+            allowlist_path.write_text(
+                json.dumps(
+                    {
+                        "allowed_sources": ["TechCrunch"],
+                        "excluded_sources": ["GeekNews"],
+                        "allowed_domains": ["techcrunch.com"],
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
 
             with (
                 patch.object(build_archive_site, "NEWS_PATH", news_path),
                 patch.object(build_archive_site, "LAST_RUN_PATH", last_run_path),
                 patch.object(build_archive_site, "DIST_DIR", dist_dir),
                 patch.object(build_archive_site, "SITE_DATA_PATH", dist_dir / "data" / "news-archive.json"),
+                patch.object(build_archive_site, "LAZY_DETAIL_ALLOWLIST_PATH", allowlist_path),
+                patch.dict("os.environ", {"LAZY_DETAIL_API_URL": "https://detail-api.example.com/api/lazy-detail"}),
             ):
                 build_archive_site.build_site()
 
@@ -113,13 +136,26 @@ class BuildSiteTests(unittest.TestCase):
             self.assertEqual(len(archive_payload["today_picks"]), 2)
             self.assertTrue((dist_dir / "news" / "eng1" / "index.html").exists())
             self.assertTrue((dist_dir / "news" / "kor1" / "index.html").exists())
+            self.assertTrue((dist_dir / "news" / "legacy-eng" / "index.html").exists())
 
             english_detail = (dist_dir / "news" / "eng1" / "index.html").read_text(encoding="utf-8")
             korean_detail = (dist_dir / "news" / "kor1" / "index.html").read_text(encoding="utf-8")
+            legacy_detail = (dist_dir / "news" / "legacy-eng" / "index.html").read_text(encoding="utf-8")
 
             self.assertIn("상세 페이지에서 보여줄 충분한 브리핑 요약입니다.", english_detail)
             self.assertIn("한국어 브리핑 요약", korean_detail)
             self.assertNotIn("원문 전체를 복제하면 안 됩니다.", korean_detail)
+            self.assertIn('data-item-id="legacy-eng"', legacy_detail)
+            self.assertIn('data-lazy-detail-supported="true"', legacy_detail)
+            self.assertIn("https://detail-api.example.com/api/lazy-detail", legacy_detail)
+
+            by_id = {item["id"]: item for item in archive_payload["items"]}
+            self.assertFalse(by_id["eng1"]["lazy_detail_supported"])
+            self.assertEqual(by_id["eng1"]["lazy_detail_reason"], "already_present")
+            self.assertFalse(by_id["kor1"]["lazy_detail_supported"])
+            self.assertEqual(by_id["kor1"]["lazy_detail_reason"], "not_english")
+            self.assertTrue(by_id["legacy-eng"]["lazy_detail_supported"])
+            self.assertEqual(by_id["legacy-eng"]["lazy_detail_reason"], "supported")
 
 
 if __name__ == "__main__":

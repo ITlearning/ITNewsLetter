@@ -15,8 +15,10 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 - `config/sources.yaml`: feed sources
 - `config/taxonomy.yaml`: shared taxonomy + source overlays
 - `config/taxonomy_examples.yaml`: representative examples for taxonomy tuning
+- `config/lazy_detail_allowlist.json`: on-demand detail briefing allowlist for legacy English items
 - `scripts/fetch_and_send.py`: fetch, dedupe, send logic
 - `scripts/build_archive_site.py`: build static archive payload and detail pages for GitHub Pages
+- `api/`: Vercel Functions for on-demand legacy detail briefings
 - `site/`: archive website source
 - `data/state.json`: previously sent IDs
 - `data/news.json`: archived sent items
@@ -37,6 +39,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 8. Manual runs can temporarily override the per-run range with `min_items_per_run` and `max_items_per_run`.
 9. Priority selection uses a shared 4-slot taxonomy across all sources and a GeekNews-specific overlay.
 10. To publish the archive site, set GitHub Pages source to `GitHub Actions`.
+11. Optional: add repository variable `LAZY_DETAIL_API_URL` after deploying the Vercel lazy-detail API.
 
 ## Local Dry Run
 ```bash
@@ -65,6 +68,27 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `OPENAI_FALLBACK_MODELS` (default: `gpt-4.1-mini,gpt-4.1-nano-2025-04-14,gpt-4.1-nano,gpt-4o-mini-2024-07-18,gpt-4o-mini`)
 - `OPENAI_TIMEOUT_SEC` (default: `20`)
 
+## Lazy Detail API (legacy English archive items)
+- New English items still generate `translated_title`, `short_summary`, and `detailed_summary` at dispatch time.
+- Older English archive items can lazily generate a richer `detailed_summary` on the detail page.
+- Korean items and GeekNews are excluded from lazy generation.
+- Supported legacy sources are controlled by `config/lazy_detail_allowlist.json`.
+- The archive detail page never stores or mirrors original article bodies. The API only stores generated `detailed_summary` in Redis.
+
+### Vercel setup
+Deploy this repository to Vercel and configure:
+- `ARCHIVE_DATA_URL`
+  - Example: `https://itlearning.github.io/ITNewsLetter/data/news-archive.json`
+- `OPENAI_API_KEY`
+- `OPENAI_MODEL` (optional, defaults to `gpt-4.1-mini-2025-04-14`)
+- `OPENAI_FALLBACK_MODELS` (optional)
+- `UPSTASH_REDIS_REST_URL`
+- `UPSTASH_REDIS_REST_TOKEN`
+
+Then set GitHub repository variable:
+- `LAZY_DETAIL_API_URL`
+  - Example: `https://your-project.vercel.app/api/lazy-detail`
+
 ## Notes
 - Some newsletters do not expose RSS/Atom feeds directly.
 - Add only verified feed URLs to `config/sources.yaml`.
@@ -74,6 +98,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - GeekNews posts include a short 3-4 line preview from feed summary when AI summary is not used.
 - English items can store `translated_title`, `short_summary`, and `detailed_summary` at dispatch time.
 - Korean and GeekNews items do not trigger extra detail-page GPT calls.
+- Older allowlisted English articles can request a richer detail briefing on demand through the Vercel API.
 - Multiple selected items are grouped into a single Discord push per run (subject to message size limit).
 - Batch size is selected automatically within the configured min/max range, shrinking from max to min when the Discord message gets too long.
 - Selection logs now include the winning taxonomy slot and matched terms for explainability.

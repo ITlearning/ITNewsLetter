@@ -17,7 +17,14 @@
     <link rel="stylesheet" href="../../detail.css" />
   </head>
   <body>
-    <main class="detail-shell">
+    <main
+      class="detail-shell"
+      data-item-id="$item_id"
+      data-has-detailed-summary="$has_detailed_summary"
+      data-lazy-detail-supported="$lazy_detail_supported"
+      data-lazy-detail-reason="$lazy_detail_reason"
+      data-lazy-detail-api-url="$lazy_detail_api_url"
+    >
       <nav class="detail-breadcrumb" aria-label="breadcrumb">
         <a class="back-link" href="../../">IT Dispatch Archive</a>
         <span class="breadcrumb-sep" aria-hidden="true">/</span>
@@ -43,7 +50,8 @@
           <h2>브리핑</h2>
           <p>원문을 읽기 전 핵심만 빠르게 파악하는 요약입니다.</p>
         </div>
-        <div class="detail-summary">
+        <p id="detail-status" class="detail-status is-hidden" aria-live="polite"></p>
+        <div id="detail-summary" class="detail-summary">
           $summary_html
         </div>
       </section>

@@ -3,11 +3,13 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import shutil
 from collections import Counter
 from pathlib import Path
 from string import Template
 from typing import Any
+from urllib.parse import urlparse
 
 from fetch_and_send import (
     LAST_RUN_PATH,
@@ -27,6 +29,7 @@ SITE_SRC = ROOT / "site"
 DIST_DIR = ROOT / "dist"
 SITE_DATA_PATH = DIST_DIR / "data" / "news-archive.json"
 DETAIL_TEMPLATE_PATH = SITE_SRC / "templates" / "detail.html"
+LAZY_DETAIL_ALLOWLIST_PATH = ROOT / "config" / "lazy_detail_allowlist.json"
 
 
 def sort_key(item: dict[str, Any]) -> tuple[int, str]:
@@ -43,16 +46,77 @@ def build_detail_url(detail_slug: str) -> str:
     return f"./news/{detail_slug}/"
 
 
-def build_archive_items(items: list[dict[str, Any]], taxonomy: dict[str, Any]) -> list[dict[str, Any]]:
+def normalize_string_set(values: Any) -> set[str]:
+    if not isinstance(values, list):
+        return set()
+    return {normalize_text(value).lower() for value in values if normalize_text(value)}
+
+
+def load_lazy_detail_config(path: Path) -> dict[str, Any]:
+    raw = load_json(path, {})
+    if not isinstance(raw, dict):
+        raw = {}
+
+    return {
+        "allowed_sources": normalize_string_set(raw.get("allowed_sources")),
+        "excluded_sources": normalize_string_set(raw.get("excluded_sources")),
+        "allowed_domains": normalize_string_set(raw.get("allowed_domains")),
+    }
+
+
+def extract_link_domain(url: Any) -> str:
+    parsed = urlparse(normalize_text(url))
+    return normalize_text(parsed.netloc).lower()
+
+
+def domain_is_allowlisted(domain: str, allowlist: set[str]) -> bool:
+    if not domain:
+        return False
+    return any(domain == allowed or domain.endswith(f".{allowed}") for allowed in allowlist)
+
+
+def evaluate_lazy_detail_support(item: dict[str, Any], config: dict[str, Any]) -> tuple[bool, str]:
+    if normalize_text(item.get("detailed_summary")):
+        return False, "already_present"
+
+    if not item.get("is_english_source"):
+        return False, "not_english"
+
+    source = normalize_text(item.get("source")).lower()
+    if source in config.get("excluded_sources", set()):
+        return False, "source_excluded"
+
+    allowed_sources = config.get("allowed_sources", set())
+    if allowed_sources and source not in allowed_sources:
+        return False, "source_not_allowlisted"
+
+    domain = extract_link_domain(item.get("link"))
+    if not domain:
+        return False, "missing_domain"
+
+    allowed_domains = config.get("allowed_domains", set())
+    if allowed_domains and not domain_is_allowlisted(domain, allowed_domains):
+        return False, "domain_not_allowlisted"
+
+    return True, "supported"
+
+
+def build_archive_items(
+    items: list[dict[str, Any]],
+    taxonomy: dict[str, Any],
+    lazy_detail_config: dict[str, Any],
+) -> list[dict[str, Any]]:
     archive_items: list[dict[str, Any]] = []
 
     for item in items:
         tagged = score_and_tag_item_priority(ensure_archive_detail_fields(dict(item)), taxonomy=taxonomy)
         detail_slug = normalize_text(tagged.get("detail_slug"))
+        item_id = normalize_text(tagged.get("id")) or detail_slug
         detailed_summary = normalize_text(tagged.get("detailed_summary"))
+        lazy_detail_supported, lazy_detail_reason = evaluate_lazy_detail_support(tagged, lazy_detail_config)
         archive_items.append(
             {
-                "id": tagged.get("id"),
+                "id": item_id,
                 "source": tagged.get("source"),
                 "title": tagged.get("title"),
                 "translated_title": tagged.get("translated_title"),
@@ -75,6 +139,8 @@ def build_archive_items(items: list[dict[str, Any]], taxonomy: dict[str, Any]) -
                 "detail_url": build_detail_url(detail_slug),
                 "has_detailed_summary": bool(detailed_summary),
                 "is_english_source": bool(tagged.get("is_english_source")),
+                "lazy_detail_supported": lazy_detail_supported,
+                "lazy_detail_reason": lazy_detail_reason,
             }
         )
 
@@ -276,6 +342,7 @@ def render_detail_page(
     previous_item: dict[str, Any] | None,
     next_item: dict[str, Any] | None,
     template: Template,
+    lazy_detail_api_url: str,
 ) -> str:
     translated_title = normalize_text(item.get("translated_title") or item.get("title"), "(제목 없음)")
     original_title = normalize_text(item.get("title"))
@@ -292,6 +359,11 @@ def render_detail_page(
         page_title=html.escape(translated_title),
         translated_title=html.escape(translated_title),
         original_title_block=original_block,
+        item_id=html.escape(normalize_text(item.get("id"), item.get("detail_slug"))),
+        has_detailed_summary=str(bool(item.get("has_detailed_summary"))).lower(),
+        lazy_detail_supported=str(bool(item.get("lazy_detail_supported"))).lower(),
+        lazy_detail_reason=html.escape(normalize_text(item.get("lazy_detail_reason"))),
+        lazy_detail_api_url=html.escape(normalize_text(lazy_detail_api_url)),
         source=html.escape(normalize_text(item.get("source"), "Unknown")),
         sent_date=html.escape(format_date(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))),
         slot_label=html.escape(normalize_text(item.get("primary_slot_label"), "미분류")),
@@ -303,7 +375,7 @@ def render_detail_page(
     )
 
 
-def write_detail_pages(items: list[dict[str, Any]]) -> None:
+def write_detail_pages(items: list[dict[str, Any]], lazy_detail_api_url: str) -> None:
     template = load_detail_template()
     for index, item in enumerate(items):
         detail_slug = normalize_text(item.get("detail_slug"))
@@ -321,6 +393,7 @@ def write_detail_pages(items: list[dict[str, Any]]) -> None:
             previous_item=previous_item,
             next_item=next_item,
             template=template,
+            lazy_detail_api_url=lazy_detail_api_url,
         )
         (output_dir / "index.html").write_text(page_html, encoding="utf-8")
 
@@ -335,15 +408,17 @@ def build_site() -> None:
         raw_items = []
 
     taxonomy = load_taxonomy(TAXONOMY_PATH)
-    archive_items = build_archive_items(raw_items, taxonomy=taxonomy)
+    lazy_detail_config = load_lazy_detail_config(LAZY_DETAIL_ALLOWLIST_PATH)
+    archive_items = build_archive_items(raw_items, taxonomy=taxonomy, lazy_detail_config=lazy_detail_config)
     payload = build_payload(archive_items, taxonomy=taxonomy)
+    lazy_detail_api_url = os.getenv("LAZY_DETAIL_API_URL", "").strip()
 
     if DIST_DIR.exists():
         shutil.rmtree(DIST_DIR)
     shutil.copytree(SITE_SRC, DIST_DIR)
     (DIST_DIR / "data").mkdir(parents=True, exist_ok=True)
     SITE_DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    write_detail_pages(archive_items)
+    write_detail_pages(archive_items, lazy_detail_api_url)
     (DIST_DIR / ".nojekyll").write_text("", encoding="utf-8")
 
 

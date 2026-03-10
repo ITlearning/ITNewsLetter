@@ -168,6 +168,42 @@ a {
   margin-bottom: 0;
 }
 
+.detail-summary-empty {
+  color: var(--muted);
+}
+
+.detail-status {
+  margin: 0 0 14px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.detail-status.is-hidden {
+  display: none;
+}
+
+.detail-status.is-loading {
+  background: rgba(37, 99, 235, 0.08);
+  color: #1849af;
+}
+
+.detail-status.is-success {
+  background: rgba(20, 83, 45, 0.08);
+  color: #166534;
+}
+
+.detail-status.is-muted {
+  background: rgba(26, 31, 39, 0.06);
+  color: var(--muted);
+}
+
+.detail-status.is-error {
+  background: rgba(185, 28, 28, 0.08);
+  color: #b91c1c;
+}
+
 .detail-chip-row {
   display: flex;
   flex-wrap: wrap;
