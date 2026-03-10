@@ -33,6 +33,22 @@ function toLowerSet(values) {
   );
 }
 
+function toLowerSetMap(values) {
+  if (!values || typeof values !== "object" || Array.isArray(values)) {
+    return new Map();
+  }
+
+  const result = new Map();
+  for (const [sourceName, domains] of Object.entries(values)) {
+    const normalizedSource = normalizeText(sourceName).toLowerCase();
+    const normalizedDomains = toLowerSet(domains);
+    if (normalizedSource && normalizedDomains.size) {
+      result.set(normalizedSource, normalizedDomains);
+    }
+  }
+  return result;
+}
+
 function toInt(value, fallback) {
   const parsed = Number.parseInt(String(value || ""), 10);
   return Number.isFinite(parsed) && parsed > 0 ? parsed : fallback;
@@ -79,17 +95,25 @@ export function evaluateLazyDetailSupport(item, config) {
   }
 
   const source = normalizeText(item.source).toLowerCase();
+  const domain = extractLinkDomain(item.link);
+  if (!domain) {
+    return { supported: false, reason: "missing_domain" };
+  }
+
+  const overrideDomains = config.sourceDomainOverrides.get(source);
+  if (overrideDomains && overrideDomains.size) {
+    if (domainIsAllowlisted(domain, overrideDomains)) {
+      return { supported: true, reason: "supported" };
+    }
+    return { supported: false, reason: "source_domain_not_allowlisted" };
+  }
+
   if (config.excludedSources.has(source)) {
     return { supported: false, reason: "source_excluded" };
   }
 
   if (config.allowedSources.size && !config.allowedSources.has(source)) {
     return { supported: false, reason: "source_not_allowlisted" };
-  }
-
-  const domain = extractLinkDomain(item.link);
-  if (!domain) {
-    return { supported: false, reason: "missing_domain" };
   }
 
   if (config.allowedDomains.size && !domainIsAllowlisted(domain, config.allowedDomains)) {
@@ -134,6 +158,7 @@ export async function loadLazyDetailConfig() {
     allowedSources: toLowerSet(rawConfig.allowed_sources),
     excludedSources: toLowerSet(rawConfig.excluded_sources),
     allowedDomains: toLowerSet(rawConfig.allowed_domains),
+    sourceDomainOverrides: toLowerSetMap(rawConfig.source_domain_overrides),
     archiveDataUrl: normalizeText(process.env.ARCHIVE_DATA_URL),
     openaiApiKey: normalizeText(process.env.OPENAI_API_KEY),
     openaiModels: splitModelList(

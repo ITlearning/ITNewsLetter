@@ -96,6 +96,15 @@ class BuildSiteTests(unittest.TestCase):
                         "sent_at": "2026-03-09T22:30:00+00:00",
                     },
                     {
+                        "id": "hn-safe",
+                        "source": "Hacker News Frontpage (HN RSS)",
+                        "title": "An opinionated take on how to do important research that matters",
+                        "short_summary": "HN 원문 후보",
+                        "summary": "essay feed snippet",
+                        "link": "https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html",
+                        "sent_at": "2026-03-09T22:15:00+00:00",
+                    },
+                    {
                         "id": "old1",
                         "source": "TechCrunch",
                         "title": "Older story",
@@ -116,6 +125,9 @@ class BuildSiteTests(unittest.TestCase):
                         "allowed_sources": ["TechCrunch"],
                         "excluded_sources": ["GeekNews"],
                         "allowed_domains": ["techcrunch.com"],
+                        "source_domain_overrides": {
+                            "Hacker News Frontpage (HN RSS)": ["nicholas.carlini.com"]
+                        },
                     },
                     ensure_ascii=False,
                 ),
@@ -137,6 +149,7 @@ class BuildSiteTests(unittest.TestCase):
             self.assertTrue((dist_dir / "news" / "eng1" / "index.html").exists())
             self.assertTrue((dist_dir / "news" / "kor1" / "index.html").exists())
             self.assertTrue((dist_dir / "news" / "legacy-eng" / "index.html").exists())
+            self.assertTrue((dist_dir / "news" / "hn-safe" / "index.html").exists())
 
             english_detail = (dist_dir / "news" / "eng1" / "index.html").read_text(encoding="utf-8")
             korean_detail = (dist_dir / "news" / "kor1" / "index.html").read_text(encoding="utf-8")
@@ -156,6 +169,8 @@ class BuildSiteTests(unittest.TestCase):
             self.assertEqual(by_id["kor1"]["lazy_detail_reason"], "not_english")
             self.assertTrue(by_id["legacy-eng"]["lazy_detail_supported"])
             self.assertEqual(by_id["legacy-eng"]["lazy_detail_reason"], "supported")
+            self.assertTrue(by_id["hn-safe"]["lazy_detail_supported"])
+            self.assertEqual(by_id["hn-safe"]["lazy_detail_reason"], "supported")
 
 
 if __name__ == "__main__":

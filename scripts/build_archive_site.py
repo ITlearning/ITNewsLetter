@@ -52,6 +52,21 @@ def normalize_string_set(values: Any) -> set[str]:
     return {normalize_text(value).lower() for value in values if normalize_text(value)}
 
 
+def normalize_source_domain_overrides(raw: Any) -> dict[str, set[str]]:
+    if not isinstance(raw, dict):
+        return {}
+
+    overrides: dict[str, set[str]] = {}
+    for source_name, domains in raw.items():
+        normalized_source = normalize_text(source_name).lower()
+        if not normalized_source:
+            continue
+        normalized_domains = normalize_string_set(domains)
+        if normalized_domains:
+            overrides[normalized_source] = normalized_domains
+    return overrides
+
+
 def load_lazy_detail_config(path: Path) -> dict[str, Any]:
     raw = load_json(path, {})
     if not isinstance(raw, dict):
@@ -61,6 +76,7 @@ def load_lazy_detail_config(path: Path) -> dict[str, Any]:
         "allowed_sources": normalize_string_set(raw.get("allowed_sources")),
         "excluded_sources": normalize_string_set(raw.get("excluded_sources")),
         "allowed_domains": normalize_string_set(raw.get("allowed_domains")),
+        "source_domain_overrides": normalize_source_domain_overrides(raw.get("source_domain_overrides")),
     }
 
 
@@ -83,16 +99,23 @@ def evaluate_lazy_detail_support(item: dict[str, Any], config: dict[str, Any]) -
         return False, "not_english"
 
     source = normalize_text(item.get("source")).lower()
+    domain = extract_link_domain(item.get("link"))
+    if not domain:
+        return False, "missing_domain"
+
+    source_domain_overrides = config.get("source_domain_overrides", {})
+    override_domains = source_domain_overrides.get(source, set())
+    if override_domains:
+        if domain_is_allowlisted(domain, override_domains):
+            return True, "supported"
+        return False, "source_domain_not_allowlisted"
+
     if source in config.get("excluded_sources", set()):
         return False, "source_excluded"
 
     allowed_sources = config.get("allowed_sources", set())
     if allowed_sources and source not in allowed_sources:
         return False, "source_not_allowlisted"
-
-    domain = extract_link_domain(item.get("link"))
-    if not domain:
-        return False, "missing_domain"
 
     allowed_domains = config.get("allowed_domains", set())
     if allowed_domains and not domain_is_allowlisted(domain, allowed_domains):

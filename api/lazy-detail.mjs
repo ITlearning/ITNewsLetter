@@ -17,6 +17,7 @@ function unsupportedMessage(reason) {
     case "not_english":
     case "source_excluded":
     case "source_not_allowlisted":
+    case "source_domain_not_allowlisted":
     case "domain_not_allowlisted":
       return "이 기사는 추가 브리핑을 지원하지 않습니다.";
     case "missing_domain":

@@ -365,8 +365,39 @@ sources:
   "Hacker News Frontpage (HN RSS)":
     default_slot: practical_tech
     slot_boosts:
-      practical_tech: 2
-      tools_agents: 1
+      practical_tech: 4
+      tools_agents: 2
+      strategy_insight: 2
+    slot_overlays:
+      practical_tech:
+        strong_terms:
+          - show hn
+          - benchmark
+          - compiler
+          - shared state
+          - refactor
+          - open source
+        support_terms:
+          - implementation
+          - postmortem
+          - deep dive
+      tools_agents:
+        strong_terms:
+          - claude code
+          - ai-assisted
+          - llm
+          - coding tool
+          - agentic
+        support_terms:
+          - workflow
+          - tool
+          - local
+      strategy_insight:
+        support_terms:
+          - opinionated
+          - essay
+          - research
+          - lessons
 
   "Product Hunt Feed":
     default_slot: tools_agents

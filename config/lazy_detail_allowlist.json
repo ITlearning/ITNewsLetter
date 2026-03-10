@@ -7,7 +7,6 @@
   "excluded_sources": [
     "AI Weekly",
     "GeekNews",
-    "Hacker News Frontpage (HN RSS)",
     "Product Hunt Feed",
     "TLDR Tech",
     "Yozm IT",
@@ -19,6 +18,19 @@
     "techcrunch.com",
     "technologyreview.com"
   ],
+  "source_domain_overrides": {
+    "Hacker News Frontpage (HN RSS)": [
+      "anthropic.com",
+      "blog.mozilla.org",
+      "github.io",
+      "nicholas.carlini.com",
+      "openai.com",
+      "scottaaronson.blog",
+      "substack.com",
+      "techcrunch.com",
+      "technologyreview.com"
+    ]
+  },
   "archive_cache_ttl_seconds": 900,
   "cache_ttl_seconds": 15552000,
   "max_article_chars": 12000,

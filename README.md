@@ -73,6 +73,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - Older English archive items can lazily generate a richer `detailed_summary` on the detail page.
 - Korean items and GeekNews are excluded from lazy generation.
 - Supported legacy sources are controlled by `config/lazy_detail_allowlist.json`.
+- HN RSS lazy detail support is limited to curated downstream domains, not the whole HN source.
 - The archive detail page never stores or mirrors original article bodies. The API only stores generated `detailed_summary` in Redis.
 
 ### Vercel setup
@@ -95,6 +96,8 @@ Then set GitHub repository variable:
 - `source_type: sitemap` + `path_prefix` can be used for sites without RSS (e.g., Anthropic engineering posts).
 - New item selection uses a shared 4-slot taxonomy: `practical_tech`, `tools_agents`, `strategy_insight`, `industry_business`.
 - GeekNews has source-specific overlay terms and a dynamic cap: up to 2 items in a 5-item batch, up to 3 items in a 6-7 item batch.
+- HN RSS now has a stronger source prior and slot overlay so technical posts and engineering essays surface more often.
+- Product Hunt Feed is currently disabled by default because signal quality was low for the Discord batch.
 - GeekNews posts include a short 3-4 line preview from feed summary when AI summary is not used.
 - English items can store `translated_title`, `short_summary`, and `detailed_summary` at dispatch time.
 - Korean and GeekNews items do not trigger extra detail-page GPT calls.
