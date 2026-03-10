@@ -75,6 +75,25 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - Supported legacy sources are controlled by `config/lazy_detail_allowlist.json`.
 - HN RSS lazy detail support is limited to curated downstream domains, not the whole HN source.
 - The archive detail page never stores or mirrors original article bodies. The API only stores generated `detailed_summary` in Redis.
+- Lazy-detail Redis cache keys now use the `lazy-detail:v2:*` namespace, so older cached briefings are ignored automatically after deploy.
+
+### Refreshing legacy briefings
+Run a dry run first:
+
+```bash
+python3 scripts/reset_legacy_briefings.py
+```
+
+Apply the cleanup only after reviewing the sample output:
+
+```bash
+python3 scripts/reset_legacy_briefings.py --apply
+```
+
+What it does:
+- Clears only legacy plain-text `detailed_summary` values.
+- Preserves entries that already look like the new limited Markdown format.
+- Touches only items that can lazily regenerate a new briefing under the current allowlist policy.
 
 ### Vercel setup
 Deploy this repository to Vercel and configure:

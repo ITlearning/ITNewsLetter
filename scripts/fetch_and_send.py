@@ -254,6 +254,20 @@ def normalize_briefing_markdown(raw: Any, fallback: str = "") -> str:
     return "\n".join(normalized_lines).strip()
 
 
+def briefing_looks_like_markdown(raw: Any) -> bool:
+    text = str(raw or "")
+    normalized = normalize_briefing_markdown(text)
+    if not normalized:
+        return False
+
+    lines = [line for line in normalized.split("\n") if line.strip()]
+    if any(line.startswith("- ") for line in lines):
+        return True
+    if "**" in text:
+        return True
+    return len(lines) >= 2 and "\n\n" in normalized
+
+
 def render_inline_briefing_markdown(text: str) -> str:
     escaped = html.escape(text)
     return BRIEFING_BOLD_RE.sub(lambda match: f"<strong>{match.group(1)}</strong>", escaped)

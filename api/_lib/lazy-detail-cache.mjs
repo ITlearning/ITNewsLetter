@@ -1,5 +1,5 @@
 function cacheKey(itemId) {
-  return `lazy-detail:v1:${itemId}`;
+  return `lazy-detail:v2:${itemId}`;
 }
 
 async function runRedisCommand(config, command) {

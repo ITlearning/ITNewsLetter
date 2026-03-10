@@ -39,6 +39,12 @@ def build_fake_urlopen(payload_by_suffix):
 
 
 class EnrichmentTests(unittest.TestCase):
+    def test_briefing_looks_like_markdown_detects_supported_shapes(self) -> None:
+        self.assertFalse(fetch_and_send.briefing_looks_like_markdown("한 줄 평문 요약입니다."))
+        self.assertTrue(fetch_and_send.briefing_looks_like_markdown("도입\n\n- 항목 하나\n\n마무리"))
+        self.assertTrue(fetch_and_send.briefing_looks_like_markdown("도입 **강조** 문장"))
+        self.assertTrue(fetch_and_send.briefing_looks_like_markdown("첫 문단\n\n둘째 문단"))
+
     def test_normalize_briefing_markdown_preserves_structure(self) -> None:
         raw = "  도입 문장  \n\n* 첫 항목  \n- 둘째   항목\n\n  마무리 문장  "
 
