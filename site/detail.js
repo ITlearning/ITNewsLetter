@@ -170,6 +170,42 @@ function animateSummaryReveal(summaryEl) {
   }
 }
 
+function readSummaryText(summaryEl) {
+  if (!summaryEl) {
+    return "";
+  }
+
+  if (summaryEl.querySelector(".detail-summary-empty")) {
+    return "";
+  }
+
+  return Array.prototype.map
+    .call(summaryEl.querySelectorAll("p"), function (node) {
+      return String(node.textContent || "").trim();
+    })
+    .filter(Boolean)
+    .join("\n");
+}
+
+function animateInitialSummary(summaryEl) {
+  if (!summaryEl || prefersReducedMotion()) {
+    return;
+  }
+
+  if (summaryEl.dataset.initialRevealDone === "true") {
+    return;
+  }
+
+  var text = readSummaryText(summaryEl);
+  if (!text) {
+    return;
+  }
+
+  summaryEl.innerHTML = renderSummaryHtml(text, { animated: true });
+  summaryEl.dataset.initialRevealDone = "true";
+  animateSummaryReveal(summaryEl);
+}
+
 async function loadLazyDetail() {
   document.documentElement.dataset.detailReady = "true";
 
@@ -188,6 +224,7 @@ async function loadLazyDetail() {
   var hnStoryId = String(shell.dataset.hnStoryId || "").trim();
 
   if (hasDetailedSummary || !lazyDetailSupported || !apiUrl || !itemId) {
+    animateInitialSummary(summaryEl);
     return;
   }
 
@@ -234,11 +271,13 @@ async function loadLazyDetail() {
 
     if (status === "unsupported") {
       finishLoadingUi(loadingEl, summaryEl, loadingState, loadingState.originalHtml);
+      animateInitialSummary(summaryEl);
       setStatus(statusEl, "muted", message || "이 기사는 추가 브리핑을 지원하지 않습니다.");
       return;
     }
 
     finishLoadingUi(loadingEl, summaryEl, loadingState, loadingState.originalHtml);
+    animateInitialSummary(summaryEl);
     setStatus(
       statusEl,
       "error",
@@ -246,6 +285,7 @@ async function loadLazyDetail() {
     );
   } catch (error) {
     finishLoadingUi(loadingEl, summaryEl, loadingState, loadingState.originalHtml);
+    animateInitialSummary(summaryEl);
     setStatus(statusEl, "error", "추가 브리핑 생성에 실패했습니다. 원문에서 확인해 주세요.");
   }
 }
