@@ -247,6 +247,65 @@ class EnrichmentTests(unittest.TestCase):
         self.assertEqual(len(collapsed), 1)
         self.assertEqual(collapsed[0]["id"], "hn-1")
 
+    def test_discord_batch_content_prepends_top_three_titles_only(self) -> None:
+        items = [
+            {
+                "id": "1",
+                "source": "AI Weekly",
+                "title": "First original title",
+                "translated_title": "첫 번째 기사 제목",
+                "link": "https://example.com/1",
+            },
+            {
+                "id": "2",
+                "source": "AI Weekly",
+                "title": "Second original title",
+                "translated_title": "두 번째 기사 제목",
+                "link": "https://example.com/2",
+            },
+            {
+                "id": "3",
+                "source": "AI Weekly",
+                "title": "Third original title",
+                "translated_title": "세 번째 기사 제목",
+                "link": "https://example.com/3",
+            },
+            {
+                "id": "4",
+                "source": "AI Weekly",
+                "title": "Fourth original title",
+                "translated_title": "네 번째 기사 제목",
+                "link": "https://example.com/4",
+            },
+        ]
+
+        batch = fetch_and_send.build_discord_batch_content(items, mention="", max_chars=1900)
+        preview_section, _ = batch.content.split("\n\n1. ", 1)
+
+        self.assertIn("- 첫 번째 기사 제목", preview_section)
+        self.assertIn("- 두 번째 기사 제목", preview_section)
+        self.assertIn("- 세 번째 기사 제목", preview_section)
+        self.assertNotIn("- 네 번째 기사 제목", preview_section)
+
+    def test_discord_batch_content_keeps_existing_detail_blocks_below_preview(self) -> None:
+        items = [
+            {
+                "id": "1",
+                "source": "AI Weekly",
+                "title": "Original title",
+                "translated_title": "번역된 제목",
+                "short_summary": "짧은 요약입니다.",
+                "link": "https://example.com/1",
+            }
+        ]
+
+        batch = fetch_and_send.build_discord_batch_content(items, mention="", max_chars=1900)
+
+        self.assertIn("이번 배치 뉴스 1건\n- 번역된 제목", batch.content)
+        self.assertIn("\n\n1. [AI Weekly]\n**번역된 제목**", batch.content)
+        self.assertIn("원제: **Original title**", batch.content)
+        self.assertIn("**요약**\n짧은 요약입니다.", batch.content)
+
 
 if __name__ == "__main__":
     unittest.main()

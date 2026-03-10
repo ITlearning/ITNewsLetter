@@ -67,6 +67,9 @@ SLOT_BUCKETS: dict[str, str] = {
     "industry_business": "general",
 }
 
+DISCORD_PREVIEW_ITEMS_LIMIT = 3
+DISCORD_PREVIEW_TITLE_LIMIT = 52
+
 
 @dataclass
 class Source:
@@ -1382,8 +1385,7 @@ def build_discord_item_block(
     include_summary: bool = True,
     compact_summary: bool = False,
 ) -> str:
-    title = item.get("translated_title") or item["title"]
-    title = truncate_text(title, 220)
+    title = truncate_text(normalize_text(item.get("translated_title") or item.get("title")), 220)
     lines: list[str] = [f"[{item['source']}]", f"**{title}**"]
 
     if item.get("translated_title") and item["translated_title"] != item["title"]:
@@ -1407,6 +1409,19 @@ def build_discord_item_block(
     return "\n".join(lines)
 
 
+def build_discord_title_preview(
+    items: list[dict[str, str]],
+    *,
+    max_items: int = DISCORD_PREVIEW_ITEMS_LIMIT,
+    title_limit: int = DISCORD_PREVIEW_TITLE_LIMIT,
+) -> list[str]:
+    preview_lines: list[str] = []
+    for item in items[: max(0, max_items)]:
+        title = normalize_text(item.get("translated_title") or item.get("title"), "(제목 없음)")
+        preview_lines.append(f"- {truncate_text(title, title_limit)}")
+    return preview_lines
+
+
 def build_discord_batch_content(
     items: list[dict[str, str]],
     mention: str,
@@ -1423,6 +1438,7 @@ def build_discord_batch_content(
         if mention:
             lines.append(mention)
         lines.append(header)
+        lines.extend(build_discord_title_preview(items))
         for idx, item in enumerate(items, start=1):
             block = build_discord_item_block(
                 item,
