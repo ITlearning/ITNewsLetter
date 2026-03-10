@@ -7,11 +7,20 @@ function escapeHtml(text) {
     .replace(/'/g, "&#39;");
 }
 
-function renderSummaryHtml(text) {
+function prefersReducedMotion() {
+  return Boolean(
+    window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  );
+}
+
+function renderSummaryHtml(text, options) {
   var normalized = String(text || "").trim();
   if (!normalized) {
     return "<p class='detail-summary-empty'>요약이 없습니다. 원문에서 자세히 확인하세요.</p>";
   }
+
+  var settings = options || {};
+  var animated = Boolean(settings.animated) && !prefersReducedMotion();
 
   var parts = normalized
     .split(/\n+/)
@@ -25,8 +34,19 @@ function renderSummaryHtml(text) {
   }
 
   return parts
-    .map(function (part) {
-      return "<p>" + escapeHtml(part) + "</p>";
+    .map(function (part, index) {
+      var content = escapeHtml(part);
+      if (!animated) {
+        return "<p>" + content + "</p>";
+      }
+
+      return (
+        "<p class='detail-summary-line is-reveal' style='--reveal-index:" +
+        index +
+        "'><span class='detail-summary-text'>" +
+        content +
+        "</span></p>"
+      );
     })
     .join("");
 }
@@ -137,6 +157,30 @@ function finishLoadingUi(loadingEl, summaryEl, state, fallbackHtml) {
   }
 }
 
+function clearSummaryReveal(summaryEl) {
+  var lines = summaryEl.querySelectorAll(".detail-summary-line.is-reveal");
+  for (var index = 0; index < lines.length; index += 1) {
+    lines[index].classList.remove("is-reveal");
+    lines[index].style.removeProperty("--reveal-index");
+  }
+}
+
+function animateSummaryReveal(summaryEl) {
+  if (!summaryEl || prefersReducedMotion()) {
+    return;
+  }
+
+  var lines = summaryEl.querySelectorAll(".detail-summary-line.is-reveal");
+  if (!lines.length) {
+    return;
+  }
+
+  var totalDuration = (lines.length - 1) * 110 + 1200;
+  window.setTimeout(function () {
+    clearSummaryReveal(summaryEl);
+  }, totalDuration);
+}
+
 async function loadLazyDetail() {
   document.documentElement.dataset.detailReady = "true";
 
@@ -184,7 +228,8 @@ async function loadLazyDetail() {
 
     if ((status === "cached" || status === "generated") && detailedSummary) {
       finishLoadingUi(loadingEl, summaryEl, loadingState);
-      summaryEl.innerHTML = renderSummaryHtml(detailedSummary);
+      summaryEl.innerHTML = renderSummaryHtml(detailedSummary, { animated: true });
+      animateSummaryReveal(summaryEl);
       shell.dataset.hasDetailedSummary = "true";
       setStatus(
         statusEl,
