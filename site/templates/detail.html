@@ -50,30 +50,15 @@
           <h2>브리핑</h2>
           <p>원문을 읽기 전 핵심만 빠르게 파악하는 요약입니다.</p>
         </div>
-        <div id="detail-progress" class="detail-progress is-hidden" aria-live="polite">
-          <div class="detail-progress-head">
-            <strong>추가 브리핑 생성 중</strong>
-            <span class="detail-progress-dots" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
+        <div id="detail-loading" class="detail-loading is-hidden" aria-live="polite">
+          <div class="detail-loading-head">
+            <div class="detail-loading-title-row">
+              <span class="detail-loading-spinner" aria-hidden="true"></span>
+              <strong>추가 브리핑을 불러오는 중입니다</strong>
+            </div>
+            <span id="detail-loading-elapsed" class="detail-loading-elapsed">00:00</span>
           </div>
-          <div class="detail-progress-steps">
-            <div class="detail-progress-step" data-step-index="0">
-              <span class="detail-progress-bullet" aria-hidden="true"></span>
-              <span>요청 시작</span>
-            </div>
-            <div class="detail-progress-step" data-step-index="1">
-              <span class="detail-progress-bullet" aria-hidden="true"></span>
-              <span>원문 분석</span>
-            </div>
-            <div class="detail-progress-step" data-step-index="2">
-              <span class="detail-progress-bullet" aria-hidden="true"></span>
-              <span>브리핑 생성</span>
-            </div>
-          </div>
-          <p id="detail-progress-note" class="detail-progress-note"></p>
+          <p id="detail-loading-note" class="detail-loading-note">원문을 확인하고 한국어 브리핑으로 정리하고 있습니다.</p>
         </div>
         <div id="detail-status" class="detail-status is-hidden" aria-live="polite"></div>
         <div id="detail-summary" class="detail-summary">

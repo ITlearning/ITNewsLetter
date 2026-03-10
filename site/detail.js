@@ -47,75 +47,94 @@ function setStatus(statusEl, kind, text) {
   statusEl.textContent = text;
 }
 
-function setProgressVisible(progressEl, visible) {
-  if (!progressEl) {
+function setLoadingVisible(loadingEl, visible) {
+  if (!loadingEl) {
     return;
   }
 
   if (visible) {
-    progressEl.classList.remove("is-hidden");
+    loadingEl.classList.remove("is-hidden");
     return;
   }
 
-  progressEl.classList.add("is-hidden");
-  progressEl.classList.remove("is-slow");
+  loadingEl.classList.add("is-hidden");
+  loadingEl.classList.remove("is-slow");
 }
 
-function setProgressStep(progressEl, stepIndex, note) {
-  if (!progressEl) {
+function setLoadingNote(loadingEl, note) {
+  var noteEl = document.getElementById("detail-loading-note");
+  if (!loadingEl || !noteEl) {
     return;
   }
+  noteEl.textContent = note || "";
+}
 
-  var steps = progressEl.querySelectorAll(".detail-progress-step");
-  for (var index = 0; index < steps.length; index += 1) {
-    var stepEl = steps[index];
-    stepEl.classList.remove("is-active");
-    stepEl.classList.remove("is-complete");
+function renderLoadingSkeletonHtml() {
+  return [
+    "<div class='detail-summary-skeleton is-wide' aria-hidden='true'></div>",
+    "<div class='detail-summary-skeleton is-mid' aria-hidden='true'></div>",
+    "<div class='detail-summary-skeleton is-short' aria-hidden='true'></div>",
+  ].join("");
+}
 
-    if (index < stepIndex) {
-      stepEl.classList.add("is-complete");
-    } else if (index === stepIndex) {
-      stepEl.classList.add("is-active");
+function formatElapsed(seconds) {
+  var minutes = Math.floor(seconds / 60);
+  var remaining = seconds % 60;
+  return String(minutes).padStart(2, "0") + ":" + String(remaining).padStart(2, "0");
+}
+
+function clearLoadingTimers(state) {
+  if (state.intervalId) {
+    clearInterval(state.intervalId);
+    state.intervalId = null;
+  }
+
+  if (state.slowTimerId) {
+    clearTimeout(state.slowTimerId);
+    state.slowTimerId = null;
+  }
+}
+
+function startLoadingUi(loadingEl, summaryEl) {
+  var elapsedEl = document.getElementById("detail-loading-elapsed");
+  var originalHtml = summaryEl.innerHTML;
+  var state = {
+    originalHtml: originalHtml,
+    intervalId: null,
+    slowTimerId: null,
+    startedAt: Date.now(),
+  };
+
+  summaryEl.classList.add("is-loading");
+  summaryEl.innerHTML = renderLoadingSkeletonHtml();
+  setLoadingVisible(loadingEl, true);
+  setLoadingNote(loadingEl, "원문을 확인하고 한국어 브리핑으로 정리하고 있습니다.");
+  if (elapsedEl) {
+    elapsedEl.textContent = "00:00";
+  }
+
+  state.intervalId = setInterval(function () {
+    if (elapsedEl) {
+      var seconds = Math.max(0, Math.floor((Date.now() - state.startedAt) / 1000));
+      elapsedEl.textContent = formatElapsed(seconds);
     }
-  }
+  }, 1000);
 
-  var noteEl = document.getElementById("detail-progress-note");
-  if (noteEl) {
-    noteEl.textContent = note || "";
-  }
+  state.slowTimerId = setTimeout(function () {
+    loadingEl.classList.add("is-slow");
+    setLoadingNote(loadingEl, "조금 더 걸리고 있습니다. 브라우저를 닫지 않아도 됩니다.");
+  }, 8000);
+
+  return state;
 }
 
-function clearProgressTimers(timerIds) {
-  while (timerIds.length) {
-    clearTimeout(timerIds.pop());
+function finishLoadingUi(loadingEl, summaryEl, state, fallbackHtml) {
+  clearLoadingTimers(state);
+  setLoadingVisible(loadingEl, false);
+  summaryEl.classList.remove("is-loading");
+  if (typeof fallbackHtml === "string") {
+    summaryEl.innerHTML = fallbackHtml;
   }
-}
-
-function startProgressSequence(progressEl) {
-  var timers = [];
-  setProgressVisible(progressEl, true);
-  setProgressStep(progressEl, 0, "캐시와 요청 상태를 확인하고 있습니다.");
-
-  timers.push(
-    setTimeout(function () {
-      setProgressStep(progressEl, 1, "원문 페이지를 읽고 핵심 문맥을 정리하고 있습니다.");
-    }, 1100)
-  );
-
-  timers.push(
-    setTimeout(function () {
-      setProgressStep(progressEl, 2, "한국어 브리핑으로 다듬고 있습니다.");
-    }, 2800)
-  );
-
-  timers.push(
-    setTimeout(function () {
-      progressEl.classList.add("is-slow");
-      setProgressStep(progressEl, 2, "조금 더 걸리고 있습니다. 브라우저를 닫지 않아도 됩니다.");
-    }, 8000)
-  );
-
-  return timers;
 }
 
 async function loadLazyDetail() {
@@ -124,8 +143,8 @@ async function loadLazyDetail() {
   var shell = document.querySelector(".detail-shell");
   var summaryEl = document.getElementById("detail-summary");
   var statusEl = document.getElementById("detail-status");
-  var progressEl = document.getElementById("detail-progress");
-  if (!shell || !summaryEl || !statusEl || !progressEl) {
+  var loadingEl = document.getElementById("detail-loading");
+  if (!shell || !summaryEl || !statusEl || !loadingEl) {
     return;
   }
 
@@ -139,7 +158,7 @@ async function loadLazyDetail() {
   }
 
   setStatus(statusEl, "", "");
-  var progressTimers = startProgressSequence(progressEl);
+  var loadingState = startLoadingUi(loadingEl, summaryEl);
 
   try {
     var requestUrl = new URL(apiUrl);
@@ -164,8 +183,7 @@ async function loadLazyDetail() {
     var message = String(payload.message || "").trim();
 
     if ((status === "cached" || status === "generated") && detailedSummary) {
-      clearProgressTimers(progressTimers);
-      setProgressVisible(progressEl, false);
+      finishLoadingUi(loadingEl, summaryEl, loadingState);
       summaryEl.innerHTML = renderSummaryHtml(detailedSummary);
       shell.dataset.hasDetailedSummary = "true";
       setStatus(
@@ -177,22 +195,19 @@ async function loadLazyDetail() {
     }
 
     if (status === "unsupported") {
-      clearProgressTimers(progressTimers);
-      setProgressVisible(progressEl, false);
+      finishLoadingUi(loadingEl, summaryEl, loadingState, loadingState.originalHtml);
       setStatus(statusEl, "muted", message || "이 기사는 추가 브리핑을 지원하지 않습니다.");
       return;
     }
 
-    clearProgressTimers(progressTimers);
-    setProgressVisible(progressEl, false);
+    finishLoadingUi(loadingEl, summaryEl, loadingState, loadingState.originalHtml);
     setStatus(
       statusEl,
       "error",
       message || "추가 브리핑 생성에 실패했습니다. 원문에서 확인해 주세요."
     );
   } catch (error) {
-    clearProgressTimers(progressTimers);
-    setProgressVisible(progressEl, false);
+    finishLoadingUi(loadingEl, summaryEl, loadingState, loadingState.originalHtml);
     setStatus(statusEl, "error", "추가 브리핑 생성에 실패했습니다. 원문에서 확인해 주세요.");
   }
 }

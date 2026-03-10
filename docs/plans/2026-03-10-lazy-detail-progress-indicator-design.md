@@ -1,25 +1,25 @@
-# Lazy Detail Progress Indicator Design
+# Lazy Detail Loading Indicator Design
 
 ## Goal
 - Make on-demand detail briefing visibly "alive" while the browser waits for the lazy summary API.
 - Reduce ambiguity from a single static loading sentence.
 
 ## Decision
-- Replace the single loading sentence with a hybrid pattern:
-  - 3-step progress rail
-  - animated dots in the header
-  - delayed note when the request takes longer than expected
+- Replace the progress rail with a simpler loading-focused pattern:
+  - spinner
+  - elapsed timer
+  - loading note
+  - summary skeleton blocks
 
 ## UX Rules
-- Steps:
-  - `요청 시작`
-  - `원문 분석`
-  - `브리핑 생성`
-- The current step is highlighted.
-- Completed steps turn green.
-- A subtle animated dot cluster communicates that work is still active.
+- Primary message:
+  - `추가 브리핑을 불러오는 중입니다`
+- Show elapsed time like `00:03`, `00:08`.
+- Show a spinner so the request feels active.
+- Replace the summary body with skeleton lines while the request is in flight.
 - After ~8 seconds, show a slower-path hint:
   - `조금 더 걸리고 있습니다. 브라우저를 닫지 않아도 됩니다.`
+- If the request fails or is unsupported, restore the original short summary.
 
 ## Non-Goals
 - No real backend streaming progress yet.

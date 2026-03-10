@@ -172,7 +172,7 @@ a {
   color: var(--muted);
 }
 
-.detail-progress {
+.detail-loading {
   margin: 0 0 14px;
   padding: 16px;
   border: 1px solid rgba(37, 99, 235, 0.14);
@@ -180,103 +180,87 @@ a {
   background: linear-gradient(180deg, rgba(37, 99, 235, 0.08), rgba(255, 255, 255, 0.88));
 }
 
-.detail-progress.is-hidden {
+.detail-loading.is-hidden {
   display: none;
 }
 
-.detail-progress-head {
+.detail-loading-head {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
 }
 
-.detail-progress-head strong {
+.detail-loading-title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.detail-loading-head strong {
   font-size: 0.96rem;
   letter-spacing: -0.02em;
 }
 
-.detail-progress-dots {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.detail-progress-dots span,
-.detail-progress-bullet {
-  width: 10px;
-  height: 10px;
+.detail-loading-spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(37, 99, 235, 0.18);
+  border-top-color: var(--accent);
   border-radius: 999px;
+  animation: detail-spinner-rotate 0.9s linear infinite;
 }
 
-.detail-progress-dots span {
-  background: rgba(37, 99, 235, 0.25);
-  animation: detail-dot-bounce 1.1s infinite ease-in-out;
-}
-
-.detail-progress-dots span:nth-child(2) {
-  animation-delay: 0.16s;
-}
-
-.detail-progress-dots span:nth-child(3) {
-  animation-delay: 0.32s;
-}
-
-.detail-progress-steps {
-  display: grid;
-  gap: 8px;
-  margin-top: 14px;
-}
-
-.detail-progress-step {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  min-height: 44px;
-  padding: 10px 12px;
-  border: 1px solid rgba(26, 31, 39, 0.08);
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.72);
+.detail-loading-elapsed {
+  font-variant-numeric: tabular-nums;
   color: var(--muted);
-  transition: background 180ms ease, border-color 180ms ease, color 180ms ease;
+  font-size: 0.92rem;
+  letter-spacing: 0.04em;
 }
 
-.detail-progress-bullet {
-  flex: 0 0 auto;
-  background: rgba(95, 107, 120, 0.28);
-}
-
-.detail-progress-step.is-active {
-  border-color: rgba(37, 99, 235, 0.26);
-  background: rgba(37, 99, 235, 0.08);
-  color: var(--ink);
-}
-
-.detail-progress-step.is-active .detail-progress-bullet {
-  background: var(--accent);
-  box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.14);
-  animation: detail-step-pulse 1.4s infinite ease-in-out;
-}
-
-.detail-progress-step.is-complete {
-  border-color: rgba(22, 101, 52, 0.18);
-  background: rgba(22, 101, 52, 0.08);
-  color: #166534;
-}
-
-.detail-progress-step.is-complete .detail-progress-bullet {
-  background: #16a34a;
-}
-
-.detail-progress-note {
-  margin: 12px 0 0;
+.detail-loading-note {
+  margin: 10px 0 0;
   color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.6;
 }
 
-.detail-progress.is-slow .detail-progress-note {
+.detail-loading.is-slow .detail-loading-note {
   color: #8a5a0a;
+}
+
+.detail-summary.is-loading {
+  display: grid;
+  gap: 12px;
+}
+
+.detail-summary.is-loading p {
+  display: none;
+}
+
+.detail-summary-skeleton {
+  height: 16px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    rgba(37, 99, 235, 0.08) 0%,
+    rgba(37, 99, 235, 0.18) 50%,
+    rgba(37, 99, 235, 0.08) 100%
+  );
+  background-size: 200% 100%;
+  animation: detail-skeleton-shimmer 1.35s ease-in-out infinite;
+}
+
+.detail-summary-skeleton.is-wide {
+  width: 100%;
+}
+
+.detail-summary-skeleton.is-mid {
+  width: 84%;
+}
+
+.detail-summary-skeleton.is-short {
+  width: 63%;
 }
 
 .detail-status {
@@ -311,28 +295,19 @@ a {
   color: #b91c1c;
 }
 
-@keyframes detail-dot-bounce {
-  0%,
-  80%,
-  100% {
-    transform: translateY(0);
-    opacity: 0.28;
-  }
-
-  40% {
-    transform: translateY(-3px);
-    opacity: 1;
+@keyframes detail-spinner-rotate {
+  to {
+    transform: rotate(360deg);
   }
 }
 
-@keyframes detail-step-pulse {
-  0%,
-  100% {
-    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+@keyframes detail-skeleton-shimmer {
+  0% {
+    background-position: 100% 0;
   }
 
-  50% {
-    box-shadow: 0 0 0 8px rgba(37, 99, 235, 0.18);
+  100% {
+    background-position: -100% 0;
   }
 }
 
@@ -422,7 +397,7 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .detail-progress-head {
+  .detail-loading-head {
     align-items: flex-start;
     flex-direction: column;
   }
