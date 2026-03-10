@@ -410,6 +410,7 @@ select {
   font-size: 1.28rem;
   line-height: 1.45;
   letter-spacing: -0.03em;
+  overflow-wrap: anywhere;
 }
 
 .card-title-link {
@@ -592,6 +593,77 @@ select {
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  .topbar,
+  .control-panel {
+    position: static;
+  }
+
+  .page-shell,
+  .policy-shell {
+    padding: 14px 14px 40px;
+  }
+
+  .topbar {
+    min-height: 58px;
+    margin-bottom: 12px;
+    padding: 0 14px;
+  }
+
+  .brand-name {
+    font-size: 0.92rem;
+  }
+
+  .stats-strip,
+  .layout,
+  .policy-main {
+    gap: 14px;
+  }
+
+  .stats-intro,
+  .hero-stats,
+  .today-section,
+  .control-panel,
+  .news-card,
+  .empty-state,
+  .site-footer,
+  .policy-hero,
+  .policy-section {
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .stats-description,
+  .section-description,
+  .site-footer-copy,
+  .policy-summary,
+  .policy-section p,
+  .policy-section li {
+    font-size: 0.95rem;
+  }
+
+  .results-header {
+    gap: 8px;
+  }
+
+  .card-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .card-link {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .site-footer-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px 16px;
+  }
+}
+
 @media (max-width: 960px) {
   .stats-strip,
   .today-section,
@@ -615,37 +687,24 @@ select {
 }
 
 @media (max-width: 640px) {
-  .page-shell {
-    padding: 14px 14px 40px;
+  .stats-kicker,
+  .policy-kicker,
+  .section-kicker {
+    font-size: 0.72rem;
   }
 
-  .policy-shell {
-    padding: 14px 14px 40px;
+  .stats-description,
+  .section-description {
+    line-height: 1.7;
   }
 
-  .topbar {
-    min-height: 58px;
-    padding: 0 14px;
-  }
-
-  .stats-intro,
-  .hero-stats,
-  .control-panel,
-  .news-card,
-  .empty-state,
-  .site-footer,
-  .policy-hero,
-  .policy-section {
-    padding: 16px;
-    border-radius: 18px;
-  }
-
-  .control-panel {
-    top: 70px;
+  .site-footer-nav {
+    grid-template-columns: 1fr;
   }
 
   .card-title {
     font-size: 1.12rem;
+    line-height: 1.4;
   }
 }
 
