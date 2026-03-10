@@ -19,7 +19,6 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
-import feedparser
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -505,6 +504,8 @@ def normalize_entry(
 def fetch_source(source: Source, fetched_at: str) -> list[dict[str, str]]:
     if source.source_type == "sitemap":
         return fetch_sitemap_source(source, fetched_at)
+
+    import feedparser
 
     feed = feedparser.parse(
         source.feed_url,

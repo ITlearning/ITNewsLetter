@@ -15,10 +15,13 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 - `config/taxonomy.yaml`: shared taxonomy + source overlays
 - `config/taxonomy_examples.yaml`: representative examples for taxonomy tuning
 - `scripts/fetch_and_send.py`: fetch, dedupe, send logic
+- `scripts/build_archive_site.py`: build static archive payload for GitHub Pages
+- `site/`: archive website source
 - `data/state.json`: previously sent IDs
 - `data/news.json`: archived sent items
 - `data/last_run.json`: run summary
 - `.github/workflows/news-discord.yml`: scheduled automation
+- `.github/workflows/news-archive-pages.yml`: GitHub Pages deployment
 
 ## Setup
 1. Push this repository to GitHub.
@@ -32,6 +35,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 7. To enable/disable fallback globally, set repository variable `SELF_DISPATCH_ENABLED=true|false`.
 8. Manual runs can temporarily override the per-run range with `min_items_per_run` and `max_items_per_run`.
 9. Priority selection uses a shared 4-slot taxonomy across all sources and a GeekNews-specific overlay.
+10. To publish the archive site, set GitHub Pages source to `GitHub Actions`.
 
 ## Local Dry Run
 ```bash
@@ -71,3 +75,4 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - Batch size is selected automatically within the configured min/max range, shrinking from max to min when the Discord message gets too long.
 - Selection logs now include the winning taxonomy slot and matched terms for explainability.
 - Items older than 3 days are skipped by default before prioritization.
+- The archive site is built from `data/news.json` and enriches older items with taxonomy metadata during the Pages build.

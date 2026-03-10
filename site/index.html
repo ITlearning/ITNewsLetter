@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IT Dispatch Archive</title>
+    <meta
+      name="description"
+      content="Discord로 보낸 IT 뉴스를 한 곳에서 다시 보는 아카이브."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-a" aria-hidden="true"></div>
+      <div class="ambient ambient-b" aria-hidden="true"></div>
+
+      <header class="hero">
+        <p class="eyebrow">Sent to Discord. Kept for later.</p>
+        <div class="hero-copy">
+          <h1>IT Dispatch Archive</h1>
+          <p class="hero-description">
+            이미 보낸 IT 뉴스를 다시 찾기 위한 에디토리얼 아카이브.
+            번역된 제목과 요약, 소스, 슬롯 분류를 한 화면에서 바로 훑어볼 수 있습니다.
+          </p>
+        </div>
+        <div class="hero-stats" id="hero-stats">
+          <div class="stat-card">
+            <span class="stat-label">Archive</span>
+            <strong id="stat-total">-</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Sources</span>
+            <strong id="stat-sources">-</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Updated</span>
+            <strong id="stat-updated">-</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="control-panel" aria-label="검색과 필터">
+          <div class="control-grid">
+            <label class="field">
+              <span class="field-label">검색</span>
+              <input
+                id="search-input"
+                class="field-input"
+                type="search"
+                placeholder="제목, 요약, 소스 검색"
+                autocomplete="off"
+              />
+            </label>
+
+            <label class="field">
+              <span class="field-label">소스</span>
+              <select id="source-filter" class="field-select">
+                <option value="all">전체 소스</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span class="field-label">슬롯</span>
+              <select id="slot-filter" class="field-select">
+                <option value="all">전체 슬롯</option>
+              </select>
+            </label>
+
+            <button id="reset-filters" class="ghost-button" type="button">초기화</button>
+          </div>
+        </section>
+
+        <section class="results-header" aria-live="polite">
+          <div>
+            <p class="results-kicker">Archive Feed</p>
+            <h2 id="results-title">보낸 뉴스 전체</h2>
+          </div>
+          <p id="results-meta" class="results-meta">로딩 중…</p>
+        </section>
+
+        <section id="news-grid" class="news-grid" aria-live="polite"></section>
+        <section id="empty-state" class="empty-state" hidden>
+          <h2>조건에 맞는 뉴스가 없습니다.</h2>
+          <p>검색어를 지우거나 필터를 바꿔보세요.</p>
+        </section>
+      </main>
+    </div>
+
+    <template id="news-card-template">
+      <article class="news-card">
+        <div class="card-topline">
+          <span class="badge badge-source"></span>
+          <span class="badge badge-slot"></span>
+        </div>
+        <time class="card-date"></time>
+        <h3 class="card-title"></h3>
+        <p class="card-original" hidden></p>
+        <p class="card-summary"></p>
+        <div class="matched-terms" hidden></div>
+        <a class="card-link" target="_blank" rel="noreferrer">원문 보기</a>
+      </article>
+    </template>
+
+    <script src="./app.js" defer></script>
+  </body>
+</html>
