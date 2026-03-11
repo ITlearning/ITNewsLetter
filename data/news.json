@@ -1,6 +1,514 @@
 {
   "items": [
     {
+      "id": "ecabc8bbe63bf56781f82026c1e152839f8cdc8a",
+      "title_hash": "a912a2e1a65532f2ae11725ca96bf62923b04529",
+      "source": "GeekNews",
+      "title": "Gemini Embedding 2: 최초의 네이티브 멀티모달 임베딩 모델",
+      "link": "https://news.hada.io/topic?id=27397",
+      "published_at": "2026-03-11T01:23:01+00:00",
+      "summary": "텍스트, 이미지, 비디오, 오디오, 문서를 하나의 임베딩 공간 에 매핑하는 최초의 완전 멀티모달 임베딩 모델이 퍼블릭 프리뷰로 공개 Gemini 아키텍처 기반으로 100개 이상의 언어에서 시맨틱 의도를 포착 하며, RAG·시맨틱 검색·감성 분석·데이터 클러스터링 등 다...",
+      "fetched_at": "2026-03-11T02:48:02.884906+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=12,practical_tech=12,tools_agents=4,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "embedding",
+            "rag"
+          ],
+          "support_hits": [
+            "아키텍처"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "아키텍처"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "embedding",
+        "rag",
+        "아키텍처"
+      ],
+      "detail_slug": "ecabc8bbe63bf56781f82026c1e152839f8cdc8a",
+      "is_english_source": false,
+      "sent_at": "2026-03-11T02:48:39.882684+00:00"
+    },
+    {
+      "id": "6a5d2cf6ca325c3077c9f14dea00d2759e2cf578",
+      "title_hash": "b041e661d6432b7097fa77f42340817db8091f8d",
+      "source": "GeekNews",
+      "title": "Karpathy, Autoresearch로 nanochat을 2일간 자동 튜닝해 GPT-2 학습 시간 11% 단축",
+      "link": "https://news.hada.io/topic?id=27402",
+      "published_at": "2026-03-11T01:41:56+00:00",
+      "summary": "3일전 공개한 Autoresearch 에이전트 가 depth=12 모델 기준으로 약 2일간 자율적으로 약 700개의 변경을 시도해, 검증 손실(validation loss)를 개선하는 약 20개의 유효한 변경사항 을 발견 발견된 변경사항들...",
+      "fetched_at": "2026-03-11T02:48:02.884906+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "6a5d2cf6ca325c3077c9f14dea00d2759e2cf578",
+      "is_english_source": false,
+      "sent_at": "2026-03-11T02:48:39.882684+00:00"
+    },
+    {
+      "id": "275b82cbda4cb8c3f72b5533b84f97cc036c9b61",
+      "title_hash": "b4a33ee6f60d86de177bb5d8a05e2bf2b5484e19",
+      "source": "GeekNews",
+      "title": "얀 르쿤, 물리적 세계를 이해하는 AI 구축 위해 10억 달러 조달",
+      "link": "https://news.hada.io/topic?id=27398",
+      "published_at": "2026-03-11T01:25:26+00:00",
+      "summary": "메타 전 최고 AI 과학자 얀 르쿤 이 공동 설립한 스타트업 Advanced Machine Intelligence(AMI) 가 10억 달러 이상 투자 유치 를 완료 AMI는 세계 모델(world model) 을 개발해 물리적 세계를 이해하고 추론·계획·기억 기능을 갖춘...",
+      "fetched_at": "2026-03-11T02:48:02.884906+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "투자"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자"
+      ],
+      "detail_slug": "275b82cbda4cb8c3f72b5533b84f97cc036c9b61",
+      "is_english_source": false,
+      "sent_at": "2026-03-11T02:48:39.882684+00:00"
+    },
+    {
+      "id": "ea7957ee361c899da02dd36dfe1bc08a75d6ab8b",
+      "title_hash": "ef6cee221405096c75ecf95fd91a78fbe84981ce",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Cloudflare crawl endpoint",
+      "link": "https://developers.cloudflare.com/changelog/post/2026-03-10-br-crawl-endpoint/",
+      "published_at": "2026-03-10T22:27:15+00:00",
+      "summary": "HN story type: story HN points: 138 HN comments: 69 HN top comments: jasongill: I'm surprised that Cloudflare hasn't started hosting a pre-scraped version of websites that use Cloudflare's proxy - something like https://www.example.com/cdn-cgi/cached-contents.json They already have the website content in their cache, so why not just cut out the middle man of scraping services and API's like this and publish it? Obviously there's good reasons NOT to, but I am surprised they haven't started off... ljm: Is cloudflare becoming a mob outfit? Because they are selling scraping countermeasures but are now selling scraping too. And they can pull it off because of their reach over the internet with the free DNS. Lasang: The idea of exposing a structured crawl endpoint feels like a natural evolution of robots.txt and sitemaps. If more sites provided explicit machine-readable entry points for crawlers, indexing could become a lot less wasteful. Right now crawlers spend a lot of effort rediscovering the same structure over and over. It also raises interesting questions about whether sites will eventually provide different views for...",
+      "fetched_at": "2026-03-11T02:48:02.884906+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47329557",
+      "hn_story_type": "story",
+      "hn_points": "138",
+      "hn_comments_count": "69",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47329557",
+      "hn_item_text": "",
+      "hn_comment_preview": "jasongill: I'm surprised that Cloudflare hasn't started hosting a pre-scraped version of websites that use Cloudflare's proxy - something like https://www.example.com/cdn-cgi/cached-contents.json They already have the website content in their cache, so why not just cut out the middle man of scraping services and API's like this and publish it? Obviously there's good reasons NOT to, but I am surprised they haven't started off...\nljm: Is cloudflare becoming a mob outfit? Because they are selling scraping countermeasures but are now selling scraping too. And they can pull it off because of their reach over the internet with the free DNS.\nLasang: The idea of exposing a structured crawl endpoint feels like a natural evolution of robots.txt and sitemaps. If more sites provided explicit machine-readable entry points for crawlers, indexing could become a lot less wasteful. Right now crawlers spend a lot of effort rediscovering the same structure over and over. It also raises interesting questions about whether sites will eventually provide different views for...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 7,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "cache",
+            "index",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cache",
+        "index",
+        "api"
+      ],
+      "detail_slug": "ea7957ee361c899da02dd36dfe1bc08a75d6ab8b",
+      "is_english_source": true,
+      "translated_title": "클라우드플레어, 웹 크롤링용 엔드포인트 공개 논란",
+      "short_summary": "클라우드플레어가 웹사이트 크롤링을 위한 구조화된 엔드포인트를 선보였다. 사용자와 전문가 사이에서 긍정과 우려가 엇갈리고 있다.",
+      "detailed_summary": "**클라우드플레어가 웹 크롤링을 위한 새로운 엔드포인트를 공개하며 관심이 집중되고 있다.**\n\n- 이 엔드포인트는 기존 robots.txt와 사이트맵의 연장선으로, 크롤러가 사이트 구조를 더 효율적으로 파악할 수 있도록 설계됐다.\n- 클라우드플레어는 이미 캐시된 웹 콘텐츠를 활용해 중간 크롤링 서비스 없이도 데이터를 제공할 수 있다는 점에서 주목받았다.\n- 일부 이용자는 클라우드플레어가 크롤링 방지 기능을 판매하면서 동시에 크롤링 서비스를 제공하는 점을 문제 삼았다.\n- 이 기능이 확산되면 크롤러들이 반복적으로 사이트 구조를 탐색하는 낭비를 줄일 수 있지만, 사이트별 맞춤 뷰 제공 가능성 등 새로운 논의도 촉발됐다.\n\n이번 발표는 웹 크롤링 방식에 변화를 예고한다. 기존에는 크롤러가 사이트 구조를 일일이 재탐색해야 했지만, 구조화된 엔드포인트가 도입되면 효율성이 크게 개선될 수 있다. 그러나 클라우드플레어가 크롤링과 방지 기능을 동시에 제공하는 점은 인터넷 생태계에서의 역할과 책임에 대한 논쟁을 불러일으키고 있다. 앞으로 이 기술이 어떻게 활용되고, 웹사이트 운영자와 크롤러 간의 관계에 어떤 영향을 미칠지 주목된다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-11T02:48:39.882684+00:00"
+    },
+    {
+      "id": "0bbd2ff9a26a4e1fb7b7f46dc9e8bb73a4dde5db",
+      "title_hash": "88fccfde0bbb705376f68a455614fc08cc1c8bf5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Yann LeCun raises $1B to build AI that understands the physical world",
+      "link": "https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world/",
+      "published_at": "2026-03-10T08:46:53+00:00",
+      "summary": "HN story type: story HN points: 349 HN comments: 330 HN post text: https://web.archive.org/web/20260310153721/https://www.wired... https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259a... ( https://archive.md/5eZWq ) HN top comments: A_D_E_P_T: Justifiable. There are a lot more degrees of freedom in world models. LLMs are fundamentally capped because they only learn from static text -- human communications about the world -- rather than from the world itself, which is why they can remix existing ideas but find it all but impossible to produce genuinely novel discoveries or inventions. A well-funded and well-run startup building physical world models (gro... chriskanan: I had lunch with Yann last August, about a week after Alex Wang became his \"boss.\" I asked him how he felt about that, and at the time he told me he would give it a month or two and see how it goes, and then figure out if he should stay or find employment elsewhere. I told him he ought to just create his own company if he decides to leave Meta to chase his own dream, rather than work on the dream's of others. That... Oras: > But this is not an applied AI company. There is absolutely no doubt about Yann's impact on AI/ML, but he had access to many more resources in Meta, and we didn't see anything. It could be a management issue, though, and I sincerely wish we will see more competition, but from what I quoted above, it does not seem like it. Understanding world through videos (mentioned in the article), is just what video models hav...",
+      "fetched_at": "2026-03-11T02:48:02.884906+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47320600",
+      "hn_story_type": "story",
+      "hn_points": "349",
+      "hn_comments_count": "330",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47320600",
+      "hn_item_text": "https://web.archive.org/web/20260310153721/https://www.wired... https://www.ft.com/content/e5245ec3-1a58-4eff-ab58-480b6259a... ( https://archive.md/5eZWq )",
+      "hn_comment_preview": "A_D_E_P_T: Justifiable. There are a lot more degrees of freedom in world models. LLMs are fundamentally capped because they only learn from static text -- human communications about the world -- rather than from the world itself, which is why they can remix existing ideas but find it all but impossible to produce genuinely novel discoveries or inventions. A well-funded and well-run startup building physical world models (gro...\nchriskanan: I had lunch with Yann last August, about a week after Alex Wang became his \"boss.\" I asked him how he felt about that, and at the time he told me he would give it a month or two and see how it goes, and then figure out if he should stay or find employment elsewhere. I told him he ought to just create his own company if he decides to leave Meta to chase his own dream, rather than work on the dream's of others. That...\nOras: > But this is not an applied AI company. There is absolutely no doubt about Yann's impact on AI/ML, but he had access to many more resources in Meta, and we didn't see anything. It could be a management issue, though, and I sincerely wish we will see more competition, but from what I quoted above, it does not seem like it. U...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=4,industry_business=9",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 12,
+        "strategy_insight": 4,
+        "industry_business": 9
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 9,
+          "strong_hits": [
+            "startup"
+          ],
+          "support_hits": [
+            "company",
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm"
+      ],
+      "detail_slug": "0bbd2ff9a26a4e1fb7b7f46dc9e8bb73a4dde5db",
+      "is_english_source": true,
+      "translated_title": "얀 르쿤, 물리 세계 이해하는 AI 개발 위해 10억 달러 모금",
+      "short_summary": "AI 연구의 선구자 얀 르쿤이 물리 세계를 이해하는 인공지능 개발을 목표로 10억 달러를 모았다. 기존 언어 모델 한계를 넘어서는 시도로 주목받는다.",
+      "detailed_summary": "얀 르쿤이 물리적 세계를 이해하는 AI를 만들기 위해 대규모 자금을 확보했다. 이번 프로젝트는 기존의 텍스트 기반 AI와 달리 실제 세계에서 직접 학습하는 모델 개발에 집중한다.\n\n- 르쿤은 메타에서 독립해 자신의 스타트업을 설립하고 10억 달러 규모의 투자를 유치했다.\n- 기존 대형 언어 모델은 텍스트 데이터에만 의존해 새로운 발견이나 발명을 만들어내기 어렵다는 한계가 지적된다.\n- 이번 AI는 영상 등 실제 환경 데이터를 활용해 세계를 직접 경험하고 이해하는 능력을 키우려 한다.\n- 일부 의견은 메타 재직 시절 충분한 성과를 내지 못한 점을 지적하며, 이번 시도가 성공할지 주목한다.\n- 르쿤은 AI가 단순한 정보 재조합을 넘어 진정한 창의성을 발휘할 수 있도록 하는 데 목표를 둔다.\n\n이번 프로젝트는 AI 연구에서 중요한 전환점이 될 가능성이 있다. 텍스트가 아닌 실제 세계 데이터를 통해 학습하는 AI는 보다 깊은 이해와 창의적 문제 해결 능력을 갖출 수 있다. 르쿤의 도전은 AI가 인간과 비슷한 방식으로 세상을 인지하고 반응하는 미래를 앞당길지 관심이 쏠린다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-11T02:48:39.882684+00:00"
+    },
+    {
+      "id": "4859a73ea9e216ef305689e6f9fb2c26c1b160c2",
+      "title_hash": "44b2ec46d9d7a998cd162822c4e21fb32ff2af59",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "RISC-V Is Sloooow",
+      "link": "https://marcin.juszkiewicz.com.pl/2026/03/10/risc-v-is-sloooow/",
+      "published_at": "2026-03-10T20:11:54+00:00",
+      "summary": "HN story type: story HN points: 177 HN comments: 167 HN top comments: rbanffy: Don't blame the ISA - blame the silicon implementations AND the software with no architecture-specific optimisations. RISC-V will get there, eventually. I remember that ARM started as a speed demon with conscious power consumption, then was surpassed by x86s and PPCs on desktops and moved to embedded, where it shone by being very frugal with power, only to now be leaving the embedded space with implementations opt... kashyapc: Arm had 40 years to be where it is today. RISC-V is 15 years old. Some more patience is warranted. Assuming they will keep their word, later this year Tenstorrent is supposed to ship their RVA23-based server development platform[1]. They announced[2] it at the last year's NA RISC-V Summit. Let's see. The ball is in the court of hardware vendors to cook some high-end silicon. [1] https://tenstorrent.com/ip/risc-v-c... echoangle: Is there a simple explanation why RISC-V software has to be built on a RISC-V system? Why is it so hard for compilers to compile for a different architecture? The general structure of the target architecture lives inside the compiler code and isn’t generated by introspecting the current system, right?",
+      "fetched_at": "2026-03-11T02:48:02.884906+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47328214",
+      "hn_story_type": "story",
+      "hn_points": "177",
+      "hn_comments_count": "167",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47328214",
+      "hn_item_text": "",
+      "hn_comment_preview": "rbanffy: Don't blame the ISA - blame the silicon implementations AND the software with no architecture-specific optimisations. RISC-V will get there, eventually. I remember that ARM started as a speed demon with conscious power consumption, then was surpassed by x86s and PPCs on desktops and moved to embedded, where it shone by being very frugal with power, only to now be leaving the embedded space with implementations opt...\nkashyapc: Arm had 40 years to be where it is today. RISC-V is 15 years old. Some more patience is warranted. Assuming they will keep their word, later this year Tenstorrent is supposed to ship their RVA23-based server development platform[1]. They announced[2] it at the last year's NA RISC-V Summit. Let's see. The ball is in the court of hardware vendors to cook some high-end silicon. [1] https://tenstorrent.com/ip/risc-v-c...\nechoangle: Is there a simple explanation why RISC-V software has to be built on a RISC-V system? Why is it so hard for compilers to compile for a different architecture? The general structure of the target architecture lives inside the compiler code and isn’t generated by introspecting the current system, right?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=7,strategy_insight=4,industry_business=-2",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 7,
+        "strategy_insight": 4,
+        "industry_business": -2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "architecture",
+            "compiler"
+          ],
+          "support_hits": [
+            "implementation"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [
+            "compiler"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "architecture",
+        "compiler",
+        "implementation"
+      ],
+      "detail_slug": "4859a73ea9e216ef305689e6f9fb2c26c1b160c2",
+      "is_english_source": true,
+      "translated_title": "RISC-V, 아직은 속도 면에서 아쉬움 남아",
+      "short_summary": "RISC-V가 현재 속도 면에서 뒤처진다는 지적이 있지만, 하드웨어 구현과 소프트웨어 최적화 부족이 원인이다. ARM과 비교해 역사가 짧아 시간이 더 필요하다는 의견도 있다.",
+      "detailed_summary": "**RISC-V의 성능 논란과 미래 전망**\n\n최근 Hacker News에서 RISC-V의 속도가 느리다는 주장이 화제를 모았다. 많은 댓글이 ISA 자체보다는 실리콘 구현과 소프트웨어 최적화 부족이 문제라고 지적했다.\n\n- RISC-V는 아직 15년 차로, ARM이 쌓은 40년의 경험과 비교하면 초기 단계에 불과하다.\n- ARM은 데스크톱에서 x86과 PPC에 밀려 임베디드 시장으로 이동해 전력 효율을 극대화하며 자리잡았다.\n- RISC-V는 하드웨어 업체들이 고성능 칩을 내놓아야 하는 과제를 안고 있다. 올해 Tenstorrent가 RVA23 기반 서버 개발 플랫폼을 출시할 예정이다.\n- 컴파일러가 특정 아키텍처에 맞춰 최적화하는 과정이 복잡해 RISC-V 소프트웨어 개발에 어려움이 있다.\n- 결국 ISA 자체보다 생태계와 구현체 발전이 성능 향상의 관건이라는 의견이 많다.\n\n이번 논쟁은 RISC-V가 아직 완성 단계가 아니며, 하드웨어와 소프트웨어 양쪽에서 개선이 필요함을 보여준다. ARM과 같은 기존 아키텍처가 오랜 시간 쌓아온 노하우와 생태계가 얼마나 중요한지 다시 한번 확인할 수 있다. 앞으로 고성능 RISC-V 칩이 등장하고 최적화가 진행되면 현재의 속도 격차는 점차 줄어들 것으로 기대된다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-11T02:48:39.882684+00:00"
+    },
+    {
       "id": "79a84ded3e8ca59501664a72784cebec7c8ec5a2",
       "title_hash": "fd4dc598aa734cd33503da33405fc4b12757cf6c",
       "source": "GeekNews",
