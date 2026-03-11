@@ -1,6 +1,645 @@
 {
   "items": [
     {
+      "id": "607d780980dab1c4f664c89ad554dbf41c23da30",
+      "title_hash": "3f44971e2d68ac800940b7049e3cd721ef9a810a",
+      "source": "GeekNews",
+      "title": "Show GN: NOD - 웹 콘텐츠를 AI로 요약하고 검색 가능한 지식으로 저장하는 크롬 확장",
+      "link": "https://news.hada.io/topic?id=27413",
+      "published_at": "2026-03-11T15:27:25+00:00",
+      "summary": "웹페이지, GitHub 레포, 논문, 유튜브 영상을 AI로 요약해서 나중에 검색할 수 있게 저장해주는 크롬 확장입니다. 원래 n8n + Gemini + Obsidian으로 돌리던 개인 자동화였는데, 다른 사람한테 공유하려면 세팅이 2시간 걸려서 확장으로 다시 만들었습니다. 기술 스택: 백엔드: FastAPI +",
+      "fetched_at": "2026-03-11T17:07:36.692447+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=5,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "자동화"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "자동화"
+      ],
+      "detail_slug": "607d780980dab1c4f664c89ad554dbf41c23da30",
+      "is_english_source": false,
+      "sent_at": "2026-03-11T17:08:22.549443+00:00"
+    },
+    {
+      "id": "5698ea9ce232367d802fa757fb889840ba613911",
+      "title_hash": "a5571465fc00022fa82ae1a2ab32628c2c3a663a",
+      "source": "GeekNews",
+      "title": "HuggingFace 오픈 LLM 리더보드 1위를 차지한 방법 – 두 개의 게이밍 GPU로, 가중치 변경 없이",
+      "link": "https://news.hada.io/topic?id=27411",
+      "published_at": "2026-03-11T10:33:46+00:00",
+      "summary": "거대한 72B 파라미터 LLM의 중간 7개 레이어를 복제 해 재조합함으로써, 어떤 학습도 없이 리더보드 1위를 달성한 사례 실험은 RTX 4090 두 장 으로 수행되었으며, 모델의 가중치를 수정하지 않고 중간 레이어를 반복 실행 하는 구조만 변경",
+      "fetched_at": "2026-03-11T17:07:36.692447+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [],
+      "detail_slug": "5698ea9ce232367d802fa757fb889840ba613911",
+      "is_english_source": false,
+      "sent_at": "2026-03-11T17:08:22.549443+00:00"
+    },
+    {
+      "id": "44c0771de9062a2d785c0b4826eada5b63719c3e",
+      "title_hash": "0aa68e1933cef86101c0cc65fc378ae169227df2",
+      "source": "GeekNews",
+      "title": "클로드 코드 스티커 주문 (공식)명령 추가됨: /stickers",
+      "link": "https://news.hada.io/topic?id=27407",
+      "published_at": "2026-03-11T05:54:19+00:00",
+      "summary": "클로드 코드 명령에 스티커 주문 명령이 추가되었습니다. /stickers 스티커 귀엽네요ㅎㅎ",
+      "fetched_at": "2026-03-11T17:07:36.692447+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=2,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [],
+      "detail_slug": "44c0771de9062a2d785c0b4826eada5b63719c3e",
+      "is_english_source": false,
+      "sent_at": "2026-03-11T17:08:22.549443+00:00"
+    },
+    {
+      "id": "1e774098476a76b38507ec3604507f7f89eec48d",
+      "title_hash": "85bb4008eb407eae1c16df728d9eaf8120d80663",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Vanilla JavaScript refinery simulator built to explain job to my kids",
+      "link": "https://fuelingcuriosity.com/game.html",
+      "published_at": "2026-03-11T16:56:51+00:00",
+      "summary": "HN story type: story HN points: 6 HN comments: 1 HN post text: Hi HN, I’m a chemical engineer and I manage logistics at a refinery down in Texas. Whenever I try to explain downstream operations to people outside the industry (including my kids), I usually get blank stares. I wanted to build something that visualizes the concepts and chemistry of a plant without completely dumbing down the science, so I put together this 5-minute browser game. Here's a simple runthrough: https://www.youtube.com/watch?v=is-moBz6upU . I pushed to get through a full product pathway to show the V-804 replay. I am not a software developer by trade, so I relied heavily on LLMs (Claude, Copilot, Gemini) to help write the code. What started as a simple concept turned into a 9,000-line single-page app built with vanilla HTML, CSS, and JavaScript. I used Matter.js for the 2D physics minigames. A few technical takeaways from building this as a non-dev: * Managing the LLM workflow: Once the script.js file got large, letting the models output full file rewrites was a disaster (truncations, hallucinations, invisible curly-quote replacements that broke the JS). I started forcing them to act like patch files, strictly outputting \"Find this exact block\" and \"Replace with thi... HN top comments: fuelingcurious: Hello y’all as the post says, certainly a novice stepping into y’all’s space, but I am passionate that we can use the newest form of coding to allow us to change the way we teach. I think it’s a different way to use AI to teach, not having it explicitly do the teaching, but a way to extract context from different backgrounds into more fun learning tools.",
+      "fetched_at": "2026-03-11T17:07:36.692447+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47338091",
+      "hn_story_type": "story",
+      "hn_points": "6",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47338091",
+      "hn_item_text": "Hi HN, I’m a chemical engineer and I manage logistics at a refinery down in Texas. Whenever I try to explain downstream operations to people outside the industry (including my kids), I usually get blank stares. I wanted to build something that visualizes the concepts and chemistry of a plant without completely dumbing down the science, so I put together this 5-minute browser game. Here's a simple runthrough: https://www.youtube.com/watch?v=is-moBz6upU . I pushed to get through a full product pathway to show the V-804 replay. I am not a software developer by trade, so I relied heavily on LLMs (Claude, Copilot, Gemini) to help write the code. What started as a simple concept turned into a 9,000-line single-page app built with vanilla HTML, CSS, and JavaScript. I used Matter.js for the 2D physics minigames. A few technical takeaways from building this as a non-dev: * Managing the LLM workflow: Once the script.js file got large, letting the models output full file rewrites was a disaster (truncations, hallucinations, invisible curly-quote replacements that broke the JS). I started forcing them to act like patch files, strictly outputting \"Find this exact block\" and \"Replace with thi...",
+      "hn_comment_preview": "fuelingcurious: Hello y’all as the post says, certainly a novice stepping into y’all’s space, but I am passionate that we can use the newest form of coding to allow us to change the way we teach. I think it’s a different way to use AI to teach, not having it explicitly do the teaching, but a way to extract context from different backgrounds into more fun learning tools.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "62",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=38,practical_tech=9,tools_agents=38,strategy_insight=7,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 38,
+        "strategy_insight": 7,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 38,
+          "strong_hits": [
+            "workflow",
+            "copilot",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "workflow",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "industry"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "workflow",
+        "copilot",
+        "ide",
+        "llm",
+        "tool",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "1e774098476a76b38507ec3604507f7f89eec48d",
+      "is_english_source": true,
+      "translated_title": "자바스크립트로 만든 정유공장 시뮬레이터 게임",
+      "short_summary": "텍사스 정유공장 엔지니어가 자녀에게 작업을 설명하려 만든 5분짜리 브라우저 게임입니다. AI 도움으로 9,000줄 코드의 시뮬레이터를 완성했습니다.",
+      "detailed_summary": "**텍사스의 화학 엔지니어가 자녀와 비전문가에게 정유공장 하류 공정을 쉽게 설명하기 위해 직접 시뮬레이터 게임을 개발했습니다.**\n\n- 5분 내외로 플레이할 수 있는 브라우저 기반 게임으로, 공정과 화학 원리를 시각적으로 보여줍니다.\n- 순수 HTML, CSS, 자바스크립트로 작성되었으며, 2D 물리 엔진 Matter.js를 활용했습니다.\n- 개발자는 소프트웨어 전문가는 아니지만, AI 언어 모델(Claude, Copilot, Gemini)을 적극 활용해 9,000줄에 달하는 단일 페이지 앱을 완성했습니다.\n- AI가 전체 파일을 재작성할 때 발생하는 오류를 줄이기 위해 패치 방식으로 코드를 수정하는 전략을 사용했습니다.\n- 사용자와 댓글에서는 AI를 단순한 교육 도구가 아닌, 다양한 배경을 가진 사람들에게 재미있고 효과적인 학습 도구로 활용하는 새로운 시도로 평가받았습니다.\n\n이번 프로젝트는 비전문가가 AI를 적절히 활용해 복잡한 산업 공정을 쉽게 전달할 수 있음을 보여줍니다. 또한, 교육용 시뮬레이터 개발에 AI가 어떻게 보조 역할을 할 수 있는지에 대한 좋은 사례가 됩니다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-11T17:08:22.549443+00:00"
+    },
+    {
+      "id": "69175e6caf0086438349d733a80bd14137863bfa",
+      "title_hash": "c54e38e8d663f7a4c9d46619f41a03289fad1f1d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "AI Agent Hacks McKinsey",
+      "link": "https://codewall.ai/blog/how-we-hacked-mckinseys-ai-platform",
+      "published_at": "2026-03-11T09:59:03+00:00",
+      "summary": "HN story type: story HN points: 194 HN comments: 71 HN top comments: frankfrank13: Some insider knowledge: Lilli was, at least a year ago, internal only. VPN access, SSO, all the bells and whistles, required. Not sure when that changed. McKinsey requires hiring an external pen-testing company to launch even to a small group of coworkers. I can forgive this kind of mistake on the part of the Lilli devs. A lot of things have to fail for an \"agentic\" security company to even find a public endpoint,... joenot443: > One of those unprotected endpoints wrote user search queries to the database. The values were safely parameterised, but the JSON keys — the field names — were concatenated directly into SQL. I was expecting prompt injection, but in this case it was just good ol' fashioned SQL injection, possible only due to the naivety of the LLM which wrote McKinsey's AI platform. himata4113: How long until a hallucinated data breach that spreads globally. There's a few inconsistencies and the typical low effort language AI has.",
+      "fetched_at": "2026-03-11T17:07:36.692447+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47333627",
+      "hn_story_type": "story",
+      "hn_points": "194",
+      "hn_comments_count": "71",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47333627",
+      "hn_item_text": "",
+      "hn_comment_preview": "frankfrank13: Some insider knowledge: Lilli was, at least a year ago, internal only. VPN access, SSO, all the bells and whistles, required. Not sure when that changed. McKinsey requires hiring an external pen-testing company to launch even to a small group of coworkers. I can forgive this kind of mistake on the part of the Lilli devs. A lot of things have to fail for an \"agentic\" security company to even find a public endpoint,...\njoenot443: > One of those unprotected endpoints wrote user search queries to the database. The values were safely parameterised, but the JSON keys — the field names — were concatenated directly into SQL. I was expecting prompt injection, but in this case it was just good ol' fashioned SQL injection, possible only due to the naivety of the LLM which wrote McKinsey's AI platform.\nhimata4113: How long until a hallucinated data breach that spreads globally. There's a few inconsistencies and the typical low effort language AI has.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "51",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=27,practical_tech=27,tools_agents=26,strategy_insight=2,industry_business=9",
+      "slot_scores": {
+        "practical_tech": 27,
+        "tools_agents": 26,
+        "strategy_insight": 2,
+        "industry_business": 9
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 27,
+          "strong_hits": [
+            "database",
+            "security",
+            "sql"
+          ],
+          "support_hits": [
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 26,
+          "strong_hits": [
+            "ai agent",
+            "agentic",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "prompt",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 9,
+          "strong_hits": [
+            "launch"
+          ],
+          "support_hits": [
+            "platform",
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "database",
+        "security",
+        "sql",
+        "testing",
+        "code + security"
+      ],
+      "detail_slug": "69175e6caf0086438349d733a80bd14137863bfa",
+      "is_english_source": true,
+      "translated_title": "맥킨지 AI 플랫폼, SQL 인젝션 해킹 사건 발생",
+      "short_summary": "맥킨지의 AI 에이전트 플랫폼에서 SQL 인젝션 취약점이 발견됐다. 내부 보안 절차에도 불구하고 외부 공격에 노출된 사례다.",
+      "detailed_summary": "최근 맥킨지의 AI 기반 에이전트 플랫폼에서 보안 취약점이 드러나 해킹 사고가 발생했다. 이 사건은 AI 시스템 개발 과정에서 발생한 단순한 보안 실수로 인해 가능했다.\n\n- 문제는 사용자 검색 쿼리를 데이터베이스에 기록하는 과정에서 JSON 키가 직접 SQL 쿼리에 삽입된 점이다.\n- 값은 안전하게 파라미터화했으나, 필드 이름이 그대로 연결되어 SQL 인젝션 공격에 취약했다.\n- 해당 플랫폼은 원래 내부 전용으로 VPN과 SSO 등 엄격한 접근 통제를 적용했으나, 공개 엔드포인트가 생기면서 외부 공격에 노출됐다.\n- 맥킨지는 외부 펜테스팅 업체를 통해 보안 점검을 진행하지만, 이번 사고는 여러 보안 실패가 겹쳐 발생한 것으로 보인다.\n- 일부 커뮤니티에서는 AI가 작성한 코드의 미숙함과 보안 검증 부족을 지적하며, 향후 유사 사고 재발 가능성에 우려를 표했다.\n\n이번 해킹 사건은 AI 개발 과정에서 보안 검증이 얼마나 중요한지 보여준다. 특히 AI가 생성한 코드에 대한 신중한 검토가 필요하며, 내부 시스템이라도 공개 접근 경로가 생기면 즉시 위험에 노출될 수 있음을 경고한다. 맥킨지 사례는 AI와 보안이 교차하는 지점에서 발생할 수 있는 새로운 유형의 위협을 시사한다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-11T17:08:22.549443+00:00"
+    },
+    {
+      "id": "1aedb39c20a581cf186e2bd199b93d61af6d6314",
+      "title_hash": "ba3a451b39cea02c9caf991dbc7d7b9d99ac92e3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Elevated errors on login with Claude Code",
+      "link": "https://status.claude.com/incidents/jm3b4jjy2jrt",
+      "published_at": "2026-03-11T15:28:18+00:00",
+      "summary": "HN story type: story HN points: 24 HN comments: 8 HN top comments: sveme: Anthropic's domain usage (there's claude.com, claude.ai, console.anthropic.com, platform.claude.com, claudecode.io forwarding to codeagents.app which errors) and authentication approach have been lacking a lot; hope this isn't a verdict on their use of agentic coding. Example: I had two orgs with similar names, one I set up myself and another my employer set up. Logged in via SSO. Once I deleted the one I created... zurfer: this takes long enough for me to give codex a new try rvz: \"AGI\" is going to make a lot of so-called senior software engineers look like interns who are unable to read or write code by hand. Having to wait for a Distinguished Engineer named \"Claude\" to come back from their 2 hour break to fix their issue.",
+      "fetched_at": "2026-03-11T17:07:36.692447+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47336889",
+      "hn_story_type": "story",
+      "hn_points": "24",
+      "hn_comments_count": "8",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47336889",
+      "hn_item_text": "",
+      "hn_comment_preview": "sveme: Anthropic's domain usage (there's claude.com, claude.ai, console.anthropic.com, platform.claude.com, claudecode.io forwarding to codeagents.app which errors) and authentication approach have been lacking a lot; hope this isn't a verdict on their use of agentic coding. Example: I had two orgs with similar names, one I set up myself and another my employer set up. Logged in via SSO. Once I deleted the one I created...\nzurfer: this takes long enough for me to give codex a new try\nrvz: \"AGI\" is going to make a lot of so-called senior software engineers look like interns who are unable to read or write code by hand. Having to wait for a Distinguished Engineer named \"Claude\" to come back from their 2 hour break to fix their issue.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=36,practical_tech=4,tools_agents=36,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 36,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 36,
+          "strong_hits": [
+            "claude code",
+            "agentic",
+            "codex",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "agentic",
+        "codex",
+        "ide",
+        "agent",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "1aedb39c20a581cf186e2bd199b93d61af6d6314",
+      "is_english_source": true,
+      "translated_title": "클로드 코드 로그인 오류 증가 문제 논란",
+      "short_summary": "Anthropic의 클로드 코드 로그인 과정에서 오류가 잦아 사용자 불만이 커지고 있다. 도메인 혼란과 인증 방식 문제도 지적됐다.",
+      "detailed_summary": "**Anthropic의 클로드 코드 서비스에서 로그인 오류가 빈번하게 발생하며 사용자들이 불편을 겪고 있다.**\n\n- 클로드 관련 여러 도메인(claude.com, claude.ai, console.anthropic.com 등)이 혼재되어 혼란을 주고 있다.\n- 인증 과정에서 문제가 발생해, 특히 SSO 로그인 시 조직 간 혼동이 생기는 사례가 보고됐다.\n- 일부 사용자는 이 문제로 인해 다른 AI 코딩 도구인 Codex를 다시 시도하기도 했다.\n- 댓글에서는 AGI(인공지능 일반)가 숙련된 소프트웨어 엔지니어들의 역할을 바꿀 것이라는 전망도 나왔다.\n\n이번 오류 사례는 Anthropic이 제공하는 에이전트 기반 코딩 서비스의 신뢰성에 의문을 제기한다. 도메인 관리와 인증 체계가 명확하지 않아 사용자 경험이 저해되고 있다. 앞으로 서비스 안정성과 사용자 편의성을 높이기 위한 개선이 필요해 보인다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-11T17:08:22.549443+00:00"
+    },
+    {
+      "id": "b01588d0bfc337291ce5d282edda76ea18ac7b32",
+      "title_hash": "fa13e0f404d50f0ee06fbaacf3d46e587951f6e7",
+      "source": "AI Weekly",
+      "title": "AI News Weekly - The AI civil war? Anthropic blasted and Open AI sees users flee - Mar 11th 2026",
+      "link": "https://aiweekly.co/issues/471",
+      "published_at": "2026-03-11T15:52:32+00:00",
+      "summary": "Welcome Things are pretty serious. AI is totally a geopolitical issue now - and more AI companies have 1 billion seed rounds now Anthropic got blacklisted. OpenAI is the bad guy as users revolted. LeCun walked away from Meta with a billion dollars and a thesis that everyone else is wrong. Oracle said it out loud: we're firing people to build data centres. None of this is theoretical anymore. AI Weekly Sponsor If you’re only using AI to rewrite emails, you’re doing it wrong. Become AI-proficient in 8 weeks. The AI for Business & Finance Certificate Program teaches practical, everyday AI for nontechnical professionals—and earns you a certificate from Columbia Business School Exec Ed. Starts March 16. Save $300 with code AIWEEKLY. Enroll today. columbia.edu In the News Online Age-Verification Tools for Child Safety Are Surveilling Adults CNBC · Mar 8 Half of U.S. states now force every user through AI-powered identity gates to protect children — creating a mass surveillance infrastructure that caused site traffic to collapse in states where it was enforced. Read more → #QuitGPT: 2.5M Users Flee ChatGPT; Claude Hits #1 on App Store TechCrunch · Mar 1 OpenAI's Pentagon deal triggered the largest consumer AI backlash ever — ChatGPT uninstalls surged 295%, Claude's daily signups quadrupled, and Anthropic's app overtook ChatGPT for the first time in the U.S. App Store. Read more → Anthropic Claims Pentagon Feud Could Cost It Billions TechCrunch · Mar 9 Anthropic filed two federal lawsuits challenging its \"supply chain risk\" designation — a label never before used against a domestic company — arguing the Pentagon is retaliating for its refusal to allow unrestricted military AI use. Read more → UK Eyes Sweeping Powers to Regulate Tech Computing.co.uk · Mar 9 The UK government is seeking broad executive authority to regulate online harms through the Children's Wellbeing Bill — and legal experts warn those same powers could be weaponized by future populist governments. Read more → Yann LeCun's AMI Labs Raises $1.03B to Build 'World Models' TechCrunch · Mar 10 Turing Award winner LeCun left Meta, called LLMs \"complete nonsense\" as a path to real intelligence, and raised $1B at a $3.5B valuation for a Paris-based startup building AI that understands physical reality — backed by Bezos, Nvidia, Schmidt, and Cuban. Read more → Fake AI Content About the Iran War Is All Over X CNN · Mar 10 AI-generated fake war footage is racking up tens of millions of views on X while monetized accounts profit from it — and X's own chatbot Grok made it worse by confirming fabricated content as real. Read more → Oracle Plans 20,000–30,000 Layoffs to Fund AI Data Centres Yahoo Finance / Bloomberg · Mar 5 Oracle is cutting up to 18% of its workforce to free $8–10B for AI infrastructure — the starkest example yet of a company explicitly firing humans to pay for AI, while U.S. banks pull back from financing the expansion. Read more → Kids Would Be Banned from Using Chatbots in Minnesota AI Bills CBS News · Mar 10 Minnesota's bipartisan AI bills — banning minors from chatbots, blocking surveillance pricing, and restricting AI in health insurance — signal that states are becoming AI's de facto regulators in the absence of federal action. Read more → OpenAI and Google Workers File Amicus Brief for Anthropic TechCrunch · Mar 9 Over 30 employees from rival firms — including Google's chief scientist Jeff Dean — told a federal court that if the Pentagon can blacklist a company for setting safety boundaries, no AI developer is safe. Read more → Microsoft: Hackers Abusing AI at Every Stage of Cyberattacks Microsoft Security Blog · Mar 7 Threat actors are now using generative AI across the entire attack lifecycle — one Russian-speaking hacker breached 600+ firewalls in five weeks using AI, a scale previously requiring a full team. Read more → DOJ Lawyer Resigns Before Judicial Scolding for AI-Filled Brief Bloomberg Law · Mar 10 A 30-year federal prosecutor resigned after filing a brief with AI-fabricated citations — calling it the worst decision of his career and underscoring that even experienced professionals are falling for AI hallucinations. Read more → Anthropic Seeks to Undo 'Supply Chain Risk' Designation NPR · Mar 9 The first-ever use of a supply chain risk designation against a domestic U.S. company sets a precedent that could reshape how every AI firm negotiates with the military — all because Anthropic drew two red lines on surveillance and autonomous weapons. Read more → AI Weekly footer Please reply to this email to let me know how we can make AIWeekly better! Alexis AI Weekly This RSS feed is published on https://aiweekly.co/ . You can also subscribe via email .",
+      "fetched_at": "2026-03-11T17:07:36.692447+00:00",
+      "source_priority_boost": "12",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=12,slot_score=38,practical_tech=3,tools_agents=15,strategy_insight=24,industry_business=38",
+      "slot_scores": {
+        "practical_tech": 3,
+        "tools_agents": 15,
+        "strategy_insight": 24,
+        "industry_business": 38
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 3,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation",
+            "lawsuit"
+          ],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [
+            "lawsuit"
+          ],
+          "phrase_hits": [
+            "tool + calling",
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 24,
+          "strong_hits": [
+            "decision",
+            "signal",
+            "career"
+          ],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 38,
+          "strong_hits": [
+            "valuation",
+            "lawsuit",
+            "startup",
+            "deal"
+          ],
+          "support_hits": [
+            "business",
+            "company",
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "supply + chain"
+          ],
+          "domain_hits": [
+            "aiweekly.co"
+          ]
+        }
+      },
+      "matched_terms": [
+        "valuation",
+        "lawsuit",
+        "startup",
+        "deal",
+        "business",
+        "company",
+        "supply + chain",
+        "aiweekly.co"
+      ],
+      "detail_slug": "b01588d0bfc337291ce5d282edda76ea18ac7b32",
+      "is_english_source": true,
+      "translated_title": "AI 업계 내전? 앤트로픽 퇴출과 오픈AI 사용자 이탈",
+      "short_summary": "AI가 이제는 지정학적 문제로 부상했다. 앤트로픽이 블랙리스트에 올랐고, 오픈AI는 사용자 반발에 직면했다.",
+      "detailed_summary": "최근 AI 산업에서 긴장감이 고조되고 있다. 단순한 기술 경쟁을 넘어 정치적, 경제적 갈등으로 번지고 있다.\n- 앤트로픽이 블랙리스트에 올라 사업에 큰 타격을 입었다.\n- 오픈AI는 사용자들이 이탈하는 상황에 직면하며 이미지에 타격을 받았다.\n- 메타의 얀 르쿤은 10억 달러를 받고 회사를 떠나며 기존 AI 전략에 의문을 제기했다.\n- 오라클은 데이터 센터 구축을 위해 인력 감축을 공식 발표했다.\n- AI 스타트업들은 10억 달러 규모의 시드 투자를 받으며 자금 조달 경쟁이 치열해졌다.\n이번 사태는 AI가 단순한 기술 영역을 넘어 글로벌 정치와 경제에 깊숙이 영향을 미치고 있음을 보여준다. 기업 간 경쟁이 심화되면서 사용자 신뢰와 시장 지배력 확보가 더욱 어려워지고 있다. AI 산업의 미래 방향이 어떻게 전개될지 주목된다.",
+      "ai_model": "gpt-4.1-mini-2025-04-14",
+      "sent_at": "2026-03-11T17:08:22.549443+00:00"
+    },
+    {
       "id": "058f29c9c48c5f1a3b2f94a2592cecb1afe788be",
       "title_hash": "6c02d291296968f11854d118c04f8eaed76981cc",
       "source": "GeekNews",
