@@ -6,7 +6,11 @@ import html
 import json
 import os
 import re
+import shlex
+import shutil
+import subprocess
 import sys
+import tempfile
 import time
 import textwrap
 import xml.etree.ElementTree as ET
@@ -583,34 +587,6 @@ def parse_json_from_text(text: str) -> dict[str, Any]:
     except json.JSONDecodeError:
         return {}
     return {}
-
-
-def build_model_candidates(primary: str, fallback_csv: str) -> list[str]:
-    models: list[str] = []
-    for token in [primary, *fallback_csv.split(",")]:
-        model = normalize_text(token)
-        if model and model not in models:
-            models.append(model)
-    return models
-
-
-def is_openai_model_access_error(body_text: str) -> bool:
-    lowered = body_text.lower()
-    if "model_not_found" in lowered or "does not have access to model" in lowered:
-        return True
-
-    try:
-        payload = json.loads(body_text)
-        err = payload.get("error", {}) if isinstance(payload, dict) else {}
-        code = str(err.get("code", "")).lower()
-        msg = str(err.get("message", "")).lower()
-        if code == "model_not_found":
-            return True
-        if "does not have access to model" in msg:
-            return True
-    except json.JSONDecodeError:
-        return False
-    return False
 
 
 def sha1_text(value: str) -> str:
@@ -1539,20 +1515,20 @@ def select_discord_batch(
     )
 
 
-def enrich_item_with_openai(
+def enrich_item_with_codex_cli(
     item: dict[str, str],
-    api_key: str,
-    models: list[str],
+    model: str,
     timeout_sec: int,
+    sandbox: str,
+    extra_args: str,
     retries: int,
 ) -> tuple[dict[str, str], str | None]:
     item = ensure_archive_detail_fields(item)
-    if not api_key:
-        return item, None
     if not item.get("is_english_source"):
         return item, None
-    if not models:
-        return item, "openai model list is empty"
+    codex_bin = shutil.which("codex")
+    if not codex_bin:
+        return item, "codex CLI was not found on PATH"
 
     source_name = normalize_text(item.get("source"))
     is_hn_item = source_name == "Hacker News Frontpage (HN RSS)"
@@ -1583,12 +1559,9 @@ def enrich_item_with_openai(
     user_prompt = (
         "아래 IT 뉴스 정보를 한국어로 정리해줘.\n"
         "반드시 JSON만 출력해.\n"
-        '스키마: {"translated_title":"", "short_summary":"", "detailed_summary":""}\n'
+        '스키마: {"translated_title":"", "short_summary":""}\n'
         "- translated_title: 자연스러운 한국어 제목(40자 내외)\n"
         "- short_summary: 1~2문장 요약(총 120자 내외)\n\n"
-        "- detailed_summary: Markdown 허용. 총 350~900자.\n"
-        "  형식: 짧은 도입 문단 1개 + '- ' bullet 3~5개 + 의미/맥락 문단 1개\n"
-        "  허용 문법: 문단, '- ' bullet, '**강조**'만 사용\n\n"
         f"{HUMANIZER_PROMPT_GUIDANCE}\n\n"
         f"{source_note}"
         f"Title: {item.get('title', '')}\n"
@@ -1596,96 +1569,71 @@ def enrich_item_with_openai(
         f"Snippet: {snippet}\n"
     )
     last_error: str | None = None
-    denied_models: list[str] = []
 
-    for model in models:
-        payload = {
-            "model": model,
-            "temperature": 0.2,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": (
-                        "You are a precise Korean translator and tech news summarizer. "
-                        "Output strictly valid JSON."
-                    ),
-                },
-                {"role": "user", "content": user_prompt},
-            ],
-        }
+    base_command = [
+        codex_bin,
+        "exec",
+        "--full-auto",
+        "--sandbox",
+        sandbox or "read-only",
+        "-C",
+        str(ROOT),
+    ]
+    if model:
+        base_command.extend(["--model", model])
 
-        body = json.dumps(payload).encode("utf-8")
-        model_access_error = False
-
-        for attempt in range(retries):
-            req = Request(
-                "https://api.openai.com/v1/chat/completions",
-                data=body,
-                headers={
-                    "Authorization": f"Bearer {api_key}",
-                    "Content-Type": "application/json",
-                    "Accept": "application/json",
-                    "User-Agent": USER_AGENT,
-                },
-                method="POST",
-            )
+    for attempt in range(retries):
+        with tempfile.TemporaryDirectory(prefix="codex-summary-") as tmp_dir:
+            last_message_path = Path(tmp_dir) / "last-message.md"
+            command = [*base_command, "--output-last-message", str(last_message_path)]
+            if extra_args:
+                command.extend(shlex.split(extra_args))
+            command.append("-")
 
             try:
-                with urlopen(req, timeout=timeout_sec) as resp:
-                    data = json.loads(resp.read().decode("utf-8", errors="replace"))
-                    choices = data.get("choices", [])
-                    if not choices:
-                        return item, f"openai choices is empty (model={model})"
-
-                    content = choices[0].get("message", {}).get("content", "")
-                    if isinstance(content, list):
-                        content = " ".join(
-                            normalize_text(part.get("text", ""))
-                            for part in content
-                            if isinstance(part, dict)
-                        )
-
-                    parsed = parse_json_from_text(str(content))
-                    translated_title = normalize_text(parsed.get("translated_title"))
-                    short_summary = normalize_text(parsed.get("short_summary"))
-                    detailed_summary = normalize_briefing_markdown(parsed.get("detailed_summary"))
-
-                    if translated_title:
-                        item["translated_title"] = translated_title
-                    if short_summary:
-                        item["short_summary"] = short_summary
-                    if detailed_summary:
-                        item["detailed_summary"] = detailed_summary
-                    if translated_title or short_summary or detailed_summary:
-                        item["ai_model"] = model
-                    return item, None
-            except HTTPError as exc:
-                body_text = ""
-                try:
-                    body_text = exc.read().decode("utf-8", errors="replace").strip()
-                except Exception:  # noqa: BLE001
-                    body_text = ""
-
-                if body_text and is_openai_model_access_error(body_text):
-                    last_error = f"model access denied: {model}"
-                    denied_models.append(model)
-                    model_access_error = True
-                    break
-
-                last_error = (
-                    f"HTTP Error {exc.code} (model={model}): {body_text}" if body_text else str(exc)
+                result = subprocess.run(
+                    command,
+                    input=user_prompt,
+                    text=True,
+                    capture_output=True,
+                    timeout=timeout_sec,
+                    check=False,
                 )
-            except (URLError, TimeoutError, json.JSONDecodeError) as exc:
-                last_error = f"{exc} (model={model})"
+            except (OSError, subprocess.SubprocessError, TimeoutError) as exc:
+                last_error = str(exc)
+                if attempt < retries - 1:
+                    time.sleep(2**attempt)
+                continue
 
-            if attempt < retries - 1:
-                time.sleep(2**attempt)
+            if result.returncode != 0:
+                stderr = normalize_text(result.stderr)
+                stdout = normalize_text(result.stdout)
+                last_error = stderr or stdout or f"codex exec exited with status {result.returncode}"
+                if attempt < retries - 1:
+                    time.sleep(2**attempt)
+                continue
 
-        if model_access_error:
-            continue
+            try:
+                content = last_message_path.read_text(encoding="utf-8")
+            except OSError as exc:
+                last_error = f"failed to read codex output: {exc}"
+                if attempt < retries - 1:
+                    time.sleep(2**attempt)
+                continue
 
-    if denied_models:
-        return item, f"model access denied (tried: {', '.join(denied_models)})"
+            parsed = parse_json_from_text(content)
+            translated_title = normalize_text(parsed.get("translated_title"))
+            short_summary = normalize_text(parsed.get("short_summary"))
+
+            if translated_title:
+                item["translated_title"] = translated_title
+            if short_summary:
+                item["short_summary"] = short_summary
+            if translated_title or short_summary:
+                item["ai_model"] = normalize_text(model) or "codex-cli"
+                return item, None
+            last_error = "codex response did not include translated_title or short_summary"
+
     return item, last_error
 
 
@@ -1799,14 +1747,11 @@ def main() -> int:
     geeknews_max_per_run = min(geeknews_max_per_run, max_new_items_per_run)
 
     mention = os.getenv("DISCORD_MENTION", "").strip()
-    openai_api_key = os.getenv("OPENAI_API_KEY", "").strip()
-    openai_model = os.getenv("OPENAI_MODEL", "gpt-4.1-mini-2025-04-14").strip()
-    openai_fallback_models = os.getenv(
-        "OPENAI_FALLBACK_MODELS",
-        "gpt-4.1-mini,gpt-4.1-nano-2025-04-14,gpt-4.1-nano,gpt-4o-mini-2024-07-18,gpt-4o-mini",
-    ).strip()
-    openai_models = build_model_candidates(openai_model, openai_fallback_models)
-    openai_timeout_sec = max(5, safe_int(os.getenv("OPENAI_TIMEOUT_SEC"), 20))
+    codex_summary_model = os.getenv("CODEX_SUMMARY_MODEL", "").strip()
+    codex_summary_timeout_sec = max(15, safe_int(os.getenv("CODEX_SUMMARY_TIMEOUT_SEC"), 120))
+    codex_summary_sandbox = normalize_text(os.getenv("CODEX_SUMMARY_SANDBOX", "read-only"), "read-only")
+    codex_summary_extra_args = os.getenv("CODEX_SUMMARY_EXTRA_ARGS", "").strip()
+    dispatch_origin = normalize_text(os.getenv("NEWSLETTER_DISPATCH_ORIGIN"), "unknown")
     discord_user_agent = os.getenv(
         "DISCORD_USER_AGENT",
         (
@@ -1888,8 +1833,8 @@ def main() -> int:
     sent_items: list[dict[str, str]] = []
     enriched_items: list[dict[str, str]] = []
     send_failures: list[dict[str, str]] = []
-    ai_failures: list[dict[str, str]] = []
-    ai_enriched_total = 0
+    briefing_failures: list[dict[str, str]] = []
+    briefing_enriched_total = 0
     discord_messages_sent = 0
     prioritized_geeknews_total = sum(1 for item in new_items if item.get("source") == "GeekNews")
     prioritized_technical_total = sum(1 for item in new_items if item.get("priority_bucket") == "technical")
@@ -1897,23 +1842,24 @@ def main() -> int:
     prioritized_slot_totals = count_items_by_slot(new_items)
 
     for item in new_items:
-        enriched_item, ai_err = enrich_item_with_openai(
+        enriched_item, briefing_err = enrich_item_with_codex_cli(
             item=dict(item),
-            api_key=openai_api_key,
-            models=openai_models,
-            timeout_sec=openai_timeout_sec,
+            model=codex_summary_model,
+            timeout_sec=codex_summary_timeout_sec,
+            sandbox=codex_summary_sandbox,
+            extra_args=codex_summary_extra_args,
             retries=retries,
         )
-        if ai_err:
-            ai_failures.append(
+        if briefing_err:
+            briefing_failures.append(
                 {
                     "source": item["source"],
                     "title": item["title"],
-                    "error": ai_err,
+                    "error": briefing_err,
                 }
             )
         if enriched_item.get("translated_title") or enriched_item.get("short_summary"):
-            ai_enriched_total += 1
+            briefing_enriched_total += 1
 
         enriched_items.append(enriched_item)
 
@@ -2004,6 +1950,7 @@ def main() -> int:
 
     summary = {
         "executed_at": fetched_at,
+        "dispatch_origin": dispatch_origin,
         "dry_run": dry_run,
         "sources_total": len(sources),
         "sources_enabled": len(enabled_sources),
@@ -2035,8 +1982,8 @@ def main() -> int:
         "discord_messages_sent": discord_messages_sent,
         "discord_batch_max_chars": batch_max_chars,
         "send_failures": send_failures,
-        "ai_enriched_total": ai_enriched_total,
-        "ai_failures": ai_failures,
+        "briefing_enriched_total": briefing_enriched_total,
+        "briefing_failures": briefing_failures,
     }
     write_json(LAST_RUN_PATH, summary)
 
