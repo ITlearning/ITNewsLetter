@@ -4,7 +4,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 
 ## Phase 1 (implemented)
 - Feed source management via `config/sources.yaml`
-- Scheduled collection using GitHub Actions
+- Scheduled collection using one runner at a time (`launchd` on Mac Studio or GitHub Actions)
 - Duplicate prevention via `data/state.json`
 - Delivery to Discord webhook
 - Run summary in `data/last_run.json`
@@ -23,23 +23,20 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 - `data/state.json`: previously sent IDs
 - `data/news.json`: archived sent items
 - `data/last_run.json`: run summary
-- `.github/workflows/news-discord.yml`: scheduled automation
+- `.github/workflows/news-discord.yml`: manual fallback dispatch only
 - `.github/workflows/news-archive-pages.yml`: GitHub Pages deployment
 
 ## Setup
 1. Push this repository to GitHub.
 2. In repository settings, add secret:
    - `DISCORD_WEBHOOK_URL`
-   - `OPENAI_API_KEY` (for English title translation + list/detail summaries)
 3. Enable GitHub Actions.
-4. Run `Newsletter Discord Sync` once with `workflow_dispatch` (first bootstrap).
-5. Scheduler runs every 4 hours (at minute `:13`) and automatically sends 5-7 new items per run depending on Discord message length.
-6. Optional fallback: set `chain=true` on manual run to keep 4-hour self-dispatch loop.
-7. To enable/disable fallback globally, set repository variable `SELF_DISPATCH_ENABLED=true|false`.
-8. Manual runs can temporarily override the per-run range with `min_items_per_run` and `max_items_per_run`.
-9. Priority selection uses a shared 4-slot taxonomy across all sources and a GeekNews-specific overlay.
-10. To publish the archive site, set GitHub Pages source to `GitHub Actions`.
-11. Optional: add repository variable `LAZY_DETAIL_API_URL` after deploying the Vercel lazy-detail API.
+4. If you are using Mac Studio local dispatch, leave `Newsletter Discord Sync` as manual fallback only.
+5. Manual fallback runs can temporarily override the per-run range with `min_items_per_run` and `max_items_per_run`.
+6. Priority selection uses a shared 4-slot taxonomy across all sources and a GeekNews-specific overlay.
+7. To publish the archive site, set GitHub Pages source to `GitHub Actions`.
+8. Optional: add repository variable `LAZY_DETAIL_API_URL` after deploying the Vercel lazy-detail API.
+9. For no-API English briefings, run `scripts/fetch_and_send.py` on your Mac Studio after `codex login`; GitHub Actions cannot use your local Codex session.
 
 ## Local Dry Run
 ```bash
@@ -48,6 +45,13 @@ source .venv/bin/activate
 pip install -r requirements.txt
 DRY_RUN=1 python scripts/fetch_and_send.py
 ```
+
+## Mac Studio Codex Runner
+- Repo-local `launchd` setup for scheduled `codex exec` runs lives in [`docs/codex-mac-studio.md`](docs/codex-mac-studio.md).
+- Files are under `scripts/run_codex_task.sh`, `ops/codex/`, and `ops/launchd/`.
+- The no-OpenAI flow also uses `scripts/process_lazy_detail_queue.mjs` plus `ops/launchd/io.tabber.itnewsletter.lazy-detail-queue-worker.plist`.
+- If you want English title/short-summary enrichment to stay automatic without OpenAI API, schedule `scripts/run_local_dispatch.sh` on the Mac Studio as well.
+- Do not keep the GitHub `news-discord` scheduler active at the same time as `launchd` local dispatch. They do not share `data/state.json` automatically, so the same items can be sent again later.
 
 ## Environment Variables (optional)
 - `STATE_TTL_DAYS` (default: `14`)
@@ -64,18 +68,19 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `DISCORD_BATCH_MAX_CHARS` (default: `1900`, selected items are sent in one batched message)
 - `DISCORD_MENTION` (default: empty)
 - `DISCORD_USER_AGENT` (default: browser-like UA string)
-- `OPENAI_MODEL` (default: `gpt-4.1-mini-2025-04-14`)
-- `OPENAI_FALLBACK_MODELS` (default: `gpt-4.1-mini,gpt-4.1-nano-2025-04-14,gpt-4.1-nano,gpt-4o-mini-2024-07-18,gpt-4o-mini`)
-- `OPENAI_TIMEOUT_SEC` (default: `20`)
+- `CODEX_SUMMARY_MODEL` (default: empty, use your account default model)
+- `CODEX_SUMMARY_TIMEOUT_SEC` (default: `120`)
+- `CODEX_SUMMARY_SANDBOX` (default: `read-only`)
+- `CODEX_SUMMARY_EXTRA_ARGS` (default: empty)
 
 ## Lazy Detail API (legacy English archive items)
-- New English items still generate `translated_title`, `short_summary`, and `detailed_summary` at dispatch time.
-- Older English archive items can lazily generate a richer `detailed_summary` on the detail page.
+- New English items can generate `translated_title` and `short_summary` during local dispatch through Codex CLI.
+- `detailed_summary` is generated lazily only after the detail page is opened.
 - Korean items and GeekNews are excluded from lazy generation.
 - Supported legacy sources are controlled by `config/lazy_detail_allowlist.json`.
 - HN RSS lazy detail support is limited to curated downstream domains, not the whole HN source.
 - The archive detail page never stores or mirrors original article bodies. The API only stores generated `detailed_summary` in Redis.
-- Lazy-detail Redis cache keys now use the `lazy-detail:v2:*` namespace, so older cached briefings are ignored automatically after deploy.
+- The Vercel lazy-detail endpoint now only checks cache and enqueues jobs; your Mac Studio worker generates the briefing and writes it back to Redis.
 
 ### Refreshing legacy briefings
 Run a dry run first:
@@ -99,15 +104,21 @@ What it does:
 Deploy this repository to Vercel and configure:
 - `ARCHIVE_DATA_URL`
   - Example: `https://itlearning.github.io/ITNewsLetter/data/news-archive.json`
-- `OPENAI_API_KEY`
-- `OPENAI_MODEL` (optional, defaults to `gpt-4.1-mini-2025-04-14`)
-- `OPENAI_FALLBACK_MODELS` (optional)
 - `UPSTASH_REDIS_REST_URL`
 - `UPSTASH_REDIS_REST_TOKEN`
 
 Then set GitHub repository variable:
 - `LAZY_DETAIL_API_URL`
   - Example: `https://your-project.vercel.app/api/lazy-detail`
+
+And on your Mac Studio, copy and fill:
+- `ops/codex/lazy-detail-worker.env.example`
+
+Then run the queue worker locally:
+
+```bash
+node scripts/process_lazy_detail_queue.mjs
+```
 
 ## Notes
 - Some newsletters do not expose RSS/Atom feeds directly.
@@ -118,9 +129,9 @@ Then set GitHub repository variable:
 - HN now uses the official Hacker News API, keeps a stronger source prior, and enriches stories with HN-native context so technical posts and engineering essays surface more often.
 - Product Hunt Feed is currently disabled by default because signal quality was low for the Discord batch.
 - GeekNews posts include a short 3-4 line preview from feed summary when AI summary is not used.
-- English items can store `translated_title`, `short_summary`, and `detailed_summary` at dispatch time.
-- Korean and GeekNews items do not trigger extra detail-page GPT calls.
-- Older allowlisted English articles can request a richer detail briefing on demand through the Vercel API.
+- English items can store `translated_title` and `short_summary` at dispatch time through local Codex CLI.
+- Korean and GeekNews items do not trigger extra detail-page detail-generation jobs.
+- Older allowlisted English articles can request a richer detail briefing on demand through the Vercel API queue.
 - Older HN items with a stored HN story id can request richer detail briefings from HN story/comment context without crawling the downstream article body.
 - Multiple selected items are grouped into a single Discord push per run (subject to message size limit).
 - Batch size is selected automatically within the configured min/max range, shrinking from max to min when the Discord message gets too long.
