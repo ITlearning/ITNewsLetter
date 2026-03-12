@@ -26,6 +26,7 @@ from fetch_and_send import (
     render_briefing_markdown_html,
     score_and_tag_item_priority,
     to_multiline_preview,
+    truncate_text,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -34,6 +35,7 @@ DIST_DIR = ROOT / "dist"
 SITE_DATA_PATH = DIST_DIR / "data" / "news-archive.json"
 DETAIL_TEMPLATE_PATH = SITE_SRC / "templates" / "detail.html"
 LAZY_DETAIL_ALLOWLIST_PATH = ROOT / "config" / "lazy_detail_allowlist.json"
+DEFAULT_SITE_BASE_URL = "https://itnewsletter.vercel.app"
 
 
 def sort_key(item: dict[str, Any]) -> tuple[int, str]:
@@ -52,6 +54,21 @@ def build_detail_url(detail_slug: str) -> str:
 
 def build_nested_detail_url(detail_slug: str) -> str:
     return f"../{detail_slug}/"
+
+
+def normalize_site_base_url(raw: Any) -> str:
+    url = normalize_text(raw, DEFAULT_SITE_BASE_URL)
+    return url.rstrip("/")
+
+
+def build_absolute_detail_url(detail_slug: str, site_base_url: str) -> str:
+    return f"{normalize_site_base_url(site_base_url)}/news/{detail_slug}/"
+
+
+def build_absolute_asset_url(asset_path: str, site_base_url: str) -> str:
+    base_url = normalize_site_base_url(site_base_url)
+    normalized_path = "/" + asset_path.lstrip("/")
+    return f"{base_url}{normalized_path}"
 
 
 def is_geeknews_item(item: dict[str, Any]) -> bool:
@@ -307,6 +324,18 @@ def render_summary_html(text: str) -> str:
     return render_briefing_markdown_html(text)
 
 
+def build_meta_description(item: dict[str, Any]) -> str:
+    summary_text = summary_for_detail(item)
+    summary_text = summary_text.replace("**", "").replace("\n- ", " ").replace("\n", " ")
+    normalized = normalize_text(summary_text)
+    if normalized:
+        return truncate_text(normalized, 180)
+    fallback = normalize_text(item.get("translated_title") or item.get("title"))
+    if fallback:
+        return f"{truncate_text(fallback, 110)} 브리핑 페이지."
+    return "보낸 IT 뉴스를 원문 읽기 전 브리핑 형태로 정리한 상세 페이지."
+
+
 def render_matched_terms_html(terms: list[str]) -> str:
     cleaned = [normalize_text(term) for term in terms if normalize_text(term)]
     if not cleaned:
@@ -397,6 +426,7 @@ def render_detail_page(
     next_item: dict[str, Any] | None,
     template: Template,
     lazy_detail_api_url: str,
+    site_base_url: str,
 ) -> str:
     translated_title = normalize_text(item.get("translated_title") or item.get("title"), "(제목 없음)")
     original_title = normalize_text(item.get("title"))
@@ -406,6 +436,12 @@ def render_detail_page(
 
     summary_html = render_summary_html(summary_for_detail(item))
     summary_markdown = summary_for_detail(item)
+    meta_description = build_meta_description(item)
+    detail_slug = normalize_text(item.get("detail_slug"))
+    canonical_url = build_absolute_detail_url(detail_slug, site_base_url) if detail_slug else normalize_site_base_url(
+        site_base_url
+    )
+    og_image_url = build_absolute_asset_url("img.icons8.png", site_base_url)
     matched_terms_html = render_matched_terms_html(item.get("matched_terms", []))
     related_html = render_related_items_html(related_items)
     pager_html = render_pager_html(previous_item, next_item)
@@ -420,7 +456,13 @@ def render_detail_page(
         )
 
     return template.substitute(
-        page_title=html.escape(translated_title),
+        page_title=html.escape(f"{translated_title} | IT Dispatch Archive"),
+        meta_description=html.escape(meta_description, quote=True),
+        canonical_url=html.escape(canonical_url, quote=True),
+        og_title=html.escape(translated_title, quote=True),
+        og_description=html.escape(meta_description, quote=True),
+        og_url=html.escape(canonical_url, quote=True),
+        og_image_url=html.escape(og_image_url, quote=True),
         translated_title=html.escape(translated_title),
         original_title_block=original_block,
         item_id=html.escape(normalize_text(item.get("id"), item.get("detail_slug"))),
@@ -444,6 +486,7 @@ def render_detail_page(
 
 def write_detail_pages(items: list[dict[str, Any]], lazy_detail_api_url: str) -> None:
     template = load_detail_template()
+    site_base_url = normalize_site_base_url(os.getenv("SITE_BASE_URL", DEFAULT_SITE_BASE_URL))
     for index, item in enumerate(items):
         detail_slug = normalize_text(item.get("detail_slug"))
         if not detail_slug:
@@ -461,6 +504,7 @@ def write_detail_pages(items: list[dict[str, Any]], lazy_detail_api_url: str) ->
             next_item=next_item,
             template=template,
             lazy_detail_api_url=lazy_detail_api_url,
+            site_base_url=site_base_url,
         )
         (output_dir / "index.html").write_text(page_html, encoding="utf-8")
 
