@@ -162,7 +162,13 @@ class BuildSiteTests(unittest.TestCase):
                 patch.object(build_archive_site, "DIST_DIR", dist_dir),
                 patch.object(build_archive_site, "SITE_DATA_PATH", dist_dir / "data" / "news-archive.json"),
                 patch.object(build_archive_site, "LAZY_DETAIL_ALLOWLIST_PATH", allowlist_path),
-                patch.dict("os.environ", {"LAZY_DETAIL_API_URL": "https://detail-api.example.com/api/lazy-detail"}),
+                patch.dict(
+                    "os.environ",
+                    {
+                        "LAZY_DETAIL_API_URL": "https://detail-api.example.com/api/lazy-detail",
+                        "SITE_BASE_URL": "https://itnewsletter.vercel.app",
+                    },
+                ),
             ):
                 build_archive_site.build_site()
 
@@ -192,6 +198,14 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("<ul class='detail-summary-list'>", english_detail)
             self.assertIn("<strong>핵심 변화</strong>", english_detail)
             self.assertIn("data-summary-markdown=", english_detail)
+            self.assertIn('property="og:title"', english_detail)
+            self.assertIn('property="og:description"', english_detail)
+            self.assertIn('property="og:url"', english_detail)
+            self.assertIn('property="og:image"', english_detail)
+            self.assertIn('name="twitter:card"', english_detail)
+            self.assertIn('rel="canonical"', english_detail)
+            self.assertIn("https://itnewsletter.vercel.app/news/eng1/", english_detail)
+            self.assertIn("https://itnewsletter.vercel.app/img.icons8.png", english_detail)
             self.assertIn("../../about.html", english_detail)
             self.assertIn("../../contact.html", english_detail)
             self.assertIn("ca-pub-3668470088067384", english_detail)

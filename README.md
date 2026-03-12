@@ -72,6 +72,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `CODEX_SUMMARY_TIMEOUT_SEC` (default: `120`)
 - `CODEX_SUMMARY_SANDBOX` (default: `read-only`)
 - `CODEX_SUMMARY_EXTRA_ARGS` (default: empty)
+- `SITE_BASE_URL` (default: `https://itnewsletter.vercel.app`, used for canonical/OG detail-page links)
 
 ## Lazy Detail API (legacy English archive items)
 - New English items can generate `translated_title` and `short_summary` during local dispatch through Codex CLI.
@@ -106,6 +107,8 @@ Deploy this repository to Vercel and configure:
   - Example: `https://itlearning.github.io/ITNewsLetter/data/news-archive.json`
 - `UPSTASH_REDIS_REST_URL`
 - `UPSTASH_REDIS_REST_TOKEN`
+- `SITE_BASE_URL`
+  - Example: `https://itnewsletter.vercel.app`
 
 Then set GitHub repository variable:
 - `LAZY_DETAIL_API_URL`
