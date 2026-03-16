@@ -1,8 +1,6 @@
-name: Newsletter Discord Sync
+name: Newsletter Discord Sync (Manual Fallback)
 
 on:
-  schedule:
-    - cron: "13 */4 * * *"
   workflow_dispatch:
     inputs:
       min_items_per_run:
@@ -55,7 +53,7 @@ jobs:
           MAX_ITEM_AGE_DAYS: "3"
           TECH_PRIORITY_QUOTA: "3"
           GEEKNEWS_MAX_PER_RUN: "3"
-          NEWSLETTER_DISPATCH_ORIGIN: "github-actions"
+          NEWSLETTER_DISPATCH_ORIGIN: "github-actions-manual"
         run: python scripts/fetch_and_send.py
 
       - name: Commit state files
