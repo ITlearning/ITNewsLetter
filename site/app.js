@@ -3,6 +3,7 @@ const state = {
   filteredItems: [],
   metadata: null,
   todayPicks: [],
+  topicDigests: { weekly: [], monthly: [] },
   search: "",
   source: "all",
   slot: "all",
@@ -15,6 +16,8 @@ const elements = {
   resetButton: document.querySelector("#reset-filters"),
   todaySection: document.querySelector("#today-section"),
   todayList: document.querySelector("#today-list"),
+  topicSection: document.querySelector("#topic-section"),
+  topicList: document.querySelector("#topic-list"),
   newsList: document.querySelector("#news-list"),
   emptyState: document.querySelector("#empty-state"),
   cardTemplate: document.querySelector("#news-card-template"),
@@ -222,6 +225,52 @@ function renderTodayCuration() {
   elements.todayList.appendChild(fragment);
 }
 
+function renderTopicDigests() {
+  clearChildren(elements.topicList);
+
+  const weekly = Array.isArray(state.topicDigests?.weekly) ? state.topicDigests.weekly.slice(0, 2) : [];
+  const monthly = Array.isArray(state.topicDigests?.monthly) ? state.topicDigests.monthly.slice(0, 2) : [];
+  const digests = weekly.concat(monthly);
+
+  if (!digests.length) {
+    elements.topicSection.hidden = true;
+    return;
+  }
+
+  elements.topicSection.hidden = false;
+  const fragment = document.createDocumentFragment();
+
+  digests.forEach((digest) => {
+    const link = document.createElement("a");
+    link.className = "topic-card";
+    link.href = digest.url || "#";
+
+    const period = document.createElement("span");
+    period.className = "topic-period";
+    period.textContent = digest.period === "monthly" ? "Monthly Topic" : "Weekly Topic";
+    link.appendChild(period);
+
+    const headline = document.createElement("strong");
+    headline.className = "topic-headline";
+    headline.textContent = digest.headline || "토픽 브리핑";
+    link.appendChild(headline);
+
+    const meta = document.createElement("span");
+    meta.className = "topic-meta";
+    meta.textContent = `${digest.slot_label || "미분류"} · 기사 ${digest.total_items || 0}건`;
+    link.appendChild(meta);
+
+    const summary = document.createElement("p");
+    summary.className = "topic-summary";
+    summary.textContent = digest.summary || "요약 없음";
+    link.appendChild(summary);
+
+    fragment.appendChild(link);
+  });
+
+  elements.topicList.appendChild(fragment);
+}
+
 function renderList() {
   clearChildren(elements.newsList);
 
@@ -274,9 +323,11 @@ async function init() {
     state.metadata = payload;
     state.items = Array.isArray(payload.items) ? payload.items : [];
     state.todayPicks = Array.isArray(payload.today_picks) ? payload.today_picks : [];
+    state.topicDigests = payload.topic_digests || { weekly: [], monthly: [] };
     renderStats();
     renderFilterOptions();
     renderTodayCuration();
+    renderTopicDigests();
     wireEvents();
     applyFilters();
   } catch (error) {

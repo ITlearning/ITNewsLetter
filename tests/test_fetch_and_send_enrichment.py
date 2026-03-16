@@ -154,6 +154,79 @@ class EnrichmentTests(unittest.TestCase):
         self.assertIsNone(err)
         self.assertEqual(enriched["why_it_matters"], expected)
 
+    def test_generate_topic_digests_groups_items_by_slot_and_period(self) -> None:
+        items = [
+            {
+                "id": "a1",
+                "title": "Agent workflow launch",
+                "translated_title": "에이전트 워크플로 출시",
+                "short_summary": "로컬 에이전트 흐름 개선",
+                "primary_slot": "tools_agents",
+                "primary_slot_label": "도구·에이전트",
+                "sent_at": "2026-03-16T02:00:00+00:00",
+            },
+            {
+                "id": "a2",
+                "title": "Another agent post",
+                "translated_title": "또 다른 에이전트 글",
+                "short_summary": "에이전트 운영 팁",
+                "primary_slot": "tools_agents",
+                "primary_slot_label": "도구·에이전트",
+                "sent_at": "2026-03-14T02:00:00+00:00",
+            },
+            {
+                "id": "b1",
+                "title": "Infra benchmark",
+                "translated_title": "인프라 벤치마크",
+                "short_summary": "실무 기술 정리",
+                "primary_slot": "practical_tech",
+                "primary_slot_label": "실무 기술",
+                "sent_at": "2026-02-25T02:00:00+00:00",
+            },
+        ]
+
+        taxonomy = {
+            "slot_order": ["tools_agents", "practical_tech"],
+            "slots": {
+                "tools_agents": {"label": "도구·에이전트"},
+                "practical_tech": {"label": "실무 기술"},
+            },
+        }
+
+        with patch.object(
+            fetch_and_send,
+            "generate_topic_digest_with_codex",
+            side_effect=[
+                {
+                    "summary": "이번 주 도구·에이전트 흐름은 로컬 실행과 워크플로 설계가 중심이다.",
+                    "headline": "이번 주 도구·에이전트",
+                },
+                {
+                    "summary": "이번 달 도구·에이전트 흐름은 팀 워크플로 재설계가 핵심이다.",
+                    "headline": "이번 달 도구·에이전트",
+                },
+            ],
+            create=True,
+        ):
+            digests = fetch_and_send.generate_topic_digests(
+                items=items,
+                taxonomy=taxonomy,
+                model="codex-test",
+                timeout_sec=1,
+                sandbox="read-only",
+                extra_args="",
+                retries=1,
+                now_iso="2026-03-16T03:00:00+00:00",
+            )
+
+        self.assertIn("weekly", digests)
+        self.assertIn("monthly", digests)
+        self.assertEqual(digests["weekly"][0]["slot"], "tools_agents")
+        self.assertEqual(digests["weekly"][0]["item_ids"], ["a1", "a2"])
+        self.assertEqual(digests["monthly"][0]["slot"], "tools_agents")
+        self.assertEqual(digests["monthly"][0]["headline"], "이번 달 도구·에이전트")
+        self.assertEqual(digests["weekly"][0]["total_items"], 2)
+
     def test_geeknews_item_skips_codex_but_keeps_detail_slug(self) -> None:
         item = {
             "id": "gn001",

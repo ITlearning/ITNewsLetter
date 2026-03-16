@@ -142,7 +142,31 @@ class BuildSiteTests(unittest.TestCase):
                         "link": "https://example.com/old1",
                         "sent_at": "2026-03-09T22:00:00+00:00",
                     },
-                ]
+                ],
+                "topic_digests": {
+                    "weekly": [
+                        {
+                            "period": "weekly",
+                            "slot": "tools_agents",
+                            "slot_label": "도구·에이전트",
+                            "headline": "이번 주 도구·에이전트",
+                            "summary": "로컬 실행과 워크플로 설계가 중심 주제였다.",
+                            "item_ids": ["eng1", "legacy-eng"],
+                            "total_items": 2,
+                        }
+                    ],
+                    "monthly": [
+                        {
+                            "period": "monthly",
+                            "slot": "practical_tech",
+                            "slot_label": "실무 기술",
+                            "headline": "이번 달 실무 기술",
+                            "summary": "성능, 데이터베이스, 운영 맥락이 많이 묶였다.",
+                            "item_ids": ["hn-safe", "old1"],
+                            "total_items": 2,
+                        }
+                    ],
+                },
             }
             news_path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
             last_run_path.write_text(
@@ -190,6 +214,8 @@ class BuildSiteTests(unittest.TestCase):
             self.assertTrue((dist_dir / "contact.html").exists())
             self.assertTrue((dist_dir / "ads.txt").exists())
             self.assertTrue((dist_dir / "robots.txt").exists())
+            self.assertTrue((dist_dir / "topics" / "index.html").exists())
+            self.assertTrue((dist_dir / "topics" / "weekly" / "tools_agents" / "index.html").exists())
 
             english_detail = (dist_dir / "news" / "eng1" / "index.html").read_text(encoding="utf-8")
             korean_detail = (dist_dir / "news" / "kor1" / "index.html").read_text(encoding="utf-8")
@@ -198,6 +224,8 @@ class BuildSiteTests(unittest.TestCase):
             about_page = (dist_dir / "about.html").read_text(encoding="utf-8")
             contact_page = (dist_dir / "contact.html").read_text(encoding="utf-8")
             index_page = (dist_dir / "index.html").read_text(encoding="utf-8")
+            topics_hub_page = (dist_dir / "topics" / "index.html").read_text(encoding="utf-8")
+            topic_page = (dist_dir / "topics" / "weekly" / "tools_agents" / "index.html").read_text(encoding="utf-8")
             ads_txt = (dist_dir / "ads.txt").read_text(encoding="utf-8")
             robots_txt = (dist_dir / "robots.txt").read_text(encoding="utf-8")
 
@@ -231,6 +259,11 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn('data-hn-story-id="47317132"', hn_detail)
             self.assertIn("href=\"../", english_detail)
             self.assertNotIn("href=\"./news/", english_detail)
+            self.assertIn("주간·월간 토픽", index_page)
+            self.assertIn("./topics/", index_page)
+            self.assertIn("이번 주 도구·에이전트", topics_hub_page)
+            self.assertIn("로컬 실행과 워크플로 설계가 중심 주제였다.", topic_page)
+            self.assertIn("오픈AI, 더 빠른 워크플로 공개", topic_page)
             self.assertIn("./contact.html", about_page)
             self.assertIn("GitHub Issues", contact_page)
             self.assertIn("ca-pub-3668470088067384", index_page)
@@ -251,6 +284,8 @@ class BuildSiteTests(unittest.TestCase):
             self.assertEqual(by_id["hn-safe"]["hn_story_id"], "47317132")
             self.assertIn("dup-hn", by_id)
             self.assertNotIn("dup-gn", by_id)
+            self.assertIn("topic_digests", archive_payload)
+            self.assertEqual(archive_payload["topic_digests"]["weekly"][0]["url"], "./topics/weekly/tools_agents/")
 
 
 if __name__ == "__main__":

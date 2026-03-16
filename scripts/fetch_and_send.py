@@ -73,6 +73,13 @@ SLOT_BUCKETS: dict[str, str] = {
 
 DISCORD_PREVIEW_ITEMS_LIMIT = 3
 DISCORD_PREVIEW_TITLE_LIMIT = 52
+TOPIC_DIGEST_WINDOWS: tuple[tuple[str, str, int], ...] = (
+    ("weekly", "이번 주", 7),
+    ("monthly", "이번 달", 30),
+)
+TOPIC_DIGEST_MIN_ITEMS = 2
+TOPIC_DIGEST_MAX_ITEMS_PER_DIGEST = 5
+TOPIC_DIGEST_MAX_SLOTS_PER_PERIOD = 3
 
 
 @dataclass
@@ -1642,6 +1649,204 @@ def enrich_item_with_codex_cli(
     return item, last_error
 
 
+def topic_digest_sort_key(item: dict[str, Any]) -> tuple[int, str]:
+    raw = normalize_text(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))
+    parsed = parse_published_datetime(raw)
+    return (int(parsed.timestamp()) if parsed else 0, raw)
+
+
+def build_topic_digest_prompt(period_label: str, slot_label: str, items: list[dict[str, Any]]) -> str:
+    item_lines: list[str] = []
+    for index, item in enumerate(items[:TOPIC_DIGEST_MAX_ITEMS_PER_DIGEST], start=1):
+        title = normalize_text(item.get("translated_title") or item.get("title"), "(제목 없음)")
+        source = normalize_text(item.get("source"), "Unknown")
+        summary = normalize_text(item.get("short_summary")) or normalize_text(to_multiline_preview(item.get("summary", "")))
+        summary = truncate_text(summary.replace("\n", " "), 180) if summary else ""
+        line_parts = [f"{index}. {title}", f"Source: {source}"]
+        if summary:
+            line_parts.append(f"Summary: {summary}")
+        item_lines.append("\n".join(line_parts))
+
+    items_block = "\n\n".join(item_lines)
+    return (
+        f"아래 {period_label} {slot_label} 기사 묶음을 한국어로 정리해줘.\n"
+        "반드시 JSON만 출력해.\n"
+        '스키마: {"headline":"", "summary":""}\n'
+        f'- headline: "{period_label} {slot_label}" 형태의 짧은 제목\n'
+        "- summary: Markdown 허용. 짧은 도입 문단 1개 + '- ' bullet 2~3개, 총 240자 내외\n"
+        "- 이 주제 묶음에서 반복된 흐름과 지금 볼 이유를 중심으로 정리\n\n"
+        f"{HUMANIZER_PROMPT_GUIDANCE}\n\n"
+        f"Period: {period_label}\n"
+        f"Slot: {slot_label}\n\n"
+        f"Items:\n{items_block}\n"
+    )
+
+
+def generate_topic_digest_with_codex(
+    items: list[dict[str, Any]],
+    *,
+    period_label: str,
+    slot_label: str,
+    model: str,
+    timeout_sec: int,
+    sandbox: str,
+    extra_args: str,
+    retries: int,
+) -> dict[str, str] | None:
+    if not items:
+        return None
+
+    codex_bin = shutil.which("codex")
+    if not codex_bin:
+        return None
+
+    user_prompt = build_topic_digest_prompt(period_label, slot_label, items)
+    last_error: str | None = None
+    base_command = [
+        codex_bin,
+        "exec",
+        "--full-auto",
+        "--sandbox",
+        sandbox or "read-only",
+        "-C",
+        str(ROOT),
+    ]
+    if model:
+        base_command.extend(["--model", model])
+
+    for attempt in range(retries):
+        with tempfile.TemporaryDirectory(prefix="codex-topic-digest-") as tmp_dir:
+            last_message_path = Path(tmp_dir) / "last-message.md"
+            command = [*base_command, "--output-last-message", str(last_message_path)]
+            if extra_args:
+                command.extend(shlex.split(extra_args))
+            command.append("-")
+
+            try:
+                result = subprocess.run(
+                    command,
+                    input=user_prompt,
+                    text=True,
+                    capture_output=True,
+                    timeout=timeout_sec,
+                    check=False,
+                )
+            except (OSError, subprocess.SubprocessError, TimeoutError) as exc:
+                last_error = str(exc)
+                if attempt < retries - 1:
+                    time.sleep(2**attempt)
+                continue
+
+            if result.returncode != 0:
+                stderr = normalize_text(result.stderr)
+                stdout = normalize_text(result.stdout)
+                last_error = stderr or stdout or f"codex exec exited with status {result.returncode}"
+                if attempt < retries - 1:
+                    time.sleep(2**attempt)
+                continue
+
+            try:
+                content = last_message_path.read_text(encoding="utf-8")
+            except OSError as exc:
+                last_error = f"failed to read codex output: {exc}"
+                if attempt < retries - 1:
+                    time.sleep(2**attempt)
+                continue
+
+            parsed = parse_json_from_text(content)
+            headline = normalize_text(parsed.get("headline"), f"{period_label} {slot_label}")
+            summary = normalize_briefing_markdown(parsed.get("summary"))
+            if summary:
+                return {
+                    "headline": headline,
+                    "summary": summary,
+                    "ai_model": normalize_text(model) or "codex-cli",
+                }
+            last_error = "codex response did not include topic digest summary"
+
+    return None
+
+
+def generate_topic_digests(
+    items: list[dict[str, Any]],
+    taxonomy: dict[str, Any],
+    model: str,
+    timeout_sec: int,
+    sandbox: str,
+    extra_args: str,
+    retries: int,
+    *,
+    now_iso: str = "",
+) -> dict[str, list[dict[str, Any]]]:
+    slot_order = taxonomy.get("slot_order", [])
+    slot_labels = {
+        slot_name: normalize_text(taxonomy.get("slots", {}).get(slot_name, {}).get("label"), slot_name)
+        for slot_name in slot_order
+    }
+    now_dt = parse_published_datetime(now_iso) or now_utc()
+    tagged_items = [score_and_tag_item_priority(ensure_archive_detail_fields(dict(item)), taxonomy=taxonomy) for item in items]
+    tagged_items.sort(key=topic_digest_sort_key, reverse=True)
+
+    payload: dict[str, list[dict[str, Any]]] = {"weekly": [], "monthly": []}
+
+    for period_key, period_label, window_days in TOPIC_DIGEST_WINDOWS:
+        cutoff_dt = now_dt - timedelta(days=window_days)
+        grouped_items: dict[str, list[dict[str, Any]]] = {}
+
+        for item in tagged_items:
+            slot_name = normalize_text(item.get("primary_slot")).lower()
+            if not slot_name:
+                continue
+            item_dt = parse_published_datetime(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))
+            if not item_dt or item_dt < cutoff_dt:
+                continue
+            grouped_items.setdefault(slot_name, []).append(item)
+
+        ordered_slots = sorted(
+            grouped_items,
+            key=lambda slot_name: (
+                -len(grouped_items[slot_name]),
+                slot_order.index(slot_name) if slot_name in slot_order else len(slot_order),
+                slot_name,
+            ),
+        )
+
+        for slot_name in ordered_slots[:TOPIC_DIGEST_MAX_SLOTS_PER_PERIOD]:
+            slot_items = grouped_items[slot_name]
+            if len(slot_items) < TOPIC_DIGEST_MIN_ITEMS:
+                continue
+
+            slot_label = normalize_text(slot_labels.get(slot_name), slot_name)
+            digest = generate_topic_digest_with_codex(
+                slot_items[:TOPIC_DIGEST_MAX_ITEMS_PER_DIGEST],
+                period_label=period_label,
+                slot_label=slot_label,
+                model=model,
+                timeout_sec=timeout_sec,
+                sandbox=sandbox,
+                extra_args=extra_args,
+                retries=retries,
+            )
+            if not digest:
+                continue
+
+            payload[period_key].append(
+                {
+                    "period": period_key,
+                    "slot": slot_name,
+                    "slot_label": slot_label,
+                    "headline": normalize_text(digest.get("headline"), f"{period_label} {slot_label}"),
+                    "summary": normalize_briefing_markdown(digest.get("summary")),
+                    "item_ids": [normalize_text(item.get("id")) for item in slot_items if normalize_text(item.get("id"))],
+                    "total_items": len(slot_items),
+                    "generated_at": now_dt.isoformat(),
+                    "ai_model": normalize_text(digest.get("ai_model"), normalize_text(model) or "codex-cli"),
+                }
+            )
+
+    return payload
+
+
 def post_discord(
     webhook_url: str,
     content: str,
@@ -1947,11 +2152,26 @@ def main() -> int:
 
         news_raw = load_json(NEWS_PATH, {"items": []})
         existing_news = news_raw.get("items", []) if isinstance(news_raw, dict) else []
+        existing_topic_digests = news_raw.get("topic_digests", {}) if isinstance(news_raw, dict) else {}
         if not isinstance(existing_news, list):
             existing_news = []
+        if not isinstance(existing_topic_digests, dict):
+            existing_topic_digests = {}
 
         merged_news = merge_news(existing=existing_news, new_sent=sent_items, max_items=max_news_items)
-        write_json(NEWS_PATH, {"items": merged_news})
+        topic_digests = generate_topic_digests(
+            items=merged_news,
+            taxonomy=taxonomy,
+            model=codex_summary_model,
+            timeout_sec=codex_summary_timeout_sec,
+            sandbox=codex_summary_sandbox,
+            extra_args=codex_summary_extra_args,
+            retries=retries,
+            now_iso=fetched_at,
+        )
+        if not any(topic_digests.get(period) for period in ("weekly", "monthly")) and existing_topic_digests:
+            topic_digests = existing_topic_digests
+        write_json(NEWS_PATH, {"items": merged_news, "topic_digests": topic_digests})
 
     summary = {
         "executed_at": fetched_at,
@@ -1989,6 +2209,9 @@ def main() -> int:
         "send_failures": send_failures,
         "briefing_enriched_total": briefing_enriched_total,
         "briefing_failures": briefing_failures,
+        "topic_digest_total": (
+            sum(len(topic_digests.get(period, [])) for period in ("weekly", "monthly")) if not dry_run else 0
+        ),
     }
     write_json(LAST_RUN_PATH, summary)
 

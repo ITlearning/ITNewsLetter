@@ -89,6 +89,15 @@ select {
   letter-spacing: -0.02em;
 }
 
+.brand-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand-link:hover {
+  color: var(--accent);
+}
+
 .stats-strip {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(0, 1.8fr);
@@ -188,6 +197,91 @@ select {
 .today-list {
   display: grid;
   gap: 10px;
+}
+
+.topic-section {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 2.05fr);
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.8));
+  box-shadow: var(--shadow);
+}
+
+.topic-section-body {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+}
+
+.topic-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.topic-card {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.88);
+  text-decoration: none;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.topic-card:hover {
+  border-color: rgba(37, 99, 235, 0.22);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.07);
+}
+
+.topic-period,
+.topic-meta,
+.topic-summary,
+.topic-period-copy {
+  color: var(--muted);
+}
+
+.topic-period {
+  font-size: 0.76rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.topic-headline {
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.topic-meta,
+.topic-summary {
+  line-height: 1.65;
+}
+
+.topic-summary {
+  margin: 0;
+}
+
+.topic-hub-link {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 42px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-strong);
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.topic-hub-link:hover {
+  border-color: rgba(37, 99, 235, 0.22);
+  background: var(--accent-soft);
 }
 
 .today-card {
@@ -481,6 +575,72 @@ select {
   color: var(--muted);
 }
 
+.topic-page-shell {
+  max-width: 1120px;
+}
+
+.topic-main {
+  display: grid;
+  gap: 18px;
+}
+
+.topic-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.topic-breadcrumb a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.topic-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.topic-hero {
+  display: grid;
+  gap: 12px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.78));
+  box-shadow: var(--shadow);
+}
+
+.topic-hero h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  letter-spacing: -0.03em;
+}
+
+.topic-hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.topic-summary-prose p,
+.topic-summary-prose li {
+  margin: 0 0 12px;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.topic-summary-prose ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.topic-summary-prose li:last-child,
+.topic-summary-prose p:last-child {
+  margin-bottom: 0;
+}
+
 .site-footer {
   display: grid;
   gap: 14px;
@@ -615,6 +775,7 @@ select {
   }
 
   .stats-strip,
+  .topic-section,
   .layout,
   .policy-main {
     gap: 14px;
@@ -623,10 +784,12 @@ select {
   .stats-intro,
   .hero-stats,
   .today-section,
+  .topic-section,
   .control-panel,
   .news-card,
   .empty-state,
   .site-footer,
+  .topic-hero,
   .policy-hero,
   .policy-section {
     padding: 16px;
@@ -635,6 +798,7 @@ select {
 
   .stats-description,
   .section-description,
+  .topic-summary,
   .site-footer-copy,
   .policy-summary,
   .policy-section p,
@@ -667,8 +831,10 @@ select {
 @media (max-width: 960px) {
   .stats-strip,
   .today-section,
+  .topic-section,
   .control-grid,
   .hero-stats,
+  .topic-list,
   .news-card {
     grid-template-columns: 1fr;
   }
@@ -696,6 +862,10 @@ select {
   .stats-description,
   .section-description {
     line-height: 1.7;
+  }
+
+  .topic-breadcrumb {
+    font-size: 0.86rem;
   }
 
   .site-footer-nav {

@@ -9,7 +9,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 - Delivery to Discord webhook
 - Run summary in `data/last_run.json`
 - Archive data in `data/news.json`
-- Curation-oriented archive site with today's picks, detail pages, and related articles
+- Curation-oriented archive site with today's picks, detail pages, related articles, and static topic pages
 
 ## Project Structure
 - `config/sources.yaml`: feed sources
@@ -17,7 +17,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 - `config/taxonomy_examples.yaml`: representative examples for taxonomy tuning
 - `config/lazy_detail_allowlist.json`: on-demand detail briefing allowlist for legacy English items
 - `scripts/fetch_and_send.py`: fetch, dedupe, send logic
-- `scripts/build_archive_site.py`: build static archive payload and detail pages for GitHub Pages
+- `scripts/build_archive_site.py`: build static archive payload, detail pages, and `/topics/` pages for GitHub Pages
 - `api/`: Vercel Functions for on-demand legacy detail briefings
 - `site/`: archive website source
 - `data/state.json`: previously sent IDs
@@ -80,6 +80,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 
 ## Lazy Detail API (legacy English archive items)
 - New English items can generate `translated_title`, `short_summary`, and a detail-page `why_it_matters` card during local dispatch through Codex CLI.
+- Mac Studio local dispatch can also generate slot-based `topic_digests`, persist them in `data/news.json`, and feed the static `/topics/` pages.
 - `detailed_summary` is generated lazily only after the detail page is opened.
 - Korean items and GeekNews are excluded from lazy generation.
 - Supported legacy sources are controlled by `config/lazy_detail_allowlist.json`.
