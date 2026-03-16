@@ -61,7 +61,7 @@ Batch English title/summary enrichment happens inside `scripts/fetch_and_send.py
    cp ops/codex/local-dispatch.env.example ops/codex/local-dispatch.env
    ```
 
-8. Fill the Python interpreter path, Discord webhook, and Codex summary settings in `ops/codex/local-dispatch.env`.
+8. Fill the Python interpreter path, Discord webhook, Codex summary settings, and Git sync settings in `ops/codex/local-dispatch.env`.
 
 ## 2. Local smoke check
 
@@ -132,6 +132,7 @@ launchctl kickstart -k "gui/$(id -u)/io.tabber.itnewsletter.local-dispatch"
 ```
 
 Do not keep `.github/workflows/news-discord.yml` on an automatic schedule at the same time. The GitHub runner and the Mac Studio runner do not share `data/state.json` unless you build an explicit sync path, so duplicate Discord sends can appear minutes or hours apart.
+With `NEWSLETTER_GIT_PUSH_AFTER_RUN="1"`, the Mac Studio run becomes the source of truth: it sends to Discord locally, then pushes only the updated state files back to GitHub so the archive site can rebuild from commits.
 
 ## 4. Logs and outputs
 
@@ -188,11 +189,17 @@ launchctl bootout "gui/$(id -u)" ~/Library/LaunchAgents/io.tabber.itnewsletter.c
 - `LAZY_DETAIL_QUEUE_BATCH_SIZE="2"`: number of queued detail jobs to process per launchd tick
 - `NEWSLETTER_PYTHON_BIN="..."`: Python interpreter used by the local dispatch launcher
 - `NEWSLETTER_BUILD_ARCHIVE="1"`: rebuild `dist/` after each local dispatch
+- `NEWSLETTER_GIT_PUSH_AFTER_RUN="1"`: push updated state files back to GitHub after each successful local dispatch
+- `NEWSLETTER_GIT_REMOTE="origin"` / `NEWSLETTER_GIT_BRANCH="main"`: choose where the state commit is pushed
+- `NEWSLETTER_GIT_AUTHOR_NAME="..."` / `NEWSLETTER_GIT_AUTHOR_EMAIL="..."`: author metadata for the state commit
+- `NEWSLETTER_GIT_COMMIT_MESSAGE="chore: update newsletter state"`: commit message used for the pushed state snapshot
 
 ## 7. Operational notes
 
 - `launchd` is doing the loop. The shell runner intentionally executes only one task per invocation.
 - `scripts/run_local_dispatch.sh` now takes a repo-local lock under `tmp/codex/local-dispatch.lock`, so a manual `kickstart` cannot overlap an already running send job.
+- When Git sync is enabled, `scripts/run_local_dispatch.sh` copies only `data/state.json`, `data/news.json`, and `data/last_run.json` into a temporary clean worktree, commits them, and pushes them to GitHub.
+- The Mac Studio must be able to run `git fetch` and `git push` non-interactively for that sync path to work. SSH remotes or cached Keychain credentials are both fine.
 - A lock directory under `tmp/codex` prevents overlapping runs.
 - `fetch_and_send.py` only uses local Codex for English title/summary enrichment when it runs on the Mac Studio. GitHub Actions cannot reuse your local Codex login.
 - The detail page Vercel function no longer generates the briefing itself. It only checks cache and enqueues the job.
