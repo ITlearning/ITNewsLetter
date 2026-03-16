@@ -36,6 +36,7 @@ SITE_DATA_PATH = DIST_DIR / "data" / "news-archive.json"
 DETAIL_TEMPLATE_PATH = SITE_SRC / "templates" / "detail.html"
 LAZY_DETAIL_ALLOWLIST_PATH = ROOT / "config" / "lazy_detail_allowlist.json"
 DEFAULT_SITE_BASE_URL = "https://itnewsletter.vercel.app"
+DEFAULT_ADSENSE_CLIENT = "ca-pub-3668470088067384"
 
 
 def sort_key(item: dict[str, Any]) -> tuple[int, str]:
@@ -336,6 +337,28 @@ def build_meta_description(item: dict[str, Any]) -> str:
     return "보낸 IT 뉴스를 원문 읽기 전 브리핑 형태로 정리한 상세 페이지."
 
 
+def render_detail_banner_ad_html() -> str:
+    ad_slot = normalize_text(os.getenv("DETAIL_BANNER_AD_SLOT"))
+    if not ad_slot:
+        return ""
+
+    ad_client = normalize_text(os.getenv("DETAIL_BANNER_AD_CLIENT"), DEFAULT_ADSENSE_CLIENT)
+    return (
+        "<section class='detail-ad-section' aria-label='advertisement'>"
+        "<div class='detail-ad-label'>Advertisement</div>"
+        "<div class='detail-ad-shell'>"
+        "<ins class='adsbygoogle detail-ad-unit' "
+        "style='display:block' "
+        f"data-ad-client='{html.escape(ad_client, quote=True)}' "
+        f"data-ad-slot='{html.escape(ad_slot, quote=True)}' "
+        "data-ad-format='auto' "
+        "data-full-width-responsive='true'></ins>"
+        "</div>"
+        "<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>"
+        "</section>"
+    )
+
+
 def render_matched_terms_html(terms: list[str]) -> str:
     cleaned = [normalize_text(term) for term in terms if normalize_text(term)]
     if not cleaned:
@@ -445,6 +468,7 @@ def render_detail_page(
     matched_terms_html = render_matched_terms_html(item.get("matched_terms", []))
     related_html = render_related_items_html(related_items)
     pager_html = render_pager_html(previous_item, next_item)
+    detail_banner_ad_html = render_detail_banner_ad_html()
     show_ai_badge = normalize_text(item.get("source")) != "GeekNews"
     briefing_badge_html = ""
     if show_ai_badge:
@@ -474,6 +498,7 @@ def render_detail_page(
         source=html.escape(normalize_text(item.get("source"), "Unknown")),
         sent_date=html.escape(format_date(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))),
         slot_label=html.escape(normalize_text(item.get("primary_slot_label"), "미분류")),
+        detail_banner_ad_html=detail_banner_ad_html,
         briefing_badge_html=briefing_badge_html,
         summary_markdown=html.escape(summary_markdown, quote=True),
         summary_html=summary_html,

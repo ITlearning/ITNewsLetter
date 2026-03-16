@@ -44,6 +44,8 @@ jobs:
       - name: Build archive site
         env:
           LAZY_DETAIL_API_URL: ${{ vars.LAZY_DETAIL_API_URL }}
+          DETAIL_BANNER_AD_CLIENT: ${{ vars.DETAIL_BANNER_AD_CLIENT }}
+          DETAIL_BANNER_AD_SLOT: ${{ vars.DETAIL_BANNER_AD_SLOT }}
         run: python scripts/build_archive_site.py
 
       - name: Upload Pages artifact

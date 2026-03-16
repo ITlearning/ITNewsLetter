@@ -75,6 +75,8 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `CODEX_SUMMARY_SANDBOX` (default: `read-only`)
 - `CODEX_SUMMARY_EXTRA_ARGS` (default: empty)
 - `SITE_BASE_URL` (default: `https://itnewsletter.vercel.app`, used for canonical/OG detail-page links)
+- `DETAIL_BANNER_AD_SLOT` (default: empty, detail-page banner ad above the briefing section)
+- `DETAIL_BANNER_AD_CLIENT` (default: `ca-pub-3668470088067384`)
 
 ## Lazy Detail API (legacy English archive items)
 - New English items can generate `translated_title` and `short_summary` during local dispatch through Codex CLI.
@@ -111,6 +113,10 @@ Deploy this repository to Vercel and configure:
 - `UPSTASH_REDIS_REST_TOKEN`
 - `SITE_BASE_URL`
   - Example: `https://itnewsletter.vercel.app`
+- `DETAIL_BANNER_AD_SLOT`
+  - Example: `1234567890`
+- `DETAIL_BANNER_AD_CLIENT`
+  - Optional override. Default publisher ID is already baked into the build.
 
 Then set GitHub repository variable:
 - `LAZY_DETAIL_API_URL`

@@ -140,6 +140,37 @@ a {
   margin-top: 16px;
 }
 
+.detail-ad-section {
+  margin-top: 16px;
+  padding: 18px 20px;
+  border: 1px solid rgba(26, 31, 39, 0.08);
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(180deg, rgba(26, 31, 39, 0.03), rgba(255, 255, 255, 0.92));
+  box-shadow: var(--shadow);
+}
+
+.detail-ad-label {
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.detail-ad-shell {
+  min-height: 120px;
+  padding: 10px;
+  border: 1px dashed rgba(26, 31, 39, 0.14);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.86);
+}
+
+.detail-ad-unit {
+  width: 100%;
+}
+
 .detail-briefing {
   border-color: rgba(37, 99, 235, 0.16);
   background:
@@ -620,6 +651,7 @@ a {
   }
 
   .detail-hero,
+  .detail-ad-section,
   .detail-section,
   .detail-pager,
   .detail-footer {

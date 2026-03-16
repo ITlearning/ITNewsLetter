@@ -167,6 +167,7 @@ class BuildSiteTests(unittest.TestCase):
                     {
                         "LAZY_DETAIL_API_URL": "https://detail-api.example.com/api/lazy-detail",
                         "SITE_BASE_URL": "https://itnewsletter.vercel.app",
+                        "DETAIL_BANNER_AD_SLOT": "1234567890",
                     },
                 ),
             ):
@@ -209,6 +210,9 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("../../about.html", english_detail)
             self.assertIn("../../contact.html", english_detail)
             self.assertIn("ca-pub-3668470088067384", english_detail)
+            self.assertIn("detail-ad-section", english_detail)
+            self.assertIn("data-ad-slot='1234567890'", english_detail)
+            self.assertLess(english_detail.index("detail-ad-section"), english_detail.index("detail-briefing"))
             self.assertIn("긱뉴스 RSS에서 제공하는 한국어 요약 미리보기입니다.", korean_detail)
             self.assertNotIn("원문 전체를 복제하면 안 됩니다.", korean_detail)
             self.assertNotIn("with AI", korean_detail)
