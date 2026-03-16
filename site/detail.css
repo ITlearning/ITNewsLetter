@@ -133,6 +133,9 @@ a {
 }
 
 .detail-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin-top: 18px;
 }
 
@@ -194,6 +197,16 @@ a {
 }
 
 .detail-why-card .section-head {
+  margin-bottom: 12px;
+}
+
+.detail-hn-card {
+  border-color: rgba(234, 88, 12, 0.16);
+  background:
+    linear-gradient(180deg, rgba(251, 146, 60, 0.08), rgba(255, 255, 255, 0.94));
+}
+
+.detail-hn-card .section-head {
   margin-bottom: 12px;
 }
 
@@ -544,6 +557,13 @@ a {
   text-decoration: none;
   font-weight: 700;
   box-shadow: 0 10px 22px rgba(37, 99, 235, 0.24);
+}
+
+.source-button.secondary {
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--ink);
+  border: 1px solid rgba(26, 31, 39, 0.1);
+  box-shadow: none;
 }
 
 .detail-pager {

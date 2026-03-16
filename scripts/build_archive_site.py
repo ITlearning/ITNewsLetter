@@ -193,6 +193,7 @@ def build_archive_items(
         item_id = normalize_text(tagged.get("id")) or detail_slug
         detailed_summary = normalize_briefing_markdown(tagged.get("detailed_summary"))
         why_it_matters = normalize_briefing_markdown(tagged.get("why_it_matters"))
+        hn_reaction_summary = normalize_briefing_markdown(tagged.get("hn_reaction_summary"))
         lazy_detail_supported, lazy_detail_reason = evaluate_lazy_detail_support(tagged, lazy_detail_config)
         archive_items.append(
             {
@@ -202,6 +203,7 @@ def build_archive_items(
                 "translated_title": tagged.get("translated_title"),
                 "short_summary": tagged.get("short_summary"),
                 "why_it_matters": why_it_matters,
+                "hn_reaction_summary": hn_reaction_summary,
                 "detailed_summary": detailed_summary,
                 "summary": tagged.get("summary"),
                 "link": tagged.get("link"),
@@ -224,6 +226,7 @@ def build_archive_items(
                 "hn_story_type": normalize_text(tagged.get("hn_story_type")),
                 "hn_points": normalize_text(tagged.get("hn_points")),
                 "hn_comments_count": normalize_text(tagged.get("hn_comments_count")),
+                "hn_discussion_url": normalize_text(tagged.get("hn_discussion_url")),
                 "lazy_detail_supported": lazy_detail_supported,
                 "lazy_detail_reason": lazy_detail_reason,
             }
@@ -439,6 +442,22 @@ def render_why_it_matters_html(item: dict[str, Any]) -> str:
         "<p>이 기사를 지금 볼 이유와 실무적 맥락만 짧게 정리했습니다.</p>"
         "</div>"
         f"<div class='detail-summary'>{render_summary_html(why_text)}</div>"
+        "</section>"
+    )
+
+
+def render_hn_reaction_html(item: dict[str, Any]) -> str:
+    reaction_text = normalize_briefing_markdown(item.get("hn_reaction_summary"))
+    if not reaction_text:
+        return ""
+
+    return (
+        "<section class='detail-section detail-hn-card'>"
+        "<div class='section-head'>"
+        "<h2>HN 반응</h2>"
+        "<p>Hacker News 댓글에서 반복된 분위기와 논점을 짧게 묶었습니다.</p>"
+        "</div>"
+        f"<div class='detail-summary'>{render_summary_html(reaction_text)}</div>"
         "</section>"
     )
 
@@ -761,6 +780,14 @@ def render_detail_page(
     pager_html = render_pager_html(previous_item, next_item)
     detail_banner_ad_html = render_detail_banner_ad_html()
     why_it_matters_html = render_why_it_matters_html(item)
+    hn_reaction_html = render_hn_reaction_html(item)
+    hn_discussion_button_html = ""
+    hn_discussion_url = normalize_text(item.get("hn_discussion_url"))
+    if hn_discussion_url:
+        hn_discussion_button_html = (
+            f"<a class='source-button secondary' href='{html.escape(hn_discussion_url, quote=True)}' "
+            "target='_blank' rel='noreferrer'>HN 토론 보기</a>"
+        )
     show_ai_badge = normalize_text(item.get("source")) != "GeekNews"
     briefing_badge_html = ""
     if show_ai_badge:
@@ -790,8 +817,10 @@ def render_detail_page(
         source=html.escape(normalize_text(item.get("source"), "Unknown")),
         sent_date=html.escape(format_date(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))),
         slot_label=html.escape(normalize_text(item.get("primary_slot_label"), "미분류")),
+        hn_discussion_button_html=hn_discussion_button_html,
         detail_banner_ad_html=detail_banner_ad_html,
         why_it_matters_html=why_it_matters_html,
+        hn_reaction_html=hn_reaction_html,
         briefing_badge_html=briefing_badge_html,
         summary_markdown=html.escape(summary_markdown, quote=True),
         summary_html=summary_html,

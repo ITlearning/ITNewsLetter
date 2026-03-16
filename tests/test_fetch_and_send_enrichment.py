@@ -154,6 +154,61 @@ class EnrichmentTests(unittest.TestCase):
         self.assertIsNone(err)
         self.assertEqual(enriched["why_it_matters"], expected)
 
+    def test_hn_item_stores_hn_reaction_summary_via_codex_cli(self) -> None:
+        item = {
+            "id": "hn123",
+            "source": "Hacker News Frontpage (HN RSS)",
+            "title": "Show HN: Fast local agents",
+            "summary": "HN story type: story\nHN points: 120\nHN comments: 18",
+            "hn_story_type": "story",
+            "hn_points": "120",
+            "hn_comments_count": "18",
+            "hn_item_text": "I built a fast local agent workflow for macOS development.",
+            "hn_comment_preview": (
+                "alice: This looks much faster than the usual agent loop.\n"
+                "bob: The local-first workflow details are practical."
+            ),
+        }
+
+        expected = (
+            "댓글 반응은 성능 자랑보다 운영 방식과 실제 개발 흐름에 더 초점이 맞춰졌다.\n\n"
+            "- 빠르다는 주장 자체보다 로컬 우선 설계가 얼마나 실용적인지가 핵심 쟁점이었다\n"
+            "- 에이전트 루프를 줄여 사람 피로를 낮출 수 있는지가 반복해서 언급됐다"
+        )
+
+        def fake_run(command, **kwargs):
+            self.assertIn("--output-last-message", command)
+            output_index = command.index("--output-last-message") + 1
+            output_path = Path(command[output_index])
+            output_path.write_text(
+                json.dumps(
+                    {
+                        "translated_title": "Show HN: 빠른 로컬 에이전트",
+                        "short_summary": "로컬 우선 에이전트 워크플로를 소개했다.",
+                        "why_it_matters": "로컬 워크플로가 다시 주목받고 있다.",
+                        "hn_reaction_summary": expected,
+                    }
+                ),
+                encoding="utf-8",
+            )
+            return subprocess.CompletedProcess(command, 0, stdout="", stderr="")
+
+        with (
+            patch.object(fetch_and_send.shutil, "which", return_value="/usr/local/bin/codex"),
+            patch.object(fetch_and_send.subprocess, "run", side_effect=fake_run),
+        ):
+            enriched, err = fetch_and_send.enrich_item_with_codex_cli(
+                item=item,
+                model="codex-test",
+                timeout_sec=1,
+                sandbox="read-only",
+                extra_args="",
+                retries=1,
+            )
+
+        self.assertIsNone(err)
+        self.assertEqual(enriched["hn_reaction_summary"], expected)
+
     def test_generate_topic_digests_groups_items_by_slot_and_period(self) -> None:
         items = [
             {

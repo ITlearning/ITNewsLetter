@@ -109,6 +109,11 @@ class BuildSiteTests(unittest.TestCase):
                         "source": "Hacker News Frontpage (HN RSS)",
                         "title": "An opinionated take on how to do important research that matters",
                         "short_summary": "HN 원문 후보",
+                        "hn_reaction_summary": (
+                            "댓글 반응은 논문을 잘 쓰는 법 자체보다, 무엇을 연구 가치로 볼지에 더 쏠렸다.\n\n"
+                            "- 실험의 난도보다 문제 선택과 타이밍이 더 중요하다는 의견이 많았다\n"
+                            "- 현실 조언인지 자기합리화인지에 대한 반론도 함께 붙었다"
+                        ),
                         "summary": "essay feed snippet",
                         "link": "https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html",
                         "hn_story_id": "47317132",
@@ -257,6 +262,10 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn('data-lazy-detail-supported="true"', legacy_detail)
             self.assertIn("https://detail-api.example.com/api/lazy-detail", legacy_detail)
             self.assertIn('data-hn-story-id="47317132"', hn_detail)
+            self.assertIn("HN 반응", hn_detail)
+            self.assertIn("댓글 반응은 논문을 잘 쓰는 법 자체보다", hn_detail)
+            self.assertIn("HN 토론 보기", hn_detail)
+            self.assertIn("https://news.ycombinator.com/item?id=47317132", hn_detail)
             self.assertIn("href=\"../", english_detail)
             self.assertNotIn("href=\"./news/", english_detail)
             self.assertIn("주간·월간 토픽", index_page)
@@ -283,6 +292,11 @@ class BuildSiteTests(unittest.TestCase):
             self.assertTrue(by_id["hn-safe"]["lazy_detail_supported"])
             self.assertEqual(by_id["hn-safe"]["lazy_detail_reason"], "hn_api")
             self.assertEqual(by_id["hn-safe"]["hn_story_id"], "47317132")
+            self.assertEqual(
+                by_id["hn-safe"]["hn_discussion_url"],
+                "https://news.ycombinator.com/item?id=47317132",
+            )
+            self.assertTrue(by_id["hn-safe"]["hn_reaction_summary"].startswith("댓글 반응은 논문을 잘 쓰는 법"))
             self.assertIn("dup-hn", by_id)
             self.assertNotIn("dup-gn", by_id)
             self.assertIn("topic_digests", archive_payload)

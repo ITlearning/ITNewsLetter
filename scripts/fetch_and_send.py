@@ -1563,14 +1563,24 @@ def enrich_item_with_codex_cli(
             "- 외부 원문 전체가 아니라 HN 스토리 메타데이터, 본문, 댓글 맥락을 기준으로 정리해도 된다.\n"
             "- 댓글에서 드러난 쟁점이나 반론이 있으면 요약에 반영해라.\n"
         )
+    extra_schema = ""
+    extra_instruction = ""
+    if is_hn_item:
+        extra_schema = ', "hn_reaction_summary":""'
+        extra_instruction = (
+            "- hn_reaction_summary: HN 댓글/반응 카드용 짧은 한국어 브리핑. 1개 도입 문단 + '- ' bullet 2~3개\n"
+            "- 댓글 분위기, 반복된 찬반 포인트, 실무자가 읽을 만한 논점을 중심으로 정리\n\n"
+        )
+
     user_prompt = (
         "아래 IT 뉴스 정보를 한국어로 정리해줘.\n"
         "반드시 JSON만 출력해.\n"
-        '스키마: {"translated_title":"", "short_summary":"", "why_it_matters":""}\n'
+        f'스키마: {{"translated_title":"", "short_summary":"", "why_it_matters":""{extra_schema}}}\n'
         "- translated_title: 자연스러운 한국어 제목(40자 내외)\n"
         "- short_summary: 1~2문장 요약(총 120자 내외)\n\n"
         "- why_it_matters: 상세 페이지 카드용 짧은 한국어 브리핑. 1개 도입 문단 + '- ' bullet 2~3개\n"
         "- 왜 지금 봐야 하는지, 실무적으로 어떤 변화가 생기는지를 중심으로 정리\n\n"
+        f"{extra_instruction}"
         f"{HUMANIZER_PROMPT_GUIDANCE}\n\n"
         f"{source_note}"
         f"Title: {item.get('title', '')}\n"
@@ -1634,6 +1644,7 @@ def enrich_item_with_codex_cli(
             translated_title = normalize_text(parsed.get("translated_title"))
             short_summary = normalize_text(parsed.get("short_summary"))
             why_it_matters = normalize_briefing_markdown(parsed.get("why_it_matters"))
+            hn_reaction_summary = normalize_briefing_markdown(parsed.get("hn_reaction_summary"))
 
             if translated_title:
                 item["translated_title"] = translated_title
@@ -1641,10 +1652,12 @@ def enrich_item_with_codex_cli(
                 item["short_summary"] = short_summary
             if why_it_matters:
                 item["why_it_matters"] = why_it_matters
-            if translated_title or short_summary or why_it_matters:
+            if is_hn_item and hn_reaction_summary:
+                item["hn_reaction_summary"] = hn_reaction_summary
+            if translated_title or short_summary or why_it_matters or hn_reaction_summary:
                 item["ai_model"] = normalize_text(model) or "codex-cli"
                 return item, None
-            last_error = "codex response did not include translated_title, short_summary, or why_it_matters"
+            last_error = "codex response did not include translated_title, short_summary, why_it_matters, or hn_reaction_summary"
 
     return item, last_error
 
