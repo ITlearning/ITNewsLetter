@@ -179,6 +179,7 @@ def build_archive_items(
         detail_slug = normalize_text(tagged.get("detail_slug"))
         item_id = normalize_text(tagged.get("id")) or detail_slug
         detailed_summary = normalize_briefing_markdown(tagged.get("detailed_summary"))
+        why_it_matters = normalize_briefing_markdown(tagged.get("why_it_matters"))
         lazy_detail_supported, lazy_detail_reason = evaluate_lazy_detail_support(tagged, lazy_detail_config)
         archive_items.append(
             {
@@ -187,6 +188,7 @@ def build_archive_items(
                 "title": tagged.get("title"),
                 "translated_title": tagged.get("translated_title"),
                 "short_summary": tagged.get("short_summary"),
+                "why_it_matters": why_it_matters,
                 "detailed_summary": detailed_summary,
                 "summary": tagged.get("summary"),
                 "link": tagged.get("link"),
@@ -359,6 +361,22 @@ def render_detail_banner_ad_html() -> str:
     )
 
 
+def render_why_it_matters_html(item: dict[str, Any]) -> str:
+    why_text = normalize_briefing_markdown(item.get("why_it_matters"))
+    if not why_text:
+        return ""
+
+    return (
+        "<section class='detail-section detail-why-card'>"
+        "<div class='section-head'>"
+        "<h2>왜 중요한가</h2>"
+        "<p>이 기사를 지금 볼 이유와 실무적 맥락만 짧게 정리했습니다.</p>"
+        "</div>"
+        f"<div class='detail-summary'>{render_summary_html(why_text)}</div>"
+        "</section>"
+    )
+
+
 def render_matched_terms_html(terms: list[str]) -> str:
     cleaned = [normalize_text(term) for term in terms if normalize_text(term)]
     if not cleaned:
@@ -469,6 +487,7 @@ def render_detail_page(
     related_html = render_related_items_html(related_items)
     pager_html = render_pager_html(previous_item, next_item)
     detail_banner_ad_html = render_detail_banner_ad_html()
+    why_it_matters_html = render_why_it_matters_html(item)
     show_ai_badge = normalize_text(item.get("source")) != "GeekNews"
     briefing_badge_html = ""
     if show_ai_badge:
@@ -499,6 +518,7 @@ def render_detail_page(
         sent_date=html.escape(format_date(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))),
         slot_label=html.escape(normalize_text(item.get("primary_slot_label"), "미분류")),
         detail_banner_ad_html=detail_banner_ad_html,
+        why_it_matters_html=why_it_matters_html,
         briefing_badge_html=briefing_badge_html,
         summary_markdown=html.escape(summary_markdown, quote=True),
         summary_html=summary_html,

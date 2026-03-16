@@ -72,6 +72,11 @@ class BuildSiteTests(unittest.TestCase):
                         "title": "OpenAI ships a faster workflow",
                         "translated_title": "오픈AI, 더 빠른 워크플로 공개",
                         "short_summary": "목록용 짧은 요약",
+                        "why_it_matters": (
+                            "이 변화는 단순 기능 추가보다, 팀 단위 개발 흐름을 다시 설계하게 만든다는 점이 더 중요하다.\n\n"
+                            "- 코드 리뷰와 자동화가 같은 흐름 안으로 들어온다\n"
+                            "- 도구 선택보다 워크플로 설계가 중요해진다"
+                        ),
                         "detailed_summary": (
                             "상세 페이지 첫 문단입니다.\n\n"
                             "- **핵심 변화**를 먼저 짚는다\n"
@@ -213,6 +218,9 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("detail-ad-section", english_detail)
             self.assertIn("data-ad-slot='1234567890'", english_detail)
             self.assertLess(english_detail.index("detail-ad-section"), english_detail.index("detail-briefing"))
+            self.assertIn("detail-why-card", english_detail)
+            self.assertIn("왜 중요한가", english_detail)
+            self.assertLess(english_detail.index("detail-why-card"), english_detail.index("detail-briefing"))
             self.assertIn("긱뉴스 RSS에서 제공하는 한국어 요약 미리보기입니다.", korean_detail)
             self.assertNotIn("원문 전체를 복제하면 안 됩니다.", korean_detail)
             self.assertNotIn("with AI", korean_detail)

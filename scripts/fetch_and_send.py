@@ -1559,9 +1559,11 @@ def enrich_item_with_codex_cli(
     user_prompt = (
         "아래 IT 뉴스 정보를 한국어로 정리해줘.\n"
         "반드시 JSON만 출력해.\n"
-        '스키마: {"translated_title":"", "short_summary":""}\n'
+        '스키마: {"translated_title":"", "short_summary":"", "why_it_matters":""}\n'
         "- translated_title: 자연스러운 한국어 제목(40자 내외)\n"
         "- short_summary: 1~2문장 요약(총 120자 내외)\n\n"
+        "- why_it_matters: 상세 페이지 카드용 짧은 한국어 브리핑. 1개 도입 문단 + '- ' bullet 2~3개\n"
+        "- 왜 지금 봐야 하는지, 실무적으로 어떤 변화가 생기는지를 중심으로 정리\n\n"
         f"{HUMANIZER_PROMPT_GUIDANCE}\n\n"
         f"{source_note}"
         f"Title: {item.get('title', '')}\n"
@@ -1624,15 +1626,18 @@ def enrich_item_with_codex_cli(
             parsed = parse_json_from_text(content)
             translated_title = normalize_text(parsed.get("translated_title"))
             short_summary = normalize_text(parsed.get("short_summary"))
+            why_it_matters = normalize_briefing_markdown(parsed.get("why_it_matters"))
 
             if translated_title:
                 item["translated_title"] = translated_title
             if short_summary:
                 item["short_summary"] = short_summary
-            if translated_title or short_summary:
+            if why_it_matters:
+                item["why_it_matters"] = why_it_matters
+            if translated_title or short_summary or why_it_matters:
                 item["ai_model"] = normalize_text(model) or "codex-cli"
                 return item, None
-            last_error = "codex response did not include translated_title or short_summary"
+            last_error = "codex response did not include translated_title, short_summary, or why_it_matters"
 
     return item, last_error
 

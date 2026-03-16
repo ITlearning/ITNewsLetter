@@ -79,7 +79,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - `DETAIL_BANNER_AD_CLIENT` (default: `ca-pub-3668470088067384`)
 
 ## Lazy Detail API (legacy English archive items)
-- New English items can generate `translated_title` and `short_summary` during local dispatch through Codex CLI.
+- New English items can generate `translated_title`, `short_summary`, and a detail-page `why_it_matters` card during local dispatch through Codex CLI.
 - `detailed_summary` is generated lazily only after the detail page is opened.
 - Korean items and GeekNews are excluded from lazy generation.
 - Supported legacy sources are controlled by `config/lazy_detail_allowlist.json`.

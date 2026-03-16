@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import subprocess
 import sys
 import unittest
 from pathlib import Path
@@ -62,41 +63,39 @@ class EnrichmentTests(unittest.TestCase):
         self.assertIn("<li>첫 &lt;항목&gt;</li>", rendered)
         self.assertIn("<p>마무리</p>", rendered)
 
-    def test_english_item_stores_detail_fields(self) -> None:
+    def test_english_item_stores_list_briefing_fields_via_codex_cli(self) -> None:
         item = {
             "id": "abc123",
             "source": "AI Weekly",
             "title": "OpenAI ships a faster coding workflow",
             "summary": "A new coding workflow improves code review and automation for teams.",
         }
-        response_payload = {
-            "choices": [
-                {
-                    "message": {
-                        "content": json.dumps(
-                            {
-                                "translated_title": "오픈AI, 더 빠른 코딩 워크플로 공개",
-                                "short_summary": "코드 리뷰와 자동화를 개선하는 워크플로를 공개했다.",
-                                "detailed_summary": (
-                                    "새 코딩 워크플로가 공개됐다.\n\n"
-                                    "* 코드 리뷰 흐름을 더 짧게 만든다\n"
-                                    "- 자동화 연결이 자연스럽다\n"
-                                    "- 팀 협업 병목을 줄인다\n\n"
-                                    "반복 업무를 덜어주는 변화로 볼 수 있다."
-                                ),
-                            }
-                        )
-                    }
-                }
-            ]
-        }
 
-        with patch.object(fetch_and_send, "urlopen", return_value=FakeResponse(response_payload)) as mocked:
-            enriched, err = fetch_and_send.enrich_item_with_openai(
+        def fake_run(command, **kwargs):
+            self.assertIn("--output-last-message", command)
+            output_index = command.index("--output-last-message") + 1
+            output_path = Path(command[output_index])
+            output_path.write_text(
+                json.dumps(
+                    {
+                        "translated_title": "오픈AI, 더 빠른 코딩 워크플로 공개",
+                        "short_summary": "코드 리뷰와 자동화를 개선하는 워크플로를 공개했다.",
+                    }
+                ),
+                encoding="utf-8",
+            )
+            return subprocess.CompletedProcess(command, 0, stdout="", stderr="")
+
+        with (
+            patch.object(fetch_and_send.shutil, "which", return_value="/usr/local/bin/codex"),
+            patch.object(fetch_and_send.subprocess, "run", side_effect=fake_run) as mocked,
+        ):
+            enriched, err = fetch_and_send.enrich_item_with_codex_cli(
                 item=item,
-                api_key="test-key",
-                models=["gpt-test"],
+                model="codex-test",
                 timeout_sec=1,
+                sandbox="read-only",
+                extra_args="",
                 retries=1,
             )
 
@@ -105,21 +104,57 @@ class EnrichmentTests(unittest.TestCase):
         self.assertTrue(enriched["is_english_source"])
         self.assertIn("translated_title", enriched)
         self.assertIn("short_summary", enriched)
-        self.assertIn("detailed_summary", enriched)
-        self.assertEqual(
-            enriched["detailed_summary"],
-            (
-                "새 코딩 워크플로가 공개됐다.\n\n"
-                "- 코드 리뷰 흐름을 더 짧게 만든다\n"
-                "- 자동화 연결이 자연스럽다\n"
-                "- 팀 협업 병목을 줄인다\n\n"
-                "반복 업무를 덜어주는 변화로 볼 수 있다."
-            ),
-        )
-        self.assertEqual(enriched["ai_model"], "gpt-test")
+        self.assertNotIn("detailed_summary", enriched)
+        self.assertEqual(enriched["ai_model"], "codex-test")
         mocked.assert_called_once()
 
-    def test_geeknews_item_skips_openai_but_keeps_detail_slug(self) -> None:
+    def test_english_item_stores_why_it_matters_via_codex_cli(self) -> None:
+        item = {
+            "id": "abc123",
+            "source": "AI Weekly",
+            "title": "OpenAI ships a faster coding workflow",
+            "summary": "A new coding workflow improves code review and automation for teams.",
+        }
+
+        expected = (
+            "개발팀의 작업 흐름이 빨라진다는 점보다, 코드 검토와 자동화의 기본 단위가 바뀐다는 점이 더 중요하다.\n\n"
+            "- 개인 생산성 도구가 팀 공정으로 확장된다\n"
+            "- 리뷰 병목과 반복 작업을 함께 줄일 수 있다"
+        )
+
+        def fake_run(command, **kwargs):
+            self.assertIn("--output-last-message", command)
+            output_index = command.index("--output-last-message") + 1
+            output_path = Path(command[output_index])
+            output_path.write_text(
+                json.dumps(
+                    {
+                        "translated_title": "오픈AI, 더 빠른 코딩 워크플로 공개",
+                        "short_summary": "코드 리뷰와 자동화를 개선하는 워크플로를 공개했다.",
+                        "why_it_matters": expected,
+                    }
+                ),
+                encoding="utf-8",
+            )
+            return subprocess.CompletedProcess(command, 0, stdout="", stderr="")
+
+        with (
+            patch.object(fetch_and_send.shutil, "which", return_value="/usr/local/bin/codex"),
+            patch.object(fetch_and_send.subprocess, "run", side_effect=fake_run),
+        ):
+            enriched, err = fetch_and_send.enrich_item_with_codex_cli(
+                item=item,
+                model="codex-test",
+                timeout_sec=1,
+                sandbox="read-only",
+                extra_args="",
+                retries=1,
+            )
+
+        self.assertIsNone(err)
+        self.assertEqual(enriched["why_it_matters"], expected)
+
+    def test_geeknews_item_skips_codex_but_keeps_detail_slug(self) -> None:
         item = {
             "id": "gn001",
             "source": "GeekNews",
@@ -127,12 +162,13 @@ class EnrichmentTests(unittest.TestCase):
             "summary": "긱뉴스 등록자가 작성한 한국어 요약이 이미 존재합니다.",
         }
 
-        with patch.object(fetch_and_send, "urlopen") as mocked:
-            enriched, err = fetch_and_send.enrich_item_with_openai(
+        with patch.object(fetch_and_send.subprocess, "run") as mocked:
+            enriched, err = fetch_and_send.enrich_item_with_codex_cli(
                 item=item,
-                api_key="test-key",
-                models=["gpt-test"],
+                model="codex-test",
                 timeout_sec=1,
+                sandbox="read-only",
+                extra_args="",
                 retries=1,
             )
 
