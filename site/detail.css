@@ -160,15 +160,31 @@ a {
 }
 
 .detail-ad-shell {
-  min-height: 120px;
-  padding: 10px;
-  border: 1px dashed rgba(26, 31, 39, 0.14);
+  position: relative;
+  min-height: 96px;
+  padding: 8px;
+  border: 1px dashed rgba(26, 31, 39, 0.12);
   border-radius: var(--radius-md);
-  background: rgba(255, 255, 255, 0.86);
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top left, rgba(37, 99, 235, 0.08), transparent 42%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(244, 239, 230, 0.74));
+}
+
+.detail-ad-shell::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(-45deg, rgba(26, 31, 39, 0.02) 0 12px, transparent 12px 24px);
+  pointer-events: none;
 }
 
 .detail-ad-unit {
+  position: relative;
+  z-index: 1;
   width: 100%;
+  min-height: 80px;
 }
 
 .detail-briefing {
