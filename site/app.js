@@ -244,26 +244,49 @@ function renderTopicDigests() {
     const link = document.createElement("a");
     link.className = "topic-card";
     link.href = digest.url || "#";
+    link.setAttribute(
+      "aria-label",
+      `${digest.headline || "토픽 브리핑"} 열기`
+    );
+
+    const top = document.createElement("div");
+    top.className = "topic-card-top";
+
+    const chips = document.createElement("div");
+    chips.className = "topic-card-chips";
 
     const period = document.createElement("span");
-    period.className = "topic-period";
+    period.className = "topic-chip topic-chip-period";
     period.textContent = digest.period === "monthly" ? "Monthly Topic" : "Weekly Topic";
-    link.appendChild(period);
+    chips.appendChild(period);
+
+    const slot = document.createElement("span");
+    slot.className = "topic-chip topic-chip-slot";
+    slot.textContent = digest.slot_label || "미분류";
+    chips.appendChild(slot);
+
+    top.appendChild(chips);
+
+    const count = document.createElement("span");
+    count.className = "topic-card-count";
+    count.textContent = `기사 ${digest.total_items || 0}건`;
+    top.appendChild(count);
+    link.appendChild(top);
 
     const headline = document.createElement("strong");
     headline.className = "topic-headline";
     headline.textContent = digest.headline || "토픽 브리핑";
     link.appendChild(headline);
 
-    const meta = document.createElement("span");
-    meta.className = "topic-meta";
-    meta.textContent = `${digest.slot_label || "미분류"} · 기사 ${digest.total_items || 0}건`;
-    link.appendChild(meta);
-
     const summary = document.createElement("p");
     summary.className = "topic-summary";
     summary.textContent = digest.summary || "요약 없음";
     link.appendChild(summary);
+
+    const cta = document.createElement("span");
+    cta.className = "topic-card-cta";
+    cta.textContent = "브리핑 보기";
+    link.appendChild(cta);
 
     fragment.appendChild(link);
   });

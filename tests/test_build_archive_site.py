@@ -261,6 +261,7 @@ class BuildSiteTests(unittest.TestCase):
             self.assertNotIn("href=\"./news/", english_detail)
             self.assertIn("주간·월간 토픽", index_page)
             self.assertIn("./topics/", index_page)
+            self.assertIn("토픽 허브 열기", index_page)
             self.assertIn("이번 주 도구·에이전트", topics_hub_page)
             self.assertIn("로컬 실행과 워크플로 설계가 중심 주제였다.", topic_page)
             self.assertIn("오픈AI, 더 빠른 워크플로 공개", topic_page)
