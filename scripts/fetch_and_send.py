@@ -1528,7 +1528,7 @@ def enrich_item_with_codex_cli(
         return item, None
     codex_bin = shutil.which("codex")
     if not codex_bin:
-        return item, "codex CLI was not found on PATH"
+        return item, None
 
     source_name = normalize_text(item.get("source"))
     is_hn_item = source_name == "Hacker News Frontpage (HN RSS)"

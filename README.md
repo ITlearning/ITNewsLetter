@@ -23,7 +23,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 - `data/state.json`: previously sent IDs
 - `data/news.json`: archived sent items
 - `data/last_run.json`: run summary
-- `.github/workflows/news-discord.yml`: manual fallback dispatch only
+- `.github/workflows/news-discord.yml`: scheduled Discord dispatch + state commits
 - `.github/workflows/news-archive-pages.yml`: GitHub Pages deployment
 
 ## Setup
@@ -31,12 +31,12 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 2. In repository settings, add secret:
    - `DISCORD_WEBHOOK_URL`
 3. Enable GitHub Actions.
-4. If you are using Mac Studio local dispatch, leave `Newsletter Discord Sync` as manual fallback only.
-5. Manual fallback runs can temporarily override the per-run range with `min_items_per_run` and `max_items_per_run`.
+4. `Newsletter Discord Sync` runs every 4 hours by default and commits `data/state.json`, `data/news.json`, and `data/last_run.json` back to `main`.
+5. Manual runs can temporarily override the per-run range with `min_items_per_run` and `max_items_per_run`.
 6. Priority selection uses a shared 4-slot taxonomy across all sources and a GeekNews-specific overlay.
 7. To publish the archive site, set GitHub Pages source to `GitHub Actions`.
 8. Optional: add repository variable `LAZY_DETAIL_API_URL` after deploying the Vercel lazy-detail API.
-9. For no-API English briefings, run `scripts/fetch_and_send.py` on your Mac Studio after `codex login`; GitHub Actions cannot use your local Codex session.
+9. If you still keep the Mac Studio worker for lazy detail generation, leave only that worker running. Do not run `run_local_dispatch.sh` at the same time as the GitHub scheduler.
 
 ## Local Dry Run
 ```bash
@@ -50,7 +50,7 @@ DRY_RUN=1 python scripts/fetch_and_send.py
 - Repo-local `launchd` setup for scheduled `codex exec` runs lives in [`docs/codex-mac-studio.md`](docs/codex-mac-studio.md).
 - Files are under `scripts/run_codex_task.sh`, `ops/codex/`, and `ops/launchd/`.
 - The no-OpenAI flow also uses `scripts/process_lazy_detail_queue.mjs` plus `ops/launchd/io.tabber.itnewsletter.lazy-detail-queue-worker.plist`.
-- If you want English title/short-summary enrichment to stay automatic without OpenAI API, schedule `scripts/run_local_dispatch.sh` on the Mac Studio as well.
+- `scripts/run_local_dispatch.sh` is optional now. GitHub Actions is the default scheduled dispatcher again.
 - Do not keep the GitHub `news-discord` scheduler active at the same time as `launchd` local dispatch. They do not share `data/state.json` automatically, so the same items can be sent again later.
 
 ## Environment Variables (optional)
