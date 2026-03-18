@@ -16,7 +16,6 @@ const elements = {
   sourceFilter: document.querySelector("#source-filter"),
   slotFilter: document.querySelector("#slot-filter"),
   resetButton: document.querySelector("#reset-filters"),
-  sourceStrip: document.querySelector("#source-strip"),
   spotlightSection: document.querySelector("#spotlight-section"),
   spotlightStage: document.querySelector("#spotlight-stage"),
   spotlightNav: document.querySelector("#spotlight-nav"),
@@ -106,25 +105,6 @@ function renderStats() {
   elements.statUpdated.textContent = formatDate(metadata?.generated_at || metadata?.last_dispatch_at || "");
 }
 
-function renderSourceStrip() {
-  clearChildren(elements.sourceStrip);
-  const sources = state.metadata?.sources || [];
-  if (!elements.sourceStrip || !sources.length) {
-    return;
-  }
-
-  sources.slice(0, 8).forEach((source) => {
-    const pill = document.createElement("div");
-    pill.className = "source-pill";
-    const name = document.createElement("strong");
-    name.textContent = source.name;
-    const count = document.createElement("span");
-    count.textContent = `${source.count}건`;
-    pill.append(name, count);
-    elements.sourceStrip.appendChild(pill);
-  });
-}
-
 function renderFilterOptions() {
   const metadata = state.metadata;
   const sourceOptions = metadata?.sources || [];
@@ -158,7 +138,7 @@ function renderResultsHeader() {
   elements.resultsTitle.textContent =
     state.source === "all" && state.slot === "all" && !state.search
       ? "보낸 뉴스 전체"
-      : "필터된 뉴스";
+      : "필터된 결과";
   elements.resultsMeta.textContent = `${total}건 표시 중`;
 }
 
@@ -506,7 +486,6 @@ async function init() {
     state.featuredSpotlight = payload.featured_spotlight || null;
     state.spotlightIndex = findInitialSpotlightIndex(state.spotlightModules, state.featuredSpotlight);
     renderStats();
-    renderSourceStrip();
     renderFilterOptions();
     renderSpotlight();
     wireEvents();

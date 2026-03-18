@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <script
@@ -21,137 +21,95 @@
     ></script>
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body class="home-page">
+  <body>
     <div class="page-shell">
-      <header class="hero-shell">
-        <div class="topbar">
-          <div class="brand-lockup">
-            <span class="brand-dot" aria-hidden="true"></span>
-            <div class="brand-stack">
-              <strong class="brand-name">IT Dispatch Archive</strong>
-              <span class="brand-subtitle">Precision briefing for technical teams</span>
-            </div>
-          </div>
-          <nav class="topbar-nav" aria-label="주요 링크">
-            <a href="#archive-shell">Archive</a>
-            <a href="./topics/">Topics</a>
-            <a href="./about.html">About</a>
-          </nav>
+      <header class="topbar">
+        <div class="brand-lockup">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <strong class="brand-name">IT Dispatch Archive</strong>
         </div>
-
-        <section class="hero-grid" aria-label="홈 히어로">
-          <div class="hero-copy">
-            <p class="hero-kicker">Search the IT shifts that actually matter</p>
-            <h1 class="hero-title">
-              Daily IT signals,
-              <br />
-              structured like a product.
-            </h1>
-            <p class="hero-description">
-              이미 보낸 IT 뉴스를 다시 찾기 위한 아카이브이지만, 단순한 기록 보관함처럼 보이진 않게 만들었습니다.
-              Spotlight와 브리핑, 원문 링크를 한 흐름 안에서 빠르게 훑을 수 있게 정리합니다.
-            </p>
-            <div class="hero-actions">
-              <a class="hero-action hero-action-primary" href="#spotlight-section">오늘 Spotlight 보기</a>
-              <a class="hero-action" href="#archive-shell">전체 아카이브 탐색</a>
-            </div>
-            <div class="hero-stats" id="hero-stats" aria-label="아카이브 통계">
-              <div class="stat-card">
-                <span class="stat-label">Archive</span>
-                <strong id="stat-total">-</strong>
-              </div>
-              <div class="stat-card">
-                <span class="stat-label">Sources</span>
-                <strong id="stat-sources">-</strong>
-              </div>
-              <div class="stat-card">
-                <span class="stat-label">Updated</span>
-                <strong id="stat-updated">-</strong>
-              </div>
-            </div>
-          </div>
-
-          <section id="spotlight-section" class="spotlight-section" hidden aria-label="AI Spotlight">
-            <div class="spotlight-head">
-              <div class="section-copy">
-                <p class="section-kicker">Featured Spotlight</p>
-                <h2 id="spotlight-title">오늘의 AI Spotlight</h2>
-                <p class="section-description">
-                  오늘 가장 먼저 봐야 할 흐름 하나를 크게 띄우고, 다른 카드들은 옆으로 넘겨 확인합니다.
-                </p>
-              </div>
-            </div>
-            <div id="spotlight-stage" class="spotlight-stage"></div>
-            <div id="spotlight-nav" class="spotlight-nav" hidden></div>
-          </section>
-        </section>
       </header>
 
-      <main class="layout">
-        <section class="source-band" aria-label="커버리지">
-          <div class="source-band-copy">
-            <p class="section-kicker">Coverage</p>
-            <h2>Trusted inputs across the archive</h2>
-            <p class="section-description">
-              Hacker News, GeekNews, TechCrunch와 주간 큐레이션 소스를 같이 모아두고, Spotlight와 브리핑은 이 아카이브를 기반으로 생성합니다.
-            </p>
+      <section class="stats-strip" id="hero-stats" aria-label="아카이브 통계">
+        <div class="stats-intro">
+          <p class="stats-kicker">Sent to Discord. Kept for later.</p>
+          <p class="stats-description">
+            이미 보낸 IT 뉴스를 다시 찾기 위한 아카이브입니다. 브리핑과 출처 링크를 중심으로 빠르게 훑어볼 수 있게 정리했습니다.
+          </p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-label">Archive</span>
+            <strong id="stat-total">-</strong>
           </div>
-          <div id="source-strip" class="source-strip" aria-live="polite"></div>
-        </section>
+          <div class="stat-card">
+            <span class="stat-label">Sources</span>
+            <strong id="stat-sources">-</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Updated</span>
+            <strong id="stat-updated">-</strong>
+          </div>
+        </div>
+      </section>
 
-        <section id="archive-shell" class="archive-shell" aria-label="뉴스 아카이브">
-          <div class="archive-head">
-            <div class="archive-copy">
-              <p class="section-kicker">Archive</p>
-              <h2 id="results-title">보낸 뉴스 전체</h2>
+      <main class="layout">
+        <section id="spotlight-section" class="spotlight-section" hidden aria-label="AI Spotlight">
+          <div class="spotlight-head">
+            <div class="section-copy">
+              <p class="section-kicker">AI Spotlight</p>
+              <h2 id="spotlight-title">오늘의 AI Spotlight</h2>
               <p class="section-description">
-                검색, 소스 필터, 슬롯 필터를 얇게 두고 바로 리스트로 들어갑니다. 요약과 원문 링크는 그대로 유지합니다.
+                오늘 꼭 볼 만한 흐름 하나를 먼저 보여주고, 나머지 카드는 옆으로 넘겨서 확인할 수 있습니다.
               </p>
             </div>
-            <div class="control-panel" aria-label="검색과 필터">
-              <div class="control-grid">
-                <label class="field">
-                  <span class="field-label">검색</span>
-                  <input
-                    id="search-input"
-                    class="field-input"
-                    type="search"
-                    placeholder="제목, 요약, 소스 검색"
-                    autocomplete="off"
-                  />
-                </label>
-
-                <label class="field">
-                  <span class="field-label">소스</span>
-                  <select id="source-filter" class="field-select">
-                    <option value="all">전체 소스</option>
-                  </select>
-                </label>
-
-                <label class="field">
-                  <span class="field-label">슬롯</span>
-                  <select id="slot-filter" class="field-select">
-                    <option value="all">전체 슬롯</option>
-                  </select>
-                </label>
-
-                <button id="reset-filters" class="ghost-button" type="button">초기화</button>
-              </div>
-            </div>
           </div>
+          <div id="spotlight-stage" class="spotlight-stage"></div>
+          <div id="spotlight-nav" class="spotlight-nav" hidden></div>
+        </section>
 
-          <section class="results-header" aria-live="polite">
-            <div class="results-title-stack">
-              <strong class="results-eyebrow">Live archive view</strong>
-              <p id="results-meta" class="results-meta">로딩 중…</p>
-            </div>
-          </section>
+        <section class="control-panel" aria-label="검색과 필터">
+          <div class="control-grid">
+            <label class="field">
+              <span class="field-label">검색</span>
+              <input
+                id="search-input"
+                class="field-input"
+                type="search"
+                placeholder="제목, 요약, 소스 검색"
+                autocomplete="off"
+              />
+            </label>
 
-          <section id="news-list" class="news-list" aria-live="polite"></section>
-          <section id="empty-state" class="empty-state" hidden>
-            <h2>조건에 맞는 뉴스가 없습니다.</h2>
-            <p>검색어를 지우거나 필터를 바꿔보세요.</p>
-          </section>
+            <label class="field">
+              <span class="field-label">소스</span>
+              <select id="source-filter" class="field-select">
+                <option value="all">전체 소스</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span class="field-label">슬롯</span>
+              <select id="slot-filter" class="field-select">
+                <option value="all">전체 슬롯</option>
+              </select>
+            </label>
+
+            <button id="reset-filters" class="ghost-button" type="button">초기화</button>
+          </div>
+        </section>
+
+        <section class="results-header" aria-live="polite">
+          <div>
+            <h2 id="results-title">보낸 뉴스 전체</h2>
+          </div>
+          <p id="results-meta" class="results-meta">로딩 중…</p>
+        </section>
+
+        <section id="news-list" class="news-list" aria-live="polite"></section>
+        <section id="empty-state" class="empty-state" hidden>
+          <h2>조건에 맞는 뉴스가 없습니다.</h2>
+          <p>검색어를 지우거나 필터를 바꿔보세요.</p>
         </section>
       </main>
 
@@ -172,20 +130,20 @@
       <article class="news-card">
         <div class="card-meta">
           <time class="card-date"></time>
-          <span class="badge badge-source"></span>
-        </div>
-        <div class="card-body">
           <div class="card-topline">
+            <span class="badge badge-source"></span>
             <span class="badge badge-slot"></span>
           </div>
+        </div>
+        <div class="card-body">
           <h3 class="card-title"><a class="card-title-link"></a></h3>
           <p class="card-original" hidden></p>
           <p class="card-summary"></p>
           <div class="matched-terms" hidden></div>
-        </div>
-        <div class="card-actions">
-          <a class="card-link card-detail-link">브리핑 보기</a>
-          <a class="card-link card-source-link" target="_blank" rel="noreferrer">원문 보기</a>
+          <div class="card-actions">
+            <a class="card-link card-detail-link">브리핑 보기</a>
+            <a class="card-link card-source-link" target="_blank" rel="noreferrer">원문 보기</a>
+          </div>
         </div>
       </article>
     </template>
