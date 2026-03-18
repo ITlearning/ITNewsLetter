@@ -157,8 +157,8 @@ function renderResultsHeader() {
   const total = state.filteredItems.length;
   elements.resultsTitle.textContent =
     state.source === "all" && state.slot === "all" && !state.search
-      ? "보낸 뉴스 전체"
-      : "필터된 뉴스";
+      ? "오늘까지 쌓인 전체 아카이브"
+      : "필터된 아카이브";
   elements.resultsMeta.textContent = `${total}건 표시 중`;
 }
 

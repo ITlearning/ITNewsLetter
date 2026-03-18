@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <script
@@ -32,7 +32,7 @@
     ></script>
     <link rel="stylesheet" href="../../detail.css" />
   </head>
-  <body>
+  <body class="detail-page">
     <main
       class="detail-shell"
       data-item-id="$item_id"
@@ -49,7 +49,7 @@
       </nav>
 
       <header class="detail-hero">
-        <p class="detail-kicker">Dispatch Briefing</p>
+        <p class="detail-kicker">Archive record</p>
         <div class="detail-meta-row">
           <span class="meta-pill">$source</span>
           <span class="meta-pill">$slot_label</span>
@@ -58,7 +58,7 @@
         <h1>$translated_title</h1>
         $original_title_block
         <p class="detail-lead">
-          원문을 대체하지 않는 브리핑 페이지입니다. 핵심만 먼저 파악한 뒤 원문으로 이동할 수 있게 정리했습니다.
+          원문을 대체하지 않는 브리핑 화면입니다. 핵심을 먼저 읽고, 필요한 순간 바로 원문으로 이동할 수 있게 정리했습니다.
         </p>
         <div class="detail-hero-actions">
           <a class="source-button" href="$original_link" target="_blank" rel="noreferrer">원문 보기</a>
