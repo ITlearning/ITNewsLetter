@@ -20,6 +20,8 @@ Batch English title/summary enrichment happens inside `scripts/fetch_and_send.py
 - `ops/codex/local-dispatch.env.example`: local dispatch env template
 - `ops/launchd/io.tabber.itnewsletter.lazy-detail-queue-worker.plist`: LaunchAgent for the lazy detail worker
 - `ops/launchd/io.tabber.itnewsletter.local-dispatch.plist`: LaunchAgent for local dispatch
+- `ops/launchd/io.tabber.itnewsletter.lazy-detail-queue-worker.daemon.plist`: LaunchDaemon for the lazy detail worker
+- `ops/launchd/io.tabber.itnewsletter.local-dispatch.daemon.plist`: LaunchDaemon for local dispatch
 
 ## 1. One-time setup
 
@@ -74,6 +76,8 @@ zsh -n scripts/run_local_dispatch.sh
 plutil -lint ops/launchd/io.tabber.itnewsletter.codex-loop.plist
 plutil -lint ops/launchd/io.tabber.itnewsletter.lazy-detail-queue-worker.plist
 plutil -lint ops/launchd/io.tabber.itnewsletter.local-dispatch.plist
+plutil -lint ops/launchd/io.tabber.itnewsletter.lazy-detail-queue-worker.daemon.plist
+plutil -lint ops/launchd/io.tabber.itnewsletter.local-dispatch.daemon.plist
 ```
 
 If you want a manual run before `launchd`:
@@ -84,7 +88,7 @@ scripts/run_codex_task.sh
 
 Note: this will only work after `codex login`, and it will use your configured Codex plan limits.
 
-## 3. Install the LaunchAgent
+## 3. Install the Scheduler
 
 Create the repo-local log directory first:
 
@@ -108,6 +112,46 @@ launchctl kickstart -k "gui/$(id -u)/io.tabber.itnewsletter.codex-loop"
 ```
 
 The default schedule is every `1800` seconds (30 minutes). Edit `StartInterval` in the plist if you want a different cadence.
+
+### Preferred: LaunchDaemon for always-on Mac Studio operation
+
+For the newsletter dispatch and lazy detail worker, prefer the system-domain LaunchDaemons below. They keep running on an always-on Mac Studio even when the GUI LaunchAgent interval stops firing.
+
+Unload and disable the old GUI LaunchAgents first:
+
+```bash
+launchctl bootout "gui/$(id -u)" ~/Library/LaunchAgents/io.tabber.itnewsletter.local-dispatch.plist 2>/dev/null || true
+launchctl bootout "gui/$(id -u)" ~/Library/LaunchAgents/io.tabber.itnewsletter.lazy-detail-queue-worker.plist 2>/dev/null || true
+launchctl disable "gui/$(id -u)/io.tabber.itnewsletter.local-dispatch" 2>/dev/null || true
+launchctl disable "gui/$(id -u)/io.tabber.itnewsletter.lazy-detail-queue-worker" 2>/dev/null || true
+```
+
+Install the daemon plists into `/Library/LaunchDaemons`:
+
+```bash
+sudo install -o root -g wheel -m 644 ops/launchd/io.tabber.itnewsletter.local-dispatch.daemon.plist /Library/LaunchDaemons/io.tabber.itnewsletter.local-dispatch.plist
+sudo install -o root -g wheel -m 644 ops/launchd/io.tabber.itnewsletter.lazy-detail-queue-worker.daemon.plist /Library/LaunchDaemons/io.tabber.itnewsletter.lazy-detail-queue-worker.plist
+```
+
+Load or reload them in the `system` domain:
+
+```bash
+sudo launchctl bootout system /Library/LaunchDaemons/io.tabber.itnewsletter.local-dispatch.plist 2>/dev/null || true
+sudo launchctl bootout system /Library/LaunchDaemons/io.tabber.itnewsletter.lazy-detail-queue-worker.plist 2>/dev/null || true
+sudo launchctl bootstrap system /Library/LaunchDaemons/io.tabber.itnewsletter.local-dispatch.plist
+sudo launchctl bootstrap system /Library/LaunchDaemons/io.tabber.itnewsletter.lazy-detail-queue-worker.plist
+sudo launchctl enable system/io.tabber.itnewsletter.local-dispatch
+sudo launchctl enable system/io.tabber.itnewsletter.lazy-detail-queue-worker
+sudo launchctl kickstart -k system/io.tabber.itnewsletter.local-dispatch
+sudo launchctl kickstart -k system/io.tabber.itnewsletter.lazy-detail-queue-worker
+```
+
+Verify them with:
+
+```bash
+sudo launchctl print system/io.tabber.itnewsletter.local-dispatch | rg "run interval|last exit code|state"
+sudo launchctl print system/io.tabber.itnewsletter.lazy-detail-queue-worker | rg "run interval|last exit code|state"
+```
 
 For the lazy detail worker:
 
@@ -197,6 +241,7 @@ launchctl bootout "gui/$(id -u)" ~/Library/LaunchAgents/io.tabber.itnewsletter.c
 ## 7. Operational notes
 
 - `launchd` is doing the loop. The shell runner intentionally executes only one task per invocation.
+- The repo still contains LaunchAgent plists for ad-hoc user-session installs, but the Mac Studio production path should use the `.daemon.plist` files under `/Library/LaunchDaemons`.
 - `scripts/run_local_dispatch.sh` now takes a repo-local lock under `tmp/codex/local-dispatch.lock`, so a manual `kickstart` cannot overlap an already running send job.
 - When Git sync is enabled, `scripts/run_local_dispatch.sh` copies only `data/state.json`, `data/news.json`, and `data/last_run.json` into a temporary clean worktree, commits them, and pushes them to GitHub.
 - The Mac Studio must be able to run `git fetch` and `git push` non-interactively for that sync path to work. SSH remotes or cached Keychain credentials are both fine.

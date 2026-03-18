@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>io.tabber.itnewsletter.lazy-detail-queue-worker</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/tabber/ITNewsLetter/scripts/run_lazy_detail_queue_worker.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/tabber/ITNewsLetter</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StartInterval</key>
+  <integer>60</integer>
+
+  <key>ProcessType</key>
+  <string>Background</string>
+
+  <key>StandardOutPath</key>
+  <string>/Users/tabber/ITNewsLetter/logs/codex/lazy-detail-worker.stdout.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/tabber/ITNewsLetter/logs/codex/lazy-detail-worker.stderr.log</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>HOME</key>
+    <string>/Users/tabber</string>
+    <key>LAZY_DETAIL_WORKER_ENV_FILE</key>
+    <string>/Users/tabber/ITNewsLetter/ops/codex/lazy-detail-worker.env</string>
+  </dict>
+</dict>
+</plist>

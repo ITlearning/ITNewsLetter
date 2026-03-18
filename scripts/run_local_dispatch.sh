@@ -29,6 +29,7 @@ fi
 mkdir -p "${NEWSLETTER_STATE_DIR}"
 
 LOCK_DIR="${NEWSLETTER_STATE_DIR}/local-dispatch.lock"
+LOCK_PID_FILE="${LOCK_DIR}/pid"
 TMP_WORKTREE_PARENT=""
 TMP_WORKTREE=""
 STATE_FILES=(
@@ -37,8 +38,36 @@ STATE_FILES=(
   "data/last_run.json"
 )
 
-if ! mkdir "${LOCK_DIR}" 2>/dev/null; then
-  print -r -- "[$(date '+%Y-%m-%d %H:%M:%S')] another local dispatch run is still active; skipping"
+acquire_lock() {
+  if mkdir "${LOCK_DIR}" 2>/dev/null; then
+    print -r -- "$$" > "${LOCK_PID_FILE}"
+    return 0
+  fi
+
+  local existing_pid=""
+  if [[ -f "${LOCK_PID_FILE}" ]]; then
+    existing_pid="$(<"${LOCK_PID_FILE}")"
+  fi
+
+  if [[ -n "${existing_pid}" ]] && kill -0 "${existing_pid}" 2>/dev/null; then
+    print -r -- "[$(date '+%Y-%m-%d %H:%M:%S')] another local dispatch run is still active; skipping"
+    return 1
+  fi
+
+  print -r -- "[$(date '+%Y-%m-%d %H:%M:%S')] removing stale local dispatch lock"
+  rm -f "${LOCK_PID_FILE}" >/dev/null 2>&1 || true
+  rmdir "${LOCK_DIR}" 2>/dev/null || true
+
+  if mkdir "${LOCK_DIR}" 2>/dev/null; then
+    print -r -- "$$" > "${LOCK_PID_FILE}"
+    return 0
+  fi
+
+  print -u2 -r -- "[$(date '+%Y-%m-%d %H:%M:%S')] failed to acquire local dispatch lock"
+  return 1
+}
+
+if ! acquire_lock; then
   exit 0
 fi
 
@@ -52,6 +81,7 @@ cleanup() {
   if [[ -n "${TMP_WORKTREE_PARENT}" && -d "${TMP_WORKTREE_PARENT}" ]]; then
     rm -rf "${TMP_WORKTREE_PARENT}" >/dev/null 2>&1 || true
   fi
+  rm -f "${LOCK_PID_FILE}" >/dev/null 2>&1 || true
   rmdir "${LOCK_DIR}" 2>/dev/null || true
 }
 

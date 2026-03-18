@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>io.tabber.itnewsletter.local-dispatch</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/tabber/ITNewsLetter/scripts/run_local_dispatch.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/tabber/ITNewsLetter</string>
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StartInterval</key>
+  <integer>14400</integer>
+
+  <key>ProcessType</key>
+  <string>Background</string>
+
+  <key>StandardOutPath</key>
+  <string>/Users/tabber/ITNewsLetter/logs/codex/local-dispatch.stdout.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/tabber/ITNewsLetter/logs/codex/local-dispatch.stderr.log</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+    <key>HOME</key>
+    <string>/Users/tabber</string>
+    <key>LOCAL_DISPATCH_ENV_FILE</key>
+    <string>/Users/tabber/ITNewsLetter/ops/codex/local-dispatch.env</string>
+  </dict>
+</dict>
+</plist>
