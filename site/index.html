@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <script
@@ -54,29 +54,18 @@
       </section>
 
       <main class="layout">
-        <section id="today-section" class="today-section" hidden aria-label="오늘의 큐레이션">
-          <div class="section-copy">
-            <p class="section-kicker">Today's Curation</p>
-            <h2>이번 배치 브리핑</h2>
-            <p class="section-description">가장 최근에 보낸 뉴스만 먼저 빠르게 훑어볼 수 있습니다.</p>
-          </div>
-          <div id="today-list" class="today-list"></div>
-        </section>
-
-        <section id="topic-section" class="topic-section" hidden aria-label="토픽 브리핑">
-          <div class="topic-section-head">
-            <div class="section-copy topic-section-copy">
-              <p class="section-kicker">Topic Briefings</p>
-              <h2>주간·월간 토픽</h2>
-              <p class="section-description">아카이브에서 반복된 흐름을 슬롯별로 묶어 한 번에 볼 수 있습니다.</p>
+        <section id="spotlight-section" class="spotlight-section" hidden aria-label="AI Spotlight">
+          <div class="spotlight-head">
+            <div class="section-copy">
+              <p class="section-kicker">AI Spotlight</p>
+              <h2 id="spotlight-title">오늘의 AI Spotlight</h2>
+              <p class="section-description">
+                오늘 꼭 볼 만한 흐름 하나를 먼저 보여주고, 나머지 카드는 옆으로 넘겨서 확인할 수 있습니다.
+              </p>
             </div>
-            <a class="topic-hub-link" href="./topics/">
-              <span class="topic-hub-eyebrow">Topic Hub</span>
-              <strong class="topic-hub-title">토픽 허브 열기</strong>
-              <span class="topic-hub-copy">주간·월간 브리핑 전체를 한 번에 봅니다.</span>
-            </a>
           </div>
-          <div id="topic-list" class="topic-list"></div>
+          <div id="spotlight-stage" class="spotlight-stage"></div>
+          <div id="spotlight-nav" class="spotlight-nav" hidden></div>
         </section>
 
         <section class="control-panel" aria-label="검색과 필터">

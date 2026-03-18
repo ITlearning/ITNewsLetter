@@ -282,6 +282,129 @@ class EnrichmentTests(unittest.TestCase):
         self.assertEqual(digests["monthly"][0]["headline"], "이번 달 도구·에이전트")
         self.assertEqual(digests["weekly"][0]["total_items"], 2)
 
+    def test_generate_spotlight_modules_via_codex_cli(self) -> None:
+        items = [
+            {
+                "id": "eng1",
+                "source": "AI Weekly",
+                "title": "OpenAI ships a faster coding workflow",
+                "translated_title": "오픈AI, 더 빠른 코딩 워크플로 공개",
+                "short_summary": "코드 리뷰와 자동화 흐름을 묶는 새 워크플로를 공개했다.",
+                "why_it_matters": "팀 작업 흐름을 다시 설계하게 만드는 변화다.",
+                "summary": "A new workflow improves code review and automation.",
+                "matched_terms": ["workflow", "agent"],
+                "sent_at": "2026-03-16T02:00:00+00:00",
+            },
+            {
+                "id": "hn1",
+                "source": "Hacker News Frontpage (HN RSS)",
+                "title": "Show HN: Fast local agents",
+                "translated_title": "Show HN: 빠른 로컬 에이전트",
+                "short_summary": "로컬 우선 에이전트 워크플로를 소개했다.",
+                "hn_reaction_summary": (
+                    "댓글 반응은 성능 자랑보다 실제 개발 흐름에 더 초점이 맞춰졌다.\n\n"
+                    "- 속도보다 실무에 붙는 구조인지가 더 중요하다는 의견이 많았다\n"
+                    "- 에이전트 루프를 줄여 사람 피로를 낮출 수 있는지도 논쟁이 됐다"
+                ),
+                "summary": "HN type: story",
+                "hn_comments_count": "18",
+                "matched_terms": ["agent", "local"],
+                "sent_at": "2026-03-15T02:00:00+00:00",
+            },
+            {
+                "id": "eng2",
+                "source": "TechCrunch",
+                "title": "Local inference tools keep surfacing",
+                "translated_title": "로컬 추론 도구가 계속 등장한다",
+                "short_summary": "CPU 기반 추론 도구와 경량 워크플로가 반복해서 언급된다.",
+                "why_it_matters": "클라우드 비용과 개발 속도 균형이 달라질 수 있다.",
+                "summary": "Lightweight local inference tools are appearing more often.",
+                "matched_terms": ["local", "inference"],
+                "sent_at": "2026-03-14T02:00:00+00:00",
+            },
+        ]
+        taxonomy = {
+            "slot_order": ["tools_agents", "practical_tech"],
+            "slots": {
+                "tools_agents": {"label": "도구·에이전트", "strong_terms": ["agent", "workflow", "local"]},
+                "practical_tech": {"label": "실무 기술", "strong_terms": ["inference"]},
+            },
+        }
+
+        def fake_run(command, **kwargs):
+            self.assertIn("--output-last-message", command)
+            output_index = command.index("--output-last-message") + 1
+            output_path = Path(command[output_index])
+            output_path.write_text(
+                json.dumps(
+                    {
+                        "modules": [
+                            {
+                                "id": "quiet-riser",
+                                "kind": "quiet_riser",
+                                "label": "AI Spotlight",
+                                "title": "조용히 커지는 주제",
+                                "topic_name": "에이전트 워크플로",
+                                "summary_line": "팀 단위 개발 흐름 안으로 에이전트가 더 깊게 들어오고 있다.",
+                                "signals": ["로컬 실행", "자동화 재설계", "팀 단위 워크플로"],
+                                "related_item_ids": ["eng1", "eng2"],
+                                "cta_label": "관련 기사 보기",
+                                "score": 0.84,
+                            },
+                            {
+                                "id": "hn-split",
+                                "kind": "hn_split",
+                                "label": "AI Spotlight",
+                                "title": "HN 댓글이 가장 갈린 기사",
+                                "headline": "Show HN: 빠른 로컬 에이전트",
+                                "issue_title": "실무에 붙는 로컬 에이전트인가",
+                                "opposition_summary": "속도 주장보다 실제 운영 비용과 유지보수가 더 중요하다는 반론이 있었다.",
+                                "support_summary": "로컬 우선 구조가 개발자 피로를 줄일 수 있다는 의견도 컸다.",
+                                "related_item_ids": ["hn1"],
+                                "cta_label": "쟁점 읽기",
+                                "score": 0.78,
+                            },
+                            {
+                                "id": "anomaly-signal",
+                                "kind": "anomaly_signal",
+                                "label": "Labs",
+                                "title": "이번 주 이상 신호",
+                                "signal_title": "로컬 추론 도구",
+                                "summary_line": "명확한 대세는 아니지만 여러 기사에서 같은 결로 감지된 흐름이다.",
+                                "signals": ["CPU 추론", "경량 도구 체인", "로컬 실험 환경"],
+                                "related_item_ids": ["eng2", "hn1"],
+                                "cta_label": "신호 보기",
+                                "score": 0.7,
+                            },
+                        ],
+                        "featured_id": "hn-split",
+                    }
+                ),
+                encoding="utf-8",
+            )
+            return subprocess.CompletedProcess(command, 0, stdout="", stderr="")
+
+        with (
+            patch.object(fetch_and_send.shutil, "which", return_value="/usr/local/bin/codex"),
+            patch.object(fetch_and_send.subprocess, "run", side_effect=fake_run),
+        ):
+            modules, featured = fetch_and_send.generate_spotlight_modules(
+                items=items,
+                taxonomy=taxonomy,
+                topic_digests={},
+                model="codex-test",
+                timeout_sec=1,
+                sandbox="read-only",
+                extra_args="",
+                retries=1,
+                now_iso="2026-03-16T03:00:00+00:00",
+            )
+
+        self.assertEqual([module["kind"] for module in modules], ["quiet_riser", "hn_split", "anomaly_signal"])
+        self.assertEqual(modules[0]["related_item_ids"], ["eng1", "eng2"])
+        self.assertEqual(modules[1]["headline"], "Show HN: 빠른 로컬 에이전트")
+        self.assertEqual(featured["id"], "hn-split")
+
     def test_geeknews_item_skips_codex_but_keeps_detail_slug(self) -> None:
         item = {
             "id": "gn001",

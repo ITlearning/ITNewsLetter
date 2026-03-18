@@ -172,6 +172,49 @@ class BuildSiteTests(unittest.TestCase):
                         }
                     ],
                 },
+                "spotlight_modules": [
+                    {
+                        "id": "quiet-riser",
+                        "kind": "quiet_riser",
+                        "label": "AI Spotlight",
+                        "title": "조용히 커지는 주제",
+                        "topic_name": "에이전트 워크플로",
+                        "summary_line": "이번 주 기사에서 조용히 반복되며 커지기 시작한 흐름이다.",
+                        "signals": ["로컬 실행", "팀 워크플로", "자동화 재설계"],
+                        "related_item_ids": ["eng1", "legacy-eng"],
+                        "cta_label": "관련 기사 보기",
+                        "score": 0.82,
+                    },
+                    {
+                        "id": "hn-split",
+                        "kind": "hn_split",
+                        "label": "AI Spotlight",
+                        "title": "HN 댓글이 가장 갈린 기사",
+                        "headline": "An opinionated take on how to do important research that matters",
+                        "issue_title": "문제 선택이 더 중요한가",
+                        "opposition_summary": "현실 조언이라기보다 결과론적 해석에 가깝다는 반론이 있었다.",
+                        "support_summary": "문제 선택과 타이밍을 보는 관점 자체는 실무에도 도움이 된다는 의견이 많았다.",
+                        "related_item_ids": ["hn-safe"],
+                        "cta_label": "쟁점 읽기",
+                        "score": 0.76,
+                    },
+                    {
+                        "id": "anomaly-signal",
+                        "kind": "anomaly_signal",
+                        "label": "Labs",
+                        "title": "이번 주 이상 신호",
+                        "signal_title": "로컬 추론 도구",
+                        "summary_line": "메인 토픽은 아니지만 서로 다른 기사에서 같은 결로 감지된 신호다.",
+                        "signals": ["CPU 추론", "경량 워크플로", "로컬 도구 체인"],
+                        "related_item_ids": ["legacy-eng", "old1"],
+                        "cta_label": "신호 보기",
+                        "score": 0.7,
+                    },
+                ],
+                "featured_spotlight": {
+                    "id": "quiet-riser",
+                    "kind": "quiet_riser",
+                },
             }
             news_path.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")
             last_run_path.write_text(
@@ -254,8 +297,13 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("detail-why-card", english_detail)
             self.assertIn("왜 중요한가", english_detail)
             self.assertGreater(english_detail.index("detail-why-card"), english_detail.index("detail-briefing"))
+            self.assertIn("detail-spotlight-context", english_detail)
+            self.assertIn("조용히 커지는 주제", english_detail)
+            self.assertGreater(english_detail.index("detail-spotlight-context"), english_detail.index("detail-why-card"))
             self.assertIn("detail-hn-card", hn_detail)
             self.assertGreater(hn_detail.index("detail-hn-card"), hn_detail.index("detail-briefing"))
+            self.assertIn("detail-spotlight-context", hn_detail)
+            self.assertIn("HN 댓글이 가장 갈린 기사", hn_detail)
             self.assertIn("긱뉴스 RSS에서 제공하는 한국어 요약 미리보기입니다.", korean_detail)
             self.assertNotIn("원문 전체를 복제하면 안 됩니다.", korean_detail)
             self.assertNotIn("with AI", korean_detail)
@@ -270,9 +318,10 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn("https://news.ycombinator.com/item?id=47317132", hn_detail)
             self.assertIn("href=\"../", english_detail)
             self.assertNotIn("href=\"./news/", english_detail)
-            self.assertIn("주간·월간 토픽", index_page)
-            self.assertIn("./topics/", index_page)
-            self.assertIn("토픽 허브 열기", index_page)
+            self.assertIn('id="spotlight-section"', index_page)
+            self.assertIn('id="spotlight-stage"', index_page)
+            self.assertNotIn("주간·월간 토픽", index_page)
+            self.assertNotIn("토픽 허브 열기", index_page)
             self.assertIn("이번 주 도구·에이전트", topics_hub_page)
             self.assertIn("로컬 실행과 워크플로 설계가 중심 주제였다.", topic_page)
             self.assertIn("오픈AI, 더 빠른 워크플로 공개", topic_page)
@@ -303,6 +352,9 @@ class BuildSiteTests(unittest.TestCase):
             self.assertNotIn("dup-gn", by_id)
             self.assertIn("topic_digests", archive_payload)
             self.assertEqual(archive_payload["topic_digests"]["weekly"][0]["url"], "./topics/weekly/tools_agents/")
+            self.assertIn("spotlight_modules", archive_payload)
+            self.assertEqual(len(archive_payload["spotlight_modules"]), 3)
+            self.assertEqual(archive_payload["featured_spotlight"]["id"], "quiet-riser")
 
 
 if __name__ == "__main__":

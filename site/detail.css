@@ -210,6 +210,60 @@ a {
   margin-bottom: 12px;
 }
 
+.detail-spotlight-context {
+  border-color: rgba(24, 33, 47, 0.12);
+  background:
+    linear-gradient(180deg, rgba(24, 33, 47, 0.04), rgba(255, 255, 255, 0.94));
+}
+
+.detail-spotlight-context-quiet_riser {
+  border-color: rgba(15, 118, 110, 0.16);
+  background:
+    linear-gradient(180deg, rgba(15, 118, 110, 0.07), rgba(255, 255, 255, 0.94));
+}
+
+.detail-spotlight-context-hn_split {
+  border-color: rgba(88, 28, 135, 0.14);
+  background:
+    linear-gradient(180deg, rgba(88, 28, 135, 0.06), rgba(255, 255, 255, 0.94));
+}
+
+.detail-spotlight-context-anomaly_signal {
+  border-color: rgba(24, 33, 47, 0.16);
+  background:
+    linear-gradient(135deg, rgba(18, 18, 18, 0.92), rgba(255, 255, 255, 0.92));
+}
+
+.detail-spotlight-context-anomaly_signal .section-head h2,
+.detail-spotlight-context-anomaly_signal .detail-spotlight-copy strong {
+  color: #111827;
+}
+
+.detail-spotlight-kicker {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.74rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.detail-spotlight-copy {
+  display: grid;
+  gap: 8px;
+}
+
+.detail-spotlight-copy strong {
+  font-size: 1.02rem;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+
+.detail-spotlight-copy p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
 .detail-briefing {
   border-color: rgba(37, 99, 235, 0.16);
   background:

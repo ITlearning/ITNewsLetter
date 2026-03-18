@@ -24,6 +24,7 @@ from fetch_and_send import (
     now_utc,
     parse_published_datetime,
     render_briefing_markdown_html,
+    safe_float,
     score_and_tag_item_priority,
     to_multiline_preview,
     truncate_text,
@@ -38,6 +39,7 @@ TOPIC_TEMPLATE_PATH = SITE_SRC / "templates" / "topic.html"
 LAZY_DETAIL_ALLOWLIST_PATH = ROOT / "config" / "lazy_detail_allowlist.json"
 DEFAULT_SITE_BASE_URL = "https://itnewsletter.vercel.app"
 DEFAULT_ADSENSE_CLIENT = "ca-pub-3668470088067384"
+SPOTLIGHT_KIND_ORDER: tuple[str, ...] = ("quiet_riser", "hn_split", "anomaly_signal")
 
 
 def sort_key(item: dict[str, Any]) -> tuple[int, str]:
@@ -282,7 +284,88 @@ def normalize_topic_digests(raw: Any, taxonomy: dict[str, Any]) -> dict[str, lis
     return normalized
 
 
-def build_payload(items: list[dict[str, Any]], taxonomy: dict[str, Any], topic_digests: dict[str, Any]) -> dict[str, Any]:
+def normalize_spotlight_modules(raw: Any) -> list[dict[str, Any]]:
+    if not isinstance(raw, list):
+        return []
+
+    modules_by_kind: dict[str, dict[str, Any]] = {}
+    for entry in raw:
+        if not isinstance(entry, dict):
+            continue
+        kind = normalize_text(entry.get("kind")).lower()
+        if kind not in SPOTLIGHT_KIND_ORDER:
+            continue
+
+        raw_related_item_ids = entry.get("related_item_ids", [])
+        if not isinstance(raw_related_item_ids, list):
+            raw_related_item_ids = []
+        related_item_ids = [normalize_text(item_id) for item_id in raw_related_item_ids if normalize_text(item_id)]
+        module: dict[str, Any] = {
+            "id": normalize_text(entry.get("id"), kind),
+            "kind": kind,
+            "label": normalize_text(entry.get("label"), "AI Spotlight" if kind != "anomaly_signal" else "Labs"),
+            "title": normalize_text(entry.get("title")),
+            "cta_label": normalize_text(entry.get("cta_label"), "관련 기사 보기"),
+            "related_item_ids": related_item_ids,
+            "score": max(0.0, min(1.0, safe_float(entry.get("score"), 0.0))),
+            "generated_at": normalize_text(entry.get("generated_at")),
+            "ai_model": normalize_text(entry.get("ai_model")),
+        }
+
+        if kind == "quiet_riser":
+            raw_signals = entry.get("signals", [])
+            if not isinstance(raw_signals, list):
+                raw_signals = []
+            module["topic_name"] = normalize_text(entry.get("topic_name"))
+            module["summary_line"] = normalize_text(entry.get("summary_line"))
+            module["signals"] = [normalize_text(signal) for signal in raw_signals if normalize_text(signal)][:3]
+            if not module["topic_name"] or not module["summary_line"]:
+                continue
+        elif kind == "hn_split":
+            module["headline"] = normalize_text(entry.get("headline"))
+            module["issue_title"] = normalize_text(entry.get("issue_title"))
+            module["opposition_summary"] = normalize_text(entry.get("opposition_summary"))
+            module["support_summary"] = normalize_text(entry.get("support_summary"))
+            if (
+                not module["headline"]
+                or not module["issue_title"]
+                or not module["opposition_summary"]
+                or not module["support_summary"]
+            ):
+                continue
+        elif kind == "anomaly_signal":
+            raw_signals = entry.get("signals", [])
+            if not isinstance(raw_signals, list):
+                raw_signals = []
+            module["signal_title"] = normalize_text(entry.get("signal_title"))
+            module["summary_line"] = normalize_text(entry.get("summary_line"))
+            module["signals"] = [normalize_text(signal) for signal in raw_signals if normalize_text(signal)][:3]
+            if not module["signal_title"] or not module["summary_line"]:
+                continue
+
+        modules_by_kind.setdefault(kind, module)
+
+    return [modules_by_kind[kind] for kind in SPOTLIGHT_KIND_ORDER if kind in modules_by_kind]
+
+
+def normalize_featured_spotlight(raw: Any, modules: list[dict[str, Any]]) -> dict[str, Any] | None:
+    if not modules:
+        return None
+
+    featured_id = normalize_text(raw.get("id")) if isinstance(raw, dict) else ""
+    featured = next((module for module in modules if module.get("id") == featured_id), None)
+    if not featured:
+        featured = max(modules, key=lambda module: float(module.get("score") or 0.0))
+    return dict(featured)
+
+
+def build_payload(
+    items: list[dict[str, Any]],
+    taxonomy: dict[str, Any],
+    topic_digests: dict[str, Any],
+    spotlight_modules_raw: Any,
+    featured_spotlight_raw: Any,
+) -> dict[str, Any]:
     slot_order = taxonomy.get("slot_order", [])
     slot_labels = {
         slot_name: taxonomy.get("slots", {}).get(slot_name, {}).get("label", slot_name)
@@ -292,6 +375,8 @@ def build_payload(items: list[dict[str, Any]], taxonomy: dict[str, Any], topic_d
     slot_counts = Counter(normalize_text(item.get("primary_slot")) for item in items)
     last_run = load_json(LAST_RUN_PATH, {})
     today_picks = derive_today_picks(items)
+    spotlight_modules = normalize_spotlight_modules(spotlight_modules_raw)
+    featured_spotlight = normalize_featured_spotlight(featured_spotlight_raw, spotlight_modules)
 
     return {
         "generated_at": now_utc().isoformat(),
@@ -299,6 +384,8 @@ def build_payload(items: list[dict[str, Any]], taxonomy: dict[str, Any], topic_d
         "last_dispatch_at": last_run.get("executed_at"),
         "today_picks": today_picks,
         "topic_digests": normalize_topic_digests(topic_digests, taxonomy),
+        "spotlight_modules": spotlight_modules,
+        "featured_spotlight": featured_spotlight,
         "sources": [
             {"name": source, "count": count}
             for source, count in sorted(source_counts.items(), key=lambda entry: (-entry[1], entry[0]))
@@ -458,6 +545,60 @@ def render_hn_reaction_html(item: dict[str, Any]) -> str:
         "<p>Hacker News 댓글에서 반복된 분위기와 논점을 짧게 묶었습니다.</p>"
         "</div>"
         f"<div class='detail-summary'>{render_summary_html(reaction_text)}</div>"
+        "</section>"
+    )
+
+
+def build_spotlight_context_map(spotlight_modules: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
+    context_map: dict[str, list[dict[str, Any]]] = {}
+    for module in spotlight_modules:
+        for item_id in module.get("related_item_ids", []):
+            normalized_item_id = normalize_text(item_id)
+            if not normalized_item_id:
+                continue
+            context_map.setdefault(normalized_item_id, []).append(module)
+    return context_map
+
+
+def render_spotlight_context_html(item: dict[str, Any], spotlight_modules: list[dict[str, Any]]) -> str:
+    if not spotlight_modules:
+        return ""
+
+    module = spotlight_modules[0]
+    kind = normalize_text(module.get("kind"))
+    kicker = html.escape(normalize_text(module.get("label"), "AI Spotlight"))
+    home_url = "../../#spotlight-section"
+
+    if kind == "quiet_riser":
+        headline = html.escape(normalize_text(module.get("topic_name"), "조용히 커지는 흐름"))
+        body = html.escape(
+            normalize_text(module.get("summary_line"), "최근 기사 안에서 반복되며 조금씩 커지는 흐름으로 묶였습니다.")
+        )
+    elif kind == "hn_split":
+        headline = html.escape(normalize_text(module.get("issue_title") or module.get("headline"), "논쟁 포인트"))
+        body = html.escape(
+            normalize_text(
+                module.get("headline"),
+                "이번 주 HN 반응이 가장 선명하게 갈린 기사 카드에 포함됐습니다.",
+            )
+        )
+    else:
+        headline = html.escape(normalize_text(module.get("signal_title"), "이번 주 이상 신호"))
+        body = html.escape(
+            normalize_text(module.get("summary_line"), "메인스트림은 아니지만 반복해서 감지된 신호입니다.")
+        )
+
+    return (
+        f"<section class='detail-section detail-spotlight-context detail-spotlight-context-{html.escape(kind)}'>"
+        "<div class='section-head'>"
+        f"<p class='detail-spotlight-kicker'>{kicker}</p>"
+        f"<h2>{html.escape(normalize_text(module.get('title'), 'AI Spotlight'))}</h2>"
+        "</div>"
+        "<div class='detail-spotlight-copy'>"
+        f"<strong>{headline}</strong>"
+        f"<p>{body}</p>"
+        "</div>"
+        f"<a class='card-link' href='{home_url}'>홈 Spotlight 보기</a>"
         "</section>"
     )
 
@@ -755,6 +896,7 @@ def render_detail_page(
     item: dict[str, Any],
     *,
     related_items: list[dict[str, Any]],
+    spotlight_context_html: str,
     previous_item: dict[str, Any] | None,
     next_item: dict[str, Any] | None,
     template: Template,
@@ -821,6 +963,7 @@ def render_detail_page(
         detail_banner_ad_html=detail_banner_ad_html,
         why_it_matters_html=why_it_matters_html,
         hn_reaction_html=hn_reaction_html,
+        spotlight_context_html=spotlight_context_html,
         briefing_badge_html=briefing_badge_html,
         summary_markdown=html.escape(summary_markdown, quote=True),
         summary_html=summary_html,
@@ -831,9 +974,14 @@ def render_detail_page(
     )
 
 
-def write_detail_pages(items: list[dict[str, Any]], lazy_detail_api_url: str) -> None:
+def write_detail_pages(
+    items: list[dict[str, Any]],
+    lazy_detail_api_url: str,
+    spotlight_modules: list[dict[str, Any]],
+) -> None:
     template = load_detail_template()
     site_base_url = normalize_site_base_url(os.getenv("SITE_BASE_URL", DEFAULT_SITE_BASE_URL))
+    spotlight_context_map = build_spotlight_context_map(spotlight_modules)
     for index, item in enumerate(items):
         detail_slug = normalize_text(item.get("detail_slug"))
         if not detail_slug:
@@ -842,11 +990,16 @@ def write_detail_pages(items: list[dict[str, Any]], lazy_detail_api_url: str) ->
         previous_item = items[index + 1] if index + 1 < len(items) else None
         next_item = items[index - 1] if index - 1 >= 0 else None
         related_items = derive_related_items(item, items)
+        spotlight_context_html = render_spotlight_context_html(
+            item,
+            spotlight_context_map.get(normalize_text(item.get("id")), []),
+        )
         output_dir = DIST_DIR / "news" / detail_slug
         output_dir.mkdir(parents=True, exist_ok=True)
         page_html = render_detail_page(
             item,
             related_items=related_items,
+            spotlight_context_html=spotlight_context_html,
             previous_item=previous_item,
             next_item=next_item,
             template=template,
@@ -884,13 +1037,21 @@ def build_site() -> None:
     raw_news = load_json(NEWS_PATH, {"items": []})
     raw_items = raw_news.get("items", []) if isinstance(raw_news, dict) else []
     raw_topic_digests = raw_news.get("topic_digests", {}) if isinstance(raw_news, dict) else {}
+    raw_spotlight_modules = raw_news.get("spotlight_modules", []) if isinstance(raw_news, dict) else []
+    raw_featured_spotlight = raw_news.get("featured_spotlight") if isinstance(raw_news, dict) else None
     if not isinstance(raw_items, list):
         raw_items = []
 
     taxonomy = load_taxonomy(TAXONOMY_PATH)
     lazy_detail_config = load_lazy_detail_config(LAZY_DETAIL_ALLOWLIST_PATH)
     archive_items = build_archive_items(raw_items, taxonomy=taxonomy, lazy_detail_config=lazy_detail_config)
-    payload = build_payload(archive_items, taxonomy=taxonomy, topic_digests=raw_topic_digests)
+    payload = build_payload(
+        archive_items,
+        taxonomy=taxonomy,
+        topic_digests=raw_topic_digests,
+        spotlight_modules_raw=raw_spotlight_modules,
+        featured_spotlight_raw=raw_featured_spotlight,
+    )
     lazy_detail_api_url = os.getenv("LAZY_DETAIL_API_URL", "").strip()
 
     if DIST_DIR.exists():
@@ -898,7 +1059,7 @@ def build_site() -> None:
     shutil.copytree(SITE_SRC, DIST_DIR)
     (DIST_DIR / "data").mkdir(parents=True, exist_ok=True)
     SITE_DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    write_detail_pages(archive_items, lazy_detail_api_url)
+    write_detail_pages(archive_items, lazy_detail_api_url, payload.get("spotlight_modules", []))
     write_topic_pages(archive_items, payload.get("topic_digests", {}))
     (DIST_DIR / ".nojekyll").write_text("", encoding="utf-8")
 

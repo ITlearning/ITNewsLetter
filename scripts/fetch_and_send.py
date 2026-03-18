@@ -80,6 +80,30 @@ TOPIC_DIGEST_WINDOWS: tuple[tuple[str, str, int], ...] = (
 TOPIC_DIGEST_MIN_ITEMS = 2
 TOPIC_DIGEST_MAX_ITEMS_PER_DIGEST = 5
 TOPIC_DIGEST_MAX_SLOTS_PER_PERIOD = 3
+SPOTLIGHT_RECENT_WINDOW_DAYS = 7
+SPOTLIGHT_MAX_ITEMS = 12
+SPOTLIGHT_MAX_TOPIC_DIGESTS = 3
+SPOTLIGHT_KIND_ORDER: tuple[str, ...] = ("quiet_riser", "hn_split", "anomaly_signal")
+SPOTLIGHT_KIND_DEFAULTS: dict[str, dict[str, str]] = {
+    "quiet_riser": {
+        "id": "quiet-riser",
+        "label": "AI Spotlight",
+        "title": "조용히 커지는 주제",
+        "cta_label": "관련 기사 보기",
+    },
+    "hn_split": {
+        "id": "hn-split",
+        "label": "AI Spotlight",
+        "title": "HN 댓글이 가장 갈린 기사",
+        "cta_label": "쟁점 읽기",
+    },
+    "anomaly_signal": {
+        "id": "anomaly-signal",
+        "label": "Labs",
+        "title": "이번 주 이상 신호",
+        "cta_label": "신호 보기",
+    },
+}
 
 
 @dataclass
@@ -116,6 +140,13 @@ def now_utc() -> datetime:
 def safe_int(value: Any, default: int) -> int:
     try:
         return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def safe_float(value: Any, default: float) -> float:
+    try:
+        return float(value)
     except (TypeError, ValueError):
         return default
 
@@ -1860,6 +1891,328 @@ def generate_topic_digests(
     return payload
 
 
+def build_spotlight_prompt(
+    items: list[dict[str, Any]],
+    *,
+    topic_digests: dict[str, list[dict[str, Any]]],
+    now_iso: str,
+) -> str:
+    topic_lines: list[str] = []
+    for period in ("weekly", "monthly"):
+        for digest in topic_digests.get(period, [])[:SPOTLIGHT_MAX_TOPIC_DIGESTS]:
+            headline = normalize_text(digest.get("headline"))
+            summary = truncate_text(normalize_text(digest.get("summary")).replace("\n", " "), 180)
+            slot_label = normalize_text(digest.get("slot_label"))
+            if headline and summary:
+                topic_lines.append(f"- {period}/{slot_label}: {headline} | {summary}")
+
+    item_lines: list[str] = []
+    for index, item in enumerate(items[:SPOTLIGHT_MAX_ITEMS], start=1):
+        item_id = normalize_text(item.get("id"), f"item-{index}")
+        title = normalize_text(item.get("translated_title") or item.get("title"), "(제목 없음)")
+        source = normalize_text(item.get("source"), "Unknown")
+        slot_label = normalize_text(item.get("primary_slot_label") or item.get("primary_slot"), "미분류")
+        sent_at = normalize_text(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))
+        short_summary = truncate_text(
+            normalize_text(item.get("short_summary")) or normalize_text(item.get("summary")),
+            180,
+        )
+        why_it_matters = truncate_text(
+            normalize_text(item.get("why_it_matters")).replace("\n", " / "),
+            220,
+        )
+        hn_reaction_summary = truncate_text(
+            normalize_text(item.get("hn_reaction_summary")).replace("\n", " / "),
+            220,
+        )
+        raw_matched_terms = item.get("matched_terms", [])
+        if not isinstance(raw_matched_terms, list):
+            raw_matched_terms = []
+        matched_terms = ", ".join(normalize_text(term) for term in raw_matched_terms[:6] if normalize_text(term))
+        item_lines.append(
+            "\n".join(
+                line
+                for line in [
+                    f"{index}. [{item_id}] {title}",
+                    f"Source: {source}",
+                    f"Slot: {slot_label}",
+                    f"Sent: {sent_at}",
+                    f"Summary: {short_summary}" if short_summary else "",
+                    f"Why it matters: {why_it_matters}" if why_it_matters else "",
+                    f"HN reaction: {hn_reaction_summary}" if hn_reaction_summary else "",
+                    f"Matched terms: {matched_terms}" if matched_terms else "",
+                ]
+                if line
+            )
+        )
+
+    topic_block = "\n".join(topic_lines) if topic_lines else "- 없음"
+    items_block = "\n\n".join(item_lines)
+    return (
+        "아래 최근 IT 뉴스 아카이브를 보고 홈페이지 Spotlight 카드 3개를 JSON으로 생성해줘.\n"
+        "반드시 JSON만 출력해.\n"
+        '최상위 스키마: {"modules":[...], "featured_id":""}\n'
+        "- featured_id는 modules 안에 있는 id 중 하나여야 한다.\n"
+        "- related_item_ids에는 아래 기사 목록의 대괄호 안 item id만 사용해라.\n"
+        "- score는 0 이상 1 이하의 숫자로 넣어라.\n"
+        "- 가능하면 세 모듈을 모두 채우고, 근거가 약하면 생략해도 된다.\n"
+        "- 각 모듈의 id / kind / title은 아래 규칙을 따라라.\n\n"
+        "1) 조용히 커지는 주제\n"
+        '- id: "quiet-riser"\n'
+        '- kind: "quiet_riser"\n'
+        '- title: "조용히 커지는 주제"\n'
+        '- label: "AI Spotlight"\n'
+        '- 필드: topic_name, summary_line, signals(2~3개), related_item_ids, cta_label, score\n\n'
+        "2) HN 댓글이 가장 갈린 기사\n"
+        '- id: "hn-split"\n'
+        '- kind: "hn_split"\n'
+        '- title: "HN 댓글이 가장 갈린 기사"\n'
+        '- label: "AI Spotlight"\n'
+        '- 필드: headline, issue_title, opposition_summary, support_summary, related_item_ids, cta_label, score\n\n'
+        "3) 이번 주 이상 신호\n"
+        '- id: "anomaly-signal"\n'
+        '- kind: "anomaly_signal"\n'
+        '- title: "이번 주 이상 신호"\n'
+        '- label: "Labs"\n'
+        '- 필드: signal_title, summary_line, signals(2~3개), related_item_ids, cta_label, score\n\n'
+        "- 문장은 한국어로 자연스럽게 쓰고, 카드용이라 짧고 명료해야 한다.\n"
+        "- '조용히 커지는 주제'는 아직 메인스트림은 아니지만 최근 7일 사이 반복된 흐름을 고른다.\n"
+        "- 'HN 댓글이 가장 갈린 기사'는 댓글 수보다 찬반 구조가 선명한 기사 1개를 고른다.\n"
+        "- '이번 주 이상 신호'는 반복되지만 이름 붙이기 애매한 신호를 고른다.\n"
+        f"- 현재 배치 시각: {now_iso}\n\n"
+        f"{HUMANIZER_PROMPT_GUIDANCE}\n\n"
+        f"Topic digests:\n{topic_block}\n\n"
+        f"Recent items:\n{items_block}\n"
+    )
+
+
+def normalize_spotlight_module(
+    raw: Any,
+    *,
+    valid_item_ids: set[str],
+    generated_at: str,
+    ai_model: str,
+) -> dict[str, Any] | None:
+    if not isinstance(raw, dict):
+        return None
+
+    kind = normalize_text(raw.get("kind")).lower()
+    defaults = SPOTLIGHT_KIND_DEFAULTS.get(kind)
+    if not defaults:
+        return None
+
+    raw_related_item_ids = raw.get("related_item_ids", [])
+    if not isinstance(raw_related_item_ids, list):
+        raw_related_item_ids = []
+    related_item_ids = [
+        item_id for item_id in (normalize_text(item_id) for item_id in raw_related_item_ids) if item_id in valid_item_ids
+    ]
+    score = min(1.0, max(0.0, safe_float(raw.get("score"), 0.0)))
+
+    normalized: dict[str, Any] = {
+        "id": normalize_text(raw.get("id"), defaults["id"]),
+        "kind": kind,
+        "label": normalize_text(raw.get("label"), defaults["label"]),
+        "title": normalize_text(raw.get("title"), defaults["title"]),
+        "cta_label": normalize_text(raw.get("cta_label"), defaults["cta_label"]),
+        "related_item_ids": related_item_ids,
+        "score": score,
+        "generated_at": generated_at,
+        "ai_model": ai_model,
+    }
+
+    if kind == "quiet_riser":
+        topic_name = normalize_text(raw.get("topic_name"))
+        summary_line = normalize_text(raw.get("summary_line"))
+        raw_signals = raw.get("signals", [])
+        if not isinstance(raw_signals, list):
+            raw_signals = []
+        signals = [normalize_text(signal) for signal in raw_signals if normalize_text(signal)][:3]
+        if not topic_name or not summary_line:
+            return None
+        normalized.update(
+            {
+                "topic_name": topic_name,
+                "summary_line": summary_line,
+                "signals": signals,
+            }
+        )
+    elif kind == "hn_split":
+        headline = normalize_text(raw.get("headline"))
+        issue_title = normalize_text(raw.get("issue_title"))
+        opposition_summary = normalize_text(raw.get("opposition_summary"))
+        support_summary = normalize_text(raw.get("support_summary"))
+        if not headline or not issue_title or not opposition_summary or not support_summary:
+            return None
+        normalized.update(
+            {
+                "headline": headline,
+                "issue_title": issue_title,
+                "opposition_summary": opposition_summary,
+                "support_summary": support_summary,
+            }
+        )
+    elif kind == "anomaly_signal":
+        signal_title = normalize_text(raw.get("signal_title"))
+        summary_line = normalize_text(raw.get("summary_line"))
+        raw_signals = raw.get("signals", [])
+        if not isinstance(raw_signals, list):
+            raw_signals = []
+        signals = [normalize_text(signal) for signal in raw_signals if normalize_text(signal)][:3]
+        if not signal_title or not summary_line:
+            return None
+        normalized.update(
+            {
+                "signal_title": signal_title,
+                "summary_line": summary_line,
+                "signals": signals,
+            }
+        )
+
+    return normalized
+
+
+def parse_spotlight_response(
+    raw: Any,
+    *,
+    valid_item_ids: set[str],
+    generated_at: str,
+    ai_model: str,
+) -> tuple[list[dict[str, Any]], dict[str, Any] | None]:
+    modules_raw = raw.get("modules", []) if isinstance(raw, dict) else []
+    featured_id = normalize_text(raw.get("featured_id")) if isinstance(raw, dict) else ""
+    modules_by_kind: dict[str, dict[str, Any]] = {}
+
+    if isinstance(modules_raw, list):
+        for entry in modules_raw:
+            module = normalize_spotlight_module(
+                entry,
+                valid_item_ids=valid_item_ids,
+                generated_at=generated_at,
+                ai_model=ai_model,
+            )
+            if not module:
+                continue
+            modules_by_kind.setdefault(module["kind"], module)
+
+    modules = [modules_by_kind[kind] for kind in SPOTLIGHT_KIND_ORDER if kind in modules_by_kind]
+    if not modules:
+        return [], None
+
+    featured = next((module for module in modules if module["id"] == featured_id), None)
+    if not featured:
+        featured = max(modules, key=lambda module: safe_float(module.get("score"), 0.0))
+
+    return modules, dict(featured)
+
+
+def generate_spotlight_modules(
+    items: list[dict[str, Any]],
+    *,
+    taxonomy: dict[str, Any],
+    topic_digests: dict[str, list[dict[str, Any]]],
+    model: str,
+    timeout_sec: int,
+    sandbox: str,
+    extra_args: str,
+    retries: int,
+    now_iso: str = "",
+) -> tuple[list[dict[str, Any]], dict[str, Any] | None]:
+    if not items:
+        return [], None
+
+    codex_bin = shutil.which("codex")
+    if not codex_bin:
+        return [], None
+
+    now_dt = parse_published_datetime(now_iso) or now_utc()
+    cutoff_dt = now_dt - timedelta(days=SPOTLIGHT_RECENT_WINDOW_DAYS)
+    tagged_items = [score_and_tag_item_priority(ensure_archive_detail_fields(dict(item)), taxonomy=taxonomy) for item in items]
+    tagged_items.sort(key=topic_digest_sort_key, reverse=True)
+    recent_items = []
+    for item in tagged_items:
+        item_dt = parse_published_datetime(item.get("sent_at") or item.get("published_at") or item.get("fetched_at"))
+        if item_dt and item_dt >= cutoff_dt:
+            recent_items.append(item)
+    prompt_items = (recent_items or tagged_items)[:SPOTLIGHT_MAX_ITEMS]
+    if not prompt_items:
+        return [], None
+
+    user_prompt = build_spotlight_prompt(
+        prompt_items,
+        topic_digests=topic_digests,
+        now_iso=now_dt.isoformat(),
+    )
+    generated_at = now_dt.isoformat()
+    last_error: str | None = None
+    base_command = [
+        codex_bin,
+        "exec",
+        "--full-auto",
+        "--sandbox",
+        sandbox or "read-only",
+        "-C",
+        str(ROOT),
+    ]
+    if model:
+        base_command.extend(["--model", model])
+
+    valid_item_ids = {normalize_text(item.get("id")) for item in prompt_items if normalize_text(item.get("id"))}
+
+    for attempt in range(retries):
+        with tempfile.TemporaryDirectory(prefix="codex-spotlight-") as tmp_dir:
+            last_message_path = Path(tmp_dir) / "last-message.md"
+            command = [*base_command, "--output-last-message", str(last_message_path)]
+            if extra_args:
+                command.extend(shlex.split(extra_args))
+            command.append("-")
+
+            try:
+                result = subprocess.run(
+                    command,
+                    input=user_prompt,
+                    text=True,
+                    capture_output=True,
+                    timeout=timeout_sec,
+                    check=False,
+                )
+            except (OSError, subprocess.SubprocessError, TimeoutError) as exc:
+                last_error = str(exc)
+                if attempt < retries - 1:
+                    time.sleep(2**attempt)
+                continue
+
+            if result.returncode != 0:
+                stderr = normalize_text(result.stderr)
+                stdout = normalize_text(result.stdout)
+                last_error = stderr or stdout or f"codex exec exited with status {result.returncode}"
+                if attempt < retries - 1:
+                    time.sleep(2**attempt)
+                continue
+
+            try:
+                content = last_message_path.read_text(encoding="utf-8")
+            except OSError as exc:
+                last_error = f"failed to read codex output: {exc}"
+                if attempt < retries - 1:
+                    time.sleep(2**attempt)
+                continue
+
+            parsed = parse_json_from_text(content)
+            modules, featured = parse_spotlight_response(
+                parsed,
+                valid_item_ids=valid_item_ids,
+                generated_at=generated_at,
+                ai_model=normalize_text(model) or "codex-cli",
+            )
+            if modules:
+                return modules, featured
+
+            last_error = "codex response did not include valid spotlight modules"
+
+    return [], None
+
+
 def post_discord(
     webhook_url: str,
     content: str,
@@ -2166,10 +2519,16 @@ def main() -> int:
         news_raw = load_json(NEWS_PATH, {"items": []})
         existing_news = news_raw.get("items", []) if isinstance(news_raw, dict) else []
         existing_topic_digests = news_raw.get("topic_digests", {}) if isinstance(news_raw, dict) else {}
+        existing_spotlight_modules = news_raw.get("spotlight_modules", []) if isinstance(news_raw, dict) else []
+        existing_featured_spotlight = news_raw.get("featured_spotlight") if isinstance(news_raw, dict) else None
         if not isinstance(existing_news, list):
             existing_news = []
         if not isinstance(existing_topic_digests, dict):
             existing_topic_digests = {}
+        if not isinstance(existing_spotlight_modules, list):
+            existing_spotlight_modules = []
+        if not isinstance(existing_featured_spotlight, dict):
+            existing_featured_spotlight = None
 
         merged_news = merge_news(existing=existing_news, new_sent=sent_items, max_items=max_news_items)
         topic_digests = generate_topic_digests(
@@ -2184,7 +2543,29 @@ def main() -> int:
         )
         if not any(topic_digests.get(period) for period in ("weekly", "monthly")) and existing_topic_digests:
             topic_digests = existing_topic_digests
-        write_json(NEWS_PATH, {"items": merged_news, "topic_digests": topic_digests})
+        spotlight_modules, featured_spotlight = generate_spotlight_modules(
+            items=merged_news,
+            taxonomy=taxonomy,
+            topic_digests=topic_digests,
+            model=codex_summary_model,
+            timeout_sec=codex_summary_timeout_sec,
+            sandbox=codex_summary_sandbox,
+            extra_args=codex_summary_extra_args,
+            retries=retries,
+            now_iso=fetched_at,
+        )
+        if not spotlight_modules and existing_spotlight_modules:
+            spotlight_modules = existing_spotlight_modules
+            featured_spotlight = existing_featured_spotlight
+        write_json(
+            NEWS_PATH,
+            {
+                "items": merged_news,
+                "topic_digests": topic_digests,
+                "spotlight_modules": spotlight_modules,
+                "featured_spotlight": featured_spotlight,
+            },
+        )
 
     summary = {
         "executed_at": fetched_at,
