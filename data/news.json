@@ -12668,5 +12668,92 @@
         "ai_model": "codex-cli"
       }
     ]
+  },
+  "spotlight_modules": [
+    {
+      "id": "quiet-riser",
+      "kind": "quiet_riser",
+      "label": "AI Spotlight",
+      "title": "조용히 커지는 주제",
+      "cta_label": "흐름 보기",
+      "related_item_ids": [
+        "8c51fb5236a34910f85a4402bc05bb779a9fdd3a",
+        "30dccf08f3f59f011bf84865cf1e97e6577e116b",
+        "ba841bd90be65b2dd4e4e9c4095b3d6120ff42a8",
+        "1f1e9ece275950d818cc7ee3741b283db6e74003"
+      ],
+      "score": 0.94,
+      "generated_at": "2026-03-18T07:12:55.257621+00:00",
+      "ai_model": "codex-cli",
+      "topic_name": "역할 분담형 에이전트 운영",
+      "summary_line": "에이전트를 하나 더 똑똑하게 만드는 경쟁보다, 설계자·구현자·리뷰어처럼 나눠 굴리는 운영법이 반복해서 보였다.",
+      "signals": [
+        "에이전트를 팀처럼 묶는 오픈소스가 나오며 혼자 일하는 모델의 한계를 보완하려는 시도가 늘었다.",
+        "메타 프롬프트와 명세를 따로 두고 계획·실행·검토를 분리하는 흐름이 HN과 GN 양쪽에서 함께 잡혔다.",
+        "관심도 성능 자랑보다 사람의 검증 부담과 맥락 유지 비용을 어떻게 줄이느냐로 옮겨갔다."
+      ]
+    },
+    {
+      "id": "hn-split",
+      "kind": "hn_split",
+      "label": "AI Spotlight",
+      "title": "HN 댓글이 가장 갈린 기사",
+      "cta_label": "논쟁 보기",
+      "related_item_ids": [
+        "1f1e9ece275950d818cc7ee3741b283db6e74003"
+      ],
+      "score": 0.97,
+      "generated_at": "2026-03-18T07:12:55.257621+00:00",
+      "ai_model": "codex-cli",
+      "headline": "LLM은 왜 사람을 지치게 하나",
+      "issue_title": "AI 코딩은 자유를 주나, 검증 피로를 키우나",
+      "opposition_summary": "회의적인 쪽은 사람이 끝까지 루프를 붙잡는 한 맥락 관리와 검증 부담이 오히려 더 커진다고 봤다.",
+      "support_summary": "찬성 쪽은 조사와 설계, 초안 작성을 빠르게 넘기면 구현보다 판단에 집중할 수 있어 덜 지친다고 말했다."
+    },
+    {
+      "id": "anomaly-signal",
+      "kind": "anomaly_signal",
+      "label": "Labs",
+      "title": "이번 주 이상 신호",
+      "cta_label": "신호 보기",
+      "related_item_ids": [
+        "79ec6fd338e76d214d0b72e0d616c8a067b0c33d",
+        "fa440cb47fcd2322ec40dbab1eb3ace09a7cd72e",
+        "41479d0cae34860111294362e094483fbfdc5477"
+      ],
+      "score": 0.91,
+      "generated_at": "2026-03-18T07:12:55.257621+00:00",
+      "ai_model": "codex-cli",
+      "signal_title": "더 멀리 보내지 않고 더 좁게 가두는 흐름",
+      "summary_line": "로컬 실행과 초고속 샌드박스가 함께 눈에 띄었다. 요지는 성능 과시보다 통제 범위를 손안으로 당기는 데 있다.",
+      "signals": [
+        "완전 로컬 음성 비서 사례는 클라우드 의존 없이 응답성과 개인정보를 같이 챙기려는 흐름을 보여줬다.",
+        "CoW 기반 VM 샌드박스는 짧은 작업도 VM 격리를 유지한 채 빠르게 재사용하려는 시도였다.",
+        "간편한 에이전트 샌드박스 글에서도 시선은 데모 편의보다 권한, 비용, 격리 수준으로 쏠렸다."
+      ]
+    }
+  ],
+  "featured_spotlight": {
+    "id": "quiet-riser",
+    "kind": "quiet_riser",
+    "label": "AI Spotlight",
+    "title": "조용히 커지는 주제",
+    "cta_label": "흐름 보기",
+    "related_item_ids": [
+      "8c51fb5236a34910f85a4402bc05bb779a9fdd3a",
+      "30dccf08f3f59f011bf84865cf1e97e6577e116b",
+      "ba841bd90be65b2dd4e4e9c4095b3d6120ff42a8",
+      "1f1e9ece275950d818cc7ee3741b283db6e74003"
+    ],
+    "score": 0.94,
+    "generated_at": "2026-03-18T07:12:55.257621+00:00",
+    "ai_model": "codex-cli",
+    "topic_name": "역할 분담형 에이전트 운영",
+    "summary_line": "에이전트를 하나 더 똑똑하게 만드는 경쟁보다, 설계자·구현자·리뷰어처럼 나눠 굴리는 운영법이 반복해서 보였다.",
+    "signals": [
+      "에이전트를 팀처럼 묶는 오픈소스가 나오며 혼자 일하는 모델의 한계를 보완하려는 시도가 늘었다.",
+      "메타 프롬프트와 명세를 따로 두고 계획·실행·검토를 분리하는 흐름이 HN과 GN 양쪽에서 함께 잡혔다.",
+      "관심도 성능 자랑보다 사람의 검증 부담과 맥락 유지 비용을 어떻게 줄이느냐로 옮겨갔다."
+    ]
   }
 }
