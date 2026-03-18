@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <script
@@ -30,7 +30,7 @@
     ></script>
     <link rel="stylesheet" href="$stylesheet_path" />
   </head>
-  <body class="topic-page">
+  <body>
     <div class="page-shell topic-page-shell">
       <header class="topbar">
         <div class="brand-lockup">
@@ -55,26 +55,12 @@
             <span class="topic-period-copy">$period_label</span>
           </div>
           <h1>$headline</h1>
-          <p class="topic-hero-lead">같은 흐름 안에서 반복된 기사만 모아, 한 번 더 읽기 좋게 정리한 브리핑 화면입니다.</p>
-        </section>
-
-        <section class="topic-briefing-shell">
-          <div class="topic-section-head">
-            <p class="section-kicker">Briefing</p>
-            <h2>토픽 브리핑</h2>
-          </div>
           <div class="topic-summary-prose">
             $summary_html
           </div>
         </section>
 
-        <section class="topic-index-shell">
-          <div class="topic-section-head">
-            <p class="section-kicker">Index</p>
-            <h2>관련 기사</h2>
-          </div>
-          $cards_html
-        </section>
+        $cards_html
       </main>
 
       <footer class="site-footer" aria-label="사이트 정보">

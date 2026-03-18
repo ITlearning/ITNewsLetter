@@ -815,11 +815,11 @@ def render_topic_hub_page(topic_digests: dict[str, list[dict[str, Any]]], site_b
     <meta name="twitter:image" content="{og_image_url}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={ad_client}" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../styles.css" />
   </head>
-  <body class="topic-page">
+  <body>
     <div class="page-shell topic-page-shell">
       <header class="topbar">
         <div class="brand-lockup">
@@ -829,17 +829,11 @@ def render_topic_hub_page(topic_digests: dict[str, list[dict[str, Any]]], site_b
       </header>
       <main class="topic-main">
         <section class="topic-hero">
-          <p class="section-kicker">Topic index</p>
+          <p class="section-kicker">Topic Briefings</p>
           <h1>주간·월간 토픽</h1>
-          <p class="topic-hero-lead">반복되는 흐름을 토픽 단위로 다시 묶어, 관련 기사까지 한 번에 탐색할 수 있게 정리했습니다.</p>
+          <p class="section-description">최근 아카이브에서 반복된 흐름만 슬롯별로 다시 묶었습니다.</p>
         </section>
-        <section class="topic-index-shell">
-          <div class="topic-section-head">
-            <p class="section-kicker">Browse</p>
-            <h2>토픽 브리핑 인덱스</h2>
-          </div>
-          {cards_html}
-        </section>
+        {cards_html}
       </main>
       <footer class="site-footer" aria-label="사이트 정보">
         <p class="site-footer-copy">이 사이트는 IT 뉴스 브리핑과 큐레이션을 제공합니다. 원문은 각 출처에서 확인하세요.</p>
