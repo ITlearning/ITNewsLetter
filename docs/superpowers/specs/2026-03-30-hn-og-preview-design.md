@@ -147,6 +147,7 @@ The generated image should follow the approved brand-forward direction.
 
 ### Text Rules
 
+- typography should prefer a bundled or explicitly selected renderer font so PNG output stays stable across local and Vercel builds, with a readable fallback only if that font cannot load
 - translated title is required when available and should render largest
 - original title renders below it when it differs from the translated title
 - if translated title is missing, fall back to original title as the primary line
@@ -213,7 +214,7 @@ The build must stay resilient.
 Rules:
 
 - if card generation fails for a specific HN item, do not fail the whole site build
-- instead, log the issue and fall back that item to the existing shared icon metadata
+- instead, log the item id or detail slug plus the failure reason, and fall back that item to the existing shared icon metadata
 - if output directory creation fails globally, the build may fail because static output is no longer trustworthy
 - missing optional text fields should degrade gracefully through title fallback rules
 
