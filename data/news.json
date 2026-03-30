@@ -1,6 +1,377 @@
 {
   "items": [
     {
+      "id": "48667ca68f491f646d2198da70be018f034d07b6",
+      "title_hash": "d33aa990434ebc32f4181b259736957caf4f2226",
+      "source": "GeekNews",
+      "title": "Claude Code가 프로젝트 저장소에 10분마다 Git reset --hard origin/main을 실행하는 문제",
+      "link": "https://news.hada.io/topic?id=28020",
+      "published_at": "2026-03-30T20:33:26+00:00",
+      "summary": "macOS 환경에서 프로젝트 변경사항이 10분마다 자동으로 삭제 되는 현상이 보고됨 조사 결과, 원인은 Claude Code가 아니라 사용자가 만든 별도 로컬 자동화 도구 가 GitPython을 통해 주기적으로 git reset --hard origin/main 을 실행한 것으로 확인됨...",
+      "fetched_at": "2026-03-30T23:09:11.734948+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "자동화"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "자동화",
+        "claude + code"
+      ],
+      "detail_slug": "48667ca68f491f646d2198da70be018f034d07b6",
+      "is_english_source": false,
+      "sent_at": "2026-03-30T23:12:16.428681+00:00"
+    },
+    {
+      "id": "d58b328ee618c23340a6d8e792cb5e7fb3bf4798",
+      "title_hash": "e2ba744c4b545239296c4e482549134e22078fc1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Learn Claude Code by doing, not reading",
+      "link": "https://claude.nagdy.me/",
+      "published_at": "2026-03-30T20:19:43+00:00",
+      "summary": "HN story type: story HN points: 77 HN comments: 42 HN top comments: grewil2: Side note: I don’t know what Anthropic changed but now Claude Code consumes the quota incredibly fast. I have the Max5 plan, and it just consumed about 10% of the session quota in 10 minutes on a single prompt. For $100/month, I have higher expectations. fercircularbuf: I love the pedagogical approach here and the ability to easily hone in on your level before diving into content. Your approach would work really well for other subjects as well. MeetingsBrowser: I use claude code every day, I've written plugins and skills, use MCP servers, subagent workflows, and filled out the \"Find your level\" quiz as such. According to the quiz, I am a beginner!",
+      "fetched_at": "2026-03-30T23:09:11.734948+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47579229",
+      "hn_story_type": "story",
+      "hn_points": "77",
+      "hn_comments_count": "42",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47579229",
+      "hn_item_text": "",
+      "hn_comment_preview": "grewil2: Side note: I don’t know what Anthropic changed but now Claude Code consumes the quota incredibly fast. I have the Max5 plan, and it just consumed about 10% of the session quota in 10 minutes on a single prompt. For $100/month, I have higher expectations.\nfercircularbuf: I love the pedagogical approach here and the ability to easily hone in on your level before diving into content. Your approach would work really well for other subjects as well.\nMeetingsBrowser: I use claude code every day, I've written plugins and skills, use MCP servers, subagent workflows, and filled out the \"Find your level\" quiz as such. According to the quiz, I am a beginner!",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "72",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=48,practical_tech=4,tools_agents=48,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 48,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 48,
+          "strong_hits": [
+            "claude code",
+            "workflow",
+            "mcp",
+            "ide"
+          ],
+          "support_hits": [
+            "workflow",
+            "prompt",
+            "plugin",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + workflow",
+            "claude + code",
+            "prompt + workflow"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "workflow",
+        "mcp",
+        "ide",
+        "prompt",
+        "plugin",
+        "agent",
+        "agent + workflow",
+        "claude + code",
+        "prompt + workflow"
+      ],
+      "detail_slug": "d58b328ee618c23340a6d8e792cb5e7fb3bf4798",
+      "is_english_source": true,
+      "translated_title": "읽기보다 실습으로 배우는 클로드 코드",
+      "short_summary": "문서를 읽기보다 직접 써 보며 Claude Code를 익히게 돕는 학습 가이드가 HN에서 관심을 모았다. 수준 진단과 실습 흐름은 호평받았지만, 빠른 쿼터 소모와 어색한 난이도 분류는 아쉽다는 반응도 나왔다.",
+      "why_it_matters": "AI 코딩 도구는 기능만 좋다고 바로 자리 잡지 않는다. 실제 업무에 붙이려면 팀이 빠르게 감을 잡을 수 있는 학습 방식과, 비용 대비 체감 효율을 함께 따져야 한다.\n- 긴 문서보다 실습 중심 온보딩이 더 잘 먹힌다는 신호다. 새 도구를 도입할 때 튜토리얼 설계 방식부터 다시 볼 만하다.\n- 수준 진단 같은 장치는 입문자와 숙련자를 나눠 학습 경로를 다르게 짜는 데 도움을 준다. 다만 판정이 어색하면 신뢰를 잃기 쉽다.\n- 실무에서는 학습 경험만큼 과금과 쿼터 정책도 중요하다. 사용량이 예상보다 빠르게 닳는다면 팀 단위 도입 속도에 바로 영향을 준다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이지만, 실제 사용 경험을 기준으로 한 현실적인 평가가 함께 붙었다. 학습 구성은 좋다는 의견이 많았고, 비용과 제품 감각에 대한 불만도 반복해서 나왔다.\n- 실습 위주 구성과 현재 수준을 먼저 가늠하게 하는 접근은 교육 방식으로 좋다는 반응이 있었다. 다른 주제에도 적용할 수 있겠다는 평가도 보였다.\n- 반대로 Claude Code 쿼터가 너무 빨리 소모된다는 불만이 눈에 띄었다. 월 100달러 요금제 기대치에 못 미친다는 식의 반응이다.\n- 꽤 오래 써 온 사용자도 수준 진단에서 초보자로 분류됐다는 댓글이 나왔다. 온보딩 장치가 흥미롭지만, 숙련도 판별은 더 다듬어야 한다는 논점으로 이어졌다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-30T23:12:16.428681+00:00"
+    },
+    {
+      "id": "11555d0bf5ab5d2d7448a1d7885126bc7a1fdf9d",
+      "title_hash": "3b096c12fddb464b042eaefb83600d9e690a5816",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Cherri – programming language that compiles to an Apple Shortuct",
+      "link": "https://github.com/electrikmilk/cherri",
+      "published_at": "2026-03-27T23:39:44+00:00",
+      "summary": "HN story type: story HN points: 214 HN comments: 44 HN top comments: alin23: I've just used this extensively to build 200 Shortcuts for my event-based automation app on macOS [0], because some actions you simply can't do without Shortcuts: changing Focus Mode, toggling Accessibility functions like Color Filters, accessing the Private Cloud Compute model etc. I also wrote about how Claude was able to basically learn the language from scratch and write those fully compilable Shortcuts for me... lemontheme: Cool! As a professional programmer few things consistently succeed in making me feel inept like trying to build an Apple Shortcut wwalexander: I take it this only supports Apple’s built-in actions, and doesn’t plug into the broader AppIntents system? AppIntents includes a packaging concept, would be cool to see if this could use third-party AppIntents in a similar way to how scientific Python uses C modules for performance critical sections.",
+      "fetched_at": "2026-03-30T23:09:11.734948+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47549824",
+      "hn_story_type": "story",
+      "hn_points": "214",
+      "hn_comments_count": "44",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47549824",
+      "hn_item_text": "",
+      "hn_comment_preview": "alin23: I've just used this extensively to build 200 Shortcuts for my event-based automation app on macOS [0], because some actions you simply can't do without Shortcuts: changing Focus Mode, toggling Accessibility functions like Color Filters, accessing the Private Cloud Compute model etc. I also wrote about how Claude was able to basically learn the language from scratch and write those fully compilable Shortcuts for me...\nlemontheme: Cool! As a professional programmer few things consistently succeed in making me feel inept like trying to build an Apple Shortcut\nwwalexander: I take it this only supports Apple’s built-in actions, and doesn’t plug into the broader AppIntents system? AppIntents includes a packaging concept, would be cool to see if this could use third-party AppIntents in a similar way to how scientific Python uses C modules for performance critical sections.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=10,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "performance"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "automation"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "github.com"
+      ],
+      "detail_slug": "11555d0bf5ab5d2d7448a1d7885126bc7a1fdf9d",
+      "is_english_source": true,
+      "translated_title": "애플 단축어로 컴파일되는 언어 Cherri",
+      "short_summary": "Cherri는 코드를 애플 단축어로 컴파일해 단축어 제작을 더 프로그래밍답게 다루려는 언어다. HN에서는 실제 자동화 앱에 대량 적용한 사례와 함께, 확장성 한계와 활용 범위를 두고 논의가 이어졌다.",
+      "why_it_matters": "애플 생태계 자동화는 여전히 단축어를 거쳐야만 되는 작업이 적지 않다. Cherri는 그 불편한 GUI 제작 과정을 코드로 옮겨, 반복 작업과 대규모 자동화 유지보수를 더 다루기 쉽게 만들 수 있다는 점에서 눈길을 끈다.\n- 포커스 모드 변경, 접근성 기능 토글, Private Cloud Compute 호출처럼 단축어가 사실상 유일한 진입점인 기능을 코드 기반으로 묶어 관리할 수 있다.\n- 단축어를 수십 개, 수백 개 단위로 운영해야 하는 앱이나 사내 자동화에서는 수동 편집보다 생성과 수정, 재사용 흐름이 훨씬 정리될 여지가 있다.\n- 반면 현재 범위가 애플 기본 액션 중심이라면 AppIntents 같은 외부 확장과 어떻게 연결할지가 실사용 확산의 갈림길이 될 수 있다.",
+      "hn_reaction_summary": "댓글 분위기는 흥미롭다는 반응과 함께, 실제로 어디까지 쓸 수 있느냐를 따지는 쪽으로 갈렸다. 단축어 UI에 질린 개발자들의 공감이 컸고, 곧바로 확장성 질문이 뒤따랐다.\n- 한 이용자는 macOS 이벤트 자동화 앱을 만들며 Cherri로 단축어 200개를 구성했다고 소개했고, 단축어 없이는 건드리기 어려운 시스템 기능이 분명 있다고 짚었다.\n- 다른 댓글에서는 숙련 개발자도 애플 단축어를 만들 때 유독 답답함을 느낀다며, 이런 추상화 자체가 반갑다는 반응이 나왔다.\n- 동시에 서드파티 AppIntents까지 묶을 수 있는지, 지금 단계가 애플 내장 액션에 머무는지 묻는 의견이 반복되며 실무 활용성의 핵심 쟁점으로 떠올랐다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-30T23:12:16.428681+00:00"
+    },
+    {
+      "id": "54f0b14d399600c3b09f811b2b36b2e1741b8837",
+      "title_hash": "7545c5efdf75bf267192b9ebf07f5a28b0e569c9",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: 30u30.fyi – Is your startup founder on Forbes' most fraudulent list?",
+      "link": "https://30u30.fyi",
+      "published_at": "2026-03-30T22:10:22+00:00",
+      "summary": "HN story type: story HN points: 120 HN comments: 48 HN top comments: seamossfet: Some of these really don't make sense. The implication that Cursor is a fraudulent company is a little weird considering they actually have real users. Like sure, is it a VS code fork with agents stapled to it? Yes. But are they on the same scale as most of the people mentioned? Ehh probably not. It reads more like a hit piece from someone with a grudge against random SF companies than anything else. CobrastanJorji: Seems like there should be an incarcerated stamp for people who were in jail for fraud but later got out, like Shkreli. czhu12: Would say, the 30 under 30 list has like 600 people, not 30. So the fraud rate is quite a bit lower than headlines of seemingly 2 / 30. Its more like 2 / 600, which is maybe the baseline fraud rate?",
+      "fetched_at": "2026-03-30T23:09:11.734948+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47580350",
+      "hn_story_type": "story",
+      "hn_points": "120",
+      "hn_comments_count": "48",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47580350",
+      "hn_item_text": "",
+      "hn_comment_preview": "seamossfet: Some of these really don't make sense. The implication that Cursor is a fraudulent company is a little weird considering they actually have real users. Like sure, is it a VS code fork with agents stapled to it? Yes. But are they on the same scale as most of the people mentioned? Ehh probably not. It reads more like a hit piece from someone with a grudge against random SF companies than anything else.\nCobrastanJorji: Seems like there should be an incarcerated stamp for people who were in jail for fraud but later got out, like Shkreli.\nczhu12: Would say, the 30 under 30 list has like 600 people, not 30. So the fraud rate is quite a bit lower than headlines of seemingly 2 / 30. Its more like 2 / 600, which is maybe the baseline fraud rate?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=9,tools_agents=14,strategy_insight=2,industry_business=9",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 9
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "cursor",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 9,
+          "strong_hits": [
+            "startup"
+          ],
+          "support_hits": [
+            "company",
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cursor",
+        "ide",
+        "agent"
+      ],
+      "detail_slug": "54f0b14d399600c3b09f811b2b36b2e1741b8837",
+      "is_english_source": true,
+      "translated_title": "Show HN: 포브스 30언더30 사기 논란 추적기",
+      "short_summary": "30u30.fyi는 스타트업 창업자와 포브스 30 언더 30의 사기 논란 이미지를 엮어 보여주는 풍자 사이트다. HN에서는 발상은 눈길을 끌지만 선정 기준이 거칠고 일부 사례는 무리한 낙인이라는 반응이 맞섰다.",
+      "why_it_matters": "이 이야기는 스타트업 이름값보다 창업자 평판 검증이 더 앞단으로 올라오고 있음을 보여준다. 농담처럼 보이는 페이지라도 채용, 투자, 영업 현장에서는 곧바로 실사 이슈로 번질 수 있다.\n- 화제성 높은 명단이나 언론 노출만으로 신뢰를 대신하기 어려워졌다. 창업자 이력과 과거 논란을 따로 확인하는 흐름이 더 강해질 수 있다.\n- 투자 검토나 파트너십 심사에서 법적 분쟁, 허위 과장, 평판 리스크를 정리하는 작업이 더 일찍 붙을 가능성이 크다.\n- 반대로 근거가 약한 분류도 빠르게 낙인으로 번질 수 있다. 데이터 출처와 포함 기준을 설명하는 방식이 서비스 신뢰를 가른다.",
+      "hn_reaction_summary": "HN 댓글 분위기는 '풍자는 이해되지만 선을 넘었다'에 가까웠다. 문제 제기 자체보다도 누구를 어떤 근거로 같은 범주에 묶었는지가 더 큰 쟁점이었다.\n- Cursor처럼 실제 사용자와 제품이 있는 회사를 사기 사례와 비슷하게 다루는 건 과하다는 비판이 나왔다.\n- 포브스 30 언더 30은 체감상 30명이 아니라 수백 명 규모라서, 일부 사례만으로 전체 리스트를 일반화하기 어렵다는 반론이 반복됐다.\n- 이미 복역한 인물은 별도 표식을 두자는 의견처럼, 포함 사유와 현재 상태를 더 세밀하게 나눠야 한다는 요구도 보였다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-30T23:12:16.428681+00:00"
+    },
+    {
       "id": "cdbca70e09de8a81f2017292111204ceeaa73ce0",
       "title_hash": "d7909cff785b8322c65bd691f0eb0e74cc42b2e6",
       "source": "GeekNews",
@@ -48652,9 +49023,13 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트: 격리와 코드화",
-        "summary": "이번 주에는 도구를 더 잘게 나누고, 작업을 코드로 옮기려는 흐름이 선명했다. 에이전트 작업이 늘수록 환경을 격리하고 다시 띄우기 쉬운 도구가 힘을 받는다는 점도 드러났다.\n- Coasts는 워크트리마다 localhost와 docker-compose를 따로 띄워, 병렬 실험 때 생기는 충돌을 줄이려는 시도다.\n- Build123d는 3D 모델링을 파이썬 코드로 다루게 한다. GUI를 밀어내기보다 함께 쓰는 쪽에 가깝다.\n- 지금 볼 이유도 분명하다. 개발 환경과 제작 과정이 점점 더 작은 단위로 쪼개지고 있어서다.",
+        "headline": "이번 주 도구·에이전트: 검증의 시간",
+        "summary": "이번 주 도구·에이전트 묶음은 새 기능 자랑보다 실제 사용에서 드러난 경계와 검증에 무게가 실렸다. 실습으로 익히고 사고 원인을 분리해 보는 흐름이 선명했다.\n\n- Claude Code 논란은 에이전트가 아니라 주변 자동화가 만든 문제로 정리됐다.\n- 학습 가이드와 Cherri는 문서보다 직접 돌려 보며 쓰임새와 한계를 확인하게 했다.\n- 지금 볼 이유는 분명하다. 성능 경쟁보다 내 워크플로에 안전하게 얹히는지가 더 빨리 갈리고 있어서다.",
         "item_ids": [
+          "48667ca68f491f646d2198da70be018f034d07b6",
+          "d58b328ee618c23340a6d8e792cb5e7fb3bf4798",
+          "11555d0bf5ab5d2d7448a1d7885126bc7a1fdf9d",
+          "54f0b14d399600c3b09f811b2b36b2e1741b8837",
           "cdbca70e09de8a81f2017292111204ceeaa73ce0",
           "cd18f28c16bc1a774f837636fc69a3eb68d0d30c",
           "d6ed78d3919717e812b83e5e2fc506656d7d68e6",
@@ -48793,21 +49168,18 @@
           "aa403048f89ab7e64b89f7307d04fa75ddbd5538",
           "d179077c893a63a6db741f8b9e553ac5ff5b85f5",
           "de30a5797a9ff1f973306942b8d10f1988313846",
-          "f6e2e1832798869c6179cf6686d7a00457067481",
-          "5a40f67fbe782d4b3ed61495cb781dd17d2d74a0",
-          "69395254331871f5ea07d3cffd46cc5cabb33c62",
-          "1ee76d514dbf2d2c2b3ebea1b5c79175c9226a81"
+          "f6e2e1832798869c6179cf6686d7a00457067481"
         ],
-        "total_items": 142,
-        "generated_at": "2026-03-30T19:00:44.590645+00:00",
+        "total_items": 143,
+        "generated_at": "2026-03-30T23:09:11.734948+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술: 범용 대신 전용",
-        "summary": "이번 주 실무 기술은 범용 도구가 막히는 자리에서 전용 해법이 힘을 얻는 흐름을 보여준다. 현장 맥락과 통제권이 다시 앞에 섰다.\n\n- 건설 도면 OCR과 텍스트 레이아웃 계산은 일반 API가 놓친 문맥을 직접 메우려는 시도다.\n- Miasma와 VHDL 델타 사이클 이야기는 속도보다 예측 가능성과 제어가 더 큰 화두임을 보여준다.\n- GPT-5.4 mini·nano는 이런 흐름에 속도를 붙인다. 더 가벼운 모델로 실무 자동화 문턱이 내려간다.",
+        "headline": "이번 주 실무 기술",
+        "summary": "이번 주엔 범용 도구로는 막히는 지점을 현장 맥락에 맞게 다시 푸는 흐름이 또렷했다. 데모보다 운영 감각이 앞서고, 왜 지금 다시 기본기와 경량화가 주목받는지도 함께 드러났다.\n- 건설 도면 OCR처럼 도메인 전용 보정이 실제 성능 차이를 만든다는 사례가 나왔다.\n- Pretext와 GPT-5.4 mini·nano는 더 가볍고 빠른 실행으로 실서비스 적용 폭을 넓힌다.\n- Miasma와 VHDL 델타 사이클은 자동화 경쟁이 거세질수록 방어와 실행 모델 이해를 다시 챙겨야 한다는 신호다.",
         "item_ids": [
           "b1b62d8a71e80e6423cdf61a6e0bd85fa91f1a56",
           "b7bd8b6aadde03d336941b855e1d400b391fb693",
@@ -48885,20 +49257,18 @@
           "3c4a5ff7de542fd1bd5cfc2294953a344862303f",
           "7c7aa34e21402202f8ae3467edfc770e01e910d6",
           "ecddb7d734eaf3538f5ee0dc43c02116474f3234",
-          "3e9a5685baa428f4aa70421a354efd372c49dbec",
-          "ff314f3381094e456fe221f8ed1c1c96c61406c3",
-          "e2ebaa8e1f14d234b42fdd7ecad5c2b5acc2cb0d"
+          "3e9a5685baa428f4aa70421a354efd372c49dbec"
         ],
-        "total_items": 79,
-        "generated_at": "2026-03-30T19:00:44.590645+00:00",
+        "total_items": 77,
+        "generated_at": "2026-03-30T23:09:11.734948+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 주 전략·인사이트",
-        "summary": "AI와 플랫폼, 소프트웨어를 둘러싼 이번 주 기사는 한곳을 가리킨다. 편리함과 성장보다 먼저, 왜곡된 신뢰를 누가 만들고 그 책임을 어디까지 져야 하는지 묻는 흐름이 또렷해졌다.\n\n- AI는 조언과 판단에서 사용자를 너무 쉽게 긍정한다. 만족감은 높여도 오판을 키울 수 있다는 경고가 반복됐다.\n- 플랫폼은 아동 중독 설계 판결과 국방 조달 분쟁을 통해 제품 설계와 기업 판단의 책임을 법정에서 다시 따지기 시작했다.\n- 소프트웨어 시장도 같은 압박을 받는다. 이제는 AI로 성장률을 끌어올리거나, 수익 구조를 더 분명하게 증명해야 한다.",
+        "headline": "이번 주 전략·인사이트: 기술 책임의 재계산",
+        "summary": "이번 주에는 AI와 플랫폼이 사람의 판단을 어떻게 밀어주고 흔드는지가 한 줄기로 이어졌다. 맞장구형 AI, 중독을 부르는 설계, 법원 판단, 소프트웨어 밸류에이션 변화가 겹치며 기술의 책임과 성장 공식이 함께 바뀌는 장면이 또렷해졌다.\n\n- 대화형 AI는 조언보다 동조에 기울기 쉽고, 사용자는 그런 답을 더 만족스럽게 받아들인다.\n- 플랫폼 설계 책임을 묻는 판결과 국방 조치 제동은 기술 기업을 보는 규칙이 달라졌음을 보여준다.\n- 소프트웨어 기업은 AI로 성장률을 다시 만들거나 수익성을 증명해야 한다는 압박이 커졌다.",
         "item_ids": [
           "4a16c0db4ce89c63989e1017f42db9f3e6bd0185",
           "db3ad7236d8a87228e8ef820104580047b8b0470",
@@ -48916,7 +49286,7 @@
           "aa9a6b2ed0b7e63604030816a740b954d3ba4c38"
         ],
         "total_items": 14,
-        "generated_at": "2026-03-30T19:00:44.590645+00:00",
+        "generated_at": "2026-03-30T23:09:11.734948+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -48926,8 +49296,12 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "이번 달 묶음은 일을 막는 숨은 마찰을 드러내고, 그걸 우회할 새 도구와 시선을 함께 보여준다. 닫힌 하드웨어의 비용, 미루기의 감정, 분리된 개발 환경, 코드형 제작 흐름이 한 줄기로 이어진다.\n- Coasts와 Build123d는 실험 환경을 나누고 제작 과정을 코드로 남기며, 에이전트 시대의 작업 방식을 더 또렷하게 바꾼다.\n- 수리비와 연구 기사까지 같이 읽으면, 요즘 기술 담론이 성능 경쟁보다 보이지 않던 구조와 마찰을 드러내는 쪽으로 움직인다는 점이 잘 보인다.",
+        "summary": "이번 달엔 도구를 더 잘 쓰는 법보다, 어디까지 믿고 맡길지 묻는 글이 많았다. 실습형 학습과 자동화 실험이 이어졌고, 막상 부딪히는 비용과 한계도 함께 드러났다.\n- 에이전트 사고처럼 보인 일도 실제 원인은 주변 자동화였다. 이제는 결과보다 실행 경로를 먼저 봐야 한다.\n- 읽기보다 실습으로 익히는 흐름이 강해졌다. 대신 쿼터와 난이도 설계 같은 운영 감각이 더 중요해졌다.\n- 자동화가 넓어질수록 확장 한계와 수리비 같은 현실 비용도 또렷해졌다. 지금 보면 기대와 마찰이 함께 읽힌다.",
         "item_ids": [
+          "48667ca68f491f646d2198da70be018f034d07b6",
+          "d58b328ee618c23340a6d8e792cb5e7fb3bf4798",
+          "11555d0bf5ab5d2d7448a1d7885126bc7a1fdf9d",
+          "54f0b14d399600c3b09f811b2b36b2e1741b8837",
           "cdbca70e09de8a81f2017292111204ceeaa73ce0",
           "cd18f28c16bc1a774f837636fc69a3eb68d0d30c",
           "d6ed78d3919717e812b83e5e2fc506656d7d68e6",
@@ -49355,8 +49729,8 @@
           "86eaa0b9ae86918b1096ddaf015907f73a541a80",
           "b65bd5533276d0caa3f2398a5328c48d0f67eca4"
         ],
-        "total_items": 426,
-        "generated_at": "2026-03-30T19:00:44.590645+00:00",
+        "total_items": 430,
+        "generated_at": "2026-03-30T23:09:11.734948+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -49364,7 +49738,7 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달엔 범용 도구를 그대로 믿기보다 현장 제약에 맞게 다시 설계하는 흐름이 두드러졌다. 속도, 비용, 예측 가능성을 직접 챙기려는 실무 감각이 기사 전반에 깔렸다.\n- 건설 도면 OCR과 멀티라인 레이아웃 계산은 일반 해법이 놓치는 맥락을 전용 로직으로 메우려는 시도다.\n- Miasma는 수집 경쟁이 방어 기술로 번졌음을 보여준다. 데이터 파이프라인도 이제 운영 이슈다.\n- GPT-5.4 mini·nano와 VHDL 델타 사이클 재조명은 가볍고 정확한 내부 이해가 다시 힘을 얻는 이유를 보여준다.",
+        "summary": "이번 달엔 범용 도구의 빈틈을 현장형 기술로 메우는 흐름이 또렷했다. 작게 줄이되 더 잘 맞추고 필요하면 막는 쪽으로 실무 감각이 모였다.\n- 건설 도면 OCR과 멀티라인 측정은 일반 해법보다 맥락을 아는 전용 구현이 더 잘 먹힌다는 점을 보여줬다.\n- GPT-5.4 mini·nano와 VHDL 델타 사이클 재조명은 속도와 재현성을 다시 실무 기준으로 끌어올렸다.\n- 지금 보면 AI 도입과 방어가 한 흐름으로 붙고 있어, 다음 분기 선택 기준을 가늠하기 좋다.",
         "item_ids": [
           "b1b62d8a71e80e6423cdf61a6e0bd85fa91f1a56",
           "b7bd8b6aadde03d336941b855e1d400b391fb693",
@@ -49604,7 +49978,7 @@
           "755ac2f97593dec9f26da359a9722f03f30fb02c"
         ],
         "total_items": 236,
-        "generated_at": "2026-03-30T19:00:44.590645+00:00",
+        "generated_at": "2026-03-30T23:09:11.734948+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -49612,7 +49986,7 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 달 산업·비즈니스",
-        "summary": "이번 달 산업·비즈니스는 자본이 몰리는 분야와 사회가 제동을 거는 지점이 함께 선명해진 흐름이 두드러졌다. 성장 기대는 커졌고, 그만큼 책임을 묻는 목소리도 거세졌다.\n\n- 리벨리온 투자 유치는 AI 인프라 경쟁이 더 넓어지고 있다는 신호다.\n- Palantir·Meta 논란은 공공 데이터와 아동 안전 문제에서 기술 기업 책임을 더 직접 따지기 시작했음을 보여준다.\n- 도박·예측시장, 반려묘 책상 사례까지 보면 돈과 취향, 일상 관리가 새 시장으로 빠르게 묶이는 지금을 읽을 수 있다.",
+        "summary": "이번 달 산업·비즈니스는 자본이 몰리는 새 시장과 그에 따른 반발이 함께 두드러졌다. AI 칩 투자부터 공공 기술 계약, 플랫폼 책임, 생활형 제품까지 돈의 흐름이 산업 경계와 일상으로 더 깊게 스며드는 모습이다.\n- 리벨리온 투자 유치는 AI 인프라 경쟁이 더 거세졌다는 신호다.\n- 유럽의 Palantir 반대와 Meta 배상 판결은 기술 기업이 신뢰와 규제를 더 무겁게 마주한 국면을 보여준다.\n- 예측시장 논란과 반려묘 책상은 시장이 사회 리스크와 취향까지 빠르게 상품으로 묶는 흐름을 드러낸다.",
         "item_ids": [
           "fae9a4b1014e2c517dc964535dffc65f45bfd30e",
           "815f42342083484aa14e3fc7ab4f4ded066de4a2",
@@ -49674,7 +50048,7 @@
           "392824ab5bae472def472a59d39e090ea943e5b3"
         ],
         "total_items": 58,
-        "generated_at": "2026-03-30T19:00:44.590645+00:00",
+        "generated_at": "2026-03-30T23:09:11.734948+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -49687,19 +50061,19 @@
       "title": "조용히 커지는 주제",
       "cta_label": "흐름 보기",
       "related_item_ids": [
+        "48667ca68f491f646d2198da70be018f034d07b6",
         "be132e16bc17faa2f4881e90280acda1ff5a6716",
-        "7bceeae4ca3e6252205638b60f8438bb4629b816",
         "dc7d78cbf39b582a1a97da28bcb60fc2e6f74473"
       ],
-      "score": 0.93,
-      "generated_at": "2026-03-30T19:00:44.590645+00:00",
+      "score": 0.91,
+      "generated_at": "2026-03-30T23:09:11.734948+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "실행 환경의 코드화",
-      "summary_line": "도구만 쓰는 수준을 넘어 실행 환경과 제작 과정을 코드로 묶는 흐름이 다시 올라온다.",
+      "topic_name": "에이전트 주변 운영층",
+      "summary_line": "모델 경쟁보다 실행 경로와 로컬 운영을 다듬는 흐름이 더 자주 보였다.",
       "signals": [
-        "Coasts는 워크트리마다 localhost와 compose를 따로 띄운다",
-        "Build123d는 CAD 형상을 파이썬 코드로 관리한다",
-        "vLLM Compose는 모델 서빙 설정을 프로필로 굳힌다"
+        "문제 원인을 에이전트가 아니라 자동화 레이어에서 다시 추적했다",
+        "워크트리마다 런타임을 분리해 충돌을 줄이려는 도구가 나왔다",
+        "로컬 모델 서빙도 프로필과 TUI로 관리하는 흐름이 붙었다"
       ]
     },
     {
@@ -49707,38 +50081,38 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "쟁점 보기",
+      "cta_label": "논쟁 읽기",
       "related_item_ids": [
-        "b1b62d8a71e80e6423cdf61a6e0bd85fa91f1a56"
+        "54f0b14d399600c3b09f811b2b36b2e1741b8837"
       ],
       "score": 0.84,
-      "generated_at": "2026-03-30T19:00:44.590645+00:00",
+      "generated_at": "2026-03-30T23:09:11.734948+00:00",
       "ai_model": "codex-cli",
-      "headline": "건설 도면 OCR은 안 통했다, 그래서 직접 고쳤다",
-      "issue_title": "복잡한 현장 문서를 모델이 끝까지 읽어낼 수 있나",
-      "opposition_summary": "데모는 흥미롭지만 회사마다 다른 도면 규칙을 감안하면 재현성과 일반화가 약하다는 쪽이 맞섰다.",
-      "support_summary": "일반 OCR이 놓친 맥락을 전용 해석으로 메우면 자동화의 출발점은 될 수 있다는 반론도 나왔다."
+      "headline": "풍자는 통쾌했지만, 선을 넘었다는 반박도 거셌다",
+      "issue_title": "30언더30 추적 사이트는 검증인가 낙인인가",
+      "opposition_summary": "선정 기준이 거칠고 실제 사업까지 한데 묶어 평판 피해를 키운다는 비판이 많았다.",
+      "support_summary": "과장된 명성과 검증 부실을 드러내는 풍자라는 옹호도 분명했다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 보기",
+      "cta_label": "신호 따라가기",
       "related_item_ids": [
+        "11555d0bf5ab5d2d7448a1d7885126bc7a1fdf9d",
         "b7bd8b6aadde03d336941b855e1d400b391fb693",
-        "be6571f57cc27b86602239e7122373af9cd83963",
-        "be132e16bc17faa2f4881e90280acda1ff5a6716"
+        "7bceeae4ca3e6252205638b60f8438bb4629b816"
       ],
       "score": 0.88,
-      "generated_at": "2026-03-30T19:00:44.590645+00:00",
+      "generated_at": "2026-03-30T23:09:11.734948+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "공용 바닥을 믿지 않는 도구",
-      "summary_line": "이번 주엔 하나의 기본 해법을 믿기보다, 충돌이 나는 지점을 따로 떼어내는 설계가 자주 보였다.",
+      "signal_title": "불편한 인터페이스를 다시 코드로 가져온다",
+      "summary_line": "GUI나 브라우저에 묶여 있던 일을 코드로 되찾는 작은 도구가 연달아 나왔다.",
       "signals": [
-        "Pretext는 DOM 측정 없이 줄 배치를 계산한다",
-        "Miasma는 스크레이퍼를 막기보다 오염 루프로 흘려보낸다",
-        "Coasts는 공유 localhost 대신 워크트리별 런타임을 만든다"
+        "애플 단축어를 코드로 컴파일하려는 시도가 주목받았다",
+        "DOM 없이 멀티라인 텍스트 레이아웃을 계산하는 라이브러리가 나왔다",
+        "3D CAD 형상을 파이썬으로 정의하는 흐름이 다시 힘을 받았다"
       ]
     }
   ],
@@ -49749,19 +50123,19 @@
     "title": "조용히 커지는 주제",
     "cta_label": "흐름 보기",
     "related_item_ids": [
+      "48667ca68f491f646d2198da70be018f034d07b6",
       "be132e16bc17faa2f4881e90280acda1ff5a6716",
-      "7bceeae4ca3e6252205638b60f8438bb4629b816",
       "dc7d78cbf39b582a1a97da28bcb60fc2e6f74473"
     ],
-    "score": 0.93,
-    "generated_at": "2026-03-30T19:00:44.590645+00:00",
+    "score": 0.91,
+    "generated_at": "2026-03-30T23:09:11.734948+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "실행 환경의 코드화",
-    "summary_line": "도구만 쓰는 수준을 넘어 실행 환경과 제작 과정을 코드로 묶는 흐름이 다시 올라온다.",
+    "topic_name": "에이전트 주변 운영층",
+    "summary_line": "모델 경쟁보다 실행 경로와 로컬 운영을 다듬는 흐름이 더 자주 보였다.",
     "signals": [
-      "Coasts는 워크트리마다 localhost와 compose를 따로 띄운다",
-      "Build123d는 CAD 형상을 파이썬 코드로 관리한다",
-      "vLLM Compose는 모델 서빙 설정을 프로필로 굳힌다"
+      "문제 원인을 에이전트가 아니라 자동화 레이어에서 다시 추적했다",
+      "워크트리마다 런타임을 분리해 충돌을 줄이려는 도구가 나왔다",
+      "로컬 모델 서빙도 프로필과 TUI로 관리하는 흐름이 붙었다"
     ]
   }
 }
