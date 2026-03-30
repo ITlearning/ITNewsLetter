@@ -56,6 +56,24 @@ class RelatedItemsTests(unittest.TestCase):
 
 
 class BuildSiteTests(unittest.TestCase):
+    def test_hn_social_metadata_falls_back_to_default_icon_on_render_failure(self) -> None:
+        item = {
+            "id": "hn-safe",
+            "source": "Hacker News Frontpage (HN RSS)",
+            "detail_slug": "hn-safe",
+            "title": "Original title",
+            "translated_title": "번역 제목",
+        }
+
+        with patch.object(build_archive_site, "write_hn_og_image", side_effect=RuntimeError("boom")):
+            metadata = build_archive_site.build_detail_social_metadata(item, "https://itnewsletter.vercel.app")
+
+        self.assertEqual(metadata["og_image_url"], "https://itnewsletter.vercel.app/img.icons8.png")
+        self.assertEqual(metadata["twitter_image_url"], "https://itnewsletter.vercel.app/img.icons8.png")
+        self.assertEqual(metadata["twitter_card"], "summary")
+        self.assertEqual(metadata["og_image_width"], "200")
+        self.assertEqual(metadata["og_image_height"], "200")
+
     def test_build_site_generates_detail_pages_and_safe_fallback(self) -> None:
         with tempfile.TemporaryDirectory() as tmp_dir:
             tmp_root = Path(tmp_dir)
@@ -178,6 +196,7 @@ class BuildSiteTests(unittest.TestCase):
             self.assertTrue((dist_dir / "news" / "kor1" / "index.html").exists())
             self.assertTrue((dist_dir / "news" / "legacy-eng" / "index.html").exists())
             self.assertTrue((dist_dir / "news" / "hn-safe" / "index.html").exists())
+            self.assertTrue((dist_dir / "og" / "hn" / "hn-safe.png").exists())
             self.assertTrue((dist_dir / "about.html").exists())
             self.assertTrue((dist_dir / "editorial-policy.html").exists())
             self.assertTrue((dist_dir / "privacy.html").exists())
@@ -206,6 +225,9 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn('rel="canonical"', english_detail)
             self.assertIn("https://itnewsletter.vercel.app/news/eng1/", english_detail)
             self.assertIn("https://itnewsletter.vercel.app/img.icons8.png", english_detail)
+            self.assertIn('property="og:image" content="https://itnewsletter.vercel.app/img.icons8.png"', english_detail)
+            self.assertIn('name="twitter:image" content="https://itnewsletter.vercel.app/img.icons8.png"', english_detail)
+            self.assertIn('name="twitter:card" content="summary"', english_detail)
             self.assertIn("../../about.html", english_detail)
             self.assertIn("../../contact.html", english_detail)
             self.assertIn("ca-pub-3668470088067384", english_detail)
@@ -217,6 +239,12 @@ class BuildSiteTests(unittest.TestCase):
             self.assertIn('data-lazy-detail-supported="true"', legacy_detail)
             self.assertIn("https://detail-api.example.com/api/lazy-detail", legacy_detail)
             self.assertIn('data-hn-story-id="47317132"', hn_detail)
+            self.assertIn('property="og:image" content="https://itnewsletter.vercel.app/og/hn/hn-safe.png"', hn_detail)
+            self.assertIn('name="twitter:image" content="https://itnewsletter.vercel.app/og/hn/hn-safe.png"', hn_detail)
+            self.assertIn('name="twitter:card" content="summary_large_image"', hn_detail)
+            self.assertIn('property="og:image:width" content="1200"', hn_detail)
+            self.assertIn('property="og:image:height" content="630"', hn_detail)
+            self.assertNotIn('<img src="https://itnewsletter.vercel.app/og/hn/hn-safe.png"', hn_detail)
             self.assertIn("href=\"../", english_detail)
             self.assertNotIn("href=\"./news/", english_detail)
             self.assertIn("./contact.html", about_page)

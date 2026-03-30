@@ -18,6 +18,7 @@ This repository collects multiple tech feeds and sends new items to a Discord ch
 - `config/lazy_detail_allowlist.json`: on-demand detail briefing allowlist for legacy English items
 - `scripts/fetch_and_send.py`: fetch, dedupe, send logic
 - `scripts/build_archive_site.py`: build static archive payload and detail pages for GitHub Pages
+- `scripts/assets/fonts/`: bundled font assets for deterministic static rendering tasks
 - `api/`: Vercel Functions for on-demand legacy detail briefings
 - `site/`: archive website source
 - `data/state.json`: previously sent IDs
@@ -143,5 +144,8 @@ node scripts/process_lazy_detail_queue.mjs
 - Selection logs now include the winning taxonomy slot and matched terms for explainability.
 - Items older than 3 days are skipped by default before prioritization.
 - The archive site is built from `data/news.json`, enriches older items with taxonomy metadata during the Pages build, and generates static detail pages under `dist/news/<detail-slug>/`.
+- HN detail pages now also generate static share-preview PNGs under `dist/og/hn/` and use those images only for `og:image` and `twitter:image`.
+- GeekNews and other non-HN detail pages continue to use the shared default icon for social preview metadata.
+- The HN OG renderer prefers bundled IBM Plex Sans KR font assets so preview output stays stable across local and Vercel builds.
 - Archive detail pages are briefing pages, not mirrored article pages: the site stores metadata, summaries, and original links, but does not mirror full article bodies.
 - The list page now highlights the latest sent batch in a dedicated today's curation section.

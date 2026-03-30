@@ -3,13 +3,23 @@ from __future__ import annotations
 
 import html
 import json
+import logging
 import os
+import re
 import shutil
 from collections import Counter
+from functools import lru_cache
 from pathlib import Path
 from string import Template
 from typing import Any
 from urllib.parse import urlparse
+
+try:
+    from PIL import Image, ImageDraw, ImageFont
+except ModuleNotFoundError:
+    Image = None  # type: ignore[assignment]
+    ImageDraw = None  # type: ignore[assignment]
+    ImageFont = None  # type: ignore[assignment]
 
 from fetch_and_send import (
     LAST_RUN_PATH,
@@ -36,6 +46,29 @@ SITE_DATA_PATH = DIST_DIR / "data" / "news-archive.json"
 DETAIL_TEMPLATE_PATH = SITE_SRC / "templates" / "detail.html"
 LAZY_DETAIL_ALLOWLIST_PATH = ROOT / "config" / "lazy_detail_allowlist.json"
 DEFAULT_SITE_BASE_URL = "https://itnewsletter.vercel.app"
+DEFAULT_OG_IMAGE_PATH = "img.icons8.png"
+DEFAULT_OG_IMAGE_WIDTH = 200
+DEFAULT_OG_IMAGE_HEIGHT = 200
+HN_SOURCE_NAME = "Hacker News Frontpage (HN RSS)"
+HN_OG_ASSET_DIR = "og/hn"
+HN_OG_IMAGE_WIDTH = 1200
+HN_OG_IMAGE_HEIGHT = 630
+HN_OG_FONT_DIR = ROOT / "scripts" / "assets" / "fonts"
+HN_OG_FONT_PATHS = {
+    "regular": (
+        HN_OG_FONT_DIR / "IBMPlexSansKR-Regular.ttf",
+        Path("/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc"),
+        Path("/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"),
+        Path("/System/Library/Fonts/AppleSDGothicNeo.ttc"),
+    ),
+    "bold": (
+        HN_OG_FONT_DIR / "IBMPlexSansKR-Bold.ttf",
+        Path("/usr/share/fonts/truetype/noto/NotoSansCJK-Bold.ttc"),
+        Path("/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"),
+        Path("/System/Library/Fonts/AppleSDGothicNeo.ttc"),
+    ),
+}
+LOGGER = logging.getLogger(__name__)
 
 
 def sort_key(item: dict[str, Any]) -> tuple[int, str]:
@@ -73,6 +106,10 @@ def build_absolute_asset_url(asset_path: str, site_base_url: str) -> str:
 
 def is_geeknews_item(item: dict[str, Any]) -> bool:
     return normalize_text(item.get("source")) == "GeekNews"
+
+
+def is_hn_item(item: dict[str, Any]) -> bool:
+    return normalize_text(item.get("source")) == HN_SOURCE_NAME
 
 
 def detail_target_url(item: dict[str, Any], *, nested: bool) -> str:
@@ -336,6 +373,230 @@ def build_meta_description(item: dict[str, Any]) -> str:
     return "보낸 IT 뉴스를 원문 읽기 전 브리핑 형태로 정리한 상세 페이지."
 
 
+def build_default_social_metadata(site_base_url: str) -> dict[str, str]:
+    og_image_url = build_absolute_asset_url(DEFAULT_OG_IMAGE_PATH, site_base_url)
+    return {
+        "og_image_url": og_image_url,
+        "twitter_image_url": og_image_url,
+        "twitter_card": "summary",
+        "og_image_width": str(DEFAULT_OG_IMAGE_WIDTH),
+        "og_image_height": str(DEFAULT_OG_IMAGE_HEIGHT),
+    }
+
+
+def is_hn_og_eligible(item: dict[str, Any]) -> bool:
+    if not is_hn_item(item):
+        return False
+    if not normalize_text(item.get("detail_slug")):
+        return False
+    return bool(build_hn_primary_title(item))
+
+
+def build_hn_primary_title(item: dict[str, Any]) -> str:
+    return normalize_text(item.get("translated_title") or item.get("title"))
+
+
+def build_hn_secondary_title(item: dict[str, Any], primary_title: str) -> str:
+    original_title = normalize_text(item.get("title"))
+    if not original_title or original_title == primary_title:
+        return ""
+    return original_title
+
+
+def measure_text_width(font: Any, text: str) -> int:
+    if not text:
+        return 0
+    bbox = font.getbbox(text)
+    return max(0, bbox[2] - bbox[0])
+
+
+def measure_line_height(font: Any, *, multiplier: float = 1.18) -> int:
+    bbox = font.getbbox("한Ag")
+    height = max(1, bbox[3] - bbox[1])
+    return max(1, int(height * multiplier))
+
+
+def ellipsize_text(text: str, font: Any, max_width: int) -> str:
+    normalized = normalize_text(text)
+    if not normalized:
+        return ""
+    if measure_text_width(font, normalized) <= max_width:
+        return normalized
+
+    trimmed = normalized.rstrip()
+    while trimmed and measure_text_width(font, f"{trimmed}...") > max_width:
+        trimmed = trimmed[:-1].rstrip()
+    return f"{trimmed}..." if trimmed else "..."
+
+
+def clamp_text_lines(text: str, font: Any, *, max_width: int, max_lines: int) -> list[str]:
+    normalized = re.sub(r"\s+", " ", normalize_text(text))
+    if not normalized:
+        return []
+
+    lines: list[str] = []
+    current = ""
+    index = 0
+    while index < len(normalized):
+        char = normalized[index]
+        candidate = current + char
+        if not current or measure_text_width(font, candidate) <= max_width:
+            current = candidate
+            index += 1
+            continue
+
+        split_at = current.rfind(" ")
+        if split_at > int(len(current) * 0.45):
+            lines.append(current[:split_at].rstrip())
+            current = current[split_at + 1 :] + char
+            index += 1
+        else:
+            lines.append(current.rstrip())
+            current = char.lstrip()
+            index += 1
+
+        if len(lines) == max_lines:
+            remaining = current + normalized[index:]
+            lines[-1] = ellipsize_text(f"{lines[-1]} {remaining}".strip(), font, max_width)
+            return [line for line in lines if line]
+
+    if current.strip():
+        lines.append(current.rstrip())
+
+    if len(lines) <= max_lines:
+        return [line for line in lines if line]
+
+    trimmed = lines[:max_lines]
+    overflow = " ".join(line for line in lines[max_lines - 1 :] if line)
+    trimmed[-1] = ellipsize_text(overflow, font, max_width)
+    return [line for line in trimmed if line]
+
+
+@lru_cache(maxsize=None)
+def load_hn_og_font(role: str, size: int) -> Any:
+    if ImageFont is None:
+        raise RuntimeError("Pillow is not installed")
+
+    for path in HN_OG_FONT_PATHS.get(role, ()):
+        if not path.exists():
+            continue
+        try:
+            return ImageFont.truetype(str(path), size=size)
+        except OSError:
+            continue
+    return ImageFont.load_default()
+
+
+def interpolate_color(start: tuple[int, int, int], end: tuple[int, int, int], ratio: float) -> tuple[int, int, int]:
+    return tuple(int(start[index] + (end[index] - start[index]) * ratio) for index in range(3))
+
+
+def draw_vertical_gradient(draw: Any, width: int, height: int) -> None:
+    top = (244, 239, 230)
+    bottom = (255, 255, 255)
+    for y in range(height):
+        ratio = y / max(1, height - 1)
+        draw.line((0, y, width, y), fill=interpolate_color(top, bottom, ratio))
+
+
+def render_hn_og_image(item: dict[str, Any]) -> Any:
+    if Image is None or ImageDraw is None:
+        raise RuntimeError("Pillow is not installed")
+
+    width = HN_OG_IMAGE_WIDTH
+    height = HN_OG_IMAGE_HEIGHT
+    image = Image.new("RGBA", (width, height), (252, 250, 244, 255))
+    draw = ImageDraw.Draw(image, "RGBA")
+    draw_vertical_gradient(draw, width, height)
+
+    draw.ellipse((-140, -90, 450, 420), fill=(37, 99, 235, 28))
+    draw.ellipse((780, -120, 1320, 360), fill=(249, 115, 22, 26))
+    draw.ellipse((860, 310, 1290, 760), fill=(129, 140, 248, 22))
+
+    surface_box = (56, 46, width - 56, height - 46)
+    draw.rounded_rectangle(surface_box, radius=34, fill=(255, 255, 255, 228), outline=(255, 255, 255, 170), width=2)
+    draw.rounded_rectangle((80, 70, 96, height - 70), radius=8, fill=(37, 99, 235, 255))
+
+    brand_font = load_hn_og_font("bold", 30)
+    chip_font = load_hn_og_font("bold", 28)
+    eyebrow_font = load_hn_og_font("regular", 23)
+    primary_font = load_hn_og_font("bold", 78)
+    secondary_font = load_hn_og_font("regular", 40)
+
+    primary_title = build_hn_primary_title(item)
+    secondary_title = build_hn_secondary_title(item, primary_title)
+    primary_lines = clamp_text_lines(
+        primary_title,
+        primary_font,
+        max_width=952,
+        max_lines=3 if secondary_title else 4,
+    )
+    secondary_lines = clamp_text_lines(secondary_title, secondary_font, max_width=952, max_lines=2)
+
+    brand_label = "IT Dispatch Archive"
+    brand_width = measure_text_width(brand_font, brand_label)
+    draw.rounded_rectangle((112, 94, 112 + brand_width + 42, 146), radius=18, fill=(255, 255, 255, 188))
+    draw.text((132, 107), brand_label, font=brand_font, fill=(26, 31, 39, 255))
+    draw.text((112, 171), "EDITORIAL LINK PREVIEW", font=eyebrow_font, fill=(95, 107, 120, 255))
+
+    chip_label = "Hacker News"
+    chip_width = measure_text_width(chip_font, chip_label)
+    chip_x = width - 112 - chip_width - 42
+    draw.rounded_rectangle((chip_x, 94, width - 112, 146), radius=18, fill=(255, 241, 232, 255), outline=(249, 115, 22, 96), width=2)
+    draw.text((chip_x + 20, 107), chip_label, font=chip_font, fill=(194, 65, 12, 255))
+
+    text_x = 130
+    text_y = 234
+    primary_line_height = measure_line_height(primary_font, multiplier=1.12)
+    secondary_line_height = measure_line_height(secondary_font, multiplier=1.18)
+    for line in primary_lines:
+        draw.text((text_x, text_y), line, font=primary_font, fill=(26, 31, 39, 255))
+        text_y += primary_line_height
+
+    if secondary_lines:
+        text_y += 22
+        for line in secondary_lines:
+            draw.text((text_x, text_y), line, font=secondary_font, fill=(95, 107, 120, 255))
+            text_y += secondary_line_height
+
+    return image.convert("RGB")
+
+
+def write_hn_og_image(item: dict[str, Any], site_base_url: str) -> str:
+    detail_slug = normalize_text(item.get("detail_slug"))
+    if not detail_slug:
+        raise RuntimeError("missing detail slug")
+
+    asset_rel_path = f"{HN_OG_ASSET_DIR}/{detail_slug}.png"
+    output_path = DIST_DIR / asset_rel_path
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    image = render_hn_og_image(item)
+    image.save(output_path, format="PNG")
+    return build_absolute_asset_url(asset_rel_path, site_base_url)
+
+
+def build_detail_social_metadata(item: dict[str, Any], site_base_url: str) -> dict[str, str]:
+    metadata = build_default_social_metadata(site_base_url)
+    if not is_hn_og_eligible(item):
+        return metadata
+
+    item_id = normalize_text(item.get("id"), "(missing-id)")
+    detail_slug = normalize_text(item.get("detail_slug"), "(missing-slug)")
+    try:
+        og_image_url = write_hn_og_image(item, site_base_url)
+    except Exception as exc:
+        LOGGER.warning("HN OG render failed for item=%s slug=%s reason=%s", item_id, detail_slug, exc)
+        return metadata
+
+    return {
+        "og_image_url": og_image_url,
+        "twitter_image_url": og_image_url,
+        "twitter_card": "summary_large_image",
+        "og_image_width": str(HN_OG_IMAGE_WIDTH),
+        "og_image_height": str(HN_OG_IMAGE_HEIGHT),
+    }
+
+
 def render_matched_terms_html(terms: list[str]) -> str:
     cleaned = [normalize_text(term) for term in terms if normalize_text(term)]
     if not cleaned:
@@ -424,6 +685,7 @@ def render_detail_page(
     related_items: list[dict[str, Any]],
     previous_item: dict[str, Any] | None,
     next_item: dict[str, Any] | None,
+    social_metadata: dict[str, str],
     template: Template,
     lazy_detail_api_url: str,
     site_base_url: str,
@@ -441,7 +703,6 @@ def render_detail_page(
     canonical_url = build_absolute_detail_url(detail_slug, site_base_url) if detail_slug else normalize_site_base_url(
         site_base_url
     )
-    og_image_url = build_absolute_asset_url("img.icons8.png", site_base_url)
     matched_terms_html = render_matched_terms_html(item.get("matched_terms", []))
     related_html = render_related_items_html(related_items)
     pager_html = render_pager_html(previous_item, next_item)
@@ -462,7 +723,11 @@ def render_detail_page(
         og_title=html.escape(translated_title, quote=True),
         og_description=html.escape(meta_description, quote=True),
         og_url=html.escape(canonical_url, quote=True),
-        og_image_url=html.escape(og_image_url, quote=True),
+        og_image_url=html.escape(social_metadata["og_image_url"], quote=True),
+        twitter_image_url=html.escape(social_metadata["twitter_image_url"], quote=True),
+        twitter_card=html.escape(social_metadata["twitter_card"], quote=True),
+        og_image_width=html.escape(social_metadata["og_image_width"], quote=True),
+        og_image_height=html.escape(social_metadata["og_image_height"], quote=True),
         translated_title=html.escape(translated_title),
         original_title_block=original_block,
         item_id=html.escape(normalize_text(item.get("id"), item.get("detail_slug"))),
@@ -497,11 +762,13 @@ def write_detail_pages(items: list[dict[str, Any]], lazy_detail_api_url: str) ->
         related_items = derive_related_items(item, items)
         output_dir = DIST_DIR / "news" / detail_slug
         output_dir.mkdir(parents=True, exist_ok=True)
+        social_metadata = build_detail_social_metadata(item, site_base_url)
         page_html = render_detail_page(
             item,
             related_items=related_items,
             previous_item=previous_item,
             next_item=next_item,
+            social_metadata=social_metadata,
             template=template,
             lazy_detail_api_url=lazy_detail_api_url,
             site_base_url=site_base_url,
