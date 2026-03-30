@@ -73,6 +73,7 @@ SLOT_BUCKETS: dict[str, str] = {
 
 DISCORD_PREVIEW_ITEMS_LIMIT = 3
 DISCORD_PREVIEW_TITLE_LIMIT = 52
+DEFAULT_ARCHIVE_SITE_URL = "https://itnewsletter.vercel.app/"
 TOPIC_DIGEST_WINDOWS: tuple[tuple[str, str, int], ...] = (
     ("weekly", "이번 주", 7),
     ("monthly", "이번 달", 30),
@@ -1436,12 +1437,26 @@ def build_discord_title_preview(
     return preview_lines
 
 
+def normalize_archive_site_url(raw: Any) -> str:
+    url = normalize_text(raw, DEFAULT_ARCHIVE_SITE_URL).rstrip("/")
+    return f"{url}/"
+
+
+def build_discord_archive_footer(archive_url: str = "") -> list[str]:
+    return [
+        "방금 본 뉴스는 아카이브에서도 다시 볼 수 있습니다.",
+        "영어 뉴스의 경우 상세 번역 정리까지 해줍니다.",
+        normalize_archive_site_url(archive_url),
+    ]
+
+
 def build_discord_batch_content(
     items: list[dict[str, str]],
     mention: str,
     max_chars: int = 1900,
     modes: tuple[str, ...] = ("full_summary", "compact_summary", "titles_only"),
     allow_truncate_fallback: bool = True,
+    archive_url: str = "",
 ) -> BatchContentResult:
     if not items:
         return BatchContentResult(content=mention if mention else "", mode="empty", truncated=False)
@@ -1461,6 +1476,8 @@ def build_discord_batch_content(
             )
             lines.append("")
             lines.append(f"{idx}. {block}")
+        lines.append("")
+        lines.extend(build_discord_archive_footer(archive_url))
         return "\n".join(lines)
 
     mode_options = {
@@ -1495,6 +1512,7 @@ def select_discord_batch(
     min_items: int,
     max_items: int,
     max_chars: int = 1900,
+    archive_url: str = "",
 ) -> BatchSelection:
     if not items:
         return BatchSelection(
@@ -1517,6 +1535,7 @@ def select_discord_batch(
             max_chars=max_chars,
             modes=("full_summary",) if count > lower_bound else ("full_summary", "compact_summary", "titles_only"),
             allow_truncate_fallback=count == lower_bound,
+            archive_url=archive_url,
         )
 
         if batch.truncated and count > lower_bound:
@@ -1543,7 +1562,12 @@ def select_discord_batch(
     if fallback is not None:
         return fallback
 
-    batch = build_discord_batch_content(items[:upper_bound], mention=mention, max_chars=max_chars)
+    batch = build_discord_batch_content(
+        items[:upper_bound],
+        mention=mention,
+        max_chars=max_chars,
+        archive_url=archive_url,
+    )
     return BatchSelection(
         content=batch.content,
         items=items[:upper_bound],
@@ -2327,6 +2351,9 @@ def main() -> int:
     codex_summary_timeout_sec = max(15, safe_int(os.getenv("CODEX_SUMMARY_TIMEOUT_SEC"), 120))
     codex_summary_sandbox = normalize_text(os.getenv("CODEX_SUMMARY_SANDBOX", "read-only"), "read-only")
     codex_summary_extra_args = os.getenv("CODEX_SUMMARY_EXTRA_ARGS", "").strip()
+    archive_site_url = normalize_archive_site_url(
+        os.getenv("NEWSLETTER_ARCHIVE_URL", "").strip() or os.getenv("SITE_BASE_URL", "").strip()
+    )
     dispatch_origin = normalize_text(os.getenv("NEWSLETTER_DISPATCH_ORIGIN"), "unknown")
     discord_user_agent = os.getenv(
         "DISCORD_USER_AGENT",
@@ -2447,6 +2474,7 @@ def main() -> int:
         min_items=min_new_items_per_run,
         max_items=max_new_items_per_run,
         max_chars=batch_max_chars,
+        archive_url=archive_site_url,
     )
     batch_items, geeknews_batch_reason = enforce_geeknews_batch_cap(
         pool_items=enriched_items,
@@ -2465,6 +2493,7 @@ def main() -> int:
             max_chars=batch_max_chars,
             modes=("full_summary", "compact_summary", "titles_only"),
             allow_truncate_fallback=True,
+            archive_url=archive_site_url,
         )
         batch_selection = BatchSelection(
             content=rebuilt_batch.content,

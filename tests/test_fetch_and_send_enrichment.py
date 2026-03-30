@@ -593,6 +593,25 @@ class EnrichmentTests(unittest.TestCase):
         self.assertIn("원제: **Original title**", batch.content)
         self.assertIn("**요약**\n짧은 요약입니다.", batch.content)
 
+    def test_discord_batch_content_appends_archive_footer(self) -> None:
+        items = [
+            {
+                "id": "1",
+                "source": "AI Weekly",
+                "title": "Original title",
+                "translated_title": "번역된 제목",
+                "short_summary": "짧은 요약입니다.",
+                "link": "https://example.com/1",
+            }
+        ]
+
+        batch = fetch_and_send.build_discord_batch_content(items, mention="", max_chars=1900)
+
+        self.assertIn("방금 본 뉴스는 아카이브에서도 다시 볼 수 있습니다.", batch.content)
+        self.assertIn("영어 뉴스의 경우 상세 번역 정리까지 해줍니다.", batch.content)
+        self.assertTrue(batch.content.rstrip().endswith(fetch_and_send.DEFAULT_ARCHIVE_SITE_URL))
+        self.assertLessEqual(len(batch.content), 1900)
+
 
 if __name__ == "__main__":
     unittest.main()
