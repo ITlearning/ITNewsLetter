@@ -47739,5 +47739,85 @@
         "ai_model": "codex-cli"
       }
     ]
+  },
+  "spotlight_modules": [
+    {
+      "id": "quiet-riser",
+      "kind": "quiet_riser",
+      "label": "AI Spotlight",
+      "title": "조용히 커지는 주제",
+      "cta_label": "흐름 보기",
+      "related_item_ids": [
+        "1cab3c934221e78ead35e16229f6c45bab19acf4",
+        "e9886a629a9361539c2f50b93040d3fb0f35fece",
+        "6781174ed40c8f6790bc209e499d61c9fe90bb55"
+      ],
+      "score": 0.87,
+      "generated_at": "2026-03-30T05:47:23.560213+00:00",
+      "ai_model": "codex-cli",
+      "topic_name": "낮아지는 실사용 문턱",
+      "summary_line": "복잡한 도구를 바로 붙여 쓰게 만드는 흐름이 조용히 힘을 얻고 있다.",
+      "signals": [
+        "Korean Law MCP가 법령 검색을 MCP와 CLI로 열며 전문 영역 도구를 일상 작업으로 끌어왔다.",
+        "Neovim 0.12는 패키지 관리자와 LSP 기반으로 '설정부터'라는 피로를 크게 줄였다.",
+        "torchi는 curl 한 줄에 응답형 알림을 얹어 작은 운영 자동화를 바로 시작하게 했다."
+      ]
+    },
+    {
+      "id": "hn-split",
+      "kind": "hn_split",
+      "label": "AI Spotlight",
+      "title": "HN 댓글이 가장 갈린 기사",
+      "cta_label": "쟁점 보기",
+      "related_item_ids": [
+        "415b0278c111d53d8535f9055341a9f3c915aef1"
+      ],
+      "score": 0.94,
+      "generated_at": "2026-03-30T05:47:23.560213+00:00",
+      "ai_model": "codex-cli",
+      "headline": "코딩 에이전트가 자유 소프트웨어를 다시 살릴까",
+      "issue_title": "오픈소스의 새 수요는 축복인가 착취인가",
+      "opposition_summary": "공개 코드가 학습에 쓰인 방식이 배포 의도와 어긋난다는 불만이 선명했다.",
+      "support_summary": "번역과 포팅, 유지보수가 빨라져 개인 오픈소스도 다시 커질 수 있다는 기대가 맞섰다."
+    },
+    {
+      "id": "anomaly-signal",
+      "kind": "anomaly_signal",
+      "label": "Labs",
+      "title": "이번 주 이상 신호",
+      "cta_label": "신호 읽기",
+      "related_item_ids": [
+        "5db50296025e875929aa1ec0af6d238740a20fff",
+        "33f62e8ee527b54503164e05712a2cfae0364d31",
+        "6781174ed40c8f6790bc209e499d61c9fe90bb55"
+      ],
+      "score": 0.83,
+      "generated_at": "2026-03-30T05:47:23.560213+00:00",
+      "ai_model": "codex-cli",
+      "signal_title": "실서비스 흔적이 바로 도구 입력이 된다",
+      "summary_line": "문서나 설정보다 실제 트래픽과 반응 로그를 먼저 잡아 쓰는 흐름이 겹쳐 보였다.",
+      "signals": [
+        "Keploy는 운영 트래픽에서 API 테스트와 목 데이터를 뽑아낸다.",
+        "AyaFlow는 eBPF로 암호화 트래픽의 흐름까지 운영 시야 안으로 끌어온다.",
+        "torchi는 푸시 알림을 보내는 데서 멈추지 않고 응답까지 받아 짧은 운영 루프를 만든다."
+      ]
+    }
+  ],
+  "featured_spotlight": {
+    "id": "hn-split",
+    "kind": "hn_split",
+    "label": "AI Spotlight",
+    "title": "HN 댓글이 가장 갈린 기사",
+    "cta_label": "쟁점 보기",
+    "related_item_ids": [
+      "415b0278c111d53d8535f9055341a9f3c915aef1"
+    ],
+    "score": 0.94,
+    "generated_at": "2026-03-30T05:47:23.560213+00:00",
+    "ai_model": "codex-cli",
+    "headline": "코딩 에이전트가 자유 소프트웨어를 다시 살릴까",
+    "issue_title": "오픈소스의 새 수요는 축복인가 착취인가",
+    "opposition_summary": "공개 코드가 학습에 쓰인 방식이 배포 의도와 어긋난다는 불만이 선명했다.",
+    "support_summary": "번역과 포팅, 유지보수가 빨라져 개인 오픈소스도 다시 커질 수 있다는 기대가 맞섰다."
   }
 }
