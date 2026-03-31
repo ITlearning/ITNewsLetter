@@ -1,6 +1,440 @@
 {
   "items": [
     {
+      "id": "d358b5dce78f7453a59d8f782c6d312e67ac4289",
+      "title_hash": "6b934e30a6914993e43208487e3ecf1dbff7c3c0",
+      "source": "GeekNews",
+      "title": "Claude Code 소스 코드가 npm 레지스트리 맵 파일을 통해 유출",
+      "link": "https://news.hada.io/topic?id=28059",
+      "published_at": "2026-03-31T13:57:58+00:00",
+      "summary": "Anthropic의 Claude Code CLI 소스 코드가 npm 레지스트리의 .map 파일을 통해 통째로 복원 가능한 형태로 유출된 사례가 보고됐습니다.",
+      "fetched_at": "2026-03-31T15:47:12.121456+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=2,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "cli",
+        "claude + code"
+      ],
+      "detail_slug": "d358b5dce78f7453a59d8f782c6d312e67ac4289",
+      "is_english_source": false,
+      "sent_at": "2026-03-31T15:50:26.295934+00:00"
+    },
+    {
+      "id": "04da457ae534af8df308188edfe4f3a3227adda5",
+      "title_hash": "d523fd0bf8af75f5de0e281d32903139d602a8fd",
+      "source": "GeekNews",
+      "title": "Show GN: 한국 주식시장 뉴스 분석 및 투자 리서치를 위해 특화된 7B 파라미터 에이전트 LLM",
+      "link": "https://news.hada.io/topic?id=28056",
+      "published_at": "2026-03-31T13:04:25+00:00",
+      "summary": "한국 증시(KOSPI+KOSDAQ) 특화 언어 모델 VELA를 공개합니다. Qwen2.5-7B-Instruct를 베이스로 SFT + DPO 파이프라인으로 파인튜닝했습니다. 만든 이유 기존 금융 LLM은 한국 시장 용어에서 할루시네이션이 심하거나, 응답 중간에 중국어/영어로 전환되는 language leak",
+      "fetched_at": "2026-03-31T15:47:12.121456+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "52",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=5,strategy_insight=-1,industry_business=7",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 5,
+        "strategy_insight": -1,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "투자"
+          ],
+          "support_hits": [
+            "시장"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자",
+        "시장"
+      ],
+      "detail_slug": "04da457ae534af8df308188edfe4f3a3227adda5",
+      "is_english_source": false,
+      "sent_at": "2026-03-31T15:50:26.295934+00:00"
+    },
+    {
+      "id": "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc",
+      "title_hash": "b61603b150812c23d21772ff01815f6afaea517f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "What major works of literature were written after age of 85? 75? 65?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/03/25/what-major-works-of-literature-were-written-after-age-of-85-75-65/",
+      "published_at": "2026-03-28T16:29:28+00:00",
+      "summary": "HN story type: story HN points: 65 HN comments: 43 HN top comments: FelipeCortez: This is actually a good fit for a Wikidata SPARQL query you can run here https://query.wikidata.org/ : SELECT ?work ?workLabel ?author ?authorLabel ?publicationDate ?ageAtPublication WHERE { ?author wdt:P569 ?birth . ?author wdt:P570 ?death . ?author wdt:P800 ?work . ?work wdt:P50 ?author ; wdt:P31 wd:Q47461344 ; wdt:P577 ?publicationDate . FILTER(?publicationDate 60) SERVICE wikibase:label { bd:serviceParam wikib... wodenokoto: > asked LLMs to compile list of 10-20 writers considered canon in each decade since 1800, then identify all their notable works and years of publication. After some iterations with coding agents I got over 2,000 works by 200 authors. Wait, so the source data is just LLM hallucinations? It makes sense to use an LLM to build the data collection, but not to build your source data. mellosouls: I think this is pretty common across different creative forms albeit with different age ranges but constrained at the higher end. So the greatest physics, maths, poetry and pop music are done by people in their 20s. Literature (esp novels) seems to occupy an older range, perhaps 30s to 50s. Perhaps classical music and philosophy also? I don't know about the visual arts. I interpret it as the former requiring the c...",
+      "fetched_at": "2026-03-31T15:47:12.121456+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47556076",
+      "hn_story_type": "story",
+      "hn_points": "65",
+      "hn_comments_count": "43",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47556076",
+      "hn_item_text": "",
+      "hn_comment_preview": "FelipeCortez: This is actually a good fit for a Wikidata SPARQL query you can run here https://query.wikidata.org/ : SELECT ?work ?workLabel ?author ?authorLabel ?publicationDate ?ageAtPublication WHERE { ?author wdt:P569 ?birth . ?author wdt:P570 ?death . ?author wdt:P800 ?work . ?work wdt:P50 ?author ; wdt:P31 wd:Q47461344 ; wdt:P577 ?publicationDate . FILTER(?publicationDate 60) SERVICE wikibase:label { bd:serviceParam wikib...\nwodenokoto: > asked LLMs to compile list of 10-20 writers considered canon in each decade since 1800, then identify all their notable works and years of publication. After some iterations with coding agents I got over 2,000 works by 200 authors. Wait, so the source data is just LLM hallucinations? It makes sense to use an LLM to build the data collection, but not to build your source data.\nmellosouls: I think this is pretty common across different creative forms albeit with different age ranges but constrained at the higher end. So the greatest physics, maths, poetry and pop music are done by people in their 20s. Literature (esp novels) seems to occupy an older range, perhaps 30s to 50s. Perhaps classical music and philosophy also? I don't know about t...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=25,practical_tech=6,tools_agents=25,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 25,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "query"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "coding agent",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "ide",
+        "llm",
+        "agent",
+        "ai + coding"
+      ],
+      "detail_slug": "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc",
+      "is_english_source": true,
+      "translated_title": "65세, 75세, 85세 이후의 문학 걸작들",
+      "short_summary": "HN에서 65세·75세·85세 이후 발표된 주요 문학 작품 목록이 화제가 됐다. 댓글에서는 발상은 흥미롭지만, LLM에 기대 만든 원천 데이터는 얼마나 믿을 수 있느냐는 검증 논쟁이 이어졌다.",
+      "why_it_matters": "이 이야기는 나이와 창작 성과를 바라보는 통념뿐 아니라, AI로 만든 리서치 결과를 어디까지 믿을 수 있는지도 함께 건드린다. 주제는 문학이지만 실무에서는 데이터 수집과 검증 방식에 더 직접 닿아 있다.\n- 고령에도 대표작이 나올 수 있다는 사례는 연차와 성과를 단선적으로 보는 시각에 제동을 건다.\n- LLM으로 초안을 만들었다면 위키데이터 같은 구조화된 출처로 다시 확인해야 한다는 점이 또렷하게 드러난다.\n- 리서치 자동화, 콘텐츠 큐레이션, 지식베이스 구축에서는 생성 속도보다 검증 파이프라인 설계가 더 큰 차이를 만든다.",
+      "hn_reaction_summary": "댓글 분위기는 호기심과 회의가 함께 갔다. 주제 자체는 재밌다는 반응이 많았지만, 결과보다 데이터를 어떻게 모았고 얼마나 재현 가능한지가 더 큰 쟁점으로 떠올랐다.\n- 가장 많이 나온 지적은 LLM이 작가 목록과 작품 목록의 원천이 되면 환각이 섞일 수 있다는 우려였다.\n- 이를 보완하려고 Wikidata SPARQL로 같은 질문을 재현해 보자는 실용적 제안이 상위 댓글에서 주목받았다.\n- 문학은 수학이나 물리보다 늦은 나이에도 성과가 나오는 분야 아니냐는 비교가 이어지며, 분야별 창작 곡선에 대한 토론도 붙었다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-31T15:50:26.295934+00:00"
+    },
+    {
+      "id": "b9f04f5479daa90dfb7782d9ceb78cd888826762",
+      "title_hash": "1b595d4eef7b7697eba2abffa67bb0fea8db25fb",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Open source CAD in the browser (Solvespace)",
+      "link": "https://solvespace.com/webver.pl",
+      "published_at": "2026-03-31T12:50:23+00:00",
+      "summary": "HN story type: story HN points: 99 HN comments: 30 HN top comments: MrDOS: SolveSpace is a wonderfully different take on parametric CAD, but development has really slowed, and it seems fundamentally incapable of some pretty rudimentary features (like chamfers[0]). Dune 3D[1] seems like a pretty effective spiritual successor. 0: https://github.com/solvespace/solvespace/issues/149 1: https://dune3d.org/ masonhensley: I've been using FreeCad more and more, but solvespace has been a great, lightweight tool to design parts for laser cutting by SendCutSend/Oshcut. Neat that they got it working in the browser. JoshTriplett: Impressive work! Minor nit: why does the rendered in-window text use a really awful pixelated font? It looks like what happens when a font gets rendered onto a pixel grid without any hinting or snapping.",
+      "fetched_at": "2026-03-31T15:47:12.121456+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47586614",
+      "hn_story_type": "story",
+      "hn_points": "99",
+      "hn_comments_count": "30",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47586614",
+      "hn_item_text": "",
+      "hn_comment_preview": "MrDOS: SolveSpace is a wonderfully different take on parametric CAD, but development has really slowed, and it seems fundamentally incapable of some pretty rudimentary features (like chamfers[0]). Dune 3D[1] seems like a pretty effective spiritual successor. 0: https://github.com/solvespace/solvespace/issues/149 1: https://dune3d.org/\nmasonhensley: I've been using FreeCad more and more, but solvespace has been a great, lightweight tool to design parts for laser cutting by SendCutSend/Oshcut. Neat that they got it working in the browser.\nJoshTriplett: Impressive work! Minor nit: why does the rendered in-window text use a really awful pixelated font? It looks like what happens when a font gets rendered onto a pixel grid without any hinting or snapping.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=4,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 4,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "open source"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "open source"
+      ],
+      "detail_slug": "b9f04f5479daa90dfb7782d9ceb78cd888826762",
+      "is_english_source": true,
+      "translated_title": "브라우저에서 돌아가는 오픈소스 CAD, 솔브스페이스",
+      "short_summary": "오픈소스 CAD인 SolveSpace를 브라우저에서 실행한 사례가 HN 전면에 올랐다. 설치 없이 가볍게 써볼 수 있다는 점은 호평받았지만, 개발 정체와 기본 기능 부족을 지적하는 반응도 함께 나왔다.",
+      "why_it_matters": "브라우저에서 CAD가 바로 열리면 설치와 환경 설정 없이 설계 검토를 시작할 수 있다. 가벼운 제작 업무나 교육, 데모에서는 진입 장벽이 크게 낮아진다.\n- 레이저 커팅용 부품처럼 비교적 단순한 작업은 링크 하나로 열어 바로 확인하고 수정하는 흐름이 가능해진다.\n- 사내 PC 권한 제약이나 협업 환경 차이 때문에 CAD 배포가 번거로운 팀에도 실무적인 선택지가 생긴다.\n- 다만 챔퍼 같은 기본 기능 공백과 느린 개발 속도는 남아 있어, 본격 설계는 FreeCAD나 Dune 3D 같은 대안을 함께 검토해야 한다.",
+      "hn_reaction_summary": "댓글 분위기는 \"브라우저에서 돌아간다\"는 점 자체에는 호의적이지만, SolveSpace를 장기적인 주력 도구로 보기엔 아쉽다는 쪽으로 모였다.\n- 가볍고 빠르며 레이저 커팅용 파트 설계에 잘 맞는다는 경험담이 반복해서 나왔다.\n- 반대로 개발 속도가 많이 느려졌고 챔퍼 같은 기본 기능도 약하다는 지적이 눈에 띄었다.\n- Dune 3D를 사실상의 후속 대안으로 보는 의견이 있었고, 화면 글꼴 품질처럼 브라우저판 완성도를 따지는 반응도 보였다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-31T15:50:26.295934+00:00"
+    },
+    {
+      "id": "3ffd2c231a10641eb1eaea2e137a566eac31ffcb",
+      "title_hash": "aacd5aa7268ea1c45c3ea2434d50defe52981a4d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Microsoft: Copilot is for entertainment purposes only",
+      "link": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/termsofuse",
+      "published_at": "2026-03-31T14:25:37+00:00",
+      "summary": "HN story type: story HN points: 56 HN comments: 24 HN top comments: everdrive: Lawyers are playing Calvinball again. I have no idea why the law finds this kind of argumentation compelling. \"I clearly intentionally deceived, but I stashed some bullshit legalese into a document no one will read so my deception is completely OK.\" sgbeal: The section titled > IMPORTANT DISCLOSURES & WARNINGS Tells us: > You may stop using Copilot at any time. That's an odd thing to include in a ToS. jeffwask: I can hear the lawyers huddled around a conference table rolling the bones and chanting the sacred words to come up with that \"get out of trouble free\" card. It told your son he had terminal cancer and should kill himself... sorry, it clearly says for Entertainment Purposes only.",
+      "fetched_at": "2026-03-31T15:47:12.121456+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47587866",
+      "hn_story_type": "story",
+      "hn_points": "56",
+      "hn_comments_count": "24",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47587866",
+      "hn_item_text": "",
+      "hn_comment_preview": "everdrive: Lawyers are playing Calvinball again. I have no idea why the law finds this kind of argumentation compelling. \"I clearly intentionally deceived, but I stashed some bullshit legalese into a document no one will read so my deception is completely OK.\"\nsgbeal: The section titled > IMPORTANT DISCLOSURES & WARNINGS Tells us: > You may stop using Copilot at any time. That's an odd thing to include in a ToS.\njeffwask: I can hear the lawyers huddled around a conference table rolling the bones and chanting the sacred words to come up with that \"get out of trouble free\" card. It told your son he had terminal cancer and should kill himself... sorry, it clearly says for Entertainment Purposes only.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 12,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "copilot",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "copilot",
+        "ide"
+      ],
+      "detail_slug": "3ffd2c231a10641eb1eaea2e137a566eac31ffcb",
+      "is_english_source": true,
+      "translated_title": "마이크로소프트, 코파일럿은 '오락용'인가",
+      "short_summary": "Hacker News에서는 마이크로소프트가 코파일럿 관련 고지 문구로 서비스 책임 범위를 좁히려 한 점이 화제가 됐다. 댓글은 오판 위험이 있는 AI에 이런 면책성 표현을 붙이는 태도가 책임 회피처럼 보인다는 반응이 많았다.",
+      "why_it_matters": "생성형 AI가 검색과 업무 보조를 넘어 실제 판단 흐름에 들어온 지금, 약관과 경고 문구는 기능만큼 큰 이슈가 된다. 실무에서는 성능보다 책임 경계와 운영 기준을 먼저 따져야 한다는 신호로 읽힌다.\n- 사내에서 코파일럿류 도구를 쓰고 있다면 결과를 참고용으로 둘지, 실제 의사결정에 반영할지 기준을 더 분명히 나눠야 한다.\n- 의료, 법률, 인사처럼 오판 비용이 큰 영역은 면책 문구만으로 끝나지 않는다. 사람 검토와 승인 절차를 별도로 두는 흐름이 더 강해질 수 있다.\n- 벤더가 책임 범위를 약관으로 좁히기 시작하면 구매 검토에서도 정확도만이 아니라 SLA, 보상 조항, 로그 보관 같은 운영 조건을 더 까다롭게 보게 된다.",
+      "hn_reaction_summary": "HN 분위기는 전반적으로 냉소적이었다. 상위 댓글은 법무 문구로 책임을 피해 가려는 전형적인 대응처럼 보인다고 받아들였고, 특히 민감한 답을 내놓을 수 있는 AI에 이런 표현을 붙인 점을 강하게 문제 삼았다.\n- 가장 많이 나온 비판은 사용을 유도해 놓고 약관 한 줄로 면책하려 한다는 것이다.\n- 일부는 원래 AI 답변은 검증이 전제라는 시각도 깔고 있었지만, 그 전제를 사용자에게 얼마나 분명하게 전달했는지는 별개라고 봤다.\n- 실무자가 볼 논점은 모델 성능 자체보다 책임 소재와 경고 방식이 제품 신뢰를 더 크게 흔들 수 있다는 점이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-31T15:50:26.295934+00:00"
+    },
+    {
       "id": "2aaa91c66a75eba42618b1572841916d7f9828dc",
       "title_hash": "553aa0d44be58d5366fd165dc392884e11c72665",
       "source": "GeekNews",
@@ -50451,9 +50885,12 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트",
-        "summary": "에이전트는 이제 직접 만들고 여러 세션을 돌리며 맥에서 로컬로 쓰는 단계로 옮겨갔다. 쓰임은 넓어졌지만 노출과 광고를 둘러싼 불신도 함께 커진 한 주였다.\n\n- 클로드 코워크와 메뉴바 앱은 개인 자동화가 실험을 넘어 운영 단계로 들어섰다는 흐름을 보여준다.\n- Claude Code 유출과 코파일럿 PR 광고 철회는 성능 못지않게 신뢰와 통제가 더 예민한 쟁점이 됐음을 드러냈다.\n- Ollama의 MLX 미리보기는 맥 온디바이스 AI 경쟁이 빨라지는 신호라 지금 볼 이유를 만든다.",
+        "headline": "이번 주 도구·에이전트: 신뢰와 책임",
+        "summary": "에이전트 도구가 생활권으로 들어온 만큼, 믿고 맡길 기준을 다시 묻게 한 주였다.\n- Claude Code 유출 이슈는 배포 체인과 기능 플래그 관리가 허술하면 신뢰가 바로 흔들린다는 점을 드러냈다.\n- 코파일럿 면책 논란과 문학 목록 검증 공방은 AI 결과보다 책임 범위와 원천 데이터부터 보게 했다.\n- 코워크 사례는 이런 불안 속에서도 에이전트가 이미 실무 자동화의 자리로 옮겨갔음을 보여줬다.",
         "item_ids": [
+          "d358b5dce78f7453a59d8f782c6d312e67ac4289",
+          "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc",
+          "3ffd2c231a10641eb1eaea2e137a566eac31ffcb",
           "2aaa91c66a75eba42618b1572841916d7f9828dc",
           "f39d45e3d471daf80326c0acd3b198ac6f5203c3",
           "275f5ac62a9a840039fa888be88ca921ce2bd341",
@@ -50589,13 +51026,10 @@
           "5df192190a58dacc294f0777b421673edd8dda29",
           "cd6d217b199f64149963825455fc36db94f21fb7",
           "38b06c67dfcdd02041b48cbe1436ff0bebf5cd59",
-          "68707d94d0048017b3bf02b34beef47129f399c0",
-          "b3e2f9bda4473f9dec94a1e71b5734dadfe4f8d5",
-          "606c873095af05c371cff306d826c89bfb5d2219",
-          "2aad9249e2b11cd55e0a244f782d721d45b34eb4"
+          "68707d94d0048017b3bf02b34beef47129f399c0"
         ],
         "total_items": 139,
-        "generated_at": "2026-03-31T11:37:01.814595+00:00",
+        "generated_at": "2026-03-31T15:47:12.121456+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -50603,8 +51037,9 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "실무는 편의보다 검증 쪽으로 다시 기운다. PDF RAG는 텍스트만으로 빠지는 정보가 있었고, CTE·패키지·정부 앱 사례는 익숙한 선택이 성능 저하와 침해로 번질 수 있음을 보여줬다.\n\n- 멀티모달 RAG는 이제 품질 이슈다. 문서 이해 범위를 다시 따져야 한다.\n- SQL 가독성, npm 의존성, 앱 권한은 기본값을 믿지 말고 실행 방식과 공급망을 점검해야 한다.\n- 지금 보는 이유는 같다. 편한 추상이 실제 운영 비용과 위험을 어디서 키우는지 드러났기 때문이다.",
+        "summary": "설치가 사라지고 추상화가 늘수록 쓰기 편해진다. 대신 빠진 기능, 숨은 비용, 보안과 추적 위험도 함께 커진다는 흐름이 이번 주 기사에 겹친다.\n- 브라우저 CAD와 PDF RAG 실험은 접근성은 높였지만 텍스트만으로 놓치는 정보와 제품 완성도의 빈틈을 드러냈다.\n- SQL CTE와 악성 Axios 사건은 읽기 좋은 구조나 익숙한 의존성이 곧 안전한 선택은 아니라는 점을 보여줬다.\n- 정부 앱 추적 논란까지 겹치며, 지금은 편의 뒤의 수집 경로와 실행 기반을 한 번 더 확인해야 할 때다.",
         "item_ids": [
+          "b9f04f5479daa90dfb7782d9ceb78cd888826762",
           "3768b6f0e58435e210e8b1db763f008173cf8de0",
           "c62f338c6e4d5717f5af1caca182bbeb376487ca",
           "4f5682f46e2c04db4d30094c2024c3e2031420af",
@@ -50678,13 +51113,10 @@
           "af5b5f17aa3269a4dba0b1147e7e072d90989583",
           "956e2c17e9155915a4c2ffee4183d0ca387a80ac",
           "ea0115abf17e3e97b0f48f43220c6ae7ae2984ae",
-          "6a56ec8210bf0639cc2c6dd6a66555b0cf0326ab",
-          "00c10cc6816cc57669d9468dcec9b2deb0368ba8",
-          "487a25f2d9979d89fddf3cd53f2e249ea14c427d",
-          "b7a12ea1030333e45e98f0169f1baa61109dfe8c"
+          "6a56ec8210bf0639cc2c6dd6a66555b0cf0326ab"
         ],
-        "total_items": 77,
-        "generated_at": "2026-03-31T11:37:01.814595+00:00",
+        "total_items": 75,
+        "generated_at": "2026-03-31T15:47:12.121456+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -50692,7 +51124,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 주 전략·인사이트",
-        "summary": "이번 주엔 더 크게 만드는 기술보다 더 믿게 만드는 설계가 어디까지 허용되는지가 함께 떠올랐다. 성장 전략, AI 응답, 플랫폼 판결이 모두 신뢰와 책임으로 모인다.\n\n- 스타트업은 자기 브랜드보다 인재와 고객의 브랜드를 키우는 역발상으로 초기 연결을 쌓는 흐름이 눈에 띈다.\n- 구글의 시계열 모델처럼 성능은 커지지만 설명 가능성, 신뢰성, AI의 맞장구 성향은 더 날카롭게 검증받고 있다.\n- 인스타그램·유튜브 판결은 참여 최적화의 대가를 묻기 시작했다. 지금은 성장 방식 자체를 다시 볼 시점이다.",
+        "summary": "이번 주 전략·인사이트는 성장의 방식과 신뢰의 비용을 함께 묶는다. 더 빨리 키우는 법보다 누구의 신뢰를 얻고 어디서 멈출지 묻는 흐름이 또렷했다.\n- 스타트업 전략은 회사 간판보다 인재와 고객의 브랜드를 먼저 키우며 신뢰를 쌓는 역발상으로 이어졌다.\n- AI는 모델 확장과 별개로 설명 부족, 맞장구 성향 때문에 성능보다 믿을 수 있는가가 더 큰 화두가 됐다.\n- 플랫폼 판결은 이용 시간을 늘리는 설계가 이제 성장 수단을 넘어 책임 문제로 읽힌다는 점을 보여줬다.",
         "item_ids": [
           "ca41ecc8af6eb891accf8f3c20c3f2c08f66f490",
           "9bd792ad328404dc1e96fdf0c3f80d39c12a9fbf",
@@ -50711,7 +51143,7 @@
           "c1e40516d484fbfa4b95226b3cbecb4feb1e67d9"
         ],
         "total_items": 15,
-        "generated_at": "2026-03-31T11:37:01.814595+00:00",
+        "generated_at": "2026-03-31T15:47:12.121456+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -50721,8 +51153,11 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "에이전트 도구가 실험을 지나 실제 작업 흐름으로 빠르게 들어오고 있다. 성능만이 아니라 통제와 신뢰 문제도 함께 커지는 달이었다.\n- 키워드 수집 자동화와 세션 모니터링처럼, 바로 써먹는 보조 도구가 눈에 띄게 늘었다.\n- 반면 코드 유출과 코파일럿 광고 철회 논란은 도구보다 운영 방식이 더 크게 평가받는 국면을 보여줬다.\n- 맥 로컬 추론 개선까지 겹치며, 지금은 누가 더 잘 만들었나보다 누가 더 믿고 쓸 수 있나를 볼 때다.",
+        "summary": "이번 달 도구·에이전트 묶음은 새 기능 자랑보다 신뢰의 조건을 먼저 묻는다. 쓰임은 넓어졌고, 그만큼 보안 사고와 검증, 책임 논란도 더 선명해졌다.\n\n- Claude Code 유출은 GeekNews와 HN에서 반복해 다뤄졌다. 소스맵 하나가 내부 코드와 기능 플래그까지 드러냈다.\n- HN에서는 LLM이 만든 원천 데이터의 신뢰도와 코파일럿 면책 문구의 책임 회피 문제가 함께 도마에 올랐다.\n- 반대로 Claude Co-work 사례는 에이전트 빌더가 실사용 단계에 들어왔음을 보여줬다. 그래서 지금 더 봐야 할 건 성능보다 운영 감각이다.",
         "item_ids": [
+          "d358b5dce78f7453a59d8f782c6d312e67ac4289",
+          "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc",
+          "3ffd2c231a10641eb1eaea2e137a566eac31ffcb",
           "2aaa91c66a75eba42618b1572841916d7f9828dc",
           "f39d45e3d471daf80326c0acd3b198ac6f5203c3",
           "275f5ac62a9a840039fa888be88ca921ce2bd341",
@@ -51162,17 +51597,18 @@
           "86eaa0b9ae86918b1096ddaf015907f73a541a80",
           "b65bd5533276d0caa3f2398a5328c48d0f67eca4"
         ],
-        "total_items": 438,
-        "generated_at": "2026-03-31T11:37:01.814595+00:00",
+        "total_items": 441,
+        "generated_at": "2026-03-31T15:47:12.121456+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "monthly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 달 실무 기술",
-        "summary": "이번 달 실무 기술은 익숙한 해법을 다시 검증하는 흐름으로 모였습니다. PDF RAG는 텍스트만으로 부족한 장면을 보여줬고, SQL·패키지·정부 앱 이슈는 편의 뒤에 숨은 비용과 추적을 드러냈습니다.\n- 멀티모달 RAG는 문서 검색 품질을 다시 보게 합니다. 그림·그래프를 버리면 답도 쉽게 새어 나갑니다.\n- CTE와 인기 패키지는 쓰기 쉽다고 끝이 아닙니다. 실행 계획과 공급망 검증을 함께 챙겨야 합니다.\n- 정부 앱 논란은 앱 우선 관성을 흔듭니다. 꼭 앱이어야 하는지, 웹으로 충분한지 따져볼 만합니다.",
+        "headline": "이번 달 실무 기술: 편해진 도구의 숙제",
+        "summary": "이번 달 실무 기술은 편해진 도구 뒤에 남는 숙제를 보여준다. 브라우저 CAD, PDF RAG, SQL, 패키지 보안, 공공 앱이 서로 다른 듯 닮았다. 도입은 쉬워졌지만 검증과 경계 설정은 더 빡빡해졌다.\n- 텍스트 임베딩이 놓치는 시각 정보, 읽기 좋은 CTE의 성능 함정처럼 추상화의 틈이 드러났다.\n- 널리 쓰는 패키지와 공공 서비스도 공급망 공격, 과한 추적 권한 앞에선 다시 살펴야 할 대상이 됐다.",
         "item_ids": [
+          "b9f04f5479daa90dfb7782d9ceb78cd888826762",
           "3768b6f0e58435e210e8b1db763f008173cf8de0",
           "c62f338c6e4d5717f5af1caca182bbeb376487ca",
           "4f5682f46e2c04db4d30094c2024c3e2031420af",
@@ -51415,8 +51851,8 @@
           "de54b6634502b40ed9372177dca6e6c57c205a2e",
           "755ac2f97593dec9f26da359a9722f03f30fb02c"
         ],
-        "total_items": 241,
-        "generated_at": "2026-03-31T11:37:01.814595+00:00",
+        "total_items": 242,
+        "generated_at": "2026-03-31T15:47:12.121456+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -51424,8 +51860,9 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 달 산업·비즈니스",
-        "summary": "이번 달 산업·비즈니스는 기술에 돈이 먼저 몰리고, 뒤늦게 비용과 규칙이 따라붙는 흐름이 겹친다. 지금 보면 투자 열기와 시장 확장이 어디까지 왔는지 한눈에 잡힌다.\n\n- AI 거품론이 커지는 와중에도 리벨리온 같은 AI 칩 기업엔 대형 자금이 몰렸다.\n- Palantir 반대와 예측시장 논란은 기술이 공공영역과 정책 판단까지 파고든 현실을 보여준다.\n- 재택근무용 고양이 책상은 일의 변화가 생활형 소비재로 번지는 장면을 보여준다.",
+        "summary": "이번 달 산업·비즈니스는 AI 열풍이 돈과 규제, 실제 쓰임을 두고 다시 가려지는 흐름을 보여준다. 한국형 금융 LLM과 AI 칩 투자, 유럽의 반발, 틈새 가구 출시까지 시장이 더 잘게 갈라지는 장면이 겹쳤다.\n- AI는 거액 투자와 버블 경고가 함께 커지며 옥석 가리기 국면에 들어섰다.\n- 한국 증시 특화 모델과 리벨리온 사례는 지역·용도 맞춤 기술에 자금이 몰리는 흐름을 보여준다.\n- Palantir 논란과 반려묘 책상은 신뢰와 생활 밀착성이 계약과 구매를 가르는 기준이 됐음을 말해준다.",
         "item_ids": [
+          "04da457ae534af8df308188edfe4f3a3227adda5",
           "3525f07fd4e2925430185f91d9bee5ac6d908d81",
           "fae9a4b1014e2c517dc964535dffc65f45bfd30e",
           "815f42342083484aa14e3fc7ab4f4ded066de4a2",
@@ -51486,8 +51923,8 @@
           "e48e02ae1f5f2008a94bbf79b1fa8e47bf0d921b",
           "392824ab5bae472def472a59d39e090ea943e5b3"
         ],
-        "total_items": 59,
-        "generated_at": "2026-03-31T11:37:01.814595+00:00",
+        "total_items": 60,
+        "generated_at": "2026-03-31T15:47:12.121456+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -51498,22 +51935,21 @@
       "kind": "quiet_riser",
       "label": "AI Spotlight",
       "title": "조용히 커지는 주제",
-      "cta_label": "흐름 자세히 보기",
+      "cta_label": "흐름 보기",
       "related_item_ids": [
-        "2aaa91c66a75eba42618b1572841916d7f9828dc",
-        "911abf033985a5676398d50ce0cc73d729fa1e08",
-        "1f6ad1f1aa53472dc3c065920259fafd8d43d80d",
-        "b99ffc75aa3d8ae6f809cbf8576d18fa06c94ad6"
+        "d358b5dce78f7453a59d8f782c6d312e67ac4289",
+        "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc",
+        "3ffd2c231a10641eb1eaea2e137a566eac31ffcb"
       ],
-      "score": 0.9,
-      "generated_at": "2026-03-31T11:37:01.814595+00:00",
+      "score": 0.94,
+      "generated_at": "2026-03-31T15:47:12.121456+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "맥 위에서 굴리는 로컬 에이전트 운영",
-      "summary_line": "에이전트를 써보는 단계를 지나 직접 만들고 여러 세션을 관리하는 흐름이 또렷해졌다.",
+      "topic_name": "결과보다 원천과 책임",
+      "summary_line": "AI가 낸 답보다 어디서 왔고 누가 책임지는지가 더 큰 쟁점이 됐다.",
       "signals": [
-        "클로드 코워크로 키워드 수집 자동화를 직접 짜는 사례가 나왔다.",
-        "메뉴바에서 Claude Code 세션 상태를 보는 앱까지 등장했다.",
-        "Ollama의 MLX 미리보기로 애플 실리콘 로컬 추론 기대가 커졌다."
+        "Claude Code 유출은 배포 산출물 하나가 신뢰를 무너뜨릴 수 있음을 보여줬다.",
+        "문학 목록 논쟁은 결과보다 원천 데이터와 재현 가능성을 먼저 묻게 했다.",
+        "코파일럿 면책 공방은 참고용 AI와 업무용 AI의 경계를 다시 세웠다."
       ]
     },
     {
@@ -51521,38 +51957,38 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "논쟁 읽기",
+      "cta_label": "쟁점 보기",
       "related_item_ids": [
-        "9bd792ad328404dc1e96fdf0c3f80d39c12a9fbf"
+        "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc"
       ],
-      "score": 0.67,
-      "generated_at": "2026-03-31T11:37:01.814595+00:00",
+      "score": 0.84,
+      "generated_at": "2026-03-31T15:47:12.121456+00:00",
       "ai_model": "codex-cli",
-      "headline": "구글, 16k 컨텍스트 지원 2억 파라미터 시계열 모델",
-      "issue_title": "범용 시계열 모델을 현업 예측에 먼저 써볼 수 있을까",
-      "opposition_summary": "반대 쪽은 도메인 맥락과 설명 가능성이 빠지면 현업에 맡기기 어렵다고 본다.",
-      "support_summary": "찬성 쪽은 긴 문맥과 사전학습이 기준 성능을 빠르게 끌어올릴 수 있다고 본다."
+      "headline": "65세, 75세, 85세 이후의 문학 걸작들",
+      "issue_title": "흥미로운 발상인가, 검증 빠진 AI 리서치인가",
+      "opposition_summary": "주제보다 목록의 원천이 문제라는 반박이 강했다. LLM이 만든 초안은 환각이 섞일 수 있어 구조화된 출처로 다시 재현돼야 한다는 주장이다.",
+      "support_summary": "발상 자체는 신선하다는 반응도 컸다. 나이와 창작의 통념을 흔들고, AI 초안도 사람 검증을 붙이면 충분히 쓸 만하다는 쪽이다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 살펴보기",
+      "cta_label": "신호 보기",
       "related_item_ids": [
-        "f39d45e3d471daf80326c0acd3b198ac6f5203c3",
-        "275f5ac62a9a840039fa888be88ca921ce2bd341",
-        "4f5682f46e2c04db4d30094c2024c3e2031420af"
+        "b9f04f5479daa90dfb7782d9ceb78cd888826762",
+        "3768b6f0e58435e210e8b1db763f008173cf8de0",
+        "c62f338c6e4d5717f5af1caca182bbeb376487ca"
       ],
-      "score": 0.94,
-      "generated_at": "2026-03-31T11:37:01.814595+00:00",
+      "score": 0.9,
+      "generated_at": "2026-03-31T15:47:12.121456+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "기본값이 사고가 되는 주",
-      "summary_line": "작은 편의와 부가 기능이 더 큰 신뢰 리스크로 돌아오는 장면이 반복됐다.",
+      "signal_title": "편해질수록 확인할 것이 늘어난다",
+      "summary_line": "써보긴 쉬워졌는데 비는 기능과 검수 비용이 곧 드러나는 흐름이 겹쳤다.",
       "signals": [
-        "배포 산출물에 남은 소스맵이 내부 코드와 운영 흔적을 드러냈다.",
-        "코드 리뷰 화면의 PR 광고는 기능 안내보다 침습으로 받아들여졌다.",
-        "유명 패키지 경로를 탄 악성 배포가 공급망 불안을 다시 키웠다."
+        "브라우저 CAD는 설치 없이 열리지만 주력 도구로 쓰기엔 빈 기능이 눈에 띄었다.",
+        "PDF RAG는 텍스트 검색은 빨랐지만 그래프와 배치 같은 시각 정보는 자주 놓쳤다.",
+        "CTE는 읽기 좋게 정리해도 실행 계획에서는 성능 비용이 튈 수 있었다."
       ]
     }
   ],
@@ -51561,22 +51997,21 @@
     "kind": "quiet_riser",
     "label": "AI Spotlight",
     "title": "조용히 커지는 주제",
-    "cta_label": "흐름 자세히 보기",
+    "cta_label": "흐름 보기",
     "related_item_ids": [
-      "2aaa91c66a75eba42618b1572841916d7f9828dc",
-      "911abf033985a5676398d50ce0cc73d729fa1e08",
-      "1f6ad1f1aa53472dc3c065920259fafd8d43d80d",
-      "b99ffc75aa3d8ae6f809cbf8576d18fa06c94ad6"
+      "d358b5dce78f7453a59d8f782c6d312e67ac4289",
+      "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc",
+      "3ffd2c231a10641eb1eaea2e137a566eac31ffcb"
     ],
-    "score": 0.9,
-    "generated_at": "2026-03-31T11:37:01.814595+00:00",
+    "score": 0.94,
+    "generated_at": "2026-03-31T15:47:12.121456+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "맥 위에서 굴리는 로컬 에이전트 운영",
-    "summary_line": "에이전트를 써보는 단계를 지나 직접 만들고 여러 세션을 관리하는 흐름이 또렷해졌다.",
+    "topic_name": "결과보다 원천과 책임",
+    "summary_line": "AI가 낸 답보다 어디서 왔고 누가 책임지는지가 더 큰 쟁점이 됐다.",
     "signals": [
-      "클로드 코워크로 키워드 수집 자동화를 직접 짜는 사례가 나왔다.",
-      "메뉴바에서 Claude Code 세션 상태를 보는 앱까지 등장했다.",
-      "Ollama의 MLX 미리보기로 애플 실리콘 로컬 추론 기대가 커졌다."
+      "Claude Code 유출은 배포 산출물 하나가 신뢰를 무너뜨릴 수 있음을 보여줬다.",
+      "문학 목록 논쟁은 결과보다 원천 데이터와 재현 가능성을 먼저 묻게 했다.",
+      "코파일럿 면책 공방은 참고용 AI와 업무용 AI의 경계를 다시 세웠다."
     ]
   }
 }
