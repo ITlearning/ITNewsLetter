@@ -1,6 +1,469 @@
 {
   "items": [
     {
+      "id": "b53dc9d9dcbf9157fe62392ab3dd2b82e5bb8e7d",
+      "title_hash": "23b9daf1962c5643f51f859c48417e38d98c7962",
+      "source": "GeekNews",
+      "title": "Claude Code 내부 동작 방식 완전 해부 — Agentic Loop부터 컨텍스트 로딩까지",
+      "link": "https://news.hada.io/topic?id=28062",
+      "published_at": "2026-03-31T16:36:43+00:00",
+      "summary": "Claude Code 내부 동작 방식 완전 해부 — Agentic Loop부터 컨텍스트 로딩까지 Claude Code가 터미널에서 어떻게 돌아가는지 공식 문서(VineeTagarwaL의 Mintlify 정리본) 기준으로 핵심만 정리했습니다. Claude Code는 어떻게 동작하나? 한마디로 “읽고 → 생각하고 → 도구 쓰고 → 결과 보고",
+      "fetched_at": "2026-03-31T19:58:07.171632+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "67",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=22,practical_tech=0,tools_agents=22,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 22,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "claude code",
+            "agentic"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "agentic",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "b53dc9d9dcbf9157fe62392ab3dd2b82e5bb8e7d",
+      "is_english_source": false,
+      "sent_at": "2026-03-31T20:01:36.067757+00:00"
+    },
+    {
+      "id": "8aae3ad38d488fe8e6bd7e70654fbea3b7b2bde0",
+      "title_hash": "c0d218d884a0dbe96de7133561fa24fdde25fd60",
+      "source": "GeekNews",
+      "title": "법률적 시각(Legal AI)에서 본 온톨로지(Ontology)의 개념",
+      "link": "https://news.hada.io/topic?id=28044",
+      "published_at": "2026-03-31T05:18:32+00:00",
+      "summary": "RAG는 외부 문서를 검색해 모델에게 공급함으로써 최신 정보 접근성과 근거 제시 능력을 높이는 데 강점이 있습니다. 반면 온톨로지는 검색된 자료 안의 개념들을 같은 의미 체계로 정렬하고, 법적 관계를 구조화하는 데 강합니다. 이 구별은 매우 중요합니다. RAG는 환각을 줄이는 데 도움이 되지만, 그...",
+      "fetched_at": "2026-03-31T19:58:07.171632+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rag"
+      ],
+      "detail_slug": "8aae3ad38d488fe8e6bd7e70654fbea3b7b2bde0",
+      "is_english_source": false,
+      "sent_at": "2026-03-31T20:01:36.067757+00:00"
+    },
+    {
+      "id": "627c308ab5f7f93d0a88db31d8e5e3d423fb1d0d",
+      "title_hash": "abb28916af15119b1635c6909484c61854914fea",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: How This Graybeard Built the Fastest and Freest Postgres BM25 Search",
+      "link": "https://github.com/timescale/pg_textsearch",
+      "published_at": "2026-03-31T16:29:52+00:00",
+      "summary": "HN story type: story HN points: 22 HN comments: 1 HN post text: Last summer we faced a conundrum at my company, Tiger Data, a Postgres cloud vendor whose main business is in timeseries data. We were trying to grow our business towards emerging AI-centric workloads and wanted to provide a state-of-the-art hybrid search stack in Postgres. We'd already built pgvectorscale in house with the goal of scaling semantic search beyond pgvector's main memory limitations. We just needed a scalable ranked keyword search solution too. The problem: core Postgres doesn't provide this; the leading Postgres BM25 extension, ParadeDB, is guarded behind AGPL; developing our own extension appeared daunting. We'd need a small team of sharp engineers and 6-12 months, I figured. And we'd probably still fall short of the performance of a mature system like Parade/Tantivy. Or would we? I'd be experimenting long enough with AI-boosted development at that point to realize that with the latest tools (Claude Code + Opus) and an experienced hand (I've been working in database systems internals for 25 years now), the old time estimates pretty much go out the window. I told our CTO I thought I could solo the project in one quarter. This raised some eyebrows. It did take a li... HN top comments: jascha_eng: FWIW TJ is not your average vibe coder imo: https://www.linkedin.com/in/todd-j-green/ In september he burned through 3000$ in API credits though, but I think that's before we finally bought max plans for everyone that wanted it.",
+      "fetched_at": "2026-03-31T19:58:07.171632+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47589856",
+      "hn_story_type": "story",
+      "hn_points": "22",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47589856",
+      "hn_item_text": "Last summer we faced a conundrum at my company, Tiger Data, a Postgres cloud vendor whose main business is in timeseries data. We were trying to grow our business towards emerging AI-centric workloads and wanted to provide a state-of-the-art hybrid search stack in Postgres. We'd already built pgvectorscale in house with the goal of scaling semantic search beyond pgvector's main memory limitations. We just needed a scalable ranked keyword search solution too. The problem: core Postgres doesn't provide this; the leading Postgres BM25 extension, ParadeDB, is guarded behind AGPL; developing our own extension appeared daunting. We'd need a small team of sharp engineers and 6-12 months, I figured. And we'd probably still fall short of the performance of a mature system like Parade/Tantivy. Or would we? I'd be experimenting long enough with AI-boosted development at that point to realize that with the latest tools (Claude Code + Opus) and an experienced hand (I've been working in database systems internals for 25 years now), the old time estimates pretty much go out the window. I told our CTO I thought I could solo the project in one quarter. This raised some eyebrows. It did take a li...",
+      "hn_comment_preview": "jascha_eng: FWIW TJ is not your average vibe coder imo: https://www.linkedin.com/in/todd-j-green/ In september he burned through 3000$ in API credits though, but I think that's before we finally bought max plans for everyone that wanted it.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "69",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=45,practical_tech=45,tools_agents=25,strategy_insight=2,industry_business=4",
+      "slot_scores": {
+        "practical_tech": 45,
+        "tools_agents": 25,
+        "strategy_insight": 2,
+        "industry_business": 4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 45,
+          "strong_hits": [
+            "performance",
+            "database",
+            "postgres",
+            "show hn",
+            "api",
+            "rag"
+          ],
+          "support_hits": [
+            "vector"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "database + performance"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "ide"
+          ],
+          "support_hits": [
+            "extension",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "business",
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "database",
+        "postgres",
+        "show hn",
+        "api",
+        "rag",
+        "vector",
+        "database + performance",
+        "github.com"
+      ],
+      "detail_slug": "627c308ab5f7f93d0a88db31d8e5e3d423fb1d0d",
+      "is_english_source": true,
+      "translated_title": "베테랑 개발자가 만든 제약 없는 초고속 Postgres BM25 검색",
+      "short_summary": "Tiger Data의 베테랑 엔지니어가 AI 코딩 도구를 활용해 AGPL 제약 없는 Postgres용 BM25 검색 확장을 한 분기 만에 거의 혼자 구현한 과정을 소개한다. 기존 예상보다 훨씬 짧아진 개발 일정이 눈에 띈다.",
+      "why_it_matters": "이 글은 Postgres를 벡터 검색과 키워드 검색이 함께 돌아가는 하이브리드 검색 기반으로 확장하려는 흐름을 잘 보여준다. 검색 인프라를 외부 엔진에 맡길지, DB 안에서 해결할지 고민하는 팀이라면 바로 참고할 만하다.\n- AI 워크로드가 늘면서 의미 검색만으로는 부족해졌다. BM25 같은 전통 검색을 Postgres 안에서 함께 처리하려는 수요가 더 선명해지고 있다.\n- AGPL 같은 라이선스 제약이 도입 판단을 흔드는 팀에는 자체 확장 개발이 현실적인 대안이 될 수 있다는 신호다.\n- 숙련 엔지니어와 AI 코딩 도구를 조합하면 저수준 데이터 인프라 기능도 예상보다 적은 인력과 짧은 일정으로 시도할 여지가 커진다.",
+      "hn_reaction_summary": "댓글 반응은 아직 많지 않지만, 초반 분위기는 'AI가 다 했다'기보다 '경험 많은 엔지니어가 AI를 잘 쓴 사례'에 가깝다. 성과의 원인을 어디에 둘지에 시선이 모인다.\n- 대표 댓글은 작성자가 평범한 바이브 코더가 아니라, 데이터베이스 내부 구현 경험이 깊은 인물이라는 점을 강조한다.\n- 동시에 초기 실험에서 API 크레딧 비용이 꽤 들었다는 언급도 나와, 생산성만 볼 게 아니라 도구 비용까지 함께 봐야 한다는 시선이 보인다.\n- 지금 단계의 HN 반응은 성능 주장 자체를 두고 공방을 벌이기보다, AI 보조 개발의 실제 효율과 숙련도 의존도를 가늠하는 쪽에 가깝다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-31T20:01:36.067757+00:00"
+    },
+    {
+      "id": "641cd222fd3c6ef3e0ab8fd229b660b04240cb46",
+      "title_hash": "863744f57777ac7d18c7aefc267e21645935e0ae",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Slop is not necessarily the future",
+      "link": "https://www.greptile.com/blog/ai-slopware-future",
+      "published_at": "2026-03-31T14:32:26+00:00",
+      "summary": "HN story type: story HN points: 84 HN comments: 139 HN top comments: seamossfet: I find most developers fall into one of two camps: 1. You treat your code as a means to an end to make a product for a user. 2. You treat the code itself as your craft, with the product being a vector for your craft. The people who typically have the most negative things to say about AI fall into camp #2 where AI is automating a large part of what they considered their art while enabling people in group #1 to iter... Animats: Meanwhile, the complexity of the average piece of software is drastically increasing. ... The stats suggest that devs are shipping more code with coding agents. The consequences may already be visible: analysis of vendor status pages [3] shows outages have steadily increased since 2022, suggesting software is becoming more brittle. We've already seen a large-scale AWS outage because of this. It could get much wors... stephc_int13: The economic angle is not as clear cut as the authors seem to think. There is an abundance of mediocre and even awful code in products that are not failing because of it. The worst thing about poorly designed software architecture is that it tends to freeze and accumulate more and more technical debt. This is not always a competitive issue, and with enough money you can maintain pretty much any codebases.",
+      "fetched_at": "2026-03-31T19:58:07.171632+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47587953",
+      "hn_story_type": "story",
+      "hn_points": "84",
+      "hn_comments_count": "139",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47587953",
+      "hn_item_text": "",
+      "hn_comment_preview": "seamossfet: I find most developers fall into one of two camps: 1. You treat your code as a means to an end to make a product for a user. 2. You treat the code itself as your craft, with the product being a vector for your craft. The people who typically have the most negative things to say about AI fall into camp #2 where AI is automating a large part of what they considered their art while enabling people in group #1 to iter...\nAnimats: Meanwhile, the complexity of the average piece of software is drastically increasing. ... The stats suggest that devs are shipping more code with coding agents. The consequences may already be visible: analysis of vendor status pages [3] shows outages have steadily increased since 2022, suggesting software is becoming more brittle. We've already seen a large-scale AWS outage because of this. It could get much wors...\nstephc_int13: The economic angle is not as clear cut as the authors seem to think. There is an abundance of mediocre and even awful code in products that are not failing because of it. The worst thing about poorly designed software architecture is that it tends to freeze and accumulate more and more technical debt. This is not alway...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "44",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=16,tools_agents=20,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 20,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "architecture",
+            "rag"
+          ],
+          "support_hits": [
+            "vector"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "coding agent",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "ide",
+        "agent",
+        "ai + coding"
+      ],
+      "detail_slug": "641cd222fd3c6ef3e0ab8fd229b660b04240cb46",
+      "is_english_source": true,
+      "translated_title": "AI 슬롭이 소프트웨어의 미래는 아니다",
+      "short_summary": "AI가 코드 생산량을 끌어올려도 품질 저하와 장애 증가를 당연한 미래로 받아들일 필요는 없다는 문제의식이다. 빠른 출시가 통할 수 있어도 복잡성과 기술 부채는 결국 운영 비용으로 돌아온다는 논의가 붙었다.",
+      "why_it_matters": "생성형 AI로 개발 속도가 빨라진 지금, 실무의 관심사는 코드 작성 자체보다 그 뒤에 남는 운영 부담으로 옮겨가고 있다.\n- 코딩 에이전트 덕분에 배포 속도는 빨라질 수 있다. 대신 리뷰와 테스트 기준이 느슨하면 장애와 회귀가 더 자주 터질 수 있다.\n- 당장 기능을 내는 데는 저품질 구조도 버틸 수 있다. 하지만 시간이 지나면 아키텍처 경직과 기술 부채가 쌓여 변경 비용이 급격히 오른다.\n- 이제 팀은 생산성 지표만 볼 수 없다. 누가 검증했는지, 장애를 얼마나 빨리 좁힐 수 있는지까지 개발 프로세스에 같이 묶어야 한다.",
+      "hn_reaction_summary": "댓글 분위기는 AI를 둘러싼 가치관 충돌에 가까웠다. 코드를 공예로 보는 시각과 제품 전달 수단으로 보는 시각이 정면으로 부딪혔다.\n- 한쪽은 AI를 쓰면 더 빨리 만들 수 있고 사용자 입장에서는 그 편이 낫다고 봤다. 특히 코드를 목적이 아니라 수단으로 보는 개발자일수록 이런 태도가 강했다.\n- 반대편에서는 코드 복잡성이 이미 빠르게 늘고 있고, 장애 증가가 그 징후일 수 있다고 우려했다. 속도만 올리면 소프트웨어가 더 잘 부서질 수 있다는 주장이다.\n- 또 다른 의견은 경제성 문제를 짚었다. 설계가 나빠도 돈과 인력으로 버티는 조직은 존재하므로, 품질 저하가 곧바로 경쟁력 하락으로 이어진다고 단정하긴 어렵다는 반론도 나왔다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-31T20:01:36.067757+00:00"
+    },
+    {
+      "id": "4be58322149895c1fd9ee628c64c9cbfc8ae97e4",
+      "title_hash": "41966bc2b24a6c6c5ebf5d5973d6d9a2f4fe38c0",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "From 300KB to 69KB per Token: How LLM Architectures Solve the KV Cache Problem",
+      "link": "https://news.future-shock.ai/the-weight-of-remembering/",
+      "published_at": "2026-03-28T22:42:23+00:00",
+      "summary": "HN story type: story HN points: 38 HN comments: 5 HN top comments: coppsilgold: There are also interesting approaches to more directly compress a large document or an entire codebase into a smaller set of tokens without getting the LLM to wing it. For example, Cartridges: https://hazyresearch.stanford.edu/blog/2025-06-08-cartridges > They basically get gradient descent to optimize the KV cache while freezing the network. az09mugen: Unrelated, but 69KB is how much RAM Voyager 1 has. LuxBennu: good overview of the architecture side but worth mentioning there's another axis that stacks on top of all of this: you can quantize the kv cache itself at inference time. in llama.cpp you can run q8 for keys and q4 for values and it cuts cache memory roughly in half again on top of whatever gqa or mla already saves you. i run qwen 70b 4-bit on m2 max 96gb and the kv quant is what actually made longer contexts fit...",
+      "fetched_at": "2026-03-31T19:58:07.171632+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47558733",
+      "hn_story_type": "story",
+      "hn_points": "38",
+      "hn_comments_count": "5",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47558733",
+      "hn_item_text": "",
+      "hn_comment_preview": "coppsilgold: There are also interesting approaches to more directly compress a large document or an entire codebase into a smaller set of tokens without getting the LLM to wing it. For example, Cartridges: https://hazyresearch.stanford.edu/blog/2025-06-08-cartridges > They basically get gradient descent to optimize the KV cache while freezing the network.\naz09mugen: Unrelated, but 69KB is how much RAM Voyager 1 has.\nLuxBennu: good overview of the architecture side but worth mentioning there's another axis that stacks on top of all of this: you can quantize the kv cache itself at inference time. in llama.cpp you can run q8 for keys and q4 for values and it cuts cache memory roughly in half again on top of whatever gqa or mla already saves you. i run qwen 70b 4-bit on m2 max 96gb and the kv quant is what actually made longer contexts fit...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=12,strategy_insight=12,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 12,
+        "strategy_insight": 12,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "architecture",
+            "inference",
+            "cache"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [],
+          "support_hits": [
+            "research",
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "architecture",
+        "inference",
+        "cache"
+      ],
+      "detail_slug": "4be58322149895c1fd9ee628c64c9cbfc8ae97e4",
+      "is_english_source": true,
+      "translated_title": "토큰당 300KB에서 69KB로, KV 캐시를 줄인 LLM 설계",
+      "short_summary": "이 글은 LLM이 긴 문맥 처리에서 커지는 KV 캐시 메모리 부담을 어떤 아키텍처 변화로 줄여왔는지 정리한다. 토큰당 300KB 수준이던 비용을 69KB까지 낮추는 흐름을 통해 긴 컨텍스트의 현실적 한계를 짚는다.",
+      "why_it_matters": "긴 문맥 경쟁이 이어질수록 KV 캐시는 모델 성능 못지않게 인프라 비용과 배포 가능성을 가르는 병목이 된다. 이 글은 그 병목을 아키텍처 차원에서 어떻게 줄여왔는지 한 번에 훑게 해준다.\n- 컨텍스트 길이가 길어질수록 GPU 메모리와 운영비가 빠르게 불어나는데, KV 캐시 절감은 이 비용 구조를 바로 건드린다.\n- 실무에서는 같은 장비로 더 긴 입력을 처리하거나 동시 요청 수를 늘리는 식의 선택지가 생긴다.\n- 모델을 고를 때 파라미터 수만 볼 게 아니라 GQA, MLA, KV 캐시 양자화 같은 메모리 전략까지 함께 봐야 한다.",
+      "hn_reaction_summary": "댓글 수는 많지 않았지만 반응은 꽤 실무적이었다. 기사 자체를 좋은 개요로 보되, 현장에서 체감되는 추가 최적화 축이 빠졌다는 보완 의견이 이어졌다.\n- 가장 많이 눈에 띈 논점은 추론 단계의 KV 캐시 양자화다. llama.cpp에서 키는 q8, 값은 q4로 줄여 메모리를 더 아낄 수 있다는 경험담이 나왔다.\n- 또 다른 의견은 Stanford의 Cartridges처럼 문서나 코드베이스를 더 작은 토큰 집합으로 압축하는 접근도 함께 봐야 한다는 쪽이었다.\n- 전체 분위기는 과장된 찬사보다 실전 팁 공유에 가까웠고, 토큰당 69KB를 보이저 1의 메모리에 빗댄 가벼운 농담도 섞였다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-31T20:01:36.067757+00:00"
+    },
+    {
       "id": "d358b5dce78f7453a59d8f782c6d312e67ac4289",
       "title_hash": "6b934e30a6914993e43208487e3ecf1dbff7c3c0",
       "source": "GeekNews",
@@ -50885,9 +51348,11 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트: 신뢰와 책임",
-        "summary": "에이전트 도구가 생활권으로 들어온 만큼, 믿고 맡길 기준을 다시 묻게 한 주였다.\n- Claude Code 유출 이슈는 배포 체인과 기능 플래그 관리가 허술하면 신뢰가 바로 흔들린다는 점을 드러냈다.\n- 코파일럿 면책 논란과 문학 목록 검증 공방은 AI 결과보다 책임 범위와 원천 데이터부터 보게 했다.\n- 코워크 사례는 이런 불안 속에서도 에이전트가 이미 실무 자동화의 자리로 옮겨갔음을 보여줬다.",
+        "headline": "이번 주 도구·에이전트",
+        "summary": "이번 주 도구·에이전트 묶음은 코딩 에이전트의 속도보다 구조 공개, 품질 관리, 책임 경계가 더 큰 화두로 올라온 장면을 보여준다. 지금 읽으면 기대치와 경계선을 함께 잡을 수 있다.\n- Claude Code 해부와 소스 유출은 에이전트가 실제로 어떻게 돌아가며 어디서 취약해지는지 한 번에 드러냈다.\n- AI 슬롭, 코파일럿 면책, 데이터 검증 논쟁은 생성 성능보다 결과를 믿고 맡길 기준을 먼저 세우라는 신호에 가깝다.",
         "item_ids": [
+          "b53dc9d9dcbf9157fe62392ab3dd2b82e5bb8e7d",
+          "641cd222fd3c6ef3e0ab8fd229b660b04240cb46",
           "d358b5dce78f7453a59d8f782c6d312e67ac4289",
           "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc",
           "3ffd2c231a10641eb1eaea2e137a566eac31ffcb",
@@ -51020,25 +51485,22 @@
           "dc669d564a88856ef17d04013f5ff0143c9fafe9",
           "cc892c2aaa802dda333ee59016ad6c516b005a23",
           "f48a0e106c5734388543e6fe27c1f7de4875cc60",
-          "85483bedc83d5e04d933bcc14669b274743dca06",
-          "23a70943a2238762ce5f0ca7c705978bde5adc4a",
-          "27c2f63df454218b35e531bd2417a50bf4ba36c8",
-          "5df192190a58dacc294f0777b421673edd8dda29",
-          "cd6d217b199f64149963825455fc36db94f21fb7",
-          "38b06c67dfcdd02041b48cbe1436ff0bebf5cd59",
-          "68707d94d0048017b3bf02b34beef47129f399c0"
+          "85483bedc83d5e04d933bcc14669b274743dca06"
         ],
-        "total_items": 139,
-        "generated_at": "2026-03-31T15:47:12.121456+00:00",
+        "total_items": 135,
+        "generated_at": "2026-03-31T19:58:07.171632+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술",
-        "summary": "설치가 사라지고 추상화가 늘수록 쓰기 편해진다. 대신 빠진 기능, 숨은 비용, 보안과 추적 위험도 함께 커진다는 흐름이 이번 주 기사에 겹친다.\n- 브라우저 CAD와 PDF RAG 실험은 접근성은 높였지만 텍스트만으로 놓치는 정보와 제품 완성도의 빈틈을 드러냈다.\n- SQL CTE와 악성 Axios 사건은 읽기 좋은 구조나 익숙한 의존성이 곧 안전한 선택은 아니라는 점을 보여줬다.\n- 정부 앱 추적 논란까지 겹치며, 지금은 편의 뒤의 수집 경로와 실행 기반을 한 번 더 확인해야 할 때다.",
+        "headline": "이번 주 실무 기술: 제약을 다시 설계하는 흐름",
+        "summary": "이번 주 실무 기술은 AI 기능을 늘리는 것보다, 현장 제약을 다시 설계하는 흐름이 두드러졌다. 검색의 의미 정렬, 긴 문맥 비용 절감, 설치 장벽 축소가 한 줄로 이어진다.\n\n- RAG와 온톨로지, 텍스트와 이미지 임베딩 비교는 검색 품질을 높이려면 구조와 시각 정보도 함께 다뤄야 함을 보여준다.\n- Postgres BM25와 KV 캐시 사례는 성능 병목을 줄여야 실무 적용 속도도 붙는다는 점을 드러낸다.\n- 브라우저 CAD까지 더해져, 지금은 새 모델보다 배포 방식과 운영 감각의 변화를 볼 때다.",
         "item_ids": [
+          "8aae3ad38d488fe8e6bd7e70654fbea3b7b2bde0",
+          "627c308ab5f7f93d0a88db31d8e5e3d423fb1d0d",
+          "4be58322149895c1fd9ee628c64c9cbfc8ae97e4",
           "b9f04f5479daa90dfb7782d9ceb78cd888826762",
           "3768b6f0e58435e210e8b1db763f008173cf8de0",
           "c62f338c6e4d5717f5af1caca182bbeb376487ca",
@@ -51109,14 +51571,10 @@
           "f4e57bafd97ecd9a08daf4442a418aaff8bc1847",
           "60266025d1498a66f7a22514c608b28eeb616051",
           "d275f666888cb1c26e63c5e37125f129229ab221",
-          "bd8b21385d24c971968cf60faa04a9ff3b152bb8",
-          "af5b5f17aa3269a4dba0b1147e7e072d90989583",
-          "956e2c17e9155915a4c2ffee4183d0ca387a80ac",
-          "ea0115abf17e3e97b0f48f43220c6ae7ae2984ae",
-          "6a56ec8210bf0639cc2c6dd6a66555b0cf0326ab"
+          "bd8b21385d24c971968cf60faa04a9ff3b152bb8"
         ],
-        "total_items": 75,
-        "generated_at": "2026-03-31T15:47:12.121456+00:00",
+        "total_items": 74,
+        "generated_at": "2026-03-31T19:58:07.171632+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -51124,7 +51582,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 주 전략·인사이트",
-        "summary": "이번 주 전략·인사이트는 성장의 방식과 신뢰의 비용을 함께 묶는다. 더 빨리 키우는 법보다 누구의 신뢰를 얻고 어디서 멈출지 묻는 흐름이 또렷했다.\n- 스타트업 전략은 회사 간판보다 인재와 고객의 브랜드를 먼저 키우며 신뢰를 쌓는 역발상으로 이어졌다.\n- AI는 모델 확장과 별개로 설명 부족, 맞장구 성향 때문에 성능보다 믿을 수 있는가가 더 큰 화두가 됐다.\n- 플랫폼 판결은 이용 시간을 늘리는 설계가 이제 성장 수단을 넘어 책임 문제로 읽힌다는 점을 보여줬다.",
+        "summary": "이번 주엔 더 크게 만드는 기술보다 무엇을 키우고 어떤 판단을 밀어주는지가 성패를 가른다는 흐름이 겹쳐 보였습니다.\n- 스타트업 성장론은 자사보다 사람과 고객의 신뢰를 먼저 키우는 역발상을 내세웠습니다.\n- AI는 더 긴 문맥과 범용성으로 가지만 설명 가능성과 아첨형 응답이 함께 시험대에 올랐습니다.\n- 플랫폼은 몰입 설계의 책임까지 묻기 시작해 지금 제품을 보는 기준도 달라지고 있습니다.",
         "item_ids": [
           "ca41ecc8af6eb891accf8f3c20c3f2c08f66f490",
           "9bd792ad328404dc1e96fdf0c3f80d39c12a9fbf",
@@ -51138,12 +51596,10 @@
           "e285994a373db7e0e9ded436a6af1445dd89e68c",
           "43a3ac369a2471452046f0f51d225d7c73b21225",
           "0bd4cc1547baeeacdb66b8a7e73520217ce5d3ef",
-          "361dac45cea8f022f28e4f1210a5e4a821589423",
-          "085eb0d513e1340e59b473197355a7f1234fce5d",
-          "c1e40516d484fbfa4b95226b3cbecb4feb1e67d9"
+          "361dac45cea8f022f28e4f1210a5e4a821589423"
         ],
-        "total_items": 15,
-        "generated_at": "2026-03-31T15:47:12.121456+00:00",
+        "total_items": 13,
+        "generated_at": "2026-03-31T19:58:07.171632+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -51153,8 +51609,10 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "이번 달 도구·에이전트 묶음은 새 기능 자랑보다 신뢰의 조건을 먼저 묻는다. 쓰임은 넓어졌고, 그만큼 보안 사고와 검증, 책임 논란도 더 선명해졌다.\n\n- Claude Code 유출은 GeekNews와 HN에서 반복해 다뤄졌다. 소스맵 하나가 내부 코드와 기능 플래그까지 드러냈다.\n- HN에서는 LLM이 만든 원천 데이터의 신뢰도와 코파일럿 면책 문구의 책임 회피 문제가 함께 도마에 올랐다.\n- 반대로 Claude Co-work 사례는 에이전트 빌더가 실사용 단계에 들어왔음을 보여줬다. 그래서 지금 더 봐야 할 건 성능보다 운영 감각이다.",
+        "summary": "에이전트 도구를 보는 시선이 기능 소개를 넘어 운영과 책임으로 옮겨간 한 달입니다. 어떻게 돌아가는지, 사고가 나면 누가 감당하는지, 결과를 어디까지 믿을지 따지는 흐름이 이어졌습니다.\n- Claude Code 해부와 소스 유출은 내부 구조와 배포 관리의 허점을 함께 드러냈습니다.\n- AI 슬롭 논쟁과 코파일럿 면책 논란은 생산성보다 품질, 책임, 운영비를 먼저 묻게 합니다.\n- LLM 원천 데이터 검증 논쟁까지 겹치며 지금은 '잘 쓰는 법'보다 '믿고 쓸 조건'을 점검할 때입니다.",
         "item_ids": [
+          "b53dc9d9dcbf9157fe62392ab3dd2b82e5bb8e7d",
+          "641cd222fd3c6ef3e0ab8fd229b660b04240cb46",
           "d358b5dce78f7453a59d8f782c6d312e67ac4289",
           "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc",
           "3ffd2c231a10641eb1eaea2e137a566eac31ffcb",
@@ -51597,17 +52055,20 @@
           "86eaa0b9ae86918b1096ddaf015907f73a541a80",
           "b65bd5533276d0caa3f2398a5328c48d0f67eca4"
         ],
-        "total_items": 441,
-        "generated_at": "2026-03-31T15:47:12.121456+00:00",
+        "total_items": 443,
+        "generated_at": "2026-03-31T19:58:07.171632+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "monthly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 달 실무 기술: 편해진 도구의 숙제",
-        "summary": "이번 달 실무 기술은 편해진 도구 뒤에 남는 숙제를 보여준다. 브라우저 CAD, PDF RAG, SQL, 패키지 보안, 공공 앱이 서로 다른 듯 닮았다. 도입은 쉬워졌지만 검증과 경계 설정은 더 빡빡해졌다.\n- 텍스트 임베딩이 놓치는 시각 정보, 읽기 좋은 CTE의 성능 함정처럼 추상화의 틈이 드러났다.\n- 널리 쓰는 패키지와 공공 서비스도 공급망 공격, 과한 추적 권한 앞에선 다시 살펴야 할 대상이 됐다.",
+        "headline": "이번 달 실무 기술",
+        "summary": "이번 달엔 AI와 개발 도구가 한층 실무 쪽으로 기울었습니다. 검색만 잘하는 단계를 넘어 구조를 세우고, 메모리와 배포 방식까지 다시 따지는 흐름이 선명합니다.\n\n- RAG는 온톨로지와 멀티모달 임베딩을 만나며 자료 수집보다 의미 체계와 근거 품질을 다지는 쪽으로 무게가 옮겨갑니다.\n- Postgres BM25, 브라우저 CAD처럼 익숙한 기반에 빠르게 얹는 구현이 개발 속도와 도입 부담을 함께 줄이는 카드로 보입니다.\n- 긴 문맥 비용과 기능 공백이 같이 드러난 시기라, 지금 읽으면 무엇을 붙이고 어디서 멈출지 기준이 또렷해집니다.",
         "item_ids": [
+          "8aae3ad38d488fe8e6bd7e70654fbea3b7b2bde0",
+          "627c308ab5f7f93d0a88db31d8e5e3d423fb1d0d",
+          "4be58322149895c1fd9ee628c64c9cbfc8ae97e4",
           "b9f04f5479daa90dfb7782d9ceb78cd888826762",
           "3768b6f0e58435e210e8b1db763f008173cf8de0",
           "c62f338c6e4d5717f5af1caca182bbeb376487ca",
@@ -51851,8 +52312,8 @@
           "de54b6634502b40ed9372177dca6e6c57c205a2e",
           "755ac2f97593dec9f26da359a9722f03f30fb02c"
         ],
-        "total_items": 242,
-        "generated_at": "2026-03-31T15:47:12.121456+00:00",
+        "total_items": 245,
+        "generated_at": "2026-03-31T19:58:07.171632+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -51860,7 +52321,7 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 달 산업·비즈니스",
-        "summary": "이번 달 산업·비즈니스는 AI 열풍이 돈과 규제, 실제 쓰임을 두고 다시 가려지는 흐름을 보여준다. 한국형 금융 LLM과 AI 칩 투자, 유럽의 반발, 틈새 가구 출시까지 시장이 더 잘게 갈라지는 장면이 겹쳤다.\n- AI는 거액 투자와 버블 경고가 함께 커지며 옥석 가리기 국면에 들어섰다.\n- 한국 증시 특화 모델과 리벨리온 사례는 지역·용도 맞춤 기술에 자금이 몰리는 흐름을 보여준다.\n- Palantir 논란과 반려묘 책상은 신뢰와 생활 밀착성이 계약과 구매를 가르는 기준이 됐음을 말해준다.",
+        "summary": "AI에 돈이 몰리는 흐름은 이어지지만, 이번 달 산업·비즈니스 뉴스는 이제 규모보다 쓰임과 신뢰를 따지는 국면으로 옮겨가는 모습을 보여준다.\n\n- 한국 증시 특화 LLM과 리벨리온 투자 유치는 현지화와 반도체가 여전히 자금을 끄는 축임을 드러낸다.\n- AI 버블 경고와 Palantir 반대는 과잉 투자와 공공 데이터 통제, 책임 문제를 함께 흔든다.\n- 반려묘 책상처럼 생활 밀착형 틈새 제품도 또렷한 수요를 겨냥해 존재감을 키운다.",
         "item_ids": [
           "04da457ae534af8df308188edfe4f3a3227adda5",
           "3525f07fd4e2925430185f91d9bee5ac6d908d81",
@@ -51924,7 +52385,7 @@
           "392824ab5bae472def472a59d39e090ea943e5b3"
         ],
         "total_items": 60,
-        "generated_at": "2026-03-31T15:47:12.121456+00:00",
+        "generated_at": "2026-03-31T19:58:07.171632+00:00",
         "ai_model": "codex-cli"
       }
     ]
