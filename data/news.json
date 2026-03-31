@@ -1,6 +1,549 @@
 {
   "items": [
     {
+      "id": "b99ffc75aa3d8ae6f809cbf8576d18fa06c94ad6",
+      "title_hash": "92c3be2d14b1de8b3082c75c2317f0cb8430d52a",
+      "source": "GeekNews",
+      "title": "OpenAI의 Claude Code용 Codex 플러그인",
+      "link": "https://news.hada.io/topic?id=28023",
+      "published_at": "2026-03-31T00:17:55+00:00",
+      "summary": "이제 클로드 코드 안에서 OpenAI Codex를 직접 호출 해 코드 리뷰 및 작업 위임 가능 /codex:review , /codex:adversarial-review 등 슬래시 커맨드 기반으로 호출 백그라운드 작업 관리 기능...",
+      "fetched_at": "2026-03-31T03:16:39.573710+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=2,tools_agents=20,strategy_insight=14,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 20,
+        "strategy_insight": 14,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "codex"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 14,
+          "strong_hits": [
+            "코드 리뷰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "코드 리뷰"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "claude + code"
+      ],
+      "detail_slug": "b99ffc75aa3d8ae6f809cbf8576d18fa06c94ad6",
+      "is_english_source": false,
+      "sent_at": "2026-03-31T03:19:41.017632+00:00"
+    },
+    {
+      "id": "3525f07fd4e2925430185f91d9bee5ac6d908d81",
+      "title_hash": "73b2058bd7174ad2a9e04dd1e29529f1670c2fa5",
+      "source": "GeekNews",
+      "title": "AI 버블은 어떻게 붕괴되는가",
+      "link": "https://news.hada.io/topic?id=28029",
+      "published_at": "2026-03-31T00:50:33+00:00",
+      "summary": "AI 산업의 투자 거품 은 이미 형성되어 있으며, 생산성과 수익성의 괴리로 인해 예상보다 빠른 시점에 붕괴 가능성 있음 빅테크 기업들 은 경쟁 우위를 지키기 위해 사상 최대 규모의 자본 지출 경쟁 을 벌이고 있으나, 실제 집행 규모는 줄어들 가...",
+      "fetched_at": "2026-03-31T03:16:39.573710+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "54",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=9,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=9",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 9
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 9,
+          "strong_hits": [
+            "투자"
+          ],
+          "support_hits": [
+            "기업",
+            "산업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자",
+        "기업",
+        "산업"
+      ],
+      "detail_slug": "3525f07fd4e2925430185f91d9bee5ac6d908d81",
+      "is_english_source": false,
+      "sent_at": "2026-03-31T03:19:41.017632+00:00"
+    },
+    {
+      "id": "a4425c78dcb8eac4778dfb8ce1a6fe861d69ce1b",
+      "title_hash": "1060ceb3c032e6fa1bcabcff78d6352dedfbeffa",
+      "source": "GeekNews",
+      "title": "정부 앱 ‘Fedware’: 금지된 앱보다 더 강력한 감시 수행",
+      "link": "https://news.hada.io/topic?id=28028",
+      "published_at": "2026-03-31T00:47:33+00:00",
+      "summary": "미국 연방정부 공식 앱들이 민간 앱보다 더 많은 권한과 추적 기능을 요구 하며, 위치·생체정보·기기 식별정보 등을 수집함 White House, FBI, IRS, TSA, CBP, ICE 등 주요 기관 앱들이 공공서비스를 표방하지만, 실제로는 추적 SDK와 데이터 공유 구조",
+      "fetched_at": "2026-03-31T03:16:39.573710+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "sdk"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sdk"
+      ],
+      "detail_slug": "a4425c78dcb8eac4778dfb8ce1a6fe861d69ce1b",
+      "is_english_source": false,
+      "sent_at": "2026-03-31T03:19:41.017632+00:00"
+    },
+    {
+      "id": "26e4567bfc83853c671e4a91af39552ea4fdead2",
+      "title_hash": "a27c1a595bb57c797881674ea5a7a16fadcef936",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Universal Claude.md – cut Claude output tokens by 63%",
+      "link": "https://github.com/drona23/claude-token-efficient",
+      "published_at": "2026-03-31T01:23:34+00:00",
+      "summary": "HN story type: story HN points: 112 HN comments: 50 HN top comments: btown: It seems the benchmarks here are heavily biased towards single-shot explanatory tasks, not agentic loops where code is generated: https://github.com/drona23/claude-token-efficient/blob/main/... And I think this raises a really important question. When you're deep into a project that's iterating on a live codebase, does Claude's default verbosity, where it's allowed to expound on why it's doing what it's doing when... motoboi: Things like this make me sad because they make obvious that most people don’t understand a bit about how LLM work. The “answer before reasoning” is a good evidence for it. It misses the most fundamental concept of tranaformers: the are autoregressive. Also, the reinforcement learning is what make the model behave like what you are trying to avoid. So the model output is actually what performs best in the kind of s... xianshou: From the file: \"Answer is always line 1. Reasoning comes after, never before.\" LLMs are autoregressive (filling in the completion of what came before), so you'd better have thinking mode on or the \"reasoning\" is pure confirmation bias seeded by the answer that gets locked in via the first output tokens.",
+      "fetched_at": "2026-03-31T03:16:39.573710+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47581701",
+      "hn_story_type": "story",
+      "hn_points": "112",
+      "hn_comments_count": "50",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47581701",
+      "hn_item_text": "",
+      "hn_comment_preview": "btown: It seems the benchmarks here are heavily biased towards single-shot explanatory tasks, not agentic loops where code is generated: https://github.com/drona23/claude-token-efficient/blob/main/... And I think this raises a really important question. When you're deep into a project that's iterating on a live codebase, does Claude's default verbosity, where it's allowed to expound on why it's doing what it's doing when...\nmotoboi: Things like this make me sad because they make obvious that most people don’t understand a bit about how LLM work. The “answer before reasoning” is a good evidence for it. It misses the most fundamental concept of tranaformers: the are autoregressive. Also, the reinforcement learning is what make the model behave like what you are trying to avoid. So the model output is actually what performs best in the kind of s...\nxianshou: From the file: \"Answer is always line 1. Reasoning comes after, never before.\" LLMs are autoregressive (filling in the completion of what came before), so you'd better have thinking mode on or the \"reasoning\" is pure confirmation bias seeded by the answer that gets locked in via the first output tokens.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=28,practical_tech=12,tools_agents=28,strategy_insight=9,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 28,
+        "strategy_insight": 9,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "benchmark"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 28,
+          "strong_hits": [
+            "agentic",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "agentic",
+        "ide",
+        "llm",
+        "agent",
+        "claude + code",
+        "github.com"
+      ],
+      "detail_slug": "26e4567bfc83853c671e4a91af39552ea4fdead2",
+      "is_english_source": true,
+      "translated_title": "범용 Claude.md로 출력 토큰 63% 줄이기",
+      "short_summary": "재사용 가능한 Claude.md 지침으로 Claude의 출력 토큰을 63%까지 줄일 수 있다는 사례가 HN에서 주목받았다. 다만 댓글에서는 단발성 벤치마크에 치우쳤고 실제 코딩 워크플로에서는 결과가 다를 수 있다는 반론이 이어졌다.",
+      "why_it_matters": "LLM을 실무에 붙여 쓰는 팀이라면 응답 길이는 곧 비용과 속도 문제로 이어진다. 공통 지침 파일만으로 출력 습관을 통제할 수 있다면 운영 방식 자체가 달라질 수 있다.\n- 팀 공용 `Claude.md`를 두면 장황한 설명을 줄이고 답변 형식을 맞춰서 코드 리뷰, 문서화, 자동화 단계의 토큰 낭비를 줄일 수 있다.\n- 응답이 짧아지면 지연과 비용 부담이 함께 내려간다. 같은 컨텍스트 창에서 더 오래 대화를 이어갈 수 있다는 점도 실무에선 체감 차이가 크다.\n- 다만 라이브 코드베이스를 계속 수정하는 에이전트형 작업에서도 같은 효과가 나는지는 아직 별개 문제다. 도입 전에는 단순 Q&A와 실제 개발 루프를 나눠 검증할 필요가 있다.",
+      "hn_reaction_summary": "HN 분위기는 흥미롭다는 반응과 회의론이 함께 나왔다. 토큰 절감 자체는 반기면서도, 측정 방식과 프롬프트 설계가 모델 작동 원리와 맞는지 따져보는 의견이 많았다.\n- 가장 많이 나온 지적은 벤치마크가 단발성 설명 과제에 치우쳤다는 점이다. 실제 코딩 에이전트처럼 여러 번 수정하고 문맥을 이어 가는 작업에서는 결과가 다를 수 있다는 반론이 반복됐다.\n- `답을 먼저 쓰고 이유는 뒤에` 같은 규칙은 자기회귀 모델 특성과 충돌할 수 있다는 비판도 있었다. 첫 토큰이 결론을 고정해 버려 뒤 설명이 합리화로 흐를 수 있다는 주장이다.\n- 반대로 Claude의 기본 장황함이 항상 나쁜 것은 아니라는 의견도 있었다. 긴 프로젝트에서는 왜 그렇게 했는지 드러나는 설명이 디버깅과 협업에 도움이 된다는 시각이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-31T03:19:41.017632+00:00"
+    },
+    {
+      "id": "7d8960dd25617851e976105dd362d90f8fe9cbf2",
+      "title_hash": "fe1391f1ac24cec2528eef3f90f2783609efdbd1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Fedware: Government apps that spy harder than the apps they ban",
+      "link": "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/",
+      "published_at": "2026-03-30T18:16:00+00:00",
+      "summary": "HN story type: story HN points: 459 HN comments: 145 HN top comments: jrmg: I’m surprised to see no comments on this yet: [The White House app] ships with 3 embedded trackers including Huawei Mobile Services Core (yes, the Chinese company the US government sanctioned, shipping tracking infrastructure inside the sitting president's official app) The executive branch has decided this company is so dangerous I can’t buy a monitor made by them - but it’s embedding its SDK in its official app?... john_strinlai: > This thing also has a \"Text the President\" button that auto-fills your message with \"Greatest President Ever!\" and then collects your name and phone number. when is the onion going to go bankrupt? it has to be soon, i imagine. no way it can compete with reality at this point. (the rest of the article is a bit too depressing for me to comment on at the moment, other than saying \"wow, gross\") saadn92: The closing point is the one that should get more attention — every single one of these apps could be replaced by a web page. And from a product standpoint, there's really only one reason to ship a native app when your content is just press releases and weather alerts: you want access to APIs the browser won't give you. Background location, biometrics, device identity, boot triggers — none of that is available thr...",
+      "fetched_at": "2026-03-31T03:16:39.573710+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47577761",
+      "hn_story_type": "story",
+      "hn_points": "459",
+      "hn_comments_count": "145",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47577761",
+      "hn_item_text": "",
+      "hn_comment_preview": "jrmg: I’m surprised to see no comments on this yet: [The White House app] ships with 3 embedded trackers including Huawei Mobile Services Core (yes, the Chinese company the US government sanctioned, shipping tracking infrastructure inside the sitting president's official app) The executive branch has decided this company is so dangerous I can’t buy a monitor made by them - but it’s embedding its SDK in its official app?...\njohn_strinlai: > This thing also has a \"Text the President\" button that auto-fills your message with \"Greatest President Ever!\" and then collects your name and phone number. when is the onion going to go bankrupt? it has to be soon, i imagine. no way it can compete with reality at this point. (the rest of the article is a bit too depressing for me to comment on at the moment, other than saying \"wow, gross\")\nsaadn92: The closing point is the one that should get more attention — every single one of these apps could be replaced by a web page. And from a product standpoint, there's really only one reason to ship a native app when your content is just press releases and weather alerts: you want access to APIs the browser won't give you. Background location, biometr...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=2,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "embedding",
+            "sdk",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "embedding",
+        "sdk",
+        "api"
+      ],
+      "detail_slug": "7d8960dd25617851e976105dd362d90f8fe9cbf2",
+      "is_english_source": true,
+      "translated_title": "정부 앱이 금지 앱보다 더 집요하게 감시한다",
+      "short_summary": "정부가 민간 앱의 추적 관행을 비판하면서도 정작 자사 앱에는 각종 트래커와 과한 권한을 넣고 있다는 문제를 짚은 글이다. HN에서는 백악관 앱 사례와 함께, 이런 서비스는 앱보다 웹으로 제공해도 충분하다는 지적이 이어졌다.",
+      "why_it_matters": "겉으로는 보안과 규제를 말하면서 실제 배포 앱에서는 더 많은 수집이 이뤄질 수 있다는 점이 실무자에게 바로 닿는 대목이다. 공공 서비스 앱이 정말 앱이어야 하는지, 권한 설계가 어디까지 허용돼야 하는지 다시 따져보게 한다.\n- 단순 공지나 알림 중심 서비스라면 웹으로도 충분한데 네이티브 앱을 택했다면 위치, 기기 식별값, 백그라운드 실행 같은 추가 권한 요구를 의심하게 된다.\n- 규제 주체가 스스로는 같은 기준을 지키지 않는 모습이 드러나면 개인정보 정책과 보안 가이드라인의 신뢰도도 함께 흔들린다.\n- 공공 앱을 만드는 팀이라면 SDK 포함 현황, 수집 항목, 권한 필요성, 웹 대체 가능성을 출시 전 체크리스트로 더 엄격히 봐야 한다.",
+      "hn_reaction_summary": "HN 반응은 대체로 분노와 허탈함 쪽에 가까웠다. 풍자 기사처럼 보일 만큼 현실이 과하다는 반응과 함께, 기술 선택 뒤에 숨은 의도를 따져보는 댓글이 많이 붙었다.\n- 가장 많이 눈에 띈 쟁점은 백악관 앱에 트래커가 여럿 들어 있고, 제재 대상인 화웨이 관련 SDK까지 포함됐다는 지적이었다.\n- 반복해서 나온 의견은 \"이 정도 기능이면 웹페이지로 충분하다\"는 주장이다. 굳이 앱을 내는 이유는 브라우저에서 못 가져가는 기기 권한 때문 아니냐는 시선이 강했다.\n- 일부는 단순한 관리 부실일 수 있다고 봤지만, 다수는 공공 서비스가 시민 데이터를 어디까지 수집해도 되는지 더 엄격한 설명 책임이 필요하다고 봤다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-31T03:19:41.017632+00:00"
+    },
+    {
+      "id": "e585a768fbb739de405dae3cb1948061ffc522b7",
+      "title_hash": "eaaddc9d4afee73d81b1125d6817cc4f12a165cf",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: I turned a sketch into a 3D-print pegboard for my kid with an AI agent",
+      "link": "https://github.com/virpo/pegboard",
+      "published_at": "2026-03-30T23:20:02+00:00",
+      "summary": "HN story type: story HN points: 8 HN comments: 1 HN post text: We have pegboards and plywood all over our apartment, and I had an idea to make a tiny pegboard for my kid, Oli. So I naturally cut the wood, drilled in the holes, sat down at the computer to open Fusion 360 and spend an hour or two drawing the pieces by hand. Then I looked at the rough sketch Oli and I had made together, took a photo of it, pasted it into Codex, and gave it just two dimensions: the holes are 40mm apart and the pegs are 8mm wide. To my surprise, 5 minutes later my 3D printer was heating up and printing the first set. I ran it a few times to tune the dimensions for ideal fit, but I am posting the final result as a repository in case anyone else wants to print one, tweak it, or have fun with it too. I am already printing another one to hang on our front door instead of a wreath, so people visiting us have something fun and intriguing to play with while they knock. This is also going onto my list of weird uses of AI from the last few months. HN top comments: prodigycorp: Great work. The Agent x Parent combo has become my favorite niche in LLM space. It's unlocked so much creativity at a time where we have the least disposable time.",
+      "fetched_at": "2026-03-31T03:16:39.573710+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47580910",
+      "hn_story_type": "story",
+      "hn_points": "8",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47580910",
+      "hn_item_text": "We have pegboards and plywood all over our apartment, and I had an idea to make a tiny pegboard for my kid, Oli. So I naturally cut the wood, drilled in the holes, sat down at the computer to open Fusion 360 and spend an hour or two drawing the pieces by hand. Then I looked at the rough sketch Oli and I had made together, took a photo of it, pasted it into Codex, and gave it just two dimensions: the holes are 40mm apart and the pegs are 8mm wide. To my surprise, 5 minutes later my 3D printer was heating up and printing the first set. I ran it a few times to tune the dimensions for ideal fit, but I am posting the final result as a repository in case anyone else wants to print one, tweak it, or have fun with it too. I am already printing another one to hang on our front door instead of a wreath, so people visiting us have something fun and intriguing to play with while they knock. This is also going onto my list of weird uses of AI from the last few months.",
+      "hn_comment_preview": "prodigycorp: Great work. The Agent x Parent combo has become my favorite niche in LLM space. It's unlocked so much creativity at a time where we have the least disposable time.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "51",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=27,practical_tech=12,tools_agents=27,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 27,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 27,
+          "strong_hits": [
+            "ai agent",
+            "codex",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ai agent",
+        "codex",
+        "ide",
+        "llm",
+        "agent",
+        "github.com"
+      ],
+      "detail_slug": "e585a768fbb739de405dae3cb1948061ffc522b7",
+      "is_english_source": true,
+      "translated_title": "아이 스케치를 AI로 3D 프린트 페그보드로 만든 사례",
+      "short_summary": "한 HN 사용자가 아이와 함께 그린 스케치 사진과 두 개의 치수만 넣어 Codex로 3D 프린트용 페그보드 부품을 만들었다. 손으로 CAD를 그리던 시간을 줄인 뒤, 몇 차례 치수 보정을 거쳐 결과물을 저장소로 공개했다.",
+      "why_it_matters": "생성형 AI가 손그림 단계의 아이디어를 곧바로 제작 가능한 설계 초안으로 넘기는 흐름을 보여준 사례다. 취미 프로젝트처럼 보이지만, 설계와 시제품 제작의 앞단이 얼마나 짧아질 수 있는지 실감하게 한다.\n- 사진 한 장과 핵심 치수만으로 첫 출력물까지 빠르게 이어졌다는 점이 눈에 띈다. CAD 숙련도가 낮아도 시제품을 바로 확인하는 방식이 더 쉬워질 수 있다.\n- 다만 결과는 한 번에 끝나지 않았다. 실제 출력 후 치수를 다시 맞추는 과정이 필요해, AI가 설계 시간을 줄여줘도 제조 검증과 공차 조정은 여전히 사람 몫이라는 점이 드러난다.\n- 최종 결과를 저장소로 공개한 것도 실무 포인트다. 교육용 제작물이나 사내 프로토타입처럼 재사용과 수정이 잦은 작업에서 협업 자산으로 남기기 좋다.",
+      "hn_reaction_summary": "현재 HN 반응 규모는 크지 않지만 분위기는 대체로 호의적이다. 토론이 길게 이어지기보다는, AI가 바쁜 일상 속 개인 창작 시간을 다시 열어준다는 공감이 먼저 보인다.\n- 공개된 대표 댓글은 'Agent x Parent' 조합이 요즘 LLM 활용 중 가장 마음에 든다고 평가했다. 육아로 여유 시간이 적은 상황에서 특히 반응이 좋다는 맥락이다.\n- 지금 보이는 논점은 생산성보다 창의성 보조에 가깝다. AI가 전문가용 CAD를 완전히 대체했다기보다, 만들고 싶은 것을 시작하게 해주는 도구로 읽힌다.\n- 아직 댓글이 1개라 뚜렷한 반론 축은 없다. 다만 실무자가 보면 정확한 치수 생성, 반복 보정 비용, 최종 출력 품질이 이후 쟁점이 될 가능성이 크다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-03-31T03:19:41.017632+00:00"
+    },
+    {
       "id": "48667ca68f491f646d2198da70be018f034d07b6",
       "title_hash": "d33aa990434ebc32f4181b259736957caf4f2226",
       "source": "GeekNews",
@@ -49023,9 +49566,12 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트: 검증의 시간",
-        "summary": "이번 주 도구·에이전트 묶음은 새 기능 자랑보다 실제 사용에서 드러난 경계와 검증에 무게가 실렸다. 실습으로 익히고 사고 원인을 분리해 보는 흐름이 선명했다.\n\n- Claude Code 논란은 에이전트가 아니라 주변 자동화가 만든 문제로 정리됐다.\n- 학습 가이드와 Cherri는 문서보다 직접 돌려 보며 쓰임새와 한계를 확인하게 했다.\n- 지금 볼 이유는 분명하다. 성능 경쟁보다 내 워크플로에 안전하게 얹히는지가 더 빨리 갈리고 있어서다.",
+        "headline": "이번 주 도구·에이전트",
+        "summary": "이번 주 도구·에이전트 흐름은 통합과 운영 감각 점검으로 모였다. 연결은 빨라졌고, 이제는 어떻게 쓰고 어디까지 맡길지 묻는 단계다.\n\n- Codex가 Claude Code 안으로 들어오며 리뷰와 위임이 한 화면에서 이어지는 흐름이 또렷해졌다.\n- 토큰 절감법과 실습형 학습 가이드가 함께 주목받았다. 성능보다 워크플로를 다듬는 관심이 커졌다.\n- 스케치의 3D 제작 사례와 reset 오작동 해프닝은 자동화의 손맛과 안전장치를 지금 같이 봐야 할 이유를 보여줬다.",
         "item_ids": [
+          "b99ffc75aa3d8ae6f809cbf8576d18fa06c94ad6",
+          "26e4567bfc83853c671e4a91af39552ea4fdead2",
+          "e585a768fbb739de405dae3cb1948061ffc522b7",
           "48667ca68f491f646d2198da70be018f034d07b6",
           "d58b328ee618c23340a6d8e792cb5e7fb3bf4798",
           "11555d0bf5ab5d2d7448a1d7885126bc7a1fdf9d",
@@ -49163,15 +49709,10 @@
           "ad6470b654fe93f1a3cbb6cabf33fb5ff80e84fd",
           "992b673875d10ac424a215121df42d34f40f5c14",
           "d67ee9d9bc0898bd67961a394ab0d233bb58b5e2",
-          "b3ddf8a67db9b36c4ed5f8eff8d1abaf721dcbf3",
-          "48d7815f2b5450efb159a776cc90e5588821d601",
-          "aa403048f89ab7e64b89f7307d04fa75ddbd5538",
-          "d179077c893a63a6db741f8b9e553ac5ff5b85f5",
-          "de30a5797a9ff1f973306942b8d10f1988313846",
-          "f6e2e1832798869c6179cf6686d7a00457067481"
+          "b3ddf8a67db9b36c4ed5f8eff8d1abaf721dcbf3"
         ],
-        "total_items": 143,
-        "generated_at": "2026-03-30T23:09:11.734948+00:00",
+        "total_items": 141,
+        "generated_at": "2026-03-31T03:16:39.573710+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -49179,8 +49720,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "이번 주엔 범용 도구로는 막히는 지점을 현장 맥락에 맞게 다시 푸는 흐름이 또렷했다. 데모보다 운영 감각이 앞서고, 왜 지금 다시 기본기와 경량화가 주목받는지도 함께 드러났다.\n- 건설 도면 OCR처럼 도메인 전용 보정이 실제 성능 차이를 만든다는 사례가 나왔다.\n- Pretext와 GPT-5.4 mini·nano는 더 가볍고 빠른 실행으로 실서비스 적용 폭을 넓힌다.\n- Miasma와 VHDL 델타 사이클은 자동화 경쟁이 거세질수록 방어와 실행 모델 이해를 다시 챙겨야 한다는 신호다.",
+        "summary": "이번 주 실무 기술 묶음은 서비스 뒤에 숨은 추적 구조를 드러내고, 범용 도구가 놓친 맥락을 전용 소프트웨어로 메우는 흐름이 선명했다. 제품 설계 기준과 운영 판단을 지금 다시 점검하게 만든다.\n\n- 정부 앱 논란은 권한 수집, 추적 SDK, 웹으로도 충분한 기능 범위를 함께 묻게 한다.\n- 건설 도면 OCR과 Pretext는 현장 문서와 텍스트 배치처럼 맥락이 성능을 가르는 영역을 정면으로 다룬다.\n- Miasma는 AI 크롤링 확산 속에서 콘텐츠 보호도 이제 실무 선택지가 됐다는 점을 보여준다.",
         "item_ids": [
+          "a4425c78dcb8eac4778dfb8ce1a6fe861d69ce1b",
+          "7d8960dd25617851e976105dd362d90f8fe9cbf2",
           "b1b62d8a71e80e6423cdf61a6e0bd85fa91f1a56",
           "b7bd8b6aadde03d336941b855e1d400b391fb693",
           "be6571f57cc27b86602239e7122373af9cd83963",
@@ -49256,19 +49799,18 @@
           "ddf372a142e839e53b615559fcedc5a45650d192",
           "3c4a5ff7de542fd1bd5cfc2294953a344862303f",
           "7c7aa34e21402202f8ae3467edfc770e01e910d6",
-          "ecddb7d734eaf3538f5ee0dc43c02116474f3234",
-          "3e9a5685baa428f4aa70421a354efd372c49dbec"
+          "ecddb7d734eaf3538f5ee0dc43c02116474f3234"
         ],
-        "total_items": 77,
-        "generated_at": "2026-03-30T23:09:11.734948+00:00",
+        "total_items": 78,
+        "generated_at": "2026-03-31T03:16:39.573710+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 주 전략·인사이트: 기술 책임의 재계산",
-        "summary": "이번 주에는 AI와 플랫폼이 사람의 판단을 어떻게 밀어주고 흔드는지가 한 줄기로 이어졌다. 맞장구형 AI, 중독을 부르는 설계, 법원 판단, 소프트웨어 밸류에이션 변화가 겹치며 기술의 책임과 성장 공식이 함께 바뀌는 장면이 또렷해졌다.\n\n- 대화형 AI는 조언보다 동조에 기울기 쉽고, 사용자는 그런 답을 더 만족스럽게 받아들인다.\n- 플랫폼 설계 책임을 묻는 판결과 국방 조치 제동은 기술 기업을 보는 규칙이 달라졌음을 보여준다.\n- 소프트웨어 기업은 AI로 성장률을 다시 만들거나 수익성을 증명해야 한다는 압박이 커졌다.",
+        "headline": "이번 주 전략·인사이트: 신뢰의 가격",
+        "summary": "겉으론 더 똑똑해진 기술이 실제로는 신뢰, 책임, 수익성이라는 오래된 질문 앞에 다시 섰습니다. 이번 주는 그 기준이 제품과 시장, 법정에서 한꺼번에 시험받은 흐름이 또렷했습니다.\n\n- 대화형 AI는 조언자처럼 보이지만 사용자의 오판을 되받아칠 수 있습니다. 이제 성능만큼 신뢰 설계가 경쟁력이 됩니다.\n- 플랫폼은 중독 설계 책임을, AI 기업은 공공조달 판단의 법적 한계를 드러냈습니다. 규제와 소송이 사업 변수로 더 가까워졌습니다.\n- 소프트웨어 기업은 AI로 성장률을 다시 끌어올리거나 수익 구조를 새로 증명해야 합니다. 기대만으로는 버티기 어려운 국면입니다.",
         "item_ids": [
           "4a16c0db4ce89c63989e1017f42db9f3e6bd0185",
           "db3ad7236d8a87228e8ef820104580047b8b0470",
@@ -49286,7 +49828,7 @@
           "aa9a6b2ed0b7e63604030816a740b954d3ba4c38"
         ],
         "total_items": 14,
-        "generated_at": "2026-03-30T23:09:11.734948+00:00",
+        "generated_at": "2026-03-31T03:16:39.573710+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -49296,8 +49838,11 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "이번 달엔 도구를 더 잘 쓰는 법보다, 어디까지 믿고 맡길지 묻는 글이 많았다. 실습형 학습과 자동화 실험이 이어졌고, 막상 부딪히는 비용과 한계도 함께 드러났다.\n- 에이전트 사고처럼 보인 일도 실제 원인은 주변 자동화였다. 이제는 결과보다 실행 경로를 먼저 봐야 한다.\n- 읽기보다 실습으로 익히는 흐름이 강해졌다. 대신 쿼터와 난이도 설계 같은 운영 감각이 더 중요해졌다.\n- 자동화가 넓어질수록 확장 한계와 수리비 같은 현실 비용도 또렷해졌다. 지금 보면 기대와 마찰이 함께 읽힌다.",
+        "summary": "이번 달 도구·에이전트 흐름은 AI를 코드 작업 한가운데로 들이는 쪽에 모였다. 리뷰와 위임, 학습, 제작이 한 줄로 이어졌고 비용 관리와 검증 문제도 함께 떠올랐다.\n- Codex 플러그인처럼 기존 개발 도구 안에서 에이전트를 바로 호출하는 흐름이 빨라졌다.\n- Claude.md와 실습형 가이드가 토큰 부담과 진입 장벽을 낮추는 운영법으로 주목받았다.\n- 스케치 제작 사례와 reset 오해는 자동화가 넓어질수록 확인 절차도 같이 봐야 함을 보여줬다.",
         "item_ids": [
+          "b99ffc75aa3d8ae6f809cbf8576d18fa06c94ad6",
+          "26e4567bfc83853c671e4a91af39552ea4fdead2",
+          "e585a768fbb739de405dae3cb1948061ffc522b7",
           "48667ca68f491f646d2198da70be018f034d07b6",
           "d58b328ee618c23340a6d8e792cb5e7fb3bf4798",
           "11555d0bf5ab5d2d7448a1d7885126bc7a1fdf9d",
@@ -49729,8 +50274,8 @@
           "86eaa0b9ae86918b1096ddaf015907f73a541a80",
           "b65bd5533276d0caa3f2398a5328c48d0f67eca4"
         ],
-        "total_items": 430,
-        "generated_at": "2026-03-30T23:09:11.734948+00:00",
+        "total_items": 433,
+        "generated_at": "2026-03-31T03:16:39.573710+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -49738,8 +50283,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달엔 범용 도구의 빈틈을 현장형 기술로 메우는 흐름이 또렷했다. 작게 줄이되 더 잘 맞추고 필요하면 막는 쪽으로 실무 감각이 모였다.\n- 건설 도면 OCR과 멀티라인 측정은 일반 해법보다 맥락을 아는 전용 구현이 더 잘 먹힌다는 점을 보여줬다.\n- GPT-5.4 mini·nano와 VHDL 델타 사이클 재조명은 속도와 재현성을 다시 실무 기준으로 끌어올렸다.\n- 지금 보면 AI 도입과 방어가 한 흐름으로 붙고 있어, 다음 분기 선택 기준을 가늠하기 좋다.",
+        "summary": "이번 달 실무 기술 묶음은 겉으로 보이는 기능보다 수집, 측정, 추출, 방어 같은 바닥 기술이 제품 경험을 어떻게 바꾸는지 보여준다. 현업이 맞닥뜨린 경계가 더 또렷해졌다.\n- 공공 앱 감시 논란은 권한 설계와 웹 대체 가능성을 다시 묻게 했다.\n- 건설 도면 OCR 사례는 범용 모델보다 도메인 맥락 보정이 성패를 가른다는 흐름을 드러냈다.\n- 텍스트 레이아웃 계산과 AI 스크레이퍼 방어는 비용과 통제권을 코드 레벨로 끌어내린다.",
         "item_ids": [
+          "a4425c78dcb8eac4778dfb8ce1a6fe861d69ce1b",
+          "7d8960dd25617851e976105dd362d90f8fe9cbf2",
           "b1b62d8a71e80e6423cdf61a6e0bd85fa91f1a56",
           "b7bd8b6aadde03d336941b855e1d400b391fb693",
           "be6571f57cc27b86602239e7122373af9cd83963",
@@ -49977,8 +50524,8 @@
           "de54b6634502b40ed9372177dca6e6c57c205a2e",
           "755ac2f97593dec9f26da359a9722f03f30fb02c"
         ],
-        "total_items": 236,
-        "generated_at": "2026-03-30T23:09:11.734948+00:00",
+        "total_items": 238,
+        "generated_at": "2026-03-31T03:16:39.573710+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -49986,8 +50533,9 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 달 산업·비즈니스",
-        "summary": "이번 달 산업·비즈니스는 자본이 몰리는 새 시장과 그에 따른 반발이 함께 두드러졌다. AI 칩 투자부터 공공 기술 계약, 플랫폼 책임, 생활형 제품까지 돈의 흐름이 산업 경계와 일상으로 더 깊게 스며드는 모습이다.\n- 리벨리온 투자 유치는 AI 인프라 경쟁이 더 거세졌다는 신호다.\n- 유럽의 Palantir 반대와 Meta 배상 판결은 기술 기업이 신뢰와 규제를 더 무겁게 마주한 국면을 보여준다.\n- 예측시장 논란과 반려묘 책상은 시장이 사회 리스크와 취향까지 빠르게 상품으로 묶는 흐름을 드러낸다.",
+        "summary": "이번 달 산업·비즈니스는 자금이 몰리는 속도와 사회적 반발이 함께 커진 장면이 많았다. 투자 열기만 보기엔 위험 신호가 선명하다.\n- AI 버블 경고 속에서도 리벨리온엔 큰돈이 붙었다. 기대와 수익의 간격을 더 따져볼 시점이다.\n- Palantir 반대와 예측시장 논란은 기술과 돈이 공공 영역에 들어올 때 책임이 어디에 남는지 묻는다.\n- 반려묘 책상처럼 생활형 틈새 상품도 존재감을 보였다. 불안한 장세에서도 취향 소비는 이어진다.",
         "item_ids": [
+          "3525f07fd4e2925430185f91d9bee5ac6d908d81",
           "fae9a4b1014e2c517dc964535dffc65f45bfd30e",
           "815f42342083484aa14e3fc7ab4f4ded066de4a2",
           "ead75782824ef8ef36a7e33543cbd88edb60eeaf",
@@ -50047,8 +50595,8 @@
           "e48e02ae1f5f2008a94bbf79b1fa8e47bf0d921b",
           "392824ab5bae472def472a59d39e090ea943e5b3"
         ],
-        "total_items": 58,
-        "generated_at": "2026-03-30T23:09:11.734948+00:00",
+        "total_items": 59,
+        "generated_at": "2026-03-31T03:16:39.573710+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -50061,19 +50609,19 @@
       "title": "조용히 커지는 주제",
       "cta_label": "흐름 보기",
       "related_item_ids": [
-        "48667ca68f491f646d2198da70be018f034d07b6",
-        "be132e16bc17faa2f4881e90280acda1ff5a6716",
-        "dc7d78cbf39b582a1a97da28bcb60fc2e6f74473"
+        "b99ffc75aa3d8ae6f809cbf8576d18fa06c94ad6",
+        "26e4567bfc83853c671e4a91af39552ea4fdead2",
+        "d58b328ee618c23340a6d8e792cb5e7fb3bf4798"
       ],
-      "score": 0.91,
-      "generated_at": "2026-03-30T23:09:11.734948+00:00",
+      "score": 0.93,
+      "generated_at": "2026-03-31T03:16:39.573710+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "에이전트 주변 운영층",
-      "summary_line": "모델 경쟁보다 실행 경로와 로컬 운영을 다듬는 흐름이 더 자주 보였다.",
+      "topic_name": "에이전트 운영 감각",
+      "summary_line": "성능 경쟁보다 팀 안에 붙인 뒤 어떻게 굴릴지가 더 자주 이야기됐다.",
       "signals": [
-        "문제 원인을 에이전트가 아니라 자동화 레이어에서 다시 추적했다",
-        "워크트리마다 런타임을 분리해 충돌을 줄이려는 도구가 나왔다",
-        "로컬 모델 서빙도 프로필과 TUI로 관리하는 흐름이 붙었다"
+        "Claude Code 안에서 Codex를 바로 불러 리뷰와 위임을 잇는 흐름이 선명해졌다.",
+        "공용 Claude.md로 답변 길이를 다뤄 토큰과 지연을 줄이려는 운영 팁이 주목받았다.",
+        "새 도구는 문서보다 실습형 온보딩이 더 잘 먹힌다는 반응이 이어졌다."
       ]
     },
     {
@@ -50081,38 +50629,37 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "논쟁 읽기",
+      "cta_label": "논쟁 보기",
       "related_item_ids": [
-        "54f0b14d399600c3b09f811b2b36b2e1741b8837"
+        "26e4567bfc83853c671e4a91af39552ea4fdead2"
       ],
-      "score": 0.84,
-      "generated_at": "2026-03-30T23:09:11.734948+00:00",
+      "score": 0.89,
+      "generated_at": "2026-03-31T03:16:39.573710+00:00",
       "ai_model": "codex-cli",
-      "headline": "풍자는 통쾌했지만, 선을 넘었다는 반박도 거셌다",
-      "issue_title": "30언더30 추적 사이트는 검증인가 낙인인가",
-      "opposition_summary": "선정 기준이 거칠고 실제 사업까지 한데 묶어 평판 피해를 키운다는 비판이 많았다.",
-      "support_summary": "과장된 명성과 검증 부실을 드러내는 풍자라는 옹호도 분명했다."
+      "headline": "토큰 절감 팁인가, 실전 착시인가",
+      "issue_title": "범용 Claude.md로 출력 토큰 63% 줄이기",
+      "opposition_summary": "짧은 설명 과제 중심 벤치마크라 실제 코딩 흐름에선 효과가 달라질 수 있다는 반론이 거셌다.",
+      "support_summary": "팀 공용 지침만으로 응답 길이와 형식을 잡아 비용과 속도를 함께 낮출 수 있다는 기대가 컸다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 따라가기",
+      "cta_label": "신호 보기",
       "related_item_ids": [
-        "11555d0bf5ab5d2d7448a1d7885126bc7a1fdf9d",
-        "b7bd8b6aadde03d336941b855e1d400b391fb693",
-        "7bceeae4ca3e6252205638b60f8438bb4629b816"
+        "a4425c78dcb8eac4778dfb8ce1a6fe861d69ce1b",
+        "7d8960dd25617851e976105dd362d90f8fe9cbf2"
       ],
-      "score": 0.88,
-      "generated_at": "2026-03-30T23:09:11.734948+00:00",
+      "score": 0.86,
+      "generated_at": "2026-03-31T03:16:39.573710+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "불편한 인터페이스를 다시 코드로 가져온다",
-      "summary_line": "GUI나 브라우저에 묶여 있던 일을 코드로 되찾는 작은 도구가 연달아 나왔다.",
+      "signal_title": "웹으로도 되는데 앱을 낸다",
+      "summary_line": "편의보다 수집 경로가 먼저 보이는 배포가 반복됐다. 공공 서비스에서 특히 도드라졌다.",
       "signals": [
-        "애플 단축어를 코드로 컴파일하려는 시도가 주목받았다",
-        "DOM 없이 멀티라인 텍스트 레이아웃을 계산하는 라이브러리가 나왔다",
-        "3D CAD 형상을 파이썬으로 정의하는 흐름이 다시 힘을 받았다"
+        "웹으로도 충분한 기능인데 네이티브 앱을 택하며 권한 범위가 커졌다.",
+        "추적 SDK와 기기 식별 수집이 공공 서비스 앱 안까지 깊게 들어왔다.",
+        "규제를 말하는 주체와 실제 배포 방식 사이의 간극이 더 또렷해졌다."
       ]
     }
   ],
@@ -50123,19 +50670,19 @@
     "title": "조용히 커지는 주제",
     "cta_label": "흐름 보기",
     "related_item_ids": [
-      "48667ca68f491f646d2198da70be018f034d07b6",
-      "be132e16bc17faa2f4881e90280acda1ff5a6716",
-      "dc7d78cbf39b582a1a97da28bcb60fc2e6f74473"
+      "b99ffc75aa3d8ae6f809cbf8576d18fa06c94ad6",
+      "26e4567bfc83853c671e4a91af39552ea4fdead2",
+      "d58b328ee618c23340a6d8e792cb5e7fb3bf4798"
     ],
-    "score": 0.91,
-    "generated_at": "2026-03-30T23:09:11.734948+00:00",
+    "score": 0.93,
+    "generated_at": "2026-03-31T03:16:39.573710+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "에이전트 주변 운영층",
-    "summary_line": "모델 경쟁보다 실행 경로와 로컬 운영을 다듬는 흐름이 더 자주 보였다.",
+    "topic_name": "에이전트 운영 감각",
+    "summary_line": "성능 경쟁보다 팀 안에 붙인 뒤 어떻게 굴릴지가 더 자주 이야기됐다.",
     "signals": [
-      "문제 원인을 에이전트가 아니라 자동화 레이어에서 다시 추적했다",
-      "워크트리마다 런타임을 분리해 충돌을 줄이려는 도구가 나왔다",
-      "로컬 모델 서빙도 프로필과 TUI로 관리하는 흐름이 붙었다"
+      "Claude Code 안에서 Codex를 바로 불러 리뷰와 위임을 잇는 흐름이 선명해졌다.",
+      "공용 Claude.md로 답변 길이를 다뤄 토큰과 지연을 줄이려는 운영 팁이 주목받았다.",
+      "새 도구는 문서보다 실습형 온보딩이 더 잘 먹힌다는 반응이 이어졌다."
     ]
   }
 }
