@@ -1,6 +1,449 @@
 {
   "items": [
     {
+      "id": "4ec1528e639a5da2b59775406143af76a906563d",
+      "title_hash": "249a384b953b79d78e4f1397a07d04d9eea42ee4",
+      "source": "GeekNews",
+      "title": "Claude Code 유출 소스 기반 Python 클린룸 재작성 프로젝트 - claw-code",
+      "link": "https://news.hada.io/topic?id=28061",
+      "published_at": "2026-03-31T16:17:53+00:00",
+      "summary": "2026년 3월 31일 새벽 4시, Claude Code의 소스코드가 외부에 노출되면서 개발자 커뮤니티가 술렁였습니다. 한국의 개발자 Sigrid Jin(@instructkr)은 법적 리스크를 피하기 위해 원본 소스를 보관하는 대신, 날이 밝기 전 핵심 기능을 Python으로 처음부터 재작성해 공개했습니다. 이 프로젝트가 claw-code입니다....",
+      "fetched_at": "2026-04-01T00:10:42.463092+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=2,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "4ec1528e639a5da2b59775406143af76a906563d",
+      "is_english_source": false,
+      "sent_at": "2026-04-01T00:14:11.655166+00:00"
+    },
+    {
+      "id": "f7331389660ccd18bb0400071b83a2906ff9a1b3",
+      "title_hash": "407611b027d9d7a12ff4f52275c96028e52a8d8c",
+      "source": "GeekNews",
+      "title": "Ollama, 이제 애플 실리콘에서 MLX 기반으로 구동",
+      "link": "https://news.hada.io/topic?id=28049",
+      "published_at": "2026-03-31T09:09:19+00:00",
+      "summary": "Apple MLX 프레임워크 를 기반으로 한 Ollama의 프리뷰 버전이 공개, Apple Silicon의 통합 메모리 아키텍처 를 활용한 성능 향상 제공 M5 시리즈 칩의 GPU Neural Accelerator 를 통해 TTFT(첫 토큰 생성 시간) 과 토큰 ...",
+      "fetched_at": "2026-04-01T00:10:42.463092+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=4,practical_tech=4,tools_agents=4,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "아키텍처",
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "아키텍처"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "아키텍처",
+        "성능"
+      ],
+      "detail_slug": "f7331389660ccd18bb0400071b83a2906ff9a1b3",
+      "is_english_source": false,
+      "sent_at": "2026-04-01T00:14:11.655166+00:00"
+    },
+    {
+      "id": "0e694f0a374d56ec90064cd20f2ea44f587d0c4b",
+      "title_hash": "195426266641f669375cfec13f6a6de986654545",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: 1-Bit Bonsai, the First Commercially Viable 1-Bit LLMs",
+      "link": "https://prismml.com/",
+      "published_at": "2026-03-31T21:01:18+00:00",
+      "summary": "HN story type: story HN points: 49 HN comments: 20 HN top comments: jjcm: 1 bit with a FP16 scale factor every 128 bits. Fascinating that this works so well. I tried a few things with it. Got it driving Cursor, which in itself was impressive - it handled some tool usage. Via cursor I had it generate a few web page tests. On a monte carlo simulation of pi, it got the logic correct but failed to build an interface to start the test. Requesting changes mostly worked, but left over some sym... _fw: What’s the trade-off? If it’s smaller, faster and more efficient - is it worse performance? A layman here, curious to know. alyxya: I expect the trend of large machine learning models to go towards bits rather than operating on floats. There's a lot of inefficiency in floats because typically they're something like normally distributed, which makes the storage and computation with weights inefficient when most values are clustered in a small range. The foundation of neural networks may be rooted in real valued functions, which are simulated wi...",
+      "fetched_at": "2026-04-01T00:10:42.463092+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47593422",
+      "hn_story_type": "story",
+      "hn_points": "49",
+      "hn_comments_count": "20",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47593422",
+      "hn_item_text": "",
+      "hn_comment_preview": "jjcm: 1 bit with a FP16 scale factor every 128 bits. Fascinating that this works so well. I tried a few things with it. Got it driving Cursor, which in itself was impressive - it handled some tool usage. Via cursor I had it generate a few web page tests. On a monte carlo simulation of pi, it got the logic correct but failed to build an interface to start the test. Requesting changes mostly worked, but left over some sym...\n_fw: What’s the trade-off? If it’s smaller, faster and more efficient - is it worse performance? A layman here, curious to know.\nalyxya: I expect the trend of large machine learning models to go towards bits rather than operating on floats. There's a lot of inefficiency in floats because typically they're something like normally distributed, which makes the storage and computation with weights inefficient when most values are clustered in a small range. The foundation of neural networks may be rooted in real valued functions, which are simulated wi...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=14,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 14,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "performance",
+            "distributed",
+            "storage",
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "cursor",
+            "llm"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "distributed",
+        "storage",
+        "show hn"
+      ],
+      "detail_slug": "0e694f0a374d56ec90064cd20f2ea44f587d0c4b",
+      "is_english_source": true,
+      "translated_title": "상용 가능성 보인 1비트 LLM, 1-Bit Bonsai",
+      "short_summary": "1-Bit Bonsai는 1비트 양자화 LLM이 상용 수준까지 갈 수 있다는 가능성을 보여준 HN 프론트페이지 글이다. 댓글에서는 놀라운 효율성에 대한 기대와 함께 성능 저하가 어디서 드러나는지 묻는 검증도 이어졌다.",
+      "why_it_matters": "이 글이 주목받는 이유는 LLM 경쟁의 기준이 모델 크기보다 실제 배포 비용과 전력 효율로 옮겨가고 있음을 보여주기 때문이다.\n- 1비트급 모델이 일정 수준의 코딩과 도구 사용을 해낸다면 온디바이스 배포나 저비용 추론 구성이 훨씬 현실에 가까워진다.\n- 다만 작고 빠르다고 바로 대체 가능한 것은 아니다. 실무에서는 정확도, 긴 작업의 완성도, 수정 반복 시 안정성을 따로 확인해야 한다.\n- 인프라와 제품 팀 모두 모델 평가 기준을 다시 잡게 된다. 성능뿐 아니라 메모리 사용량, 지연 시간, 운영비를 함께 비교해야 한다.",
+      "hn_reaction_summary": "HN에서는 정말 여기까지 왔나 하는 놀라움과, 그래서 무엇을 포기해야 하느냐는 검증 분위기가 함께 보였다.\n- 한 사용자는 Cursor에 연결해 웹 테스트를 만들어 봤고, 기본 로직은 맞았지만 인터페이스를 끝까지 구성하지 못한 사례를 공유했다.\n- 반복해서 나온 질문은 성능 손실의 크기였다. 더 작고 빠르고 효율적이라면 실제 품질은 어디서 떨어지는지 궁금하다는 반응이 많았다.\n- 일부는 부동소수점 표현의 비효율을 언급하며, 앞으로는 float보다 저비트 표현 중심으로 흐름이 옮겨갈 수 있다는 기술적 전망을 내놨다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-01T00:14:11.655166+00:00"
+    },
+    {
+      "id": "c1a18af2c30716faead8068e52555b38387a402d",
+      "title_hash": "bf6bdc435c2ec56c17845442a1ac21d9ec082b21",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+      "link": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+      "published_at": "2026-03-31T13:04:30+00:00",
+      "summary": "HN story type: story HN points: 659 HN comments: 257 HN post text: Related ongoing thread: Claude Code's source code has been leaked via a map file in their NPM registry - https://news.ycombinator.com/item?id=47584540 Also related: https://www.ccleaks.com HN top comments: mzajc: There are now several comments that (incorrectly?) interpret the undercover mode as only hiding internal information. Excerpts from the actual prompt[0]: NEVER include in commit messages or PR descriptions: - The phrase \"Claude Code\" or any mention that you are an AI - Co-Authored-By lines or any other attribution BAD (never write these): - 1-shotted by claude-opus-4-6 - Generated with Claude Code - Co-Authored-By... preston-kwei: I’m more curious how this impacts trust than anything else. In the span of basically a week, they accidentally leaked Mythos, and then now the entire codebase of CC. All while many people are complaining about their usage limits being consumed quickly. Individually, each issue is manageable (Because its exciting looking through leaked code). But together, it starts to feel like a pattern. At some point, I think th... causal: I'm amazed at how much of what my past employers would call trade secrets are just being shipped in the source. Including comments that just plainly state the whole business backstory of certain decisions. It's like they discarded all release harnesses and project tracking and just YOLO'd everything into the codebase itself. Edit: Everyone is responding \"comments are good\" and I can't tell if any of you actually r...",
+      "fetched_at": "2026-04-01T00:10:42.463092+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47586778",
+      "hn_story_type": "story",
+      "hn_points": "659",
+      "hn_comments_count": "257",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47586778",
+      "hn_item_text": "Related ongoing thread: Claude Code's source code has been leaked via a map file in their NPM registry - https://news.ycombinator.com/item?id=47584540 Also related: https://www.ccleaks.com",
+      "hn_comment_preview": "mzajc: There are now several comments that (incorrectly?) interpret the undercover mode as only hiding internal information. Excerpts from the actual prompt[0]: NEVER include in commit messages or PR descriptions: - The phrase \"Claude Code\" or any mention that you are an AI - Co-Authored-By lines or any other attribution BAD (never write these): - 1-shotted by claude-opus-4-6 - Generated with Claude Code - Co-Authored-By...\npreston-kwei: I’m more curious how this impacts trust than anything else. In the span of basically a week, they accidentally leaked Mythos, and then now the entire codebase of CC. All while many people are complaining about their usage limits being consumed quickly. Individually, each issue is manageable (Because its exciting looking through leaked code). But together, it starts to feel like a pattern. At some point, I think th...\ncausal: I'm amazed at how much of what my past employers would call trade secrets are just being shipped in the source. Including comments that just plainly state the whole business backstory of certain decisions. It's like they discarded all release harnesses and project tracking and just YOLO'd everything into the codebase itself....",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=9,tools_agents=22,strategy_insight=12,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 22,
+        "strategy_insight": 12,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "claude code",
+            "ide"
+          ],
+          "support_hits": [
+            "prompt",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [
+            "decision",
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "business"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "prompt",
+        "tool",
+        "claude + code"
+      ],
+      "detail_slug": "c1a18af2c30716faead8068e52555b38387a402d",
+      "is_english_source": true,
+      "translated_title": "클로드 코드 유출 파장: 가짜 도구와 잠복 모드 논란",
+      "short_summary": "클로드 코드 소스 유출로 내부 프롬프트와 도구 설계, 이른바 잠복 모드 같은 운영 방식이 드러났다는 이야기다. HN에서는 기능보다 신뢰 훼손과 배포 관리 부실을 더 크게 보는 반응이 많았다.",
+      "why_it_matters": "이번 이슈는 AI 코딩 도구의 성능보다 운영 원칙과 배포 통제가 얼마나 직접적으로 신뢰에 연결되는지 보여준다.\n- 내부 프롬프트와 숨김 규칙이 드러나면서 자동 커밋, PR 기록, 기여 표기 기준을 팀 차원에서 다시 점검해야 한다.\n- 소스맵이나 패키지 배포 관리가 느슨하면 코드뿐 아니라 정책, 예외 처리, 의사결정 흔적까지 한꺼번에 노출될 수 있다.\n- 사용량 제한 불만 같은 운영 이슈가 보안 실수와 겹치면 제품 기능보다 공급자에 대한 신뢰 문제가 먼저 커진다.",
+      "hn_reaction_summary": "댓글 분위기는 구경거리를 넘어 왜 이런 상태로 배포됐는지 묻는 쪽에 더 가까웠다. 흥미롭다는 반응도 있었지만 전반적으론 냉소와 불신이 섞였다.\n- undercover mode를 두고 단순한 내부 정보 보호가 아니라 AI 사용 사실이나 기여 흔적까지 감추려 한 것 아니냐는 비판이 반복됐다.\n- 최근 다른 유출 사례와 빠른 사용량 소모 불만이 겹치면서, 개별 사고가 아니라 운영 문화의 패턴으로 봐야 한다는 의견이 많았다.\n- 코드 주석에 사업적 배경과 결정 이유가 자세히 남아 있는 점을 두고는 기록이 솔직하다는 평가와 출시 관리가 허술했다는 비판이 맞섰다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-01T00:14:11.655166+00:00"
+    },
+    {
+      "id": "6b5eda3b6a92b6c2407fe49c2714283b1f710cbc",
+      "title_hash": "146771cb34d12f5936efbd74f71f5d1eb592ed5a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Cohere Transcribe: Speech Recognition",
+      "link": "https://cohere.com/blog/transcribe",
+      "published_at": "2026-03-31T16:27:02+00:00",
+      "summary": "HN story type: story HN points: 150 HN comments: 49 HN top comments: dinakernel: My worry is that ASR will end up like OCR. If the multi modal large AI system is good enough (latency wise), the advantage of domain understanding eats the other technlogies alive. In OCR, even when the characters are poorly scanned, the deep domain understanding these large multi modal AIs have allows it to understand what the document actually meant - this is going to be order id because in the million invoices... nodja: It's probably another ASR model that focuses on benchmarks and simple uses instead of more challenging real use cases. I upload edited gameplay vods of twitch streams on youtube, and use whisper-large-v3 to provide subtitles for accessibility reasons (youtube's own auto-subtitles suck, tho they've been getting better). My checklist for a good ASR model for my use case is: 1. Have timestamp support. 2. Support over... gruez: > Limitations >Timestamps/Speaker diarization. The model does not feature either of these. What a shame. Is whisperx still the best choice if you want timestamps/diarization?",
+      "fetched_at": "2026-04-01T00:10:42.463092+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47589818",
+      "hn_story_type": "story",
+      "hn_points": "150",
+      "hn_comments_count": "49",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47589818",
+      "hn_item_text": "",
+      "hn_comment_preview": "dinakernel: My worry is that ASR will end up like OCR. If the multi modal large AI system is good enough (latency wise), the advantage of domain understanding eats the other technlogies alive. In OCR, even when the characters are poorly scanned, the deep domain understanding these large multi modal AIs have allows it to understand what the document actually meant - this is going to be order id because in the million invoices...\nnodja: It's probably another ASR model that focuses on benchmarks and simple uses instead of more challenging real use cases. I upload edited gameplay vods of twitch streams on youtube, and use whisper-large-v3 to provide subtitles for accessibility reasons (youtube's own auto-subtitles suck, tho they've been getting better). My checklist for a good ASR model for my use case is: 1. Have timestamp support. 2. Support over...\ngruez: > Limitations >Timestamps/Speaker diarization. The model does not feature either of these. What a shame. Is whisperx still the best choice if you want timestamps/diarization?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "benchmark",
+            "latency"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "benchmark",
+        "latency"
+      ],
+      "detail_slug": "6b5eda3b6a92b6c2407fe49c2714283b1f710cbc",
+      "is_english_source": true,
+      "translated_title": "코히어의 음성 인식 제품 '트랜스크라이브'",
+      "short_summary": "코히어의 음성 인식 제품 '트랜스크라이브'가 HN 전면에서 화제가 됐다. 댓글에선 성능 자체보다 타임스탬프와 화자 분리 부재, 긴 영상 자막 같은 실제 작업에서의 활용성이 더 큰 쟁점으로 떠올랐다.",
+      "why_it_matters": "이번 이야기는 음성 인식 도구를 고를 때 기준이 어디로 옮겨가고 있는지 보여준다. 이제는 인식률만 좋다고 끝나지 않는다. 바로 업무 흐름에 붙일 수 있는지가 더 까다롭게 검증된다.\n- 자막, 회의록, 콜 분석처럼 후처리가 필요한 현장에선 타임스탬프와 화자 분리가 빠지면 도입 장벽이 높다.\n- 실무 팀은 새 모델을 볼 때 벤치마크 수치보다 긴 오디오, 잡음, 겹화음, 편집본 같은 현실 데이터에서 바로 쓸 수 있는지 먼저 따지게 된다.\n- 멀티모달 LLM이 문맥 이해를 앞세워 ASR을 흡수할 수 있다는 시각도 나와, 앞으로는 단순 전사 성능보다 맥락 처리 능력이 더 자주 비교될 가능성이 있다.",
+      "hn_reaction_summary": "HN 분위기는 기대와 아쉬움이 섞여 있다. 새 ASR이 나왔다는 사실보다 실제 영상 자막과 회의 기록에 얼마나 바로 투입할 수 있는지가 더 많이 논의됐다.\n- 가장 자주 나온 불만은 타임스탬프와 화자 분리 미지원이다. 결과가 좋아도 이 기능이 없으면 후처리 비용이 커진다는 반응이 많았다.\n- 일부는 whisper-large-v3나 whisperx 같은 기존 조합이 아직 더 실용적이라고 봤다. 특히 접근성 자막처럼 정렬 정보가 필요한 작업에서 비교가 집중됐다.\n- 한편에선 ASR이 OCR처럼 문맥 이해가 강한 멀티모달 모델 쪽으로 수렴할 수 있다는 전망도 나왔다. 성능 경쟁의 축이 인식률에서 업무 맥락 이해로 옮겨갈 수 있다는 문제의식이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-01T00:14:11.655166+00:00"
+    },
+    {
       "id": "b53dc9d9dcbf9157fe62392ab3dd2b82e5bb8e7d",
       "title_hash": "23b9daf1962c5643f51f859c48417e38d98c7962",
       "source": "GeekNews",
@@ -51348,9 +51791,11 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트",
-        "summary": "이번 주 도구·에이전트 묶음은 코딩 에이전트의 속도보다 구조 공개, 품질 관리, 책임 경계가 더 큰 화두로 올라온 장면을 보여준다. 지금 읽으면 기대치와 경계선을 함께 잡을 수 있다.\n- Claude Code 해부와 소스 유출은 에이전트가 실제로 어떻게 돌아가며 어디서 취약해지는지 한 번에 드러냈다.\n- AI 슬롭, 코파일럿 면책, 데이터 검증 논쟁은 생성 성능보다 결과를 믿고 맡길 기준을 먼저 세우라는 신호에 가깝다.",
+        "headline": "이번 주 도구·에이전트: 유출 이후",
+        "summary": "이번 주 도구·에이전트 묶음은 Claude Code 유출을 계기로, 성능 경쟁보다 배포 신뢰와 운영 품질을 더 따져 묻는 분위기가 짙어졌다는 점을 보여준다.\n- .map 경로로 드러난 내부 구조를 따라가며 에이전트 루프와 컨텍스트 로딩, 도구 설계가 빠르게 해부됐다.\n- 곧바로 클린룸 재작성까지 나오며 구현 원리를 배우고 옮겨 적는 속도도 한층 빨라졌다.\n- 가짜 도구, 잠복 모드, AI 슬롭 논쟁이 겹치면서 지금은 기능 자랑보다 통제와 유지비를 함께 볼 시점이라는 신호가 선명해졌다.",
         "item_ids": [
+          "4ec1528e639a5da2b59775406143af76a906563d",
+          "c1a18af2c30716faead8068e52555b38387a402d",
           "b53dc9d9dcbf9157fe62392ab3dd2b82e5bb8e7d",
           "641cd222fd3c6ef3e0ab8fd229b660b04240cb46",
           "d358b5dce78f7453a59d8f782c6d312e67ac4289",
@@ -51483,21 +51928,22 @@
           "815ae95df594f06c42fc7fd85df47ab4b7ffddd6",
           "5701357712cf01b468638840a35b24d71625ee54",
           "dc669d564a88856ef17d04013f5ff0143c9fafe9",
-          "cc892c2aaa802dda333ee59016ad6c516b005a23",
-          "f48a0e106c5734388543e6fe27c1f7de4875cc60",
-          "85483bedc83d5e04d933bcc14669b274743dca06"
+          "cc892c2aaa802dda333ee59016ad6c516b005a23"
         ],
         "total_items": 135,
-        "generated_at": "2026-03-31T19:58:07.171632+00:00",
+        "generated_at": "2026-04-01T00:10:42.463092+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술: 제약을 다시 설계하는 흐름",
-        "summary": "이번 주 실무 기술은 AI 기능을 늘리는 것보다, 현장 제약을 다시 설계하는 흐름이 두드러졌다. 검색의 의미 정렬, 긴 문맥 비용 절감, 설치 장벽 축소가 한 줄로 이어진다.\n\n- RAG와 온톨로지, 텍스트와 이미지 임베딩 비교는 검색 품질을 높이려면 구조와 시각 정보도 함께 다뤄야 함을 보여준다.\n- Postgres BM25와 KV 캐시 사례는 성능 병목을 줄여야 실무 적용 속도도 붙는다는 점을 드러낸다.\n- 브라우저 CAD까지 더해져, 지금은 새 모델보다 배포 방식과 운영 감각의 변화를 볼 때다.",
+        "headline": "이번 주 실무 기술",
+        "summary": "이번 주는 모델 성능 경쟁보다 현장에 바로 붙는 조건이 더 선명했다. 경량화, 로컬 최적화, 기존 스택 결합이 한 흐름으로 이어졌다.\n\n- Ollama MLX와 1비트 LLM은 적은 자원으로 성능과 비용을 다시 따지게 했다.\n- 코히어 사례는 정확도보다 타임스탬프, 화자 분리 같은 마감 기능이 실무의 기준임을 보여줬다.\n- 온톨로지와 Postgres BM25, AI 코딩 도구 흐름은 기존 업무 체계 안에서 빨리 붙는 구현이 왜 지금 더 주목받는지 드러냈다.",
         "item_ids": [
+          "f7331389660ccd18bb0400071b83a2906ff9a1b3",
+          "0e694f0a374d56ec90064cd20f2ea44f587d0c4b",
+          "6b5eda3b6a92b6c2407fe49c2714283b1f710cbc",
           "8aae3ad38d488fe8e6bd7e70654fbea3b7b2bde0",
           "627c308ab5f7f93d0a88db31d8e5e3d423fb1d0d",
           "4be58322149895c1fd9ee628c64c9cbfc8ae97e4",
@@ -51568,13 +52014,10 @@
           "942f9f1c1b4cae75337615f1a8cb030e5675b676",
           "3cf5fe50715feca075806871064fcdd5b3003814",
           "aa13865852c33d8cf3cc54ee3fec46180708ba2b",
-          "f4e57bafd97ecd9a08daf4442a418aaff8bc1847",
-          "60266025d1498a66f7a22514c608b28eeb616051",
-          "d275f666888cb1c26e63c5e37125f129229ab221",
-          "bd8b21385d24c971968cf60faa04a9ff3b152bb8"
+          "f4e57bafd97ecd9a08daf4442a418aaff8bc1847"
         ],
         "total_items": 74,
-        "generated_at": "2026-03-31T19:58:07.171632+00:00",
+        "generated_at": "2026-04-01T00:10:42.463092+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -51582,7 +52025,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 주 전략·인사이트",
-        "summary": "이번 주엔 더 크게 만드는 기술보다 무엇을 키우고 어떤 판단을 밀어주는지가 성패를 가른다는 흐름이 겹쳐 보였습니다.\n- 스타트업 성장론은 자사보다 사람과 고객의 신뢰를 먼저 키우는 역발상을 내세웠습니다.\n- AI는 더 긴 문맥과 범용성으로 가지만 설명 가능성과 아첨형 응답이 함께 시험대에 올랐습니다.\n- 플랫폼은 몰입 설계의 책임까지 묻기 시작해 지금 제품을 보는 기준도 달라지고 있습니다.",
+        "summary": "성장은 더 빨라졌지만, 시장이 먼저 보는 건 신뢰를 어떻게 쌓고 지키느냐다. 이번 주 글들은 스타트업의 관계 설계부터 AI와 플랫폼 책임 논쟁까지, 같은 질문을 다른 장면에서 비춘다.\n\n- 브랜드보다 사람과 고객의 성장을 먼저 밀어주는 전략이 초기 확장의 신호로 떠오른다.\n- AI는 더 긴 맥락과 넓은 범위를 다루지만 설명 가능성, 맞장구 성향, 신뢰 기준은 더 까다로워지고 있다.\n- 플랫폼 설계는 이제 체류 시간이 아니라 위해 가능성과 책임까지 함께 묻는 단계로 들어섰다.",
         "item_ids": [
           "ca41ecc8af6eb891accf8f3c20c3f2c08f66f490",
           "9bd792ad328404dc1e96fdf0c3f80d39c12a9fbf",
@@ -51599,7 +52042,7 @@
           "361dac45cea8f022f28e4f1210a5e4a821589423"
         ],
         "total_items": 13,
-        "generated_at": "2026-03-31T19:58:07.171632+00:00",
+        "generated_at": "2026-04-01T00:10:42.463092+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -51609,8 +52052,10 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "에이전트 도구를 보는 시선이 기능 소개를 넘어 운영과 책임으로 옮겨간 한 달입니다. 어떻게 돌아가는지, 사고가 나면 누가 감당하는지, 결과를 어디까지 믿을지 따지는 흐름이 이어졌습니다.\n- Claude Code 해부와 소스 유출은 내부 구조와 배포 관리의 허점을 함께 드러냈습니다.\n- AI 슬롭 논쟁과 코파일럿 면책 논란은 생산성보다 품질, 책임, 운영비를 먼저 묻게 합니다.\n- LLM 원천 데이터 검증 논쟁까지 겹치며 지금은 '잘 쓰는 법'보다 '믿고 쓸 조건'을 점검할 때입니다.",
+        "summary": "클로드 코드 유출을 계기로 에이전트 도구의 속살이 한꺼번에 드러났다. 재현과 해부, 품질 논쟁이 함께 붙으며 지금 무엇을 믿고 써야 하는지 묻는 흐름이 선명해졌다.\n\n- 유출 소스는 곧바로 클린룸 재작성과 내부 구조 분석으로 이어졌다.\n- 관심은 기능 자랑보다 배포 관리, 신뢰, 잠복 모드 같은 운영 문제로 옮겨갔다.\n- AI 슬롭 논의까지 겹치며, 빠른 생성보다 검증 가능한 도구 설계가 왜 필요한지 보여준다.",
         "item_ids": [
+          "4ec1528e639a5da2b59775406143af76a906563d",
+          "c1a18af2c30716faead8068e52555b38387a402d",
           "b53dc9d9dcbf9157fe62392ab3dd2b82e5bb8e7d",
           "641cd222fd3c6ef3e0ab8fd229b660b04240cb46",
           "d358b5dce78f7453a59d8f782c6d312e67ac4289",
@@ -52055,8 +52500,8 @@
           "86eaa0b9ae86918b1096ddaf015907f73a541a80",
           "b65bd5533276d0caa3f2398a5328c48d0f67eca4"
         ],
-        "total_items": 443,
-        "generated_at": "2026-03-31T19:58:07.171632+00:00",
+        "total_items": 445,
+        "generated_at": "2026-04-01T00:10:42.463092+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -52064,8 +52509,11 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달엔 AI와 개발 도구가 한층 실무 쪽으로 기울었습니다. 검색만 잘하는 단계를 넘어 구조를 세우고, 메모리와 배포 방식까지 다시 따지는 흐름이 선명합니다.\n\n- RAG는 온톨로지와 멀티모달 임베딩을 만나며 자료 수집보다 의미 체계와 근거 품질을 다지는 쪽으로 무게가 옮겨갑니다.\n- Postgres BM25, 브라우저 CAD처럼 익숙한 기반에 빠르게 얹는 구현이 개발 속도와 도입 부담을 함께 줄이는 카드로 보입니다.\n- 긴 문맥 비용과 기능 공백이 같이 드러난 시기라, 지금 읽으면 무엇을 붙이고 어디서 멈출지 기준이 또렷해집니다.",
+        "summary": "이번 달엔 성능 경쟁보다 현업에 바로 붙는 실행 방식이 더 선명했다. 로컬 추론, 초경량 모델, 전사, 검색 구조화까지 결국 비용과 작업 맥락을 얼마나 줄이느냐가 공통 화두다.\n- Ollama MLX와 1비트 LLM은 같은 흐름이다. 적은 자원으로 더 빨리 돌리려는 시도다.\n- 코히어 전사는 정확도보다 타임스탬프, 화자 분리 같은 실사용 조건이 먼저 검증됐다.\n- BM25와 온톨로지 논의는 지금 AI를 붙이기보다 검색 구조와 의미 체계를 먼저 다질 때라는 신호를 준다.",
         "item_ids": [
+          "f7331389660ccd18bb0400071b83a2906ff9a1b3",
+          "0e694f0a374d56ec90064cd20f2ea44f587d0c4b",
+          "6b5eda3b6a92b6c2407fe49c2714283b1f710cbc",
           "8aae3ad38d488fe8e6bd7e70654fbea3b7b2bde0",
           "627c308ab5f7f93d0a88db31d8e5e3d423fb1d0d",
           "4be58322149895c1fd9ee628c64c9cbfc8ae97e4",
@@ -52312,8 +52760,8 @@
           "de54b6634502b40ed9372177dca6e6c57c205a2e",
           "755ac2f97593dec9f26da359a9722f03f30fb02c"
         ],
-        "total_items": 245,
-        "generated_at": "2026-03-31T19:58:07.171632+00:00",
+        "total_items": 248,
+        "generated_at": "2026-04-01T00:10:42.463092+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -52321,7 +52769,7 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 달 산업·비즈니스",
-        "summary": "AI에 돈이 몰리는 흐름은 이어지지만, 이번 달 산업·비즈니스 뉴스는 이제 규모보다 쓰임과 신뢰를 따지는 국면으로 옮겨가는 모습을 보여준다.\n\n- 한국 증시 특화 LLM과 리벨리온 투자 유치는 현지화와 반도체가 여전히 자금을 끄는 축임을 드러낸다.\n- AI 버블 경고와 Palantir 반대는 과잉 투자와 공공 데이터 통제, 책임 문제를 함께 흔든다.\n- 반려묘 책상처럼 생활 밀착형 틈새 제품도 또렷한 수요를 겨냥해 존재감을 키운다.",
+        "summary": "AI와 자본, 데이터 주권을 둘러싼 줄다리기가 이번 달 산업 뉴스의 중심이었다. 대규모 투자와 특화 모델 출시가 이어졌지만 거품 우려와 공공 기술 통제 논쟁도 함께 커졌다.\n\n- 리벨리온 투자 유치와 한국 증시 특화 LLM은 AI 경쟁이 더 세밀한 시장으로 파고드는 흐름을 보여준다.\n- 버블 경고와 Palantir 반발은 수익성보다 앞선 투자와 데이터 의존의 대가를 묻게 한다.\n- 반려묘 책상 같은 틈새 제품은 경기 부담 속 생활 밀착 소비가 버티는 장면을 보여준다.",
         "item_ids": [
           "04da457ae534af8df308188edfe4f3a3227adda5",
           "3525f07fd4e2925430185f91d9bee5ac6d908d81",
@@ -52385,7 +52833,7 @@
           "392824ab5bae472def472a59d39e090ea943e5b3"
         ],
         "total_items": 60,
-        "generated_at": "2026-03-31T19:58:07.171632+00:00",
+        "generated_at": "2026-04-01T00:10:42.463092+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -52398,19 +52846,19 @@
       "title": "조용히 커지는 주제",
       "cta_label": "흐름 보기",
       "related_item_ids": [
-        "d358b5dce78f7453a59d8f782c6d312e67ac4289",
-        "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc",
-        "3ffd2c231a10641eb1eaea2e137a566eac31ffcb"
+        "f7331389660ccd18bb0400071b83a2906ff9a1b3",
+        "0e694f0a374d56ec90064cd20f2ea44f587d0c4b",
+        "4be58322149895c1fd9ee628c64c9cbfc8ae97e4"
       ],
-      "score": 0.94,
-      "generated_at": "2026-03-31T15:47:12.121456+00:00",
+      "score": 0.91,
+      "generated_at": "2026-04-01T00:10:42.463092+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "결과보다 원천과 책임",
-      "summary_line": "AI가 낸 답보다 어디서 왔고 누가 책임지는지가 더 큰 쟁점이 됐다.",
+      "topic_name": "로컬 경량 추론",
+      "summary_line": "큰 모델 경쟁 옆에서, 적은 메모리와 로컬 장비에 맞춘 추론 최적화가 빠르게 쌓이고 있다.",
       "signals": [
-        "Claude Code 유출은 배포 산출물 하나가 신뢰를 무너뜨릴 수 있음을 보여줬다.",
-        "문학 목록 논쟁은 결과보다 원천 데이터와 재현 가능성을 먼저 묻게 했다.",
-        "코파일럿 면책 공방은 참고용 AI와 업무용 AI의 경계를 다시 세웠다."
+        "Ollama가 Apple Silicon용 MLX 경로를 열었다.",
+        "1비트 LLM이 저비용 배포의 현실성을 끌어올렸다.",
+        "KV 캐시 절감 설계가 긴 문맥 비용을 다시 낮추고 있다."
       ]
     },
     {
@@ -52420,15 +52868,15 @@
       "title": "HN 댓글이 가장 갈린 기사",
       "cta_label": "쟁점 보기",
       "related_item_ids": [
-        "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc"
+        "641cd222fd3c6ef3e0ab8fd229b660b04240cb46"
       ],
-      "score": 0.84,
-      "generated_at": "2026-03-31T15:47:12.121456+00:00",
+      "score": 0.93,
+      "generated_at": "2026-04-01T00:10:42.463092+00:00",
       "ai_model": "codex-cli",
-      "headline": "65세, 75세, 85세 이후의 문학 걸작들",
-      "issue_title": "흥미로운 발상인가, 검증 빠진 AI 리서치인가",
-      "opposition_summary": "주제보다 목록의 원천이 문제라는 반박이 강했다. LLM이 만든 초안은 환각이 섞일 수 있어 구조화된 출처로 다시 재현돼야 한다는 주장이다.",
-      "support_summary": "발상 자체는 신선하다는 반응도 컸다. 나이와 창작의 통념을 흔들고, AI 초안도 사람 검증을 붙이면 충분히 쓸 만하다는 쪽이다."
+      "headline": "AI 슬롭이 소프트웨어의 미래는 아니다",
+      "issue_title": "속도를 위해 코드 품질을 어디까지 낮출 수 있나",
+      "opposition_summary": "코드는 수단이니 AI로 더 빨리 내놓는 편이 낫다는 쪽이다. 사용자가 체감하는 속도가 더 큰 가치라는 주장이다.",
+      "support_summary": "거친 코드가 쌓이면 결국 장애와 변경 비용으로 돌아온다는 쪽이다. 속도보다 운영 부담을 먼저 봐야 한다는 반론이 맞섰다."
     },
     {
       "id": "anomaly-signal",
@@ -52437,19 +52885,20 @@
       "title": "이번 주 이상 신호",
       "cta_label": "신호 보기",
       "related_item_ids": [
-        "b9f04f5479daa90dfb7782d9ceb78cd888826762",
-        "3768b6f0e58435e210e8b1db763f008173cf8de0",
-        "c62f338c6e4d5717f5af1caca182bbeb376487ca"
+        "d358b5dce78f7453a59d8f782c6d312e67ac4289",
+        "c1a18af2c30716faead8068e52555b38387a402d",
+        "6b5eda3b6a92b6c2407fe49c2714283b1f710cbc",
+        "0e694f0a374d56ec90064cd20f2ea44f587d0c4b"
       ],
-      "score": 0.9,
-      "generated_at": "2026-03-31T15:47:12.121456+00:00",
+      "score": 0.89,
+      "generated_at": "2026-04-01T00:10:42.463092+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "편해질수록 확인할 것이 늘어난다",
-      "summary_line": "써보긴 쉬워졌는데 비는 기능과 검수 비용이 곧 드러나는 흐름이 겹쳤다.",
+      "signal_title": "성능 발표가 운영 질문으로 끝난다",
+      "summary_line": "이번 주엔 새 도구가 나와도 대화는 배포 통제, 후처리, 품질 손실 같은 주변 조건으로 더 오래 흘렀다.",
       "signals": [
-        "브라우저 CAD는 설치 없이 열리지만 주력 도구로 쓰기엔 빈 기능이 눈에 띄었다.",
-        "PDF RAG는 텍스트 검색은 빨랐지만 그래프와 배치 같은 시각 정보는 자주 놓쳤다.",
-        "CTE는 읽기 좋게 정리해도 실행 계획에서는 성능 비용이 튈 수 있었다."
+        "클로드 코드 유출은 기능보다 배포 관리와 숨김 규칙 논란으로 번졌다.",
+        "코히어 전사는 정확도보다 타임스탬프와 화자 분리 부재가 더 크게 남았다.",
+        "1비트 LLM도 놀라움보다 어디서 품질이 꺾이는지 묻는 검증이 먼저 붙었다."
       ]
     }
   ],
@@ -52460,19 +52909,19 @@
     "title": "조용히 커지는 주제",
     "cta_label": "흐름 보기",
     "related_item_ids": [
-      "d358b5dce78f7453a59d8f782c6d312e67ac4289",
-      "ef5dd8363e0a49f031147fa3c58c9eecef4fd9dc",
-      "3ffd2c231a10641eb1eaea2e137a566eac31ffcb"
+      "f7331389660ccd18bb0400071b83a2906ff9a1b3",
+      "0e694f0a374d56ec90064cd20f2ea44f587d0c4b",
+      "4be58322149895c1fd9ee628c64c9cbfc8ae97e4"
     ],
-    "score": 0.94,
-    "generated_at": "2026-03-31T15:47:12.121456+00:00",
+    "score": 0.91,
+    "generated_at": "2026-04-01T00:10:42.463092+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "결과보다 원천과 책임",
-    "summary_line": "AI가 낸 답보다 어디서 왔고 누가 책임지는지가 더 큰 쟁점이 됐다.",
+    "topic_name": "로컬 경량 추론",
+    "summary_line": "큰 모델 경쟁 옆에서, 적은 메모리와 로컬 장비에 맞춘 추론 최적화가 빠르게 쌓이고 있다.",
     "signals": [
-      "Claude Code 유출은 배포 산출물 하나가 신뢰를 무너뜨릴 수 있음을 보여줬다.",
-      "문학 목록 논쟁은 결과보다 원천 데이터와 재현 가능성을 먼저 묻게 했다.",
-      "코파일럿 면책 공방은 참고용 AI와 업무용 AI의 경계를 다시 세웠다."
+      "Ollama가 Apple Silicon용 MLX 경로를 열었다.",
+      "1비트 LLM이 저비용 배포의 현실성을 끌어올렸다.",
+      "KV 캐시 절감 설계가 긴 문맥 비용을 다시 낮추고 있다."
     ]
   }
 }
