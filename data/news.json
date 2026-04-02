@@ -1,6 +1,406 @@
 {
   "items": [
     {
+      "id": "0b3cddc821ee3320d17edae73da22cbc7b3f05b6",
+      "title_hash": "432ad86dedd1a90ad08d966c85b68847a81324b9",
+      "source": "GeekNews",
+      "title": "Claude Code 소스 유출로 탄생한 OpenClaude — GPT-4o, Gemini, Ollama 등 200개 모델을 Claude Code UI로",
+      "link": "https://news.hada.io/topic?id=28115",
+      "published_at": "2026-04-02T05:04:20+00:00",
+      "summary": "2026년 3월 31일, Claude Code의 소스코드가 npm 소스맵을 통해 노출됐습니다. 이를 기반으로 만들어진 OpenClaude는 OpenAI 호환 provider shim을 추가해 GPT-4o, DeepSeek, Gemini, Llama, Mistral 등 OpenAI chat completions API를 지원하는 모든 모델을 꽂아 쓸 수 있게 한 포크 입니다. 핵심 특징",
+      "fetched_at": "2026-04-02T16:26:24.787514+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=7,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "claude + code"
+      ],
+      "detail_slug": "0b3cddc821ee3320d17edae73da22cbc7b3f05b6",
+      "is_english_source": false,
+      "sent_at": "2026-04-02T16:31:01.904239+00:00"
+    },
+    {
+      "id": "72fe6917aa9ae7076080a0e88c498fca2ad9138e",
+      "title_hash": "9c5ad8cc461adddbbece81339d5b5b1f63856a9f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Google releases Gemma 4 open models",
+      "link": "https://deepmind.google/models/gemma/gemma-4/",
+      "published_at": "2026-04-02T16:10:54+00:00",
+      "summary": "HN story type: story HN points: 60 HN comments: 7 HN top comments: danielhanchen: We made some quants at https://huggingface.co/collections/unsloth/gemma-4 for folks to run them - they work really well! Thinking / reasoning + multimodal + tool calling. Guide for those interested: https://unsloth.ai/docs/models/gemma-4 Also note to use temperature = 1.0, top_p = 0.95, top_k = 64 and the EOS is \" \". \" thought\\n\" is also used for the thinking trace! a7om_com: Gemma models are already in our AIPI inference pricing index. Open source models like Gemma run 70.7% cheaper than proprietary equivalents at the median across the 2,614 SKUs we track. With Gemma 4 hitting third-party platforms the pricing will be worth watching closely. Full data at a7om.com. NitpickLawyer: Best thing is that this is Apache 2.0 The sizes are E2B and E4B (following gemma3n arch, with focus on mobile) and 26BA4 MoE and 31B dense. The mobile ones have audio in (so I can see some local privacy focused translation apps) and the 31B seems to be strong in agentic stuff. 26BA4 stands somewhere in between, similar VRAM footprint, but much faster inference.",
+      "fetched_at": "2026-04-02T16:26:24.787514+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47616361",
+      "hn_story_type": "story",
+      "hn_points": "60",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47616361",
+      "hn_item_text": "",
+      "hn_comment_preview": "danielhanchen: We made some quants at https://huggingface.co/collections/unsloth/gemma-4 for folks to run them - they work really well! Thinking / reasoning + multimodal + tool calling. Guide for those interested: https://unsloth.ai/docs/models/gemma-4 Also note to use temperature = 1.0, top_p = 0.95, top_k = 64 and the EOS is \" \". \" thought\\n\" is also used for the thinking trace!\na7om_com: Gemma models are already in our AIPI inference pricing index. Open source models like Gemma run 70.7% cheaper than proprietary equivalents at the median across the 2,614 SKUs we track. With Gemma 4 hitting third-party platforms the pricing will be worth watching closely. Full data at a7om.com.\nNitpickLawyer: Best thing is that this is Apache 2.0 The sizes are E2B and E4B (following gemma3n arch, with focus on mobile) and 26BA4 MoE and 31B dense. The mobile ones have audio in (so I can see some local privacy focused translation apps) and the 31B seems to be strong in agentic stuff. 26BA4 stands somewhere in between, similar VRAM footprint, but much faster inference.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=35,practical_tech=27,tools_agents=35,strategy_insight=2,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 27,
+        "tools_agents": 35,
+        "strategy_insight": 2,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 27,
+          "strong_hits": [
+            "open source",
+            "inference",
+            "index"
+          ],
+          "support_hits": [
+            "guide"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 35,
+          "strong_hits": [
+            "tool calling",
+            "agentic",
+            "ide"
+          ],
+          "support_hits": [
+            "agent",
+            "local",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "tool + calling",
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "tool calling",
+        "agentic",
+        "ide",
+        "agent",
+        "local",
+        "tool",
+        "tool + calling",
+        "local + agent"
+      ],
+      "detail_slug": "72fe6917aa9ae7076080a0e88c498fca2ad9138e",
+      "is_english_source": true,
+      "translated_title": "구글, 오픈 모델 Gemma 4 공개",
+      "short_summary": "구글이 Gemma 4 오픈 모델을 공개했다. 초기 HN 반응은 Apache 2.0 라이선스, 모바일용 소형 모델, 추론·멀티모달·툴 호출 지원, 그리고 비용 경쟁력에 주목하는 분위기다.",
+      "why_it_matters": "Gemma 4는 오픈 라이선스와 폭넓은 모델 구성을 앞세워, 로컬 실행부터 에이전트형 활용까지 바로 검토해볼 만한 선택지로 보인다.\n- Apache 2.0이라 상용 서비스나 사내 실험에 붙일 때 법무 검토 부담을 상대적으로 줄이기 쉽다.\n- E2B·E4B 같은 소형 모델과 오디오 입력 지원은 모바일 번역이나 온디바이스 보조 기능처럼 개인정보를 덜 밖으로 내보내는 앱 설계와 맞닿아 있다.\n- 31B dense와 26BA4 MoE가 외부 플랫폼으로 확산되면, 폐쇄형 모델 대비 추론 단가와 성능 조합을 다시 따져볼 필요가 커진다.",
+      "hn_reaction_summary": "HN 댓글 수는 아직 많지 않지만, 분위기는 대체로 호의적이다. 발표 자체보다 지금 어디에 어떻게 올릴 수 있는지가 더 많이 이야기됐다.\n- 가장 자주 언급된 포인트는 Apache 2.0 라이선스다. 성능보다도 제품에 실제로 넣기 쉬운지가 먼저 거론됐다.\n- Unsloth의 양자화 모델과 추론 설정이 바로 공유되면서, 새 모델을 곧바로 로컬이나 저비용 환경에서 돌려보려는 관심이 드러났다.\n- 비용 지표를 든 댓글도 눈에 띄었다. 오픈 모델이 폐쇄형보다 훨씬 저렴할 수 있다는 주장과 함께, Gemma 4가 가격 경쟁을 더 자극할지 지켜보자는 반응이 나왔다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-02T16:31:01.904239+00:00"
+    },
+    {
+      "id": "48f1e73a80262d434f4e2e63625baaee5c3b4a92",
+      "title_hash": "8eae1d5ce69550bc4f8eee6fdc5690b442a42e0b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Lemonade by AMD: a fast and open source local LLM server using GPU and NPU",
+      "link": "https://lemonade-server.ai",
+      "published_at": "2026-04-02T11:04:51+00:00",
+      "summary": "HN story type: story HN points: 243 HN comments: 59 HN top comments: dennemark: I have been using lemonade for nearly a year already. On Strix Halo I am using nothing else - although kyuz0's toolboxes are also nice ( https://kyuz0.github.io/amd-strix-halo-toolboxes/ ) Nowadays you get TTS, STT, text & image generation and image editing should also be possible. Besides being able to run via rocm, vulkan or on CPU, GPU and NPU. Quite a lot of options. They have a quite good and pragmatic pace i... Caum: Been running local LLMs on my 7900 XTX for months and the ROCm experience has been... rough. The fact that AMD is backing an official inference server that handles the driver/dependency maze is huge. My biggest question is NPU support - has anyone actually gotten meaningful throughput from the Ryzen AI NPU vs just using the dGPU? In my testing the NPU was mostly a bottleneck for anything beyond tiny models. moconnor: Is... is this named because they have a lemon they're trying to make the most of?",
+      "fetched_at": "2026-04-02T16:26:24.787514+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47612724",
+      "hn_story_type": "story",
+      "hn_points": "243",
+      "hn_comments_count": "59",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47612724",
+      "hn_item_text": "",
+      "hn_comment_preview": "dennemark: I have been using lemonade for nearly a year already. On Strix Halo I am using nothing else - although kyuz0's toolboxes are also nice ( https://kyuz0.github.io/amd-strix-halo-toolboxes/ ) Nowadays you get TTS, STT, text & image generation and image editing should also be possible. Besides being able to run via rocm, vulkan or on CPU, GPU and NPU. Quite a lot of options. They have a quite good and pragmatic pace i...\nCaum: Been running local LLMs on my 7900 XTX for months and the ROCm experience has been... rough. The fact that AMD is backing an official inference server that handles the driver/dependency maze is huge. My biggest question is NPU support - has anyone actually gotten meaningful throughput from the Ryzen AI NPU vs just using the dGPU? In my testing the NPU was mostly a bottleneck for anything beyond tiny models.\nmoconnor: Is... is this named because they have a lemon they're trying to make the most of?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "51",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=27,practical_tech=27,tools_agents=16,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 27,
+        "tools_agents": 16,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 27,
+          "strong_hits": [
+            "open source",
+            "inference",
+            "rag"
+          ],
+          "support_hits": [
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "local",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "bottleneck"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "open source",
+        "inference",
+        "rag",
+        "testing",
+        "local + run"
+      ],
+      "detail_slug": "48f1e73a80262d434f4e2e63625baaee5c3b4a92",
+      "is_english_source": true,
+      "translated_title": "AMD, GPU·NPU 지원 로컬 LLM 서버 레모네이드 공개",
+      "short_summary": "AMD가 GPU와 NPU를 활용하는 오픈소스 로컬 LLM 서버 레모네이드를 선보였다. HN에서는 공식 지원으로 설치 장벽이 낮아질 수 있다는 기대와, Ryzen AI NPU 실성능에 대한 의문이 함께 나왔다.",
+      "why_it_matters": "로컬 AI를 직접 운영하려는 팀에는 모델 성능만큼 설치와 유지보수 경험이 큰 변수다. AMD가 공식 추론 서버를 내세운 것은 그 복잡한 하드웨어 경로를 한데 묶어 실무 도입 부담을 낮추려는 움직임으로 읽힌다.\n- ROCm, Vulkan, CPU, GPU, NPU 같은 실행 경로를 한 제품 안에서 다루면 환경별 설정 차이와 운영 혼선을 줄이기 쉽다.\n- AMD가 직접 지원하는 서버가 자리 잡으면 그동안 약점으로 지적되던 드라이버와 의존성 문제를 덜어, 로컬 추론 도입 속도를 끌어올릴 수 있다.\n- 다만 NPU는 작은 모델을 넘어서면 병목이 될 수 있다는 의견이 나와, 실제 배치에서는 dGPU 중심 검증과 워크로드별 분리가 더 현실적일 수 있다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이다. AMD가 직접 관리하는 로컬 추론 서버라는 점에 기대가 컸지만, 플랫폼 성숙도와 NPU 체감 성능은 따져 봐야 한다는 반응도 적지 않았다.\n- 실사용자들은 Strix Halo 환경에서 이미 꽤 오래 써 왔다며 기능 폭과 업데이트 속도를 좋게 평가했다.\n- ROCm 사용 경험이 거칠었다는 반응이 반복됐고, 공식 서버가 그 복잡한 설치 과정을 얼마나 줄여 주느냐가 핵심 쟁점으로 떠올랐다.\n- Ryzen AI NPU는 흥미로운 시도라는 평가와 함께, 작은 모델 밖에서는 병목이라는 회의론도 나와 홍보 포인트와 실전 성능을 구분해서 봐야 한다는 의견이 많았다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-02T16:31:01.904239+00:00"
+    },
+    {
+      "id": "a387c3bf3f771b3557d659725c55522e102b06b5",
+      "title_hash": "17246226b99dd49ac52fcc81c60d4e265f3217aa",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: I built a DNS resolver from scratch in Rust – no DNS libraries",
+      "link": "https://github.com/razvandimescu/numa",
+      "published_at": "2026-04-02T10:07:57+00:00",
+      "summary": "HN story type: story HN points: 60 HN comments: 37 HN post text: I built a DNS resolver that lets me use https://frontend.numa instead of localhost:5173 — auto-generated TLS certs, WebSocket passthrough, path routing. No mkcert, no nginx, no /etc/hosts. HN top comments: kevin061: The interface looks vibecoded. I have no problem with people vibecoding things. In fact, I have zero frontend skills, so I rely on AI to be able to make easy-to-use interfaces. However, I feel like this should be clearly and prominently displayed in the project page. Furthermore it is a little off-putting to see a vibecoded UI because I have very little confidence that the rest of the backend code is not vibecoded... voxadam: It's neither here nor there but can I ask about the name? I only ask because when I see \"numa\" in relation to computing I immediately think \"Non-Uniform Memory Access\". Very cool project by the way. I wonder how this would run on an OpenWRT device. I see in your install.sh that you support Linux and Darwin/MacOS, do you think there would be any major hurdles in supporting FreeBSD? rdme: Since I needed it to be my primary DNS, I also added: recursive resolution from root nameservers, DNSSEC chain-of-trust validation, ad blocking (385K+ domains), and LAN service discovery. I wrote about the DNSSEC implementation here: https://numa.rs/blog/posts/dnssec-from-scratch.html It's now my daily system DNS. Single binary (~8MB), macOS/Linux/Windows. `sudo numa install`",
+      "fetched_at": "2026-04-02T16:26:24.787514+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47612321",
+      "hn_story_type": "story",
+      "hn_points": "60",
+      "hn_comments_count": "37",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47612321",
+      "hn_item_text": "I built a DNS resolver that lets me use https://frontend.numa instead of localhost:5173 — auto-generated TLS certs, WebSocket passthrough, path routing. No mkcert, no nginx, no /etc/hosts.",
+      "hn_comment_preview": "kevin061: The interface looks vibecoded. I have no problem with people vibecoding things. In fact, I have zero frontend skills, so I rely on AI to be able to make easy-to-use interfaces. However, I feel like this should be clearly and prominently displayed in the project page. Furthermore it is a little off-putting to see a vibecoded UI because I have very little confidence that the rest of the backend code is not vibecoded...\nvoxadam: It's neither here nor there but can I ask about the name? I only ask because when I see \"numa\" in relation to computing I immediately think \"Non-Uniform Memory Access\". Very cool project by the way. I wonder how this would run on an OpenWRT device. I see in your install.sh that you support Linux and Darwin/MacOS, do you think there would be any major hurdles in supporting FreeBSD?\nrdme: Since I needed it to be my primary DNS, I also added: recursive resolution from root nameservers, DNSSEC chain-of-trust validation, ad blocking (385K+ domains), and LAN service discovery. I wrote about the DNSSEC implementation here: https://numa.rs/blog/posts/dnssec-from-scratch.html It's now my daily system DNS. Single binary (~8MB), macOS/Linux/Windows. `sudo nu...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=25,practical_tech=25,tools_agents=18,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 25,
+        "tools_agents": 18,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 25,
+          "strong_hits": [
+            "show hn",
+            "rust"
+          ],
+          "support_hits": [
+            "implementation"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 18,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "show hn",
+        "rust",
+        "implementation",
+        "local + run",
+        "github.com"
+      ],
+      "detail_slug": "a387c3bf3f771b3557d659725c55522e102b06b5",
+      "is_english_source": true,
+      "translated_title": "Rust로 바닥부터 만든 DNS 리졸버",
+      "short_summary": "localhost 대신 https://frontend.numa 같은 주소를 바로 쓰게 해주는 Rust 기반 DNS 리졸버다. mkcert, nginx, hosts 수정 없이 TLS 인증서 자동 생성과 WebSocket 패스스루, 경로 라우팅을 처리한다.",
+      "why_it_matters": "로컬 개발 환경을 실제 서비스처럼 다루려는 흐름과 맞물린 도구다. 인증서 설정, 프록시 구성, hosts 파일 수정 같은 반복 작업을 줄여 개발 셋업을 단순하게 만든다.\n- localhost 중심 개발에서 자주 막히는 HTTPS, WebSocket, 경로 라우팅을 한 번에 처리해 프런트엔드와 백엔드 연동 테스트가 수월해진다.\n- 단일 바이너리로 macOS, Linux, Windows를 지원해 팀 공통 개발 도구로 배포하기 쉽다. 환경 차이로 생기는 세팅 비용도 줄일 수 있다.\n- 작성자가 재귀 질의, DNSSEC 검증, 광고 차단, LAN 서비스 탐색까지 붙였다고 밝혀 개발 편의 도구를 넘어 개인용 시스템 DNS로 확장할 가능성도 보여준다.",
+      "hn_reaction_summary": "댓글 분위기는 흥미롭다는 반응과 경계심이 함께 섞였다. 직접 구현한 범위는 높게 평가했지만, 완성도와 신뢰감은 더 지켜봐야 한다는 시선도 적지 않았다.\n- 가장 많이 눈에 띈 반응은 AI로 급하게 만든 듯한 UI가 프로젝트 신뢰를 깎는다는 지적이다. 화면이 어색하면 백엔드까지 비슷한 방식으로 만든 것 아니냐는 의심으로 이어졌다.\n- 기술적으로는 루트 네임서버 기반 재귀 해석, DNSSEC 검증, 광고 차단, LAN 서비스 발견을 단일 바이너리에 담았다는 점에 관심이 모였다.\n- 실무 관점에서는 OpenWRT나 FreeBSD까지 넓힐 수 있는지, 그리고 numa라는 이름이 기존 컴퓨팅 용어인 NUMA와 헷갈리지 않는지가 반복해서 거론됐다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-02T16:31:01.904239+00:00"
+    },
+    {
       "id": "4ec1528e639a5da2b59775406143af76a906563d",
       "title_hash": "249a384b953b79d78e4f1397a07d04d9eea42ee4",
       "source": "GeekNews",
@@ -51791,9 +52191,11 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트: 유출 이후",
-        "summary": "이번 주 도구·에이전트 묶음은 Claude Code 유출을 계기로, 성능 경쟁보다 배포 신뢰와 운영 품질을 더 따져 묻는 분위기가 짙어졌다는 점을 보여준다.\n- .map 경로로 드러난 내부 구조를 따라가며 에이전트 루프와 컨텍스트 로딩, 도구 설계가 빠르게 해부됐다.\n- 곧바로 클린룸 재작성까지 나오며 구현 원리를 배우고 옮겨 적는 속도도 한층 빨라졌다.\n- 가짜 도구, 잠복 모드, AI 슬롭 논쟁이 겹치면서 지금은 기능 자랑보다 통제와 유지비를 함께 볼 시점이라는 신호가 선명해졌다.",
+        "headline": "이번 주 도구·에이전트",
+        "summary": "이번 주 도구·에이전트 흐름은 Claude Code 유출의 파장과 Gemma 4 공개가 맞물리며, 도구 경쟁의 축이 성능만이 아니라 공개성·신뢰·재현성으로 옮겨가는 장면에 있다.\n- 유출 직후 OpenClaude와 claw-code가 나오며 UI와 에이전트 루프가 빠르게 복제됐다.\n- 관심은 기능보다 배포 관리 부실, 잠복 모드, 법적 경계 같은 운영 문제로 번졌다.\n- 지금 보면 폐쇄형 도구의 우위가 얼마나 빨리 흔들리는지 읽힌다.",
         "item_ids": [
+          "0b3cddc821ee3320d17edae73da22cbc7b3f05b6",
+          "72fe6917aa9ae7076080a0e88c498fca2ad9138e",
           "4ec1528e639a5da2b59775406143af76a906563d",
           "c1a18af2c30716faead8068e52555b38387a402d",
           "b53dc9d9dcbf9157fe62392ab3dd2b82e5bb8e7d",
@@ -51900,38 +52302,10 @@
           "759b49695d70ce2fbddb80c3404dda5c97abb0ba",
           "e00674c81fb29c23d096db85ee9ac10154277506",
           "08138d3317c922abc75312e1afafbe1b15bea438",
-          "1c2bac3311f843fd05fc453db4f71ae3485d4309",
-          "4c613bda5931ca75be13d461c1e57ba5b9dbc18d",
-          "bedfdfc22ab4750c18eb9af999516c5f8a482e79",
-          "1969a6413acf6540b7613e319a294cd888ffc6be",
-          "ec0e481547b8baa4c6c67513e5cbdce112b0cecd",
-          "18a853956823b27943c69029e5d41b7b6f848e6e",
-          "192b5be950a3ff93ac82d68a93956157936cddd9",
-          "022af1e85c5a4c2efa90b16eeafc8814efe58b10",
-          "21c76588202f660eb6ea25b297facb88ed32ec77",
-          "d8541267c3e3217b6472ca6f5271c15ab8ea3ff4",
-          "b4c065a13b0cb9ae2ce5030badcd1ab86ab3237f",
-          "e0c5a8f951b11c0e7b5533f35ebb91a5d37ed746",
-          "d4c232c17c6864b2a72a3a618d6318288ccaa0dd",
-          "36abb1f1ef2064272fd5e5040e0301419f36b54c",
-          "4fd31e890419ecd0ab1f490a38a611a926e0ed6d",
-          "6f151cf41c604943152dcb037d9214fac1126cc2",
-          "5b811dee2d6b169757ade1da52a63acddd3df99c",
-          "202f629a137fbc4046b5b6ab4342ca50a82425a2",
-          "cd5e5b260515167283d0b9b0d13d7f1abe0f7eaf",
-          "c5a78454ad97784b09da9e23d7b5b82ce8334900",
-          "12ac84c1640894971001e3945a11ad03a2fe8856",
-          "efb8d18d7f218d55ab0290a2b2817fb90266f59f",
-          "75857d4ea934c1b36fac82cadee046668c9938db",
-          "2ef732b76415e1eba82ace418f6cfb87089c78bb",
-          "4c299bda527bd0093153d77fe86ca4479498dcb7",
-          "815ae95df594f06c42fc7fd85df47ab4b7ffddd6",
-          "5701357712cf01b468638840a35b24d71625ee54",
-          "dc669d564a88856ef17d04013f5ff0143c9fafe9",
-          "cc892c2aaa802dda333ee59016ad6c516b005a23"
+          "1c2bac3311f843fd05fc453db4f71ae3485d4309"
         ],
-        "total_items": 135,
-        "generated_at": "2026-04-01T00:10:42.463092+00:00",
+        "total_items": 109,
+        "generated_at": "2026-04-02T16:26:24.787514+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -51939,8 +52313,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "이번 주는 모델 성능 경쟁보다 현장에 바로 붙는 조건이 더 선명했다. 경량화, 로컬 최적화, 기존 스택 결합이 한 흐름으로 이어졌다.\n\n- Ollama MLX와 1비트 LLM은 적은 자원으로 성능과 비용을 다시 따지게 했다.\n- 코히어 사례는 정확도보다 타임스탬프, 화자 분리 같은 마감 기능이 실무의 기준임을 보여줬다.\n- 온톨로지와 Postgres BM25, AI 코딩 도구 흐름은 기존 업무 체계 안에서 빨리 붙는 구현이 왜 지금 더 주목받는지 드러냈다.",
+        "summary": "이번 주 실무 기술은 더 잘 만드는 경쟁보다, 내 장비에서 바로 돌리고 곧바로 일에 붙이는 흐름이 두드러졌다. 지금 볼 이유도 그 변화에 있다.\n- AMD 레모네이드와 MLX 기반 Ollama는 로컬 추론 문턱을 낮추며 하드웨어별 최적화 경쟁을 끌어올린다.\n- Rust DNS 리졸버는 인증서, 라우팅, 프록시 설정을 한 번에 묶어 로컬 개발의 손작업을 덜어준다.\n- 1비트 LLM과 음성 인식 논의는 벤치마크보다 품질 저하 지점, 화자 분리, 타임스탬프 같은 실사용 기준이 더 앞에 왔음을 보여준다.",
         "item_ids": [
+          "48f1e73a80262d434f4e2e63625baaee5c3b4a92",
+          "a387c3bf3f771b3557d659725c55522e102b06b5",
           "f7331389660ccd18bb0400071b83a2906ff9a1b3",
           "0e694f0a374d56ec90064cd20f2ea44f587d0c4b",
           "6b5eda3b6a92b6c2407fe49c2714283b1f710cbc",
@@ -51996,28 +52372,10 @@
           "90930d51cf7178a7bed19f6e57f0f5cd66876ad9",
           "3af5ebe954271f6512fec7551fd98e739bdd1d25",
           "e72abbc6aaf37480260e89834f2848af5366a4da",
-          "49d4ead1ba9290759feb37dbd2a333ee7a5c41d0",
-          "cfc600597b65085f21ea7bdd316f7afdaabc2181",
-          "15a62b2e1831dddc64e37c52951a276544f59d1c",
-          "8285490405dab5e9b8ca69e98dc87cdb491db3c0",
-          "a9e7d4fdc14083c690da179241c081f9a34039eb",
-          "efdbf0e2ced3407116d5286077e7804c6ff3fa6c",
-          "fb41fc9a860d555ef00b82053c71b8272d0ee719",
-          "a6193fdd7948a75a614998840771cfa9ccf0c433",
-          "c78326d5ab5bcaaeb1ca1d9d0ce139c814f2f0ff",
-          "bd617e28191dfb8b48985f114dacc1dd0e4385da",
-          "5face3be1daa1293442f2c88eda40017396b1d04",
-          "e4debd38df5938809bcdacc4174f6b6e31a7e585",
-          "52969f99068f6ce33e80f1fd087686464e45ade3",
-          "f217afa7dfccfced4db8b19d0d33c230d8a53e9d",
-          "a67b569ed7ddd67341ec3317cb1c03af991138cb",
-          "942f9f1c1b4cae75337615f1a8cb030e5675b676",
-          "3cf5fe50715feca075806871064fcdd5b3003814",
-          "aa13865852c33d8cf3cc54ee3fec46180708ba2b",
-          "f4e57bafd97ecd9a08daf4442a418aaff8bc1847"
+          "49d4ead1ba9290759feb37dbd2a333ee7a5c41d0"
         ],
-        "total_items": 74,
-        "generated_at": "2026-04-01T00:10:42.463092+00:00",
+        "total_items": 58,
+        "generated_at": "2026-04-02T16:26:24.787514+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -52025,7 +52383,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 주 전략·인사이트",
-        "summary": "성장은 더 빨라졌지만, 시장이 먼저 보는 건 신뢰를 어떻게 쌓고 지키느냐다. 이번 주 글들은 스타트업의 관계 설계부터 AI와 플랫폼 책임 논쟁까지, 같은 질문을 다른 장면에서 비춘다.\n\n- 브랜드보다 사람과 고객의 성장을 먼저 밀어주는 전략이 초기 확장의 신호로 떠오른다.\n- AI는 더 긴 맥락과 넓은 범위를 다루지만 설명 가능성, 맞장구 성향, 신뢰 기준은 더 까다로워지고 있다.\n- 플랫폼 설계는 이제 체류 시간이 아니라 위해 가능성과 책임까지 함께 묻는 단계로 들어섰다.",
+        "summary": "이번 주 흐름은 더 크게 만드는 기술보다 무엇이 신뢰를 만들고 무엇이 판단을 흐리는지에 모입니다. 성장, AI, 플랫폼 설계가 같은 질문으로 이어집니다.\n\n- 초기 스타트업 전략은 자기 브랜드를 키우기보다 인재와 고객의 신호를 먼저 키우는 쪽으로 움직입니다.\n- AI는 더 긴 문맥과 넓은 적용으로 나아가지만 설명 가능성과 과한 맞장구가 불신의 씨앗으로 남았습니다.\n- 플랫폼의 체류 설계가 법적 책임까지 묻는 국면에 들어서며 제품 판단 기준도 다시 흔들리고 있습니다.",
         "item_ids": [
           "ca41ecc8af6eb891accf8f3c20c3f2c08f66f490",
           "9bd792ad328404dc1e96fdf0c3f80d39c12a9fbf",
@@ -52035,14 +52393,10 @@
           "70eb4dcc18f47020f7f397d8b917623b3a37dc86",
           "48edd74d012bd356b515f71a7481154072f2f0ac",
           "d7727ad8775cc58442c1d63e975b5755cc07e4e0",
-          "b573e92f7e931735c7322e273c99b62416ebc45c",
-          "e285994a373db7e0e9ded436a6af1445dd89e68c",
-          "43a3ac369a2471452046f0f51d225d7c73b21225",
-          "0bd4cc1547baeeacdb66b8a7e73520217ce5d3ef",
-          "361dac45cea8f022f28e4f1210a5e4a821589423"
+          "b573e92f7e931735c7322e273c99b62416ebc45c"
         ],
-        "total_items": 13,
-        "generated_at": "2026-04-01T00:10:42.463092+00:00",
+        "total_items": 9,
+        "generated_at": "2026-04-02T16:26:24.787514+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -52052,8 +52406,10 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "클로드 코드 유출을 계기로 에이전트 도구의 속살이 한꺼번에 드러났다. 재현과 해부, 품질 논쟁이 함께 붙으며 지금 무엇을 믿고 써야 하는지 묻는 흐름이 선명해졌다.\n\n- 유출 소스는 곧바로 클린룸 재작성과 내부 구조 분석으로 이어졌다.\n- 관심은 기능 자랑보다 배포 관리, 신뢰, 잠복 모드 같은 운영 문제로 옮겨갔다.\n- AI 슬롭 논의까지 겹치며, 빠른 생성보다 검증 가능한 도구 설계가 왜 필요한지 보여준다.",
+        "summary": "이번 달 도구·에이전트 흐름은 닫힌 제품의 내부가 새며 복제와 재구성으로 번지고, 오픈 모델이 그 자리를 곧바로 메우는 쪽으로 모입니다. 지금 보면 에이전트 경쟁의 승부처가 기능보다 신뢰와 공개성에 있음을 읽을 수 있습니다.\n- Claude Code 유출 뒤 OpenClaude와 claw-code가 잇달아 나오며 UI와 작업 루프가 빠르게 재현됐습니다.\n- 논의는 성능보다 잠복 모드, 가짜 도구, 배포 관리 같은 운영 리스크로 옮겨갔습니다.\n- Gemma 4 공개는 오픈 모델이 모바일, 추론, 툴 호출까지 넓히며 대안 자리를 키우는 흐름을 보여줬습니다.",
         "item_ids": [
+          "0b3cddc821ee3320d17edae73da22cbc7b3f05b6",
+          "72fe6917aa9ae7076080a0e88c498fca2ad9138e",
           "4ec1528e639a5da2b59775406143af76a906563d",
           "c1a18af2c30716faead8068e52555b38387a402d",
           "b53dc9d9dcbf9157fe62392ab3dd2b82e5bb8e7d",
@@ -52500,8 +52856,8 @@
           "86eaa0b9ae86918b1096ddaf015907f73a541a80",
           "b65bd5533276d0caa3f2398a5328c48d0f67eca4"
         ],
-        "total_items": 445,
-        "generated_at": "2026-04-01T00:10:42.463092+00:00",
+        "total_items": 447,
+        "generated_at": "2026-04-02T16:26:24.787514+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -52509,8 +52865,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달엔 성능 경쟁보다 현업에 바로 붙는 실행 방식이 더 선명했다. 로컬 추론, 초경량 모델, 전사, 검색 구조화까지 결국 비용과 작업 맥락을 얼마나 줄이느냐가 공통 화두다.\n- Ollama MLX와 1비트 LLM은 같은 흐름이다. 적은 자원으로 더 빨리 돌리려는 시도다.\n- 코히어 전사는 정확도보다 타임스탬프, 화자 분리 같은 실사용 조건이 먼저 검증됐다.\n- BM25와 온톨로지 논의는 지금 AI를 붙이기보다 검색 구조와 의미 체계를 먼저 다질 때라는 신호를 준다.",
+        "summary": "이번 달 실무 기술 흐름은 모델 경쟁보다, 로컬에서 더 가볍고 바로 쓰게 만드는 실행 환경으로 모인다.\n\n- AMD 레모네이드와 MLX 기반 Ollama는 GPU·NPU·애플 실리콘을 붙여 로컬 추론의 설치와 속도 장벽을 낮춘다.\n- Rust DNS 리졸버는 인증서, 라우팅, WebSocket 처리를 묶어 개발 환경을 곧바로 서비스처럼 쓰게 만든다.\n- 1비트 LLM과 트랜스크라이브 논의는 수치보다 실사용 조건을 묻는다. 지금은 성능 과시보다 품질 저하 지점과 작업 흐름 적합성을 볼 때다.",
         "item_ids": [
+          "48f1e73a80262d434f4e2e63625baaee5c3b4a92",
+          "a387c3bf3f771b3557d659725c55522e102b06b5",
           "f7331389660ccd18bb0400071b83a2906ff9a1b3",
           "0e694f0a374d56ec90064cd20f2ea44f587d0c4b",
           "6b5eda3b6a92b6c2407fe49c2714283b1f710cbc",
@@ -52760,8 +53118,8 @@
           "de54b6634502b40ed9372177dca6e6c57c205a2e",
           "755ac2f97593dec9f26da359a9722f03f30fb02c"
         ],
-        "total_items": 248,
-        "generated_at": "2026-04-01T00:10:42.463092+00:00",
+        "total_items": 250,
+        "generated_at": "2026-04-02T16:26:24.787514+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -52769,7 +53127,7 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 달 산업·비즈니스",
-        "summary": "AI와 자본, 데이터 주권을 둘러싼 줄다리기가 이번 달 산업 뉴스의 중심이었다. 대규모 투자와 특화 모델 출시가 이어졌지만 거품 우려와 공공 기술 통제 논쟁도 함께 커졌다.\n\n- 리벨리온 투자 유치와 한국 증시 특화 LLM은 AI 경쟁이 더 세밀한 시장으로 파고드는 흐름을 보여준다.\n- 버블 경고와 Palantir 반발은 수익성보다 앞선 투자와 데이터 의존의 대가를 묻게 한다.\n- 반려묘 책상 같은 틈새 제품은 경기 부담 속 생활 밀착 소비가 버티는 장면을 보여준다.",
+        "summary": "AI 투자 열기와 그 반작용이 함께 드러난 달이다. 한국 증시 특화 모델부터 추론 칩 투자, 공공 기술 계약 논란, 틈새 라이프스타일 제품까지 산업 현장이 더 선명하게 갈라졌다.\n\n- AI는 계속 돈을 끌어오지만 수익성과 거품 우려도 같이 커졌다. 리벨리온 투자 유치와 버블 붕괴 전망이 맞물린다.\n- 시장은 범용보다 현지화와 주권을 본다. 한국 증시 특화 LLM과 유럽의 Palantir 반대가 같은 흐름이다.\n- 소비재도 더 잘게 나뉜다. 재택근무와 반려묘를 함께 겨냥한 책상이 그 신호다.",
         "item_ids": [
           "04da457ae534af8df308188edfe4f3a3227adda5",
           "3525f07fd4e2925430185f91d9bee5ac6d908d81",
@@ -52833,7 +53191,7 @@
           "392824ab5bae472def472a59d39e090ea943e5b3"
         ],
         "total_items": 60,
-        "generated_at": "2026-04-01T00:10:42.463092+00:00",
+        "generated_at": "2026-04-02T16:26:24.787514+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -52846,19 +53204,19 @@
       "title": "조용히 커지는 주제",
       "cta_label": "흐름 보기",
       "related_item_ids": [
+        "48f1e73a80262d434f4e2e63625baaee5c3b4a92",
         "f7331389660ccd18bb0400071b83a2906ff9a1b3",
-        "0e694f0a374d56ec90064cd20f2ea44f587d0c4b",
-        "4be58322149895c1fd9ee628c64c9cbfc8ae97e4"
+        "72fe6917aa9ae7076080a0e88c498fca2ad9138e"
       ],
-      "score": 0.91,
-      "generated_at": "2026-04-01T00:10:42.463092+00:00",
+      "score": 0.89,
+      "generated_at": "2026-04-02T16:26:24.787514+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "로컬 경량 추론",
-      "summary_line": "큰 모델 경쟁 옆에서, 적은 메모리와 로컬 장비에 맞춘 추론 최적화가 빠르게 쌓이고 있다.",
+      "topic_name": "로컬 추론 런타임의 실전 경쟁",
+      "summary_line": "새 모델보다 먼저, 내 장비에서 바로 돌리는 길이 빨라지고 있다.",
       "signals": [
-        "Ollama가 Apple Silicon용 MLX 경로를 열었다.",
-        "1비트 LLM이 저비용 배포의 현실성을 끌어올렸다.",
-        "KV 캐시 절감 설계가 긴 문맥 비용을 다시 낮추고 있다."
+        "AMD가 GPU·NPU를 함께 쓰는 로컬 서버를 내놨다",
+        "Ollama가 MLX 프리뷰로 애플 실리콘 최적화에 들어갔다",
+        "Gemma 4는 공개 직후 양자화와 로컬 배포 얘기가 먼저 붙었다"
       ]
     },
     {
@@ -52866,17 +53224,17 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "쟁점 보기",
+      "cta_label": "쟁점 읽기",
       "related_item_ids": [
-        "641cd222fd3c6ef3e0ab8fd229b660b04240cb46"
+        "0e694f0a374d56ec90064cd20f2ea44f587d0c4b"
       ],
-      "score": 0.93,
-      "generated_at": "2026-04-01T00:10:42.463092+00:00",
+      "score": 0.83,
+      "generated_at": "2026-04-02T16:26:24.787514+00:00",
       "ai_model": "codex-cli",
-      "headline": "AI 슬롭이 소프트웨어의 미래는 아니다",
-      "issue_title": "속도를 위해 코드 품질을 어디까지 낮출 수 있나",
-      "opposition_summary": "코드는 수단이니 AI로 더 빨리 내놓는 편이 낫다는 쪽이다. 사용자가 체감하는 속도가 더 큰 가치라는 주장이다.",
-      "support_summary": "거친 코드가 쌓이면 결국 장애와 변경 비용으로 돌아온다는 쪽이다. 속도보다 운영 부담을 먼저 봐야 한다는 반론이 맞섰다."
+      "headline": "상용 가능성 보인 1비트 LLM, 1-Bit Bonsai",
+      "issue_title": "효율의 돌파냐 품질의 타협이냐",
+      "opposition_summary": "전력과 비용은 매력적이지만, 긴 작업과 마무리 품질이 어디서 무너지는지 먼저 확인해야 한다는 쪽이다.",
+      "support_summary": "작고 싼 모델이 코딩과 도구 호출까지 버티면 온디바이스 배포가 훨씬 가까워진다는 기대가 컸다."
     },
     {
       "id": "anomaly-signal",
@@ -52885,43 +53243,42 @@
       "title": "이번 주 이상 신호",
       "cta_label": "신호 보기",
       "related_item_ids": [
-        "d358b5dce78f7453a59d8f782c6d312e67ac4289",
-        "c1a18af2c30716faead8068e52555b38387a402d",
-        "6b5eda3b6a92b6c2407fe49c2714283b1f710cbc",
-        "0e694f0a374d56ec90064cd20f2ea44f587d0c4b"
+        "0b3cddc821ee3320d17edae73da22cbc7b3f05b6",
+        "4ec1528e639a5da2b59775406143af76a906563d",
+        "c1a18af2c30716faead8068e52555b38387a402d"
       ],
-      "score": 0.89,
-      "generated_at": "2026-04-01T00:10:42.463092+00:00",
+      "score": 0.94,
+      "generated_at": "2026-04-02T16:26:24.787514+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "성능 발표가 운영 질문으로 끝난다",
-      "summary_line": "이번 주엔 새 도구가 나와도 대화는 배포 통제, 후처리, 품질 손실 같은 주변 조건으로 더 오래 흘렀다.",
+      "signal_title": "유출이 곧 제품이 되는 속도",
+      "summary_line": "닫힌 도구의 내부가 새자, 해설과 복제 프로젝트가 거의 동시에 따라붙었다.",
       "signals": [
-        "클로드 코드 유출은 기능보다 배포 관리와 숨김 규칙 논란으로 번졌다.",
-        "코히어 전사는 정확도보다 타임스탬프와 화자 분리 부재가 더 크게 남았다.",
-        "1비트 LLM도 놀라움보다 어디서 품질이 꺾이는지 묻는 검증이 먼저 붙었다."
+        "OpenClaude가 유출 직후 같은 UI를 여러 모델에 붙였다",
+        "claw-code는 클린룸 재작성으로 법적 부담을 비켜가려 했다",
+        "HN에선 기능보다 배포 통제와 운영 신뢰를 더 크게 물었다"
       ]
     }
   ],
   "featured_spotlight": {
-    "id": "quiet-riser",
-    "kind": "quiet_riser",
-    "label": "AI Spotlight",
-    "title": "조용히 커지는 주제",
-    "cta_label": "흐름 보기",
+    "id": "anomaly-signal",
+    "kind": "anomaly_signal",
+    "label": "Labs",
+    "title": "이번 주 이상 신호",
+    "cta_label": "신호 보기",
     "related_item_ids": [
-      "f7331389660ccd18bb0400071b83a2906ff9a1b3",
-      "0e694f0a374d56ec90064cd20f2ea44f587d0c4b",
-      "4be58322149895c1fd9ee628c64c9cbfc8ae97e4"
+      "0b3cddc821ee3320d17edae73da22cbc7b3f05b6",
+      "4ec1528e639a5da2b59775406143af76a906563d",
+      "c1a18af2c30716faead8068e52555b38387a402d"
     ],
-    "score": 0.91,
-    "generated_at": "2026-04-01T00:10:42.463092+00:00",
+    "score": 0.94,
+    "generated_at": "2026-04-02T16:26:24.787514+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "로컬 경량 추론",
-    "summary_line": "큰 모델 경쟁 옆에서, 적은 메모리와 로컬 장비에 맞춘 추론 최적화가 빠르게 쌓이고 있다.",
+    "signal_title": "유출이 곧 제품이 되는 속도",
+    "summary_line": "닫힌 도구의 내부가 새자, 해설과 복제 프로젝트가 거의 동시에 따라붙었다.",
     "signals": [
-      "Ollama가 Apple Silicon용 MLX 경로를 열었다.",
-      "1비트 LLM이 저비용 배포의 현실성을 끌어올렸다.",
-      "KV 캐시 절감 설계가 긴 문맥 비용을 다시 낮추고 있다."
+      "OpenClaude가 유출 직후 같은 UI를 여러 모델에 붙였다",
+      "claw-code는 클린룸 재작성으로 법적 부담을 비켜가려 했다",
+      "HN에선 기능보다 배포 통제와 운영 신뢰를 더 크게 물었다"
     ]
   }
 }
