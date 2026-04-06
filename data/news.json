@@ -1,6 +1,465 @@
 {
   "items": [
     {
+      "id": "ffef60958b10d851dab1668d25248305987d0b6f",
+      "title_hash": "efee399254e2af10ddf8599ac1eeb1874a6a18af",
+      "source": "GeekNews",
+      "title": "8년의 갈망, 3개월의 완성 - AI가 바꾼 사이드 프로젝트의 공식",
+      "link": "https://news.hada.io/topic?id=28239",
+      "published_at": "2026-04-06T00:44:05+00:00",
+      "summary": "오랫동안 부족했던 SQLite용 고품질 개발 도구 를 AI의 도움으로 단기간에 완성 공식 문법 명세 부재와 복잡한 C 코드베이스 로 인해 파서 구축이 가장 큰 난관이었음 Claude Code 등 AI 코딩 에이전트 를 활용해 초기 구현을 빠르게 진행...",
+      "fetched_at": "2026-04-06T03:21:47.362438+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=7,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "ffef60958b10d851dab1668d25248305987d0b6f",
+      "is_english_source": false,
+      "sent_at": "2026-04-06T03:24:29.097321+00:00"
+    },
+    {
+      "id": "881d871998b482d059db2c09c8565b53f1799c71",
+      "title_hash": "d0a488ce6f35e25b84ebc335149b67366848f79c",
+      "source": "GeekNews",
+      "title": "AWS 엔지니어, Linux 7.0에서 PostgreSQL 성능이 절반으로 감소했다고 보고 – 수정이 쉽지 않을 수 있음",
+      "link": "https://news.hada.io/topic?id=28241",
+      "published_at": "2026-04-06T00:50:05+00:00",
+      "summary": "Linux 7.0 개발 커널에서 PostgreSQL 데이터베이스 서버의 처리량이 이전 커널 대비 약 절반 수준 으로 떨어지는 심각한 성능 회귀 가 Amazon/AWS 엔지니어에 의해 발견됨 Graviton4 서버에서 측정한 결과, Linux 7.0은 이전 커널 대비 약 0.51배의 처리량...",
+      "fetched_at": "2026-04-06T03:21:47.362438+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=12,practical_tech=12,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "postgres",
+            "sql"
+          ],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "postgres",
+        "sql",
+        "성능"
+      ],
+      "detail_slug": "881d871998b482d059db2c09c8565b53f1799c71",
+      "is_english_source": false,
+      "sent_at": "2026-04-06T03:24:29.097321+00:00"
+    },
+    {
+      "id": "afce01d07a1afb39b94a869c9f18358b7f3460f6",
+      "title_hash": "04f7faed366ea35cd7bcbe276fc20f643e019629",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Recall – local multimodal semantic search for your files",
+      "link": "https://github.com/aayu22809/Recall",
+      "published_at": "2026-04-06T00:09:14+00:00",
+      "summary": "HN story type: story HN points: 11 HN comments: 7 HN top comments: patel_aayushya: Search \"team dinner\" and surface the photo — even with zero metadata. Powered by Gemini Embedding 2 + local ChromaDB. Comes with an animated setup wizard and a Raycast extension for instant visual search. Nothing leaves your machine except embedding API calls. TZubiri: Great, let's just hope aayu22809 ( whose github activity started in yesterday, and whose commits are coauthored by claude) doesn't compromise the supply chain of the company. esafak: Does it consider relationships between files, esp. for code? Otherwise I don't see how it would work.",
+      "fetched_at": "2026-04-06T03:21:47.362438+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47655335",
+      "hn_story_type": "story",
+      "hn_points": "11",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47655335",
+      "hn_item_text": "",
+      "hn_comment_preview": "patel_aayushya: Search \"team dinner\" and surface the photo — even with zero metadata. Powered by Gemini Embedding 2 + local ChromaDB. Comes with an animated setup wizard and a Raycast extension for instant visual search. Nothing leaves your machine except embedding API calls.\nTZubiri: Great, let's just hope aayu22809 ( whose github activity started in yesterday, and whose commits are coauthored by claude) doesn't compromise the supply chain of the company.\nesafak: Does it consider relationships between files, esp. for code? Otherwise I don't see how it would work.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=17,tools_agents=22,strategy_insight=2,industry_business=8",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 22,
+        "strategy_insight": 2,
+        "industry_business": 8
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "embedding",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "extension",
+            "setup",
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "supply + chain"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "extension",
+        "setup",
+        "local",
+        "claude + code",
+        "github.com"
+      ],
+      "detail_slug": "afce01d07a1afb39b94a869c9f18358b7f3460f6",
+      "is_english_source": true,
+      "translated_title": "Recall, 내 파일을 찾는 로컬 멀티모달 검색",
+      "short_summary": "Recall은 메타데이터가 없어도 사진·문서·스크린샷을 의미 기반으로 찾는 로컬 검색 도구다. 임베딩 호출만 외부 API를 쓰고, 저장과 검색은 기기 안에서 처리한다.",
+      "why_it_matters": "파일명과 폴더 구조에 기대던 검색을 자연어 중심으로 바꾸려는 흐름이 더 또렷해졌다는 점에서 눈여겨볼 만하다. 특히 이미지와 문서가 뒤섞인 개인 업무 환경에서는 검색 방식 자체를 다시 생각하게 만든다.\n- 사진이나 스크린샷에 태그가 없어도 \"팀 저녁\"처럼 기억나는 표현으로 찾을 수 있어 자료를 되찾는 시간이 줄 수 있다.\n- 인덱스와 검색은 로컬에서 처리하고 외부로 나가는 것은 임베딩 호출뿐이라, 파일 업로드에 민감한 환경에서도 검토 여지가 있다.\n- 다만 코드 검색처럼 파일 간 관계와 문맥 이해가 필요한 용도라면 현재 방식만으로 충분한지 따져봐야 한다.",
+      "hn_reaction_summary": "HN 반응은 데모의 사용감에는 호감을 보이면서도, 실제로 믿고 써도 되는 도구인지 따져보는 분위기였다. 흥미로운 아이디어라는 평가와 함께 배포 신뢰성, 검색 깊이에 대한 의문이 같이 나왔다.\n- 긍정 쪽에서는 메타데이터 없이도 사진을 자연어로 찾는 예시와 Raycast 연동이 실제 활용 장면을 잘 보여준다는 반응이 있었다.\n- 반대 쪽에서는 새 GitHub 계정과 AI 공동 작성 커밋을 근거로 공급망 보안과 유지보수 신뢰성을 걱정하는 의견이 반복됐다.\n- 특히 개발자 관점에서는 코드 파일 사이의 관계까지 보지 못하면 검색 품질이 금방 한계에 부딪힐 수 있다는 지적이 나왔다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-06T03:24:29.097321+00:00"
+    },
+    {
+      "id": "c4f8fbf12e547d3ce29c07e407ce3fc62e58fb78",
+      "title_hash": "d97491f7aa27249dc8b782e9b425ee0816e19d3d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Gemma Gem – AI model embedded in a browser – no API keys, no cloud",
+      "link": "https://github.com/kessler/gemma-gem",
+      "published_at": "2026-04-06T00:14:37+00:00",
+      "summary": "HN story type: story HN points: 17 HN comments: 1 HN post text: Gemma Gem is a Chrome extension that loads Google's Gemma 4 (2B) through WebGPU in an offscreen document and gives it tools to interact with any webpage: read content, take screenshots, click elements, type text, scroll, and run JavaScript. You get a small chat overlay on every page. Ask it about the page and it (usually) figures out which tools to call. It has a thinking mode that shows chain-of-thought reasoning as it works. It's a 2B model in a browser. It works for simple page questions and running JavaScript, but multi-step tool chains are unreliable and it sometimes ignores its tools entirely. The agent loop has zero external dependencies and can be extracted as a standalone library if anyone wants to experiment with it. HN top comments: avaer: There's also the Prompt API, currently in Origin Trial, which supports this api surface for sites: https://developer.chrome.com/docs/ai/prompt-api I just checked the stats: Model Name: v3Nano Version: 2025.06.30.1229 Backend Type: GPU (highest quality) Folder size: 4,072.13 MiB Different use case but a similar approach. I expect that at some point this will become a native web feature, but not anytime soon, since...",
+      "fetched_at": "2026-04-06T03:21:47.362438+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47655367",
+      "hn_story_type": "story",
+      "hn_points": "17",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47655367",
+      "hn_item_text": "Gemma Gem is a Chrome extension that loads Google's Gemma 4 (2B) through WebGPU in an offscreen document and gives it tools to interact with any webpage: read content, take screenshots, click elements, type text, scroll, and run JavaScript. You get a small chat overlay on every page. Ask it about the page and it (usually) figures out which tools to call. It has a thinking mode that shows chain-of-thought reasoning as it works. It's a 2B model in a browser. It works for simple page questions and running JavaScript, but multi-step tool chains are unreliable and it sometimes ignores its tools entirely. The agent loop has zero external dependencies and can be extracted as a standalone library if anyone wants to experiment with it.",
+      "hn_comment_preview": "avaer: There's also the Prompt API, currently in Origin Trial, which supports this api surface for sites: https://developer.chrome.com/docs/ai/prompt-api I just checked the stats: Model Name: v3Nano Version: 2025.06.30.1229 Backend Type: GPU (highest quality) Folder size: 4,072.13 MiB Different use case but a similar approach. I expect that at some point this will become a native web feature, but not anytime soon, since...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=18,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 18,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "show hn",
+            "api"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 18,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [
+            "extension",
+            "prompt",
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "show hn",
+        "api",
+        "library",
+        "github.com"
+      ],
+      "detail_slug": "c4f8fbf12e547d3ce29c07e407ce3fc62e58fb78",
+      "is_english_source": true,
+      "translated_title": "API 키 없이 브라우저에서 도는 Gemma 에이전트",
+      "short_summary": "Gemma Gem은 Chrome 확장으로 Gemma 4 2B를 브라우저 안에서 직접 돌리며, 페이지 읽기와 클릭, 입력, 스크롤, 자바스크립트 실행까지 처리한다. 클라우드 없이 쓰는 점은 눈에 띄지만 여러 단계를 잇는 작업은 아직 불안정하다.",
+      "why_it_matters": "브라우저 안에서 모델을 직접 실행하고 웹페이지 조작까지 붙였다는 점이 눈에 띈다. AI 기능을 붙일 때 서버 비용과 API 의존도를 줄일 수 있다는 가능성을 보여주지만, 실무 투입 전에는 안정성과 제어 문제가 먼저 걸린다.\n- API 키나 별도 백엔드 없이도 페이지 보조 기능을 만들 수 있어 사내 도구나 개인 자동화 실험의 진입 장벽이 낮아진다.\n- WebGPU 기반 로컬 실행이어서 개인정보나 페이지 내용을 외부로 보내지 않는 구성이 가능하다. 보안과 프라이버시에 민감한 환경에서 특히 눈여겨볼 만하다.\n- 다만 멀티스텝 작업이 자주 흔들리고 도구 호출을 건너뛰는 경우도 있어, 지금 당장은 완전 자동화보다 단순 질의나 보조형 워크플로에 더 맞다.",
+      "hn_reaction_summary": "HN 반응은 아직 많지 않지만, 방향성 자체에는 공감하는 분위기다. 다만 댓글에서는 이 프로젝트만의 새로움보다 브라우저가 이런 기능을 어디까지 네이티브로 흡수할지가 더 큰 논점으로 보인다.\n- 대표 댓글은 Chrome의 Prompt API 오리진 트라이얼을 언급하며, 비슷한 인터페이스가 이미 브라우저 기능으로 다가오고 있다고 짚었다.\n- 동시에 내려받는 모델 크기가 약 4GB 수준이라는 점도 함께 언급돼, 실제 배포와 사용자 환경 제약은 아직 만만치 않다는 시각이 드러난다.\n- 실무자 관점에서는 확장 프로그램 기반 실험이 먼저 나오고, 이후 브라우저 표준 기능이 얼마나 빠르게 따라올지가 관전 포인트다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-06T03:24:29.097321+00:00"
+    },
+    {
+      "id": "20be00261f613bd0f4f7ccde605da187ed192688",
+      "title_hash": "ecf400251b5ea3c7f6f4ce9e5531f8e695b4bfaf",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: YouTube search barely works, I made a search form with advanced filters",
+      "link": "https://playlists.at/youtube/search/",
+      "published_at": "2026-04-06T00:18:26+00:00",
+      "summary": "HN story type: story HN points: 90 HN comments: 62 HN top comments: VenezuelaFree: Search is the reason I stopped watching youtube, I used to view and discover so many nice stuff in there, tutorials, new hobbies, new music, new creators with different interests, etc but now it's pretty much impossible to find, you are forced to watch the 3 top videos, some 3 ads and then it forces you to watch some other random unrelated crap, it's so annoying and frustrating It got so bad that even searching th... wincy: For April Fools Sega released an (actual, real) “Sanic the Hedgeheg” t-shirt and I wanted to see if there was anything about it on YouTube. YouTube assumed I meant “sonic” and it was impossible to correct it and say “no I’m actually searching for this dumb meme”. It just assumes everyone who uses YouTube is really dumb I guess. (I bought the shirt by the way and am excited to get it lol) loveparade: The whole Youtube experience has gotten so bad over the years. I love the youtube content, but I wish I didn't have to deal with the UI/UX and recommendations that the YT app forces on me. Annoying Shorts. I'm trying to keep my watch history clean to \"steer\" recommendations, but YT keeps adding things to it that I didn't actually watch just because I happened to hover my mouse over a video, etc.",
+      "fetched_at": "2026-04-06T03:21:47.362438+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47655392",
+      "hn_story_type": "story",
+      "hn_points": "90",
+      "hn_comments_count": "62",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47655392",
+      "hn_item_text": "",
+      "hn_comment_preview": "VenezuelaFree: Search is the reason I stopped watching youtube, I used to view and discover so many nice stuff in there, tutorials, new hobbies, new music, new creators with different interests, etc but now it's pretty much impossible to find, you are forced to watch the 3 top videos, some 3 ads and then it forces you to watch some other random unrelated crap, it's so annoying and frustrating It got so bad that even searching th...\nwincy: For April Fools Sega released an (actual, real) “Sanic the Hedgeheg” t-shirt and I wanted to see if there was anything about it on YouTube. YouTube assumed I meant “sonic” and it was impossible to correct it and say “no I’m actually searching for this dumb meme”. It just assumes everyone who uses YouTube is really dumb I guess. (I bought the shirt by the way and am excited to get it lol)\nloveparade: The whole Youtube experience has gotten so bad over the years. I love the youtube content, but I wish I didn't have to deal with the UI/UX and recommendations that the YT app forces on me. Annoying Shorts. I'm trying to keep my watch history clean to \"steer\" recommendations, but YT keeps adding things to it that I didn't actually watch just because...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=7,strategy_insight=2,industry_business=10",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "show hn",
+            "rust"
+          ],
+          "support_hits": [
+            "tutorial"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "release",
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "show hn",
+        "rust",
+        "tutorial"
+      ],
+      "detail_slug": "20be00261f613bd0f4f7ccde605da187ed192688",
+      "is_english_source": true,
+      "translated_title": "유튜브 검색이 너무 답답해 직접 고급 검색 폼을 만들었다",
+      "short_summary": "한 개발자가 유튜브 기본 검색이 원하는 결과를 제대로 찾기 어렵다며, 조건을 세밀하게 조절할 수 있는 고급 검색 폼을 공개했다. HN에서는 검색 품질 저하와 과한 추천 노출에 지쳤다는 반응이 이어졌다.",
+      "why_it_matters": "유튜브가 검색보다 추천 소비를 더 강하게 밀어준다는 불만이 커지는 흐름을 잘 보여주는 사례다. 정보를 찾아야 하는 사용자에게는 작은 불편이 아니라 업무 방식 자체를 바꾸는 문제로 이어질 수 있다.\n- 튜토리얼, 참고 영상, 특정 키워드 탐색처럼 목적형 검색이 중요한 작업에서는 기본 검색만으로 원하는 결과를 찾기 더 어려워졌다는 신호로 읽힌다.\n- 자동 보정, 상단 몇 개 영상 반복 노출, 광고와 무관한 추천 개입이 심해지면 검색 품질을 보완하는 외부 도구 수요가 커질 수 있다.\n- 실무에서는 사내 검색, 콘텐츠 탐색, 추천 시스템을 설계할 때 '체류 시간 최적화'가 정확한 검색 경험을 얼마나 쉽게 훼손하는지 다시 점검할 필요가 있다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 공감과 피로감 쪽에 가까웠다. 유튜브 콘텐츠 자체는 좋아하지만 검색과 UI가 점점 버거워졌다는 경험담이 반복해서 나왔다.\n- 가장 많이 나온 불만은 원하는 영상을 찾기보다 상위 몇 개 영상과 광고, 엉뚱한 추천으로 끌려간다는 점이었다.\n- 검색어를 정확히 넣어도 플랫폼이 멋대로 뜻을 추정해 다른 결과를 보여준다는 비판도 있었다. 밈이나 고유명사처럼 일부러 틀린 표현을 찾을 때 특히 답답하다는 반응이다.\n- 추천 시스템을 관리하려고 시청 기록을 조심해도 마우스 오버 같은 약한 상호작용까지 반영되는 점이 거슬린다는 의견이 나왔고, 검색과 추천이 서로 방해한다는 시각이 두드러졌다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-06T03:24:29.097321+00:00"
+    },
+    {
       "id": "99139202aabef605407ee91d84cc81775576bffa",
       "title_hash": "baa2422e8330769e7f38680d40414703b092c52e",
       "source": "GeekNews",
@@ -61034,9 +61493,12 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트: 하니스와 로컬 실행",
-        "summary": "이번 주엔 코딩 에이전트의 관심이 모델 자체보다 하니스와 실행 환경으로 옮겨가는 흐름이 뚜렷했다. 오픈소스 런타임의 급성장과 로컬 실행 실험이 같은 방향을 가리킨다.\n- 에이전트는 LLM 하나보다 컨텍스트 관리, 도구 호출, 상태 제어를 묶는 구조가 더 자주 거론됐다.\n- Oh My Codex 같은 런타임이 빠르게 주목받았고, 구성 요소를 풀어쓴 글도 함께 읽혔다.\n- Gemma 4를 아이폰과 macOS에서 직접 돌리는 사례가 나오며, 로컬 에이전트의 실사용 감각이 가까워졌다.",
+        "headline": "이번 주 도구·에이전트",
+        "summary": "AI 도구 흐름이 모델 자랑을 넘어, 실제 일을 붙잡아 두는 실행 환경과 로컬 처리로 옮겨가고 있다. 이번 주 묶음은 그 변화를 한눈에 보여준다.\n\n- AI가 오래 막히던 개발 도구 제작을 몇 달 단위로 압축하며, 사이드 프로젝트의 속도 공식을 바꾸고 있다.\n- 검색과 브라우저 작업도 클라우드보다 기기 안 처리로 무게가 옮겨간다. 프라이버시와 즉시성이 함께 부각된다.\n- 관심도 모델 자체보다 하니스, 제어 루프, 운영 방식으로 번진다. 에이전트를 어떻게 굴릴지가 지금 볼 대목이다.",
         "item_ids": [
+          "ffef60958b10d851dab1668d25248305987d0b6f",
+          "afce01d07a1afb39b94a869c9f18358b7f3460f6",
+          "c4f8fbf12e547d3ce29c07e407ce3fc62e58fb78",
           "99139202aabef605407ee91d84cc81775576bffa",
           "33f6193db8819f2f2b1e68207aba1e253f54a037",
           "bc26c025e24e9e42fdcdfbb70e5a973134abd053",
@@ -61122,13 +61584,10 @@
           "5ee0c80f10ddb629a28bdfd600fb1595b25cc1be",
           "3ed5c29db3c3e53a777fd26cba915c2aa9f548fb",
           "624e35a41550d69ea6691901d32754e1b3d4f811",
-          "140d73414fc5911a85be7642c331905201ad0e3f",
-          "1cab3c934221e78ead35e16229f6c45bab19acf4",
-          "415b0278c111d53d8535f9055341a9f3c915aef1",
-          "088839f6364b817ae618d9e14d22d23fd00c1093"
+          "140d73414fc5911a85be7642c331905201ad0e3f"
         ],
         "total_items": 89,
-        "generated_at": "2026-04-05T23:10:51.264256+00:00",
+        "generated_at": "2026-04-06T03:21:47.362438+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -61136,8 +61595,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "이번 주 실무 기술은 가볍고 들여다볼 수 있는 도구를 다시 고르는 흐름이 두드러졌다. 만드는 속도만이 아니라, 막혔을 때 통제권이 누구에게 있는지도 함께 묻는다.\n- LÖVE, Rust 인터프리터, Aegis는 단순한 구조와 공개된 바닥부터 다시 쌓는 시도를 보여줬다.\n- notion-to-email은 Notion 문서를 메일 HTML로 바로 바꿔 실무 연결 비용을 낮췄다.\n- 구글 워크스페이스 정지 사례는 편한 SaaS일수록 우회로와 백업이 왜 필요한지 선명하게 드러냈다.",
+        "summary": "이번 주에는 플랫폼 기본값을 그대로 믿기보다, 직접 재고 우회하는 실무 감각이 두드러졌다. 커널 성능 회귀부터 검색 보완 도구, 메일 변환 자동화까지 현업형 대응이 이어졌다.\n- Linux 7.0의 PostgreSQL 성능 급락은 업그레이드 전 실측이 먼저라는 점을 다시 보여줬다.\n- 유튜브 검색 폼과 notion-to-email은 답답한 기본 기능을 바로 쓸 도구로 메우는 흐름을 보여준다.\n- LÖVE와 러스트 인터프리터 사례는 가볍고 손에 잡히는 스택을 다시 찾는 분위기를 드러냈다.",
         "item_ids": [
+          "881d871998b482d059db2c09c8565b53f1799c71",
+          "20be00261f613bd0f4f7ccde605da187ed192688",
           "bbb9104511f0c043ec208763ae1e33f2d4f42bef",
           "fdb9a2235005ea6f7d276e91c92911b84dab538d",
           "0ccaac23d9f1675240e9c1fcffe1e3b144e5fa97",
@@ -61198,12 +61659,10 @@
           "adede4d80d49a1b59901dcd0965273efdcf499c7",
           "210bbce15e66f2cd0b490304b8083f5040602777",
           "a2cb0e7495744c3b8a78ccacbfcdefea339d977b",
-          "db1915cc4860f739086ee056c26b3722c1e2fe03",
-          "5db50296025e875929aa1ec0af6d238740a20fff",
-          "329f38fa5fb53d1b02b31767eb7667f0edaef0ef"
+          "db1915cc4860f739086ee056c26b3722c1e2fe03"
         ],
         "total_items": 63,
-        "generated_at": "2026-04-05T23:10:51.264256+00:00",
+        "generated_at": "2026-04-06T03:21:47.362438+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -61211,7 +61670,7 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 주 산업·비즈니스",
-        "summary": "AI가 미디어, 개발도구, 로보틱스, 우주산업까지 번지는 흐름이 뚜렷해졌다. 이번 주는 성능 경쟁보다 제품화와 자본, 유통 전략이 함께 움직였다는 점이 눈에 띈다.\n- OpenAI의 TBPN 인수와 Gemma 4, 그누보드7은 AI가 콘텐츠 채널과 개발 현장으로 더 깊게 들어가는 국면을 보여준다.\n- Physical AI 투자 확대와 SpaceX IPO 착수는 기대가 실제 산업 투자와 시장 판단으로 옮겨가고 있음을 말해준다.\n- 지금은 누가 더 좋은 기술을 내놓는지보다 누가 먼저 판을 깔고 돈을 모으는지 볼 때다.",
+        "summary": "AI를 축으로 기술 기업의 판이 다시 짜이는 한 주였다. 모델 공개부터 미디어 인수, 상장 추진까지 흐름이 한 방향으로 모였다.\n- Gemma 4와 그누보드7은 AI를 붙이기 쉬운 개발 기반 경쟁이 빨라졌다는 점을 보여줬다.\n- OpenAI의 TBPN 인수와 SpaceX IPO 추진은 기술 경쟁이 자본시장과 여론장까지 넓어졌다는 신호다.\n- Physical AI 투자 확산은 다음 승부처가 현실 세계 자동화에 있다는 기대를 키운다.",
         "item_ids": [
           "d9d0a67de037d6eb6aad1ead0e22cb6d33b7c45a",
           "d3929880d1412739b44c921a78dc0741d5808d8c",
@@ -61222,11 +61681,10 @@
           "cba1c7ba2333ce75aa947eff0b8bef9c76f4696a",
           "04da457ae534af8df308188edfe4f3a3227adda5",
           "3525f07fd4e2925430185f91d9bee5ac6d908d81",
-          "fae9a4b1014e2c517dc964535dffc65f45bfd30e",
-          "815f42342083484aa14e3fc7ab4f4ded066de4a2"
+          "fae9a4b1014e2c517dc964535dffc65f45bfd30e"
         ],
-        "total_items": 11,
-        "generated_at": "2026-04-05T23:10:51.264256+00:00",
+        "total_items": 10,
+        "generated_at": "2026-04-06T03:21:47.362438+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -61236,8 +61694,11 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "이번 달은 모델 자체보다 에이전트를 굴리는 틀과 로컬 실행 환경이 더 또렷하게 보였다. 오픈소스 런타임이 빠르게 커지고, 아이폰과 맥에서도 직접 돌리는 흐름이 실사용 단계로 내려왔다.\n\n- 코딩 에이전트는 LLM보다 하니스, 상태 관리, 도구 연결이 성패를 가른다는 논의가 반복됐다.\n- Gemma 4 사례는 온디바이스 실행이 데모를 넘어 작업 흐름 안으로 들어오는 장면을 보여줬다.\n- 지금 보면 좋은 이유는 CLI와 런타임 조합이 막 개념 설명을 지나, 바로 시험해볼 수 있는 형태로 굳어지고 있어서다.",
+        "summary": "이번 달엔 AI가 도구를 더 빨리 만들고, 더 가까운 곳에서 돌리는 흐름이 또렷했다. 이제는 모델 성능만이 아니라 실행 환경과 하니스 설계가 어디까지 밀어주는지가 갈림길이 된다.\n- AI 코딩 에이전트가 SQLite 도구처럼 오래 묵은 작업도 몇 달 안에 끝낼 수 있음을 보여줬다.\n- 검색과 브라우저 에이전트는 클라우드보다 로컬·브라우저 안으로 내려오며 쓰임을 넓히는 중이다.\n- 오픈소스 관심도 역시 모델 자체보다 런타임, 제어 루프, 도구 연결 방식으로 옮겨가고 있다.",
         "item_ids": [
+          "ffef60958b10d851dab1668d25248305987d0b6f",
+          "afce01d07a1afb39b94a869c9f18358b7f3460f6",
+          "c4f8fbf12e547d3ce29c07e407ce3fc62e58fb78",
           "99139202aabef605407ee91d84cc81775576bffa",
           "33f6193db8819f2f2b1e68207aba1e253f54a037",
           "bc26c025e24e9e42fdcdfbb70e5a973134abd053",
@@ -61639,8 +62100,8 @@
           "a0a97452b3ecca2931f401df97769b751c888b91",
           "42469d2b332c9678a23d3289d9db8fc01424b55a"
         ],
-        "total_items": 400,
-        "generated_at": "2026-04-05T23:10:51.264256+00:00",
+        "total_items": 403,
+        "generated_at": "2026-04-06T03:21:47.362438+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -61648,8 +62109,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달에는 편한 플랫폼에만 기대지 않고, 직접 통제하고 검증할 수 있는 기술을 다시 찾는 흐름이 뚜렷했다. 실험은 더 낮은 층으로 내려갔고 실무는 막힐 때의 비용을 따져 보기 시작했다.\n- LÖVE와 꼬리 호출 인터프리터는 단순한 구조와 손에 잡히는 구현 감각을 다시 끌어올렸다.\n- notion-to-email은 문서를 발송 채널까지 잇는 실무형 자동화의 쓰임새를 선명하게 보여줬다.\n- Aegis와 워크스페이스 정지 사례는 신뢰 사슬과 플랫폼 의존 리스크를 지금 점검하게 만든다.",
+        "summary": "이번 달엔 거창한 비전보다 당장 막히는 성능 저하와 검색 불편, 배포 호환을 직접 풀어낸 이야기가 모였다. 플랫폼 기본값을 믿기보다 손에 맞는 도구를 다시 짜는 흐름이 또렷하다.\n\n- Linux 7.0의 PostgreSQL 회귀처럼 하부 스택 변화가 서비스 성능을 크게 흔든다.\n- 유튜브 고급 검색, Notion 이메일 변환처럼 틈새 불편을 메우는 작은 도구가 바로 실무 자산이 된다.\n- LÖVE와 Rust 인터프리터 사례는 단순한 런타임과 실행 모델을 다시 살피게 만든다.",
         "item_ids": [
+          "881d871998b482d059db2c09c8565b53f1799c71",
+          "20be00261f613bd0f4f7ccde605da187ed192688",
           "bbb9104511f0c043ec208763ae1e33f2d4f42bef",
           "fdb9a2235005ea6f7d276e91c92911b84dab538d",
           "0ccaac23d9f1675240e9c1fcffe1e3b144e5fa97",
@@ -61890,11 +62353,10 @@
           "8b0916e8dc8e27dcbccad81b0a822b979b4788f6",
           "2b7ce9ba24bba00355c116960dc90741f7dfef67",
           "8a7f6ae1821d20d5cc83a7643b0af3551ec12d55",
-          "2ff7cbc1f0cb83b18630a624dcef3bc93d8bf64d",
-          "c019ac65d9a63c6e297c65f6d8498f4efc63ae5b"
+          "2ff7cbc1f0cb83b18630a624dcef3bc93d8bf64d"
         ],
-        "total_items": 242,
-        "generated_at": "2026-04-05T23:10:51.264256+00:00",
+        "total_items": 243,
+        "generated_at": "2026-04-06T03:21:47.362438+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -61902,7 +62364,7 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 달 산업·비즈니스",
-        "summary": "이번 달엔 AI와 딥테크가 기술 발표를 넘어 사업 구도와 자본시장 이슈로 이어지는 흐름이 또렷했다. 모델, 미디어, 로보틱스, 우주가 한 줄로 묶였다.\n\n- 구글의 Gemma 4와 그누보드7은 AI를 붙이기 쉬운 기반 경쟁이 빨라졌다는 장면이다.\n- OpenAI의 TBPN 인수와 로보틱스 투자 확대는 성능보다 유통력과 실행력 싸움이 커졌음을 보여준다.\n- SpaceX IPO 추진까지 겹치며 지금은 기술 자체보다 돈과 시장이 어디로 붙는지 볼 때다.",
+        "summary": "AI와 실물 산업이 같은 방향으로 움직인 한 달이었다. 모델 공개와 인수, 오픈베타, 투자, IPO가 한 흐름으로 이어졌다.\n\n- Gemma 4, 그누보드7, TBPN 인수는 AI가 연구 단계를 넘어 제품과 플랫폼, 미디어 접점까지 넓어지는 장면을 보여준다.\n- Physical AI 투자 확대와 SpaceX IPO 절차는 자본이 로봇과 우주처럼 긴 호흡의 산업으로 다시 몰리는 분위기를 드러낸다.",
         "item_ids": [
           "d9d0a67de037d6eb6aad1ead0e22cb6d33b7c45a",
           "d3929880d1412739b44c921a78dc0741d5808d8c",
@@ -61946,11 +62408,10 @@
           "ec5c58d7ba08f3aa1911f53177446365c981deac",
           "6a515a5cf874041e56d7a055c73a6c029a4eb445",
           "2c84a8e6c4030f9c7d6fb858476ba19b2e95390e",
-          "c86939513f4808d7b1b8af2a70df9a9b988e6a14",
-          "e75908dddbba3531ba416bb6777501b41d852c1d"
+          "c86939513f4808d7b1b8af2a70df9a9b988e6a14"
         ],
-        "total_items": 44,
-        "generated_at": "2026-04-05T23:10:51.264256+00:00",
+        "total_items": 43,
+        "generated_at": "2026-04-06T03:21:47.362438+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -61961,23 +62422,22 @@
       "kind": "quiet_riser",
       "label": "AI Spotlight",
       "title": "조용히 커지는 주제",
-      "cta_label": "흐름 보기",
+      "cta_label": "흐름 더 보기",
       "related_item_ids": [
-        "99139202aabef605407ee91d84cc81775576bffa",
+        "ffef60958b10d851dab1668d25248305987d0b6f",
         "33f6193db8819f2f2b1e68207aba1e253f54a037",
-        "d3495e5aa2a729f57f29e5039b14d54e01185830",
-        "71cbdf89c92ab8a6ade95ebca4a2ab0687d4291c",
-        "55efb199cba4f6658b04a8385eeef79beabf192d"
+        "69721a5355bb875ab0ebc301e9622dcbff771bba",
+        "71cbdf89c92ab8a6ade95ebca4a2ab0687d4291c"
       ],
-      "score": 0.94,
-      "generated_at": "2026-04-05T23:10:51.264256+00:00",
+      "score": 0.93,
+      "generated_at": "2026-04-06T03:21:47.362438+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "하니스와 로컬 실행",
-      "summary_line": "모델 경쟁보다 에이전트를 굴리는 틀과 기기 안 실행이 더 자주 한 묶음으로 나온다.",
+      "topic_name": "에이전트 실행 환경",
+      "summary_line": "이제 눈길을 끄는 건 모델 숫자보다 일을 끝까지 붙잡는 하니스와 로컬 실행 경로다.",
       "signals": [
-        "오픈소스 런타임과 컨텍스트 관리 도구가 함께 떠오른다.",
-        "아이폰과 맥에서 Gemma 4를 직접 돌리는 사례가 실사용 이야기를 앞당긴다.",
-        "코딩 에이전트 설명도 모델보다 상태 제어와 도구 연결로 무게중심이 옮겨간다."
+        "오래 막히던 SQLite 도구 제작이 AI 에이전트로 몇 달 단위로 압축됐다.",
+        "코딩 에이전트 논의의 중심이 프롬프트보다 루프와 상태 제어로 옮겨갔다.",
+        "Cursor 3.0과 LM Studio CLI는 개발 환경 자체를 에이전트 중심으로 다시 짠다."
       ]
     },
     {
@@ -61985,39 +62445,38 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "쟁점 보기",
+      "cta_label": "댓글 흐름 보기",
       "related_item_ids": [
-        "71cbdf89c92ab8a6ade95ebca4a2ab0687d4291c"
+        "afce01d07a1afb39b94a869c9f18358b7f3460f6"
       ],
-      "score": 0.84,
-      "generated_at": "2026-04-05T23:10:51.264256+00:00",
+      "score": 0.88,
+      "generated_at": "2026-04-06T03:21:47.362438+00:00",
       "ai_model": "codex-cli",
-      "headline": "LM Studio 새 CLI와 Claude Code로 Gemma 4 로컬 실행하기",
-      "issue_title": "로컬 LLM을 코딩 도구 흐름에 붙이는 방식이 진짜 실용적인가",
-      "opposition_summary": "연동 설명이 헷갈리고 메모리 기대도 부풀려졌다는 반론이 강하게 붙었다.",
-      "support_summary": "비용과 데이터 통제를 챙기면서 로컬 코딩 보조를 바로 써볼 수 있다는 기대가 컸다."
+      "headline": "Recall, 내 파일을 찾는 로컬 멀티모달 검색",
+      "issue_title": "재미있는 데모인가, 믿고 맡길 도구인가",
+      "opposition_summary": "새 GitHub 계정과 AI 공동 작성 커밋이 신뢰를 깎았고, 검색 깊이와 배포 안정성도 아직 검증이 부족하다는 반론이 나왔다.",
+      "support_summary": "메타데이터 없이 사진과 문서를 자연어로 찾는 데모가 설득력 있었다. Raycast 연동까지 보여줘 바로 써볼 장면이 보인다는 반응이 붙었다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 보기",
+      "cta_label": "신호 읽기",
       "related_item_ids": [
-        "bbb9104511f0c043ec208763ae1e33f2d4f42bef",
-        "502b4eaebcd6198e71290b0891c024a04e57c0d2",
-        "8c1eb2e4d7d13ef5fb079440ec9f18ab91cae896",
-        "fdb9a2235005ea6f7d276e91c92911b84dab538d"
+        "881d871998b482d059db2c09c8565b53f1799c71",
+        "20be00261f613bd0f4f7ccde605da187ed192688",
+        "bbb9104511f0c043ec208763ae1e33f2d4f42bef"
       ],
-      "score": 0.88,
-      "generated_at": "2026-04-05T23:10:51.264256+00:00",
+      "score": 0.84,
+      "generated_at": "2026-04-06T03:21:47.362438+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "편의보다 통제권을 다시 고른다",
-      "summary_line": "이번 주엔 더 편한 플랫폼보다 막혔을 때 뜯어볼 수 있는 도구가 자꾸 올라왔다.",
+      "signal_title": "기본값보다 우회가 빨랐다",
+      "summary_line": "플랫폼이 알아서 해주길 기다리기보다, 직접 재고 따로 만드는 실무 감각이 이어졌다.",
       "signals": [
-        "LÖVE와 작은 인터프리터 사례가 단순한 구조의 감각을 다시 끌어올린다.",
-        "로컬 CLI와 정적 사이트 실험처럼 GUI 밖에서 제어권을 챙기는 시도가 이어진다.",
-        "AI 코딩 경험담도 속도보다 설계 검토와 검증 책임을 누가 지는지로 모인다."
+        "Linux 7.0 업그레이드가 PostgreSQL 처리량을 절반 수준으로 깎으며 실측의 필요를 드러냈다.",
+        "유튜브 검색 피로가 커지자 아예 별도 고급 검색 폼이 등장했다.",
+        "LÖVE처럼 단순하고 손에 익는 프레임워크가 다시 현실적인 선택지로 호출됐다."
       ]
     }
   ],
@@ -62026,23 +62485,22 @@
     "kind": "quiet_riser",
     "label": "AI Spotlight",
     "title": "조용히 커지는 주제",
-    "cta_label": "흐름 보기",
+    "cta_label": "흐름 더 보기",
     "related_item_ids": [
-      "99139202aabef605407ee91d84cc81775576bffa",
+      "ffef60958b10d851dab1668d25248305987d0b6f",
       "33f6193db8819f2f2b1e68207aba1e253f54a037",
-      "d3495e5aa2a729f57f29e5039b14d54e01185830",
-      "71cbdf89c92ab8a6ade95ebca4a2ab0687d4291c",
-      "55efb199cba4f6658b04a8385eeef79beabf192d"
+      "69721a5355bb875ab0ebc301e9622dcbff771bba",
+      "71cbdf89c92ab8a6ade95ebca4a2ab0687d4291c"
     ],
-    "score": 0.94,
-    "generated_at": "2026-04-05T23:10:51.264256+00:00",
+    "score": 0.93,
+    "generated_at": "2026-04-06T03:21:47.362438+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "하니스와 로컬 실행",
-    "summary_line": "모델 경쟁보다 에이전트를 굴리는 틀과 기기 안 실행이 더 자주 한 묶음으로 나온다.",
+    "topic_name": "에이전트 실행 환경",
+    "summary_line": "이제 눈길을 끄는 건 모델 숫자보다 일을 끝까지 붙잡는 하니스와 로컬 실행 경로다.",
     "signals": [
-      "오픈소스 런타임과 컨텍스트 관리 도구가 함께 떠오른다.",
-      "아이폰과 맥에서 Gemma 4를 직접 돌리는 사례가 실사용 이야기를 앞당긴다.",
-      "코딩 에이전트 설명도 모델보다 상태 제어와 도구 연결로 무게중심이 옮겨간다."
+      "오래 막히던 SQLite 도구 제작이 AI 에이전트로 몇 달 단위로 압축됐다.",
+      "코딩 에이전트 논의의 중심이 프롬프트보다 루프와 상태 제어로 옮겨갔다.",
+      "Cursor 3.0과 LM Studio CLI는 개발 환경 자체를 에이전트 중심으로 다시 짠다."
     ]
   }
 }
