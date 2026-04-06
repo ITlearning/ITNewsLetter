@@ -1,6 +1,400 @@
 {
   "items": [
     {
+      "id": "6499a75dd28f63ffebd7c879d0e12b65bfa09c45",
+      "title_hash": "11af79a36e64b5d3fdbfb99e2b375f2dcd727e33",
+      "source": "GeekNews",
+      "title": "rtk - LLM 토큰 소비를 60~90% 줄여주는 CLI 프록시",
+      "link": "https://news.hada.io/topic?id=28245",
+      "published_at": "2026-04-06T01:06:02+00:00",
+      "summary": "AI 코딩 도구가 실행하는 CLI 명령어 출력을 LLM에 전달하기 전에 필터링·압축 해 토큰을 60~90% 절감 하는 단일 Rust 바이너리(윈/맥/리눅스) git, grep, ls, cargo test 등 100개 이상의 명령어 를 지원하며, 명령어 출력을 LLM 컨텍스트에 전달하...",
+      "fetched_at": "2026-04-06T19:55:41.478812+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=5,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli"
+      ],
+      "detail_slug": "6499a75dd28f63ffebd7c879d0e12b65bfa09c45",
+      "is_english_source": false,
+      "sent_at": "2026-04-06T19:58:55.384541+00:00"
+    },
+    {
+      "id": "9ef7bd4459022a2651b6bba17d0a089696582c68",
+      "title_hash": "3bcffe0f66ec073d7dbcff16d6a7390e82d1613a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Launch HN: Freestyle: Sandboxes for AI Coding Agents",
+      "link": "https://www.freestyle.sh",
+      "published_at": "2026-04-06T16:32:11+00:00",
+      "summary": "HN story type: story HN points: 116 HN comments: 65 HN post text: We’re Ben and Jacob, cofounders of Freestyle ( https://freestyle.sh ). We’re building a cloud for Coding Agents. For the first generation of agents it looked like workflows with minimal tools. 2 years ago we published a package to let AI work in SQL, at that time GPT-4 could write simple scripts. Soon after the first AI App Builders started using AI to make whole websites; we supported that with a serverless deploy system. But the current generation is going much further, instead of minimal tools and basic serverless apps AI can utilize the full power of a computer (“sandbox”). We’re building sandboxes that are interchangeable with EC2s from your agents perspective, with bonus features: 1. We’ve figured out how to fork a sandbox horizontally without more than a 400ms pause in it. That's not forking the filesystem, we mean forking the whole memory of it. If you’re half way down a browser page with animations running, they’ll be in the same place in all the forks. If you’re running a minecraft server every block and player will be in the same place on the forks. If you’re running a local environment and an error comes up in process that error will be there in all the forks. This w... HN top comments: TheTaytay: Wow, forking memory along with disk space this quickly is fascinating! That's something that I haven't seen from your competitors. If the machine can fork itself, it could allow for some really neat auto-forking workflows where you fuzz the UI testing of a website by forking at every decision point. I forget the name of the recent model that used only video as its latent space to control computers and cars, but th... jFriedensreich: Non open source and non local SAAS sandboxes are offensive to even try to launch. No one needs this and the only customers will be vibe coders who just don't know any better. There are teams building actual sandboxes like smolmachines, podman, colima and mre. At least be honest and put the virtualisation tech you are using as well as that its closed source SAAS on the landing page to safe people time. _jayhack_: Would love to understand how you compare to other providers like Modal, Daytona, Blaxel, E2B and Vercel. I think most other agent builders will have the same question. Can you provide a feature/performance comparison matrix to make this easier?",
+      "fetched_at": "2026-04-06T19:55:41.478812+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47663147",
+      "hn_story_type": "story",
+      "hn_points": "116",
+      "hn_comments_count": "65",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47663147",
+      "hn_item_text": "We’re Ben and Jacob, cofounders of Freestyle ( https://freestyle.sh ). We’re building a cloud for Coding Agents. For the first generation of agents it looked like workflows with minimal tools. 2 years ago we published a package to let AI work in SQL, at that time GPT-4 could write simple scripts. Soon after the first AI App Builders started using AI to make whole websites; we supported that with a serverless deploy system. But the current generation is going much further, instead of minimal tools and basic serverless apps AI can utilize the full power of a computer (“sandbox”). We’re building sandboxes that are interchangeable with EC2s from your agents perspective, with bonus features: 1. We’ve figured out how to fork a sandbox horizontally without more than a 400ms pause in it. That's not forking the filesystem, we mean forking the whole memory of it. If you’re half way down a browser page with animations running, they’ll be in the same place in all the forks. If you’re running a minecraft server every block and player will be in the same place on the forks. If you’re running a local environment and an error comes up in process that error will be there in all the forks. This w...",
+      "hn_comment_preview": "TheTaytay: Wow, forking memory along with disk space this quickly is fascinating! That's something that I haven't seen from your competitors. If the machine can fork itself, it could allow for some really neat auto-forking workflows where you fuzz the UI testing of a website by forking at every decision point. I forget the name of the recent model that used only video as its latent space to control computers and cars, but th...\njFriedensreich: Non open source and non local SAAS sandboxes are offensive to even try to launch. No one needs this and the only customers will be vibe coders who just don't know any better. There are teams building actual sandboxes like smolmachines, podman, colima and mre. At least be honest and put the virtualisation tech you are using as well as that its closed source SAAS on the landing page to safe people time.\n_jayhack_: Would love to understand how you compare to other providers like Modal, Daytona, Blaxel, E2B and Vercel. I think most other agent builders will have the same question. Can you provide a feature/performance comparison matrix to make this easier?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "80",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=56,practical_tech=36,tools_agents=56,strategy_insight=15,industry_business=10",
+      "slot_scores": {
+        "practical_tech": 36,
+        "tools_agents": 56,
+        "strategy_insight": 15,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 36,
+          "strong_hits": [
+            "performance",
+            "open source",
+            "sandbox",
+            "sql"
+          ],
+          "support_hits": [
+            "testing",
+            "how to",
+            "deploy"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 56,
+          "strong_hits": [
+            "coding agent",
+            "workflow",
+            "sandbox",
+            "ide"
+          ],
+          "support_hits": [
+            "ai coding",
+            "workflow",
+            "agent",
+            "local",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + sandbox",
+            "agent + workflow",
+            "ai + coding",
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 15,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [
+            "perspective"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "team + workflow"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "customers",
+            "launch"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "workflow",
+        "sandbox",
+        "ide",
+        "ai coding",
+        "agent",
+        "local",
+        "tool",
+        "agent + sandbox",
+        "agent + workflow",
+        "ai + coding",
+        "local + agent"
+      ],
+      "detail_slug": "9ef7bd4459022a2651b6bba17d0a089696582c68",
+      "is_english_source": true,
+      "translated_title": "프리스타일 공개: AI 코딩 에이전트용 샌드박스",
+      "short_summary": "프리스타일은 AI 코딩 에이전트가 EC2처럼 다룰 수 있는 클라우드 샌드박스를 내놨다. 실행 중인 메모리 상태까지 400ms 안팎으로 통째로 포크해 병렬 실험과 재현을 빠르게 하겠다는 구상이다.",
+      "why_it_matters": "AI 코딩 에이전트가 단순한 툴 호출을 넘어 실제 컴퓨터 환경을 다루기 시작하면서, 샌드박스의 성능과 복제 방식이 개발 흐름을 바꿀 수 있다는 점이 드러난다.\n\n- 실행 중인 메모리 상태까지 그대로 복제하면 같은 지점에서 여러 수정안을 동시에 시험할 수 있어 디버깅과 회귀 확인 속도가 빨라질 수 있다.\n- 브라우저 자동화, UI 테스트, 로컬 개발 환경 재현처럼 상태가 자주 꼬이는 작업에서 에이전트의 시행착오 비용을 낮출 여지가 있다.\n- 반면 폐쇄형 SaaS 구조라면 보안, 비용, 벤더 종속을 따져봐야 해서 실제 도입은 기술 데모보다 운영 조건 검토가 먼저다.",
+      "hn_reaction_summary": "댓글 분위기는 기술 데모 자체에는 강한 호기심이 있었지만, 제품 형태와 차별성에는 꽤 날카로운 의문이 따라붙는 쪽에 가까웠다.\n\n- 가장 눈길을 끈 대목은 디스크뿐 아니라 메모리 상태까지 매우 빠르게 포크한다는 주장이다. UI 퍼징이나 상태 분기 테스트 같은 활용 아이디어도 함께 나왔다.\n- 반대쪽에서는 폐쇄형 SaaS 샌드박스를 굳이 써야 하느냐는 비판이 반복됐다. 로컬이나 오픈소스 기반 대안과 무엇이 다른지 더 분명히 밝혀야 한다는 반응이다.\n- 실무 관점에서는 기존 가상화 도구와 비교해 어떤 성능 이점이 있는지, 실제 에이전트 워크플로에 얼마나 자연스럽게 붙는지가 핵심 쟁점으로 읽힌다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-06T19:58:55.384541+00:00"
+    },
+    {
+      "id": "af4d159f4c706e6cceecb6075fed66798e5a2402",
+      "title_hash": "5f0d0b3d949e14cfb2ec4003bc432beda02ba051",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+      "link": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/",
+      "published_at": "2026-04-05T17:27:41+00:00",
+      "summary": "HN story type: story HN points: 745 HN comments: 526 HN post text: See also https://x.com/stevesi/status/2036921223150440542 ( https://xcancel.com/stevesi/status/2036921223150440542 ) HN top comments: shiandow: What I find must puzzling is that everyone seems to just be violating basic rules that had been in place for ages. Things like: - If you can't respond to a UI event wait until you can - Menus should be tree structures - Pressing alt should underline the hotkeys you need to access anything clickable As well as just basic responsiveness or predictability. A 2000 era windows application may not have been pretty, and... mwcampbell: > WPF was good As someone who saw what impact WPF had on average users running average hardware in the late 2000s to early 2010s, I disagree. In 2011, my brother was in seminary, using an average Windows Vista-era laptop that he had been given in 2008. When he was home for Christmas in 2011, we were talking about his laptop, and he told me that the Logos Bible software ran sluggishly on that laptop. He said someth... MarcelinoGMX3C: The deeper problem is that Microsoft keeps trying to solve GUI consistency at the framework layer instead of the design system layer. WinForms, WPF, UWP, WinUI -- each one a new framework, each one eventually abandoned. Apple solved this by treating the design system as the product and letting the framework be invisible. Microsoft has it backwards every time.",
+      "fetched_at": "2026-04-06T19:55:41.478812+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47651703",
+      "hn_story_type": "story",
+      "hn_points": "745",
+      "hn_comments_count": "526",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47651703",
+      "hn_item_text": "See also https://x.com/stevesi/status/2036921223150440542 ( https://xcancel.com/stevesi/status/2036921223150440542 )",
+      "hn_comment_preview": "shiandow: What I find must puzzling is that everyone seems to just be violating basic rules that had been in place for ages. Things like: - If you can't respond to a UI event wait until you can - Menus should be tree structures - Pressing alt should underline the hotkeys you need to access anything clickable As well as just basic responsiveness or predictability. A 2000 era windows application may not have been pretty, and...\nmwcampbell: > WPF was good As someone who saw what impact WPF had on average users running average hardware in the late 2000s to early 2010s, I disagree. In 2011, my brother was in seminary, using an average Windows Vista-era laptop that he had been given in 2008. When he was home for Christmas in 2011, we were talking about his laptop, and he told me that the Logos Bible software ran sluggishly on that laptop. He said someth...\nMarcelinoGMX3C: The deeper problem is that Microsoft keeps trying to solve GUI consistency at the framework layer instead of the design system layer. WinForms, WPF, UWP, WinUI -- each one a new framework, each one eventually abandoned. Apple solved this by treating the design system as the product and letting the framework be invisi...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "framework",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "framework",
+        "rag"
+      ],
+      "detail_slug": "af4d159f4c706e6cceecb6075fed66798e5a2402",
+      "is_english_source": true,
+      "translated_title": "펫졸드 시절 이후, 마이크로소프트 GUI 전략은 길을 잃었다",
+      "short_summary": "이 HN 스토리는 마이크로소프트가 WinForms, WPF, UWP, WinUI로 옮겨 가는 동안 일관된 GUI 원칙과 사용자 경험을 놓쳤다는 비판을 다룬다. 댓글에서는 옛 윈도 앱이 덜 화려해도 더 빠르고 예측 가능했다는 평가가 이어졌다.",
+      "why_it_matters": "이 논쟁은 단순한 취향 문제가 아니다. 윈도우 앱을 만들거나 운영하는 팀이라면 새 프레임워크를 좇는 일보다, 오래 유지되는 사용성 기준과 공통 설계를 어떻게 지킬지가 더 큰 비용 문제로 돌아온다는 뜻이다.\n- UI 스택이 자주 바뀌면 기능 개발보다 마이그레이션과 유지보수 부담이 먼저 커진다. 기술 선택 때 수명과 이전 비용을 함께 봐야 한다.\n- 반응성, 키보드 접근, 메뉴 구조 같은 기본 규칙이 흔들리면 최신 디자인을 얹어도 사용자 신뢰는 금방 깎인다.\n- 실무적으로는 프레임워크 교체보다 디자인 시스템과 상호작용 규칙을 분리해 관리하는 편이 장기 운영에 더 유리하다는 메시지를 준다.",
+      "hn_reaction_summary": "댓글 분위기는 단순한 옛날 예찬보다, 왜 윈도 UI가 점점 예측 불가능해졌는지를 따지는 쪽에 가까웠다. 오래된 앱이 투박해 보여도 기본 동작은 더 분명했다는 반응이 많았다.\n- 자주 나온 불만은 입력 지연, 드러나지 않는 단축키, 흐트러진 메뉴 구조처럼 기본기 붕괴에 대한 것이었다.\n- WPF를 두고는 개발 생산성을 높였다는 의견과, 당시 보급형 PC에서는 너무 무거웠다는 반론이 맞섰다.\n- 반복된 결론은 문제의 핵심이 새 프레임워크 부족이 아니라, 제품 전반에 통하는 디자인 언어와 일관된 상호작용 규칙 부재라는 점이었다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-06T19:58:55.384541+00:00"
+    },
+    {
+      "id": "4319c335c6c947b7fdd8e1f8063396fbb6614b64",
+      "title_hash": "aff4b17c0622d516f52ece294fd3d012e5465af7",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Claude Code is unusable for complex engineering tasks with the Feb updates",
+      "link": "https://github.com/anthropics/claude-code/issues/42796",
+      "published_at": "2026-04-06T13:50:35+00:00",
+      "summary": "HN story type: story HN points: 488 HN comments: 333 HN top comments: bcherny: Hey all, Boris from the Claude Code team here. I just responded on the issue, and cross-posting here for input. --- Hi, thanks for the detailed analysis. Before I keep going, I wanted to say I appreciate the depth of thinking & care that went into this. There's a lot here, I will try to break it down a bit. These are the two core things happening: > `redact-thinking-2026-02-12` This beta header hides thinking from... summarity: Not claude code specific, but I've been noticing this on Opus 4.6 models through Copilot and others as well. Whenever the phrase \"simplest fix\" appears, it's time to pull the emergency break. This has gotten much, much worse over the past few weeks. It will produce completely useless code, knowingly (because up to that phrase the reasoning was correct) breaking things. Today another thing started happening which a... rileymichael: > This report was produced by me — Claude Opus 4.6 — analyzing my own session logs [...] Please give me back my ability to think. a bit ironic to utilize the tool that can't think to write up your report on said tool. that and this issue[1] demonstrate the extent folks become over reliant on LLMs. their review process let so many defects through that they now have to stop work and comb over everything they've ship...",
+      "fetched_at": "2026-04-06T19:55:41.478812+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47660925",
+      "hn_story_type": "story",
+      "hn_points": "488",
+      "hn_comments_count": "333",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47660925",
+      "hn_item_text": "",
+      "hn_comment_preview": "bcherny: Hey all, Boris from the Claude Code team here. I just responded on the issue, and cross-posting here for input. --- Hi, thanks for the detailed analysis. Before I keep going, I wanted to say I appreciate the depth of thinking & care that went into this. There's a lot here, I will try to break it down a bit. These are the two core things happening: > `redact-thinking-2026-02-12` This beta header hides thinking from...\nsummarity: Not claude code specific, but I've been noticing this on Opus 4.6 models through Copilot and others as well. Whenever the phrase \"simplest fix\" appears, it's time to pull the emergency break. This has gotten much, much worse over the past few weeks. It will produce completely useless code, knowingly (because up to that phrase the reasoning was correct) breaking things. Today another thing started happening which a...\nrileymichael: > This report was produced by me — Claude Opus 4.6 — analyzing my own session logs [...] Please give me back my ability to think. a bit ironic to utilize the tool that can't think to write up your report on said tool. that and this issue[1] demonstrate the extent folks become over reliant on LLMs. their review process l...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=33,practical_tech=7,tools_agents=33,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 33,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 33,
+          "strong_hits": [
+            "claude code",
+            "copilot",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "copilot",
+        "ide",
+        "llm",
+        "tool",
+        "claude + code",
+        "github.com"
+      ],
+      "detail_slug": "4319c335c6c947b7fdd8e1f8063396fbb6614b64",
+      "is_english_source": true,
+      "translated_title": "2월 업데이트 뒤 복잡한 개발엔 못 쓰겠다는 Claude Code",
+      "short_summary": "Hacker News에서 2월 업데이트 이후 Claude Code가 복잡한 엔지니어링 작업에서 맥락을 놓치고 엉뚱한 수정안을 낸다는 문제 제기가 크게 호응을 얻었다. 팀 측도 직접 답변하며 설정 변화와 추론 처리 이슈를 설명했다.",
+      "why_it_matters": "코드 에이전트를 실무에 붙여 쓰는 팀이라면 이번 논쟁은 모델 성능표보다 운영 방식과 검증 절차를 다시 점검하라는 신호에 가깝다.\n- 복잡한 리팩터링이나 여러 파일이 얽힌 수정에서 얕은 '간단한 해결책'이 늘면 속도보다 회귀 위험이 먼저 커진다.\n- 모델 업데이트나 베타 옵션 하나가 결과를 흔들 수 있어 프롬프트 개선보다 버전 고정, 재현 로그, 검증 자동화가 더 급한 과제가 됐다.\n- 코딩 에이전트를 본격 도입한 팀일수록 세션 로그를 운영 데이터처럼 보고, 실패 패턴을 추적하는 체계가 필요하다는 점이 다시 드러났다.",
+      "hn_reaction_summary": "HN 댓글 분위기는 대체로 비판적이었지만, 문제의 원인을 어디에 두느냐를 두고 해석은 갈렸다.\n- 가장 많이 나온 불만은 복잡한 맥락을 붙들지 못한 채 그럴듯해 보이는 최소 수정으로 문제를 덮으려 한다는 점이었다.\n- 다른 한편에서는 Claude만의 문제가 아니라 최근 코딩 보조 도구 전반에서 비슷한 퇴행이 보인다는 경험담이 이어졌다.\n- 팀 관계자가 직접 답변에 나서면서 단순 성토보다 설정 변화, 추론 가시성, 사용자의 과도한 의존 문제를 따지는 토론으로 번졌다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-06T19:58:55.384541+00:00"
+    },
+    {
       "id": "ca411b3d0184ec68be694e71dd21989bb45c2543",
       "title_hash": "93e4b381c3879c127f1de132edd6b47f677deefe",
       "source": "GeekNews",
@@ -62876,8 +63270,11 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 주 도구·에이전트",
-        "summary": "에이전트를 더 싸고 단단하게 굴리려는 시도가 한 주 내내 이어졌다. 토큰을 아끼고, 디자인 규칙을 문서로 고정하고, 장애와 블랙박스 문제를 드러내며 운영 감각을 따지는 흐름이다.\n- 말투 압축과 DESIGN.md는 비용과 일관성을 프롬프트 밖 규칙으로 옮기려는 실험이다.\n- Claude Code 장애 논란과 ROACH PI는 에이전트도 상태 가시성과 통제가 먼저라는 점을 보여줬다.\n- 마이크로서비스 논의까지 겹치며, 지금은 확장보다 경계 설정과 디버깅 경험을 챙길 때라는 신호가 또렷했다.",
+        "summary": "코딩 에이전트 경쟁이 붙으면서 모델 성능보다 주변 장치가 더 또렷해졌다. 토큰을 아끼고, 실행 환경을 격리하고, 흔들리는 품질을 다잡는 흐름이 한 묶음으로 보인다.\n\n- `rtk`와 `Caveman`은 비용 절감보다 문맥 유지와 응답 압축에 초점을 맞춘다.\n- 프리스타일은 샌드박스를 빠르게 포크해 병렬 실험과 재현 속도를 끌어올린다.\n- Claude Code 논란과 `DESIGN.md`는 신뢰성과 일관성 관리가 이제 도구 경쟁의 앞줄로 왔음을 보여준다.",
         "item_ids": [
+          "6499a75dd28f63ffebd7c879d0e12b65bfa09c45",
+          "9ef7bd4459022a2651b6bba17d0a089696582c68",
+          "4319c335c6c947b7fdd8e1f8063396fbb6614b64",
           "ca411b3d0184ec68be694e71dd21989bb45c2543",
           "28c63b849af86cae2653df3816a4740287a6a206",
           "c1c4db2d7f4f4b5880cafb0b60faeaf49ffdd131",
@@ -62958,24 +63355,20 @@
           "48667ca68f491f646d2198da70be018f034d07b6",
           "d58b328ee618c23340a6d8e792cb5e7fb3bf4798",
           "11555d0bf5ab5d2d7448a1d7885126bc7a1fdf9d",
-          "54f0b14d399600c3b09f811b2b36b2e1741b8837",
-          "cdbca70e09de8a81f2017292111204ceeaa73ce0",
-          "cd18f28c16bc1a774f837636fc69a3eb68d0d30c",
-          "d6ed78d3919717e812b83e5e2fc506656d7d68e6",
-          "be132e16bc17faa2f4881e90280acda1ff5a6716",
-          "7bceeae4ca3e6252205638b60f8438bb4629b816"
+          "54f0b14d399600c3b09f811b2b36b2e1741b8837"
         ],
-        "total_items": 86,
-        "generated_at": "2026-04-06T15:47:35.849590+00:00",
+        "total_items": 84,
+        "generated_at": "2026-04-06T19:55:41.478812+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술",
-        "summary": "이번 주 실무 기술은 닫힌 포맷과 거대한 플랫폼을 그대로 쓰기보다, 직접 열어 보고 로컬에서 돌려 보는 흐름이 두드러졌다. 선택의 빚과 보안 부담까지 함께 보여줘 지금 읽을 만하다.\n- RHWP와 9M LLM은 파일 포맷과 모델 내부를 블랙박스로 두지 않고, 브라우저와 짧은 코드로 직접 다뤄 보게 한다.\n- 실시간 음성 AI, 윈도 GUI 역사, 랜섬웨어 수사 소식은 로컬 실행의 현실성, 플랫폼 전략의 흔들림, 운영 보안 압박을 한 번에 보여준다.",
+        "headline": "이번 주 실무 기술: 다시 기본으로",
+        "summary": "이번 주 실무 기술은 복잡한 스택을 다시 작게 풀어 보고, 닫힌 형식은 열고, 운영 위험은 더 직접 다루려는 흐름이 겹쳤다. 지금 보면 도구 선택 기준을 다시 세우기 좋다.\n- MS GUI 논쟁은 화려함보다 일관성과 예측 가능한 UX가 오래 남는다는 불만을 드러냈다.\n- RHWP와 9M LLM은 큰 기술도 작게 구현하고 공개할수록 학습과 검증이 빨라진다는 흐름을 보여줬다.\n- 랜섬웨어 수장 공개는 실무 기술이 생산성뿐 아니라 보안 대응과도 맞닿아 있음을 상기시켰다.",
         "item_ids": [
+          "af4d159f4c706e6cceecb6075fed66798e5a2402",
           "8f1e14869a28c2c64c4916f537e9678f30cbaaca",
           "eef657d9ae94048f09305e1556d6b8e68186bf76",
           "7cdf34007fb4ff15d13accf277baefaa2da9cfb1",
@@ -63039,11 +63432,10 @@
           "c62f338c6e4d5717f5af1caca182bbeb376487ca",
           "4f5682f46e2c04db4d30094c2024c3e2031420af",
           "a4425c78dcb8eac4778dfb8ce1a6fe861d69ce1b",
-          "7d8960dd25617851e976105dd362d90f8fe9cbf2",
-          "b1b62d8a71e80e6423cdf61a6e0bd85fa91f1a56"
+          "7d8960dd25617851e976105dd362d90f8fe9cbf2"
         ],
         "total_items": 65,
-        "generated_at": "2026-04-06T15:47:35.849590+00:00",
+        "generated_at": "2026-04-06T19:55:41.478812+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -63051,7 +63443,7 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 주 산업·비즈니스",
-        "summary": "이번 주 산업·비즈니스는 AI가 모델 출시를 넘어 미디어, 개발도구, 로보틱스, 우주까지 번지는 흐름이 선명했다. 기술 발표가 곧 시장 선점과 자본 이동으로 이어지는 장면이 한꺼번에 드러났다.\n\n- Gemma 4와 그누보드7은 AI를 붙이고 활용하는 기반 경쟁이 빨라졌음을 보여줬다.\n- OpenAI의 TBPN 인수는 기술 기업이 영향력 있는 대화 채널까지 직접 확보하려는 흐름으로 읽힌다.\n- Physical AI 투자 확대와 SpaceX IPO 절차는 자본이 로봇과 우주 산업으로 다시 몰리는 시점을 보여준다.",
+        "summary": "이번 주 산업·비즈니스는 AI가 기능 경쟁을 넘어 유통, 개발, 자본시장으로 번지는 장면을 한꺼번에 보여줬다. 새 모델보다 누가 생태계를 묶고 판을 키우는지가 더 또렷해진 주간이다.\n- Gemma 4와 그누보드7은 AI를 실험용이 아닌 기본 인프라로 끌어들이는 흐름을 드러냈다.\n- OpenAI의 TBPN 인수, Physical AI 투자 확대, SpaceX IPO 착수는 기술 기업이 영향력과 자금 조달 창구를 함께 넓히는 국면이라 지금 볼 만하다.",
         "item_ids": [
           "d9d0a67de037d6eb6aad1ead0e22cb6d33b7c45a",
           "d3929880d1412739b44c921a78dc0741d5808d8c",
@@ -63064,7 +63456,7 @@
           "3525f07fd4e2925430185f91d9bee5ac6d908d81"
         ],
         "total_items": 9,
-        "generated_at": "2026-04-06T15:47:35.849590+00:00",
+        "generated_at": "2026-04-06T19:55:41.478812+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -63074,8 +63466,11 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "이번 달 에이전트 화제는 성능 자랑보다 운영 감각에 가까웠다. 답을 더 짧게 만들고 규칙을 문서로 고정하며, 장애와 내부 동작을 드러내려는 흐름이 겹쳐 보인다.\n- 토큰 절약과 DESIGN.md 같은 경량 규칙이 비용과 일관성 문제를 함께 건드렸다.\n- 장애 확산과 상태 페이지 불일치가 신뢰의 빈틈을 그대로 드러냈다.\n- 마이크로서비스 논의도 확장보다 경계 설계와 디버깅 경험 쪽으로 무게가 옮겨갔다.",
+        "summary": "에이전트 경쟁이 모델 자체보다 실행 환경과 비용 관리로 옮겨가는 흐름이 또렷했다. 복잡한 작업일수록 토큰, 샌드박스, 설계 문서를 함께 다루려는 시도와 반작용이 같이 나왔다.\n- rtk와 Caveman은 출력 압축으로 비용을 낮추고 긴 맥락을 버티게 하려는 흐름을 보여줬다.\n- 프리스타일은 상태째 포크하는 샌드박스로 병렬 실험과 재현 속도를 앞세웠다.\n- Claude Code 논란과 DESIGN.md는 신뢰성과 작업 규칙을 지금 더 촘촘히 봐야 하는 이유를 드러냈다.",
         "item_ids": [
+          "6499a75dd28f63ffebd7c879d0e12b65bfa09c45",
+          "9ef7bd4459022a2651b6bba17d0a089696582c68",
+          "4319c335c6c947b7fdd8e1f8063396fbb6614b64",
           "ca411b3d0184ec68be694e71dd21989bb45c2543",
           "28c63b849af86cae2653df3816a4740287a6a206",
           "c1c4db2d7f4f4b5880cafb0b60faeaf49ffdd131",
@@ -63480,12 +63875,10 @@
           "ca7d7df994605644a2eba04589b146e29e9159ed",
           "a1ed66d52efdb807da058ea46a15973affe58946",
           "44314e9dba3a718237725455a9202e8c502a8761",
-          "1fd655f4240ffaf08ed9aa7b651872ae22401baa",
-          "58635b51681c99d3b5007a5bc836cac0b822ae4f",
-          "edd6fb215afa9edf575a145ac0e4971fcbc2e37f"
+          "1fd655f4240ffaf08ed9aa7b651872ae22401baa"
         ],
-        "total_items": 407,
-        "generated_at": "2026-04-06T15:47:35.849590+00:00",
+        "total_items": 408,
+        "generated_at": "2026-04-06T19:55:41.478812+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -63493,8 +63886,9 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달 실무 기술은 거대한 비전보다 손에 잡히는 구현에 시선이 모였습니다. 닫힌 포맷을 열고, 작은 모델과 로컬 음성 AI를 직접 굴려보는 흐름이 선명합니다.\n- HWP/HWPX 파서와 9M LLM 실험은 복잡한 기술도 이제는 뜯어보고 고칠 수 있는 작업물로 내려왔다는 신호입니다.\n- M3 Pro 실시간 음성 데모는 로컬 AI의 기준이 성능표보다 지연과 사용감으로 옮겨가고 있음을 보여줍니다.\n- 랜섬웨어 수사와 Windows GUI 혼선은 실무가 여전히 보안 압박과 플랫폼 피로 속에서 판단해야 한다는 현실을 드러냅니다.",
+        "summary": "이번 달 실무 기술은 거대한 플랫폼의 혼선보다 작고 투명한 도구를 다시 보게 만든다. 현업에서는 예쁜 구호보다 예측 가능한 동작과 통제 가능성이 더 앞에 나온다.\n- 마이크로소프트 GUI 논쟁은 오래된 불만을 다시 드러냈다. 빠르고 읽히는 앱 경험을 어떻게 되찾을지가 화두다.\n- Rust 기반 HWP/HWPX 도구는 닫힌 문서 포맷을 실제 작업 흐름 안으로 끌어온다.\n- 9M LLM 실험과 랜섬웨어 수배 소식은 블랙박스를 벗겨 구조와 책임을 끝까지 보려는 흐름을 보여준다.",
         "item_ids": [
+          "af4d159f4c706e6cceecb6075fed66798e5a2402",
           "8f1e14869a28c2c64c4916f537e9678f30cbaaca",
           "eef657d9ae94048f09305e1556d6b8e68186bf76",
           "7cdf34007fb4ff15d13accf277baefaa2da9cfb1",
@@ -63744,8 +64138,8 @@
           "a721e74452130ef7d14b1cc05f86939edfba7bf9",
           "8b0916e8dc8e27dcbccad81b0a822b979b4788f6"
         ],
-        "total_items": 248,
-        "generated_at": "2026-04-06T15:47:35.849590+00:00",
+        "total_items": 249,
+        "generated_at": "2026-04-06T19:55:41.478812+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -63753,7 +64147,7 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 달 산업·비즈니스",
-        "summary": "AI가 소프트웨어를 넘어 미디어, 로보틱스, 우주까지 사업 판을 다시 짜는 흐름이 이번 달에 또렷해졌다. 기술 발표보다 자본과 플랫폼 재편이 먼저 보인다.\n- Gemma 4와 그누보드7은 AI를 곧바로 붙일 수 있는 개발 기반 경쟁을 보여줬다.\n- OpenAI의 TBPN 인수와 SpaceX IPO 추진은 영향력과 자금 조달 창구를 넓히는 수순으로 읽힌다.\n- Physical AI 열기는 AI 산업의 무게중심이 화면 밖으로 옮겨가는 신호라서 지금 볼 만하다.",
+        "summary": "AI가 모델을 넘어 미디어, 개발도구, 로보틱스, 우주 산업까지 번지는 흐름이 또렷해졌다. 기술 공개와 인수, 상장, 투자 확대가 한 달 안에 겹치며 판이 다시 짜이는 모습이다.\n- 생성형 AI는 Gemma 4와 그누보드7처럼 실제 제품과 개발 구조 안으로 더 깊게 들어왔다.\n- OpenAI의 미디어 인수, Physical AI 투자 확대, SpaceX IPO 추진은 자본과 유통 채널 선점 경쟁이 본격화됐다는 신호다.",
         "item_ids": [
           "d9d0a67de037d6eb6aad1ead0e22cb6d33b7c45a",
           "d3929880d1412739b44c921a78dc0741d5808d8c",
@@ -63800,7 +64194,7 @@
           "c86939513f4808d7b1b8af2a70df9a9b988e6a14"
         ],
         "total_items": 43,
-        "generated_at": "2026-04-06T15:47:35.849590+00:00",
+        "generated_at": "2026-04-06T19:55:41.478812+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -63811,22 +64205,22 @@
       "kind": "quiet_riser",
       "label": "AI Spotlight",
       "title": "조용히 커지는 주제",
-      "cta_label": "흐름 자세히 보기",
+      "cta_label": "흐름 보기",
       "related_item_ids": [
+        "6499a75dd28f63ffebd7c879d0e12b65bfa09c45",
+        "9ef7bd4459022a2651b6bba17d0a089696582c68",
         "ca411b3d0184ec68be694e71dd21989bb45c2543",
-        "28c63b849af86cae2653df3816a4740287a6a206",
-        "c1c4db2d7f4f4b5880cafb0b60faeaf49ffdd131",
         "b4b2bc53825e8b47b315bdd88266dd9500168908"
       ],
       "score": 0.94,
-      "generated_at": "2026-04-06T15:47:35.849590+00:00",
+      "generated_at": "2026-04-06T19:55:41.478812+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "에이전트 운영 감각",
-      "summary_line": "성능 경쟁보다 비용, 규칙, 복구 동선을 먼저 챙기는 흐름이 조용히 두꺼워졌다.",
+      "topic_name": "코딩 에이전트 운영층",
+      "summary_line": "모델보다 토큰 압축과 상태 복제, 작업 규율이 먼저 차이를 만들기 시작했다.",
       "signals": [
-        "원시인 말투 같은 압축 규칙으로 토큰 비용을 먼저 줄이려는 시도가 나왔다.",
-        "DESIGN.md처럼 규칙을 문서로 빼서 결과 일관성을 붙잡으려는 흐름이 이어졌다.",
-        "장애와 블랙박스 논란이 겹치며 관측 가능성과 우회 수단이 함께 거론됐다."
+        "rtk와 Caveman은 답변과 명령 출력을 줄여 긴 문맥을 버티게 한다.",
+        "프리스타일은 실행 중 환경을 그대로 갈라 병렬 실험 속도를 끌어올린다.",
+        "ROACH PI는 에이전트 안쪽 규칙을 바깥에서 다루려는 흐름을 보여준다."
       ]
     },
     {
@@ -63834,39 +64228,39 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "쟁점 읽기",
+      "cta_label": "논쟁 보기",
       "related_item_ids": [
-        "c1c4db2d7f4f4b5880cafb0b60faeaf49ffdd131",
+        "9ef7bd4459022a2651b6bba17d0a089696582c68",
         "b4b2bc53825e8b47b315bdd88266dd9500168908"
       ],
-      "score": 0.83,
-      "generated_at": "2026-04-06T15:47:35.849590+00:00",
+      "score": 0.9,
+      "generated_at": "2026-04-06T19:55:41.478812+00:00",
       "ai_model": "codex-cli",
-      "headline": "클로드 코드 장애 확산, 상태 페이지는 정상 표시",
-      "issue_title": "성장통인가 구조 문제인가",
-      "opposition_summary": "반복된 인증 오류와 멀쩡한 상태 페이지는 단순 장애가 아니라 운영 신뢰 자체의 균열이라는 쪽이 강했다.",
-      "support_summary": "빠르게 커지는 도구에서 흔히 겪는 혼선일 뿐이고, 복구만 안정되면 경쟁력은 여전히 살아 있다는 시선도 맞섰다."
+      "headline": "프리스타일 공개: AI 코딩 에이전트용 샌드박스",
+      "issue_title": "빠른 샌드박스는 새 기반인가, 또 하나의 폐쇄형 SaaS인가",
+      "opposition_summary": "로컬이나 오픈소스로도 풀 수 있는 문제라며 제품 차별성이 약하다는 반론이 선명했다.",
+      "support_summary": "메모리 상태까지 빠르게 포크해 디버깅과 회귀 확인을 훨씬 앞당길 수 있다는 기대가 컸다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 더 보기",
+      "cta_label": "신호 보기",
       "related_item_ids": [
-        "eef657d9ae94048f09305e1556d6b8e68186bf76",
-        "8f1e14869a28c2c64c4916f537e9678f30cbaaca",
-        "ca84caf9bf0697358c01e1e0283f008d6fdefaf8"
+        "4319c335c6c947b7fdd8e1f8063396fbb6614b64",
+        "c1c4db2d7f4f4b5880cafb0b60faeaf49ffdd131",
+        "b4b2bc53825e8b47b315bdd88266dd9500168908"
       ],
       "score": 0.88,
-      "generated_at": "2026-04-06T15:47:35.849590+00:00",
+      "generated_at": "2026-04-06T19:55:41.478812+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "바로 도는 데모",
-      "summary_line": "이번 주엔 큰 발표보다 노트북과 브라우저에서 곧바로 돌려보는 구현이 더 자주 눈에 띄었다.",
+      "signal_title": "보이지 않는 부분에서 신뢰가 깎인다",
+      "summary_line": "업데이트, 인증, 상태 표시 같은 운영면이 코딩 도구 경험을 먼저 흔들었다.",
       "signals": [
-        "9M LLM이 무료 Colab에서 몇 분 안에 학습되며 모델 이해의 문턱을 낮췄다.",
-        "HWP/HWPX도 브라우저에서 직접 읽고 편집하는 쪽으로 내려왔다.",
-        "M3 Pro 실시간 음성 데모가 로컬 AI 비서의 체감선을 한 번 더 끌어당겼다."
+        "Claude Code는 업데이트 뒤 복잡한 작업에서 맥락을 놓친다는 지적이 이어졌다.",
+        "장애가 퍼졌는데 상태 페이지는 정상으로 떠 체감과 공식 신호가 어긋났다.",
+        "그래서 내부 프롬프트와 절차를 밖에서 묶으려는 도구까지 같이 등장했다."
       ]
     }
   ],
@@ -63875,22 +64269,22 @@
     "kind": "quiet_riser",
     "label": "AI Spotlight",
     "title": "조용히 커지는 주제",
-    "cta_label": "흐름 자세히 보기",
+    "cta_label": "흐름 보기",
     "related_item_ids": [
+      "6499a75dd28f63ffebd7c879d0e12b65bfa09c45",
+      "9ef7bd4459022a2651b6bba17d0a089696582c68",
       "ca411b3d0184ec68be694e71dd21989bb45c2543",
-      "28c63b849af86cae2653df3816a4740287a6a206",
-      "c1c4db2d7f4f4b5880cafb0b60faeaf49ffdd131",
       "b4b2bc53825e8b47b315bdd88266dd9500168908"
     ],
     "score": 0.94,
-    "generated_at": "2026-04-06T15:47:35.849590+00:00",
+    "generated_at": "2026-04-06T19:55:41.478812+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "에이전트 운영 감각",
-    "summary_line": "성능 경쟁보다 비용, 규칙, 복구 동선을 먼저 챙기는 흐름이 조용히 두꺼워졌다.",
+    "topic_name": "코딩 에이전트 운영층",
+    "summary_line": "모델보다 토큰 압축과 상태 복제, 작업 규율이 먼저 차이를 만들기 시작했다.",
     "signals": [
-      "원시인 말투 같은 압축 규칙으로 토큰 비용을 먼저 줄이려는 시도가 나왔다.",
-      "DESIGN.md처럼 규칙을 문서로 빼서 결과 일관성을 붙잡으려는 흐름이 이어졌다.",
-      "장애와 블랙박스 논란이 겹치며 관측 가능성과 우회 수단이 함께 거론됐다."
+      "rtk와 Caveman은 답변과 명령 출력을 줄여 긴 문맥을 버티게 한다.",
+      "프리스타일은 실행 중 환경을 그대로 갈라 병렬 실험 속도를 끌어올린다.",
+      "ROACH PI는 에이전트 안쪽 규칙을 바깥에서 다루려는 흐름을 보여준다."
     ]
   }
 }
