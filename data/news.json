@@ -1,6 +1,505 @@
 {
   "items": [
     {
+      "id": "6bdf707978a9cfd05fb6150c61b752f678f245f9",
+      "title_hash": "f5457942cf20169ec3452f6ad4671eed694ecb0a",
+      "source": "GeekNews",
+      "title": "Show GN: , AI-SLOP Detector 3.1.1 - AI 에이전트가 만든 스파게티 코드를 잡는 분석 도구",
+      "link": "https://news.hada.io/topic?id=28346",
+      "published_at": "2026-04-09T06:46:24+00:00",
+      "summary": "AI-SLOP Detector는 AI 에이전트가 만든 코드에서 자주 보이는 구조적 결함을 정적으로 분석하는 도구입니다. 단순 스타일 검사보다, stub 구현, phantom import, 과장된 주석/용어, helper로 쪼개 숨긴 복잡도처럼 “겉보기엔 깔끔한데 실제로는 불안한 코드”를 잡는 데 초점을 둡니다. 무엇을",
+      "fetched_at": "2026-04-09T10:11:17.957228+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "6bdf707978a9cfd05fb6150c61b752f678f245f9",
+      "is_english_source": false,
+      "sent_at": "2026-04-09T10:13:31.567383+00:00"
+    },
+    {
+      "id": "4d5f2a5bbd7bc635b31c72cdeb159d7f6d846005",
+      "title_hash": "480f84de9c9a590e33efb725bd955d8f4565e289",
+      "source": "GeekNews",
+      "title": "Show GN: Android arm64에서 proot 병목을 줄이기 위해 ptrace 없는 proroot를 만들어봤습니다",
+      "link": "https://news.hada.io/topic?id=28342",
+      "published_at": "2026-04-09T05:47:56+00:00",
+      "summary": "안녕하세요. Android에서 Ubuntu arm64 사용자 공간을 올려 사용하는 프로젝트를 진행하면서, 가장 큰 병목은 역시 proot의 ptrace 오버헤드였습니다. 특히 Node.js나 Chromium 같은 워크로드에서는 syscall마다 발생하는 context switch 비용이 꽤 크게 느껴졌습니다. 그래서 proot와 비슷한 방향성을",
+      "fetched_at": "2026-04-09T10:11:17.957228+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "병목"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "병목"
+      ],
+      "detail_slug": "4d5f2a5bbd7bc635b31c72cdeb159d7f6d846005",
+      "is_english_source": false,
+      "sent_at": "2026-04-09T10:13:31.567383+00:00"
+    },
+    {
+      "id": "0b975d48b0a182c520ed365fe67be0bd3a440262",
+      "title_hash": "4a57ed49551cd7813927788fdc8e197faebf99ca",
+      "source": "GeekNews",
+      "title": "Meta, 새 AI 모델 오픈소스 공개 예고",
+      "link": "https://news.hada.io/topic?id=28347",
+      "published_at": "2026-04-09T07:04:25+00:00",
+      "summary": "Meta가 차세대 AI 모델 을 오픈소스 형태로 공개할 예정이라고 발표했습니다. 다만 기존 Llama 시리즈 와는 상당히 다릅니다. 주요 내용 Meta는 Scale AI를 인수하면서 합류한 Alexandr Wang이 주도해 개발 중인 새 AI 모델 패밀리를 준비 중. <str",
+      "fetched_at": "2026-04-09T10:11:17.957228+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=4,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "인수"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "인수"
+      ],
+      "detail_slug": "0b975d48b0a182c520ed365fe67be0bd3a440262",
+      "is_english_source": false,
+      "sent_at": "2026-04-09T10:13:31.567383+00:00"
+    },
+    {
+      "id": "76bf94c00a1cddc47bf73edc2f961ca5c4dc7f85",
+      "title_hash": "84c13e84fd1946a38316d30278de2e8ad27cb400",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Claude mixes up who said what and that's not OK",
+      "link": "https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html",
+      "published_at": "2026-04-09T09:25:28+00:00",
+      "summary": "HN story type: story HN points: 24 HN comments: 7 HN top comments: lelandfe: In chats that run long enough on ChatGPT, you'll see it begin to confuse prompts and responses, and eventually even confuse both for its system prompt . I suspect this sort of problem exists widely in AI. __alexs: Why are tokens not coloured? Would there just be too many params if we double the token count so the model could always tell input tokens from output tokens? Latty: Everything to do with LLM prompts reminds me of people doing regexes to try and sanitise input against SQL injections a few decades ago, just papering over the flaw but without any guarantees. It's weird seeing people just adding a few more \"REALLY REALLY REALLY REALLY DON'T DO THAT\" to the prompt and hoping, to me it's just an unacceptable risk, and any system using these needs to treat the entire LLM as untruste...",
+      "fetched_at": "2026-04-09T10:11:17.957228+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47701233",
+      "hn_story_type": "story",
+      "hn_points": "24",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47701233",
+      "hn_item_text": "",
+      "hn_comment_preview": "lelandfe: In chats that run long enough on ChatGPT, you'll see it begin to confuse prompts and responses, and eventually even confuse both for its system prompt . I suspect this sort of problem exists widely in AI.\n__alexs: Why are tokens not coloured? Would there just be too many params if we double the token count so the model could always tell input tokens from output tokens?\nLatty: Everything to do with LLM prompts reminds me of people doing regexes to try and sanitise input against SQL injections a few decades ago, just papering over the flaw but without any guarantees. It's weird seeing people just adding a few more \"REALLY REALLY REALLY REALLY DON'T DO THAT\" to the prompt and hoping, to me it's just an unacceptable risk, and any system using these needs to treat the entire LLM as untruste...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=14,strategy_insight=9,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 14,
+        "strategy_insight": 9,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "rust",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "prompt"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "sql"
+      ],
+      "detail_slug": "76bf94c00a1cddc47bf73edc2f961ca5c4dc7f85",
+      "is_english_source": true,
+      "translated_title": "Claude가 발화자를 헷갈리는 문제",
+      "short_summary": "Claude가 긴 대화에서 누가 어떤 말을 했는지 혼동한다는 지적이 나왔다. HN에서는 LLM 전반의 구조적 한계라는 반응이 많았다.",
+      "why_it_matters": "발화자 구분 오류는 단순한 UX 문제가 아니다. 에이전트, 고객지원, 코드 리뷰처럼 대화 이력이 길어지는 업무에서는 권한과 책임 추적이 흔들릴 수 있다.\n- 시스템 지시, 사용자 입력, 모델 응답을 더 엄격히 분리해 저장하고 검증할 필요가 커진다.\n- 프롬프트만 덧붙여 막는 방식은 한계가 있어 후처리와 정책 레이어가 함께 필요하다.\n- 긴 컨텍스트를 쓰는 제품은 요약, 로그, 감사 추적 설계를 다시 점검해야 한다.",
+      "hn_reaction_summary": "댓글은 짧지만 회의적인 분위기가 뚜렷하다. 여러 사용자가 Claude만의 문제가 아니라 ChatGPT 등 LLM 전반에서 보이는 경계 혼동이라고 봤다.\n- 긴 대화에서 프롬프트, 응답, 시스템 지시가 뒤섞이는 경험담이 나왔다.\n- 입력과 출력 토큰을 모델이 더 명확히 구분하게 만들 수 없느냐는 기술적 질문이 제기됐다.\n- 프롬프트로 위험을 덮는 방식은 과거 SQL 인젝션을 문자열 필터로 막던 시절과 닮았다는 비판이 있었다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-09T10:13:31.567383+00:00"
+    },
+    {
+      "id": "47f20bc155c7475bfc583f81f5d2703dfcdd6411",
+      "title_hash": "bca36f7cf5746afd43c65c43ec92a6ae7ee34f89",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Process Manager for Autonomous AI Agents",
+      "link": "https://botctl.dev/",
+      "published_at": "2026-04-09T06:00:55+00:00",
+      "summary": "HN story type: story HN points: 39 HN comments: 9 HN top comments: obilgic: In case anyone is interested, agentic platform I have been working on for awhile. https://kern-ai.com/ martypitt: I can see you're A/B testing some different hero text. I got: > Write a config, not a conversation Which I found let me wondering - \"What is this thing?\" I refreshed a few times to the variations, and while some were better, I feel like your hero could do with being less pithy, and more plain explanation of what it is. oliver236: why are there so many autonomous ai agent orchestration systems? too much! I don't understand! Please explain",
+      "fetched_at": "2026-04-09T10:11:17.957228+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47699814",
+      "hn_story_type": "story",
+      "hn_points": "39",
+      "hn_comments_count": "9",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47699814",
+      "hn_item_text": "",
+      "hn_comment_preview": "obilgic: In case anyone is interested, agentic platform I have been working on for awhile. https://kern-ai.com/\nmartypitt: I can see you're A/B testing some different hero text. I got: > Write a config, not a conversation Which I found let me wondering - \"What is this thing?\" I refreshed a few times to the variations, and while some were better, I feel like your hero could do with being less pithy, and more plain explanation of what it is.\noliver236: why are there so many autonomous ai agent orchestration systems? too much! I don't understand! Please explain",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=6,tools_agents=14,strategy_insight=4,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 14,
+        "strategy_insight": 4,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ai agent",
+            "agentic"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ai agent",
+        "agentic",
+        "agent"
+      ],
+      "detail_slug": "47f20bc155c7475bfc583f81f5d2703dfcdd6411",
+      "is_english_source": true,
+      "translated_title": "자율 AI 에이전트용 프로세스 매니저",
+      "short_summary": "자율 AI 에이전트를 설정과 프로세스 단위로 관리하려는 도구가 HN에 올라왔다. 댓글은 필요성보다 제품 설명의 선명함을 따졌다.",
+      "why_it_matters": "AI 에이전트를 한 번 호출하는 수준에서 벗어나 장시간 실행 작업으로 다루려는 흐름을 보여준다. 팀에서 쓰려면 모델 성능보다 실행 상태와 설정 관리, 실패 대응이 더 자주 문제가 된다.\n- 대화형 프롬프트보다 설정 파일과 실행 흐름을 중심에 두려는 접근이다.\n- 실무에서는 에이전트의 재시도, 중단, 관찰 가능성을 별도 운영 영역으로 봐야 한다.\n- 비슷한 오케스트레이션 도구가 늘면서 도입 기준은 기능보다 운영 부담과 설명력으로 옮겨간다.",
+      "hn_reaction_summary": "댓글 수는 많지 않지만 반응은 호기심보다 혼란에 가까웠다. 무엇을 해결하는 제품인지 바로 보이지 않는다는 지적과, 에이전트 오케스트레이션 도구가 너무 많다는 피로감이 반복됐다.\n- 한 댓글은 히어로 문구가 재치에 치우쳐 제품 설명이 흐려졌다고 봤다.\n- 다른 댓글은 왜 이렇게 많은 자율 에이전트 관리 시스템이 나오는지 모르겠다고 반응했다.\n- 실무자가 볼 논점은 새 도구 자체보다 기존 워크플로와 어떻게 구분되는지다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-09T10:13:31.567383+00:00"
+    },
+    {
+      "id": "ced3b35fddec116c42060eaf95eb522eb00fbf40",
+      "title_hash": "4f455a9167ba8131567005d2a94b16b7afb0bbd5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Reallocating $100/Month Claude Code Spend to Zed and OpenRouter",
+      "link": "https://braw.dev/blog/2026-04-06-reallocating-100-month-claude-spend/",
+      "published_at": "2026-04-09T08:55:18+00:00",
+      "summary": "HN story type: story HN points: 7 HN comments: 1 HN top comments: hhthrowaway1230: note: doesn't openrouter charge 5.5% fee?",
+      "fetched_at": "2026-04-09T10:11:17.957228+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "47700972",
+      "hn_story_type": "story",
+      "hn_points": "7",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=47700972",
+      "hn_item_text": "",
+      "hn_comment_preview": "hhthrowaway1230: note: doesn't openrouter charge 5.5% fee?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "37",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=4,tools_agents=13,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 13,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 13,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "ced3b35fddec116c42060eaf95eb522eb00fbf40",
+      "is_english_source": true,
+      "translated_title": "월 100달러 AI 코딩 예산 재배치",
+      "short_summary": "Claude Code에 쓰던 월 100달러를 Zed와 OpenRouter로 옮기려는 경험 공유다. 비용 구조와 사용 방식의 트레이드오프가 초점이다.",
+      "why_it_matters": "AI 코딩 도구 지출이 구독 하나로 굳어지는 대신 에디터와 모델 라우터 조합으로 나뉘고 있다. 팀이나 개인은 실제 사용량, 모델 선택권, 수수료까지 따져 예산을 다시 짜야 한다.\n- 고정 구독에서 사용량 기반 결제로 옮기면 비용 예측 방식이 달라진다.\n- Zed와 OpenRouter 조합은 모델 선택 폭을 넓히지만 설정과 장애 대응 부담이 사용자 쪽으로 온다.\n- OpenRouter 수수료처럼 작은 비율도 월 단위 AI 예산을 계산할 때 빠뜨리기 어렵다.",
+      "hn_reaction_summary": "댓글은 1개뿐이라 분위기를 일반화하기는 어렵다. 다만 나온 반응은 OpenRouter의 5.5% 수수료를 짚으며 실제 절감액을 다시 계산해야 한다는 쪽이다.\n- 반복된 논쟁은 아직 형성되지 않았다. 포인트도 7점으로 초기 반응에 가깝다.\n- 실무자가 볼 만한 논점은 구독료 비교가 아니라 수수료를 포함한 총비용이다.\n- 모델 라우터를 쓰면 선택권은 늘지만 청구 구조가 더 복잡해질 수 있다는 신호가 보인다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-04-09T10:13:31.567383+00:00"
+    },
+    {
       "id": "a17f2a37b3485022e34d9d26aea65b45f1fac8be",
       "title_hash": "325a96e5d167e6699932f4b952121beae5220a5e",
       "source": "GeekNews",
@@ -69661,9 +70160,12 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트: 실험에서 운영으로",
-        "summary": "이번 주 흐름은 에이전트가 실험을 넘어 운영 인프라로 옮겨간다는 점이다. 빠르게 만들수록 권한, 장애, 의존성까지 함께 봐야 한다.\n\n- Claude Managed Agents는 샌드박스와 자격 증명 관리로 배포 부담을 낮춘다.\n- macOS TCP 버그와 CDN 이전 사례는 오래 켜둔 시스템과 특정 사업자 의존의 위험을 드러낸다.\n- 한가함과 오렌지 숲 이야기는 속도 밖의 시간이 회복과 창의성을 만든다는 단서를 준다.",
+        "headline": "이번 주 도구·에이전트",
+        "summary": "AI 에이전트가 실험실을 벗어나 운영 대상이 되고 있다. 이번 묶음은 코드를 믿고 맡기기보다 검사하고, 비용과 배포 방식을 다시 짜는 흐름을 보여준다.\n\n- AI-SLOP Detector와 프로세스 매니저는 에이전트 산출물을 관리 대상으로 본다.\n- Claude Managed Agents는 배포·권한·샌드박스까지 제품화한다.\n- Zed·OpenRouter 예산 이동과 쉼에 관한 글은 속도만 좇지 말자는 균형을 남긴다.",
         "item_ids": [
+          "6bdf707978a9cfd05fb6150c61b752f678f245f9",
+          "47f20bc155c7475bfc583f81f5d2703dfcdd6411",
+          "ced3b35fddec116c42060eaf95eb522eb00fbf40",
           "a17f2a37b3485022e34d9d26aea65b45f1fac8be",
           "0475714cac8522fe69cf5180327a751a951e9e76",
           "8ae8dc020dd009a6f50e06c6a08515b28d243a01",
@@ -69770,17 +70272,18 @@
           "0b3cddc821ee3320d17edae73da22cbc7b3f05b6",
           "72fe6917aa9ae7076080a0e88c498fca2ad9138e"
         ],
-        "total_items": 105,
-        "generated_at": "2026-04-09T06:05:23.617139+00:00",
+        "total_items": 108,
+        "generated_at": "2026-04-09T10:11:17.957228+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술",
-        "summary": "이번 주 글은 배포 보안부터 ELF, USB, 콘솔 이식까지 개발의 낮은 층을 다시 만졌다. 새 도구보다 시스템이 실제로 어디서 막히는지 보는 흐름이 짙다.\n- Astral의 글은 릴리스와 패키지 배포 점검에 바로 닿는다.\n- 301바이트 ELF, 사용자 공간 USB, Wii용 Mac OS X는 추상화 아래를 직접 확인하게 한다.\n- 호르무즈 프로젝트는 비싼 API 없이 공개 데이터로 먼저 검증한 사례다.",
+        "headline": "이번 주 실무 기술: 신뢰의 경계",
+        "summary": "이번 주 흐름은 시스템을 어디까지 믿고 어디서 직접 확인할지에 모였다. LLM 맥락, 패키지 릴리스, 장치 I/O와 공개 데이터 추적이 같은 질문을 던진다.\n- Claude 사례는 긴 대화에서 발화자 추적이 아직 약함을 보여준다.\n- Astral 글은 릴리스와 배포 절차를 잠그는 점검표로 읽힌다.\n- 301바이트 ELF, USB 사용자 공간 드라이버, 호르무즈 추적은 낮은 계층을 손으로 확인하는 재미와 쓸모를 함께 보여준다.",
         "item_ids": [
+          "76bf94c00a1cddc47bf73edc2f961ca5c4dc7f85",
           "224afc09401f500c417c494b401d3b0cbd436125",
           "200767fb8ecbcb9fc8a9124df97531cf8bb7cfcb",
           "664eae194037cc76a6909a06659b8a5e3c1c13ce",
@@ -69858,8 +70361,8 @@
           "48f1e73a80262d434f4e2e63625baaee5c3b4a92",
           "a387c3bf3f771b3557d659725c55522e102b06b5"
         ],
-        "total_items": 76,
-        "generated_at": "2026-04-09T06:05:23.617139+00:00",
+        "total_items": 77,
+        "generated_at": "2026-04-09T10:11:17.957228+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -69867,8 +70370,9 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 주 전략·인사이트",
-        "summary": "이번 주 글들은 기술을 믿는 태도와 현장 판단을 함께 묻는다. AI 코딩, AR 복구, 양자 암호까지 도구의 약속보다 검증과 운영 감각이 앞서야 한다는 흐름이 이어진다.\n\n- 바이브 코딩과 AR 사기 사례는 확인 없는 낙관이 곧 비용이 되는 과정을 보여준다.\n- 양자 컴퓨팅 논의는 먼 미래 같던 보안 전환이 실행 과제로 내려왔음을 짚는다.\n- 오픈소스 게임과 SF 고전은 기술을 낯설게 보며 전략의 전제를 다시 묻게 한다.",
+        "summary": "이번 주 글들은 새 기술보다 현장을 보는 눈을 묻습니다. proot 병목, 바이브 코딩 논쟁, AR 사기 경험이 모두 설계와 검증의 빈틈을 드러냅니다.\n- 자동화와 추상화는 편하지만 비용은 코드와 운영에서 돌아옵니다.\n- 오래된 SF와 오픈소스 게임은 인간성, 커뮤니티, 지속성을 다시 보게 합니다.\n- 새 도구를 고르기 전 기본 원리와 책임선을 먼저 점검할 때입니다.",
         "item_ids": [
+          "4d5f2a5bbd7bc635b31c72cdeb159d7f6d846005",
           "52edcb53867e13ca09872859a72b5f817ca91053",
           "20d4c21984007986936a04fac844eb80ef7101f0",
           "a61a6b9ca44307601225ca975806b61c95575a6c",
@@ -69884,8 +70388,8 @@
           "8bc4467be8a34b1f2f44421d0d06a78c334429fd",
           "741dc18a1c9934101df36a12ff8418ea4becb062"
         ],
-        "total_items": 14,
-        "generated_at": "2026-04-09T06:05:23.617139+00:00",
+        "total_items": 15,
+        "generated_at": "2026-04-09T10:11:17.957228+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -69895,8 +70399,11 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "에이전트는 실험을 넘어 운영 인프라로 들어왔다. 이번 묶음은 속도를 높이는 도구와, 오래 켜 둔 시스템·플랫폼 의존성이 남기는 비용을 함께 보여준다.\n- Claude Managed Agents는 배포, 권한, 샌드박스를 API로 묶어 프로덕션 전환을 앞당긴다.\n- macOS TCP 버그와 Cloudflare 이탈 사례는 운영 선택이 시간이 지나며 드러나는 지점을 짚는다.\n- 한가함과 오렌지 껍질 숲 이야기는 빠른 도구 시대에도 느린 회복과 사유가 필요하다는 신호다.",
+        "summary": "이번 달 도구·에이전트 흐름은 자동화의 양보다 운영 감각으로 옮겨갔다. 코드 품질, 프로세스 관리, 비용 배분이 한꺼번에 도마에 올랐다.\n\n- AI-SLOP Detector와 프로세스 매니저는 에이전트 결과물을 그냥 믿기 어렵다는 신호다.\n- Claude Managed Agents는 실험용 에이전트를 배포 가능한 인프라로 묶으려는 흐름을 보여준다.\n- 예산 재배치와 쉼에 관한 글은 속도 경쟁 속에서 어디까지 맡길지 되묻는다.",
         "item_ids": [
+          "6bdf707978a9cfd05fb6150c61b752f678f245f9",
+          "47f20bc155c7475bfc583f81f5d2703dfcdd6411",
+          "ced3b35fddec116c42060eaf95eb522eb00fbf40",
           "a17f2a37b3485022e34d9d26aea65b45f1fac8be",
           "0475714cac8522fe69cf5180327a751a951e9e76",
           "8ae8dc020dd009a6f50e06c6a08515b28d243a01",
@@ -70316,14 +70823,10 @@
           "0549826d162dbd9aa1216a2e6508fe5c1ad8af96",
           "0a9793193a402dcf85a5231505e3d0dc5988c1e4",
           "f9e5d12bb23c4ef06b8083e3b2b842335c215a77",
-          "2372dadb734fbca913cb4c6eb2d63d569df55266",
-          "54c2de5801b02612a6597ed7a391295d67047a30",
-          "93e31f33f57729ca34f7217c29b66c81a49e7581",
-          "ee81d832c1dd22c67bc5c0cb8b6babede5a2aa23",
-          "bea0004253779a8a20f709c44250317b0ffed3f0"
+          "2372dadb734fbca913cb4c6eb2d63d569df55266"
         ],
-        "total_items": 424,
-        "generated_at": "2026-04-09T06:05:23.617139+00:00",
+        "total_items": 423,
+        "generated_at": "2026-04-09T10:11:17.957228+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -70331,8 +70834,9 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달 실무 기술 글은 배포 보안처럼 바로 점검할 일과 시스템 밑바닥을 파고드는 실험이 함께 보입니다. 작은 프로젝트도 운영 비용과 데이터 제약을 선명하게 드러냅니다.\n- 공급망 보안은 릴리스와 패키지 배포 절차를 다시 묻습니다.\n- 초소형 ELF와 USB 사용자 공간 드라이버, Wii의 Mac OS X 이식은 OS와 하드웨어 경계를 직접 보여줍니다.\n- 호르무즈 추적 프로젝트는 공개 데이터로 먼저 검증하는 현실적인 출발점을 보여줍니다.",
+        "summary": "이번 달 글들은 새 도구 소개보다 경계를 다시 확인하는 흐름에 가깝다. LLM의 긴 대화 한계, 배포 보안, 낮은 계층의 포맷과 장치, 공개 데이터 검증이 함께 눈에 띈다.\n- Claude 사례는 긴 맥락을 그대로 믿기보다 발화자와 근거를 따로 확인하라는 신호다.\n- Astral 글은 패키지 배포와 릴리스 경로를 잠그는 실무 점검표로 읽힌다.\n- 작은 ELF, USB 드라이버, 호르무즈 추적은 시스템 안쪽을 직접 만져보는 학습을 환기한다.",
         "item_ids": [
+          "76bf94c00a1cddc47bf73edc2f961ca5c4dc7f85",
           "224afc09401f500c417c494b401d3b0cbd436125",
           "200767fb8ecbcb9fc8a9124df97531cf8bb7cfcb",
           "664eae194037cc76a6909a06659b8a5e3c1c13ce",
@@ -70586,11 +71090,10 @@
           "9dd65e1a5afdd2149e66284b29cb51cf97c05082",
           "850bed6bb38172d29dd44b3b0e0f2f86ef492bd9",
           "709de397eef9d12e7059ec9b74dd59705b664026",
-          "a305a483acd9bf7053590e0cd8b5bca861da6113",
-          "d7683498f29cb6358f9aa2409414345087cc5f70"
+          "a305a483acd9bf7053590e0cd8b5bca861da6113"
         ],
         "total_items": 255,
-        "generated_at": "2026-04-09T06:05:23.617139+00:00",
+        "generated_at": "2026-04-09T10:11:17.957228+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -70598,8 +71101,9 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 달 전략·인사이트",
-        "summary": "이번 달 묶음은 기술을 믿는 태도보다 작동 원리를 묻는 글이 많았습니다. SF와 게임 이야기까지, 결국 시스템을 오래 버티게 하는 건 기본기라는 흐름입니다.\n- 바이브 코딩과 AR 사기 사례는 검증 없는 실행이 비용으로 돌아오는 장면을 보여줍니다.\n- 양자 컴퓨팅 글은 암호 전환을 더 미루기 어려운 이유를 짚습니다.\n- 고전 SF와 오픈소스 게임은 기술을 낯설게 보는 감각을 되살립니다.",
+        "summary": "이번 달 글들은 기술을 믿기 전에 직접 뜯어보고 검증해야 한다는 쪽으로 모입니다. proot 성능 실험부터 바이브 코딩 비판, AR 프로젝트 실패담까지 같은 질문을 던집니다.\n\n- 병목은 추상화 뒤가 아니라 시스템 경계에서 드러납니다.\n- 유행어보다 버전 관리와 기본 원리가 오래 갑니다.\n- 오픈소스 게임과 SF는 기술을 멀리서 다시 보게 합니다.",
         "item_ids": [
+          "4d5f2a5bbd7bc635b31c72cdeb159d7f6d846005",
           "52edcb53867e13ca09872859a72b5f817ca91053",
           "20d4c21984007986936a04fac844eb80ef7101f0",
           "a61a6b9ca44307601225ca975806b61c95575a6c",
@@ -70640,11 +71144,10 @@
           "a4bc4699e88a2fd53c056ab2ab383acff54e5da4",
           "ce32532e7953420d741a0d9ab0b8c3f84927a8c6",
           "dee66614c32112058d2ea2aea75062e1a2c66922",
-          "10fca6b9e1d2f84d3dfb01de65e31af4b5d083f6",
-          "13023511a061180444413c7cfe4fcb7d08d8b244"
+          "10fca6b9e1d2f84d3dfb01de65e31af4b5d083f6"
         ],
         "total_items": 42,
-        "generated_at": "2026-04-09T06:05:23.617139+00:00",
+        "generated_at": "2026-04-09T10:11:17.957228+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -70657,19 +71160,20 @@
       "title": "조용히 커지는 주제",
       "cta_label": "흐름 보기",
       "related_item_ids": [
+        "6bdf707978a9cfd05fb6150c61b752f678f245f9",
+        "47f20bc155c7475bfc583f81f5d2703dfcdd6411",
         "a17f2a37b3485022e34d9d26aea65b45f1fac8be",
-        "0ef6976378ea84ab73cc23db6031b523ec6b5432",
-        "0b0dadfb4f28f42c0a195633d04f40a5861973bb"
+        "ced3b35fddec116c42060eaf95eb522eb00fbf40"
       ],
-      "score": 0.86,
-      "generated_at": "2026-04-09T06:05:23.617139+00:00",
+      "score": 0.88,
+      "generated_at": "2026-04-09T10:11:17.957228+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "운영형 에이전트 인프라",
-      "summary_line": "에이전트가 데모를 지나 배포, 권한, 장애 관리의 문제로 옮겨가고 있다.",
+      "topic_name": "에이전트 운영 관리",
+      "summary_line": "AI 에이전트를 쓰는 단계를 넘어 감시하고 배포하는 문제가 반복해서 떠올랐다.",
       "signals": [
-        "Claude Managed Agents는 샌드박스와 자격 증명 관리를 API로 묶었다.",
-        "빠른 배포만큼 오래 켜둔 시스템의 버그와 의존성 리스크가 함께 보인다.",
-        "도구 이야기가 생산성보다 운영 부담으로 이어지는 흐름이 반복됐다."
+        "AI-SLOP Detector는 에이전트가 만든 코드를 신뢰 대신 검사 대상으로 본다.",
+        "프로세스 매니저와 Managed Agents는 실행 상태, 권한, 샌드박스를 제품의 중심에 둔다.",
+        "코딩 도구 예산 논의도 모델 성능보다 비용 구조와 운영 부담으로 옮겨갔다."
       ]
     },
     {
@@ -70677,38 +71181,38 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "논쟁 읽기",
+      "cta_label": "댓글 갈림 보기",
       "related_item_ids": [
-        "664eae194037cc76a6909a06659b8a5e3c1c13ce"
+        "0475714cac8522fe69cf5180327a751a951e9e76"
       ],
-      "score": 0.78,
-      "generated_at": "2026-04-09T06:05:23.617139+00:00",
+      "score": 0.64,
+      "generated_at": "2026-04-09T10:11:17.957228+00:00",
       "ai_model": "codex-cli",
-      "headline": "소프트웨어 개발자를 위한 USB 사용자 공간 드라이버 입문",
-      "issue_title": "이걸 드라이버라고 불러도 될까",
-      "opposition_summary": "운영체제에 붙는 드라이버와 앱 안에서 장치를 직접 제어하는 방식은 다르다는 반응이 이어졌다.",
-      "support_summary": "커널까지 내려가지 않고 USB 장비를 다루는 입문서로는 충분히 쓸모 있다는 평가가 많았다."
+      "headline": "아무것도 하지 않는 시간의 가치",
+      "issue_title": "한가함은 게으름인가, 창의성을 위한 빈칸인가",
+      "opposition_summary": "반대쪽은 실제 생활과 조직 문화에서 빈 시간을 지키기 어렵다고 봤다. 이상론처럼 들린다는 반응도 있었다.",
+      "support_summary": "찬성쪽은 한가함을 나태함보다 현재에 머무는 태도로 읽었다. 깊은 생각과 창의성이 빈틈에서 나온다는 경험담이 이어졌다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 보기",
+      "cta_label": "이상 신호 보기",
       "related_item_ids": [
-        "200767fb8ecbcb9fc8a9124df97531cf8bb7cfcb",
-        "664eae194037cc76a6909a06659b8a5e3c1c13ce",
-        "224afc09401f500c417c494b401d3b0cbd436125"
+        "76bf94c00a1cddc47bf73edc2f961ca5c4dc7f85",
+        "224afc09401f500c417c494b401d3b0cbd436125",
+        "200767fb8ecbcb9fc8a9124df97531cf8bb7cfcb"
       ],
-      "score": 0.82,
-      "generated_at": "2026-04-09T06:05:23.617139+00:00",
+      "score": 0.79,
+      "generated_at": "2026-04-09T10:11:17.957228+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "추상화 아래로 내려가는 개발 글",
-      "summary_line": "새 프레임워크보다 ELF, USB, 릴리스 절차처럼 낮은 층을 다시 보는 글이 눈에 띈다.",
+      "signal_title": "신뢰의 경계가 낮은 층으로 내려간다",
+      "summary_line": "LLM 대화, 패키지 배포, ELF 실험까지 서로 다른 글이 같은 질문을 던졌다. 어디까지 믿고 어디서 직접 확인할 것인가.",
       "signals": [
-        "301바이트 ELF 실험은 실행 파일의 최소 단위를 끝까지 밀어붙였다.",
-        "USB 사용자 공간 드라이버 글은 커널 밖에서 장치를 다루는 실전 감각을 다뤘다.",
-        "오픈소스 보안 글은 코드보다 릴리스와 배포 경로를 점검하게 만든다."
+        "Claude의 발화자 혼동은 긴 컨텍스트를 그대로 믿기 어렵다는 신호다.",
+        "Astral의 보안 글은 릴리스 권한과 배포 절차를 다시 잠그라고 말한다.",
+        "301바이트 ELF 실험은 포맷과 런타임을 바이트 단위로 확인하는 태도를 보여준다."
       ]
     }
   ],
@@ -70719,19 +71223,20 @@
     "title": "조용히 커지는 주제",
     "cta_label": "흐름 보기",
     "related_item_ids": [
+      "6bdf707978a9cfd05fb6150c61b752f678f245f9",
+      "47f20bc155c7475bfc583f81f5d2703dfcdd6411",
       "a17f2a37b3485022e34d9d26aea65b45f1fac8be",
-      "0ef6976378ea84ab73cc23db6031b523ec6b5432",
-      "0b0dadfb4f28f42c0a195633d04f40a5861973bb"
+      "ced3b35fddec116c42060eaf95eb522eb00fbf40"
     ],
-    "score": 0.86,
-    "generated_at": "2026-04-09T06:05:23.617139+00:00",
+    "score": 0.88,
+    "generated_at": "2026-04-09T10:11:17.957228+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "운영형 에이전트 인프라",
-    "summary_line": "에이전트가 데모를 지나 배포, 권한, 장애 관리의 문제로 옮겨가고 있다.",
+    "topic_name": "에이전트 운영 관리",
+    "summary_line": "AI 에이전트를 쓰는 단계를 넘어 감시하고 배포하는 문제가 반복해서 떠올랐다.",
     "signals": [
-      "Claude Managed Agents는 샌드박스와 자격 증명 관리를 API로 묶었다.",
-      "빠른 배포만큼 오래 켜둔 시스템의 버그와 의존성 리스크가 함께 보인다.",
-      "도구 이야기가 생산성보다 운영 부담으로 이어지는 흐름이 반복됐다."
+      "AI-SLOP Detector는 에이전트가 만든 코드를 신뢰 대신 검사 대상으로 본다.",
+      "프로세스 매니저와 Managed Agents는 실행 상태, 권한, 샌드박스를 제품의 중심에 둔다.",
+      "코딩 도구 예산 논의도 모델 성능보다 비용 구조와 운영 부담으로 옮겨갔다."
     ]
   }
 }
