@@ -1,6 +1,532 @@
 {
   "items": [
     {
+      "id": "2998eb0bd8cace9fccb23c200656bbabeda6fe86",
+      "title_hash": "61e1876646e687b12b32f9d74798f83e12f6dde7",
+      "source": "GeekNews",
+      "title": "Codex CLI 에 /goal 기능 추가",
+      "link": "https://news.hada.io/topic?id=29158",
+      "published_at": "2026-05-04T09:28:19+00:00",
+      "summary": "0.128.0 버전에서 목표 기반 자동 반복 실행 기능인 /goal 기능이 추가됨 Ralph loop 개념을 Codex CLI에 적용한 것으로, 설정한 목표가 완료될 때까지 에이전트가 목표 달성 여부를 스스로 평가하며 자율적으로 루프를 반복...",
+      "fetched_at": "2026-05-04T18:42:49.165677+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "64",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=19,practical_tech=0,tools_agents=19,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 19,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 19,
+          "strong_hits": [
+            "codex",
+            "에이전트",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "codex",
+        "에이전트",
+        "cli"
+      ],
+      "detail_slug": "2998eb0bd8cace9fccb23c200656bbabeda6fe86",
+      "is_english_source": false,
+      "sent_at": "2026-05-04T18:45:37.841180+00:00"
+    },
+    {
+      "id": "09c9b03b3b98bc13ba632f9cff8c4ed3a431e5e1",
+      "title_hash": "810cde7ff03ce91275e8a55ebfdfcf7de01a85d3",
+      "source": "GeekNews",
+      "title": "Show GN: cargo-chronoscope - Cargo 빌드 성능 옵저버 (TUI + GitHub Action)",
+      "link": "https://news.hada.io/topic?id=29162",
+      "published_at": "2026-05-04T15:47:38+00:00",
+      "summary": "Rust 프로젝트의 cargo build 시간이 PR마다 야금야금 늘어나는데 어느 PR이 원인인지 추적하기 번거로워 만들었습니다. cargo-chronoscope 은 cargo의 JSON 이벤트 스트림( --message-format=json-render-diagnostics )을 소비해 모든 빌드를 로컬 SQLite DB에 기록하고,...",
+      "fetched_at": "2026-05-04T18:42:49.165677+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=12,practical_tech=12,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "rust",
+            "sql"
+          ],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "sql",
+        "성능"
+      ],
+      "detail_slug": "09c9b03b3b98bc13ba632f9cff8c4ed3a431e5e1",
+      "is_english_source": false,
+      "sent_at": "2026-05-04T18:45:37.841180+00:00"
+    },
+    {
+      "id": "4816e5fbcd7823d0fba0ce04c765df9b21d134d0",
+      "title_hash": "38bc5cf6deab57dcb3f996a33d6e46d4a975e6a9",
+      "source": "GeekNews",
+      "title": "한 사람을 위해 만든 데스크톱",
+      "link": "https://news.hada.io/topic?id=29157",
+      "published_at": "2026-05-04T08:35:23+00:00",
+      "summary": "25년 만에 일상 프로그램 대부분이 직접 설계한 도구로 바뀌었고, Claude Code 에 기능 추가와 버그 수정을 맡기며 기존 범용 도구를 하나씩 대체함 전체 환경은 libc 없이 순수 x86_64 어셈블리로 픽셀과 키 입력을 다루는",
+      "fetched_at": "2026-05-04T18:42:49.165677+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "4816e5fbcd7823d0fba0ce04c765df9b21d134d0",
+      "is_english_source": false,
+      "sent_at": "2026-05-04T18:45:37.841180+00:00"
+    },
+    {
+      "id": "67f4ffbc688de9e83e4d513912a0a68d79a97fad",
+      "title_hash": "4558bc1e5bbbea55343b4b74836c8ce6583e73ba",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Redis array: short story of a long development process",
+      "link": "https://antirez.com/news/164",
+      "published_at": "2026-05-04T14:23:07+00:00",
+      "summary": "HN story type: story HN points: 150 HN comments: 59 HN top comments: tibbar: Reviewing 22,000 lines of code, even from antirez, with this complex of a feature set and minimal PR description sounds like a nightmare. One starts to see why major open-source software like Postgres tends to be developed on a mailing list, with intermediate design decisions discussed by the community, separate patches for different related features, incremental review, and then a spaced release cadence. wood_spirit: Sharing my current MO: I start with a high level design md doc which an AI helps write. Then I ask another AI - whether the same model without the context, or another model - to critique it and spot bugs, gaps and omissions. It always finds obvious in hindsight stuff. So I ask it to summarize its findings and I paste that into the first AI and ask its opinions. We form an agreed change and make it and carry on thi... localhoster: Let's make it very clear - this is the original creator of redis, or one of them. He is not \"your avg dev\" and it took him 4 months with llm. This is not a seal of approval for you to go and command all your developers to move to Claude code/codex/any other ai coding tool fully. I'm looking at you - any avg CEO of a startup.",
+      "fetched_at": "2026-05-04T18:42:49.165677+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48009172",
+      "hn_story_type": "story",
+      "hn_points": "150",
+      "hn_comments_count": "59",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48009172",
+      "hn_item_text": "",
+      "hn_comment_preview": "tibbar: Reviewing 22,000 lines of code, even from antirez, with this complex of a feature set and minimal PR description sounds like a nightmare. One starts to see why major open-source software like Postgres tends to be developed on a mailing list, with intermediate design decisions discussed by the community, separate patches for different related features, incremental review, and then a spaced release cadence.\nwood_spirit: Sharing my current MO: I start with a high level design md doc which an AI helps write. Then I ask another AI - whether the same model without the context, or another model - to critique it and spot bugs, gaps and omissions. It always finds obvious in hindsight stuff. So I ask it to summarize its findings and I paste that into the first AI and ask its opinions. We form an agreed change and make it and carry on thi...\nlocalhoster: Let's make it very clear - this is the original creator of redis, or one of them. He is not \"your avg dev\" and it took him 4 months with llm. This is not a seal of approval for you to go and command all your developers to move to Claude code/codex/any other ai coding tool fully. I'm looking at you - any avg CEO of a startup.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "64",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=40,practical_tech=9,tools_agents=40,strategy_insight=15,industry_business=14",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 40,
+        "strategy_insight": 15,
+        "industry_business": 14
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "postgres"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 40,
+          "strong_hits": [
+            "claude code",
+            "coding tool",
+            "codex",
+            "llm"
+          ],
+          "support_hits": [
+            "coding tool",
+            "ai coding",
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 15,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 14,
+          "strong_hits": [
+            "release",
+            "startup"
+          ],
+          "support_hits": [
+            "startup",
+            "ceo"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "coding tool",
+        "codex",
+        "llm",
+        "ai coding",
+        "local",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "67f4ffbc688de9e83e4d513912a0a68d79a97fad",
+      "is_english_source": true,
+      "translated_title": "Redis 배열 기능, 길었던 개발의 기록",
+      "short_summary": "Redis에 배열 기능을 넣는 과정에서 구현보다 설계 정리와 리뷰 부담이 더 크게 드러났다는 이야기다. HN에서는 거대한 PR과 AI 보조 개발의 한계를 함께 짚었다.",
+      "why_it_matters": "이 글은 인프라 소프트웨어의 기능 추가가 왜 느릴 수밖에 없는지 보여준다. 코드 작성보다 인터페이스 결정, 호환성 검토, 리뷰 가능한 단위로 쪼개는 일이 더 큰 비용이 된다.\n- 배열처럼 파급력이 큰 자료구조는 명령 체계와 저장 방식, 기존 사용자 패턴까지 건드려 실제 일정과 릴리스 전략에 영향을 준다.\n- AI가 초안을 빠르게 만들더라도 대형 변경은 설계 문서와 작은 패치 단위가 있어야 팀 리뷰와 유지보수가 가능하다는 점이 드러난다.\n- 실무에서는 기능 추가 속도보다 변경 설명력과 검토 가능성을 먼저 챙겨야 이후 장애 대응과 회귀 수정 비용을 줄일 수 있다.",
+      "hn_reaction_summary": "HN 댓글은 기능 자체보다 개발 과정과 리뷰 가능성에 더 집중했다. 흥미롭다는 반응도 있었지만, 이렇게 큰 변경을 한 번에 내는 방식은 부담스럽다는 의견이 적지 않았다.\n- 가장 많이 나온 지적은 2만 줄이 넘는 큰 PR과 짧은 설명이 결합되면, 작성자가 누구든 공동체 리뷰가 사실상 어려워진다는 점이었다.\n- 한편으로는 AI를 설계 문서 작성과 상호 비평에 쓰는 실전 팁이 공유됐지만, 이를 곧바로 전면 도입 신호로 받아들이면 안 된다는 경계도 반복됐다.\n- 실무자가 읽을 만한 쟁점은 AI가 얼마나 빨리 코드를 쓰느냐보다, 큰 변경을 어떻게 설명하고 잘게 나눠 검토 가능하게 만드느냐에 모였다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-04T18:45:37.841180+00:00"
+    },
+    {
+      "id": "b5394513df9f495e84274ff7d69c25ac7e764732",
+      "title_hash": "c47e759740fe6cc782ef3caaf98b95ef53ba1df4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "I tracked 7,700 UK petrol stations every 10 minutes for 3 months",
+      "link": "https://www.fuelinsight.co.uk",
+      "published_at": "2026-05-04T15:15:21+00:00",
+      "summary": "HN story type: story HN points: 87 HN comments: 39 HN top comments: theazureguy: I got frustrated that every fuel price app just shows you what's cheap nearby. I wanted to know how stations actually behave: do prices go up faster than they come down, do supermarkets really save you much, how bad are motorway prices really? So I built a scraper that hits the UK government's mandatory Fuel Finder API every 10 minutes and stores every price change. 90k records across 7,700 stations since January.... mootothemax: If you can find a way to combine this with local population to end up at pence per litre per thousand population, I bet you’d uncover some fun trends. Bet it’d also get interesting if combined with population within an X min drive too. Tho really need some car population per road segment stats to drive the most out of it IMO. isoprophlex: If only this wasn't hosted on azure, we'd be able to actually look at the data",
+      "fetched_at": "2026-05-04T18:42:49.165677+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48009747",
+      "hn_story_type": "story",
+      "hn_points": "87",
+      "hn_comments_count": "39",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48009747",
+      "hn_item_text": "",
+      "hn_comment_preview": "theazureguy: I got frustrated that every fuel price app just shows you what's cheap nearby. I wanted to know how stations actually behave: do prices go up faster than they come down, do supermarkets really save you much, how bad are motorway prices really? So I built a scraper that hits the UK government's mandatory Fuel Finder API every 10 minutes and stores every price change. 90k records across 7,700 stations since January....\nmootothemax: If you can find a way to combine this with local population to end up at pence per litre per thousand population, I bet you’d uncover some fun trends. Bet it’d also get interesting if combined with population within an X min drive too. Tho really need some car population per road segment stats to drive the most out of it IMO.\nisoprophlex: If only this wasn't hosted on azure, we'd be able to actually look at the data",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=0,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 0,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "rust",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "api"
+      ],
+      "detail_slug": "b5394513df9f495e84274ff7d69c25ac7e764732",
+      "is_english_source": true,
+      "translated_title": "영국 주유소 7700곳의 3개월 가격 추적",
+      "short_summary": "한 개발자가 영국 정부 Fuel Finder API를 10분마다 호출해 3개월 동안 주유소 7700곳의 가격 변동 9만 건을 모았다. 가까운 최저가가 아니라 가격이 오르고 내리는 방식, 대형마트 할인, 고속도로 프리미엄을 데이터로 보려는 시도다.",
+      "why_it_matters": "생활물가 데이터는 많아도 시간 흐름까지 촘촘히 잡아낸 공개 사례는 드물다. 이번 작업은 가격 비교 앱이 놓치던 움직임 자체를 보여줘 서비스 기획과 데이터 분석에 바로 연결된다.\n- 10분 단위 시계열이라 가격 인상과 인하의 속도 차, 특정 유형 주유소의 조정 패턴을 실제 데이터로 검증할 수 있다.\n- 대형마트 주유소와 고속도로 주유소의 가격 프리미엄을 수치로 비교해 소비자 앱, 리포트, 내부 모니터링 기준선으로 활용할 여지가 있다.\n- 정부 공개 API만으로 생활밀착형 인텔리전스를 만들 수 있다는 사례라 유통, 모빌리티, 로컬 데이터 제품팀에도 참고가 된다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 흥미롭다는 쪽이었지만, 더 설득력 있는 분석으로 가려면 맥락 데이터가 필요하다는 의견도 많았다. 데이터 자체보다 어디까지 확장할 수 있느냐가 주요 화제였다.\n- 인구 밀도, 일정 주행 시간 안의 수요, 도로별 차량 흐름을 함께 보면 지역별 가격 결정 구조가 더 선명해질 것이라는 제안이 나왔다.\n- 가까운 최저가 검색을 넘어서 대형마트 할인 폭과 고속도로 할증을 구조적으로 볼 수 있다는 점에 공감하는 반응이 이어졌다.\n- 일부는 Azure 호스팅 때문에 페이지 접근이 불편하다고 지적했다. 분석 품질뿐 아니라 결과를 어떻게 공개하느냐도 실무 논점으로 읽힌다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-04T18:45:37.841180+00:00"
+    },
+    {
+      "id": "8b454a7ed3146a7a45752bd3257bd798e03a74ef",
+      "title_hash": "d54c5e947dd6860ac2b49b3111b83b29c4071445",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "GitHub Is Down",
+      "link": "https://www.githubstatus.com/incidents/72q3n8yxthcy",
+      "published_at": "2026-05-04T15:53:21+00:00",
+      "summary": "HN story type: story HN points: 384 HN comments: 222 HN top comments: AlexB138: Github has published some incredible usage rate increase numbers, which they ascribe to the rise of agentic coding. At some point, they are going to have to change rate limits, cut free-tier usage, or find some other path to reducing load. It's clear that their infrastructure can't keep up with this significant increase, and it's unlikely that they're going to just absorb the increased costs themselves. Very curio... gejose: Github has 84.92% uptime in the last 90 days according to https://mrshu.github.io/github-statuses I don't know how this is even remotely close to acceptable. indianhippie: This is reaching an unacceptable level of performance. There isn't a week that work isn't interrupted by GH.",
+      "fetched_at": "2026-05-04T18:42:49.165677+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48010301",
+      "hn_story_type": "story",
+      "hn_points": "384",
+      "hn_comments_count": "222",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48010301",
+      "hn_item_text": "",
+      "hn_comment_preview": "AlexB138: Github has published some incredible usage rate increase numbers, which they ascribe to the rise of agentic coding. At some point, they are going to have to change rate limits, cut free-tier usage, or find some other path to reducing load. It's clear that their infrastructure can't keep up with this significant increase, and it's unlikely that they're going to just absorb the increased costs themselves. Very curio...\ngejose: Github has 84.92% uptime in the last 90 days according to https://mrshu.github.io/github-statuses I don't know how this is even remotely close to acceptable.\nindianhippie: This is reaching an unacceptable level of performance. There isn't a week that work isn't interrupted by GH.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=9,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "performance"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "agentic",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "agentic",
+        "ide",
+        "agent"
+      ],
+      "detail_slug": "8b454a7ed3146a7a45752bd3257bd798e03a74ef",
+      "is_english_source": true,
+      "translated_title": "깃허브 장애 재발에 커지는 현장 불만",
+      "short_summary": "깃허브 장애 소식이 Hacker News 프론트페이지에 오르며 잦은 다운타임과 체감 품질 저하에 대한 불만이 커졌다. 댓글에서는 에이전트 코딩 확산에 따른 사용량 급증과 인프라 부담 가능성도 함께 거론됐다.",
+      "why_it_matters": "깃허브 장애는 코드 호스팅 한 곳의 문제가 아니라 배포, 리뷰, CI 흐름 전체를 멈추게 하는 운영 리스크로 번진다. 개발팀 입장에서는 서비스 품질 자체보다도 \"언제 또 멈출지 모른다\"는 불확실성이 더 뼈아프다.\n- PR 리뷰, 머지, 액션 실행이 한꺼번에 막히면 작은 장애도 팀 일정 전체를 흔든다.\n- 사용량 급증이 실제 원인이라면 앞으로 요금제, 레이트 리밋, 무료 구간 정책이 조정될 가능성도 염두에 둬야 한다.\n- 단일 플랫폼 의존도가 높은 조직일수록 미러 저장소, 우회 배포 절차, 장애 대응 런북을 다시 점검할 시점이라는 신호로 읽힌다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 날카롭다. 일회성 장애로 넘기기보다 최근 반복된 품질 저하를 문제 삼는 반응이 많았고, 깃허브가 현재 트래픽을 감당하지 못하는 것 아니냐는 의심도 이어졌다.\n- \"거의 매주 업무가 끊긴다\"는 식의 피로감이 반복됐고, 업무 도구로서 신뢰가 흔들린다는 불만이 강하게 나왔다.\n- 일부는 최근 공개된 사용량 증가 수치와 에이전트 코딩 확산을 연결하며, 인프라 부담이 예상보다 빠르게 커졌을 수 있다고 봤다.\n- 공개 상태 페이지나 체감 가동률이 기대에 못 미친다는 지적도 있었고, 지금 수준이 과연 수용 가능한 서비스 품질인지 묻는 반응이 눈에 띄었다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-04T18:45:37.841180+00:00"
+    },
+    {
       "id": "b8a294f00d25e767d377d06a33ad89e195fecac4",
       "title_hash": "2de5cac12629ff4b317e00dfacfd318721ecef24",
       "source": "GeekNews",
@@ -137759,8 +138285,12 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 주 도구·에이전트",
-        "summary": "코딩 에이전트가 더 잘하느냐보다 어디서 어떻게 굴리고, 사람이 어디까지 통제하느냐가 이번 주 화두였습니다. 관심이 성능표보다 실사용과 검증으로 옮겨갑니다.\n- Windows ARM64용 Codex 리패키징, PyInfra 3.8.0처럼 바로 써볼 수 있는 도구 이야기가 힘을 받았습니다.\n- Kimi K2.6의 코딩 대결 성과와 함께, agentic coding의 거리감과 과장된 기술 서사를 경계하는 시선도 또렷해졌습니다.",
+        "summary": "이번 주 흐름은 에이전트를 더 오래 돌리고, 더 개인화된 환경에 붙이는 쪽이었다. 기능 확장과 이식은 빨라졌지만 설계 부담과 플랫폼 불안도 같이 드러났다.\n- Codex CLI `/goal`과 Windows ARM64 리패키징은 에이전트 실행 범위를 넓히는 장면이다.\n- 1인용 데스크톱과 Redis 배열 사례는 구현보다 설계 정리와 리뷰가 더 큰 숙제로 남는 흐름을 보여줬다.\n- 깃허브 장애 논의까지 겹치며 지금은 성능 경쟁보다 도구 체력과 운영 안정성을 함께 볼 때라는 신호가 나왔다.",
         "item_ids": [
+          "2998eb0bd8cace9fccb23c200656bbabeda6fe86",
+          "4816e5fbcd7823d0fba0ce04c765df9b21d134d0",
+          "67f4ffbc688de9e83e4d513912a0a68d79a97fad",
+          "8b454a7ed3146a7a45752bd3257bd798e03a74ef",
           "b8a294f00d25e767d377d06a33ad89e195fecac4",
           "d83a0b3d50e7f62b6e5835fd5f44bc8e7639277d",
           "174c71142af43da4c36b9bb48e6a210e9e5cdbba",
@@ -137876,14 +138406,10 @@
           "ed990b41552797f8ff01cedfbb3677b971b48c4b",
           "83a3b4e85f874ba1dba780016cfad952b463a09f",
           "33f9e84d3ef193e37bfa1a49514f349b84a09f9b",
-          "f7dcd70880143f904229d064c8b6a4f93f70521b",
-          "83d9a4ceab5dfc995e233f479d09e6602fa842da",
-          "d5fc9c9127063195606c23d81181afd62be65d02",
-          "bec35e0325ca4e9176f90116af08293ab5db3c09",
-          "91220a4876a6ddd1cba1f23bda0ebc429a37ae16"
+          "f7dcd70880143f904229d064c8b6a4f93f70521b"
         ],
         "total_items": 120,
-        "generated_at": "2026-05-04T14:32:00.082194+00:00",
+        "generated_at": "2026-05-04T18:42:49.165677+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -137891,8 +138417,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "이번 주에는 겉보기보다 운영 감각과 신뢰 관리가 더 앞에 나왔다. 코드도 제품도 진짜 비용은 늦게 드러난다.\n\n- 머큐리의 Haskell 사례는 언어 취향보다 운영 지식을 타입과 API에 녹여 복잡성을 버틴다는 쪽에 힘이 실렸다.\n- 추상화와 브랜딩은 편리하지만, 내부를 모른 채 기대면 장애 대응과 신뢰 훼손 비용이 한꺼번에 돌아온다는 흐름이 반복됐다.\n- 원격 고립, 상표 논란, 리콜 이슈까지 겹치며 지금 실무는 성능보다 관계, 책임, 설명 가능성을 다시 묻고 있다.",
+        "summary": "이번 주는 감으로 넘기던 문제를 기록과 운영 감각으로 붙잡는 글이 많았습니다. 성능 저하부터 가격 변화, 고립감, 상표 논란, 대형 코드베이스까지 겉보다 흐름을 읽는 일이 앞에 섰습니다.\n- 빌드 시간과 주유소 가격처럼 작은 변화를 오래 쌓아야 원인과 패턴이 드러납니다.\n- 원격근무의 고립감이나 상표 논란은 기능보다 신뢰와 맥락 관리가 더 어렵다는 점을 보여줍니다.\n- 지금 보면 팀 운영과 제품 판단을 숫자와 경험으로 다시 점검할 실마리를 얻을 수 있습니다.",
         "item_ids": [
+          "09c9b03b3b98bc13ba632f9cff8c4ed3a431e5e1",
+          "b5394513df9f495e84274ff7d69c25ac7e764732",
           "79aa3f82b1d70059f5825c44e8218f494bc2bd0e",
           "5afd51320808a9da225ec62e58a6201b17bd58b3",
           "aa8ee285f7a942039ddb34e59d8d77b89b4c71dd",
@@ -137975,11 +138503,10 @@
           "6625caa911faffd431c5e8102c422fb2be56e27f",
           "a20310a51ce1ccff121fd8fa70ae38ad535da309",
           "b38b02c2eedb1da56a3b5fa568bdae7bb85e1168",
-          "732fbd3deb454fca027f3a910a6cf36ca0fec9ee",
-          "affdef9b790e656a3a1bd48cbf85c88f79bc43d5"
+          "732fbd3deb454fca027f3a910a6cf36ca0fec9ee"
         ],
-        "total_items": 84,
-        "generated_at": "2026-05-04T14:32:00.082194+00:00",
+        "total_items": 85,
+        "generated_at": "2026-05-04T18:42:49.165677+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -137987,7 +138514,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 주 전략·인사이트",
-        "summary": "채용, 코딩, 커뮤니티, 공공 서비스, 웹 운영까지 주제는 달라도 흐름은 같다. 성과를 가르는 건 스펙보다 신뢰와 맥락, 그리고 사용자를 향한 설계다. AI가 판단과 생산을 넓힌 지금 더 또렷해진다.\n\n- 면접은 기술보다 행동과 전달 방식이 결과를 좌우한다.\n- 모델 비교와 LLM 스팸 대응은 이제 성능만이 아니라 검증 가능한 신뢰를 묻는다.\n- 공개 코드와 사용자 중심 웹 원칙은 조직 안 논리보다 바깥 이용자 경험을 앞세운다.",
+        "summary": "이번 주 글들은 성능 경쟁보다 신뢰를 어떻게 만들고 보여주느냐에 시선이 모인다. 채용, 코딩, 커뮤니티, 공공 서비스, 웹 운영까지 판단의 기준이 바뀌는 흐름이 선명하다.\n\n- 면접과 웹사이트는 결국 상대가 원하는 맥락을 읽고, 그에 맞게 설명하고 안내하는 일이 성패를 가른다.\n- AI 코딩 비교와 LLM 스팸 대응은 이제 결과물의 품질만큼 신뢰 신호와 검증 장치가 더 크게 작동함을 보여준다.\n- 공공 코드 공개 논의까지 이어지며, 지금은 잘 만드는 것보다 믿을 수 있게 운영하는 법을 볼 때다.",
         "item_ids": [
           "856d2b6f35f5678914d73cb6f047e6f379d2e190",
           "0fc90ea593551da57e15c768adc0fa0ec1bf76df",
@@ -138000,7 +138527,7 @@
           "707a28534d82cedf2147d565812e62f31011d36c"
         ],
         "total_items": 9,
-        "generated_at": "2026-05-04T14:32:00.082194+00:00",
+        "generated_at": "2026-05-04T18:42:49.165677+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -138010,8 +138537,12 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "이번 달 도구·에이전트 흐름은 성능 과시보다 실제로 어디서 잘 돌고, 얼마나 믿고 맡길 수 있는지로 옮겨갔다. 가격과 실행 환경, 검증 가능성이 함께 기준이 된다.\n- Codex 윈도 ARM64 리패키징은 코딩 에이전트 선택이 비용과 개발 환경까지 흔들고 있음을 보여준다.\n- agentic coding 비판과 CIA 센서 신화 반박은 화려한 서사보다 사람의 검토와 검증이 먼저라는 점을 다시 짚는다.\n- PyInfra와 Kimi K2.6 소식은 새 도구와 모델 경쟁이 빨라진 만큼, 지금은 점수보다 실사용 감각을 같이 볼 때임을 드러낸다.",
+        "summary": "에이전트가 코딩 보조를 넘어 작업 흐름과 개발 환경 자체를 바꾸는 장면이 이번 달에 또렷했다. 자동 반복 실행, 개인 맞춤 도구, 플랫폼 우회까지 넓어졌지만 설계 리뷰와 인프라 부담도 함께 드러났다.\n\n- Codex CLI의 `/goal`처럼 목표를 주면 스스로 돌고 점검하는 방식이 실제 도구에 붙기 시작했다.\n- 한 사람용 데스크톱, Windows ARM64 리패키징처럼 개발자가 자기 환경을 에이전트와 함께 다시 짜는 흐름이 눈에 띈다.\n- Redis PR 논쟁과 GitHub 장애는 속도만으로는 안 풀리는 병목을 보여준다. 확산의 열기와 운영 한계를 함께 볼 때다.",
         "item_ids": [
+          "2998eb0bd8cace9fccb23c200656bbabeda6fe86",
+          "4816e5fbcd7823d0fba0ce04c765df9b21d134d0",
+          "67f4ffbc688de9e83e4d513912a0a68d79a97fad",
+          "8b454a7ed3146a7a45752bd3257bd798e03a74ef",
           "b8a294f00d25e767d377d06a33ad89e195fecac4",
           "d83a0b3d50e7f62b6e5835fd5f44bc8e7639277d",
           "174c71142af43da4c36b9bb48e6a210e9e5cdbba",
@@ -138506,13 +139037,10 @@
           "de0e0b84abc33991f10a315904926a335daddc5c",
           "c10073c800c2dcd371d256d6dd4810be8c300a3a",
           "56d2aece5f33f5a518b7cb2d04ccde216335719f",
-          "281fc5af6d2cd529b9eac9349c1f9aa9495dfb30",
-          "ff6b1d61071e9d9ddd6e54c8c61dace31aa27013",
-          "1a127273c69ccd5c3e07bbb9b6b1a1aaf80775ad",
-          "618108b8edd41cd4b81bb7561beb7470bf134e3a"
+          "281fc5af6d2cd529b9eac9349c1f9aa9495dfb30"
         ],
-        "total_items": 498,
-        "generated_at": "2026-05-04T14:32:00.082194+00:00",
+        "total_items": 499,
+        "generated_at": "2026-05-04T18:42:49.165677+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -138520,8 +139048,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달 실무 기술은 코드만 잘 짜는 일로 끝나지 않는다는 점을 보여준다. 운영 감각, 신뢰, 안전, 사람을 대하는 태도가 결국 현장을 버티게 한다.\n\n- Mercury 사례는 언어보다 운영 지식을 타입과 API에 녹여 두는 힘이 규모를 만든다고 말한다.\n- Notepad++ 논란과 써모스 리콜은 기능보다 이름을 쓰는 방식과 안전 설계가 더 크게 되돌아온다는 장면이다.\n- 헬스장 대화 기록과 추상화 글은 원격 고립과 도구 의존이 짙어진 지금, 직접 부딪치며 감각을 되찾아야 할 이유를 짚는다.",
+        "summary": "이번 달 글은 감으로 넘기던 변화를 기록으로 붙잡는 데 모입니다. 빌드 시간과 가격, 운영 지식, 브랜드 신뢰, 사람 사이의 접점까지 실무가 흔들리는 지점을 또렷하게 보여줍니다.\n- 성능 저하나 가격 변동처럼 천천히 쌓이는 문제를 계속 관측해 원인을 되짚는 흐름이 반복됩니다.\n- 대규모 운영 경험을 타입, API, 도구로 굳혀 팀이 다시 쓰게 만드는 시선이 눈에 띕니다.\n- 지금 보는 이유는 분명합니다. 기능 경쟁보다 신뢰와 운영 감각의 차이가 더 크게 드러나는 시기이기 때문입니다.",
         "item_ids": [
+          "09c9b03b3b98bc13ba632f9cff8c4ed3a431e5e1",
+          "b5394513df9f495e84274ff7d69c25ac7e764732",
           "79aa3f82b1d70059f5825c44e8218f494bc2bd0e",
           "5afd51320808a9da225ec62e58a6201b17bd58b3",
           "aa8ee285f7a942039ddb34e59d8d77b89b4c71dd",
@@ -138853,12 +139383,10 @@
           "9422a95356d03a208893a5a63d332ea2910041a7",
           "0362061e5a571055571909318fd19d2c775dcbcc",
           "bbcc5bfcadd6fa5c51dea99f0eadc33a39d2d062",
-          "7ceffde6deac2b8661ffa6161369bf27a27e926d",
-          "95101d9c9ab739cca4aa36635b09feae97acf1a6",
-          "fe19300540d25508b9c627165282c913754bcc0e"
+          "7ceffde6deac2b8661ffa6161369bf27a27e926d"
         ],
         "total_items": 334,
-        "generated_at": "2026-05-04T14:32:00.082194+00:00",
+        "generated_at": "2026-05-04T18:42:49.165677+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -138866,7 +139394,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 달 전략·인사이트",
-        "summary": "이번 달 글은 AI가 일의 기준을 흔드는 시점을 비춘다. 사람을 어떻게 뽑고 코드와 정보는 무엇으로 믿을지, 웹은 누구를 위해 설계해야 하는지를 한 흐름으로 묶어 보여준다.\n\n- 면접 사례는 기술 역량만으로는 부족하다고 말한다. 행동 면접과 자기 설명이 채용 결과를 가를 때가 많다.\n- 모델 벤치마크와 신뢰 신호, 공개 코드 논의는 AI 시대일수록 검증 가능성과 책임을 더 앞세워야 함을 보여준다.\n- 웹사이트도 내부 취향보다 사용자의 목적을 먼저 봐야 한다. 지금 실무 기준을 다시 점검할 이유가 여기에 있다.",
+        "summary": "채용, 코딩, 커뮤니티, 공공 기술, 웹 운영까지 겉모습은 달라도 기준은 한곳으로 모입니다. 성과를 가르는 건 기능 과시보다 신뢰를 만들고 사람의 맥락을 읽는 방식이라는 흐름입니다.\n- 면접은 실력 자체보다 말하는 방식과 행동 신호가 결과를 갈랐습니다.\n- AI 코딩 경쟁도 결국 벤치마크와 리뷰를 통과하는 검증 가능성이 승부처로 떠올랐습니다.\n- 웹과 오픈소스 논의에서도 사용자를 향한 설계와 공개된 기준을 다시 묻고 있습니다.",
         "item_ids": [
           "856d2b6f35f5678914d73cb6f047e6f379d2e190",
           "0fc90ea593551da57e15c768adc0fa0ec1bf76df",
@@ -138925,7 +139453,7 @@
           "97a2b05b140876a326eb86615a49df825192138c"
         ],
         "total_items": 55,
-        "generated_at": "2026-05-04T14:32:00.082194+00:00",
+        "generated_at": "2026-05-04T18:42:49.165677+00:00",
         "ai_model": "codex-cli"
       }
     ]
