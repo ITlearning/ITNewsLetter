@@ -1,6 +1,456 @@
 {
   "items": [
     {
+      "id": "3ba66182a756fa100c49e4ac01805767638c3965",
+      "title_hash": "83ec5063faf9e2f545ae41335a58d333dea06d95",
+      "source": "GeekNews",
+      "title": "Show GN: Obsidian 우측 사이드바에서 Claude Code,Codex를 실행하는 Vault Terminal 플러그인을 만들었습니다",
+      "link": "https://news.hada.io/topic?id=29285",
+      "published_at": "2026-05-08T01:21:46+00:00",
+      "summary": "Obsidian에는 기존 터미널 플러그인도 있지만, 제 Windows 환경에서는 Claude Code/Codex 같은 agent CLI를 쓰기에 PTY 동작, 스크롤, 색상, 특수 입력 처리에서 아쉬움이 있었습니다. 그래서 Obsidian 우측 사이드바에 실제 터미널을 띄우고, 현재 볼트 경로를 작업 디렉터리로 사용하는 Vault Terminal 플러",
+      "fetched_at": "2026-05-08T06:18:35.578294+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "72",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=27,practical_tech=0,tools_agents=27,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 27,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 27,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "cli"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "cli",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "3ba66182a756fa100c49e4ac01805767638c3965",
+      "is_english_source": false,
+      "sent_at": "2026-05-08T06:21:47.534763+00:00"
+    },
+    {
+      "id": "09e2fd0da5462ed6cccdaa0099175cfb0a725699",
+      "title_hash": "12354eb851d102536474a3383adbcb75d38412b3",
+      "source": "GeekNews",
+      "title": "Claude Mythos Preview로 Firefox를 강화한 비하인드 스토리",
+      "link": "https://news.hada.io/topic?id=29288",
+      "published_at": "2026-05-08T02:03:08+00:00",
+      "summary": "Mozilla는 모델 성능 향상과 하네스(harness) 개선으로 AI 생성 보안 보고서의 신호를 높이고 잡음을 줄여, Firefox에서 실제 보안 버그를 대규모로 찾는 파이프라인을 구축함 Firefox 150 release 에서는 ...",
+      "fetched_at": "2026-05-08T06:18:35.578294+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "58",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=13,practical_tech=2,tools_agents=4,strategy_insight=13,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 13,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "신호",
+            "잡음"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신호",
+        "잡음"
+      ],
+      "detail_slug": "09e2fd0da5462ed6cccdaa0099175cfb0a725699",
+      "is_english_source": false,
+      "sent_at": "2026-05-08T06:21:47.534763+00:00"
+    },
+    {
+      "id": "538d90ccd681f277a9effccd3acb18ed3fb213a5",
+      "title_hash": "5f11fc851085be2d84779f4bf8a5dece7716f1f3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "GNU IFUNC is the real culprit behind CVE-2024-3094",
+      "link": "https://github.com/robertdfrench/ifuncd-up",
+      "published_at": "2026-05-08T00:03:38+00:00",
+      "summary": "HN story type: story HN points: 57 HN comments: 28 HN top comments: phire: This is barking up the wrong tree. Using IFUNC to patch sshd was kind of elegant, it achieved rootkit like behaviour with a pre-existing mechanism. And sure, it might be possible for a secure daemon like sshd to drop enough privileges that it could protect itself from a malicious dynamically linked library. But IFUNC was not required, neither was systemd. The game was lost as soon as the attacker had arbitrary cod... wahern: 1) IFUNC is hardly the only way to run code before main. 2) The alternative they present is arguably less secure because the function pointer will remain writable for the life of the process, whereas with IFUNC the GOT will eventually be made immutable (or can be... not sure if that's the default behavior). In general function pointers aren't great for security unless you explicitly make the memory backing the poi... countWSS: IFUNC should be implemented by software itself, like switching functions on runtime/compile checks. Why bother having a slower, insecure version that is less flexible than a function pointer? I have to agree with author. Glibc is filled with even more nasty hacks ripe for new exploits.",
+      "fetched_at": "2026-05-08T06:18:35.578294+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48056749",
+      "hn_story_type": "story",
+      "hn_points": "57",
+      "hn_comments_count": "28",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48056749",
+      "hn_item_text": "",
+      "hn_comment_preview": "phire: This is barking up the wrong tree. Using IFUNC to patch sshd was kind of elegant, it achieved rootkit like behaviour with a pre-existing mechanism. And sure, it might be possible for a secure daemon like sshd to drop enough privileges that it could protect itself from a malicious dynamically linked library. But IFUNC was not required, neither was systemd. The game was lost as soon as the attacker had arbitrary cod...\nwahern: 1) IFUNC is hardly the only way to run code before main. 2) The alternative they present is arguably less secure because the function pointer will remain writable for the life of the process, whereas with IFUNC the GOT will eventually be made immutable (or can be... not sure if that's the default behavior). In general function pointers aren't great for security unless you explicitly make the memory backing the poi...\ncountWSS: IFUNC should be implemented by software itself, like switching functions on runtime/compile checks. Why bother having a slower, insecure version that is less flexible than a function pointer? I have to agree with author. Glibc is filled with even more nasty hacks ripe for new exploits.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=25,practical_tech=25,tools_agents=5,strategy_insight=4,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 25,
+        "tools_agents": 5,
+        "strategy_insight": 4,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 25,
+          "strong_hits": [
+            "security",
+            "runtime"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "runtime"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "runtime",
+        "library",
+        "code + security",
+        "github.com"
+      ],
+      "detail_slug": "538d90ccd681f277a9effccd3acb18ed3fb213a5",
+      "is_english_source": true,
+      "translated_title": "CVE-2024-3094의 진짜 범인, GNU IFUNC",
+      "short_summary": "이 글은 xz 백도어 사태인 CVE-2024-3094에서 GNU IFUNC가 공격 성립의 핵심 고리였다고 짚는다. 다만 HN에서는 IFUNC보다 빌드 체인 침해와 사전 코드 실행 자체가 더 본질적이라는 반론이 많이 나왔다.",
+      "why_it_matters": "이번 논쟁은 glibc의 특정 기능 하나를 막는다고 공급망 공격이 끝나지 않는다는 점을 다시 보여준다. 실무에서는 런타임 최적화 기능보다 빌드·배포 신뢰 경로와 조기 실행 지점을 함께 점검해야 한다.\n- 동적 링크, 초기화 훅, IFUNC처럼 `main` 이전에 실행될 수 있는 경로를 목록화하고 통제할 필요가 있다.\n- 재현 가능한 빌드, 서명 검증, 패키지 배포 경로 감사가 취약점 대응의 앞단으로 더 올라온다.\n- 보안 데몬은 라이브러리 로딩 직후 권한 축소와 메모리 보호를 얼마나 빨리 적용할지 다시 따져볼 만하다.",
+      "hn_reaction_summary": "댓글 분위기는 제목의 문제 제기에는 관심을 보이면서도 원인 진단이 너무 좁다는 쪽에 더 기울었다. IFUNC는 눈에 띄는 악용 수단이었지만, 그것만 겨냥하면 대응 우선순위가 흐려진다는 반응이 많았다.\n- 가장 많이 나온 반론은 \"IFUNC가 아니어도 `main` 이전에 코드를 실행할 방법은 많다\"는 점이었다.\n- 일부는 대안으로 거론된 함수 포인터 방식이 오히려 더 오래 쓰기 가능한 상태로 남아 보안상 불리할 수 있다고 지적했다.\n- 반대로 glibc의 복잡한 최적화 장치가 공격 표면을 넓힌다는 우려에도 공감하는 의견이 적지 않았다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-08T06:21:47.534763+00:00"
+    },
+    {
+      "id": "274b52a61a2d4d80fc78e495adae63520d44f629",
+      "title_hash": "555347407731b725aab2a5d4db16de2f5b047651",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Agents need control flow, not more prompts",
+      "link": "https://bsuh.bearblog.dev/agents-need-control-flow/",
+      "published_at": "2026-05-07T16:43:35+00:00",
+      "summary": "HN story type: story HN points: 416 HN comments: 205 HN top comments: 827a: 1000% agree. I am increasingly hesitant to believe Anthropic's continual war drum of \"build for the capabilities of future models, they'll get better\". We've got a QA agent that needs to run through, say, 200 markdown files of requirements in a browser session. Its a cool system that has really helped improve our team's efficiency. For the longest time we tried everything to get a prompt like the following working... bandrami: It's going to be hilarious in a few years when people are still using LLMs but only via a controlled vocabulary and syntax that you have to learn. It's just like how everybody moved to NoSQL 15 years ago but immediately recreated schemae in their JSON. rnxrx: I wonder if a part of the problem isn't just the misapplication of LLMs in the first place. As has been mentioned elsewhere, perhaps the agent's prompt should be to write code to accomplish as much of the task in as repeatable/verifiable/deterministic a way as possible. This would hopefully include validation of the agent's output as well. The overall goal would be to keep the LLM out of doing processing that coul...",
+      "fetched_at": "2026-05-08T06:18:35.578294+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48051562",
+      "hn_story_type": "story",
+      "hn_points": "416",
+      "hn_comments_count": "205",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48051562",
+      "hn_item_text": "",
+      "hn_comment_preview": "827a: 1000% agree. I am increasingly hesitant to believe Anthropic's continual war drum of \"build for the capabilities of future models, they'll get better\". We've got a QA agent that needs to run through, say, 200 markdown files of requirements in a browser session. Its a cool system that has really helped improve our team's efficiency. For the longest time we tried everything to get a prompt like the following working...\nbandrami: It's going to be hilarious in a few years when people are still using LLMs but only via a controlled vocabulary and syntax that you have to learn. It's just like how everybody moved to NoSQL 15 years ago but immediately recreated schemae in their JSON.\nrnxrx: I wonder if a part of the problem isn't just the misapplication of LLMs in the first place. As has been mentioned elsewhere, perhaps the agent's prompt should be to write code to accomplish as much of the task in as repeatable/verifiable/deterministic a way as possible. This would hopefully include validation of the agent's output as well. The overall goal would be to keep the LLM out of doing processing that coul...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=11,practical_tech=9,tools_agents=11,strategy_insight=10,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 11,
+        "strategy_insight": 10,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [
+            "prompt",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "llm",
+        "prompt",
+        "agent"
+      ],
+      "detail_slug": "274b52a61a2d4d80fc78e495adae63520d44f629",
+      "is_english_source": true,
+      "translated_title": "에이전트에 더 필요한 건 프롬프트보다 제어 흐름",
+      "short_summary": "이 글은 AI 에이전트의 한계를 프롬프트 보강만으로 넘기기 어렵고, 반복 가능한 제어 흐름과 검증 절차가 먼저 갖춰져야 한다고 본다. HN에서도 실무 경험을 바탕으로 비슷한 공감이 이어졌다.",
+      "why_it_matters": "에이전트를 업무에 붙이는 팀이라면, 더 긴 프롬프트보다 실행 순서와 실패 처리, 검증 설계가 먼저라는 문제의식을 점검할 만하다.\n- 문서 수백 개 처리나 브라우저 자동화처럼 긴 작업은 프롬프트 한 번으로 밀어붙이기보다 단계 분리와 재시도 로직이 성패를 가른다.\n- 모델 성능 향상만 기다리기보다 코드로 고정할 수 있는 부분은 스크립트와 규칙으로 빼야 운영이 덜 흔들린다.\n- 실무에서는 에이전트의 추론 능력보다 로그, 검증, 예외 처리 같은 운영 장치가 비용과 품질을 더 크게 좌우한다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 공감 쪽이었다. 실제로 에이전트를 굴려 본 사람일수록 프롬프트보다 통제 가능한 실행 구조가 필요하다는 주장에 무게를 실었다.\n- \"미래 모델은 더 좋아질 것\"이라는 낙관론만 믿고 설계하면, 지금 시스템의 불안정성을 덮는 데 그친다는 회의가 반복됐다.\n- 결국 자연어만으로 모든 걸 처리하지 못하고, 제한된 문법과 스키마를 다시 만들게 된다는 지적도 많이 나왔다.\n- LLM이 전 과정을 직접 수행하기보다, 재현 가능하고 검증 가능한 코드를 쓰게 하는 쪽이 낫다는 실무적 제안도 눈에 띄었다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-08T06:21:47.534763+00:00"
+    },
+    {
+      "id": "97b657504c859de8c703b1fa511e1e345596f270",
+      "title_hash": "ce9a7ed51199b0fbb29c7b1f734719941d9c73d5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Cloudflare to cut about 20% workforce",
+      "link": "https://www.reuters.com/business/world-at-work/cloudflare-cut-over-1100-jobs-2026-05-07/",
+      "published_at": "2026-05-07T20:23:37+00:00",
+      "summary": "HN story type: story HN points: 530 HN comments: 315 HN post text: https://blog.cloudflare.com/building-for-the-future/ HN top comments: AloysB: This is awkward. Exhibit A - September 2025 - \"Help build the future\" - Cloudflare hires 1111 interns to \"help build the future\" [ https://blog.cloudflare.com/cloudflare-1111-intern-program/ ] Exhibit B - May 2026 - \"Building for the future\" - Cloudflare lays off 1100 people, about 20% of their workforce to \"continue building the future\" [ https://blog.cloudflare.com/building-for-the-future/ ] I'll finish on this... ggoo: > The packages for departing employees will include the equivalent of their full base pay through the end of 2026. Healthcare coverage is different across the globe, and if you’re in the United States, we’ll continue to provide support through the end of the year. We are also vesting equity for departing team members through August 15th, so they receive stock beyond their departure date. And, if departing team mem... piperswe: Welp, looks like I’m affected. If anyone is looking to hire a systems engineer with distributed systems and load balancing experience, shoot me an email at @piperswe.me :/ I’ll update this with a resume link tonight…",
+      "fetched_at": "2026-05-08T06:18:35.578294+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48054423",
+      "hn_story_type": "story",
+      "hn_points": "530",
+      "hn_comments_count": "315",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48054423",
+      "hn_item_text": "https://blog.cloudflare.com/building-for-the-future/",
+      "hn_comment_preview": "AloysB: This is awkward. Exhibit A - September 2025 - \"Help build the future\" - Cloudflare hires 1111 interns to \"help build the future\" [ https://blog.cloudflare.com/cloudflare-1111-intern-program/ ] Exhibit B - May 2026 - \"Building for the future\" - Cloudflare lays off 1100 people, about 20% of their workforce to \"continue building the future\" [ https://blog.cloudflare.com/building-for-the-future/ ] I'll finish on this...\nggoo: > The packages for departing employees will include the equivalent of their full base pay through the end of 2026. Healthcare coverage is different across the globe, and if you’re in the United States, we’ll continue to provide support through the end of the year. We are also vesting equity for departing team members through August 15th, so they receive stock beyond their departure date. And, if departing team mem...\npiperswe: Welp, looks like I’m affected. If anyone is looking to hire a systems engineer with distributed systems and load balancing experience, shoot me an email at @piperswe.me :/ I’ll update this with a resume link tonight…",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=10,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 10,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "distributed",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "business"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "distributed",
+        "rag"
+      ],
+      "detail_slug": "97b657504c859de8c703b1fa511e1e345596f270",
+      "is_english_source": true,
+      "translated_title": "클라우드플레어, 전체 인력 20% 감축",
+      "short_summary": "클라우드플레어가 전체 인력의 약 20%를 줄이기로 했다. HN에서는 최근 대규모 인턴 채용과 엇갈리는 메시지라는 비판과, 퇴직 보상은 비교적 후하다는 반응이 함께 나왔다.",
+      "why_it_matters": "보안·네트워크 인프라 업계의 대표 기업도 성장만으로 조직을 끌고 가기 어려워졌다는 신호다. 현업에서는 감원 자체보다 이후 지원 체계와 제품 우선순위가 어떻게 바뀔지를 같이 봐야 한다.\n\n- 조직이 재편되면 고객 지원 속도, 기능 출시 순서, 엔터프라이즈 대응 방식이 달라질 수 있다.\n- 클라우드플레어를 쓰는 팀이라면 계약 갱신이나 신규 도입 전에 지원 창구와 로드맵 변화를 다시 확인할 필요가 있다.\n- 분산 시스템과 네트워크 경험 인력이 시장에 풀릴 수 있어, 관련 채용을 진행 중인 팀에는 현실적인 채용 기회가 될 수 있다.",
+      "hn_reaction_summary": "댓글 분위기는 전반적으로 냉소적이었지만, 일부는 처우 조건을 따져 보며 현실적으로 평가했다. 경영진의 표현보다 최근 행보와 실제 영향에 더 무게를 두는 흐름이 강했다.\n\n- 가장 많이 거론된 쟁점은 2025년의 대규모 인턴 채용 홍보와 2026년 감원이 이어지면서 회사 메시지가 공허하게 들린다는 점이었다.\n- 퇴직자에게 2026년 말까지 기본급 상당액과 일정 기간 의료·주식 보상을 준다는 대목에는, 처우만 놓고 보면 나쁘지 않다는 반응도 적지 않았다.\n- 해고 대상이라고 직접 밝힌 댓글이 올라오면서, 추상적인 기업 발표보다 인력시장과 커리어 충격을 체감하게 만든다는 의견이 이어졌다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-08T06:21:47.534763+00:00"
+    },
+    {
       "id": "e8c2fde2363a88942b997f1163bcedb8c378f8db",
       "title_hash": "11c2b13a938b1e536f995b846c712f6b1fe81865",
       "source": "GeekNews",
@@ -147306,9 +147756,11 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트",
-        "summary": "에이전트가 일을 대신하는 쪽으로 흐르며, 도구의 겉모양보다 운영 원칙을 다시 짜는 이야기가 많았습니다. 지표와 CLI, 칸반 UI, 인간 판단의 자리를 어디까지 넘길지가 한데 묶여 보입니다.\n\n- AI 제품은 첫 가치 도달 시간이 짧아져 기존 분석 지표를 그대로 쓰기 어렵다는 점이 다시 드러났습니다.\n- 에이전트용 CLI와 칸반형 워크플로가 구체화되며, 사람이 쓰던 도구가 기계도 쓰는 인터페이스로 바뀌는 흐름이 선명합니다.\n- 무의식의 언어 처리 연구와 현업의 혼란상은 자동화 낙관을 식혀 줍니다. 지금은 성능보다 규칙과 책임을 함께 볼 때입니다.",
+        "headline": "이번 주 도구·에이전트: 프롬프트 밖의 설계",
+        "summary": "이번 주엔 에이전트를 더 잘 말시키는 법보다, 어디에 붙이고 어떻게 굴릴지에 시선이 모였다. 실사용의 무게중심이 또렷해졌다.\n\n- Obsidian 사이드바와 칸반 UI처럼 익숙한 작업면 안으로 에이전트를 끌어들이는 시도가 늘었다\n- 성패를 가르는 건 프롬프트보다 제어 흐름, 검증, 상태 관리라는 공감대가 짙어졌다\n- AI 제품은 Time to Value처럼 더 짧고 직접적인 지표로 다시 봐야 한다는 논의도 함께 이어졌다",
         "item_ids": [
+          "3ba66182a756fa100c49e4ac01805767638c3965",
+          "274b52a61a2d4d80fc78e495adae63520d44f629",
           "8c11d68f25925239f2d1ebbae5c2a1a61305cbc2",
           "110c24a9e6299759653ddd7052adb281d3180c72",
           "bbc1b3c96c3814bd109b1445492bce2e77ffd93d",
@@ -147419,24 +147871,21 @@
           "ae46a08fc1101e4fcbae8600d91824ace94d9f8a",
           "4721335a7e969a993641ef4bbb30ed8761bc9717",
           "ec30f33d2dd969d2790159b35d02698ae501019d",
-          "cf5d90cabc8369d4d45964d40959a333778fe19d",
-          "fd52197908d4ee7622e453ae59db08a922ff92c7",
-          "7132d1f8053208e57a303e2a15c6ffc8c15185cb",
-          "2166e5bf3b62a089997b2dc33165f1f5461282fa",
-          "f1692182ce2ef0026c2d935646817b7b525fb2e5",
-          "7dec8c6cfe09dfc870c5bc908d51f43de6173f2a"
+          "cf5d90cabc8369d4d45964d40959a333778fe19d"
         ],
-        "total_items": 116,
-        "generated_at": "2026-05-08T02:08:12.105785+00:00",
+        "total_items": 113,
+        "generated_at": "2026-05-08T06:18:35.578294+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술",
-        "summary": "이번 주엔 감춰진 내부를 드러내고 반복 작업을 짧게 줄이려는 흐름이 두드러졌다. 보안, 모델 해석, 로컬 추론, 운영 자동화가 한꺼번에 실무 쪽으로 내려왔다.\n- 패치가 아직 없는 리눅스 권한 상승 연구는 인프라 점검 순서를 다시 보게 만든다.\n- Claude 해석 모델과 Eliza API는 AI의 내부와 계보를 텍스트와 API로 꺼내 쓰게 한다.\n- Metal용 DeepSeek 엔진, K8s 스킬팩은 로컬 실행과 운영 플레이북 압축이 어디까지 왔는지 보여준다.",
+        "headline": "이번 주 실무 기술: 신뢰 점검",
+        "summary": "이번 주 실무 기술은 결국 신뢰를 어디에 둘지 묻는다. 보안 사고와 AI 해석, 조직 변화가 한꺼번에 운영의 바닥을 다시 보게 했다.\n\n- xz 백도어와 Dirtyfrag는 빌드 체인과 커널 경계 같은 오래된 기반이 여전히 가장 약한 고리임을 드러냈다.\n- 클라우드플레어 감원과 Claude 해석 연구는 성능보다 비용, 설명 가능성, 운영 판단을 함께 보라는 신호로 읽힌다.\n- Eliza API 실험은 낡은 아이디어도 지금의 인터페이스에 얹으면 다시 실무 맥락을 얻는다는 점을 보여줬다.",
         "item_ids": [
+          "538d90ccd681f277a9effccd3acb18ed3fb213a5",
+          "97b657504c859de8c703b1fa511e1e345596f270",
           "5168026d2704a9bfd87171d95016715cc2a4c7f0",
           "3129fdcaabfc3eeca10b04dc51d5fe3460eaa4dd",
           "23a291f66bd47a5d9360adc47199e0a48d9d5b2a",
@@ -147521,20 +147970,20 @@
           "35c9ff0f335fecd891f91ee651a9b3e739384793",
           "a12dc6a7367caa172b66995ffc6c7e005459aa4f",
           "bc1f35131bb784432c837fcc78f1f1748194920a",
-          "09cf3c5c8ffa8e9159b4436d85b145dd3f2e6f0b",
-          "9932c418c699bc1b2a40be9388139dbf25fccb73"
+          "09cf3c5c8ffa8e9159b4436d85b145dd3f2e6f0b"
         ],
-        "total_items": 86,
-        "generated_at": "2026-05-08T02:08:12.105785+00:00",
+        "total_items": 87,
+        "generated_at": "2026-05-08T06:18:35.578294+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 주 전략·인사이트",
-        "summary": "AI와 권력이 판을 바꾸는 속도가 빨라졌지만, 이익은 먼저 아는 사람과 끝까지 검토하는 사람에게 쏠립니다. 이번 주 글은 그 간극이 시장과 일터에서 어떻게 반복되는지 짚습니다.\n- AI는 진입 장벽을 낮추지만 판단력과 책임까지 대신하진 못합니다.\n- 겉보기 생산성과 실제 이해의 차이가 커질수록 검토와 질문의 값이 오릅니다.\n- 유가 베팅 사례처럼 정보 비대칭과 책임 회피가 수익으로 굳어지는 흐름이라 지금 더 눈여겨볼 만합니다.",
+        "headline": "이번 주 전략·인사이트: 신뢰를 가르는 검증의 시간",
+        "summary": "AI가 판을 넓히는 속도보다 사람이 검증하고 책임지는 속도가 더디다는 점이 이번 주 글 전반에 겹칩니다. 그래서 지금은 성능 경쟁보다 신뢰를 가려내는 눈이 더 먼저 보입니다.\n\n- Firefox 보안 탐지부터 직장 생산성까지, 산출물의 양보다 잡음 제거와 검증 체계가 성패를 가릅니다.\n- 시장 베팅과 AI 확산은 정보 비대칭을 키웁니다. 누가 먼저 알고 끝까지 확인했는지가 곧 힘이 됩니다.\n- 불안을 넘는 길도 비슷합니다. 도구를 밀어내기보다 판단력과 최종 책임을 더 또렷하게 세워야 합니다.",
         "item_ids": [
+          "09e2fd0da5462ed6cccdaa0099175cfb0a725699",
           "e8c2fde2363a88942b997f1163bcedb8c378f8db",
           "8d586ddfa282f92a030fe9438c7f0a1325c1e8e9",
           "e35bf1ae6828592b74963fd026d97236cf941354",
@@ -147550,8 +147999,8 @@
           "02cf25cee02b7dd8ffe19f3f9de7cda887109676",
           "fb01e4ee4d40576e20a8640c9f9eb3309f990926"
         ],
-        "total_items": 14,
-        "generated_at": "2026-05-08T02:08:12.105785+00:00",
+        "total_items": 15,
+        "generated_at": "2026-05-08T06:18:35.578294+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -147560,9 +148009,11 @@
         "period": "monthly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 달 도구·에이전트",
-        "summary": "에이전트를 붙이는 속도는 빨라졌지만, 제품을 재는 기준과 일을 굴리는 방식은 아직 다시 짜는 중이다. 이번 묶음은 그 재정렬의 한가운데를 보여준다.\n- AI 제품은 가치 도달 시간과 첫 경험 지표부터 다시 봐야 한다는 문제의식이 두드러졌다.\n- 칸반 WebUI와 에이전트용 CLI 논의는 사람이 쓰던 도구가 에이전트도 쓰는 인터페이스로 바뀌는 흐름을 짚었다.\n- 무의식 언어 처리 연구와 현업 비판은 자동화가 넓어질수록 인간 판단과 운영 감각을 더 따져봐야 한다는 이유를 남겼다.",
+        "headline": "이번 달 도구·에이전트: 프롬프트 다음 단계",
+        "summary": "이번 달 묶음은 에이전트를 더 잘 프롬프트하는 법보다, 익숙한 도구에 붙이고 검증 가능한 흐름으로 굴리는 쪽에 무게가 실렸다는 점을 보여준다. 실험이 아니라 운영의 문제로 넘어가는 분위기다.\n\n- Obsidian 사이드바와 칸반 보드처럼, 일상 작업면 안으로 에이전트를 끌어들이는 시도가 눈에 띈다.\n- 프롬프트 보강보다 제어 흐름, 상태 관리, 검증 절차가 먼저라는 실무 감각이 반복된다.\n- 지표도 다시 짜는 중이다. AI 제품의 Time to Value처럼 지금의 운영 기준을 읽어둘 만하다.",
         "item_ids": [
+          "3ba66182a756fa100c49e4ac01805767638c3965",
+          "274b52a61a2d4d80fc78e495adae63520d44f629",
           "8c11d68f25925239f2d1ebbae5c2a1a61305cbc2",
           "110c24a9e6299759653ddd7052adb281d3180c72",
           "bbc1b3c96c3814bd109b1445492bce2e77ffd93d",
@@ -148059,12 +148510,10 @@
           "d26fd794f04b751fe52658e42ac763568fd2e726",
           "303255b1f66bc5f2cff79c40c50a026e34dfda43",
           "83963e8c5b670948170692ebfc08a086b20ce4df",
-          "e0c6ba8d3c12adfad980d6c44c8fed84d7700353",
-          "f4aad71cfdea90844935d71590aaf5f8ae73a54a",
-          "a995fa3c1e5f08053338ee68228e4e19263dbb87"
+          "e0c6ba8d3c12adfad980d6c44c8fed84d7700353"
         ],
         "total_items": 499,
-        "generated_at": "2026-05-08T02:08:12.105785+00:00",
+        "generated_at": "2026-05-08T06:18:35.578294+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -148072,8 +148521,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달엔 새 이론보다 바로 돌려 보고 곧바로 점검할 수 있는 공개물에 시선이 모였다. 실무 감각이 강한 흐름이 한데 묶인다.\n\n- Dirtyfrag와 K8s 스킬팩은 인프라의 빈틈과 대응 절차를 먼저 챙기게 했다.\n- Metal용 로컬 엔진과 Eliza API는 작고 선명한 구현으로 속도와 재현성을 밀어 올렸다.\n- Claude 해석 실험까지 겹치며 지금은 AI를 더 잘 운영하고 더 깊이 읽는 법을 같이 볼 때다.",
+        "summary": "이번 달엔 새 기능보다 바닥 구조를 다시 보게 하는 글이 많았습니다. 보안 사고와 조직 변화, AI 해석이 지금 실무의 불안을 또렷하게 비춥니다.\n\n- xz 백도어와 Dirtyfrag는 코드보다 빌드 체인과 권한 경계가 먼저 뚫릴 수 있음을 드러냅니다.\n- 클라우드플레어 감축 소식은 기술 회사의 운영 판단이 제품 메시지와 채용 신호까지 함께 흔든다는 점을 짚습니다.\n- Claude 해석 실험과 Eliza API는 AI가 깊어질수록 설명 가능성과 익숙한 인터페이스 수요도 같이 커진다는 흐름을 보여줍니다.",
         "item_ids": [
+          "538d90ccd681f277a9effccd3acb18ed3fb213a5",
+          "97b657504c859de8c703b1fa511e1e345596f270",
           "5168026d2704a9bfd87171d95016715cc2a4c7f0",
           "3129fdcaabfc3eeca10b04dc51d5fe3460eaa4dd",
           "23a291f66bd47a5d9360adc47199e0a48d9d5b2a",
@@ -148406,22 +148857,20 @@
           "70976f44e9eda7e90f5f1e39100208dfd638b3b9",
           "0195289e4bec1f7eed60fff1a5ab571a48ac7848",
           "83e4d13de18be886743342d5eef15ba65306c6cb",
-          "c921cad56f543df6ff8ebd00abf4d917560630c3",
-          "8c9a0e21b7f969afe380cee009d8b7e228323519",
-          "fbded335a0c5dc6a882b2faba0ab9889e1988ebc",
-          "181098ab871ed1a3dbd8346c32674073954ab6c3"
+          "c921cad56f543df6ff8ebd00abf4d917560630c3"
         ],
-        "total_items": 336,
-        "generated_at": "2026-05-08T02:08:12.105785+00:00",
+        "total_items": 335,
+        "generated_at": "2026-05-08T06:18:35.578294+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "monthly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 달 전략·인사이트",
-        "summary": "이번 달 글은 AI와 시장 권력이 만든 착시를 함께 짚는다. 성과는 더 쉽게 포장되지만 판단과 책임은 더 흐려진다.\n\n- AI는 초보자도 결과를 빨리 내게 하지만, 검토력 없는 생산성은 조직의 리스크를 키운다.\n- 도구가 결정을 돕는 선을 넘을수록 책임 공백이 커지고 R&R도 흔들린다.\n- 유가 베팅 사례까지 보면 정보 비대칭 속에 누가 이익을 챙기는지 선명하다. 지금은 속도보다 판별력을 볼 때다.",
+        "headline": "이번 달 전략·인사이트: 신호와 판단의 격차",
+        "summary": "이번 달 글은 한 흐름을 가리킨다. AI가 생산과 탐지의 문턱을 낮췄지만, 성패를 가르는 건 더 많이 만드는 힘보다 걸러 보고 끝까지 확인하는 판단이다.\n- Firefox 사례는 모델 성능보다 잡음을 줄이는 운영 설계가 실제 성과를 만든다는 점을 보여준다.\n- 직장과 일상에선 산출물이 늘어도 검토력이 약하면 진척이 아니라 착시가 된다.\n- 유가 베팅 사례까지 보면, 지금은 정보량보다 신호를 먼저 읽는 쪽이 이익을 챙기는 국면이다.",
         "item_ids": [
+          "09e2fd0da5462ed6cccdaa0099175cfb0a725699",
           "e8c2fde2363a88942b997f1163bcedb8c378f8db",
           "8d586ddfa282f92a030fe9438c7f0a1325c1e8e9",
           "e35bf1ae6828592b74963fd026d97236cf941354",
@@ -148478,8 +148927,8 @@
           "4d5f2a5bbd7bc635b31c72cdeb159d7f6d846005",
           "52edcb53867e13ca09872859a72b5f817ca91053"
         ],
-        "total_items": 55,
-        "generated_at": "2026-05-08T02:08:12.105785+00:00",
+        "total_items": 56,
+        "generated_at": "2026-05-08T06:18:35.578294+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -148490,21 +148939,21 @@
       "kind": "quiet_riser",
       "label": "AI Spotlight",
       "title": "조용히 커지는 주제",
-      "cta_label": "흐름 보기",
+      "cta_label": "흐름 읽기",
       "related_item_ids": [
-        "8c11d68f25925239f2d1ebbae5c2a1a61305cbc2",
-        "4b279424014637c57979905480ba29b8e2e5f5de",
-        "bbc1b3c96c3814bd109b1445492bce2e77ffd93d"
+        "3ba66182a756fa100c49e4ac01805767638c3965",
+        "bbc1b3c96c3814bd109b1445492bce2e77ffd93d",
+        "274b52a61a2d4d80fc78e495adae63520d44f629"
       ],
-      "score": 0.91,
-      "generated_at": "2026-05-08T02:08:12.105785+00:00",
+      "score": 0.94,
+      "generated_at": "2026-05-08T06:18:35.578294+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "에이전트 운영 설계",
-      "summary_line": "모델보다 그 위의 CLI, 지표, 작업 흐름을 다시 짜는 얘기가 더 자주 나온다.",
+      "topic_name": "에이전트 운영면",
+      "summary_line": "에이전트를 더 잘 말시키는 경쟁보다, 익숙한 화면 안에 붙이고 흐름을 통제하는 쪽이 반복해서 보였다.",
       "signals": [
-        "AI 제품은 첫 가치 도달 시간이 너무 짧아져 예전 분석 지표가 그대로 먹히지 않는다는 문제의식이 반복됐다.",
-        "에이전트용 CLI 논의는 명령어 문법보다 안전한 확인 방식과 구조화된 출력 쪽으로 무게가 실렸다.",
-        "칸반형 WebUI 같은 보조 도구가 에이전트 작업을 사람이 감독하는 기본 화면으로 올라오고 있다."
+        "Obsidian 사이드바에서 CLI 에이전트를 바로 돌리는 플러그인이 나왔다",
+        "칸반 보드 위에서 에이전트 작업 상태를 관리하는 WebUI가 등장했다",
+        "HN에선 프롬프트보다 제어 흐름과 검증이 먼저라는 공감이 퍼졌다"
       ]
     },
     {
@@ -148512,17 +148961,17 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "쟁점 읽기",
+      "cta_label": "찬반 보기",
       "related_item_ids": [
         "3129fdcaabfc3eeca10b04dc51d5fe3460eaa4dd"
       ],
-      "score": 0.94,
-      "generated_at": "2026-05-08T02:08:12.105785+00:00",
+      "score": 0.88,
+      "generated_at": "2026-05-08T06:18:35.578294+00:00",
       "ai_model": "codex-cli",
-      "headline": "해석 문장은 설명일까, 추론의 흔적일까",
-      "issue_title": "자연어 오토인코더, Claude의 생각을 텍스트로 바꾸다",
-      "opposition_summary": "그럴듯한 문장이 나온다고 해서 실제 내부 추론을 읽었다고 보긴 어렵다는 회의론이 컸다. 설명이 먼저 그럴듯해질 수 있다는 경계다.",
-      "support_summary": "오픈 웨이트로 풀려 연구자와 실무자가 바로 만져볼 수 있다는 기대가 컸다. 모델 디버깅과 안전 점검에 새 도구가 될 수 있다는 쪽이다."
+      "headline": "자연어 오토인코더, Claude의 생각을 텍스트로 바꾸다",
+      "issue_title": "해석 문장을 어디까지 모델의 실제 추론으로 볼 수 있나",
+      "opposition_summary": "그럴듯한 설명이 붙는다고 내부 추론이 드러난 건 아니라는 회의론이 강했다.",
+      "support_summary": "오픈 웨이트로 공개돼 연구자와 실무자가 바로 검증하고 디버깅에 써볼 수 있다는 기대도 컸다."
     },
     {
       "id": "anomaly-signal",
@@ -148531,19 +148980,19 @@
       "title": "이번 주 이상 신호",
       "cta_label": "신호 보기",
       "related_item_ids": [
-        "43089d3fe584003db5a4c59ca339a9354f19b849",
-        "23a291f66bd47a5d9360adc47199e0a48d9d5b2a",
-        "6f92198e50013eeb3f8315b4649c2eccc36bf746"
+        "09e2fd0da5462ed6cccdaa0099175cfb0a725699",
+        "3129fdcaabfc3eeca10b04dc51d5fe3460eaa4dd",
+        "274b52a61a2d4d80fc78e495adae63520d44f629"
       ],
-      "score": 0.87,
-      "generated_at": "2026-05-08T02:08:12.105785+00:00",
+      "score": 0.92,
+      "generated_at": "2026-05-08T06:18:35.578294+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "작은 전용 구현이 더 빨리 번진다",
-      "summary_line": "큰 플랫폼보다 얇고 바로 돌려 볼 수 있는 구현이 더 눈에 띄는 한 주였다.",
+      "signal_title": "성능보다 검증 장치가 더 자주 거론된다",
+      "summary_line": "이번 주엔 새 기능보다 결과를 믿을 수 있게 만드는 설계가 더 많이 언급됐다.",
       "signals": [
-        "Metal용 로컬 엔진은 특정 모델 하나에 집중해 속도와 구조 단순화를 동시에 노렸다.",
-        "ElizAPI는 오래된 챗봇을 OpenAI 호환 API로 다시 묶어 실험 비용을 크게 낮췄다.",
-        "K8s 스킬팩은 운영 문서를 읽는 대신 호출형 런북을 내려받는 흐름을 보여줬다."
+        "Firefox 사례는 모델 자체보다 하네스 개선과 잡음 축소가 성과를 만들었다",
+        "Claude 해석 공개도 감탄보다 '얼마나 믿을 수 있나'가 먼저 붙었다",
+        "에이전트 글 역시 프롬프트보다 상태 관리와 검증 절차로 시선이 옮겨갔다"
       ]
     }
   ],
@@ -148552,21 +149001,21 @@
     "kind": "quiet_riser",
     "label": "AI Spotlight",
     "title": "조용히 커지는 주제",
-    "cta_label": "흐름 보기",
+    "cta_label": "흐름 읽기",
     "related_item_ids": [
-      "8c11d68f25925239f2d1ebbae5c2a1a61305cbc2",
-      "4b279424014637c57979905480ba29b8e2e5f5de",
-      "bbc1b3c96c3814bd109b1445492bce2e77ffd93d"
+      "3ba66182a756fa100c49e4ac01805767638c3965",
+      "bbc1b3c96c3814bd109b1445492bce2e77ffd93d",
+      "274b52a61a2d4d80fc78e495adae63520d44f629"
     ],
-    "score": 0.91,
-    "generated_at": "2026-05-08T02:08:12.105785+00:00",
+    "score": 0.94,
+    "generated_at": "2026-05-08T06:18:35.578294+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "에이전트 운영 설계",
-    "summary_line": "모델보다 그 위의 CLI, 지표, 작업 흐름을 다시 짜는 얘기가 더 자주 나온다.",
+    "topic_name": "에이전트 운영면",
+    "summary_line": "에이전트를 더 잘 말시키는 경쟁보다, 익숙한 화면 안에 붙이고 흐름을 통제하는 쪽이 반복해서 보였다.",
     "signals": [
-      "AI 제품은 첫 가치 도달 시간이 너무 짧아져 예전 분석 지표가 그대로 먹히지 않는다는 문제의식이 반복됐다.",
-      "에이전트용 CLI 논의는 명령어 문법보다 안전한 확인 방식과 구조화된 출력 쪽으로 무게가 실렸다.",
-      "칸반형 WebUI 같은 보조 도구가 에이전트 작업을 사람이 감독하는 기본 화면으로 올라오고 있다."
+      "Obsidian 사이드바에서 CLI 에이전트를 바로 돌리는 플러그인이 나왔다",
+      "칸반 보드 위에서 에이전트 작업 상태를 관리하는 WebUI가 등장했다",
+      "HN에선 프롬프트보다 제어 흐름과 검증이 먼저라는 공감이 퍼졌다"
     ]
   }
 }
