@@ -1,6 +1,440 @@
 {
   "items": [
     {
+      "id": "30777f14151ce6ce07040b0db787ec9d15f5c34c",
+      "title_hash": "136078c8c03f7c4e30a094a23ab6535f6a6eeca7",
+      "source": "GeekNews",
+      "title": "GPT-5.5 low vs medium vs high vs xhigh: 오픈소스 저장소의 실제 작업 26개에서 본 추론 곡선",
+      "link": "https://news.hada.io/topic?id=29316",
+      "published_at": "2026-05-09T02:42:52+00:00",
+      "summary": "GPT-5.5 Codex를 GraphQL-go-tools 의 실제 작업 26개에 low, medium, high, xhigh 설정으로 실행하자, 테스트 통과보다 사람 패치와의 의미적 동등성·코드 리뷰 통과율에서 추론 노력 차이가 더 크게 드러남 테스트 통과는 low 21/26, medium 21/26, high 25/26, xhigh...",
+      "fetched_at": "2026-05-09T07:25:22.892909+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "56",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=2,tools_agents=11,strategy_insight=8,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 11,
+        "strategy_insight": 8,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [
+            "codex"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "코드 리뷰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "코드 리뷰"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "codex",
+        "tool"
+      ],
+      "detail_slug": "30777f14151ce6ce07040b0db787ec9d15f5c34c",
+      "is_english_source": false,
+      "sent_at": "2026-05-09T07:28:31.823321+00:00"
+    },
+    {
+      "id": "d4d9212da6a5b511965ad099d8fda09393368a08",
+      "title_hash": "407ef9acb797f0e4ff4fe45f58021bd12757178a",
+      "source": "GeekNews",
+      "title": "모든 VPS 또는 클라우드 제공자에서 첫 SSH 연결의 MITM 막기",
+      "link": "https://news.hada.io/topic?id=29318",
+      "published_at": "2026-05-09T06:02:06+00:00",
+      "summary": "ssh-init-vm 은 새 VM의 첫 SSH 접속에서 중간자 공격 을 막기 위해 cloud-init으로 임시 SSH 호스트 개인키를 주입하고, 장기 호스트 키를 생성·가져오는 동안만 신뢰하게 함 Hetzner Cloud처럼...",
+      "fetched_at": "2026-05-09T07:25:22.892909+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "d4d9212da6a5b511965ad099d8fda09393368a08",
+      "is_english_source": false,
+      "sent_at": "2026-05-09T07:28:31.823321+00:00"
+    },
+    {
+      "id": "db769e9a3e1ac0f21248f0421112e32205f544ac",
+      "title_hash": "df2135b8c7bf3f0f6908df85d7c3c921474503f5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Using Claude Code: The unreasonable effectiveness of HTML",
+      "link": "https://twitter.com/trq212/status/2052809885763747935",
+      "published_at": "2026-05-09T04:53:52+00:00",
+      "summary": "HN story type: story HN points: 81 HN comments: 41 HN post text: Examples: https://thariqs.github.io/html-effectiveness/ Related: https://simonwillison.net/2026/May/8/unreasonable-effectiven... HN top comments: tmhrtly: My concern here is that by gravitating to HTML you lose the ability for a human (you!) to easily co-author the document with the LLM. If it’s just an explainer for your consumption, that’s not a concern - but if it’s a spec sheet for something more complex, I deeply value being able to dive in and edit what is produced for me. With a HTML doc it is much harder to do that than with MD. Now of course you could just... steve_adams_86: I was running into issues with markdown and mermaid the other day and decided to tell Claude to use HTML, then realized that opened up the option of JS as well. Given we were trying to model state management in an existing typescript application, we could use ts-morph to correctly map out the call sites within different components, even use math to determine various factors of refactoring or relocating and so on.... forgotusername6: I've been struggling with markdown recently as I really want the claims it makes in documents to be programmatically verifiable e.g. citations, I want a simple script to check that each of the files and lines of code it references actually exist. Perhaps HTML can be used for this. It certainly has a better chance than markdown.",
+      "fetched_at": "2026-05-09T07:25:22.892909+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48071940",
+      "hn_story_type": "story",
+      "hn_points": "81",
+      "hn_comments_count": "41",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48071940",
+      "hn_item_text": "Examples: https://thariqs.github.io/html-effectiveness/ Related: https://simonwillison.net/2026/May/8/unreasonable-effectiven...",
+      "hn_comment_preview": "tmhrtly: My concern here is that by gravitating to HTML you lose the ability for a human (you!) to easily co-author the document with the LLM. If it’s just an explainer for your consumption, that’s not a concern - but if it’s a spec sheet for something more complex, I deeply value being able to dive in and edit what is produced for me. With a HTML doc it is much harder to do that than with MD. Now of course you could just...\nsteve_adams_86: I was running into issues with markdown and mermaid the other day and decided to tell Claude to use HTML, then realized that opened up the option of JS as well. Given we were trying to model state management in an existing typescript application, we could use ts-morph to correctly map out the call sites within different components, even use math to determine various factors of refactoring or relocating and so on....\nforgotusername6: I've been struggling with markdown recently as I really want the claims it makes in documents to be programmatically verifiable e.g. citations, I want a simple script to check that each of the files and lines of code it references actually exist. Perhaps HTML can be used for this. It certainly has a better chance...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "47",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=23,practical_tech=14,tools_agents=23,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 23,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "typescript",
+            "refactor"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 23,
+          "strong_hits": [
+            "claude code",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "llm",
+        "claude + code"
+      ],
+      "detail_slug": "db769e9a3e1ac0f21248f0421112e32205f544ac",
+      "is_english_source": true,
+      "translated_title": "Claude Code에서 드러난 HTML의 의외의 힘",
+      "short_summary": "Claude Code로 문서와 설명 자료를 만들 때 마크다운보다 HTML이 더 잘 맞는 사례를 보여준다. 구조 표현 폭이 넓고 스크립트까지 붙일 수 있어, 검증 가능한 산출물로 키우기 쉽다는 반응이 나왔다.",
+      "why_it_matters": "LLM에게 맡기는 문서를 단순 텍스트가 아니라 작업용 인터페이스로 다루자는 문제의식이 담긴 이야기다. 설명서, 분석 리포트, 내부 사양 문서를 만드는 방식에도 바로 연결된다.\n- 표, 링크, 접기 UI, 시각 요소를 더 세밀하게 다룰 수 있어 복잡한 내용을 한 문서 안에 정리하기 쉽다.\n- 자바스크립트를 함께 쓰면 코드 경로 확인이나 상태 흐름 표현처럼 '읽는 문서'를 '검사하는 문서'로 확장할 여지가 생긴다.\n- 실무에서는 마크다운을 기본값으로 두기보다, 최종 소비 방식과 검증 필요에 맞춰 HTML 출력도 적극 검토하는 흐름이 늘 수 있다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 흥미롭다는 쪽이었지만, 사람 손으로 다시 고치기 불편하다는 반론도 꾸준히 나왔다. 마크다운의 한계를 겪은 개발자일수록 장단점을 구체적으로 짚는 모습이었다.\n- 긍정 쪽은 HTML이 표현력이 넓고 JS까지 붙일 수 있어 상태 관리 설명, 코드 참조 검증, 인용 확인 같은 작업에 더 낫다고 봤다.\n- 신중론은 사람이 LLM과 함께 문서를 계속 다듬어야 할 때 HTML이 마크다운보다 수정 부담이 크고 협업성이 떨어질 수 있다고 지적했다.\n- 반복된 쟁점은 최종 결과물을 보여주는 문서와, 사람이 공동 편집하는 작업 문서를 같은 형식으로 볼 수 있느냐는 점이었다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-09T07:28:31.823321+00:00"
+    },
+    {
+      "id": "a60b4669c13422f08def3c804e98240f91976156",
+      "title_hash": "320a9008f9c11fd35cf3dc707a69853e442aa0f8",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Can LLMs model real-world systems in TLA+?",
+      "link": "https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/",
+      "published_at": "2026-05-08T16:21:56+00:00",
+      "summary": "HN story type: story HN points: 73 HN comments: 14 HN top comments: simplegeek: I feel LLMs are indeed getting better at writing models. But, in my experience, they struggle to come up with correct safety and liveness properties unless you closely work with them. And of these two, they struggle the most with coming up with correct liveness properties. Also for some problems I observe that models produced by LLMs often cause state space explosion. For simpler models they can fix this when you... iFire: I don't use tla+ to model real-world systems anymore, Claude is able to model systems in Lean 4 and the binary executable can handle real input or I can directly generate c / rust on proofs with numeric types that have ring structure (integers, rationals, bits). https://github.com/lambdaclass/truth_research_zk tmaly: I remember NVIDA sponsored a TLA+ challenge last year https://foundation.tlapl.us/challenge/index.html",
+      "fetched_at": "2026-05-09T07:25:22.892909+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48065254",
+      "hn_story_type": "story",
+      "hn_points": "73",
+      "hn_comments_count": "14",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48065254",
+      "hn_item_text": "",
+      "hn_comment_preview": "simplegeek: I feel LLMs are indeed getting better at writing models. But, in my experience, they struggle to come up with correct safety and liveness properties unless you closely work with them. And of these two, they struggle the most with coming up with correct liveness properties. Also for some problems I observe that models produced by LLMs often cause state space explosion. For simpler models they can fix this when you...\niFire: I don't use tla+ to model real-world systems anymore, Claude is able to model systems in Lean 4 and the binary executable can handle real input or I can directly generate c / rust on proofs with numeric types that have ring structure (integers, rationals, bits). https://github.com/lambdaclass/truth_research_zk\ntmaly: I remember NVIDA sponsored a TLA+ challenge last year https://foundation.tlapl.us/challenge/index.html",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "index",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "index",
+        "rust"
+      ],
+      "detail_slug": "a60b4669c13422f08def3c804e98240f91976156",
+      "is_english_source": true,
+      "translated_title": "LLM으로 현실 시스템을 TLA+로 모델링할 수 있을까",
+      "short_summary": "이 HN 스토리는 LLM이 TLA+ 모델 초안 작성에는 점점 쓸 만해졌지만, 안전성과 특히 활성 속성 정의는 아직 사람의 밀착 검토가 필요하다는 논점을 다룬다. 댓글에서는 상태 공간 폭증 문제와 Lean 4 같은 대안도 함께 거론됐다.",
+      "why_it_matters": "형식 검증을 실무에 붙이려는 팀이라면 LLM을 어디까지 믿어도 되는지 가늠해볼 만한 이야기다. 모델 초안 생성은 빨라지고 있지만, 실제 장애를 막는 속성 설계와 검증 전략은 여전히 사람 손이 많이 간다는 점이 드러난다.\n- TLA+ 모델의 뼈대를 LLM이 빨리 만들 수 있어도, 안전성·활성 속성이 틀리면 검증 결과 자체가 흔들린다. 초안 자동화와 속성 리뷰를 분리해서 보는 운영이 필요하다.\n- 댓글에서 반복해 나온 상태 공간 폭증 문제는 실무적인 경고에 가깝다. 모델을 만들었다고 끝이 아니라, 검증이 돌아갈 크기로 단순화하는 감각이 여전히 핵심이다.\n- 일부 사용자는 Lean 4처럼 증명과 실행 산출물까지 이어지는 대안을 언급했다. 앞으로는 '명세 작성 보조'를 넘어 어떤 형식 도구 체인이 더 잘 맞는지 비교하는 흐름이 늘 수 있다.",
+      "hn_reaction_summary": "댓글 분위기는 낙관보다 신중 쪽에 가깝다. LLM이 모델 작성 보조에는 도움이 된다는 의견은 있었지만, 실무에 바로 맡기기엔 아직 불안하다는 반응이 더 또렷하게 보인다.\n- 가장 많이 반복된 지적은 안전성보다 활성 속성을 더 자주 잘못 잡는다는 점이다. 형식 검증 경험이 있는 사람일수록 이 구간에서 사람 검토를 필수로 봤다.\n- 모델은 그럴듯하게 써도 상태 공간이 너무 커져 검증이 어려워진다는 불만이 나왔다. 실무자가 읽을 포인트는 '작성 능력'보다 '검증 가능한 모델링 능력'에 있다.\n- 한편으로는 TLA+ 대신 Lean 4 같은 다른 형식 기법으로 넘어갔다는 사례도 보였다. 도구 선택 자체를 다시 보자는 흐름이 약하게 감지된다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-09T07:28:31.823321+00:00"
+    },
+    {
+      "id": "173e8a6a228431210df5bdad3068c9a41407a5e6",
+      "title_hash": "825ab9929b46d23371a9460f1f3ae1a1c84e5107",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Mythical Man Month",
+      "link": "https://martinfowler.com/bliki/MythicalManMonth.html",
+      "published_at": "2026-05-07T07:20:55+00:00",
+      "summary": "HN story type: story HN points: 117 HN comments: 87 HN top comments: nemo1618: It's interesting to revisit Brooks' \"surgical team\" in light of AI. For example, I frequently have Claude act as a \"toolsmith\", creating bespoke project-specific tools on the fly, which are then documented in Skills that Claude can use going forward. What has changed is that a) One person (or rather, one person-AI hybrid) plays all the roles within the surgical team, and b) Internal frictions such as cost, develop... alasdair_: Notably, his essay “no silver bullet” states that there has never been a new technology or way of thinking or working that has led to a 10X increase in the speed of software development. That was true for almost seventy years until roughly last year. AI is the silver bullet - my output is genuinely 10X what it was before claude code existed. nvader: Fortunate to be reminded of this right now, especially the pull-quote about conceptual integrity. This is the reason why AI-assisted programming has not turned out to be the silver bullet we have been hoping for, at least yet. Muddled prompting by humans gets you the Homer Simpson car you wished for, that will eventually collapse under its own weight. I've been thinking a lot about Programming as Theory Building [...",
+      "fetched_at": "2026-05-09T07:25:22.892909+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48046436",
+      "hn_story_type": "story",
+      "hn_points": "117",
+      "hn_comments_count": "87",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48046436",
+      "hn_item_text": "",
+      "hn_comment_preview": "nemo1618: It's interesting to revisit Brooks' \"surgical team\" in light of AI. For example, I frequently have Claude act as a \"toolsmith\", creating bespoke project-specific tools on the fly, which are then documented in Skills that Claude can use going forward. What has changed is that a) One person (or rather, one person-AI hybrid) plays all the roles within the surgical team, and b) Internal frictions such as cost, develop...\nalasdair_: Notably, his essay “no silver bullet” states that there has never been a new technology or way of thinking or working that has led to a 10X increase in the speed of software development. That was true for almost seventy years until roughly last year. AI is the silver bullet - my output is genuinely 10X what it was before claude code existed.\nnvader: Fortunate to be reminded of this right now, especially the pull-quote about conceptual integrity. This is the reason why AI-assisted programming has not turned out to be the silver bullet we have been hoping for, at least yet. Muddled prompting by humans gets you the Homer Simpson car you wished for, that will eventually collapse under its own weight. I've been thinking a lot about Programming as The...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=4,tools_agents=22,strategy_insight=6,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 22,
+        "strategy_insight": 6,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "claude code",
+            "ai-assisted"
+          ],
+          "support_hits": [
+            "prompt",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "essay",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ai-assisted",
+        "prompt",
+        "tool",
+        "claude + code"
+      ],
+      "detail_slug": "173e8a6a228431210df5bdad3068c9a41407a5e6",
+      "is_english_source": true,
+      "translated_title": "맨먼스의 신화",
+      "short_summary": "고전인 『맨먼스의 신화』가 AI 코딩 시대에 다시 소환됐다. HN에서는 AI가 생산성을 크게 끌어올렸다는 주장과, 그래도 설계 일관성과 협업 비용의 법칙은 여전하다는 반론이 맞섰다.",
+      "why_it_matters": "AI가 개발 속도를 밀어 올리는 지금, 브룩스의 오래된 경고는 오히려 더 실무적으로 들린다. 코드 생성이 빨라질수록 병목은 타이핑이 아니라 구조 결정, 맥락 공유, 통합 책임으로 옮겨간다는 점을 다시 짚게 한다.\n- 인원을 늘리거나 에이전트를 붙이기 전에 요구사항과 설계 경계를 먼저 고정해야 한다.\n- AI를 단순한 코드 작성기가 아니라 프로젝트 전용 도구를 만드는 조력자로 쓰는 방식이 현실적인 활용법으로 떠오른다.\n- 병렬 생산량이 늘수록 리뷰와 정합성 유지 비용도 커진다. 팀 운영 방식과 승인 기준을 함께 손봐야 한다.",
+      "hn_reaction_summary": "댓글 분위기는 'AI가 정말 은탄환이 됐는가'를 두고 갈렸다. 생산성이 몇 배는 뛰었다는 경험담이 많았지만, 프롬프트와 설계가 흐리면 결과도 금방 뒤엉킨다는 지적이 반복됐다.\n- 일부는 브룩스의 '수술팀' 개념이 이제는 사람 한 명과 AI의 조합으로 축소 구현된다고 봤다.\n- 다른 쪽은 AI가 코드량은 늘려도 개념적 일관성까지 책임져 주지는 못한다고 반박했다.\n- 실무자가 볼 논점은 속도 자랑보다도 누가 설계를 쥐고, 누가 마지막 품질 책임을 지느냐다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-09T07:28:31.823321+00:00"
+    },
+    {
       "id": "2aed7a381df2fa95f1da34e1a4f7ecd1cd231146",
       "title_hash": "e7ed0f8d51cbf06c6c463a93edc51fd5088440d2",
       "source": "GeekNews",
@@ -149885,9 +150319,12 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트",
-        "summary": "이번 주 도구·에이전트 묶음은 새 기능보다 신뢰와 운용을 더 앞세웠습니다. 숨고, 버티고, 읽고, 가려내는 흐름이 이어졌습니다.\n- 스텔스 브라우저와 메쉬 문자망은 자동화가 실전 환경으로 옮겨가며 접속성과 복원력이 같이 화두가 됐음을 보여줍니다.\n- Claude 해석 실험, 경고 문화 논쟁, AI 허위 리뷰 소동은 성능 경쟁만으로는 부족하다는 점을 드러냅니다. 지금 볼 이유도 여기에 있습니다.",
+        "headline": "이번 주 도구·에이전트: 성능보다 현장",
+        "summary": "이번 주 흐름은 AI 도구의 성능 자랑보다, 실제 현장에서 어디까지 통하는지 따져보는 쪽에 모였다.\n\n- GPT-5.5 추론 비교는 테스트 통과보다 사람 패치와의 등가성, 코드 리뷰 통과율에서 차이가 더 크게 벌어진다는 점을 보여줬다.\n- 『맨먼스의 신화』 재소환은 AI 시대에도 설계 일관성과 협업 비용 문제는 남는다는 반론을 붙였다.\n- HTML 산출물, 스텔스 브라우저, Meshtastic는 에이전트가 문서와 웹, 네트워크 현실까지 다뤄야 할 시점임을 드러낸다.",
         "item_ids": [
+          "30777f14151ce6ce07040b0db787ec9d15f5c34c",
+          "db769e9a3e1ac0f21248f0421112e32205f544ac",
+          "173e8a6a228431210df5bdad3068c9a41407a5e6",
           "66c942a40a741bb93173829c3d05acd08d83acd0",
           "e31058265ad593382fd2a649c5353082d1281a13",
           "196e621a6032cd98c5e7b23c27bafe3063af119d",
@@ -149993,23 +150430,20 @@
           "2e40539dfbc325ef8bb71947f91211be71203eae",
           "f15916508b22f38160ca29adaca3fb3b00b58e54",
           "973ed2aefc72b4c19a92afb9b2fa9eabdfaaa1f8",
-          "b9374495d9da6f9e59e1293978aabc10e9595806",
-          "748d03d0b1979b794db8c85fb0c1d9746ae7a45d",
-          "f5bb88905e91829ebd4844edc00d03f80a35be8e",
-          "41a7b0a492cb12bbab31ae4a38358895ad0af5c9",
-          "ed304d0fee53362406004594365b3f10f73db0b9"
+          "b9374495d9da6f9e59e1293978aabc10e9595806"
         ],
-        "total_items": 110,
-        "generated_at": "2026-05-09T03:14:44.783409+00:00",
+        "total_items": 109,
+        "generated_at": "2026-05-09T07:25:22.892909+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술",
-        "summary": "이번 주는 시스템을 믿는 방식이 흔들리는 장면이 겹쳤다. 플랫폼 검증, 해시 설계, 취약점 대응, 운영 감시까지 실무의 기본 가정이 다시 시험대에 올랐다.\n\n- 구글 Fraud Defense와 io_uring 사례는 작은 검증 누락이 곧 권한과 통제 문제로 번지는 흐름을 보여준다.\n- 생일 문제 글은 해시와 식별자 설계를 감으로 다루면 충돌이 생각보다 빨리 온다는 점을 다시 일깨운다.\n- AI로 공개와 공격 속도가 빨라진 만큼 SMART 모니터링 같은 운영 기본기도 지금 함께 점검할 이유가 뚜렷하다.",
+        "headline": "이번 주 실무 기술: 속도 뒤의 검증",
+        "summary": "AI가 설계와 보안 대응까지 파고들며 초안과 공격 속도는 빨라졌다. 대신 사람이 직접 확인해야 할 경계도 더 또렷해졌다. 이번 주 글은 그 긴장을 한데 묶어 보여준다.\n- LLM의 TLA+ 초안과 AI가 흔드는 취약점 대응은 자동화가 빨라질수록 검증과 패치 판단이 더 빡빡해진다는 흐름을 드러냈다.\n- 해시 충돌 수학, 디스크 손상 복구, Google의 기기 증명 논란은 기초 원리와 운영 감시, 신뢰 인프라를 다시 점검해야 할 때임을 보여준다.",
         "item_ids": [
+          "a60b4669c13422f08def3c804e98240f91976156",
           "2aed7a381df2fa95f1da34e1a4f7ecd1cd231146",
           "6aa34160bbe4c27f2ffce2076db312823c6f8a29",
           "561a793a0262ef71767de3de06a45b5d8a6e14c6",
@@ -150094,12 +150528,10 @@
           "5965865469e96591b2df5d70dc114c7eba0300c8",
           "0174b1a4730ea8d79a382370d72c1a00c7deb95d",
           "c78582d31f7cff7ff191928ca3edc873f147334d",
-          "c2c52516910e8b2cd07f18678e0d82b7280eecbe",
-          "562aa8365ca3ee5563d69d0e510a7d4019669386",
-          "0e019cdd1ed49e892c8f5de496ba70e57116a089"
+          "c2c52516910e8b2cd07f18678e0d82b7280eecbe"
         ],
-        "total_items": 87,
-        "generated_at": "2026-05-09T03:14:44.783409+00:00",
+        "total_items": 86,
+        "generated_at": "2026-05-09T07:25:22.892909+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -150107,8 +150539,9 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 주 전략·인사이트",
-        "summary": "이번 주 글은 AI가 생산의 바닥을 끌어올린 뒤 조직과 시장이 어디를 먼저 손보는지 보여준다. 양은 넘치고 신호는 더 귀해졌다.\n\n- 채용과 감원, AI 슬롭, 보안 자동화는 모두 더 많이 만드는 경쟁보다 더 잘 걸러내는 경쟁이 앞서는 국면을 말한다.\n- 지금 볼 이유도 여기에 있다. 기술 자체보다 기준 설정, 잡음 제거, 정보 우위의 통제가 성과와 신뢰를 가르는 흐름이 또렷해졌다.\n- 사람의 몫은 사라지지 않는다. 반복 패턴을 읽고 규칙을 다시 세우는 판단이 남는다는 점이 유가 거래와 창작 논의에서 함께 드러난다.",
+        "summary": "AI를 앞세운 효율화가 커질수록 신뢰를 지키는 장치도 더 비싸지고 까다로워진다. 이번 주 묶음은 그 긴장을 여러 장면에서 함께 보여준다.\n- Cloudflare와 Mozilla 사례는 AI가 채용, 감원, 보안 운영까지 조직의 중심으로 들어가는 흐름을 드러낸다.\n- SSH 첫 접속 보호와 AI 슬롭 비판은 속도보다 검증, 양보다 신호를 다시 따져야 할 시점임을 말한다.\n- 유가 선물 사례까지 겹치며 기술과 시장 모두에서 정보 비대칭이 누구 편에 서는지 지금 살필 이유가 커졌다.",
         "item_ids": [
+          "d4d9212da6a5b511965ad099d8fda09393368a08",
           "7541a6c67bb462cc4b53380e569ed58b4a3db45b",
           "5c25a75abcc101fc7684463d0384e625a3b45fb0",
           "09e2fd0da5462ed6cccdaa0099175cfb0a725699",
@@ -150127,8 +150560,8 @@
           "02cf25cee02b7dd8ffe19f3f9de7cda887109676",
           "fb01e4ee4d40576e20a8640c9f9eb3309f990926"
         ],
-        "total_items": 17,
-        "generated_at": "2026-05-09T03:14:44.783409+00:00",
+        "total_items": 18,
+        "generated_at": "2026-05-09T07:25:22.892909+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -150138,8 +150571,11 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "에이전트는 더 멀리 움직이고, 더 깊게 숨고, 속내까지 읽히기 시작했다. 브라우저 우회부터 오프라인 메쉬 통신, 모델 내부 해석까지 실행 범위가 넓어졌다. 반면 경고 처리와 AI 합성 정보 논란은 신뢰의 비용을 드러낸다.\n- 브라우저 우회, LoRa 메쉬, 내부 활성 해석이 한 묶음으로 떠오르며 에이전트 스택이 빠르게 두꺼워진다.\n- stderr 관례 논쟁과 가짜 리뷰 사례는 도구보다 검증 절차가 먼저라는 현실을 보여준다.\n- 지금 보면 자동화 경쟁의 초점이 성능 과시에서 신뢰 확보와 운영 감각으로 옮겨가는 장면이 또렷하다.",
+        "summary": "이번 달엔 모델 점수보다 에이전트가 실제로 일하는 방식이 더 선명했다. 추론 강도, 산출물 형식, 실행 환경을 함께 따지며 현장의 기준이 조금씩 바뀌는 흐름이다.\n- GPT-5.5 사례는 테스트 통과보다 리뷰 통과와 패치 품질에서 추론 설정 차이가 더 크게 난다는 점을 보여줬다.\n- HTML 문서화와 스텔스 브라우저는 에이전트의 작업 표면을 넓혔다. 결과물을 검증하고 웹을 다루는 방식이 한층 구체해졌다.\n- 맨먼스 논쟁과 메쉬 통신은 자동화가 커져도 협업 비용과 운영 조건은 여전히 따져야 한다는 사실을 다시 꺼냈다.",
         "item_ids": [
+          "30777f14151ce6ce07040b0db787ec9d15f5c34c",
+          "db769e9a3e1ac0f21248f0421112e32205f544ac",
+          "173e8a6a228431210df5bdad3068c9a41407a5e6",
           "66c942a40a741bb93173829c3d05acd08d83acd0",
           "e31058265ad593382fd2a649c5353082d1281a13",
           "196e621a6032cd98c5e7b23c27bafe3063af119d",
@@ -150630,12 +151066,10 @@
           "d06a4a74f610cff16b10434fcb3862a42cdf8bec",
           "6bdf707978a9cfd05fb6150c61b752f678f245f9",
           "47f20bc155c7475bfc583f81f5d2703dfcdd6411",
-          "ced3b35fddec116c42060eaf95eb522eb00fbf40",
-          "a17f2a37b3485022e34d9d26aea65b45f1fac8be",
-          "0475714cac8522fe69cf5180327a751a951e9e76"
+          "ced3b35fddec116c42060eaf95eb522eb00fbf40"
         ],
-        "total_items": 493,
-        "generated_at": "2026-05-09T03:14:44.783409+00:00",
+        "total_items": 494,
+        "generated_at": "2026-05-09T07:25:22.892909+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -150643,8 +151077,9 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달 실무 기술은 신뢰를 전제로 둔 설계가 운영 리스크로 되돌아오는 장면을 선명하게 보여준다. 보안, 저장장치, 식별자 설계까지 기본 가정이 흔들리는 순간을 짚을 때다.\n\n- 기기 증명 재포장 논란과 io_uring 권한 상승은 편의 뒤에 숨은 신뢰 경계를 다시 묻게 한다.\n- 해시 충돌 수학과 디스크 손상 사례는 확률과 장애 감지를 감에 맡길수록 비용이 커진다는 점을 드러낸다.\n- AI로 공개와 패치의 간격이 더 짧아져 대응 속도와 관측 체계를 지금 바로 다듬어야 할 이유가 분명해졌다.",
+        "summary": "이번 달 실무 기술 글은 AI가 설계와 보안을 앞당기지만 마지막 책임은 여전히 검증과 운영에 남는다는 흐름을 함께 보여준다.\n\n- LLM이 TLA+ 초안은 돕지만 안전성 검토와 활성 속성 정의, 상태 폭증 판단은 사람이 끝까지 봐야 한다.\n- 해시 충돌과 취약점 대응처럼 감에 기대던 영역일수록 수학적 감각과 대응 속도가 다시 앞에 섰다.\n- 디스크 손상과 기기 증명 논란까지 겹치며 지금은 자동화의 약속보다 모니터링, 복구, 신뢰 경계 점검을 먼저 볼 때다.",
         "item_ids": [
+          "a60b4669c13422f08def3c804e98240f91976156",
           "2aed7a381df2fa95f1da34e1a4f7ecd1cd231146",
           "6aa34160bbe4c27f2ffce2076db312823c6f8a29",
           "561a793a0262ef71767de3de06a45b5d8a6e14c6",
@@ -150981,21 +151416,20 @@
           "15f1a2fed0b77137f222dbf90cd25b27bd17adf7",
           "c1d7961f2defe726296422a78dd833e7c7f766fa",
           "fa61814a00da61ec0b554a07ec8d17af9f62ad8f",
-          "76bf94c00a1cddc47bf73edc2f961ca5c4dc7f85",
-          "224afc09401f500c417c494b401d3b0cbd436125",
-          "200767fb8ecbcb9fc8a9124df97531cf8bb7cfcb"
+          "76bf94c00a1cddc47bf73edc2f961ca5c4dc7f85"
         ],
-        "total_items": 339,
-        "generated_at": "2026-05-09T03:14:44.783409+00:00",
+        "total_items": 338,
+        "generated_at": "2026-05-09T07:25:22.892909+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "monthly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 달 전략·인사이트",
-        "summary": "AI가 일자리, 품질, 시장 규칙을 함께 흔들며 이제는 더 빨리 만드는 일보다 무엇을 걸러 믿게 할지가 앞에 섰다. 이번 달 글들은 그 전환이 이미 시작됐다는 징후를 모아 보여준다.\n- 채용 확대와 감원, 보안 자동화처럼 AI는 조직 운영 방식부터 다시 짠다.\n- AI 슬롭과 수상한 거래는 신호를 흐린다. 그래서 검증 체계와 신뢰 설계가 더 먼저 붙는다.\n- 지금 볼 이유는 불안의 정체와 대응법이 추상론을 지나 실행 문제로 넘어왔기 때문이다.",
+        "headline": "이번 달 전략·인사이트: 신뢰와 잡음",
+        "summary": "이번 달 글은 AI와 자동화가 판을 넓힐수록, 신뢰를 세우고 잡음을 걷어내는 일이 더 앞에 나온다는 흐름을 보여준다. 조직 운영부터 보안, 커뮤니티, 시장까지 같은 질문이 번진다.\n- 인프라는 첫 연결의 신뢰를 설계하고, Mozilla는 잡음을 줄여 실제 취약점을 건진다.\n- Cloudflare의 인턴 확대와 감원, AI slop 논란은 자동화의 이익과 피로가 어디로 쏠리는지 드러낸다.\n- 지금 보면 AI 전환의 수혜와 비용이 누구에게 남는지 한눈에 읽힌다.",
         "item_ids": [
+          "d4d9212da6a5b511965ad099d8fda09393368a08",
           "7541a6c67bb462cc4b53380e569ed58b4a3db45b",
           "5c25a75abcc101fc7684463d0384e625a3b45fb0",
           "09e2fd0da5462ed6cccdaa0099175cfb0a725699",
@@ -151052,11 +151486,10 @@
           "74b09296e6668f7a1c87bc39040f273da2fbe2b6",
           "712d0496ca1219b178d6d36d6a01eb0fc29bc76e",
           "816624132b5ae9e21e2a27219889773fba7d3d58",
-          "4d5f2a5bbd7bc635b31c72cdeb159d7f6d846005",
-          "52edcb53867e13ca09872859a72b5f817ca91053"
+          "4d5f2a5bbd7bc635b31c72cdeb159d7f6d846005"
         ],
         "total_items": 58,
-        "generated_at": "2026-05-09T03:14:44.783409+00:00",
+        "generated_at": "2026-05-09T07:25:22.892909+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -151067,21 +151500,21 @@
       "kind": "quiet_riser",
       "label": "AI Spotlight",
       "title": "조용히 커지는 주제",
-      "cta_label": "관련 흐름 보기",
+      "cta_label": "흐름 읽기",
       "related_item_ids": [
-        "66c942a40a741bb93173829c3d05acd08d83acd0",
-        "e31058265ad593382fd2a649c5353082d1281a13",
-        "196e621a6032cd98c5e7b23c27bafe3063af119d"
+        "30777f14151ce6ce07040b0db787ec9d15f5c34c",
+        "db769e9a3e1ac0f21248f0421112e32205f544ac",
+        "a60b4669c13422f08def3c804e98240f91976156"
       ],
-      "score": 0.9,
-      "generated_at": "2026-05-09T03:14:44.783409+00:00",
+      "score": 0.92,
+      "generated_at": "2026-05-09T07:25:22.892909+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "숨고 버티는 에이전트 인프라",
-      "summary_line": "새 기능보다 버티는 능력이 먼저 보였다. 막혀도 접속하고 끊겨도 이어지고 속내까지 읽으려는 흐름이 겹쳤다.",
+      "topic_name": "검증 가능한 산출물",
+      "summary_line": "AI 결과를 바로 쓰기보다, 사람이 읽고 다시 확인할 수 있는 형태로 바꾸려는 흐름이 이어졌다.",
       "signals": [
-        "봇 탐지를 피하는 스텔스 브라우저가 실전 자동화 도구로 올라왔다.",
-        "인터넷 없이도 이어지는 LoRa 메쉬 문자망이 현장형 보조 통신으로 반복해 언급됐다.",
-        "Claude 내부 상태를 자연어로 풀어내는 실험이 모델 해석을 운영 도구 쪽으로 끌어왔다."
+        "같은 테스트를 통과해도 사람 패치와 얼마나 비슷한지, 리뷰를 넘기는지는 추론 강도에 더 민감했다.",
+        "문서를 마크다운 대신 HTML로 만들고 상호작용까지 붙여 작업용 인터페이스로 쓰려는 시도가 눈에 띄었다.",
+        "TLA+ 초안은 빨라졌지만 속성 정의와 검증 전략은 끝까지 사람이 붙어야 한다는 쪽으로 의견이 모였다."
       ]
     },
     {
@@ -151091,36 +151524,37 @@
       "title": "HN 댓글이 가장 갈린 기사",
       "cta_label": "논쟁 읽기",
       "related_item_ids": [
-        "d31ab666718b7fae70cd6a38004ad60bf87d03f7"
+        "173e8a6a228431210df5bdad3068c9a41407a5e6",
+        "30777f14151ce6ce07040b0db787ec9d15f5c34c"
       ],
-      "score": 0.96,
-      "generated_at": "2026-05-09T03:14:44.783409+00:00",
+      "score": 0.89,
+      "generated_at": "2026-05-09T07:25:22.892909+00:00",
       "ai_model": "codex-cli",
-      "headline": "stderr 한 줄을 어디까지 실패로 볼 것인가",
-      "issue_title": "경고는 어디까지 실패처럼 다뤄야 하나",
-      "opposition_summary": "반대 쪽은 stderr는 원래 메시지 채널이고 성공 여부는 exit code로 판정해야 한다고 본다. 운영 관행이 거칠다고 해서 채널 의미를 바꾸면 더 큰 혼선이 난다는 입장이다.",
-      "support_summary": "찬성 쪽은 현실의 파이프라인이 stderr를 사실상 실패 신호로 소비한다고 본다. 그래서 경고 출력 설계도 도구의 운영 계약에 포함돼야 한다는 주장이다."
+      "headline": "AI 시대에 다시 소환된 『맨먼스의 신화』",
+      "issue_title": "병목은 사라졌나, 더 안 보이게 옮겨졌나",
+      "opposition_summary": "회의론 쪽은 코드 생성이 빨라도 설계 일관성, 맥락 공유, 통합 책임은 여전히 사람 몫이라고 봤다.",
+      "support_summary": "찬성 쪽은 사람 한 명과 AI 조합만으로도 작은 수술팀처럼 일하며 체감 생산성이 이미 달라졌다고 말했다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "이상 신호 보기",
+      "cta_label": "신호 보기",
       "related_item_ids": [
+        "d4d9212da6a5b511965ad099d8fda09393368a08",
         "2aed7a381df2fa95f1da34e1a4f7ecd1cd231146",
-        "d0f2d2fed55558921a91a1d01e4009aba53e74d8",
-        "ac126d5aa723ebc7b9a59e674ab680124d06b2e8"
+        "561a793a0262ef71767de3de06a45b5d8a6e14c6"
       ],
-      "score": 0.92,
-      "generated_at": "2026-05-09T03:14:44.783409+00:00",
+      "score": 0.84,
+      "generated_at": "2026-05-09T07:25:22.892909+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "작은 검증 누락이 큰 통제 문제로 번진다",
-      "summary_line": "기본 체크가 비는 순간 권한, 장애, 신뢰 논쟁이 한꺼번에 커지는 장면이 이번 주 내내 반복됐다.",
+      "signal_title": "신뢰를 맨 앞단에 심는 설계",
+      "summary_line": "접속 첫 순간과 공개 직후처럼, 초반 몇 분을 지키는 기술 얘기가 유난히 많이 겹쳤다.",
       "signals": [
-        "기기 증명 성격의 Fraud Defense는 사기 방지보다 통제 인프라 논쟁을 먼저 불렀다.",
-        "io_uring의 단순한 경계 검사 누락은 로컬 루트 권한 상승으로 이어졌다.",
-        "디스크 손상 사례에서는 SMART 감시 공백이 장애 자체만큼 크게 지적됐다."
+        "새 VM의 첫 SSH 연결에서 임시 키로 MITM를 막는 방식이 다시 주목받았다.",
+        "Fraud Defense 논쟁도 결국 기기 증명으로 입구를 통제하려는 시도로 읽혔다.",
+        "패치 공개 후 역추적 속도가 빨라지면서 취약점 대응은 초동 배포와 차단 속도가 더 중요해졌다."
       ]
     }
   ],
@@ -151129,21 +151563,21 @@
     "kind": "quiet_riser",
     "label": "AI Spotlight",
     "title": "조용히 커지는 주제",
-    "cta_label": "관련 흐름 보기",
+    "cta_label": "흐름 읽기",
     "related_item_ids": [
-      "66c942a40a741bb93173829c3d05acd08d83acd0",
-      "e31058265ad593382fd2a649c5353082d1281a13",
-      "196e621a6032cd98c5e7b23c27bafe3063af119d"
+      "30777f14151ce6ce07040b0db787ec9d15f5c34c",
+      "db769e9a3e1ac0f21248f0421112e32205f544ac",
+      "a60b4669c13422f08def3c804e98240f91976156"
     ],
-    "score": 0.9,
-    "generated_at": "2026-05-09T03:14:44.783409+00:00",
+    "score": 0.92,
+    "generated_at": "2026-05-09T07:25:22.892909+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "숨고 버티는 에이전트 인프라",
-    "summary_line": "새 기능보다 버티는 능력이 먼저 보였다. 막혀도 접속하고 끊겨도 이어지고 속내까지 읽으려는 흐름이 겹쳤다.",
+    "topic_name": "검증 가능한 산출물",
+    "summary_line": "AI 결과를 바로 쓰기보다, 사람이 읽고 다시 확인할 수 있는 형태로 바꾸려는 흐름이 이어졌다.",
     "signals": [
-      "봇 탐지를 피하는 스텔스 브라우저가 실전 자동화 도구로 올라왔다.",
-      "인터넷 없이도 이어지는 LoRa 메쉬 문자망이 현장형 보조 통신으로 반복해 언급됐다.",
-      "Claude 내부 상태를 자연어로 풀어내는 실험이 모델 해석을 운영 도구 쪽으로 끌어왔다."
+      "같은 테스트를 통과해도 사람 패치와 얼마나 비슷한지, 리뷰를 넘기는지는 추론 강도에 더 민감했다.",
+      "문서를 마크다운 대신 HTML로 만들고 상호작용까지 붙여 작업용 인터페이스로 쓰려는 시도가 눈에 띄었다.",
+      "TLA+ 초안은 빨라졌지만 속성 정의와 검증 전략은 끝까지 사람이 붙어야 한다는 쪽으로 의견이 모였다."
     ]
   }
 }
