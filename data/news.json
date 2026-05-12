@@ -1,6 +1,371 @@
 {
   "items": [
     {
+      "id": "0c78dfd96b0e42344606f95c5d6731aea35d6090",
+      "title_hash": "5010c6cf4836102ada35b2e2e0ef96fd9b6ffc2e",
+      "source": "GeekNews",
+      "title": "Obsidian 플러그인을 악용한 소셜 엔지니어링 캠페인으로 신종 트로이목마 유포",
+      "link": "https://news.hada.io/topic?id=29391",
+      "published_at": "2026-05-11T14:35:09+00:00",
+      "summary": "금융·암호화폐 업계 종사자를 겨냥해 Obsidian 노트 앱의 공유 볼트 기능 을 무기화하고, 기존에 문서화되지 않은 신종 원격 접근 트로이목마(RAT)를 배포하는 고도로 표적화된 캠페인 발견 공격자는 LinkedIn과 Telegram에서 벤처 캐피털리스트로 위장 해 신뢰를 쌓...",
+      "fetched_at": "2026-05-12T02:22:56.530360+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "0c78dfd96b0e42344606f95c5d6731aea35d6090",
+      "is_english_source": false,
+      "sent_at": "2026-05-12T02:25:50.316838+00:00"
+    },
+    {
+      "id": "2132ac5e3b97f1f95f1da5afc7a408f7e0ffa496",
+      "title_hash": "fd6519857f68904e76db788a4c5ac0a4dbd2f108",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Postmortem: TanStack npm supply-chain compromise",
+      "link": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
+      "published_at": "2026-05-11T21:08:25+00:00",
+      "summary": "HN story type: story HN points: 550 HN comments: 200 HN post text: https://github.com/TanStack/router/issues/7383 HN top comments: cube00: Please be careful when revoking tokens. It looks like the payload installs a dead-man's switch at ~/.local/bin/gh-token-monitor.sh as a systemd user service (Linux) / LaunchAgent com.user.gh-token-monitor(macOS). It polls api.github.com/user with the stolen token every 60s, and if the token is revoked (HTTP 40x), it runs rm -rf ~/. https://github.com/TanStack/router/issues/7383#issuecomment-... ezekg: > Unpublish was unavailable for nearly all affected packages because of npm's \"no unpublish if dependents exist\" policy. We have to rely on npm security to pull tarballs server-side, which adds hours of delay during which malicious tarballs remain installable Per https://docs.npmjs.com/policies/unpublish : > If your package does not meet the unpublish policy criteria, we recommend deprecating the package. This all... varunsharma07: @mistralai/mistralai npm package was also compromised as part of this worm https://github.com/mistralai/client-ts/issues/217 It has been pulled from the npm registry now.",
+      "fetched_at": "2026-05-12T02:22:56.530360+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48100706",
+      "hn_story_type": "story",
+      "hn_points": "550",
+      "hn_comments_count": "200",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48100706",
+      "hn_item_text": "https://github.com/TanStack/router/issues/7383",
+      "hn_comment_preview": "cube00: Please be careful when revoking tokens. It looks like the payload installs a dead-man's switch at ~/.local/bin/gh-token-monitor.sh as a systemd user service (Linux) / LaunchAgent com.user.gh-token-monitor(macOS). It polls api.github.com/user with the stolen token every 60s, and if the token is revoked (HTTP 40x), it runs rm -rf ~/. https://github.com/TanStack/router/issues/7383#issuecomment-...\nezekg: > Unpublish was unavailable for nearly all affected packages because of npm's \"no unpublish if dependents exist\" policy. We have to rely on npm security to pull tarballs server-side, which adds hours of delay during which malicious tarballs remain installable Per https://docs.npmjs.com/policies/unpublish : > If your package does not meet the unpublish policy criteria, we recommend deprecating the package. This all...\nvarunsharma07: @mistralai/mistralai npm package was also compromised as part of this worm https://github.com/mistralai/client-ts/issues/217 It has been pulled from the npm registry now.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=22,strategy_insight=2,industry_business=11",
+      "slot_scores": {
+        "practical_tech": 22,
+        "tools_agents": 22,
+        "strategy_insight": 2,
+        "industry_business": 11
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 22,
+          "strong_hits": [
+            "security",
+            "api"
+          ],
+          "support_hits": [
+            "postmortem"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "agent",
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 11,
+          "strong_hits": [
+            "launch"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "supply + chain"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "api",
+        "postmortem",
+        "local + run"
+      ],
+      "detail_slug": "2132ac5e3b97f1f95f1da5afc7a408f7e0ffa496",
+      "is_english_source": true,
+      "translated_title": "TanStack npm 공급망 침해 사고 사후 분석",
+      "short_summary": "TanStack가 npm 공급망 침해 사고의 경위와 대응 과정을 공개했다. HN에서는 토큰 탈취 뒤 로컬에 남는 악성 코드와 npm의 느린 삭제 정책이 피해를 키웠다는 지적이 이어졌다.",
+      "why_it_matters": "이번 사례는 패키지 배포 계정이 뚫리면 라이브러리 오염에서 끝나지 않고 개발자 PC와 CI 비밀값까지 연쇄적으로 흔들릴 수 있음을 보여준다. 프런트엔드와 자바스크립트 생태계에 기대는 팀이라면 의존성 배포와 사고 대응 절차를 다시 점검할 시점이다.\n\n- 토큰을 폐기하는 것만으로 끝나지 않을 수 있다. 댓글 맥락상 악성 코드가 로컬에 감시 스크립트를 남기고, 토큰이 무효화되면 파괴 동작을 시도했다는 분석이 나왔다.\n- npm의 unpublish 제한 때문에 악성 패키지가 확인된 뒤에도 한동안 설치 가능할 수 있다. 내부 미러 차단, 캐시 삭제, 잠금 파일 재생성 같은 대응 절차를 미리 문서화해 둘 필요가 있다.\n- 실무적으로는 배포 계정 분리, 최소 권한 토큰, 2FA, 의존성 버전 고정, 새 릴리스 승인 절차를 더 엄격하게 가져가야 한다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 충격과 경계 쪽에 가까웠다. 단순한 패키지 변조가 아니라 탈취된 토큰과 로컬 지속성까지 결합된 공격이라는 점이 특히 크게 받아들여졌다.\n\n- 가장 많이 반복된 논점은 토큰 revoke만으로는 대응이 끝나지 않는다는 점이었다. 로컬에 남는 감시 서비스나 스크립트 존재 여부를 함께 확인해야 한다는 반응이 많았다.\n- npm의 삭제 정책도 강한 비판을 받았다. 악성 tarball을 즉시 내리지 못해 몇 시간씩 노출 구간이 생긴다는 점이 실무 리스크로 지목됐다.\n- TanStack만의 문제가 아니라 다른 npm 패키지도 함께 언급되면서, 특정 프로젝트보다 생태계 전반의 공급망 방어 체계를 봐야 한다는 시각이 두드러졌다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-12T02:25:50.316838+00:00"
+    },
+    {
+      "id": "fb65ac5a4e7ed4abe8ab2160a34d5b4842f5d7e9",
+      "title_hash": "42703906f4359c236c21078a720e56e2cfc7a7a3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "I let AI build a tool to help me figure out what was waking me up at night",
+      "link": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
+      "published_at": "2026-05-11T21:04:10+00:00",
+      "summary": "HN story type: story HN points: 76 HN comments: 85 HN top comments: babblingfish: Hey, OP, consider sleeping with ear plugs. They're scientifically proven to reduce night time awakenings due to audio disturbances. [1] [1] https://academic.oup.com/sleep/advance-article/doi/10.1093/s... gverrilla: Have you tried sleeping without a watch? jmspring: Interesting. I may need to add some sensors. I spend time in two places. San Juan Islands WA and Santa Cruz, CA. On island, nights are too quiet. During the day, a float plane a mile away sounds like it is next door. In Santa Cruz, the house is on a major street. Busses, ambulances all sorts of yahoos. I sleep better quiet. But I sleep even better when settled - mind not going, etc. I generally don’t sleep well at...",
+      "fetched_at": "2026-05-12T02:22:56.530360+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48100662",
+      "hn_story_type": "story",
+      "hn_points": "76",
+      "hn_comments_count": "85",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48100662",
+      "hn_item_text": "",
+      "hn_comment_preview": "babblingfish: Hey, OP, consider sleeping with ear plugs. They're scientifically proven to reduce night time awakenings due to audio disturbances. [1] [1] https://academic.oup.com/sleep/advance-article/doi/10.1093/s...\ngverrilla: Have you tried sleeping without a watch?\njmspring: Interesting. I may need to add some sensors. I spend time in two places. San Juan Islands WA and Santa Cruz, CA. On island, nights are too quiet. During the day, a float plane a mile away sounds like it is next door. In Santa Cruz, the house is on a major street. Busses, ambulances all sorts of yahoos. I sleep better quiet. But I sleep even better when settled - mind not going, etc. I generally don’t sleep well at...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "tool"
+      ],
+      "detail_slug": "fb65ac5a4e7ed4abe8ab2160a34d5b4842f5d7e9",
+      "is_english_source": true,
+      "translated_title": "AI로 만든 수면 추적 도구로 야간 각성 원인 찾기",
+      "short_summary": "작성자가 AI의 도움으로 밤중에 자신을 깨우는 요인을 추적하는 도구를 만든 경험담이다. HN에서는 소음, 웨어러블, 생활 습관처럼 기술 밖 변수까지 함께 봐야 한다는 반응이 이어졌다.",
+      "why_it_matters": "개인용 센서와 AI를 묶어 자기 몸 상태를 직접 계측하는 흐름이 어디까지 왔는지 보여주는 사례다. 수면처럼 원인이 복합적인 문제에서는 데이터를 더 모으는 일과 바로 바꿔볼 수 있는 개입을 어떻게 나눌지가 실무 포인트로 읽힌다.\n- AI를 코드 작성 보조가 아니라 생활 문제를 푸는 맞춤형 도구 제작에 썼다는 점이 눈에 띈다.\n- 웨어러블, 소음, 수면 환경처럼 흩어진 신호를 한데 묶어보려는 접근은 헬스케어나 퍼스널 데이터 제품 기획에도 닿아 있다.\n- 다만 댓글 흐름처럼 귀마개나 시계 미착용 같은 단순한 조치가 먼저일 수 있어, 데이터 수집과 행동 실험의 우선순위 설계가 실제 활용성을 가른다.",
+      "hn_reaction_summary": "댓글 분위기는 흥미롭지만 약간은 회의적인 쪽에 가깝다. 도구 자체를 신기하게 보면서도, 정말 잠을 깨우는 원인이 무엇인지 판단하려면 센서보다 생활 변수와 측정 방식부터 점검해야 한다는 의견이 반복됐다.\n- 가장 많이 눈에 띄는 반응은 소음 문제였다. 귀마개가 야간 각성을 줄인다는 연구를 함께 들며 저비용 대안을 먼저 해보라는 조언이 나왔다.\n- 웨어러블이 오히려 수면에 영향을 줄 수 있다는 지적도 있었다. 시계를 빼고 자보라는 반응은 측정 도구가 변수로 끼어드는 문제를 짚는다.\n- 환경 차이와 심리 상태를 함께 봐야 한다는 경험담도 이어졌다. 조용한 곳과 시끄러운 곳의 차이만으로 설명되지 않고, 결국 마음이 가라앉았는지가 더 크다는 의견이 반복됐다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-12T02:25:50.316838+00:00"
+    },
+    {
+      "id": "9b19d0859c5efd7ad46f0356c4488b98d130afb3",
+      "title_hash": "0fde4d5902d93d50141771df080c75214aa24f89",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Google says criminal hackers used AI to find a major software flaw",
+      "link": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "published_at": "2026-05-11T13:20:14+00:00",
+      "summary": "HN story type: story HN points: 120 HN comments: 98 HN post text: Unlocked: https://www.nytimes.com/2026/05/11/us/politics/google-hacker... , https://archive.ph/I4Ui5 https://apnews.com/article/google-ai-cybersecurity-exploitat... https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker... HN top comments: crazygringo: > “We have high confidence that the actor likely leveraged an A.I. model to support the discovery and weaponization of this vulnerability,” the report said. I wonder what gives them that \"high confidence\", as opposed to this being just a traditional zero-day? I'm not being snarky or critical, I'm genuinely wondering what about an attack could possibly indicate it was discovered with LLM assistance? Like, unless th... s3p: >But new A.I. models like Anthropic’s Mythos, which was announced last month, appear to be so good at finding such holes that Anthropic shared it only with a limited number of firms and government agencies in the United States and Britain. Immediate distrust of the article. GPT 5.5 is out with nearly the same capability. The author might be parroting company marketing, unable to discern that a lot of this is much... sowbug: Security will be a wedge to restrict the sophistication of open-weight and local LLMs, just as it's been used to demonize and restrict cypherpunk technologies.",
+      "fetched_at": "2026-05-12T02:22:56.530360+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48094641",
+      "hn_story_type": "story",
+      "hn_points": "120",
+      "hn_comments_count": "98",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48094641",
+      "hn_item_text": "Unlocked: https://www.nytimes.com/2026/05/11/us/politics/google-hacker... , https://archive.ph/I4Ui5 https://apnews.com/article/google-ai-cybersecurity-exploitat... https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker...",
+      "hn_comment_preview": "crazygringo: > “We have high confidence that the actor likely leveraged an A.I. model to support the discovery and weaponization of this vulnerability,” the report said. I wonder what gives them that \"high confidence\", as opposed to this being just a traditional zero-day? I'm not being snarky or critical, I'm genuinely wondering what about an attack could possibly indicate it was discovered with LLM assistance? Like, unless th...\ns3p: >But new A.I. models like Anthropic’s Mythos, which was announced last month, appear to be so good at finding such holes that Anthropic shared it only with a limited number of firms and government agencies in the United States and Britain. Immediate distrust of the article. GPT 5.5 is out with nearly the same capability. The author might be parroting company marketing, unable to discern that a lot of this is much...\nsowbug: Security will be a wedge to restrict the sophistication of open-weight and local LLMs, just as it's been used to demonize and restrict cypherpunk technologies.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=10,strategy_insight=7,industry_business=10",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 10,
+        "strategy_insight": 7,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "security",
+            "rust",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "company",
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "market + share"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "rust",
+        "rag"
+      ],
+      "detail_slug": "9b19d0859c5efd7ad46f0356c4488b98d130afb3",
+      "is_english_source": true,
+      "translated_title": "구글 “범죄 해커가 AI로 중대 취약점 찾았다”",
+      "short_summary": "구글은 범죄 해커가 AI 모델을 활용해 대형 소프트웨어 취약점을 찾고 악용 준비까지 도운 정황이 있다고 밝혔다. HN에서는 이 판단의 근거와 업계의 과장 가능성을 함께 따져 보는 반응이 이어졌다.",
+      "why_it_matters": "AI가 취약점 탐색의 보조 도구를 넘어 실제 공격 준비 단계에 붙기 시작했다는 신호로 읽힌다. 보안팀과 개발팀 모두 대응 속도와 검증 체계를 다시 점검해야 한다.\n- 취약점 발굴과 익스플로잇 초안 작성이 빨라지면 패치가 늦은 서비스부터 먼저 노출될 가능성이 커진다.\n- 코드 리뷰, 퍼징, 의존성 점검 같은 방어 절차를 더 자주 돌리고, 공개 직후 패치 적용 시간을 줄이는 운영 역량이 중요해진다.\n- 동시에 AI가 개입했다는 주장만으로 위협을 해석하면 판단이 흔들릴 수 있어, 탐지 근거와 재현 가능한 증거를 분리해 보는 태도가 필요하다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 신중론에 가깝다. 해커가 AI를 썼을 수는 있다는 반응도 있었지만, 구글이 말한 ‘높은 확신’이 무엇에 근거하느냐는 질문이 반복해서 나왔다.\n- 가장 많이 나온 논점은 공격 흔적만 보고 LLM 사용 여부를 어떻게 구분하느냐는 점이다. 기존 제로데이 공격과 무엇이 다른지 설명이 더 필요하다는 반응이 많았다.\n- 일부는 특정 모델의 능력을 앞세운 보도가 기업 마케팅을 그대로 받아쓴 것 아니냐며 회의적으로 봤다.\n- 또 다른 축에서는 이런 서사가 앞으로 오픈웨이트나 로컬 모델 규제를 밀어붙이는 명분으로 쓰일 수 있다는 우려가 제기됐다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-12T02:25:50.316838+00:00"
+    },
+    {
       "id": "fca430b97c7519498aa88037fbbb8777dbaedb5a",
       "title_hash": "0e1c321c4cf3f85ac4b0e44103ce0f82698116cd",
       "source": "GeekNews",
@@ -157232,46 +157597,6 @@
       "published_at": "2026-03-05T01:50:51+00:00",
       "fetched_at": "2026-03-05T06:39:33.558076+00:00",
       "sent_at": "2026-03-05T06:39:50.620327+00:00"
-    },
-    {
-      "id": "c584ecb99edcb91cdd463ecf4876c08c6544e1af",
-      "title_hash": "c6205ed04da4d7ab064d36d114b6830e599bac4b",
-      "source": "GeekNews",
-      "title": "gws - 구글 워크스페이스 CLI",
-      "link": "https://news.hada.io/topic?id=27209",
-      "published_at": "2026-03-05T02:20:33+00:00",
-      "fetched_at": "2026-03-05T06:39:33.558076+00:00",
-      "sent_at": "2026-03-05T06:39:49.878000+00:00"
-    },
-    {
-      "id": "d3914bb147cc54cd0c180aeb9349f8625b5fab80",
-      "title_hash": "ae45af46cd3a3551ec9b12175300dcf051d6d00e",
-      "source": "GeekNews",
-      "title": "새로운 Flash를 만들기",
-      "link": "https://news.hada.io/topic?id=27210",
-      "published_at": "2026-03-05T02:21:51+00:00",
-      "fetched_at": "2026-03-05T06:39:33.558076+00:00",
-      "sent_at": "2026-03-05T06:39:49.132232+00:00"
-    },
-    {
-      "id": "fcfec6e3ddd7c4303534f94d8d8701d02726ba72",
-      "title_hash": "2c2cf1a117a3875c920f4397aee0c7c51102808e",
-      "source": "GeekNews",
-      "title": "TikTok, 종단간 암호화 도입하지 않기로…“사용자 안전을 해친다” 주장",
-      "link": "https://news.hada.io/topic?id=27211",
-      "published_at": "2026-03-05T02:33:40+00:00",
-      "fetched_at": "2026-03-05T06:39:33.558076+00:00",
-      "sent_at": "2026-03-05T06:39:48.285451+00:00"
-    },
-    {
-      "id": "b523b84286f1bd45928b04ad910e46c0fda1b838",
-      "title_hash": "0c57158efc2c29b0d57267a60af9ae5fe7a67671",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Jensen Huang says Nvidia is pulling back from OpenAI and Anthropic",
-      "link": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/",
-      "published_at": "2026-03-05T02:33:58+00:00",
-      "fetched_at": "2026-03-05T06:39:33.558076+00:00",
-      "sent_at": "2026-03-05T06:39:47.355688+00:00"
     }
   ],
   "topic_digests": {
@@ -157280,9 +157605,10 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트",
-        "summary": "이번 주 도구·에이전트 묶음은 AI가 더 많이 만들고 더 유창하게 말할수록, 끝내 남는 기준은 운영비와 신뢰라는 흐름을 보여준다. 설치 없는 IDE와 작업형 모델 설계까지 실전 감각도 또렷했다.\n- 코딩 에이전트는 새 코드 생산보다 유지보수 부담이 더 큰 변수라는 경고가 나왔다.\n- AI끼리 대화하는 서비스와 그럴듯한 프레임워크 담론은 사람의 개입 지점과 검증 책임을 다시 묻게 한다.\n- 브라우저 IDE, 구조화 출력 중심 아키텍처처럼 지금 바로 써보며 가늠할 도구도 함께 떠올랐다.",
+        "headline": "이번 주 도구·에이전트: 빨라진 제작, 남는 책임",
+        "summary": "이번 주 도구·에이전트 묶음은 누구나 바로 만들고 돌릴 수 있는 시대가 왔지만, 마지막 책임은 여전히 사람에게 남는다는 흐름으로 읽힌다.\n\n- 수면 추적 도구와 설치 없는 웹 IDE는 개인 제작의 문턱이 얼마나 낮아졌는지 보여줬다.\n- 동시에 AI 코딩과 에이전트 상호작용은 유지보수 부담, 사람 개입의 피로, 그럴듯한 확신의 위험을 드러냈다.\n- 지금 보면 새 도구의 화제성보다 오래 굴릴 구조와 검증 습관을 먼저 따져야 할 때다.",
         "item_ids": [
+          "fb65ac5a4e7ed4abe8ab2160a34d5b4842f5d7e9",
           "fca430b97c7519498aa88037fbbb8777dbaedb5a",
           "c88588eb1b84b4e4a07b820d4e6cd1257aed614a",
           "e26107e9059b65a56944613e1719ba457eb0b54c",
@@ -157389,12 +157715,10 @@
           "fe7c5503165d1249ee8f5e71a63637070f049f93",
           "66326a0f0eee49d156dcd3ca6b1d50065285a732",
           "2bde5849f85d8cfa9673b3315d790984c31f478e",
-          "6ab0df6b85dc136264694ed0051d710498f16acb",
-          "f3fb3912bad2ed43d3e16004effb53a247ce3739",
-          "0fb2381eb82311dc4332cb85e09c1c0ef4cebb92"
+          "6ab0df6b85dc136264694ed0051d710498f16acb"
         ],
-        "total_items": 109,
-        "generated_at": "2026-05-11T22:12:24.641503+00:00",
+        "total_items": 108,
+        "generated_at": "2026-05-12T02:22:56.530360+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -157402,8 +157726,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "이번 주 실무 기술은 병목을 정면으로 깎아 성능과 배포 비용을 바꾸는 사례가 한꺼번에 모였다. 새 기능보다 어디를 줄였는지가 더 또렷하다.\n\n- Swift 행렬 곱과 SQLite를 FST로 바꾼 사례는 계산량과 파일 크기를 끝까지 줄여야 체감이 달라진다는 점을 보여준다.\n- CUDA-oxide와 Bun의 Rust 전환은 성능 언어 선택이 다시 실무 의사결정의 전면으로 올라왔다는 신호다.\n- 지금 볼 이유도 여기에 있다. 속도 경쟁이 구현 디테일과 도구 체인, 제품 형태까지 함께 흔들고 있다.",
+        "summary": "이번 주 실무 기술은 현장의 기준이 바뀌는 장면을 한꺼번에 보여준다. 보안 대응, 성능 최적화, 배포 크기, 도구 선택이 따로가 아니라 한 흐름으로 이어졌다.\n\n- TanStack 사고와 구글 사례는 공급망 보안과 AI 악용이 이제 운영 절차의 문제임을 드러냈다.\n- Swift 행렬 곱셈, SQLite→FST, Rust CUDA는 더 작게 배포하고 더 빠르게 돌리는 쪽으로 무게가 옮겨간다는 신호다.\n- 지금 보면 팀의 대응 규칙과 기술 선택 기준을 함께 점검할 수 있다.",
         "item_ids": [
+          "2132ac5e3b97f1f95f1da5afc7a408f7e0ffa496",
+          "9b19d0859c5efd7ad46f0356c4488b98d130afb3",
           "e4debb8ed1b5b4991f3cd24f710efead4160c9ef",
           "d84bdadb940166be0860bc0e585aa409dd7075a3",
           "0e09315093f40a6dadc1d6120a2cb730e053dec4",
@@ -157484,23 +157810,20 @@
           "3f7d22dfe820e8df1a7b5177295ff0b74326484b",
           "70bc68239517aa15cc3a6290f48738c85155201c",
           "20aa4a0b8d7c786a1d46424075ea249eb0381fc0",
-          "0c2307fbcb947b1cacac78b262c55d05a6fde21d",
-          "c7a47d17a2ce91f95020b7a3d4410fbe5676d8e7",
-          "dea31e38efc4ddcd034223e6b60001d29f99e314",
-          "3f319249e977ff9fa201d79c86d8f8808add4a73",
-          "d3f733bd3e036f79e67e223f361b73ecfba5616d"
+          "0c2307fbcb947b1cacac78b262c55d05a6fde21d"
         ],
-        "total_items": 85,
-        "generated_at": "2026-05-11T22:12:24.641503+00:00",
+        "total_items": 83,
+        "generated_at": "2026-05-12T02:22:56.530360+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 주 전략·인사이트 | 속도 뒤의 운영",
-        "summary": "이번 주 전략 기사는 속도 경쟁만으로는 부족하다는 흐름을 보여준다. AI 인프라는 더 빨라지고, 운영과 보안, 학습 문화까지 함께 다뤄야 한다는 문제의식이 선명하다.\n\n- Bifrost는 멀티모델 시대의 병목이 성능 자체보다 통합 운영 설계로 옮겨가고 있음을 보여준다.\n- bozo bit 논의와 암호화 약화 움직임, 첫 SSH 보호는 신뢰 경계를 어디까지 지킬지 다시 묻게 한다.\n- Veil처럼 작은 도구도 실수 노출을 줄이며 현장의 운영 감각을 드러낸다.",
+        "headline": "이번 주 전략·인사이트",
+        "summary": "협업 도구와 AI 인프라, 암호화 메신저까지 신뢰의 경계가 흔들린 한 주였다. 새 기능 소개보다 무엇을 믿고 어디를 통제할지, 조직의 운영 감각을 다시 묻게 한다.\n\n- Obsidian 악용 RAT, Veil, 프랑스의 암호화 약화 논의는 일상 도구가 곧 보안 전선이 됐다는 흐름을 보여준다.\n- Bifrost와 bozo bit 글은 기술 경쟁 못지않게 운영 기준과 사고 뒤 학습 방식이 성패를 가른다는 점을 짚는다.",
         "item_ids": [
+          "0c78dfd96b0e42344606f95c5d6731aea35d6090",
           "aa596ff34f0dae8c9ee21fd0a1d9a75448c1a684",
           "31ca44c37d8de057d3a8c17a961f06fee24b9203",
           "3ce80947214b62a7ea5658ee49df305bdc251452",
@@ -157519,8 +157842,8 @@
           "d0cbc7ea5b5586713e0b8068dd76c1e713eb826d",
           "e989eb454aa3b5389acce089e1d02b1d5467e5b6"
         ],
-        "total_items": 17,
-        "generated_at": "2026-05-11T22:12:24.641503+00:00",
+        "total_items": 18,
+        "generated_at": "2026-05-12T02:22:56.530360+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -157529,9 +157852,10 @@
         "period": "monthly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 달 도구·에이전트: 운영의 기준",
-        "summary": "이번 달 도구·에이전트 흐름은 더 빨리 만드는 경쟁보다, 오래 굴릴 수 있는 구조를 어떻게 갖추느냐로 모입니다. 지금 보면 현장의 기준이 어디로 옮겨가는지 선명합니다.\n\n- AI 코딩은 작성 속도보다 유지보수 비용이 더 큰 변수로 떠올랐습니다.\n- 사람 개입, 설치 없는 BYOK IDE, 구조화된 모델처럼 통제 가능한 작업 환경이 전면에 섰습니다.\n- 번지르르한 에이전트 담론을 걷어내고 예측 가능성과 검증을 다시 묻는 달이었습니다.",
+        "headline": "이번 달 도구·에이전트: 데모보다 운영",
+        "summary": "이번 달엔 AI 도구와 에이전트를 보는 기준이 현실 쪽으로 옮겨갔다. 멋진 시연보다 오래 써도 감당 가능한지가 먼저였다.\n\n- 수면 추적기와 브라우저 IDE처럼 개인이 곧바로 써보는 도구가 늘었다. 설치 장벽은 낮아지고 쓰임은 생활 가까이 붙는다.\n- 코딩 에이전트는 작성 속도보다 유지보수 비용이 더 큰 변수로 떠올랐다. 사람 개입이 필요한 지점도 함께 드러났다.\n- AI가 설익은 생각을 유창한 확신으로 포장하는 장면도 반복됐다. 지금은 산출량보다 검증 감각을 먼저 볼 때다.",
         "item_ids": [
+          "fb65ac5a4e7ed4abe8ab2160a34d5b4842f5d7e9",
           "fca430b97c7519498aa88037fbbb8777dbaedb5a",
           "c88588eb1b84b4e4a07b820d4e6cd1257aed614a",
           "e26107e9059b65a56944613e1719ba457eb0b54c",
@@ -158013,23 +158337,21 @@
           "00d35662b51f923d542949fb1cb6ec210e5706db",
           "a95fc7f947c82aa4770d5e35c23e113665f292e0",
           "83eb46d059ec6ae4279c6ec3c858d35ce1a249cd",
-          "10ff8124fd6899c65164a770fc647e4db7a12cd4",
-          "78377e885f0bf0fd38e28abdf5fc76ca463a6a35",
-          "1c212fd882bd2fef408a6cebde24ca9e3bdd552b",
-          "f610d0f3303ee0e80df607959a91979838848d23",
-          "6545f0ec0fa2ed3c5595663ef54c4985d88c0a29"
+          "10ff8124fd6899c65164a770fc647e4db7a12cd4"
         ],
-        "total_items": 486,
-        "generated_at": "2026-05-11T22:12:24.641503+00:00",
+        "total_items": 483,
+        "generated_at": "2026-05-12T02:22:56.530360+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "monthly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 달 실무 기술: 성능 재편",
-        "summary": "이번 달엔 성능을 더 끌어올리고 배포 크기를 줄이면서도 개발 경험을 놓치지 않으려는 시도가 두드러졌다. 언어와 구현체는 달라도, 실무 병목을 정면으로 깎아내는 흐름이 한데 모였다.\n\n- Swift 행렬 곱셈, Rust CUDA, Bun 재작성은 계산 경로와 도구 체인을 다시 짜서 속도와 안정성을 함께 끌어올리려는 움직임이다.\n- SQLite를 FST로 바꾼 사례는 기능보다 배포 크기와 응답성이 실제 제품 경험을 얼마나 크게 바꾸는지 보여준다.\n- 논문 숏폼 앱 논쟁까지 보면, 지금은 빠른 소비보다 맥락을 남기는 탐색 방식인지도 같이 살펴볼 때다.",
+        "headline": "이번 달 실무 기술",
+        "summary": "이번 달 실무 기술은 보안 대응과 성능 압축이 한 흐름으로 묶인다. 공격은 빨라지고 배포는 더 가벼워져야 한다는 압박이 선명하다.\n\n- TanStack 사고와 구글 사례는 공급망 관리와 토큰 통제, AI를 동원한 취약점 탐색이 이미 같은 운영 문제로 붙었다는 점을 보여준다.\n- FST 압축과 스위프트 최적화는 병목 하나를 끝까지 파면 용량과 처리량을 함께 바꿀 수 있다는 실무 감각을 전한다.\n- Rust CUDA 공식 도구까지 나오며 안전한 언어로 GPU 성능을 끌어오는 길도 한층 현실에 가까워졌다.",
         "item_ids": [
+          "2132ac5e3b97f1f95f1da5afc7a408f7e0ffa496",
+          "9b19d0859c5efd7ad46f0356c4488b98d130afb3",
           "e4debb8ed1b5b4991f3cd24f710efead4160c9ef",
           "d84bdadb940166be0860bc0e585aa409dd7075a3",
           "0e09315093f40a6dadc1d6120a2cb730e053dec4",
@@ -158372,21 +158694,20 @@
           "0f4fae383b031a50d796ab46c9586cdeb77067b4",
           "9db32dfa3d8e0357aa2c8924dc9d01c4e6c147c3",
           "4e7f42820fbf4242132e197a9e5aeece5d3763e1",
-          "6df7265cf4a29879afaa6ee0ca1cade0962e92e3",
-          "6669d38b2bea63d5c348073d41eb35b8fdb1b8c7",
-          "b2718eb010e0535969702fda6580d355af5ebef7"
+          "6df7265cf4a29879afaa6ee0ca1cade0962e92e3"
         ],
         "total_items": 345,
-        "generated_at": "2026-05-11T22:12:24.641503+00:00",
+        "generated_at": "2026-05-12T02:22:56.530360+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "monthly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 달 전략·인사이트: 속도와 통제",
-        "summary": "AI와 클라우드 활용이 빨라질수록 경쟁 포인트는 성능만이 아니라 통제와 신뢰로 옮겨간다. 이번 묶음은 그 변화를 운영 현장과 정책 압박에서 함께 보여준다.\n- AI 게이트웨이, SSH 첫 접속 보호처럼 인프라의 병목과 신뢰 구간을 먼저 다듬는 흐름이 두드러졌다.\n- 사고 대응은 사람 탓보다 학습 설계가 갈랐고, 암호화 논쟁과 화면 가림 도구는 노출 통제의 현실적 수요를 드러냈다.",
+        "headline": "이번 달 전략·인사이트",
+        "summary": "이번 달 전략·인사이트는 기술 경쟁이 결국 신뢰, 경계, 운영 방식의 싸움으로 옮겨가고 있음을 보여준다. 지금 보면 보안 이슈와 AI 인프라, 프라이버시 논쟁이 한 흐름으로 이어진다.\n- 공격은 익숙한 협업 도구와 인간 관계를 파고든다. 사고 대응도 사람을 떼어내기보다 학습을 남기는 쪽이 오래 간다.\n- AI는 게이트웨이처럼 중앙 통제 계층으로 모이고, 암호화 논쟁과 화면 가리기 도구는 노출 관리가 제품 경쟁력으로 떠오른 현실을 비춘다.",
         "item_ids": [
+          "0c78dfd96b0e42344606f95c5d6731aea35d6090",
           "aa596ff34f0dae8c9ee21fd0a1d9a75448c1a684",
           "31ca44c37d8de057d3a8c17a961f06fee24b9203",
           "3ce80947214b62a7ea5658ee49df305bdc251452",
@@ -158442,8 +158763,8 @@
           "f79e400370e74d856a46029250fc106827ab0c60",
           "a8dade7a38c72be7fbb84c5a33f7914e344dfbd3"
         ],
-        "total_items": 54,
-        "generated_at": "2026-05-11T22:12:24.641503+00:00",
+        "total_items": 55,
+        "generated_at": "2026-05-12T02:22:56.530360+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -158458,18 +158779,17 @@
       "related_item_ids": [
         "fca430b97c7519498aa88037fbbb8777dbaedb5a",
         "c88588eb1b84b4e4a07b820d4e6cd1257aed614a",
-        "e26107e9059b65a56944613e1719ba457eb0b54c",
-        "95a5f50da740b0693d95b120d0f41425fea211ac"
+        "80a4fa905a6801256feb17e6aa5202050c0ae1d2"
       ],
-      "score": 0.88,
-      "generated_at": "2026-05-11T22:12:24.641503+00:00",
+      "score": 0.93,
+      "generated_at": "2026-05-12T02:22:56.530360+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "통제 가능한 AI 워크플로",
-      "summary_line": "모델 성능 경쟁보다 사람이 흐름을 붙잡고 운영할 수 있는 설계가 반복해서 나온다.",
+      "topic_name": "에이전트 운영의 사람 비용",
+      "summary_line": "빨리 만드는 시대가 왔지만, 끝까지 책임지는 사람의 시간이 더 또렷하게 보이기 시작했다.",
       "signals": [
-        "설치 없는 BYOK 웹 IDE가 브라우저 안에서 터미널과 파일 편집까지 묶었다.",
-        "OCR·번역·GUI 인식처럼 목적이 분명한 작업엔 특화형 모델 구조가 다시 주목받았다.",
-        "AI가 만든 결과를 사람이 마지막에 다듬는 서비스가 성립할지 묻는 논의가 이어졌다."
+        "코딩 에이전트는 초안 속도보다 유지보수 비용이 더 오래 남는다는 경고가 나왔다.",
+        "AI끼리 대화하는 환경도 결국 사람의 개입 피로를 피하지 못한다는 질문이 이어졌다.",
+        "설익은 생각을 번듯한 체계처럼 말하는 AI 특성 자체가 운영 부담으로 읽혔다."
       ]
     },
     {
@@ -158479,59 +158799,59 @@
       "title": "HN 댓글이 가장 갈린 기사",
       "cta_label": "쟁점 보기",
       "related_item_ids": [
-        "0e09315093f40a6dadc1d6120a2cb730e053dec4"
+        "9b19d0859c5efd7ad46f0356c4488b98d130afb3"
       ],
-      "score": 0.84,
-      "generated_at": "2026-05-11T22:12:24.641503+00:00",
+      "score": 0.87,
+      "generated_at": "2026-05-12T02:22:56.530360+00:00",
       "ai_model": "codex-cli",
-      "headline": "Rust CUDA 공식화에 기대가 모였지만 경계도 만만치 않았다.",
-      "issue_title": "엔비디아의 Rust CUDA 공식 지원을 어디까지 믿을 수 있나",
-      "opposition_summary": "회의론은 CUDA의 실행 의미와 저수준 최적화 현실을 보면 Rust라고 해도 unsafe와 복잡성이 크게 줄지 않는다고 본다.",
-      "support_summary": "찬성 쪽은 엔비디아의 공식 지원만으로도 진입 장벽이 낮아지고, 기존 실험적 Rust CUDA 흐름이 실무 단계로 올라설 수 있다고 본다."
+      "headline": "구글 “범죄 해커가 AI로 중대 취약점 찾았다”",
+      "issue_title": "AI 사용 정황을 어디까지 증거로 볼 수 있나",
+      "opposition_summary": "LLM을 썼다는 판단 근거가 약하고, 기업의 경고가 마케팅처럼 부풀려졌을 수 있다는 쪽.",
+      "support_summary": "공격 준비 속도가 실제로 빨라지고 있는 만큼, 증거가 완벽하지 않아도 운영 기준은 더 보수적으로 잡아야 한다는 쪽."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 보기",
+      "cta_label": "이상 신호 보기",
       "related_item_ids": [
-        "e4debb8ed1b5b4991f3cd24f710efead4160c9ef",
-        "d84bdadb940166be0860bc0e585aa409dd7075a3",
-        "76ae884bc48d0045bcefc72122e4d852254dc6cf"
+        "0c78dfd96b0e42344606f95c5d6731aea35d6090",
+        "2132ac5e3b97f1f95f1da5afc7a408f7e0ffa496",
+        "9b19d0859c5efd7ad46f0356c4488b98d130afb3"
       ],
-      "score": 0.92,
-      "generated_at": "2026-05-11T22:12:24.641503+00:00",
+      "score": 0.91,
+      "generated_at": "2026-05-12T02:22:56.530360+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "더 빠르게보다 더 작게 다시 짜는 흐름",
-      "summary_line": "기능 추가보다 병목 하나를 끝까지 깎는 재구성이 눈에 띄었다. 구현 언어와 저장 형식까지 갈아엎었다.",
+      "signal_title": "익숙한 도구가 공격 경로가 되는 순간",
+      "summary_line": "메모 앱과 패키지 배포처럼 익숙한 흐름이 그대로 침투 경로가 되는 장면이 잇따랐다.",
       "signals": [
-        "스위프트 행렬 곱을 Tflop/s급까지 밀어 올리며 가장 비싼 연산 경로를 먼저 손봤다.",
-        "3GB SQLite 사전을 10MB FST 바이너리로 바꿔 배포 크기와 조회 경로를 함께 줄였다.",
-        "Bun은 Zig에서 Rust로 무게중심을 옮기며 성능과 안정성을 다시 저울질했다."
+        "Obsidian 공유 볼트와 플러그인이 신뢰를 이용한 RAT 유포 통로로 쓰였다.",
+        "TanStack 사고는 배포 계정 침해가 로컬 지속성과 CI 비밀값 노출로 번질 수 있음을 드러냈다.",
+        "구글 사례는 AI가 취약점 탐색과 악용 준비 시간을 더 줄일 수 있다는 압박을 남겼다."
       ]
     }
   ],
   "featured_spotlight": {
-    "id": "anomaly-signal",
-    "kind": "anomaly_signal",
-    "label": "Labs",
-    "title": "이번 주 이상 신호",
-    "cta_label": "신호 보기",
+    "id": "quiet-riser",
+    "kind": "quiet_riser",
+    "label": "AI Spotlight",
+    "title": "조용히 커지는 주제",
+    "cta_label": "흐름 보기",
     "related_item_ids": [
-      "e4debb8ed1b5b4991f3cd24f710efead4160c9ef",
-      "d84bdadb940166be0860bc0e585aa409dd7075a3",
-      "76ae884bc48d0045bcefc72122e4d852254dc6cf"
+      "fca430b97c7519498aa88037fbbb8777dbaedb5a",
+      "c88588eb1b84b4e4a07b820d4e6cd1257aed614a",
+      "80a4fa905a6801256feb17e6aa5202050c0ae1d2"
     ],
-    "score": 0.92,
-    "generated_at": "2026-05-11T22:12:24.641503+00:00",
+    "score": 0.93,
+    "generated_at": "2026-05-12T02:22:56.530360+00:00",
     "ai_model": "codex-cli",
-    "signal_title": "더 빠르게보다 더 작게 다시 짜는 흐름",
-    "summary_line": "기능 추가보다 병목 하나를 끝까지 깎는 재구성이 눈에 띄었다. 구현 언어와 저장 형식까지 갈아엎었다.",
+    "topic_name": "에이전트 운영의 사람 비용",
+    "summary_line": "빨리 만드는 시대가 왔지만, 끝까지 책임지는 사람의 시간이 더 또렷하게 보이기 시작했다.",
     "signals": [
-      "스위프트 행렬 곱을 Tflop/s급까지 밀어 올리며 가장 비싼 연산 경로를 먼저 손봤다.",
-      "3GB SQLite 사전을 10MB FST 바이너리로 바꿔 배포 크기와 조회 경로를 함께 줄였다.",
-      "Bun은 Zig에서 Rust로 무게중심을 옮기며 성능과 안정성을 다시 저울질했다."
+      "코딩 에이전트는 초안 속도보다 유지보수 비용이 더 오래 남는다는 경고가 나왔다.",
+      "AI끼리 대화하는 환경도 결국 사람의 개입 피로를 피하지 못한다는 질문이 이어졌다.",
+      "설익은 생각을 번듯한 체계처럼 말하는 AI 특성 자체가 운영 부담으로 읽혔다."
     ]
   }
 }
