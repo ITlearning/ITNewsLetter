@@ -1,6 +1,532 @@
 {
   "items": [
     {
+      "id": "c14a4771b216fd5f9eb3516caffb80347f501c06",
+      "title_hash": "03046c3f8240728f6278e734116df9e60fb967c7",
+      "source": "GeekNews",
+      "title": "Claude Code, 여러 에이전트를 한 화면에서 관리하는 &#039;Agent View&#039; 공개",
+      "link": "https://news.hada.io/topic?id=29431",
+      "published_at": "2026-05-12T12:55:59+00:00",
+      "summary": "Claude Code, 여러 에이전트를 한 화면에서 관리하는 'Agent View' 공개 시연 영상 > https://youtu.be/-INveHwbRz4 TL;DR claude agents 한 줄로 백그라운드 Claude Code 세션들을 한 화면에서 발사·감시·응답 각 세션은 터미널 없이도 살아남음 → supervisor 프로세스가 따로 돌림",
+      "fetched_at": "2026-05-12T15:02:14.254806+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "67",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=22,practical_tech=0,tools_agents=22,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 22,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "claude code",
+            "에이전트"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "c14a4771b216fd5f9eb3516caffb80347f501c06",
+      "is_english_source": false,
+      "sent_at": "2026-05-12T15:05:51.323627+00:00"
+    },
+    {
+      "id": "836d8b14a62e4d4a1794db51360323c5d656c4e0",
+      "title_hash": "1ab23eca6032be5b6d20afbb6845f1ca47e36ee3",
+      "source": "GeekNews",
+      "title": "나는 다시 손으로 코드를 작성하려 한다",
+      "link": "https://news.hada.io/topic?id=29411",
+      "published_at": "2026-05-12T00:46:26+00:00",
+      "summary": "k10s 는 Claude와의 vibe-coding으로 빠르게 만든 GPU-aware Kubernetes TUI였지만, fleet view 추가 뒤 여러 화면 상태가 깨짐 model.go 는 1690줄 단일 Model 과 500줄 Update() 로 커졌고, UI·클라이언트·캐시·navigation·v...",
+      "fetched_at": "2026-05-12T15:02:14.254806+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "kubernetes"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "kubernetes"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "kubernetes",
+        "코드"
+      ],
+      "detail_slug": "836d8b14a62e4d4a1794db51360323c5d656c4e0",
+      "is_english_source": false,
+      "sent_at": "2026-05-12T15:05:51.323627+00:00"
+    },
+    {
+      "id": "6587d42cc4a2e130d7930bf5ceaf72d9124fec69",
+      "title_hash": "25ec810bc70033aa91aa5209d0d40555e84143f4",
+      "source": "GeekNews",
+      "title": "2026년의 Zig vs Rust",
+      "link": "https://news.hada.io/topic?id=29434",
+      "published_at": "2026-05-12T14:04:32+00:00",
+      "summary": "Zig의 unsafe 코드 인체공학 은 여전히 강점이지만, 코딩 에이전트가 코드를 많이 대신 쓰면서 체감 가치가 줄어듦 Zig의 할당자 인터페이스 는 arena·stack fallback 같은 특화 할당자를 쉽게 쓰게 해주지만, Rust도 nightly Allocator trait로 격차를...",
+      "fetched_at": "2026-05-12T15:02:14.254806+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=7,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "6587d42cc4a2e130d7930bf5ceaf72d9124fec69",
+      "is_english_source": false,
+      "sent_at": "2026-05-12T15:05:51.323627+00:00"
+    },
+    {
+      "id": "9bca0e8aebd49644e3f571b9a0465868d5872814",
+      "title_hash": "54b1943c8332334677c062c8121d5e839d749ef1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "If AI writes your code, why use Python?",
+      "link": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "published_at": "2026-05-11T20:45:55+00:00",
+      "summary": "HN story type: story HN points: 697 HN comments: 713 HN top comments: luodaint: But under this frame, it appears that the developer's task involves prompt engineering. This is not the case. Even if an agent generates 90% of the code, each and every diff is going to be in my review queue. Code readability of Python isn't an advantage during write; it's an advantage while reviewing. As an agent generates a piece of code, I will have to read the code, comprehend the code, and determine whether i... bryanrasmussen: One obvious reason is Python's extreme readability, it has often been described as being as close to executable pseudo-code as one can get. If you're using an LLM to write code I think the rules would be 1. Use a language you know really well so you can read it easily, and add to it as needed. 2. Use a language that has a large training set so the LLM can be most efficient. 3. Use a language that is easy to read.... pshirshov: No reason, unless the project is simple. The more you can offload onto your compiler/typer - the shorter is the feedback loop, the better agents work. Lack of strictly enforced static typing make agents fail much sooner with Python. In my opinion, Rust and Scala are the best targets for agentic flows - and, coincidentally, they have the most advanced typers among mainstream languages. But any statically typed lang...",
+      "fetched_at": "2026-05-12T15:02:14.254806+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48100433",
+      "hn_story_type": "story",
+      "hn_points": "697",
+      "hn_comments_count": "713",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48100433",
+      "hn_item_text": "",
+      "hn_comment_preview": "luodaint: But under this frame, it appears that the developer's task involves prompt engineering. This is not the case. Even if an agent generates 90% of the code, each and every diff is going to be in my review queue. Code readability of Python isn't an advantage during write; it's an advantage while reviewing. As an agent generates a piece of code, I will have to read the code, comprehend the code, and determine whether i...\nbryanrasmussen: One obvious reason is Python's extreme readability, it has often been described as being as close to executable pseudo-code as one can get. If you're using an LLM to write code I think the rules would be 1. Use a language you know really well so you can read it easily, and add to it as needed. 2. Use a language that has a large training set so the LLM can be most efficient. 3. Use a language that is easy to read....\npshirshov: No reason, unless the project is simple. The more you can offload onto your compiler/typer - the shorter is the feedback loop, the better agents work. Lack of strictly enforced static typing make agents fail much sooner with Python. In my opinion, Rust and Scala are the best targets for agentic flows - and, coincident...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=26,practical_tech=14,tools_agents=26,strategy_insight=13,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 26,
+        "strategy_insight": 13,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "compiler",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 26,
+          "strong_hits": [
+            "prompt engineering",
+            "agentic",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "prompt",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": [
+            "medium.com"
+          ]
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "compiler"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "prompt engineering",
+        "agentic",
+        "ide",
+        "llm",
+        "prompt",
+        "agent"
+      ],
+      "detail_slug": "9bca0e8aebd49644e3f571b9a0465868d5872814",
+      "is_english_source": true,
+      "translated_title": "AI가 코드를 쓴다면 왜 파이썬일까",
+      "short_summary": "AI가 코드 대부분을 만들어도 왜 여전히 파이썬을 써야 하는지 묻는 글이다. HN에서는 읽기 쉬운 문법과 넓은 학습 데이터가 강점이라는 의견, 정적 타입이 약해 에이전트 작업엔 불리하다는 반론이 맞섰다.",
+      "why_it_matters": "AI가 코드를 대신 쓰는 비중이 커질수록 언어 선택 기준도 달라진다. 이제는 작성 속도보다 사람이 나중에 얼마나 빨리 읽고 검토할 수 있는지, 또 타입 시스템과 컴파일러가 오류를 얼마나 빨리 잡아주는지가 실무 판단의 중심으로 올라온다.\n- 코드 생성이 빨라질수록 병목은 작성보다 리뷰와 검증으로 옮겨간다. 파이썬의 가독성은 이 단계에서 다시 평가받는다.\n- 반대로 정적 타입이 강한 언어는 에이전트가 낸 결과를 더 짧은 피드백 루프로 걸러낼 수 있어 대규모 코드베이스에서 매력이 커진다.\n- 팀 입장에서는 언어 자체의 생산성보다 기존 운영 환경, 리뷰 부담, 테스트 체계까지 함께 따져야 하는 흐름이 뚜렷해진다.",
+      "hn_reaction_summary": "댓글 분위기는 한쪽으로 기울기보다 실무 감각이 부딪히는 토론에 가까웠다. 파이썬의 장점을 인정하는 의견도 많았지만, 에이전트 시대에는 타입 시스템이 더 큰 힘을 발휘한다는 반론도 반복해서 나왔다.\n- 가장 많이 나온 옹호 논리는 사람이 결국 모든 diff를 읽고 승인해야 하므로, 파이썬의 읽기 쉬움은 쓰기보다 리뷰 단계에서 더 값진다는 것이다.\n- 반대쪽에서는 에이전트가 낸 코드는 컴파일러와 타입체커가 많이 대신 걸러줄수록 낫다며 Rust, Scala 같은 정적 타입 언어를 더 잘 맞는 선택지로 봤다.\n- 중간 지점의 의견도 많았다. 내가 잘 아는 언어이면서 LLM 학습량이 충분한 언어를 고르는 것이 현실적인 기준이라는 시각이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-12T15:05:51.323627+00:00"
+    },
+    {
+      "id": "2edd4348bbea0566b01697af7d4bf201600024b9",
+      "title_hash": "d5be799a98222927755a6f4205f84970a1d4c4ec",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Profiling.sampling – Statistical Profiler",
+      "link": "https://docs.python.org/3.15/library/profiling.sampling.html#module-profiling.sampling",
+      "published_at": "2026-05-10T11:19:03+00:00",
+      "summary": "HN story type: story HN points: 44 HN comments: 9 HN top comments: wongarsu: What I like about profiling.tracing is how you can control it in the same code base that you are profiling. That turns tracing into a feature you can ship, not just a tool you can attach. Profiling.sampling doesn't seem to provide anything similar, it has to run as a separate process thomasmg: I'm not trying to criticize, but Python is known to be much slower than eg. Java or Go etc. So for performance-critcal code, why use Python? I find Python to be very good because it is concise and simple, but I have not used it for production so far. modeless: This sounds a lot like py-spy. How does it compare?",
+      "fetched_at": "2026-05-12T15:02:14.254806+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48082948",
+      "hn_story_type": "story",
+      "hn_points": "44",
+      "hn_comments_count": "9",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48082948",
+      "hn_item_text": "",
+      "hn_comment_preview": "wongarsu: What I like about profiling.tracing is how you can control it in the same code base that you are profiling. That turns tracing into a feature you can ship, not just a tool you can attach. Profiling.sampling doesn't seem to provide anything similar, it has to run as a separate process\nthomasmg: I'm not trying to criticize, but Python is known to be much slower than eg. Java or Go etc. So for performance-critcal code, why use Python? I find Python to be very good because it is concise and simple, but I have not used it for production so far.\nmodeless: This sounds a lot like py-spy. How does it compare?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=9,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 9,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "performance",
+            "production"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "docs."
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "production",
+        "library",
+        "docs."
+      ],
+      "detail_slug": "2edd4348bbea0566b01697af7d4bf201600024b9",
+      "is_english_source": true,
+      "translated_title": "Profiling.sampling: 통계 기반 프로파일러",
+      "short_summary": "파이썬용 샘플링 프로파일러 `Profiling.sampling`이 HN에 소개됐다. 댓글에서는 tracing 방식과의 차이, `py-spy`와 비교, 파이썬의 성능 활용 범위가 함께 논의됐다.",
+      "why_it_matters": "파이썬 성능 문제를 다룰 때는 코드 구조를 크게 건드리지 않고 병목을 빨리 찾는 일이 먼저다. 이번 이야기는 샘플링 프로파일러가 실서비스 진단 도구로 어디까지 쓸 만한지 다시 묻게 한다.\n- 코드에 계측 로직을 넣지 않아도 병목을 확인할 수 있어 운영 환경 분석 부담을 줄일 수 있다.\n- 다만 별도 프로세스로 붙는 방식이면 tracing처럼 제품 기능으로 내장해 배포하기는 쉽지 않다.\n- 이미 쓰는 도구가 있다면 `py-spy` 같은 기존 선택지와 설치 방식, 오버헤드, 결과 해석 경험을 함께 비교해볼 지점이 생긴다.",
+      "hn_reaction_summary": "댓글 분위기는 호기심과 비교 검토 쪽에 가까웠다. 새 도구 자체를 크게 밀어주기보다 기존 tracing 도구나 `py-spy`와 무엇이 다른지 따져보는 반응이 반복됐다.\n- tracing은 같은 코드베이스 안에서 제어할 수 있어 배포 가능한 기능처럼 쓸 수 있다는 점이 장점으로 언급됐다.\n- `Profiling.sampling`은 별도 프로세스로 동작하는 듯해 활용 방식이 다르다는 점이 첫 쟁점이었다.\n- 파이썬이 느린 언어라는 인식 때문에 성능 민감한 코드에 왜 쓰는지 묻는 의견도 나왔고, 그래서 더더욱 프로파일링 도구의 실제 효용을 따져봐야 한다는 흐름이 보였다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-12T15:05:51.323627+00:00"
+    },
+    {
+      "id": "83fe1c3377d946f9ab5b1098c55714957579d1f3",
+      "title_hash": "78b3d6a874ab982e0499a84114a737d234154c79",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "They Live (1988) inspired Adblocker",
+      "link": "https://github.com/davmlaw/they_live_adblocker",
+      "published_at": "2026-05-12T00:37:54+00:00",
+      "summary": "HN story type: story HN points: 424 HN comments: 143 HN top comments: AdmiralAsshat: Misread the title to mean that They Live inspired the concept of adblocking in general. Which would have been an interesting coincidence, since it did inspire one of the early Mozilla logos. [0] [0] https://www.jwz.org/blog/2016/10/they-live-and-the-secret-hi... dueltmp_yufsy: They Live is such a good metaphor for so much of the modern world. Once you see it, cannot unsee. bloke_zero: I wish I could upvote this 10 times! I love the film - blew my mind when I saw it on cable just after it came out.",
+      "fetched_at": "2026-05-12T15:02:14.254806+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48102700",
+      "hn_story_type": "story",
+      "hn_points": "424",
+      "hn_comments_count": "143",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48102700",
+      "hn_item_text": "",
+      "hn_comment_preview": "AdmiralAsshat: Misread the title to mean that They Live inspired the concept of adblocking in general. Which would have been an interesting coincidence, since it did inspire one of the early Mozilla logos. [0] [0] https://www.jwz.org/blog/2016/10/they-live-and-the-secret-hi...\ndueltmp_yufsy: They Live is such a good metaphor for so much of the modern world. Once you see it, cannot unsee.\nbloke_zero: I wish I could upvote this 10 times! I love the film - blew my mind when I saw it on cable just after it came out.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "34",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=10,practical_tech=7,tools_agents=10,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "github.com"
+      ],
+      "detail_slug": "83fe1c3377d946f9ab5b1098c55714957579d1f3",
+      "is_english_source": true,
+      "translated_title": "영화 ‘They Live’에서 착안한 광고 차단기",
+      "short_summary": "1988년 영화 ‘They Live’를 떠올리게 하는 광고 차단기가 HN 프론트페이지에서 큰 관심을 받았다. 댓글에서는 도구 자체보다 영화의 상징성과 오늘날 광고 환경을 겹쳐 보는 반응이 두드러졌다.",
+      "why_it_matters": "광고 차단 도구를 기능만으로 보던 시선에서 한 걸음 더 나아간 사례로 읽힌다. 개발자와 제품팀에는 차단 기술 자체보다 사용자가 무엇을 불편해하는지, 그 감각을 어떻게 드러내는지가 더 또렷한 화두로 보인다.\n- 광고 피로감이 큰 환경에서는 성능 수치보다 문제를 바로 체감하게 만드는 콘셉트와 UI가 더 강하게 퍼질 수 있다.\n- 브라우저 확장이나 개인용 도구를 만들 때도 기능 설명보다 사용자가 \"왜 이걸 쓰는지\"를 납득시키는 서사가 반응을 좌우할 수 있다.\n- HN에서 전면에 오른 만큼 광고 표시, 스폰서 콘텐츠, 추천 영역을 다루는 제품 설계에서도 표현 방식에 대한 재검토가 이어질 만하다.",
+      "hn_reaction_summary": "댓글 분위기는 기술 분석보다 영화 ‘They Live’가 가진 비유와 문화적 상징에 더 쏠려 있다. 제목을 보고 광고 차단 일반의 기원을 말하는 줄 알았다는 반응부터, 한 번 보면 잊기 어려운 비유라는 공감까지 이어졌다.\n- 가장 많이 반복된 반응은 영화의 메시지가 지금의 웹과 광고 생태계를 설명하는 데 여전히 잘 맞는다는 공감이었다.\n- 일부는 이 영화가 초기 Mozilla 로고에 영향을 줬다는 일화까지 꺼내며 웹 문화사 맥락으로 대화를 넓혔다.\n- 실무자가 볼 만한 지점은 기술 자체의 우열보다도, 익숙한 문화 레퍼런스가 제품의 문제의식을 얼마나 빠르게 전달하는지에 대한 반응이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-12T15:05:51.323627+00:00"
+    },
+    {
       "id": "5de57c4896a4074ba1ef7111785ee65ab8abbe93",
       "title_hash": "bb47f928b1ab47449ba3175be35d51b5467252ad",
       "source": "GeekNews",
@@ -158384,66 +158910,6 @@
       "published_at": "2026-03-04T20:16:03+00:00",
       "fetched_at": "2026-03-05T06:39:33.558076+00:00",
       "sent_at": "2026-03-05T06:40:03.781584+00:00"
-    },
-    {
-      "id": "f47a0b75cd08ea3940b9a5cbb627600fda8f33da",
-      "title_hash": "0a27dc27eed66854d76f3f4833bbe446361cae48",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The View from RSS",
-      "link": "https://www.carolinecrampton.com/the-view-from-rss/",
-      "published_at": "2026-03-04T20:19:43+00:00",
-      "fetched_at": "2026-03-05T06:39:33.558076+00:00",
-      "sent_at": "2026-03-05T06:40:02.935524+00:00"
-    },
-    {
-      "id": "505673b4da87b32cfcd29de2196868992a3b54c2",
-      "title_hash": "ddd75c321df59528a2af20eac8aee8471898c5bb",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "BMW Group to deploy humanoid robots in production in Germany for the first time",
-      "link": "https://www.press.bmwgroup.com/global/article/detail/T0455864EN/bmw-group-to-deploy-humanoid-robots-in-production-in-germany-for-the-first-time?language=en",
-      "published_at": "2026-03-04T21:11:15+00:00",
-      "fetched_at": "2026-03-05T06:39:33.558076+00:00",
-      "sent_at": "2026-03-05T06:40:02.144104+00:00"
-    },
-    {
-      "id": "d74f6cc9b58fb967dbc4ab11cfe35a45876e3b52",
-      "title_hash": "067b29b90d28fbcc2e39a653d66fb5e110be02ba",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Dulce et Decorum Est (1921)",
-      "link": "https://www.poetryfoundation.org/poems/46560/dulce-et-decorum-est",
-      "published_at": "2026-03-04T21:41:40+00:00",
-      "fetched_at": "2026-03-05T06:39:33.558076+00:00",
-      "sent_at": "2026-03-05T06:40:01.417959+00:00"
-    },
-    {
-      "id": "e48e02ae1f5f2008a94bbf79b1fa8e47bf0d921b",
-      "title_hash": "1fd2ff31705a11ca2abb7c89ddd0a236f3c548bf",
-      "source": "TechCrunch",
-      "title": "Apple Music to add Transparency Tags to distinguish AI music, says report",
-      "link": "https://techcrunch.com/2026/03/04/apple-music-to-add-transparency-tags-to-distinguish-ai-music-says-report/",
-      "published_at": "2026-03-04T21:43:58+00:00",
-      "fetched_at": "2026-03-05T06:39:33.558076+00:00",
-      "sent_at": "2026-03-05T06:40:00.633890+00:00"
-    },
-    {
-      "id": "7f86784beca3d53578d64150554959b130a84faa",
-      "title_hash": "00005fd9caf2a54e5b5924eb9eb295ee4c5e4a10",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "NRC issues first commercial reactor construction approval in 10 years [pdf]",
-      "link": "https://www.nrc.gov/sites/default/files/cdn/doc-collection-news/2026/26-028.pdf",
-      "published_at": "2026-03-04T21:56:20+00:00",
-      "fetched_at": "2026-03-05T06:39:33.558076+00:00",
-      "sent_at": "2026-03-05T06:39:59.806032+00:00"
-    },
-    {
-      "id": "28c5925b1505072719b662d637d5d8636525c571",
-      "title_hash": "14c914f360e444c1eb9e0d1d59980701b8512ecf",
-      "source": "GeekNews",
-      "title": "OpenAI, Codex 앱 Window용 공개",
-      "link": "https://news.hada.io/topic?id=27198",
-      "published_at": "2026-03-04T22:08:15+00:00",
-      "fetched_at": "2026-03-05T06:39:33.558076+00:00",
-      "sent_at": "2026-03-05T06:39:59.015835+00:00"
     }
   ],
   "topic_digests": {
@@ -158452,9 +158918,13 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트",
-        "summary": "이번 주는 AI를 잠깐 쓰는 보조에서, 오래 맡기고 관리하는 에이전트로 무게가 옮겨갔다. 개인 도구부터 클라우드, 채용까지 같은 흐름이 잡힌다.\n- LidGuard와 Claude Code /goal은 자리를 비워도 작업을 이어 가는 사용 장면을 선명하게 보여줬다.\n- AWS용 클로드와 결정론 논의는 성능보다 경계, 검증, 통제 설계가 더 큰 쟁점이 됐음을 드러냈다.\n- GM 채용 변화는 에이전트가 실험을 넘어 조직 운영 문제로 번졌다는 신호다.",
+        "headline": "이번 주 도구·에이전트: 돌리는 환경의 변화",
+        "summary": "이번 주엔 에이전트를 더 오래 돌리고 더 편하게 다루려는 흐름이 선명했다. 화면 구성부터 전원 관리, 언어 선택까지 기준이 다시 짜이는 중이다.\n\n- Claude Code의 Agent View와 LidGuard는 여러 에이전트를 한곳에서 보고 이동 중에도 작업을 잇고 싶다는 수요를 보여줬다.\n- Zig vs Rust, 파이썬 논쟁은 언어의 장단점도 이제 에이전트가 코드를 얼마나 잘 다루는지와 함께 따져야 함을 드러냈다.\n- ‘They Live’ 광고 차단기 화제는 도구가 기능만이 아니라 상징과 경험으로도 주목받는다는 점을 보여줬다.",
         "item_ids": [
+          "c14a4771b216fd5f9eb3516caffb80347f501c06",
+          "6587d42cc4a2e130d7930bf5ceaf72d9124fec69",
+          "9bca0e8aebd49644e3f571b9a0465868d5872814",
+          "83fe1c3377d946f9ab5b1098c55714957579d1f3",
           "5de57c4896a4074ba1ef7111785ee65ab8abbe93",
           "3c485cd07c7d9dd2860787d861663f4dbc9d865c",
           "caf695d36f423dc7d89cfc0d3329eab12e1c0dad",
@@ -158559,23 +159029,21 @@
           "67ab8fee2b03fcb00454d45f3c4b3477206544b3",
           "56e1d85f9dad616fe7102d40bcf2b517ae15b28d",
           "5975a4774f566623d5b10275c87dac13202cceb4",
-          "962ffede7df50e2445a2e9bc6dc6b5cbd00d2b65",
-          "393fb55a20b4b1db752fbc2a82fd0789650e416b",
-          "9c9e0a96a4fbe46ab14f2c25ca2e2a699f149f1b",
-          "72e33d7d3cf443ba58febb3f317ca47a6793cc1e",
-          "68c78c173c7fc51068e9bb17a82f5bc589aae0ef"
+          "962ffede7df50e2445a2e9bc6dc6b5cbd00d2b65"
         ],
         "total_items": 109,
-        "generated_at": "2026-05-12T10:45:08.818050+00:00",
+        "generated_at": "2026-05-12T15:02:14.254806+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술",
-        "summary": "이번 주 실무 기술 묶음은 새 기능 경쟁보다, 오래 가는 설계와 검증된 도구를 다시 실무 기준으로 묶어 보는 흐름이 두드러졌다.\n- AI 코딩이 빨라질수록 언어 선택 기준은 작성 속도보다 수정 용이성, 컴파일 피드백, 런타임 비용으로 옮겨간다.\n- 아키텍처 학습과 옛 OS 아카이브는 코드 조직 감각과 예측 가능한 화면이 왜 다시 눈에 띄는지 드러낸다.\n- Rockbox와 자바 메모리 매핑 사례는 익숙한 기반을 오늘 환경에 맞게 되살리는 실험으로 읽힌다.",
+        "headline": "이번 주 실무 기술: 다시 기본기로",
+        "summary": "AI 덕분에 만드는 속도는 빨라졌지만, 이번 주 글들은 그다음이 더 어렵다고 말합니다. 코드는 다시 읽히고 측정돼야 하며 화면과 구조는 오래 버텨야 합니다.\n- 바이브 코딩의 부채와 커진 상태 관리 문제, 아키텍처 학습법이 한 흐름으로 이어집니다.\n- 프로파일링과 Python 논의는 이제 작성 속도보다 수정 비용과 실행 성능을 먼저 보게 합니다.\n- 옛 OS 스크린샷까지 예측 가능한 UI와 보존 가능한 설계가 왜 다시 눈에 띄는지 보여줍니다.",
         "item_ids": [
+          "836d8b14a62e4d4a1794db51360323c5d656c4e0",
+          "2edd4348bbea0566b01697af7d4bf201600024b9",
           "2cdf5749993472243f71c863c1dd48454de09436",
           "ca17a09cd6fc024161567a00515a86567bcd1166",
           "d63774fd59072973e6da789ebe5609a8b9c451ca",
@@ -158656,19 +159124,18 @@
           "0869bd0ddd3a58b825b6b3c16dcd095f1dc14fd6",
           "cf4cd2e25b26cf60f9cf0ecfb842b6a02efb99ac",
           "d7754df7274e89f5ad968b594ea9db4793e315a2",
-          "aaebec3a4b72991ae9712d2a0b34a126542cbcdc",
-          "b87946d20ca7964699abd57330eabb3fe89d4884"
+          "aaebec3a4b72991ae9712d2a0b34a126542cbcdc"
         ],
-        "total_items": 82,
-        "generated_at": "2026-05-12T10:45:08.818050+00:00",
+        "total_items": 83,
+        "generated_at": "2026-05-12T15:02:14.254806+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 주 전략·인사이트: 속도와 신뢰",
-        "summary": "이번 주 묶음은 AI를 더 빨리 붙이는 기술과 커지는 통제·신뢰 문제를 같이 보여준다.\n- 온디바이스 LLM과 AI 게이트웨이는 성능 병목을 줄이고 배포 선택지를 넓히는 흐름을 드러낸다.\n- Obsidian 악용 캠페인과 프랑스의 암호화 약화 논의는 개방과 편의가 곧 공격면과 감시 논쟁으로 번질 수 있음을 보여준다.\n- 사고를 개인 탓으로 돌리면 학습이 멈춘다는 지적도 나왔다. 지금은 속도 경쟁보다 운영 원칙과 신뢰 경계를 함께 점검할 때다.",
+        "headline": "이번 주 전략·인사이트",
+        "summary": "이번 주엔 AI를 더 빠르게 올리는 경쟁과, 그 틈에서 흔들리는 신뢰의 문제가 함께 드러났다. 기술 선택만이 아니라 운영 감각을 같이 볼 이유가 선명해졌다.\n\n- 온디바이스 LLM과 AI 게이트웨이는 성능 경쟁이 모델에서 배포 인프라로 내려왔다는 흐름을 보여준다.\n- Obsidian 악용, 암호화 약화 논의는 협업 도구와 메신저가 곧 보안·정책 전선이 됐다는 신호다.\n- 사고를 개인 탓으로 돌리면 학습이 멈춘다는 지적은 AI 도입 조직의 운영 원칙을 다시 묻게 한다.",
         "item_ids": [
           "5b3811a48ef1951cf2ea7ea1c3e57f394fcd7126",
           "0c78dfd96b0e42344606f95c5d6731aea35d6090",
@@ -158691,7 +159158,7 @@
           "e989eb454aa3b5389acce089e1d02b1d5467e5b6"
         ],
         "total_items": 19,
-        "generated_at": "2026-05-12T10:45:08.818050+00:00",
+        "generated_at": "2026-05-12T15:02:14.254806+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -158701,8 +159168,12 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "에이전트를 오래 돌리고 스스로 다음 턴까지 이어가게 하는 흐름이 이번 달에도 또렷했다. 개인의 작은 불편에서 기업 채용까지, 관심이 모델 성능 경쟁만이 아니라 실제 운영과 통제로 옮겨가는 장면이 많았다.\n\n- LidGuard와 Claude Code `/goal`은 에이전트를 끊기지 않게 돌리는 생활형 자동화가 어디까지 왔는지 보여줬다.\n- AWS용 클로드 논쟁, 결정론 설계 비판, GM의 채용 변화는 배치 방식과 검증, 인력 재편이 이제 현업의 문제라는 점을 드러냈다.",
+        "summary": "에이전트는 이제 코드 작성 시연을 넘어, 여러 작업을 붙들고 끊기지 않게 굴리는 운영의 문제로 옮겨가고 있다. 이번 묶음은 그 전환이 왜 지금 체감되는지 보여준다.\n- Agent View와 LidGuard는 한 화면 관리와 이동 중 지속 실행처럼 새 사용 습관을 드러낸다.\n- Zig·Rust·파이썬 논의도 언어 취향보다 에이전트와의 궁합, 읽기 쉬움, 자동화 친화성으로 무게가 옮겨갔다.\n- 광고 차단기 화제는 도구가 기능을 넘어 현재의 디지털 피로를 비추는 장면이 됐음을 보여준다.",
         "item_ids": [
+          "c14a4771b216fd5f9eb3516caffb80347f501c06",
+          "6587d42cc4a2e130d7930bf5ceaf72d9124fec69",
+          "9bca0e8aebd49644e3f571b9a0465868d5872814",
+          "83fe1c3377d946f9ab5b1098c55714957579d1f3",
           "5de57c4896a4074ba1ef7111785ee65ab8abbe93",
           "3c485cd07c7d9dd2860787d861663f4dbc9d865c",
           "caf695d36f423dc7d89cfc0d3329eab12e1c0dad",
@@ -159185,12 +159656,10 @@
           "dc9e19cb6abe1f668ed7bbedec3c603c1520564a",
           "2ec024f4a78eb52df987b3d8a6fe9bc1efd97afe",
           "8492ca393d02e827b81692349d7ac1ceab7da0c7",
-          "32af53f1f9cf56fa8cf981e2e17d4ef8846764de",
-          "5526f2ab07d43ca0048aa637c235e4392af12dac",
-          "00d35662b51f923d542949fb1cb6ec210e5706db"
+          "32af53f1f9cf56fa8cf981e2e17d4ef8846764de"
         ],
-        "total_items": 485,
-        "generated_at": "2026-05-12T10:45:08.818050+00:00",
+        "total_items": 487,
+        "generated_at": "2026-05-12T15:02:14.254806+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -159198,8 +159667,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "AI가 코드를 쓰는 흐름이 빨라지면서, 이번 달 글들은 실무의 판단 기준이 어디로 옮겨가는지 또렷하게 보여준다. 새 기술 소개보다 수정 속도, 구조 감각, 오래 가는 인터페이스를 다시 묻게 만든다.\n- Python 논의는 이제 작성 속도보다 AI가 고치기 쉬운가, 실행 비용이 어떤가를 먼저 따지는 분위기를 드러냈다.\n- 아키텍처와 옛 OS 아카이브는 코드와 화면 모두 예측 가능성이 결국 품질로 남는다는 점을 상기시킨다.\n- Rockbox와 자바 메모리 매핑 사례는 작아 보여도 손에 익고 반응이 빠른 도구가 여전히 설득력을 가진다는 흐름을 보여준다.",
+        "summary": "AI가 코드를 더 빨리 찍어내는 만큼, 다시 읽히는 구조와 측정 가능한 성능, 오래 가는 화면 감각이 앞에 섰다. 이번 달 글은 속도보다 운영 가능한 코드로 시선이 옮겨가는 흐름을 보여준다.\n- 바이브 코딩의 빠른 확장은 곧 상태 복잡도와 유지보수 부담으로 돌아왔다.\n- 파이썬 프로파일링과 아키텍처 논의는 감보다 병목과 설계 판단을 드러내라고 말한다.\n- 복고 UI 아카이브까지 예측 가능한 인터페이스와 보존성의 가치를 다시 꺼냈다.",
         "item_ids": [
+          "836d8b14a62e4d4a1794db51360323c5d656c4e0",
+          "2edd4348bbea0566b01697af7d4bf201600024b9",
           "2cdf5749993472243f71c863c1dd48454de09436",
           "ca17a09cd6fc024161567a00515a86567bcd1166",
           "d63774fd59072973e6da789ebe5609a8b9c451ca",
@@ -159542,12 +160013,10 @@
           "54b1277165c48f1527ef2f1dc09cecc72ddfe276",
           "98e11cda38cb336b612727d02c0ffffb7713ab8e",
           "7d7e4ba34c53a4f7da1b397efc22ee50cac969ec",
-          "9f4c6e5bee8c4e6846d36752bc981d7176e42858",
-          "3f03b746f0b2b2be04ff07cca3cb91896e7d02df",
-          "a8a13396fb00734fd4d89239c1fbf37932a3858b"
+          "9f4c6e5bee8c4e6846d36752bc981d7176e42858"
         ],
         "total_items": 345,
-        "generated_at": "2026-05-12T10:45:08.818050+00:00",
+        "generated_at": "2026-05-12T15:02:14.254806+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -159555,7 +160024,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 달 전략·인사이트",
-        "summary": "온디바이스 AI 가속, 게이트웨이 최적화, 협업 도구 악용, 암호화 규제까지. 이번 달은 AI 확산이 성능 경쟁과 보안·통제 논쟁을 함께 밀어 올리는 흐름이 또렷합니다.\n- 제품은 더 가볍고 빠르게 현장으로 들어가고, 운영 계층은 멀티모델과 초고속 라우팅 쪽으로 재편됩니다.\n- 동시에 플러그인 공격과 메시징 감청 논의가 커지며 신뢰 경계와 기본 보안 가정도 다시 흔들립니다.\n- 사고를 개인 탓으로 돌리기보다 시스템에서 무엇을 배울지 묻는 시선도 지금 같이 볼 만합니다.",
+        "summary": "AI 인프라와 보안, 정책이 한꺼번에 흔들린 한 달입니다. 속도 경쟁은 더 거세졌고 신뢰와 통제의 경계는 더 예민해졌습니다.\n- 온디바이스 LLM과 AI 게이트웨이처럼 실행 계층의 성능 경쟁이 앞당겨졌습니다.\n- Obsidian 악용과 암호화 약화 논의는 편의보다 신뢰 설계와 운영 감각을 먼저 보게 합니다.\n- 사고 뒤 학습을 막는 조직 태도까지 짚어 지금은 기술만이 아니라 대응 방식도 함께 볼 때입니다.",
         "item_ids": [
           "5b3811a48ef1951cf2ea7ea1c3e57f394fcd7126",
           "0c78dfd96b0e42344606f95c5d6731aea35d6090",
@@ -159613,7 +160082,7 @@
           "59361acc689769f35c6502b659239221d1153f7d"
         ],
         "total_items": 54,
-        "generated_at": "2026-05-12T10:45:08.818050+00:00",
+        "generated_at": "2026-05-12T15:02:14.254806+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -159626,20 +160095,20 @@
       "title": "조용히 커지는 주제",
       "cta_label": "흐름 보기",
       "related_item_ids": [
+        "c14a4771b216fd5f9eb3516caffb80347f501c06",
         "5de57c4896a4074ba1ef7111785ee65ab8abbe93",
         "3c485cd07c7d9dd2860787d861663f4dbc9d865c",
-        "caf695d36f423dc7d89cfc0d3329eab12e1c0dad",
-        "99ae493e3046bb3529674b58bf52d13121f03e2d"
+        "caf695d36f423dc7d89cfc0d3329eab12e1c0dad"
       ],
-      "score": 0.94,
-      "generated_at": "2026-05-12T10:45:08.818050+00:00",
+      "score": 0.95,
+      "generated_at": "2026-05-12T15:02:14.254806+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "끊기지 않는 에이전트 운영",
-      "summary_line": "AI를 한 번 호출하는 도구보다 오래 맡기고 통제하는 운영층이 더 자주 보인다.",
+      "topic_name": "에이전트를 끊기지 않게 돌리는 운영 UX",
+      "summary_line": "코드를 잘 쓰는 문제보다, 에이전트를 오래 돌리고 중간에 안 끊기게 관리하는 감각이 더 자주 등장하고 있다.",
       "signals": [
-        "노트북을 덮어도 작업이 이어지게 만드는 생활형 보조가 나왔다.",
-        "목표 달성까지 다음 턴을 자동으로 잇는 `/goal` 기능이 붙었다.",
-        "클라우드와 채용 공고까지 에이전트 운영 역량을 따로 보기 시작했다."
+        "여러 에이전트를 한 화면에서 띄우고 감시하는 Agent View가 나왔다.",
+        "이동 중 노트북을 덮어도 작업이 이어지게 하려는 LidGuard 사례가 나왔다.",
+        "목표가 끝날 때까지 스스로 턴을 잇는 /goal 기능이 붙었다."
       ]
     },
     {
@@ -159649,36 +160118,38 @@
       "title": "HN 댓글이 가장 갈린 기사",
       "cta_label": "쟁점 읽기",
       "related_item_ids": [
-        "caf695d36f423dc7d89cfc0d3329eab12e1c0dad"
+        "9bca0e8aebd49644e3f571b9a0465868d5872814",
+        "2cdf5749993472243f71c863c1dd48454de09436"
       ],
-      "score": 0.9,
-      "generated_at": "2026-05-12T10:45:08.818050+00:00",
+      "score": 0.93,
+      "generated_at": "2026-05-12T15:02:14.254806+00:00",
       "ai_model": "codex-cli",
-      "headline": "AWS용 클로드 플랫폼 공개, Bedrock과 차별점은",
-      "issue_title": "AWS 위 클로드 플랫폼은 실질적 대안인가, 이름만 복잡해진 계층인가",
-      "opposition_summary": "비판 쪽은 데이터 처리가 AWS 경계 밖에서 이뤄지는데도 'on AWS'처럼 보이게 만든 점이 혼란을 키운다고 본다.",
-      "support_summary": "찬성 쪽은 Bedrock의 단순 대체재보다 MCP와 외부 작업까지 붙일 수 있는 호스티드 에이전트 환경으로 해석한다."
+      "headline": "AI가 코드를 쓰는 시대에도 파이썬이 맞을까",
+      "issue_title": "가독성 중심 선택 vs 타입 중심 선택",
+      "opposition_summary": "반대쪽은 에이전트가 낸 코드는 더 자주 검증해야 하므로, 정적 타입과 컴파일러 피드백이 더 큰 힘을 발휘한다고 본다.",
+      "support_summary": "옹호 쪽은 병목이 작성보다 리뷰에 있으니, 읽기 쉬운 문법과 넓은 학습 데이터가 여전히 파이썬의 강점이라고 본다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 보기",
+      "cta_label": "신호 읽기",
       "related_item_ids": [
-        "d63774fd59072973e6da789ebe5609a8b9c451ca",
-        "eb5414c9e222d5b354313fd02c90fadd46510027",
-        "ca17a09cd6fc024161567a00515a86567bcd1166"
+        "836d8b14a62e4d4a1794db51360323c5d656c4e0",
+        "2edd4348bbea0566b01697af7d4bf201600024b9",
+        "ca17a09cd6fc024161567a00515a86567bcd1166",
+        "d63774fd59072973e6da789ebe5609a8b9c451ca"
       ],
-      "score": 0.82,
-      "generated_at": "2026-05-12T10:45:08.818050+00:00",
+      "score": 0.88,
+      "generated_at": "2026-05-12T15:02:14.254806+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "복고가 아니라 운영 자산 재활용",
-      "summary_line": "새로 만드는 이야기보다 오래 검증된 구조를 지금 환경에 다시 얹는 시도가 여러 갈래에서 보인다.",
+      "signal_title": "빨라질수록 다시 느린 쪽을 찾는다",
+      "summary_line": "AI가 작성 속도를 밀어올린 주간인데도, 주목받은 글은 손코딩 복귀와 프로파일링, 아키텍처, 옛 UI처럼 확인 가능한 것에 몰렸다.",
       "signals": [
-        "옛 데스크톱 UI 아카이브가 향수보다 예측 가능한 조작감 논의로 이어졌다.",
-        "Rockbox 같은 오래된 자산이 현대 데몬 형태로 다시 호출됐다.",
-        "아키텍처 학습도 새 패턴 소개보다 멘털 모델과 구조 감각 쪽으로 무게가 쏠렸다."
+        "상태 복잡도에 밀려 다시 손으로 코드를 쓰겠다는 회고가 나왔다.",
+        "병목을 먼저 재보자는 샘플링 프로파일러 논의가 올라왔다.",
+        "옛 데스크톱 UI에서 발견 가능성과 보존 가치를 다시 찾는 반응이 이어졌다."
       ]
     }
   ],
@@ -159689,20 +160160,20 @@
     "title": "조용히 커지는 주제",
     "cta_label": "흐름 보기",
     "related_item_ids": [
+      "c14a4771b216fd5f9eb3516caffb80347f501c06",
       "5de57c4896a4074ba1ef7111785ee65ab8abbe93",
       "3c485cd07c7d9dd2860787d861663f4dbc9d865c",
-      "caf695d36f423dc7d89cfc0d3329eab12e1c0dad",
-      "99ae493e3046bb3529674b58bf52d13121f03e2d"
+      "caf695d36f423dc7d89cfc0d3329eab12e1c0dad"
     ],
-    "score": 0.94,
-    "generated_at": "2026-05-12T10:45:08.818050+00:00",
+    "score": 0.95,
+    "generated_at": "2026-05-12T15:02:14.254806+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "끊기지 않는 에이전트 운영",
-    "summary_line": "AI를 한 번 호출하는 도구보다 오래 맡기고 통제하는 운영층이 더 자주 보인다.",
+    "topic_name": "에이전트를 끊기지 않게 돌리는 운영 UX",
+    "summary_line": "코드를 잘 쓰는 문제보다, 에이전트를 오래 돌리고 중간에 안 끊기게 관리하는 감각이 더 자주 등장하고 있다.",
     "signals": [
-      "노트북을 덮어도 작업이 이어지게 만드는 생활형 보조가 나왔다.",
-      "목표 달성까지 다음 턴을 자동으로 잇는 `/goal` 기능이 붙었다.",
-      "클라우드와 채용 공고까지 에이전트 운영 역량을 따로 보기 시작했다."
+      "여러 에이전트를 한 화면에서 띄우고 감시하는 Agent View가 나왔다.",
+      "이동 중 노트북을 덮어도 작업이 이어지게 하려는 LidGuard 사례가 나왔다.",
+      "목표가 끝날 때까지 스스로 턴을 잇는 /goal 기능이 붙었다."
     ]
   }
 }
