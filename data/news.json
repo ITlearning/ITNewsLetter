@@ -1,6 +1,443 @@
 {
   "items": [
     {
+      "id": "3f024edf6646b3457b346c8aa7ca833d5c57a0d3",
+      "title_hash": "32637465f82ded99ff6cfd5051c1fe328c0f6b18",
+      "source": "GeekNews",
+      "title": "Anthropic, Claude에게 &quot;왜&quot;를 가르치다 - 정렬 훈련(Alignment Training) 개선 사례",
+      "link": "https://news.hada.io/topic?id=29455",
+      "published_at": "2026-05-13T01:33:56+00:00",
+      "summary": "Anthropic이 작년 공개했던 에이전트 정렬 실패(agentic misalignment) 연구 - 모델이 셧다운을 피하기 위해 엔지니어를 협박하는 등의 행동을 보였던 사례 - 의 후속 개선 내용을 공개함. Claude 4 Opus는 협박 시나리오에서 최대 96%의 비율로 정렬 실패 행동을 보였으나, Claude Haiku 4.5 이후 모든 모델(Haiku 4...",
+      "fetched_at": "2026-05-13T03:49:05.412939+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "61",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=0,tools_agents=16,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 16,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "agentic",
+            "에이전트"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "agentic",
+        "에이전트",
+        "agent"
+      ],
+      "detail_slug": "3f024edf6646b3457b346c8aa7ca833d5c57a0d3",
+      "is_english_source": false,
+      "sent_at": "2026-05-13T03:52:14.281987+00:00"
+    },
+    {
+      "id": "37564092b26f2730968b6cc8e5a5510884a32495",
+      "title_hash": "a3d413e35d5dd9ba2ab6aa6a2e8e66fa12808bfb",
+      "source": "GeekNews",
+      "title": "소프트웨어 아키텍처 배우기",
+      "link": "https://news.hada.io/topic?id=29452",
+      "published_at": "2026-05-13T01:06:34+00:00",
+      "summary": "소프트웨어 설계 는 강의보다 실제 프로젝트에서 책임을 맡고 문제가 자기 일이 될 때 더 깊게 배워짐 Conway’s Law 는 소프트웨어가 조직의 사회적 구조를 반복한다는 관점이며, 과학 코드와 산업 코드의 차이도 인센티브에서 생길 수 있음 rust-analyzer...",
+      "fetched_at": "2026-05-13T03:49:05.412939+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=9,practical_tech=9,tools_agents=4,strategy_insight=5,industry_business=-2",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 4,
+        "strategy_insight": 5,
+        "industry_business": -2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "아키텍처",
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "관점"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "산업"
+          ],
+          "negative_hits": [
+            "아키텍처"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "아키텍처",
+        "코드"
+      ],
+      "detail_slug": "37564092b26f2730968b6cc8e5a5510884a32495",
+      "is_english_source": false,
+      "sent_at": "2026-05-13T03:52:14.281987+00:00"
+    },
+    {
+      "id": "7f29bd5eaa45a592c71f54f6c2ea1ffbd139f7a6",
+      "title_hash": "e784d42d4885958559f4bfb704ec1a0c3dc3419c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Traceway: MIT-licensed observability stack you can self-host in ~90s",
+      "link": "https://github.com/tracewayapp/traceway",
+      "published_at": "2026-05-11T07:05:01+00:00",
+      "summary": "HN story type: story HN points: 30 HN comments: 3 HN top comments: tecoholic: I was looking into this just yesterday. So the Loki + … comparison is a bit off in the Open Source space. The main ones are Signoz and ClickStack in this space. Both using ClickHouse as the database. Heavy compared to something like Loki, but they are OTEL native and not log monitoring. So not in the same category.",
+      "fetched_at": "2026-05-13T03:49:05.412939+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48091898",
+      "hn_story_type": "story",
+      "hn_points": "30",
+      "hn_comments_count": "3",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48091898",
+      "hn_item_text": "",
+      "hn_comment_preview": "tecoholic: I was looking into this just yesterday. So the Loki + … comparison is a bit off in the Open Source space. The main ones are Signoz and ClickStack in this space. Both using ClickHouse as the database. Heavy compared to something like Loki, but they are OTEL native and not log monitoring. So not in the same category.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=10,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 22,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 22,
+          "strong_hits": [
+            "observability",
+            "open source",
+            "database"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "observability",
+        "open source",
+        "database",
+        "github.com"
+      ],
+      "detail_slug": "7f29bd5eaa45a592c71f54f6c2ea1ffbd139f7a6",
+      "is_english_source": true,
+      "translated_title": "90초 내 자체 호스팅 가능한 MIT 옵저버빌리티 스택",
+      "short_summary": "Traceway는 약 90초 만에 직접 띄울 수 있다고 내세운 MIT 라이선스 옵저버빌리티 스택이다. HN에서는 빠른 도입성보다 Loki와의 비교가 맞는지, Signoz·ClickStack 같은 OTEL 계열과 무엇이 다른지가 먼저 논점이 됐다.",
+      "why_it_matters": "자체 호스팅 관측 도구를 검토하는 팀이라면 눈여겨볼 만한 소식이다. 설치 시간을 크게 줄였다는 메시지는 분명 매력적이지만, 실제 도입 판단은 제품이 다루는 범위와 운영 부담을 어디까지 감당할지에 달려 있다.\n- MIT 라이선스와 빠른 셋업은 사내 PoC를 서둘러 돌려야 하는 팀에 꽤 현실적인 출발점이 된다.\n- 다만 로그 수집 도구인지, OTEL 기반 통합 관측 스택인지에 따라 비교 대상과 도입 기준이 완전히 달라진다.\n- 실무에서는 설치 편의성만큼이나 저장소 구조, 운영 복잡도, 기존 파이프라인과의 연결 비용이 채택 여부를 가를 가능성이 크다.",
+      "hn_reaction_summary": "HN 반응은 아직 초반 탐색에 가깝다. 댓글 수는 많지 않았지만, 제품 자체의 완성도보다 어떤 오픈소스 스택과 같은 선에서 봐야 하는지를 따지는 분위기가 먼저 보였다.\n- 가장 눈에 띈 반응은 Loki와의 비교가 어색하다는 지적이다. 댓글에서는 Signoz와 ClickStack이 더 가까운 비교 대상으로 언급됐다.\n- 반복된 논점은 로그 모니터링과 OTEL 네이티브 관측 스택을 같은 범주로 볼 수 있느냐는 점이다.\n- ClickHouse 기반 스택은 기능 폭이 넓은 대신 더 무겁게 느껴질 수 있다는 시각도 나왔다. 빠른 설치보다 운영 모델 비교가 먼저라는 반응으로 읽힌다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-13T03:52:14.281987+00:00"
+    },
+    {
+      "id": "555e76233ab6b3a4f61f9138cdfce8ab0393bc91",
+      "title_hash": "65179a38821f01a4f668985183c08743f89fadf2",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Reimagining the mouse pointer for the AI era",
+      "link": "https://deepmind.google/blog/ai-pointer/",
+      "published_at": "2026-05-12T17:40:13+00:00",
+      "summary": "HN story type: story HN points: 163 HN comments: 133 HN top comments: why_at: My first impression coming away from this is skepticism. Anything with voice controls for routine use is a pretty tough sell. Doing this when you're not completely alone would be annoying to everyone around you. Most of their examples seem like they could have been done with a right click drop down menu so they don't really need to \"re-invent the mouse pointer\". So is this thing talking to Google's servers all the... Nathanba: Kind of incredible how consistently terrible Google is at everything they do in the AI space. So they choose this demo and write a big blog post and advertise.. and the demo is horrible, doesn't work. Doesn't track what I circle with the mouse, just apparently where the mouse pointer landed at the end and only exactly where it landed. Multiple times it said \"Got it, I'll move this empty space between the clouds ov... arjie: Oh interesting, this is very cool. At first I thought it was just focus-follows-mouse but it's more interesting. You have certain keywords trigger \"add to prompt\". Ignoring the voice functionality (which is admittedly crucial currently because other inputs currently take over focus), I've often wanted to just have a continuous conversation with the LLM as I 'point and click' (or tab over and select) at various thi...",
+      "fetched_at": "2026-05-13T03:49:05.412939+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48111581",
+      "hn_story_type": "story",
+      "hn_points": "163",
+      "hn_comments_count": "133",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48111581",
+      "hn_item_text": "",
+      "hn_comment_preview": "why_at: My first impression coming away from this is skepticism. Anything with voice controls for routine use is a pretty tough sell. Doing this when you're not completely alone would be annoying to everyone around you. Most of their examples seem like they could have been done with a right click drop down menu so they don't really need to \"re-invent the mouse pointer\". So is this thing talking to Google's servers all the...\nNathanba: Kind of incredible how consistently terrible Google is at everything they do in the AI space. So they choose this demo and write a big blog post and advertise.. and the demo is horrible, doesn't work. Doesn't track what I circle with the mouse, just apparently where the mouse pointer landed at the end and only exactly where it landed. Multiple times it said \"Got it, I'll move this empty space between the clouds ov...\narjie: Oh interesting, this is very cool. At first I thought it was just focus-follows-mouse but it's more interesting. You have certain keywords trigger \"add to prompt\". Ignoring the voice functionality (which is admittedly crucial currently because other inputs currently take over focus), I've often wanted to just have a continuous c...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=4,tools_agents=14,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 14,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "cli",
+            "llm"
+          ],
+          "support_hits": [
+            "prompt"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli",
+        "llm",
+        "prompt"
+      ],
+      "detail_slug": "555e76233ab6b3a4f61f9138cdfce8ab0393bc91",
+      "is_english_source": true,
+      "translated_title": "AI 시대에 맞춰 마우스 포인터를 다시 그리다",
+      "short_summary": "이 스토리는 마우스 포인터와 음성 입력을 묶어 화면의 맥락을 AI에 바로 전달하는 인터페이스를 제안한다. HN에서는 발상 자체는 흥미롭다는 반응도 있었지만, 데모 완성도와 음성 중심 UX에는 회의론이 더 많았다.",
+      "why_it_matters": "생성형 AI가 앱 안의 보조 기능을 넘어서 운영체제 수준 입력 방식까지 건드리기 시작했다는 점에서 눈여겨볼 만하다. 클릭과 선택, 복사 과정을 줄이고 화면에서 가리키는 행위 자체를 프롬프트로 바꾸려는 흐름이다.\n- 이런 방식이 자리 잡으면 문서, 이미지, 웹페이지를 오가며 내용을 복사해 붙이는 대신 화면 요소를 바로 집어 AI에 넘기는 작업이 늘 수 있다.\n- 다만 실무에서는 멋진 개념보다 오작동과 지연이 더 치명적이다. 포인터가 가리킨 대상을 정확히 이해하지 못하면 생산성 도구가 아니라 마찰만 커진다.\n- 음성 입력을 기본 전제로 삼으면 사무실이나 공용 공간에서 쓰기 어렵다. 실제 도입 단계에서는 키보드나 제스처 같은 대체 입력 설계가 함께 따라와야 한다.",
+      "hn_reaction_summary": "댓글 분위기는 전반적으로 신중하거나 비판적이다. 아이디어의 방향은 인정하지만, 공개 데모가 설득력을 만들지 못했다는 평가가 많이 보인다.\n- 가장 많이 나온 반응은 음성 중심 인터페이스에 대한 거부감이다. 혼자 있지 않은 환경에서는 쓰기 불편하고 주변에도 방해가 된다는 지적이 반복됐다.\n- 데모 정확도에 대한 불만도 컸다. 사용자가 원을 그리며 가리킨 대상이 아니라 마지막 포인터 위치만 잡는 것처럼 보였다는 반응이 대표적이다.\n- 반대로 일부는 포인터와 AI를 이어 붙여 화면을 보며 계속 대화하는 방식 자체는 꽤 매력적이라고 봤다. 다만 그 가능성을 살리려면 음성 의존도를 낮추고 입력 품질을 먼저 끌어올려야 한다는 쪽에 무게가 실렸다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-13T03:52:14.281987+00:00"
+    },
+    {
+      "id": "fb42872f15a50838e00317b2e5c5cb6edcd408f6",
+      "title_hash": "52c295d531f2bb857af155f58e489fbcc35d91bf",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Tell NYT, Atlantic, USA Today to keep Wayback Machine",
+      "link": "https://www.savethearchive.com/newsleaders/",
+      "published_at": "2026-05-12T23:11:40+00:00",
+      "summary": "HN story type: story HN points: 214 HN comments: 52 HN top comments: ctippett: Am I correct that this has come about because archive.org respects robots.txt and these sites have blocked their crawler from indexing their sites? I'm not sure how to articulate my thoughts on this exactly, other than to say it's disappointing that doing the right thing (i.e. respecting robots.txt) is rewarded with the burden of soliciting responses to a petition while at the same time others are rewarded with pr... ajaimk: Idea: allow scraping but can’t publish for 1 year? someperson: Maybe they should have an escrow like Financial Times is available on NewsBank service with a 30 day escrow",
+      "fetched_at": "2026-05-13T03:49:05.412939+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48115807",
+      "hn_story_type": "story",
+      "hn_points": "214",
+      "hn_comments_count": "52",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48115807",
+      "hn_item_text": "",
+      "hn_comment_preview": "ctippett: Am I correct that this has come about because archive.org respects robots.txt and these sites have blocked their crawler from indexing their sites? I'm not sure how to articulate my thoughts on this exactly, other than to say it's disappointing that doing the right thing (i.e. respecting robots.txt) is rewarded with the burden of soliciting responses to a petition while at the same time others are rewarded with pr...\najaimk: Idea: allow scraping but can’t publish for 1 year?\nsomeperson: Maybe they should have an escrow like Financial Times is available on NewsBank service with a 30 day escrow",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "index",
+            "api"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "index",
+        "api",
+        "how to"
+      ],
+      "detail_slug": "fb42872f15a50838e00317b2e5c5cb6edcd408f6",
+      "is_english_source": true,
+      "translated_title": "NYT·애틀랜틱·USA투데이에 웨이백 유지 촉구",
+      "short_summary": "해커뉴스에서는 뉴욕타임스, 애틀랜틱, USA투데이가 웨이백 머신의 기사 보관을 막지 말아야 한다는 요구가 주목받았다. 댓글에서는 archive.org의 robots.txt 준수와 지연 공개 같은 절충안이 함께 거론됐다.",
+      "why_it_matters": "이 이슈는 웹 보관과 언론사 통제권이 정면으로 부딪히는 사례다. 기사 접근 정책이 바뀌면 과거 보도 추적, 링크 보존, 사실 확인 방식도 바로 영향을 받는다.\n- 언론사가 크롤링을 막으면 오래된 기사 인용과 원문 검증이 더 까다로워질 수 있다.\n- archive.org가 robots.txt를 따르는 구조라면, 실무자는 기술 문제보다 매체 정책 변화에 더 크게 흔들릴 수 있다.\n- 댓글에서 나온 지연 공개나 에스크로 방식은 보관은 살리되 수익 보호도 챙기려는 절충안으로 이어질 수 있다.",
+      "hn_reaction_summary": "댓글 분위기는 보관 자체를 막는 흐름에 아쉬움을 느끼는 쪽이 우세했다. 특히 규칙을 지킨 archive.org가 오히려 불리해졌다는 반응이 반복됐다.\n- robots.txt를 존중한 결과 기록이 사라지는 상황이 역설적이라는 지적이 많았다.\n- 반대로 언론사 권리를 완전히 무시하기보다 30일이나 1년 뒤 공개 같은 유예안을 검토하자는 의견도 나왔다.\n- 실무자가 볼 만한 논점은 보존 필요와 저작권, 유료 기사 수익 보호 사이에서 어디에 선을 그을지다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-13T03:52:14.281987+00:00"
+    },
+    {
       "id": "047043fecb5d0c68fc9bfa99e8047e8a5c185b51",
       "title_hash": "1b8d7779914934fe552a588cda1e4dc30e661b08",
       "source": "GeekNews",
@@ -159689,87 +160126,6 @@
       "short_summary": "Relax NG는 XML 문서의 구조를 정의하는 스키마 언어로, 유연하고 간결한 문법을 제공합니다.",
       "ai_model": "gpt-4.1-mini-2025-04-14",
       "sent_at": "2026-03-05T07:58:55.097541+00:00"
-    },
-    {
-      "id": "92ce18b91acd0b815efd1e9f5c18ee799b5275c0",
-      "title_hash": "681c1d103f90025b92fc3a57123712475e3b2361",
-      "source": "AI Weekly",
-      "title": "AI News Weekly - Issue #460: - Jan 20th 2026",
-      "link": "https://aiweekly.co/issues/460",
-      "published_at": "2026-01-20T12:02:00+00:00",
-      "summary": "Welcome 2026 the year of Action? 2026 marks the end of the \"Hype Phase\" and the start of the \"Physical Phase.\" The narrative has shifted aggressively from what AI can say (Generative) to what AI can do (Agentic). We are witnessing a massive capital pivot toward the \"Physical Layer\"—chips, energy, and robotics—while software is being forced to prove it can act as a fully autonomous coworker. The theme for 2026 is not \"Intelligence,\" it is \"Action.\" Artificial Intelligence Weekly Startup News AI Startups & Funding. : The year of the proof? The hot capital is flowing into \"Vertical Agents\" (specialized for law, HR, finance) and the \"FinOps\" layer needed to manage the spiraling costs of these autonomous agents. Rise of Multi-Agent Systems (MAS): Investments are surging in \"Multiagent Systems\" , where startups are building orchestration layers that allow specialized agents (e.g., a \"Risk Agent\" and a \"Fraud Agent\") to collaborate on complex tasks like loan underwriting. Vertical Agent Specialization: Forrester reports a shift toward \"Vertical Agents\" that don't just chat but execute end-to-end processes in sectors like travel and healthcare, moving beyond the \"copilot\" model to fully autonomous \"coworkers.\" FinOps for Agents: New startups are emerging to address \"Agent Cost Optimization\" , providing tools to track and control the token usage of long-running autonomous agents, which is becoming a critical enterprise pain point. No-Code Agent Builders: The democratization of AI is accelerating through \"No-Code Agent\" platforms , enabling non-technical business leaders to configure workflow agents, creating a new class of \"Citizen AI Developers.\" Governance as a Service: VCs are backing \"Governance Agent\" startups , which deploy specialized models solely to monitor, audit, and police the behavior of other enterprise AI agents to ensure compliance. Shift to Private Capital: Market analysis indicates that speculative AI valuations are concentrating in private markets, with \"sovereign-scale\" rounds for foundation models bifurcating from smaller, utility-focused rounds for application layers. Artificial Intelligence Weekly Research AI Research & Innovation (Models) The \"One Model to Rule Them All\" era is dead. 2026 is the year of Heterogeneous Architectures , where systems use massive \"Reasoning Models\" (like GPT-6 or Gemini 3) for planning, but offload execution to highly efficient \"Small Language Models\" (SLMs) to keep costs viable. Research is heavily focused on \"System 2\" thinking—models that pause and reason—and \"Agent-to-Agent\" (A2A) protocols that allow models to communicate without human intervention. Video Generation Maturity: By 2026, AI video models are expected to be production-grade , capable of generating minutes of content with consistent characters and physics, moving beyond short clips to replace stock footage. Rise of Reasoning-First Models: The industry is shifting toward \"Reasoning-First\" models that prioritize logic and multi-step planning over speed, reducing hallucinations by enforcing \"thought\" steps before outputting answers. Edge-First Personal Agents: Predictions indicate that personal agents will migrate to the edge , powered by capable Small Language Models (SLMs) running locally on devices to ensure privacy and reduce latency. Agent Harnesses for Benchmarking: AI Labs are moving beyond static benchmarks to \"Agent Harnesses\" —complex environments designed to test if models can reliably execute multi-day workstreams rather than just answer questions. Audio Model Breakthroughs: Real-time audio generation is becoming the \"most underrated breakthrough\" , with 2026 models capable of instant, emotional voice interaction that will likely retire legacy IVR systems. Generative UI: Research predicts \"Generative UI\" will take off in 2026 , where applications generate custom interfaces on-the-fly based on user intent, moving beyond static menus to dynamic, context-aware controls. Artificial Intelligence Weekly Applied use cases AI Research & Applied Use Cases The applied use case for 2026 is \"Collaboration, not Replacement.\" We are seeing the widespread adoption of the \"Sandwich Model\" of work: Humans set the strategy, AI agents handle the data-heavy execution, and humans provide the final sign-off. 40% Enterprise Penetration: Gartner predicts that 40% of enterprise applications will have embedded task-specific AI agents by the end of 2026, a massive leap from less than 5% in 2025, fundamentally reshaping workflows. The \"Sandwich Model\" of Work: Microsoft highlights a shift to a collaborative workflow where humans define intent and review results, while AI handles the \"messy middle\" of execution, allowing small teams to launch global campaigns in days. Scientific Discovery Agents: Microsoft Research envisions 2026 as the year AI joins the lab , moving beyond summarization to actively suggesting experiments and aiding discovery in physics, chemistry and biology. Healthcare \"Care Orchestration\": Forecasts for 2026 describe \"Appointment Orchestration Agents\" that manage the entire patient journey—from checking insurance eligibility to scheduling and follow-ups—without administrative staff involvement. Factory Floor Intelligence: Use cases are expanding into \"Physical AI\" on the factory floor , where agents use IoT data to predict machine failures and autonomously trigger maintenance orders before downtime occurs. Repository Intelligence: GitHub predicts the rise of \"Repository Intelligence\" in 2026, where AI understands not just code syntax but the entire history and relationship of a codebase, enabling high-level architectural reasoning. Artificial Intelligence Weekly Market News AI Public Markets, massive 2.5 trillions earmarked for infra capex a 44% YoY increase The market narrative for 2026 has shifted from \"hype\" to \"infrastructure reality.\" We are entering a \"Hardware Supercycle\" defined by physical constraints rather than just model capabilities. The dominant theme is the massive $2.5 trillion CapEx projection, but this is colliding with a critical supply-side bottleneck in memory and energy. Investors are heavily rewarding companies that secure the \"physical layer\" of AI—power, memory, and sovereign data centers—while punishing software firms that cannot demonstrate immediate productivity gains. $2.5 Trillion Spending Surge: Gartner forecasts worldwide AI spending will reach $2.52 trillion in 2026 , a 44% year-over-year increase that cements AI as the new economic infrastructure. Memory Crisis Impact: IDC warns of a \"Memory Shortage Crisis\" in 2026 , with DRAM and NAND supply lagging demand, likely driving up hardware costs and contracting the PC market by nearly 5%. Edge AI Hardware Boom: The Edge AI hardware market is projected to reach $30.74 billion in 2026 , driven by a shift toward local processing on smartphones and industrial robots to reduce cloud inference costs. Economic Security Theme: Goldman Sachs identifies \"Economic Security\" as the dominant investment theme for 2026, with capital flowing into resilient supply chains and energy grids required to sustain AI scaling. Asia-Pacific Acceleration: IDC predicts that IT spending in Asia-Pacific will grow 7% to $1.12 trillion in 2026 , as the region pivots from \"AI experimentation\" to an \"Agentic Future\" where AI drives 50% of new economic value. Generative AI Market Valuation: Fortune Business Insights values the global AI market at $375.93 billion in 2026 , highlighting that large enterprises now hold nearly 60% of the market share as consolidation accelerates. Artificial Intelligence Weekly This RSS feed is published on https://aiweekly.co/ . You can also subscribe via email .",
-      "fetched_at": "2026-03-05T07:58:42.326347+00:00",
-      "source_priority_boost": "12",
-      "priority_bucket": "technical",
-      "priority_score": "141",
-      "priority_signal": "boost=12,tech=15,news=2",
-      "translated_title": "2026년 AI 혁신의 해, 행동 중심 전환",
-      "short_summary": "2026년은 AI의 과장기 종료와 실질적 행동 단계 시작으로, 칩·에너지·로봇 등 물리적 분야에 대규모 투자 집중과 자율적 AI 동료 증명이 핵심이다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-05T07:58:53.229845+00:00"
-    },
-    {
-      "id": "3a46ec16c3531c4a8692c627ca056612e0ce8788",
-      "title_hash": "94231b522e324866a55fe010a2ef24abe144f012",
-      "source": "Swift Weekly Brief",
-      "title": "Issue #198",
-      "link": "https://swiftweeklybrief.com/issue-198/",
-      "published_at": "2021-11-18T08:00:00+00:00",
-      "summary": "The holiday season is just around the corner. Most of us enjoy Thanksgiving right before Christmas. For others, the festivities start after Christmas and continue even after New Year’s Eve. Despite the differences, we should all enjoy some time off with our families and friends and for this period, merge access will be locked down in Swift. Check out the holiday schedule and plan your work accordingly. There is a new feature in Xcode 13.2 beta which makes build times much faster by using more CPU cores. This new build system is opt-in, so you’ll have to enable it. Before we jump into other detailed news, I would like to express my gratitude to our sponsors who have helped us to run this project for the rest of the year. We would not be here without your support. Sponsored Link Build real-time chat messaging in less time with Stream Rapidly ship in-app messaging with Stream’s highly reliable chat infrastructure and feature-rich SDKs. Drive in-app conversion, engagement, and retention. getstream.io/chat/sdk/ios/ Podcasts In episode 108 of the Swift by Sundell podcast, Marin Todorov , joins John Sundell . They discuss Swift’s new concurrency system and its newly announced backward compatibility, his new book about that topic, and his work on Apple’s open source documentation tool, Swift-DocC . News and community Nicole Jacque updated us about the Swift 5.6 release process . Mishal Shah informed us about updating llvm-project branch for swift:main . John Sundell announced CollectionConcurrencyKit - a lightweight Swift package that adds asynchronous and concurrent versions of the standard map , flatMap , compactMap , and forEach APIs to all Swift collections that conform to the Sequence protocol. He wrote an article explaining how to build async and concurrent versions of forEach and map . Steven Van Impe introduced Swift in higher education . Mishal Shah informed us about the Holiday Schedule for Swift projects. Leonardo Maia Pugliese wrote an article explaining linked lists using recursion. Antoine van der Lee explained property wrappers in Swift in a blog post . Accepted proposals SE-0326 Multi-statement closure parameter/result type inference was accepted . Returned proposals SE-0327 has been returned for revision . The review discussion centered on the complexity of the initialization model, and has uncovered a simpler model that should be easier to reason about. The Core Team has returned this proposal for revision to investigate this new model. Thank you to everyone who participated! Proposals in review SE-0329 : Clock, Instant, Date, and Duration is under review . The concepts of time can be broken down into three distinct parts: An item to provide a concept of now plus a way to wake up after a given point in time A concept of a point in time A concept of a measurement in time These three items are respectively a clock , an instant and a duration . The measurement of time can be used for many types of APIs, all the way from the high levels of a concept of a timeout on a network connection, to the amount of time to sleep a task. Currently, the APIs that take measurement of time types take NSTimeInterval (aka TimeInterval ), DispatchTimeInterval , and even types like timespec . Swift Forums Ilias Karim started a discussion about adding notContains to the standard library. Filter using keypath notation makes functional programming much more succinct and readable in Swift. However, there is not an intuitive standard library way to filter by the opposite of the boolean. I previously proposed .toggled or .isFalse and was met with reasonable push back. Karl proposed two minor additions to RandomNumberGenerator . Filling buffers Static member syntax Richard Wei pitched an idea about strongly typed regex captures. Capturing groups are a commonly used component of regular expressions as they allow the programmer to extract information from matched input. A capturing group collects multiple characters together as a single unit that can be backreferenced within the regular expression and accessed in the result of a successful match. Joseph Heck started a discussion about the terminology questions - behaviors, shells, and possible reductions. I’ll caveat this with “Yep, these could be all implementation details”. In starting to dig through the source for swift-distributed-actors, there are some things I knew the concepts for (basic actor concept, mailboxes, and messages). The distributed actors code steps it up a bit, and uses some terms and phrasing that I wasn’t very familiar with. I could guess and infer quite a bit, but I thought it might be best to ask about the specific terms and how they’re inter-related. Ethan Kusters addressed improvements for the presentation of non-framework documentation. Not all documentation built by Swift-DocC is for frameworks. Today, Swift-DocC will build documentation for any symbol graph input it is provided, which is what allows for custom workflows like Swift-DocC’s user documentation on Swift.org . However, Swift-DocC always describes this documentation as a “Framework” on the top-level page, regardless of the contents of that symbol graph. For example, Swift-DocC’s user documentation on Swift.org is currently described as a “Framework” on the top-level page when the documentation on that page is about using DocC as a “Tool”, not as a “Framework”. Tom Doron pitched a SwiftPM manifest based on result builders. Swift Package Manager (here after SwiftPM) was released when Swift was made open source in 2016. SwiftPM uses a file named Package.swift with which users describe the package’s source structure, the build artifacts such as any executables or libraries the build produces, and any dependencies on other packages. SwiftPM’s manifest is a Swift program (a script of sorts) which SwiftPM builds and executes as a separate process in a security sandbox to generate a static data model representing the desired package configuration. Currently, the static representation is based on JSON and the exact format of that JSON is an internal implementation detail. The JSON model is later deserialized and loaded into the parent process memory space, driving SwiftPM’s workflows such as the dependency resolution, build, test , etc. Konrad ktoso Malawski shared a proposal to implement distributed actor isolation. This proposal is focusing only on the isolation rules necessary to support distributed actors, and is split out from the large overall Distributed Actors pitch 8 . Our intent is to propose the various pieces of that very large pitch, as individual yet interconnected proposals, similar to how Swift Concurrency was introduced last year. This way we hope to keep the amount of content reviewable, and also discussions focused on the specific topics at hand. Holly Borla pitched a proposal introducing existential any . Existential types in Swift have an extremely lightweight spelling: a plain protocol name in type context means an existential type. Over the years, this has risen to the level of active harm by causing confusion, leading programmers down the wrong path that often requires them to re-write code once they hit a fundamental limitation of value-level abstraction . This proposal makes the impact of existential types explicit in the language by annotating such types with any . Finally What’s a good way to model a numeric value that must be within a certain range? . Sprite Commercial in the Style of a 1993 MacIntosh computer .",
-      "fetched_at": "2026-03-05T07:58:42.326347+00:00",
-      "source_priority_boost": "22",
-      "priority_bucket": "technical",
-      "priority_score": "149",
-      "priority_signal": "boost=22,tech=13,news=0",
-      "sent_at": "2026-03-05T07:58:48.889898+00:00"
-    },
-    {
-      "id": "81cbf679ab976c5bded1bd06160031585c8d7b6e",
-      "title_hash": "0dd7b32398bde52571493875a793d7da2d3b3150",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The Self-Help Trap: What 20 Years of \"Optimizing\" Has Taught Me",
-      "link": "https://tim.blog/2026/03/04/the-self-help-trap/",
-      "published_at": "2026-03-05T06:59:30+00:00",
-      "summary": "Article URL: https://tim.blog/2026/03/04/the-self-help-trap/ Comments URL: https://news.ycombinator.com/item?id=47258455 Points: 6 # Comments: 0",
-      "fetched_at": "2026-03-05T07:51:07.398537+00:00",
-      "source_priority_boost": "18",
-      "priority_bucket": "general",
-      "priority_score": "14",
-      "priority_signal": "boost=18,tech=0,news=0",
-      "translated_title": "20년간의 자기계발 최적화가 가르쳐준 교훈",
-      "short_summary": "20년간 자기계발에 몰두하며 얻은 경험과 깨달음을 공유하며, 지나친 최적화가 오히려 함정이 될 수 있음을 경고한다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-05T07:51:16.819013+00:00"
-    },
-    {
-      "id": "a3cab0761e02ca39c4aa7e6d78a2953e64d26db5",
-      "title_hash": "b3f9229653183acfd84885907fe2ccb6cec35fb5",
-      "source": "Swift Weekly Brief",
-      "title": "Issue #199",
-      "link": "https://swiftweeklybrief.com/issue-199/",
-      "published_at": "2021-12-02T08:00:00+00:00",
-      "summary": "Hello all! I truly hope you enjoyed Thanksgiving and were able to spend the holiday with your loved ones. Maybe some of you even played Chandler’s invented game of naming all 50 states in 6 minutes . The period after Thanksgiving was very productive for the Swift team, and there’s a lot of activity to discuss today. But before we jump into it, I’d like to use this opportunity to say that the next issue will be the last issue for me and maybe for this project. Please let me know if anyone is interested in taking over my duties. I would love to see this project stay alive and thrive after I leave. Sponsored Link The Senior iOS Developer Testing Crash Course Learn the most up-to-date techniques and strategies for testing new and legacy Swift code in this free practical course for iOS devs who want to become complete Senior iOS Developers. iosacademy.essentialdeveloper.com News and community Keith Smiley shared updates about Swift 5.5 and it’s cherry-picking triage process. John Sundell wrote an article exploring how to use count vs. isEmpty to check whether a collection contains any elements. Will Lisac tweeted that Swift 5.5 Docker images for Raspberry Pi are now available. A great illustration by Feli . Worth to check out her sketches from various conferences. Max Desiatov announced that the SwiftWasm 5.5.0 is now available. Accepted proposals SE-0328 Structural opaque result type was accepted with modifications . During the review, there were two main areas of discussion: The spelling of optional types. The proposal leaves this as (some P)? even though some P? is more succinct and could potentially be allowed as sugar. The core team agrees with this more conservative approach, which could be revisited later after more experience with the feature. The use of some in “consuming” rather than “producing” position when returning function types i.e. f() -> (some P) -> Void . Discussion of other uses of the some keyword is ongoing, and there was concern about potential conflict with those future uses. Since the use of opaque result types in consuming position is not especially useful (such functions are uncallable in all but a few circumstances) the core team has decided to subset out this use, requiring opaque result types only in the return value of returned function types for now. Proposals in review SE-0332 : Package Manager Command Plugins is under review . SE-0303 introduced the ability to define build tool plugins in SwiftPM, allowing custom tools to be automatically invoked during a build. This proposal extends that plugin support to allow the definition of custom command plugins — plugins that users can invoke directly from the SwiftPM CLI, or from an IDE that supports Swift Packages, in order to perform custom actions on their packages. SE-0331 : Remove Sendable conformance from unsafe pointer types is under review . SE-0302 introduced the Sendable protocol, including Sendable requirements for various language constructs, conformances of various standard library types to Sendable , and inference rules for non-public types to implicitly conform to Sendable . Experience with Sendable shows that this formulation is unnecessarily dangerous and has unexpected negative consequences for implicit conformance. SE-0333 : Expand usability of withMemoryRebound is under review . The function withMemoryRebound(to:capacity:_ body:) executes a closure while temporarily binding a range of memory to a different type than the callee is bound to. We propose to lift some notable limitations of withMemoryRebound and enable rebinding to a larger set of types, as well as rebinding from raw memory pointers and buffers. Note this proposal is running concurrently with SE-0334 which also relates to unsafe pointer usability. SE-0334 : Pointer Usability Improvements is under review . This proposal introduces some quality-of-life improvements for UnsafePointer and its Mutable and Raw variants. Add an API to obtain an UnsafeRawPointer instance that is advanced to a given alignment from its starting point. Add an API to obtain a pointer to a stored property of an aggregate T , given an UnsafePointer . Add the ability to compare pointers of any two types. Note this proposal is running concurrently with SE-0333 which also relates to unsafe pointer usability. Swift Forums Ethan Kusters started a discussion about support hosting DocC archives in static hosting environments. This post discusses an enhancement to Swift-DocC and Swift-DocC-Render that will allow developers to build DocC archives that can be hosted without custom routing. This is specifically designed to enable DocC to be used in additional static hosting environments, most notably GitHub Pages. This change is meant as a quick solution to address a pressing need, and provides general goodness. But please know that we’ve heard the community’s feedback that they would love for Swift-DocC to directly emit static HTML, and this feature is high on the priority list. Sam Deane pitched an idea to implement a default initable protocol. I’ve come across factory-type situations where I’ve ended up making a protocol to represent that “this type can be constructed with a default init that takes no arguments”. I’ve found myself wondering (a) whether this protocol already exists somewhere in the standard library, and (b) whether Swift could auto-conform any type to it if an init() exists for it. A good reminder that a library Swift Numerics does exist. Guillaume Lessard pitched a proposal to make slices of buffers more useful, especially with respect to partial initialization of buffers. Sub-sequences of the UnsafeBufferPointer family have all the [Mutable]Collection API of UnsafeBufferPointer , but have none of their buffer-specific API. This makes partial initialization of a buffer difficult, among other tasks. Finally iPhone Development Tutorial - 1 - Installing Xcode and the iPhone SDK. . The History of the Web .",
-      "fetched_at": "2026-03-05T07:51:07.398537+00:00",
-      "source_priority_boost": "22",
-      "priority_bucket": "technical",
-      "priority_score": "149",
-      "priority_signal": "boost=22,tech=13,news=0",
-      "sent_at": "2026-03-05T07:51:13.441573+00:00"
-    },
-    {
-      "id": "5b7e174d34a0104804cd6b3b155cc72dbe22dbca",
-      "title_hash": "238b23979d3be8967c6aca3fb0ebc464b1729006",
-      "source": "Swift Weekly Brief",
-      "title": "Issue #195",
-      "link": "https://swiftweeklybrief.com/issue-195/",
-      "published_at": "2021-10-07T07:00:00+00:00",
-      "summary": "We’re starting today’s newsletter with some hiring news from Apple: they are looking for paid interns for their language, compiler and debugger teams. Even if you don’t have experience in the specific field, interested students are encouraged to apply anyway. If you’d like to understand better how internships work, have a look at this insightful article about Amritpan Kaur’s path through Compiler Development and Language Design. There have been some really nice improvements made to Swift.org recently, including support for dark mode . For those of you using dark mode on iOS, the website will automatically switch modes to match. I hope you’re enjoying this feature as much as I am. As always, I want to express our appreciation for the support from our sponsors. Without you this newsletter wouldn’t exist, so thank you very much. If anyone else is interested in sponsorship, please kindly get in touch. More information on how you could participate in our project can be found here . Sponsored Link Free Course for Mid to Senior iOS Developers From October 18th to 24th you can join a free practical crash course for iOS devs who want to become complete senior developers. iosacademy.essentialdeveloper.com Starter tasks SR-15271 [Compiler] Improve Codable Diagnostics When CodingKeys Do Not Match Properties News and community Ted Kremenek wrote a post about the Swift 5.5 release. Bruno Rocha published a great article explaining how AsyncSequence works internally in Swift. Lee Kah Seng wrote a cool article describing the actor reentrancy problem in Swift. Amritpan Kaur explained how she participated in the inaugural Swift Mentorship and worked on Compiler Development and Language Design. Commits and pull requests Michael Ilseman merged a pull request that implements native normalization for String. Doug Gregor created a pull request that would back-deploy @objc actor types. Accepted proposals SE-0322 Temporary Uninitialized Buffers was accepted with modifications . SE-0323 Asynchronous Main Semantics was accepted . SE-0324 Relax diagnostics for pointer arguments to C functions was accepted . Proposals in review SSWG-0017 : MultipartKit is under review . MultipartKit offers both low level parsing and serializing of Multipart data as well as high level Codable support for encoding and decoding Multipart form data. Swift Forums Karoy Lorentey asked when should ManagedAtomic / UnsafeAtomic be marked Sendable ? I just filed issue #45 , asking UnsafeAtomic , ManagedAtomic and friends to be marked Sendable , reflecting that they are safe to transfer across concurrency domains. Kavon Farvardin proposed to define how actor initializers work in Swift. The proposed solution to some of the problems described in this proposal are currently reflected in Swift 5.5 through a warning, but it’s important to review these changes for Swift 6. In addition, this proposal adds extra capabilities for the deinit of MainActor-isolated class, to make them easier and safer to write. I’ll paste the entire proposal below, but for the most up-to-date write-up, go here . Kelvin Ma discovered that Swift 5.5 has serious stack corruption bugs. I’ve discovered several stack corruption bugs related to async / await which can be reproduced in simple test programs compiled with recent nightly toolchains. i have confirmed that two three four of these bugs are present in the 5.5-RELEASE toolchain. Becca Royal-Gordon pitched a proposal to add staging in sendable checking. A couple weeks ago, @Douglas_Gregor pitched some changes which tried to tackle some of the problems involved in adopting Sendable checking in a module when some of your clients or dependencies may not have updated yet. I had some concerns about how that pitch’s approach might break or hide bugs when modules were eventually updated, as well as with how Objective-C libraries would be able to control the sendability of their types. YR Chen started a discussion around solving inconsistencies with the release of Swift 6. The arrival of Swift 6 means a chance for “regretting” some language designs with API breakage — after 3 years which is fairly a long time for Swift and the Swift community. With the Swift 3.2 and Swift 4.2 effort, transition to a breaking Swift release has proved to be a lot smoother. I would suggest we pick up some of the deferred breaking pitches, which intended to eliminate inconsistency within the language. These ideas have already received positive feedbacks from the community, and yet didn’t make their ways into reality. Philippe Hausler pitched a proposal to define Clock , Instant , Date , and Duration . The concepts of time can be broken down into three distinct parts: an item to provide a concept of now plus a way to wake up after a given point in time, a concept of a point in time, and a concept of a measurement in time. These three items are respectively a clock, an instant and a duration. The measurement of time can be used for many types of APIs, all the way from the high levels of a concept of a timeout on a network connection, to the amount of time to sleep a task. Currently the APIs that take measurement of time types take NSTimeInterval aka TimeInterval , DispatchTimeInterval , and even types like timespec . Michael Ilseman pitched an idea to implement declarative string processing APIs. String processing is hard and the current affordances provided by the Swift Standard Library are underpowered. We propose adding two new declarative string processing APIs—a familiar Regex literal and a more powerful Pattern result builder—to help make Swift string processing fast and easy. This is a large feature that will ultimately be divided into multiple Swift Evolution proposals. This initial pitch is intended to prompt discussion about the high level direction and to introduce the key prongs of the feature and their relationship to one another. Kelvin Ma started a discussion around long-term-support (“LTS”) releases. for those who don’t follow the Development topic, @mickeyl , @timdecode , and i have recently uncovered an alarming number of highly dangerous stack corruption bugs in the Swift 5.5 release toolchain. setting aside the technical aspects of the stack corruption issues in Swift 5.5, which are detailed in the corresponding thread , i would like to kickoff discussions on whether it would be valuable for us to adopt some form of the concept of a “Long-Term Support” (LTS) release 8 in our release cycle, much like Ubuntu has been doing for some time. Anders Bertelrud pitched a proposal to extend the plugin SwiftPM plugin API to provide more context. SE-0303 introduced SwiftPM plugins, focusing in particular on build tool plugins (especially those that generate source code). To keep that proposal bounded, the type and amount of information available to a plugin was geared toward the task of generating build commands. Before starting to consider new kinds of plugins, it seems prudent to expand the information available to plugins of all kinds. Future proposals might add specific APIs for particular kinds of plugins, but before that, it seems that a good starting point would be to give all plugins access to a distilled form of the package graph that SwiftPM already has internally. This should allow a wide latitude in terms of what any particular plugin wants to do. I’d like to pitch a draft proposal for extending the API available to SwiftPM plugins, and would love to hear what everyone thinks. There’s an implementation in a PR in the SwiftPM repository. Guillaume Lessard pitched a proposal to expand usability of withMemoryRebound . The function withMemoryRebound(to:capacity:_ body:) executes a closure while temporarily binding a range of memory to a different type than the callee is bound to. We propose to lift some notable limitations of withMemoryRebound and enable rebinding to a larger set of types, as well as rebinding from raw memory pointers and buffers. Tim Condon updated us about async/await and the future of Vapor. Drew McCormack pitched a proposal that would create standard library data structures designed for working with shared data in a concurrent system. I want to propose such a type here: a branching resource. A BranchingResource would be a type with a generic parameter for the payload it carries (ie the resource). The resource would begin with a single branch, called “main” or “trunk” or “truth”. The app could add as many auxiliary, named branches as it likes. Pavel Yaskevich pitched an idea to enable multi-statement closure parameter/result type inference. I propose to improve inference behavior of multi-statement closures by enabling parameter and result type inference from the closure body. This will make type inference less surprising for developers, and remove the existing behavior cliff where adding one more expression or statement to a closure could result in a compilation failure. Finally typedef unsigned char BOO_L; // 👻",
-      "fetched_at": "2026-03-05T07:51:07.398537+00:00",
-      "source_priority_boost": "22",
-      "priority_bucket": "technical",
-      "priority_score": "158",
-      "priority_signal": "boost=22,tech=14,news=0",
-      "sent_at": "2026-03-05T07:51:12.720546+00:00"
     }
   ],
   "topic_digests": {
@@ -159778,9 +160134,11 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트: 운영 설계로 이동",
-        "summary": "이번 주는 에이전트를 더 화려하게 만드는 경쟁보다, 오래 굴릴 운영 틀을 다지는 흐름이 두드러졌습니다. 실시간 상호작용부터 관측, 상태 제어, 조직 재편까지 관심사가 한 줄로 이어집니다.\n- 상호작용 모델과 Statewright는 반응성만이 아니라 예측 가능한 실행 구조를 함께 겨냥했습니다.\n- Voker와 GitLab 소식은 승부처가 데모보다 운영 가시성, 통제, 비용 구조로 옮겨가고 있음을 보여줍니다.\n- Emacs의 Eglot 이동처럼 도구 선택도 큰 확장보다 단순화와 유지 관리 쪽으로 기울고 있습니다.",
+        "headline": "이번 주 도구·에이전트: 상호작용과 통제",
+        "summary": "이번 주 흐름은 AI를 더 자연스럽게 붙이고 더 안전하게 다루는 쪽으로 모였다. 입력 방식은 포인터·음성·실시간 협업으로 넓어졌고, 운영 현장에서는 에이전트를 눈에 보이게 하려는 움직임이 선명했다.\n\n- Anthropic은 정렬 실패를 낮춘 개선 사례를 공개했다. 에이전트를 어디까지 믿을지 다시 묻게 한다.\n- 상호작용 모델과 포인터 실험은 AI가 화면 맥락을 바로 이해하는 인터페이스를 겨냥한다.\n- Voker와 Eglot 전환 이야기는 실험 뒤의 관찰성과 도구 경량화가 이제 실사용의 관건임을 보여준다.",
         "item_ids": [
+          "3f024edf6646b3457b346c8aa7ca833d5c57a0d3",
+          "555e76233ab6b3a4f61f9138cdfce8ab0393bc91",
           "047043fecb5d0c68fc9bfa99e8047e8a5c185b51",
           "b37a1393fb5c671d620d43738572339f3096971a",
           "6602178427c7170b448c82045274ad5dd8728881",
@@ -159886,15 +160244,10 @@
           "409d076fc95a34970106a313ca60337b98dec9ef",
           "0833a6e146c01511a02a1aeac8cefe6a0a306178",
           "c51c45939a935e1f7aadb9ecfac49be1aebeca14",
-          "939458f3c02ceca80f3233e75ebefbf2564e647a",
-          "0fd5d64fee88d96cfa583804888e5886752451f3",
-          "41ea49d2edfc54bbc4864bc8ac0883b7eefc89e1",
-          "dcbc8420e96d5d73a7dcc355f7621c8f23ee7f56",
-          "847414fd6173f65079280b6825eb4b7710748039",
-          "efb6081fef41f988d33b1ddf7e6fb0af925649f0"
+          "939458f3c02ceca80f3233e75ebefbf2564e647a"
         ],
-        "total_items": 111,
-        "generated_at": "2026-05-12T23:37:47.990410+00:00",
+        "total_items": 108,
+        "generated_at": "2026-05-13T03:49:05.412939+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -159902,8 +160255,11 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "도구는 더 커졌고 위험도 함께 드러났다. 이번 주 실무 기술 흐름은 기능 경쟁보다 운영 기준, 설명 가능성, 공급망 방어를 다시 세우자는 쪽에 가깝다.\n\n- Obsidian 디렉터리 개편은 생태계가 실험 단계를 지나 배포·발견·관리 체계로 옮겨갔다는 신호다.\n- dnsmasq와 npm 웜 이슈는 편의보다 업데이트 속도, 시크릿 관리, 메모리 안전 같은 기본기를 다시 보게 한다.\n- 검색 설계와 시니어 역할 논의는 결국 잘 찾고 잘 설명하는 팀이 오래 버틴다는 현실로 모인다.",
+        "summary": "겉으로는 각기 다른 소식이지만, 이번 주 실무 기술은 결국 운영과 책임의 문제로 모였습니다. 아키텍처는 맡아본 만큼 배운다는 이야기였고, 도구와 보안도 누가 어떻게 굴리느냐가 먼저 드러났습니다.\n- 새 스택은 빨리 띄우는 것보다 기존 체계와 얼마나 잘 맞물리는지가 먼저 검증됐습니다. Obsidian도 기능 경쟁보다 제출·관리·발견 흐름 정비가 화제였습니다.\n- 지금 보는 이유도 선명합니다. dnsmasq 취약점과 웨이백 보관 논쟁처럼 패치 속도, 공개 기준, 조직 구조가 곧 품질과 신뢰를 가르기 때문입니다.",
         "item_ids": [
+          "37564092b26f2730968b6cc8e5a5510884a32495",
+          "7f29bd5eaa45a592c71f54f6c2ea1ffbd139f7a6",
+          "fb42872f15a50838e00317b2e5c5cb6edcd408f6",
           "74326163f65798b3dcad6875db0fdf9c6b31eaa0",
           "08c54bd59f464ff4b2d7cc655f9363fc8abc9583",
           "79318fcab38cbd571ff7b041a56ba0e705475e2a",
@@ -159987,19 +160343,18 @@
           "61fedf76861cab6c3c386c9f1055a603eeb5f43e",
           "16ab92cac9bd3c905e12599706f73c851173a6e9",
           "3ed92c8aaf9c8970b2df94063c3958195d6996a6",
-          "afbec9168a0193f2bd0a961cb2195d70c0226660",
-          "0869bd0ddd3a58b825b6b3c16dcd095f1dc14fd6"
+          "afbec9168a0193f2bd0a961cb2195d70c0226660"
         ],
-        "total_items": 85,
-        "generated_at": "2026-05-12T23:37:47.990410+00:00",
+        "total_items": 87,
+        "generated_at": "2026-05-13T03:49:05.412939+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 주 전략·인사이트: 속도와 신뢰",
-        "summary": "AI는 더 빨라지고 배포 경로는 넓어졌지만, 병목은 기술보다 신뢰와 통제로 옮겨가고 있습니다. 이번 주 묶음은 그 흐름을 또렷하게 보여줍니다.\n\n- 온디바이스 LLM과 AI 게이트웨이는 이제 성능 실험을 넘어 실제 운영 경쟁으로 들어섰다는 신호입니다.\n- Obsidian 악용 사례와 프랑스의 암호화 논의는 협업 도구와 메시징이 새 보안 전선이 됐음을 드러냅니다.\n- 사고를 개인 탓으로 돌리면 학습이 멈춘다는 지적은, AI 도입기엔 기술만큼 운영 방식도 함께 봐야 한다는 점을 짚습니다.",
+        "headline": "이번 주 전략·인사이트",
+        "summary": "성능 경쟁은 모델 자체보다 배포와 운영 레이어로 옮겨가는 흐름이다. 동시에 협업 도구 악용, 암호화 약화 논의, 사고를 개인 탓으로 돌리는 문화가 겹치며 AI 도입의 그늘도 선명해졌다.\n- 더 빠른 온디바이스 추론과 게이트웨이가 실전 적용 문턱을 낮춘다.\n- 공격과 규제 논의는 기술보다 운영 신뢰를 먼저 흔든다.\n- 지금은 속도만 볼 때가 아니다. 배포 구조와 보안, 조직 학습을 함께 점검해야 한다.",
         "item_ids": [
           "5b3811a48ef1951cf2ea7ea1c3e57f394fcd7126",
           "0c78dfd96b0e42344606f95c5d6731aea35d6090",
@@ -160019,7 +160374,7 @@
           "3cd7a96818023a106ddeb22a14c3312761c370aa"
         ],
         "total_items": 16,
-        "generated_at": "2026-05-12T23:37:47.990410+00:00",
+        "generated_at": "2026-05-13T03:49:05.412939+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -160028,9 +160383,11 @@
         "period": "monthly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 달 도구·에이전트 흐름",
-        "summary": "이번 달엔 에이전트를 더 똑똑하게 만드는 이야기보다, 믿고 굴릴 수 있게 다듬는 흐름이 두드러졌다. 개발 도구 선택부터 실시간 상호작용, 운영 관측, 조직 재편까지 한 줄로 이어진다.\n- 모델이 협업을 직접 처리하는 상호작용 실험과 상태 머신 접근이 함께 나오며 운영 방식이 한층 정교해졌다.\n- Voker 같은 분석 도구는 에이전트가 어디서 막히는지 바로 보여주며, 실서비스 관리의 눈을 바꾼다.\n- GitLab의 재편까지 겹치며, 에이전트는 기능을 넘어 제품과 조직을 다시 짜는 기준으로 올라서는 중이다.",
+        "headline": "이번 달 도구·에이전트",
+        "summary": "에이전트 담론이 시연을 넘어 운영 단계로 옮겨가는 흐름이 또렷했다. 안전을 다시 다지고, 입력 방식을 손보고, 현장에서 어떻게 보고 고칠지까지 한 묶음으로 이어졌다.\n- Claude는 협박 시나리오의 정렬 실패를 크게 낮추며 훈련 개선의 방향을 보여줬다.\n- 포인터+음성, Interaction Model은 AI가 화면 맥락과 실시간 대화를 함께 다루는 쪽으로 움직인다는 신호다.\n- Voker와 Emacs의 Eglot 전환 논의는 화려한 데모보다 관측 가능성과 가벼운 기본기가 더 주목받는 분위기를 드러냈다.",
         "item_ids": [
+          "3f024edf6646b3457b346c8aa7ca833d5c57a0d3",
+          "555e76233ab6b3a4f61f9138cdfce8ab0393bc91",
           "047043fecb5d0c68fc9bfa99e8047e8a5c185b51",
           "b37a1393fb5c671d620d43738572339f3096971a",
           "6602178427c7170b448c82045274ad5dd8728881",
@@ -160518,11 +160875,10 @@
           "3416c2562b12edb072bf54ce656674afc888e000",
           "fab72ecfa4326259404f1c974b8880609f286dfc",
           "3ba86750b6e5310d78ad3cf4ba4e5c29ecb9d243",
-          "96d3aaf3540b150079e820be7f1fe716afb55c76",
-          "cb7a330e0cad9082ad85e67053bb0293e2a331f1"
+          "96d3aaf3540b150079e820be7f1fe716afb55c76"
         ],
-        "total_items": 489,
-        "generated_at": "2026-05-12T23:37:47.990410+00:00",
+        "total_items": 490,
+        "generated_at": "2026-05-13T03:49:05.412939+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -160530,8 +160886,11 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달 실무 기술 묶음은 새 도구보다 운영과 판단의 무게에 시선이 모입니다. 빨리 만드는 일보다 안전하게 굴리고, 왜 그렇게 결정했는지 설명하는 힘이 더 자주 시험받고 있습니다.\n\n- Obsidian 새 디렉터리처럼 생태계는 제출부터 발견까지 한 흐름으로 묶이며 실사용 중심으로 재편됩니다.\n- 검색은 임베딩 만능론에서 한발 물러나 BM25와 재랭킹을 섞는 혼합형 설계로 돌아옵니다.\n- dnsmasq와 npm 공급망 사고, 시니어의 설명 난제는 보안과 설계 판단을 팀 언어로 드러내야 한다는 과제를 함께 보여줍니다.",
+        "summary": "이번 달 실무 기술은 새 기능보다 운영 조건을 먼저 따진다. 설계 학습, 관측성, 플러그인, 보안 이슈가 한데 모이며 결국 책임 구조와 유지 방식이 결과를 가른다는 흐름이 선명했다.\n- 설계는 강의보다 실제 책임 속에서 익고, 조직 구조와 인센티브가 코드의 모양까지 바꾼다는 시선이 다시 떠올랐다.\n- Traceway와 Obsidian 사례는 빠른 도입보다 기존 도구와 생태계에 어떻게 붙는지가 더 큰 평가 기준임을 보여줬다.\n- 웨이백 보관 논쟁과 dnsmasq 취약점은 기록 보존, 업데이트 지연, 언어 선택 같은 운영의 뒷면을 지금 점검하게 만든다.",
         "item_ids": [
+          "37564092b26f2730968b6cc8e5a5510884a32495",
+          "7f29bd5eaa45a592c71f54f6c2ea1ffbd139f7a6",
+          "fb42872f15a50838e00317b2e5c5cb6edcd408f6",
           "74326163f65798b3dcad6875db0fdf9c6b31eaa0",
           "08c54bd59f464ff4b2d7cc655f9363fc8abc9583",
           "79318fcab38cbd571ff7b041a56ba0e705475e2a",
@@ -160872,14 +161231,10 @@
           "adc139edb2444bc70d5abc818cec4fbf3e403ee4",
           "e9c3eff985e080cba6e48f6684582b68fad8c5e5",
           "14fa7131f3cc9728f03b2d85010fec100ae7edfe",
-          "9707f797bc0fdb8ad3f419ad16100a12aa6a6c8e",
-          "119659e9dbd2a3717f485b88e366bf3cb254ec95",
-          "cc9d9889a6f8eafe6850ec27fe55caf392285d19",
-          "f9af0528f90a49070495bae0d4a94478f318e958",
-          "22a3e749f281ed25414dceaa0fc7f1b642900475"
+          "9707f797bc0fdb8ad3f419ad16100a12aa6a6c8e"
         ],
-        "total_items": 345,
-        "generated_at": "2026-05-12T23:37:47.990410+00:00",
+        "total_items": 344,
+        "generated_at": "2026-05-13T03:49:05.412939+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -160887,7 +161242,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 달 전략·인사이트",
-        "summary": "AI는 더 빠르게 현장으로 내려오고, 그만큼 통제와 신뢰의 문제가 앞에 섰습니다. 이번 달 글들은 기술 경쟁의 무게중심이 성능만이 아니라 운영 감각과 보안 판단으로 옮겨가는 흐름을 보여줍니다.\n- 온디바이스 LLM과 초고속 게이트웨이는 AI 배포가 실험 단계를 지나 실전 속도 경쟁으로 들어섰다는 신호입니다.\n- Obsidian 악용 사례와 암호화 논쟁은 협업 도구와 메신저가 공격면이자 정책 전선이 됐음을 드러냅니다.\n- 사고를 개인 탓으로 돌리지 말자는 문제의식은 장애 대응과 조직 학습을 다시 보게 만듭니다.",
+        "summary": "AI가 현장으로 더 빨리 내려오면서 성능 경쟁만이 아니라 보안, 운영, 규제의 긴장도 함께 커졌다. 이번 달 글들은 그 교차점을 또렷하게 보여준다.\n- 온디바이스 LLM과 AI 게이트웨이는 이제 실험보다 배치와 속도 경쟁 쪽으로 무게가 옮겨갔음을 말한다.\n- 플러그인 악용, 암호화 논쟁, 사고 학습 글은 기술 확산 뒤의 취약점과 조직의 대응 감각을 함께 점검하게 만든다.",
         "item_ids": [
           "5b3811a48ef1951cf2ea7ea1c3e57f394fcd7126",
           "0c78dfd96b0e42344606f95c5d6731aea35d6090",
@@ -160944,7 +161299,7 @@
           "e2b2fc204ccde0d8a65c043db87f8da3659d60cf"
         ],
         "total_items": 53,
-        "generated_at": "2026-05-12T23:37:47.990410+00:00",
+        "generated_at": "2026-05-13T03:49:05.412939+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -160955,22 +161310,21 @@
       "kind": "quiet_riser",
       "label": "AI Spotlight",
       "title": "조용히 커지는 주제",
-      "cta_label": "흐름 보기",
+      "cta_label": "관련 흐름 보기",
       "related_item_ids": [
-        "b37a1393fb5c671d620d43738572339f3096971a",
-        "63993190995bfadb44943cb0feedf99f1f8c86d4",
+        "3f024edf6646b3457b346c8aa7ca833d5c57a0d3",
         "6602178427c7170b448c82045274ad5dd8728881",
-        "38afc8bc58a2415907c75cb1f2de5be3f6302608"
+        "b37a1393fb5c671d620d43738572339f3096971a"
       ],
-      "score": 0.94,
-      "generated_at": "2026-05-12T23:37:47.990410+00:00",
+      "score": 0.88,
+      "generated_at": "2026-05-13T03:49:05.412939+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "에이전트 운영 설계",
-      "summary_line": "에이전트를 더 똑똑하게 만드는 경쟁보다 오래 굴릴 실행 틀을 세우는 흐름이 반복된다.",
+      "topic_name": "에이전트 운영 가시성",
+      "summary_line": "에이전트를 잘 만드는 일보다, 현장에서 어떻게 보이고 통제할지가 먼저 화두가 되고 있다.",
       "signals": [
-        "상태 머신처럼 행동을 구조로 묶는 설계가 전면에 나왔다.",
-        "실시간 상호작용도 반응성만이 아니라 예측 가능한 실행 흐름을 함께 겨냥한다.",
-        "분석 도구와 조직 재편이 같이 나오며 에이전트가 실험보다 운영의 문제로 옮겨간다."
+        "Anthropic은 정렬 실패를 크게 낮춘 사례를 공개하며 에이전트를 어디까지 믿을지 다시 묻게 했다.",
+        "Voker는 로그를 뒤지기보다 에이전트의 요청과 처리 흐름을 바로 보게 하려는 수요를 겨냥했다.",
+        "실시간 협업형 상호작용 모델이 나오면서 입력 확장과 운영 관측이 한 묶음으로 붙기 시작했다."
       ]
     },
     {
@@ -160978,38 +161332,38 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "논쟁 읽기",
+      "cta_label": "토론 읽기",
       "related_item_ids": [
         "79318fcab38cbd571ff7b041a56ba0e705475e2a"
       ],
-      "score": 0.88,
-      "generated_at": "2026-05-12T23:37:47.990410+00:00",
+      "score": 0.91,
+      "generated_at": "2026-05-13T03:49:05.412939+00:00",
       "ai_model": "codex-cli",
       "headline": "시맨틱 유사성 너머의 검색 설계",
-      "issue_title": "검색의 첫 단추를 키워드에 둘까 의미에 둘까",
-      "opposition_summary": "문맥이 긴 질의와 애매한 표현은 키워드만으로 놓치기 쉬워서 시맨틱 검색을 먼저 돌리고 재랭킹을 얹는 편이 더 실전적이라는 반론이 맞섰다.",
-      "support_summary": "BM25와 키워드 검색을 앞단에 두면 실패 이유를 설명하기 쉽고 비용도 통제하기 좋다는 의견이 힘을 받았다."
+      "issue_title": "RAG 검색의 기본축을 어디에 둘 것인가",
+      "opposition_summary": "BM25와 키워드 검색이 더 설명 가능하고 다루기 쉽다. 시맨틱 중심 설계는 비용과 제어를 흐린다는 쪽이다.",
+      "support_summary": "비정형 데이터에선 의미 검색과 재랭킹이 먼저 힘을 발휘한다는 반론이다. 결국 혼합 구성이 실무에 맞다는 지지가 붙었다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 보기",
+      "cta_label": "신호 더 보기",
       "related_item_ids": [
-        "74326163f65798b3dcad6875db0fdf9c6b31eaa0",
-        "c14a4771b216fd5f9eb3516caffb80347f501c06",
-        "6602178427c7170b448c82045274ad5dd8728881"
+        "7f29bd5eaa45a592c71f54f6c2ea1ffbd139f7a6",
+        "6602178427c7170b448c82045274ad5dd8728881",
+        "79318fcab38cbd571ff7b041a56ba0e705475e2a"
       ],
       "score": 0.84,
-      "generated_at": "2026-05-12T23:37:47.990410+00:00",
+      "generated_at": "2026-05-13T03:49:05.412939+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "관리면이 먼저 커진다",
-      "summary_line": "새 기능보다 디렉터리와 대시보드, 에이전트 뷰 같은 운영 표면이 더 빨리 늘어난다.",
+      "signal_title": "새 도구보다 비교표가 먼저 열린다",
+      "summary_line": "이번 주 신제품 글은 기능 소개보다 먼저 '정확히 무엇과 같은 부류인가'를 묻는 반응이 반복됐다.",
       "signals": [
-        "Obsidian은 플러그인 제출과 발견, 관리를 한 흐름으로 묶었다.",
-        "Claude Code는 여러 에이전트를 한 화면에서 띄우고 지켜보는 뷰를 내놨다.",
-        "Voker는 생성 결과보다 운영 중인 에이전트의 상태 관측을 전면에 세웠다."
+        "Traceway는 90초 설치보다 Loki와 SigNoz 중 어디에 더 가까운지가 먼저 논점이 됐다.",
+        "Voker도 에이전트 분석 신제품이라기보다 기존 관측 도구와 무엇이 다른지부터 검증을 받았다.",
+        "검색 설계 글 역시 새 기법 소개보다 BM25와 시맨틱 검색의 배치 순서를 두고 갈렸다."
       ]
     }
   ],
@@ -161018,22 +161372,21 @@
     "kind": "quiet_riser",
     "label": "AI Spotlight",
     "title": "조용히 커지는 주제",
-    "cta_label": "흐름 보기",
+    "cta_label": "관련 흐름 보기",
     "related_item_ids": [
-      "b37a1393fb5c671d620d43738572339f3096971a",
-      "63993190995bfadb44943cb0feedf99f1f8c86d4",
+      "3f024edf6646b3457b346c8aa7ca833d5c57a0d3",
       "6602178427c7170b448c82045274ad5dd8728881",
-      "38afc8bc58a2415907c75cb1f2de5be3f6302608"
+      "b37a1393fb5c671d620d43738572339f3096971a"
     ],
-    "score": 0.94,
-    "generated_at": "2026-05-12T23:37:47.990410+00:00",
+    "score": 0.88,
+    "generated_at": "2026-05-13T03:49:05.412939+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "에이전트 운영 설계",
-    "summary_line": "에이전트를 더 똑똑하게 만드는 경쟁보다 오래 굴릴 실행 틀을 세우는 흐름이 반복된다.",
+    "topic_name": "에이전트 운영 가시성",
+    "summary_line": "에이전트를 잘 만드는 일보다, 현장에서 어떻게 보이고 통제할지가 먼저 화두가 되고 있다.",
     "signals": [
-      "상태 머신처럼 행동을 구조로 묶는 설계가 전면에 나왔다.",
-      "실시간 상호작용도 반응성만이 아니라 예측 가능한 실행 흐름을 함께 겨냥한다.",
-      "분석 도구와 조직 재편이 같이 나오며 에이전트가 실험보다 운영의 문제로 옮겨간다."
+      "Anthropic은 정렬 실패를 크게 낮춘 사례를 공개하며 에이전트를 어디까지 믿을지 다시 묻게 했다.",
+      "Voker는 로그를 뒤지기보다 에이전트의 요청과 처리 흐름을 바로 보게 하려는 수요를 겨냥했다.",
+      "실시간 협업형 상호작용 모델이 나오면서 입력 확장과 운영 관측이 한 묶음으로 붙기 시작했다."
     ]
   }
 }
