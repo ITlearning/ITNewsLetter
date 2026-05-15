@@ -1,6 +1,453 @@
 {
   "items": [
     {
+      "id": "54cc28707b5194a2173dc39064f104f230780bf6",
+      "title_hash": "4b890f730476e0bc53874b441dc414e863c57a22",
+      "source": "GeekNews",
+      "title": "DeerFlow 2.0 — ByteDance의 장기 실행 SuperAgent 하네스",
+      "link": "https://news.hada.io/topic?id=29518",
+      "published_at": "2026-05-15T00:31:02+00:00",
+      "summary": "Sub-Agent 오케스트레이션 으로 리서치, 코딩, 콘텐츠 생성 등 수 분~수 시간 걸리는 복합 작업을 자동 분해·병렬 처리하는 올인원 에이전트 하네스 오픈소스 v1(Deep Research 프레임워크)과 코드를 공유하지 않는 완전한 재작성 이며, LangGraph와 LangChain 기반으...",
+      "fetched_at": "2026-05-15T06:16:31.390188+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "56",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=7,tools_agents=11,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 11,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "agent"
+      ],
+      "detail_slug": "54cc28707b5194a2173dc39064f104f230780bf6",
+      "is_english_source": false,
+      "sent_at": "2026-05-15T06:19:44.750752+00:00"
+    },
+    {
+      "id": "fb9f932c06dd6246c7d3b838f7ac1acc3aae4d6b",
+      "title_hash": "5862600e5112e846c3aa5257e486fdf383f62281",
+      "source": "GeekNews",
+      "title": "Artifact Keeper - Rust로 만든 오픈소스 범용 아티팩트 레지스트리",
+      "link": "https://news.hada.io/topic?id=29536",
+      "published_at": "2026-05-15T05:06:24+00:00",
+      "summary": "Artifact Keeper는 Rust로 작성된 셀프호스팅 아티팩트 레지스트리로, JFrog Artifactory와 Sonatype Nexus의 대안을 목표로 하는 프로젝트입니다. Maven, PyPI, NPM, Docker/OCI, Cargo, Go, Helm 등 45개 이상의 패키지 포맷을 네이티브 프로토콜로 지원한다고 소개하고 있습니다. Rust + Axum 기반 백",
+      "fetched_at": "2026-05-15T06:16:31.390188+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=4,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "docker",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "docker",
+        "rust"
+      ],
+      "detail_slug": "fb9f932c06dd6246c7d3b838f7ac1acc3aae4d6b",
+      "is_english_source": false,
+      "sent_at": "2026-05-15T06:19:44.750752+00:00"
+    },
+    {
+      "id": "c56afd357413604907b1113a59e9797b6b988adf",
+      "title_hash": "f084c32b6fa1dcc1aa42432df6749fb0f09fbc3a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "How Claude Code works in large codebases",
+      "link": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "published_at": "2026-05-15T04:15:31+00:00",
+      "summary": "HN story type: story HN points: 89 HN comments: 51 HN top comments: hansmayer: A lot of words about nothing. Meanwhile we are still waiting for these statements to come true: https://eu.36kr.com/en/p/3648851352018565 https://www.businessinsider.com/anthropic-ceo-ai-90-percent-... https://www.reddit.com/r/Anthropic/comments/1nemhxb/futurism... https://medium.com/@coders.stop/dario-amodei-said-90-of-code... https://www.youtube.com/shorts/0j1HqEEDThc Accountability, anyone? martypitt: I don't have any LSP's hooked up to CC yet (going to fix that today), or particularly sophisticated CLAUDE.md files. So, if I've read this post correctly, that means that CC is navigating my codebase today by sending lots of it up to a model, and building an understanding. Is that correct? Did I misunderstand it? I kinda suspected there was more local inference going on somehow -- partly because the iteration time... prodigycorp: This is really a zero information blog post. I want to know how they use the LSP to improve their understanding of the code base. Would be great if it was open source for us to review. A post like this should be providing people with some reassurance about Claude's ability to understand code at a large scale. It's mostly fluff.",
+      "fetched_at": "2026-05-15T06:16:31.390188+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48144494",
+      "hn_story_type": "story",
+      "hn_points": "89",
+      "hn_comments_count": "51",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48144494",
+      "hn_item_text": "",
+      "hn_comment_preview": "hansmayer: A lot of words about nothing. Meanwhile we are still waiting for these statements to come true: https://eu.36kr.com/en/p/3648851352018565 https://www.businessinsider.com/anthropic-ceo-ai-90-percent-... https://www.reddit.com/r/Anthropic/comments/1nemhxb/futurism... https://medium.com/@coders.stop/dario-amodei-said-90-of-code... https://www.youtube.com/shorts/0j1HqEEDThc Accountability, anyone?\nmartypitt: I don't have any LSP's hooked up to CC yet (going to fix that today), or particularly sophisticated CLAUDE.md files. So, if I've read this post correctly, that means that CC is navigating my codebase today by sending lots of it up to a model, and building an understanding. Is that correct? Did I misunderstand it? I kinda suspected there was more local inference going on somehow -- partly because the iteration time...\nprodigycorp: This is really a zero information blog post. I want to know how they use the LSP to improve their understanding of the code base. Would be great if it was open source for us to review. A post like this should be providing people with some reassurance about Claude's ability to understand code at a large scale. It's mostly fluff.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "44",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=14,tools_agents=20,strategy_insight=8,industry_business=4",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 20,
+        "strategy_insight": 8,
+        "industry_business": 4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "open source",
+            "inference"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "ide"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "business",
+            "ceo"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "local",
+        "claude + code"
+      ],
+      "detail_slug": "c56afd357413604907b1113a59e9797b6b988adf",
+      "is_english_source": true,
+      "translated_title": "Claude Code는 큰 코드베이스를 어떻게 읽나",
+      "short_summary": "Claude Code가 대규모 코드베이스를 탐색하고 이해하는 방식을 설명한 글이다. 다만 HN에서는 LSP 활용법과 로컬 처리 여부 같은 핵심 구현 설명이 빠졌다는 지적이 많았다.",
+      "why_it_matters": "AI 코딩 도구를 팀 개발 환경에 넣으려면 성능보다 먼저 확인할 것이 있다. 큰 저장소에서 문맥을 어떻게 모으는지, 무엇이 로컬에서 처리되고 무엇이 모델로 전송되는지가 실제 도입 판단을 좌우한다.\n- 대형 코드베이스에서는 단순한 자동완성보다 탐색 방식이 더 중요하다. 파일 관계를 얼마나 정확히 짚는지에 따라 리뷰 속도와 수정 범위가 달라진다.\n- LSP나 `CLAUDE.md` 같은 보조 맥락이 성능을 크게 좌우할 수 있다는 점이 다시 드러났다. 팀 차원의 설정 품질이 결과 차이로 이어질 수 있다.\n- 보안과 비용 관점에서도 데이터 흐름 설명이 필요하다. 코드가 얼마나 자주, 얼마나 많이 모델로 올라가는지 불분명하면 기업 도입 장벽이 높아진다.",
+      "hn_reaction_summary": "HN 반응은 대체로 냉담했다. 글이 제목에 비해 기술 정보가 적고, 실무자가 궁금해하는 부분을 비껴갔다는 평가가 반복됐다.\n- 가장 많이 나온 불만은 '말은 많은데 내용은 비었다'는 반응이었다. 특히 대규모 저장소 이해 방식의 실제 메커니즘 설명이 부족하다는 지적이 많았다.\n- LSP를 어떻게 활용하는지, 별도 설정이 없으면 코드베이스를 사실상 통째로 모델에 보내며 이해를 쌓는 구조인지 궁금해하는 댓글이 이어졌다.\n- Anthropic 경영진의 과거 발언까지 끌어와 신뢰 문제를 짚는 반응도 있었다. 데모성 메시지보다 검증 가능한 설명과 공개 가능한 구현 단서가 필요하다는 분위기다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-15T06:19:44.750752+00:00"
+    },
+    {
+      "id": "e45aa4cd4935e92a2c545eb317d457aaab8d581e",
+      "title_hash": "b110d19076a7dbc558c9fc467e3b32edae625f2d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "LLM Policy for Rust Compiler",
+      "link": "https://github.com/rust-lang/rust-forge/pull/1040",
+      "published_at": "2026-05-14T23:37:21+00:00",
+      "summary": "HN story type: story HN points: 52 HN comments: 26 HN top comments: mw888: Here are the actual policies, not a comment: https://github.com/jyn514/rust-forge/blob/llm-policy/src/pol... It's in-line with the 'nanny' stereotype of the Rust community that they give you permission to act in a way they would never be able to verify anyways: > The following are allowed. > Asking an LLM questions about an existing codebase. > Asking an LLM to summarize comments on an issue, PR, or RFC... Like se... nmg: > ## Other organizations > These are organized along a spectrum of AI friendliness, where top is least friendly, and bottom is most friendly. This section is an extremely useful reference DennisL123: Does the policy fix the issue of many low quality PRs being submitted? Unlikely. Will it fix a related but different problem? Likely.",
+      "fetched_at": "2026-05-15T06:16:31.390188+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48142650",
+      "hn_story_type": "story",
+      "hn_points": "52",
+      "hn_comments_count": "26",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48142650",
+      "hn_item_text": "",
+      "hn_comment_preview": "mw888: Here are the actual policies, not a comment: https://github.com/jyn514/rust-forge/blob/llm-policy/src/pol... It's in-line with the 'nanny' stereotype of the Rust community that they give you permission to act in a way they would never be able to verify anyways: > The following are allowed. > Asking an LLM questions about an existing codebase. > Asking an LLM to summarize comments on an issue, PR, or RFC... Like se...\nnmg: > ## Other organizations > These are organized along a spectrum of AI friendliness, where top is least friendly, and bottom is most friendly. This section is an extremely useful reference\nDennisL123: Does the policy fix the issue of many low quality PRs being submitted? Unlikely. Will it fix a related but different problem? Likely.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=10,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "compiler",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "compiler"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "compiler",
+        "rust",
+        "github.com"
+      ],
+      "detail_slug": "e45aa4cd4935e92a2c545eb317d457aaab8d581e",
+      "is_english_source": true,
+      "translated_title": "러스트 컴파일러 팀의 LLM 사용 정책",
+      "short_summary": "러스트 컴파일러 프로젝트가 LLM을 어디까지 써도 되는지 정리한 정책이 Hacker News에서 화제가 됐다. 코드베이스 질의나 이슈 요약은 허용하되, 기여 품질과 검증 가능성을 둘러싼 논쟁이 함께 나왔다.",
+      "why_it_matters": "오픈소스 프로젝트가 AI 활용을 막연한 분위기 대신 운영 규칙으로 문서화하기 시작했다는 점에서 실무자에게 참고할 만한 사례다.\n- 기여자는 LLM을 조사, 요약, 맥락 파악에 쓰되 실제 변경 제안과 검증 책임은 사람이 져야 한다는 기준을 읽을 수 있다.\n- 유지보수자는 저품질 AI PR을 전면 금지로 다루기보다, 허용 범위와 리뷰 기대치를 나눠 관리하는 방식의 장단점을 검토하게 된다.\n- 팀 정책 문서에 다른 조직의 AI 친화도 비교까지 담기면서, 내부 가이드라인을 만들 때 바로 참고할 틀이 생겼다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 절충적이다. AI 사용을 완전히 막기보다 선을 그어 관리하려는 시도라는 평가와, 현실성이 떨어진다는 비판이 함께 나왔다.\n- 일부는 허용된 사용과 금지된 사용을 세세하게 나눈 점을 두고 러스트 커뮤니티 특유의 과잉 관리처럼 보인다고 반응했다.\n- 반면 다른 조직들의 AI 정책을 친화도 스펙트럼으로 정리한 대목은 실무적으로 꽤 유용하다는 의견이 반복됐다.\n- 저품질 PR 유입 자체를 줄이기는 어렵겠지만, 리뷰 과정에서 생기는 다른 운영 문제를 정리하는 데는 도움 될 수 있다는 시각도 있었다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-15T06:19:44.750752+00:00"
+    },
+    {
+      "id": "120a667e79f01004df32213e3cd4c1c5fcdc697d",
+      "title_hash": "6c6fc4d97fc1bc1602833386501a2b6b9e10f653",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Rewrite Bun in Rust has been merged",
+      "link": "https://github.com/oven-sh/bun/pull/30412",
+      "published_at": "2026-05-14T08:15:31+00:00",
+      "summary": "HN story type: story HN points: 586 HN comments: 650 HN top comments: sesm: When announcements say that rewrite took 1 week, I wonder how much time went into preparing this file with very detailed instructions on mapping Zig to Rust idioms: https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd573... On top of that, if you look at 'Pointers & ownership' and 'Collections' sections, the Bun codebase is already prepared, using internal smart pointer types that map 1-to-1 to Rust equivalen... gm678: $ rg 'unsafe [{]' src/ | wc -l 10428 $ rg 'unsafe [{]' src/ -l | wc -l 736 Language Files Lines Code Comments Blanks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Rust 1443 929213 732281 116293 80639 Zig 1298 711112 574563 59118 77431 TypeScript 2604 654684 510464 82254 61966 JavaScript 4370 364928 293211 36108 35609 C 111 305123 205875 79077 20171 C++ 586 262475 217111 19004 26360 C Header 779 100... Jarred: Still writing the blog post about this. Will share more details. For where this is coming from, skim the bugfixes in the Bun v1.3.14 and earlier release notes. Rust won’t catch all of these - leaks from holding references too long and anything that re-enters across the JS boundary are still on us. But a large % of that list is use-after-free, double-free, and forgot-to-free-on-error-path, which become compile erro...",
+      "fetched_at": "2026-05-15T06:16:31.390188+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48132488",
+      "hn_story_type": "story",
+      "hn_points": "586",
+      "hn_comments_count": "650",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48132488",
+      "hn_item_text": "",
+      "hn_comment_preview": "sesm: When announcements say that rewrite took 1 week, I wonder how much time went into preparing this file with very detailed instructions on mapping Zig to Rust idioms: https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd573... On top of that, if you look at 'Pointers & ownership' and 'Collections' sections, the Bun codebase is already prepared, using internal smart pointer types that map 1-to-1 to Rust equivalen...\ngm678: $ rg 'unsafe [{]' src/ | wc -l 10428 $ rg 'unsafe [{]' src/ -l | wc -l 736 Language Files Lines Code Comments Blanks ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Rust 1443 929213 732281 116293 80639 Zig 1298 711112 574563 59118 77431 TypeScript 2604 654684 510464 82254 61966 JavaScript 4370 364928 293211 36108 35609 C 111 305123 205875 79077 20171 C++ 586 262475 217111 19004 26360 C Header 779 100...\nJarred: Still writing the blog post about this. Will share more details. For where this is coming from, skim the bugfixes in the Bun v1.3.14 and earlier release notes. Rust won’t catch all of these - leaks from holding references too long and anything that re-enters across the JS boundary are still on us. But a large % of that list is use-a...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=5,strategy_insight=10,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 5,
+        "strategy_insight": 10,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "typescript",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "prepare"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "how + prepare"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "typescript",
+        "rust",
+        "github.com"
+      ],
+      "detail_slug": "120a667e79f01004df32213e3cd4c1c5fcdc697d",
+      "is_english_source": true,
+      "translated_title": "Bun의 Rust 재작성 코드, 메인 브랜치에 병합",
+      "short_summary": "Bun의 Zig 구현 일부를 Rust로 다시 쓴 작업이 메인 브랜치에 합쳐졌다. 메모리 안전성 개선 기대가 크지만, HN에서는 사전 준비와 `unsafe` 사용 범위를 함께 봐야 한다는 반응이 많았다.",
+      "why_it_matters": "이번 병합은 단순한 언어 교체라기보다 런타임 안정성을 손보는 방향 전환에 가깝다. Bun이 릴리스 노트에서 반복해 온 메모리 관리 버그를 줄이려는 시도가 실제 코드 구조에 반영됐다는 점이 실무자에게 더 직접적으로 읽힌다.\n- JS 런타임이나 네이티브 경계를 다루는 팀이라면, 성능뿐 아니라 메모리 안전성과 장애 복구 비용을 함께 따져야 한다는 흐름을 보여준다.\n- Zig나 C/C++ 기반 시스템 코드를 Rust로 옮길 때는 전면 재작성보다 포인터, 컬렉션, 소유권 규칙을 먼저 정리해 두는 준비 작업이 성패를 가른다는 사례로 볼 수 있다.\n- Rust로 옮겨도 JS 경계 재진입이나 장기 참조 유지 같은 문제는 남을 수 있어, 언어 선택만이 아니라 API 경계 설계와 테스트 전략까지 같이 점검해야 한다.",
+      "hn_reaction_summary": "HN 분위기는 기대와 의심이 동시에 섞여 있었다. Rust 전환으로 버그를 줄일 수 있다는 공감은 컸지만, '1주일 재작성'이라는 표현은 이미 정리된 구조와 사전 문서화가 있었기에 가능했다는 지적이 많이 나왔다.\n- Zig를 Rust 관용구로 옮기는 상세 가이드와 1대1로 대응되는 내부 스마트 포인터 설계가 있었다는 점이 반복해서 언급됐다.\n- Rust 코드 안의 `unsafe` 사용량이 적지 않다는 집계가 공유되면서, 메모리 안전성 개선을 과장해선 안 된다는 반론도 이어졌다.\n- 그래도 use-after-free, double-free, 에러 경로 누수 같은 버그를 컴파일 단계에서 더 빨리 걸러낼 수 있다는 점은 실무적으로 설득력이 있다는 평가가 많았다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-15T06:19:44.750752+00:00"
+    },
+    {
       "id": "ed526e2175f79905be42041be85715b253d0dcd5",
       "title_hash": "85f03ad8f87275774e5f0b7e689102900c9ae9bc",
       "source": "GeekNews",
@@ -164050,93 +164497,6 @@
       "short_summary": "M5 Max 맥북 출시와 GPT-5.3의 즉각적 활용이 가능해졌으며, 코드 리뷰 문화가 변화하고 있습니다.",
       "ai_model": "gpt-4.1-mini-2025-04-14",
       "sent_at": "2026-03-05T12:57:40.637380+00:00"
-    },
-    {
-      "id": "f06471291670b61b1fd2c5a52cba273dc83543d1",
-      "title_hash": "22d7e9bc323236ab74c36bc12a4c3cb99dcd09b4",
-      "source": "Product Hunt Feed",
-      "title": "GPT‑5.3 Instant in ChatGPT",
-      "link": "https://www.producthunt.com/products/openai",
-      "published_at": "2026-03-03T18:20:23+00:00",
-      "summary": "More accurate, less cringe, smoother & useful daily chats! Discussion | Link",
-      "fetched_at": "2026-03-05T12:57:29.140578+00:00",
-      "source_priority_boost": "14",
-      "priority_bucket": "general",
-      "priority_score": "10",
-      "priority_signal": "boost=14,tech=0,news=0",
-      "translated_title": "ChatGPT에 도입된 GPT-5.3 인스턴트 업데이트",
-      "short_summary": "GPT-5.3 인스턴트가 ChatGPT에 적용되어 대화가 더 정확하고 자연스러우며 일상 대화에 유용해졌습니다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-05T12:57:38.302117+00:00"
-    },
-    {
-      "id": "31643ecd7dbc62d8c7cca4f9fd8672ec516945b4",
-      "title_hash": "25e754c27fde707031788f43e858a1d7ac236827",
-      "source": "Product Hunt Feed",
-      "title": "Parsewise",
-      "link": "https://www.producthunt.com/products/parsewise",
-      "published_at": "2026-03-04T15:05:45+00:00",
-      "summary": "Cursor for document work Discussion | Link",
-      "fetched_at": "2026-03-05T12:57:29.140578+00:00",
-      "source_priority_boost": "14",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "boost=14,tech=1,news=0",
-      "translated_title": "문서 작업을 위한 Parsewise 커서 기능 소개",
-      "short_summary": "Parsewise는 문서 작업 시 효율적인 커서 기능을 제공하여 토론과 협업을 지원하는 도구입니다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-05T12:57:35.559053+00:00"
-    },
-    {
-      "id": "ae4cc9d4a699951250e49e68a7f75aa949e7b99d",
-      "title_hash": "cfbaa94e21b249cf0e816d152a83b4b29fa6a2bc",
-      "source": "Product Hunt Feed",
-      "title": "Itchy",
-      "link": "https://www.producthunt.com/products/itchy-2",
-      "published_at": "2026-03-04T22:25:22+00:00",
-      "summary": "Free macOS notch app with 12+ modules & custom SDK Discussion | Link",
-      "fetched_at": "2026-03-05T12:57:29.140578+00:00",
-      "source_priority_boost": "14",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "boost=14,tech=1,news=0",
-      "sent_at": "2026-03-05T12:57:32.827310+00:00"
-    },
-    {
-      "id": "d7db093c3476116d2c5c7468247fb37d4f729969",
-      "title_hash": "8797e8f62f5ac8f7aac88c4f39e21437252a74a7",
-      "source": "Product Hunt Feed",
-      "title": "Willow Voice for Teams",
-      "link": "https://www.producthunt.com/products/willow-voice",
-      "published_at": "2026-03-03T01:35:29+00:00",
-      "summary": "Kill the keyboard for your team with voice AI Discussion | Link",
-      "fetched_at": "2026-03-05T12:26:59.766252+00:00",
-      "source_priority_boost": "14",
-      "priority_bucket": "general",
-      "priority_score": "10",
-      "priority_signal": "boost=14,tech=0,news=0",
-      "translated_title": "팀을 위한 음성 AI '윌로우 보이스' 출시",
-      "short_summary": "팀 내 키보드 사용을 줄이고 음성 AI로 소통을 혁신하는 '윌로우 보이스'가 출시되었습니다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-05T12:27:12.502457+00:00"
-    },
-    {
-      "id": "37003d7e2543c5c6dcc3dfa03b5f802e1ce8b03c",
-      "title_hash": "2ce358ebca6902708ce996ed11f45a40ae83e391",
-      "source": "Product Hunt Feed",
-      "title": "agile.flights",
-      "link": "https://www.producthunt.com/products/agile-flights",
-      "published_at": "2026-03-03T23:45:00+00:00",
-      "summary": "Agile died in a JIRA board - replace sprints with flights Discussion | Link",
-      "fetched_at": "2026-03-05T12:26:59.766252+00:00",
-      "source_priority_boost": "14",
-      "priority_bucket": "general",
-      "priority_score": "10",
-      "priority_signal": "boost=14,tech=0,news=0",
-      "translated_title": "애자일, 지라 보드에서 사라지다 - 스프린트를 플라이트로 대체",
-      "short_summary": "애자일 방법론이 지라 보드에서 사라지고 스프린트 대신 플라이트 개념을 도입하는 논의가 진행 중이다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-05T12:27:09.864116+00:00"
     }
   ],
   "topic_digests": {
@@ -164145,9 +164505,11 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트",
-        "summary": "에이전트는 더 가까워졌지만, 믿고 맡길 조건은 아직 갈립니다. 이번 주엔 장애와 잠금, 새 제작 흐름이 한꺼번에 드러났습니다.\n\n- Claude Opus 4.7 오류 급증과 Sonnet 과부하는 서비스 안정성이 곧 작업 속도라는 현실을 보여줬습니다.\n- 구독 해지 뒤 프로젝트 접근 상실은 AI 작업 기록을 누가 쥐는지 묻게 했습니다.\n- Codex 이어쓰기와 Emacs식 앱 제작, 정적 바이너리 번역은 활용 폭이 빠르게 넓어지는 이유를 보여줍니다.",
+        "headline": "이번 주 도구·에이전트: 운영과 통제",
+        "summary": "에이전트 경쟁이 성능 과시에서 운영 문제로 옮겨가는 흐름이 선명했다. 오래 돌리는 하네스, 큰 코드 읽기, 장애와 접근권 이슈가 한 주에 함께 떠올랐다.\n\n- DeerFlow 2.0은 복합 작업을 쪼개 병렬 처리하는 하네스를 전면에 세웠다.\n- Claude 관련 기사들은 탐색 기법 못지않게 안정성, 과부하, 구독 종료 뒤 접근권이 더 예민한 문제임을 보여줬다.\n- 개인 앱을 빠르게 만드는 흐름까지 겹치며, 지금은 생성 능력보다 통제와 지속성을 봐야 할 때다.",
         "item_ids": [
+          "54cc28707b5194a2173dc39064f104f230780bf6",
+          "c56afd357413604907b1113a59e9797b6b988adf",
           "c6d6a40f26d40c2cd5d06c64646c251372e85ece",
           "8b17e6aa573a0ba6439ab7a1e4ef45824fac5c00",
           "b7057333b43acb11a4607eb808c87f6f95af43c7",
@@ -164252,21 +164614,22 @@
           "d099c2086c39b73295bb0a30990e45940382ff3a",
           "b80716587b6a7aeb3a8d03baa7a8aa5e5a49051f",
           "3ba66182a756fa100c49e4ac01805767638c3965",
-          "274b52a61a2d4d80fc78e495adae63520d44f629",
-          "8c11d68f25925239f2d1ebbae5c2a1a61305cbc2",
-          "110c24a9e6299759653ddd7052adb281d3180c72"
+          "274b52a61a2d4d80fc78e495adae63520d44f629"
         ],
         "total_items": 107,
-        "generated_at": "2026-05-15T02:04:56.775741+00:00",
+        "generated_at": "2026-05-15T06:16:31.390188+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술",
-        "summary": "이번 주는 거대한 플랫폼보다 직접 운영하고 필요한 만큼만 쓰는 흐름이 또렷했다. 스토리지, 로컬 추론, 스크래핑, 보안 점검까지 현업 감각이 강하다.\n\n- RustFS는 MinIO 대안을 노리는 S3 호환 스토리지로, Rust 기반 운영 선택지를 다시 보게 한다.\n- DS4와 Runo는 AI·데이터 작업을 더 가까운 환경에서 더 싸게 돌리려는 방향을 보여준다.\n- Nginx 익스플로잇과 GridTravel은 설정 점검과 목적형 제품 설계가 왜 지금 눈에 들어오는지 함께 드러낸다.",
+        "headline": "이번 주 실무 기술: Rust와 검증 기준",
+        "summary": "이번 주엔 러스트가 언어 담론을 넘어 운영 도구 쪽으로 깊게 들어왔다. LLM도 성능 자랑보다 검증 규칙과 투입 기준을 먼저 세우는 흐름이 또렷하다.\n- Artifact Keeper와 RustFS는 레지스트리와 스토리지를 직접 운영하려는 팀에 현실적인 대안을 보여준다.\n- Bun 재작성은 메모리 안전성을 앞세우지만, `unsafe` 경계와 준비된 설계까지 같이 봐야 한다는 반응이 붙었다.\n- 러스트 팀 정책과 DS4는 AI를 실무에 넣을 때도 품질 기준과 하드웨어 조건을 함께 따져야 함을 보여준다.",
         "item_ids": [
+          "fb9f932c06dd6246c7d3b838f7ac1acc3aae4d6b",
+          "e45aa4cd4935e92a2c545eb317d457aaab8d581e",
+          "120a667e79f01004df32213e3cd4c1c5fcdc697d",
           "ed526e2175f79905be42041be85715b253d0dcd5",
           "2722ec99df32fc471c953c50f4381db06cc026a3",
           "0b78cca1503828db8c46f6f9edb13832bb9e16b4",
@@ -164350,12 +164713,10 @@
           "0e0729e438d603af2f9fdcdb9576b716270ad430",
           "a3b4e3353d8d696696ae134a178a46e0e6082bb2",
           "538d90ccd681f277a9effccd3acb18ed3fb213a5",
-          "97b657504c859de8c703b1fa511e1e345596f270",
-          "5168026d2704a9bfd87171d95016715cc2a4c7f0",
-          "3129fdcaabfc3eeca10b04dc51d5fe3460eaa4dd"
+          "97b657504c859de8c703b1fa511e1e345596f270"
         ],
-        "total_items": 86,
-        "generated_at": "2026-05-15T02:04:56.775741+00:00",
+        "total_items": 87,
+        "generated_at": "2026-05-15T06:16:31.390188+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -164363,7 +164724,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 주 전략·인사이트",
-        "summary": "AI 경쟁의 무게중심이 모델 자체에서 실행 인프라와 운영 역량으로 옮겨가고 있다. 오픈소스 투자, 온디바이스 추론, 게이트웨이 고도화, 보안 위협이 한 흐름으로 묶인다.\n- KDE 투자와 Bifrost는 이제 신뢰성과 속도, 운영층이 곧 경쟁력이라는 점을 보여준다.\n- 중국 연구소 사례와 Unity 래퍼는 연구보다 배포와 현장 최적화가 더 앞단으로 올라왔음을 말한다.\n- Obsidian 악용 사례는 AI 도구 확산과 함께 공격 표면도 빠르게 넓어지고 있다는 경고다.",
+        "summary": "이번 주 전략 기사들은 AI 경쟁의 무게중심이 모델 자체보다 배포 기반과 운영 역량, 보안으로 옮겨가는 흐름을 보여준다. 기술 투자와 조직 문화, 공격 수법까지 한 줄로 이어서 볼 만하다.\n- KDE 투자와 Bifrost 사례는 신뢰성 높은 오픈 인프라와 AI 관문이 새 경쟁력으로 떠오름을 드러낸다.\n- 중국 연구소 현장과 온디바이스 LLM 래퍼는 성능 최적화와 실행 속도가 연구실 밖 제품 경쟁으로 곧장 이어짐을 보여준다.\n- Obsidian 악용 사례는 협업 도구와 플러그인 생태계가 곧 공격면이라는 경고다.",
         "item_ids": [
           "eab4d3e410489fed5d11fbc9a9475cc6d5896d41",
           "1d83e3860ecf0b2d2f293d22f1deae4ad7ce5362",
@@ -164376,11 +164737,10 @@
           "d4d9212da6a5b511965ad099d8fda09393368a08",
           "7541a6c67bb462cc4b53380e569ed58b4a3db45b",
           "5c25a75abcc101fc7684463d0384e625a3b45fb0",
-          "09e2fd0da5462ed6cccdaa0099175cfb0a725699",
-          "e8c2fde2363a88942b997f1163bcedb8c378f8db"
+          "09e2fd0da5462ed6cccdaa0099175cfb0a725699"
         ],
-        "total_items": 13,
-        "generated_at": "2026-05-15T02:04:56.775741+00:00",
+        "total_items": 12,
+        "generated_at": "2026-05-15T06:16:31.390188+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -164389,9 +164749,11 @@
         "period": "monthly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 달 도구·에이전트: 빨라진 확산, 남은 불안",
-        "summary": "이번 달엔 에이전트 도구가 더 가까워졌지만, 막상 써보면 서비스 불안과 구독 잠금, 플랫폼 공백이 함께 드러났다. 왜 지금 이 묶음을 봐야 하는지 흐름이 선명하다.\n\n- Claude 쪽 논란은 모델 성능보다 운영 안정성과 과거 작업 접근권이 먼저라는 현실을 보여줬다.\n- Codex는 어디서나 이어 쓰는 기대를 키웠지만, 지원 범위의 빈칸도 그대로 드러냈다.\n- 개인 앱 제작과 정적 바이너리 번역 사례는 도구가 소비보다 조립과 통제로 옮겨가는 장면을 보여준다.",
+        "headline": "이번 달 도구·에이전트",
+        "summary": "에이전트는 더 오래 일하고 더 넓게 읽는 쪽으로 빠르게 옮겨갔다. 동시에 장애와 접근권 문제도 함께 떠올랐다.\n\n- DeerFlow 2.0은 장기 작업을 잘게 나눠 병렬 처리하며 에이전트 하네스 경쟁이 본격화됐음을 보여줬다.\n- Claude Code와 Opus 4.7 이슈는 큰 코드베이스 이해 수요와 별개로 안정성, 구현 투명성, 운영 부담이 아직 거칠다는 점을 드러냈다.\n- 개인 앱을 몇 시간 만에 빚는 흐름까지 겹치며, 지금은 성능만이 아니라 소유권과 복구 가능성까지 함께 볼 때다.",
         "item_ids": [
+          "54cc28707b5194a2173dc39064f104f230780bf6",
+          "c56afd357413604907b1113a59e9797b6b988adf",
           "c6d6a40f26d40c2cd5d06c64646c251372e85ece",
           "8b17e6aa573a0ba6439ab7a1e4ef45824fac5c00",
           "b7057333b43acb11a4607eb808c87f6f95af43c7",
@@ -164880,11 +165242,10 @@
           "7a2e4837e9ca3017224a7ff2bb0fdaffed5bd802",
           "c3d5c8877c766a0900e84354a4b9d2e97f4ad76d",
           "e60f142499409ccb7439a95124750e6aadf3dea4",
-          "f59a594de1c2fc0a6e547a5724fdc3567ff4ec68",
-          "633ed29ab78e1aa44c3764df637a44c690e7ceaa"
+          "f59a594de1c2fc0a6e547a5724fdc3567ff4ec68"
         ],
-        "total_items": 490,
-        "generated_at": "2026-05-15T02:04:56.775741+00:00",
+        "total_items": 491,
+        "generated_at": "2026-05-15T06:16:31.390188+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -164892,8 +165253,11 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달 실무 기술 묶음은 더 큰 비전보다 당장 운영에 붙일 수 있는 대안과 점검 포인트에 시선이 모였다. 로컬 실행, 자가 호스팅, 비용 절감, 설정 리스크 관리가 한 줄로 이어진다.\n- RustFS와 DS4는 저장소와 추론을 직접 쥐려는 흐름을 보여준다. 성능과 통제권을 함께 챙기려는 움직임이다.\n- Runo와 GridTravel은 복잡한 작업을 더 짧은 경로로 묶는다. 자동화와 공유를 실사용 감각으로 끌어내린 사례다.\n- Nginx 이슈까지 겹치며, 이번 달은 새 도구 탐색만이 아니라 운영 설정을 다시 보는 데도 이유가 생겼다.",
+        "summary": "이번 달은 실서비스 밑단을 다시 짜는 흐름이 선명했다. Rust로 운영 통제를 넓히고, LLM은 성능보다 검증과 비용을 함께 따지는 쪽으로 시선이 옮겨갔다.\n\n- 레지스트리와 스토리지에서 셀프호스팅 대안이 부상했다. 비용, 이식성, 운영 주도권이 같이 거론됐다.\n- Bun 재작성과 러스트 정책 논의는 언어보다 검증 범위, `unsafe`, 기여 품질 관리가 더 큰 쟁점임을 보여줬다.\n- DS4는 로컬 추론의 체감선을 올렸지만, 지금 볼 포인트는 성능 경쟁보다 VRAM 예산과 운영 조건이다.",
         "item_ids": [
+          "fb9f932c06dd6246c7d3b838f7ac1acc3aae4d6b",
+          "e45aa4cd4935e92a2c545eb317d457aaab8d581e",
+          "120a667e79f01004df32213e3cd4c1c5fcdc697d",
           "ed526e2175f79905be42041be85715b253d0dcd5",
           "2722ec99df32fc471c953c50f4381db06cc026a3",
           "0b78cca1503828db8c46f6f9edb13832bb9e16b4",
@@ -165232,12 +165596,10 @@
           "d7a53b9170c3f43740945aba527ed3d7539c0867",
           "10c657b53ae2c0fa5243e6018cb92d20b29e7be3",
           "cdc8534b6986060abcb48813f8395ab6f5358d96",
-          "7db9f9d02ff02580b392f81ca054dbbbd18fc014",
-          "f79b770167458aa35dcc1fc19f3e8e2f06830440",
-          "fe0a2365eafcf57d6ebfa4565bdabad84656cd36"
+          "7db9f9d02ff02580b392f81ca054dbbbd18fc014"
         ],
-        "total_items": 341,
-        "generated_at": "2026-05-15T02:04:56.775741+00:00",
+        "total_items": 342,
+        "generated_at": "2026-05-15T06:16:31.390188+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -165245,7 +165607,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 달 전략·인사이트",
-        "summary": "이번 달 전략·인사이트는 AI와 오픈소스의 승부처가 성능 과시에서 운영 체력으로 옮겨간 흐름을 보여준다. 지금 볼 이유도 같다. 더 빨리 만드는 것보다 더 오래, 안전하게 굴리는 힘이 갈린다.\n\n- KDE 투자와 AI 게이트웨이 사례는 핵심 인프라에 돈과 관심이 다시 몰리며 배포 안정성, 보안, 운영 효율이 전면으로 올라왔음을 말해준다.\n- 중국 연구소 현장기와 Obsidian 악용 캠페인은 개발 문화와 협업 신뢰까지 성패를 가르는 변수로 떠올랐다는 점을 보여준다.",
+        "summary": "AI 경쟁의 무게중심이 모델 과시에서 실행 기반으로 옮겨가고 있다. 오픈소스 투자, 연구 문화, 배포 속도, 보안 리스크가 한 흐름으로 묶인다.\n- KDE 투자와 AI 게이트웨이 사례는 성능만이 아니라 신뢰성과 운영 구조가 승부처가 됐음을 보여준다.\n- 중국 연구소 관찰과 온디바이스 실험은 조직 문화와 구현 속도가 결과를 가르는 국면을 드러낸다.\n- Obsidian 악용 사례까지 겹치며, 지금은 더 빨리 만드는 법만큼 안전하게 굴리는 감각을 볼 때다.",
         "item_ids": [
           "eab4d3e410489fed5d11fbc9a9475cc6d5896d41",
           "1d83e3860ecf0b2d2f293d22f1deae4ad7ce5362",
@@ -165298,11 +165660,10 @@
           "20700e5ed3769ec0d007b5112c9552062e2c44fc",
           "471224fe06d0861fc68eb5259d7814dabbda375a",
           "74b88d793bd908b7355df458ef1312f3ed622e91",
-          "8207da35725d3ea64b4537bfadc808873624c103",
-          "a99791c1fbee59b712fa40c728c19e02e66b1c8d"
+          "8207da35725d3ea64b4537bfadc808873624c103"
         ],
-        "total_items": 53,
-        "generated_at": "2026-05-15T02:04:56.775741+00:00",
+        "total_items": 52,
+        "generated_at": "2026-05-15T06:16:31.390188+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -165313,21 +165674,22 @@
       "kind": "quiet_riser",
       "label": "AI Spotlight",
       "title": "조용히 커지는 주제",
-      "cta_label": "흐름 보기",
+      "cta_label": "흐름 따라보기",
       "related_item_ids": [
-        "ed526e2175f79905be42041be85715b253d0dcd5",
-        "2722ec99df32fc471c953c50f4381db06cc026a3",
-        "0067013fec40fa9b7d52b999d6fba60fdfd147fb"
+        "54cc28707b5194a2173dc39064f104f230780bf6",
+        "c56afd357413604907b1113a59e9797b6b988adf",
+        "c6d6a40f26d40c2cd5d06c64646c251372e85ece",
+        "8b17e6aa573a0ba6439ab7a1e4ef45824fac5c00"
       ],
-      "score": 0.89,
-      "generated_at": "2026-05-15T02:04:56.775741+00:00",
+      "score": 0.92,
+      "generated_at": "2026-05-15T06:16:31.390188+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "로컬에서 직접 쥐는 AI 운영 스택",
-      "summary_line": "저장소와 추론, 수집 파이프라인을 남의 플랫폼이 아니라 직접 운영하려는 흐름이 또렷해졌다.",
+      "topic_name": "에이전트 운영 하네스",
+      "summary_line": "잘 답하는 도구보다 오래 돌리고 통제할 수 있는 구조가 먼저 비교되기 시작했다.",
       "signals": [
-        "RustFS가 MinIO 대안으로 거론되며 S3 호환 스토리지 선택지가 다시 넓어졌다.",
-        "DS4는 96GB VRAM이라는 높은 문턱과 함께 대형 모델 로컬 추론이 어디까지 왔는지 보여줬다.",
-        "Runo는 스크래핑을 스키마 중심 API로 묶어 수집 코드보다 운영 통제에 무게를 실었다."
+        "DeerFlow 2.0이 장기 작업 분해와 병렬 실행을 전면에 세웠다.",
+        "큰 코드베이스를 읽는 방식과 로컬 처리 경계가 도입 판단의 기준으로 떠올랐다.",
+        "오류율 급증과 접근권 이슈가 도구 성능보다 운영 신뢰를 먼저 묻게 했다."
       ]
     },
     {
@@ -165335,17 +165697,17 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "논쟁 읽기",
+      "cta_label": "쟁점 읽기",
       "related_item_ids": [
-        "2722ec99df32fc471c953c50f4381db06cc026a3"
+        "e45aa4cd4935e92a2c545eb317d457aaab8d581e"
       ],
-      "score": 0.81,
-      "generated_at": "2026-05-15T02:04:56.775741+00:00",
+      "score": 0.84,
+      "generated_at": "2026-05-15T06:16:31.390188+00:00",
       "ai_model": "codex-cli",
-      "headline": "DS4를 둘러싼 짧은 메모",
-      "issue_title": "클로드급 체감을 위해 96GB VRAM을 감수할 만한가",
-      "opposition_summary": "품질은 흥미롭지만 96GB VRAM과 속도 한계는 대부분 팀에 아직 큰 벽이라는 쪽이다.",
-      "support_summary": "외부 API 없이도 상용 모델에 꽤 가까운 결과를 낸다는 점이 로컬 운영 팀엔 충분히 매력적이라는 반응이 맞섰다."
+      "headline": "러스트 컴파일러 팀의 LLM 사용 정책",
+      "issue_title": "AI 사용선을 얼마나 촘촘히 그어야 하나",
+      "opposition_summary": "규정이 현실보다 앞선다는 반응이 적지 않았다. 결국 품질은 사람 리뷰로 가려진다는 쪽이다.",
+      "support_summary": "전면 금지보다 허용 범위와 검증 책임을 나눈 점이 실무적이라는 옹호도 분명했다."
     },
     {
       "id": "anomaly-signal",
@@ -165356,40 +165718,41 @@
       "related_item_ids": [
         "c6d6a40f26d40c2cd5d06c64646c251372e85ece",
         "8b17e6aa573a0ba6439ab7a1e4ef45824fac5c00",
-        "55f24e653646adf4f5d83d126399c64e3a2c8849"
+        "2722ec99df32fc471c953c50f4381db06cc026a3"
       ],
-      "score": 0.92,
-      "generated_at": "2026-05-15T02:04:56.775741+00:00",
+      "score": 0.89,
+      "generated_at": "2026-05-15T06:16:31.390188+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "모델보다 작업 상태가 먼저 흔들린다",
-      "summary_line": "장애와 구독 잠금, 이어쓰기 수요가 한꺼번에 나오며 성능보다 기록 보존과 연속성이 더 예민한 문제로 떠올랐다.",
+      "signal_title": "끊김이 새 리스크로 떠올랐다",
+      "summary_line": "모델 품질보다 가용성, 접근권, 우회 경로가 먼저 비교되는 장면이 한꺼번에 나왔다.",
       "signals": [
-        "Claude Opus 4.7 오류 급증은 자동화 작업이 서비스 안정성에 얼마나 묶여 있는지 드러냈다.",
-        "구독 해지 뒤 이전 프로젝트에 접근하지 못했다는 사례는 작업 기록의 소유권 불안을 키웠다.",
-        "Codex를 어디서나 이어 쓰려는 반응은 이제 모델보다 상태 연결이 더 중요해졌다는 신호다."
+        "Opus 4.7 오류율 급증은 재시도 설계까지 다시 보게 만들었다.",
+        "구독을 끊자 과거 프로젝트에 접근하지 못했다는 사례가 나왔다.",
+        "로컬 추론 런타임이 느려도 보험 같은 선택지로 거론됐다."
       ]
     }
   ],
   "featured_spotlight": {
-    "id": "anomaly-signal",
-    "kind": "anomaly_signal",
-    "label": "Labs",
-    "title": "이번 주 이상 신호",
-    "cta_label": "신호 보기",
+    "id": "quiet-riser",
+    "kind": "quiet_riser",
+    "label": "AI Spotlight",
+    "title": "조용히 커지는 주제",
+    "cta_label": "흐름 따라보기",
     "related_item_ids": [
+      "54cc28707b5194a2173dc39064f104f230780bf6",
+      "c56afd357413604907b1113a59e9797b6b988adf",
       "c6d6a40f26d40c2cd5d06c64646c251372e85ece",
-      "8b17e6aa573a0ba6439ab7a1e4ef45824fac5c00",
-      "55f24e653646adf4f5d83d126399c64e3a2c8849"
+      "8b17e6aa573a0ba6439ab7a1e4ef45824fac5c00"
     ],
     "score": 0.92,
-    "generated_at": "2026-05-15T02:04:56.775741+00:00",
+    "generated_at": "2026-05-15T06:16:31.390188+00:00",
     "ai_model": "codex-cli",
-    "signal_title": "모델보다 작업 상태가 먼저 흔들린다",
-    "summary_line": "장애와 구독 잠금, 이어쓰기 수요가 한꺼번에 나오며 성능보다 기록 보존과 연속성이 더 예민한 문제로 떠올랐다.",
+    "topic_name": "에이전트 운영 하네스",
+    "summary_line": "잘 답하는 도구보다 오래 돌리고 통제할 수 있는 구조가 먼저 비교되기 시작했다.",
     "signals": [
-      "Claude Opus 4.7 오류 급증은 자동화 작업이 서비스 안정성에 얼마나 묶여 있는지 드러냈다.",
-      "구독 해지 뒤 이전 프로젝트에 접근하지 못했다는 사례는 작업 기록의 소유권 불안을 키웠다.",
-      "Codex를 어디서나 이어 쓰려는 반응은 이제 모델보다 상태 연결이 더 중요해졌다는 신호다."
+      "DeerFlow 2.0이 장기 작업 분해와 병렬 실행을 전면에 세웠다.",
+      "큰 코드베이스를 읽는 방식과 로컬 처리 경계가 도입 판단의 기준으로 떠올랐다.",
+      "오류율 급증과 접근권 이슈가 도구 성능보다 운영 신뢰를 먼저 묻게 했다."
     ]
   }
 }
