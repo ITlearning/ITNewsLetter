@@ -1,6 +1,446 @@
 {
   "items": [
     {
+      "id": "258a60225df46dc89a65a319c3b2c1232981e5a6",
+      "title_hash": "b70a3c5189f2900657ee8e238ba174bc802a87fa",
+      "source": "GeekNews",
+      "title": "Show GN: Claude Code / Codex CLI 의 무거운 코드 생성을 로컬 LLM 으로 위임하는 Plug-in (tunaLlama)",
+      "link": "https://news.hada.io/topic?id=29554",
+      "published_at": "2026-05-16T04:51:57+00:00",
+      "summary": "바이브 코딩 시 Claude Code 나 Codex CLI 의 정액제 사용 한도가 빨리 닳는 분들을 위해 만든 위임 도구입니다. https://github.com/hang-in/tunaLlama Claude Code 로 코딩하다 보면 출력이 긴 단계 (코드 생성, 파일 리뷰, 리팩터) 가 토큰을 가장 많이 먹습니다. 그런데 이 단계는 보통 결정적이고",
+      "fetched_at": "2026-05-16T07:33:49.602553+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=2,tools_agents=25,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 25,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "cli",
+        "claude + code"
+      ],
+      "detail_slug": "258a60225df46dc89a65a319c3b2c1232981e5a6",
+      "is_english_source": false,
+      "sent_at": "2026-05-16T07:36:52.277477+00:00"
+    },
+    {
+      "id": "2495dda9853ea6ffb891f083580afb3f242ef46b",
+      "title_hash": "d41ec0c2d307a39d95876ec5994061d130f020f2",
+      "source": "GeekNews",
+      "title": "Claude for Legal - 법률 업무용 Claude 에이전트·스킬·데이터 커넥터 모음",
+      "link": "https://news.hada.io/topic?id=29557",
+      "published_at": "2026-05-16T06:55:43+00:00",
+      "summary": "Claude for Legal 은 사내 상업, 개인정보, 제품, 기업, 고용, 소송, 규제, AI 거버넌스, IP, 로스쿨 클리닉과 학생 학습 업무를 위한 참조 에이전트·스킬·데이터 커넥터 모음임 같은 소스에서 Claude Cowork 또는...",
+      "fetched_at": "2026-05-16T07:33:49.602553+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "57",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=12,practical_tech=-8,tools_agents=1,strategy_insight=3,industry_business=12",
+      "slot_scores": {
+        "practical_tech": -8,
+        "tools_agents": 1,
+        "strategy_insight": 3,
+        "industry_business": 12
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송",
+            "규제"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 1,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "소송",
+            "규제"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 12,
+          "strong_hits": [
+            "규제",
+            "소송"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "규제",
+        "소송",
+        "기업"
+      ],
+      "detail_slug": "2495dda9853ea6ffb891f083580afb3f242ef46b",
+      "is_english_source": false,
+      "sent_at": "2026-05-16T07:36:52.277477+00:00"
+    },
+    {
+      "id": "b24b3463f89b40d4c1fe201e8719a153cbcfab44",
+      "title_hash": "cedd181a17088ac929d6e513e8f17b60b638ac26",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "How to Write to SSDs [pdf]",
+      "link": "https://www.vldb.org/pvldb/vol19/p1469-lee.pdf",
+      "published_at": "2026-05-15T22:23:38+00:00",
+      "summary": "HN story type: story HN points: 91 HN comments: 10 HN top comments: user01815-2: This seems to miss a reference to Zoned XFS, which is the Linux file system that actually looked into this kind of data placement at the file system layer. The paper includes numbers using RocksDB: https://dl.acm.org/doi/10.1145/3725783.3764399 lia323: Hi, I’m the first author of the paper. Thanks for the interest and the kind comments. The extended version is available on arXiv if you’d like more details: https://arxiv.org/pdf/2603.09927 The appendix includes additional details and FAQ-style answers that did not fit into the VLDB version. schobi: The paper shows a through analysis of write amplification and slowdown/wear with large databases (800GB) on a single machine. Databases are MySQL and postgres. As already commended, this can lead to an optimized storage table format for greater performance. Nice! I would expect that a similar analysis can be done for sqlite, maybe with a different dataset, single write thread..",
+      "fetched_at": "2026-05-16T07:33:49.602553+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48154711",
+      "hn_story_type": "story",
+      "hn_points": "91",
+      "hn_comments_count": "10",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48154711",
+      "hn_item_text": "",
+      "hn_comment_preview": "user01815-2: This seems to miss a reference to Zoned XFS, which is the Linux file system that actually looked into this kind of data placement at the file system layer. The paper includes numbers using RocksDB: https://dl.acm.org/doi/10.1145/3725783.3764399\nlia323: Hi, I’m the first author of the paper. Thanks for the interest and the kind comments. The extended version is available on arXiv if you’d like more details: https://arxiv.org/pdf/2603.09927 The appendix includes additional details and FAQ-style answers that did not fit into the VLDB version.\nschobi: The paper shows a through analysis of write amplification and slowdown/wear with large databases (800GB) on a single machine. Databases are MySQL and postgres. As already commended, this can lead to an optimized storage table format for greater performance. Nice! I would expect that a similar analysis can be done for sqlite, maybe with a different dataset, single write thread..",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "61",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=37,practical_tech=37,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 37,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 37,
+          "strong_hits": [
+            "performance",
+            "database",
+            "postgres",
+            "storage",
+            "sql"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "database + performance"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "database",
+        "postgres",
+        "storage",
+        "sql",
+        "how to",
+        "database + performance"
+      ],
+      "detail_slug": "b24b3463f89b40d4c1fe201e8719a153cbcfab44",
+      "is_english_source": true,
+      "translated_title": "SSD에 데이터를 쓰는 법: 성능과 마모를 함께 보기",
+      "short_summary": "이 글은 SSD에 데이터를 어떻게 기록하느냐에 따라 쓰기 증폭, 성능 저하, 마모가 어떻게 달라지는지 짚는다. HN에서는 대용량 MySQL·Postgres 분석이 실무에 바로 닿는다는 반응이 나왔다.",
+      "why_it_matters": "스토리지 성능 문제를 단순한 하드웨어 이슈로 넘기기 어렵다는 점을 다시 보여준다. SSD는 쓰는 방식에 따라 속도와 수명, 운영 비용이 함께 흔들리기 때문에 데이터베이스 설계와 저장 계층 선택을 한 번에 봐야 한다는 메시지가 크다.\n- 대용량 DB에서는 테이블 포맷, 로그 처리, 데이터 배치 방식만 바뀌어도 쓰기 증폭과 마모 비용이 달라질 수 있다.\n- 파일시스템 계층까지 포함해 저장 경로를 다시 점검해야 한다는 근거로 읽힌다. 단순 쿼리 튜닝만으로는 안 끝나는 문제다.\n- MySQL과 Postgres 사례가 나와서 운영 중인 워크로드에 바로 대입해 볼 수 있다는 점도 실무자에게 유용하다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이다. 다만 분석 자체를 반기면서도 기존 파일시스템 연구와의 연결이 약하다는 지적이 함께 나왔다.\n- Zoned XFS 같은 선행 작업을 빠뜨린 점을 아쉽게 보는 반응이 있었다. 저장 계층에서의 데이터 배치 논의를 더 이어야 한다는 뜻이다.\n- 논문 저자가 직접 등장해 arXiv 확장판과 부록 FAQ를 안내하면서, 본문에서 빠진 설명을 보완했다.\n- 800GB 규모의 MySQL·Postgres 분석은 설득력이 높다는 평가가 많았고, SQLite 같은 다른 DB에도 비슷한 검증을 해보자는 의견이 나왔다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-16T07:36:52.277477+00:00"
+    },
+    {
+      "id": "c80aa2d1231e3fc3c8108b646c57d323448f7ef9",
+      "title_hash": "fc0b9c075ee460f4fdd74dc4e7f1ca8d0ecc8e34",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The sigmoids won't save you",
+      "link": "https://www.astralcodexten.com/p/the-sigmoids-wont-save-you",
+      "published_at": "2026-05-15T10:51:13+00:00",
+      "summary": "HN story type: story HN points: 191 HN comments: 184 HN top comments: stego-tech: I felt the better takeaway from this was that it's impossible to know for certainty how long this will or will not continue regardless of the data or models you're using, because if you (or anyone else) could predict that accurately they'd be one of the richest people on the planet. I don't know when (or if) AI will implode or succeed with any degree of provable certainty, because that's not my area of expertise.... btilly: Lindy’s Law is an absolute gem, that I'm keeping. If we don't understand the fundamental limits to any particular kind of trend, our default assumption should be that it will continue for about as long as it has gone on already. We can, in fact, easily put a confidence interval on this. With 90% odds we're not in the first 5% of the trend, or the last 5% of the trend. Therefore it will probably go on between 1/19t... dreambuffer: FYI: The author has predicted that \"AGI\" will be here in 1-2 years and has staked his public reputation on it. He is personally invested in trendlines being lindy rather than sigmoid. I don't think you can use lindy on trends as if trends are static objects, but that's another conversation.",
+      "fetched_at": "2026-05-16T07:33:49.602553+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48147021",
+      "hn_story_type": "story",
+      "hn_points": "191",
+      "hn_comments_count": "184",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48147021",
+      "hn_item_text": "",
+      "hn_comment_preview": "stego-tech: I felt the better takeaway from this was that it's impossible to know for certainty how long this will or will not continue regardless of the data or models you're using, because if you (or anyone else) could predict that accurately they'd be one of the richest people on the planet. I don't know when (or if) AI will implode or succeed with any degree of provable certainty, because that's not my area of expertise....\nbtilly: Lindy’s Law is an absolute gem, that I'm keeping. If we don't understand the fundamental limits to any particular kind of trend, our default assumption should be that it will continue for about as long as it has gone on already. We can, in fact, easily put a confidence interval on this. With 90% odds we're not in the first 5% of the trend, or the last 5% of the trend. Therefore it will probably go on between 1/19t...\ndreambuffer: FYI: The author has predicted that \"AGI\" will be here in 1-2 years and has staked his public reputation on it. He is personally invested in trendlines being lindy rather than sigmoid. I don't think you can use lindy on trends as if trends are static objects, but that's another conversation.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "codex",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "codex",
+        "ide"
+      ],
+      "detail_slug": "c80aa2d1231e3fc3c8108b646c57d323448f7ef9",
+      "is_english_source": true,
+      "translated_title": "시그모이드 곡선만 믿어선 흐름을 못 읽는다",
+      "short_summary": "이 글은 AI 같은 급격한 성장 흐름을 시그모이드 곡선 하나로 단정해 읽으려는 태도를 경계한다. HN에서도 추세의 수명은 누구도 확실히 예측할 수 없다는 반응과, 그래도 기본 가정은 필요하다는 의견이 맞섰다.",
+      "why_it_matters": "AI 투자와 도입 판단에서 가장 자주 나오는 질문은 '지금이 과열의 끝인가, 아직 초입인가'다. 이 글은 그 답을 깔끔한 곡선 하나로 처리하려는 습관이 실무 판단을 흐릴 수 있다고 짚는다.\n- 제품 로드맵이나 인프라 투자 계획을 세울 때, 성장 둔화를 기정사실로 놓거나 반대로 장기 호황을 전제로 거는 판단 모두 위험할 수 있다.\n- 시장 예측 모델보다 더 먼저 봐야 할 것은 비용 구조, 성능 개선 속도, 실제 사용자 전환처럼 현장에서 바로 확인 가능한 지표다.\n- 유행의 끝을 맞히려 하기보다, 상승과 둔화 어느 쪽이 와도 버틸 수 있게 조직과 예산을 설계하는 쪽이 더 현실적인 대응이라는 메시지로 읽힌다.",
+      "hn_reaction_summary": "댓글 분위기는 단정에 대한 경계가 강했다. 'AI가 곧 꺼진다'거나 '계속 간다'는 식의 확신보다, 애초에 그런 추세를 정확히 맞히는 일 자체가 어렵다는 반응이 많이 보였다.\n- 한 축에서는 린디 효과를 꺼내며, 근본 한계를 모르면 당분간은 지금까지 이어진 만큼 더 간다고 보는 편이 합리적이라는 주장이 나왔다.\n- 다른 축에서는 추세를 정적인 대상으로 놓고 린디를 적용하는 건 무리라는 반론이 붙었고, 저자가 AGI 낙관론에 개인적 이해관계가 있다는 지적도 나왔다.\n- 실무자가 볼 만한 쟁점은 결국 하나다. 미래 곡선의 모양을 맞히는 일보다, 어떤 가정을 둘 때 의사결정이 얼마나 왜곡되는지를 더 엄격하게 따져야 한다는 점이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-16T07:36:52.277477+00:00"
+    },
+    {
+      "id": "e835a84d15d62c766888e969cf2e428832305bb2",
+      "title_hash": "2859c11b554234ba30ab34594a64bd62fa524ff1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "SQL patterns I use to catch transaction fraud",
+      "link": "https://analytics.fixelsmith.com/posts/sql-fraud-patterns/",
+      "published_at": "2026-05-15T23:22:30+00:00",
+      "summary": "HN story type: story HN points: 137 HN comments: 34 HN top comments: jstanley: > Real cardholders almost never buy something for exactly $1.00. Coffee is $4.73, gas is $52.81. The roundness is the signal. Surely this depends on how the vendor sets their prices? If you're going to buy something from a website to test a stolen credit card you don't just get to make up your own prices. And I think you may be over-indexing on the US \"prices don't include tax\" thing. Elsewhere, round-number price... fny: Isn't the point of ML that you learn these rules from the data? The right approach to me would be to use ML models to detect patterns that correspond with fraud and then evaluate them to see if any make sense. This way you might discover new hyptotheses. crmd: > Drawback: this doesn’t work until you have history. New accounts have no baseline. This is an underrated CX factor: If my card gets denied when i’m a new customer or exhibiting a new pattern, i’m impressed with their software. However if they deny a transaction where there is any previous history of me authenticating, then I’m frustrated by their naive paranoid algorithm.",
+      "fetched_at": "2026-05-16T07:33:49.602553+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48155212",
+      "hn_story_type": "story",
+      "hn_points": "137",
+      "hn_comments_count": "34",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48155212",
+      "hn_item_text": "",
+      "hn_comment_preview": "jstanley: > Real cardholders almost never buy something for exactly $1.00. Coffee is $4.73, gas is $52.81. The roundness is the signal. Surely this depends on how the vendor sets their prices? If you're going to buy something from a website to test a stolen credit card you don't just get to make up your own prices. And I think you may be over-indexing on the US \"prices don't include tax\" thing. Elsewhere, round-number price...\nfny: Isn't the point of ML that you learn these rules from the data? The right approach to me would be to use ML models to detect patterns that correspond with fraud and then evaluate them to see if any make sense. This way you might discover new hyptotheses.\ncrmd: > Drawback: this doesn’t work until you have history. New accounts have no baseline. This is an underrated CX factor: If my card gets denied when i’m a new customer or exhibiting a new pattern, i’m impressed with their software. However if they deny a transaction where there is any previous history of me authenticating, then I’m frustrated by their naive paranoid algorithm.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=2,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 2,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "index",
+            "rust",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "signal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "index",
+        "rust",
+        "sql"
+      ],
+      "detail_slug": "e835a84d15d62c766888e969cf2e428832305bb2",
+      "is_english_source": true,
+      "translated_title": "거래 사기를 잡아낼 때 내가 쓰는 SQL 패턴",
+      "short_summary": "이 글은 결제 로그에서 이상 금액, 반복 승인 시도, 계정 이력 차이 같은 신호를 SQL로 빠르게 찾는 방법을 다룬다. HN에서는 이런 규칙이 실무엔 쓸모 있지만 지역별 가격 구조나 신규 사용자 처리에서는 쉽게 빗나갈 수 있다는 지적이 나왔다.",
+      "why_it_matters": "복잡한 사기 탐지 시스템이 없어도 운영 데이터만 있으면 SQL로 의심 거래를 먼저 걸러볼 수 있다는 점이 눈에 띈다. 모델을 새로 붙이기 전에도 리스크팀과 데이터팀이 바로 실험해볼 만한 접근이다.\n\n- 룰 기반 탐지는 설명이 쉬워서 운영 대응, 감사, 내부 보고에 바로 쓰기 좋다.\n- 다만 금액의 반올림 패턴 같은 신호는 국가별 가격 체계나 세금 방식에 따라 의미가 달라질 수 있다.\n- 신규 사용자처럼 이력이 없는 구간에서는 오탐이 늘 수 있어, 탐지 정확도보다 승인 경험을 함께 설계해야 한다.",
+      "hn_reaction_summary": "댓글 분위기는 실용성은 인정하되 일반화에는 신중해야 한다는 쪽에 가까웠다. 현업 감각이 담긴 규칙이라는 평가와 함께, 규칙이 통하는 조건을 더 따져봐야 한다는 반론이 반복됐다.\n\n- 정확히 1달러 같은 둥근 금액 신호는 미국식 가격 구조에 치우친 해석일 수 있다는 지적이 나왔다.\n- 이런 특징은 결국 ML이 데이터에서 스스로 찾아야 하는 것 아니냐는 의견과, 사람이 이해 가능한 규칙의 장점이 있다는 의견이 맞섰다.\n- 신규 고객이나 평소와 다른 결제를 너무 공격적으로 막으면 사기 방지보다 사용자 불만이 더 커질 수 있다는 CX 논점도 자주 언급됐다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-16T07:36:52.277477+00:00"
+    },
+    {
       "id": "20dffa91d64de87207157740325effb5d5573d6e",
       "title_hash": "949a16bc029d953f28cbb634c55258c4598640c4",
       "source": "GeekNews",
@@ -166267,84 +166707,6 @@
       "short_summary": "폴 그레이엄은 스위스 시계 산업 역사를 통해 성능 중심의 황금기에서 브랜드 중심 시대로 변화한 현상을 분석했습니다.",
       "ai_model": "gpt-4.1-mini-2025-04-14",
       "sent_at": "2026-03-06T06:42:21.900040+00:00"
-    },
-    {
-      "id": "23ed8e84de5dbdbe7030a79f21b57d68c974b667",
-      "title_hash": "659683f4d25c0788619ed908fc0419261d87b460",
-      "source": "GeekNews",
-      "title": "Show GN: 코스피 상승장에 숟가락 얹기 - 증권사 수수료/이벤트 비교 &amp; 공모주 사이트",
-      "link": "https://news.hada.io/topic?id=27250",
-      "published_at": "2026-03-06T06:18:42+00:00",
-      "summary": "안녕하세요. 최근 잠시 주춤하기는 했지만 삼전/하닉이 엄청 오르길래 주식에 관심을 갖게 되어 흩어져 있는 증권사 기본 정보들을 보기 편하게 모아본 사이트를 공유합니다. 증권사별 수수료 및 이벤트 비교 증권사마다 다르고 찾기 번거로운 수수료 정보와 계좌 이벤트를 한곳에",
-      "fetched_at": "2026-03-06T06:42:12.531127+00:00",
-      "source_priority_boost": "45",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "boost=45,tech=0,news=0",
-      "sent_at": "2026-03-06T06:42:19.239736+00:00"
-    },
-    {
-      "id": "f5d512333dc09167d0b034701b97591669098e1f",
-      "title_hash": "8b8bc4c7fe2703e38e7add89c09ed4932a5c3c28",
-      "source": "GeekNews",
-      "title": "Cluely CEO Roy Lee, 작년 매출 수치를 공개적으로 거짓 발표했음을 인정",
-      "link": "https://news.hada.io/topic?id=27247",
-      "published_at": "2026-03-06T04:27:17+00:00",
-      "summary": "AI 치팅 도구로 화제를 모은 스타트업 Cluely 의 CEO Roy Lee가 2025년 여름 TechCrunch에 공유한 연간 반복 매출(ARR) 700만 달러 가 거짓이었음을 X를 통해 공식 인정 실제 당시 매출은 소비자 ARR 270만 달러, 기업 ARR 250만 달러로 총 ARR 520만 달러, ...",
-      "fetched_at": "2026-03-06T05:27:46.751927+00:00",
-      "source_priority_boost": "45",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "boost=45,tech=0,news=0",
-      "sent_at": "2026-03-06T05:27:54.688125+00:00"
-    },
-    {
-      "id": "720df55d1ccd08d5c00b90ef4e6b6fd220afa1c6",
-      "title_hash": "9f5281b57cafcfcc0ae5f7a22ea746a8c1c744f4",
-      "source": "GeekNews",
-      "title": "Nvidia PersonaPlex 7B on Apple Silicon: Swift 기반 실시간 양방향 음성 대화 모델",
-      "link": "https://news.hada.io/topic?id=27248",
-      "published_at": "2026-03-06T04:46:31+00:00",
-      "summary": "Apple Silicon 에서 Swift/MLX 로 구현된 PersonaPlex 7B 모델이 실시간 양방향 음성 대화 를 지원함 기존의 ASR→LLM→TTS 3단계 음성 파이프라인을 하나의 모델로 통합해, 텍스트 변환 없이 오디오 입...",
-      "fetched_at": "2026-03-06T05:27:46.751927+00:00",
-      "source_priority_boost": "45",
-      "priority_bucket": "technical",
-      "priority_score": "73",
-      "priority_signal": "boost=45,tech=2,news=0",
-      "translated_title": "애플 실리콘용 Swift 기반 PersonaPlex 7B 음성 대화 모델",
-      "short_summary": "PersonaPlex 7B 모델이 Apple Silicon에서 Swift/MLX로 구현되어 실시간 양방향 음성 대화를 지원하며, 기존 3단계 음성 처리 과정을 하나로 통합했다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-06T05:27:53.316879+00:00"
-    },
-    {
-      "id": "87a9979c4f93eddfe490d0ddc3798cc63aa0ed64",
-      "title_hash": "61d322e400586123ce51ffa9698f0cbefdaa122b",
-      "source": "GeekNews",
-      "title": "AI 에이전트를 위해선 CLI를 다시 작성해야 합니다",
-      "link": "https://news.hada.io/topic?id=27246",
-      "published_at": "2026-03-06T04:03:11+00:00",
-      "summary": "사람 중심 CLI와 AI 에이전트 중심 CLI 는 설계 목표가 근본적으로 다르며, 기존 CLI를 에이전트용으로 개조하는 것은 비효율적 에이전트는 GUI가 아닌 결정론적이고 기계 판독 가능한 출력 , 런타임에서 조회 가능한 자기 기술 스키마, 할루시네이션 방어 장치가 필...",
-      "fetched_at": "2026-03-06T05:27:46.751927+00:00",
-      "source_priority_boost": "45",
-      "priority_bucket": "technical",
-      "priority_score": "82",
-      "priority_signal": "boost=45,tech=3,news=0",
-      "sent_at": "2026-03-06T05:27:50.372644+00:00"
-    },
-    {
-      "id": "66a2b733f5366bdef874f57e44a02d473c1af7bf",
-      "title_hash": "78603b5cdbc326bd63c6ebdd5aa6d1af3e4d676c",
-      "source": "GeekNews",
-      "title": "Show GN: Calto - 메모처럼 쓰면 줄 단위로 계산되는 노트 계산기",
-      "link": "https://news.hada.io/topic?id=27245",
-      "published_at": "2026-03-06T03:44:25+00:00",
-      "summary": "안녕하세요. macOS에선 Numi를 잘 쓰고 있는데, 모바일에선 마땅한 게 없어서 직접 만들어봤습니다. 메모장처럼 텍스트를 입력하면 각 줄의 결과를 오른쪽에 바로 보여주는 계산기 앱입니다. 커피 = 4500 점심 = 12000 하루식비 = 커피 + 점심 → 16,500 한달 = 하루식",
-      "fetched_at": "2026-03-06T04:40:03.132133+00:00",
-      "source_priority_boost": "45",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "boost=45,tech=0,news=0",
-      "sent_at": "2026-03-06T04:40:11.773059+00:00"
     }
   ],
   "topic_digests": {
@@ -166354,8 +166716,10 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 주 도구·에이전트: 통제와 검증",
-        "summary": "도구·에이전트 화제는 이제 무엇을 더 만들 수 있나보다 얼마나 덜 빗나가고, 익숙한 일 흐름에 잘 스며드나로 옮겨간다. 이번 주에 볼 만한 이유도 그 변화가 선명해서다.\n\n- 코딩 보조와 이슈 관리 도구는 폭주를 막고 Git·터미널 안에서 쓰려는 쪽으로 무게가 실린다.\n- 의료 기록기와 3D 생성 사례는 화려한 데모와 별개로 사실성, 누락, 환각 검증이 먼저라는 점을 보여준다.\n- 정부의 내부 시스템 전환은 외부 플랫폼 의존보다 비용과 운영 주도권을 다시 따지는 흐름과 맞물린다.",
+        "summary": "에이전트 경쟁의 초점이 성능 자랑에서 운영 방식으로 옮겨가는 한 주였다. 비용을 아끼고, 폭주를 막고, 기록을 남기는 장치가 왜 필요한지 한꺼번에 드러났다.\n- 로컬 LLM 위임과 플러그인 실험은 코딩 에이전트를 더 오래, 더 얌전히 쓰려는 흐름을 보여줬다.\n- Git 기반 이슈 TUI와 추세 논쟁은 유행보다 작업 맥락과 지속성을 따져 보게 했다.\n- 의료 노트 감사 결과는 에이전트를 붙일수록 검증과 책임선이 먼저여야 한다는 경고였다.",
         "item_ids": [
+          "258a60225df46dc89a65a319c3b2c1232981e5a6",
+          "c80aa2d1231e3fc3c8108b646c57d323448f7ef9",
           "20dffa91d64de87207157740325effb5d5573d6e",
           "cbf53dfc8307cd43617ccdcd6ab0a236f8755cf7",
           "7a94e9a845f2de56bdcf6ae22f163d7d0f3fde36",
@@ -166460,22 +166824,21 @@
           "810c7b256299d32d18e1e34b5b1cb975ace64ea9",
           "e45d4ded110fd99076de6e7541d7a8ee07c0f563",
           "38a16f8ebf7034ac7cf7b2713e1b1f1fc9aeb3fd",
-          "c0952bf502c45af6c1e8392967d1f962c6f5f3f3",
-          "30777f14151ce6ce07040b0db787ec9d15f5c34c",
-          "db769e9a3e1ac0f21248f0421112e32205f544ac",
-          "173e8a6a228431210df5bdad3068c9a41407a5e6"
+          "c0952bf502c45af6c1e8392967d1f962c6f5f3f3"
         ],
-        "total_items": 108,
-        "generated_at": "2026-05-16T03:22:53.169565+00:00",
+        "total_items": 107,
+        "generated_at": "2026-05-16T07:33:49.602553+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술",
-        "summary": "이번 주는 새 기능이나 큰 발표보다, 검증과 책임을 어디까지 붙잡아야 하는지가 더 또렷하게 드러났다. 현업 감각으로 읽을 만한 흐름이다.\n- 픽셀 제로클릭과 Bun UB 논란은 화려한 기술보다 입력 경로와 안전성 검증이 먼저라는 점을 다시 보여줬다.\n- 게임 종료 법안과 AI 망상 비판은 운영 판단과 책임을 끝까지 사람 쪽에 남겨야 한다는 질문으로 이어진다.\n- 서마이트 실험 반응까지 묶어 보면, 이번 주 HN의 톤은 결국 재현 가능성과 사후 설명 책임으로 모인다.",
+        "headline": "이번 주 실무 기술: 비용과 책임",
+        "summary": "이번 주 실무 기술은 성능과 자동화 뒤에 남는 운영 비용, 그리고 책임의 위치를 다시 묻습니다. 지금 보는 이유는 현장 감각 없는 최적화가 곧 성능 저하, 오탐, 보안 문제로 번지기 때문입니다.\n- SSD 쓰기 방식은 속도뿐 아니라 마모와 쓰기 증폭까지 함께 봐야 함을 보여줍니다.\n- 사기 탐지 SQL과 픽셀 제로클릭 이슈는 규칙 설계와 기능 확대가 오탐과 공격면을 키울 수 있음을 드러냈습니다.\n- 게임 종료 법안과 AI 망상 논쟁은 서비스 종료와 의사결정 자동화 뒤에도 책임은 남는다는 점을 짚었습니다.",
         "item_ids": [
+          "b24b3463f89b40d4c1fe201e8719a153cbcfab44",
+          "e835a84d15d62c766888e969cf2e428832305bb2",
           "420ae568a4d354abcca30885f39d9b0d5c649d28",
           "dce6aa4c2151af0798e8b008be69a36385f201c1",
           "28a56976139f007d176ceb9d584a2b9b51aef556",
@@ -166558,11 +166921,10 @@
           "f55934937a86f90020ca82be922616efd175a751",
           "11e9bc51981fa9d49d50ef91a14f8fe35dbec05e",
           "5c80bcc942a3f0126aa7bdeb4dd4700d41d3bfcb",
-          "9e90ad1a067ef070f5ec617365c02ecbd190a84f",
-          "a60b4669c13422f08def3c804e98240f91976156"
+          "9e90ad1a067ef070f5ec617365c02ecbd190a84f"
         ],
-        "total_items": 84,
-        "generated_at": "2026-05-16T03:22:53.169565+00:00",
+        "total_items": 85,
+        "generated_at": "2026-05-16T07:33:49.602553+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -166570,8 +166932,9 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 주 산업·비즈니스",
-        "summary": "이번 주 산업·비즈니스는 새 기술보다 서비스를 굴리는 조건이 더 선명했다. AI 제품은 더 가벼워졌고, 플랫폼은 규제와 결제망 앞에서 경계선을 다시 그었다.\n\n- Supertonic과 Gram은 품질 경쟁이 기본값과 호환성, 운영비까지 따지는 단계로 넘어갔음을 보여줬다.\n- Kickstarter와 TikTok·Instagram 이슈는 창작과 유통의 범위가 정책과 결제사 판단에 크게 흔들린다는 점을 드러냈다.\n- 에릭 리스의 화두까지 겹치며, 지금은 기능보다 구조와 통제력을 먼저 봐야 할 시점이라는 신호가 짙어졌다.",
+        "summary": "이번 주 산업·비즈니스는 AI가 전문 업무와 기기 안으로 더 깊게 들어오고, 플랫폼 규칙은 결제사와 규제 압박 속에 더 보수적으로 바뀌는 흐름이 두드러졌다.\n- 법률용 Claude와 초경량 TTS는 AI 경쟁이 범용 모델을 넘어 산업별 도구와 온디바이스 배포로 옮겨가고 있음을 보여준다.\n- Kickstarter, TikTok·Instagram 이슈는 콘텐츠 기준과 서비스 설계가 이제 성장보다 규제와 책임의 언어로 다뤄지는 국면임을 드러낸다.\n- 기업을 오래 지키는 구조를 다시 묻는 논의도 함께 떠올랐다.",
         "item_ids": [
+          "2495dda9853ea6ffb891f083580afb3f242ef46b",
           "516ee19275ab1712603ae51ccc2a239984085e51",
           "6cb2838d10dde4b268700efa88e4c1643a010131",
           "630a0f545f5d4f05c84e149b8ff98d1172de0a1a",
@@ -166585,8 +166948,8 @@
           "75604418851374f59391ea2b3dd3d8a7a364ecd1",
           "6f283b6782566abb8593317b5b77566546693d4b"
         ],
-        "total_items": 12,
-        "generated_at": "2026-05-16T03:22:53.169565+00:00",
+        "total_items": 13,
+        "generated_at": "2026-05-16T07:33:49.602553+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -166595,9 +166958,11 @@
         "period": "monthly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 달 도구·에이전트: 제어와 검증",
-        "summary": "에이전트와 제작 도구는 더 멀리 가기보다, 더 잘 통제되고 검증되는 쪽으로 옮겨간다. 터미널과 사내 시스템, 실무 현장이 그 시험대다.\n- 코딩·이슈 관리 도구는 웹 밖으로 내려와 Git·TUI 중심 흐름을 다듬고 있다.\n- 의료 기록과 3D 생성 사례는 성능보다 환각, 누락, 실사용 한계를 먼저 묻게 한다.\n- 외부 플랫폼을 걷어내고 내부 도구로 갈아타는 움직임도 비용과 운영 주도권을 다시 보게 한다.",
+        "headline": "이번 달 도구·에이전트",
+        "summary": "코드 생성 부담을 로컬 모델로 넘기고, 에이전트의 폭주를 플러그인으로 다잡으려는 시도가 이어졌다. 도구는 빨라졌지만 흐름을 읽는 눈과 검증 장치가 더 앞에 선다.\n- Claude Code·Codex CLI 보조 도구는 비용과 통제 문제를 정면으로 건드렸다.\n- Git 기반 TUI 이슈 트래커처럼 작업 흐름을 터미널 안에 묶으려는 실험도 눈에 띄었다.\n- 의료 AI 기록 오판 사례까지 겹치며, 지금은 성능보다 운영 감각과 검증 습관을 볼 때다.",
         "item_ids": [
+          "258a60225df46dc89a65a319c3b2c1232981e5a6",
+          "c80aa2d1231e3fc3c8108b646c57d323448f7ef9",
           "20dffa91d64de87207157740325effb5d5573d6e",
           "cbf53dfc8307cd43617ccdcd6ab0a236f8755cf7",
           "7a94e9a845f2de56bdcf6ae22f163d7d0f3fde36",
@@ -167083,12 +167448,10 @@
           "77ae700ce1f2f401203582d9da903f7fdf2c8381",
           "81c174d230236bc571c5f27ecb1c48d39cb2ffb2",
           "b6e2c73d28f933a5c040fdf5ffc7921ea5b7b3df",
-          "967480d3edacc28ae73f139a887e3ab581cf991c",
-          "16fb7927875d562f2e03c59276e3314caaf6f8d1",
-          "46729c43c84627fddbe047b64c4f08ba0948fb3e"
+          "967480d3edacc28ae73f139a887e3ab581cf991c"
         ],
         "total_items": 488,
-        "generated_at": "2026-05-16T03:22:53.169565+00:00",
+        "generated_at": "2026-05-16T07:33:49.602553+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -167096,8 +167459,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "AI 확대와 플랫폼 의존이 커질수록, 실무의 시선은 새 기능보다 검증과 책임으로 돌아가고 있다. 이번 달 기사 묶음은 그 흐름을 또렷하게 보여준다.\n- 픽셀 제로클릭과 Bun UB 논란은 화제성보다 공격면과 검증 공백을 먼저 보게 만든다.\n- 게임 종료 법안과 AI 의사결정 비판은 운영자 책임의 범위를 다시 묻는다.\n- 실험 재현성 논의까지 겹치며, 지금은 ‘만들었다’보다 ‘증명했다’가 더 크게 읽힌다.",
+        "summary": "이번 달 글은 성능, 탐지, 보안, 운영 책임을 한 줄로 묶는다. 빨라지는 법만이 아니라 실패 지점과 책임 경계를 먼저 따지는 흐름이 선명하다.\n- SSD 쓰기와 사기 탐지 SQL은 저장 방식과 규칙 설계가 곧 비용, 마모, 오탐으로 돌아온다는 점을 보여준다.\n- 픽셀 제로클릭 공격은 새 기능이 늘수록 미디어 처리 경로와 패치 속도가 바로 실무 리스크가 된다는 사실을 드러낸다.\n- 게임 종료 법안과 AI 의사결정 비판은 서비스의 끝과 판단의 책임까지 설계해야 하는 시점임을 짚는다.",
         "item_ids": [
+          "b24b3463f89b40d4c1fe201e8719a153cbcfab44",
+          "e835a84d15d62c766888e969cf2e428832305bb2",
           "420ae568a4d354abcca30885f39d9b0d5c649d28",
           "dce6aa4c2151af0798e8b008be69a36385f201c1",
           "28a56976139f007d176ceb9d584a2b9b51aef556",
@@ -167440,21 +167805,18 @@
           "32ec01fc9142150c973af8d3989997c5188eb6f2",
           "857a17838549f053adda49d03bbdbd4fc16cec6e",
           "d7ad1040344bc1cf0d04dbd3577ea68a2eebe78c",
-          "ee82b10812765543e526d742136a691edc1e35ba",
-          "37974ef3ffaa4c74cd3f947943ec1ba9d2e7d99d",
-          "89691869ad6a9988ec1bb1900224cad33bffc830",
-          "ba06c9f9889ff6a18fd2813eeb52b45625065463"
+          "ee82b10812765543e526d742136a691edc1e35ba"
         ],
-        "total_items": 346,
-        "generated_at": "2026-05-16T03:22:53.169565+00:00",
+        "total_items": 345,
+        "generated_at": "2026-05-16T07:33:49.602553+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "monthly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 달 전략·인사이트: 책임과 신뢰",
-        "summary": "AI와 오픈소스의 초점이 성능 경쟁에서 책임, 신뢰, 보안, 주권으로 옮겨가는 달이다. 연구 문화와 배포 방식까지 함께 바뀌고 있어 지금 묶어 볼 이유가 분명하다.\n\n- arXiv 제재는 환각 인용도 저자 책임으로 본다는 기준을 세웠다.\n- KDE 투자와 중국 AI 연구소 사례는 결국 조직 문화와 공공 인프라가 긴 승부를 가른다는 점을 보여준다.\n- 온디바이스 LLM 진전과 Obsidian 악용은 AI가 사용자 단까지 내려온 만큼 편의와 보안을 함께 봐야 함을 드러낸다.",
+        "headline": "이번 달 전략·인사이트",
+        "summary": "AI 경쟁은 성능만 겨루는 국면을 지나 책임, 인프라, 배포, 보안이 함께 재편되는 단계로 들어섰다. 이번 묶음은 그 변화가 연구 현장과 오픈소스, 사용자 도구에서 한꺼번에 드러난다는 점을 보여준다.\n- arXiv 제재와 Obsidian 악용 사례는 생성 AI 시대에 신뢰가 어디서 흔들리는지 짚는다.\n- KDE 투자, 중국 연구소 문화, 온디바이스 LLM 사례는 승부처가 모델 자체보다 실행력과 기반 기술로 옮겨가는 흐름을 보여준다.\n- 규칙, 투자, 제품화가 동시에 움직이는 지금 읽어둘 만한 맥락이다.",
         "item_ids": [
           "d326cc0af1849718329988c19e05ab3db173386e",
           "eab4d3e410489fed5d11fbc9a9475cc6d5896d41",
@@ -167505,11 +167867,10 @@
           "62ca8b0a660e1867151faa365e30453c463208ff",
           "75040b172884c279dc7f9db21c48b080a04f74c4",
           "4e0d7333ede25ece66b384e4ad1df10ac2ca1446",
-          "20700e5ed3769ec0d007b5112c9552062e2c44fc",
-          "471224fe06d0861fc68eb5259d7814dabbda375a"
+          "20700e5ed3769ec0d007b5112c9552062e2c44fc"
         ],
-        "total_items": 51,
-        "generated_at": "2026-05-16T03:22:53.169565+00:00",
+        "total_items": 50,
+        "generated_at": "2026-05-16T07:33:49.602553+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -167522,19 +167883,20 @@
       "title": "조용히 커지는 주제",
       "cta_label": "흐름 보기",
       "related_item_ids": [
+        "258a60225df46dc89a65a319c3b2c1232981e5a6",
         "20dffa91d64de87207157740325effb5d5573d6e",
-        "cbf53dfc8307cd43617ccdcd6ab0a236f8755cf7",
-        "3c30ff5e65a56955b5962d98224b5efeaacedc2f"
+        "7a94e9a845f2de56bdcf6ae22f163d7d0f3fde36",
+        "d326cc0af1849718329988c19e05ab3db173386e"
       ],
-      "score": 0.9,
-      "generated_at": "2026-05-16T03:22:53.169565+00:00",
+      "score": 0.95,
+      "generated_at": "2026-05-16T07:33:49.602553+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "로컬·터미널 중심 실무 도구",
-      "summary_line": "화려한 에이전트보다 Git과 터미널 안에서 통제되는 도구가 반복해서 눈에 띈다.",
+      "topic_name": "에이전트 통제와 검증",
+      "summary_line": "이번 주엔 더 잘 쓰는 법보다 덜 새고 덜 폭주하게 묶는 장치가 더 자주 보였다.",
       "signals": [
-        "Superpowers는 코딩 보조의 폭주를 막는 설계로 주목받았다.",
-        "Epiq는 이슈 관리를 Git과 TUI 안으로 다시 끌고 왔다.",
-        "DS4 확산은 단일 모델 중심 로컬 AI 수요를 드러냈다."
+        "무거운 코드 생성은 로컬 LLM에 넘겨 비용과 한도 부담을 줄이려는 시도가 나왔다.",
+        "플러그인으로 에이전트의 과주행을 막고 작업 단계를 더 촘촘히 통제하려는 흐름이 붙었다.",
+        "의료 노트와 논문 인용처럼 결과 책임이 큰 곳에선 검증 실패가 바로 제도 이슈로 번졌다."
       ]
     },
     {
@@ -167542,38 +167904,38 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "찬반 보기",
+      "cta_label": "쟁점 보기",
       "related_item_ids": [
         "dce6aa4c2151af0798e8b008be69a36385f201c1"
       ],
-      "score": 0.94,
-      "generated_at": "2026-05-16T03:22:53.169565+00:00",
+      "score": 0.9,
+      "generated_at": "2026-05-16T07:33:49.602553+00:00",
       "ai_model": "codex-cli",
-      "headline": "게임 서비스 종료를 어디까지 책임져야 하나",
-      "issue_title": "캘리포니아의 온라인 게임 종료 의무화 법안",
-      "opposition_summary": "서버 운영비와 부정행위 대응까지 감안하면 법으로 강제하기엔 현실성이 낮다는 반론이 선명했다.",
-      "support_summary": "돈을 받고 판 게임이라면 종료 뒤에도 패치나 환불 기준은 남겨야 한다는 주장도 강하게 맞섰다."
+      "headline": "이용자 보호와 운영 현실이 정면으로 부딪혔다",
+      "issue_title": "온라인 게임 종료 시 패치·환불 의무화",
+      "opposition_summary": "반대 쪽은 서버 유지와 부정행위 대응, 모더레이션 비용까지 떠안기면 법이 현실을 못 따라간다고 봤다.",
+      "support_summary": "찬성 쪽은 종료 공지와 오프라인 패치, 환불 기준 같은 최소한의 퇴장 절차는 이용자 권리라고 밀었다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 읽기",
+      "cta_label": "신호 보기",
       "related_item_ids": [
-        "d326cc0af1849718329988c19e05ab3db173386e",
+        "420ae568a4d354abcca30885f39d9b0d5c649d28",
         "7a94e9a845f2de56bdcf6ae22f163d7d0f3fde36",
-        "28a56976139f007d176ceb9d584a2b9b51aef556"
+        "d326cc0af1849718329988c19e05ab3db173386e"
       ],
-      "score": 0.92,
-      "generated_at": "2026-05-16T03:22:53.169565+00:00",
+      "score": 0.84,
+      "generated_at": "2026-05-16T07:33:49.602553+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "성능보다 책임 추궁이 먼저 나온다",
-      "summary_line": "이번 주엔 새 기능 자랑보다 자동화의 책임선을 다시 긋는 기사들이 더 자주 겹쳤다.",
+      "signal_title": "검토 전 자동 처리 구간이 길어진다",
+      "summary_line": "사람이 열기 전, 확인하기 전 돌아가는 경로가 자꾸 사고의 시작점으로 드러났다.",
       "signals": [
-        "arXiv는 환각 인용도 저자 책임으로 못 박았다.",
-        "의료 기록기는 승인 뒤에도 기본 사실을 반복해서 틀렸다.",
-        "AI 판단 위임을 조직 문화 문제로 보는 비판이 커졌다."
+        "메시지를 열기 전 미디어를 다루는 경로가 제로클릭 공격면으로 부각됐다.",
+        "대화를 듣고 바로 써주는 의료 노트는 기본 사실부터 흔들리며 현장 검수를 압박했다.",
+        "AI가 끼어든 논문 인용 오류는 저자 책임 규정 강화로 곧장 이어졌다."
       ]
     }
   ],
@@ -167584,19 +167946,20 @@
     "title": "조용히 커지는 주제",
     "cta_label": "흐름 보기",
     "related_item_ids": [
+      "258a60225df46dc89a65a319c3b2c1232981e5a6",
       "20dffa91d64de87207157740325effb5d5573d6e",
-      "cbf53dfc8307cd43617ccdcd6ab0a236f8755cf7",
-      "3c30ff5e65a56955b5962d98224b5efeaacedc2f"
+      "7a94e9a845f2de56bdcf6ae22f163d7d0f3fde36",
+      "d326cc0af1849718329988c19e05ab3db173386e"
     ],
-    "score": 0.9,
-    "generated_at": "2026-05-16T03:22:53.169565+00:00",
+    "score": 0.95,
+    "generated_at": "2026-05-16T07:33:49.602553+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "로컬·터미널 중심 실무 도구",
-    "summary_line": "화려한 에이전트보다 Git과 터미널 안에서 통제되는 도구가 반복해서 눈에 띈다.",
+    "topic_name": "에이전트 통제와 검증",
+    "summary_line": "이번 주엔 더 잘 쓰는 법보다 덜 새고 덜 폭주하게 묶는 장치가 더 자주 보였다.",
     "signals": [
-      "Superpowers는 코딩 보조의 폭주를 막는 설계로 주목받았다.",
-      "Epiq는 이슈 관리를 Git과 TUI 안으로 다시 끌고 왔다.",
-      "DS4 확산은 단일 모델 중심 로컬 AI 수요를 드러냈다."
+      "무거운 코드 생성은 로컬 LLM에 넘겨 비용과 한도 부담을 줄이려는 시도가 나왔다.",
+      "플러그인으로 에이전트의 과주행을 막고 작업 단계를 더 촘촘히 통제하려는 흐름이 붙었다.",
+      "의료 노트와 논문 인용처럼 결과 책임이 큰 곳에선 검증 실패가 바로 제도 이슈로 번졌다."
     ]
   }
 }
