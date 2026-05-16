@@ -1,6 +1,427 @@
 {
   "items": [
     {
+      "id": "0432cb81c7570a3f095fa81020c53e4324db178b",
+      "title_hash": "060d6a55c39f253d5b163151284e741d894cd2af",
+      "source": "GeekNews",
+      "title": "대규모 코드베이스에서 Claude Code가 작동하는 방식 : 모범 사례 및 시작점",
+      "link": "https://news.hada.io/topic?id=29556",
+      "published_at": "2026-05-16T06:54:00+00:00",
+      "summary": "Claude Code는 인덱스를 업로드하지 않고 개발자 머신에서 파일 시스템 탐색 과 grep , 참조 추적으로 라이브 코드베이스를 직접 읽음 성능은 모델만이 아니라 CLAUDE.md , hooks, skills, plugins, MCP 서버로 이뤄진 하네스 와 구축 순서에...",
+      "fetched_at": "2026-05-16T11:44:47.656305+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "67",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=22,practical_tech=4,tools_agents=22,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 22,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "코드",
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "claude code",
+            "mcp"
+          ],
+          "support_hits": [
+            "plugin"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "mcp",
+        "plugin",
+        "claude + code"
+      ],
+      "detail_slug": "0432cb81c7570a3f095fa81020c53e4324db178b",
+      "is_english_source": false,
+      "sent_at": "2026-05-16T11:47:23.615739+00:00"
+    },
+    {
+      "id": "e695a9bbf99efaa036651a02bd1787af34d72a76",
+      "title_hash": "2c94d3a2bbbcbb34d2ebd8bc030d7558e616bfb1",
+      "source": "GeekNews",
+      "title": "Show GN: Zed 에디터 다국어 번역 프로젝트 - Zed-i18n",
+      "link": "https://news.hada.io/topic?id=29560",
+      "published_at": "2026-05-16T07:40:42+00:00",
+      "summary": "정말 오랜만에 GeekNews에서 인사드리게 되었습니다. VSCode가 업데이트할 때마다 버그만 늘면서 사용성이 악화하는 사이... 최근 Zed 에디터 1.0.0이 출시되고 한 번 직접 써보고 싶었는데 다국어 지원이 아예 안 되더군요. 구조상 모든 UI 문자",
+      "fetched_at": "2026-05-16T11:44:47.656305+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "출시"
+      ],
+      "detail_slug": "e695a9bbf99efaa036651a02bd1787af34d72a76",
+      "is_english_source": false,
+      "sent_at": "2026-05-16T11:47:23.615739+00:00"
+    },
+    {
+      "id": "58483199ffb39db1e2482c27316c47dc20212887",
+      "title_hash": "c19d8ff7cbcd5d01b1b5aac9aa2f71c89dfd28ca",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Orthrus-Qwen3: up to 7.8×tokens/forward on Qwen3, identical output distribution",
+      "link": "https://github.com/chiennv2000/orthrus",
+      "published_at": "2026-05-15T22:38:58+00:00",
+      "summary": "HN story type: story HN points: 111 HN comments: 16 HN top comments: bertili: Does this translate into a similar reduction in compute? What's the catch? spwa4: I don't understand. This distills a diffusion transformer out of Qwen3. And while the provably identical is nice, a full diffusion transformer would be a lot faster still. xiphias2: The most interesting part of this idea for me is how it wasn't tried / implemented before, as it makes sense. I haven't read the paper but of course DTree tricks work here as well",
+      "fetched_at": "2026-05-16T11:44:47.656305+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48154865",
+      "hn_story_type": "story",
+      "hn_points": "111",
+      "hn_comments_count": "16",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48154865",
+      "hn_item_text": "",
+      "hn_comment_preview": "bertili: Does this translate into a similar reduction in compute? What's the catch?\nspwa4: I don't understand. This distills a diffusion transformer out of Qwen3. And while the provably identical is nice, a full diffusion transformer would be a lot faster still.\nxiphias2: The most interesting part of this idea for me is how it wasn't tried / implemented before, as it makes sense. I haven't read the paper but of course DTree tricks work here as well",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "34",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=10,practical_tech=7,tools_agents=10,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "github.com"
+      ],
+      "detail_slug": "58483199ffb39db1e2482c27316c47dc20212887",
+      "is_english_source": true,
+      "translated_title": "Orthrus-Qwen3, 같은 출력으로 토큰 처리 7.8배",
+      "short_summary": "Qwen3에서 한 번의 포워드로 처리하는 토큰 수를 최대 7.8배까지 늘리면서도 출력 분포는 같다고 내세운 연구다. 모델 품질을 바꾸지 않고 추론 효율을 끌어올릴 수 있다는 점에서 관심을 모았다.",
+      "why_it_matters": "LLM 서빙 비용과 지연 시간을 줄이려는 팀이라면 그냥 지나치기 어려운 주장이다. 같은 출력 분포를 유지한 채 토큰 처리량을 높일 수 있다면, 모델 교체 없이도 추론 경로 최적화의 여지가 커진다.\n- 성능 향상 폭이 사실이라면 Qwen3 기반 서비스는 응답 속도와 GPU 활용률을 함께 다시 계산해볼 만하다.\n- 품질 저하를 감수하는 근사 기법이 아니라는 점이 포인트다. 운영 환경에서 검증 기준을 세우기 더 수월하다.\n- 다만 실무에서는 토큰당 실제 연산량이 얼마나 줄었는지, 메모리와 구현 복잡도에서 어떤 대가가 붙는지까지 확인해야 한다.",
+      "hn_reaction_summary": "HN 반응은 신기술 소개에 대한 호기심과 계산 비용에 대한 경계심이 함께 보이는 쪽에 가깝다. 댓글 수는 많지 않지만, 무엇이 진짜 개선인지부터 따져보려는 분위기가 뚜렷하다.\n- 가장 많이 반복된 질문은 '토큰 수가 늘어난 만큼 연산도 실제로 줄어드느냐'와 '숨은 비용이 뭐냐'였다.\n- 일부는 출력 분포가 같다는 점은 높게 보면서도, 완전한 diffusion transformer 쪽이 더 빠를 수 있다며 비교 기준을 넓혀 봐야 한다고 지적했다.\n- 또 다른 반응은 '아이디어 자체는 꽤 자연스러운데 왜 이제야 나왔나'에 가까웠다. 논문 세부 구현과 추가 최적화 여지를 읽어볼 만하다는 평가가 이어졌다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-16T11:47:23.615739+00:00"
+    },
+    {
+      "id": "0b306606acb94e6d259f0020fac2ac55a707cd83",
+      "title_hash": "5460b9d0ddbaa03c74ae7313274ec35092f7a0c8",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Where to buy a non-Apple, non-Google smartphone",
+      "link": "https://www.theregister.com/on-prem/2026/05/01/where-to-buy-a-non-apple-non-google-smartphone/5219681",
+      "published_at": "2026-05-16T08:34:28+00:00",
+      "summary": "HN story type: story HN points: 48 HN comments: 21 HN top comments: skc: Many years later and I'm still bitter that the tech press laughed Windows Phone out of the room straight to its demise. Yes it had very little developer support but at some point things were looking up. It was just the butt of too many jokes from influential people. A third ecosystem right now would have been amazing chappi42: This article fails to mention GrapheneOS. The article starts with Murena, Punkt, Volla which are all based on Android. If you do this, then imho you must mention GrapheneOS, the by far better option (updates, privacy, security, organisation). Google Pixel with GrapheneOS is the best non-Google phone... ;-) janvlug: I use a Librem5 Linux phone. With the default PureOS operating system. Enjoy your freedom, break free from Google and Apple. Have a full Linux computer in your pocket that you can also use for calling. See also the discussion on this post: https://mastodon.social/@janvlug/116504044251287290",
+      "fetched_at": "2026-05-16T11:44:47.656305+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48158130",
+      "hn_story_type": "story",
+      "hn_points": "48",
+      "hn_comments_count": "21",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48158130",
+      "hn_item_text": "",
+      "hn_comment_preview": "skc: Many years later and I'm still bitter that the tech press laughed Windows Phone out of the room straight to its demise. Yes it had very little developer support but at some point things were looking up. It was just the butt of too many jokes from influential people. A third ecosystem right now would have been amazing\nchappi42: This article fails to mention GrapheneOS. The article starts with Murena, Punkt, Volla which are all based on Android. If you do this, then imho you must mention GrapheneOS, the by far better option (updates, privacy, security, organisation). Google Pixel with GrapheneOS is the best non-Google phone... ;-)\njanvlug: I use a Librem5 Linux phone. With the default PureOS operating system. Enjoy your freedom, break free from Google and Apple. Have a full Linux computer in your pocket that you can also use for calling. See also the discussion on this post: https://mastodon.social/@janvlug/116504044251287290",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security"
+      ],
+      "detail_slug": "0b306606acb94e6d259f0020fac2ac55a707cd83",
+      "is_english_source": true,
+      "translated_title": "애플·구글 아닌 스마트폰, 어디서 살까",
+      "short_summary": "애플과 구글을 벗어난 스마트폰 선택지를 다룬 HN 프론트페이지 글이다. Murena·Punkt·Volla 같은 대안 기기와 함께, 댓글에서는 GrapheneOS와 Librem 5 같은 현실적 대안과 이상적 대안이 맞붙었다.",
+      "why_it_matters": "모바일 기기 선택은 이제 브랜드 취향보다 운영체제 통제권, 업데이트 체계, 앱 호환성의 문제에 더 가깝다. 보안과 프라이버시를 따지는 개인은 물론, 업무용 단말 정책을 검토하는 팀에도 바로 닿는 이야기다.\n- 대안 스마트폰을 고를 때는 하드웨어보다 OS 유지보수와 보안 업데이트 주기를 먼저 봐야 한다는 점이 다시 드러난다.\n- 구글 서비스를 덜 쓰고 싶어도 완전히 새로운 생태계보다 Android 기반 변형판이 현재로선 더 현실적인 선택지로 읽힌다.\n- 자유 소프트웨어 성향의 리눅스 폰은 매력적이지만, 실사용 단계에서는 앱 지원과 편의성의 타협이 따라붙는다는 점을 염두에 둬야 한다.",
+      "hn_reaction_summary": "댓글 분위기는 한쪽으로 기울기보다 \"현실적으로 무엇을 쓸 수 있나\"에 초점이 맞춰졌다. 순수한 대안 생태계를 바라는 목소리와, 지금 당장 쓸 만한 우회 경로를 찾자는 의견이 함께 나왔다.\n- 반복해서 나온 포인트는 GrapheneOS다. 기사가 Android 기반 대안을 다뤘다면 Pixel+GrapheneOS를 빼면 안 된다는 반응이 강했다.\n- Windows Phone이 사라진 일을 아쉬워하는 댓글도 눈에 띈다. 애플과 구글 외 제3의 생태계가 있었으면 지금 선택지가 훨씬 넓었을 것이라는 시선이다.\n- Librem 5 같은 리눅스 폰을 지지하는 의견도 있었지만, 자유와 통제권의 장점만큼 일상 사용성의 부담도 함께 떠오르는 논점으로 읽힌다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-16T11:47:23.615739+00:00"
+    },
+    {
+      "id": "ecd13236e0d427c5be557472491daa39bd3c5bd1",
+      "title_hash": "d4a015efff73d0426fbd490d81cecb9aaeae1b6b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Frontier AI has broken the open CTF format",
+      "link": "https://kabir.au/blog/the-ctf-scene-is-dead",
+      "published_at": "2026-05-16T07:01:55+00:00",
+      "summary": "HN story type: story HN points: 162 HN comments: 140 HN top comments: chrismorgan: Meta: this was submitted with the article’s title “The CTF scene is dead” which I found very easy to understand. It has just been updated to use the subtitle’s first sentence, “Frontier AI has broken the open CTF format”. I find that much harder to grasp, rather like a garden-path sentence. My immediate thoughts were that “Frontier” was a company name, and that there was some file format named CTF. If you don’t kn... baq: Replace ‘CTF’ with ‘high school’ or ‘university’ and you’ve described the total slow motion collapse of education; the only saving grace is that most of it requires in person presence. We’ve figured out the human replacement pipeline it seems, but we haven’t figured out the eduction part. LLMs can be wonderful teachers, but the temptation to just tell it ‘do it for me’ is almost impossible to resist. himata4113: I was writing an obfuscator recently, I just had the model deobfuscate and optimize the code back to original and I kept improving the obfuscator until it couldn't. The funny thing is that after all this I also ended up with a really strong deobfuscator and optimizer which is probably more capable than most commercial tools. The solution is just to make CTFs harder, but when do CTFs become too hard? Maybe the prob...",
+      "fetched_at": "2026-05-16T11:44:47.656305+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48157559",
+      "hn_story_type": "story",
+      "hn_points": "162",
+      "hn_comments_count": "140",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48157559",
+      "hn_item_text": "",
+      "hn_comment_preview": "chrismorgan: Meta: this was submitted with the article’s title “The CTF scene is dead” which I found very easy to understand. It has just been updated to use the subtitle’s first sentence, “Frontier AI has broken the open CTF format”. I find that much harder to grasp, rather like a garden-path sentence. My immediate thoughts were that “Frontier” was a company name, and that there was some file format named CTF. If you don’t kn...\nbaq: Replace ‘CTF’ with ‘high school’ or ‘university’ and you’ve described the total slow motion collapse of education; the only saving grace is that most of it requires in person presence. We’ve figured out the human replacement pipeline it seems, but we haven’t figured out the eduction part. LLMs can be wonderful teachers, but the temptation to just tell it ‘do it for me’ is almost impossible to resist.\nhimata4113: I was writing an obfuscator recently, I just had the model deobfuscate and optimize the code back to original and I kept improving the obfuscator until it couldn't. The funny thing is that after all this I also ended up with a really strong deobfuscator and optimizer which is probably more capable than most commercial tools. The solution is...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "llm",
+        "tool"
+      ],
+      "detail_slug": "ecd13236e0d427c5be557472491daa39bd3c5bd1",
+      "is_english_source": true,
+      "translated_title": "최신 AI가 공개 CTF의 판을 흔들다",
+      "short_summary": "최신 고성능 AI가 공개 CTF 문제를 빠르게 풀면서 공개 온라인 대회의 변별력이 무너지고 있다는 문제 제기다. 참가자 실력보다 모델 활용 능력이 결과를 가를 수 있다는 우려가 나온다.",
+      "why_it_matters": "보안 교육과 채용, 커뮤니티 운영 방식까지 함께 흔들릴 수 있다는 점에서 실무자도 눈여겨볼 만한 논점이다.\n- 공개형 CTF는 이제 순수한 문제 해결력보다 프롬프트 작성, 도구 연결, 모델 접근성이 성적에 더 큰 영향을 줄 수 있다.\n- 교육 현장에서는 훈련 과제가 학습보다 대행으로 흐를 위험이 있다. AI를 잘 쓰는 법과 스스로 이해하는 법을 따로 설계해야 한다.\n- 운영 방식도 바뀔 가능성이 크다. 오프라인 요소, 풀이 과정 제출, 실시간 제약 같은 검증 장치가 더 필요해질 수 있다.",
+      "hn_reaction_summary": "댓글 분위기는 공포를 부풀리기보다는 이미 시작된 변화를 어떻게 받아들일지 따지는 쪽에 가까웠다.\n- 제목이 모호하다는 메타 반응은 있었지만, 공개 CTF의 변별력이 약해지고 있다는 문제의식 자체에는 대체로 공감이 모였다.\n- AI는 좋은 튜터가 될 수 있지만 결국 \"대신 해줘\"로 흐르기 쉽다는 지적이 이어졌다. 이 문제를 학교 교육 전반으로 확장해 보는 시선도 많았다.\n- 더 어려운 문제를 내면 된다는 의견도 있었지만, 그렇게 가면 소수만 버티는 군비 경쟁이 되고 CTF의 입문성과 커뮤니티 성격이 약해진다는 반론이 뒤따랐다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-16T11:47:23.615739+00:00"
+    },
+    {
       "id": "258a60225df46dc89a65a319c3b2c1232981e5a6",
       "title_hash": "b70a3c5189f2900657ee8e238ba174bc802a87fa",
       "source": "GeekNews",
@@ -166629,84 +167050,6 @@
       "short_summary": "Python HTTP 라이브러리 requests 창시자 Kenneth Reitz가 API 설계 원칙을 결혼 생활에 비유해 통찰을 전하는 에세이입니다.",
       "ai_model": "gpt-4.1-mini-2025-04-14",
       "sent_at": "2026-03-06T09:34:47.928458+00:00"
-    },
-    {
-      "id": "2875885a37097da52d39d850675cdadd0e8215e0",
-      "title_hash": "aef477e91917b5f3d716b2c7a4bf8e8f88cdc574",
-      "source": "GeekNews",
-      "title": "구글 Chrome, 2026년 9월부터 2주 출시 주기로 전환",
-      "link": "https://news.hada.io/topic?id=27238",
-      "published_at": "2026-03-06T01:02:01+00:00",
-      "summary": "2021년 6주에서 4주로 단축했던 크롬 출시 주기가 2026년 9월부터 2주 주기 로 다시 한 번 빨라짐 웹 플랫폼이 지속적으로 발전하는 상황에서 최신 성능 개선사항, 수정사항, 새로운 기능을 즉시 이용 할 수 있도록 하는 것이 목표 출시 빈도는 높아지지만 ...",
-      "fetched_at": "2026-03-06T07:55:06.183053+00:00",
-      "source_priority_boost": "45",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "boost=45,tech=0,news=0",
-      "sent_at": "2026-03-06T07:55:13.075489+00:00"
-    },
-    {
-      "id": "e1ad34ba1e196848beaa6ec8a0040f57395c24cf",
-      "title_hash": "42bb98aad2c863f83177ab0fb299f9dac43534eb",
-      "source": "GeekNews",
-      "title": "인재에 돈을 가장 많이 쓰는 나라가 인재 전쟁에서 지고 있다",
-      "link": "https://news.hada.io/topic?id=27241",
-      "published_at": "2026-03-06T03:05:55+00:00",
-      "summary": "글로벌 AI·과학 인재 전쟁은 돈보다 ‘어떤 환경과 기회를 제공하느냐’가 승패를 좌우 하고 있음. 미국의 H-1B 비자 정치화와 연구비 삭감 이 글로벌 과학자 이동을 촉발함. 프랑스는 “Choose France for Science” 등으로 학문의 자유·�...",
-      "fetched_at": "2026-03-06T07:55:06.183053+00:00",
-      "source_priority_boost": "45",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "boost=45,tech=0,news=0",
-      "sent_at": "2026-03-06T07:55:12.262224+00:00"
-    },
-    {
-      "id": "6e6e4b4e29746abb10b5f8fc3e039e7e2311af78",
-      "title_hash": "cf8457220ebffb3f4f9093900f1aeea385ecfca5",
-      "source": "GeekNews",
-      "title": "Firefox 충돌의 10%는 비트 플립(bit-flip)으로 인한 하드웨어 결함 때문",
-      "link": "https://news.hada.io/topic?id=27251",
-      "published_at": "2026-03-06T06:33:41+00:00",
-      "summary": "Firefox 충돌 보고서 분석 결과, 비트 플립으로 인한 하드웨어 오류 가 전체 충돌의 상당 부분을 차지함 최근 일주일간 약 47만 건의 충돌 보고서 중 2만5천 건 이 비트 플립 가능성이 있는 사례로 탐지됨 소프트웨어 버그가 아닌 하드웨어 결함이 ...",
-      "fetched_at": "2026-03-06T07:55:06.183053+00:00",
-      "source_priority_boost": "45",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "boost=45,tech=0,news=0",
-      "sent_at": "2026-03-06T07:55:11.532808+00:00"
-    },
-    {
-      "id": "ef7cbc50b908c287a0762482c090e3ac9d2bae02",
-      "title_hash": "45fe0e41ba6a30e5c1d9c81daecbda600a740f66",
-      "source": "GeekNews",
-      "title": "미국 세관국경보호청(CBP), 온라인 광고 생태계를 활용해 사람들의 이동 경로 추적",
-      "link": "https://news.hada.io/topic?id=27243",
-      "published_at": "2026-03-06T03:32:58+00:00",
-      "summary": "CBP가 온라인 광고 산업의 위치 데이터 를 구매해 개인의 이동을 추적한 사실이 내부 국토안보부(DHS) 문서를 통해 확인됨 이 데이터는 게임, 데이팅 앱, 피트니스 트래커 등 일반 앱 에서 수집된 정보로, 사용자의 세부 위치 변화를 장기간 파악할 수 있음",
-      "fetched_at": "2026-03-06T06:42:12.531127+00:00",
-      "source_priority_boost": "45",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "boost=45,tech=0,news=0",
-      "sent_at": "2026-03-06T06:42:22.641456+00:00"
-    },
-    {
-      "id": "005aca82c75e159f7188e38e212c819b53dfb5d2",
-      "title_hash": "77bb2b40ae0017046e64f3db08401587e82e7c44",
-      "source": "GeekNews",
-      "title": "폴 그레이엄의 &quot;브랜드 시대 (The Brand Age)&quot;",
-      "link": "https://news.hada.io/topic?id=27244",
-      "published_at": "2026-03-06T03:34:11+00:00",
-      "summary": "폴 그레이엄이 스위스 시계 산업의 역사를 통해 \"브랜드 시대\" 라는 현상을 분석한 에세이입니다. 1. 황금기 (1945~1970): 성능이 전부였던 시대 스위스 시계 산업의 황금기는 얼마나 얇고 정확한가 가 유일한 경쟁 기준이었습니다. 파텍 필립·바�",
-      "fetched_at": "2026-03-06T06:42:12.531127+00:00",
-      "source_priority_boost": "45",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "boost=45,tech=0,news=0",
-      "translated_title": "폴 그레이엄이 본 스위스 시계 산업과 브랜드 시대",
-      "short_summary": "폴 그레이엄은 스위스 시계 산업 역사를 통해 성능 중심의 황금기에서 브랜드 중심 시대로 변화한 현상을 분석했습니다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-06T06:42:21.900040+00:00"
     }
   ],
   "topic_digests": {
@@ -166715,9 +167058,12 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트: 통제와 검증",
-        "summary": "에이전트 경쟁의 초점이 성능 자랑에서 운영 방식으로 옮겨가는 한 주였다. 비용을 아끼고, 폭주를 막고, 기록을 남기는 장치가 왜 필요한지 한꺼번에 드러났다.\n- 로컬 LLM 위임과 플러그인 실험은 코딩 에이전트를 더 오래, 더 얌전히 쓰려는 흐름을 보여줬다.\n- Git 기반 이슈 TUI와 추세 논쟁은 유행보다 작업 맥락과 지속성을 따져 보게 했다.\n- 의료 노트 감사 결과는 에이전트를 붙일수록 검증과 책임선이 먼저여야 한다는 경고였다.",
+        "headline": "이번 주 도구·에이전트: 운용과 효율",
+        "summary": "이번 주엔 모델 성능표보다 에이전트를 어떻게 붙이고 굴리느냐가 더 또렷했습니다. 큰 코드베이스 탐색, 토큰 절약, 공개 평가의 흔들림이 한 줄로 이어졌습니다.\n\n- Claude Code와 tunaLlama는 하네스와 로컬 위임이 비용과 작업 속도를 가른다는 점을 보여줬습니다.\n- Orthrus-Qwen3는 같은 출력을 유지한 채 처리량을 높이며 효율 경쟁에 불을 붙였습니다.\n- CTF 논쟁과 성장곡선 비판은 이제 벤치마크만으로 흐름을 읽기 어렵다는 신호입니다.",
         "item_ids": [
+          "0432cb81c7570a3f095fa81020c53e4324db178b",
+          "58483199ffb39db1e2482c27316c47dc20212887",
+          "ecd13236e0d427c5be557472491daa39bd3c5bd1",
           "258a60225df46dc89a65a319c3b2c1232981e5a6",
           "c80aa2d1231e3fc3c8108b646c57d323448f7ef9",
           "20dffa91d64de87207157740325effb5d5573d6e",
@@ -166822,21 +167168,20 @@
           "7e7f9d77506874f289c2f8aec529c5d3d42c35f1",
           "0b9a351e2de9650cfcf3e3ac9f9f53f1ee4fd0cd",
           "810c7b256299d32d18e1e34b5b1cb975ace64ea9",
-          "e45d4ded110fd99076de6e7541d7a8ee07c0f563",
-          "38a16f8ebf7034ac7cf7b2713e1b1f1fc9aeb3fd",
-          "c0952bf502c45af6c1e8392967d1f962c6f5f3f3"
+          "e45d4ded110fd99076de6e7541d7a8ee07c0f563"
         ],
-        "total_items": 107,
-        "generated_at": "2026-05-16T07:33:49.602553+00:00",
+        "total_items": 108,
+        "generated_at": "2026-05-16T11:44:47.656305+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "weekly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 주 실무 기술: 비용과 책임",
-        "summary": "이번 주 실무 기술은 성능과 자동화 뒤에 남는 운영 비용, 그리고 책임의 위치를 다시 묻습니다. 지금 보는 이유는 현장 감각 없는 최적화가 곧 성능 저하, 오탐, 보안 문제로 번지기 때문입니다.\n- SSD 쓰기 방식은 속도뿐 아니라 마모와 쓰기 증폭까지 함께 봐야 함을 보여줍니다.\n- 사기 탐지 SQL과 픽셀 제로클릭 이슈는 규칙 설계와 기능 확대가 오탐과 공격면을 키울 수 있음을 드러냈습니다.\n- 게임 종료 법안과 AI 망상 논쟁은 서비스 종료와 의사결정 자동화 뒤에도 책임은 남는다는 점을 짚었습니다.",
+        "headline": "이번 주 실무 기술",
+        "summary": "이번 주 실무 기술은 기능 경쟁보다 운영 현실이 더 또렷하게 드러난 흐름이다. 기기 선택, 저장장치, 결제 탐지, 모바일 보안, 서비스 종료까지 결국 오래 버티는 설계와 책임이 화두로 모였다.\n- 대안 스마트폰 논의는 플랫폼 의존을 줄이려는 수요가 이제 호기심을 넘어 실사용 판단으로 옮겨갔다는 신호다.\n- SSD 쓰기 방식과 사기 탐지 SQL은 화려한 기법보다 데이터 구조와 규칙 설계가 현업 성능을 가른다는 점을 다시 보여준다.\n- 픽셀 제로클릭 공격과 게임 종료 법안은 출시 이후의 패치, 지원, 종료 책임까지 함께 봐야 할 시점임을 드러낸다.",
         "item_ids": [
+          "0b306606acb94e6d259f0020fac2ac55a707cd83",
           "b24b3463f89b40d4c1fe201e8719a153cbcfab44",
           "e835a84d15d62c766888e969cf2e428832305bb2",
           "420ae568a4d354abcca30885f39d9b0d5c649d28",
@@ -166918,13 +167263,10 @@
           "3f89b9f6213461f28ee4b616e20d423838cead29",
           "48b50344492b9c38f25e48b8be50e58d96e16cf1",
           "ecb71d4089b3cee109a875a4532ad86d2e68d3c6",
-          "f55934937a86f90020ca82be922616efd175a751",
-          "11e9bc51981fa9d49d50ef91a14f8fe35dbec05e",
-          "5c80bcc942a3f0126aa7bdeb4dd4700d41d3bfcb",
-          "9e90ad1a067ef070f5ec617365c02ecbd190a84f"
+          "f55934937a86f90020ca82be922616efd175a751"
         ],
-        "total_items": 85,
-        "generated_at": "2026-05-16T07:33:49.602553+00:00",
+        "total_items": 83,
+        "generated_at": "2026-05-16T11:44:47.656305+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -166932,8 +167274,9 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 주 산업·비즈니스",
-        "summary": "이번 주 산업·비즈니스는 AI가 전문 업무와 기기 안으로 더 깊게 들어오고, 플랫폼 규칙은 결제사와 규제 압박 속에 더 보수적으로 바뀌는 흐름이 두드러졌다.\n- 법률용 Claude와 초경량 TTS는 AI 경쟁이 범용 모델을 넘어 산업별 도구와 온디바이스 배포로 옮겨가고 있음을 보여준다.\n- Kickstarter, TikTok·Instagram 이슈는 콘텐츠 기준과 서비스 설계가 이제 성장보다 규제와 책임의 언어로 다뤄지는 국면임을 드러낸다.\n- 기업을 오래 지키는 구조를 다시 묻는 논의도 함께 떠올랐다.",
+        "summary": "이번 주 산업·비즈니스는 기술 자체보다 그것을 어떤 업무와 유통 구조에 붙이느냐가 더 선명하게 드러났다. AI는 현장형으로 좁혀졌고, 플랫폼 규칙과 지배구조는 사업의 생존선으로 다시 떠올랐다.\n\n- Zed 번역 프로젝트와 법률용 Claude는 범용 AI보다 현업에 바로 닿는 특화 수요가 커졌다는 신호다.\n- Supertonic 3는 초경량 온디바이스 음성이 이제 연구보다 제품 경쟁의 문제로 옮겨갔음을 보여준다.\n- 기업 지배구조 논의와 킥스타터 사례는 정책과 결제망이 시장 접근, 브랜드 방향까지 흔든다는 점을 다시 확인시켰다.",
         "item_ids": [
+          "e695a9bbf99efaa036651a02bd1787af34d72a76",
           "2495dda9853ea6ffb891f083580afb3f242ef46b",
           "516ee19275ab1712603ae51ccc2a239984085e51",
           "6cb2838d10dde4b268700efa88e4c1643a010131",
@@ -166945,11 +167288,10 @@
           "39ed6820f4a3f622723441e065dcccb93e1e4bde",
           "5d5ef5fe82ce28e2abb636d5369644429cc95e18",
           "3ec3042aef798b16d19d4dbe832388400facb794",
-          "75604418851374f59391ea2b3dd3d8a7a364ecd1",
-          "6f283b6782566abb8593317b5b77566546693d4b"
+          "75604418851374f59391ea2b3dd3d8a7a364ecd1"
         ],
         "total_items": 13,
-        "generated_at": "2026-05-16T07:33:49.602553+00:00",
+        "generated_at": "2026-05-16T11:44:47.656305+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -166959,8 +167301,11 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "코드 생성 부담을 로컬 모델로 넘기고, 에이전트의 폭주를 플러그인으로 다잡으려는 시도가 이어졌다. 도구는 빨라졌지만 흐름을 읽는 눈과 검증 장치가 더 앞에 선다.\n- Claude Code·Codex CLI 보조 도구는 비용과 통제 문제를 정면으로 건드렸다.\n- Git 기반 TUI 이슈 트래커처럼 작업 흐름을 터미널 안에 묶으려는 실험도 눈에 띄었다.\n- 의료 AI 기록 오판 사례까지 겹치며, 지금은 성능보다 운영 감각과 검증 습관을 볼 때다.",
+        "summary": "모델 자체보다 에이전트를 굴리는 방식이 성능과 비용, 평가 기준을 더 크게 흔든 달이었다. 코드 작업부터 추론 효율, 공개 대회 규칙까지 운영층의 변화가 한꺼번에 드러났다.\n\n- Claude Code와 tunaLlama는 대형 코드베이스 탐색, 긴 코드 생성 위임처럼 하네스와 로컬 조합이 실전 감각을 바꾸는 흐름을 보여줬다.\n- Orthrus-Qwen3는 품질을 건드리지 않고 처리량만 크게 끌어올리며 비용과 속도 경쟁이 다음 국면임을 드러냈다.\n- CTF 논쟁과 성장곡선 비판은 성능 과시보다 측정법과 읽는 법을 다시 점검할 때라는 신호다.",
         "item_ids": [
+          "0432cb81c7570a3f095fa81020c53e4324db178b",
+          "58483199ffb39db1e2482c27316c47dc20212887",
+          "ecd13236e0d427c5be557472491daa39bd3c5bd1",
           "258a60225df46dc89a65a319c3b2c1232981e5a6",
           "c80aa2d1231e3fc3c8108b646c57d323448f7ef9",
           "20dffa91d64de87207157740325effb5d5573d6e",
@@ -167445,13 +167790,10 @@
           "c144c888e06a3156e605600aa6be267c32a2f104",
           "f447697c52343b520546218dc91a41928e3d9771",
           "0a967ed5e1667df5521288a3fe9a7e3ac4e7fc5e",
-          "77ae700ce1f2f401203582d9da903f7fdf2c8381",
-          "81c174d230236bc571c5f27ecb1c48d39cb2ffb2",
-          "b6e2c73d28f933a5c040fdf5ffc7921ea5b7b3df",
-          "967480d3edacc28ae73f139a887e3ab581cf991c"
+          "77ae700ce1f2f401203582d9da903f7fdf2c8381"
         ],
         "total_items": 488,
-        "generated_at": "2026-05-16T07:33:49.602553+00:00",
+        "generated_at": "2026-05-16T11:44:47.656305+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -167459,8 +167801,9 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달 글은 성능, 탐지, 보안, 운영 책임을 한 줄로 묶는다. 빨라지는 법만이 아니라 실패 지점과 책임 경계를 먼저 따지는 흐름이 선명하다.\n- SSD 쓰기와 사기 탐지 SQL은 저장 방식과 규칙 설계가 곧 비용, 마모, 오탐으로 돌아온다는 점을 보여준다.\n- 픽셀 제로클릭 공격은 새 기능이 늘수록 미디어 처리 경로와 패치 속도가 바로 실무 리스크가 된다는 사실을 드러낸다.\n- 게임 종료 법안과 AI 의사결정 비판은 서비스의 끝과 판단의 책임까지 설계해야 하는 시점임을 짚는다.",
+        "summary": "이번 달 실무 기술은 새 기능보다 운영의 현실을 다시 묻는다. 폰 선택부터 SSD, 사기 탐지, 모바일 보안, 게임 종료까지 결국 오래 버티고 끝까지 감당하는 설계가 화두였다.\n\n- 대안 스마트폰과 픽셀 제로클릭 이슈는 기능보다 업데이트 경로와 공격면 관리가 먼저라는 흐름을 보여준다.\n- SSD 기록 방식과 사기 탐지 SQL은 현장 규칙 하나가 성능 저하나 오탐으로 바로 이어진다는 점을 드러낸다.\n- 게임 종료 법안 논의까지 보면, 서비스는 출시 경쟁보다 수명 관리와 종료 책임을 따지는 쪽으로 옮겨가고 있다.",
         "item_ids": [
+          "0b306606acb94e6d259f0020fac2ac55a707cd83",
           "b24b3463f89b40d4c1fe201e8719a153cbcfab44",
           "e835a84d15d62c766888e969cf2e428832305bb2",
           "420ae568a4d354abcca30885f39d9b0d5c649d28",
@@ -167804,11 +168147,10 @@
           "8f62a2140c059125ba6b2605b3f9856227ad102d",
           "32ec01fc9142150c973af8d3989997c5188eb6f2",
           "857a17838549f053adda49d03bbdbd4fc16cec6e",
-          "d7ad1040344bc1cf0d04dbd3577ea68a2eebe78c",
-          "ee82b10812765543e526d742136a691edc1e35ba"
+          "d7ad1040344bc1cf0d04dbd3577ea68a2eebe78c"
         ],
         "total_items": 345,
-        "generated_at": "2026-05-16T07:33:49.602553+00:00",
+        "generated_at": "2026-05-16T11:44:47.656305+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -167816,7 +168158,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 달 전략·인사이트",
-        "summary": "AI 경쟁은 성능만 겨루는 국면을 지나 책임, 인프라, 배포, 보안이 함께 재편되는 단계로 들어섰다. 이번 묶음은 그 변화가 연구 현장과 오픈소스, 사용자 도구에서 한꺼번에 드러난다는 점을 보여준다.\n- arXiv 제재와 Obsidian 악용 사례는 생성 AI 시대에 신뢰가 어디서 흔들리는지 짚는다.\n- KDE 투자, 중국 연구소 문화, 온디바이스 LLM 사례는 승부처가 모델 자체보다 실행력과 기반 기술로 옮겨가는 흐름을 보여준다.\n- 규칙, 투자, 제품화가 동시에 움직이는 지금 읽어둘 만한 맥락이다.",
+        "summary": "AI는 이제 성능 경쟁만으로 설명되지 않습니다. 책임 규범, 오픈소스 인프라, 배포 현장, 보안까지 한 흐름으로 묶여 움직입니다.\n- arXiv 제재와 Obsidian 악용 사례는 생성형 AI 시대에 신뢰와 검증이 먼저라는 점을 또렷하게 보여줍니다.\n- KDE 투자와 온디바이스 LLM 래퍼는 기반 기술이 실사용 단계로 넘어가며 운영 가능성이 더 큰 화두가 됐음을 말합니다.\n- 중국 연구소 현장기는 결국 모델 경쟁력도 문화와 협업 방식에서 갈린다는 사실을 다시 보게 합니다.",
         "item_ids": [
           "d326cc0af1849718329988c19e05ab3db173386e",
           "eab4d3e410489fed5d11fbc9a9475cc6d5896d41",
@@ -167870,7 +168212,7 @@
           "20700e5ed3769ec0d007b5112c9552062e2c44fc"
         ],
         "total_items": 50,
-        "generated_at": "2026-05-16T07:33:49.602553+00:00",
+        "generated_at": "2026-05-16T11:44:47.656305+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -167881,22 +168223,21 @@
       "kind": "quiet_riser",
       "label": "AI Spotlight",
       "title": "조용히 커지는 주제",
-      "cta_label": "흐름 보기",
+      "cta_label": "도구 흐름 보기",
       "related_item_ids": [
+        "0432cb81c7570a3f095fa81020c53e4324db178b",
         "258a60225df46dc89a65a319c3b2c1232981e5a6",
-        "20dffa91d64de87207157740325effb5d5573d6e",
-        "7a94e9a845f2de56bdcf6ae22f163d7d0f3fde36",
-        "d326cc0af1849718329988c19e05ab3db173386e"
+        "20dffa91d64de87207157740325effb5d5573d6e"
       ],
       "score": 0.95,
-      "generated_at": "2026-05-16T07:33:49.602553+00:00",
+      "generated_at": "2026-05-16T11:44:47.656305+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "에이전트 통제와 검증",
-      "summary_line": "이번 주엔 더 잘 쓰는 법보다 덜 새고 덜 폭주하게 묶는 장치가 더 자주 보였다.",
+      "topic_name": "에이전트 하네스와 로컬 위임",
+      "summary_line": "모델 성능표보다 작업을 어떻게 붙이고 나누느냐가 비용과 속도를 가르는 흐름이 선명해졌다.",
       "signals": [
-        "무거운 코드 생성은 로컬 LLM에 넘겨 비용과 한도 부담을 줄이려는 시도가 나왔다.",
-        "플러그인으로 에이전트의 과주행을 막고 작업 단계를 더 촘촘히 통제하려는 흐름이 붙었다.",
-        "의료 노트와 논문 인용처럼 결과 책임이 큰 곳에선 검증 실패가 바로 제도 이슈로 번졌다."
+        "Claude Code 사례가 인덱스보다 파일 탐색과 하네스 설계를 앞세웠다.",
+        "tunaLlama는 긴 코드 생성을 로컬 LLM으로 넘겨 토큰 부담을 줄이려 했다.",
+        "Superpowers 같은 플러그인은 에이전트 폭주를 막는 운영층 수요를 드러냈다."
       ]
     },
     {
@@ -167904,38 +168245,38 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "쟁점 보기",
+      "cta_label": "갈린 댓글 읽기",
       "related_item_ids": [
-        "dce6aa4c2151af0798e8b008be69a36385f201c1"
+        "58483199ffb39db1e2482c27316c47dc20212887"
       ],
-      "score": 0.9,
-      "generated_at": "2026-05-16T07:33:49.602553+00:00",
+      "score": 0.89,
+      "generated_at": "2026-05-16T11:44:47.656305+00:00",
       "ai_model": "codex-cli",
-      "headline": "이용자 보호와 운영 현실이 정면으로 부딪혔다",
-      "issue_title": "온라인 게임 종료 시 패치·환불 의무화",
-      "opposition_summary": "반대 쪽은 서버 유지와 부정행위 대응, 모더레이션 비용까지 떠안기면 법이 현실을 못 따라간다고 봤다.",
-      "support_summary": "찬성 쪽은 종료 공지와 오프라인 패치, 환불 기준 같은 최소한의 퇴장 절차는 이용자 권리라고 밀었다."
+      "headline": "Orthrus-Qwen3, 같은 출력으로 토큰 처리 7.8배",
+      "issue_title": "효율 향상 주장을 어디까지 믿을 것인가",
+      "opposition_summary": "처리량 수치와 실제 비용 절감은 다를 수 있다는 반론이다. 숨은 연산과 조건을 더 봐야 한다는 쪽이다.",
+      "support_summary": "출력 분포를 유지한다면 모델을 바꾸지 않고도 서빙 효율을 끌어올릴 수 있다는 기대가 컸다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 보기",
+      "cta_label": "이상 신호 보기",
       "related_item_ids": [
-        "420ae568a4d354abcca30885f39d9b0d5c649d28",
-        "7a94e9a845f2de56bdcf6ae22f163d7d0f3fde36",
-        "d326cc0af1849718329988c19e05ab3db173386e"
+        "ecd13236e0d427c5be557472491daa39bd3c5bd1",
+        "d326cc0af1849718329988c19e05ab3db173386e",
+        "2495dda9853ea6ffb891f083580afb3f242ef46b"
       ],
-      "score": 0.84,
-      "generated_at": "2026-05-16T07:33:49.602553+00:00",
+      "score": 0.87,
+      "generated_at": "2026-05-16T11:44:47.656305+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "검토 전 자동 처리 구간이 길어진다",
-      "summary_line": "사람이 열기 전, 확인하기 전 돌아가는 경로가 자꾸 사고의 시작점으로 드러났다.",
+      "signal_title": "AI를 재는 규칙이 먼저 바뀐다",
+      "summary_line": "성능 경쟁보다 검증 기준과 책임 장치가 더 자주 전면에 나온 한 주였다.",
       "signals": [
-        "메시지를 열기 전 미디어를 다루는 경로가 제로클릭 공격면으로 부각됐다.",
-        "대화를 듣고 바로 써주는 의료 노트는 기본 사실부터 흔들리며 현장 검수를 압박했다.",
-        "AI가 끼어든 논문 인용 오류는 저자 책임 규정 강화로 곧장 이어졌다."
+        "공개 CTF는 이제 문제 풀이보다 모델 활용 능력이 성적을 흔든다는 우려가 나왔다.",
+        "arXiv는 환각 인용 책임을 제도 수준에서 더 강하게 묻기 시작했다.",
+        "법률용 Claude 묶음은 도입보다 데이터 연결과 통제 설계를 먼저 내세웠다."
       ]
     }
   ],
@@ -167944,22 +168285,21 @@
     "kind": "quiet_riser",
     "label": "AI Spotlight",
     "title": "조용히 커지는 주제",
-    "cta_label": "흐름 보기",
+    "cta_label": "도구 흐름 보기",
     "related_item_ids": [
+      "0432cb81c7570a3f095fa81020c53e4324db178b",
       "258a60225df46dc89a65a319c3b2c1232981e5a6",
-      "20dffa91d64de87207157740325effb5d5573d6e",
-      "7a94e9a845f2de56bdcf6ae22f163d7d0f3fde36",
-      "d326cc0af1849718329988c19e05ab3db173386e"
+      "20dffa91d64de87207157740325effb5d5573d6e"
     ],
     "score": 0.95,
-    "generated_at": "2026-05-16T07:33:49.602553+00:00",
+    "generated_at": "2026-05-16T11:44:47.656305+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "에이전트 통제와 검증",
-    "summary_line": "이번 주엔 더 잘 쓰는 법보다 덜 새고 덜 폭주하게 묶는 장치가 더 자주 보였다.",
+    "topic_name": "에이전트 하네스와 로컬 위임",
+    "summary_line": "모델 성능표보다 작업을 어떻게 붙이고 나누느냐가 비용과 속도를 가르는 흐름이 선명해졌다.",
     "signals": [
-      "무거운 코드 생성은 로컬 LLM에 넘겨 비용과 한도 부담을 줄이려는 시도가 나왔다.",
-      "플러그인으로 에이전트의 과주행을 막고 작업 단계를 더 촘촘히 통제하려는 흐름이 붙었다.",
-      "의료 노트와 논문 인용처럼 결과 책임이 큰 곳에선 검증 실패가 바로 제도 이슈로 번졌다."
+      "Claude Code 사례가 인덱스보다 파일 탐색과 하네스 설계를 앞세웠다.",
+      "tunaLlama는 긴 코드 생성을 로컬 LLM으로 넘겨 토큰 부담을 줄이려 했다.",
+      "Superpowers 같은 플러그인은 에이전트 폭주를 막는 운영층 수요를 드러냈다."
     ]
   }
 }
