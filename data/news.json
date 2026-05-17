@@ -1,6 +1,522 @@
 {
   "items": [
     {
+      "id": "57a26df77326503e55e1628b9d416d8dd27c9a36",
+      "title_hash": "21c2756242252a23214e265f4c5da9b9965ea859",
+      "source": "GeekNews",
+      "title": "Claude와 몇 달간 씨름한 뒤 Codex는 바이브 코더의 꿈처럼 느껴짐",
+      "link": "https://news.hada.io/topic?id=29576",
+      "published_at": "2026-05-16T23:21:25+00:00",
+      "summary": "3개월간 Claude/Anthropic 으로 코딩했지만 repo 규모 작업에서 신뢰성이 낮아져 별도 감시 워크플로가 필요해짐 4.7 시기 에는 실제 구현이 약 40%인데 완료됐다고 환각하거나 stub/placeholder 주변에서 과도한 자신감을 보임 Max x20 비용에도 생산성보다...",
+      "fetched_at": "2026-05-17T04:31:31.541830+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "codex"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "codex",
+        "claude + code"
+      ],
+      "detail_slug": "57a26df77326503e55e1628b9d416d8dd27c9a36",
+      "is_english_source": false,
+      "sent_at": "2026-05-17T04:34:36.122056+00:00"
+    },
+    {
+      "id": "74d34aef693eaf8169d43a49e832cb86caf0c34d",
+      "title_hash": "c3ba0afeb19b1544f391d22b2e01569bb876707a",
+      "source": "GeekNews",
+      "title": "Bun의 Rust 재작성에 대한 내 생각",
+      "link": "https://news.hada.io/topic?id=29581",
+      "published_at": "2026-05-17T02:02:37+00:00",
+      "summary": "Bun의 Rust 재작성은 Zig로 만든 기존 아키텍처와 자료구조 를 유지한 채 더 주류 기술 스택으로 옮기는 결정에 가까움 재작성 PR은 6,755개 커밋 규모였고 5월 8일 오픈 후 5월 14일 병합돼, 프로덕션급 런타임 변경의 리뷰 깊이에 의문이 남음 테스트 통...",
+      "fetched_at": "2026-05-17T04:31:31.541830+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "아키텍처"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "아키텍처"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "아키텍처"
+      ],
+      "detail_slug": "74d34aef693eaf8169d43a49e832cb86caf0c34d",
+      "is_english_source": false,
+      "sent_at": "2026-05-17T04:34:36.122056+00:00"
+    },
+    {
+      "id": "b1ccc458c67bdadf8db74202a55077a623e9a6c1",
+      "title_hash": "551ee80cadbf90ed13c12c435269d4685c6332dc",
+      "source": "GeekNews",
+      "title": "아직 존재하지 않는 것들을 위한 시각화 디자인",
+      "link": "https://news.hada.io/topic?id=29578",
+      "published_at": "2026-05-17T00:20:02+00:00",
+      "summary": "대부분의 데이터 시각화는 과거를 다루며, 미래를 보여준다고 해도 단일 선을 앞으로 연장하는 수준에 그쳐 불확실성의 구조적 특성 을 제대로 반영하지 못함 예측에서 반사실적 시나리오까지, 시각화의 대상이 '데이터'가 아닌 '가능성의 공간' 으로 전환되면 다중...",
+      "fetched_at": "2026-05-17T04:31:31.541830+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "실적"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "실적"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "실적"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "실적"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "실적"
+      ],
+      "detail_slug": "b1ccc458c67bdadf8db74202a55077a623e9a6c1",
+      "is_english_source": false,
+      "sent_at": "2026-05-17T04:34:36.122056+00:00"
+    },
+    {
+      "id": "dca4990e252217ce08c5633560e4930216b86aca",
+      "title_hash": "f9133025b495274867f346edd620570bd6517fe2",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Halt and Catch Fire",
+      "link": "https://unstack.io/halt-and-catch-fire",
+      "published_at": "2026-05-16T18:16:29+00:00",
+      "summary": "HN story type: story HN points: 99 HN comments: 56 HN top comments: caned: This show captures much of what I miss about computing in the 80s and 90s. You could get your hands on hardware, be able to largely understand what all the hardware and software was doing. You mostly used computers as tools, which only accepted commands and didn't try to affect your decisions or workflow (yes, there was Clippy). The leaps forward in computing power, memory and storage were more impactful to the ev... greenbit: The Commodore PET 4032 video system was generated by a 6545 (6845 equivalent) cathode ray tube controller, which generated the video buffer addresses and the HS and VS sync pulses. This was memory mapped and if one was not careful with POKE commands, you could effectively stop the CRT raster scan, leaving the beam parked at the center of the screen. This could burn the phosphors off that spot in a matter of minute... burnte: It was a fun show. I really enjoyed it, a fictional run through the 80s and 90s computing industries.",
+      "fetched_at": "2026-05-17T04:31:31.541830+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48162468",
+      "hn_story_type": "story",
+      "hn_points": "99",
+      "hn_comments_count": "56",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48162468",
+      "hn_item_text": "",
+      "hn_comment_preview": "caned: This show captures much of what I miss about computing in the 80s and 90s. You could get your hands on hardware, be able to largely understand what all the hardware and software was doing. You mostly used computers as tools, which only accepted commands and didn't try to affect your decisions or workflow (yes, there was Clippy). The leaps forward in computing power, memory and storage were more impactful to the ev...\ngreenbit: The Commodore PET 4032 video system was generated by a 6545 (6845 equivalent) cathode ray tube controller, which generated the video buffer addresses and the HS and VS sync pulses. This was memory mapped and if one was not careful with POKE commands, you could effectively stop the CRT raster scan, leaving the beam parked at the center of the screen. This could burn the phosphors off that spot in a matter of minute...\nburnte: It was a fun show. I really enjoyed it, a fictional run through the 80s and 90s computing industries.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "45",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=21,practical_tech=9,tools_agents=21,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 21,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "storage"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 21,
+          "strong_hits": [
+            "workflow",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "workflow",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "workflow",
+        "ide",
+        "cli",
+        "tool"
+      ],
+      "detail_slug": "dca4990e252217ce08c5633560e4930216b86aca",
+      "is_english_source": true,
+      "translated_title": "‘할트 앤 캐치 파이어’가 다시 불러낸 옛 컴퓨팅 감각",
+      "short_summary": "Hacker News에서 드라마 ‘할트 앤 캐치 파이어’가 다시 화제가 됐다. 80~90년대 컴퓨팅 현장과 하드웨어를 직접 다루던 감각을 잘 살렸다는 반응이 이어졌다.",
+      "why_it_matters": "이 이야기가 다시 주목받는 건 단순한 향수 때문만은 아니다. 지금의 개발 환경이 얼마나 추상화되고 불투명해졌는지, 그리고 개발자가 어디까지 시스템을 이해하고 통제할 수 있는지 돌아보게 만든다.\n\n- 예전 컴퓨팅은 하드웨어와 소프트웨어의 동작을 비교적 끝까지 파고들 수 있었다는 점에서, 오늘의 플랫폼 의존적 개발 방식과 선명하게 대비된다.\n- 도구가 사용자를 유도하기보다 명령을 충실히 수행하던 시절을 떠올리게 하며, 제품 설계와 개발자 경험을 다시 생각하게 한다.\n- 임베디드, 성능 최적화, 레거시 유지보수처럼 시스템 바닥면을 이해해야 하는 실무의 가치도 함께 환기한다.",
+      "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이다. 드라마 자체를 즐겼다는 반응과 함께, 손으로 만지고 이해할 수 있던 옛 컴퓨팅 문화에 대한 그리움이 대화를 이끌었다.\n\n- 반복해서 나온 평가는 80~90년대 컴퓨팅 산업의 공기와 재미를 꽤 설득력 있게 담아냈다는 점이다.\n- 한편으로는 Commodore PET의 CRT 컨트롤러처럼 당시 하드웨어 동작을 구체적으로 설명하는 댓글도 붙으면서, 단순 감상이 기술 이야기로 자연스럽게 이어졌다.\n- 실무자가 읽을 만한 논점은 분명하다. 지금은 생산성이 높아졌지만, 시스템 전체를 이해하고 직접 통제하는 감각은 오히려 멀어졌다는 문제의식이 반복됐다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-17T04:34:36.122056+00:00"
+    },
+    {
+      "id": "90d85d7f014685273391d86ca6b4b78a3a39b620",
+      "title_hash": "14d6a0595b5a1c9b7e34e99032ee8d6513299f25",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Self-Distillation Enables Continual Learning [pdf]",
+      "link": "https://arxiv.org/abs/2601.19897",
+      "published_at": "2026-05-17T01:19:14+00:00",
+      "summary": "HN story type: story HN points: 22 HN comments: 5 HN top comments: ArchieScrivener: From Jan 2026. This is very interesting: \"Empirical Validation. While we cannot verify these theoretically, we evaluate each empirically. We use the Qwen-2.5-7B-Instruct model (Hui et al., 2024) as the base policy and the ToolAlpaca dataset (Tang et al., 2023). In this benchmark, the model receives a tool-API specification and a user request, and must identify the correct tool call. Without demonstrations, the bas... airstrike: Both title and abstract feel a little too confident, which ironically makes me more skeptical rather than less. I find the choice of the words \"enable\" in the title and \"establishing\" at the end of the abstract to be particularly jarring. greesil: Wtf is a policy? Is this some sort of RL thing that I'm too ML to understand? Gemini tells me it's the probability of the next token for an LLM. Okay then.",
+      "fetched_at": "2026-05-17T04:31:31.541830+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48165265",
+      "hn_story_type": "story",
+      "hn_points": "22",
+      "hn_comments_count": "5",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48165265",
+      "hn_item_text": "",
+      "hn_comment_preview": "ArchieScrivener: From Jan 2026. This is very interesting: \"Empirical Validation. While we cannot verify these theoretically, we evaluate each empirically. We use the Qwen-2.5-7B-Instruct model (Hui et al., 2024) as the base policy and the ToolAlpaca dataset (Tang et al., 2023). In this benchmark, the model receives a tool-API specification and a user request, and must identify the correct tool call. Without demonstrations, the bas...\nairstrike: Both title and abstract feel a little too confident, which ironically makes me more skeptical rather than less. I find the choice of the words \"enable\" in the title and \"establishing\" at the end of the abstract to be particularly jarring.\ngreesil: Wtf is a policy? Is this some sort of RL thing that I'm too ML to understand? Gemini tells me it's the probability of the next token for an LLM. Okay then.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=14,strategy_insight=7,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 14,
+        "strategy_insight": 7,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "benchmark",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "benchmark",
+        "api"
+      ],
+      "detail_slug": "90d85d7f014685273391d86ca6b4b78a3a39b620",
+      "is_english_source": true,
+      "translated_title": "자기 증류로 여는 지속 학습 가능성",
+      "short_summary": "이 논문은 자기 증류가 모델의 지속 학습을 뒷받침할 수 있다고 주장한다. HN에서는 실험 설정은 흥미롭다는 반응과, 제목과 초록의 어조가 지나치게 단정적이라는 반론이 함께 나왔다.",
+      "why_it_matters": "모델을 한 번 학습시키고 끝내는 대신, 새 데이터와 작업을 계속 붙여 가려는 흐름이 커지는 시점이라 눈여겨볼 만한 주제다. 특히 도구 사용 같은 업무형 태스크를 순차적으로 익혀야 하는 팀이라면 실무 감각으로 읽어볼 여지가 있다.\n- 댓글에서 언급된 실험은 Qwen-2.5-7B-Instruct와 ToolAlpaca를 써서, 예시 없이도 올바른 도구 호출을 고르는지 보는 방식이다. 도구형 에이전트 운영과 맞닿아 있다.\n- 주장대로라면 새 능력을 붙이면서 기존 성능을 덜 잃는 학습 전략으로 이어질 수 있다. 잦은 재학습 비용과 운영 부담을 줄이는 쪽으로 해석할 수 있다.\n- 다만 이론적 증명보다 경험적 검증에 기대는 성격이 강해 보인다는 점은 감안해야 한다. 실제 적용 전에는 벤치마크와 업무 데이터에서 따로 확인하는 편이 안전하다.",
+      "hn_reaction_summary": "토론 규모는 크지 않았지만 분위기는 한쪽으로 기울지 않았다. 실험 내용 자체는 흥미롭다는 반응이 있었고, 동시에 표현이 너무 앞서간다는 경계심도 분명했다.\n- 가장 눈에 띈 반응은 실험 설정에 대한 관심이었다. 도구 명세와 사용자 요청만 보고 맞는 호출을 고르는 과제를 예로 들며, 실증 결과를 흥미롭게 본 의견이 나왔다.\n- 반복된 반론은 제목과 초록의 어조였다. enable, establishing 같은 표현이 과감해서 오히려 신뢰를 깎는다는 지적이 있었다.\n- policy 같은 용어가 직관적이지 않다는 반응도 있었다. 비전공자나 실무자가 읽을 때 개념 설명이 부족하면 논문의 설득력이 약해질 수 있다는 점을 보여준다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-17T04:34:36.122056+00:00"
+    },
+    {
+      "id": "e58b458c33a851998be23b22a6a6e0893dedc19d",
+      "title_hash": "5bbce186a48d7f02d963fc4174e366b93bc4a4e8",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "C++26 Shipped a SIMD Library Nobody Asked For",
+      "link": "https://lucisqr.substack.com/p/c26-shipped-a-simd-library-nobody",
+      "published_at": "2026-05-15T04:32:21+00:00",
+      "summary": "HN story type: story HN points: 44 HN comments: 16 HN top comments: jandrewrogers: I have written a lot of SIMD for both x86 and ARM over many years and many microarchitectures. Every abstraction, including autovectorization, is universally pretty poor outside of narrow cases because they don’t (and mostly can’t) capture what is possible with intrinsics and their rather extreme variation across microarchitectures. If I want good results, I have to write intrinsics. No library can optimally gener... mgaunard: I made the first proposal to the C++ standard committee to introduce SIMD in 2011, before Matthias Kretz got involved with his own version (which is what became std::simd). This was based on what eventually became Eve (mentioned in the article). Back then, it was rejected, for the same arguments that people are making today, such as not mapping to SVE well, having a separate way to express control flow etc. There... magicalhippo: The linked[1] \"six reasons to use std::simd\" was just what I needed after a long week. Hilarious! [1]: https://github.com/NoNaeAbC/std_simd",
+      "fetched_at": "2026-05-17T04:31:31.541830+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48144584",
+      "hn_story_type": "story",
+      "hn_points": "44",
+      "hn_comments_count": "16",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48144584",
+      "hn_item_text": "",
+      "hn_comment_preview": "jandrewrogers: I have written a lot of SIMD for both x86 and ARM over many years and many microarchitectures. Every abstraction, including autovectorization, is universally pretty poor outside of narrow cases because they don’t (and mostly can’t) capture what is possible with intrinsics and their rather extreme variation across microarchitectures. If I want good results, I have to write intrinsics. No library can optimally gener...\nmgaunard: I made the first proposal to the C++ standard committee to introduce SIMD in 2011, before Matthias Kretz got involved with his own version (which is what became std::simd). This was based on what eventually became Eve (mentioned in the article). Back then, it was rejected, for the same arguments that people are making today, such as not mapping to SVE well, having a separate way to express control flow etc. There...\nmagicalhippo: The linked[1] \"six reasons to use std::simd\" was just what I needed after a long week. Hilarious! [1]: https://github.com/NoNaeAbC/std_simd",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "37",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=13,practical_tech=13,tools_agents=7,strategy_insight=5,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 13,
+        "tools_agents": 7,
+        "strategy_insight": 5,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 13,
+          "strong_hits": [
+            "architecture"
+          ],
+          "support_hits": [
+            "library",
+            "vector"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "substack.com"
+          ]
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "architecture",
+        "library",
+        "vector"
+      ],
+      "detail_slug": "e58b458c33a851998be23b22a6a6e0893dedc19d",
+      "is_english_source": true,
+      "translated_title": "C++26에 들어온 ‘아무도 원치 않은’ SIMD 라이브러리",
+      "short_summary": "C++26에 표준 SIMD 라이브러리 std::simd가 포함됐지만, HN에서는 실제 고성능 최적화엔 여전히 intrinsics가 필요하다는 비판이 많았다. 추상화의 편의성은 인정해도, 아키텍처별 차이를 충분히 담기 어렵다는 회의론이 두드러졌다.",
+      "why_it_matters": "이번 논점은 C++ 표준이 성능 추상화를 어디까지 책임질 수 있는지 다시 묻는다. 실무에서는 코드 이식성과 최고 성능 사이의 기준을 더 분명히 잡아야 한다.\n- 표준 라이브러리가 생기면 공통 코드 작성은 쉬워지지만, 병목 구간에서는 여전히 x86·ARM별 intrinsics를 따로 관리해야 할 가능성이 크다.\n- SVE처럼 하드웨어 성격이 다른 SIMD 환경에서는 추상화가 기대만큼 맞아떨어지지 않을 수 있어, 벤치마크와 실제 장비 검증이 더 중요해진다.\n- 팀 차원에서는 기본 구현은 std::simd로 두고, 성능이 갈리는 구간만 저수준 최적화로 내려가는 전략이 현실적인 선택지로 보인다.",
+      "hn_reaction_summary": "HN 반응은 대체로 냉소적이었고, 특히 실무 경험이 많은 개발자일수록 회의적인 분위기가 강했다. 다만 표준화 시도 자체의 역사와 불가피한 타협을 짚는 의견도 나왔다.\n- 오래 SIMD를 다뤄온 댓글러들은 자동 벡터화나 라이브러리 추상화가 좁은 경우를 빼면 한계가 크고, 결국 좋은 결과는 intrinsics에서 나온다고 봤다.\n- 초기 제안 참여자는 지금 나오는 비판이 2011년에도 반복됐던 이야기라며, std::simd는 그런 제약을 안고도 표준화까지 온 결과라고 설명했다.\n- 일부는 관련 홍보 문구를 비꼬았지만, 그 밑바탕에는 '표준 SIMD가 현업의 성능 문제를 실제로 얼마나 덜어주나'라는 공통된 의문이 깔려 있었다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-17T04:34:36.122056+00:00"
+    },
+    {
       "id": "9de870f06866f1814fd5dbef90b9fd4b2007437d",
       "title_hash": "9e3e663ba28c33b984154595ce22f7890693f5d2",
       "source": "GeekNews",
@@ -168024,114 +168540,6 @@
       "short_summary": "루마필드가 건강 웨어러블 기기의 내부 구조를 CT 스캔으로 분석한 내용을 소개합니다. 이를 통해 기기 설계와 기능 이해에 도움을 줍니다.",
       "ai_model": "gpt-4.1-mini-2025-04-14",
       "sent_at": "2026-03-06T15:34:24.824349+00:00"
-    },
-    {
-      "id": "01eacd94fdb47659dcae4821b2c0c11d1bb406c6",
-      "title_hash": "ec72494be75c37b2e9fac473baae00eacbfd5b18",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "I Dropped Our Production Database and Now Pay 10% More for AWS",
-      "link": "https://alexeyondata.substack.com/p/how-i-dropped-our-production-database",
-      "published_at": "2026-03-06T14:17:01+00:00",
-      "summary": "Article URL: https://alexeyondata.substack.com/p/how-i-dropped-our-production-database Comments URL: https://news.ycombinator.com/item?id=47275157 Points: 12 # Comments: 2",
-      "fetched_at": "2026-03-06T15:34:09.868060+00:00",
-      "source_priority_boost": "18",
-      "priority_bucket": "general",
-      "priority_score": "14",
-      "priority_signal": "boost=18,tech=0,news=0",
-      "translated_title": "운영 DB 삭제 후 AWS 비용 10% 증가 경험기",
-      "short_summary": "운영 데이터베이스를 실수로 삭제한 후 AWS 비용이 10% 상승한 사례를 공유하며, 클라우드 비용 관리의 중요성을 강조한다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-06T15:34:21.727289+00:00"
-    },
-    {
-      "id": "1b08748d2b9b0888ab64cbccb6d9d74ed9bd89f1",
-      "title_hash": "7d02db144c8300d4c87e748ce86bb964b088cea1",
-      "source": "Product Hunt Feed",
-      "title": "ChatGPT for Excel",
-      "link": "https://www.producthunt.com/products/chatgpt",
-      "published_at": "2026-03-05T23:51:05+00:00",
-      "summary": "Build and update spreadsheets with ChatGPT in real time Discussion | Link",
-      "fetched_at": "2026-03-06T15:34:09.868060+00:00",
-      "source_priority_boost": "14",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "boost=14,tech=1,news=0",
-      "translated_title": "엑셀용 ChatGPT, 실시간 스프레드시트 작성 지원",
-      "short_summary": "ChatGPT를 활용해 엑셀에서 실시간으로 스프레드시트를 작성하고 업데이트할 수 있는 기능이 제공된다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-06T15:34:19.463088+00:00"
-    },
-    {
-      "id": "f4b11c9e4e572d6dbc44e731e03a4a397fe6e206",
-      "title_hash": "9fba1aa22d25dffb1bcacebffc2909987ddbcccf",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Moongate – Ultima Online server emulator in .NET 10 with Lua scripting",
-      "link": "https://github.com/moongate-community/moongatev2",
-      "published_at": "2026-03-06T14:22:59+00:00",
-      "summary": "I've been building a modern Ultima Online server emulator from scratch. It's not feature-complete (no combat, no skills yet), but the foundation is solid and I wanted to share it early. What it does today: - Full packet layer for the classic UO client (login, movement, items, mobiles) - Lua scripting for item behaviors (double-click a potion, open a door — all defined in Lua, no C# recompile) - Spatial world partitioned into sectors with delta sync (only sends packets for new sectors when crossing boundaries) - Snapshot-based persistence with MessagePack - Source generators for automatic DI wiring, packet handler registration, and Lua module exposure - NativeAOT support — the server compiles to a single native binary - Embedded HTTP admin API + React management UI - Auto-generated doors from map statics (same algorithm as ModernUO/RunUO) Tech stack: .NET 10, NativeAOT, NLua, MessagePack, DryIoc, Kestrel What's missing: Combat, skills, weather integration, NPC AI. This is still early — the focus so far has been on getting the architecture right so adding those systems doesn't require rewiring everything. Why not just use ModernUO/RunUO? Those are mature and battle-tested. I started this because I wanted to rethink the architecture from scratch: strict network/domain separation, event-driven game loop, no inheritance-heavy item hierarchies, and Lua for rapid iteration on game logic without recompiling. GitHub: https://github.com/moongate-community/moongatev2 Comments URL: https://news.ycombinator.com/item?id=47275236 Points: 26 # Comments: 8",
-      "fetched_at": "2026-03-06T15:34:09.868060+00:00",
-      "source_priority_boost": "18",
-      "priority_bucket": "technical",
-      "priority_score": "91",
-      "priority_signal": "boost=18,tech=7,news=0",
-      "translated_title": "Moongate: .NET 10 기반 Ultima Online 서버 에뮬레이터 공개",
-      "short_summary": "Moongate는 Lua 스크립팅과 네이티브 AOT 지원을 갖춘 Ultima Online 서버 에뮬레이터로, 패킷 처리와 공간 분할, 관리 UI를 포함해 기본 기능을 제공한다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-06T15:34:16.356574+00:00"
-    },
-    {
-      "id": "b90f28eecdb5ad20d6f532a1861e557c0742db6c",
-      "title_hash": "7458dc61ca0632bbd65deb57732d3133e59386a8",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Hardening Firefox with Anthropic's Red Team",
-      "link": "https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/",
-      "published_at": "2026-03-06T11:53:18+00:00",
-      "summary": "Article URL: https://blog.mozilla.org/en/firefox/hardening-firefox-anthropic-red-team/ Comments URL: https://news.ycombinator.com/item?id=47273854 Points: 86 # Comments: 26",
-      "fetched_at": "2026-03-06T14:05:09.613806+00:00",
-      "source_priority_boost": "18",
-      "priority_bucket": "general",
-      "priority_score": "14",
-      "priority_signal": "boost=18,tech=0,news=0",
-      "translated_title": "Anthropic 레드팀과 함께하는 파이어폭스 보안 강화",
-      "short_summary": "Mozilla가 Anthropic의 레드팀과 협력해 파이어폭스 브라우저의 보안을 강화하는 노력을 소개합니다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-06T14:05:28.667611+00:00"
-    },
-    {
-      "id": "dc4cab39abb28ee0825994d3a1bb6c110a33f42a",
-      "title_hash": "d7e68f2aa6cb7cc72ac600a742c6c2bbdbd3533a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "First MacBook Neo Benchmarks Are In",
-      "link": "https://www.macrumors.com/2026/03/05/macbook-neo-first-benchmarks/",
-      "published_at": "2026-03-06T12:06:00+00:00",
-      "summary": "Article URL: https://www.macrumors.com/2026/03/05/macbook-neo-first-benchmarks/ Comments URL: https://news.ycombinator.com/item?id=47273964 Points: 27 # Comments: 21",
-      "fetched_at": "2026-03-06T14:05:09.613806+00:00",
-      "source_priority_boost": "18",
-      "priority_bucket": "general",
-      "priority_score": "14",
-      "priority_signal": "boost=18,tech=0,news=0",
-      "translated_title": "첫 MacBook Neo 벤치마크 결과 공개",
-      "short_summary": "MacBook Neo의 첫 벤치마크 결과가 공개되어 성능이 주목받고 있다. 사용자 반응도 활발히 이어지고 있다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-06T14:05:26.124163+00:00"
-    },
-    {
-      "id": "5dc1314a25eaf2cdbc4b974fa6f990dea94db8f5",
-      "title_hash": "f6bf0fd4e58f52f765dae3b44a44e8539ebf6baa",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Workers who love 'synergizing paradigms' might be bad at their jobs",
-      "link": "https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs",
-      "published_at": "2026-03-06T13:30:54+00:00",
-      "summary": "Article URL: https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs Comments URL: https://news.ycombinator.com/item?id=47274676 Points: 3 # Comments: 0",
-      "fetched_at": "2026-03-06T14:05:09.613806+00:00",
-      "source_priority_boost": "18",
-      "priority_bucket": "general",
-      "priority_score": "14",
-      "priority_signal": "boost=18,tech=0,news=0",
-      "translated_title": "'시너지 패러다임' 좋아하는 직원, 업무 능력 떨어질 수도",
-      "short_summary": "시너지 패러다임을 선호하는 직원들이 오히려 업무 성과가 낮을 수 있다는 연구 결과가 나왔다. 이는 협업 방식에 대한 재고를 요구한다.",
-      "ai_model": "gpt-4.1-mini-2025-04-14",
-      "sent_at": "2026-03-06T14:05:23.677934+00:00"
     }
   ],
   "topic_digests": {
@@ -168140,9 +168548,11 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트: 보조를 넘는 자동화",
-        "summary": "이번 주에는 도구와 에이전트가 사람을 돕는 단계를 넘어, 평가 방식과 업무 흐름 자체를 흔드는 장면이 잇따랐습니다. 성능보다 운영 기준과 통제가 더 큰 화두로 떠올랐습니다.\n\n- CTF 풀이 자동화와 Pixel 0-click 체인은 AI·보안 자동화가 이미 실전 감각을 바꾸고 있음을 보여줍니다.\n- 경량 러스트 코딩 에이전트와 브라우저 MCP 논의는 현장형 도구의 방향을 드러냈지만 인증과 설계 공백도 남겼습니다.\n- 아마존 사례는 AI 도입이 성과보다 사용량 지표로 흐를 때 어떤 왜곡이 생기는지 선명하게 보여줍니다.",
+        "headline": "이번 주 도구·에이전트: 신뢰성의 시험대",
+        "summary": "코딩 에이전트가 데모를 넘어 실전 신뢰성으로 평가받는 주였다. 보안에선 AI가 경쟁 규칙을 흔들었고, 옛 컴퓨팅의 손맛을 다시 찾는 시선도 함께 커졌다.\n\n- Codex 대 Claude 비교와 러스트 에이전트 화제는 이제 승부처가 말솜씨보다 큰 저장소 안정성, 메모리, 끝까지 완수하는 힘으로 옮겨갔다는 점을 보여준다.\n- 공개 CTF와 Pixel 10 체인은 AI 시대 보안 지형이 얼마나 빨리 바뀌는지 드러낸다. 지금 보면 도구 경쟁과 공격 자동화가 같은 속도로 달리는 장면이 함께 잡힌다.",
         "item_ids": [
+          "57a26df77326503e55e1628b9d416d8dd27c9a36",
+          "dca4990e252217ce08c5633560e4930216b86aca",
           "9de870f06866f1814fd5dbef90b9fd4b2007437d",
           "514ba45f53c5bd40565a7971528d31a15e7f7c4a",
           "044f52f1edf3f568cc9d68c9a08e37f5bf035478",
@@ -168246,12 +168656,10 @@
           "3854375c5b1fa6928ad3be99b99fb949247be8a1",
           "ae0bb2fb00fcd5e394c2a44f94bd33c8e6f35fc9",
           "e9101fea24b1a943d4bea68db3cdbba1d48792d8",
-          "90a722d92a60938df0dd586972b7923a23697905",
-          "2b33f6518f3f041d955723ddaa9818de959b9c95",
-          "6b6ad734aa024e3022fffbf1b72ae5ba40b7fc57"
+          "90a722d92a60938df0dd586972b7923a23697905"
         ],
         "total_items": 106,
-        "generated_at": "2026-05-17T00:18:40.274319+00:00",
+        "generated_at": "2026-05-17T04:31:31.541830+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -168259,8 +168667,11 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "이번 주 실무 기술은 새 기능보다 바닥 설계와 검증으로 시선이 모였다. 지금 보는 이유도 같다. 비용과 신뢰를 함께 챙겨야 하는 국면이 더 선명해졌기 때문이다.\n- 사기 탐지는 ML보다 먼저 SQL로 속도·위치·금액 이상을 잡는 설계가 출발점이라는 점이 다시 부각됐다.\n- Bun·PyTorch 사례는 재작성의 화제성보다 UB 점검과 메모리 절제가 더 오래 남는 숙제임을 보여줬다.\n- 록스카이와 저가 전파천문 장비 사례는 프로토콜과 저가 장비로도 새 실험이 가능하다는 감각을 보여줬다.",
+        "summary": "이번 주엔 새 기술을 얼마나 빨리 붙이느냐보다, 바닥을 얼마나 단단히 다졌는지가 더 또렷하게 보였다.\n\n- Bun 재작성과 C++ SIMD, 지속 학습 논의 모두 기대보다 리뷰 깊이와 과한 약속을 먼저 따지는 흐름이 강했다.\n- 사기 탐지 SQL 사례는 결국 실무가 모델보다 데이터 구조, 조인, 규칙 설계에서 출발한다는 점을 다시 보여줬다.\n- AT 프로토콜 기반 서비스처럼 새 시도도 이어지지만, 지금 볼 포인트는 아이디어보다 운영 완성도와 도구 성숙도다.",
         "item_ids": [
+          "74d34aef693eaf8169d43a49e832cb86caf0c34d",
+          "90d85d7f014685273391d86ca6b4b78a3a39b620",
+          "e58b458c33a851998be23b22a6a6e0893dedc19d",
           "44a20879e0b1fc498012202489fa70d0d3d95bfe",
           "f4943bb62b736530301ec8d5a0f1bade7d797f3f",
           "9ccf328b08d619f206e9c2a8bb4ff8751882c25f",
@@ -168339,13 +168750,10 @@
           "9bf3a10049dafb2dd9752c6fb51cc69fb12f2524",
           "491802f53fab930e4f876d9bf975f7a9a523e6f2",
           "7a1f4a6b23179efe62c6f5103925bf55a56de2de",
-          "3842c1d2d6e525de387cd8850bea7acd3da9b56a",
-          "f0c6e0dae9976a60f1bf3ef05cc23d35f4ce6526",
-          "aa76c12a2b155444ead6adc623e2857fe3cd574d",
-          "4bb74733d17b814c9de313fe062f90acbabf4008"
+          "3842c1d2d6e525de387cd8850bea7acd3da9b56a"
         ],
         "total_items": 82,
-        "generated_at": "2026-05-17T00:18:40.274319+00:00",
+        "generated_at": "2026-05-17T04:31:31.541830+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -168353,8 +168761,9 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 주 산업·비즈니스",
-        "summary": "AI 경쟁의 무게중심이 성능 과시에서 현장 적용과 통제 구조로 옮겨가는 흐름이 선명합니다. 이번 주 묶음은 그 변화를 한꺼번에 보여줍니다.\n- 번역 프로젝트, 법률 특화 에이전트, 온디바이스 TTS는 AI가 언어와 직무, 기기 안으로 더 깊게 파고드는 장면입니다.\n- 결제사 규정과 기업 지배구조 논의는 무엇을 만들 수 있고 얼마나 오래 버틸 수 있는지 결국 제도와 구조가 가른다는 점을 드러냅니다.\n- 지금 보면 AI 도입 경쟁이 기능 추가를 넘어 배포 조건과 운영 원칙 싸움으로 번지는 국면을 읽을 수 있습니다.",
+        "summary": "이번 주 산업·비즈니스 흐름은 기술을 더 가볍게 실무 가까이 붙이려는 움직임과, 회사를 오래 버티게 할 운영 구조를 다시 따져보는 시선이 함께 커졌다는 점이다.\n\n- 미래 시각화, Zed 다국어화, 법률용 Claude는 제품이 성능 경쟁을 넘어 사용자 맥락과 현장 문제를 더 깊게 품는 쪽으로 가고 있음을 보여줬다.\n- 초경량 온디바이스 TTS와 기업 지배구조 논의가 나란히 나온 건, 이제는 기술 도입 속도만이 아니라 지속 가능한 운영 체력까지 함께 봐야 할 시점임을 드러낸다.",
         "item_ids": [
+          "b1ccc458c67bdadf8db74202a55077a623e9a6c1",
           "e695a9bbf99efaa036651a02bd1787af34d72a76",
           "2495dda9853ea6ffb891f083580afb3f242ef46b",
           "516ee19275ab1712603ae51ccc2a239984085e51",
@@ -168369,8 +168778,8 @@
           "3ec3042aef798b16d19d4dbe832388400facb794",
           "75604418851374f59391ea2b3dd3d8a7a364ecd1"
         ],
-        "total_items": 13,
-        "generated_at": "2026-05-17T00:18:40.274319+00:00",
+        "total_items": 14,
+        "generated_at": "2026-05-17T04:31:31.541830+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -168380,8 +168789,10 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "도구·에이전트는 보조를 지나 실행과 운영 규칙을 바꾸는 단계로 들어섰다. CTF 풀이, 모바일 공격, 브라우저 접점, 사내 업무까지 변화가 한 묶음으로 보인다.\n- 모델이 추론과 코드 작성까지 맡으면서 사람 중심의 평가지표와 보안 전제가 함께 흔들린다.\n- 가벼운 로컬 코딩 에이전트와 MCP 안내 논의는 현장 도입이 어디서 빨라질지 보여준다.\n- 기업은 활용량을 재기 시작했지만, 성과보다 사용 흔적만 불어나는 부작용도 이미 나타난다.",
+        "summary": "코딩 에이전트는 더 쓸 만해졌고, 그만큼 검증과 통제의 감각도 다시 앞에 섰다. 이번 달엔 성능 경쟁보다 믿을 수 있느냐가 더 자주 화두였다.\n- Codex 호평과 경량 러스트 에이전트 관심은 큰 저장소에서도 덜 흔들리는 도구를 찾는 흐름을 보여준다.\n- 공개 CTF와 Pixel 10 익스플로잇 사례는 AI가 보안 실전의 기준과 공격 속도를 함께 바꾸는 장면이다.\n- '할트 앤 캐치 파이어' 재조명까지 겹치며, 손에 잡히는 컴퓨팅 감각을 다시 찾는 분위기도 읽힌다.",
         "item_ids": [
+          "57a26df77326503e55e1628b9d416d8dd27c9a36",
+          "dca4990e252217ce08c5633560e4930216b86aca",
           "9de870f06866f1814fd5dbef90b9fd4b2007437d",
           "514ba45f53c5bd40565a7971528d31a15e7f7c4a",
           "044f52f1edf3f568cc9d68c9a08e37f5bf035478",
@@ -168864,22 +169275,22 @@
           "83dfd6ace54f90f10d9bec1e9ba6742caee3f910",
           "d87ec96c0117e251b024b4b365686731d3d8c1b2",
           "3c48efbcfb842d6522f80f6d733abf2c515d3f77",
-          "23da6ddb6bfa38ada0b394616db7bcb47bdb86a2",
-          "a98f38973144605d592c1381d23c53b7946a8249",
-          "4711427c8f777b1ec79d907c74a569ab3614d6ab",
-          "729f00277bebc1c2ba5c4a3554948341fa38c83e"
+          "23da6ddb6bfa38ada0b394616db7bcb47bdb86a2"
         ],
-        "total_items": 486,
-        "generated_at": "2026-05-17T00:18:40.274319+00:00",
+        "total_items": 485,
+        "generated_at": "2026-05-17T04:31:31.541830+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "monthly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 달 실무 기술: 기반 재정비",
-        "summary": "이번 달 실무 기술 묶음은 새 유행보다 바닥 공사를 다시 보는 흐름이 또렷합니다. SQL 규칙, 프로토콜, 언어 안전성, 계산 비용처럼 현업의 체력을 가르는 주제가 앞에 섰습니다.\n\n- 사기 탐지는 ML보다 데이터 모델과 조인, 임계값 조정이 먼저라는 감각을 다시 확인시킵니다.\n- 서비스와 라이브러리는 프로토콜 개방성, 메모리 비용, UB 같은 오래된 문제를 정면에서 다시 다룹니다.\n- 지금 보면 화려한 기능 경쟁보다 운영 가능한 구조를 누가 더 단단히 다지는지 읽을 수 있습니다.",
+        "headline": "이번 달 실무 기술",
+        "summary": "겉으론 새 기술 이야기지만, 이번 달 흐름은 결국 실전에 바로 쓰일지 묻는 쪽으로 모입니다. 재작성과 표준화, 새 프로토콜, AI 학습까지 화제는 넓어도 검증의 잣대는 꽤 비슷합니다.\n- 큰 변화일수록 발표보다 리뷰 깊이, 성능 근거, 운영 편의가 먼저 도마에 올랐습니다.\n- 그래서 지금 볼 만합니다. 멋진 방향보다 현업에서 어디까지 믿고 붙일지 가늠하게 해주기 때문입니다.",
         "item_ids": [
+          "74d34aef693eaf8169d43a49e832cb86caf0c34d",
+          "90d85d7f014685273391d86ca6b4b78a3a39b620",
+          "e58b458c33a851998be23b22a6a6e0893dedc19d",
           "44a20879e0b1fc498012202489fa70d0d3d95bfe",
           "f4943bb62b736530301ec8d5a0f1bade7d797f3f",
           "9ccf328b08d619f206e9c2a8bb4ff8751882c25f",
@@ -169227,11 +169638,10 @@
           "baba1910266b6b49cdbb5a8a9fb2198940f8f12b",
           "62e2cc9e98936ac91ca5f28828ea60cbe5c2be4a",
           "747edb877f4ead91a8a651f5485cfe544deb3f34",
-          "497f2bb37a056e2fa3d6876c8c41fd93d66da439",
-          "8f62a2140c059125ba6b2605b3f9856227ad102d"
+          "497f2bb37a056e2fa3d6876c8c41fd93d66da439"
         ],
-        "total_items": 349,
-        "generated_at": "2026-05-17T00:18:40.274319+00:00",
+        "total_items": 351,
+        "generated_at": "2026-05-17T04:31:31.541830+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -169239,7 +169649,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 달 전략·인사이트",
-        "summary": "AI와 오픈소스의 무게중심이 실험에서 운영으로 옮겨갑니다. 재단 설립부터 연구 윤리 강화, 공공 투자, 현장 문화, 온디바이스 구현까지 한 줄로 이어집니다. 이제는 누가 더 오래 버티고 실제로 굴리느냐가 갈립니다.\n- Zulip·KDE 사례는 커뮤니티 소프트웨어도 거버넌스와 인프라 자본이 함께 가야 한다는 흐름을 보여줍니다.\n- arXiv 정책과 중국 AI 연구소 이야기는 성과보다 책임, 개인 명성보다 품질을 더 세게 묻는 분위기를 드러냅니다.\n- LiteRT-LM-Unity는 AI가 연구실을 넘어 기기 안으로 들어오는 속도를 보여줍니다.",
+        "summary": "이번 달엔 AI와 오픈소스가 실험을 지나 운영의 단계로 옮겨가는 모습이 선명했습니다. 기술 자체보다 누가 맡고 어떻게 검증하며 어디에 투자할지가 더 앞에 나섭니다.\n\n- Zulip 재단 설립과 KDE 투자는 프로젝트를 오래 굴릴 조직, 자금, 보안 체계를 먼저 세우는 흐름을 보여줍니다.\n- arXiv 제재와 중국 AI 연구 현장기는 성능 경쟁 뒤에서 책임, 문화, 검증 방식이 승부를 가른다는 점을 드러냅니다.\n- 온디바이스 LLM 사례까지 이어지며, AI가 선언보다 배포와 실행의 국면에 들어섰다는 이유에서 지금 볼 만합니다.",
         "item_ids": [
           "dd78f1743e1fb613d2bf18c8b52175b6a71c5e38",
           "d326cc0af1849718329988c19e05ab3db173386e",
@@ -169293,7 +169703,7 @@
           "4e0d7333ede25ece66b384e4ad1df10ac2ca1446"
         ],
         "total_items": 50,
-        "generated_at": "2026-05-17T00:18:40.274319+00:00",
+        "generated_at": "2026-05-17T04:31:31.541830+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -169304,21 +169714,20 @@
       "kind": "quiet_riser",
       "label": "AI Spotlight",
       "title": "조용히 커지는 주제",
-      "cta_label": "흐름 보기",
+      "cta_label": "관련 흐름 보기",
       "related_item_ids": [
-        "9de870f06866f1814fd5dbef90b9fd4b2007437d",
-        "603e1fc2984edf90746dec783483a04f8b0c4ef5",
-        "caee05cfbb7061425b1760fd398dabedc917064b"
+        "57a26df77326503e55e1628b9d416d8dd27c9a36",
+        "044f52f1edf3f568cc9d68c9a08e37f5bf035478"
       ],
-      "score": 0.91,
-      "generated_at": "2026-05-17T00:18:40.274319+00:00",
+      "score": 0.93,
+      "generated_at": "2026-05-17T04:31:31.541830+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "에이전트 운영 기준",
-      "summary_line": "무엇을 더 잘하느냐보다, 어떻게 붙이고 통제하느냐가 더 자주 이야기된다.",
+      "topic_name": "완주형 코딩 에이전트",
+      "summary_line": "이제 눈길은 말 잘하는 도구보다 큰 저장소에서 덜 흔들리고 끝까지 가는 에이전트로 쏠린다.",
       "signals": [
-        "공개 CTF에서도 사람 실력보다 AI 자동화가 점수판을 흔들기 시작했다.",
-        "브라우저용 MCP 안내처럼 사람과 에이전트가 만나는 접점을 다듬는 글이 나왔다.",
-        "스티어링이 다시 화제가 되며 모델 성향을 제품 안에서 조절하려는 관심이 커졌다."
+        "Codex와 Claude 비교는 작업이 덜 끝났는데 끝났다고 말하는 문제와 감시 비용을 드러냈다.",
+        "순수 러스트 에이전트는 8~12MB 메모리와 대형 프로젝트 안정성 기대감으로 주목받았다.",
+        "주간·월간 요약도 성능보다 검증, 메모리, 완수 능력을 더 자주 짚었다."
       ]
     },
     {
@@ -169326,38 +169735,39 @@
       "kind": "hn_split",
       "label": "AI Spotlight",
       "title": "HN 댓글이 가장 갈린 기사",
-      "cta_label": "논쟁 보기",
+      "cta_label": "쟁점 보기",
       "related_item_ids": [
         "603e1fc2984edf90746dec783483a04f8b0c4ef5"
       ],
-      "score": 0.89,
-      "generated_at": "2026-05-17T00:18:40.274319+00:00",
+      "score": 0.84,
+      "generated_at": "2026-05-17T04:31:31.541830+00:00",
       "ai_model": "codex-cli",
       "headline": "브라우저용 MCP 안내 페이지 아이디어",
-      "issue_title": "MCP는 친절한 접점인가, 불필요한 새 규격인가",
-      "opposition_summary": "반대 쪽은 REST API와 Swagger로도 충분하다며, MCP가 운영 복잡도와 인증 고민만 늘린다고 봤다.",
-      "support_summary": "찬성 쪽은 브라우저 접근에도 맥락을 보여주는 작은 설계가 온보딩 마찰을 줄인다고 평가했다."
+      "issue_title": "친절한 운영 팁인가, MCP 복잡성의 증거인가",
+      "opposition_summary": "REST와 Swagger로도 충분한데 굳이 새 규격을 세우고 인증 부담까지 키운다는 반론이 맞섰다.",
+      "support_summary": "브라우저로 잘못 들어온 사람도 맥락을 이해하게 해 도입 마찰을 줄인다는 평가가 나왔다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 보기",
+      "cta_label": "신호 따라가기",
       "related_item_ids": [
-        "f8ad36821ed66f1008e65740ff432849e377ac7a",
-        "9de870f06866f1814fd5dbef90b9fd4b2007437d",
-        "9a0d7eb826e4fee30e610074315429c19d70e714"
+        "dca4990e252217ce08c5633560e4930216b86aca",
+        "44a20879e0b1fc498012202489fa70d0d3d95bfe",
+        "74d34aef693eaf8169d43a49e832cb86caf0c34d",
+        "e58b458c33a851998be23b22a6a6e0893dedc19d"
       ],
-      "score": 0.9,
-      "generated_at": "2026-05-17T00:18:40.274319+00:00",
+      "score": 0.78,
+      "generated_at": "2026-05-17T04:31:31.541830+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "AI 사용량이 성과가 되는 순간",
-      "summary_line": "도입을 넘어서, AI를 썼다는 흔적 자체가 평가 신호처럼 움직이기 시작했다.",
+      "signal_title": "바닥을 다시 만지려는 기류",
+      "summary_line": "향수처럼 보인 얘기까지 결국 통제감 이야기로 모였다. 더 깊이 이해하고 직접 다루려는 쪽이다.",
       "signals": [
-        "Amazon 내부에서는 생산성보다 AI 활동량을 채우는 식의 왜곡이 드러났다.",
-        "공개 CTF 점수판도 인간 풀이보다 모델 자동화의 영향을 더 크게 받는다는 경고가 나왔다.",
-        "업계 일각에서는 AI 과열이 정상적인 판단을 밀어낸다는 비판이 이어졌다."
+        "옛 컴퓨팅 드라마 화제는 끝까지 파고들 수 있는 시스템 감각을 다시 꺼냈다.",
+        "사기 탐지 사례는 모델보다 조인과 규칙 설계가 먼저라는 실무 감각을 보여줬다.",
+        "SIMD와 Bun 재작성 논의도 편한 추상화보다 리뷰 깊이와 제어 가능성을 따졌다."
       ]
     }
   ],
@@ -169366,21 +169776,20 @@
     "kind": "quiet_riser",
     "label": "AI Spotlight",
     "title": "조용히 커지는 주제",
-    "cta_label": "흐름 보기",
+    "cta_label": "관련 흐름 보기",
     "related_item_ids": [
-      "9de870f06866f1814fd5dbef90b9fd4b2007437d",
-      "603e1fc2984edf90746dec783483a04f8b0c4ef5",
-      "caee05cfbb7061425b1760fd398dabedc917064b"
+      "57a26df77326503e55e1628b9d416d8dd27c9a36",
+      "044f52f1edf3f568cc9d68c9a08e37f5bf035478"
     ],
-    "score": 0.91,
-    "generated_at": "2026-05-17T00:18:40.274319+00:00",
+    "score": 0.93,
+    "generated_at": "2026-05-17T04:31:31.541830+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "에이전트 운영 기준",
-    "summary_line": "무엇을 더 잘하느냐보다, 어떻게 붙이고 통제하느냐가 더 자주 이야기된다.",
+    "topic_name": "완주형 코딩 에이전트",
+    "summary_line": "이제 눈길은 말 잘하는 도구보다 큰 저장소에서 덜 흔들리고 끝까지 가는 에이전트로 쏠린다.",
     "signals": [
-      "공개 CTF에서도 사람 실력보다 AI 자동화가 점수판을 흔들기 시작했다.",
-      "브라우저용 MCP 안내처럼 사람과 에이전트가 만나는 접점을 다듬는 글이 나왔다.",
-      "스티어링이 다시 화제가 되며 모델 성향을 제품 안에서 조절하려는 관심이 커졌다."
+      "Codex와 Claude 비교는 작업이 덜 끝났는데 끝났다고 말하는 문제와 감시 비용을 드러냈다.",
+      "순수 러스트 에이전트는 8~12MB 메모리와 대형 프로젝트 안정성 기대감으로 주목받았다.",
+      "주간·월간 요약도 성능보다 검증, 메모리, 완수 능력을 더 자주 짚었다."
     ]
   }
 }
