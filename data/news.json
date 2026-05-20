@@ -1,6 +1,472 @@
 {
   "items": [
     {
+      "id": "b1cd2c37415c1a3c8af5f7e437cd55959fbd8dc7",
+      "title_hash": "0574964b9ab4a4aed36fcc700acb8f01cd8bc9b6",
+      "source": "GeekNews",
+      "title": "Forge - 가드레일로 8B 모델을 에이전트 작업에서 53%에서 99%로 끌어올리는 도구",
+      "link": "https://news.hada.io/topic?id=29705",
+      "published_at": "2026-05-20T08:33:28+00:00",
+      "summary": "Forge 는 자체 호스팅 LLM의 도구 호출을 위한 신뢰성 계층으로, 다단계 에이전트 워크플로우에서 작은 로컬 모델의 안정성을 높이는 데 초점을 둠 핵심 기능은 잘못된 도구 호출을 복구하는 rescue parsing , 재시도 유도, 필수 단계 강제, VRAM 인식 토큰 예산, 계...",
+      "fetched_at": "2026-05-20T12:10:07.337494+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "61",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=0,tools_agents=16,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 16,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "워크플로우",
+            "에이전트"
+          ],
+          "support_hits": [
+            "에이전트 워크플로우"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "워크플로우",
+        "에이전트",
+        "에이전트 워크플로우"
+      ],
+      "detail_slug": "b1cd2c37415c1a3c8af5f7e437cd55959fbd8dc7",
+      "is_english_source": false,
+      "sent_at": "2026-05-20T12:13:14.315639+00:00"
+    },
+    {
+      "id": "b14c9b8b74d258336ba8c2d4712ee2862e787aba",
+      "title_hash": "38394de911e6b765c05c86674bb897cae5aa8a56",
+      "source": "GeekNews",
+      "title": "피자헛 가맹점주, AI 배달 시스템이 사업을 망쳤다며 1억 달러 소송",
+      "link": "https://news.hada.io/topic?id=29699",
+      "published_at": "2026-05-20T03:04:37+00:00",
+      "summary": "피자헛이 도입한 AI 배달 관리 플랫폼 \"Dragontail\"이 오히려 배달 지연과 매출 급감을 초래했다며, 대형 가맹점주가 1억 달러 규모 소송을 제기 핵심 요약 피자헛의 동북부 대형 가맹점주 Chaac Pizza Northeast (뉴욕·뉴저지·메릴랜",
+      "fetched_at": "2026-05-20T12:10:07.337494+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-3,tools_agents=0,strategy_insight=3,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -3,
+        "tools_agents": 0,
+        "strategy_insight": 3,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -3,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "주가",
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "소송"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "소송"
+      ],
+      "detail_slug": "b14c9b8b74d258336ba8c2d4712ee2862e787aba",
+      "is_english_source": false,
+      "sent_at": "2026-05-20T12:13:14.315639+00:00"
+    },
+    {
+      "id": "998c94f3752ad07c819f6349365d753b6162f7f7",
+      "title_hash": "cadcc228b47f1b21fd40832c9238e55a8740f65e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Learnings from 100K lines of Rust with AI (2025)",
+      "link": "https://zfhuang99.github.io/rust/claude%20code/codex/contracts/spec-driven%20development/2025/12/01/rust-with-ai.html",
+      "published_at": "2026-05-20T10:04:28+00:00",
+      "summary": "HN story type: story HN points: 69 HN comments: 57 HN top comments: chadd: We're working on a large Rust codebase, heavily assisted development with Claude and Codex, and one critical workflow is after you have written a spec, have the other LLM critique it thoroughly. This back and forth will take quite a while, but the resulting implementation plan will be 10x better than the original. You can automate this by giving Codex a goal, and a skill to call Claude to review the implementation... jdw64: I'm also shifting to an vibe coding workflow, but I have a genuine question: whenever I use AI for Rust, it makes an insane amount of lifetime errors. I have no idea how people are churning out so many lines of code so quickly. Honestly, despite all the hype around Rust in the community, the fact that AI can't handle lifetimes reliably makes me reluctant to use it. The AI constantly defaults to spamming .clone() o... torben-friis: >Testing is the first layer of defense. My system now includes 1,300+ tests — from unit tests to minimal integration tests (e.g., proposer + acceptor only), all the way to multi-replica full integration tests with injected failures. See the project status. I know LOC is a silly metric, but ~1300 tests for 130k lines averages out to a test per 100 lines - isn't this awfully low for a highly complex piece of code, e...",
+      "fetched_at": "2026-05-20T12:10:07.337494+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48205415",
+      "hn_story_type": "story",
+      "hn_points": "69",
+      "hn_comments_count": "57",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48205415",
+      "hn_item_text": "",
+      "hn_comment_preview": "chadd: We're working on a large Rust codebase, heavily assisted development with Claude and Codex, and one critical workflow is after you have written a spec, have the other LLM critique it thoroughly. This back and forth will take quite a while, but the resulting implementation plan will be 10x better than the original. You can automate this by giving Codex a goal, and a skill to call Claude to review the implementation...\njdw64: I'm also shifting to an vibe coding workflow, but I have a genuine question: whenever I use AI for Rust, it makes an insane amount of lifetime errors. I have no idea how people are churning out so many lines of code so quickly. Honestly, despite all the hype around Rust in the community, the fact that AI can't handle lifetimes reliably makes me reluctant to use it. The AI constantly defaults to spamming .clone() o...\ntorben-friis: >Testing is the first layer of defense. My system now includes 1,300+ tests — from unit tests to minimal integration tests (e.g., proposer + acceptor only), all the way to multi-replica full integration tests with injected failures. See the project status. I know LOC is a silly metric, but ~1300 tests for 130k lines averages...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "61",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=37,practical_tech=14,tools_agents=37,strategy_insight=9,industry_business=1",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 37,
+        "strategy_insight": 9,
+        "industry_business": 1
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "rust",
+            "rag"
+          ],
+          "support_hits": [
+            "implementation",
+            "testing"
+          ],
+          "negative_hits": [
+            "earnings"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 37,
+          "strong_hits": [
+            "spec-driven",
+            "workflow",
+            "codex",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "workflow"
+          ],
+          "negative_hits": [
+            "earnings"
+          ],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "earnings"
+          ],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 1,
+          "strong_hits": [
+            "earnings"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "spec-driven"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "spec-driven",
+        "workflow",
+        "codex",
+        "ide",
+        "llm",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "998c94f3752ad07c819f6349365d753b6162f7f7",
+      "is_english_source": true,
+      "translated_title": "AI와 함께 10만 줄 Rust를 만들며 얻은 교훈",
+      "short_summary": "AI를 활용해 대규모 Rust 코드를 쌓아가며 정리한 작업 방식과 시행착오를 다룬 글이다. 명세를 먼저 다듬고 테스트를 촘촘히 쌓는 흐름이 생산성을 좌우한다는 점이 눈에 띈다.",
+      "why_it_matters": "AI 코딩이 길을 내주더라도, 대규모 Rust 개발에서는 설계 검토와 테스트 체계가 먼저 받쳐줘야 한다는 메시지가 분명하게 보인다. 팀 생산성을 높이려면 프롬프트보다 작업 절차를 먼저 손봐야 한다는 얘기다.\n- 구현에 들어가기 전 명세를 쓰고 다른 모델로 다시 비판하게 하는 방식이 실무 팁으로 읽힌다. 초안 품질보다 계획 품질이 속도 차이를 만든다는 맥락이다.\n- Rust는 수명과 소유권 같은 제약이 강해서 AI가 길을 잘못 들기 쉽다. 자동 생성 코드에 바로 기대기보다 설계 경계와 검증 루틴을 함께 둬야 한다.\n- 테스트를 초반부터 넓게 깔아두는 접근은 AI가 만든 회귀를 빨리 잡는 데 유리하다. 특히 복잡한 시스템에서는 코드 생성보다 검증 자동화가 병목이 되기 쉽다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 흥미롭지만 낙관 일변도는 아니다. AI를 잘 쓰는 팀의 운영법에는 공감이 모였고, Rust에서 실제로 얼마나 안정적으로 통하는지에 대해서는 의문이 이어졌다.\n- 가장 많이 반복된 찬성 포인트는 명세를 먼저 쓰고 다른 LLM으로 혹독하게 검토하는 워크플로였다. 구현보다 설계 단계에서 품질을 끌어올려야 한다는 의견이 힘을 받았다.\n- 반론은 Rust 특유의 수명 오류와 과한 `.clone()` 남발 문제에 몰렸다. AI가 Rust의 제약을 아직 매끈하게 다루지 못한다는 경험담이 적지 않았다.\n- 테스트 밀도에 대한 질문도 나왔다. 10만 줄이 넘는 복잡한 코드베이스라면 현재 언급된 테스트 수가 충분한지, 검증 전략을 더 따져봐야 한다는 시선이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-20T12:13:14.315639+00:00"
+    },
+    {
+      "id": "c36e2c5492b50158d1797b3f1d43933cb6c3135e",
+      "title_hash": "f5fcd5f7683f7a6be4a78390b17226b805c709db",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "CopyFail: From Pod to Host",
+      "link": "https://xint.io/blog/copy-fail-pod-to-host",
+      "published_at": "2026-05-19T17:25:33+00:00",
+      "summary": "HN story type: story HN points: 29 HN comments: 4 HN top comments: exceptione: FYI: I had tried this exploit with rootless podman containers to write to read-only mounts, but the exploit failed. I am not sure if the default container runtime in Podman is resistant against these attacks or if it assumes Docker running containers with higher privileges, but at least it was a pleasant observation. (kernel 6.18) AlfieJones: It feels like AI is speeding up bug discovery faster than security can keep up. Curious if this is temporary or just the new normal. louwrentius: Maybe I’m missing something but because of this kind of risk, an old fashioned virtual machine feels like a more robust security boundary.",
+      "fetched_at": "2026-05-20T12:10:07.337494+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48196337",
+      "hn_story_type": "story",
+      "hn_points": "29",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48196337",
+      "hn_item_text": "",
+      "hn_comment_preview": "exceptione: FYI: I had tried this exploit with rootless podman containers to write to read-only mounts, but the exploit failed. I am not sure if the default container runtime in Podman is resistant against these attacks or if it assumes Docker running containers with higher privileges, but at least it was a pleasant observation. (kernel 6.18)\nAlfieJones: It feels like AI is speeding up bug discovery faster than security can keep up. Curious if this is temporary or just the new normal.\nlouwrentius: Maybe I’m missing something but because of this kind of risk, an old fashioned virtual machine feels like a more robust security boundary.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=30,practical_tech=30,tools_agents=2,strategy_insight=2,industry_business=-8",
+      "slot_scores": {
+        "practical_tech": 30,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": -8
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 30,
+          "strong_hits": [
+            "container",
+            "security",
+            "runtime",
+            "docker"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "docker + container"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "runtime",
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "container",
+        "security",
+        "runtime",
+        "docker",
+        "docker + container"
+      ],
+      "detail_slug": "c36e2c5492b50158d1797b3f1d43933cb6c3135e",
+      "is_english_source": true,
+      "translated_title": "CopyFail: 파드에서 호스트까지 뚫는 취약점",
+      "short_summary": "‘CopyFail’은 파드 안에서 시작한 행위가 호스트까지 닿을 수 있음을 보여 주며 컨테이너 격리 경계를 다시 보게 만든다. HN에서는 rootless Podman 재현 실패 사례와 함께 VM이 더 강한 경계라는 반응이 나왔다.",
+      "why_it_matters": "컨테이너를 VM보다 가벼운 격리 수단으로 써 온 팀이라면 운영 기준을 다시 점검할 시점이다.\n- 읽기 전용 마운트, 런타임 권한, rootless 설정처럼 기본값에 맡기던 항목이 실제 방어선으로 떠오른다.\n- 쿠버네티스와 CI 실행 환경에서 '파드 안이면 괜찮다'는 가정을 버리고 호스트 노출 경로를 따로 점검해야 한다.\n- 재현 여부가 런타임과 커널에 따라 달릴 수 있어 Docker, Podman, 커널 버전을 나눠 검증하는 실무가 필요하다.",
+      "hn_reaction_summary": "댓글 수는 많지 않지만 분위기는 한쪽으로 단순히 쏠리기보다 환경별 차이와 격리 모델의 한계를 따져 보는 쪽에 가깝다.\n- 한 이용자는 rootless Podman과 읽기 전용 마운트 조합에서는 재현이 안 됐다고 말하며 설정 차이를 핵심 변수로 봤다.\n- AI가 취약점 발견 속도를 더 끌어올려 보안 대응이 따라가기 어려워질 수 있다는 불안도 나왔다.\n- 컨테이너보다 전통적인 VM이 더 믿을 만한 경계 아니냐는 반론이 이어지며 성능과 격리 강도 사이의 선택 문제가 다시 떠올랐다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-20T12:13:14.315639+00:00"
+    },
+    {
+      "id": "fd00c87144f84e5212b5287a3b52d19658826657",
+      "title_hash": "2e7502f302cad311373e9ce015415ea0852a47c1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Google changes its search box",
+      "link": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "published_at": "2026-05-19T18:34:27+00:00",
+      "summary": "HN story type: story HN points: 587 HN comments: 781 HN post text: https://www.nytimes.com/2026/05/19/business/google-seach-bar... , https://archive.ph/XI1sQ https://techcrunch.com/2026/05/19/google-search-as-you-know-... https://www.theverge.com/tech/932970/google-search-ai-update... HN top comments: simonw: Nilay Patel has been talking about \"Google Zero\" - the moment when Google effectively stops sending any traffic to other sites - for a few years now: https://www.theverge.com/24167865/google-zero-search-crash-h... imoverclocked: I don't trust facts from LLMs. When I am searching for something, I usually want to find primary sources. As soon as a number is involved, I do my best to not even look at the AI output. Even though the result is often good and combines information from multiple sources, it can also get things wrong by combining information from different eras or just plain outdated advice. AFAICT, without primary sources, the res... divbzero: It’s diverged quite a bit from the original: ... Search the web using Google! 10 results 30 results 100 results Index contains ~25 million pages (soon to be much bigger) ... https://web.archive.org/web/19981111183552/http://google.sta...",
+      "fetched_at": "2026-05-20T12:10:07.337494+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48197370",
+      "hn_story_type": "story",
+      "hn_points": "587",
+      "hn_comments_count": "781",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48197370",
+      "hn_item_text": "https://www.nytimes.com/2026/05/19/business/google-seach-bar... , https://archive.ph/XI1sQ https://techcrunch.com/2026/05/19/google-search-as-you-know-... https://www.theverge.com/tech/932970/google-search-ai-update...",
+      "hn_comment_preview": "simonw: Nilay Patel has been talking about \"Google Zero\" - the moment when Google effectively stops sending any traffic to other sites - for a few years now: https://www.theverge.com/24167865/google-zero-search-crash-h...\nimoverclocked: I don't trust facts from LLMs. When I am searching for something, I usually want to find primary sources. As soon as a number is involved, I do my best to not even look at the AI output. Even though the result is often good and combines information from multiple sources, it can also get things wrong by combining information from different eras or just plain outdated advice. AFAICT, without primary sources, the res...\ndivbzero: It’s diverged quite a bit from the original: ... Search the web using Google! 10 results 30 results 100 results Index contains ~25 million pages (soon to be much bigger) ... https://web.archive.org/web/19981111183552/http://google.sta...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=7,industry_business=4",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 7,
+        "industry_business": 4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "index",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "business",
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "index",
+        "rust"
+      ],
+      "detail_slug": "fd00c87144f84e5212b5287a3b52d19658826657",
+      "is_english_source": true,
+      "translated_title": "구글, 검색창을 AI 답변 중심으로 바꾸다",
+      "short_summary": "구글이 검색창과 검색 경험을 AI 응답 중심으로 바꾸며 링크 탐색보다 대화형 질의를 앞세우기 시작했다. HN에서는 웹 트래픽 감소와 답변 신뢰도 저하를 함께 우려하는 반응이 많았다.",
+      "why_it_matters": "검색창은 웹으로 들어가는 첫 관문이다. 여기가 바뀌면 사용자의 클릭 흐름, 콘텐츠 유입 구조, 검색 실무의 기준까지 한꺼번에 흔들린다.\n- 사용자가 검색 결과 페이지를 덜 거치고 AI 답변에서 멈추면, 퍼블리셔와 서비스 운영자는 검색 유입 감소를 더 직접적으로 체감하게 된다.\n- SEO도 예전 방식만으로는 버티기 어려워진다. 원문 근거를 또렷하게 보여주는 구조와 브랜드 신뢰, 재방문 채널 운영이 더 앞에 놓인다.\n- 실무에서는 문서 최신성 관리와 1차 출처 연결이 더 까다로워진다. AI가 시점이 다른 정보를 섞어 답할 가능성까지 감안해야 한다.",
+      "hn_reaction_summary": "HN 분위기는 전반적으로 회의적이다. 편의성 자체는 인정하지만, 검색이 웹으로 연결해 주는 도구에서 답을 가두는 제품으로 더 멀어지고 있다는 반응이 두드러졌다.\n- 가장 많이 반복된 쟁점은 이른바 'Google Zero'다. 구글이 페이지 안에서 답을 끝내면 외부 사이트로 가는 트래픽이 더 줄 수 있다는 우려가 컸다.\n- 숫자, 정책, 최신 정보처럼 맥락이 자주 바뀌는 주제는 AI 답변보다 1차 출처를 직접 봐야 한다는 의견이 많았다.\n- 예전의 단순한 '링크 10개' 검색과는 이미 멀어졌고, 이번 변화가 그 방향 전환을 더 노골적으로 보여준다는 평가도 눈에 띄었다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-20T12:13:14.315639+00:00"
+    },
+    {
       "id": "bebcc20b41984e13de9716ba1b8885ed68044541",
       "title_hash": "240f030386f737aa6c80fc27b2fd2b9cb1cc4f5f",
       "source": "GeekNews",
@@ -172309,436 +172775,6 @@
       "detail_slug": "a46676b4204b5b3a45d04076e0a1b8621fee850a",
       "is_english_source": false,
       "sent_at": "2026-03-11T10:55:24.506410+00:00"
-    },
-    {
-      "id": "19d7d2b07a69aa00f73d7d8df454361b0e9338f4",
-      "title_hash": "e6fdd17bc6e4772736637d68ee07b80be161e618",
-      "source": "GeekNews",
-      "title": "Cloudflare 의 /crawl, 단일 API 호출로 전체 웹사이트 크롤링 지원",
-      "link": "https://news.hada.io/topic?id=27409",
-      "published_at": "2026-03-11T09:17:15+00:00",
-      "summary": "Cloudflare가 Browser Rendering의 새로운 /crawl 엔드포인트 를 공개 베타로 제공, 단 한 번의 API 호출로 전체 웹사이트를 크롤링할 수 있음 시작 URL을 제출하면 페이지를 자동으로 탐색하고 헤드리스 브라우저로 렌더링 , 결과를 HTML, Markdown, JSON...",
-      "fetched_at": "2026-03-11T10:53:53.288337+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "19d7d2b07a69aa00f73d7d8df454361b0e9338f4",
-      "is_english_source": false,
-      "sent_at": "2026-03-11T10:55:24.506410+00:00"
-    },
-    {
-      "id": "b0a91c97cd616f64de7b7aba038cb31319891b21",
-      "title_hash": "030a39cd53a0c5a345f53b08b19ffe6e88bb54ad",
-      "source": "GeekNews",
-      "title": "천천히 만드는 즐거움: 하이퍼 성장을 거부하는 소프트웨어 제작 방식",
-      "link": "https://news.hada.io/topic?id=27403",
-      "published_at": "2026-03-11T02:10:44+00:00",
-      "summary": "!Boring의 설립자 앤디 앨런이 5년간 2인 팀을 유지하며 느낀 '느린 성공'에 대한 회고 소프트웨어 업계의 기본 각본에 대한 의문 테크판 국룰인 투자-확장-초고속 성장 루트에 의문을 제기함. 이건 창작자보다 투자자에게 유리한 도박판에 가까움. 운 좋게 성공해도 빨리 얻",
-      "fetched_at": "2026-03-11T10:53:53.288337+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "투자"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "투자"
-      ],
-      "detail_slug": "b0a91c97cd616f64de7b7aba038cb31319891b21",
-      "is_english_source": false,
-      "sent_at": "2026-03-11T10:55:24.506410+00:00"
-    },
-    {
-      "id": "35463dba3bf560ce14c49ca45dbfec3ce9b90bce",
-      "title_hash": "c3164fd4cf4cd9365a8b99efd2ef05213710afb3",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "AutoKernel: Autoresearch for GPU Kernels",
-      "link": "https://github.com/RightNow-AI/autokernel",
-      "published_at": "2026-03-11T07:42:10+00:00",
-      "summary": "HN story type: story HN points: 32 HN comments: 4 HN top comments: ademeure: This is very cool! I've been working on something somewhat similar over the last few weeks, but trying to be much more general and arguably over-engineered! I like the scope of this project, keeping it limited to Triton and specific kinds of kernels makes it quite simple and efficient. I'm confused by the progress graph though; it looks like it's benchmarking a 4096x4096x4096 fp16 matmul rather than a full repo, a... veselin: I guess we will have a lot more benefits if we can get this to work on something like llama.cpp - since it really has a lot of kernels for different quantizations, a lot of home users, high hardware diversity - so it is a likely place with highest bang for the buck. I guess they can be a contributor there. NitpickLawyer: ... and so it begins. For a bit of context, goog already did something like this two generations of models ago, as announced in this blog post[1] from May '25: > AlphaEvolve is accelerating AI performance and research velocity. By finding smarter ways to divide a large matrix multiplication operation into more manageable subproblems, it sped up this vital kernel in Gemini’s architecture by 23%, leading to a 1% red...",
-      "fetched_at": "2026-03-11T10:53:53.288337+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47332688",
-      "hn_story_type": "story",
-      "hn_points": "32",
-      "hn_comments_count": "4",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47332688",
-      "hn_item_text": "",
-      "hn_comment_preview": "ademeure: This is very cool! I've been working on something somewhat similar over the last few weeks, but trying to be much more general and arguably over-engineered! I like the scope of this project, keeping it limited to Triton and specific kinds of kernels makes it quite simple and efficient. I'm confused by the progress graph though; it looks like it's benchmarking a 4096x4096x4096 fp16 matmul rather than a full repo, a...\nveselin: I guess we will have a lot more benefits if we can get this to work on something like llama.cpp - since it really has a lot of kernels for different quantizations, a lot of home users, high hardware diversity - so it is a likely place with highest bang for the buck. I guess they can be a contributor there.\nNitpickLawyer: ... and so it begins. For a bit of context, goog already did something like this two generations of models ago, as announced in this blog post[1] from May '25: > AlphaEvolve is accelerating AI performance and research velocity. By finding smarter ways to divide a large matrix multiplication operation into more manageable subproblems, it sped up this vital kernel in Gemini’s architecture by 23%, leading to a 1% red...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "46",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=10,strategy_insight=4,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 22,
-        "tools_agents": 10,
-        "strategy_insight": 4,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 22,
-          "strong_hits": [
-            "architecture",
-            "performance",
-            "benchmark"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "performance",
-        "benchmark",
-        "github.com"
-      ],
-      "detail_slug": "35463dba3bf560ce14c49ca45dbfec3ce9b90bce",
-      "is_english_source": true,
-      "translated_title": "AutoKernel, GPU 커널 자동 탐색 프로젝트",
-      "short_summary": "GPU 커널 최적화를 자동으로 찾아내는 AutoKernel이 화제다. 댓글에선 Triton과 일부 커널로 범위를 좁힌 점은 실용적이라는 평가와 함께, 성능 그래프 해석에 대한 의문과 구글 AlphaEvolve를 떠올린다는 반응도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-11T10:55:24.506410+00:00"
-    },
-    {
-      "id": "8b35b5334b7e05557769202a8ae5a37d9ec0dcd5",
-      "title_hash": "43d739cafa440f19b3bde0ed848b89a4266704bf",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Levels of Agentic Engineering",
-      "link": "https://www.bassimeledath.com/blog/levels-of-agentic-engineering",
-      "published_at": "2026-03-10T08:48:40+00:00",
-      "summary": "HN story type: story HN points: 201 HN comments: 90 HN top comments: throwaw12: As a Level 6, I am feeling like to go back to Level 5. Level 6 helps with fixing bugs, but adding a new feature in a scalable way is not working out for me, I feed bunch of documents and ask it to analyze and come up with a solution. 1. It misses some details from docs when summarizing 2. It misses some details from code and its architecture, especially in multi-repo Java projects (annotations, 100 level inheritan... krackers: What level is copy pasting snippets into the chatgpt window? Grug brained level 0? I sort of prefer it that way (using it as an amped up stackoverflow) since it forces me to decompose things in terms of natural boundaries (manual context management as it were) and allows me to think in terms of \"what properties do I need this function to have\" rather than just letting copilot take the wheel and glob the entire pro... mzg: As a lowly level 2 who remains skeptical of these software “dark factories” described at the top of this ladder, what I don’t understand is this: If software engineering is enough of a solved problem that you can delegate it entirely to LLM agents, what part of it remains context-specific enough that it can’t be better solved by a general-purpose software factory product? In other words, if you’re a company that i...",
-      "fetched_at": "2026-03-11T10:53:53.288337+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47320614",
-      "hn_story_type": "story",
-      "hn_points": "201",
-      "hn_comments_count": "90",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47320614",
-      "hn_item_text": "",
-      "hn_comment_preview": "throwaw12: As a Level 6, I am feeling like to go back to Level 5. Level 6 helps with fixing bugs, but adding a new feature in a scalable way is not working out for me, I feed bunch of documents and ask it to analyze and come up with a solution. 1. It misses some details from docs when summarizing 2. It misses some details from code and its architecture, especially in multi-repo Java projects (annotations, 100 level inheritan...\nkrackers: What level is copy pasting snippets into the chatgpt window? Grug brained level 0? I sort of prefer it that way (using it as an amped up stackoverflow) since it forces me to decompose things in terms of natural boundaries (manual context management as it were) and allows me to think in terms of \"what properties do I need this function to have\" rather than just letting copilot take the wheel and glob the entire pro...\nmzg: As a lowly level 2 who remains skeptical of these software “dark factories” described at the top of this ladder, what I don’t understand is this: If software engineering is enough of a solved problem that you can delegate it entirely to LLM agents, what part of it remains context-specific enough that it can’t be better solved b...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=19,practical_tech=9,tools_agents=19,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 19,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "architecture"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 19,
-          "strong_hits": [
-            "copilot",
-            "agentic",
-            "llm"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "copilot",
-        "agentic",
-        "llm",
-        "agent"
-      ],
-      "detail_slug": "8b35b5334b7e05557769202a8ae5a37d9ec0dcd5",
-      "is_english_source": true,
-      "translated_title": "AI 에이전트를 활용한 개발의 단계",
-      "short_summary": "AI 에이전트를 소프트웨어 개발에 어디까지 맡길지 단계별로 정리한 글이다. HN에선 버그 수정에는 도움 되지만 큰 기능 추가나 복잡한 코드베이스에선 맥락을 놓치기 쉽고, 완전 자동화에는 아직 회의적이라는 반응이 많았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-11T10:55:24.506410+00:00"
-    },
-    {
-      "id": "a84cb61515eb756ed5e14b139863ef190521e91f",
-      "title_hash": "a2cd8b76d6a598f2e71a0440d3c4f4ea02bb042c",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "U+237C ⍼ Is Azimuth",
-      "link": "https://ionathan.ch/2026/02/16/angzarr.html",
-      "published_at": "2026-03-10T22:33:45+00:00",
-      "summary": "HN story type: story HN points: 318 HN comments: 35 HN top comments: bobosola: Great detective work re the azimuth finding for the glyph, but I believe the link to a sextant is tenuous at best. The author says it can, of course, be turned sideways to measure an azimuth with respect to an arbitrary meridian . That’s not correct. The tool for doing that is an azimuth ring sitting on a compass which allows the user to obtain the angle relative to north (the azimuth) between the user’s local mer... kindkang2024: Great find — Satisfying to know ⍼'s origin story. This reminds me of another Unicode block with ancient origins: the 64 I Ching hexagrams (U+4DC0–U+4DFF). Unlike ⍼, their meaning has been documented for 4,000 years — yet they carry their own encoding surprise. Unicode actually follows the traditional King Wen sequence: U+4DC0 is ䷀ (Heaven, #1) and U+4DC1 is ䷁ (Earth, #2). Interestingly, this is different from the... tantalor: I prefer to think these characters have an antimemetic field that causes anyone who learns their true meaning to forget shortly after.",
-      "fetched_at": "2026-03-11T10:53:53.288337+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47329605",
-      "hn_story_type": "story",
-      "hn_points": "318",
-      "hn_comments_count": "35",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47329605",
-      "hn_item_text": "",
-      "hn_comment_preview": "bobosola: Great detective work re the azimuth finding for the glyph, but I believe the link to a sextant is tenuous at best. The author says it can, of course, be turned sideways to measure an azimuth with respect to an arbitrary meridian . That’s not correct. The tool for doing that is an azimuth ring sitting on a compass which allows the user to obtain the angle relative to north (the azimuth) between the user’s local mer...\nkindkang2024: Great find — Satisfying to know ⍼'s origin story. This reminds me of another Unicode block with ancient origins: the 64 I Ching hexagrams (U+4DC0–U+4DFF). Unlike ⍼, their meaning has been documented for 4,000 years — yet they carry their own encoding surprise. Unicode actually follows the traditional King Wen sequence: U+4DC0 is ䷀ (Heaven, #1) and U+4DC1 is ䷁ (Earth, #2). Interestingly, this is different from the...\ntantalor: I prefer to think these characters have an antimemetic field that causes anyone who learns their true meaning to forget shortly after.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=4,tools_agents=17,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 17,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 17,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "local",
-        "tool",
-        "ai + coding"
-      ],
-      "detail_slug": "a84cb61515eb756ed5e14b139863ef190521e91f",
-      "is_english_source": true,
-      "translated_title": "유니코드 기호 ⍼의 정체는 방위각 표시였다",
-      "short_summary": "화제가 된 글은 정체가 불분명했던 유니코드 문자 ⍼가 방위각을 뜻한다는 단서를 추적한다. 다만 HN에서는 육분의와의 연결은 약하다는 반론도 나와, 기호의 기원과 실제 쓰임은 더 따져봐야 한다는 의견이 붙었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-11T10:55:24.506410+00:00"
     }
   ],
   "topic_digests": {
@@ -172747,9 +172783,11 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트",
-        "summary": "이번 주는 AI 도구가 손에 잡히는 작업으로 내려오면서, 연결성과 생존성을 함께 따질 시점임을 보여줬다.\n- 워터마크 제거 도구와 Mirage는 이미지 처리부터 파일 접근까지 에이전트의 작업 폭이 넓어졌음을 보여줬다.\n- 애플은 접근성 기능으로 AI를 제품 안에 먼저 심는 실험에 들어갔다.\n- Gemini CLI 종료 예고와 Railway 차질은 기능보다 오래 버틸 운영 기반이 더 먼저 보인다는 점을 드러냈다.",
+        "headline": "이번 주 도구·에이전트: 덜 흔들리는 AI",
+        "summary": "이번 주에는 에이전트를 더 똑똑하게 만드는 이야기보다, 덜 흔들리게 만드는 장치가 더 많이 보였다. 작은 모델의 실패를 막고 작업 통로를 단순화하고, 명세와 테스트로 결과를 붙드는 흐름이 한데 모였다.\n- Forge와 Mirage는 도구 호출 복구와 통합 파일시스템으로 에이전트 운영의 마찰을 낮췄다.\n- 10만 줄 Rust 사례는 AI 코딩도 결국 명세와 테스트가 받쳐줘야 길게 간다는 점을 보여줬다.\n- 애플 접근성 기능과 워터마크 제거 도구는 AI가 실험을 넘어 실제 제품과 통제 문제로 옮아가는 시점을 짚는다.",
         "item_ids": [
+          "b1cd2c37415c1a3c8af5f7e437cd55959fbd8dc7",
+          "998c94f3752ad07c819f6349365d753b6162f7f7",
           "bebcc20b41984e13de9716ba1b8885ed68044541",
           "ea78990b692136ee9974afd39b97d15789f6211f",
           "03303905b541bf5068f96eba3f0251c1487b6fa4",
@@ -172858,12 +172896,10 @@
           "88b22cc7e023f6708237b8969b12826f2bc693f2",
           "f9e2c2964939a3ab62ef0727de5b680215ca9fc1",
           "d468e801a7542c3ee2a0e7e9097f361b56a8d323",
-          "684e0460e3ec72654f27643d0bc963fe718698d0",
-          "7c3c994645e48b1961fd9f76a053ea3794d23335",
-          "0158eb3773ff970abac3683bb3be327f09ac28a0"
+          "684e0460e3ec72654f27643d0bc963fe718698d0"
         ],
         "total_items": 111,
-        "generated_at": "2026-05-20T07:58:20.167587+00:00",
+        "generated_at": "2026-05-20T12:10:07.337494+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -172871,8 +172907,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "이번 주는 익숙한 기술의 겉보다 안쪽을 다시 보게 했다. 저장소 보안, C의 UB, KV 캐시, 운영체제 아카이브, 수학 UI까지 결국 신뢰와 구조, 구현의 결을 묻는 흐름이다.\n- 깃허브 조사와 UB 논의는 개발 기반이 작은 전제 하나로도 흔들릴 수 있음을 보여줬다.\n- KV 캐시와 Polypad는 성능과 사용감이 겉기능보다 내부 설계에서 갈린다는 점을 드러냈다.\n- 지금 보면 좋은 이유는 AI 운영과 공급망 리스크가 이미 실무 판단의 문제가 됐기 때문이다.",
+        "summary": "이번 주엔 새 기능보다 경계와 기반을 다시 보는 글이 많았다. 익숙한 전제가 흔들릴 때 실무 판단이 어디서 달라지는지 또렷하게 보여 준다.\n\n- CopyFail과 깃허브 이슈는 컨테이너 격리와 개발 인프라 신뢰를 다시 점검하라는 신호다.\n- 구글 검색 변화는 AI 답변이 트래픽과 검증 흐름을 어떻게 바꾸는지 먼저 보게 한다.\n- C의 UB와 운영체제 박물관 화제는 오래된 기반을 이해하는 감각이 여전히 현업 체력을 만든다고 말해 준다.",
         "item_ids": [
+          "c36e2c5492b50158d1797b3f1d43933cb6c3135e",
+          "fd00c87144f84e5212b5287a3b52d19658826657",
           "2df3e8ebbba5bf2252e84861fd2a16cb09ebf4bd",
           "14e785e81565e7a6cf8f12a60923d534bf5854e5",
           "c433b00ef5e0db9c776830f970537f8dd2423fa4",
@@ -172950,12 +172988,10 @@
           "7353d99e0e5691605cfd44856a6473e4bf2406a7",
           "444d35a99a5bd8da681240146016c5e71a78b61a",
           "09144433fe86080fcce42027ae70ca779e220f09",
-          "aa90a1abe37c0f1ee68b3322d557f3fed2491af8",
-          "d6a88fa5d8feedb9c4415f69e4adedd591933986",
-          "eadc2fb66bae78f242ed82f4f24a49f74d425dd1"
+          "aa90a1abe37c0f1ee68b3322d557f3fed2491af8"
         ],
         "total_items": 80,
-        "generated_at": "2026-05-20T07:58:20.167587+00:00",
+        "generated_at": "2026-05-20T12:10:07.337494+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -172963,8 +172999,9 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 주 산업·비즈니스",
-        "summary": "AI 투자와 보안, 조직 재편이 한 주의 흐름으로 맞물렸다. 실적이 좋아도 기업은 비용과 통제를 다시 조이고 있다. 지금 보면 AI 열풍의 다음 부담이 더 선명하다.\n- GitHub 조사 사례는 AI 경쟁과 별개로 기본 보안과 내부 통제가 먼저라는 점을 보여준다.\n- Meta와 OpenAI 소식은 감원, 인재 쏠림, 국가 단위 확산이 동시에 진행되는 현실을 드러낸다.\n- 결국 승부처는 화제성보다 현장 적용과 문제 정의에 있다는 흐름이 반복됐다.",
+        "summary": "이번 주 산업·비즈니스 기사는 AI를 앞세운 투자와 전환이 현장 운영, 보안, 조직 분위기까지 흔들고 있음을 보여준다. 기대가 커질수록 성과보다 실행의 균열이 먼저 드러난다.\n- 피자헛 소송은 AI 배달 시스템이 매출과 운영을 동시에 망가뜨릴 수 있다는 경고다.\n- GitHub 조사와 Meta 분위기 악화는 AI 경쟁이 보안 부담과 내부 피로를 함께 키운다는 점을 드러낸다.\n- 'AI는 제품이 아니라 기술'이라는 지적처럼, 지금은 화려한 약속보다 문제 정의와 적용 방식이 먼저 시험대에 오른다.",
         "item_ids": [
+          "b14c9b8b74d258336ba8c2d4712ee2862e787aba",
           "6dc02332120f80a3cd05ccfb1922bab0509a6eba",
           "a5f450a1108152e1f61a5b2f65535840d9bb7e97",
           "fd08505905b49417ebc23ed003bf6ef5f77d9b88",
@@ -172977,11 +173014,10 @@
           "6cb2838d10dde4b268700efa88e4c1643a010131",
           "630a0f545f5d4f05c84e149b8ff98d1172de0a1a",
           "686c48040599c9e36401ddbfb4dea92672d44526",
-          "5c4eccb398ef92081c86a5f7709f40c712e447c5",
-          "dbd24902e870f965f760066e71d6a14eccad0bb4"
+          "5c4eccb398ef92081c86a5f7709f40c712e447c5"
         ],
         "total_items": 14,
-        "generated_at": "2026-05-20T07:58:20.167587+00:00",
+        "generated_at": "2026-05-20T12:10:07.337494+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -172991,8 +173027,10 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "이번 달엔 에이전트 도구가 더 넓은 환경으로 들어가는 대신, 플랫폼 종속과 통제권 문제가 함께 드러났다. 새 기능보다 오래 굴릴 수 있느냐가 더 또렷해졌다.\n- Mirage처럼 여러 서비스를 한 인터페이스로 묶는 흐름이 강해졌다. 에이전트를 실제 업무에 붙이려는 움직임이다.\n- 애플은 접근성 기능으로 AI 상호작용을 제품 안에서 시험했다. 보조 기능이 곧 다음 인터페이스의 실험장이 됐다.\n- 워터마크 제거, Gemini CLI 종료, Railway 사례는 흔적 관리와 벤더 리스크를 함께 보여줬다.",
+        "summary": "이번 달 흐름은 더 똑똑한 모델 경쟁보다, 에이전트를 실제 일에 버티게 하는 바닥 공사에 가까웠다. 가드레일과 파일시스템, 테스트와 결과물 관리가 전면에 나왔다.\n- Forge와 Mirage는 작은 모델의 불안정을 줄이고 여러 서비스를 한 인터페이스로 묶는 쪽에 힘이 실렸다.\n- 10만 줄 Rust 사례는 명세와 테스트가 생산성을 가른다는 점을 다시 보여줬다.\n- 애플 접근성 기능과 워터마크 제거 도구는 AI가 데모를 넘어 실사용 단계로 옮겨가는 장면이라 지금 볼 만하다.",
         "item_ids": [
+          "b1cd2c37415c1a3c8af5f7e437cd55959fbd8dc7",
+          "998c94f3752ad07c819f6349365d753b6162f7f7",
           "bebcc20b41984e13de9716ba1b8885ed68044541",
           "ea78990b692136ee9974afd39b97d15789f6211f",
           "03303905b541bf5068f96eba3f0251c1487b6fa4",
@@ -173469,12 +173507,10 @@
           "f4b4536536e7e745815b8ec33bf1b0ebf71b8941",
           "1377ea60ff213133cefa6388f867073c01fd49da",
           "3fe5711a9e679a8b89af5305e4f817ea56f3dcc2",
-          "a365a2ae0dded3e2efa767497f4a39c684f8f985",
-          "862c404ec91a23a54ba82bbd824ef08accf646b9",
-          "0d69c171853168bd305f7e3ad88e9c4f2a11c00a"
+          "a365a2ae0dded3e2efa767497f4a39c684f8f985"
         ],
         "total_items": 479,
-        "generated_at": "2026-05-20T07:58:20.167587+00:00",
+        "generated_at": "2026-05-20T12:10:07.337494+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -173482,8 +173518,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달 실무 기술은 새 도구 소개보다 기반을 다시 점검하는 흐름이 두드러졌다. 저장소 신뢰, C의 UB, KV 캐시처럼 잘 안 보이던 층이 사고와 비용을 가른다는 점이 다시 떠올랐다.\n\n- 깃허브 조사 이슈는 개발 인프라와 공급망 신뢰가 아직도 가장 예민한 운영 문제임을 보여준다.\n- UB와 KV 캐시는 성능보다 전제와 메모리 이해가 먼저라는 현실을 드러낸다.\n- 운영체제 박물관과 Polypad는 기술을 남기고 익히는 방식까지 다시 묻는다는 점에서 지금 볼 만하다.",
+        "summary": "이번 달 실무 기술 묶음은 새 기능보다 경계와 전제를 다시 묻는 흐름이 두드러졌다. 컨테이너 격리, 검색 결과, 컴파일러 해석, 개발 인프라 신뢰까지 현업의 바닥을 다시 점검하게 만든다.\n\n- CopyFail과 깃허브 조사 이슈는 호스트 경계와 공급망 신뢰가 한 번에 흔들릴 수 있음을 보여 준다.\n- 구글 AI 검색과 C의 UB 논의는 익숙한 도구라도 답변과 동작을 끝까지 검증해야 한다는 분위기를 키웠다.\n- 운영체제 박물관 화제는 새 기술 경쟁 속에서도 기본기와 축적된 맥락을 다시 찾게 하는 시선을 보탰다.",
         "item_ids": [
+          "c36e2c5492b50158d1797b3f1d43933cb6c3135e",
+          "fd00c87144f84e5212b5287a3b52d19658826657",
           "2df3e8ebbba5bf2252e84861fd2a16cb09ebf4bd",
           "14e785e81565e7a6cf8f12a60923d534bf5854e5",
           "c433b00ef5e0db9c776830f970537f8dd2423fa4",
@@ -173828,21 +173866,18 @@
           "7c920d742573c1b1a3cc89db1845758edb7e0b37",
           "c8fd3028eba6914322a9d6dd85f1b8af2fa64d0c",
           "de54f0a167e32d60f230cfe8c2f37b6f334a510d",
-          "38738ed493493f2062cd404c9833c594ff34a83c",
-          "3cfd1d85999e6c36f8dac9a65eacd39153d2ad90",
-          "ff32d4970f40f69b73e8b55dc0591e3de5ca096d",
-          "6af9ea90385ba64af836b61295fa4e66a61f06d4"
+          "38738ed493493f2062cd404c9833c594ff34a83c"
         ],
-        "total_items": 348,
-        "generated_at": "2026-05-20T07:58:20.167587+00:00",
+        "total_items": 347,
+        "generated_at": "2026-05-20T12:10:07.337494+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "monthly",
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
-        "headline": "이번 달 전략·인사이트: 숨은 구조 읽기",
-        "summary": "이번 달 글은 눈앞의 결과보다 그 뒤의 구조를 다시 보게 한다. 미루기, 성능, 커뮤니티 운영, 작은 하드웨어, AI 분쟁까지 판단의 기준이 어디서 바뀌는지 한 번에 짚는다.\n- 감정이나 감으로 넘기던 문제를 신호, 측정, 규칙으로 다시 읽는 흐름이 반복됐다.\n- 지금 보면 도구와 커뮤니티, 법적 경계가 함께 흔들리는 시기라는 점이 또렷하다.\n- 실무자는 습관 교정부터 성능 점검, 플랫폼 리스크까지 한 번에 감을 잡을 수 있다.",
+        "headline": "이번 달 전략·인사이트",
+        "summary": "감정이나 관성으로 넘기던 문제를 구조로 다시 읽는 글이 많았습니다. 미루기 습관부터 파이썬 성능, 커뮤니티 평가, 초소형 웹 호스팅, AI 소송까지 기준과 병목을 드러내는 흐름이 이어졌습니다.\n\n- 개인의 습관과 코드 성능을 의지보다 신호와 측정의 문제로 다룹니다.\n- 플랫폼 규칙과 오픈소스 평판, AI 기업의 분쟁까지 운영 기준을 다시 묻게 합니다.\n- 지금 보면 일하는 방식과 도구 선택, 커뮤니티 신뢰를 함께 점검할 단서를 얻을 수 있습니다.",
         "item_ids": [
           "326115a213cbad5c1395f787b9e4c2c4c1ebff58",
           "8a86c029d7492c6a49a3fd1528654cd1cbab025c",
@@ -173898,7 +173933,7 @@
           "758ba01a285ec75a1e1d937ca0111c2bc79c092d"
         ],
         "total_items": 52,
-        "generated_at": "2026-05-20T07:58:20.167587+00:00",
+        "generated_at": "2026-05-20T12:10:07.337494+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -173911,19 +173946,19 @@
       "title": "조용히 커지는 주제",
       "cta_label": "흐름 보기",
       "related_item_ids": [
-        "bebcc20b41984e13de9716ba1b8885ed68044541",
+        "b1cd2c37415c1a3c8af5f7e437cd55959fbd8dc7",
         "03303905b541bf5068f96eba3f0251c1487b6fa4",
-        "ea78990b692136ee9974afd39b97d15789f6211f"
+        "998c94f3752ad07c819f6349365d753b6162f7f7"
       ],
-      "score": 0.86,
-      "generated_at": "2026-05-20T07:58:20.167587+00:00",
+      "score": 0.94,
+      "generated_at": "2026-05-20T12:10:07.337494+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "채팅 밖으로 나온 에이전트",
-      "summary_line": "에이전트가 대화창을 벗어나 이미지, 파일, 보조 기능 같은 실제 작업면으로 내려왔다.",
+      "topic_name": "에이전트 안정화",
+      "summary_line": "더 똑똑한 모델보다 실패를 줄이는 장치가 더 자주 묶여 나온다.",
       "signals": [
-        "워터마크 제거 도구가 CLI와 라이브러리 형태로 바로 배치됐다.",
-        "Mirage는 여러 서비스를 하나의 파일시스템처럼 묶어 작업 경계를 낮췄다.",
-        "애플은 접근성 기능 안에서 AI 상호작용을 조용히 시험하기 시작했다."
+        "Forge는 작은 모델의 도구 호출을 복구하고 필수 단계를 붙든다.",
+        "Mirage는 여러 서비스를 파일시스템 하나로 묶어 작업 경로를 단순하게 만든다.",
+        "10만 줄 Rust 사례는 명세와 테스트가 결과 흔들림을 줄인다고 말한다."
       ]
     },
     {
@@ -173935,57 +173970,57 @@
       "related_item_ids": [
         "14e785e81565e7a6cf8f12a60923d534bf5854e5"
       ],
-      "score": 0.88,
-      "generated_at": "2026-05-20T07:58:20.167587+00:00",
+      "score": 0.82,
+      "generated_at": "2026-05-20T12:10:07.337494+00:00",
       "ai_model": "codex-cli",
       "headline": "C에선 모든 게 미정의 동작이다",
-      "issue_title": "과장된 제목인가, 현실적인 경고인가",
-      "opposition_summary": "제목이 지나치고 예시도 항상 UB는 아니라는 반박이 나왔다.",
-      "support_summary": "그래도 UB를 가볍게 보면 최적화 단계에서 코드 의미 자체가 바뀔 수 있다는 경고가 맞섰다."
+      "issue_title": "과장된 경고인가, 꼭 필요한 경고인가",
+      "opposition_summary": "제목이 과하고, 사례를 전부 UB로 묶는 건 무리라는 반론이 나왔다.",
+      "support_summary": "반대로 진짜 위험은 크래시보다 컴파일러 최적화라며 이런 경고가 꼭 필요하다는 쪽이 맞섰다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 보기",
+      "cta_label": "신호 읽기",
       "related_item_ids": [
-        "6dc02332120f80a3cd05ccfb1922bab0509a6eba",
-        "56691fbe9c371292a93128ed684de959fb73dafe",
-        "6fa467db384b3fa752ed28b99233bc9c1bdc7391"
+        "b14c9b8b74d258336ba8c2d4712ee2862e787aba",
+        "2df3e8ebbba5bf2252e84861fd2a16cb09ebf4bd",
+        "fd00c87144f84e5212b5287a3b52d19658826657"
       ],
-      "score": 0.92,
-      "generated_at": "2026-05-20T07:58:20.167587+00:00",
+      "score": 0.89,
+      "generated_at": "2026-05-20T12:10:07.337494+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "고장보다 정책이 먼저 멈춘다",
-      "summary_line": "서비스 자체보다 계정, 권한, 종료 공지가 더 큰 리스크로 드러난 한 주였다.",
+      "signal_title": "AI 본체보다 운영 바닥이 먼저 흔들린다",
+      "summary_line": "자동화와 AI를 얹는 순간, 현장 운영과 신뢰 체계에서 먼저 문제가 드러났다.",
       "signals": [
-        "GitHub 내부 저장소 무단 접근 조사는 코드 호스팅 자체의 신뢰를 흔들었다.",
-        "Railway 사례는 클라우드 정책 집행이 곧 서비스 중단으로 이어질 수 있음을 보여줬다.",
-        "Gemini CLI 종료 예고는 익숙한 도구도 하루아침에 운영 리스크가 될 수 있음을 드러냈다."
+        "피자헛은 AI 배달 시스템 문제를 매출 하락과 지연의 원인으로 지목했다.",
+        "깃허브는 내부 저장소 접근 조사로 개발 인프라 신뢰를 다시 흔들었다.",
+        "구글 검색은 AI 답변을 앞세우며 유입과 검증 동선을 바꾸기 시작했다."
       ]
     }
   ],
   "featured_spotlight": {
-    "id": "anomaly-signal",
-    "kind": "anomaly_signal",
-    "label": "Labs",
-    "title": "이번 주 이상 신호",
-    "cta_label": "신호 보기",
+    "id": "quiet-riser",
+    "kind": "quiet_riser",
+    "label": "AI Spotlight",
+    "title": "조용히 커지는 주제",
+    "cta_label": "흐름 보기",
     "related_item_ids": [
-      "6dc02332120f80a3cd05ccfb1922bab0509a6eba",
-      "56691fbe9c371292a93128ed684de959fb73dafe",
-      "6fa467db384b3fa752ed28b99233bc9c1bdc7391"
+      "b1cd2c37415c1a3c8af5f7e437cd55959fbd8dc7",
+      "03303905b541bf5068f96eba3f0251c1487b6fa4",
+      "998c94f3752ad07c819f6349365d753b6162f7f7"
     ],
-    "score": 0.92,
-    "generated_at": "2026-05-20T07:58:20.167587+00:00",
+    "score": 0.94,
+    "generated_at": "2026-05-20T12:10:07.337494+00:00",
     "ai_model": "codex-cli",
-    "signal_title": "고장보다 정책이 먼저 멈춘다",
-    "summary_line": "서비스 자체보다 계정, 권한, 종료 공지가 더 큰 리스크로 드러난 한 주였다.",
+    "topic_name": "에이전트 안정화",
+    "summary_line": "더 똑똑한 모델보다 실패를 줄이는 장치가 더 자주 묶여 나온다.",
     "signals": [
-      "GitHub 내부 저장소 무단 접근 조사는 코드 호스팅 자체의 신뢰를 흔들었다.",
-      "Railway 사례는 클라우드 정책 집행이 곧 서비스 중단으로 이어질 수 있음을 보여줬다.",
-      "Gemini CLI 종료 예고는 익숙한 도구도 하루아침에 운영 리스크가 될 수 있음을 드러냈다."
+      "Forge는 작은 모델의 도구 호출을 복구하고 필수 단계를 붙든다.",
+      "Mirage는 여러 서비스를 파일시스템 하나로 묶어 작업 경로를 단순하게 만든다.",
+      "10만 줄 Rust 사례는 명세와 테스트가 결과 흔들림을 줄인다고 말한다."
     ]
   }
 }
