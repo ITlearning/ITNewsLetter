@@ -1,6 +1,439 @@
 {
   "items": [
     {
+      "id": "23ca74d14dc192d84d7d8ce7f8711e77ca90e0e4",
+      "title_hash": "2f7e7cbcfa4facf54fc6ee77fde76f849e0814b0",
+      "source": "GeekNews",
+      "title": "Herdr - AI Agent 시대를 위한 tmux 스타일 터미널 워크스페이스",
+      "link": "https://news.hada.io/topic?id=29738",
+      "published_at": "2026-05-21T17:03:01+00:00",
+      "summary": "Herdr는 터미널 안에서 동작하는 “agent-native” 워크스페이스 매니저입니다. tmux처럼 세션 유지(detach/reattach), pane 분할, SSH 환경 지원을 제공하면서도, Claude Code·Codex·OpenCode 같은 AI coding agent들을 여러 개 동시에 관리하는 데 최적화되어 있습니다. 특히 단순한 terminal multiplexer를",
+      "fetched_at": "2026-05-21T17:32:09.410369+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "85",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=40,practical_tech=0,tools_agents=40,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 40,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 40,
+          "strong_hits": [
+            "coding agent",
+            "claude code",
+            "ai agent",
+            "codex"
+          ],
+          "support_hits": [
+            "ai coding",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "claude code",
+        "ai agent",
+        "codex",
+        "ai coding",
+        "agent",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "23ca74d14dc192d84d7d8ce7f8711e77ca90e0e4",
+      "is_english_source": false,
+      "sent_at": "2026-05-21T17:34:50.727630+00:00"
+    },
+    {
+      "id": "66903fde38112420d796a8a619f539203aff55d3",
+      "title_hash": "2c2462bddd55408cf2fdf45c0152c36c01309ec0",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+      "link": "https://www.runtm.com/",
+      "published_at": "2026-05-21T16:07:13+00:00",
+      "summary": "HN story type: story HN points: 15 HN comments: 2 HN post text: Hey HN, We're Gus and Carlos from Runtime ( https://runtm.com ). We're building infra that lets your whole team (including non-engineers) ship with Claude Code, Codex, and other agents without engineering having to handhold every session. After Mentum (YC S21) was acquired, I personally shipped 4 full-stack products in 3 months using coding agents. When I tried to roll the same workflow out to the rest of the team, it fell apart: Most PRs were unmergeable slop - Every repo required an engineer doing one-off local setup. - Skills and context lived in one person's head. - There was no safe way for a PM to touch a real codebase without risking a bad deploy or a secrets leak. Carlos comes from building agentic reconciliation systems at Modern Treasury and had a similar experience when letting his support team use devin. We ended up building internal background agent infra but it quickly became a nightmare to mantain and develop. We built Runtime so you don't have to do this kind of thing. Runtime work like as follows. Engineering defines the context once: system instructions, skills, and scoped integrations installable via CLI, mise, npm, or any package manager. Then Runtime snapsho... HN top comments: nilirl: Hi, this looks really powerful, in that it seems to have many use cases. One question I had: Does every sandbox change end (when ready for production) in a pull request? If marketing sends me a pull request and I hate the code, what's the flow like for me to fix it? mritchie712: I wonder how this would be looked upon by the ever changing rules of claude code. If someone from Anthropic sees this, would love to know if I can use my max plan here.",
+      "fetched_at": "2026-05-21T17:32:09.410369+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48225040",
+      "hn_story_type": "story",
+      "hn_points": "15",
+      "hn_comments_count": "2",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48225040",
+      "hn_item_text": "Hey HN, We're Gus and Carlos from Runtime ( https://runtm.com ). We're building infra that lets your whole team (including non-engineers) ship with Claude Code, Codex, and other agents without engineering having to handhold every session. After Mentum (YC S21) was acquired, I personally shipped 4 full-stack products in 3 months using coding agents. When I tried to roll the same workflow out to the rest of the team, it fell apart: Most PRs were unmergeable slop - Every repo required an engineer doing one-off local setup. - Skills and context lived in one person's head. - There was no safe way for a PM to touch a real codebase without risking a bad deploy or a secrets leak. Carlos comes from building agentic reconciliation systems at Modern Treasury and had a similar experience when letting his support team use devin. We ended up building internal background agent infra but it quickly became a nightmare to mantain and develop. We built Runtime so you don't have to do this kind of thing. Runtime work like as follows. Engineering defines the context once: system instructions, skills, and scoped integrations installable via CLI, mise, npm, or any package manager. Then Runtime snapsho...",
+      "hn_comment_preview": "nilirl: Hi, this looks really powerful, in that it seems to have many use cases. One question I had: Does every sandbox change end (when ready for production) in a pull request? If marketing sends me a pull request and I hate the code, what's the flow like for me to fix it?\nmritchie712: I wonder how this would be looked upon by the ever changing rules of claude code. If someone from Anthropic sees this, would love to know if I can use my max plan here.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "95",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=71,practical_tech=27,tools_agents=71,strategy_insight=8,industry_business=3",
+      "slot_scores": {
+        "practical_tech": 27,
+        "tools_agents": 71,
+        "strategy_insight": 8,
+        "industry_business": 3
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 27,
+          "strong_hits": [
+            "production",
+            "runtime",
+            "sandbox"
+          ],
+          "support_hits": [
+            "deploy"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 71,
+          "strong_hits": [
+            "coding agent",
+            "claude code",
+            "workflow",
+            "sandbox",
+            "agentic",
+            "codex",
+            "cli"
+          ],
+          "support_hits": [
+            "workflow",
+            "agent",
+            "setup",
+            "local"
+          ],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [
+            "agent + sandbox",
+            "agent + workflow",
+            "claude + code",
+            "ai + coding",
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "team + workflow"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 3,
+          "strong_hits": [
+            "launch"
+          ],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [
+            "runtime"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "claude code",
+        "workflow",
+        "sandbox",
+        "agentic",
+        "codex",
+        "cli",
+        "agent",
+        "setup",
+        "local",
+        "agent + sandbox",
+        "agent + workflow",
+        "claude + code",
+        "ai + coding",
+        "local + agent"
+      ],
+      "detail_slug": "66903fde38112420d796a8a619f539203aff55d3",
+      "is_english_source": true,
+      "translated_title": "런치 HN: 팀 전체를 위한 샌드박스 코딩 에이전트, Runtime",
+      "short_summary": "Runtime은 엔지니어뿐 아니라 PM 등 비개발 직군도 코딩 에이전트를 안전하게 쓰도록 돕는 팀용 인프라를 내세웠다. 공통 컨텍스트와 스킬, 제한된 연동을 미리 정의해 PR 품질 저하와 로컬 셋업 부담, 시크릿 노출 위험을 줄이겠다는 구상이다.",
+      "why_it_matters": "코딩 에이전트 활용이 개인 실험을 넘어 팀 운영 문제로 옮겨가고 있다는 점이 이 스토리의 핵심이다. Runtime은 모델 성능보다도 권한 통제, 작업 환경 표준화, 협업 절차를 어떻게 묶을지에 초점을 맞춘다.\n- 팀 공통 시스템 지침과 스킬, 연동 범위를 한 번 정의해 두면 사람마다 다른 프롬프트와 로컬 셋업에 덜 의존하게 된다.\n- 비개발 직군도 샌드박스 안에서 작업할 수 있어 요청 전달만 하던 흐름이 바뀔 수 있다. 대신 리뷰 기준과 승인 절차는 더 엄격해질 가능성이 크다.\n- 실무에서는 에이전트 성능 자체보다 PR 병합 가능성, 시크릿 보호, 배포 권한 분리가 도입 성패를 가를 수 있다는 점을 잘 보여준다.",
+      "hn_reaction_summary": "HN 반응은 기대감보다는 운영 현실을 먼저 따져보는 분위기에 가깝다. 댓글 수는 적지만, 실제 팀에 넣었을 때 어떤 통제가 가능한지가 바로 쟁점으로 올라왔다.\n- 한 댓글은 샌드박스 작업이 최종적으로 모두 PR로 이어지는지, 마음에 들지 않는 코드가 올라왔을 때 사람이 어떻게 손보고 정리하는지 물었다.\n- 다른 댓글은 Claude Code의 이용 정책과 요금제가 이런 팀 단위 활용 방식을 어디까지 허용하는지 궁금해했다.\n- 반복된 논점은 단순한 생성 능력보다 기존 코드 리뷰 흐름과 서비스 약관, 책임 경계에 무리 없이 들어갈 수 있느냐는 점이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-21T17:34:50.727630+00:00"
+    },
+    {
+      "id": "689b9116a7b0bd655eb1374ce37fdcce1b2aa821",
+      "title_hash": "6ca267120f12f42e871660504165c24c94d333b5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "We Reverse-Engineered Docker Sandbox's Undocumented MicroVM API",
+      "link": "https://rivet.dev/blog/2026-02-04-we-reverse-engineered-docker-sandbox-undocumented-microvm-api/",
+      "published_at": "2026-05-21T14:50:34+00:00",
+      "summary": "HN story type: story HN points: 30 HN comments: 4 HN top comments: nyrikki: > Docker Sandboxes require Docker Desktop 4.58+ on macOS or Windows. Linux is not supported since Docker Desktop uses platform-specific virtualization (Apple Virtualization.framework on macOS, Hyper-V on Windows). Docker can launch machines (linux vms) on Linux too, that is all they are doing here is launching a container instance separate Linux VM, vs the typical shared VM instance. By default they don't do so on... pploug: This article is from February - we have since shipped the microvm sandbox engine as a seperate binary: sbx - no docker desktop required, small 50mb binary. https://docs.docker.com/ai/sandboxes/ Not sure how well their work maps to sbx, but there has been multiple releases with features and improvements since then whimblepop: Kinda surprising that this doesn't support Linux. Podman can transparently start microVMs instead of local containers via libkrun as well, which does support Linux: https://josecastillolema.github.io/podman-wasm-libkrun/",
+      "fetched_at": "2026-05-21T17:32:09.410369+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48223693",
+      "hn_story_type": "story",
+      "hn_points": "30",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48223693",
+      "hn_item_text": "",
+      "hn_comment_preview": "nyrikki: > Docker Sandboxes require Docker Desktop 4.58+ on macOS or Windows. Linux is not supported since Docker Desktop uses platform-specific virtualization (Apple Virtualization.framework on macOS, Hyper-V on Windows). Docker can launch machines (linux vms) on Linux too, that is all they are doing here is launching a container instance separate Linux VM, vs the typical shared VM instance. By default they don't do so on...\npploug: This article is from February - we have since shipped the microvm sandbox engine as a seperate binary: sbx - no docker desktop required, small 50mb binary. https://docs.docker.com/ai/sandboxes/ Not sure how well their work maps to sbx, but there has been multiple releases with features and improvements since then\nwhimblepop: Kinda surprising that this doesn't support Linux. Podman can transparently start microVMs instead of local containers via libkrun as well, which does support Linux: https://josecastillolema.github.io/podman-wasm-libkrun/",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=41,practical_tech=41,tools_agents=9,strategy_insight=2,industry_business=8",
+      "slot_scores": {
+        "practical_tech": 41,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": 8
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 41,
+          "strong_hits": [
+            "framework",
+            "container",
+            "sandbox",
+            "docker",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "docker + container",
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "sandbox"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 8,
+          "strong_hits": [
+            "release",
+            "launch"
+          ],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "framework",
+        "container",
+        "sandbox",
+        "docker",
+        "api",
+        "docker + container",
+        "local + run"
+      ],
+      "detail_slug": "689b9116a7b0bd655eb1374ce37fdcce1b2aa821",
+      "is_english_source": true,
+      "translated_title": "도커 샌드박스의 숨은 MicroVM API 역분석",
+      "short_summary": "문서화되지 않은 Docker Sandbox의 MicroVM API를 분석해 내부 동작을 풀어낸 글이다. HN에서는 리눅스 미지원 한계와 이후 별도 실행 파일 `sbx` 출시로 상황이 바뀌었다는 보완 맥락이 함께 나왔다.",
+      "why_it_matters": "컨테이너를 넘어 격리된 실행 환경을 다뤄야 하는 팀이라면 눈여겨볼 만한 이야기다. 특히 AI 실행 샌드박스나 보안 민감 워크로드를 다룰 때 Docker가 MicroVM을 어떻게 묶어내는지 감을 잡는 데 도움이 된다.\n- 비공개 API를 역으로 분석한 사례라서 공식 문서만으로는 보이지 않던 구성 방식과 제약을 파악할 수 있다.\n- 다만 기사 시점 이후 Docker가 `sbx`라는 별도 바이너리를 내놓았다는 댓글이 있어, 실제 도입 검토 때는 현재 제품 구조를 다시 확인해야 한다.\n- 리눅스 지원 공백이 계속 쟁점으로 언급돼서, 리눅스 중심 환경이라면 Podman 같은 대안 경로까지 함께 비교하는 게 실무적으로 맞다.",
+      "hn_reaction_summary": "댓글 분위기는 과한 찬반보다 보완 설명에 가깝다. 기술 자체보다 현재 제품 상태와 플랫폼 제약을 짚는 반응이 반복됐다.\n- 가장 많이 나온 포인트는 리눅스 미지원이다. macOS와 Windows 중심 설계라는 점이 의외라는 반응이 있었다.\n- Docker 측 변화도 언급됐다. 기사 공개 뒤에는 Docker Desktop 없이 쓰는 `sbx` 바이너리가 나와서, 원문의 일부 내용이 이미 낡았을 수 있다는 지적이다.\n- 비교 대상으로는 Podman의 `libkrun` 기반 MicroVM 실행이 거론됐다. 실무자는 기능 자체보다 어떤 플랫폼에서 바로 쓸 수 있는지가 더 큰 판단 기준이라는 흐름이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-21T17:34:50.727630+00:00"
+    },
+    {
+      "id": "64e2344682c30c7fcf60daa0c68fa32c706353bf",
+      "title_hash": "7d4ef4db219a8c8177c8c6b09d73dfbe520cc2e2",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "ParadeDB (YC S23) Is Hiring Distributed Systems/Platform Engineers",
+      "link": "https://news.ycombinator.com/item?id=48225852",
+      "published_at": "2026-05-21T17:00:52+00:00",
+      "summary": "HN story type: job HN points: 1 HN comments: 0 HN post text: ParadeDB is building a cloud! We're a Postgres extension that enables state-of-the-art full-text and vector search inside Postgres. Up until now, we've focused exclusively on our core database and haven't built any managed service to deliver it. This is changing, and we're looking for a seasoned distributed systems/platform engineer to help us build it. The ideal candidate has experience with Kubernetes, Go, and Postgres. We're a Series A company of 10 people distributed across the US. Our project is open-source at https://gituhb.comp/paradedb/paradedb More details: https://paradedb.notion.site/",
+      "fetched_at": "2026-05-21T17:32:09.410369+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48225852",
+      "hn_story_type": "job",
+      "hn_points": "1",
+      "hn_comments_count": "0",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48225852",
+      "hn_item_text": "ParadeDB is building a cloud! We're a Postgres extension that enables state-of-the-art full-text and vector search inside Postgres. Up until now, we've focused exclusively on our core database and haven't built any managed service to deliver it. This is changing, and we're looking for a seasoned distributed systems/platform engineer to help us build it. The ideal candidate has experience with Kubernetes, Go, and Postgres. We're a Series A company of 10 people distributed across the US. Our project is open-source at https://gituhb.comp/paradedb/paradedb More details: https://paradedb.notion.site/",
+      "hn_comment_preview": "",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=26,practical_tech=26,tools_agents=9,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 26,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 26,
+          "strong_hits": [
+            "distributed",
+            "kubernetes",
+            "database",
+            "postgres"
+          ],
+          "support_hits": [
+            "vector"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "extension"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [
+            "platform",
+            "company"
+          ],
+          "negative_hits": [
+            "kubernetes"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "distributed",
+        "kubernetes",
+        "database",
+        "postgres",
+        "vector"
+      ],
+      "detail_slug": "64e2344682c30c7fcf60daa0c68fa32c706353bf",
+      "is_english_source": true,
+      "translated_title": "ParadeDB, 클라우드 맡을 플랫폼 엔지니어 채용",
+      "short_summary": "ParadeDB가 Postgres용 전문 검색·벡터 검색 확장을 넘어 관리형 클라우드 서비스를 만들기 위해 분산 시스템·플랫폼 엔지니어를 채용한다. Kubernetes, Go, Postgres 경험자를 찾는 10인 규모 Series A 팀이다.",
+      "why_it_matters": "이번 채용은 ParadeDB가 오픈소스 확장 개발에 머물지 않고, 실제 서비스 운영 단계로 발을 옮긴다는 신호다. 데이터 기능 자체보다 이를 안정적으로 굴릴 플랫폼 역량이 새 과제로 올라왔다는 뜻이기도 하다.\n- 코어 DB 확장만 만들던 팀이 관리형 서비스를 직접 구축하려는 만큼 배포, 운영 자동화, 장애 대응 같은 플랫폼 문제가 본격화될 가능성이 크다.\n- Kubernetes, Go, Postgres를 함께 요구한 점을 보면 데이터 인프라와 플랫폼 엔지니어링이 한 역할 안에서 더 밀착되고 있음을 보여준다.\n- 실무자에게는 검색 엔진을 따로 붙이기보다 Postgres 안에서 전문 검색과 벡터 검색을 함께 처리하려는 흐름이 제품 전략과 채용에서 더 선명해졌다는 점이 눈에 띈다.",
+      "hn_reaction_summary": "현재 HN 반응은 사실상 비어 있다. 프런트페이지에 올라왔지만 댓글이 없어 뚜렷한 찬반이나 기술 논쟁은 아직 형성되지 않았다.\n- 댓글 수가 0이라 반복된 비판 포인트나 공감대는 확인되지 않는다.\n- 지금 단계에서 눈여겨볼 지점은 커뮤니티 토론보다 채용 공고 자체가 보여주는 회사의 방향 전환이다.\n- HN 독자 관점에서 읽을 만한 논점은 오픈소스 Postgres 확장이 관리형 클라우드로 이어질 때 어떤 운영 난제를 풀어야 하느냐는 부분이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-21T17:34:50.727630+00:00"
+    },
+    {
       "id": "afe60320a82a58b52af0904edc61be1c27943ebd",
       "title_hash": "aa4eeb1211d04640db52b5d88d1b6ee45de8a388",
       "source": "GeekNews",
@@ -172476,334 +172909,6 @@
       "detail_slug": "1630fd7de5c6caa24e82890d749d317847ea85eb",
       "is_english_source": false,
       "sent_at": "2026-03-12T11:05:37.545629+00:00"
-    },
-    {
-      "id": "af3487acd42750e1f9d149275b3d8d59dae0e71a",
-      "title_hash": "d40b5d392bc67ac261ef23a1a2238e8ab2bd34a3",
-      "source": "GeekNews",
-      "title": "더 높은 추상화 수준에서 일하는 게 좋은지 잘 모르겠네",
-      "link": "https://news.hada.io/topic?id=27434",
-      "published_at": "2026-03-12T03:35:35+00:00",
-      "summary": "AI 도구가 생산성을 높여주지만 작업에서 영혼과 개성이 사라진다며, '평균'으로 수렴하는 AI 결과물에 저항해 자신만의 목소리를 지키겠다는 개발자·작가의 솔직한 성찰. 저자(Xe Iaso)는 AI 도구(특히 Claude, Cursor 등)를 사용하면서 코드 작성 대신 의도(intent)를 설명 하고 위임하는 높",
-      "fetched_at": "2026-03-12T11:03:49.300193+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "cursor"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cursor"
-      ],
-      "detail_slug": "af3487acd42750e1f9d149275b3d8d59dae0e71a",
-      "is_english_source": false,
-      "sent_at": "2026-03-12T11:05:37.545629+00:00"
-    },
-    {
-      "id": "ce32532e7953420d741a0d9ab0b8c3f84927a8c6",
-      "title_hash": "ddb7e07ee23b6fc26da7ee068fe1ff3fb4a48cff",
-      "source": "GeekNews",
-      "title": "서비스가 새로운 소프트웨어다",
-      "link": "https://news.hada.io/topic?id=27436",
-      "published_at": "2026-03-12T07:59:01+00:00",
-      "summary": "AI 모델 성능이 향상될수록 도구(tool)가 아닌 업무 결과(work)를 직접 판매 하는 서비스형 AI 기업이 차세대 거대 기업이 될 것이라는 논지로, 소프트웨어 기업이 서비스 기업처럼 작동하는 구조를 제시 모든 직무를 지능(intelligence)과 판단(judgement) 두 축으...",
-      "fetched_at": "2026-03-12T11:03:49.300193+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=6,strategy_insight=8,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 6,
-        "strategy_insight": 8,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "ce32532e7953420d741a0d9ab0b8c3f84927a8c6",
-      "is_english_source": false,
-      "sent_at": "2026-03-12T11:05:37.545629+00:00"
-    },
-    {
-      "id": "63539eceeb18bd90fe000d50e34255d4179c9c38",
-      "title_hash": "2994097135ff728483f42fc9b68ea8fd8fc6fc8a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Returning to Rails in 2026",
-      "link": "https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/",
-      "published_at": "2026-03-12T06:06:46+00:00",
-      "summary": "HN story type: story HN points: 146 HN comments: 84 HN top comments: f311a: I love the batteries that RoR or Django gives you, but then I also remember how much time it takes to maintain old projects. Updating a project that was started 5-6 years ago takes a lot of time. Part of that is managing dependencies. For Django, they can easily go above 100. Some of them have to be compiled with specific versions of system libraries. Even Docker does not save you from a lot of problems. Right now... misiek08: Thanks for such public confirming there is a lot of more us. I’m just tired hearing how great ideas will save our overblown pseudo-microservice architecture and I’m also running into some projects during evening that just solve problems without use STOA, unnecessary solutions and architectures. I’m not into RoR, because I was mainly PHP rescuer in the beginning of my career, but they both are just problem solvers.... louiskottmann: I've been a Rails DevOps and nowadays a web one-man-show with it for over 10 years and I'd do it again. Not many frameworks have been thriving that long, and there's good reason. It packs everything, is tidy and productive, with a pleasant language to read and write. In the latest Stackoverflow survey, it's back at the \"top 5 of desired stacks to use for next project\" over a decade after its inception ! Give it a...",
-      "fetched_at": "2026-03-12T11:03:49.300193+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47347064",
-      "hn_story_type": "story",
-      "hn_points": "146",
-      "hn_comments_count": "84",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47347064",
-      "hn_item_text": "",
-      "hn_comment_preview": "f311a: I love the batteries that RoR or Django gives you, but then I also remember how much time it takes to maintain old projects. Updating a project that was started 5-6 years ago takes a lot of time. Part of that is managing dependencies. For Django, they can easily go above 100. Some of them have to be compiled with specific versions of system libraries. Even Docker does not save you from a lot of problems. Right now...\nmisiek08: Thanks for such public confirming there is a lot of more us. I’m just tired hearing how great ideas will save our overblown pseudo-microservice architecture and I’m also running into some projects during evening that just solve problems without use STOA, unnecessary solutions and architectures. I’m not into RoR, because I was mainly PHP rescuer in the beginning of my career, but they both are just problem solvers....\nlouiskottmann: I've been a Rails DevOps and nowadays a web one-man-show with it for over 10 years and I'd do it again. Not many frameworks have been thriving that long, and there's good reason. It packs everything, is tidy and productive, with a pleasant language to read and write. In the latest Stackoverflow survey, it's back at the \"t...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=7,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 7,
-        "strategy_insight": 7,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "architecture",
-            "framework",
-            "docker"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "career"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "docker"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "framework",
-        "docker"
-      ],
-      "detail_slug": "63539eceeb18bd90fe000d50e34255d4179c9c38",
-      "is_english_source": true,
-      "translated_title": "2026년, 다시 레일즈로 돌아가는 이유",
-      "short_summary": "레일즈는 필요한 기능을 두루 갖춰 작은 팀이나 1인 개발에 여전히 빠르고 정돈된 선택지라는 평가를 받았다. 반면 5~6년 된 프로젝트를 손볼 때는 의존성 관리와 업그레이드 부담이 커 유지보수 비용이 만만치 않다는 반론도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-12T11:05:37.545629+00:00"
-    },
-    {
-      "id": "c315abb7d4c287b5efa7387d2e4594f6ff6486bc",
-      "title_hash": "030a43cd41014b6647ccff3b92072eb7253ee267",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Avoiding Trigonometry (2013)",
-      "link": "https://iquilezles.org/articles/noacos/",
-      "published_at": "2026-03-12T09:06:57+00:00",
-      "summary": "HN story type: story HN points: 26 HN comments: 5 HN top comments: chriswarbo: Norman Wildberger takes this to the extreme with Rational Trigonometry https://en.wikipedia.org/wiki/Divine_Proportions:_Rational_T... It eschews angles entirely, sticking to ratios. It avoids square roots by sticking to \"quadrances\" (squared distance; i.e. pythagoras/euclidean-distance without taking square roots). I highly recommend Wildberger's extensive Youtube channels too https://www.youtube.com/@njwildberge... srean: I was not aware of this blog post but this has been some sort of a peeve of mine. I wholeheartedly agree with the point being made in the post. I had commented about this in the recent asin() post but deleted thinking it might not be of general interest. If you care about angles and rotations in the plane, it is often profitable to represent an angle not by a scalar such as a degree or a radian but as a tuple (cos... storus: In principle, wouldn't a change of basis be all that is needed?",
-      "fetched_at": "2026-03-12T11:03:49.300193+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47348192",
-      "hn_story_type": "story",
-      "hn_points": "26",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47348192",
-      "hn_item_text": "",
-      "hn_comment_preview": "chriswarbo: Norman Wildberger takes this to the extreme with Rational Trigonometry https://en.wikipedia.org/wiki/Divine_Proportions:_Rational_T... It eschews angles entirely, sticking to ratios. It avoids square roots by sticking to \"quadrances\" (squared distance; i.e. pythagoras/euclidean-distance without taking square roots). I highly recommend Wildberger's extensive Youtube channels too https://www.youtube.com/@njwildberge...\nsrean: I was not aware of this blog post but this has been some sort of a peeve of mine. I wholeheartedly agree with the point being made in the post. I had commented about this in the recent asin() post but deleted thinking it might not be of general interest. If you care about angles and rotations in the plane, it is often profitable to represent an angle not by a scalar such as a degree or a radian but as a tuple (cos...\nstorus: In principle, wouldn't a change of basis be all that is needed?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli"
-      ],
-      "detail_slug": "c315abb7d4c287b5efa7387d2e4594f6ff6486bc",
-      "is_english_source": true,
-      "translated_title": "삼각함수 없이 기하를 다루는 방법",
-      "short_summary": "이 글은 각도와 삼각함수에 기대지 않고 다른 표현으로 기하 문제를 풀어보자는 문제의식을 다룬다. 댓글에서는 유리 삼각법과 (cos, sin) 쌍 표현이 대안으로 언급됐고, 기저 변환만으로 충분한지 묻는 반론도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-12T11:05:37.545629+00:00"
     }
   ],
   "topic_digests": {
@@ -172812,9 +172917,11 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트",
-        "summary": "이번 주 흐름은 한쪽에선 낡은 기반을 걷어내고, 다른 쪽에선 에이전트 도구와 AI 사용 규칙을 다시 세우는 쪽으로 모인다. 지금 볼 이유는 성능 경쟁보다 신뢰와 운영 방식의 기준이 더 선명해졌기 때문이다.\n\n- Firefox는 asm.js 최적화를 접고 WebAssembly 중심으로 더 기울었다.\n- Gemini 노출 논란과 '노 슬롭' 반응은 모델보다 통제와 문서 품질을 더 따져 묻는 분위기를 보여준다.\n- Google Cloud와 하스켈 재단 소식은 새 도구뿐 아니라, 그것을 굴릴 조직과 유지 방식까지 함께 보게 만든다.",
+        "headline": "이번 주 도구·에이전트: 운영과 가드레일",
+        "summary": "에이전트 경쟁의 초점이 기능 추가보다 운영 방식으로 옮겨가는 한 주였다. 작업 공간, 팀용 샌드박스, 프롬프트 노출과 AI 군더더기 논쟁이 한 줄로 이어졌다.\n\n- Herdr와 Runtime은 개인 생산성보다 공용 환경과 안전장치 설계가 앞에 섰음을 보여준다.\n- Gemini 사례와 노 슬롭 논의는 프롬프트 보안과 출력 밀도 관리가 실제 운영 과제가 됐다는 뜻이다.\n- asm.js 퇴장은 WebAssembly 쪽으로 밑단이 더 빨리 정리되는 흐름을 덧붙인다.",
         "item_ids": [
+          "23ca74d14dc192d84d7d8ce7f8711e77ca90e0e4",
+          "66903fde38112420d796a8a619f539203aff55d3",
           "ad2d3e2fd1b3cba81b27d46abe4090f45ed1366c",
           "b0c1a748c6c3b457cd1a39c26ff0dc876b210947",
           "ac97b55a52d2f4de8226ee2d239c669990e3e67e",
@@ -172920,14 +173027,10 @@
           "55f24e653646adf4f5d83d126399c64e3a2c8849",
           "aebe5920f5b30d96ff3a1e1b8b767eb12de0a4f9",
           "d212dd7d482e416ce2fb9628441bdbc4de953da1",
-          "8cc5eff7892a392d739395a952f6ec5ea4732675",
-          "9492909e925ede18f444625d3933b024d9c4baac",
-          "09689891d99789c6fa6a4e4fe0f054e841ac42d2",
-          "ebc012f4d0b0c2fe1baa433853f49e1a51e1b559",
-          "026f1c32debafc9c812f818e939e44d42ddbab12"
+          "8cc5eff7892a392d739395a952f6ec5ea4732675"
         ],
-        "total_items": 110,
-        "generated_at": "2026-05-21T13:20:46.615091+00:00",
+        "total_items": 108,
+        "generated_at": "2026-05-21T17:32:09.410369+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -172935,8 +173038,10 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "AI를 전제로 도구와 일하는 방식이 다시 짜이는 한 주였습니다. 번들러, 터미널, 런타임, 조직 운영은 달라도 자동화에 맞게 구조를 새로 깎는 흐름이 겹칩니다.\n- Zig 번들러와 Rmux는 개발 도구를 더 단순하고 다루기 쉽게 만들려는 움직임입니다.\n- Go WASM 버그 사례는 LLM이 디버깅과 검증까지 실무 안으로 들어왔다는 신호입니다.\n- 지금 볼 이유는 코딩 습관부터 팀 운영 방식까지 함께 바뀌는 장면이 한꺼번에 보이기 때문입니다.",
+        "summary": "이번 주 실무 기술은 개발 도구의 속을 파고들고 자동화와 검증을 다시 짜는 흐름으로 묶입니다. 지금 보는 이유도 분명합니다. 실제 병목은 늘 실행 계층과 운영 도구에서 먼저 드러납니다.\n\n- 도커 샌드박스와 Go WASM 사례는 내부 구조를 알아야 장애와 보안 이슈를 더 빨리 잡는다는 점을 보여줍니다.\n- Rmux와 Zig 번들러는 터미널 자동화와 빌드 체인을 더 직접 다루려는 흐름을 드러냅니다.\n- ParadeDB 채용은 검색, 벡터, 클라우드 운영을 함께 다루는 플랫폼 역량 수요가 커지고 있음을 보여줍니다.",
         "item_ids": [
+          "689b9116a7b0bd655eb1374ce37fdcce1b2aa821",
+          "64e2344682c30c7fcf60daa0c68fa32c706353bf",
           "afe60320a82a58b52af0904edc61be1c27943ebd",
           "141c35eb1dad15d6c868830d11c4b8f4a21b315c",
           "2452029d10935f8dea799198d1c860a1ed180ae2",
@@ -173016,12 +173121,10 @@
           "3577ead66c1176f180a2546e9dab4e5e0edd9619",
           "0067013fec40fa9b7d52b999d6fba60fdfd147fb",
           "318b6d9fde034c8297ace7ec034f06738c643517",
-          "46f69212a1137def476be999340fe7da981db0cf",
-          "9fd75565d6b3a7cbff098647e01d6fd184d51569",
-          "7a0238645cea817f8bc12f8af7a7d63c94c8fd8b"
+          "46f69212a1137def476be999340fe7da981db0cf"
         ],
         "total_items": 82,
-        "generated_at": "2026-05-21T13:20:46.615091+00:00",
+        "generated_at": "2026-05-21T17:32:09.410369+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -173029,7 +173132,7 @@
         "slot": "industry_business",
         "slot_label": "산업·비즈니스",
         "headline": "이번 주 산업·비즈니스",
-        "summary": "기술과 돈이 만나는 지점에서 책임을 다시 묻는 기사들이 이어졌다. 규제와 소송, 보안 이슈가 겹치며 서비스 확장보다 운영 신뢰가 더 앞에 섰다.\n- 예측시장 금지와 밈 수감 합의처럼 플랫폼을 둘러싼 법적 경계가 선명해졌다.\n- 피자헛 AI 배달 소송과 GitHub 조사로 현장 성과와 내부 통제의 허점이 드러났다.\n- 투자 정보 서비스 등 검증 가능한 데이터 수요도 함께 커지는 흐름이다.",
+        "summary": "AI와 플랫폼, 투자 서비스가 편의 경쟁을 넘어서 규제와 책임의 시험대에 올랐다. 이번 주엔 기술 도입의 후폭풍이 더 또렷했다.\n- 예측시장 금지와 밈 수감 합의는 온라인 서비스가 법과 표현의 경계에서 바로 비용을 치르는 흐름을 보여준다.\n- 피자헛 소송과 GitHub 조사에선 자동화 실패와 보안 문제가 곧 매출과 신뢰의 문제로 번졌다.\n- 새 투자 도구가 나오지만, 지금 시장이 먼저 묻는 건 성장보다 검증과 통제다.",
         "item_ids": [
           "d4be9ba679a2338d420f59878e3f0b18e8944140",
           "34cd541c574491ae590fcf642ea64716b243ee3c",
@@ -173047,7 +173150,7 @@
           "6cb2838d10dde4b268700efa88e4c1643a010131"
         ],
         "total_items": 14,
-        "generated_at": "2026-05-21T13:20:46.615091+00:00",
+        "generated_at": "2026-05-21T17:32:09.410369+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -173057,8 +173160,10 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "이번 달 묶음은 AI 도구가 빨라질수록, 낡은 경로를 걷어내고 출력 품질과 운영 방식까지 다시 따지는 흐름을 보여준다.\n\n- 브라우저와 클라우드는 asm.js 같은 옛 최적화보다 WebAssembly와 관리형 에이전트처럼 새 실행 기반에 힘을 싣고 있다.\n- Gemini 프롬프트 노출과 '노 슬롭' 논쟁은 성능 경쟁보다 신뢰, 통제, 문서 밀도를 먼저 보게 만든다.\n- 하스켈 재단의 기술 중심 재편도 생태계가 이제 말보다 유지력과 실제 쓰임을 따지는 국면임을 드러낸다.",
+        "summary": "이번 달엔 AI 에이전트가 개인 보조를 넘어 팀의 작업 환경으로 들어오는 흐름이 또렷했다. 한편 오래된 실행 기반은 물러나고, 프롬프트 노출과 군더더기 출력은 더 민감한 문제로 떠올랐다.\n- Herdr와 Runtime은 에이전트를 터미널과 팀 워크플로에 묶어 쓰려는 방향을 보여줬다.\n- asm.js 퇴장은 웹 실행축이 WebAssembly 쪽으로 더 기울었음을 확인시켰다.\n- Gemini 노출 사례와 노 슬롭 논의는 이제 성능만큼 통제력과 글의 밀도도 따진다는 신호다.",
         "item_ids": [
+          "23ca74d14dc192d84d7d8ce7f8711e77ca90e0e4",
+          "66903fde38112420d796a8a619f539203aff55d3",
           "ad2d3e2fd1b3cba81b27d46abe4090f45ed1366c",
           "b0c1a748c6c3b457cd1a39c26ff0dc876b210947",
           "ac97b55a52d2f4de8226ee2d239c669990e3e67e",
@@ -173537,21 +173642,21 @@
           "2659e92e7efa78dc89f6a407b2d316e86e79ea2c",
           "017f9eee014bdb21a342deae5c381bf71d23051b",
           "5b77d88b0a1bec647af8009d4c7a9c3455a35a59",
-          "29a61b0cf3d4a54518a57d8fc4353e9b39a5fa34",
-          "07b55f5e25cd4fac47efac3d0d0ea71f1c489d9a",
-          "e2c3494a8759318f3e3ccb3648fde3f91d56837b"
+          "29a61b0cf3d4a54518a57d8fc4353e9b39a5fa34"
         ],
         "total_items": 481,
-        "generated_at": "2026-05-21T13:20:46.615091+00:00",
+        "generated_at": "2026-05-21T17:32:09.410369+00:00",
         "ai_model": "codex-cli"
       },
       {
         "period": "monthly",
         "slot": "practical_tech",
         "slot_label": "실무 기술",
-        "headline": "이번 달 실무 기술 동향",
-        "summary": "이번 달 실무 기술 묶음은 AI를 전제로 도구와 일하는 방식을 다시 짜는 흐름을 보여준다. 번들러부터 터미널, WASM, 조직 운영까지 공통점은 복잡한 상태를 더 잘 드러내고 자동화 가능한 표면으로 바꾸는 데 있다.\n- 실험적 도구가 장난감 단계를 지나 빌드, 디버깅, 자동화 같은 일상 작업으로 들어오고 있다.\n- LLM 활용도는 코드 생성보다 결함 탐지와 운영 보조 쪽에서 먼저 손에 잡히는 값이 나온다.\n- 지금 보면 팀 구조와 개발 역량의 기준이 어디서 바뀌는지 한꺼번에 읽힌다.",
+        "headline": "이번 달 실무 기술",
+        "summary": "숨은 런타임을 드러내고 곧바로 운영으로 잇는 흐름이 또렷했다. 실험이 아니라 도구와 플랫폼, 검증 방식이 함께 바뀌는 국면이라 지금 읽어둘 만하다.\n\n- Docker MicroVM API와 Rmux는 보이지 않던 실행 환경을 더 잘 관찰하고 다루려는 시도다.\n- ParadeDB 채용은 검색·벡터 기술이 기능 경쟁을 넘어 관리형 클라우드 운영 단계로 들어갔음을 보여준다.\n- LLM 기반 WASM 버그 탐지와 새 번들러 실험은 AI 시대에 개발자가 배우고 검증하는 방식이 달라졌다는 신호다.",
         "item_ids": [
+          "689b9116a7b0bd655eb1374ce37fdcce1b2aa821",
+          "64e2344682c30c7fcf60daa0c68fa32c706353bf",
           "afe60320a82a58b52af0904edc61be1c27943ebd",
           "141c35eb1dad15d6c868830d11c4b8f4a21b315c",
           "2452029d10935f8dea799198d1c860a1ed180ae2",
@@ -173894,13 +173999,10 @@
           "ead2fb1b6f787b757ee3b313e8fa8a99cd702721",
           "ee24ed206bebd74f0d450f61437b98ce801d524b",
           "b7d45ef27ae93b6f0ea56fbbbc39108d7118d722",
-          "ca7365b0d7c380ab636ff9bf590463bf42c24885",
-          "104b4e65915d4f61aeba47a04fe6c4366aa61193",
-          "cdcf81b9774c876b444643d11120830456086173",
-          "c0910e1aadd39872ae6aeb794191362e0475389a"
+          "ca7365b0d7c380ab636ff9bf590463bf42c24885"
         ],
-        "total_items": 346,
-        "generated_at": "2026-05-21T13:20:46.615091+00:00",
+        "total_items": 345,
+        "generated_at": "2026-05-21T17:32:09.410369+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -173908,7 +174010,7 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 달 전략·인사이트",
-        "summary": "이번 달 전략·인사이트는 표면의 현상보다 그 뒤의 구조를 다시 보는 흐름이 선명했습니다. 생산성, 성능, 커뮤니티 운영, AI 분쟁까지 판단 기준이 안쪽으로 옮겨가는 시점이라 지금 읽을 만합니다.\n- 미루기와 병목은 의지보다 신호 해석과 측정의 문제로 다뤄집니다.\n- 플랫폼은 기능보다 리뷰 기준, 책임, 신뢰 설계에서 더 큰 마찰을 드러냈습니다.\n- 작은 자원으로도 해법을 만드는 실험이 이어지며 기술 감각의 바닥을 다시 보게 합니다.",
+        "summary": "이번 달 전략 기사는 막연한 감각보다 신호와 구조를 먼저 읽는 흐름이 두드러졌다. 습관, 성능, 커뮤니티, 기술 실험, AI 분쟁까지 판단의 기준을 다시 묻는다.\n- 미루기엔 뇌의 신호를, Python엔 프로파일러를, 커뮤니티엔 공개 점수를 들이대며 감정 대신 관찰과 측정으로 옮겨간다.\n- 8비트 웹호스팅과 OpenAI 소송 패소는 제약과 규칙이 판을 어떻게 바꾸는지 보여준다. 지금 보면 일하는 방식과 기술 질서의 변화를 한 번에 읽을 수 있다.",
         "item_ids": [
           "326115a213cbad5c1395f787b9e4c2c4c1ebff58",
           "8a86c029d7492c6a49a3fd1528654cd1cbab025c",
@@ -173961,7 +174063,7 @@
           "86721dd097e82228d35e0f50b8835684aee70ff4"
         ],
         "total_items": 49,
-        "generated_at": "2026-05-21T13:20:46.615091+00:00",
+        "generated_at": "2026-05-21T17:32:09.410369+00:00",
         "ai_model": "codex-cli"
       }
     ]
