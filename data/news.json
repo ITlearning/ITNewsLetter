@@ -1,6 +1,460 @@
 {
   "items": [
     {
+      "id": "8a44b903862e061a10db60226684f5529f4d904f",
+      "title_hash": "82b880b822c4b3cbc45069d74433c95de8475633",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "link": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "published_at": "2026-05-22T17:32:04+00:00",
+      "summary": "HN story type: story HN points: 198 HN comments: 142 HN post text: https://archive.ph/WfCta HN top comments: tra3: There's definitely a way to use Claude code that is token conscious. I've tried throwing unsupervised agentic software factory workflows against the wall, and they burned through my tokens like nobody's business but didn't produce much. Supervised, human-in-the-loop process on the other hand is much more productive but doesn't consume nearly as much. Maybe that's why everyone's pushing agentic approaches so much. relevant_stats: So, snippet from the article says the following: > I understand that Microsoft is planning to remove most of its Claude Code licenses and push many of its developers to use Copilot CLI instead. While Claude Code has been a popular addition, it has also undermined Microsoft’s new GitHub Copilot CLI coding tool — a command line version of GitHub Copilot that runs outside of development apps like Visual Studio Code.... proxysna: Feels about right. I've launched an internal demo of Claude Code and Deepseek on the same day and we burned through our monthly allowance for Claude in just over a week, with more than a half of that budget being spent in one day. With DS people are unable to go through that same amount of money in a month, not even close. With that Claude feels like an expensive toy, while DS is a shovel, purely because developer...",
+      "fetched_at": "2026-05-23T07:27:13.124361+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48238896",
+      "hn_story_type": "story",
+      "hn_points": "198",
+      "hn_comments_count": "142",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48238896",
+      "hn_item_text": "https://archive.ph/WfCta",
+      "hn_comment_preview": "tra3: There's definitely a way to use Claude code that is token conscious. I've tried throwing unsupervised agentic software factory workflows against the wall, and they burned through my tokens like nobody's business but didn't produce much. Supervised, human-in-the-loop process on the other hand is much more productive but doesn't consume nearly as much. Maybe that's why everyone's pushing agentic approaches so much.\nrelevant_stats: So, snippet from the article says the following: > I understand that Microsoft is planning to remove most of its Claude Code licenses and push many of its developers to use Copilot CLI instead. While Claude Code has been a popular addition, it has also undermined Microsoft’s new GitHub Copilot CLI coding tool — a command line version of GitHub Copilot that runs outside of development apps like Visual Studio Code....\nproxysna: Feels about right. I've launched an internal demo of Claude Code and Deepseek on the same day and we burned through our monthly allowance for Claude in just over a week, with more than a half of that budget being spent in one day. With DS people are unable to go through that same amount of money in a month, not even close. Wit...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "85",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=61,practical_tech=4,tools_agents=61,strategy_insight=4,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 61,
+        "strategy_insight": 4,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 61,
+          "strong_hits": [
+            "claude code",
+            "coding tool",
+            "workflow",
+            "copilot",
+            "agentic",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "coding tool",
+            "workflow",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + workflow",
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "launch"
+          ],
+          "support_hits": [
+            "business"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "coding tool",
+        "workflow",
+        "copilot",
+        "agentic",
+        "ide",
+        "cli",
+        "agent",
+        "agent + workflow",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "8a44b903862e061a10db60226684f5529f4d904f",
+      "is_english_source": true,
+      "translated_title": "마이크로소프트, Claude Code 라이선스 회수 시작",
+      "short_summary": "마이크로소프트가 사내 Claude Code 라이선스를 대거 줄이고 GitHub Copilot CLI로 돌리려 한다는 내용이다. HN에서는 높은 토큰 비용과 무감독 에이전트식 사용의 비효율이 배경으로 자주 거론됐다.",
+      "why_it_matters": "이 소식은 코딩 AI 도입 기준이 성능 경쟁에서 운영 가능성으로 옮겨가고 있음을 보여준다. 기업 입장에서는 코드 품질 못지않게 비용 통제, 기본 도구와의 결합, 사내 표준화가 더 앞에 나오기 시작했다.\n- 대규모 조직일수록 모델 성능 차이보다 월간 사용량을 예측할 수 있는지, 예산이 갑자기 튀지 않는지가 구매 판단에 더 크게 작용할 수 있다.\n- 사내 표준이 Copilot CLI 같은 자사 도구로 묶이면 개발자는 개인적으로 선호하던 AI 도구보다 회사가 정한 워크플로에 맞춰 일하게 될 가능성이 크다.\n- 실무에서는 긴 에이전트 실행을 통째로 맡기는 방식보다, 사람이 중간중간 확인하는 짧은 루프가 비용과 결과물 면에서 다시 주목받을 수 있다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 \"그럴 만하다\"에 가깝다. Claude Code의 체감 생산성은 인정하면서도, 기업 환경에서는 토큰 비용이 너무 빠르게 불어나고 방임형 에이전트 사용이 특히 낭비를 키운다는 반응이 많았다.\n- 가장 많이 나온 포인트는 비용이다. 감독 없이 큰 작업을 던지면 한 주 만에 예산을 태웠다는 경험담이 반복됐다.\n- 반대편에서는 도구 자체보다 사용 방식이 문제라는 의견도 나왔다. 사람이 루프 안에 들어오면 토큰 사용을 꽤 줄이면서 산출물 품질도 더 낫다는 주장이다.\n- 실무자가 볼 쟁점은 모델 우열보다 운영 정책에 가깝다. 어떤 CLI를 쓰든 사용 한도, 승인 단계, 비용 가시화가 먼저라는 인식이 강했다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-23T07:30:35.598097+00:00"
+    },
+    {
+      "id": "8b50625a8ca3e61964b721a0e4d7a10793d6d3ce",
+      "title_hash": "d4cebb4b5dd2451ab1b93a6cbdce5f6bcc3a1e6b",
+      "source": "GeekNews",
+      "title": "리걸 프롬프트에서 Boolean이 중요한 이유",
+      "link": "https://news.hada.io/topic?id=29787",
+      "published_at": "2026-05-23T02:46:57+00:00",
+      "summary": "리걸 프롬프트에서 Boolean은 단순한 검색 연산자가 아니라 법률 AI의 판단 구조를 통제하는 핵심 장치다. AND는 모든 필수 요건을 빠짐없이 검토하게 하고, OR는 선택적 요건을 과도하게 요구하지 않게 하며, NOT은 예외·면책·배제 사유를 놓치지 않게 한다. 또한 IF-THEN-ELSE 구조는 사실관계나 증거가 부족한 경우...",
+      "fetched_at": "2026-05-23T07:27:13.124361+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=6,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 6,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단"
+      ],
+      "detail_slug": "8b50625a8ca3e61964b721a0e4d7a10793d6d3ce",
+      "is_english_source": false,
+      "sent_at": "2026-05-23T07:30:35.598097+00:00"
+    },
+    {
+      "id": "a2eb305ee440da3245433aadfc4c5bc0117a5c0d",
+      "title_hash": "29af7b0c721bc6ab6697e7c5ef288c54ffb3c025",
+      "source": "GeekNews",
+      "title": "macOS의 기능을 100% 활용하는 실시간 다국어 AI Voice Agent — TalkMode",
+      "link": "https://news.hada.io/topic?id=29784",
+      "published_at": "2026-05-23T01:07:27+00:00",
+      "summary": "제목: 맥 위에서 동작하는 실시간 AI 음성 Agent — TalkMode 부제: 시선 추적(Gaze), 실시간 STT/TTS, Claude/OpenAI 연동 기반의 Agent-OS 스타일 음성 인터페이스 TalkMode 는 단순 음성 챗봇보다는 “실시간 작업형 AI 음성 Agent”에",
+      "fetched_at": "2026-05-23T07:27:13.124361+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "51",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 6,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "agent"
+      ],
+      "detail_slug": "a2eb305ee440da3245433aadfc4c5bc0117a5c0d",
+      "is_english_source": false,
+      "sent_at": "2026-05-23T07:30:35.598097+00:00"
+    },
+    {
+      "id": "5bc487ae7b1aea1662028a8ec40977e2c2b64b90",
+      "title_hash": "4003b948313c24bd9a527eaf033aef03c65b5375",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Sp.h is the standard library that C deserves",
+      "link": "https://spader.zone/sp/",
+      "published_at": "2026-05-20T13:05:46+00:00",
+      "summary": "HN story type: story HN points: 79 HN comments: 69 HN top comments: zzo38computer: I agree with most of the criticisms they make. I agree that pointer and length is better than null-terminated strings (although it is difficult in C, and as they mention you will have to use a macro (or some additional functions) to work this in C). Making the C standard library directly against syscalls is also a good idea, although in some cases you might have an implementation that needs to not do this for some... nextaccountic: > Principles > Be extremely portable > sp.h is written in C99, and it compiles against any compiler and libc imaginable. It works on Linux, on Windows, on macOS. It works under a WASM host. It works in the browser. It works with MSVC, and MinGW, it works with or without libc, or with weird ones like Cosmopolitan. It works with the big compilers and it works with TCC. > And, best of all, it does all all of that bec... Retr0id: > Program directly against syscalls Works nicely on Linux where the syscall interface is explicitly stable, but on many (most?) other platforms this is not the case. > There Is No Heap I don't understand what this means, when it's followed by the definition of a heap allocation interface. The paragraph after the code block conveys no useful information. > Null-terminated strings are the devil’s work Agreed! I also...",
+      "fetched_at": "2026-05-23T07:27:13.124361+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48207043",
+      "hn_story_type": "story",
+      "hn_points": "79",
+      "hn_comments_count": "69",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48207043",
+      "hn_item_text": "",
+      "hn_comment_preview": "zzo38computer: I agree with most of the criticisms they make. I agree that pointer and length is better than null-terminated strings (although it is difficult in C, and as they mention you will have to use a macro (or some additional functions) to work this in C). Making the C standard library directly against syscalls is also a good idea, although in some cases you might have an implementation that needs to not do this for some...\nnextaccountic: > Principles > Be extremely portable > sp.h is written in C99, and it compiles against any compiler and libc imaginable. It works on Linux, on Windows, on macOS. It works under a WASM host. It works in the browser. It works with MSVC, and MinGW, it works with or without libc, or with weird ones like Cosmopolitan. It works with the big compilers and it works with TCC. > And, best of all, it does all all of that bec...\nRetr0id: > Program directly against syscalls Works nicely on Linux where the syscall interface is explicitly stable, but on many (most?) other platforms this is not the case. > There Is No Heap I don't understand what this means, when it's followed by the definition of a heap allocation interface. The paragraph after the co...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "42",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=18,practical_tech=18,tools_agents=7,strategy_insight=7,industry_business=-2",
+      "slot_scores": {
+        "practical_tech": 18,
+        "tools_agents": 7,
+        "strategy_insight": 7,
+        "industry_business": -2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 18,
+          "strong_hits": [
+            "compiler",
+            "rag"
+          ],
+          "support_hits": [
+            "implementation",
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "principles"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [
+            "compiler"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "compiler",
+        "rag",
+        "implementation",
+        "library"
+      ],
+      "detail_slug": "5bc487ae7b1aea1662028a8ec40977e2c2b64b90",
+      "is_english_source": true,
+      "translated_title": "sp.h, C가 진작 가졌어야 할 표준 라이브러리",
+      "short_summary": "sp.h는 길이 기반 문자열, 시스템 콜 중심 인터페이스, 넓은 이식성을 내세우며 C 표준 라이브러리를 다시 설계하자고 제안한다. HN에서는 방향성엔 공감하지만 플랫폼별 syscall 안정성과 메모리 설명은 더 다듬어야 한다는 반응이 많았다.",
+      "why_it_matters": "기존 libc를 당연한 전제로 두지 않고 문자열, 메모리, 입출력 인터페이스를 다시 짜 보자는 제안이다. C 런타임, 임베디드, 크로스플랫폼 툴체인을 다루는 실무자라면 한 번쯤 부딪히는 문제를 정면으로 건드린다.\n- 널 종료 문자열 대신 포인터와 길이 조합을 밀면 버그가 생기는 지점과 API 설계 방식이 함께 바뀐다. 경계 검사와 데이터 전달 규칙을 더 초반에 정리해야 한다.\n- 시스템 콜에 가깝게 붙는 설계는 추상화 비용을 줄일 수 있지만 운영체제별 ABI 차이와 호환성 부담을 라이브러리 쪽이 직접 안게 된다.\n- libc 의존성을 낮추고 WASM, 브라우저, 특수 컴파일러까지 겨냥한 점은 배포 환경이 넓은 도구나 런타임을 만드는 팀에 실무적인 참고가 된다.",
+      "hn_reaction_summary": "댓글 분위기는 문제 제기에는 공감하지만 설계 원칙을 실제로 얼마나 깔끔하게 밀고 갈 수 있느냐를 따져 묻는 쪽에 가까웠다. 취향 논쟁이라기보다 C에서 이 선택이 정말 이식성과 단순함을 같이 얻는지 검증하려는 반응이 많았다.\n- 길이 기반 문자열이 널 종료 문자열보다 낫다는 데는 호응이 많았다. 다만 C에서 이를 자연스럽게 쓰려면 매크로나 보조 함수가 꽤 필요하다는 현실론도 함께 나왔다.\n- 시스템 콜 직결 방식은 Linux에선 설득력이 있지만 다른 플랫폼은 인터페이스 안정성이 약할 수 있어, 이식성 주장과 충돌한다는 지적이 반복됐다.\n- \"There Is No Heap\" 같은 선언은 실제 할당 인터페이스 설명과 어긋나 보인다는 반응이 있었다. 개념은 흥미롭지만 문서와 메시지는 더 또렷해야 한다는 쪽이다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-23T07:30:35.598097+00:00"
+    },
+    {
+      "id": "658c3c508a7a6325e88cd064c5f47dc103c51349",
+      "title_hash": "088cc188d4798104daf85c97a900ff424db0366d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "A blueprint for formal verification of Apple corecrypto",
+      "link": "https://security.apple.com/blog/formal-verification-corecrypto/",
+      "published_at": "2026-05-22T18:52:17+00:00",
+      "summary": "HN story type: story HN points: 88 HN comments: 4 HN top comments: FabHK: Had totally forgotten that Apple had rolled out post-quantum crypto (ML-KEM and ML-DSA, FIPS 203 and FIPS 204, respectively) already back in 2024. [1] Slightly off topic, but it's great to see \"crypto\" to mean cryptography, helping users to keep their data secure, and not as so often these days those silly cryptocurrency crime tokens. [1] https://security.apple.com/blog/imessage-pq3/ AlotOfReading: SAW/Cryptol are amazingly easy to use compared to other formal methods tools. It's a shame that C++ is still popular in high assurance spaces, because the tooling for it and the ability to write safe code is so much worse than C these days. H0-LawJik: The missing-step bug in early ML-DSA is the perfect case for SAW. rare inputs that pass code review because the line that should be there doesn't look absent, it looks like the next line is correct. tests wouldn't catch it unless someone happened to roll exactly the right inputs.",
+      "fetched_at": "2026-05-23T07:27:13.124361+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "48239862",
+      "hn_story_type": "story",
+      "hn_points": "88",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=48239862",
+      "hn_item_text": "",
+      "hn_comment_preview": "FabHK: Had totally forgotten that Apple had rolled out post-quantum crypto (ML-KEM and ML-DSA, FIPS 203 and FIPS 204, respectively) already back in 2024. [1] Slightly off topic, but it's great to see \"crypto\" to mean cryptography, helping users to keep their data secure, and not as so often these days those silly cryptocurrency crime tokens. [1] https://security.apple.com/blog/imessage-pq3/\nAlotOfReading: SAW/Cryptol are amazingly easy to use compared to other formal methods tools. It's a shame that C++ is still popular in high assurance spaces, because the tooling for it and the ability to write safe code is so much worse than C these days.\nH0-LawJik: The missing-step bug in early ML-DSA is the perfect case for SAW. rare inputs that pass code review because the line that should be there doesn't look absent, it looks like the next line is correct. tests wouldn't catch it unless someone happened to roll exactly the right inputs.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "39",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=4,strategy_insight=13,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 4,
+        "strategy_insight": 13,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "code review"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "code review"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "code + security"
+      ],
+      "detail_slug": "658c3c508a7a6325e88cd064c5f47dc103c51349",
+      "is_english_source": true,
+      "translated_title": "애플 corecrypto 형식 검증 청사진",
+      "short_summary": "애플의 암호 라이브러리 corecrypto에 형식 검증을 적용하는 접근을 다룬 글이다. 테스트와 코드 리뷰만으로 놓치기 쉬운 희귀 입력 기반 오류를 어떻게 더 체계적으로 막을지에 관심이 모였다.",
+      "why_it_matters": "보안 라이브러리는 대체로 맞는 수준으로는 부족하다. 이번 글은 제품에 실제로 들어가는 암호 코드에도 형식 검증을 붙여 구현 누락이나 미묘한 논리 오류를 더 앞단에서 걸러낼 수 있다는 점을 보여준다.\n- 포스트퀀텀 암호처럼 새 알고리즘이 빠르게 들어오는 시기라, 사양과 구현이 정확히 맞는지 확인하는 절차의 부담이 더 커졌다.\n- 실무에서는 리뷰와 테스트가 잘 잡지 못하는 희귀 입력 버그를 줄이는 방법으로 읽힌다. 배포 후 대응보다 사전 검증 쪽에 무게가 실린다.\n- SAW, Cryptol 같은 도구를 활용해 명세와 코드를 직접 대조하는 흐름이 소개되며, 고신뢰 보안 코드의 개발 방식 자체를 다시 보게 만든다.",
+      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이었다. 형식 검증이 논문 속 기법이 아니라 실제 암호 구현에서 값어치를 한다는 공감이 중심에 있었다.\n- 애플이 2024년에 이미 ML-KEM, ML-DSA 같은 포스트퀀텀 암호를 내놓았다는 점이 다시 언급되며, 이번 주제의 현실성이 더 부각됐다.\n- SAW와 Cryptol이 다른 형식 방법 도구보다 쓰기 편하다는 반응이 있었고, 고신뢰 영역에서 여전히 C++가 널리 쓰이는 현실은 아쉽다는 의견도 나왔다.\n- 초기 ML-DSA의 빠진 한 단계 같은 버그는 코드 리뷰로도 지나치기 쉽고 테스트로도 재현이 어렵다며, 이런 유형일수록 형식 검증이 잘 맞는다는 논점이 반복됐다.",
+      "ai_model": "codex-cli",
+      "sent_at": "2026-05-23T07:30:35.598097+00:00"
+    },
+    {
       "id": "06937cc58f76202386a630480b7990490adfa1be",
       "title_hash": "546a75d87baca3852a99d5c9a1815bdcef8b797f",
       "source": "GeekNews",
@@ -2344,85 +2798,6 @@
       "hn_reaction_summary": "HN 댓글 분위기는 가격 인상 자체보다 왜 이렇게까지 메모리를 많이 쓰게 됐는지에 더 쏠려 있다. AI 시대의 개발 방식과 소프트웨어 비대화가 문제를 키운다는 냉소와 현실론이 함께 보인다.\n- 최적화를 말하는 댓글이 많았지만, 일부는 AI 코딩과 기능 확대로 오히려 메모리 사용량이 더 늘 것이라고 봤다.\n- AI 붐이 정작 소비자가 쓰는 기기의 가격과 사양을 압박하는 역설을 꼬집는 반응이 반복됐다.\n- DRAM 공장 건설비와 긴 증설 리드타임에 놀랐다는 의견도 많았고, 공급 병목이 쉽게 풀리지 않는다는 시각이 공유됐다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-22T10:30:13.711703+00:00"
-    },
-    {
-      "id": "b00f1007ee102b1abc783b776555eeabaf682a02",
-      "title_hash": "b36fbddf496317b62605a338c1b271bf79294a8d",
-      "source": "GeekNews",
-      "title": "마이크로소프트, Claude Code 라이선스 회수 시작하다",
-      "link": "https://news.hada.io/topic?id=29759",
-      "published_at": "2026-05-22T03:35:22+00:00",
-      "summary": "마이크로소프트가 지난 12월부터 자사 개발자 수천 명에게 개방했던 Anthropic의 AI 코딩 도구 Claude Code 의 라이선스를 대거 회수하기 시작. 6개월간 사내에서 폭발적 인기를 끌었으나, 오히려 자사 GitHub Copilot CLI 의 입지를 위협한 것이 부메랑으로 돌아오다. 주요",
-      "fetched_at": "2026-05-22T06:12:50.976048+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "70",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=0,tools_agents=25,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 25,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 25,
-          "strong_hits": [
-            "claude code",
-            "copilot",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "copilot",
-        "cli",
-        "claude + code"
-      ],
-      "detail_slug": "b00f1007ee102b1abc783b776555eeabaf682a02",
-      "is_english_source": false,
-      "sent_at": "2026-05-22T06:16:35.584448+00:00"
     },
     {
       "id": "a2cfcc85c212b96bf12d3d3c852048de9222692b",
@@ -172449,357 +172824,6 @@
       "hn_reaction_summary": "HN 반응은 대체로 호의적이지만 아이디어에 대한 호감과 운영 현실에 대한 걱정이 함께 나타났다. 특히 '우연한 발견'의 재미를 반기는 목소리와 결국 누가 어떻게 골라 넣을지 묻는 목소리가 반복됐다.\n- 긍정 쪽에서는 예전 StumbleUpon 같은 감각을 떠올리며, 유튜브나 검색이 취향 안에서만 맴도는 문제를 풀 수 있다는 기대가 나왔다.\n- 회의적인 반응은 어떤 사이트를 담고 어떻게 걸러낼지, 새 목록을 얼마나 자주 반영할지 같은 워크플로가 아직 모호하다는 점에 집중됐다.\n- 실무자가 읽을 만한 논점은 기술 완성도보다도 배포 방식, 변경분 추적, 큐레이션 거버넌스를 어떻게 꾸릴지에 있다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-03-19T00:51:32.036743+00:00"
-    },
-    {
-      "id": "c0fe019bcb92ea3bd8a042d1ce3f8d4a588c5797",
-      "title_hash": "01c6eac8330fa0d140bbfe9701f6c97b024107c2",
-      "source": "GeekNews",
-      "title": "Get Shit Done - Claude Code용 메타 프롬프트·컨텍스트 엔지니어링·명세 기반 개발 시스템",
-      "link": "https://news.hada.io/topic?id=27622",
-      "published_at": "2026-03-18T18:36:52+00:00",
-      "summary": "Claude Code 및 여러 AI 코딩 런타임에서 명세 기반 개발(spec-driven development) 을 자동화하는 경량 시스템으로, 복잡한 워크플로 없이 프로젝트를 완성하도록 지원 컨텍스트 엔지니어링 과 XML 기반 프롬프트 구조화 ,",
-      "fetched_at": "2026-03-18T20:43:03.258158+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "72",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=27,practical_tech=0,tools_agents=27,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 27,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 27,
-          "strong_hits": [
-            "claude code",
-            "spec-driven",
-            "자동화"
-          ],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "spec-driven"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "spec-driven",
-        "자동화",
-        "프롬프트",
-        "claude + code"
-      ],
-      "detail_slug": "c0fe019bcb92ea3bd8a042d1ce3f8d4a588c5797",
-      "is_english_source": false,
-      "sent_at": "2026-03-18T20:45:41.253724+00:00"
-    },
-    {
-      "id": "d334727967e221858180788eb547374ee78d045b",
-      "title_hash": "593d217c3e44abdb89ab1f5bcc5bfe6c781bc2d9",
-      "source": "GeekNews",
-      "title": "코드 작성 속도가 문제라고 생각했다면 더 큰 문제가 있다",
-      "link": "https://news.hada.io/topic?id=27624",
-      "published_at": "2026-03-18T19:33:44+00:00",
-      "summary": "AI 코딩 도구 가 개발 속도를 높인다고 하지만, 실제 병목은 코드 작성이 아닌 조직의 비효율적 프로세스 에 있음 코드 생산량을 늘리면 리뷰 대기, 배포 지연, 불명확한 요구사항 등 비개발 단계의 정체 가 심화됨 The Goal",
-      "fetched_at": "2026-03-18T20:43:03.258158+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "병목"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "병목"
-      ],
-      "detail_slug": "d334727967e221858180788eb547374ee78d045b",
-      "is_english_source": false,
-      "sent_at": "2026-03-18T20:45:41.253724+00:00"
-    },
-    {
-      "id": "9a02a0a2c9fc389ac575283a0dd1ddd8cc87428d",
-      "title_hash": "14e46a5bdc6f04137bfa3cfca7396faca0ac9f6f",
-      "source": "GeekNews",
-      "title": "메타와 틱톡, 참여 유도를 위해 유해 콘텐츠 노출을 허용했다는 내부고발자 증언",
-      "link": "https://news.hada.io/topic?id=27626",
-      "published_at": "2026-03-18T20:33:15+00:00",
-      "summary": "내부고발자들은 Meta와 TikTok이 알고리듬이 분노를 유발할수록 참여율이 높아진다는 내부 연구 결과를 알고도 , 더 많은 유해 콘텐츠를 사용자 피드에 노출시켰다고 폭로함 Meta 엔지니어는 주가 하락을 이유로 ‘경계선 콘텐츠’ 노출을 늘리라는 지시 를 받았다고...",
-      "fetched_at": "2026-03-18T20:43:03.258158+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=4,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 4,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "주가"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "출시"
-      ],
-      "detail_slug": "9a02a0a2c9fc389ac575283a0dd1ddd8cc87428d",
-      "is_english_source": false,
-      "sent_at": "2026-03-18T20:45:41.253724+00:00"
-    },
-    {
-      "id": "39ecbfd74944a4a990af25876a4efd6ba4294a58",
-      "title_hash": "b5a3d9074ad46e8dd990931372897b236088d463",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Tmux-IDE, OSS agent-first terminal IDE",
-      "link": "https://tmux.thijsverreck.com",
-      "published_at": "2026-03-18T17:46:25+00:00",
-      "summary": "HN story type: story HN points: 31 HN comments: 20 HN post text: Hey HN, Small OSS project that i created for myself and want to share with the community. It's a declarative, scriptable, terminal-based IDE focussed on agentic engineering. That's a lot of jargon, but essentially its a multi-agent IDE that you start in your terminal. Why is that relevant? Thanks to tmux and SSH, it means that you have a really simple and efficient way to create your own always-on coding setup. Boot into your IDE through ssh, give a prompt to claude and close off your machine. In tmux-ide claude will keep working. The tool is intentionally really lightweight, because I think the power should come from the harnesses that you are working with. I'm hoping to share this with the community and get feedback and suggestions to shape this project! I think that \"remote work\" is directionally correct, because we can now have extremely long-running coding tasks. But I also think we should be able to control and orchstrate that experience according to what we need. The project is 100% open-source, and i hope to shape it together with others who like to work in this way too! Github: https://github.com/wavyrai/tmux-ide Docs: https://tmux.thijsverreck.com/docs HN top comments: selixe_: Interesting, but I wonder if this shifts too much complexity onto the user. tmux is powerful, but not exactly approachable, and \"multi-agent orchestration\" on top of it feels like something that could get hard to reason about quickly. Curious how you think about UX here. quanwinn: I'm so married to my existing tmux workflows and layout that I'm not sure whether I'd ever feel open to trying out something like this. At the same time, orchestrating multiple agents with native tmux and git worktree does feel cumbersome. operatingthetan: If this supported Gemini and Codex I would find it useful. I never run more than one Claude, it's always a mix.",
-      "fetched_at": "2026-03-18T20:43:03.258158+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47428868",
-      "hn_story_type": "story",
-      "hn_points": "31",
-      "hn_comments_count": "20",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47428868",
-      "hn_item_text": "Hey HN, Small OSS project that i created for myself and want to share with the community. It's a declarative, scriptable, terminal-based IDE focussed on agentic engineering. That's a lot of jargon, but essentially its a multi-agent IDE that you start in your terminal. Why is that relevant? Thanks to tmux and SSH, it means that you have a really simple and efficient way to create your own always-on coding setup. Boot into your IDE through ssh, give a prompt to claude and close off your machine. In tmux-ide claude will keep working. The tool is intentionally really lightweight, because I think the power should come from the harnesses that you are working with. I'm hoping to share this with the community and get feedback and suggestions to shape this project! I think that \"remote work\" is directionally correct, because we can now have extremely long-running coding tasks. But I also think we should be able to control and orchstrate that experience according to what we need. The project is 100% open-source, and i hope to shape it together with others who like to work in this way too! Github: https://github.com/wavyrai/tmux-ide Docs: https://tmux.thijsverreck.com/docs",
-      "hn_comment_preview": "selixe_: Interesting, but I wonder if this shifts too much complexity onto the user. tmux is powerful, but not exactly approachable, and \"multi-agent orchestration\" on top of it feels like something that could get hard to reason about quickly. Curious how you think about UX here.\nquanwinn: I'm so married to my existing tmux workflows and layout that I'm not sure whether I'd ever feel open to trying out something like this. At the same time, orchestrating multiple agents with native tmux and git worktree does feel cumbersome.\noperatingthetan: If this supported Gemini and Codex I would find it useful. I never run more than one Claude, it's always a mix.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "90",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=66,practical_tech=9,tools_agents=66,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 66,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 66,
-          "strong_hits": [
-            "multi-agent",
-            "worktree",
-            "workflow",
-            "agentic",
-            "codex",
-            "ide"
-          ],
-          "support_hits": [
-            "workflow",
-            "prompt",
-            "agent",
-            "setup",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + workflow",
-            "claude + code",
-            "ai + coding",
-            "prompt + workflow"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "multi-agent",
-        "worktree",
-        "workflow",
-        "agentic",
-        "codex",
-        "ide",
-        "prompt",
-        "agent",
-        "setup",
-        "tool",
-        "agent + workflow",
-        "claude + code",
-        "ai + coding",
-        "prompt + workflow"
-      ],
-      "detail_slug": "39ecbfd74944a4a990af25876a4efd6ba4294a58",
-      "is_english_source": true,
-      "translated_title": "Tmux-IDE 공개, 에이전트 중심 터미널 IDE",
-      "short_summary": "Tmux-IDE는 tmux와 SSH 위에서 여러 코딩 에이전트를 오래 돌릴 수 있게 만든 가벼운 오픈소스 터미널 IDE다. 선언형 설정과 스크립트 자동화를 앞세워, 원격에 항상 켜져 있는 개발 환경을 쉽게 꾸리자는 방향을 제시한다.",
-      "why_it_matters": "에이전트가 몇 분이 아니라 몇 시간씩 코드를 만지는 흐름이 늘면서, 개발 환경도 로컬 GUI 중심에서 원격 지속 실행 쪽으로 조금씩 옮겨가고 있다. Tmux-IDE는 그 변화를 tmux와 SSH 같은 익숙한 도구 위에서 풀어보려는 시도다.\n\n- 노트북을 닫아도 원격 세션에서 작업이 계속 이어진다. 장시간 코딩 작업이나 야간 배치형 개발 흐름에 바로 맞닿아 있다.\n- 새 IDE를 통째로 배우게 하기보다 tmux를 기반으로 선언형 설정과 스크립트성을 얹었다. 팀별 작업 규칙이나 자동화 훅을 붙이기 쉬운 편이다.\n- 무거운 통합 기능보다 에이전트 실행 환경과 오케스트레이션에 초점을 맞췄다. 이미 SSH, tmux, 워크트리 중심으로 일하는 개발자라면 실험 비용이 낮다.",
-      "hn_reaction_summary": "댓글 분위기는 호기심과 거리두기가 함께 보이는 쪽에 가깝다. 방향성은 공감하지만, 실제로 매일 쓰기에는 복잡성이 빠르게 커질 수 있다는 반응이 반복됐다.\n\n- 가장 많이 나온 우려는 UX다. tmux 자체도 진입장벽이 있는데 그 위에 멀티 에이전트 오케스트레이션까지 얹으면 상태를 파악하기 어려워질 수 있다는 지적이 있었다.\n- 기존 tmux 레이아웃과 습관에 깊이 묶인 사용자도 많았다. 필요성은 느끼지만, 이미 굳어진 워크플로를 갈아탈 만큼의 이점이 더 분명해야 한다는 반응이다.\n- 유용성을 인정하는 의견도 있었다. 다만 Claude 중심보다는 Gemini, Codex 등 여러 모델을 섞어 쓰는 경우가 많아 멀티 모델 지원이 채택의 조건으로 거론됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-18T20:45:41.253724+00:00"
     }
   ],
   "topic_digests": {
@@ -172808,9 +172832,11 @@
         "period": "weekly",
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
-        "headline": "이번 주 도구·에이전트",
-        "summary": "에이전트는 이제 보조 기능을 넘어서고 있다. 일하는 자리 전체를 다시 짜는 흐름이 언어와 IDE, 운영 방식으로 번지는 중이다. 이번 주 묶음만 봐도 방향이 또렷하다.\n- Zero와 /goal은 AI가 코드를 읽고 고치는 흐름에 맞춰 언어와 명령 인터페이스를 다시 짠다.\n- 칸반 앱과 Superset은 병렬 에이전트를 팀처럼 굴리는 실행 환경을 앞세운다.\n- 동시에 AI를 거부할 선택권 논의도 커진다. 도입 경쟁만으로는 설명되지 않는 분위기가 드러난다.",
+        "headline": "이번 주 도구·에이전트: 통제의 재설계",
+        "summary": "이번 주엔 에이전트를 더 붙이는 경쟁보다, 어디에 맡기고 어떻게 통제할지 다시 묻는 흐름이 두드러졌다. 비용과 인터페이스, 선택권이 한꺼번에 올라왔다.\n\n- 마이크로소프트 사례는 무감독 코딩 에이전트의 토큰 비용과 효율을 다시 계산하는 분위기를 보여줬다.\n- TalkMode, Zero, /goal, AI 거부 논의는 승부처가 성능보다 목표 설계, 실사용 접점, 도입 선택으로 옮겨가고 있음을 보여준다.",
         "item_ids": [
+          "8a44b903862e061a10db60226684f5529f4d904f",
+          "a2eb305ee440da3245433aadfc4c5bc0117a5c0d",
           "06937cc58f76202386a630480b7990490adfa1be",
           "7eeaf266a867262bcbe288cb494b6304112fd044",
           "ab89e2fbf1e36611f9f2620fa8fcb2cfc74c9d06",
@@ -172824,7 +172850,6 @@
           "0146c5da032c1af99537a8339e3727b7c8863877",
           "43818966e4dcb3a2e48fa5de15f2050f09732ed9",
           "a683a337b9fdf5d1b7b99508809b99115ac36903",
-          "b00f1007ee102b1abc783b776555eeabaf682a02",
           "385c5dded3d2847836e035c10a7bbb363a741e1d",
           "9ece2f604797ad531c34ad4c30816f9745f94e47",
           "ad2142fde492487faac7ab6dbf6723fc87c6501d",
@@ -172914,12 +172939,10 @@
           "58483199ffb39db1e2482c27316c47dc20212887",
           "ecd13236e0d427c5be557472491daa39bd3c5bd1",
           "258a60225df46dc89a65a319c3b2c1232981e5a6",
-          "c80aa2d1231e3fc3c8108b646c57d323448f7ef9",
-          "20dffa91d64de87207157740325effb5d5573d6e",
-          "cbf53dfc8307cd43617ccdcd6ab0a236f8755cf7"
+          "c80aa2d1231e3fc3c8108b646c57d323448f7ef9"
         ],
-        "total_items": 106,
-        "generated_at": "2026-05-23T03:15:50.468840+00:00",
+        "total_items": 105,
+        "generated_at": "2026-05-23T07:27:13.124361+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -172927,8 +172950,9 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 주 실무 기술",
-        "summary": "이번 주 실무 기술 기사는 새 도구의 화려함보다 운영 현실을 더 또렷하게 보여준다. 모델 비교, 보안 검증, 데이터 공개, 배송, 유출 대응까지 현업은 성능표만으로 굴러가지 않는다. 지금 볼 이유도 여기에 있다.\n\n- 모델 DB와 보안 실험은 기능 경쟁보다 검증 기준과 유지 주기가 더 큰 변수임을 말한다.\n- 아카이브 공개와 노트북 배송 사례는 접근성조차 물류, 비용, 제도 위에서 정해진다고 보여준다.\n- CISA 논란은 기술 선택 뒤의 운영 책임과 설명 방식까지 함께 점검해야 한다는 신호다.",
+        "summary": "이번 주엔 도구와 지식을 더 열어두면서도, 현장에서 정말 버티는지 끝까지 따지는 글이 많았다. 새 기술 소개보다 운영비, 검증, 유지의 무게가 앞에 나온 한 주였다.\n- C 표준 라이브러리 재설계, AI 취약점 탐지, 모델 비교 DB처럼 기본 도구를 다시 손보는 시도가 이어졌다.\n- Anna’s Archive와 노트북 배송 사례는 접근성 확대가 곧바로 단순한 해법은 아니라는 점을 보여줬다.\n- 지금 보면 좋은 이유는 기능 경쟁보다 검증 가능성, 갱신 지속성, 실제 배포 비용을 함께 읽을 수 있어서다.",
         "item_ids": [
+          "5bc487ae7b1aea1662028a8ec40977e2c2b64b90",
           "242153d628bf6d2bfeb3fd5162b5927fd486e82d",
           "9b499105b2ed3b3d86f6c058af7f1f21507fae3f",
           "36aaf26e4aba24aa06e97d73303dfb592bb92326",
@@ -173007,12 +173031,10 @@
           "bc98fa583302d50c3de4bdbc3f0f150b274da695",
           "0b306606acb94e6d259f0020fac2ac55a707cd83",
           "b24b3463f89b40d4c1fe201e8719a153cbcfab44",
-          "e835a84d15d62c766888e969cf2e428832305bb2",
-          "420ae568a4d354abcca30885f39d9b0d5c649d28",
-          "dce6aa4c2151af0798e8b008be69a36385f201c1"
+          "e835a84d15d62c766888e969cf2e428832305bb2"
         ],
-        "total_items": 81,
-        "generated_at": "2026-05-23T03:15:50.468840+00:00",
+        "total_items": 80,
+        "generated_at": "2026-05-23T07:27:13.124361+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -173020,8 +173042,10 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 주 전략·인사이트",
-        "summary": "AI가 일의 속도를 높였지만, 이번 주 기사들은 진짜 승부처가 따로 있다고 말한다. 결과를 믿을 기준을 세우고, 메모리와 데이터 통제권을 쥐는 쪽이 다음 국면을 먼저 연다.\n- 생성보다 검증이 앞선다. 시장조사 프롬프트 제약과 개발자의 구조 판단 문제가 한 줄로 이어진다.\n- DRAM 병목, 로컬 영상 색인, 오픈소스 전략은 AI 경쟁이 성능 과시를 넘어 비용, 검색 가능성, 표준 주도권 싸움으로 옮겨갔음을 보여준다.",
+        "summary": "이번 주 글은 AI를 잘 쓰는 법보다 결과를 어디까지 믿고 통제할지에 시선이 모였다. 프롬프트 제약, 형식 검증, 로컬 색인, 메모리 병목이 한 줄로 이어지며 실전 운영의 기준이 더 또렷해졌다.\n- Boolean과 제약 조건은 검색 기술이 아니라 판단 범위와 오류 가능성을 다루는 설계 규칙으로 읽힌다.\n- 희귀 오류를 막는 검증과 로컬 인덱싱 실험은 AI 활용이 데모를 넘어 법률, 리서치, 아카이브 현장으로 옮겨가고 있음을 보여준다.\n- DRAM 압박은 그 흐름의 비용 구조를 드러낸다. 지금 볼 이유도 여기에 있다.",
         "item_ids": [
+          "8b50625a8ca3e61964b721a0e4d7a10793d6d3ce",
+          "658c3c508a7a6325e88cd064c5f47dc103c51349",
           "b76c46431298032c5ffcecc596ec8ad6aaa2b71c",
           "2e2400125cbbeb5287e7c49419d829598c73ccc7",
           "15c6031b246adef1e1e5e2d798102fa0662ca2ea",
@@ -173036,11 +173060,10 @@
           "240e46ca5179ef5bdad96e133a589c3d1348a8cb",
           "2a78dd20f683d41c9ee4bf3ef307fe37d844e727",
           "7bbf13828c4b0fd4df7a22c374a333b9c930f051",
-          "dd78f1743e1fb613d2bf18c8b52175b6a71c5e38",
-          "d326cc0af1849718329988c19e05ab3db173386e"
+          "dd78f1743e1fb613d2bf18c8b52175b6a71c5e38"
         ],
-        "total_items": 16,
-        "generated_at": "2026-05-23T03:15:50.468840+00:00",
+        "total_items": 17,
+        "generated_at": "2026-05-23T07:27:13.124361+00:00",
         "ai_model": "codex-cli"
       }
     ],
@@ -173050,8 +173073,10 @@
         "slot": "tools_agents",
         "slot_label": "도구·에이전트",
         "headline": "이번 달 도구·에이전트",
-        "summary": "이번 달 도구·에이전트 묶음은 사람이 쓰던 화면과 언어가 에이전트 중심으로 빠르게 재편되는 흐름을 보여준다. 코드 작성부터 작업 관리까지 기준이 달라지는 중이다.\n\n- 에이전트가 바로 읽고 고치기 쉬운 언어와 목표 전달 방식이 앞에 섰다.\n- IDE와 칸반 앱은 병렬 실행, 로컬 워크트리, 환경 관리까지 한곳에 묶는다.\n- 한편 도입 자체를 다시 묻는 시선도 커져, 지금은 열기와 반론을 함께 볼 때다.",
+        "summary": "에이전트 흐름이 이번 달엔 더 선명해졌다. 성능 과시보다 비용 통제와 목표 전달, 실제 작업 연결이 앞에 섰다. 그래서 지금은 무엇이 남고 밀릴지 가늠할 때다.\n- 마이크로소프트의 Claude Code 축소 논의는 고비용·무감독 사용의 한계를 드러냈다.\n- TalkMode와 /goal, Zero는 음성·명령·언어를 작업형 에이전트 기준으로 다시 짜는 움직임이다.\n- 한편 AI 도입을 거부할 선택권 논의도 커지며 채택의 기준 자체를 묻고 있다.",
         "item_ids": [
+          "8a44b903862e061a10db60226684f5529f4d904f",
+          "a2eb305ee440da3245433aadfc4c5bc0117a5c0d",
           "06937cc58f76202386a630480b7990490adfa1be",
           "7eeaf266a867262bcbe288cb494b6304112fd044",
           "ab89e2fbf1e36611f9f2620fa8fcb2cfc74c9d06",
@@ -173065,7 +173090,6 @@
           "0146c5da032c1af99537a8339e3727b7c8863877",
           "43818966e4dcb3a2e48fa5de15f2050f09732ed9",
           "a683a337b9fdf5d1b7b99508809b99115ac36903",
-          "b00f1007ee102b1abc783b776555eeabaf682a02",
           "385c5dded3d2847836e035c10a7bbb363a741e1d",
           "9ece2f604797ad531c34ad4c30816f9745f94e47",
           "ad2142fde492487faac7ab6dbf6723fc87c6501d",
@@ -173521,13 +173545,10 @@
           "60a32298415b1bfe8f4140fdcd140fe67bedec07",
           "aad1636073875df0b94286b6998e8fa8a7d60a7d",
           "75d1c640ea9bfe1fa9ebd4edb66ac5e176536fb9",
-          "fecccc03699d726b5f835195a65c92ead9fa7ade",
-          "42cf212026c6c9593e316a08cebbe6dccc11baa4",
-          "cdef9603c85fbc7ec2ec741b3dd2f2c377742a63",
-          "13f7225c84d8aa1df654b7f253525c0dd53b25b7"
+          "fecccc03699d726b5f835195a65c92ead9fa7ade"
         ],
-        "total_items": 473,
-        "generated_at": "2026-05-23T03:15:50.468840+00:00",
+        "total_items": 471,
+        "generated_at": "2026-05-23T07:27:13.124361+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -173535,8 +173556,9 @@
         "slot": "practical_tech",
         "slot_label": "실무 기술",
         "headline": "이번 달 실무 기술",
-        "summary": "이번 달 실무 기술은 AI 자체보다 검증, 비용, 책임을 끝까지 따지는 흐름이 두드러졌다. 현업은 성능 자랑보다 운영 현실을 묻기 시작했다.\n- 취약점 탐지와 유출 대응 이슈가 겹치며 보안은 기능 경쟁보다 검증과 설명 책임의 문제로 옮겨갔다.\n- 모델 비교 DB, 공개 아카이브, 국제 배송 사례가 함께 나오며 지금은 도구 선택만이 아니라 접근성, 유지 비용, 실행 가능성까지 같이 봐야 할 때임을 보여줬다.",
+        "summary": "이번 달 실무 기술은 새 도구 소개보다 실제로 굴릴 때 부딪히는 조건을 더 또렷하게 보여줬다. 설계, 검증, 배포, 유지 비용을 함께 따지는 흐름이 이어졌다.\n- C 라이브러리 재설계와 모델 DB는 편의보다 기준, 호환성, 업데이트 지속성을 먼저 묻는다.\n- AI 보안 점검과 지식 아카이브는 활용 범위를 넓히면서도 검증 가능성과 접근 방식의 숙제를 드러냈다.\n- 지금 볼 이유는 현업 판단이 기능 경쟁보다 운영 마찰과 데이터 품질에서 갈리기 시작해서다.",
         "item_ids": [
+          "5bc487ae7b1aea1662028a8ec40977e2c2b64b90",
           "242153d628bf6d2bfeb3fd5162b5927fd486e82d",
           "9b499105b2ed3b3d86f6c058af7f1f21507fae3f",
           "36aaf26e4aba24aa06e97d73303dfb592bb92326",
@@ -173881,12 +173903,10 @@
           "bd54e4c9eccdafc2e0f25dd0a134f2d89fb3bf92",
           "7a5c5270966d80e9487179b12314f45dba987a55",
           "5f1c768222a5b48f1ae8436edfedf4319a584fa3",
-          "c6a6807e1bf09902aa22150defea3860ce86ff73",
-          "a88249d8b92649f9b926aa884ec81f65c3a58ad0",
-          "3925fe916ba1e310454b5427ca0e8628b703b0c2"
+          "c6a6807e1bf09902aa22150defea3860ce86ff73"
         ],
-        "total_items": 347,
-        "generated_at": "2026-05-23T03:15:50.468840+00:00",
+        "total_items": 346,
+        "generated_at": "2026-05-23T07:27:13.124361+00:00",
         "ai_model": "codex-cli"
       },
       {
@@ -173894,8 +173914,10 @@
         "slot": "strategy_insight",
         "slot_label": "전략·인사이트",
         "headline": "이번 달 전략·인사이트",
-        "summary": "AI가 넓게 퍼질수록 승부처는 생성 속도보다 검증, 제약 설계, 인프라 운용으로 옮겨간다. 이번 묶음은 그 흐름이 실무와 시장에 어떻게 번지는지 보여준다.\n- 시장조사와 개발 현장 모두 AI가 초안을 밀어주지만, 구조를 읽고 결과를 거르는 사람의 판단은 더 앞에 선다.\n- 메모리 가격 재조정과 로컬 색인 사례는 AI 경쟁이 이제 칩 수급, 비용, 설계 선택까지 흔든다는 신호다.\n- 오픈소스도 코드 공개를 넘어 산업 판을 짜는 수단이 됐다. 지금 보는 이유는 도구보다 전략의 격차가 더 빨리 벌어지기 때문이다.",
+        "summary": "이번 달 글은 AI와 시스템을 믿기 전에 규칙과 한계를 먼저 설계해야 한다는 쪽으로 모였다. Boolean, 형식 검증, 리서치 제약, 로컬 색인 사례가 한 흐름으로 이어진다.\n\n- 성능을 키우는 이야기보다 판단 조건을 어떻게 묶고 예외를 어떻게 다루는지가 앞에 섰다.\n- 희귀 오류를 줄이는 검증 감각이 법률 AI부터 암호 라이브러리, 시장조사 자동화까지 번지고 있다.\n- 메모리 병목과 로컬 처리 사례까지 겹치며, 지금은 AI의 가능성보다 운영 현실을 같이 볼 때다.",
         "item_ids": [
+          "8b50625a8ca3e61964b721a0e4d7a10793d6d3ce",
+          "658c3c508a7a6325e88cd064c5f47dc103c51349",
           "b76c46431298032c5ffcecc596ec8ad6aaa2b71c",
           "2e2400125cbbeb5287e7c49419d829598c73ccc7",
           "15c6031b246adef1e1e5e2d798102fa0662ca2ea",
@@ -173950,8 +173972,8 @@
           "2baf0a962302fe60f4bf375a558e39e394bbb7ca",
           "6c975a43bc8d6ce2cd344b82fcc42123150a0348"
         ],
-        "total_items": 53,
-        "generated_at": "2026-05-23T03:15:50.468840+00:00",
+        "total_items": 55,
+        "generated_at": "2026-05-23T07:27:13.124361+00:00",
         "ai_model": "codex-cli"
       }
     ]
@@ -173962,21 +173984,22 @@
       "kind": "quiet_riser",
       "label": "AI Spotlight",
       "title": "조용히 커지는 주제",
-      "cta_label": "관련 기사 보기",
+      "cta_label": "흐름 보기",
       "related_item_ids": [
-        "06937cc58f76202386a630480b7990490adfa1be",
         "7eeaf266a867262bcbe288cb494b6304112fd044",
-        "a35083e7e1ab6ae31be754a0d6d66bd89760f293"
+        "06937cc58f76202386a630480b7990490adfa1be",
+        "8b50625a8ca3e61964b721a0e4d7a10793d6d3ce",
+        "b76c46431298032c5ffcecc596ec8ad6aaa2b71c"
       ],
-      "score": 0.95,
-      "generated_at": "2026-05-23T03:15:50.468840+00:00",
+      "score": 0.92,
+      "generated_at": "2026-05-23T07:27:13.124361+00:00",
       "ai_model": "codex-cli",
-      "topic_name": "에이전트에 맞춘 작업 언어",
-      "summary_line": "코드 문법보다 목표 전달과 점검, 병렬 실행을 먼저 설계하는 흐름이 또렷해졌다.",
+      "topic_name": "목표와 제약을 먼저 주는 에이전트",
+      "summary_line": "에이전트를 더 붙이기보다 어디까지 맡기고 어떻게 통제할지 설계하는 흐름이 이어진다.",
       "signals": [
-        "새 언어가 사람보다 에이전트의 읽고 고치기 경로를 앞세운다.",
-        "명령 한 줄보다 목표를 구조적으로 넘기는 인터페이스가 늘고 있다.",
-        "작업 보드와 로컬 워크트리까지 에이전트 실행 단위로 다시 짜인다."
+        "/goal처럼 목표를 구조화해 넘기는 인터페이스가 눈에 띈다.",
+        "Zero는 inspect·repair와 단일 경로를 언어 차원에서 밀어붙인다.",
+        "Boolean과 리서치 제약 글은 판단 범위를 먼저 묶는 습관을 강조한다."
       ]
     },
     {
@@ -173987,36 +174010,36 @@
       "cta_label": "쟁점 보기",
       "related_item_ids": [
         "9b499105b2ed3b3d86f6c058af7f1f21507fae3f",
-        "5a829fa3647bd220a954b755bb676d28f5f70cd5"
+        "658c3c508a7a6325e88cd064c5f47dc103c51349"
       ],
-      "score": 0.91,
-      "generated_at": "2026-05-23T03:15:50.468840+00:00",
+      "score": 0.94,
+      "generated_at": "2026-05-23T07:27:13.124361+00:00",
       "ai_model": "codex-cli",
-      "headline": "보안 AI, 실전 효용인가 과장인가",
+      "headline": "AI 보안 점검, 벌써 실전에 들어왔나",
       "issue_title": "프로젝트 글래스윙 초기 진행 보고",
-      "opposition_summary": "높은 검증 수치가 곧 실전 우위는 아니라는 반론이 선명했다. 기존 도구와 비교 기준도 더 까다로워야 한다는 쪽이다.",
-      "support_summary": "반대로 현업에서 취약점을 꾸준히 잡아낸 경험담이 나왔다. 커밋과 코드 리뷰에 바로 붙일 수 있다는 기대도 컸다."
+      "opposition_summary": "검증 수치는 인상적이지만 기존 도구보다 낫다는 근거는 아직 더 봐야 한다는 쪽이다.",
+      "support_summary": "커밋과 코드 리뷰 단계에서 취약점을 꾸준히 잡아낸다면 이미 현업 효용이 충분하다는 반응이 붙었다."
     },
     {
       "id": "anomaly-signal",
       "kind": "anomaly_signal",
       "label": "Labs",
       "title": "이번 주 이상 신호",
-      "cta_label": "신호 읽기",
+      "cta_label": "신호 보기",
       "related_item_ids": [
-        "103dc92afc521d54417eaf440c0ec0bdfa51d4c7",
-        "242153d628bf6d2bfeb3fd5162b5927fd486e82d",
-        "15c6031b246adef1e1e5e2d798102fa0662ca2ea"
+        "8a44b903862e061a10db60226684f5529f4d904f",
+        "36aaf26e4aba24aa06e97d73303dfb592bb92326",
+        "242153d628bf6d2bfeb3fd5162b5927fd486e82d"
       ],
-      "score": 0.87,
-      "generated_at": "2026-05-23T03:15:50.468840+00:00",
+      "score": 0.88,
+      "generated_at": "2026-05-23T07:27:13.124361+00:00",
       "ai_model": "codex-cli",
-      "signal_title": "검색용 정리본이 전면에 나온다",
-      "summary_line": "이번 주엔 새 모델보다, 자료를 찾고 비교하고 다시 쓰게 만드는 정리본이 더 자주 보였다.",
+      "signal_title": "성능보다 전달 비용이 먼저 보인다",
+      "summary_line": "좋은 기술보다 예산, 통관, 배포 경로 같은 마지막 비용이 더 자주 기사 전면에 올라온다.",
       "signals": [
-        "모델 스펙 DB는 선택 도구를 넘어 운영 판단의 기준표로 쓰인다.",
-        "대형 아카이브는 웹페이지보다 JSON API와 대량 내려받기 방식이 더 주목받았다.",
-        "개인 영상도 로컬 색인과 사이드카 메타데이터로 다시 검색 가능한 자산이 된다."
+        "코딩 AI 뉴스의 중심이 성능보다 토큰 예산으로 옮겨갔다.",
+        "노트북 한 대 배송도 세금과 통관이 핵심 변수로 드러났다.",
+        "지식 접근 글은 웹페이지보다 토렌트와 API 같은 우회 경로를 전제로 한다."
       ]
     }
   ],
@@ -174025,21 +174048,22 @@
     "kind": "quiet_riser",
     "label": "AI Spotlight",
     "title": "조용히 커지는 주제",
-    "cta_label": "관련 기사 보기",
+    "cta_label": "흐름 보기",
     "related_item_ids": [
-      "06937cc58f76202386a630480b7990490adfa1be",
       "7eeaf266a867262bcbe288cb494b6304112fd044",
-      "a35083e7e1ab6ae31be754a0d6d66bd89760f293"
+      "06937cc58f76202386a630480b7990490adfa1be",
+      "8b50625a8ca3e61964b721a0e4d7a10793d6d3ce",
+      "b76c46431298032c5ffcecc596ec8ad6aaa2b71c"
     ],
-    "score": 0.95,
-    "generated_at": "2026-05-23T03:15:50.468840+00:00",
+    "score": 0.92,
+    "generated_at": "2026-05-23T07:27:13.124361+00:00",
     "ai_model": "codex-cli",
-    "topic_name": "에이전트에 맞춘 작업 언어",
-    "summary_line": "코드 문법보다 목표 전달과 점검, 병렬 실행을 먼저 설계하는 흐름이 또렷해졌다.",
+    "topic_name": "목표와 제약을 먼저 주는 에이전트",
+    "summary_line": "에이전트를 더 붙이기보다 어디까지 맡기고 어떻게 통제할지 설계하는 흐름이 이어진다.",
     "signals": [
-      "새 언어가 사람보다 에이전트의 읽고 고치기 경로를 앞세운다.",
-      "명령 한 줄보다 목표를 구조적으로 넘기는 인터페이스가 늘고 있다.",
-      "작업 보드와 로컬 워크트리까지 에이전트 실행 단위로 다시 짜인다."
+      "/goal처럼 목표를 구조화해 넘기는 인터페이스가 눈에 띈다.",
+      "Zero는 inspect·repair와 단일 경로를 언어 차원에서 밀어붙인다.",
+      "Boolean과 리서치 제약 글은 판단 범위를 먼저 묶는 습관을 강조한다."
     ]
   }
 }
