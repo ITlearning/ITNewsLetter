@@ -1,6 +1,601 @@
 {
   "items": [
     {
+      "id": "561ea138ce7b659704c4a64c2343d56516124a0b",
+      "title_hash": "cfff0fe67a1d8b61c4dd3ff495f7c5de56d99db0",
+      "source": "GeekNews",
+      "title": "Show GN: Blyck Video Understanding - Claude·Codex가 영상을 시각 근거와 함께 분석·검색하게 해주는 MCP",
+      "link": "https://news.hada.io/topic?id=34498",
+      "published_at": "2026-09-29T17:05:19+00:00",
+      "summary": "직접 만든 영상 분석 MCP 서버를 소개합니다. 무엇인가요 Claude Desktop, Claude Code, Codex, ChatGPT Desktop에 연결하는 영상 분석 도구(MCP 서버 + 스킬)입니다. 공개 YouTube 링크나 직접 올린 영상 파일을 분석해서 결과를 시간순 타임라인 으로 계정에 저장하",
+      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "75",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=0,tools_agents=30,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 30,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 30,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "mcp",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "mcp",
+        "ide",
+        "claude + code"
+      ],
+      "detail_slug": "561ea138ce7b659704c4a64c2343d56516124a0b",
+      "is_english_source": false,
+      "sent_at": "2026-09-29T17:14:02.574099+00:00"
+    },
+    {
+      "id": "6d2658411cb382c1a3efb7d3f71a3296daff6015",
+      "title_hash": "f859685ab5f31122565f88df38976b72747aa260",
+      "source": "GeekNews",
+      "title": "Jeeves - 추론으로 Jev 계열 의사결정 모델 개선하기",
+      "link": "https://news.hada.io/topic?id=34496",
+      "published_at": "2026-09-29T16:40:54+00:00",
+      "summary": "Jeeves 는 Qwen3.5-9B에 LoRA와 포인터 헤드를 결합하고, SFT와 CISPO로 판단 전에 추론하도록 학습한 의사결정 분류 모델임 추론 사용 시 테스트 종합 정확도 0.889 , JevBench 공개 문항 정확도 0.935를 기록함. 다만 JevBench 이외의 Kev/Jev 비교는 같은 데이터 ...",
+      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단"
+      ],
+      "detail_slug": "6d2658411cb382c1a3efb7d3f71a3296daff6015",
+      "is_english_source": false,
+      "sent_at": "2026-09-29T17:14:02.574099+00:00"
+    },
+    {
+      "id": "5a65faa52df184fa3af025f39a01b2c517d12641",
+      "title_hash": "9c85caf4ea628996d891f1a8c093835188e9559f",
+      "source": "GeekNews",
+      "title": "델리는 어떻게 전력 손실을 50%에서 5%로 줄였나",
+      "link": "https://news.hada.io/topic?id=34493",
+      "published_at": "2026-09-29T15:37:21+00:00",
+      "summary": "델리는 설비 손실, 전력 절도, 요금 미납을 함께 줄이는 개혁 으로 전력 손실률을 2002년 50% 이상에서 2026년 5~6%로 낮추고, 전력 공급 신뢰도 지표를 약 70%에서 99.9% 이상으로 높임 전력산업 구조 개편과 책임 강화 가 기술 투자의 기반이 됨. 배전 사업을 민간...",
+      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "52",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=0,strategy_insight=4,industry_business=7",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": 4,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "투자"
+          ],
+          "support_hits": [
+            "산업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자",
+        "산업"
+      ],
+      "detail_slug": "5a65faa52df184fa3af025f39a01b2c517d12641",
+      "is_english_source": false,
+      "sent_at": "2026-09-29T17:14:02.574099+00:00"
+    },
+    {
+      "id": "1e62ad2402561fa7bee421fde9906f1c91375ab0",
+      "title_hash": "00c814e8af888b73127828a028855a6ad04f101d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+      "link": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "published_at": "2026-09-29T09:03:41+00:00",
+      "summary": "HN story type: story HN points: 369 HN comments: 119 HN top comments: pbasista: Tangential: I have recently noticed that e.g. ChatGPT, when used from a web browser, periodically sends unfinished prompts to their servers, namely to the `conversation/prepare` endpoint, without waiting for the user to actually send it. This partial prompt data might potentially be used to \"pre-warm\" some kind of cache. But it may also be used to track the user's writing cadence, error correction style and evolut... kdaniel_03: It's the same lesson as the Navier-Stokes credit fight earlier this month. Buckmaster and Alpoge had their unpublished drafts in private Codex sessions and OpenAI says nobody saw them but admits de-identified product data may have improved its models. There it's training data, here it's ad trackers. Either way, prompts and results that should stay private don't. Thats why even though open models aren't perfect it... postalcoder: My least favorite trend I’ve noticed with so many AI chat services is they seem to equate a UUID in the url with privacy. Perplexity does this. Visiting a past perplexity search url exposes your full conversation.",
+      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49890226",
+      "hn_story_type": "story",
+      "hn_points": "369",
+      "hn_comments_count": "119",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49890226",
+      "hn_item_text": "",
+      "hn_comment_preview": "pbasista: Tangential: I have recently noticed that e.g. ChatGPT, when used from a web browser, periodically sends unfinished prompts to their servers, namely to the `conversation/prepare` endpoint, without waiting for the user to actually send it. This partial prompt data might potentially be used to \"pre-warm\" some kind of cache. But it may also be used to track the user's writing cadence, error correction style and evolut...\nkdaniel_03: It's the same lesson as the Navier-Stokes credit fight earlier this month. Buckmaster and Alpoge had their unpublished drafts in private Codex sessions and OpenAI says nobody saw them but admits de-identified product data may have improved its models. There it's training data, here it's ad trackers. Either way, prompts and results that should stay private don't. Thats why even though open models aren't perfect it...\npostalcoder: My least favorite trend I’ve noticed with so many AI chat services is they seem to equate a UUID in the url with privacy. Perplexity does this. Visiting a past perplexity search url exposes your full conversation.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "45",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=21,practical_tech=14,tools_agents=21,strategy_insight=6,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 21,
+        "strategy_insight": 6,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "cache",
+            "uuid"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 21,
+          "strong_hits": [
+            "ai agent",
+            "codex",
+            "ide"
+          ],
+          "support_hits": [
+            "prompt",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "prepare",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ai agent",
+        "codex",
+        "ide",
+        "prompt",
+        "agent"
+      ],
+      "detail_slug": "1e62ad2402561fa7bee421fde9906f1c91375ab0",
+      "is_english_source": true,
+      "sent_at": "2026-09-29T17:14:02.574099+00:00"
+    },
+    {
+      "id": "50ee66a423d86f1cdb179d70e1d6a595dae6bb08",
+      "title_hash": "3d409c61b5dbe1d21709f9a783820056787b57bf",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Using any C++ library in Godot",
+      "link": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
+      "published_at": "2026-09-29T08:40:37+00:00",
+      "summary": "HN story type: story HN points: 136 HN comments: 46 HN top comments: TedDallas: I’m using CPP with Godot for runtime procedural mesh generation. Works like a charm. It’s nice to have this option when you need it. valorzard: If you know rust, the Godot rust bindings for GDExtension are also really good and let you use any Rust library in Godot (including tokio and async rust if you really want) https://godot-rust.github.io/ voodooEntity: Was playing arround recently building an RTS with godot until i just hit the ceilling of what i could handle with gdscript performance wise. Than started to move alot of heavy logic to c++ simulation : tedious indeed but the results speak for themself. Basically allows me to use godot for things like menus dialogues and similar stuff while running the true heavy work in a c++ simulation.",
+      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49890051",
+      "hn_story_type": "story",
+      "hn_points": "136",
+      "hn_comments_count": "46",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49890051",
+      "hn_item_text": "",
+      "hn_comment_preview": "TedDallas: I’m using CPP with Godot for runtime procedural mesh generation. Works like a charm. It’s nice to have this option when you need it.\nvalorzard: If you know rust, the Godot rust bindings for GDExtension are also really good and let you use any Rust library in Godot (including tokio and async rust if you really want) https://godot-rust.github.io/\nvoodooEntity: Was playing arround recently building an RTS with godot until i just hit the ceilling of what i could handle with gdscript performance wise. Than started to move alot of heavy logic to c++ simulation : tedious indeed but the results speak for themself. Basically allows me to use godot for things like menus dialogues and similar stuff while running the true heavy work in a c++ simulation.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "45",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=4,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 21,
+        "tools_agents": 4,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 21,
+          "strong_hits": [
+            "performance",
+            "runtime",
+            "rust"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "extension"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "runtime"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "runtime",
+        "rust",
+        "library"
+      ],
+      "detail_slug": "50ee66a423d86f1cdb179d70e1d6a595dae6bb08",
+      "is_english_source": true,
+      "sent_at": "2026-09-29T17:14:02.574099+00:00"
+    },
+    {
+      "id": "83e109aba6fd9f2c23374cba9ec8271b69da954d",
+      "title_hash": "227bceed2b5ad6244d2ac34c1edf44e7b4880757",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: NSL – WSL for Linux",
+      "link": "https://frostyard.github.io/nsl/",
+      "published_at": "2026-09-29T14:51:36+00:00",
+      "summary": "HN story type: story HN points: 21 HN comments: 21 HN post text: One of the things that Windows really got right is WSL2. I drive an atomic Linux distro for daily use, but wanted a way to develop with multiple different distros with that same WSL UX. NSL is my answer. It is a faithful reproduction of the developer experience, powered by a single VM that hosts one or more systemd-nspawn containers with your development instances. Host file edits and port sharing come along for the ride, just like WSL. Take a look and tell me what you think... It's yet another step in my long journey to keep my host installation free from all the changing and breaking dev dependencies that force a reinstall every few months. HN top comments: 0x457: I'm confused why VM + systemd-nspawn? From my understaing WSL 2 runs a single VM + something like systemd-nspawn per \"linux installation\", but it runs a VM because it needs linux kernel. Why not just do systemd-nspawn if you alread on linux? rao-v: I have to say this is nice packaging. It is weirdly not obvious how nice it is to cleanly use a different “machine” inside your desktop. I never thought I’d prefer WSL to even my MacBook for working with remote servers and dev but somehow I do. I of course know the many ways to roll something like this for myself, yes dev containers are better for many things etc. but it’s wierd how good the ergonomics of a WSL li... rpcope1: So you've just basically reimplemented LXC?",
+      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49894351",
+      "hn_story_type": "story",
+      "hn_points": "21",
+      "hn_comments_count": "21",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49894351",
+      "hn_item_text": "One of the things that Windows really got right is WSL2. I drive an atomic Linux distro for daily use, but wanted a way to develop with multiple different distros with that same WSL UX. NSL is my answer. It is a faithful reproduction of the developer experience, powered by a single VM that hosts one or more systemd-nspawn containers with your development instances. Host file edits and port sharing come along for the ride, just like WSL. Take a look and tell me what you think... It's yet another step in my long journey to keep my host installation free from all the changing and breaking dev dependencies that force a reinstall every few months.",
+      "hn_comment_preview": "0x457: I'm confused why VM + systemd-nspawn? From my understaing WSL 2 runs a single VM + something like systemd-nspawn per \"linux installation\", but it runs a VM because it needs linux kernel. Why not just do systemd-nspawn if you alread on linux?\nrao-v: I have to say this is nice packaging. It is weirdly not obvious how nice it is to cleanly use a different “machine” inside your desktop. I never thought I’d prefer WSL to even my MacBook for working with remote servers and dev but somehow I do. I of course know the many ways to roll something like this for myself, yes dev containers are better for many things etc. but it’s wierd how good the ergonomics of a WSL li...\nrpcope1: So you've just basically reimplemented LXC?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 7,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "production",
+            "container",
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "production",
+        "container",
+        "show hn"
+      ],
+      "detail_slug": "83e109aba6fd9f2c23374cba9ec8271b69da954d",
+      "is_english_source": true,
+      "sent_at": "2026-09-29T17:14:02.574099+00:00"
+    },
+    {
+      "id": "ae53b3ca84720f2f0b34ff1dd72465a342676ddd",
+      "title_hash": "ec1ceba7f32aabd822e449759dfae97ca07e73c9",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Google ending ChromeOS support two years early",
+      "link": "https://www.theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674",
+      "published_at": "2026-09-29T14:12:15+00:00",
+      "summary": "HN story type: story HN points: 98 HN comments: 75 HN top comments: TheqO: > Googlebooks are the big G’s replacement for Chromebooks, the web-centric computers it launched in 2011 and which run ChromeOS. Chromebooks have won plenty of admirers in the education sector, especially schools which see them as a fine way to get decent and well-priced computers into kids’ hands without having to take on the burden of managing a full OS. The newer Googlebook range uses more powerful processors t... steveBK123: Extremely sarcastic take but - shouldn't the 10x productivity boost of LLMs like their own in-house Gemini make maintaining software easier? Nothing in terms of feature release / quality / maintenance I am seeing out Big Software would lead me to believe there's been any productivity increase. fauigerzigerk: So for new devices, they will support ChromeOS for another 8 years and then offer an upgrade to Googlebook OS. I get that this is not 10 years support for ChromeOS. But it is 10 years of supported software upgrades for these devices. Perhaps the real issue is not the OS that runs on the devices themselves but support for the existing device management approach.",
+      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49893653",
+      "hn_story_type": "story",
+      "hn_points": "98",
+      "hn_comments_count": "75",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49893653",
+      "hn_item_text": "",
+      "hn_comment_preview": "TheqO: > Googlebooks are the big G’s replacement for Chromebooks, the web-centric computers it launched in 2011 and which run ChromeOS. Chromebooks have won plenty of admirers in the education sector, especially schools which see them as a fine way to get decent and well-priced computers into kids’ hands without having to take on the burden of managing a full OS. The newer Googlebook range uses more powerful processors t...\nsteveBK123: Extremely sarcastic take but - shouldn't the 10x productivity boost of LLMs like their own in-house Gemini make maintaining software easier? Nothing in terms of feature release / quality / maintenance I am seeing out Big Software would lead me to believe there's been any productivity increase.\nfauigerzigerk: So for new devices, they will support ChromeOS for another 8 years and then offer an upgrade to Googlebook OS. I get that this is not 10 years support for ChromeOS. But it is 10 years of supported software upgrades for these devices. Perhaps the real issue is not the OS that runs on the devices themselves but support for the existing device management approach.",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "36",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=12,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=12",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 12
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 12,
+          "strong_hits": [
+            "release",
+            "launch"
+          ],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "release",
+        "launch",
+        "platform"
+      ],
+      "detail_slug": "ae53b3ca84720f2f0b34ff1dd72465a342676ddd",
+      "is_english_source": true,
+      "sent_at": "2026-09-29T17:14:02.574099+00:00"
+    },
+    {
       "id": "db4de78fbc673c8df421a96aa536ad5fe0fff764",
       "title_hash": "dc1b6a5dc0c49b28c78ea83db24ebcc56c4428b5",
       "source": "GeekNews",
@@ -172016,629 +172611,6 @@
       "hn_reaction_summary": "댓글 분위기는 대체로 공감과 가벼운 개선 제안 쪽에 가깝다. 특히 포트 충돌과 유령 프로세스 정리에 지친 개발자들이 문제의식에 크게 반응했다.\n- 가장 반복된 반응은 `lsof -iTCP | grep ...` 같은 기존 흐름이 번거롭다는 점이었다. 작은 CLI라도 이 불편을 줄여주면 충분히 쓸 만하다는 의견이 나왔다.\n- 눈에 띈 보완 요구는 Docker와 원격 접속 환경 지원이다. `localhost` 대신 특정 IP나 네트워크 장치 기준으로 URL을 보여달라는 요청이 있었다.\n- 제품 이름이 SonarQube를 떠올리게 한다는 가벼운 지적도 있었지만, 전체적으로는 도구의 방향보다 사용 맥락과 확장성에 관심이 더 모였다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-03-20T13:41:04.386163+00:00"
-    },
-    {
-      "id": "6de040788f358d7f50dfd2c8fe304e1a939cfd75",
-      "title_hash": "c607f3ee391731faf20ff31f3e96bae187480de5",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Cursor Composer 2 is just Kimi K2.5 with RL",
-      "link": "https://twitter.com/fynnso/status/2034706304875602030",
-      "published_at": "2026-03-20T09:41:51+00:00",
-      "summary": "HN story type: story HN points: 160 HN comments: 74 HN top comments: mohsen1: Cursor Composer 1 was Qwen and this is Kimi. IDE is based on VSCode. The entire company is build on packaging open source and reselling it. Ollama is also doing this. There is so much money to be made repackaging open source these days. So funny to see Twitter go wild saying \"a 50 person team just beat Anthropic\" blah blah. deaux: Looks like two Moonshot employees confirmed that it's not licensed before Moonshot made the decision to get out of the debate and delete their posts [0][1]. [0] https://chainthink.cn/zh-CN/news/113784276696010804 - may have originally been https://x.com/apples_jimmy/status/2034920082602864990 [1] https://pbs.twimg.com/media/HD2Ky9jW4AAAe0Y?format=jpg&name=... gillesjacobs: Cursor is mostly an IDE / coding-agent harness company. So it probably makes sense for them not to train their own base model, but instead license something like Kimi and fine-tune it for their own harness and workflows. Their moat looks pretty thin. A VSCode fork with an open-source LLM fork on top. In the fast-moving coding-agent market, it’s not obvious they keep their massive valuation forever.",
-      "fetched_at": "2026-03-20T13:38:30.528118+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47452404",
-      "hn_story_type": "story",
-      "hn_points": "160",
-      "hn_comments_count": "74",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47452404",
-      "hn_item_text": "",
-      "hn_comment_preview": "mohsen1: Cursor Composer 1 was Qwen and this is Kimi. IDE is based on VSCode. The entire company is build on packaging open source and reselling it. Ollama is also doing this. There is so much money to be made repackaging open source these days. So funny to see Twitter go wild saying \"a 50 person team just beat Anthropic\" blah blah.\ndeaux: Looks like two Moonshot employees confirmed that it's not licensed before Moonshot made the decision to get out of the debate and delete their posts [0][1]. [0] https://chainthink.cn/zh-CN/news/113784276696010804 - may have originally been https://x.com/apples_jimmy/status/2034920082602864990 [1] https://pbs.twimg.com/media/HD2Ky9jW4AAAe0Y?format=jpg&name=...\ngillesjacobs: Cursor is mostly an IDE / coding-agent harness company. So it probably makes sense for them not to train their own base model, but instead license something like Kimi and fine-tune it for their own harness and workflows. Their moat looks pretty thin. A VSCode fork with an open-source LLM fork on top. In the fast-moving coding-agent market, it’s not obvious they keep their massive valuation forever.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "58",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=34,practical_tech=5,tools_agents=34,strategy_insight=13,industry_business=9",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 34,
-        "strategy_insight": 13,
-        "industry_business": 9
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "valuation"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 34,
-          "strong_hits": [
-            "workflow",
-            "cursor",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "workflow",
-            "agent"
-          ],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [
-            "agent + workflow",
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 13,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "team + workflow"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 9,
-          "strong_hits": [
-            "valuation"
-          ],
-          "support_hits": [
-            "company",
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "workflow",
-        "cursor",
-        "ide",
-        "llm",
-        "agent",
-        "agent + workflow",
-        "ai + coding"
-      ],
-      "detail_slug": "6de040788f358d7f50dfd2c8fe304e1a939cfd75",
-      "is_english_source": true,
-      "translated_title": "Cursor Composer 2, Kimi K2.5 기반 논란",
-      "short_summary": "Hacker News에서는 Cursor Composer 2가 사실상 Kimi K2.5 RL을 얹은 것 아니냐는 주장이 화제가 됐다. 댓글은 자체 모델 경쟁력보다 제품 포장, 라이선스, 해자의 실체를 따지는 쪽으로 흘렀다.",
-      "why_it_matters": "코딩 도구 시장에서는 모델을 직접 만들었는지보다 어떤 모델을 어떻게 묶어 실제 업무 흐름에 얹었는지가 더 큰 경쟁 포인트가 되고 있다. 이번 논쟁은 AI IDE를 고를 때 무엇을 확인해야 하는지 다시 보여준다.\n- 실무팀은 '자체 모델' 같은 홍보 문구보다 실제 기반 모델, 라이선스 상태, 데이터 처리 조건을 먼저 확인할 필요가 있다.\n- 성능이 비슷하다면 승부처는 모델 이름보다 IDE 통합, 에이전트 흐름, 협업 경험, 가격 정책으로 옮겨간다.\n- 외부 모델 의존도가 높으면 공급처 변경이나 정책 이슈가 곧바로 품질과 비용, 법무 리스크로 이어질 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 냉소적이었다. Cursor를 새 모델을 만든 회사라기보다 오픈소스와 외부 모델을 잘 포장해 파는 제품 회사로 보는 시각이 강했다.\n- 반복해서 나온 쟁점은 '정말 자체 성과인가'와 '기반 모델 라이선스가 어떻게 정리됐는가'였다.\n- 한쪽에서는 AI IDE의 본질이 원천 모델이 아니라 워크플로 설계에 있다고 봤고, 다른 쪽에서는 그런 구조로는 해자가 얇다고 지적했다.\n- 실무자가 볼 만한 논점은 화려한 데모보다 벤더 의존도, 계약 관계, 장기적인 제품 지속성을 어떻게 판단할지에 모였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-20T13:41:04.386163+00:00"
-    },
-    {
-      "id": "f655b6289513a66e7d2d66d9fe25d76ee23caba9",
-      "title_hash": "b9d4f930ae5ae98e9edc87370e357e0f570d85b2",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The Reason Windows Hate Is Exploding: It's the End of Personal Computing [video]",
-      "link": "https://www.youtube.com/watch?v=e7a89ZYcTo8",
-      "published_at": "2026-03-20T11:15:44+00:00",
-      "summary": "HN story type: story HN points: 43 HN comments: 34 HN top comments: askonomm: Pretty sure it's just that Windows is horribly broken, privacy-invading, ad-ridden malware disguised as an operating system. I swear it seems like nobody at Microsoft not even once have asked the actual users for what they would like to see in the OS. goalieca: Windows was fiercely hated for a long time for being extremely buggy, low quality, high price, weak security (a later concern), and Microsoft’s general anti-consumer and anti-competitive practices. Things improved slightly for a while and maybe the generation of Mac/linux using tech workers never suffered through the worst of it, but Microsoft seems to be back on track with their old ways. mancerayder: When is gaming on the latest hardware going to be mature enough to move off this garbage operating system? Can I play Kingdom Come II on Mint now? If not, are we moving there?",
-      "fetched_at": "2026-03-20T13:38:30.528118+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47453045",
-      "hn_story_type": "story",
-      "hn_points": "43",
-      "hn_comments_count": "34",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47453045",
-      "hn_item_text": "",
-      "hn_comment_preview": "askonomm: Pretty sure it's just that Windows is horribly broken, privacy-invading, ad-ridden malware disguised as an operating system. I swear it seems like nobody at Microsoft not even once have asked the actual users for what they would like to see in the OS.\ngoalieca: Windows was fiercely hated for a long time for being extremely buggy, low quality, high price, weak security (a later concern), and Microsoft’s general anti-consumer and anti-competitive practices. Things improved slightly for a while and maybe the generation of Mac/linux using tech workers never suffered through the worst of it, but Microsoft seems to be back on track with their old ways.\nmancerayder: When is gaming on the latest hardware going to be mature enough to move off this garbage operating system? Can I play Kingdom Come II on Mint now? If not, are we moving there?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security"
-      ],
-      "detail_slug": "f655b6289513a66e7d2d66d9fe25d76ee23caba9",
-      "is_english_source": true,
-      "translated_title": "윈도우 반감이 커지는 이유, 개인용 PC의 끝",
-      "short_summary": "HN에서 화제가 된 이 영상은 윈도우를 향한 반감이 왜 다시 커지는지, 그리고 개인용 컴퓨팅의 성격이 어떻게 바뀌었는지를 연결해 다룬다. 댓글에서는 광고, 추적, 불안정성에 지친 이용자들과 게임만 아니면 리눅스로 옮기고 싶다는 반응이 이어졌다.",
-      "why_it_matters": "이 이슈는 단순한 운영체제 취향 싸움이 아니다. 개인용 PC가 사용자의 도구라기보다 플랫폼 사업자의 수익 채널처럼 바뀌고 있다는 불만이 깔려 있어, 실무 환경에도 바로 영향을 준다.\n- 윈도우의 광고 노출, 계정 연동 유도, 기본 기능 강제에 대한 거부감이 커지면서 사내 PC 세팅과 사용자 지원 부담도 함께 늘어난다.\n- 개발 환경이나 보안, 프라이버시를 중시하는 팀일수록 macOS나 Linux를 대안으로 검토하는 흐름이 더 현실적인 선택지로 올라온다.\n- 반대로 게임, 전용 업무 소프트웨어, 드라이버 호환성은 아직 강한 잠금 효과를 만든다. 실제 전환은 감정보다 호환성과 운영 비용이 좌우한다.",
-      "hn_reaction_summary": "댓글 분위기는 거칠지만 한쪽으로만 쏠리진 않았다. 전반적으로는 윈도우가 예전의 나쁜 습관으로 되돌아갔다는 피로감이 강했고, 특히 광고와 추적, 품질 저하가 반복해서 지적됐다.\n- 가장 많은 공감은 '윈도우가 이제 운영체제보다 광고판과 수집 도구에 가깝다'는 불만에 모였다.\n- 일부는 이런 반응이 새삼스러운 일이 아니라 예전부터 있던 반감이 다시 수면 위로 올라온 것이라고 봤다.\n- 실무적으로 눈에 띄는 논점은 리눅스 전환 가능성이었다. 다만 최신 게임과 특정 소프트웨어 호환성 때문에 아직은 완전 이탈이 어렵다는 반론도 함께 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-20T13:41:04.386163+00:00"
-    },
-    {
-      "id": "5631d285f0b10a67deb0c75ace445ce803d9dfd8",
-      "title_hash": "da48f8e434b08632b04f11f357e2f2b117fc51da",
-      "source": "GeekNews",
-      "title": "Anthropic, OpenCode에 법적 요청 발송",
-      "link": "https://news.hada.io/topic?id=27671",
-      "published_at": "2026-03-20T03:33:37+00:00",
-      "summary": "OpenCode 저장소에서 Anthropic 관련 코드와 인증 기능이 법적 요청에 따라 삭제됨 삭제 항목에는 Anthropic 시스템 프롬프트 파일 , opencode-anthropic-auth 플러그인 , Claude Pro/Max OAuth 흐름 , Anthropic 관련 헤...",
-      "fetched_at": "2026-03-20T09:32:23.838338+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "57",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=12,practical_tech=2,tools_agents=12,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 12,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "프롬프트",
-        "claude + code"
-      ],
-      "detail_slug": "5631d285f0b10a67deb0c75ace445ce803d9dfd8",
-      "is_english_source": false,
-      "sent_at": "2026-03-20T09:35:25.157198+00:00"
-    },
-    {
-      "id": "85bb199cf0dca4ce6535aae4ed76e9f3cda2be28",
-      "title_hash": "87e6a9445d6c68e5397f783b45aaf3fee4135a3e",
-      "source": "GeekNews",
-      "title": "Adobe, 구독 해지 방해 혐의로 미국 법무부에 1억 5천만 달러(약 2,249억 원) 합의",
-      "link": "https://news.hada.io/topic?id=27678",
-      "published_at": "2026-03-20T06:23:29+00:00",
-      "summary": "Adobe가 구독 플랜의 조기 해지 수수료(Early Termination Fee)를 작은 글씨와 눈에 띄지 않는 하이퍼링크로 숨기고, 해지 과정을 불필요한 단계·지연·비요청 제안·경고로 의도적으로 복잡하게 만든 혐의 미국 법무부(DOJ)와 FTC가 온라인 소비자 신뢰 회복법(ROSCA) 위반으로 소송, 총",
-      "fetched_at": "2026-03-20T09:32:23.838338+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=-4,tools_agents=0,strategy_insight=8,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": 8,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "소송"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "소송"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "소송"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "신뢰"
-      ],
-      "detail_slug": "85bb199cf0dca4ce6535aae4ed76e9f3cda2be28",
-      "is_english_source": false,
-      "sent_at": "2026-03-20T09:35:25.157198+00:00"
-    },
-    {
-      "id": "89f19f0e8ed5768f2e815d44dd3d6d858f29e59a",
-      "title_hash": "0aba10c9c398d9693be65b0d13b2519492cb6021",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Full Disclosure: A Third (and Fourth) Azure Sign-In Log Bypass Found",
-      "link": "https://trustedsec.com/blog/full-disclosure-a-third-and-fourth-azure-sign-in-log-bypass-found",
-      "published_at": "2026-03-20T01:09:45+00:00",
-      "summary": "HN story type: story HN points: 137 HN comments: 28 HN top comments: kjellsbells: Puts me in mind of this scathing report from CISA on how a state-sponsored group broke into Microsoft and then into the State Department and a bunch of other agencies. Reads like a heist movie. https://www.cisa.gov/sites/default/files/2024-03/CSRB%20Revi... What I found most incredible about the story is that it wasn't Microsoft who found the intrusion. It was some sysadmin at State who saw that some mail logs did... throwoutway: Yesterday ProPublica and ArsTechnica published a takedown of Azure: \"Federal cyber experts called Microsoft’s cloud a “pile of shit,” approved it anyway\" ... https://arstechnica.com/information-technology/2026/03/feder... vaylian: > Having done a fair bit of logging to databases with various scripts, I believe this was a simple matter of overflowing the SQL column length for a field, causing the entire INSERT to fail. This is a common beginner mistake when you first start to work with databases. I'm not sure if I understand this part. I'm trying to put it into my own words. Is the following correct? The attacker provided an input that was s...",
-      "fetched_at": "2026-03-20T09:32:23.838338+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47448994",
-      "hn_story_type": "story",
-      "hn_points": "137",
-      "hn_comments_count": "28",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47448994",
-      "hn_item_text": "",
-      "hn_comment_preview": "kjellsbells: Puts me in mind of this scathing report from CISA on how a state-sponsored group broke into Microsoft and then into the State Department and a bunch of other agencies. Reads like a heist movie. https://www.cisa.gov/sites/default/files/2024-03/CSRB%20Revi... What I found most incredible about the story is that it wasn't Microsoft who found the intrusion. It was some sysadmin at State who saw that some mail logs did...\nthrowoutway: Yesterday ProPublica and ArsTechnica published a takedown of Azure: \"Federal cyber experts called Microsoft’s cloud a “pile of shit,” approved it anyway\" ... https://arstechnica.com/information-technology/2026/03/feder...\nvaylian: > Having done a fair bit of logging to databases with various scripts, I believe this was a simple matter of overflowing the SQL column length for a field, causing the entire INSERT to fail. This is a common beginner mistake when you first start to work with databases. I'm not sure if I understand this part. I'm trying to put it into my own words. Is the following correct? The attacker provided an input that was s...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 7,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "database",
-            "rust",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "database",
-        "rust",
-        "sql"
-      ],
-      "detail_slug": "89f19f0e8ed5768f2e815d44dd3d6d858f29e59a",
-      "is_english_source": true,
-      "translated_title": "Azure 로그인 로그 우회, 세 번째·네 번째 발견",
-      "short_summary": "Azure Sign-In 로그를 남기지 않거나 비워 탐지를 피할 수 있는 우회 기법이 추가로 공개됐다. 인증 자체보다 감사 로그의 신뢰가 흔들린다는 점에서 운영팀과 보안팀의 긴장감이 크다.",
-      "why_it_matters": "이번 이슈는 계정 방어선이 아니라 기록 체계가 흔들릴 때 어떤 일이 생기는지 보여준다. 실무에서는 탐지 규칙을 더 붙이는 것보다 로그가 빠지거나 실패하는 조건을 먼저 확인해야 한다.\n- Azure 로그인 로그를 SIEM, 포렌식, 규제 대응의 기준으로 써왔다면 누락 시 어떤 경보와 조사 흐름이 멈추는지 다시 점검해야 한다.\n- 필드 길이 초과나 예외 처리 실패처럼 단순한 입력 처리 문제가 실제로는 감사 공백으로 이어질 수 있다는 점이 드러났다.\n- 클라우드 제공사 로그만 믿기보다 별도 수집 경로, 교차 검증, 실패 알림을 두는 운영 방식이 더 자주 요구될 가능성이 크다.",
-      "hn_reaction_summary": "HN 댓글은 대체로 냉소적이었다. 기술적으로는 단순한 실수처럼 보이는데, 그런 문제가 대형 클라우드의 보안 로그에서 반복된다는 점을 더 크게 문제 삼는 분위기였다.\n- 여러 댓글이 CISA 보고서와 최근 보도를 끌어오며 Microsoft가 침해를 스스로 먼저 찾아내지 못했던 전례를 다시 언급했다.\n- 일부는 DB 컬럼 길이 초과 같은 기본적인 로그 저장 실패일 수 있다고 추정했고, 맞다면 오히려 더 난감하다는 반응이 나왔다.\n- Azure를 강하게 비판하는 의견이 많았지만, 동시에 실제 실패 메커니즘을 더 정확히 설명해 달라는 기술적 검증 요구도 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-20T09:35:25.157198+00:00"
-    },
-    {
-      "id": "b8f1a1a35fa321eb281c90d50a0239b163ef3446",
-      "title_hash": "de10234da38560bb38880fd473304f2caa92c315",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Google details new 24-hour process to sideload unverified Android apps",
-      "link": "https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/",
-      "published_at": "2026-03-19T17:16:04+00:00",
-      "summary": "HN story type: story HN points: 800 HN comments: 886 HN post text: https://android-developers.googleblog.com/2026/03/android-de... HN top comments: tavavex: The part in the flow where you select between allowing app installs for 7 days or forever is a glimpse into the future. That toggle shows the thought process that's going on at Google. I can bet that a few versions down the line, the \"Not recommended\" option of allowing installs indefinitely will become so not recommended that they'll remove it outright. Then shrink the 7 day window to 3 days or less. Or only give... grishka: At this point I'm convinced that there's something deeply wrong with how our society treats technology. Ruining Android for everyone to try to maybe help some rather technologically-hopeless groups of people is the wrong solution. It's unsustainable in the long run. Also, the last thing this world needs right now is even more centralization of power. Especially around yet another US company. People who are unwilli... astra1701: This is going to hurt legitimate sideloading way more than actually necessary to reduce scams: - Must enable developer mode -- some apps (e.g., banking apps) will refuse to operate and such when developer mode is on, and so if you depend on such apps, I guess you just can't sideload? - One-day (day!!!) waiting period to activate (one-time) -- the vast majority of people who need to sideload something will probably...",
-      "fetched_at": "2026-03-20T09:32:23.838338+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47442690",
-      "hn_story_type": "story",
-      "hn_points": "800",
-      "hn_comments_count": "886",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47442690",
-      "hn_item_text": "https://android-developers.googleblog.com/2026/03/android-de...",
-      "hn_comment_preview": "tavavex: The part in the flow where you select between allowing app installs for 7 days or forever is a glimpse into the future. That toggle shows the thought process that's going on at Google. I can bet that a few versions down the line, the \"Not recommended\" option of allowing installs indefinitely will become so not recommended that they'll remove it outright. Then shrink the 7 day window to 3 days or less. Or only give...\ngrishka: At this point I'm convinced that there's something deeply wrong with how our society treats technology. Ruining Android for everyone to try to maybe help some rather technologically-hopeless groups of people is the wrong solution. It's unsustainable in the long run. Also, the last thing this world needs right now is even more centralization of power. Especially around yet another US company. People who are unwilli...\nastra1701: This is going to hurt legitimate sideloading way more than actually necessary to reduce scams: - Must enable developer mode -- some apps (e.g., banking apps) will refuse to operate and such when developer mode is on, and so if you depend on such apps, I guess you just can't sideload? - One-day (day!!!) waiting period to acti...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "31",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=4,tools_agents=7,strategy_insight=4,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 4,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "b8f1a1a35fa321eb281c90d50a0239b163ef3446",
-      "is_english_source": true,
-      "translated_title": "구글, 검증 안 된 앱 설치에 24시간 절차 도입",
-      "short_summary": "구글이 검증되지 않은 안드로이드 앱을 사이드로드할 때 24시간 대기와 추가 확인을 거치는 새 절차를 공개했다. HN에서는 사기 방지 취지에는 공감하면서도 정상적인 사이드로딩까지 지나치게 어렵게 만든다는 반응이 많았다.",
-      "why_it_matters": "안드로이드의 개방성이 한 단계 더 좁아질 수 있다는 점에서 개발자와 운영팀이 바로 신경 써야 할 변화다. 앱 배포 방식뿐 아니라 테스트와 고객 지원 흐름에도 손이 갈 가능성이 크다.\n- 플레이스토어 밖에서 앱을 배포하는 팀은 설치 가이드, FAQ, 온보딩 문구를 새 절차에 맞춰 다시 정리해야 할 수 있다.\n- 사내용 앱이나 베타 테스트처럼 합법적인 사이드로딩도 대기 시간과 권한 설정 때문에 이탈이 늘고 지원 문의가 많아질 수 있다.\n- 보안 강화라는 명분과 별개로, 비공식 배포 경로를 점점 더 좁히는 신호로 읽혀 플랫폼 의존이 더 커질 수 있다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 전반적으로 비판적이다. 이용자 보호 필요성은 인정하면서도, 이번 조치가 실제 악성 앱보다 정상 사용자와 개발자에게 더 큰 마찰을 준다는 지적이 반복됐다.\n- 가장 많이 나온 우려는 24시간 대기와 기간 제한이 앞으로 더 강한 설치 제한으로 이어질 수 있다는 점이다.\n- 개발자 모드가 사실상 필수처럼 되면 일부 금융 앱처럼 이를 꺼리는 앱과 충돌해 합법적 설치가 더 어려워진다는 의견도 많았다.\n- 반대로 설치 사기를 줄이려면 어느 정도 불편은 필요하다는 시각도 있었지만, 구글 쪽으로 통제가 더 쏠린다는 반론이 더 강하게 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-20T09:35:25.157198+00:00"
-    },
-    {
-      "id": "515c97fd726e5c7eab86809c0ccda1dc48d696e1",
-      "title_hash": "2ace2b3734ee1c78ceed29f45cdc4dcc5982e713",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "How the Turner twins are mythbusting modern technical apparel",
-      "link": "https://www.carryology.com/insights/how-the-turner-twins-are-mythbusting-modern-gear/",
-      "published_at": "2026-03-17T19:19:44+00:00",
-      "summary": "HN story type: story HN points: 219 HN comments: 111 HN top comments: pinkmuffinere: > During their simulation of Mallory’s Everest expedition, the data showed that on summit night, the average body temperature difference between the twin in modern down and the twin in complicated layers of silk, wool, and gabardine was a staggering 1.8°C. The human body self-regulates, and is pretty sensitive to dramatic temperature swings. So, conditioned on the fact that they both survived the adventure, we sho... aidenn0: So other than being easier to use, cheaper to buy, lighter, and warmer: modern apparel isn't any better than old apparel. jldugger: > the data showed that on summit night, the average body temperature difference between the twin in modern down and the twin in complicated layers of silk, wool, and gabardine was a staggering 1.8°C. > “In a hundred years, you’ve gained—arguably—one degree of efficiency per 50 years,” Ross reveals. Depending on where the baseline is, 1.8 degrees could be huge! But more importantly, heat dissapation is a non-linear...",
-      "fetched_at": "2026-03-20T09:32:23.838338+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47416972",
-      "hn_story_type": "story",
-      "hn_points": "219",
-      "hn_comments_count": "111",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47416972",
-      "hn_item_text": "",
-      "hn_comment_preview": "pinkmuffinere: > During their simulation of Mallory’s Everest expedition, the data showed that on summit night, the average body temperature difference between the twin in modern down and the twin in complicated layers of silk, wool, and gabardine was a staggering 1.8°C. The human body self-regulates, and is pretty sensitive to dramatic temperature swings. So, conditioned on the fact that they both survived the adventure, we sho...\naidenn0: So other than being easier to use, cheaper to buy, lighter, and warmer: modern apparel isn't any better than old apparel.\njldugger: > the data showed that on summit night, the average body temperature difference between the twin in modern down and the twin in complicated layers of silk, wool, and gabardine was a staggering 1.8°C. > “In a hundred years, you’ve gained—arguably—one degree of efficiency per 50 years,” Ross reveals. Depending on where the baseline is, 1.8 degrees could be huge! But more importantly, heat dissapation is a non-linear...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "venture"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rag"
-      ],
-      "detail_slug": "515c97fd726e5c7eab86809c0ccda1dc48d696e1",
-      "is_english_source": true,
-      "translated_title": "터너 쌍둥이가 밝힌 기능성 의류의 진실",
-      "short_summary": "터너 쌍둥이는 에베레스트 원정 복장을 재현해 현대 다운 의류와 옛 등반복을 비교했다. 체온 차는 평균 1.8도였지만, 무게와 착용 편의성까지 보면 현대 기술의 체감 진전이 더 크다는 점을 보여준다.",
-      "why_it_matters": "숫자만 보면 차이가 작아 보일 수 있다. 하지만 현장에서는 이런 차이가 피로, 움직임, 안전 여유를 바꾸기 때문에 장비 평가 기준 자체를 다시 생각하게 만든다.\n- 보온 성능만 따로 볼 일이 아니라 무게, 부피, 레이어링 난이도, 활동성까지 함께 봐야 한다.\n- 아웃도어와 작업복 실무에서는 소재 한 가지보다 전체 착용 시스템을 얼마나 단순하게 설계하느냐가 더 큰 차이를 만든다.\n- 극한 환경이 아니어도 추위 노출과 땀 관리가 겹치면 작은 성능 차이가 누적돼 결과를 크게 바꿀 수 있다.",
-      "hn_reaction_summary": "HN에서는 수치 자체보다 그 해석을 두고 반응이 갈렸다. 댓글 분위기는 대체로 흥미롭다는 쪽이지만, 1.8도라는 결과를 어떻게 읽어야 하는지에 논쟁이 붙었다.\n- 한쪽은 더 가볍고 따뜻하고 쓰기 쉬우면 이미 현대 의류의 우위는 충분하다고 봤다.\n- 다른 쪽은 평균 1.8도만 떼어 과장하면 안 된다고 지적하면서도, 열 손실은 비선형이라 임계 상황에서는 작은 차이도 크게 작용할 수 있다고 봤다.\n- 반복해서 나온 논점은 기준선, 실험 맥락, 생존 마진을 함께 봐야 한다는 점이었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-20T09:35:25.157198+00:00"
     }
   ],
   "topic_digests": {
