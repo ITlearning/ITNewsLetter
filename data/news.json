@@ -1,6 +1,564 @@
 {
   "items": [
     {
+      "id": "885ec5a1cfd7be02f5cdf5289aed14a535113dba",
+      "title_hash": "71c7672ce990d5c38d24032d2b38ac8206469658",
+      "source": "GeekNews",
+      "title": "Livenerf - Opus 5.5는 벌써 성능이 하향됐을까?",
+      "link": "https://news.hada.io/topic?id=34519",
+      "published_at": "2026-09-30T01:33:40+00:00",
+      "summary": "“출시 직후보다 모델이 나빠졌다”는 체감이 실제 성능 변화인지 확인하기 위해, 같은 문제를 매일 풀게 하고 결과를 비교 하는 벤치마크 원시 API가 아니라 Claude Code 구독으로 사용하는 Opus 5.5 를 측정해, 실제 구독 환경에서의 변화를 추적함 프롬프...",
+      "fetched_at": "2026-09-30T09:53:18.905472+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=7,tools_agents=15,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 15,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "885ec5a1cfd7be02f5cdf5289aed14a535113dba",
+      "is_english_source": false,
+      "sent_at": "2026-09-30T09:55:59.556871+00:00"
+    },
+    {
+      "id": "a99a98fc6cf0d626c1d999fbf5589500f1eeacce",
+      "title_hash": "74ab364ed6551db38c12aa9718bdf83019df9c76",
+      "source": "GeekNews",
+      "title": "Show GN: Conn - AI와 함께 쓰고, 언제든 내가 끼어드는 터미널",
+      "link": "https://news.hada.io/topic?id=34530",
+      "published_at": "2026-09-30T03:39:47+00:00",
+      "summary": "회사 사내망에서는 GitHub Copilot만 쓸 수 있어 터미널을 연결해 작업을 맡겨봤습니다. 원치 않는 스크립트를 실행하는데, 위험한 명령을 막거나 중간에 끼어들기가 어렵더군요. iTerm MCP도 고려했지만, 제가 필요했던 건 명령에 규칙을 정하고 언제든 직접 개입할 수 있는 터미널이었습니다. 그래서 Conn을",
+      "fetched_at": "2026-09-30T09:53:18.905472+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=0,tools_agents=14,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 14,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "copilot",
+            "mcp"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "copilot",
+        "mcp"
+      ],
+      "detail_slug": "a99a98fc6cf0d626c1d999fbf5589500f1eeacce",
+      "is_english_source": false,
+      "sent_at": "2026-09-30T09:55:59.556871+00:00"
+    },
+    {
+      "id": "c0b2d1a8ac4bf4379c74b24daa491608f5909b3b",
+      "title_hash": "9dca95cd68bead521b7d4b1c6de98cda03df9503",
+      "source": "GeekNews",
+      "title": "Backblaze의 2026년 2분기 드라이브 통계",
+      "link": "https://news.hada.io/topic?id=34539",
+      "published_at": "2026-09-30T09:34:24+00:00",
+      "summary": "Backblaze가 데이터 저장용 HDD 354,415대 를 분석한 결과, 2026년 2분기 연환산 고장률(AFR)은 1.73% 로 최근 한동안의 수준보다 높아짐 전체 31개 모델 중 10개 모델의 AFR이 3%를 초과 했으며, 특히 높은 3개 모델에는 오래된 사용 연수와 적은 ...",
+      "fetched_at": "2026-09-30T09:53:18.905472+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [],
+      "detail_slug": "c0b2d1a8ac4bf4379c74b24daa491608f5909b3b",
+      "is_english_source": false,
+      "sent_at": "2026-09-30T09:55:59.556871+00:00"
+    },
+    {
+      "id": "d6ca31effafcc02dff17ffd95a572103f814dafb",
+      "title_hash": "055194bcac3e14c73e9f072934e4f2b926980691",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Why Is Sam Altman a Free Man?",
+      "link": "https://prospect.org/2026/09/29/artificial-intelligence-agents-openai-microsoft-sam-altman-greg-brockman-ah-nice/",
+      "published_at": "2026-09-30T07:32:40+00:00",
+      "summary": "HN story type: story HN points: 80 HN comments: 37 HN top comments: k310: Wilhoit's law. “Conservatism consists of exactly one proposition, to wit: There must be in-groups whom the law protects but does not bind, alongside out-groups whom the law binds but does not protect.” https://pylimitics.net/wilhoits-law/ throwawayffffas: The models \"go rogue\" because they are not sufficiently sandboxed. Arguably there is no criminal intent on the side of OpenAI in all of those cases. And in at least one case the agents were operated by other companies. So it looks to me that any liability would be civil in nature and given the actual damage done pretty limited. Rhaskins: Seems like \"mismanaging a board\" isn't exactly a felony. Plus, wealth helps keep the cuffs off, eh?",
+      "fetched_at": "2026-09-30T09:53:18.905472+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49905633",
+      "hn_story_type": "story",
+      "hn_points": "80",
+      "hn_comments_count": "37",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49905633",
+      "hn_item_text": "",
+      "hn_comment_preview": "k310: Wilhoit's law. “Conservatism consists of exactly one proposition, to wit: There must be in-groups whom the law protects but does not bind, alongside out-groups whom the law binds but does not protect.” https://pylimitics.net/wilhoits-law/\nthrowawayffffas: The models \"go rogue\" because they are not sufficiently sandboxed. Arguably there is no criminal intent on the side of OpenAI in all of those cases. And in at least one case the agents were operated by other companies. So it looks to me that any liability would be civil in nature and given the actual damage done pretty limited.\nRhaskins: Seems like \"mismanaging a board\" isn't exactly a felony. Plus, wealth helps keep the cuffs off, eh?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "44",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=9,tools_agents=20,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 20,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "sandbox"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "sandbox",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + sandbox"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sandbox",
+        "ide",
+        "agent",
+        "agent + sandbox"
+      ],
+      "detail_slug": "d6ca31effafcc02dff17ffd95a572103f814dafb",
+      "is_english_source": true,
+      "sent_at": "2026-09-30T09:55:59.556871+00:00"
+    },
+    {
+      "id": "d82e401d2d27c0d518bf5e2cc6c9948b63c9bdc9",
+      "title_hash": "06cf6269abf5b71853bb20c960d403accc5ea426",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "September 2026: The world today, as seen by one Polish guy",
+      "link": "https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/",
+      "published_at": "2026-09-30T07:12:31+00:00",
+      "summary": "HN story type: story HN points: 201 HN comments: 91 HN top comments: Tade0: I feel like this is overdramatized a bit. For instance: it's mentioned that EU gas storage is at 67% and Germany's at 56%. What is not mentioned though is that Poland's storage is at 97% because the previous administration, for better or worse, was paranoid enough to invest in a sizeable marine gas terminal and the current one stocked up early. Regarding real estate: adjusted for inflation prices peaked 2.5 years... jakozaur: I'm Polish, but this is such a pessimistic, overdramatic take. The visualisations are impressive, but you're living in Poland's golden age. See this Hacker News story with 1,000+ upvotes: https://news.ycombinator.com/item?id=48062117 The war in Ukraine is a tragedy, but it has proved that Russia is weak. The price shock will speed up the transition to renewables, and Iran is losing its grip on Hormuz. So many of t... roenxi: > Every generation believes it is living through the end of something. Many generations are. Last century saw the collapse of the British and Soviet empires - titans by any measure - through mismanagement. Europe as an international power was also broken (compared to how they used to be). I can easily imagine 1900s me fleeing to America in fear of the end times and feeling quite justified in his choices with hinds...",
+      "fetched_at": "2026-09-30T09:53:18.905472+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49905487",
+      "hn_story_type": "story",
+      "hn_points": "201",
+      "hn_comments_count": "91",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49905487",
+      "hn_item_text": "",
+      "hn_comment_preview": "Tade0: I feel like this is overdramatized a bit. For instance: it's mentioned that EU gas storage is at 67% and Germany's at 56%. What is not mentioned though is that Poland's storage is at 97% because the previous administration, for better or worse, was paranoid enough to invest in a sizeable marine gas terminal and the current one stocked up early. Regarding real estate: adjusted for inflation prices peaked 2.5 years...\njakozaur: I'm Polish, but this is such a pessimistic, overdramatic take. The visualisations are impressive, but you're living in Poland's golden age. See this Hacker News story with 1,000+ upvotes: https://news.ycombinator.com/item?id=48062117 The war in Ukraine is a tragedy, but it has proved that Russia is weak. The price shock will speed up the transition to renewables, and Iran is losing its grip on Hormuz. So many of t...\nroenxi: > Every generation believes it is living through the end of something. Many generations are. Last century saw the collapse of the British and Soviet empires - titans by any measure - through mismanagement. Europe as an international power was also broken (compared to how they used to be). I can easily imagine 1900s me fleeing to...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "storage"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "storage"
+      ],
+      "detail_slug": "d82e401d2d27c0d518bf5e2cc6c9948b63c9bdc9",
+      "is_english_source": true,
+      "sent_at": "2026-09-30T09:55:59.556871+00:00"
+    },
+    {
+      "id": "5ac932f8f9ca293a06c400c8e03a9f21f2032f27",
+      "title_hash": "5820c656268c201a989b03331306731cc676c276",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "RSS Feeds for Last.fm",
+      "link": "https://lfm.xiffy.nl/",
+      "published_at": "2026-09-30T03:00:05+00:00",
+      "summary": "HN story type: story HN points: 72 HN comments: 14 HN top comments: TFNA: As mentioned in the HN submission, Last.fm went through a redesign already over a decade ago. It stripped so much functionality that the site became useless except for merely tracking one's own listens, and there were already libre alternatives for that. Last.fm is one of my go-to examples of how the internet has become a lonelier place. The old Last.fm was deeply linked with real life: it would show upcoming gigs... cobertos: Self-hosted Koito[0] and glad I left Last.fm. Not even a good first-party export, gotta use some hacked together third-party one to get your data out. [0]: https://github.com/gabehf/koito winrid: > But I also wept. How is it possible that two almost identical endpoints have the key names differ on several spots or complete absent. average legacy PHP backend :)",
+      "fetched_at": "2026-09-30T09:53:18.905472+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49903862",
+      "hn_story_type": "story",
+      "hn_points": "72",
+      "hn_comments_count": "14",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49903862",
+      "hn_item_text": "",
+      "hn_comment_preview": "TFNA: As mentioned in the HN submission, Last.fm went through a redesign already over a decade ago. It stripped so much functionality that the site became useless except for merely tracking one's own listens, and there were already libre alternatives for that. Last.fm is one of my go-to examples of how the internet has become a lonelier place. The old Last.fm was deeply linked with real life: it would show upcoming gigs...\ncobertos: Self-hosted Koito[0] and glad I left Last.fm. Not even a good first-party export, gotta use some hacked together third-party one to get your data out. [0]: https://github.com/gabehf/koito\nwinrid: > But I also wept. How is it possible that two almost identical endpoints have the key names differ on several spots or complete absent. average legacy PHP backend :)",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rag"
+      ],
+      "detail_slug": "5ac932f8f9ca293a06c400c8e03a9f21f2032f27",
+      "is_english_source": true,
+      "sent_at": "2026-09-30T09:55:59.556871+00:00"
+    },
+    {
+      "id": "24425856be62ccb77358adf5c6caeb9414f61f39",
+      "title_hash": "190ca29db99388e46b302902aa8f9a157b60ea97",
+      "source": "TechCrunch",
+      "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
+      "link": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+      "published_at": "2026-09-29T19:52:37+00:00",
+      "summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
+      "fetched_at": "2026-09-30T09:53:18.905472+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "19",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=13,practical_tech=-4,tools_agents=0,strategy_insight=0,industry_business=13",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": 0,
+        "industry_business": 13
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 13,
+          "strong_hits": [
+            "valuation"
+          ],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "valuation",
+        "company",
+        "techcrunch.com"
+      ],
+      "detail_slug": "24425856be62ccb77358adf5c6caeb9414f61f39",
+      "is_english_source": true,
+      "sent_at": "2026-09-30T09:55:59.556871+00:00"
+    },
+    {
       "id": "5343a76f0eb749fab13657108b66927c6e6249b2",
       "title_hash": "4737d23f6854e58ac214da3cdf2ea38fe596f077",
       "source": "GeekNews",
@@ -171872,635 +172430,6 @@
       "hn_reaction_summary": "댓글 분위기는 흥미로운 해킹이라는 반응과 실사용 검증이 더 필요하다는 반응이 함께 섞였다. 특히 브라우저 연결 안정성과 후지 색 재현 품질이 반복해서 거론됐다.\n- 일부는 모바일 브라우저와 특정 카메라 조합에서 동작을 확인했다고 했지만, 카메라는 보이는데 연결이 진행되지 않는 사례도 나왔다.\n- 사진 커뮤니티답게 기술 자체뿐 아니라 raw 표기처럼 용어 사용까지 꼼꼼하게 짚는 댓글이 눈에 띄었다.\n- 후지 색을 제대로 처리하는 변환기는 사실상 Capture One뿐이라는 의견도 나왔다. 웹앱 클론이 편의성을 넘어 결과물 품질까지 따라갈 수 있느냐가 핵심 논점으로 보인다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-03-21T10:08:46.514160+00:00"
-    },
-    {
-      "id": "08c851f1b33e53b79cd27e0a8092da35082dac7d",
-      "title_hash": "65625fab332439fb1a2412c9dc7c481ea4b350b1",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Cryptography in Home Entertainment (2004)",
-      "link": "https://mathweb.ucsd.edu/~crypto/Projects/MarkBarry/",
-      "published_at": "2026-03-18T21:29:14+00:00",
-      "summary": "HN story type: story HN points: 47 HN comments: 28 HN top comments: flomo: Worth noting the industry knew that CSS was a lousy scheme. Originally, Disney and others were boycotting DVD because of it. That lead to DIVX (the disk not the codec). https://en.wikipedia.org/wiki/DIVX Some people were opposed to DIVX's 'phone home' PPV option, but the bigger issue was it seemed like a nasty format war was brewing. Then DIVX flopped quickly. Instead, the MPAA got the US Congress to \"patch\" CSS b... hedora: This is a fun rabbit hole to walk down. You might have noticed that streaming is getting worse (more expensive, less selection, more ads, more fragmentation). For me, they crossed a breaking point, where I decided I'd just find something more convenient. So, I went down to the local record store, where they have 10,000s of DVDs and Blu Rays in stock; many for $1 (DVD), $2 (BluRay), most under $5-10, and a few gems... flomo: > The original reason behind the DVD scrambling system \"needing\" to be cracked was the lack of software DVD players for the Linux operating system. Also, this is a false history, and more of an ex-post-facto justification. The original DeCSS was a VisualBasic program written by some W1nd0z h8X0r teenager. Not for any greater cause, just because they could.",
-      "fetched_at": "2026-03-21T10:06:16.046776+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47431653",
-      "hn_story_type": "story",
-      "hn_points": "47",
-      "hn_comments_count": "28",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47431653",
-      "hn_item_text": "",
-      "hn_comment_preview": "flomo: Worth noting the industry knew that CSS was a lousy scheme. Originally, Disney and others were boycotting DVD because of it. That lead to DIVX (the disk not the codec). https://en.wikipedia.org/wiki/DIVX Some people were opposed to DIVX's 'phone home' PPV option, but the bigger issue was it seemed like a nasty format war was brewing. Then DIVX flopped quickly. Instead, the MPAA got the US Congress to \"patch\" CSS b...\nhedora: This is a fun rabbit hole to walk down. You might have noticed that streaming is getting worse (more expensive, less selection, more ads, more fragmentation). For me, they crossed a breaking point, where I decided I'd just find something more convenient. So, I went down to the local record store, where they have 10,000s of DVDs and Blu Rays in stock; many for $1 (DVD), $2 (BluRay), most under $5-10, and a few gems...\nflomo: > The original reason behind the DVD scrambling system \"needing\" to be cracked was the lack of software DVD players for the Linux operating system. Also, this is a false history, and more of an ex-post-facto justification. The original DeCSS was a VisualBasic program written by some W1nd0z h8X0r teenager. Not for any greater cause,...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=9,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "industry"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rag"
-      ],
-      "detail_slug": "08c851f1b33e53b79cd27e0a8092da35082dac7d",
-      "is_english_source": true,
-      "translated_title": "가정용 엔터테인먼트와 암호화의 역사",
-      "short_summary": "2004년 글을 계기로 DVD CSS, DIVX, DeCSS 같은 초창기 콘텐츠 보호 기술의 허점과 산업 대응을 다시 짚는다. HN에서는 스트리밍 악화로 물리 매체를 재평가하는 반응과 DeCSS의 기원을 둘러싼 반론이 함께 나왔다.",
-      "why_it_matters": "지금의 스트리밍 불만과 저작권 규제가 어디서 시작됐는지 한 번에 연결해 보여주는 이야기다. 오래된 DVD 보안 사례지만 오늘의 DRM 전략과 서비스 운영 판단을 읽는 데 바로 닿아 있다.\n- 허술한 기술 보호 장치를 법과 플랫폼 통제로 메우는 방식이 어떻게 굳어졌는지 볼 수 있다.\n- 구독료 인상, 광고 확대, 카탈로그 분절화가 심해질수록 사용자는 다시 다운로드, 디스크 구매, 로컬 보관 같은 더 단순한 대안을 찾게 된다는 점이 드러난다.\n- 미디어와 플랫폼 실무에서는 보안 강도만 볼 게 아니라 사용성 저하와 우회 유인까지 함께 설계해야 한다는 교훈을 준다.",
-      "hn_reaction_summary": "댓글 분위기는 기술사 회고와 현재 스트리밍 피로감이 섞인 편이다. 단순한 향수보다는 당시 DRM 실패가 지금의 서비스 문제와 이어진다는 시각이 많다.\n- CSS가 애초에 허술했고 업계도 그 사실을 알고 있었다는 지적이 반복됐다. DIVX 디스크 실험과 미 의회의 입법 대응도 함께 언급됐다.\n- 스트리밍이 더 비싸지고 광고와 분산이 늘면서 차라리 DVD나 블루레이가 더 편하다는 경험담에 공감이 모였다.\n- DeCSS를 리눅스 재생권 서사로만 보는 해석에는 반론도 나왔다. 처음에는 더 단순한 해킹 호기심이 컸다는 주장이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-21T10:08:46.514160+00:00"
-    },
-    {
-      "id": "2efc1b4ecc30d08fbb0a0edd07de882f73a1ab2f",
-      "title_hash": "ed8373f7b9ecdb8ce7a8c7c1404b281efcccc030",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "An industrial piping contractor on Claude Code [video]",
-      "link": "https://twitter.com/toddsaunders/status/2034243420147859716",
-      "published_at": "2026-03-18T20:50:56+00:00",
-      "summary": "HN story type: story HN points: 48 HN comments: 12 HN top comments: steve_adams_86: I've more or less accepted this, and I think my future is in making software more resilient, secure, and fault tolerant. These people will likely want to scale these solutions up, tie different solutions together, and generally make their lives increasingly difficult. Often without realizing it. My experience is that Claude starts to make quite a mess in this context, and it'll often cause as many problems as it s... mrweasel: I absolutely love this, because to me, this is what software development should be about, solving actual problems and providing faster calculations, improving the workflow for people. It does strike me as a little odd that they didn't hire a developer earlier and got the code written. Sitting back and waiting for someone to drop by and present a solution is a little naive, but it's also the world we built in the I... bob1029: I think there are many moats that non-experts won't attempt to cross even with AI assistance. For example, we've built in a lot of complexity to areas like authentication. And for good reason. It's like electrical code. I'd pay good money to watch a muggle attempt to configure OIDC infrastructure. Even with the AI explaining everything to you, it's too much information to digest at once. You'd need an entire after...",
-      "fetched_at": "2026-03-21T10:06:16.046776+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47431288",
-      "hn_story_type": "story",
-      "hn_points": "48",
-      "hn_comments_count": "12",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47431288",
-      "hn_item_text": "",
-      "hn_comment_preview": "steve_adams_86: I've more or less accepted this, and I think my future is in making software more resilient, secure, and fault tolerant. These people will likely want to scale these solutions up, tie different solutions together, and generally make their lives increasingly difficult. Often without realizing it. My experience is that Claude starts to make quite a mess in this context, and it'll often cause as many problems as it s...\nmrweasel: I absolutely love this, because to me, this is what software development should be about, solving actual problems and providing faster calculations, improving the workflow for people. It does strike me as a little odd that they didn't hire a developer earlier and got the code written. Sitting back and waiting for someone to drop by and present a solution is a little naive, but it's also the world we built in the I...\nbob1029: I think there are many moats that non-experts won't attempt to cross even with AI assistance. For example, we've built in a lot of complexity to areas like authentication. And for good reason. It's like electrical code. I'd pay good money to watch a muggle attempt to configure OIDC infrastructure. Even with the AI expl...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=25,practical_tech=4,tools_agents=25,strategy_insight=10,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 25,
-        "strategy_insight": 10,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 25,
-          "strong_hits": [
-            "claude code",
-            "workflow",
-            "ide"
-          ],
-          "support_hits": [
-            "workflow"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "future + work"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "workflow",
-        "ide",
-        "claude + code"
-      ],
-      "detail_slug": "2efc1b4ecc30d08fbb0a0edd07de882f73a1ab2f",
-      "is_english_source": true,
-      "translated_title": "산업용 배관 업체가 클로드 코드로 푼 현장 문제",
-      "short_summary": "산업용 배관 시공업체가 클로드 코드를 써서 계산과 업무 흐름 문제를 푸는 사례를 다룬 영상이다. 비개발 조직도 AI 코딩 도구로 필요한 소프트웨어를 직접 만들 수 있는지 보여준다는 점에서 관심을 모았다.",
-      "why_it_matters": "현장 업무를 가장 잘 아는 사람이 AI 코딩 도구를 붙잡고 바로 문제를 푸는 흐름이 현실 사례로 나온 점이 눈길을 끈다. 사내 도구 개발의 문턱이 낮아지면 IT팀의 역할도 함께 바뀔 수 있다.\n- 계산 규칙이 뚜렷하고 반복이 많은 업무는 전용 소프트웨어를 기다리지 않고 빠르게 프로토타입을 만들 여지가 커진다.\n- 반면 초반 제작이 쉬워져도 운영 단계에서는 보안, 오류 처리, 데이터 연결, 권한 관리 같은 문제가 더 크게 남는다.\n- 실무에서는 AI가 코드를 얼마나 빨리 짜느냐보다, 현업이 만든 도구를 누가 검토하고 유지보수할지 정하는 일이 더 시급해질 수 있다.",
-      "hn_reaction_summary": "HN 댓글은 기대와 경계가 함께 섞인 분위기였다. 소프트웨어가 다시 실제 업무 문제를 푸는 쪽으로 움직인다는 반응이 있는 한편, 비전문가가 AI로 만든 결과물을 어디까지 믿을 수 있느냐는 의문도 적지 않았다.\n- 긍정 쪽은 현업이 직접 계산과 작업 흐름을 개선할 수 있다는 점을 반겼고, 이런 식의 내부 도구 개발이 더 늘어날 것으로 봤다.\n- 신중론은 규모가 커질수록 클로드가 구조를 엉키게 만들 수 있고, 결국 복구력과 보안, 장애 대응은 숙련된 엔지니어가 맡아야 한다고 봤다.\n- 특히 인증과 시스템 연동처럼 복잡한 영역은 AI의 설명만으로 넘기 어렵다는 의견이 반복해서 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-21T10:08:46.514160+00:00"
-    },
-    {
-      "id": "64b4d9f4b696bbc4c708c74adca2186c91562cf0",
-      "title_hash": "26b7fc5c11f13fec503de35a0e2e0da508848afd",
-      "source": "GeekNews",
-      "title": "Claude Code, 클라우드 기반 예약 작업 기능 추가",
-      "link": "https://news.hada.io/topic?id=27690",
-      "published_at": "2026-03-21T00:01:01+00:00",
-      "summary": "로컬 머신에서 클로드 코드를 실행하지 않아도 설정한 일정에 따라 자동으로 작업 수행 가능 레포지토리(단일/복수), 스케줄, 프롬프트를 지정하면 클라우드 인프라 에서 Claude가 해당 작업을 반복 실행 열린 PR의 일괄 검토, 승인된 이슈 기반으로 자동...",
-      "fetched_at": "2026-03-21T06:01:00.600350+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "62",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=17,practical_tech=4,tools_agents=17,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 17,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "인프라",
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 17,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "프롬프트",
-        "claude + code"
-      ],
-      "detail_slug": "64b4d9f4b696bbc4c708c74adca2186c91562cf0",
-      "is_english_source": false,
-      "sent_at": "2026-03-21T06:03:13.939856+00:00"
-    },
-    {
-      "id": "aca891337a0ef838a7e6c6a004c04d2bfe8c07ad",
-      "title_hash": "f356d824b9d122b35db0049f52944633be5f7f1a",
-      "source": "GeekNews",
-      "title": "Windows 품질에 대한 우리의 약속",
-      "link": "https://news.hada.io/topic?id=27692",
-      "published_at": "2026-03-21T00:33:13+00:00",
-      "summary": "Microsoft는 사용자 피드백을 반영해 Windows 11의 품질·성능·신뢰성·완성도 를 전반적으로 높이는 계획을 발표 3~4월에 Windows Insider 빌드 를 통해 작업 표시줄 이동, Copilot 통합 조정, 업데이트 제어 강화 등 주요 변경을 미리보기 형태로 제공 연중...",
-      "fetched_at": "2026-03-21T06:01:00.600350+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=2,tools_agents=14,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 14,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "copilot",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "copilot",
-        "ide"
-      ],
-      "detail_slug": "aca891337a0ef838a7e6c6a004c04d2bfe8c07ad",
-      "is_english_source": false,
-      "sent_at": "2026-03-21T06:03:13.939856+00:00"
-    },
-    {
-      "id": "94afe195ad34779870b906efaa55d905d53117d2",
-      "title_hash": "73a6559d5e94ee0558efc1df522f988cc77523dd",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Our commitment to Windows quality",
-      "link": "https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/",
-      "published_at": "2026-03-20T19:16:13+00:00",
-      "summary": "HN story type: story HN points: 481 HN comments: 864 HN top comments: PaulKeeble: Microsoft has spent over a decade swimming against their users interests at this point and during that time frame Linux has been improving its desktop and improving kernel performance. We are now at the point where Linux emulating Window's entire API space for games with worse drivers is dangerously close on performance with none of the privacy invasion and anti user features. Its pretty late in the game for them... deng: If you want to know how serious to take this, just look at this gem: > Enhancing Search: [...] Clearer and more trustworthy results, with results from content on your device easy to understand and clearly distinct from web results So yeah, you still get web results in your search bar, a feature absolutely zero people want and which is just there to fake Bing success, just with a little divider now next to the appl... dmos62: I'm somewhat surprised that Windows is still most of personal computers. In my eyes, it's fundamentally inferior to Linux, and its superficial superiority only comes from the ecosystem, which is to say adoption, not some inherent trait. But then, since Linux adoption didn't meaningfully change in the last 20 years, I'm forced to confront the fact that either I'm wrong about its fundamentals, or the market is able...",
-      "fetched_at": "2026-03-21T06:01:00.600350+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47459296",
-      "hn_story_type": "story",
-      "hn_points": "481",
-      "hn_comments_count": "864",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47459296",
-      "hn_item_text": "",
-      "hn_comment_preview": "PaulKeeble: Microsoft has spent over a decade swimming against their users interests at this point and during that time frame Linux has been improving its desktop and improving kernel performance. We are now at the point where Linux emulating Window's entire API space for games with worse drivers is dangerously close on performance with none of the privacy invasion and anti user features. Its pretty late in the game for them...\ndeng: If you want to know how serious to take this, just look at this gem: > Enhancing Search: [...] Clearer and more trustworthy results, with results from content on your device easy to understand and clearly distinct from web results So yeah, you still get web results in your search bar, a feature absolutely zero people want and which is just there to fake Bing success, just with a little divider now next to the appl...\ndmos62: I'm somewhat surprised that Windows is still most of personal computers. In my eyes, it's fundamentally inferior to Linux, and its superficial superiority only comes from the ecosystem, which is to say adoption, not some inherent trait. But then, since Linux adoption didn't meaningfully change in the last 20 years, I'm forced to...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=3,strategy_insight=7,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 3,
-        "strategy_insight": 7,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "performance",
-            "rust",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 3,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "rust",
-        "api"
-      ],
-      "detail_slug": "94afe195ad34779870b906efaa55d905d53117d2",
-      "is_english_source": true,
-      "translated_title": "마이크로소프트의 윈도우 품질 개선 약속",
-      "short_summary": "마이크로소프트가 윈도우 품질을 끌어올리겠다는 입장을 내놨다. 다만 HN에서는 검색 오염, 광고성 기능, 개인정보 우려가 그대로면 선언만으로는 부족하다는 반응이 많았다.",
-      "why_it_matters": "운영체제 품질 문제는 곧 업무 환경의 안정성과 직결된다. 이번 메시지는 단순한 다짐보다 업데이트 정책과 검색 경험, 기본 기능 설계가 실제로 바뀌는지 가늠할 신호로 읽힌다.\n- 기업 IT와 개발팀은 업데이트 뒤 성능 저하나 예기치 않은 UI 변경이 줄어드는지 바로 체감하게 된다.\n- 로컬 검색과 웹 검색의 구분이 분명해지면 업무용 PC에서 정보 탐색 속도와 신뢰도가 달라질 수 있다.\n- 개선이 선언에 그치면 고급 사용자와 개발자층의 리눅스 대안 검토가 더 힘을 받을 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 냉소적이다. 오랜 시간 사용자 편의보다 자사 서비스 밀어넣기와 번들 기능 확대를 우선해 왔다는 불신이 커서, 이번에도 말보다 실행을 보겠다는 반응이 많았다.\n- 가장 자주 나온 불만은 검색창에 웹 결과와 Bing을 계속 섞는 설계다.\n- 프라이버시 침해와 원치 않는 기능 추가가 윈도우 체감 품질을 떨어뜨린다는 지적이 반복됐다.\n- 일부는 리눅스 데스크톱과 게임 호환성 개선을 언급하며, 예전보다 현실적인 대안이 됐다고 봤다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-21T06:03:13.939856+00:00"
-    },
-    {
-      "id": "910cebc2e2d471264e83986b5ec0d1c9d5471673",
-      "title_hash": "4ef18cb49f61517d8b1701608d7989f2a1ee5138",
-      "source": "Yozm IT",
-      "title": "멀티 AI 터미널 도구 3대장, 뭐가 다를까? 클로드코드 vs 코덱스CLI vs 제미나이CLI",
-      "link": "https://yozm.wishket.com/magazine/detail/3669",
-      "published_at": "",
-      "summary": "단순 답변을 넘어 스스로 계획하고 실행하는 에이전틱 AI의 시대가 도래함에 따라, 터미널 기반 도구인 Claude Code, Codex CLI, Gemini CLI의 특성과 실무 활용법을 상세히 비교합니다. 사용자가 직접 운전하는 IDE형 도구와 AI가 주도하는 터미널형 도구의 철학적 차이를 분석하고, 각 도구의 강점을 결합해 비용을 최대 60%까지 절감하는 전략을 담았습니다. 설계부터 구현, 테스트, 문서화까지 단계별로 최적의 AI 도구를 배치하여 생산성을 극대화하는 '역할 분리형 멀티 도구 워크플로우'와 실전 바이브 코딩의 구체적인 방법론을 제시합니다.",
-      "fetched_at": "2026-03-21T06:01:00.600350+00:00",
-      "source_priority_boost": "10",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "42",
-      "priority_signal": "slot=tools_agents,boost=10,slot_score=32,practical_tech=2,tools_agents=32,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 32,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 32,
-          "strong_hits": [
-            "claude code",
-            "codex",
-            "워크플로우",
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "전략"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "워크플로우",
-        "ide",
-        "cli",
-        "claude + code"
-      ],
-      "detail_slug": "910cebc2e2d471264e83986b5ec0d1c9d5471673",
-      "is_english_source": false,
-      "sent_at": "2026-03-21T06:03:13.939856+00:00"
-    },
-    {
-      "id": "a8ae8ac8fd9214452411037a211fc0594dd37312",
-      "title_hash": "225bcdb411185387376d8c28d5e644b1ead6692a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: We built a terminal-only Bluesky / AT Proto client written in Fortran",
-      "link": "https://github.com/FormerLab/fortransky",
-      "published_at": "2026-03-20T22:06:51+00:00",
-      "summary": "HN story type: story HN points: 65 HN comments: 35 HN post text: Yes, that Fortran. HN top comments: youhai: From my experience building browser automation tools, the biggest challenge with most Chromium-based solutions is that their TLS fingerprint is a dead giveaway. Firefox-based approaches tend to fare much better against JA3/JA4 fingerprinting. The key insight is moving fingerprint spoofing from the JS level (which is itself detectable) down to the native C++ level. It's a fundamentally different approach. zoom6628: Brilliant in every possible way. Fortran was first language I learnt at high school in its \"PORTRAN\" variant. aimarketintel: AT Protocol is a joy to build on — open public data, structured JSON, zero auth friction. I built a Bluesky scraper using the same endpoints and it's one of the most stable scrapers I have. Great to see more tools for this ecosystem.",
-      "fetched_at": "2026-03-21T06:01:00.600350+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47461321",
-      "hn_story_type": "story",
-      "hn_points": "65",
-      "hn_comments_count": "35",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47461321",
-      "hn_item_text": "Yes, that Fortran.",
-      "hn_comment_preview": "youhai: From my experience building browser automation tools, the biggest challenge with most Chromium-based solutions is that their TLS fingerprint is a dead giveaway. Firefox-based approaches tend to fare much better against JA3/JA4 fingerprinting. The key insight is moving fingerprint spoofing from the JS level (which is itself detectable) down to the native C++ level. It's a fundamentally different approach.\nzoom6628: Brilliant in every possible way. Fortran was first language I learnt at high school in its \"PORTRAN\" variant.\naimarketintel: AT Protocol is a joy to build on — open public data, structured JSON, zero auth friction. I built a Bluesky scraper using the same endpoints and it's one of the most stable scrapers I have. Great to see more tools for this ecosystem.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "37",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=12,tools_agents=13,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 13,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 13,
-          "strong_hits": [
-            "automation",
-            "cli"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "automation",
-        "cli",
-        "tool",
-        "github.com"
-      ],
-      "detail_slug": "a8ae8ac8fd9214452411037a211fc0594dd37312",
-      "is_english_source": true,
-      "translated_title": "포트란으로 만든 터미널 전용 블루스카이 클라이언트",
-      "short_summary": "Hacker News에서 포트란으로 구현한 터미널 전용 Bluesky·AT Proto 클라이언트가 눈길을 끌었다. 낯선 언어 선택 자체도 화제였지만, AT Protocol이 가볍게 붙기 좋은 공개형 프로토콜이라는 점도 함께 부각됐다.",
-      "why_it_matters": "이번 사례는 소셜 프로토콜 도구가 꼭 웹 프런트엔드나 무거운 런타임 위에서만 돌아갈 필요가 없다는 점을 보여준다. 텍스트 중심 작업 흐름과 자동화가 많은 팀이라면 더 직접적인 시사점이 있다.\n- AT Proto는 공개 데이터와 구조화된 JSON을 바탕으로 해 CLI, 수집기, 모니터링 도구를 비교적 가볍게 만들 수 있다는 인식이 다시 확인됐다.\n- 포트란 같은 비주류 언어로도 클라이언트를 만들었다는 점은 프로토콜 진입장벽이 낮다는 신호다. 기존 시스템이나 레거시 환경과 잇는 실험도 더 쉬워진다.\n- 터미널 전용 인터페이스는 원격 서버, 개발자 워크스테이션, 자동화 파이프라인처럼 GUI가 불필요한 환경에서 바로 활용하기 좋다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이었다. 포트란이라는 선택에서 오는 재미와, AT Protocol이 실제로 개발자 친화적이라는 평가가 함께 나왔다.\n- 가장 눈에 띈 반응은 오래된 언어로 최신 소셜 클라이언트를 만들었다는 점에 대한 놀라움과 반가움이었다.\n- AT Proto 쪽에는 공개 데이터, 단순한 인증 흐름, 안정적인 엔드포인트 덕분에 스크래퍼나 보조 도구를 만들기 편하다는 경험담이 붙었다.\n- 일부 반응은 브라우저 자동화와 TLS 핑거프린팅 같은 주변 주제로도 번졌다. 실무 관점에서는 프로토콜 개방성만큼 수집 방식과 탐지 회피 문제도 함께 본다는 맥락으로 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-21T06:03:13.939856+00:00"
     }
   ],
   "topic_digests": {
