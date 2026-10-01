@@ -1,6 +1,542 @@
 {
   "items": [
     {
+      "id": "d1a6ba9116ec30898d52950893307cee3fb1f154",
+      "title_hash": "e0c2c7dedc815a8fb810d0d4dc3550e4755f885b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Pi 1.0",
+      "link": "https://earendil.com/posts/pi-1-0/",
+      "published_at": "2026-10-01T19:33:05+00:00",
+      "summary": "HN story type: story HN points: 597 HN comments: 198 HN post text: Related: Pi Durable - https://news.ycombinator.com/item?id=49925969 HN top comments: hhh: I don't really understand the criteria for when something is 'proven' to the Pi team. Jev and the like took off less than a month ago, but MCP has been growing for nearly 2 years, and it only gets support now? Pi felt nice when I used it, and I do value keeping things minimal, but I just find the criteria very uneven. FacelessJim: Love pi. I tried to run some local models and pi was the only one that actually worked decently because it didn’t have a gargantuan system prompt that would take minutes to prefill on my scrawny ass laptop. Been running it almost barebones vanilla for a couple of months. Just a bunch of basic extensions and some skills. Now, if only they could fix the very annoying bug of the history jumping back at the beginning... utilize1808: I don't understand why \"Cache warming for anthropic models\" was not put into a standalone package, but has to be bundled with the \"minimal\" coding agent.",
+      "fetched_at": "2026-10-01T23:26:07.561398+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49926069",
+      "hn_story_type": "story",
+      "hn_points": "597",
+      "hn_comments_count": "198",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49926069",
+      "hn_item_text": "Related: Pi Durable - https://news.ycombinator.com/item?id=49925969",
+      "hn_comment_preview": "hhh: I don't really understand the criteria for when something is 'proven' to the Pi team. Jev and the like took off less than a month ago, but MCP has been growing for nearly 2 years, and it only gets support now? Pi felt nice when I used it, and I do value keeping things minimal, but I just find the criteria very uneven.\nFacelessJim: Love pi. I tried to run some local models and pi was the only one that actually worked decently because it didn’t have a gargantuan system prompt that would take minutes to prefill on my scrawny ass laptop. Been running it almost barebones vanilla for a couple of months. Just a bunch of basic extensions and some skills. Now, if only they could fix the very annoying bug of the history jumping back at the beginning...\nutilize1808: I don't understand why \"Cache warming for anthropic models\" was not put into a standalone package, but has to be bundled with the \"minimal\" coding agent.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=26,practical_tech=15,tools_agents=26,strategy_insight=4,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 26,
+        "strategy_insight": 4,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "cache"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 26,
+          "strong_hits": [
+            "coding agent",
+            "mcp"
+          ],
+          "support_hits": [
+            "extension",
+            "prompt",
+            "agent",
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "mcp",
+        "extension",
+        "prompt",
+        "agent",
+        "local",
+        "local + agent"
+      ],
+      "detail_slug": "d1a6ba9116ec30898d52950893307cee3fb1f154",
+      "is_english_source": true,
+      "sent_at": "2026-10-01T23:28:40.635268+00:00"
+    },
+    {
+      "id": "efbcb619ad2c65a0cab86b089a00de3221d0ce23",
+      "title_hash": "4d7a4beb3b97495bc9bb0d246f5aeae73432cb1d",
+      "source": "GeekNews",
+      "title": "Git 3.0의 SHA-256 기본값 전환은 큰 대가를 치를 실수가 될 것",
+      "link": "https://news.hada.io/topic?id=34627",
+      "published_at": "2026-10-01T19:47:14+00:00",
+      "summary": "Git 3.0은 기본 콘텐츠 해시를 SHA-1에서 SHA-256으로 변경할 계획 이지만, 실질적인 보안 이익에 비해 저장소와 도구 생태계의 전환 비용이 지나치게 크다는 비판을 받음 암호학적 무결성과 신뢰는 다름 : 해시 충돌을 만들 수 있어도 피해자가 악성 객체를 받아 실...",
+      "fetched_at": "2026-10-01T23:26:07.561398+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "55",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=10,practical_tech=0,tools_agents=4,strategy_insight=10,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 10,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [
+            "실수"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰",
+        "실수"
+      ],
+      "detail_slug": "efbcb619ad2c65a0cab86b089a00de3221d0ce23",
+      "is_english_source": false,
+      "sent_at": "2026-10-01T23:28:40.635268+00:00"
+    },
+    {
+      "id": "24eaae0d6c3e4ebb5d5fdb667f4af76abb7da12c",
+      "title_hash": "3b4323d5e506fd2ddf226e0d67059444681ef1dc",
+      "source": "GeekNews",
+      "title": "Chess.com을 8,400만원에 인수해 연 매출 3,000억원으로 키우기",
+      "link": "https://news.hada.io/topic?id=34637",
+      "published_at": "2026-10-01T21:51:34+00:00",
+      "summary": "Erik Allebest는 2005년 Chess.com을 5만 6,000달러($56k)에 인수 한 뒤 21년간 품질을 우선하며 성장시켰고, 현재 등록 회원 약 3억 명을 보유한 세계 최대 체스 플랫폼을 운영함 출발점은 광고비로 수지가 맞지 않는 체스용품 사업 이었음. 사람들이 커뮤니티를 찾...",
+      "fetched_at": "2026-10-01T23:26:07.561398+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=4,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "인수"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "인수"
+      ],
+      "detail_slug": "24eaae0d6c3e4ebb5d5fdb667f4af76abb7da12c",
+      "is_english_source": false,
+      "sent_at": "2026-10-01T23:28:40.635268+00:00"
+    },
+    {
+      "id": "82377804d0de41419413c6e59d50532a5cab727d",
+      "title_hash": "d219c77829a5feb40e3dabd28103baa121c2120d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Pi Durable",
+      "link": "https://earendil.com/posts/pi-durable/",
+      "published_at": "2026-10-01T19:24:08+00:00",
+      "summary": "HN story type: story HN points: 172 HN comments: 16 HN post text: Related: Pi 1.0 - https://news.ycombinator.com/item?id=49926069 - Oct 2026 (184 comments) HN top comments: lukebuehler: Very cool to see Pi build a durable agent harness too. I've been building in this space for quite some time myself [0][1] and it is a super interesting place of innovation. Less hype-y that on-your-machine coding agents, but all major players are building products in this space: LangChain Deep Agents, Vercel Eve, OpenAI Agents API, Anthropic Managed Agents, etc. The main reasons are: 1) they are \"durable\", i.e. ea... ireadmevs: > The entire source code, without tests, is about 15,000 lines, which comes out to about 150,000 tokens with GPT and about 250,000 with Claude. Woah, that big of a difference when it comes to token counting? rsalus: super interesting. I have so many half-considered questions... like sandboxing (it seems like it is BYO). would love to have some kind of policy engine.. perhaps an integration with https://github.com/NVIDIA/openshell in the form of an extension? also, I see most of the durability promise comes from persisting JSON documents locally and minimizing the amount of context/data kept in-memory, even during SQLite mode....",
+      "fetched_at": "2026-10-01T23:26:07.561398+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49925969",
+      "hn_story_type": "story",
+      "hn_points": "172",
+      "hn_comments_count": "16",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49925969",
+      "hn_item_text": "Related: Pi 1.0 - https://news.ycombinator.com/item?id=49926069 - Oct 2026 (184 comments)",
+      "hn_comment_preview": "lukebuehler: Very cool to see Pi build a durable agent harness too. I've been building in this space for quite some time myself [0][1] and it is a super interesting place of innovation. Less hype-y that on-your-machine coding agents, but all major players are building products in this space: LangChain Deep Agents, Vercel Eve, OpenAI Agents API, Anthropic Managed Agents, etc. The main reasons are: 1) they are \"durable\", i.e. ea...\nireadmevs: > The entire source code, without tests, is about 15,000 lines, which comes out to about 150,000 tokens with GPT and about 250,000 with Claude. Woah, that big of a difference when it comes to token counting?\nrsalus: super interesting. I have so many half-considered questions... like sandboxing (it seems like it is BYO). would love to have some kind of policy engine.. perhaps an integration with https://github.com/NVIDIA/openshell in the form of an extension? also, I see most of the durability promise comes from persisting JSON documents locally and minimizing the amount of context/data kept in-memory, even during SQLite mode....",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "76",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=52,practical_tech=19,tools_agents=52,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 52,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "sandbox",
+            "api",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 52,
+          "strong_hits": [
+            "coding agent",
+            "ai agent",
+            "sandbox",
+            "ide"
+          ],
+          "support_hits": [
+            "extension",
+            "agent",
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + sandbox",
+            "claude + code",
+            "ai + coding",
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "ai agent",
+        "sandbox",
+        "ide",
+        "extension",
+        "agent",
+        "local",
+        "agent + sandbox",
+        "claude + code",
+        "ai + coding",
+        "local + agent"
+      ],
+      "detail_slug": "82377804d0de41419413c6e59d50532a5cab727d",
+      "is_english_source": true,
+      "sent_at": "2026-10-01T23:28:40.635268+00:00"
+    },
+    {
+      "id": "f775c454de479f86f9c8a72b98c55d152c6e4905",
+      "title_hash": "bf111877c32d8056fba53f1395172f45d13c007f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "RIP, vector database",
+      "link": "https://turbopuffer.com/blog/rip-vector-database",
+      "published_at": "2026-10-01T16:01:56+00:00",
+      "summary": "HN story type: story HN points: 257 HN comments: 72 HN top comments: gopalv: > This write amplification is large enough that our efforts to tune indexing throughput have started to hit diminishing returns. > don't key on the ANN address. That is precisely the change turbopuffer v3 makes. As you can imagine, it is not a trivial change. This is a direct parallel to how Postgres and Mysql built indexes. Your design choice went from a Postgres design pattern to a Mysql one. The difference is t... gk1: Vector databases were always more about retrieval than either vectors or data storage. But the term stuck all too well and companies held on to it a tad too long. Sorry :) croemer: Dashboard was last updated on September 7, it started on September 5. Bug? Or no progress? It's linked in the blog post so would expect it to work: https://turbopuffer.com/v3",
+      "fetched_at": "2026-10-01T23:26:07.561398+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49923466",
+      "hn_story_type": "story",
+      "hn_points": "257",
+      "hn_comments_count": "72",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49923466",
+      "hn_item_text": "",
+      "hn_comment_preview": "gopalv: > This write amplification is large enough that our efforts to tune indexing throughput have started to hit diminishing returns. > don't key on the ANN address. That is precisely the change turbopuffer v3 makes. As you can imagine, it is not a trivial change. This is a direct parallel to how Postgres and Mysql built indexes. Your design choice went from a Postgres design pattern to a Mysql one. The difference is t...\ngk1: Vector databases were always more about retrieval than either vectors or data storage. But the term stuck all too well and companies held on to it a tad too long. Sorry :)\ncroemer: Dashboard was last updated on September 7, it started on September 5. Bug? Or no progress? It's linked in the blog post so would expect it to work: https://turbopuffer.com/v3",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=31,practical_tech=31,tools_agents=2,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 31,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 31,
+          "strong_hits": [
+            "vector database",
+            "postgres",
+            "storage",
+            "index",
+            "sql"
+          ],
+          "support_hits": [
+            "vector"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "vector database"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "vector database",
+        "postgres",
+        "storage",
+        "index",
+        "sql",
+        "vector"
+      ],
+      "detail_slug": "f775c454de479f86f9c8a72b98c55d152c6e4905",
+      "is_english_source": true,
+      "sent_at": "2026-10-01T23:28:40.635268+00:00"
+    },
+    {
+      "id": "9e941f5b1f1da18fd5334ec7a38abccd1c625af9",
+      "title_hash": "a7dc980c3375a31c8cb43a9a35690321c1ad3d97",
+      "source": "TechCrunch",
+      "title": "Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation",
+      "link": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
+      "published_at": "2026-10-01T21:55:22+00:00",
+      "summary": "Kevin Mandia, best known as the founder of Mandiant, has a new startup that is using agent swarms to test and protect enterprises.",
+      "fetched_at": "2026-10-01T23:26:07.561398+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "29",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=23,practical_tech=1,tools_agents=2,strategy_insight=0,industry_business=23",
+      "slot_scores": {
+        "practical_tech": 1,
+        "tools_agents": 2,
+        "strategy_insight": 0,
+        "industry_business": 23
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 1,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 23,
+          "strong_hits": [
+            "enterprise",
+            "valuation",
+            "startup"
+          ],
+          "support_hits": [
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "enterprise",
+        "valuation",
+        "startup",
+        "techcrunch.com"
+      ],
+      "detail_slug": "9e941f5b1f1da18fd5334ec7a38abccd1c625af9",
+      "is_english_source": true,
+      "sent_at": "2026-10-01T23:28:40.635268+00:00"
+    },
+    {
       "id": "958fb3534a4d120220215535a56f08a0f49262b1",
       "title_hash": "5ccb5ce2a492079394e15dafa1e9a29573a66f5b",
       "source": "GeekNews",
@@ -171887,510 +172423,6 @@
       "hn_reaction_summary": "현재 메타데이터상 HN 댓글은 아직 없다. 그래서 뚜렷한 찬반 분위기보다는, 제목만으로도 시스템 내부 구현의 허술함과 영리한 우회 사이를 어떻게 볼지 관심이 쏠리는 초기 단계로 보인다.\n- 반응이 붙기 시작하면 '해키하지만 현실적으로는 잘 돌아간다'는 옹호와 '기본 동작치고 지나치게 복잡하다'는 비판이 함께 나올 가능성이 크다.\n- 실무자 관점에서는 Ctrl-C가 실제로 무엇을 끊는지, 클라이언트와 서버 중 어디에서 취소가 처리되는지가 주요 논점이 될 만하다.\n- 댓글이 더 쌓이면 psql뿐 아니라 다른 DB CLI나 터미널 도구와의 비교도 자연스럽게 이어질 가능성이 있다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-03-23T07:09:10.548948+00:00"
-    },
-    {
-      "id": "f807278bbcda7f42e1a9e6de2abdece03c638f35",
-      "title_hash": "6c935f22d56bd99496ef8fc3ccaac604288a1d86",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Migrating the American Express Payment Network, Twice",
-      "link": "https://americanexpress.io/migrating-the-payments-network-twice/",
-      "published_at": "2026-03-23T00:15:10+00:00",
-      "summary": "HN story type: story HN points: 64 HN comments: 17 HN top comments: 3x35r22m4u: Norton Antivirus for Android doesn't allow me to access the site. Hmm. alberth: Re: transition to micro services (from monolith). I’m surprised a network so sensitive to latency (as are payment networks), was able to achieve their latency SLAs with micro services. Maybe Amex being a closed-loop network helps with latency? e-dant: A fascinating en dash, used as an em dash, followed by two em dashes. Hmmm.",
-      "fetched_at": "2026-03-23T07:05:39.883977+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47483830",
-      "hn_story_type": "story",
-      "hn_points": "64",
-      "hn_comments_count": "17",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47483830",
-      "hn_item_text": "",
-      "hn_comment_preview": "3x35r22m4u: Norton Antivirus for Android doesn't allow me to access the site. Hmm.\nalberth: Re: transition to micro services (from monolith). I’m surprised a network so sensitive to latency (as are payment networks), was able to achieve their latency SLAs with micro services. Maybe Amex being a closed-loop network helps with latency?\ne-dant: A fascinating en dash, used as an em dash, followed by two em dashes. Hmmm.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "latency"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "latency"
-      ],
-      "detail_slug": "f807278bbcda7f42e1a9e6de2abdece03c638f35",
-      "is_english_source": true,
-      "translated_title": "아메리칸 익스프레스 결제망, 두 번의 이전",
-      "short_summary": "아메리칸 익스프레스가 결제 네트워크를 두 차례 옮기며 구조를 바꾼 경험을 다룬 글이다. HN에서는 모놀리스에서 마이크로서비스로 전환하면서도 지연 시간 목표를 맞출 수 있었는지가 가장 큰 화제로 떠올랐다.",
-      "why_it_matters": "결제망처럼 지연 시간과 안정성이 절대적인 시스템도, 사업 규모와 기술 부채가 쌓이면 결국 다시 설계해야 한다는 점을 보여준다.\n- 레거시 현대화는 한 번의 대형 프로젝트로 끝나지 않는다. 성장 단계가 바뀌면 같은 시스템도 다시 옮기고 다시 나눠야 할 수 있다.\n- 실무에서는 마이크로서비스 자체보다 지연 시간 예산, 장애 전파 범위, 배포 방식, 검증 체계를 어떻게 설계했는지가 더 큰 쟁점이 된다.\n- 금융·결제처럼 SLA가 빡빡한 환경에서도 점진적 이전과 아키텍처 재구성이 가능하다는 사례로 읽힌다.",
-      "hn_reaction_summary": "댓글 분위기는 기술적 호기심과 신중한 회의론이 섞여 있다. 특히 결제망에서 마이크로서비스가 정말 성능 목표를 지킬 수 있느냐는 질문이 반복됐다.\n- 가장 많이 나온 반응은 초저지연이 필요한 네트워크에서 서비스 분리가 실제로 먹혔는지 궁금하다는 것이었다.\n- 일부는 아멕스의 폐쇄형 네트워크 구조가 외부 변수와 지연을 줄여 이런 전환을 가능하게 했을 수 있다고 봤다.\n- 그 밖에는 안드로이드용 노턴이 원문 접근을 막는다는 불편 제보, 문장부호를 지적하는 가벼운 반응도 보여 전반적으로는 초기 인상 공유에 가까웠다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-23T07:09:10.548948+00:00"
-    },
-    {
-      "id": "b01ef47e91849146eec4f763fdb160a63b1ecffa",
-      "title_hash": "2a1e2d9c6afaf5fdaaf650b834c0c7e048702438",
-      "source": "GeekNews",
-      "title": "Impeccable - AI 하네스가 더 디자인 잘하게 만들기",
-      "link": "https://news.hada.io/topic?id=27750",
-      "published_at": "2026-03-23T00:52:01+00:00",
-      "summary": "Claude Code, Codex 등의 프론트엔드 품질 향상 을 위해 디자인 어휘와 명령어 체계를 제공하는 오픈소스 스킬 패키지 Anthropic의 frontend-design 스킬에 기반한 확장판으로 타이포그래피/색상/레이아웃/모션 등...",
-      "fetched_at": "2026-03-23T02:59:50.701959+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "65",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 20,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "codex"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "claude + code"
-      ],
-      "detail_slug": "b01ef47e91849146eec4f763fdb160a63b1ecffa",
-      "is_english_source": false,
-      "sent_at": "2026-03-23T03:03:17.698876+00:00"
-    },
-    {
-      "id": "daee41d457889d9dd56a6636520f7bc99d3a677f",
-      "title_hash": "af9e30c23bf1d12859af6c4aec11b03bb6ac08c9",
-      "source": "GeekNews",
-      "title": "여백 만들기: 덜 하는 것이 위대함을 만드는 방법",
-      "link": "https://news.hada.io/topic?id=27770",
-      "published_at": "2026-03-23T02:39:01+00:00",
-      "summary": "집중(Focus) 은 스타트업과 대기업 모두에게 주어지는 단 하나의 조언이지만, 그 실질적 의미는 \"대부분의 일을 멈추는 것\"에서 시작됨 부적합한 고객, 소모적인 관계, 불필요한 지표 추구를 중단할 때 가장 중요한 일에 투자할 시간과 에너지 의 여백이...",
-      "fetched_at": "2026-03-23T02:59:50.701959+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "52",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=7",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": -1,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "투자"
-          ],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "투자",
-        "기업"
-      ],
-      "detail_slug": "daee41d457889d9dd56a6636520f7bc99d3a677f",
-      "is_english_source": false,
-      "sent_at": "2026-03-23T03:03:17.698876+00:00"
-    },
-    {
-      "id": "060d1733c88738a2676d0a15f96186aba63821c4",
-      "title_hash": "4e97f23f40de8b7de3eb79d1bd9b9b31be48bd5d",
-      "source": "GeekNews",
-      "title": "Show GN: Google CausalImpact R 패키지를 Python으로 포팅 (Gibbs 샘플러는 Rust)",
-      "link": "https://news.hada.io/topic?id=27767",
-      "published_at": "2026-03-23T02:26:11+00:00",
-      "summary": "Google의 CausalImpact R 패키지를 Python으로 포팅했습니다. Gibbs 샘플러를 Rust로 구현하고 PyO3로 Python에서 호출합니다. TensorFlow 불필요, R 대비 약 30배 빠릅니다. 만든 이유: 기존 Python 포팅들에 문제가 있었습니다. pycausalimpact는 MLE를 사용해서 R과 결과가 다릅니다...",
-      "fetched_at": "2026-03-23T02:59:50.701959+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust"
-      ],
-      "detail_slug": "060d1733c88738a2676d0a15f96186aba63821c4",
-      "is_english_source": false,
-      "sent_at": "2026-03-23T03:03:17.698876+00:00"
-    },
-    {
-      "id": "1c91747efcb07d7a44feaf97cfc02be480503339",
-      "title_hash": "433a8d1b1110c8cdd7df4977b4324363129fff6e",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "They're Vibe-Coding Spam Now",
-      "link": "https://tedium.co/2026/02/25/vibe-coded-email-spam/",
-      "published_at": "2026-03-22T22:11:54+00:00",
-      "summary": "HN story type: story HN points: 42 HN comments: 28 HN top comments: sudo_cowsay: But is this something new? Wasn't using AI for scamming around for a long time? Scammers started using LLMs to write fishing emails, then scammers started generating images, then they started using AI to vibe code it. Its just a natural progression. From https://news.ycombinator.com/item?id=47435156 , we can know that India has a ~70% positive view on AI. While scammers likely didn't fill out the survey, it shows... Ucalegon: Leaders in the email security space have been seeing this for a while now [0], this is not new. The problem is the means to protect consumer mailboxes outside of Gmail, isn't cost effective since most people do not actually pay for their consumer mailbox and the impacts of compromised accounts do not actually impact the providers. It is going to be interesting to see how this plays out in the consumer space as the... hollow-moe: They don't even need to actually vibecode the emails. Some scam reached my gmail inbox for the french railway company advantage card at a \"too low to believe\" price. They just downloaded an original email, replaced content urls to their own host and all links to their scam page. Yes, all links even the socials lol. There's one link that was removed instead of replaced (but the text was still there): the unsubscrib...",
-      "fetched_at": "2026-03-23T02:59:50.701959+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47482760",
-      "hn_story_type": "story",
-      "hn_points": "42",
-      "hn_comments_count": "28",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47482760",
-      "hn_item_text": "",
-      "hn_comment_preview": "sudo_cowsay: But is this something new? Wasn't using AI for scamming around for a long time? Scammers started using LLMs to write fishing emails, then scammers started generating images, then they started using AI to vibe code it. Its just a natural progression. From https://news.ycombinator.com/item?id=47435156 , we can know that India has a ~70% positive view on AI. While scammers likely didn't fill out the survey, it shows...\nUcalegon: Leaders in the email security space have been seeing this for a while now [0], this is not new. The problem is the means to protect consumer mailboxes outside of Gmail, isn't cost effective since most people do not actually pay for their consumer mailbox and the impacts of compromised accounts do not actually impact the providers. It is going to be interesting to see how this plays out in the consumer space as the...\nhollow-moe: They don't even need to actually vibecode the emails. Some scam reached my gmail inbox for the french railway company advantage card at a \"too low to believe\" price. They just downloaded an original email, replaced content urls to their own host and all links to their scam page. Yes, all links even the socials lol. Ther...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "42",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=15,tools_agents=18,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 18,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 18,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "ai + coding"
-      ],
-      "detail_slug": "1c91747efcb07d7a44feaf97cfc02be480503339",
-      "is_english_source": true,
-      "translated_title": "스팸 사기도 이제 AI 바이브 코딩으로 만든다",
-      "short_summary": "HN에서는 사기꾼이 AI로 피싱 메일과 가짜 페이지를 더 빨리 복제·생성하는 흐름을 짚었다. 댓글에선 새 현상이라기보다 기존 사기 자동화의 연장선이며, 소비자 메일 보안의 비용 구조가 더 큰 문제라는 반응이 많았다.",
-      "why_it_matters": "생성형 AI가 문구 작성 보조를 넘어, 사칭 메일과 랜딩 페이지를 빠르게 베끼고 조립하는 도구로 굳어지고 있다. 실무자는 더 그럴듯한 문장보다 공격 제작 비용이 급격히 낮아졌다는 점을 먼저 봐야 한다.\n- 메일 본문 어색함이나 번역투 같은 예전 신호만으로는 걸러내기 어렵다. 정상 메일을 복제하고 링크만 바꾸는 방식도 충분히 통한다.\n- B2C 서비스는 무료 메일함 의존 사용자가 많아 피해가 커질 수 있다. 브랜드 사칭 모니터링과 신고 처리 속도를 운영 지표로 볼 필요가 있다.\n- 개발팀은 메일 템플릿 보호, 링크 리디렉션 점검, 로그인 페이지 사칭 대응을 따로 떼지 말고 함께 관리해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 AI가 갑자기 새 위협을 만들었다기보다, 원래 있던 사기 수법이 더 싸고 쉬워졌다는 쪽에 가깝다. 과장된 공포보다는 현업에서 이미 보던 흐름이라는 냉정한 반응이 많았다.\n- 가장 많이 나온 반응은 새삼스럽지 않다는 평가였다. LLM으로 피싱 문구를 쓰고 이미지를 만들고, 이제 페이지까지 조립하는 자연스러운 다음 단계라는 시각이다.\n- 일부는 굳이 AI로 메일을 새로 만들 필요도 없다고 봤다. 기존 진짜 메일을 통째로 베껴 URL만 바꿔도 충분히 속일 수 있다는 경험담이 나왔다.\n- 실무 논점은 기술 자체보다 비용 구조였다. 특히 무료 소비자 메일함은 방어 투자 유인이 약해, 공급자보다 이용자가 피해를 더 크게 떠안는 구조가 문제로 지적됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-23T03:03:17.698876+00:00"
-    },
-    {
-      "id": "389ef03879f2a5e5a44571639085079d6964c46c",
-      "title_hash": "ff46a79bad3f69bbf28da290a66a20a28990ec85",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Project Nomad – Knowledge That Never Goes Offline",
-      "link": "https://www.projectnomad.us",
-      "published_at": "2026-03-22T12:28:38+00:00",
-      "summary": "HN story type: story HN points: 374 HN comments: 113 HN top comments: hamstergene: Normally I cringe at doomsday preppers but given how many dictators out there love the idea to cut their country off Internet whenever anything starts going not in their favor, I imagine a lot of people may find this useful. I wouldn’t want to lose access to knowledge how to fix a sink or which medication is better, just because the local kingface currently feels that free exchange of opinions about him threatens... adsharma: So this thing is based on Kiwix, which is based on the ZIM file format. In the meanwhile, wikipedia ships wikidata, which uses RDF dumps (and probably 8x less compressed than it should be). https://www.wikidata.org/wiki/Wikidata:Database_download There is room for a third option leveraging commercial columnar database research. https://adsharma.github.io/duckdb-wikidata-compression/ wooptoo: I come from a time when internet connectivity was not permanent. It was only available a few times per day when you connected via the phone line. My first ISP gave me an allowance of 20 hours of internet per month. You would dial-up, check the news, check your email, read a page or two, download what you had to download, and then disconnect. The internet was very slow by today's standards, and the connection would...",
-      "fetched_at": "2026-03-23T02:59:50.701959+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47476821",
-      "hn_story_type": "story",
-      "hn_points": "374",
-      "hn_comments_count": "113",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47476821",
-      "hn_item_text": "",
-      "hn_comment_preview": "hamstergene: Normally I cringe at doomsday preppers but given how many dictators out there love the idea to cut their country off Internet whenever anything starts going not in their favor, I imagine a lot of people may find this useful. I wouldn’t want to lose access to knowledge how to fix a sink or which medication is better, just because the local kingface currently feels that free exchange of opinions about him threatens...\nadsharma: So this thing is based on Kiwix, which is based on the ZIM file format. In the meanwhile, wikipedia ships wikidata, which uses RDF dumps (and probably 8x less compressed than it should be). https://www.wikidata.org/wiki/Wikidata:Database_download There is room for a third option leveraging commercial columnar database research. https://adsharma.github.io/duckdb-wikidata-compression/\nwooptoo: I come from a time when internet connectivity was not permanent. It was only available a few times per day when you connected via the phone line. My first ISP gave me an allowance of 20 hours of internet per month. You would dial-up, check the news, check your email, read a page or two, download what you had to download, and then disconnect. The internet wa...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=9,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 9,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "database",
-            "rag"
-          ],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "database",
-        "rag",
-        "how to"
-      ],
-      "detail_slug": "389ef03879f2a5e5a44571639085079d6964c46c",
-      "is_english_source": true,
-      "translated_title": "인터넷 없이도 남는 지식, 프로젝트 노마드",
-      "short_summary": "프로젝트 노마드는 인터넷이 끊겨도 필요한 지식에 계속 접근하자는 오프라인 지식 저장소 구상이다. HN에서는 검열, 재난, 저속 네트워크 환경에서 특히 쓸모가 크다는 반응이 많았다.",
-      "why_it_matters": "업무와 생활이 늘 온라인 연결을 전제로 돌아가는 지금, 오프라인 지식 보관은 비상용 백업을 넘어 운영 연속성 문제로 읽힌다.\n- 국가 차단이나 통신 장애가 생겨도 수리법, 기초 의학 정보, 참고 문서를 볼 수 있다는 점이 다시 주목받았다.\n- 학교, 현장 조직, 원격 지역처럼 접속 품질이 들쭉날쭉한 환경에서는 검색보다 미리 내려받은 지식 묶음이 더 현실적일 수 있다.\n- 실무적으로는 무엇을 로컬에 담을지, 저장 공간과 업데이트 주기를 어떻게 관리할지까지 함께 설계해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 우호적이었다. 다만 막연한 생존주의보다 인터넷 차단과 접속 불안정에 대비하는 실용 도구로 봐야 한다는 시선이 강했다.\n- 찬성 쪽은 권위주의 정권의 인터넷 차단, 재난 상황, 낮은 연결 품질을 예로 들며 오프라인 지식 접근의 필요를 강조했다.\n- 기술적으로는 Kiwix와 ZIM 포맷 계열 접근이 거론됐고, 위키데이터 압축과 저장 형식은 더 개선할 여지가 있다는 의견이 나왔다.\n- 예전 다이얼업 시절을 떠올리며 필요한 자료를 미리 받아두고 읽는 방식이 새롭지 않다는 회고도 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-23T03:03:17.698876+00:00"
     }
   ],
   "topic_digests": {
