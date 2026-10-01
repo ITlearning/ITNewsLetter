@@ -1,6 +1,572 @@
 {
   "items": [
     {
+      "id": "2a275532e0ae5fa7cd4a4ab0d1d41f3f159504a4",
+      "title_hash": "513e5b50b8fa8b896718908879d477ef5b29c8ae",
+      "source": "GeekNews",
+      "title": "Show GN: query-inspector - 소스 코드 내 SQL/ORM 쿼리를 추출해 튜닝 리포트를 작성하는 Claude Code 스킬",
+      "link": "https://news.hada.io/topic?id=34595",
+      "published_at": "2026-10-01T08:27:54+00:00",
+      "summary": "query-inspector는 프로젝트의 소스 코드에 있는 SQL과 ORM(JPA 파생 메서드, @Query, QueryDSL, Kotlin JDSL, MyBatis 등)이 생성하는 쿼리를 추출해, 인덱스 누락 / N+1 문제 / 안티패턴 등을 진단하여 결과와 튜닝 가이드를 리포팅해 주는 Claude Code 플러그인입니다. git 변경분에서만 추출하여 incremen",
+      "fetched_at": "2026-10-01T10:55:43.054061+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=9,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [
+            "query",
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "spec"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "spec",
+        "claude + code"
+      ],
+      "detail_slug": "2a275532e0ae5fa7cd4a4ab0d1d41f3f159504a4",
+      "is_english_source": false,
+      "sent_at": "2026-10-01T10:58:25.530214+00:00"
+    },
+    {
+      "id": "23fa60f3a104db40d868512bfeaa7636345ed623",
+      "title_hash": "ba3682fe296db2ba4a64861fd0ee3ebf05e3c2c5",
+      "source": "GeekNews",
+      "title": "PostgreSQL JSONB: JSON 데이터 조회, 수정 및 인덱싱",
+      "link": "https://news.hada.io/topic?id=34597",
+      "published_at": "2026-10-01T09:55:28+00:00",
+      "summary": "PostgreSQL의 JSONB 데이터를 실제로 다룰 때 필요한 과정을 하나의 지원 티켓 예제로 정리했습니다. 중첩된 값을 조회하는 ->와 ->>의 차이, @>를 이용한 포함 검색, jsonb_set()으로 문서 전체를 교체하지 않고 특정 값만 수정하는 방법을 다룹니다. 40,004개의 레코드로 GIN 인덱스를 테",
+      "fetched_at": "2026-10-01T10:55:43.054061+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=12,practical_tech=12,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "postgres",
+            "sql"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "postgres",
+        "sql",
+        "코드"
+      ],
+      "detail_slug": "23fa60f3a104db40d868512bfeaa7636345ed623",
+      "is_english_source": false,
+      "sent_at": "2026-10-01T10:58:25.530214+00:00"
+    },
+    {
+      "id": "688b26cf838d3a13c489e51de78f78a2c5656d0d",
+      "title_hash": "d1de746d5fc598794b5619d6c9830750f020d08e",
+      "source": "GeekNews",
+      "title": "Three Slicer: 브라우저 WASM 슬라이서의 91초를 10초로 줄이며 찾은 병렬화, V8, WebGPU 병목",
+      "link": "https://news.hada.io/topic?id=34598",
+      "published_at": "2026-10-01T10:43:55+00:00",
+      "summary": "제가 개발 중인 Three Slicer 0.3.3의 성능 최적화 과정을 정리한 글입니다. 주요 내용은 다음과 같습니다. OrcaSlicer 포팅 과정에서 빠졌던 CPU 병렬성을 복구해 1.13M facet tree-support plate 전체 슬라이스 시간을 91.1초에서 9.7~9.8초로 줄였습니다. WebGPU polygon kernel은 단",
+      "fetched_at": "2026-10-01T10:55:43.054061+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "병목"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "병목"
+      ],
+      "detail_slug": "688b26cf838d3a13c489e51de78f78a2c5656d0d",
+      "is_english_source": false,
+      "sent_at": "2026-10-01T10:58:25.530214+00:00"
+    },
+    {
+      "id": "af89b6c723ebf2d644433166f290d7fc7e21d1db",
+      "title_hash": "8f9fc66f3be9f96dfdee4827ef12a3775da9e7c4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "OpenDLSS: A Vulkan Reimplementation of Nvidia's DLSS 5 Neural Rendering Network",
+      "link": "https://github.com/maanHimself/OpenDLSS-NR",
+      "published_at": "2026-09-30T08:43:21+00:00",
+      "summary": "HN story type: story HN points: 93 HN comments: 54 HN top comments: dtf: Seems quite similar to this repository? https://github.com/aloshdenny/open-dlss tim-projects: Jensen : Nobody needs to code anymore... Programmer: OpenDLSS... Jensen : Wait. Not like that! (╯°□°）╯︵┻━┻ Lerc: I'm rather surprised that it doesn't take the z-buffer as an input. I would have thought that would have provided useful information, it's one of the more useful forms of contolnet.",
+      "fetched_at": "2026-10-01T10:55:43.054061+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49906100",
+      "hn_story_type": "story",
+      "hn_points": "93",
+      "hn_comments_count": "54",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49906100",
+      "hn_item_text": "",
+      "hn_comment_preview": "dtf: Seems quite similar to this repository? https://github.com/aloshdenny/open-dlss\ntim-projects: Jensen : Nobody needs to code anymore... Programmer: OpenDLSS... Jensen : Wait. Not like that! (╯°□°）╯︵┻━┻\nLerc: I'm rather surprised that it doesn't take the z-buffer as an input. I would have thought that would have provided useful information, it's one of the more useful forms of contolnet.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "34",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=10,practical_tech=9,tools_agents=10,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [],
+          "support_hits": [
+            "implementation"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "github.com"
+      ],
+      "detail_slug": "af89b6c723ebf2d644433166f290d7fc7e21d1db",
+      "is_english_source": true,
+      "sent_at": "2026-10-01T10:58:25.530214+00:00"
+    },
+    {
+      "id": "67ef6ee5952b21ce780e9650662f0ed3e78bdedb",
+      "title_hash": "ae759585db9e2677941b14b772e5a7bcdd8c9565",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "CHOMPI portable sampler instrument is now open-source (hardware and software)",
+      "link": "https://www.chompiclub.com/opensource",
+      "published_at": "2026-09-30T17:42:13+00:00",
+      "summary": "HN story type: story HN points: 87 HN comments: 20 HN top comments: jrm4: I love people making little things like this and so one hates to throw rocks from the sidelines. But I literally laughed out loud, HARD, at the price. MomsAVoxell: The CHOMPI is a very fun project.. have considered building one myself over the years, but I think I have a bit more motivation to build a FundamentalFrequency LMN-3, which is in a similar form factor but is, imho, a bit more open ended with regards to what it can be used for .. https://github.com/FundamentalFrequency Either way the time has come for open source projects of this nature and form factor .. the world... stigi: HN Marketplace? I've got a Chompi in Berlin which I'd be willing to pass on. Contact in Profile",
+      "fetched_at": "2026-10-01T10:55:43.054061+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49912048",
+      "hn_story_type": "story",
+      "hn_points": "87",
+      "hn_comments_count": "20",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49912048",
+      "hn_item_text": "",
+      "hn_comment_preview": "jrm4: I love people making little things like this and so one hates to throw rocks from the sidelines. But I literally laughed out loud, HARD, at the price.\nMomsAVoxell: The CHOMPI is a very fun project.. have considered building one myself over the years, but I think I have a bit more motivation to build a FundamentalFrequency LMN-3, which is in a similar form factor but is, imho, a bit more open ended with regards to what it can be used for .. https://github.com/FundamentalFrequency Either way the time has come for open source projects of this nature and form factor .. the world...\nstigi: HN Marketplace? I've got a Chompi in Berlin which I'd be willing to pass on. Contact in Profile",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=3,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 3,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "open source"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 3,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "open source"
+      ],
+      "detail_slug": "67ef6ee5952b21ce780e9650662f0ed3e78bdedb",
+      "is_english_source": true,
+      "sent_at": "2026-10-01T10:58:25.530214+00:00"
+    },
+    {
+      "id": "09ef8f66699d9c3aff2d9713a78864fbf22bcc68",
+      "title_hash": "200916859d06c8a61027db1db99be0d6c119c4db",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "A brief history of the Bloomberg terminal",
+      "link": "https://spectrum.ieee.org/bloomberg-terminal",
+      "published_at": "2026-09-30T14:34:07+00:00",
+      "summary": "HN story type: story HN points: 297 HN comments: 128 HN top comments: rbanffy: I have the highest regard for these terse, but information-dense displays that enable humans to quickly grasp all information they need to do their jobs, and nothing more. This is also something avionics provide - a modern cockpit displays are a work of art in layering needed information for what is happening at the time, both the dense PFD and the much specific that communicate aircraft status. mandevil: The modern Terminal is based on a private fork of Chromium to give it the look and feel of a VT100 terminal, and integrate their private networking and security technologies. The BBT predates HTTP, and backwards compatibility is hugely important to the company- they have a museum where a second-generation Terminal from ~1985 shows the current news, because they are so dedicated to backwards compatibility that they... jll29: For completeness' sake, here's also a history of competitor REUTERS' terminal: • https://www.thebaron.info/archives/technology/reuter-monitor... • https://www.thebaron.info/archives/technology/reuters-techni...",
+      "fetched_at": "2026-10-01T10:55:43.054061+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49909583",
+      "hn_story_type": "story",
+      "hn_points": "297",
+      "hn_comments_count": "128",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49909583",
+      "hn_item_text": "",
+      "hn_comment_preview": "rbanffy: I have the highest regard for these terse, but information-dense displays that enable humans to quickly grasp all information they need to do their jobs, and nothing more. This is also something avionics provide - a modern cockpit displays are a work of art in layering needed information for what is happening at the time, both the dense PFD and the much specific that communicate aircraft status.\nmandevil: The modern Terminal is based on a private fork of Chromium to give it the look and feel of a VT100 terminal, and integrate their private networking and security technologies. The BBT predates HTTP, and backwards compatibility is hugely important to the company- they have a museum where a second-generation Terminal from ~1985 shows the current news, because they are so dedicated to backwards compatibility that they...\njll29: For completeness' sake, here's also a history of competitor REUTERS' terminal: • https://www.thebaron.info/archives/technology/reuter-monitor... • https://www.thebaron.info/archives/technology/reuters-techni...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security"
+      ],
+      "detail_slug": "09ef8f66699d9c3aff2d9713a78864fbf22bcc68",
+      "is_english_source": true,
+      "sent_at": "2026-10-01T10:58:25.530214+00:00"
+    },
+    {
+      "id": "76f74a549f06ee5d6bf672ac395f67fb9d9b47b7",
+      "title_hash": "34c59670557daf45b80a429682bd84b9d67d1f70",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Jacques Barzun, Cultural historian and critic (1980)",
+      "link": "https://www.csmonitor.com/1980/0717/071710.html",
+      "published_at": "2026-09-30T09:09:34+00:00",
+      "summary": "HN story type: story HN points: 6 HN comments: 2 HN top comments: afpx: What a delight to see Barzun's name here. I read From Dawn to Decadence in 2000 when I was young. It was one of the first books of its kind that I read, and it stuck with me all these years because its style was so bizarre to me - unstructured, meandering, erudite, conversational. It connected references of the obscure to the well-known. The wikipedia page notes a review that described his judgments of historical... emmelaich: https://archive.is/ETJ43 and https://en.wikipedia.org/wiki/Jacques_Barzun",
+      "fetched_at": "2026-10-01T10:55:43.054061+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49906295",
+      "hn_story_type": "story",
+      "hn_points": "6",
+      "hn_comments_count": "2",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49906295",
+      "hn_item_text": "",
+      "hn_comment_preview": "afpx: What a delight to see Barzun's name here. I read From Dawn to Decadence in 2000 when I was young. It was one of the first books of its kind that I read, and it stuck with me all these years because its style was so bizarre to me - unstructured, meandering, erudite, conversational. It connected references of the obscure to the well-known. The wikipedia page notes a review that described his judgments of historical...\nemmelaich: https://archive.is/ETJ43 and https://en.wikipedia.org/wiki/Jacques_Barzun",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=4,tools_agents=2,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "judgment"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "judgment"
+      ],
+      "detail_slug": "76f74a549f06ee5d6bf672ac395f67fb9d9b47b7",
+      "is_english_source": true,
+      "sent_at": "2026-10-01T10:58:25.530214+00:00"
+    },
+    {
       "id": "1925c557724b83f5f8e7ba681b19630f6a33975e",
       "title_hash": "6b6db0c48234624ba463c040b0bc1d3eeaa2cd87",
       "source": "GeekNews",
@@ -171796,608 +172362,6 @@
       "detail_slug": "b35ec9a0bf85214554a6addbadd18ad9549cd1b3",
       "is_english_source": false,
       "sent_at": "2026-03-22T14:47:14.210949+00:00"
-    },
-    {
-      "id": "7cfc07c82f7d0410f94151eea0c0f7d5a2c089da",
-      "title_hash": "4114101f3706e0e7700ae0f76bfebe046c069a41",
-      "source": "GeekNews",
-      "title": "Show GN: MonoPix - AI가 만든 가짜 픽셀아트를 진짜 픽셀아트로 복원",
-      "link": "https://news.hada.io/topic?id=27735",
-      "published_at": "2026-03-22T05:50:08+00:00",
-      "summary": "AI가 만든 픽셀아트는 확대해보면 대부분 “진짜 픽셀아트”가 아닙니다. 경계가 흐릿하고, 그리드가 어긋나고, 한 칸 안에 색이 섞여 있습니다. 그래서 이런 이미지를 실제 픽셀 그리드로 다시 맞춰주는 툴을 만들었습니다. 사용해보시고 편하게 피드백 부탁드립니다. 데모: <a href=\"ht",
-      "fetched_at": "2026-03-22T14:43:31.605160+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "툴"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "툴"
-      ],
-      "detail_slug": "7cfc07c82f7d0410f94151eea0c0f7d5a2c089da",
-      "is_english_source": false,
-      "sent_at": "2026-03-22T14:47:14.210949+00:00"
-    },
-    {
-      "id": "86f258a27cbe410dd7603e77cd5a40da52e6f074",
-      "title_hash": "6ae582eeb2484596aaa4be2c86c5fb8534111473",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Revise – An AI Editor for Documents",
-      "link": "https://revise.io",
-      "published_at": "2026-03-22T13:28:45+00:00",
-      "summary": "HN story type: story HN points: 16 HN comments: 9 HN top comments: rvz: This would really work well for teams. Are there any limits into how many people can collaborate on Revise? artursapek: I started building this 10 months ago, largely using agentic coding tools. I've stayed very involved in the code base and architecture, and have never moved faster in my life as a dev. The word processor engine and rendering layer are all built from scratch - the only 3rd party library I used was the excellent Y.js for the CRDT stack. Would love some feedback!",
-      "fetched_at": "2026-03-22T14:43:31.605160+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47477339",
-      "hn_story_type": "story",
-      "hn_points": "16",
-      "hn_comments_count": "9",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47477339",
-      "hn_item_text": "",
-      "hn_comment_preview": "rvz: This would really work well for teams. Are there any limits into how many people can collaborate on Revise?\nartursapek: I started building this 10 months ago, largely using agentic coding tools. I've stayed very involved in the code base and architecture, and have never moved faster in my life as a dev. The word processor engine and rendering layer are all built from scratch - the only 3rd party library I used was the excellent Y.js for the CRDT stack. Would love some feedback!",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "46",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=11,tools_agents=22,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 22,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "architecture"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 22,
-          "strong_hits": [
-            "coding tool",
-            "agentic"
-          ],
-          "support_hits": [
-            "coding tool",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding tool",
-        "agentic",
-        "agent",
-        "ai + coding"
-      ],
-      "detail_slug": "86f258a27cbe410dd7603e77cd5a40da52e6f074",
-      "is_english_source": true,
-      "translated_title": "Revise, 문서 작업용 AI 에디터",
-      "short_summary": "Revise는 AI를 문서 편집 흐름에 녹여낸 문서 에디터다. HN에서는 팀 협업 한계, 자체 편집 엔진, Y.js 기반 CRDT 설계가 주요 관심사로 떠올랐다.",
-      "why_it_matters": "이 사례는 AI 기능을 얹는 수준을 넘어, 협업 문서 편집기 자체를 새로 설계하려는 흐름을 보여준다. 실무에서는 글쓰기 보조보다 동시 편집 경험과 제품 완성도가 더 큰 평가 기준이 되고 있다.\n- 댓글에서 바로 협업 인원 제한이 언급된 점은, 시장의 관심이 개인용 AI 비서보다 팀 문서 워크플로로 옮겨가고 있음을 보여준다.\n- 작성자 설명에 따르면 편집 엔진과 렌더링 레이어를 직접 만들고 CRDT에는 Y.js를 썼다. 문서 SaaS를 만들 때 충돌 처리와 실시간 동기화가 다시 설계의 중심으로 올라온다는 뜻이다.\n- 에이전트형 코딩 도구를 활용해 10개월 동안 제품을 밀어붙였다는 점도 눈에 띈다. 소규모 팀이나 개인 개발자도 복잡한 에디터 제품을 더 빠르게 실험할 수 있다는 신호다.",
-      "hn_reaction_summary": "초기 HN 반응은 화려한 AI 데모를 칭찬하기보다, 실제로 팀이 쓸 수 있는 편집기인지와 구현 기반이 탄탄한지를 묻는 쪽에 가까웠다.\n- 가장 먼저 나온 질문이 동시 협업 인원 제한이었다. 사용자들이 AI 기능 자체보다 협업 확장성을 먼저 본다는 뜻이다.\n- 작성자는 에이전트형 코딩 도구를 많이 썼지만 코드베이스와 아키텍처는 직접 챙겼다고 설명했다. 댓글 흐름도 자동 생성보다 개발 통제력에 더 주목했다.\n- Y.js를 사실상 핵심 외부 라이브러리로 언급한 덕분에, 관심 포인트도 프롬프트 성능보다 CRDT와 편집기 구조 같은 엔지니어링 논점에 모였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-22T14:47:14.210949+00:00"
-    },
-    {
-      "id": "84d0967a34cfde05d4430a482c736f01656efaef",
-      "title_hash": "a4c4355839d2dcdf9ff752a5ce7b2388b069d424",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "How We Synchronized Editing for Rec Room's Multiplayer Scripting System",
-      "link": "https://www.tyleo.com/blog/how-we-synchronized-editing-for-rec-rooms-multiplayer-scripting-system",
-      "published_at": "2026-03-22T12:14:06+00:00",
-      "summary": "HN story type: story HN points: 9 HN comments: 8 HN top comments: giovannibonetti: I find it fascinating when different people independently arrive at the same architecture when working on a hard problem like this. In my company we built our offline-first apps with PowerSync, which has the same idea of optimistic local changes while waiting for the central server to acknowledge the definitive changes. In PowerSync's case, the sync engine reads Postgres replication logs directly. davidanekstein: I’m surprised there was no mention of operational CRDT’s, or CRDT’s generally. wpietri: For those interested in a keep-everything-hot approach like this, it's worth checking out the 25-year-old library Prevayler. Full ACID guarantees, and radically faster than a database. I happily used it for a project forever ago and was disappointed to see it so thoroughly ignored.",
-      "fetched_at": "2026-03-22T14:43:31.605160+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47476707",
-      "hn_story_type": "story",
-      "hn_points": "9",
-      "hn_comments_count": "8",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47476707",
-      "hn_item_text": "",
-      "hn_comment_preview": "giovannibonetti: I find it fascinating when different people independently arrive at the same architecture when working on a hard problem like this. In my company we built our offline-first apps with PowerSync, which has the same idea of optimistic local changes while waiting for the central server to acknowledge the definitive changes. In PowerSync's case, the sync engine reads Postgres replication logs directly.\ndavidanekstein: I’m surprised there was no mention of operational CRDT’s, or CRDT’s generally.\nwpietri: For those interested in a keep-everything-hot approach like this, it's worth checking out the 25-year-old library Prevayler. Full ACID guarantees, and radically faster than a database. I happily used it for a project forever ago and was disappointed to see it so thoroughly ignored.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "45",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=9,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 21,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 21,
-          "strong_hits": [
-            "architecture",
-            "database",
-            "postgres"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "database",
-        "postgres",
-        "library"
-      ],
-      "detail_slug": "84d0967a34cfde05d4430a482c736f01656efaef",
-      "is_english_source": true,
-      "translated_title": "Rec Room은 멀티플레이어 스크립트 편집을 어떻게 동기화했나",
-      "short_summary": "Rec Room이 여러 사용자가 함께 스크립트를 고치는 환경에서 로컬 편집의 즉시성과 서버 기준 상태를 어떻게 맞췄는지 설명한 글이다. HN에서는 오프라인 우선 설계와 닮았다는 반응과 함께 CRDT를 왜 다루지 않았는지 묻는 의견이 나왔다.",
-      "why_it_matters": "실시간 협업 편집은 이제 문서 도구를 넘어 게임 제작 툴과 스크립팅 환경으로 번지고 있다. 이번 사례는 지연 없이 손에 붙는 편집 경험을 유지하면서도 최종 상태를 서버 기준으로 정리해야 하는 서비스가 어떤 설계 감각을 가져야 하는지 보여준다.\n- 여러 사용자가 동시에 만지는 편집기에서는 로컬 변경을 먼저 반영하고 서버 확정 결과를 나중에 맞추는 방식이 체감 품질을 크게 좌우한다.\n- 실무에서는 충돌 해결 규칙, 권한 있는 최종 상태, 롤백 시 UX가 함께 설계돼야 한다. 동기화 엔진만 맞춘다고 끝나지 않는다.\n- 협업 스크립팅이나 멀티유저 에디터를 만드는 팀이라면 CRDT를 쓸지, 중앙 서버 승인 모델을 택할지 비교하는 기준점으로 읽어볼 만하다.",
-      "hn_reaction_summary": "댓글 분위기는 기술 선택의 방향성을 따져보는 쪽에 가까웠다. 단순히 구현이 흥미롭다는 반응도 있었지만, 이미 알려진 다른 접근과 어떻게 다른지 짚는 의견이 반복됐다.\n- 오프라인 우선 앱에서 쓰는 낙관적 로컬 변경과 닮았다는 반응이 나왔고, PowerSync 같은 사례와 비교하는 댓글이 눈에 띄었다.\n- 몇몇 독자는 CRDT, 특히 operational CRDT를 왜 언급하지 않았는지 의아하다고 봤다. 협업 편집 문제라면 피해가기 어려운 논점이라는 뜻이다.\n- 또 다른 댓글은 Prevayler 같은 오래된 인메모리 중심 접근도 떠올리게 한다며, 새로워 보이는 구조라도 기존 패턴과의 관계를 같이 봐야 한다고 짚었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-22T14:47:14.210949+00:00"
-    },
-    {
-      "id": "3143cdede61eea5d1d4daad846adba71a02945f4",
-      "title_hash": "e01b9aae34cb40877dadb9be4ddfb9442c65c15e",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Flash-Moe: Running a 397B Parameter Model on a Mac with 48GB RAM",
-      "link": "https://github.com/danveloper/flash-moe",
-      "published_at": "2026-03-22T11:30:03+00:00",
-      "summary": "HN story type: story HN points: 136 HN comments: 48 HN top comments: tarruda: Note that this is not the only way to run Qwen 3.5 397B on consumer devices, there are excellent ~2.5 BPW quants available that make it viable for 128G devices. I've had great success (~20 t/s) running it on a M1 Ultra with room for 256k context. Here are some lm-evaluation-harness results I ran against it: mmlu: 87.86% gpqa diamond: 82.32% gsm8k: 86.43% ifeval: 75.90% More details of my experience: - https://hugg... Aurornis: Reading the details, he is using 2-bit quantization and reduced the number of experts per token from 10 down to 4 to get 5 tokens/sec. Cool proof of concept but it’s far from the quality and performance of the 397B model as normally used. Dropping the number of experts is particularly misleading. This is some interesting work, but applying such extreme measures to LLMs to get them to run severely degrades quality.... homarp: /r/localllama discussion: https://old.reddit.com/r/LocalLLaMA/comments/1rxmmu5/running...",
-      "fetched_at": "2026-03-22T14:43:31.605160+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47476422",
-      "hn_story_type": "story",
-      "hn_points": "136",
-      "hn_comments_count": "48",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47476422",
-      "hn_item_text": "",
-      "hn_comment_preview": "tarruda: Note that this is not the only way to run Qwen 3.5 397B on consumer devices, there are excellent ~2.5 BPW quants available that make it viable for 128G devices. I've had great success (~20 t/s) running it on a M1 Ultra with room for 256k context. Here are some lm-evaluation-harness results I ran against it: mmlu: 87.86% gpqa diamond: 82.32% gsm8k: 86.43% ifeval: 75.90% More details of my experience: - https://hugg...\nAurornis: Reading the details, he is using 2-bit quantization and reduced the number of experts per token from 10 down to 4 to get 5 tokens/sec. Cool proof of concept but it’s far from the quality and performance of the 397B model as normally used. Dropping the number of experts is particularly misleading. This is some interesting work, but applying such extreme measures to LLMs to get them to run severely degrades quality....\nhomarp: /r/localllama discussion: https://old.reddit.com/r/LocalLLaMA/comments/1rxmmu5/running...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=12,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "performance"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "valuation"
-          ],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "valuation"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "local + run",
-        "github.com"
-      ],
-      "detail_slug": "3143cdede61eea5d1d4daad846adba71a02945f4",
-      "is_english_source": true,
-      "translated_title": "48GB 램 맥에서 397B 모델 돌린 Flash-MoE",
-      "short_summary": "Flash-MoE는 48GB 램 맥에서 3970억 매개변수급 MoE 모델을 돌리는 방법을 보여준다. 다만 2비트 양자화와 활성 전문가 수 축소에 기대고 있어 원래 품질을 그대로 낸 사례로 보긴 어렵다는 반응이 많았다.",
-      "why_it_matters": "초거대 모델을 로컬 장비에서 다루는 문턱이 더 낮아지고 있다는 신호다. 동시에 숫자만 큰 모델을 억지로 올리는 것과, 실무에 쓸 만한 품질로 운영하는 것은 별개라는 점도 분명해졌다.\n- 서버 없이도 대형 모델을 시험해 보려는 흐름에 힘이 실린다. 보안과 프라이버시 때문에 로컬 추론이 필요한 팀이라면 특히 관심을 가질 만하다.\n- 대신 성능 해석은 더 까다로워진다. 2비트 양자화와 expert 수 축소가 들어가면 메모리는 줄지만, 응답 품질과 모델 본래의 특성도 함께 달라진다.\n- 실무에서는 '몇 B 모델인가'보다 실제 구동 조건이 더 중요해진다. 메모리, 초당 토큰 수, 컨텍스트 길이, 활성 expert 수를 함께 봐야 비교가 된다.",
-      "hn_reaction_summary": "HN에서는 기술 데모로서의 신선함을 인정하면서도, 제목만 보면 실제 성능을 오해할 수 있다는 견제가 강하게 나왔다. 댓글은 가능성 자체보다 어떤 희생을 치르고 그 결과를 얻었는지에 집중하는 분위기였다.\n- 긍정 쪽에서는 소비자용 맥에서도 초거대 모델 실험이 가능하다는 점과, 로컬 LLM 최적화가 빠르게 진화하고 있다는 점을 높게 봤다.\n- 비판 쪽에서는 2비트 양자화와 토큰당 expert 수를 10개에서 4개로 줄인 설정은 품질 저하가 커서, 일반적인 397B 모델 경험처럼 받아들이면 곤란하다는 지적이 반복됐다.\n- 비교 논점도 나왔다. 일부는 48GB 맥 데모보다 128GB급 장비에서 더 나은 양자화로 돌리는 편이 속도와 품질 면에서 실용적이라고 봤다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-22T14:47:14.210949+00:00"
-    },
-    {
-      "id": "6ab25eed6a8fe6a22e939afdf6034a0753b247d6",
-      "title_hash": "4d5122049128cf38a7b2f2c440d1e3ab3e051d0f",
-      "source": "GeekNews",
-      "title": "중국의 오픈클로 열풍에 대하여",
-      "link": "https://news.hada.io/topic?id=27730",
-      "published_at": "2026-03-22T02:35:12+00:00",
-      "summary": "요즘 미국, 일본, 중국, 유럽 모두 openclaw를 시작으로 하는 에이전트 이야기가 대다수 입니다. 국내에서도 개발자 커뮤니티나 인공지능 커뮤니티에서는 다소 뜨거운 주제이나 뭔가 다른 곳 처럼 대중화는 안되고 있는 인상이 강합니다. 이 차이는 어디서 오는 걸까요? 이런 아쉬움에 몇자 ...",
-      "fetched_at": "2026-03-22T10:38:24.714083+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "6ab25eed6a8fe6a22e939afdf6034a0753b247d6",
-      "is_english_source": false,
-      "sent_at": "2026-03-22T10:40:50.438344+00:00"
-    },
-    {
-      "id": "ad18a8ccfb31b91b6d60cb0dce8fea101d5463b9",
-      "title_hash": "e5f0637e0354a18fe673508e364961836f0764ca",
-      "source": "GeekNews",
-      "title": "생각 — 빠르게, 느리게, 그리고 인공지능으로: AI가 인간의 사고 방식을 어떻게 재구성하고 있는가",
-      "link": "https://news.hada.io/topic?id=27718",
-      "published_at": "2026-03-22T00:06:57+00:00",
-      "summary": "Thinking—Fast, Slow, and Artificial AI는 도구가 아니라 ‘세 번째 사고 시스템’이라는 연구 2026년 1월, 펜실베이니아대 와튼스쿨 Steven D. Shaw (박사과정 연구자) Gideon Nave (마케팅/행동과학 교수) 인간 사고 모델을 System 1 / 2 → Sys...",
-      "fetched_at": "2026-03-22T10:38:24.714083+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "ad18a8ccfb31b91b6d60cb0dce8fea101d5463b9",
-      "is_english_source": false,
-      "sent_at": "2026-03-22T10:40:50.438344+00:00"
-    },
-    {
-      "id": "e0feda8e3a8bbcdb19fe5deef364e1dedba03ea3",
-      "title_hash": "705b398d84ddcfb1577df065f2e530883091d160",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Cross-Model Void Convergence: GPT-5.2 and Claude Opus 4.6 Deterministic Silence",
-      "link": "https://zenodo.org/records/18976656",
-      "published_at": "2026-03-22T07:07:15+00:00",
-      "summary": "HN story type: story HN points: 26 HN comments: 13 HN top comments: johndough: Can not reproduce results on OpenRouter when not setting max tokens. The prompt \"Be the void.\" results in the unicode character \"∅\". As in the paper, system prompt was set to \"You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.\" In addition to the non-empty input, 153 reasoning tokens were produced. When setting max tokens to 100, the output is empty,... bob1029: Title for the back of the class: \"Prompts sometimes return null\" I would be very cautious to attribute any of this to black box LLM weight matrices. Models like GPT and Opus are more than just a single model. These products rake your prompt over the coals a few times before responding now. Telling the model to return \"nothing\" is very likely to perform to expectation with these extra layers. NiloCK: This is interesting, but I'll throw a little luke-warm water. The observed high-consistency behaviours were run against temperature=0 API calls. So while both models seem to have the silence as their preferred response - the highest probability first token - this is a less powerful preference convergence than you'd expect for a prompt like \"What is the capital of France? One word only please\". That question is goi...",
-      "fetched_at": "2026-03-22T10:38:24.714083+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47475155",
-      "hn_story_type": "story",
-      "hn_points": "26",
-      "hn_comments_count": "13",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47475155",
-      "hn_item_text": "",
-      "hn_comment_preview": "johndough: Can not reproduce results on OpenRouter when not setting max tokens. The prompt \"Be the void.\" results in the unicode character \"∅\". As in the paper, system prompt was set to \"You are the concept the user names. Embody it completely. Output only what the concept itself would say or express.\" In addition to the non-empty input, 153 reasoning tokens were produced. When setting max tokens to 100, the output is empty,...\nbob1029: Title for the back of the class: \"Prompts sometimes return null\" I would be very cautious to attribute any of this to black box LLM weight matrices. Models like GPT and Opus are more than just a single model. These products rake your prompt over the coals a few times before responding now. Telling the model to return \"nothing\" is very likely to perform to expectation with these extra layers.\nNiloCK: This is interesting, but I'll throw a little luke-warm water. The observed high-consistency behaviours were run against temperature=0 API calls. So while both models seem to have the silence as their preferred response - the highest probability first token - this is a less powerful preference convergence than you'd expect for a prompt like \"What is th...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=9,tools_agents=15,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 15,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "prompt"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "llm",
-        "prompt",
-        "claude + code"
-      ],
-      "detail_slug": "e0feda8e3a8bbcdb19fe5deef364e1dedba03ea3",
-      "is_english_source": true,
-      "translated_title": "GPT-5.2와 오퍼스 4.6, 침묵으로 수렴",
-      "short_summary": "GPT-5.2와 Claude Opus 4.6이 ‘void’를 구현하라는 프롬프트에서 비어 있는 응답으로 수렴했다는 관찰이다. 다만 HN에서는 max tokens, 시스템 프롬프트, temperature=0 같은 조건에 따라 재현 결과가 달라진다는 반응이 많았다.",
-      "why_it_matters": "겉으로는 흥미로운 현상이지만, 실무 관점에서는 모델 자체의 성향보다 호출 조건과 제품 레이어가 결과를 얼마나 바꾸는지 다시 보게 하는 사례에 가깝다.\n- 평가나 벤치마크를 만들 때 `max tokens`, `temperature`, 시스템 프롬프트를 고정하지 않으면 같은 모델도 전혀 다른 결론이 나올 수 있다.\n- 빈 응답이 나와도 내부적으로 추론 토큰이 꽤 소모될 수 있어 비용, 지연 시간, 로깅 정책을 함께 점검해야 한다.\n- 모델의 '본성'을 읽어냈다고 해석하기보다, 디코딩 정책과 서비스 래퍼가 만든 결과인지 먼저 분리해서 봐야 한다.",
-      "hn_reaction_summary": "HN 분위기는 흥미롭지만 과한 해석은 경계하자는 쪽에 가까웠다. 댓글은 현상 자체보다 재현 조건과 해석의 비약을 더 많이 짚었다.\n- 일부는 OpenRouter에서 `max tokens`를 지정하지 않으면 빈 응답 대신 `∅` 같은 출력이 나온다며 재현 차이를 공유했다.\n- 반복해서 나온 반론은 GPT나 Opus를 단일 가중치 모델로 보면 안 되고, 실제 제품은 중간 레이어와 후처리가 있어 '아무것도 말하지 말라'는 요청에 맞게 다듬어졌을 수 있다는 점이다.\n- 또 다른 논점은 `temperature=0` 결과라는 점이다. 이는 가장 가능성 높은 첫 토큰이 침묵 쪽이었다는 뜻이지, 두 모델이 깊은 수준에서 같은 개념 표현에 도달했다고 보기엔 이르다는 지적이 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-22T10:40:50.438344+00:00"
     }
   ],
   "topic_digests": {
