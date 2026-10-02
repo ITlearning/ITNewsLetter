@@ -1,6 +1,580 @@
 {
   "items": [
     {
+      "id": "884d1f39ab65ec30d5256e22860a868beb045482",
+      "title_hash": "1c8ac1b15c7808235e926301000f6a51e15e423d",
+      "source": "GeekNews",
+      "title": "Show GN: oh-my-jev - Jev-Style 판단 모델을 벤치마크하고 테스트하고 직접 파인튜닝까지 가능한 오픈소스 도구",
+      "link": "https://news.hada.io/topic?id=34649",
+      "published_at": "2026-10-02T00:56:22+00:00",
+      "summary": "소개 판단 모델이란 \"어느 팀으로 보낼까\", \"규정 위반인가\" 같은 정해진 질문에 문장 대신 선택지별 확률로 답하는 모델임. TypeSafe의 Jev가 대표적이고, 공개 이후 오픈 복제 모델이 빠르게 늘어남 oh-my-jev는 이런 모델을 한곳에서 서빙, 비교, 학습하는 CLI와 웹 UI",
+      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli"
+      ],
+      "detail_slug": "884d1f39ab65ec30d5256e22860a868beb045482",
+      "is_english_source": false,
+      "sent_at": "2026-10-02T16:11:01.697483+00:00"
+    },
+    {
+      "id": "3e8cc7dbd5e9c070ae03a29fdab02fcb8f20dd23",
+      "title_hash": "348dfc2e897d2a8dd951620270c6fd81a15b6d03",
+      "source": "GeekNews",
+      "title": "컨텍스트 언어 모델",
+      "link": "https://news.hada.io/topic?id=34653",
+      "published_at": "2026-10-02T04:35:24+00:00",
+      "summary": "Context Language Models(CLMs) 는 현재 컨텍스트를 파일로 취급하고 모델이 직접 편집하도록 해, 외부 하네스에 고정된 관리 전략 대신 필요한 정보를 스스로 유지하고 갱신함 기존 모델에 추가 학습 없이 적용한 CLM은 BrowseComp-Plus 에서 가장 강력한 비교 방법...",
+      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 5,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "전략"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "전략"
+      ],
+      "detail_slug": "3e8cc7dbd5e9c070ae03a29fdab02fcb8f20dd23",
+      "is_english_source": false,
+      "sent_at": "2026-10-02T16:11:01.697483+00:00"
+    },
+    {
+      "id": "4d17f1d4bf5612772a1d479392c7a99359910e79",
+      "title_hash": "e0eae38ea1943810a054142bcedd2742beef7742",
+      "source": "GeekNews",
+      "title": "터보 하스켈(Turbo Haskell)",
+      "link": "https://news.hada.io/topic?id=34669",
+      "published_at": "2026-10-02T12:33:48+00:00",
+      "summary": "THC 는 GHC가 최적화한 Core를 자체 Truffle/GraalVM 런타임에서 컴파일하고 실행해, Haskell을 JVM에서 구동하는 JIT 컴파일러임 GHC 9.14.1의 모든 prim-op 과 Template Haskell, Linear Haskell을 지원하며, Native Image 기반 AOT 컴파일 로 GHC...",
+      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "51",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 6,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "template"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "template"
+      ],
+      "detail_slug": "4d17f1d4bf5612772a1d479392c7a99359910e79",
+      "is_english_source": false,
+      "sent_at": "2026-10-02T16:11:01.697483+00:00"
+    },
+    {
+      "id": "21209a677e1b107d08680cfbfef7037e405a8711",
+      "title_hash": "a5f60d219faa8d5f094ad7c722cfb5ceba317b66",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Big Tech ruined the cloud, so we're renaming ours",
+      "link": "https://www.home-assistant.io/blog/2026/10/02/big-tech-ruined-the-cloud-so-were-renaming-ours/",
+      "published_at": "2026-10-02T14:57:22+00:00",
+      "summary": "HN story type: story HN points: 135 HN comments: 46 HN top comments: benabus: I feel like Cloud means something now, and as part of the general lexicon, it's okay to use it for what it means. At this point, Cloud kind of means that it's a service hosted somewhere on the Internet, that you don't control directly, usually that you pay for. Sounds like they're still doing that. Changing the name to distance yourself from AWS and Google Cloud is fine, but \"Link\" doesn't really tell you anything... voidnullvalue: Nabu Kasa keeps ignoring the elephant in the room of security and permissions. They have no native ability to set user groups and permissions. I guess it doesn't sell cloud subscriptions. I cant keep my children from affecting devices they shouldn't. I ended up replacing my automation with mqtt paimapi: I'll wait for someone to do a network call audit before I trust something like this I've been working on a small project running mitmproxy on a lot of 'privacy-focused' baby-tracking apps and only one of the ones I've tested doesn't send back a bevy of analytics data (none of which they openly promise to anonymize) some of the worst culprits had things like the Facebook SDK and Google Ads installed and sending dat...",
+      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49934228",
+      "hn_story_type": "story",
+      "hn_points": "135",
+      "hn_comments_count": "46",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49934228",
+      "hn_item_text": "",
+      "hn_comment_preview": "benabus: I feel like Cloud means something now, and as part of the general lexicon, it's okay to use it for what it means. At this point, Cloud kind of means that it's a service hosted somewhere on the Internet, that you don't control directly, usually that you pay for. Sounds like they're still doing that. Changing the name to distance yourself from AWS and Google Cloud is fine, but \"Link\" doesn't really tell you anything...\nvoidnullvalue: Nabu Kasa keeps ignoring the elephant in the room of security and permissions. They have no native ability to set user groups and permissions. I guess it doesn't sell cloud subscriptions. I cant keep my children from affecting devices they shouldn't. I ended up replacing my automation with mqtt\npaimapi: I'll wait for someone to do a network call audit before I trust something like this I've been working on a small project running mitmproxy on a lot of 'privacy-focused' baby-tracking apps and only one of the ones I've tested doesn't send back a bevy of analytics data (none of which they openly promise to anonymize) some of the worst culprits had things like the Facebook SDK and Google Ads installed and sending dat...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=7,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 7,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "security",
+            "rust",
+            "sdk",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "automation"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "rust",
+        "sdk",
+        "api"
+      ],
+      "detail_slug": "21209a677e1b107d08680cfbfef7037e405a8711",
+      "is_english_source": true,
+      "sent_at": "2026-10-02T16:11:01.697483+00:00"
+    },
+    {
+      "id": "873d9ad3a36dfc5466fe21dd4f71629c040e0479",
+      "title_hash": "847a39713f0e9176513a7a18f7f0bdc05aa0f865",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Four Horsemen of Agentic Coding",
+      "link": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
+      "published_at": "2026-10-02T15:19:56+00:00",
+      "summary": "HN story type: story HN points: 12 HN comments: 1 HN top comments: JV00: Disagree on the slop point. By now the code of frontier models works well, and the need to read it is gone. The Claude word salad problem was pretty much solved with the 5.5 opus release. The other 3 points made in article make sense though.",
+      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49934511",
+      "hn_story_type": "story",
+      "hn_points": "12",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49934511",
+      "hn_item_text": "",
+      "hn_comment_preview": "JV00: Disagree on the slop point. By now the code of frontier models works well, and the need to read it is gone. The Claude word salad problem was pretty much solved with the 5.5 opus release. The other 3 points made in article make sense though.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "39",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=4,tools_agents=15,strategy_insight=5,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 15,
+        "strategy_insight": 5,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "agentic"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "substack.com"
+          ]
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "agentic",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "873d9ad3a36dfc5466fe21dd4f71629c040e0479",
+      "is_english_source": true,
+      "sent_at": "2026-10-02T16:11:01.697483+00:00"
+    },
+    {
+      "id": "e1922af2846db5da07119893b3d5d00cc0858d77",
+      "title_hash": "f6926c49b040b26e4ee86f5d8665c80939e69179",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "link": "https://blog.cloudflare.com/clef-decision-models/",
+      "published_at": "2026-10-01T16:18:57+00:00",
+      "summary": "HN story type: story HN points: 581 HN comments: 210 HN top comments: djray: Unrelated to the subject matter, but something that I never fail to appreciate is just how well-written the majority of Cloudflare's posts are. (There was an article on Merkle Tree Certificates which was phenomenal.) There is real skill in creating an informative work which condenses complex technical subject matter into something that a technically-inclined non-expert can understand. manlymuppet: Am I hearing this right, that they made a decision model based on Typesafe's new paradigm, and actually made a model better than Jev based on Typesafe's own ranking? And it's only been a few weeks. dgacmu: Since it supports vision, I tested it (an 8 bit quant) against one of my pet problems of coin classification (US coins, but not beauty shots of them, just lots of cell phone images on a piece of paper). It did .. horribly. About 41% accuracy. My local gemma4:27b gets 53% and runs 4x faster. Not too surprising but seemed worth poking at it.",
+      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49923692",
+      "hn_story_type": "story",
+      "hn_points": "581",
+      "hn_comments_count": "210",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49923692",
+      "hn_item_text": "",
+      "hn_comment_preview": "djray: Unrelated to the subject matter, but something that I never fail to appreciate is just how well-written the majority of Cloudflare's posts are. (There was an article on Merkle Tree Certificates which was phenomenal.) There is real skill in creating an informative work which condenses complex technical subject matter into something that a technically-inclined non-expert can understand.\nmanlymuppet: Am I hearing this right, that they made a decision model based on Typesafe's new paradigm, and actually made a model better than Jev based on Typesafe's own ranking? And it's only been a few weeks.\ndgacmu: Since it supports vision, I tested it (an 8 bit quant) against one of my pet problems of coin classification (US coins, but not beauty shots of them, just lots of cell phone images on a piece of paper). It did .. horribly. About 41% accuracy. My local gemma4:27b gets 53% and runs 4x faster. Not too surprising but seemed worth poking at it.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "34",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=10,practical_tech=10,tools_agents=9,strategy_insight=7,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 9,
+        "strategy_insight": 7,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "local + run"
+      ],
+      "detail_slug": "e1922af2846db5da07119893b3d5d00cc0858d77",
+      "is_english_source": true,
+      "sent_at": "2026-10-02T16:11:01.697483+00:00"
+    },
+    {
+      "id": "7f8e76c478656fc50aa20c79f5e64b81dcdcb698",
+      "title_hash": "826dc7af7799a0083b0cd37aee425acd7cd665c2",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Giving friends custom text buzzes based on Morse code",
+      "link": "https://liquidbrain.net/blog/giving-friends-custom-text-buzzes-based-on-morse-code/",
+      "published_at": "2026-10-01T18:56:52+00:00",
+      "summary": "HN story type: story HN points: 20 HN comments: 4 HN top comments: aorist: We’ve come full circle: the iconic Nokia default SMS ringtone is S-M-S in morse code, and the “Ascending” ringtone spells CONNECTING PEOPLE ragmondo: Many many many years ago, I wrote an android app that allowed you to set the ringtone of the device you were ringing for that call (yes they had to have the app installed etc etc, and had given you permission to do it). I did release it but the market problem I had was that iPhone's ringtones were not something a client app could change, let alone in the background and even less so without direct permission of the... taylor-tg: Pretty clever! Not a bad way to passively learn Morse code too. iOS supports having notification sounds synchronized with the haptics; I wonder if generating the text tones as audio files and assigning those would have been an easier approach. Just have to use the share sheet on an audio file and choose \"Use as ringtone\". Shortcuts/Automator might even be able to make this automagic.",
+      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49925653",
+      "hn_story_type": "story",
+      "hn_points": "20",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49925653",
+      "hn_item_text": "",
+      "hn_comment_preview": "aorist: We’ve come full circle: the iconic Nokia default SMS ringtone is S-M-S in morse code, and the “Ascending” ringtone spells CONNECTING PEOPLE\nragmondo: Many many many years ago, I wrote an android app that allowed you to set the ringtone of the device you were ringing for that call (yes they had to have the app installed etc etc, and had given you permission to do it). I did release it but the market problem I had was that iPhone's ringtones were not something a client app could change, let alone in the background and even less so without direct permission of the...\ntaylor-tg: Pretty clever! Not a bad way to passively learn Morse code too. iOS supports having notification sounds synchronized with the haptics; I wonder if generating the text tones as audio files and assigning those would have been an easier approach. Just have to use the share sheet on an audio file and choose \"Use as ringtone\". Shortcuts/Automator might even be able to make this automagic.",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "37",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=13,practical_tech=9,tools_agents=3,strategy_insight=2,industry_business=13",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 3,
+        "strategy_insight": 2,
+        "industry_business": 13
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 3,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 13,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "market + share"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "release",
+        "market",
+        "market + share"
+      ],
+      "detail_slug": "7f8e76c478656fc50aa20c79f5e64b81dcdcb698",
+      "is_english_source": true,
+      "sent_at": "2026-10-02T16:11:01.697483+00:00"
+    },
+    {
       "id": "45deb27fb294c8a12fe4a944547603f007540bd2",
       "title_hash": "03e63a533898ed2833836c348352ad749187d4b6",
       "source": "GeekNews",
@@ -171776,641 +172350,6 @@
       "detail_slug": "aa403048f89ab7e64b89f7307d04fa75ddbd5538",
       "is_english_source": false,
       "sent_at": "2026-03-23T23:28:16.406628+00:00"
-    },
-    {
-      "id": "d179077c893a63a6db741f8b9e553ac5ff5b85f5",
-      "title_hash": "acf94a3499a30d757d38abff9e2cc325fd820957",
-      "source": "GeekNews",
-      "title": "NixOS를 사랑하는 이유",
-      "link": "https://news.hada.io/topic?id=27784",
-      "published_at": "2026-03-23T14:33:53+00:00",
-      "summary": "Nix 패키지 관리자 를 기반으로 한 NixOS는 시스템 전체를 코드로 정의하고, 언제든 결정적·재현 가능한 상태로 복원 할 수 있는 구조를 가짐 모든 설정과 패키지를 하나의 선언적 구성 파일 로 관리해, 새 장비에서도 동일한 환경을 단일 ...",
-      "fetched_at": "2026-03-23T23:25:43.654789+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=2,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "d179077c893a63a6db741f8b9e553ac5ff5b85f5",
-      "is_english_source": false,
-      "sent_at": "2026-03-23T23:28:16.406628+00:00"
-    },
-    {
-      "id": "de30a5797a9ff1f973306942b8d10f1988313846",
-      "title_hash": "49d570ff82f9faaad8d71a5a53f6c951d90c456d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Claude Code Cheat Sheet",
-      "link": "https://cc.storyfox.cz",
-      "published_at": "2026-03-23T21:44:20+00:00",
-      "summary": "HN story type: story HN points: 54 HN comments: 18 HN top comments: bibimsz: Thanks for putting this together! It's really nice to have a quick reference of all the features at a glance — especially since new features are being added all the time. Saves a lot of digging through docs. kxrm: CMD + V to paste an image is wrong. On Mac it's the same as Windows, CTRL + V. You use CMD + V to paste text. phasE89: I use Claude Code daily but kept forgetting commands, so I had Claude research every feature from the docs and GitHub, then generate a printable A4 landscape HTML page covering keyboard shortcuts, slash commands, workflows, skills system, memory/CLAUDE.md, MCP setup, CLI flags, and config files. It's a single HTML file - Claude wrote it and I iterated on the layout. A daily cron job checks the changelog and update...",
-      "fetched_at": "2026-03-23T23:25:43.654789+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47495527",
-      "hn_story_type": "story",
-      "hn_points": "54",
-      "hn_comments_count": "18",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47495527",
-      "hn_item_text": "",
-      "hn_comment_preview": "bibimsz: Thanks for putting this together! It's really nice to have a quick reference of all the features at a glance — especially since new features are being added all the time. Saves a lot of digging through docs.\nkxrm: CMD + V to paste an image is wrong. On Mac it's the same as Windows, CTRL + V. You use CMD + V to paste text.\nphasE89: I use Claude Code daily but kept forgetting commands, so I had Claude research every feature from the docs and GitHub, then generate a printable A4 landscape HTML page covering keyboard shortcuts, slash commands, workflows, skills system, memory/CLAUDE.md, MCP setup, CLI flags, and config files. It's a single HTML file - Claude wrote it and I iterated on the layout. A daily cron job checks the changelog and update...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "56",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=32,practical_tech=4,tools_agents=32,strategy_insight=4,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 32,
-        "strategy_insight": 4,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 32,
-          "strong_hits": [
-            "claude code",
-            "workflow",
-            "mcp",
-            "cli"
-          ],
-          "support_hits": [
-            "workflow",
-            "setup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "workflow",
-        "mcp",
-        "cli",
-        "setup",
-        "claude + code"
-      ],
-      "detail_slug": "de30a5797a9ff1f973306942b8d10f1988313846",
-      "is_english_source": true,
-      "translated_title": "Claude Code 기능을 한눈에 보는 치트시트",
-      "short_summary": "Claude Code의 단축키, 슬래시 명령어, MCP 설정, 메모리 파일 같은 자주 헷갈리는 요소를 한 장짜리 치트시트로 정리한 자료다. 기능 추가 속도가 빨라 문서를 계속 뒤져야 했던 사용자에게 빠른 참고용으로 쓰임새가 크다는 반응이 나왔다.",
-      "why_it_matters": "AI 코딩 도구가 빠르게 바뀌면서 실무자는 기능을 아는 것보다 바로 꺼내 쓰는 일이 더 어려워졌다. 이번 치트시트는 흩어진 문서 내용을 작업 흐름 기준으로 다시 묶어, 손이 자주 가는 기능을 빠르게 찾게 해준다는 점에서 눈길을 끈다.\n- 단축키, 슬래시 명령어, CLI 플래그, 설정 파일 위치를 한 번에 보여줘 작업 중 문서 탐색 시간을 줄여준다.\n- MCP 설정, CLAUDE.md 메모리, 스킬 시스템처럼 초보자에게 특히 헷갈리는 영역을 묶어 온보딩 자료로도 바로 활용할 수 있다.\n- 작성자가 변경 사항을 주기적으로 반영하도록 구성했다고 밝혀, 제품 업데이트 속도를 따라가기 위한 살아 있는 참고서라는 점도 실무에 맞닿아 있다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이다. 자주 쓰지만 자꾸 잊는 명령과 기능을 한 장으로 정리해 둔 점이 반갑다는 반응이 많았고, 동시에 세부 정확도는 꼼꼼히 봐야 한다는 지적도 나왔다.\n- 새 기능이 계속 추가돼 공식 문서를 오가며 찾기 번거로웠는데, 빠른 레퍼런스가 생겨 도움이 된다는 의견이 반복됐다.\n- 맥에서 이미지 붙여넣기 단축키 표기가 잘못됐다는 식의 구체적 정정이 나와, 이런 자료는 편의성과 함께 정확한 유지보수가 중요하다는 점이 드러났다.\n- 작성자가 Claude로 문서와 GitHub를 조사해 단일 HTML 치트시트를 만들고 주기적으로 업데이트한다고 설명해, AI로 문서를 만들고 사람이 다듬는 작업 방식에도 관심이 모였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-23T23:28:16.406628+00:00"
-    },
-    {
-      "id": "3e9a5685baa428f4aa70421a354efd372c49dbec",
-      "title_hash": "0174d4ae62f2682bc1fa2d3a539567f1491a5caa",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Local Stack Archived their GitHub repo and requires an account to run",
-      "link": "https://github.com/localstack/localstack",
-      "published_at": "2026-03-23T18:57:08+00:00",
-      "summary": "HN story type: story HN points: 128 HN comments: 60 HN top comments: tecleandor: They still have linked their OpenCollective account, where they have raised $10K and still have a balance of $5K. [0] It's not a lot in the great scheme of things, but, have they been using a platform that's seemingly built for communities and open source to bootstrap their business? Because this is not a 'open core' situation. They just closed the repo and ran away. If they had that idea all along, I feel like it... iaaan: I evangelized localstack at my company a while back, but as we integrated it deeper into our CI test runs we started running into more and more things they don't support, and it feels impossible to get any attention from their support/devs despite being paying customers. Their Cloud Pod and ephemeral instance features in particular feel pretty half-baked and not very useful at the moment. Fun tangent: it's pretty... inglor: First minio and then localstack, as an open source maintainer I find that abandoning their community is bad faith. I totally get wanting to monetize but removing the free product entirely feels like such a betrayel. Luckily, I've been vibing with Devin since this started having it build a cleanbox emulator on top of real s3 tuned for my specific use case. It's a lot less general but it's much faster and easy to ad...",
-      "fetched_at": "2026-03-23T23:25:43.654789+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47493657",
-      "hn_story_type": "story",
-      "hn_points": "128",
-      "hn_comments_count": "60",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47493657",
-      "hn_item_text": "",
-      "hn_comment_preview": "tecleandor: They still have linked their OpenCollective account, where they have raised $10K and still have a balance of $5K. [0] It's not a lot in the great scheme of things, but, have they been using a platform that's seemingly built for communities and open source to bootstrap their business? Because this is not a 'open core' situation. They just closed the repo and ran away. If they had that idea all along, I feel like it...\niaaan: I evangelized localstack at my company a while back, but as we integrated it deeper into our CI test runs we started running into more and more things they don't support, and it feels impossible to get any attention from their support/devs despite being paying customers. Their Cloud Pod and ephemeral instance features in particular feel pretty half-baked and not very useful at the moment. Fun tangent: it's pretty...\ninglor: First minio and then localstack, as an open source maintainer I find that abandoning their community is bad faith. I totally get wanting to monetize but removing the free product entirely feels like such a betrayel. Luckily, I've been vibing with Devin since this started having it build a cleanbox emulator on top of real s3 tun...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "42",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=18,practical_tech=18,tools_agents=12,strategy_insight=2,industry_business=11",
-      "slot_scores": {
-        "practical_tech": 18,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 11
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 18,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 11,
-          "strong_hits": [
-            "customers"
-          ],
-          "support_hits": [
-            "business",
-            "platform",
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "local + run",
-        "github.com"
-      ],
-      "detail_slug": "3e9a5685baa428f4aa70421a354efd372c49dbec",
-      "is_english_source": true,
-      "translated_title": "로컬스택, 깃허브 저장소 아카이브 후 계정 필수화",
-      "short_summary": "로컬 AWS 에뮬레이터로 알려진 LocalStack이 깃허브 저장소를 아카이브하고 실행에 계정을 요구하면서 HN에서 논란이 커졌다. 오픈소스 신뢰를 바탕으로 도입한 사용자들 사이에서는 사실상 무료 경로를 닫았다는 반발이 나왔다.",
-      "why_it_matters": "로컬 개발과 CI 테스트에 LocalStack을 써 온 팀이라면 바로 운영 이슈로 이어질 수 있는 변화다. 공개 저장소와 무계정 실행을 전제로 짠 워크플로를 다시 점검해야 한다.\n- 오픈소스 도구로 보고 도입했다면 비용만이 아니라 공급자 의존성과 배포 절차까지 다시 따져봐야 한다.\n- CI에서 계정 인증이나 기능 제한이 걸리면 테스트 재현성, 온보딩, 사내 네트워크 정책에도 영향이 번질 수 있다.\n- 대체재 검토, 자체 에뮬레이션, 실제 AWS 테스트 비중 조정 같은 우회 전략을 미리 준비할 필요가 있다.",
-      "hn_reaction_summary": "HN 분위기는 대체로 싸늘하다. 수익화 자체를 문제 삼기보다, 커뮤니티와 오픈소스 이미지를 발판으로 키운 뒤 무료 경로를 닫아버린 방식에 대한 반감이 두드러졌다.\n- 반복해서 나온 비판은 '오픈 코어도 아니고 그냥 문을 닫았다'는 점이다. OpenCollective 운영 이력까지 거론되며 신뢰 문제로 번졌다.\n- 실사용자들은 기능 공백과 지원 부실도 지적했다. 특히 CI에 깊게 붙일수록 미지원 항목이 늘고, 유료 고객도 대응을 받기 어렵다는 경험담이 나왔다.\n- 한편으로는 MinIO 사례와 묶어 보며, 특정 벤더에 기대기보다 더 단순한 대체재나 자체 구현을 찾겠다는 반응도 적지 않았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-23T23:28:16.406628+00:00"
-    },
-    {
-      "id": "f6e2e1832798869c6179cf6686d7a00457067481",
-      "title_hash": "1615073c2ccfb55d2f451d166fcbb02eba6fd7f5",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Cq – Stack Overflow for AI coding agents",
-      "link": "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
-      "published_at": "2026-03-23T16:11:03+00:00",
-      "summary": "HN story type: story HN points: 12 HN comments: 2 HN post text: Hi all, I'm Peter at Staff Engineer and Mozilla.ai and I want to share our idea for a standard for shared agent learning, conceptually it seemed to fit easily in my mental model as a Stack Overflow for agents. The project is trying to see if we can get agents (any agent, any model) to propose 'knowledge units' (KUs) as a standard schema based on gotchas it runs into during use, and proactively query for existing KUs in order to get insights which it can verify and confirm if they prove useful. It's currently very much a PoC with a more lofty proposal in the repo, we're trying to iterate from local use, up to team level, and ideally eventually have some kind of public commons. At the team level (see our Docker compose example) and your coding agent configured to point to the API address for the team to send KUs there instead - where they can be reviewed by a human in the loop (HITL) via a UI in the browser, before they're allowed to appear in queries by other agents in your team. We're learning a lot even from using it locally on various repos internally, not just in the kind of KUs it generates, but also from a UX perspective on trying to make it easy to get using it and approvi... HN top comments: delichon: I'm pretty sure someone is working on an agent to agent dating app. They could perform meiosis on their parameters to optimize phenotypes.",
-      "fetched_at": "2026-03-23T23:25:43.654789+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47491466",
-      "hn_story_type": "story",
-      "hn_points": "12",
-      "hn_comments_count": "2",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47491466",
-      "hn_item_text": "Hi all, I'm Peter at Staff Engineer and Mozilla.ai and I want to share our idea for a standard for shared agent learning, conceptually it seemed to fit easily in my mental model as a Stack Overflow for agents. The project is trying to see if we can get agents (any agent, any model) to propose 'knowledge units' (KUs) as a standard schema based on gotchas it runs into during use, and proactively query for existing KUs in order to get insights which it can verify and confirm if they prove useful. It's currently very much a PoC with a more lofty proposal in the repo, we're trying to iterate from local use, up to team level, and ideally eventually have some kind of public commons. At the team level (see our Docker compose example) and your coding agent configured to point to the API address for the team to send KUs there instead - where they can be reviewed by a human in the loop (HITL) via a UI in the browser, before they're allowed to appear in queries by other agents in your team. We're learning a lot even from using it locally on various repos internally, not just in the kind of KUs it generates, but also from a UX perspective on trying to make it easy to get using it and approvi...",
-      "hn_comment_preview": "delichon: I'm pretty sure someone is working on an agent to agent dating app. They could perform meiosis on their parameters to optimize phenotypes.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=30,practical_tech=27,tools_agents=30,strategy_insight=9,industry_business=1",
-      "slot_scores": {
-        "practical_tech": 27,
-        "tools_agents": 30,
-        "strategy_insight": 9,
-        "industry_business": 1
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 27,
-          "strong_hits": [
-            "show hn",
-            "docker",
-            "api"
-          ],
-          "support_hits": [
-            "query"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 30,
-          "strong_hits": [
-            "coding agent",
-            "ide"
-          ],
-          "support_hits": [
-            "ai coding",
-            "agent",
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding",
-            "local + agent"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [
-            "perspective"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 1,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "docker"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "ide",
-        "ai coding",
-        "agent",
-        "local",
-        "ai + coding",
-        "local + agent"
-      ],
-      "detail_slug": "f6e2e1832798869c6179cf6686d7a00457067481",
-      "is_english_source": true,
-      "translated_title": "Cq, AI 코딩 에이전트를 위한 스택 오버플로우 실험",
-      "short_summary": "Mozilla.ai의 Peter가 공개한 Cq는 코딩 에이전트가 작업 중 만난 함정과 해결책을 '지식 단위'로 남기고 다시 조회하게 하려는 실험이다. 개인용에서 팀 단위, 나아가 공개 공유지로 넓히려는 초기 PoC 구상이다.",
-      "why_it_matters": "AI 코딩 에이전트를 실무에 붙이면 같은 오류와 환경 이슈를 반복해서 밟기 쉽다. Cq는 이런 시행착오를 에이전트가 먼저 기록하고, 팀이 검토한 뒤 다시 재사용하게 만드는 운영 방식을 시험한다.\n- 리포지토리별 함정, 빌드 오류, 설정 차이를 지식 단위로 쌓아두면 같은 문제를 다시 찾는 시간과 디버깅 비용을 줄일 여지가 있다.\n- 팀 서버와 사람 승인 단계를 둔 구조라서, 무작정 자동 학습시키기보다 통제 가능한 사내 공유 체계를 먼저 만들어볼 수 있다.\n- 특정 모델 하나에 묶이지 않는 표준 스키마를 지향해, 앞으로 여러 에이전트가 같은 작업 지식을 주고받는 기반으로 이어질 가능성이 있다.",
-      "hn_reaction_summary": "아직 댓글이 2개뿐이라 HN에서 본격적인 찬반 토론이 붙은 단계는 아니다. 지금 반응은 깊은 검증보다, 에이전트끼리 지식을 주고받는 발상 자체를 낯설고 흥미로운 실험으로 보는 쪽에 가깝다.\n- 가장 눈에 띄는 반응은 에이전트 간 데이팅 앱을 떠올린 농담성 댓글로, 개념이 아직은 장난처럼 소비될 만큼 초기 단계라는 분위기를 보여준다.\n- 뚜렷한 반론이나 강한 지지보다 PoC 공개에 대한 가벼운 호기심이 앞선다. 실사용성은 더 많은 사례가 나와야 판단하겠다는 공기가 읽힌다.\n- 실무자가 볼 포인트는 댓글 열기보다 본문에 나온 운영 설계다. 어떤 지식을 남기고 누가 승인하며 팀 안에서 어떻게 재사용할지가 실제 평가 기준이 될 가능성이 크다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-23T23:28:16.406628+00:00"
-    },
-    {
-      "id": "5a40f67fbe782d4b3ed61495cb781dd17d2d74a0",
-      "title_hash": "3ba63dd472000cefa1361e0f9286c0dd3597133f",
-      "source": "GeekNews",
-      "title": "Show GN: GitHub Actions와 Telegram으로 만든 개인용 증시 리포트 자동화 봇 오픈소스",
-      "link": "https://news.hada.io/topic?id=27783",
-      "published_at": "2026-03-23T14:33:04+00:00",
-      "summary": "만든 목적 OpenClaw로 재태크 관련 작업을 자동화하는 사례가 많이 보였음 그러나 많은 작업은 LLM과 맥미니 없이도 충분히 자동화 가능함 즉, 유용한 \"규칙 기반\" 자동화 도구 만들기 실험 GitHub Actions만으로 매일 실행되는 배치 봇 구성 </ul",
-      "fetched_at": "2026-03-23T19:20:45.148656+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "자동화"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "자동화"
-      ],
-      "detail_slug": "5a40f67fbe782d4b3ed61495cb781dd17d2d74a0",
-      "is_english_source": false,
-      "sent_at": "2026-03-23T19:23:18.329804+00:00"
-    },
-    {
-      "id": "69395254331871f5ea07d3cffd46cc5cabb33c62",
-      "title_hash": "c226ada706302eeb562a555ac299b6b7e53373f9",
-      "source": "GeekNews",
-      "title": "Show GN: GPUtray - GPU tray 모니터링 툴",
-      "link": "https://news.hada.io/topic?id=27773",
-      "published_at": "2026-03-23T03:10:54+00:00",
-      "summary": "윈도우용 GPU 시스템 트레이 모니터링 툴입니다. GPU 사용률을 확인할 일이 많아 만들어 보았습니다. CPU 사용률, 메모리 사용률, GPU 사용률, GPU 메모리 사용률, GPU 온도 중에서 선택해서 트레이에서 모니터링할 수 있습니다. 우클릭하면 그래프도 보여주고 로그도 기록해서 나중에 분석할 수도...",
-      "fetched_at": "2026-03-23T19:20:45.148656+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "툴"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "툴"
-      ],
-      "detail_slug": "69395254331871f5ea07d3cffd46cc5cabb33c62",
-      "is_english_source": false,
-      "sent_at": "2026-03-23T19:23:18.329804+00:00"
-    },
-    {
-      "id": "ff314f3381094e456fe221f8ed1c1c96c61406c3",
-      "title_hash": "9a30c57074e43c0ac649c7a20534484e79c27e78",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Threadprocs – executables sharing one address space (0-copy pointers)",
-      "link": "https://github.com/jer-irl/threadprocs",
-      "published_at": "2026-03-23T16:08:01+00:00",
-      "summary": "HN story type: story HN points: 42 HN comments: 30 HN post text: This project launches multiple independent programs into a single shared virtual address space, while still behaving like separate processes (independent binaries, globals, and lifetimes). When threadprocs share their address space, pointers are valid across them with no code changes for well-behaved Linux binaries. Unlike threads, each threadproc is a standalone and semi-isolated process. Unlike dlopen-based plugin systems, threadprocs run traditional executables with a `main()` function. Unlike POSIX processes, pointers remain valid across threadprocs because they share the same address space. This means that idiomatic pointer-based data structures like `std::string` or `std::unordered_map` can be passed between threadprocs and accessed directly (with the usual data race considerations). This accomplishes a programming model somewhere between pthreads and multi-process shared memory IPC. The implementation relies on directing ASLR and virtual address layout at load time and implementing a user-space analogue of `exec()`, as well as careful manipulation of threadproc file descriptors, signals, etc. It is implemented entirely in unprivileged user space code: https://github.com/j... HN top comments: tombert: Interesting. I gotta admit that my smell test tells me that this is a step backwards; at least naively (I haven't looked through the code thoroughly yet), this just kind of feels like we're going back to pre-protected-memory operating systems like AmigaOS; there are reasons that we have the process boundary and the overhead associated with it. If there are zero copies being shared across threadprocs, what's to sto... PaulDavisThe1st: Are you familiar with the Opal OS from UW CS&E during the 90s ? All tasks in a single system-wide address space, with h/w access control for memory regions. > The Opal project is exploring a new operating system structure, tuned to the needs of complex applications, such as CAD/CAM, where a number of cooperating programs manipulate a large shared persistent database of objects. In Opal, all code and data exists wi... kgeist: From what I remember, in the Linux kernel, there's already barely any distinction between processes and threads, a thread is just a process that shares virtual memory with another process, you specify if memory should be shared or not when calling clone() So we already have threads that do exactly what you're trying to do? Isn't it somewhat easier and less risky to just compile several programs into one binary? If...",
-      "fetched_at": "2026-03-23T19:20:45.148656+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47491414",
-      "hn_story_type": "story",
-      "hn_points": "42",
-      "hn_comments_count": "30",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47491414",
-      "hn_item_text": "This project launches multiple independent programs into a single shared virtual address space, while still behaving like separate processes (independent binaries, globals, and lifetimes). When threadprocs share their address space, pointers are valid across them with no code changes for well-behaved Linux binaries. Unlike threads, each threadproc is a standalone and semi-isolated process. Unlike dlopen-based plugin systems, threadprocs run traditional executables with a `main()` function. Unlike POSIX processes, pointers remain valid across threadprocs because they share the same address space. This means that idiomatic pointer-based data structures like `std::string` or `std::unordered_map` can be passed between threadprocs and accessed directly (with the usual data race considerations). This accomplishes a programming model somewhere between pthreads and multi-process shared memory IPC. The implementation relies on directing ASLR and virtual address layout at load time and implementing a user-space analogue of `exec()`, as well as careful manipulation of threadproc file descriptors, signals, etc. It is implemented entirely in unprivileged user space code: https://github.com/j...",
-      "hn_comment_preview": "tombert: Interesting. I gotta admit that my smell test tells me that this is a step backwards; at least naively (I haven't looked through the code thoroughly yet), this just kind of feels like we're going back to pre-protected-memory operating systems like AmigaOS; there are reasons that we have the process boundary and the overhead associated with it. If there are zero copies being shared across threadprocs, what's to sto...\nPaulDavisThe1st: Are you familiar with the Opal OS from UW CS&E during the 90s ? All tasks in a single system-wide address space, with h/w access control for memory regions. > The Opal project is exploring a new operating system structure, tuned to the needs of complex applications, such as CAD/CAM, where a number of cooperating programs manipulate a large shared persistent database of objects. In Opal, all code and data exists wi...\nkgeist: From what I remember, in the Linux kernel, there's already barely any distinction between processes and threads, a thread is just a process that shares virtual memory with another process, you specify if memory should be shared or not when calling clone() So we already have threads that do exactly what you're trying to...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=12,strategy_insight=3,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 12,
-        "strategy_insight": 3,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "database",
-            "show hn"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "plugin"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [
-            "signal"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "launches"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "launches"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "database",
-        "show hn",
-        "implementation",
-        "github.com"
-      ],
-      "detail_slug": "ff314f3381094e456fe221f8ed1c1c96c61406c3",
-      "is_english_source": true,
-      "translated_title": "Threadprocs: 한 주소 공간을 공유하는 실행 파일",
-      "short_summary": "Threadprocs는 여러 독립 실행 파일을 하나의 가상 주소 공간에서 돌려 포인터를 복사 없이 그대로 넘기게 하는 실험적 프로젝트다. 스레드와 멀티프로세스의 중간쯤 되는 모델을 사용자 공간만으로 구현했다.",
-      "why_it_matters": "프로세스 경계는 유지하고 싶지만 IPC 복사 비용은 줄이고 싶은 개발자에게 눈에 들어올 만한 시도다. 기존 리눅스 바이너리를 크게 바꾸지 않고 포인터 기반 자료구조를 직접 넘길 수 있다는 점이 실무자에게 바로 와닿는다.\n- 멀티프로세스 구조의 배포 편의성과 수명주기 분리를 살리면서도, 큰 객체를 직렬화해 주고받는 비용을 줄일 여지를 보여준다.\n- `std::string`이나 해시맵 같은 구조를 그대로 건넬 수 있다는 발상은 성능 최적화 관점에서 매력적이다. 대신 주소 공간을 함께 쓰는 만큼 격리 약화와 장애 전파 위험은 더 커진다.\n- 커널 수정 없이 사용자 공간에서 구현했다는 점도 눈길을 끈다. 당장 도입할 기술이라기보다, 프로세스와 스레드 사이의 빈틈을 다시 검토하게 만드는 사례에 가깝다.",
-      "hn_reaction_summary": "댓글 분위기는 호기심과 경계심이 섞여 있다. 아이디어 자체는 흥미롭지만, 운영체제가 왜 프로세스 경계를 두는지 다시 떠올리게 한다는 반응이 적지 않았다.\n- 가장 자주 나온 우려는 메모리 보호와 격리 약화다. 복사 없는 데이터 공유가 편한 대신 버그 하나가 더 넓게 번질 수 있다는 지적이 반복됐다.\n- 몇몇은 1990년대 단일 주소 공간 운영체제인 Opal 같은 사례를 언급하며, 완전히 새로운 개념이라기보다 오래된 아이디어의 재해석으로 봤다.\n- 실무 관점의 쟁점은 성능 이득의 범위다. 기존 공유 메모리 IPC나 커널 기능과 비교해 어떤 워크로드에서 확실한 차이가 나는지 따져봐야 한다는 반응이 많다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-23T19:23:18.329804+00:00"
     }
   ],
   "topic_digests": {
