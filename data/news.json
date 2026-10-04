@@ -1,6 +1,600 @@
 {
   "items": [
     {
+      "id": "e5bf416abd6a9f6f28fca7b2d3096a7b344d8469",
+      "title_hash": "3ed2e0017f6689d332a9355171c72709cb128556",
+      "source": "GeekNews",
+      "title": "Claude와 Claude Code에서 Opus 5.5를 최대한 활용하는 방법",
+      "link": "https://news.hada.io/topic?id=34734",
+      "published_at": "2026-10-03T22:42:52+00:00",
+      "summary": "Opus 5.5는 긴 다단계 작업을 이어가는 능력이 개선돼, 작업 전체와 완료 조건, 멈춰서 질문할 조건 을 한 번에 전달하는 방식이 적합함 모델이 응답 전에 스스로 추론하므로 “신중하게 생각하라”는 상투적인 지시는 생략 할 수 있음. Claude Code에서는 eff...",
+      "fetched_at": "2026-10-04T01:24:29.170333+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "e5bf416abd6a9f6f28fca7b2d3096a7b344d8469",
+      "is_english_source": false,
+      "sent_at": "2026-10-04T01:26:57.071732+00:00"
+    },
+    {
+      "id": "084b92583b7bb279a96fb3cf41e8657f747fd4c4",
+      "title_hash": "3c71145063de87dfc8da9ed2eadaa58591e9c48f",
+      "source": "GeekNews",
+      "title": "나는 OpenAI의 조직 문화가 망가져 퇴사했다",
+      "link": "https://news.hada.io/topic?id=34740",
+      "published_at": "2026-10-04T00:38:48+00:00",
+      "summary": "OpenAI의 주요 출시마다 안전 보고서 작성을 이끌던 직원이 퇴사 했으며, AI 기업의 안전 문제는 개별 규칙이나 새 법률을 넘어 조직 문화 차원에서 살펴야 한다고 봄 더 큰 AI 시스템을 만드는 데 성공한 강한 자신감 과 끊임없이 전력 질주하는 업...",
+      "fetched_at": "2026-10-04T01:24:29.170333+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "52",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=0,tools_agents=4,strategy_insight=-1,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "출시",
+        "기업"
+      ],
+      "detail_slug": "084b92583b7bb279a96fb3cf41e8657f747fd4c4",
+      "is_english_source": false,
+      "sent_at": "2026-10-04T01:26:57.071732+00:00"
+    },
+    {
+      "id": "6130766aff6137213ded3154dfa59bd1f8c67a9e",
+      "title_hash": "894cc0833ec2fc251022effbac1c2202e22f4445",
+      "source": "GeekNews",
+      "title": "업스테이지, GPU 한 장에서 실행하는 Solar Mini 4 발표",
+      "link": "https://news.hada.io/topic?id=34738",
+      "published_at": "2026-10-04T00:15:01+00:00",
+      "summary": "정보 조회, 문서 분류, 도구 호출처럼 반복되는 에이전트 작업을 적은 연산과 비용으로 처리 하는 언어 모델 총 350억 파라미터 중 토큰당 30억만 활성화 하는 MoE 구조이며, 양자화 모델은 H100 80GB 한 장 에서 배포 가능 Artificial Ana...",
+      "fetched_at": "2026-10-04T01:24:29.170333+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "6130766aff6137213ded3154dfa59bd1f8c67a9e",
+      "is_english_source": false,
+      "sent_at": "2026-10-04T01:26:57.071732+00:00"
+    },
+    {
+      "id": "8fcaa8b05dc5440abc288ac199df5970a8e793f3",
+      "title_hash": "dd28b12ae55ff8bb765fcae449ab67f11c36c203",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Docker has always used microVMs (well since 2016)",
+      "link": "https://dave.recoil.org/docker-has-always-used-microvms/",
+      "published_at": "2026-10-03T15:55:31+00:00",
+      "summary": "HN story type: story HN points: 19 HN comments: 13 HN top comments: Betelbuddy: Its bending history to call what before were Linux Vms inside Mac or Windows to have containers to that is a real MicroVM. And the current Sandboxes dont offer the same security model - See Docker Sandboxes 0.42.0 security update: CVE-2026-77179 and CVE-2026-79994 https://docs.docker.com/security/security-announcements/ unsnap_biceps: Article title is a bit click-baity. The article is only talking about Docker Desktop on Mac or Windows. Docker Linux have not been using microVMs for a decade. yjftsjthsd-h: > What if I told you that Docker Desktop has always used microVMs? Then I would say your title is wildly misleading.",
+      "fetched_at": "2026-10-04T01:24:29.170333+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49945352",
+      "hn_story_type": "story",
+      "hn_points": "19",
+      "hn_comments_count": "13",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49945352",
+      "hn_item_text": "",
+      "hn_comment_preview": "Betelbuddy: Its bending history to call what before were Linux Vms inside Mac or Windows to have containers to that is a real MicroVM. And the current Sandboxes dont offer the same security model - See Docker Sandboxes 0.42.0 security update: CVE-2026-77179 and CVE-2026-79994 https://docs.docker.com/security/security-announcements/\nunsnap_biceps: Article title is a bit click-baity. The article is only talking about Docker Desktop on Mac or Windows. Docker Linux have not been using microVMs for a decade.\nyjftsjthsd-h: > What if I told you that Docker Desktop has always used microVMs? Then I would say your title is wildly misleading.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=30,practical_tech=30,tools_agents=17,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 30,
+        "tools_agents": 17,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 30,
+          "strong_hits": [
+            "container",
+            "security",
+            "sandbox",
+            "docker"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "docker + container"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "sandbox",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "container",
+        "security",
+        "sandbox",
+        "docker",
+        "docker + container"
+      ],
+      "detail_slug": "8fcaa8b05dc5440abc288ac199df5970a8e793f3",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T01:26:57.071732+00:00"
+    },
+    {
+      "id": "c5e3b987f087f1eaf76f01d6ce03a98ac3a78055",
+      "title_hash": "c9a744f731be259f9b16bb65ef7b0605405e559a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "published_at": "2026-10-03T18:29:30+00:00",
+      "summary": "HN story type: story HN points: 156 HN comments: 116 HN top comments: rdli: It’s a really good model. Over the past few days, I give Opus some general directives to basically speed up our CI, and telling it I care both about billing minutes and wall clock time. I told it to create a plan after analyzing everything in our CI, run the plan by a Fable subagent, and then focus on low-risk, high-reward changes. 9 hours later, I had 12 PRs ready to be merged, and the net result is CI time has d... jjcm: It’s extremely good at frontend, particularly if it has an image reference. I chucked in design reference images into this and told it to focus on the flowing svgs, and it crushed this Star Trek computer-inspired layout: https://html.non.io/lcars-opus-5.5 adastra22: Some of this advice is really missing the mark. I will speak to just one I know well. Many of my frequently used prompts have “think through this step by step” because if you don’t, it only considers the task holistically rather than step by step, and different issues emerge in that frame of thinking. I see this. Often when doing planning, for example, it will not notice interdependencies between tasks until you f...",
+      "fetched_at": "2026-10-04T01:24:29.170333+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49946567",
+      "hn_story_type": "story",
+      "hn_points": "156",
+      "hn_comments_count": "116",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49946567",
+      "hn_item_text": "",
+      "hn_comment_preview": "rdli: It’s a really good model. Over the past few days, I give Opus some general directives to basically speed up our CI, and telling it I care both about billing minutes and wall clock time. I told it to create a plan after analyzing everything in our CI, run the plan by a Fable subagent, and then focus on low-risk, high-reward changes. 9 hours later, I had 12 PRs ready to be merged, and the net result is CI time has d...\njjcm: It’s extremely good at frontend, particularly if it has an image reference. I chucked in design reference images into this and told it to focus on the flowing svgs, and it crushed this Star Trek computer-inspired layout: https://html.non.io/lcars-opus-5.5\nadastra22: Some of this advice is really missing the mark. I will speak to just one I know well. Many of my frequently used prompts have “think through this step by step” because if you don’t, it only considers the task holistically rather than step by step, and different issues emerge in that frame of thinking. I see this. Often when doing planning, for example, it will not notice interdependencies between tasks until you f...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=4,tools_agents=22,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 22,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "claude code",
+            "ide"
+          ],
+          "support_hits": [
+            "prompt",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "prompt",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "c5e3b987f087f1eaf76f01d6ce03a98ac3a78055",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T01:26:57.071732+00:00"
+    },
+    {
+      "id": "126c07373e7595541602d30b7d5127b6e7829af4",
+      "title_hash": "a45cc942451265580f7958876d6807cb422d34a4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Memory-Safe WebP Decoding",
+      "link": "https://halide.cx/blog/wpd/",
+      "published_at": "2026-10-03T05:45:30+00:00",
+      "summary": "HN story type: story HN points: 38 HN comments: 11 HN post text: https://github.com/halidecx/wpd HN top comments: ZeroGravitas: As part of Google's PR for their upcoming Gemini 4 Argon LLM release they said they'd rewritten a few things in rust replacing hand written simd. But I don't think webp was mentioned. They said: > Large Scale Codebase Migrations and Optimizations: Argon agents are working on migrating C/C++ codebases to Rust across Google — scaling from tens of thousands of lines in core libraries like re2, libgav1 up to 800K+ lin... omoikane: I am not sure what's the current status of Wuffs-based WebP decoder, but that would be another implementation worth comparing since it shares the same goals of safety and speed. https://github.com/google/wuffs/tree/main/std/webp pyrolistical: Why not just just have most of it in wasm? There are wasm runtimes that don’t require js, and I’m sure Google can adapt their engine. Then they could integrate the other side with rust",
+      "fetched_at": "2026-10-04T01:24:29.170333+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49941641",
+      "hn_story_type": "story",
+      "hn_points": "38",
+      "hn_comments_count": "11",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49941641",
+      "hn_item_text": "https://github.com/halidecx/wpd",
+      "hn_comment_preview": "ZeroGravitas: As part of Google's PR for their upcoming Gemini 4 Argon LLM release they said they'd rewritten a few things in rust replacing hand written simd. But I don't think webp was mentioned. They said: > Large Scale Codebase Migrations and Optimizations: Argon agents are working on migrating C/C++ codebases to Rust across Google — scaling from tens of thousands of lines in core libraries like re2, libgav1 up to 800K+ lin...\nomoikane: I am not sure what's the current status of Wuffs-based WebP decoder, but that would be another implementation worth comparing since it shares the same goals of safety and speed. https://github.com/google/wuffs/tree/main/std/webp\npyrolistical: Why not just just have most of it in wasm? There are wasm runtimes that don’t require js, and I’m sure Google can adapt their engine. Then they could integrate the other side with rust",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "45",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=20,strategy_insight=4,industry_business=1",
+      "slot_scores": {
+        "practical_tech": 21,
+        "tools_agents": 20,
+        "strategy_insight": 4,
+        "industry_business": 1
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 21,
+          "strong_hits": [
+            "migration",
+            "runtime",
+            "rust"
+          ],
+          "support_hits": [
+            "implementation"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 1,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "runtime"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "migration",
+        "runtime",
+        "rust",
+        "implementation"
+      ],
+      "detail_slug": "126c07373e7595541602d30b7d5127b6e7829af4",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T01:26:57.071732+00:00"
+    },
+    {
+      "id": "d0925ecf6fb5a93208cb6fce5b1860a93319a33b",
+      "title_hash": "06a5ecea77d4bc5bb991d40c2d32828f9a7e2baf",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "link": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "published_at": "2026-10-03T22:18:13+00:00",
+      "summary": "HN story type: story HN points: 122 HN comments: 73 HN top comments: danpalmer: Was this a \"build better sandboxing\" and \"don't tell people to eat glue\" safety leader, or a Roko's Basilisk believing safety leader? A lot of the \"AI safety\" types are very focused on the latter and not at all concerned with the former. We need both, but we clearly need a much stronger focus on the problems we are seeing now, and much less on the hypothetical problems we might see in the future. charlieyu1: Used to work as human data trainer feeding data to AI companies. OpenAI projects are definitely the most toxic ones. gizmodo59: He is a hypocrite for all we care. You work there for a while when your stock is getting vested and suddenly you have this feeling? Like the dude hired a PR firm as well. While the safety and alignment is a real problem, I don’t get this guy or the Anthropic dude. First world problems.",
+      "fetched_at": "2026-10-04T01:24:29.170333+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49948332",
+      "hn_story_type": "story",
+      "hn_points": "122",
+      "hn_comments_count": "73",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49948332",
+      "hn_item_text": "",
+      "hn_comment_preview": "danpalmer: Was this a \"build better sandboxing\" and \"don't tell people to eat glue\" safety leader, or a Roko's Basilisk believing safety leader? A lot of the \"AI safety\" types are very focused on the latter and not at all concerned with the former. We need both, but we clearly need a much stronger focus on the problems we are seeing now, and much less on the hypothetical problems we might see in the future.\ncharlieyu1: Used to work as human data trainer feeding data to AI companies. OpenAI projects are definitely the most toxic ones.\ngizmodo59: He is a hypocrite for all we care. You work there for a while when your stock is getting vested and suddenly you have this feeling? Like the dude hired a PR firm as well. While the safety and alignment is a real problem, I don’t get this guy or the Anthropic dude. First world problems.",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "34",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=10,practical_tech=9,tools_agents=7,strategy_insight=10,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 10,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "sandbox"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "sandbox"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "future",
+        "future + work"
+      ],
+      "detail_slug": "d0925ecf6fb5a93208cb6fce5b1860a93319a33b",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T01:26:57.071732+00:00"
+    },
+    {
       "id": "3c4bca8fe6bf6a5ce24e3ea60b67b05791ecd396",
       "title_hash": "44add9e192e9d286fd4648028257bc4f56610771",
       "source": "GeekNews",
@@ -171690,574 +172284,6 @@
       "detail_slug": "efb8d18d7f218d55ab0290a2b2817fb90266f59f",
       "is_english_source": false,
       "sent_at": "2026-03-25T12:14:16.016204+00:00"
-    },
-    {
-      "id": "43a3ac369a2471452046f0f51d225d7c73b21225",
-      "title_hash": "8f64a3d458e1de7dabd83b6d5b4292abd30404e1",
-      "source": "GeekNews",
-      "title": "Wine 11, 커널 수준에서 Linux의 Windows 게임 실행 방식을 재작성해 대규모 성능 향상 달성",
-      "link": "https://news.hada.io/topic?id=27826",
-      "published_at": "2026-03-25T00:43:23+00:00",
-      "summary": "Linux에서 Windows 게임 실행 구조를 커널 수준에서 전면 재설계 해, 기존 wineserver 기반 동기화 병목을 제거 새로운 NTSYNC 드라이버 가 NT 동기화 객체를 커널에서 직접 처리하며, 최대 8배 이상의 FPS 향상 을 기록 WoW64 완...",
-      "fetched_at": "2026-03-25T12:12:43.408891+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "병목"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "병목"
-      ],
-      "detail_slug": "43a3ac369a2471452046f0f51d225d7c73b21225",
-      "is_english_source": false,
-      "sent_at": "2026-03-25T12:14:16.016204+00:00"
-    },
-    {
-      "id": "a67b569ed7ddd67341ec3317cb1c03af991138cb",
-      "title_hash": "48855d2b2e95c5eba753e611cb8206f18b3897e7",
-      "source": "GeekNews",
-      "title": "TypeScript 6.0 발표",
-      "link": "https://news.hada.io/topic?id=27836",
-      "published_at": "2026-03-25T03:11:02+00:00",
-      "summary": "JavaScript 기반 현재 코드베이스의 마지막 릴리스 이자, Go로 작성된 네이티브 포트인 TypeScript 7.0으로의 전환을 준비하는 브릿지 릴리스 this 를 사용하지 않는 함수의 컨텍스트 민감도 완화 , #/ 로 시작하는",
-      "fetched_at": "2026-03-25T12:12:43.408891+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "typescript"
-          ],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "typescript",
-        "코드"
-      ],
-      "detail_slug": "a67b569ed7ddd67341ec3317cb1c03af991138cb",
-      "is_english_source": false,
-      "sent_at": "2026-03-25T12:14:16.016204+00:00"
-    },
-    {
-      "id": "75857d4ea934c1b36fac82cadee046668c9938db",
-      "title_hash": "6b016b49720b25586928fecb1bc3771bf007aea8",
-      "source": "Yozm IT",
-      "title": "클로드 코드로 ‘해외 송금 비교 서비스’ 만들어봤습니다",
-      "link": "https://yozm.wishket.com/magazine/detail/3660",
-      "published_at": "",
-      "summary": "불과 1년도 안 돼서 바이브 코딩(Vibe Coding)이라는 용어가 대세가 되었습니다. 미국의 개발 현장에서도 이러다 일자리가 없어지는 것 아닌지 걱정하는 사람이 많아졌고, 그 와중에 발 빠르게 AI 기술을 익혀 개발자에서 프로덕트 메이커로 커리어를 전환하고 있는 사람도 있습니다. 저 역시 이대로 있으면 안 되겠다는 생각에 클로드 코드(Claude Code)로 회사 업무뿐만 아니라 다양한 사이드 프로젝트를 진행하면서 아이디어를 테스트해 보고 있습니다. 이번 글에서는 제가 클로드 코드로 실제 서비스를 만들어 출시하기까지의 과정, 그리고 개인적으로 느낀 바이브 코딩의 실제 효용과 한계를 공유해 보고자 합니다.",
-      "fetched_at": "2026-03-25T12:12:43.408891+00:00",
-      "source_priority_boost": "10",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "28",
-      "priority_signal": "slot=tools_agents,boost=10,slot_score=18,practical_tech=2,tools_agents=18,strategy_insight=-2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 18,
-        "strategy_insight": -2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 18,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code",
-        "ai + coding"
-      ],
-      "detail_slug": "75857d4ea934c1b36fac82cadee046668c9938db",
-      "is_english_source": false,
-      "sent_at": "2026-03-25T12:14:16.016204+00:00"
-    },
-    {
-      "id": "2ef732b76415e1eba82ace418f6cfb87089c78bb",
-      "title_hash": "0090ca22f04d5b306040d1badf07e7998886dabb",
-      "source": "Anthropic Engineering (Claude)",
-      "title": "Harness Design Long Running Apps",
-      "link": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
-      "published_at": "2026-03-24T16:23:08.000Z",
-      "summary": "",
-      "fetched_at": "2026-03-25T12:12:43.408891+00:00",
-      "source_priority_boost": "32",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "24",
-      "priority_signal": "slot=practical_tech,boost=32,slot_score=0,practical_tech=0,tools_agents=0,strategy_insight=0,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 0,
-        "strategy_insight": 0,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "2ef732b76415e1eba82ace418f6cfb87089c78bb",
-      "is_english_source": true,
-      "translated_title": "장기 실행 AI 에이전트, 하네스 설계가 성패 가른다",
-      "short_summary": "Anthropic은 세션이 바뀔 때 맥락이 끊기는 문제를 줄이기 위해 초기화 단계와 구현 단계를 분리한 에이전트 하네스를 제안했다. 기능 목록, 진행 로그, git 기록, E2E 테스트를 남겨 다음 세션이 바로 이어받게 하는 방식이다.",
-      "why_it_matters": "AI 코딩 에이전트를 오래 돌릴수록 모델 자체보다 운영 방식이 더 큰 변수가 된다. 이번 글은 긴 작업을 안정적으로 이어 가려면 프롬프트 한 줄보다 작업 기록, 검증 절차, 세션 인계 구조를 먼저 설계해야 한다는 점을 보여준다.\n- 초기 세션에서 `init.sh`, 기능 목록, 진행 로그를 만들어 두면 다음 실행이 현재 상태를 빠르게 파악하고 바로 작업에 들어갈 수 있다.\n- 기능을 한 번에 몰아서 구현하기보다 한 항목씩 끝내고 `passes` 상태를 갱신하게 하면 중간에 멈추거나 성급히 완료 처리하는 문제를 줄일 수 있다.\n- 브라우저 자동화 같은 E2E 검증을 기본 루틴에 넣어야 코드만 보고 지나친 오류를 잡을 수 있다. 실무에선 에이전트 도입보다 검증 흐름 정비가 먼저라는 뜻이기도 하다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-25T12:14:16.016204+00:00"
-    },
-    {
-      "id": "4c299bda527bd0093153d77fe86ca4479498dcb7",
-      "title_hash": "2743c328ee57ae41c057dc388d9f04b6a0005771",
-      "source": "TLDR Tech",
-      "title": "Inside Siri's reboot 📱, OpenAI cancels Sora 🎥, Claude Code auto mode 👨‍💻",
-      "link": "https://tldr.tech/tech/2026-03-25",
-      "published_at": "2026-03-25T00:00:00+00:00",
-      "summary": "",
-      "fetched_at": "2026-03-25T12:12:43.408891+00:00",
-      "source_priority_boost": "10",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "26",
-      "priority_signal": "slot=tools_agents,boost=10,slot_score=16,practical_tech=0,tools_agents=16,strategy_insight=0,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 16,
-        "strategy_insight": 0,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "claude code",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "ide",
-        "claude + code"
-      ],
-      "detail_slug": "4c299bda527bd0093153d77fe86ca4479498dcb7",
-      "is_english_source": true,
-      "translated_title": "시리 재정비의 내부, 소라 취소, 클로드 코드 자동 모드",
-      "short_summary": "이번 TLDR Tech는 시리 개편의 내부 사정과 오픈AI의 소라 취소, 클로드 코드 자동 모드를 함께 짚는다. 음성 AI와 생성형 영상, 개발 도구 흐름을 한 번에 훑는 소식이다.",
-      "why_it_matters": "AI 경쟁의 초점이 단순한 기능 추가를 넘어 제품 재정비와 개발 방식 변화로 옮겨가는 흐름을 보여준다. 서비스 전략과 실무 도구 선택에 바로 연결되는 이야기다.\n- 시리 재정비 이슈는 음성 비서 전략과 제품 일정에 어떤 변수가 생기는지 가늠하게 한다.\n- 오픈AI의 소라 취소 소식은 생성형 영상 로드맵 변화 가능성을 보여줘 관련 실험과 투자 우선순위에 영향을 줄 수 있다.\n- 클로드 코드 자동 모드는 코딩 도구가 더 많은 작업을 맡는 방향이라 팀의 검토 절차와 생산성 기준을 다시 점검하게 만든다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-25T12:14:16.016204+00:00"
-    },
-    {
-      "id": "0bd4cc1547baeeacdb66b8a7e73520217ce5d3ef",
-      "title_hash": "7d66d2b836cd7e1ce0adf59589df60d2edc8f685",
-      "source": "AI Weekly",
-      "title": "AI News Weekly - 100 years from now : The Case for Artificial Stupidity - Mar 23rd 2026",
-      "link": "https://aiweekly.co/issues/475",
-      "published_at": "2026-03-23T12:00:00+00:00",
-      "summary": "Welcome This is 100 Years From Now, a weekly series. Once a week, we skip ahead a century and imagine ordinary life in a world that's had a hundred years to absorb the things we're only beginning to build. No predictions — just honest speculation about where our choices lead. This week: what if the most important AI of the future is the one that's worse on purpose. We keep making AI smarter, faster, more autonomous. But in medicine, law, and war — the places where a wrong call is irreversible — the real danger might not be a machine that fails. It might be a machine that works so well the humans around it stop thinking. What if the most important AI of the next century is the one that's deliberately, strategically worse? AI Weekly Sponsor Become an AI consultant and deliver ‘ROI with AI’ to your clients AI is transforming every workplace – but executives are terrified of becoming one of the companies that gets “no ROI on AI.” That’s where you come in, and how you can build a 6-figure consultancy with Innovating with AI’s proven methods for delivering fast ROI on AI projects. Click here to request access to The AI Consultancy Project → innovatingwithai.com A 100 years from now The Case for Artificial Stupidity There's an old joke among pilots. Automation has made flying so safe and so boring that the biggest risk is now the pilot forgetting how to fly. The joke stopped being funny a while ago. In 2009, the crew of Air France Flight 447 faced a situation the autopilot couldn't handle — iced-over speed sensors, contradictory readings, the Atlantic Ocean at night. The system handed control back to the humans. The humans, who had spent years monitoring a machine that did their job for them, didn't know what to do. Everyone on board died. This is not an AI problem. It's an automation complacency problem. And in a hundred years, it will be the most dangerous dynamic in civilization. Here's the pattern. A machine does something well. Then better. Then so much better that the humans overseeing it stop paying attention because vigilance without variation is something the human brain was never designed to sustain. You can't stare at a dashboard for eight hours and stay sharp. You can't review an AI's diagnostic output for the hundredth time and bring the same scrutiny you brought to the first. The better the machine gets, the less the human matters, until the one time the human matters enormously and they've already checked out. We know this. We've known it for decades. And our response, overwhelmingly, has been to make the machine even better so the human matters even less. To engineer the human out of the loop entirely. Which works — right up until it doesn't. A century from now, AI will be unimaginably capable. It will diagnose illness with a precision no doctor could approach. It will evaluate legal cases by processing more precedent in a second than a judge reads in a career. It will make battlefield decisions faster than any human chain of command. And in each of these domains, there will be people whose job it is to oversee the machine. To be the check. The failsafe. The last pair of human eyes before something irreversible happens. Those people will be bored out of their minds. This is where artificial stupidity comes in as a design philosophy. The deliberate introduction of imperfection, hesitation, and uncertainty into AI systems because making them too good makes the humans around them worse. An AI that occasionally flags a case it could have resolved on its own. That asks a doctor to weigh in on a diagnosis it's already 99.8% confident about. That pauses before a military decision and says, essentially, are you sure? — not because it needs confirmation, but because the human needs to stay in the habit of thinking. This sounds wasteful. And it is. That's the point. Because the alternative is a world where humans are technically in charge but functionally asleep. Where oversight exists on paper and nowhere else. Where the surgeon reviews the AI's plan the way you review the terms and conditions — scrolling to the bottom and clicking accept. The hard part is that artificial stupidity has no constituency. No one gets promoted for making a system slower. No company wins market share by advertising that its AI second-guesses itself. The incentives all point toward faster, smarter, more autonomous. Toward removing the friction. But friction is what keeps human judgment alive. The pause before a decision. The discomfort of not being sure. The cognitive effort of actually weighing alternatives instead of rubber-stamping a machine's recommendation. Take that away and you don't have oversight. You have a rubber stamp with a heartbeat. A hundred years from now, the AI systems that matter most won't be the smartest ones. They'll be the ones designed with enough deliberate imperfection to keep the humans around them awake, engaged, and capable of the one thing no machine can do on its own: deciding that the machine is wrong. The best AI of the future won't be the one that never needs us. It'll be the one that never lets us forget that it might. PS. this seems even more important to think about as this new research shows the human's apparent fundamental inability to challenge or verify AI's output. With the scale of AI's output coming, it seems humanity might not be able to vet this output at all... As always, looking forward to reading your thoughts! Alexis AI Weekly This RSS feed is published on https://aiweekly.co/ . You can also subscribe via email .",
-      "fetched_at": "2026-03-25T12:12:43.408891+00:00",
-      "source_priority_boost": "12",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "36",
-      "priority_signal": "slot=strategy_insight,boost=12,slot_score=24,practical_tech=2,tools_agents=11,strategy_insight=24,industry_business=21",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 11,
-        "strategy_insight": 24,
-        "industry_business": 21
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "automation",
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 24,
-          "strong_hits": [
-            "judgment",
-            "decision",
-            "career"
-          ],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "future + work"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 21,
-          "strong_hits": [
-            "market share"
-          ],
-          "support_hits": [
-            "company",
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "market + share"
-          ],
-          "domain_hits": [
-            "aiweekly.co"
-          ]
-        }
-      },
-      "matched_terms": [
-        "judgment",
-        "decision",
-        "career",
-        "future",
-        "future + work"
-      ],
-      "detail_slug": "0bd4cc1547baeeacdb66b8a7e73520217ce5d3ef",
-      "is_english_source": true,
-      "translated_title": "100년 뒤 AI, 일부러 덜 똑똑해야 하는 이유",
-      "short_summary": "이 글은 미래 사회에서 가장 가치 있는 AI가 최고 성능 모델이 아닐 수 있다고 본다. 의료, 법, 전쟁처럼 한 번의 판단이 되돌릴 수 없는 영역에서는 사람이 끝까지 생각하게 만드는 ‘의도적으로 덜 똑똑한 AI’가 더 필요하다는 문제의식을 던진다.",
-      "why_it_matters": "AI를 더 빠르고 더 똑똑하게 만드는 흐름이 당연한 방향처럼 보이지만, 실제 현장에서는 다른 기준이 필요할 수 있다. 특히 오판의 대가가 큰 분야에서는 정답을 잘 내는 능력만큼 사람의 판단력을 무디게 하지 않는 설계가 과제가 된다.\n\n- 의료, 법률, 국방처럼 책임이 무거운 업무에서는 자동화 수준보다 사람이 다시 검토하도록 만드는 인터페이스와 운영 원칙이 더 큰 이슈가 될 수 있다.\n- 실무에서는 성능 경쟁만 보지 말고, 사용자가 AI 판단을 그대로 따르게 만드는 구조인지 함께 점검해야 한다. 승인 절차와 검토 단계 설계가 제품 경쟁력으로 이어질 가능성이 크다.\n- 앞으로는 가장 뛰어난 모델만 찾기보다, 일부 상황에서는 일부러 개입 여지를 남기는 AI가 규제 대응과 리스크 관리 측면에서 더 유리한 선택이 될 수 있다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-25T12:14:16.016204+00:00"
-    },
-    {
-      "id": "815ae95df594f06c42fc7fd85df47ab4b7ffddd6",
-      "title_hash": "26ba531745a75ae01d830ad74d8b01fe2886a407",
-      "source": "GeekNews",
-      "title": "Show GN: vscode에서 한국 주식을 확인할 수 있는 vscode extension",
-      "link": "https://news.hada.io/topic?id=27840",
-      "published_at": "2026-03-25T03:57:30+00:00",
-      "summary": "최근 주식 시장의 변동성이 커지며 관심이 많이 생겨서, 2주 전에 claude code를 통해 vscode에서 한국 주식 시장을 확인할 수 있는 extension을 만들었습니다. vscode 내에 떠있는게 신기하다고 말씀 주신 분도 계셨고, 저도 관심을 주식에 관심을 더 갖게 되어서 아이디어나 개선 방안들을 추가로 받아보고",
-      "fetched_at": "2026-03-25T08:07:17.375525+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "62",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=17,practical_tech=0,tools_agents=17,strategy_insight=3,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 17,
-        "strategy_insight": 3,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 17,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [
-            "extension"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "시장"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "extension",
-        "claude + code"
-      ],
-      "detail_slug": "815ae95df594f06c42fc7fd85df47ab4b7ffddd6",
-      "is_english_source": false,
-      "sent_at": "2026-03-25T08:10:00.250434+00:00"
     }
   ],
   "topic_digests": {
