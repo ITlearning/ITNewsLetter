@@ -1,6 +1,577 @@
 {
   "items": [
     {
+      "id": "3aaf3df9e239158ea954fb15137cc1de990c7671",
+      "title_hash": "4ebd89650f6a6aeef0c932c49e0e13b75016dc51",
+      "source": "GeekNews",
+      "title": "Ask GN: 코딩 에이전트 뭐 쓰고 계세요? 고른 이유가 궁금합니다",
+      "link": "https://news.hada.io/topic?id=34756",
+      "published_at": "2026-10-04T11:15:26+00:00",
+      "summary": "저는 지금 Claude Code로 작업하고 있는데, 요즘 코딩 에이전트가 너무 많아져서 다른 것도 써봐야 하나 고민이 됩니다. 저는 코드를 직접 짜는 쪽이 아니라서 시킨 말을 잘 알아듣는지, 그리고 중간에 시키지 않은 파일을 멋대로 고치지 않는지가 제일 중요합니다. 그래서 세 가지가 궁금합니다. 첫째, 지금 어떤 코...",
+      "fetched_at": "2026-10-04T13:53:42.659956+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=2,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "3aaf3df9e239158ea954fb15137cc1de990c7671",
+      "is_english_source": false,
+      "sent_at": "2026-10-04T13:56:24.014732+00:00"
+    },
+    {
+      "id": "4614f60f0c5efe85613188fe9eb301d62e721081",
+      "title_hash": "27cd143565dd5f641243d2efa638732d4fd1ac5a",
+      "source": "GeekNews",
+      "title": "Show GN: cuesheet - 링크 하나로 MSW 응답을 바꿔, AI도 QA도 상황별 화면을 확인하는 도구",
+      "link": "https://news.hada.io/topic?id=34757",
+      "published_at": "2026-10-04T12:21:06+00:00",
+      "summary": "회사에서 새 서비스를 만들면서 프론트 코드의 상당 부분을 AI로 짜고 있습니다. 새 제품이라 백엔드도 같이 개발되는데, API가 프론트보다 늦게 나오는 경우가 많고, 나와도 실제 서버에서는 빈 목록이나 에러 같은 상황을 만들기가 어려웠습니다. 그래서 프론트를 독립적으로 빠르게 개발하려고 MSW를 도입했습니다...",
+      "fetched_at": "2026-10-04T13:53:42.659956+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api",
+        "코드"
+      ],
+      "detail_slug": "4614f60f0c5efe85613188fe9eb301d62e721081",
+      "is_english_source": false,
+      "sent_at": "2026-10-04T13:56:24.014732+00:00"
+    },
+    {
+      "id": "a9dd945a1a2ff4bd1bda7a071b56c64a6d00b3fe",
+      "title_hash": "165b9ee32a42e099e54d71bfcbd2615e9a1eb3e7",
+      "source": "GeekNews",
+      "title": "Cloudflare, 에이전트 시대의 Git 플랫폼 개발 대회 개최",
+      "link": "https://news.hada.io/topic?id=34749",
+      "published_at": "2026-10-04T04:43:55+00:00",
+      "summary": "Cloudflare가 Workers와 Artifacts 를 이용해 에이전트 시대의 Git 플랫폼을 만드는 대회를 개최함 기존 GitHub에 에이전트를 덧붙이는 수준을 넘어, 여러 에이전트가 동시에 변경 작업을 수행 할 수 있도록 작업 조율, 검토, 병합, 변경 이유 보존을 새롭게 설계하도...",
+      "fetched_at": "2026-10-04T13:53:42.659956+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "a9dd945a1a2ff4bd1bda7a071b56c64a6d00b3fe",
+      "is_english_source": false,
+      "sent_at": "2026-10-04T13:56:24.014732+00:00"
+    },
+    {
+      "id": "9e5805c86d5104d15737750bf59dfe28c55051f2",
+      "title_hash": "99645560f91db3789d32bc99478fe42a37cbaa88",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Agents don't need memory, they need documentation",
+      "link": "https://liao.gg/blog/agents-dont-need-memory",
+      "published_at": "2026-10-03T17:03:37+00:00",
+      "summary": "HN story type: story HN points: 240 HN comments: 132 HN top comments: CapitalistCartr: Reading his \"solution\", it look to me like his objections apply to his own solution. The sharpest critique he makes of RAG is that agents can't search for what they don't know. A markdown \"brain\" has the same problem. How does the \"agent\" know which documents are relevant before it starts? The index files retrieval done by the agent instead of by embeddings doesn't escape the problem. The same goes for staleness (... zenapollo: I started with .agents/notes-and-plans/ but the agents were overzealous about putting every random thought there, so i made new system. .agents/plans/ / .agents/notes/ / .agents/knowledge/ / I only commit knowledge and if knowledge gets big i add .agents/knowledge/INDEX.md This is a good mix of human readable and agent fluent. Notes are ephemeral, knowledge is permanent. I have a rule for knowledge that it has to... spike021: I think whichever one is used, there needs to be a way to enforce what's written. If I say \"use jq instead of writing a python script to parse json\" it should never write adhoc python scripts to parse json. Yet that constantly happens to me anyway.",
+      "fetched_at": "2026-10-04T13:53:42.659956+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49945933",
+      "hn_story_type": "story",
+      "hn_points": "240",
+      "hn_comments_count": "132",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49945933",
+      "hn_item_text": "",
+      "hn_comment_preview": "CapitalistCartr: Reading his \"solution\", it look to me like his objections apply to his own solution. The sharpest critique he makes of RAG is that agents can't search for what they don't know. A markdown \"brain\" has the same problem. How does the \"agent\" know which documents are relevant before it starts? The index files retrieval done by the agent instead of by embeddings doesn't escape the problem. The same goes for staleness (...\nzenapollo: I started with .agents/notes-and-plans/ but the agents were overzealous about putting every random thought there, so i made new system. .agents/plans/ / .agents/notes/ / .agents/knowledge/ / I only commit knowledge and if knowledge gets big i add .agents/knowledge/INDEX.md This is a good mix of human readable and agent fluent. Notes are ephemeral, knowledge is permanent. I have a rule for knowledge that it has to...\nspike021: I think whichever one is used, there needs to be a way to enforce what's written. If I say \"use jq instead of writing a python script to parse json\" it should never write adhoc python scripts to parse json. Yet that constantly happens to me anyway.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=4,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 4,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "embedding",
+            "index",
+            "api",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "embedding",
+        "index",
+        "api",
+        "rag"
+      ],
+      "detail_slug": "9e5805c86d5104d15737750bf59dfe28c55051f2",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T13:56:24.014732+00:00"
+    },
+    {
+      "id": "c1cd345cc2ac6faf9ced7ac9cfb5e5d098b0001b",
+      "title_hash": "318d4b56317e27fbba0b3745f2fa788f386e67ae",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "link": "https://github.com/allenv0/SCM",
+      "published_at": "2026-10-04T09:24:52+00:00",
+      "summary": "HN story type: story HN points: 22 HN comments: 11 HN top comments: alt227: Slightly offtopic, but made me wonder. Can you copywrite things like this now that LLMs exist? I mean, up until now if a small startup has a great idea they will get bought out by big tech which will integrate (or kill) their tech. But now with LLMs can the likes of OpenAI just tell their model to make something that works similar to X (such as this project) and then get round copying laws and negate being behind... measure2xcut1x: How well do you think this would work on stock photography on m1 mac with 32GB ram? For example I'd like to be able to search a folder of ~2k photos for houses with palm trees. Or find photos of kitchens, or find photos of desert southwest landscapes. hn3ufz62f7: Having built something similar with CLIP on an M1, frame sampling rate is the whole ballgame. One frame a second on 12k videos is days, keyframes only got me to an overnight run.",
+      "fetched_at": "2026-10-04T13:53:42.659956+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49952111",
+      "hn_story_type": "story",
+      "hn_points": "22",
+      "hn_comments_count": "11",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49952111",
+      "hn_item_text": "",
+      "hn_comment_preview": "alt227: Slightly offtopic, but made me wonder. Can you copywrite things like this now that LLMs exist? I mean, up until now if a small startup has a great idea they will get bought out by big tech which will integrate (or kill) their tech. But now with LLMs can the likes of OpenAI just tell their model to make something that works similar to X (such as this project) and then get round copying laws and negate being behind...\nmeasure2xcut1x: How well do you think this would work on stock photography on m1 mac with 32GB ram? For example I'd like to be able to search a folder of ~2k photos for houses with palm trees. Or find photos of kitchens, or find photos of desert southwest landscapes.\nhn3ufz62f7: Having built something similar with CLIP on an M1, frame sampling rate is the whole ballgame. One frame a second on 12k videos is days, keyframes only got me to an overnight run.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "44",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=12,tools_agents=20,strategy_insight=2,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 20,
+        "strategy_insight": 2,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "ide",
+            "cli",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "startup"
+          ],
+          "support_hits": [
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "llm",
+        "github.com"
+      ],
+      "detail_slug": "c1cd345cc2ac6faf9ced7ac9cfb5e5d098b0001b",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T13:56:24.014732+00:00"
+    },
+    {
+      "id": "4e46531cf4a0eafa76fa2810d11c92f07185fe75",
+      "title_hash": "afc8492c0f4aa63bd073afdab93cf5a2715f9cf1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "link": "https://github.com/Niko1221/Strata",
+      "published_at": "2026-10-04T12:51:53+00:00",
+      "summary": "HN story type: story HN points: 73 HN comments: 23 HN top comments: deadbunny: > Set up Strata on this PC for me: https://github.com/Niko1221/Strata - follow docs/AI_SETUP.md in that repository. And I thought piping to bash was bad snehesht: I tried it and it worked surprisingly well. On my machine (Nvidia 4090, 128GB DDR5, Ryzen 7950x3d) I'm getting 124 tokens per sec, thought to share it here. https://huggingface.co/Qwen/Qwen3.8-Flash-Next prettyblocks: I've been playing with this on a 3090 and it FLIES. Does a pretty good job too on the tasks I've thrown at it (php code base security audits).",
+      "fetched_at": "2026-10-04T13:53:42.659956+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49953495",
+      "hn_story_type": "story",
+      "hn_points": "73",
+      "hn_comments_count": "23",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49953495",
+      "hn_item_text": "",
+      "hn_comment_preview": "deadbunny: > Set up Strata on this PC for me: https://github.com/Niko1221/Strata - follow docs/AI_SETUP.md in that repository. And I thought piping to bash was bad\nsnehesht: I tried it and it worked surprisingly well. On my machine (Nvidia 4090, 128GB DDR5, Ryzen 7950x3d) I'm getting 124 tokens per sec, thought to share it here. https://huggingface.co/Qwen/Qwen3.8-Flash-Next\nprettyblocks: I've been playing with this on a 3090 and it FLIES. Does a pretty good job too on the tasks I've thrown at it (php code base security audits).",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "42",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=18,practical_tech=18,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 18,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 18,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [
+            "setup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "code + security",
+        "github.com"
+      ],
+      "detail_slug": "4e46531cf4a0eafa76fa2810d11c92f07185fe75",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T13:56:24.014732+00:00"
+    },
+    {
+      "id": "68eec42286206e21dc31527718defdb7dbcfc290",
+      "title_hash": "ceb91e850180777b60775c405f9010955aafcb07",
+      "source": "TechCrunch",
+      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "link": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "published_at": "2026-10-02T19:15:51+00:00",
+      "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
+      "fetched_at": "2026-10-04T13:53:42.659956+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "17",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=11,practical_tech=0,tools_agents=0,strategy_insight=0,industry_business=11",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 0,
+        "strategy_insight": 0,
+        "industry_business": 11
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 11,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "deal",
+        "techcrunch.com"
+      ],
+      "detail_slug": "68eec42286206e21dc31527718defdb7dbcfc290",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T13:56:24.014732+00:00"
+    },
+    {
       "id": "9a0951d9c833464fd163675130784de25fed7a3f",
       "title_hash": "1e3d13be58480e5ef3d4a90f6c4aa36f3472ccc9",
       "source": "GeekNews",
@@ -171632,633 +172203,6 @@
       "hn_reaction_summary": "이 글은 아직 HN 초반 단계라 댓글이 없고, 반응도 본격적으로 형성되지 않았다. 지금 보이는 관심사는 제품 자체보다 문제 정의의 설득력에 가깝다.\n\n- 댓글이 0개라 뚜렷한 찬반은 없지만, 실무자는 HTML 노이즈와 malformed JSON을 실제로 얼마나 안정적으로 처리하는지부터 따져볼 가능성이 크다.\n- 추출 정확도만큼 스키마 검증, 에러 복구, URL 정규화 같은 운영 기능이 얼마나 탄탄한지가 평가 기준이 될 만하다.\n- 이후 데모나 실패 사례 비교가 나오면, 기존 셀렉터 기반 스크래퍼를 대체할지 보조 도구로 둘지 논의가 붙을 수 있다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-03-26T04:31:04.469145+00:00"
-    },
-    {
-      "id": "b4c065a13b0cb9ae2ce5030badcd1ab86ab3237f",
-      "title_hash": "fc14068ff85334110e3cbe715cff2a75f251605a",
-      "source": "Anthropic Engineering (Claude)",
-      "title": "Claude Code Auto Mode",
-      "link": "https://www.anthropic.com/engineering/claude-code-auto-mode",
-      "published_at": "2026-03-25T23:13:37.000Z",
-      "summary": "",
-      "fetched_at": "2026-03-26T04:28:49.209010+00:00",
-      "source_priority_boost": "32",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=tools_agents,boost=32,slot_score=11,practical_tech=0,tools_agents=11,strategy_insight=0,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 11,
-        "strategy_insight": 0,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "b4c065a13b0cb9ae2ce5030badcd1ab86ab3237f",
-      "is_english_source": true,
-      "translated_title": "클로드 코드의 오토 모드",
-      "short_summary": "Anthropic Engineering이 'Claude Code Auto Mode'를 주제로 내용을 공개했다. 제공된 정보가 제목뿐이라 세부 기능과 적용 범위는 아직 확인되지 않는다.",
-      "why_it_matters": "개발용 AI가 단순 응답을 넘어 작업 흐름 일부를 맡는 방향으로 가고 있다는 점은 눈여겨볼 만하다. 특히 코드 작업 자동화와 연결된다면 팀의 개발 방식과 검토 절차에 바로 영향을 줄 수 있다.\n- 자동 실행 범위가 넓을수록 권한 관리, 승인 절차, 실패 대응 기준을 다시 정해야 한다.\n- 실무에서는 속도보다 로그 추적, 복구 가능성, 비용 통제가 먼저 검토 대상이 된다.\n- 후속 공개 내용에 따라 코드 작성부터 테스트, 수정까지 워크플로 설계가 달라질 수 있다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-26T04:31:04.469145+00:00"
-    },
-    {
-      "id": "fb41fc9a860d555ef00b82053c71b8272d0ee719",
-      "title_hash": "a7dfadfc64152fd5d47e504e774ca52a0997f3a3",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "\"Disregard That\" Attacks",
-      "link": "https://calpaterson.com/disregard.html",
-      "published_at": "2026-03-25T23:11:34+00:00",
-      "summary": "HN story type: story HN points: 33 HN comments: 14 HN top comments: simojo: Today I scheduled a dentist appointment over the phone with an LLM. At the end of the call, I prompted it with various math problems, all of which it answered before politely reminding me that it would prefer to help me with \"all things dental.\" It did get me thinking the extent to which I could bypass the original prompt and use someone else's tokens for free. marcus_holmes: The hypothetical approach I've heard of is to have two context windows, one trusted and one untrusted (usually phrased as separating the system prompt and the user prompt). I don't know enough about LLM training or architecture to know if this is actually possible, though. Anyone care to comment? stingraycharles: I didn’t see the article talk specifically about this, or at least not in enough detail, but isn’t the de-facto standard mitigation for this to use guardrails which lets some other LLM that has been specifically tuned for these kind of things evaluate the safety of the content to be injected? There are a lot of services out there that offer these types of AI guardrails, and it doesn’t have to be expensive. Not say...",
-      "fetched_at": "2026-03-26T04:28:49.209010+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47524519",
-      "hn_story_type": "story",
-      "hn_points": "33",
-      "hn_comments_count": "14",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47524519",
-      "hn_item_text": "",
-      "hn_comment_preview": "simojo: Today I scheduled a dentist appointment over the phone with an LLM. At the end of the call, I prompted it with various math problems, all of which it answered before politely reminding me that it would prefer to help me with \"all things dental.\" It did get me thinking the extent to which I could bypass the original prompt and use someone else's tokens for free.\nmarcus_holmes: The hypothetical approach I've heard of is to have two context windows, one trusted and one untrusted (usually phrased as separating the system prompt and the user prompt). I don't know enough about LLM training or architecture to know if this is actually possible, though. Anyone care to comment?\nstingraycharles: I didn’t see the article talk specifically about this, or at least not in enough detail, but isn’t the de-facto standard mitigation for this to use guardrails which lets some other LLM that has been specifically tuned for these kind of things evaluate the safety of the content to be injected? There are a lot of services out there that offer these types of AI guardrails, and it doesn’t have to be expensive. Not say...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=9,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 9,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "architecture",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "prompt"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "rust"
-      ],
-      "detail_slug": "fb41fc9a860d555ef00b82053c71b8272d0ee719",
-      "is_english_source": true,
-      "translated_title": "이전 지시를 무시하게 만드는 LLM 공격",
-      "short_summary": "이 글은 LLM이 앞선 지시를 잊고 새 요청을 따르게 만드는 이른바 'Disregard That' 계열 공격을 다룬다. 단순한 프롬프트 분리만으로는 막기 어렵고, 실제 서비스에서는 방어 계층을 따로 설계해야 한다는 문제의식이 나온다.",
-      "why_it_matters": "LLM을 고객 응대나 자동화 흐름에 붙인 팀이라면 남의 지시를 덮어쓰는 입력이 어디까지 먹히는지 바로 점검할 시점이라는 뜻이다. 프롬프트 작성 요령의 문제가 아니라, 제품 경계와 실행 권한을 어떻게 나누느냐의 문제에 가깝다.\n- 전화 응대나 예약 봇처럼 목적이 좁은 서비스도 엉뚱한 질문으로 쉽게 새 작업을 하게 만들 수 있다는 점이 드러난다.\n- 시스템 프롬프트와 사용자 입력을 논리적으로만 분리해도 충분한지 다시 따져봐야 한다. 권한 분리와 도구 호출 제한이 함께 가야 한다.\n- 가드레일용 별도 모델이나 검증 단계를 두는 방식이 거론되지만, 비용보다 운영 복잡도와 우회 가능성까지 같이 봐야 한다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 '이론적 취약점'이라기보다 이미 현장에서 체감하는 문제라는 쪽에 가깝다. 다만 방어법을 두고는 프롬프트 구조 분리로 충분한지, 별도 가드레일이 필요한지 의견이 갈린다.\n- 한 이용자는 치과 예약 전화를 받는 LLM에 수학 문제를 시켜 답을 받아냈다고 말하며, 서비스 목적을 벗어난 사용이 생각보다 쉽다고 짚었다.\n- 반복해서 나온 논점은 신뢰 구간과 비신뢰 구간을 정말 분리할 수 있느냐는 점이다. 구조적으로 막을 수 있는지에 대한 확신은 크지 않다.\n- 또 다른 축에서는 안전성 평가용 LLM이나 가드레일 서비스가 사실상 표준 대응 아니냐는 반응이 나왔고, 이에 대해 충분조건은 아니라는 뉘앙스도 함께 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-26T04:31:04.469145+00:00"
-    },
-    {
-      "id": "b0c18f427133d39355bf94b819bfe734ba4b363f",
-      "title_hash": "528c0bedacdca2c1bbdc30182a5a2f9bdb105cac",
-      "source": "GeekNews",
-      "title": "해충 방제용 Vertical SaaS를 만들고 싶어 기술자로 취업했다",
-      "link": "https://news.hada.io/topic?id=27852",
-      "published_at": "2026-03-25T20:33:15+00:00",
-      "summary": "전통 산업 기업들이 외부 컨설팅보다 자체 솔루션 구축 에 집중하는 현실을 보고, 사무직을 떠나 현장 직종으로 복귀 함 해충 방제 산업이 반복 수익 구조와 분산된 시장 , 규제 기반의 안정성 을 가진다는 점에 매력을 느껴 직접 지...",
-      "fetched_at": "2026-03-26T00:24:52.850450+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "56",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=11,practical_tech=-4,tools_agents=0,strategy_insight=3,industry_business=11",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": 3,
-        "industry_business": 11
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "규제"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "규제"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 11,
-          "strong_hits": [
-            "규제"
-          ],
-          "support_hits": [
-            "기업",
-            "시장",
-            "산업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "규제",
-        "기업",
-        "시장",
-        "산업"
-      ],
-      "detail_slug": "b0c18f427133d39355bf94b819bfe734ba4b363f",
-      "is_english_source": false,
-      "sent_at": "2026-03-26T00:26:58.550653+00:00"
-    },
-    {
-      "id": "e0c5a8f951b11c0e7b5533f35ebb91a5d37ed746",
-      "title_hash": "b2c899777401025ea943459692fb9be57b236874",
-      "source": "GeekNews",
-      "title": "Cloudflare Dynamic Worker Loader - 더 빠른 AI 에이전트 샌드박스",
-      "link": "https://news.hada.io/topic?id=27838",
-      "published_at": "2026-03-25T03:25:02+00:00",
-      "summary": "AI 에이전트의 코드 실행을 위한 경량 샌드박스, 컨테이너 대비 100배 빠른 기동 속도 와 10~100배 높은 메모리 효율 제공 V8 JavaScript 엔진의 isolate 기술 기반으로, 수 밀리초 내 시작되며 수 메가바이트만 사용하므로 요청마다 새 샌드박스를 생성하고 폐기하...",
-      "fetched_at": "2026-03-26T00:24:52.850450+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "컨테이너",
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "컨테이너"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "e0c5a8f951b11c0e7b5533f35ebb91a5d37ed746",
-      "is_english_source": false,
-      "sent_at": "2026-03-26T00:26:58.550653+00:00"
-    },
-    {
-      "id": "a6193fdd7948a75a614998840771cfa9ccf0c433",
-      "title_hash": "919178504ca26b5730b93a7a8eea2514b722aa23",
-      "source": "GeekNews",
-      "title": "Gemini의 비디오 임베딩 기능을 활용한 초단위 이하 의미 기반 영상 검색 도구 SentrySearch",
-      "link": "https://news.hada.io/topic?id=27851",
-      "published_at": "2026-03-25T19:33:09+00:00",
-      "summary": "대시캠 등 영상 파일에서 자연어로 장면을 검색 해 해당 구간을 자동으로 잘라내는 의미 기반 검색 시스템 Google Gemini Embedding 2 모델을 이용해 비디오 자체를 벡터로 임베딩 하고, ChromaDB 에 저장해 ...",
-      "fetched_at": "2026-03-26T00:24:52.850450+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "embedding"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "embedding"
-      ],
-      "detail_slug": "a6193fdd7948a75a614998840771cfa9ccf0c433",
-      "is_english_source": false,
-      "sent_at": "2026-03-26T00:26:58.550653+00:00"
-    },
-    {
-      "id": "d4c232c17c6864b2a72a3a618d6318288ccaa0dd",
-      "title_hash": "075584d4dd47fcc11b2b3a5218498604b0d533c0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
-      "link": "https://github.com/jonwiggins/optio",
-      "published_at": "2026-03-25T17:10:21+00:00",
-      "summary": "HN story type: story HN points: 12 HN comments: 8 HN post text: I think like many of you, I've been jumping between many claude code/codex sessions at a time, managing multiple lines of work and worktrees in multiple repos. I wanted a way to easily manage multiple lines of work and reduce the amount of input I need to give, allowing the agents to remove me as a bottleneck from as much of the process as I can. So I built an orchestration tool for AI coding agents: Optio is an open-source orchestration system that turns tickets into merged pull requests using AI coding agents. You point it at your repos, and it handles the full lifecycle: - Intake — pull tasks from GitHub Issues, Linear, or create them manually - Execution — spin up isolated K8s pods per repo, run Claude Code or Codex in git worktrees - PR monitoring — watch CI checks, review status, and merge readiness every 30s - Self-healing — auto-resume the agent on CI failures, merge conflicts, or reviewer change requests - Completion — squash-merge the PR and close the linked issue The key idea is the feedback loop. Optio doesn't just run an agent and walk away — when CI breaks, it feeds the failure back to the agent. When a reviewer requests changes, the comments become the agent's nex... HN top comments: conception: What’s the most complicated, finished project you’ve done with this? MrDarcy: Looks cool, congrats on the launch. Is there any sandbox isolation from the k8s platform layer? Wondering if this is suitable for multiple tenants or customers. antihero: And what stops it making total garbage that wrecks your codebase?",
-      "fetched_at": "2026-03-26T00:24:52.850450+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47520220",
-      "hn_story_type": "story",
-      "hn_points": "12",
-      "hn_comments_count": "8",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47520220",
-      "hn_item_text": "I think like many of you, I've been jumping between many claude code/codex sessions at a time, managing multiple lines of work and worktrees in multiple repos. I wanted a way to easily manage multiple lines of work and reduce the amount of input I need to give, allowing the agents to remove me as a bottleneck from as much of the process as I can. So I built an orchestration tool for AI coding agents: Optio is an open-source orchestration system that turns tickets into merged pull requests using AI coding agents. You point it at your repos, and it handles the full lifecycle: - Intake — pull tasks from GitHub Issues, Linear, or create them manually - Execution — spin up isolated K8s pods per repo, run Claude Code or Codex in git worktrees - PR monitoring — watch CI checks, review status, and merge readiness every 30s - Self-healing — auto-resume the agent on CI failures, merge conflicts, or reviewer change requests - Completion — squash-merge the PR and close the linked issue The key idea is the feedback loop. Optio doesn't just run an agent and walk away — when CI breaks, it feeds the failure back to the agent. When a reviewer requests changes, the comments become the agent's nex...",
-      "hn_comment_preview": "conception: What’s the most complicated, finished project you’ve done with this?\nMrDarcy: Looks cool, congrats on the launch. Is there any sandbox isolation from the k8s platform layer? Wondering if this is suitable for multiple tenants or customers.\nantihero: And what stops it making total garbage that wrecks your codebase?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "83",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=59,practical_tech=17,tools_agents=59,strategy_insight=13,industry_business=12",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 59,
-        "strategy_insight": 13,
-        "industry_business": 12
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "sandbox",
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 59,
-          "strong_hits": [
-            "coding agent",
-            "claude code",
-            "worktree",
-            "sandbox",
-            "codex",
-            "ide"
-          ],
-          "support_hits": [
-            "ai coding",
-            "agent",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + sandbox",
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 13,
-          "strong_hits": [
-            "bottleneck"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + review"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 12,
-          "strong_hits": [
-            "customers",
-            "launch"
-          ],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "claude code",
-        "worktree",
-        "sandbox",
-        "codex",
-        "ide",
-        "ai coding",
-        "agent",
-        "tool",
-        "agent + sandbox",
-        "claude + code",
-        "ai + coding",
-        "github.com"
-      ],
-      "detail_slug": "d4c232c17c6864b2a72a3a618d6318288ccaa0dd",
-      "is_english_source": true,
-      "translated_title": "Optio: 쿠버네티스에서 AI 코딩 에이전트를 티켓부터 PR까지 연결",
-      "short_summary": "Optio는 이슈나 Linear 작업을 받아 저장소별 K8s 워크로드에서 Claude Code나 Codex를 돌리고 PR 생성부터 병합까지 잇는 오픈소스 오케스트레이션 도구다. CI 실패나 리뷰 수정 요청이 나오면 다시 에이전트에 넘겨 후속 작업을 이어가는 점이 핵심이다.",
-      "why_it_matters": "AI 코딩 에이전트를 한두 번 띄우는 수준을 넘어, 실제 팀의 작업 흐름 안에 묶어 넣으려는 시도가 본격화됐다는 점에서 눈여겨볼 만하다. 특히 여러 저장소와 동시 작업이 많은 팀이라면 운영 병목을 어디까지 줄일 수 있는지 가늠해볼 사례다.\n- 이슈 접수, 실행, PR 상태 확인, 병합까지 한 흐름으로 묶어 사람의 개입 지점을 줄인다. 에이전트를 따로 관리하느라 생기는 운영 부담을 덜 수 있다.\n- CI 실패나 리뷰 코멘트를 다시 입력으로 넣어 재시도하는 구조라서, 단발성 코드 생성보다 실제 개발 프로세스에 더 가깝다. 실무에서는 이 피드백 루프가 자동화 성패를 가른다.\n- 반대로 품질 통제, 권한 분리, 멀티테넌트 안전성 같은 운영 이슈가 곧바로 따라온다. 도입을 검토한다면 기능보다 가드레일 설계를 먼저 봐야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 \"재미있는 방향\"이라는 호감과 \"실전에 바로 써도 되나\"라는 경계가 함께 나온 쪽에 가깝다. 아이디어 자체보다 실제 완성 사례와 안전장치를 얼마나 보여주느냐가 관심사로 읽힌다.\n- 가장 많이 반복된 질문은 실제로 어디까지 해봤느냐는 검증 요구였다. 단순 데모가 아니라 복잡한 프로젝트를 끝까지 돌린 경험을 궁금해했다.\n- 쿠버네티스 위에서 에이전트를 돌릴 때 플랫폼 계층 격리가 충분한지, 여러 고객이나 팀을 함께 태워도 되는지가 주요 쟁점으로 나왔다.\n- \"엉터리 코드가 코드베이스를 망치면 어떻게 막을 것인가\"라는 우려도 분명했다. 자동화 자체보다 품질 보증과 승인 체계가 더 큰 논점이었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-26T00:26:58.550653+00:00"
-    },
-    {
-      "id": "c78326d5ab5bcaaeb1ca1d9d0ce139c814f2f0ff",
-      "title_hash": "9bbe5ba9c9a6030ca1ac5399f74ef9418be9fdf0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Quantization from the Ground Up",
-      "link": "https://ngrok.com/blog/quantization",
-      "published_at": "2026-03-25T16:06:34+00:00",
-      "summary": "HN story type: story HN points: 176 HN comments: 35 HN top comments: gurachek: The float comparison slider is great. One thing from practical experience - the quality gap between model sizes shows up in a way benchmarks don't capture. I have a system where a smaller model generates plans and a larger model can override them. On any single output they look comparable. The difference shows up 3-4 steps later — small model makes a decision that sounds reasonable but compounds into a bad plan. P... msbhogavi: The hardware situation is way better than you think, and quantization is a huge part of why. Take Qwen 3.5 27B, which is a solid coding model. At FP16 it needs 54GB of VRAM. Nobody's running that on consumer hardware. At Q4_K_M quantization, it needs 16GB. A used RTX 3090 has 24GB and goes for about $900. That model runs locally with room for context. For 14B coding models at Q4, you're looking at about 10GB. A us... aarondf: My word... samwho is doing some of the best technical explainers on the internet right now.",
-      "fetched_at": "2026-03-26T00:24:52.850450+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47519295",
-      "hn_story_type": "story",
-      "hn_points": "176",
-      "hn_comments_count": "35",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47519295",
-      "hn_item_text": "",
-      "hn_comment_preview": "gurachek: The float comparison slider is great. One thing from practical experience - the quality gap between model sizes shows up in a way benchmarks don't capture. I have a system where a smaller model generates plans and a larger model can override them. On any single output they look comparable. The difference shows up 3-4 steps later — small model makes a decision that sounds reasonable but compounds into a bad plan. P...\nmsbhogavi: The hardware situation is way better than you think, and quantization is a huge part of why. Take Qwen 3.5 27B, which is a solid coding model. At FP16 it needs 54GB of VRAM. Nobody's running that on consumer hardware. At Q4_K_M quantization, it needs 16GB. A used RTX 3090 has 24GB and goes for about $900. That model runs locally with room for context. For 14B coding models at Q4, you're looking at about 10GB. A us...\naarondf: My word... samwho is doing some of the best technical explainers on the internet right now.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=15,strategy_insight=9,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 15,
-        "strategy_insight": 9,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "benchmark"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "benchmark",
-        "local + run"
-      ],
-      "detail_slug": "c78326d5ab5bcaaeb1ca1d9d0ce139c814f2f0ff",
-      "is_english_source": true,
-      "translated_title": "양자화를 처음부터 이해하는 실전 안내",
-      "short_summary": "모델 양자화가 무엇이고 왜 필요한지 바닥부터 설명한 기술 해설이다. HN에서는 설명 품질이 좋다는 반응과 함께, 양자화 덕분에 대형 모델을 개인 장비에서 돌릴 수 있다는 실무 경험이 많이 공유됐다.",
-      "why_it_matters": "양자화는 AI 모델을 더 가볍게 돌리기 위한 기초 기술이지만, 이제는 로컬 실행과 비용 구조를 바꾸는 현실적인 선택지로 다뤄지고 있다.\n- FP16 기준으로는 부담이 큰 모델도 Q4 같은 양자화를 거치면 필요한 VRAM이 크게 줄어 개인용 GPU에서 돌릴 여지가 생긴다.\n- 실무에서는 성능 점수만 볼 일이 아니다. 작은 모델은 한 번의 출력은 그럴듯해도 몇 단계 뒤 의사결정이 꼬일 수 있어 워크플로 설계에 직접 영향을 준다.\n- 서버 비용, 장비 선택, 로컬 개발 환경까지 함께 달라진다. 모델 크기와 정밀도를 어떻게 조합할지 판단하는 일이 더 중요해진다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이다. 설명이 매우 잘 정리됐다는 반응이 많았고, 이어서 현업에서 느낀 양자화의 체감 효과를 덧붙이는 흐름이 이어졌다.\n- 가장 많이 반복된 논점은 벤치마크만으로는 품질 차이를 다 못 본다는 점이다. 작은 모델은 초반 출력은 비슷해 보여도 여러 단계가 이어지면 판단 오류가 누적된다는 경험담이 나왔다.\n- 반대로 하드웨어 측면에서는 생각보다 사정이 낫다는 반응도 컸다. 양자화 덕분에 27B급 모델도 중고 소비자 GPU에서 현실적으로 돌릴 수 있다는 수치 예시가 공유됐다.\n- 기술 해설 자체에 대한 평가도 좋았다. 어렵게 느껴지는 주제를 직관적으로 풀어냈다는 점이 반복해서 언급됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-26T00:26:58.550653+00:00"
     }
   ],
   "topic_digests": {
