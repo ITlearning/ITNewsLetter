@@ -1,6 +1,589 @@
 {
   "items": [
     {
+      "id": "9a0951d9c833464fd163675130784de25fed7a3f",
+      "title_hash": "1e3d13be58480e5ef3d4a90f6c4aa36f3472ccc9",
+      "source": "GeekNews",
+      "title": "Claude Code 스킬 패턴 — 반복 작업을 재사용 가능한 스킬로 설계하는 법과 실무에서 쌓으며 배운 것",
+      "link": "https://news.hada.io/topic?id=34752",
+      "published_at": "2026-10-04T07:06:36+00:00",
+      "summary": "Claude Code 스킬을 설계하는 원칙과, 여러 스킬을 실제 개발 흐름에서 같이 쓰면서 확인한 점을 정리했습니다. 스킬의 description 은 설명문이 아니라 트리거 . \"무엇을 하는가\"보다 \"언제 써야 하는가\"를 적어야 에이전트가 제때 고름 본문",
+      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=5,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 20,
+        "strategy_insight": 5,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "원칙"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "9a0951d9c833464fd163675130784de25fed7a3f",
+      "is_english_source": false,
+      "sent_at": "2026-10-04T09:45:58.578741+00:00"
+    },
+    {
+      "id": "f7d2fa9ca097606875017e0af8425277042b6bd0",
+      "title_hash": "7276bde0a12b764533f3e2fc613d1a6cf60a9fd1",
+      "source": "GeekNews",
+      "title": "에이전트에게 필요한 것은 메모리가 아니라 문서다",
+      "link": "https://news.hada.io/topic?id=34750",
+      "published_at": "2026-10-04T06:34:13+00:00",
+      "summary": "에이전트가 프로젝트를 이해하려면 과거 대화 조각을 검색하는 메모리보다 프로젝트 문서 가 필요함. 기능의 위치, 구현 이유, 합의 사항, 중요하게 여기는 기준을 함께 파악할 수 있어야 함 대화를 조각내 저장하고 프롬프트마다 유사한 항목을 주입하는 RAG 기반 메모리",
+      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "56",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=5,tools_agents=11,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 11,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "프롬프트"
+      ],
+      "detail_slug": "f7d2fa9ca097606875017e0af8425277042b6bd0",
+      "is_english_source": false,
+      "sent_at": "2026-10-04T09:45:58.578741+00:00"
+    },
+    {
+      "id": "81edafbc439abc6fbf0d7ee93d3cd16abb45ba87",
+      "title_hash": "318c14ee1d2b430e595ce047d52d73af0f319b9f",
+      "source": "GeekNews",
+      "title": "LeCun, AI의 인류 멸종과 최근 ‘일탈’ 사건에 “전혀 우려 없다”",
+      "link": "https://news.hada.io/topic?id=34754",
+      "published_at": "2026-10-04T09:35:53+00:00",
+      "summary": "Yann LeCun 은 AI가 인류를 멸종시킬 가능성과 최근 에이전트 일탈 사건을 전혀 우려하지 않으며, 사건 원인을 인간의 감독 부족과 잘못된 시스템 설계에서 찾음 샌드박스와 사이버보안 을 제대로 설계하면 이런 사건을 완전히 예방할 수 있다는 입장으로, 에이전트는...",
+      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "81edafbc439abc6fbf0d7ee93d3cd16abb45ba87",
+      "is_english_source": false,
+      "sent_at": "2026-10-04T09:45:58.578741+00:00"
+    },
+    {
+      "id": "5bb73ce72dc396d537a47711fd05bf2947667d97",
+      "title_hash": "e65c7e1d7dc97726460ca9411491fc02772d3524",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "In Ukraine, distributed renewables foil Russia's assaults",
+      "link": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
+      "published_at": "2026-10-04T08:39:58+00:00",
+      "summary": "HN story type: story HN points: 43 HN comments: 12 HN top comments: thelastgallon: Fossil fuel supply chain makes your country very vulnerable! https://github.com/Lkruitwagen/global-fossil-fuel-supply-cha... : The resulting complex network has 6.09mn nodes and 15.70mn edges and is implemented in a graph database. With estimates of annual coal, gas, and oil demand in 13,229 global population centres and 8,165 global power stations, we use a minimum-cost flow method to estimate global asset-level... gnull: This is greenwashing. The article suggests that renewables are somehow more helpful in a war when your grid is targeted by drones and missiles. It doesn't do a comparison to back it up though. Decentralized power production vs. centralized does make sense: decentralized doesn't offer a single point of failure taking out which causes a lot of damage. But can't energy from fossil fuels be generated in a decentralize... jmyeet: I've been thinking about this (more [1]) and I do believe smaller grids will be the future for many reasons. I guess this is another reason. But the transition from large grids to small grids has no obvious, easy path because a large grid without total market saturation falls apart as maintenance is averaged over fewer and fewer users. One side benefit though is that it would stop utilities being able to push data...",
+      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49951881",
+      "hn_story_type": "story",
+      "hn_points": "43",
+      "hn_comments_count": "12",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49951881",
+      "hn_item_text": "",
+      "hn_comment_preview": "thelastgallon: Fossil fuel supply chain makes your country very vulnerable! https://github.com/Lkruitwagen/global-fossil-fuel-supply-cha... : The resulting complex network has 6.09mn nodes and 15.70mn edges and is implemented in a graph database. With estimates of annual coal, gas, and oil demand in 13,229 global population centres and 8,165 global power stations, we use a minimum-cost flow method to estimate global asset-level...\ngnull: This is greenwashing. The article suggests that renewables are somehow more helpful in a war when your grid is targeted by drones and missiles. It doesn't do a comparison to back it up though. Decentralized power production vs. centralized does make sense: decentralized doesn't offer a single point of failure taking out which causes a lot of damage. But can't energy from fossil fuels be generated in a decentralize...\njmyeet: I've been thinking about this (more [1]) and I do believe smaller grids will be the future for many reasons. I guess this is another reason. But the transition from large grids to small grids has no obvious, easy path because a large grid without total market saturation falls apart as maintenance is averaged over fewer and f...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=3,strategy_insight=10,industry_business=8",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 3,
+        "strategy_insight": 10,
+        "industry_business": 8
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "distributed",
+            "production",
+            "database",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 3,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "supply + chain"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "distributed",
+        "production",
+        "database",
+        "rag"
+      ],
+      "detail_slug": "5bb73ce72dc396d537a47711fd05bf2947667d97",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T09:45:58.578741+00:00"
+    },
+    {
+      "id": "3e210219d0b0835c8a09059b1c745d22a11d9a6c",
+      "title_hash": "868fb597648e91324a9904878a05580f79e6d83b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "link": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "published_at": "2026-10-03T17:44:29+00:00",
+      "summary": "HN story type: story HN points: 125 HN comments: 161 HN post text: https://archive.ph/TyDPf HN top comments: dzink: A huge chunk of humans are sedated with infinite supply of cortex-disabling short form video and games. Another huge chunk are too distracted by having to scrape by for a living and work multiple jobs or raise kids and survive financially until exhausted. That second group will keep increasing as the first flows into it. The rest are aging, disabled, or too young and pegging themselves majorly in the first categor... edot: Absolutely based. Finally someone of stature in the industry calling this whole fear overblown. Bill Gates sounded like a nontechnical goofball in his Ezra Klein interview where he basically just screamed that the Terminator is real. There are lots of real worries (government use to suppress the people with minimal manpower or popular support, brainrot and fake news, unemployment due to the belief that LLMs can re... yewenjie: LeCun has been consistently wrong for the last ten years, I am not sure why he keeps being amplified. Edit: I am sure, it's denial.",
+      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49946228",
+      "hn_story_type": "story",
+      "hn_points": "125",
+      "hn_comments_count": "161",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49946228",
+      "hn_item_text": "https://archive.ph/TyDPf",
+      "hn_comment_preview": "dzink: A huge chunk of humans are sedated with infinite supply of cortex-disabling short form video and games. Another huge chunk are too distracted by having to scrape by for a living and work multiple jobs or raise kids and survive financially until exhausted. That second group will keep increasing as the first flows into it. The rest are aging, disabled, or too young and pegging themselves majorly in the first categor...\nedot: Absolutely based. Finally someone of stature in the industry calling this whole fear overblown. Bill Gates sounded like a nontechnical goofball in his Ezra Klein interview where he basically just screamed that the Terminator is real. There are lots of real worries (government use to suppress the people with minimal manpower or popular support, brainrot and fake news, unemployment due to the belief that LLMs can re...\nyewenjie: LeCun has been consistently wrong for the last ten years, I am not sure why he keeps being amplified. Edit: I am sure, it's denial.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=4,industry_business=4",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 12,
+        "strategy_insight": 4,
+        "industry_business": 4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "industry",
+            "ceo"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm"
+      ],
+      "detail_slug": "3e210219d0b0835c8a09059b1c745d22a11d9a6c",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T09:45:58.578741+00:00"
+    },
+    {
+      "id": "158c92c5f5ee5b360c43d503df4404382d583f47",
+      "title_hash": "f4780fa66bad46f9f1b8337c344b6e93c4d7255b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "We're working on a new RuneScape MMO",
+      "link": "https://play.runescape.com/4",
+      "published_at": "2026-10-04T01:12:22+00:00",
+      "summary": "HN story type: story HN points: 64 HN comments: 23 HN top comments: My_Name: Initially, I misread the headline as referring to RuneQuest, the Betamax of tabletop fantasy role playing. Better than D&D, but which didn't win the popularity contest. It is one of three games I would love to see made into software, with the other two being Traveller and Paranoia (the computer is your friend, trust the computer) Foxhuls: For anyone unaware this is stated to essentially be the MMO continuation of Runescape Dragonwilds which was a survival and crafting game that recently released into 1.0 after its commercial success. Fizz43: Everything Jagex touches turns to shit. They are not good at creating. At best they are a steward for already created IP and the community provides that taste that makes it good.",
+      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49949588",
+      "hn_story_type": "story",
+      "hn_points": "64",
+      "hn_comments_count": "23",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49949588",
+      "hn_item_text": "",
+      "hn_comment_preview": "My_Name: Initially, I misread the headline as referring to RuneQuest, the Betamax of tabletop fantasy role playing. Better than D&D, but which didn't win the popularity contest. It is one of three games I would love to see made into software, with the other two being Traveller and Paranoia (the computer is your friend, trust the computer)\nFoxhuls: For anyone unaware this is stated to essentially be the MMO continuation of Runescape Dragonwilds which was a survival and crafting game that recently released into 1.0 after its commercial success.\nFizz43: Everything Jagex touches turns to shit. They are not good at creating. At best they are a steward for already created IP and the community provides that taste that makes it good.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=12,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 12,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "rust",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [
+            "taste",
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "rag"
+      ],
+      "detail_slug": "158c92c5f5ee5b360c43d503df4404382d583f47",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T09:45:58.578741+00:00"
+    },
+    {
+      "id": "49d5778eefd8f631e20cc184a1897e612d3abaaa",
+      "title_hash": "27ebc911f856304243c402983b1589eee3cbea82",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Treachery in the Rodin Museum 3D scan verdict",
+      "link": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+      "published_at": "2026-10-03T18:01:27+00:00",
+      "summary": "HN story type: story HN points: 194 HN comments: 89 HN top comments: Animats: The Rodin Museum's bronzes are not even \"the originals\", which makes this whole thing amusing. The originals created by Rodin were clay models, from which plaster molds were made. Those were used to cast bronzes. Not just one bronze copy, many copies. There are at least 23 copies of \"The Thinker\" cast during Rodin's lifetime, and even more later copies.[1] In the SF Bay Area, the Palace of the Legion of Honor has... SillyUsername: Perhaps look at the case from another perspective. Ask if, since they used public money to create these, what public benefit was produced by it. If you can have them admit, or can prove, no public benefit, it's misspent public funds. If it's misspent public funds then its public reimbursement at the least for all the works they have scanned as a minimal response. You could argue the case the directors are liable f... procaryote: FOI is for administrative documents to increase transparency in government. Detailed 3D scans a museum does for research or preservation isn't an administrative document. If you want a 3d scan of these statues, there's a lot of them around in scannable places like parks etc. If you just want to win, you're wasting everyone's time for no good reason.",
+      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49946355",
+      "hn_story_type": "story",
+      "hn_points": "194",
+      "hn_comments_count": "89",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49946355",
+      "hn_item_text": "",
+      "hn_comment_preview": "Animats: The Rodin Museum's bronzes are not even \"the originals\", which makes this whole thing amusing. The originals created by Rodin were clay models, from which plaster molds were made. Those were used to cast bronzes. Not just one bronze copy, many copies. There are at least 23 copies of \"The Thinker\" cast during Rodin's lifetime, and even more later copies.[1] In the SF Bay Area, the Palace of the Legion of Honor has...\nSillyUsername: Perhaps look at the case from another perspective. Ask if, since they used public money to create these, what public benefit was produced by it. If you can have them admit, or can prove, no public benefit, it's misspent public funds. If it's misspent public funds then its public reimbursement at the least for all the works they have scanned as a minimal response. You could argue the case the directors are liable f...\nprocaryote: FOI is for administrative documents to increase transparency in government. Detailed 3D scans a museum does for research or preservation isn't an administrative document. If you want a 3d scan of these statues, there's a lot of them around in scannable places like parks etc. If you just want to win, you're wasting ever...",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "33",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=9,practical_tech=4,tools_agents=2,strategy_insight=9,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 9,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [],
+          "support_hits": [
+            "perspective",
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "substack.com"
+          ]
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "perspective",
+        "research",
+        "substack.com"
+      ],
+      "detail_slug": "49d5778eefd8f631e20cc184a1897e612d3abaaa",
+      "is_english_source": true,
+      "sent_at": "2026-10-04T09:45:58.578741+00:00"
+    },
+    {
       "id": "b9c858110247b13f59d6dbb92977c95a42d167c2",
       "title_hash": "7b023569ec8e98a1523a062bd31dc87e7f8a38ad",
       "source": "GeekNews",
@@ -171676,596 +172259,6 @@
       "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이다. 설명이 매우 잘 정리됐다는 반응이 많았고, 이어서 현업에서 느낀 양자화의 체감 효과를 덧붙이는 흐름이 이어졌다.\n- 가장 많이 반복된 논점은 벤치마크만으로는 품질 차이를 다 못 본다는 점이다. 작은 모델은 초반 출력은 비슷해 보여도 여러 단계가 이어지면 판단 오류가 누적된다는 경험담이 나왔다.\n- 반대로 하드웨어 측면에서는 생각보다 사정이 낫다는 반응도 컸다. 양자화 덕분에 27B급 모델도 중고 소비자 GPU에서 현실적으로 돌릴 수 있다는 수치 예시가 공유됐다.\n- 기술 해설 자체에 대한 평가도 좋았다. 어렵게 느껴지는 주제를 직관적으로 풀어냈다는 점이 반복해서 언급됐다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-03-26T00:26:58.550653+00:00"
-    },
-    {
-      "id": "36abb1f1ef2064272fd5e5040e0301419f36b54c",
-      "title_hash": "9da6dc00f7b7a5877c7ab046e962dfe79f64ec6f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: A plain-text cognitive architecture for Claude Code",
-      "link": "https://lab.puga.com.br/cog/",
-      "published_at": "2026-03-25T23:29:13+00:00",
-      "summary": "HN story type: story HN points: 7 HN comments: 4 HN top comments: rodspeed: I've been building persistent memory for Claude Code too, narrower focus though: the AI's model of the user specifically. Different goal but I kept hitting what I think is a universal problem with long-lived memory. Not all stored information is equally reliable and nothing degrades gracefully. An observation from 30 sessions ago and a guess from one offhand remark just sit at the same level. So I started tagging... CharlesW: How is this different and/or more interesting than Superpowers' episodic-memory skill¹ or Anthropic's Auto Dream²? ¹ https://github.com/obra/episodic-memory ² https://claudefa.st/blog/guide/mechanics/auto-dream kixiQu: I like the idea of various extensions of LLM context using transparent plaintext, automatic consolidation and summarization... but I just can't read this LLM-generated text documenting it. The style is so painful. If someone ends up finding this tooling useful I hope they write it up and I hear about it again!",
-      "fetched_at": "2026-03-26T00:24:52.850450+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47524704",
-      "hn_story_type": "story",
-      "hn_points": "7",
-      "hn_comments_count": "4",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47524704",
-      "hn_item_text": "",
-      "hn_comment_preview": "rodspeed: I've been building persistent memory for Claude Code too, narrower focus though: the AI's model of the user specifically. Different goal but I kept hitting what I think is a universal problem with long-lived memory. Not all stored information is equally reliable and nothing degrades gracefully. An observation from 30 sessions ago and a guess from one offhand remark just sit at the same level. So I started tagging...\nCharlesW: How is this different and/or more interesting than Superpowers' episodic-memory skill¹ or Anthropic's Auto Dream²? ¹ https://github.com/obra/episodic-memory ² https://claudefa.st/blog/guide/mechanics/auto-dream\nkixiQu: I like the idea of various extensions of LLM context using transparent plaintext, automatic consolidation and summarization... but I just can't read this LLM-generated text documenting it. The style is so painful. If someone ends up finding this tooling useful I hope they write it up and I hear about it again!",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=27,practical_tech=16,tools_agents=27,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 27,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "architecture",
-            "show hn"
-          ],
-          "support_hits": [
-            "guide"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 27,
-          "strong_hits": [
-            "claude code",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "extension",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "ide",
-        "llm",
-        "extension",
-        "tool",
-        "claude + code"
-      ],
-      "detail_slug": "36abb1f1ef2064272fd5e5040e0301419f36b54c",
-      "is_english_source": true,
-      "translated_title": "Claude Code용 텍스트 인지 아키텍처 공개",
-      "short_summary": "Claude Code에 장기 기억을 붙이기 위한 평문 기반 인지 아키텍처를 소개한 글이다. 메모리 축적과 요약 자동화에 관심이 모였지만, 기존 시도와의 차별성과 문서 완성도는 더 따져봐야 한다는 반응도 나왔다.",
-      "why_it_matters": "에이전트형 코딩 도구가 길게 이어지는 작업을 맡기 시작하면서, 컨텍스트를 어떻게 남기고 정리할지가 실제 생산성에 바로 연결되고 있다.\n- 평문 중심 구조라면 저장된 기억을 사람이 직접 읽고 고치기 쉬워서, 블랙박스형 메모리보다 운영과 디버깅 부담을 낮출 수 있다.\n- 다만 오래된 관찰과 불확실한 추정이 같은 무게로 쌓이면 품질이 빠르게 흔들릴 수 있다. 실무에서는 메모리 신뢰도, 갱신 규칙, 폐기 기준이 함께 설계돼야 한다.\n- 요약과 통합이 자동화되면 긴 세션을 이어 가는 코딩 워크플로에 도움이 되지만, 결국 팀이 바로 쓸 수 있으려면 구조 설명과 관리 방식이 더 선명해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 호기심과 견제가 섞여 있었다. 아이디어 자체에는 공감이 있었지만, 이미 나온 메모리 확장 방식과 무엇이 다른지 묻는 반응이 반복됐다.\n- 한 댓글은 장기 메모리의 공통 문제로 신뢰도 차이를 꼽았다. 오래된 기록과 즉흥적 추정이 같은 수준으로 남으면 점점 다루기 어려워진다는 지적이다.\n- 또 다른 반응은 Superpowers의 episodic-memory, Anthropic의 Auto Dream과 비교하며 새로움이 어디에 있는지 물었다. 기능 소개만으로는 차별점이 충분히 드러나지 않는다는 뜻에 가깝다.\n- 문서가 LLM 특유의 장황한 문체라 읽기 어렵다는 불만도 있었다. 도구 자체보다 설명 방식이 adoption을 막을 수 있다는 실무적인 논점이 나온 셈이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-26T00:26:58.550653+00:00"
-    },
-    {
-      "id": "4fd31e890419ecd0ab1f490a38a611a926e0ed6d",
-      "title_hash": "0b2810dd2cacee8b3096c90eabb993edb4a85adb",
-      "source": "GeekNews",
-      "title": "2026 Bio-AI 오픈소스 감사 보고서: 10개를 점검해보니, &quot;대부분은 돌아가지만 믿기 어려웠다.&quot;",
-      "link": "https://news.hada.io/topic?id=27848",
-      "published_at": "2026-03-25T11:37:20+00:00",
-      "summary": "전체 요지 이 보고서는 2026년 3월 기준, 가시성이 높은 Bio-AI 및 인접 과학 자동화 저장소 10개를 감사한 결과를 정리 무작위 선정 아닌 GitHub star. 기술적 논의 빈도. 실제 생태계 노출도 기준으로 선정. 감사는 2단계 방식으로 진행, 1단계는 기술적 코드 검수: Repo 구조·엔�...",
-      "fetched_at": "2026-03-25T20:20:30.956358+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "자동화"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "자동화"
-      ],
-      "detail_slug": "4fd31e890419ecd0ab1f490a38a611a926e0ed6d",
-      "is_english_source": false,
-      "sent_at": "2026-03-25T20:22:36.351297+00:00"
-    },
-    {
-      "id": "bd617e28191dfb8b48985f114dacc1dd0e4385da",
-      "title_hash": "7f65b4c387ffe9c18d9bd0b31df4cc647492d48e",
-      "source": "GeekNews",
-      "title": "OpenAI, Sora 서비스 종료",
-      "link": "https://news.hada.io/topic?id=27839",
-      "published_at": "2026-03-25T03:33:17+00:00",
-      "summary": "OpenAI의 AI 영상 생성 플랫폼 Sora 가 공식 계정을 통해 앱과 API 종료 를 발표하며 서비스 중단 예고 종료 사유와 구체적 일정은 공개되지 않았으며, 사용자 작업물 보존 방법은 추후 안내 예정 커뮤니티에서는 실망과 비판, 냉...",
-      "fetched_at": "2026-03-25T20:20:30.956358+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "bd617e28191dfb8b48985f114dacc1dd0e4385da",
-      "is_english_source": false,
-      "sent_at": "2026-03-25T20:22:36.351297+00:00"
-    },
-    {
-      "id": "6f151cf41c604943152dcb037d9214fac1126cc2",
-      "title_hash": "8bb47914e6864ea5754d1eda8fc4c345b69eeac5",
-      "source": "GeekNews",
-      "title": "Video.js v10 베타: 16년 만의 전면 재작성으로 88% 더 작아진 오픈소스 비디오 플레이어",
-      "link": "https://news.hada.io/topic?id=27847",
-      "published_at": "2026-03-25T11:33:17+00:00",
-      "summary": "16년 만에 완전히 새로 작성된 Video.js v10은 번들 크기를 88% 줄이고 현대적 개발 환경에 맞춘 구조로 재탄생함 React·TypeScript·Tailwind 를 1급으로 지원하며, 심미적 기본 UI 와 AI 친화적 문서 구조 를 제공함 새...",
-      "fetched_at": "2026-03-25T20:20:30.956358+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=5,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "typescript"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "6f151cf41c604943152dcb037d9214fac1126cc2",
-      "is_english_source": false,
-      "sent_at": "2026-03-25T20:22:36.351297+00:00"
-    },
-    {
-      "id": "5b811dee2d6b169757ade1da52a63acddd3df99c",
-      "title_hash": "26d1659b4d0aba3b3b4a278d8f31d0d6d0e3acf9",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Updates to GitHub Copilot interaction data usage policy",
-      "link": "https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/",
-      "published_at": "2026-03-25T19:09:16+00:00",
-      "summary": "HN story type: story HN points: 81 HN comments: 44 HN top comments: stefankuehnel: If you scroll down to \"Allow GitHub to use my data for AI model training\" in GitHub settings, you can enable or disable it. However, what really gets me is how they pitch it like it’s some kind of user-facing feature: Enabled = You will have access to the feature Disabled = You won't have access to the feature As if handing over your data for free is a perk. Kinda hilarious. mentalgear: > On April 24 we'll start using GitHub Copilot interaction data for AI model training unless you opt out. Review this update and manage your preferences in your GitHub account settings. Now \"Allow GitHub to use my data for AI model training\" is enabled by default. Turn it off here: https://github.com/settings/copilot/features Do they have this set on business accounts also by default? If so, this is really shady. dataviz1000: I was using GitHub Copilot chat and things got progressively worse and worse doubling the cost each month $100 -> $200 -> until I spent $450 for on month. I'm bitter about that too because I was in the middle of a hard project and scared to switch over. Eventually, I switched to Claude Code max plan for $200 which has been an amazing experience in the past couple of months. I usually have tokens left over at the e...",
-      "fetched_at": "2026-03-25T20:20:30.956358+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47521799",
-      "hn_story_type": "story",
-      "hn_points": "81",
-      "hn_comments_count": "44",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47521799",
-      "hn_item_text": "",
-      "hn_comment_preview": "stefankuehnel: If you scroll down to \"Allow GitHub to use my data for AI model training\" in GitHub settings, you can enable or disable it. However, what really gets me is how they pitch it like it’s some kind of user-facing feature: Enabled = You will have access to the feature Disabled = You won't have access to the feature As if handing over your data for free is a perk. Kinda hilarious.\nmentalgear: > On April 24 we'll start using GitHub Copilot interaction data for AI model training unless you opt out. Review this update and manage your preferences in your GitHub account settings. Now \"Allow GitHub to use my data for AI model training\" is enabled by default. Turn it off here: https://github.com/settings/copilot/features Do they have this set on business accounts also by default? If so, this is really shady.\ndataviz1000: I was using GitHub Copilot chat and things got progressively worse and worse doubling the cost each month $100 -> $200 -> until I spent $450 for on month. I'm bitter about that too because I was in the middle of a hard project and scared to switch over. Eventually, I switched to Claude Code max plan for $200 which has been an amazing experience in the past cou...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "42",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=4,tools_agents=18,strategy_insight=8,industry_business=4",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 18,
-        "strategy_insight": 8,
-        "industry_business": 4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 18,
-          "strong_hits": [
-            "claude code",
-            "copilot"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + review"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "business",
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "copilot",
-        "claude + code"
-      ],
-      "detail_slug": "5b811dee2d6b169757ade1da52a63acddd3df99c",
-      "is_english_source": true,
-      "translated_title": "깃허브, 코파일럿 상호작용 데이터 학습 활용 정책 변경",
-      "short_summary": "깃허브가 4월 24일부터 Copilot 상호작용 데이터를 AI 모델 학습에 활용하는 정책을 적용하고, 사용자는 설정에서 옵트아웃할 수 있게 했다. HN에서는 기본값이 켜져 있다는 점과 안내 방식이 사용자 친화적으로 포장됐다는 점을 두고 비판이 이어졌다.",
-      "why_it_matters": "개발팀이 Copilot을 쓰고 있다면 기능 품질보다 먼저 데이터 처리 기본값과 계정별 설정 상태를 확인해야 하는 시점이다. 특히 개인 계정과 조직 계정의 운영 기준을 분리하지 않으면 내부 코드나 프롬프트 취급 방침이 예상과 어긋날 수 있다.\n- 옵트아웃 여부가 모델 학습 데이터 제공과 직접 연결되므로, 보안·법무·엔지니어링 운영팀이 계정 설정을 함께 점검할 필요가 있다.\n- 현업에서는 Copilot 도입 여부만 볼 게 아니라 어떤 상호작용 로그가 수집되고 어디까지 학습에 쓰이는지 정책 문구까지 확인해야 한다.\n- AI 코딩 도구를 여러 개 비교하는 팀이라면 비용, 성능, 데이터 활용 범위를 한 번에 재평가하는 계기가 될 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 부정적이다. 특히 학습 데이터 제공을 사실상 기본값으로 두고, 이를 기능 접근 혜택처럼 설명한 점에 거부감이 컸다.\n- 반복해서 나온 비판은 '옵트아웃 구조 자체가 불투명하다'는 점이다. 사용자가 설정을 직접 찾아 꺼야 한다는 데 반감이 모였다.\n- 조직 계정이나 비즈니스 계정에도 같은 기본값이 적용되는지 우려하는 반응이 있었다. 사실이라면 더 민감한 문제라는 시선이다.\n- 일부는 정책 논란을 계기로 Copilot의 비용 대비 만족도까지 함께 꺼냈다. 대안 도구로 옮긴 경험담도 나오며, 단순 정책 이슈를 넘어 도구 선택 문제로 번졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-25T20:22:36.351297+00:00"
-    },
-    {
-      "id": "5face3be1daa1293442f2c88eda40017396b1d04",
-      "title_hash": "5fd1d2df1f3607fc60e87e648b648c5245586399",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "ARC-AGI-3",
-      "link": "https://arcprize.org/arc-agi/3",
-      "published_at": "2026-03-25T18:16:03+00:00",
-      "summary": "HN story type: story HN points: 71 HN comments: 32 HN top comments: Tiberium: https://x.com/scaling01 has called out a lot of issues with ARC-AGI-3, some of them (directly copied, with minimal editing): - Human baseline is \"defined as the second-best first-run human by action count\" - The Scoring of ARC-AGI-3 doesn't tell you how many levels the models completed but how efficiently they completed them compared to humans. Actually using squared efficiency, meaning if a human took 10 steps to... typs: My takeaway from playing a number of levels is that I am definitely not AGI OsrsNeedsf2P: Some of these tasks are crazy. Even I can't beat them: https://arcprize.org/tasks/ar25",
-      "fetched_at": "2026-03-25T20:20:30.956358+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47521150",
-      "hn_story_type": "story",
-      "hn_points": "71",
-      "hn_comments_count": "32",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47521150",
-      "hn_item_text": "",
-      "hn_comment_preview": "Tiberium: https://x.com/scaling01 has called out a lot of issues with ARC-AGI-3, some of them (directly copied, with minimal editing): - Human baseline is \"defined as the second-best first-run human by action count\" - The Scoring of ARC-AGI-3 doesn't tell you how many levels the models completed but how efficiently they completed them compared to humans. Actually using squared efficiency, meaning if a human took 10 steps to...\ntyps: My takeaway from playing a number of levels is that I am definitely not AGI\nOsrsNeedsf2P: Some of these tasks are crazy. Even I can't beat them: https://arcprize.org/tasks/ar25",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "28",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=4,practical_tech=4,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "5face3be1daa1293442f2c88eda40017396b1d04",
-      "is_english_source": true,
-      "translated_title": "ARC-AGI-3, 성능보다 채점 방식이 더 논쟁",
-      "short_summary": "ARC-AGI-3가 HN 전면에 오르며 새 AGI 벤치마크로 주목받았다. 다만 댓글에서는 모델 성능보다 인간 기준선과 효율 중심 채점 방식이 결과를 왜곡할 수 있다는 지적이 더 많이 나왔다.",
-      "why_it_matters": "새 벤치마크가 나왔다는 사실보다, 무엇을 어떻게 점수로 환산하느냐가 더 큰 이슈로 떠올랐다. 실무에서는 리더보드 숫자만 보고 모델 추론력이나 범용성을 단정하기 더 어려워졌다는 뜻이다.\n- 인간 기준선을 어떻게 잡느냐에 따라 모델 점수가 크게 달라질 수 있어, 벤치마크 비교표를 그대로 의사결정에 쓰기 어렵다.\n- 완료 개수보다 인간 대비 효율을 강하게 반영하는 방식이라면, 실제 업무 성능보다 특정 과제 풀이 스타일이 유리해질 수 있다.\n- 평가셋이 사람에게도 꽤 어렵다는 반응이 많아, 앞으로는 '모델이 몇 문제를 맞혔는가'만큼 '문제 자체가 무엇을 재는가'를 함께 봐야 한다.",
-      "hn_reaction_summary": "HN 분위기는 기대 반, 회의 반에 가까웠다. 새 ARC 시리즈에 관심은 높았지만, 댓글의 초점은 성능 자랑보다 채점 설계와 인간 비교 방식의 타당성에 쏠렸다.\n- 가장 많이 반복된 지점은 인간 기준선 정의가 특이하고, 점수가 완료 수가 아니라 효율에 치우쳐 해석이 어렵다는 비판이다.\n- 직접 문제를 풀어본 이용자들은 사람도 쉽게 못 푸는 과제가 많다며, 이 벤치마크를 곧바로 AGI 잣대로 쓰기엔 무리가 있다고 봤다.\n- 한편으로는 바로 그 난도가 흥미롭다는 반응도 있었지만, 실무자가 읽어야 할 핵심 논점은 '높은 점수'보다 '점수의 의미'에 있다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-25T20:22:36.351297+00:00"
-    },
-    {
-      "id": "202f629a137fbc4046b5b6ab4342ca50a82425a2",
-      "title_hash": "6c6827c525b94bef715865d92551e534ac218f2e",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Thoughts on slowing the fuck down",
-      "link": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
-      "published_at": "2026-03-25T14:07:14+00:00",
-      "summary": "HN story type: story HN points: 439 HN comments: 247 HN top comments: badlibrarian: I suppose everyone on HN reaches a certain point with these kind of thought pieces and I just reached mine. What are you building? Does the tool help or hurt? People answered this wrong in the Ruby era, they answered it wrong in the PHP era, they answered it wrong in the Lotus Notes and Visual BASIC era. After five or six cycles it does become a bit fatiguing. Use the tool sanely. Work at a pace where your underst... leonardoe: Just yesterday I was discussing many of the ideas presented here with a coworker. I had just walked out of a workshop led by $BIGTECHCOMPANY where someone presented the following toy example: A service goes down. He tells the agent to debug it and fix it. The agent pulls some logs from $CLOUDPROVIDER, inspects the logs, produces a fix and then automatically updates a shared document with the postmortem. This got m... Towaway69: What the article doesn't touch on is the vendor lock-in that is currently underway. Many corps are now moving to an AI-based development process that is reliant on the big AI providers. Once the codebase has become fully agentic, i.e., only agents fundamentally understand it and can modify it, the prices will start rising. After all, these loss making AI companies will eventually need to recoup on their investment...",
-      "fetched_at": "2026-03-25T20:20:30.956358+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47517539",
-      "hn_story_type": "story",
-      "hn_points": "439",
-      "hn_comments_count": "247",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47517539",
-      "hn_item_text": "",
-      "hn_comment_preview": "badlibrarian: I suppose everyone on HN reaches a certain point with these kind of thought pieces and I just reached mine. What are you building? Does the tool help or hurt? People answered this wrong in the Ruby era, they answered it wrong in the PHP era, they answered it wrong in the Lotus Notes and Visual BASIC era. After five or six cycles it does become a bit fatiguing. Use the tool sanely. Work at a pace where your underst...\nleonardoe: Just yesterday I was discussing many of the ideas presented here with a coworker. I had just walked out of a workshop led by $BIGTECHCOMPANY where someone presented the following toy example: A service goes down. He tells the agent to debug it and fix it. The agent pulls some logs from $CLOUDPROVIDER, inspects the logs, produces a fix and then automatically updates a shared document with the postmortem. This got m...\nTowaway69: What the article doesn't touch on is the vendor lock-in that is currently underway. Many corps are now moving to an AI-based development process that is reliant on the big AI providers. Once the codebase has become fully agentic, i.e., only agents fundamentally understand it and can modify it, the prices will start ri...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=6,tools_agents=16,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 16,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "postmortem"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "agentic",
-            "ide"
-          ],
-          "support_hits": [
-            "agent",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agentic",
-        "ide",
-        "agent",
-        "tool"
-      ],
-      "detail_slug": "202f629a137fbc4046b5b6ab4342ca50a82425a2",
-      "is_english_source": true,
-      "translated_title": "속도를 늦추는 일에 대한 생각",
-      "short_summary": "이 글은 AI 도구와 자동화 열풍 속에서 무작정 속도를 올리기보다, 이해 가능한 속도로 일해야 한다는 문제의식을 던진다. HN에서는 새 기술을 둘러싼 익숙한 과장이라는 반응과 함께, 에이전트 자동화가 실제 운영과 비용 구조를 어떻게 바꿀지에 대한 논쟁이 이어졌다.",
-      "why_it_matters": "생산성을 높인다는 명분으로 개발 속도를 계속 끌어올리는 흐름이 강해졌지만, 실무에서는 이해와 검증이 따라오지 못하면 오히려 운영 부담이 커질 수 있다.\n- AI 에이전트가 디버깅, 수정, 문서화까지 맡는 시나리오가 퍼지면서 개발자의 역할이 작성자에서 검토자와 책임자로 옮겨가고 있다.\n- 팀이 감당할 수 있는 속도보다 자동화가 앞서면 장애 원인 파악, 코드 이해, 온콜 대응이 더 어려워질 수 있다.\n- 특정 AI 공급자에 깊게 묶이는 구조가 굳어지면 이후 비용 인상이나 워크플로 변경에 대응하기 어려워질 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 과열된 담론에 대한 피로감과 현실적인 우려가 함께 섞여 있었다. 무조건 느리게 가자는 주장보다, 도구를 어디까지 믿고 맡길지 선을 정해야 한다는 쪽에 무게가 실렸다.\n- 비슷한 기술 낙관론과 비관론은 예전에도 반복됐으니, 결국 기준은 \"무엇을 만들고 있고 도구가 실제로 도움이 되느냐\"라는 반응이 많았다.\n- 한편으로는 장애 대응부터 사후 보고서 작성까지 에이전트가 맡는 흐름이 이미 교육되고 있다며, 현업 변화가 생각보다 빠르다는 체감도 나왔다.\n- 가장 반복된 반론은 벤더 종속이다. 코드베이스와 운영 절차가 에이전트 중심으로 굳으면, 나중에는 가격과 통제권 문제를 피하기 어렵다는 지적이 이어졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-25T20:22:36.351297+00:00"
     }
   ],
   "topic_digests": {
