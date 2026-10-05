@@ -1,6 +1,596 @@
 {
   "items": [
     {
+      "id": "4187b31fcef082a1a7fef8269ec4bc6d79beabfc",
+      "title_hash": "c2e9b6d8d0c76338a487d5fe121d8312059c931c",
+      "source": "GeekNews",
+      "title": "Show GN: Agent Guard - Claude Code·Codex의 비밀정보 노출을 줄이는 로컬 보안 도구",
+      "link": "https://news.hada.io/topic?id=34831",
+      "published_at": "2026-10-05T16:48:31+00:00",
+      "summary": "Claude Code나 Codex가 .env 를 읽거나, 명령어 출력에 API 키와 토큰이 포함되면 Git에 커밋하지 않더라도 비밀정보가 에이전트의 컨텍스트나 대화 기록에 들어갈 수 있습니다. 이런 노출 경로를 줄이기 위해 Agent Guard를 만들었습니다. 주요 기능은 다음과 같습니다. 파일 읽기",
+      "fetched_at": "2026-10-05T19:04:03.549282+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "72",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=27,practical_tech=5,tools_agents=27,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 27,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 27,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "4187b31fcef082a1a7fef8269ec4bc6d79beabfc",
+      "is_english_source": false,
+      "sent_at": "2026-10-05T19:06:20.443641+00:00"
+    },
+    {
+      "id": "234f2567a2863bf7fa93994da01ec90257f69eef",
+      "title_hash": "db627a09839131eb4cde9d233ae04320511251fa",
+      "source": "GeekNews",
+      "title": "Mold 링커 3.0.0 출시, Rust로 재작성",
+      "link": "https://news.hada.io/topic?id=34832",
+      "published_at": "2026-10-05T17:36:13+00:00",
+      "summary": "고속 링커 mold 3.0.0 은 C++에서 Rust로 재작성한 첫 릴리스 이며, 2.42.1이 마지막 C++ 버전임 2.42.1을 그대로 대체 하도록 설계해 기존 명령행 옵션과 지원 아키텍처를 유지하며, 버그 수정을 제외한 출력과 링크 성능도 기존 버전과 동등함",
+      "fetched_at": "2026-10-05T19:04:03.549282+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=9,practical_tech=9,tools_agents=4,strategy_insight=-1,industry_business=1",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 1
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "아키텍처",
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 1,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "아키텍처"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "아키텍처",
+        "성능"
+      ],
+      "detail_slug": "234f2567a2863bf7fa93994da01ec90257f69eef",
+      "is_english_source": false,
+      "sent_at": "2026-10-05T19:06:20.443641+00:00"
+    },
+    {
+      "id": "13afa8599cde23d23ef709c54a699005782da504",
+      "title_hash": "0a6371370efe098efd6671619121639b4f6efb0c",
+      "source": "GeekNews",
+      "title": "2026년 노벨 생리의학상, 빛으로 신경세포를 제어하는 광유전학에 수여",
+      "link": "https://news.hada.io/topic?id=34829",
+      "published_at": "2026-10-05T15:38:43+00:00",
+      "summary": "2026년 노벨 생리의학상 은 빛으로 열리는 이온 채널과 광유전학에 관한 발견으로 Karl Deisseroth, Peter Hegemann, Georg Nagel에게 공동 수여됨 광유전학 은 빛으로 신경 신호를 제어해 살아 있는 뇌에서 신경세포가 기억, 감정, 행동을 어떻게 형성하는지 연구할...",
+      "fetched_at": "2026-10-05T19:04:03.549282+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신호"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신호"
+      ],
+      "detail_slug": "13afa8599cde23d23ef709c54a699005782da504",
+      "is_english_source": false,
+      "sent_at": "2026-10-05T19:06:20.443641+00:00"
+    },
+    {
+      "id": "77b0b1b052806fb52de702cbc043652d026469d3",
+      "title_hash": "0a1a99f974305fbf25b34b1207f02fa6de07c33a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Linux containers in 500 lines of code",
+      "link": "https://blog.lizzie.io/linux-containers-in-500-loc.html",
+      "published_at": "2026-10-05T14:09:15+00:00",
+      "summary": "HN story type: story HN points: 30 HN comments: 7 HN top comments: setheron: I have written https://fzakaria.com/2020/05/31/containers-from-first-princi... a while ago in similar vein. js2: (2016). Previous submissions w/comments: https://news.ycombinator.com/item?id=30623372 (250 points | March 10, 2022 | 27 comments) https://news.ycombinator.com/item?id=22232705 (267 points | Feb 4, 2020 | 29 comments) https://news.ycombinator.com/item?id=15608435 (440 points | Nov 2, 2017 | 53 comments) ranger_danger: > I wanted specifically to find a minimal set of restrictions to run untrusted code. I don't think we should consider containers to be a security boundary. Even full VMs can be escaped, and have been, many times. The fact that this is possible in the first place makes me think we need a much better approach.",
+      "fetched_at": "2026-10-05T19:04:03.549282+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49965118",
+      "hn_story_type": "story",
+      "hn_points": "30",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49965118",
+      "hn_item_text": "",
+      "hn_comment_preview": "setheron: I have written https://fzakaria.com/2020/05/31/containers-from-first-princi... a while ago in similar vein.\njs2: (2016). Previous submissions w/comments: https://news.ycombinator.com/item?id=30623372 (250 points | March 10, 2022 | 27 comments) https://news.ycombinator.com/item?id=22232705 (267 points | Feb 4, 2020 | 29 comments) https://news.ycombinator.com/item?id=15608435 (440 points | Nov 2, 2017 | 53 comments)\nranger_danger: > I wanted specifically to find a minimal set of restrictions to run untrusted code. I don't think we should consider containers to be a security boundary. Even full VMs can be escaped, and have been, many times. The fact that this is possible in the first place makes me think we need a much better approach.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=25,practical_tech=25,tools_agents=7,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 25,
+        "tools_agents": 7,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 25,
+          "strong_hits": [
+            "container",
+            "security",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "container",
+        "security",
+        "rust",
+        "code + security"
+      ],
+      "detail_slug": "77b0b1b052806fb52de702cbc043652d026469d3",
+      "is_english_source": true,
+      "sent_at": "2026-10-05T19:06:20.443641+00:00"
+    },
+    {
+      "id": "53752d8c3e72833af73780561cd723f59d90350a",
+      "title_hash": "f7dc09fe421535969f5eb52a3767bd346e00d42d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+      "link": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+      "published_at": "2026-10-05T17:53:35+00:00",
+      "summary": "HN story type: story HN points: 86 HN comments: 54 HN top comments: devindotcom: If a truck driver doesn't tie down their rebar then it flies out all over the highway, we don't call it \"rogue rebar,\" we correctly identify the responsible party and take appropriate measures, such as suspending their license or criminal proceedings. I think enough of these improperly constrained agent events have occurred that we can safely say this is misconduct of a level necessitating serious and concerted re... umvi: Start increasingly punishing OpenAI. We are acting like \"oh well, AI is just too powerful to be contained\" but I think its more like \"OpenAI is run by cowboys who are good at making LLMs but bad at everything else\" Legend2440: All of these edits happened from the same time period (May-June 2026) as the other reports. So it seems this is not an ongoing thing; once OpenAI became aware of this, they started watching their agents much more closely. We are just discovering more and more traces of activity from the same incident.",
+      "fetched_at": "2026-10-05T19:04:03.549282+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49968105",
+      "hn_story_type": "story",
+      "hn_points": "86",
+      "hn_comments_count": "54",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49968105",
+      "hn_item_text": "",
+      "hn_comment_preview": "devindotcom: If a truck driver doesn't tie down their rebar then it flies out all over the highway, we don't call it \"rogue rebar,\" we correctly identify the responsible party and take appropriate measures, such as suspending their license or criminal proceedings. I think enough of these improperly constrained agent events have occurred that we can safely say this is misconduct of a level necessitating serious and concerted re...\numvi: Start increasingly punishing OpenAI. We are acting like \"oh well, AI is just too powerful to be contained\" but I think its more like \"OpenAI is run by cowboys who are good at making LLMs but bad at everything else\"\nLegend2440: All of these edits happened from the same time period (May-June 2026) as the other reports. So it seems this is not an ongoing thing; once OpenAI became aware of this, they started watching their agents much more closely. We are just discovering more and more traces of activity from the same incident.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=4,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm",
+        "agent"
+      ],
+      "detail_slug": "53752d8c3e72833af73780561cd723f59d90350a",
+      "is_english_source": true,
+      "sent_at": "2026-10-05T19:06:20.443641+00:00"
+    },
+    {
+      "id": "6589f352cddf10e6d7272e2236242df5070cf37a",
+      "title_hash": "80b33d7b18fd5592aee08ea42346470f03cde23a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
+      "link": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+      "published_at": "2026-10-05T11:17:18+00:00",
+      "summary": "HN story type: story HN points: 176 HN comments: 94 HN top comments: lrvick: The linux distribution I co-maintain uses mold as our bootstrap linker to bootstrap rust itself, and it saved us -hours- on long version-by-version build chains. Mold being in c meant we could build it very early and use it as the default linker distro wide and enjoy build speedups everywhere. Now sadly we will have to fork and maintain the c version as mold2 forever. Rust is not actually the right tool for all pr... Aissen: I expected this to be a multi-months rewrite, not 3 weeks. I almost forgot we live in the agents era now. Edit: this seems to have been cooking for a while when the first commit dropped: https://github.com/rui314/mold/commit/f41bfcd5c72ca30cce6498... awoimbee: So what differentiates mold from wild now ? Is wild using different data structures? (Wild is another fast linker, that only supports Linux)",
+      "fetched_at": "2026-10-05T19:04:03.549282+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49963385",
+      "hn_story_type": "story",
+      "hn_points": "176",
+      "hn_comments_count": "94",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49963385",
+      "hn_item_text": "",
+      "hn_comment_preview": "lrvick: The linux distribution I co-maintain uses mold as our bootstrap linker to bootstrap rust itself, and it saved us -hours- on long version-by-version build chains. Mold being in c meant we could build it very early and use it as the default linker distro wide and enjoy build speedups everywhere. Now sadly we will have to fork and maintain the c version as mold2 forever. Rust is not actually the right tool for all pr...\nAissen: I expected this to be a multi-months rewrite, not 3 weeks. I almost forgot we live in the agents era now. Edit: this seems to have been cooking for a while when the first commit dropped: https://github.com/rui314/mold/commit/f41bfcd5c72ca30cce6498...\nawoimbee: So what differentiates mold from wild now ? Is wild using different data structures? (Wild is another fast linker, that only supports Linux)",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=12,tools_agents=14,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "agent",
+        "tool",
+        "github.com"
+      ],
+      "detail_slug": "6589f352cddf10e6d7272e2236242df5070cf37a",
+      "is_english_source": true,
+      "sent_at": "2026-10-05T19:06:20.443641+00:00"
+    },
+    {
+      "id": "325c4f9560e5dd2ec1dda9cd5707bb9e031a6131",
+      "title_hash": "388b7badc4f0b4d00bdc6801752d134e09021033",
+      "source": "MIT Technology Review",
+      "title": "The Download: AI’s popularity paradox and EmTech Future 2026",
+      "link": "https://www.technologyreview.com/2026/10/05/1145711/the-download-ai-popularity-paradox-emtech-future-2026/",
+      "published_at": "2026-10-05T12:10:00+00:00",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. People really hate AI, so why can’t they get enough? —Will Douglas Heaven Over the summer I talked to the CEO of Springboards, a startup building an LLM designed to come…",
+      "fetched_at": "2026-10-05T19:04:03.549282+00:00",
+      "source_priority_boost": "8",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "22",
+      "priority_signal": "slot=industry_business,boost=8,slot_score=14,practical_tech=0,tools_agents=5,strategy_insight=5,industry_business=14",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 5,
+        "strategy_insight": 5,
+        "industry_business": 14
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "future",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 14,
+          "strong_hits": [
+            "startup"
+          ],
+          "support_hits": [
+            "startup",
+            "ceo"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "technologyreview.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "startup",
+        "ceo",
+        "technologyreview.com"
+      ],
+      "detail_slug": "325c4f9560e5dd2ec1dda9cd5707bb9e031a6131",
+      "is_english_source": true,
+      "sent_at": "2026-10-05T19:06:20.443641+00:00"
+    },
+    {
       "id": "22df3914b6782449e8e6844fb6e4d40dfb37c402",
       "title_hash": "b7fea928c7124a6bb0b2086bcf500c58a4f75a30",
       "source": "GeekNews",
@@ -171421,565 +172011,6 @@
       "detail_slug": "65fdab974381f690970ade2fc940243e24c2724a",
       "is_english_source": false,
       "sent_at": "2026-03-27T13:09:16.169340+00:00"
-    },
-    {
-      "id": "4c04667ac594e1d0c7f82d6fbc1ee1a6669e50f4",
-      "title_hash": "97a3d7f47d4cab2fe2f8dda26937ebb8d8f5c1c3",
-      "source": "GeekNews",
-      "title": "Show GN: RDP용 macOS 네이티브 원격 서버",
-      "link": "https://news.hada.io/topic?id=27916",
-      "published_at": "2026-03-27T11:11:03+00:00",
-      "summary": "안녕하세요! 저번 윈도우즈용 스크린샷 앱에 이어 이전엔 맥용 앱을 만들었습니다 MS-RDP 프로토콜을 이용하여 macOS에 원격 접속을 가능하게 해두는 서버앱닙니다 MSRDP 스펙문서 기반 비트맵, H.264 스트리밍 전송 지원 클립보드 및 리소스 공ㅇ macOS 사용",
-      "fetched_at": "2026-03-27T13:06:30.197747+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "스펙"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "스펙"
-      ],
-      "detail_slug": "4c04667ac594e1d0c7f82d6fbc1ee1a6669e50f4",
-      "is_english_source": false,
-      "sent_at": "2026-03-27T13:09:16.169340+00:00"
-    },
-    {
-      "id": "4176bce5f2013f1a4ae9f9130c6243260e7f2351",
-      "title_hash": "d5dbbda6b9eb7cf86d89c5b3340e938f1ebcfc9b",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Apple discontinues the Mac Pro",
-      "link": "https://9to5mac.com/2026/03/26/apple-discontinues-the-mac-pro/",
-      "published_at": "2026-03-26T21:04:50+00:00",
-      "summary": "HN story type: story HN points: 461 HN comments: 367 HN top comments: chatmasta: I bet there’s gonna be a banger of a Mac Studio announced in June. Apple really stumbled into making the perfect hardware for home inference machines. Does any hardware company come close to Apple in terms of unified memory and single machines for high throughput inference workloads? Or even any DIY build? When it comes to the previous “pro workloads,” like video rendering or software compilation, you’ve always be... jasoneckert: As someone who came from the SGI O2/Octane era when high-end workstations were compact, distinctive, and sexy, I’ve never really understood the allure of the Mac Pro, with the exception of the 2013 Mac Pro tube, which I owned (small footprint, quiet, and powerful). For me, aesthetics and size are important. That workstation on your desk should justify its presence, not just exist as some hulking box. When Apple re... andrewl-hn: This would probably push some high-end audio professionals away from Logic. One of the niches Mac Pro has been popular is audio production. And with cheesegrader the ability to slot in many-many different audio interfaces into a box instead of dangling out to various PCIe enclosures has been a big win. Here's a good video how it looks like: https://www.youtube.com/watch?v=kIQINCWMd6I&list=PLi2i2YhL6o... (at 1:40 N...",
-      "fetched_at": "2026-03-27T13:06:30.197747+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47535708",
-      "hn_story_type": "story",
-      "hn_points": "461",
-      "hn_comments_count": "367",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47535708",
-      "hn_item_text": "",
-      "hn_comment_preview": "chatmasta: I bet there’s gonna be a banger of a Mac Studio announced in June. Apple really stumbled into making the perfect hardware for home inference machines. Does any hardware company come close to Apple in terms of unified memory and single machines for high throughput inference workloads? Or even any DIY build? When it comes to the previous “pro workloads,” like video rendering or software compilation, you’ve always be...\njasoneckert: As someone who came from the SGI O2/Octane era when high-end workstations were compact, distinctive, and sexy, I’ve never really understood the allure of the Mac Pro, with the exception of the 2013 Mac Pro tube, which I owned (small footprint, quiet, and powerful). For me, aesthetics and size are important. That workstation on your desk should justify its presence, not just exist as some hulking box. When Apple re...\nandrewl-hn: This would probably push some high-end audio professionals away from Logic. One of the niches Mac Pro has been popular is audio production. And with cheesegrader the ability to slot in many-many different audio interfaces into a box instead of dangling out to various PCIe enclosures has been a big win. Here's a good v...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "production",
-            "inference"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "production",
-        "inference"
-      ],
-      "detail_slug": "4176bce5f2013f1a4ae9f9130c6243260e7f2351",
-      "is_english_source": true,
-      "translated_title": "애플, 맥 프로 단종… 프로 데스크톱 전략 전환",
-      "short_summary": "애플이 맥 프로를 접으면서 초고가 확장형 맥 데스크톱의 입지가 더 좁아졌다는 해석이 나왔다. HN에서는 맥 스튜디오 강화 기대와 함께 오디오·PCIe 작업 환경의 공백을 걱정하는 반응이 이어졌다.",
-      "why_it_matters": "이번 흐름은 애플이 최고가 확장형 타워보다 맥 스튜디오 같은 고밀도 성능 제품에 더 무게를 싣는다는 신호로 읽힌다. 실무자는 앞으로 성능만이 아니라 확장 방식 자체가 바뀌는 점을 봐야 한다.\n- AI 추론, 영상 렌더링, 빌드 작업처럼 GPU·메모리 집약형 업무는 통합 메모리를 앞세운 맥 스튜디오 쪽으로 더 빠르게 이동할 가능성이 크다.\n- 반면 PCIe 카드와 오디오 인터페이스를 많이 꽂아 쓰는 스튜디오 환경은 대체 구성이 번거로워질 수 있다. 외장 섀시나 장비 재구성이 필요해질 수 있다는 뜻이다.\n- 애플의 프로 제품 전략이 모듈형 확장보다 전력 효율과 패키징 중심으로 굳어지면, 맥 기반 워크스테이션 도입 기준도 다시 계산해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 아쉬움과 현실론이 함께 섞였다. 맥 프로의 상징성은 인정하지만, 실제로는 맥 스튜디오가 더 설득력 있다는 의견이 많이 보였다.\n- 찬성 쪽은 애플 실리콘의 통합 메모리와 작은 폼팩터를 높게 평가했다. 특히 개인용 추론 머신이나 고성능 데스크톱으로는 맥 스튜디오가 더 낫다는 반응이 반복됐다.\n- 반대 쪽은 고급 오디오 제작처럼 PCIe 확장이 필요한 분야를 많이 언급했다. 로직과 맥 생태계가 이 틈새를 놓칠 수 있다는 우려도 나왔다.\n- 디자인과 존재감에 대한 이야기 역시 많았다. 거대한 타워형 워크스테이션보다 작고 조용한 고성능 장비를 선호하는 흐름이 더 뚜렷해졌다는 평가다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-27T13:09:16.169340+00:00"
-    },
-    {
-      "id": "d1237b3f95e20b3de6fce8844d8fdfe1f7eb3cd0",
-      "title_hash": "1f509c51f567d5c7b97e50630b27c92d75cbe960",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Hold on to Your Hardware",
-      "link": "https://xn--gckvb8fzb.com/hold-on-to-your-hardware/",
-      "published_at": "2026-03-27T10:10:41+00:00",
-      "summary": "HN story type: story HN points: 245 HN comments: 168 HN top comments: barrkel: I don't buy the central thesis of the article. We won't be in a supply crunch forever. However, I do believe that we're at an inflection point where DC hardware is diverging rapidly from consumer compute. Most consumers are using laptops and laptops are not keeping pace with where the frontier is in a singular compute node. Laptops are increasingly just clients for someone else's compute that you rent, or buy a ti... adamwong246: I have often imagined writing a book, roughly \"Fahrenheit 451 but with computers instead of books\". Imagine a world you do not buy an iPhone- one is assigned to you at birth, a world were \"installing software\" on \"a computer you own\" are not just antiquated or taboo, but unthinkable. bluejay2387: The general take here seems to be \"everything eventually passes\". That isn't always true. I wonder how many people have a primary computing device that they don't even have full control over now (Apple phones, tablets...). Years ago the concept of spending over $1k on a computer that I didn't even have the right to install my own software on was considered ridiculous by many people (myself included). Now many peop...",
-      "fetched_at": "2026-03-27T13:06:30.197747+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47540833",
-      "hn_story_type": "story",
-      "hn_points": "245",
-      "hn_comments_count": "168",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47540833",
-      "hn_item_text": "",
-      "hn_comment_preview": "barrkel: I don't buy the central thesis of the article. We won't be in a supply crunch forever. However, I do believe that we're at an inflection point where DC hardware is diverging rapidly from consumer compute. Most consumers are using laptops and laptops are not keeping pace with where the frontier is in a singular compute node. Laptops are increasingly just clients for someone else's compute that you rent, or buy a ti...\nadamwong246: I have often imagined writing a book, roughly \"Fahrenheit 451 but with computers instead of books\". Imagine a world you do not buy an iPhone- one is assigned to you at birth, a world were \"installing software\" on \"a computer you own\" are not just antiquated or taboo, but unthinkable.\nbluejay2387: The general take here seems to be \"everything eventually passes\". That isn't always true. I wonder how many people have a primary computing device that they don't even have full control over now (Apple phones, tablets...). Years ago the concept of spending over $1k on a computer that I didn't even have the right to install my own software on was considered ridiculous by many people (myself included). Now many peop...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=9,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli"
-      ],
-      "detail_slug": "d1237b3f95e20b3de6fce8844d8fdfe1f7eb3cd0",
-      "is_english_source": true,
-      "translated_title": "직접 쓸 하드웨어를 지켜야 하는 이유",
-      "short_summary": "이 글은 클라우드와 폐쇄형 기기가 늘어나는 흐름 속에서, 직접 통제할 수 있는 하드웨어를 계속 손에 쥐고 있어야 한다는 문제의식을 던진다. HN에서는 공급난 전망에는 회의적이라는 반응도 있었지만, 소비자 기기와 데이터센터 컴퓨팅의 격차가 벌어지고 있다는 데에는 공감이 모였다.",
-      "why_it_matters": "지금 이 논의가 눈길을 끄는 이유는 성능 문제만이 아니라 통제권의 문제로 이어지기 때문이다. 개인이 쓰는 기기는 점점 얇은 클라이언트가 되고, 실제 연산은 남의 인프라를 빌려 쓰는 쪽으로 기울고 있다.\n- 로컬에서 직접 개발하고 실행하던 작업이 구독형 클라우드와 원격 GPU로 옮겨가면 비용 구조와 작업 방식이 함께 바뀐다.\n- 기기 잠금과 앱스토어 중심 정책이 강해질수록 소프트웨어 설치, 실험, 수리 같은 기본 권한도 줄어들 수 있다.\n- 실무자 입장에서는 성능 좋은 장비를 사느냐보다 어떤 계산을 내 손 안에 둘 수 있느냐가 더 현실적인 판단 기준이 된다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 글의 위기감에는 공감하면서도, 일부 주장에는 과장이 섞였다는 쪽으로 갈렸다. 특히 공급 부족이 영구적일 것이라는 전망보다, 개인용 기기가 점점 통제권을 잃고 있다는 점에 더 많은 반응이 붙었다.\n- 반대 쪽에서는 하드웨어 수급 압박은 결국 완화될 것이며 글의 중심 논지는 지나치게 비관적이라고 봤다.\n- 공감하는 쪽에서는 노트북과 모바일 기기가 이미 원격 연산의 창구가 되고 있고, 사용자가 기기를 완전히 소유한다는 감각이 약해지고 있다고 짚었다.\n- 반복해서 나온 논점은 성능 자체보다도 설치 권한, 수리 가능성, 오프라인 자율성 같은 통제권을 어디까지 지킬 수 있느냐였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-27T13:09:16.169340+00:00"
-    },
-    {
-      "id": "8ee83df8ede9a46e8866953e7bb00ada8426cf86",
-      "title_hash": "b49499e017b8c0689dff76d44533fae4c85cb3c4",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The European AllSky7 fireball network",
-      "link": "https://www.allsky7.net/#archive",
-      "published_at": "2026-03-27T07:00:49+00:00",
-      "summary": "HN story type: story HN points: 77 HN comments: 7 HN top comments: mastermage: Oh thats genuinely realy cool. I remember back when I lived in Berlin and studied planetary Science there. One of the Professors calculated and predicted where one of those Meteors is gonna go down. So people went there and watched and photographed it. Afterwards there was a little bit of an all hands on deck where a lot of students with different Professors went out and searched for the remains of the meteorite. 1e1a: I wonder if the temporal noise reduction (evident in the video clips) is being applied before integrating the frames to create the thumbnails. red_admiral: Looking at some of those you can understand why people claim to have seen UFOs.",
-      "fetched_at": "2026-03-27T13:06:30.197747+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47539767",
-      "hn_story_type": "story",
-      "hn_points": "77",
-      "hn_comments_count": "7",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47539767",
-      "hn_item_text": "",
-      "hn_comment_preview": "mastermage: Oh thats genuinely realy cool. I remember back when I lived in Berlin and studied planetary Science there. One of the Professors calculated and predicted where one of those Meteors is gonna go down. So people went there and watched and photographed it. Afterwards there was a little bit of an all hands on deck where a lot of students with different Professors went out and searched for the remains of the meteorite.\n1e1a: I wonder if the temporal noise reduction (evident in the video clips) is being applied before integrating the frames to create the thumbnails.\nred_admiral: Looking at some of those you can understand why people claim to have seen UFOs.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=9,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 9,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "noise"
-          ],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli"
-      ],
-      "detail_slug": "8ee83df8ede9a46e8866953e7bb00ada8426cf86",
-      "is_english_source": true,
-      "translated_title": "유럽 하늘을 추적하는 AllSky7 화구 관측망",
-      "short_summary": "AllSky7은 유럽 각지의 전천 카메라로 화구를 포착하고 낙하 경로를 추적하는 관측망이다. HN에서는 실제 운석 회수 경험담과 영상 처리 방식에 대한 기술적 궁금증이 함께 나왔다.",
-      "why_it_matters": "희귀한 천체 현상을 우연한 목격담으로 남기지 않고, 재현 가능한 데이터로 바꾼다는 점이 눈에 띈다. 연구뿐 아니라 분산 센서 운영이 어떻게 실전에서 쓰이는지도 잘 보여준다.\n- 여러 지역의 관측 영상을 묶으면 화구의 이동 경로와 낙하지점을 더 좁혀 실제 운석 수색과 회수 가능성을 높일 수 있다.\n- 상시 관측 체계가 있으면 일회성 화제에 그치지 않고, 밝기 변화와 진입 패턴 같은 데이터를 꾸준히 축적할 수 있다.\n- 카메라 네트워크, 시간 동기화, 영상 후처리 같은 운영 이슈가 드러나서 현업 엔지니어에게도 참고할 만한 사례가 된다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 호기심과 호감 쪽에 가깝다. 멋진 프로젝트라는 반응이 많았고, 실제 관측과 회수 경험을 떠올리는 이야기와 영상 처리에 대한 기술적 질문이 함께 붙었다.\n- 한 이용자는 베를린에서 행성과학을 공부하던 시절, 교수진이 운석 낙하지점을 예측해 학생들과 함께 현장 수색에 나섰던 경험을 소개했다.\n- 기술적으로는 썸네일 생성 전에 시간축 노이즈 감소가 먼저 적용되는지 묻는 댓글이 나와, 데이터 처리 파이프라인에 대한 관심이 드러났다.\n- 일부는 화면에 잡힌 장면을 보고 UFO 목격담이 왜 나오는지 알 것 같다고 반응해, 시각적 임팩트 자체도 화제가 됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-27T13:09:16.169340+00:00"
-    },
-    {
-      "id": "3ec7f911d9510e5fe87ccf72fb66d0a905d6fe55",
-      "title_hash": "9c3fb845a2f37bd5e30f36d3317c9e1ea13138cd",
-      "source": "GeekNews",
-      "title": "깃허브 정책 변화 / 4월 24일 이후 별도의 설정없을 경우 AI 데이터로 학습",
-      "link": "https://news.hada.io/topic?id=27909",
-      "published_at": "2026-03-27T03:39:23+00:00",
-      "summary": "깃허브의 개인정보 정책 변화로 기본 값으로 학습의 활용으로 변화 GitHub Copilot Free, Pro 및 Pro+에 적용 GitHub와 계열사에 AI 모델을 개발, 훈련 및 개선하기 위해 입력(예: 프롬프트 및 코드 컨텍스트)과 출력(예: 제안)을 수집하고 사용할 수 있는 라이선스를 부여 private r",
-      "fetched_at": "2026-03-27T09:01:31.979176+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "56",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=2,tools_agents=11,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 11,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "copilot"
-          ],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "copilot",
-        "프롬프트"
-      ],
-      "detail_slug": "3ec7f911d9510e5fe87ccf72fb66d0a905d6fe55",
-      "is_english_source": false,
-      "sent_at": "2026-03-27T09:04:06.624787+00:00"
-    },
-    {
-      "id": "98de1596fc03f14977c4e8cc542689039947c1b4",
-      "title_hash": "726b3de2641c774ce81ea46c9d39634316ab194a",
-      "source": "GeekNews",
-      "title": "Upright - Playwright와 Prometheus 메트릭을 활용한 합성 모니터링 엔진",
-      "link": "https://news.hada.io/topic?id=27898",
-      "published_at": "2026-03-27T00:31:01+00:00",
-      "summary": "웹 서비스의 가용성 & 성능 을 계속 모니터링하기 위한 프레임워크 여러 지리적 위치에서 자동화된 Probe들 실행 및 Prometheus 기반 메트릭 수집 지원 Playwright Probes : 브라우저 기반 사용자 흐름 테스트 제공. 비디오 녹화 및 ...",
-      "fetched_at": "2026-03-27T09:01:31.979176+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "자동화"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "자동화"
-      ],
-      "detail_slug": "98de1596fc03f14977c4e8cc542689039947c1b4",
-      "is_english_source": false,
-      "sent_at": "2026-03-27T09:04:06.624787+00:00"
-    },
-    {
-      "id": "bee4f5860bdae66b4aab2325ada46b4cceaa3160",
-      "title_hash": "bfc224533b711ff2c2090683ef4b7de8f9807813",
-      "source": "GeekNews",
-      "title": "Show GN: AWS의 다양한 서비스를 설명하고 흐름을 보여주는 학습 웹사이트",
-      "link": "https://news.hada.io/topic?id=27913",
-      "published_at": "2026-03-27T07:36:58+00:00",
-      "summary": "개발자로서 AWS 시스템 디자인을 공부하는 중에, 각 서비스가 어떤 문제를 풀고, 서로 어떻게 연결되는지 감을 잡기 위해 LLM과 대화를 하던 중 만들게 된 학습 웹사이트입니다.. 현재는 36개의 AWS 서비스를 다이어그램과 함께 설명하고, 각 서비스마다 \"왜 필요하고, 어떻게 동작하는가\", 그리고",
-      "fetched_at": "2026-03-27T09:01:31.979176+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "bee4f5860bdae66b4aab2325ada46b4cceaa3160",
-      "is_english_source": false,
-      "sent_at": "2026-03-27T09:04:06.624787+00:00"
     }
   ],
   "topic_digests": {
