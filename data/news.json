@@ -1,6 +1,585 @@
 {
   "items": [
     {
+      "id": "e0af25ba2bf786ad7c502f6b7a6c74cb73cde3af",
+      "title_hash": "254d0da06720317fb1d56f7c0a2c30bf715c61e8",
+      "source": "GeekNews",
+      "title": "OpenRig - Claude Code와 Codex를 팀으로 운영하는 멀티 에이전트 오케스트레이터",
+      "link": "https://news.hada.io/topic?id=34854",
+      "published_at": "2026-10-06T00:30:02+00:00",
+      "summary": "Claude Code, Codex, Pi 등의 코딩 에이전트를 역할과 공유 문맥을 갖춘 지속적인 팀 으로 구성하는 오픈소스 도구 개별 터미널 세션에 일일이 지시하는 대신 리드 에이전트에게 원하는 결과를 전달 하면, 전문 에이전트들을 조율하고 결과와 사용자의 결정이 필요한...",
+      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=0,tools_agents=25,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 25,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "e0af25ba2bf786ad7c502f6b7a6c74cb73cde3af",
+      "is_english_source": false,
+      "sent_at": "2026-10-06T03:25:02.359221+00:00"
+    },
+    {
+      "id": "d8b89f7c068e1dfd8f57d7ecae6381fdb79bce78",
+      "title_hash": "8a55e708413dd1aa6bf4f0fdb5ba16264ba8670e",
+      "source": "GeekNews",
+      "title": "Dust - 역전파 없이 트랜스포머 사전학습하기",
+      "link": "https://news.hada.io/topic?id=34868",
+      "published_at": "2026-10-06T02:40:40+00:00",
+      "summary": "Dust 는 토큰마다 활성값에 독립적인 잡음을 더하고 손실 감소량을 보상으로 삼아 그래디언트를 추정하는 0차 최적화 방법으로, 큰 탐색 집단을 사용하면 사전학습에서 역전파에 근접하거나 일부 설정에서 더 낮은 손실을 달성함 가상 집단(virtual population) 방식...",
+      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "잡음"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "잡음"
+      ],
+      "detail_slug": "d8b89f7c068e1dfd8f57d7ecae6381fdb79bce78",
+      "is_english_source": false,
+      "sent_at": "2026-10-06T03:25:02.359221+00:00"
+    },
+    {
+      "id": "e69fa3164637ef339bbd9c442e169f28f963a619",
+      "title_hash": "bc6e7761a5ed9992ed7f6e2611095e74b373a5e4",
+      "source": "GeekNews",
+      "title": "고처리량 AI-SQL 엔진 구축하기",
+      "link": "https://news.hada.io/topic?id=34860",
+      "published_at": "2026-10-06T01:05:02+00:00",
+      "summary": "Quail 은 SQL 안에서 AI로 문서를 분류하거나 문서 간 관계를 판별하는 엔진으로, 데이터 전체에 걸친 수십만~수백만 번의 모델 호출을 빠르게 처리함 호출을 하나씩 추론 서버에 보내는 대신 쿼리 실행 계획과 모델 추론을 함께 최적화 해, 같은 문서를 반복해서 읽...",
+      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sql"
+      ],
+      "detail_slug": "e69fa3164637ef339bbd9c442e169f28f963a619",
+      "is_english_source": false,
+      "sent_at": "2026-10-06T03:25:02.359221+00:00"
+    },
+    {
+      "id": "66e330ba26040855b7839a899c27f3eb2b4afa96",
+      "title_hash": "119f590ebcec4b0654ea24d10516883fd0076626",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Ephemeral Testing",
+      "link": "https://lemire.me/blog/2026/10/05/ephemeral-testing/",
+      "published_at": "2026-10-05T23:06:36+00:00",
+      "summary": "HN story type: story HN points: 37 HN comments: 13 HN top comments: bakies: Not unthinkable at all. Been doing this for several years as an opt-in on pr tags usually but now with agents writing code I have it on by default. I've got several skills files about accessing with a read only account and gitops done through the PR. It's an excellent dev environment for the agents. bunderbunder: I had good results with a similar technique this summer. I was designing a DSL to help make a colleague’s work easier, and I tested it by having a coding agent re-implement some of their notebooks using a draft of the DSL. The LLM output was a decent enough approximation of “typical” use, and it uncovered some warts I didn’t catch by testing it myself. As its designer, I simply wouldn’t have thought to try using i... simonw: I've been using this pattern quite a bit recently for API design, and I really like it. The big challenge with designing an API is that the only way to be confident in the design is to build a bunch of different things on top of it. But why invest all that effort in an API that you don't think is ready yet? With coding agents the cost of building those prototypes drops to almost nothing. I can exercise a proposed...",
+      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49972008",
+      "hn_story_type": "story",
+      "hn_points": "37",
+      "hn_comments_count": "13",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49972008",
+      "hn_item_text": "",
+      "hn_comment_preview": "bakies: Not unthinkable at all. Been doing this for several years as an opt-in on pr tags usually but now with agents writing code I have it on by default. I've got several skills files about accessing with a read only account and gitops done through the PR. It's an excellent dev environment for the agents.\nbunderbunder: I had good results with a similar technique this summer. I was designing a DSL to help make a colleague’s work easier, and I tested it by having a coding agent re-implement some of their notebooks using a draft of the DSL. The LLM output was a decent enough approximation of “typical” use, and it uncovered some warts I didn’t catch by testing it myself. As its designer, I simply wouldn’t have thought to try using i...\nsimonw: I've been using this pattern quite a bit recently for API design, and I really like it. The big challenge with designing an API is that the only way to be confident in the design is to build a bunch of different things on top of it. But why invest all that effort in an API that you don't think is ready yet? With coding agents the cost of building those prototypes drops to almost nothing. I can exercise a proposed...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=19,practical_tech=11,tools_agents=19,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 19,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 19,
+          "strong_hits": [
+            "coding agent",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "ide",
+        "llm",
+        "agent"
+      ],
+      "detail_slug": "66e330ba26040855b7839a899c27f3eb2b4afa96",
+      "is_english_source": true,
+      "sent_at": "2026-10-06T03:25:02.359221+00:00"
+    },
+    {
+      "id": "2e2d5313ab57a05b219c1ba5438fa4a4022dcf71",
+      "title_hash": "bd28253b1505b6d2b5b73cb044da4ea95965f046",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Photoc – Command-line tools for photographers",
+      "link": "https://github.com/ahmetomerv/photoc",
+      "published_at": "2026-10-03T13:42:23+00:00",
+      "summary": "HN story type: story HN points: 5 HN comments: 2 HN top comments: ctech_: The preview-by-default safety model is a nice touch. Are you planning to add RAW metadata support beyond Sony ARW, or is keeping the dependency surface small a deliberate design choice?",
+      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49944196",
+      "hn_story_type": "story",
+      "hn_points": "5",
+      "hn_comments_count": "2",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49944196",
+      "hn_item_text": "",
+      "hn_comment_preview": "ctech_: The preview-by-default safety model is a nice touch. Are you planning to add RAW metadata support beyond Sony ARW, or is keeping the dependency surface small a deliberate design choice?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "show hn",
+        "github.com"
+      ],
+      "detail_slug": "2e2d5313ab57a05b219c1ba5438fa4a4022dcf71",
+      "is_english_source": true,
+      "sent_at": "2026-10-06T03:25:02.359221+00:00"
+    },
+    {
+      "id": "1a2e09b5d8be1ecf569029e3ad203cf08d3f4941",
+      "title_hash": "875210eeb5fbebd54dda3987098ebbbad4cede4a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Photopea creator weighs in on Photosuite project",
+      "link": "https://github.com/eolix/photosuite/issues/77",
+      "published_at": "2026-10-06T00:41:44+00:00",
+      "summary": "HN story type: story HN points: 29 HN comments: 12 HN top comments: agar: If your answer to \"here is an example of 1:1 copying of my code and I can do the same for every line in your app\" (Github comment 7, from the Photopea author) is to copy/paste a justification from an LLM (comment 8, from the Photosuite author), you've lost the argument. The hard reality though is any site written in JavaScript is now part of an LLM's training set and can (and will be) be trivially rewritten into s... lenny3: I just find it surprising that the author is complaining about \"stolen code\" while having been piggybacking (and earning money) from unattributed OSS code for years... https://github.com/photopea/photopea/issues/9042 cautiouscat: I wonder if the issue is being responded to by an agent. A lot of the responses sound like stuff Claude writes.",
+      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49972730",
+      "hn_story_type": "story",
+      "hn_points": "29",
+      "hn_comments_count": "12",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49972730",
+      "hn_item_text": "",
+      "hn_comment_preview": "agar: If your answer to \"here is an example of 1:1 copying of my code and I can do the same for every line in your app\" (Github comment 7, from the Photopea author) is to copy/paste a justification from an LLM (comment 8, from the Photosuite author), you've lost the argument. The hard reality though is any site written in JavaScript is now part of an LLM's training set and can (and will be) be trivially rewritten into s...\nlenny3: I just find it surprising that the author is complaining about \"stolen code\" while having been piggybacking (and earning money) from unattributed OSS code for years... https://github.com/photopea/photopea/issues/9042\ncautiouscat: I wonder if the issue is being responded to by an agent. A lot of the responses sound like stuff Claude writes.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "42",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=7,tools_agents=18,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 18,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 18,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "llm",
+        "agent",
+        "claude + code",
+        "github.com"
+      ],
+      "detail_slug": "1a2e09b5d8be1ecf569029e3ad203cf08d3f4941",
+      "is_english_source": true,
+      "sent_at": "2026-10-06T03:25:02.359221+00:00"
+    },
+    {
+      "id": "85d45f799a12387035cdef1fefdda38c11c10c42",
+      "title_hash": "443ba1bf9d23c457373e77788adadb8d2af5dfde",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "AI tutoring with Khanmigo in a two-year school experiment",
+      "link": "https://edworkingpapers.com/ai26-1551",
+      "published_at": "2026-10-06T00:00:45+00:00",
+      "summary": "HN story type: story HN points: 43 HN comments: 30 HN top comments: iamarobot: As a high schooler, the amount of AI forced down our throats is on another level. We have assignments with Claude Prose, tutors that hallucinate, and even gemini in the apps we use to access our assignments. Even my friend's brother(a 4th grader) uses AI to generate pictures for his slideshow about \"Penguins\". Education is definitely facing a turn, but is it for the worse? Link: https://workspaceupdates.googleblog... ChaitanyaSai: We saw this when it was released, and it's not because of any amazing prescience. https://blog.comini.in/p/why-khanmigo-will-fail It's just quite obvious when you run a school (we do). It's because AI is focused on making the mechanics easy. But as long as we focus on measurement (how much are they learning) and start from there, the near-term focus is inevitable on the surface mechanics of learning (can they deco... thelastgallon: Related: Why Sal Khan’t: On Learning by Making but Teaching by Telling https://news.ycombinator.com/item?id=49409862 Sal Khan: The amazing AI super tutor for students and teachers [video] | Hacker News https://news.ycombinator.com/item?id=35791433 New York City Bans A.I. in Elementary and Middle Schools https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-n... Tutoring company tells parents to save their mon...",
+      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49972419",
+      "hn_story_type": "story",
+      "hn_points": "43",
+      "hn_comments_count": "30",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49972419",
+      "hn_item_text": "",
+      "hn_comment_preview": "iamarobot: As a high schooler, the amount of AI forced down our throats is on another level. We have assignments with Claude Prose, tutors that hallucinate, and even gemini in the apps we use to access our assignments. Even my friend's brother(a 4th grader) uses AI to generate pictures for his slideshow about \"Penguins\". Education is definitely facing a turn, but is it for the worse? Link: https://workspaceupdates.googleblog...\nChaitanyaSai: We saw this when it was released, and it's not because of any amazing prescience. https://blog.comini.in/p/why-khanmigo-will-fail It's just quite obvious when you run a school (we do). It's because AI is focused on making the mechanics easy. But as long as we focus on measurement (how much are they learning) and start from there, the near-term focus is inevitable on the surface mechanics of learning (can they deco...\nthelastgallon: Related: Why Sal Khan’t: On Learning by Making but Teaching by Telling https://news.ycombinator.com/item?id=49409862 Sal Khan: The amazing AI super tutor for students and teachers [video] | Hacker News https://news.ycombinator.com/item?id=35791433 New York City Bans A.I. in Elementary and Middle Schools https://ww...",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "33",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=9,practical_tech=4,tools_agents=7,strategy_insight=9,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 9,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "learning",
+        "why"
+      ],
+      "detail_slug": "85d45f799a12387035cdef1fefdda38c11c10c42",
+      "is_english_source": true,
+      "sent_at": "2026-10-06T03:25:02.359221+00:00"
+    },
+    {
       "id": "e117dfd07e887bbaef4de9f2f235a9041fb2b3a8",
       "title_hash": "a1ec4d2248ff879a601d3d0e282ca613904cbb99",
       "source": "GeekNews",
@@ -171361,644 +171940,6 @@
       "hn_reaction_summary": "HN에서는 \"브라우저에서 실제 컴파일 코드를 로컬로 돌린다\"는 점에 관심이 모였다. 특히 교육용 샌드박스나 업로드 전 사전 검증 도구로 어디까지 쓸 수 있는지가 주요 논점이었다.\n- 댓글 흐름은 기술 데모를 넘어서 실제 개발 단계에서 얼마나 도움이 되는지에 집중됐다. ESPHome 같은 워크플로에 붙여 쓸 수 있는지 묻는 반응이 대표적이다.\n- 긍정적으로는 클라우드 없는 로컬 실행, 오픈소스, 자체 호스팅 가능성이 반복해서 언급됐다. 학교나 팀 단위 배포에 잘 맞는다는 시선이 있다.\n- 반대로 실무 관점에서는 실제 보드와 에뮬레이터 사이의 차이, 주변장치 지원 범위, 업로드 전 검증용으로 어느 수준까지 믿을 수 있는지가 읽어볼 포인트다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-03-28T01:22:55.856798+00:00"
-    },
-    {
-      "id": "d0437a4d292829e757d780d73e4412e64420f42a",
-      "title_hash": "66ec04d026815eb898cdea4801ad7031aeca7ca0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Automatically generate all 3D print files for organizing a drawer",
-      "link": "https://geniecrate.com/",
-      "published_at": "2026-03-25T19:12:12+00:00",
-      "summary": "HN story type: story HN points: 23 HN comments: 14 HN top comments: antsar: Clicked one of the examples... > I have a 400mm x 500mm x 80mm drawer for screws and bolts. (thinking for a while) \"Please provide drawer dimensions to continue.\" mememememememo: Gridfinity is a strange one as on the whole it would make more sense for much of it to be mass produced injection moulding. Everyone is printing the same 42mm grid and buckets! But hobby gonna hobby. dwroberts: I think the status page while waiting for generation is showing messages from across other users too? I saw a mishmash of different progresses, \"Please provide dimensions\" and then it returned to showing other random inputs",
-      "fetched_at": "2026-03-28T01:20:45.158588+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47521845",
-      "hn_story_type": "story",
-      "hn_points": "23",
-      "hn_comments_count": "14",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47521845",
-      "hn_item_text": "",
-      "hn_comment_preview": "antsar: Clicked one of the examples... > I have a 400mm x 500mm x 80mm drawer for screws and bolts. (thinking for a while) \"Please provide drawer dimensions to continue.\"\nmememememememo: Gridfinity is a strange one as on the whole it would make more sense for much of it to be mass produced injection moulding. Everyone is printing the same 42mm grid and buckets! But hobby gonna hobby.\ndwroberts: I think the status page while waiting for generation is showing messages from across other users too? I saw a mishmash of different progresses, \"Please provide dimensions\" and then it returned to showing other random inputs",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli"
-      ],
-      "detail_slug": "d0437a4d292829e757d780d73e4412e64420f42a",
-      "is_english_source": true,
-      "translated_title": "서랍 정리용 3D 프린트 파일 자동 생성",
-      "short_summary": "서랍 크기와 용도를 바탕으로 정리용 3D 프린트 파일을 자동으로 만들어 주는 프로젝트가 HN에 올라왔다. 맞춤 수납을 빠르게 설계한다는 점이 눈길을 끌었지만, 입력 흐름과 생성 과정은 아직 다듬을 부분이 보인다는 반응도 나왔다.",
-      "why_it_matters": "직접 치수를 재고 CAD로 배치하던 일을 훨씬 짧게 줄여 준다는 점에서 실무 감각이 있다. 3D 프린터를 쓰는 개인 작업실이나 부품 보관 환경에서는 반복 작업을 자동화하는 쪽으로 활용 여지가 크다.\n- 서랍 크기만 넣어 맞춤형 수납 구조를 뽑아낼 수 있다면, 설계 경험이 적은 사람도 정리 시스템을 빠르게 만들 수 있다.\n- 나사, 볼트, 전자부품처럼 규격이 제각각인 물건을 다루는 환경에서 수작업 모델링 시간을 줄이는 데 바로 연결된다.\n- 반대로 생성 품질과 입력 안정성이 받쳐주지 않으면 실제 출력 전 검수 비용이 남는다. 자동화 도구가 실사용으로 가려면 이 구간이 관건이다.",
-      "hn_reaction_summary": "댓글 분위기는 흥미롭지만 아직은 거칠다는 쪽에 가깝다. 아이디어 자체는 반겼지만, 실제로 써 본 사람들은 사용 흐름과 구현 완성도를 더 따져 묻고 있다.\n- 예시를 눌렀는데도 다시 치수를 요구했다는 반응이 나왔다. 데모 경험이 매끄럽지 않다는 지적이다.\n- 대기 화면에 다른 사용자 진행 상태나 입력이 섞여 보이는 것 같다는 언급도 있었다. 사실이라면 UX 문제를 넘어 상태 관리 이슈로 읽힌다.\n- Gridfinity 같은 표준 격자를 굳이 각자 출력할 필요가 있느냐는 회의론도 있었다. 다만 취미 제작 문화에서는 그런 비효율 자체가 재미라는 시선도 함께 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-28T01:22:55.856798+00:00"
-    },
-    {
-      "id": "295f70ffde769c25648d9fd56c796256e1b83b43",
-      "title_hash": "3904d950784f15b3aea1aae3a2570b10768da81f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Building FireStriker: Making Civic Tech Free",
-      "link": "https://firestriker.org/blog/building-firestriker-why-im-making-civic-tech-free",
-      "published_at": "2026-03-26T18:03:43+00:00",
-      "summary": "HN story type: story HN points: 88 HN comments: 20 HN top comments: showerst: I've been working on legislative data for 15 years now, on open source scrapers with OpenStates and running a commercial product targeted at professionals (competitor to those in the article). We tried for years with OpenStates to run a free legislative tracking product before eventually having it partner with a commercial provider who was willing to contribute the resources to keep it alive and help out with the... aaronbrethorst: I have some experience in this space and I want to strongly encourage the author to reconsider their free as in beer model. Yes, your target users don’t have a lot of money, but they also deserve a sense of whether or not you’re going to keep maintaining this project. Additionally, they are generally NOT technical and will not have the skills necessary to set up or maintain this platform. Without a paid offering,... pimlottc: This is great but confused me at first because it's slightly misusing the term \"civic tech\". It's generally used pretty broadly to include all government and gov-adjacent technology. Public monitoring and engagement tools are a part of it but that's just one piece. Civic tech includes actual government projects like Healthcare.gov and IRS Direct File (RIP); organizing platforms like MoveOn.org and ActBlue; and vol...",
-      "fetched_at": "2026-03-28T01:20:45.158588+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47533709",
-      "hn_story_type": "story",
-      "hn_points": "88",
-      "hn_comments_count": "20",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47533709",
-      "hn_item_text": "",
-      "hn_comment_preview": "showerst: I've been working on legislative data for 15 years now, on open source scrapers with OpenStates and running a commercial product targeted at professionals (competitor to those in the article). We tried for years with OpenStates to run a free legislative tracking product before eventually having it partner with a commercial provider who was willing to contribute the resources to keep it alive and help out with the...\naaronbrethorst: I have some experience in this space and I want to strongly encourage the author to reconsider their free as in beer model. Yes, your target users don’t have a lot of money, but they also deserve a sense of whether or not you’re going to keep maintaining this project. Additionally, they are generally NOT technical and will not have the skills necessary to set up or maintain this platform. Without a paid offering,...\npimlottc: This is great but confused me at first because it's slightly misusing the term \"civic tech\". It's generally used pretty broadly to include all government and gov-adjacent technology. Public monitoring and engagement tools are a part of it but that's just one piece. Civic tech includes actual government projects like Hea...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=9,strategy_insight=4,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 9,
-        "strategy_insight": 4,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "open source",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "rag"
-      ],
-      "detail_slug": "295f70ffde769c25648d9fd56c796256e1b83b43",
-      "is_english_source": true,
-      "translated_title": "FireStriker 개발기: 시민 기술을 무료로 만들기",
-      "short_summary": "FireStriker는 입법 추적 같은 시민 참여 도구를 누구나 무료로 쓰게 하려는 프로젝트다. HN에서는 취지에는 공감하지만 무료 모델의 유지 가능성과 운영 책임을 걱정하는 반응이 많았다.",
-      "why_it_matters": "공공 데이터와 입법 추적 도구는 예산이 넉넉하지 않은 언론사, 시민단체, 지역 커뮤니티에 꼭 필요하다. 이 글은 그런 도구를 유료 서비스 바깥으로 꺼내려는 시도라는 점에서 실무적으로 눈여겨볼 만하다.\n- 비용 장벽이 낮아지면 작은 조직도 의정 감시와 정책 추적 업무를 시작할 수 있다.\n- 다만 무료 공개만으로 운영비가 사라지지는 않는다. 데이터 수집, 정제, 장애 대응을 누가 맡을지 구조를 먼저 설계해야 한다.\n- 대상 사용자가 비개발자라면 설치형 오픈소스만으로는 부족하다. 호스팅, 지원, 온보딩까지 함께 준비해야 실제 도입으로 이어진다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이지만 현실적인 경계심이 강했다. 공공성을 높이려는 문제의식은 좋게 봤지만, 이 분야 경험자들은 오래 버티는 운영 모델이 더 어렵다고 짚었다.\n- 가장 많이 나온 쟁점은 무료 모델의 지속 가능성이다. 선의만으로는 유지보수와 데이터 운영 비용을 감당하기 어렵다는 의견이 반복됐다.\n- 비기술 사용자층을 생각하면 유료 호스팅이나 지원 계약이 필요하다는 지적도 많았다. 제품이 계속 관리될 것이라는 신뢰가 중요하다는 얘기다.\n- 일부는 'civic tech'라는 표현을 너무 좁게 썼다고 봤다. 시민 감시 도구만이 아니라 정부 서비스와 정치 플랫폼까지 포함하는 더 넓은 맥락을 같이 봐야 한다는 반론이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-28T01:22:55.856798+00:00"
-    },
-    {
-      "id": "70eb4dcc18f47020f7f397d8b917623b3a37dc86",
-      "title_hash": "5eee3a5c8b9020277a4fac51a12e1f21e32068ea",
-      "source": "GeekNews",
-      "title": "판사가 Anthropic을 ‘공급망 위험’으로 지정하려던 국방부 조치 차단",
-      "link": "https://news.hada.io/topic?id=27923",
-      "published_at": "2026-03-27T17:34:26+00:00",
-      "summary": "캘리포니아 연방 판사가 국방부의 Anthropic ‘공급망 위험’ 지정 시도 를 헌법 위반으로 판단하고 무기한 차단함 판결문은 해당 조치가 표현의 자유와 적법절차를 침해 했으며, 미국 기업을 적대자로 낙인찍는 것은 법적 근거가 없다고 명시 이번 결정은 ...",
-      "fetched_at": "2026-03-27T21:16:37.256624+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "70eb4dcc18f47020f7f397d8b917623b3a37dc86",
-      "is_english_source": false,
-      "sent_at": "2026-03-27T21:18:45.062398+00:00"
-    },
-    {
-      "id": "f634d390c457072cab2ec119f8978b7227ca90b0",
-      "title_hash": "8394a442f7d0d9095c0e2d9b14824cda2e3718c2",
-      "source": "GeekNews",
-      "title": "LiteLLM 공급망 공격에 대한 분 단위 대응 기록",
-      "link": "https://news.hada.io/topic?id=27924",
-      "published_at": "2026-03-27T17:37:26+00:00",
-      "summary": "PyPI를 통해 배포된 LiteLLM 1.82.8 악성 패키지 감염을 실시간으로 탐지하고 분석한 분 단위 대응 일지 감염은 Cursor IDE 자동 업데이트 중 발생했으며, litellm_init.pth 파일이 실행되어 자격 증명 탈취와 시스템 감염...",
-      "fetched_at": "2026-03-27T21:16:37.256624+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=0,tools_agents=14,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 14,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "cursor",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cursor",
-        "ide"
-      ],
-      "detail_slug": "f634d390c457072cab2ec119f8978b7227ca90b0",
-      "is_english_source": false,
-      "sent_at": "2026-03-27T21:18:45.062398+00:00"
-    },
-    {
-      "id": "8b8cdaad20bd5accefe4cbab49448805126f7fd9",
-      "title_hash": "31610f7d527857d0b8b035f4d49cd1ecc8125a61",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Open-Source Animal Crossing–Style UI for Claude Code Agents",
-      "link": "https://github.com/outworked/outworked/releases/tag/v0.3.0",
-      "published_at": "2026-03-27T17:25:05+00:00",
-      "summary": "HN story type: story HN points: 29 HN comments: 23 HN post text: We posted here on Monday and got some great feedback. We’ve implemented a few of the most requested updates: - iMessage channel support (agents can text people and you can text agents) Other channels are simple to extend. - A built-in browser (agents can navigate and interact with websites) - Scheduling (run tasks on a timer / cron/ in the future) - Built in tunneling so that the agents can share local stuff with you over the internet - More robust MCP and Skills support so anyone can extend it - Auto approval for agent requests If you didn’t see the original: Outworked is a desktop app where Claude Code agents work as a small “team.” You give it a goal, and an orchestrator breaks it into tasks and assigns them across agents. Agents can run in parallel, talk to each other, write code, and now also browse the web and send messages. It runs locally and plugs into your existing Claude Code setup. Would love to hear what we should build next. Thanks again! HN top comments: lanxevo3: The parallel group + sequential handoff pattern is how we run our agent fleet too. One thing we found that helps with the \"when to bother a human\" problem: let the model output a confidence score with each decision. Below a threshold, it asks. Above, it proceeds. Over time you tune the threshold based on how often the model was right vs. wrong on auto-decisions. Works better than a fixed deny/allow list for the lo... Ryand1234: this seems interesting. Will give it a spin this weekend. Contrails: Haha this is really cool! I imagine it would be a nice tool to teach kids about working with agents.",
-      "fetched_at": "2026-03-27T21:16:37.256624+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47545642",
-      "hn_story_type": "story",
-      "hn_points": "29",
-      "hn_comments_count": "23",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47545642",
-      "hn_item_text": "We posted here on Monday and got some great feedback. We’ve implemented a few of the most requested updates: - iMessage channel support (agents can text people and you can text agents) Other channels are simple to extend. - A built-in browser (agents can navigate and interact with websites) - Scheduling (run tasks on a timer / cron/ in the future) - Built in tunneling so that the agents can share local stuff with you over the internet - More robust MCP and Skills support so anyone can extend it - Auto approval for agent requests If you didn’t see the original: Outworked is a desktop app where Claude Code agents work as a small “team.” You give it a goal, and an orchestrator breaks it into tasks and assigns them across agents. Agents can run in parallel, talk to each other, write code, and now also browse the web and send messages. It runs locally and plugs into your existing Claude Code setup. Would love to hear what we should build next. Thanks again!",
-      "hn_comment_preview": "lanxevo3: The parallel group + sequential handoff pattern is how we run our agent fleet too. One thing we found that helps with the \"when to bother a human\" problem: let the model output a confidence score with each decision. Below a threshold, it asks. Above, it proceeds. Over time you tune the threshold based on how often the model was right vs. wrong on auto-decisions. Works better than a fixed deny/allow list for the lo...\nRyand1234: this seems interesting. Will give it a spin this weekend.\nContrails: Haha this is really cool! I imagine it would be a nice tool to teach kids about working with agents.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "64",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=40,practical_tech=18,tools_agents=40,strategy_insight=15,industry_business=1",
-      "slot_scores": {
-        "practical_tech": 18,
-        "tools_agents": 40,
-        "strategy_insight": 15,
-        "industry_business": 1
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 18,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 40,
-          "strong_hits": [
-            "claude code",
-            "mcp",
-            "ide"
-          ],
-          "support_hits": [
-            "agent",
-            "setup",
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "local + agent"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 15,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "future + work"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 1,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "mcp",
-        "ide",
-        "agent",
-        "setup",
-        "local",
-        "tool",
-        "claude + code",
-        "local + agent",
-        "github.com"
-      ],
-      "detail_slug": "8b8cdaad20bd5accefe4cbab49448805126f7fd9",
-      "is_english_source": true,
-      "translated_title": "클로드 코드용 동물의 숲풍 오픈소스 UI",
-      "short_summary": "오픈소스 데스크톱 앱 'Outworked'가 클로드 코드 에이전트를 작은 팀처럼 운영하는 인터페이스를 공개했다. iMessage 연동, 내장 브라우저, 예약 실행, 터널링, 강화된 MCP·스킬 지원, 자동 승인 기능이 새로 더해졌다.",
-      "why_it_matters": "에이전트 활용이 채팅창을 넘어서 실제 작업 환경으로 옮겨가는 흐름을 보여준다. 특히 여러 에이전트를 병렬로 돌리면서도 로컬 환경에 붙여 쓰는 방식이라, 실무 자동화 도구가 어떤 방향으로 진화하는지 가늠할 만하다.\n- 코드 작성만이 아니라 웹 탐색, 메시지 전송, 예약 실행까지 한 화면에서 다루게 되면서 에이전트의 역할이 '보조 도구'에서 '작업 주체'로 더 넓어진다.\n- 로컬에서 돌아가고 기존 Claude Code 설정에 연결되는 구조라, 새 플랫폼에 갈아타기보다 지금 쓰는 개발 흐름에 얹어 보기 쉽다.\n- MCP와 스킬 확장을 전면에 내세운 점도 눈에 띈다. 팀별 내부 도구나 사내 워크플로에 맞춰 붙여 쓰려는 수요가 더 커질 수 있다.",
-      "hn_reaction_summary": "HN 반응은 전반적으로 호기심과 호감 쪽에 가깝다. 단순히 UI가 귀엽다는 반응보다, 여러 에이전트를 어떻게 통제하고 사람은 언제 개입해야 하는지 같은 운영 논점에 관심이 모였다.\n- 상위 댓글에서는 병렬 실행 후 순차 인계 방식에 공감하는 반응이 나왔고, 사람에게 물어볼 시점을 고정 규칙 대신 신뢰도 점수로 조절하는 아이디어가 실무적인 포인트로 제시됐다.\n- '주말에 직접 돌려보겠다'는 반응처럼, 컨셉 소개를 넘어 실제로 써볼 만한 도구인지 시험해보려는 분위기가 보인다.\n- 한편으로는 아이들이 에이전트 협업을 이해하는 데도 잘 맞겠다는 의견이 나왔다. 친숙한 화면 설계가 진입 장벽을 낮춘다는 점도 긍정적으로 읽혔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-27T21:18:45.062398+00:00"
-    },
-    {
-      "id": "0353f4eabb546de54bd519b8a9a275b602bc296e",
-      "title_hash": "1fc078a7ad473db6d9b44b8949ddc1436e1bcbe6",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Telnyx package compromised on PyPI",
-      "link": "https://telnyx.com/resources/telnyx-python-sdk-supply-chain-security-notice-march-2026",
-      "published_at": "2026-03-27T08:57:02+00:00",
-      "summary": "HN story type: story HN points: 48 HN comments: 65 HN post text: https://github.com/team-telnyx/telnyx-python/issues/235 https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-... HN top comments: mil22: For those using uv , you can at least partially protect yourself against such attacks by adding this to your pyproject.toml : [tool.uv] exclude-newer = \"7 days\" or this to your ~/.config/uv/uv.toml : exclude-newer = \"7 days\" This will prevent uv picking up any package version released within the last 7 days, hopefully allowing enough time for the community to detect any malware and yank the package version before... f311a: They did not even try to hide the payload that much. Every basic checker used by many security companies screams at `exec(base64.b64decode` when grepping code using simple regexes. hexora audit 4.87.1/2026-03-27-telnyx-v4.87.1.zip --min-confidence high --exclude HX4000 warning[HX9000]: Potential data exfiltration with Decoded data via urllib.request.request.Request. ┌─ 2026-03-27-telnyx-v4.87.1.zip:tmp/tmp_79rk5jd... jbrowning: > The payload isn't delivered as a raw binary or a Python file. It's disguised as a .wav audio file. > The WAV file is a valid audio file. It passes MIME-type checks. But the audio frame data contains a base64-encoded payload. Decode the frames, take the first 8 bytes as the XOR key, XOR the rest, and you have your executable or Python script. Talk about burying the lede.",
-      "fetched_at": "2026-03-27T21:16:37.256624+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47540388",
-      "hn_story_type": "story",
-      "hn_points": "48",
-      "hn_comments_count": "65",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47540388",
-      "hn_item_text": "https://github.com/team-telnyx/telnyx-python/issues/235 https://www.aikido.dev/blog/telnyx-pypi-compromised-teampcp-...",
-      "hn_comment_preview": "mil22: For those using uv , you can at least partially protect yourself against such attacks by adding this to your pyproject.toml : [tool.uv] exclude-newer = \"7 days\" or this to your ~/.config/uv/uv.toml : exclude-newer = \"7 days\" This will prevent uv picking up any package version released within the last 7 days, hopefully allowing enough time for the community to detect any malware and yank the package version before...\nf311a: They did not even try to hide the payload that much. Every basic checker used by many security companies screams at `exec(base64.b64decode` when grepping code using simple regexes. hexora audit 4.87.1/2026-03-27-telnyx-v4.87.1.zip --min-confidence high --exclude HX4000 warning[HX9000]: Potential data exfiltration with Decoded data via urllib.request.request.Request. ┌─ 2026-03-27-telnyx-v4.87.1.zip:tmp/tmp_79rk5jd...\njbrowning: > The payload isn't delivered as a raw binary or a Python file. It's disguised as a .wav audio file. > The WAV file is a valid audio file. It passes MIME-type checks. But the audio frame data contains a base64-encoded payload. Decode the frames, take the first 8 bytes as the XOR key, XOR the rest, and you have your executable or...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=20,practical_tech=20,tools_agents=9,strategy_insight=2,industry_business=11",
-      "slot_scores": {
-        "practical_tech": 20,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 11
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 20,
-          "strong_hits": [
-            "security",
-            "sdk"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 11,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "supply + chain"
-          ],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "sdk",
-        "code + security"
-      ],
-      "detail_slug": "0353f4eabb546de54bd519b8a9a275b602bc296e",
-      "is_english_source": true,
-      "translated_title": "PyPI 텔닉스 패키지 변조 사고",
-      "short_summary": "Telnyx의 PyPI 패키지가 변조돼 악성 코드가 섞였다는 내용이 HN 전면에 올랐다. 댓글에서는 WAV 파일에 숨긴 페이로드 방식과 함께, 새 배포본을 바로 받지 않도록 지연 설정을 두는 대응책이 많이 거론됐다.",
-      "why_it_matters": "파이썬 생태계에서 흔한 의존성 업데이트 흐름만으로도 공급망 공격에 노출될 수 있다는 점을 다시 보여준 사례다. 특히 막 배포된 버전을 자동으로 받아 쓰는 팀이라면 운영 방식 자체를 점검할 필요가 있다.\n- 새 릴리스를 즉시 설치하는 기본값이 리스크로 이어질 수 있다. 배포 후 며칠간 유예를 두는 정책이 실무 대책으로 다시 주목받고 있다.\n- 악성 페이로드가 코드 파일이 아니라 정상처럼 보이는 WAV 파일에 숨어 있었다는 점이 눈에 띈다. 파일 형식 검사만으로는 걸러지지 않는다는 뜻이다.\n- CI와 패키지 검증 단계에서 최근 배포본 차단, 정적 스캔, 이상 동작 탐지를 함께 두는 쪽으로 보안 점검 기준이 더 까다로워질 가능성이 크다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 두 갈래였다. 한쪽은 공급망 공격이 이제 일상적이라는 반응이었고, 다른 한쪽은 이번 페이로드가 의외로 허술해 기본 점검만 했어도 더 빨리 잡았을 것이라는 지적이 많았다.\n- `uv`의 `exclude-newer = \"7 days\"` 같은 설정으로 최신 배포본 반영을 늦추자는 의견이 반복해서 나왔다. 실무에서 바로 적용 가능한 방어선으로 받아들이는 분위기다.\n- `exec(base64.b64decode(...))` 같은 흔한 의심 패턴이 있었다는 점 때문에, 보안 도구나 기본 리뷰가 너무 느슨했던 것 아니냐는 비판도 보였다.\n- 정상 WAV 파일 안에 인코딩된 페이로드를 숨긴 방식은 꽤 눈길을 끌었지만, 댓글 전반은 기법 자체의 화려함보다 패키지 검증 절차와 배포 신뢰 모델의 허점을 더 크게 봤다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-27T21:18:45.062398+00:00"
-    },
-    {
-      "id": "655f8d1bfcdd5b14701857678beceb35ae4cdb00",
-      "title_hash": "0ddb46e57553306dcee818e67af349ce3b5bd446",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "‘Energy independence feels practical’: Europeans building mini solar farms",
-      "link": "https://www.euronews.com/2026/03/26/suddenly-energy-independence-feels-practical-europeans-are-building-mini-solar-farms-at-ho",
-      "published_at": "2026-03-27T08:55:43+00:00",
-      "summary": "HN story type: story HN points: 159 HN comments: 142 HN top comments: bokohut: Several recent HN posts about \"time\" and these correlate superbly in relation to the now obvious, to nearly all, global energy issues. Those proactive in a reactive world are often mocked and laughed at until as such passage of time is achieved for those only reactive to learn of the proactive's hindsight choices. For those in the United States aware of the 'behind the scenes' energy grid issues this insight refle... pjc50: Fairly boilerplate article, but the bit that is news is the UK balcony solar permitting. Better longread: https://solarenergyconcepts.co.uk/post/plug-in-solar-uk/ Government press release with a long list of pull quotes: https://www.gov.uk/government/news/government-to-make-plug-i... (I note that in the alternate universe where Ed Miliband became PM because he didn't eat a bacon sandwich, we could have had this a... theshrike79: Distributed energy production / storage is the key for resiliency in the future. Every solar farm doesn't need to be China Size - it doesn't even need to be a \"farm\", just put them on roofs. And don't let perfect be the enemy of good. Yes there are times when solar doesn't produce energy, but there are also times where it OVERproduces.",
-      "fetched_at": "2026-03-27T21:16:37.256624+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47540383",
-      "hn_story_type": "story",
-      "hn_points": "159",
-      "hn_comments_count": "142",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47540383",
-      "hn_item_text": "",
-      "hn_comment_preview": "bokohut: Several recent HN posts about \"time\" and these correlate superbly in relation to the now obvious, to nearly all, global energy issues. Those proactive in a reactive world are often mocked and laughed at until as such passage of time is achieved for those only reactive to learn of the proactive's hindsight choices. For those in the United States aware of the 'behind the scenes' energy grid issues this insight refle...\npjc50: Fairly boilerplate article, but the bit that is news is the UK balcony solar permitting. Better longread: https://solarenergyconcepts.co.uk/post/plug-in-solar-uk/ Government press release with a long list of pull quotes: https://www.gov.uk/government/news/government-to-make-plug-i... (I note that in the alternate universe where Ed Miliband became PM because he didn't eat a bacon sandwich, we could have had this a...\ntheshrike79: Distributed energy production / storage is the key for resiliency in the future. Every solar farm doesn't need to be China Size - it doesn't even need to be a \"farm\", just put them on roofs. And don't let perfect be the enemy of good. Yes there are times when solar doesn't produce energy, but there are also times where it OVE...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=2,strategy_insight=4,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 2,
-        "strategy_insight": 4,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "distributed",
-            "production",
-            "storage"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "distributed",
-        "production",
-        "storage"
-      ],
-      "detail_slug": "655f8d1bfcdd5b14701857678beceb35ae4cdb00",
-      "is_english_source": true,
-      "translated_title": "유럽에서 커지는 초소형 태양광 자립 실험",
-      "short_summary": "유럽 곳곳에서 집과 발코니, 소규모 부지를 활용한 초소형 태양광 설치가 늘고 있다. 에너지 비용과 전력망 불안에 대응하는 생활형 투자로 받아들여지는 흐름이다.",
-      "why_it_matters": "대형 발전소 중심이던 에너지 생산이 가정과 건물 단위로 조금씩 내려오고 있다. 기사와 HN 맥락을 보면, 지금 관심을 둘 지점은 기술 자체보다도 설치 규제 완화와 현실적인 채산성이다.\n- 영국의 발코니 태양광 허용처럼 규제가 바뀌면, 임대주택이나 소형 주거 공간에서도 직접 발전이 가능한 시장이 열린다.\n- 전기요금 부담과 전력망 불안이 겹치면서 기업과 개인 모두 자가발전·저장장치 조합을 실무적으로 검토할 이유가 커졌다.\n- 대규모 설비만 답이라는 시선에서 벗어나, 지붕과 발코니 같은 유휴 공간을 활용하는 분산형 에너지 전략이 더 자주 논의될 가능성이 크다.",
-      "hn_reaction_summary": "HN에서는 기사 자체는 무난하지만, 그 안에서 실제로 새 소식인 지점은 영국의 발코니 태양광 허용이라는 반응이 많았다. 댓글 분위기는 대체로 분산형 발전에 우호적이지만, 제도와 전력망 운영을 함께 봐야 한다는 시선도 뚜렷했다.\n- 반복해서 나온 찬성 논점은 회복력이다. 거대한 태양광 단지보다 지붕과 건물 단위 발전·저장이 미래 전력 시스템을 더 튼튼하게 만든다는 주장이다.\n- 반론보다는 현실 점검이 많았다. 태양광은 항상 생산하지 않지만, 과잉 생산 시간도 있으니 저장과 계통 연계까지 같이 설계해야 한다는 의견이 이어졌다.\n- 실무자가 볼 만한 포인트는 정책 변화의 속도다. 기술보다 허가와 연결 규정이 시장 확대를 좌우한다는 점을 여러 댓글이 짚었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-27T21:18:45.062398+00:00"
     }
   ],
   "topic_digests": {
