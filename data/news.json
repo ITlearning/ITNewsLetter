@@ -1,6 +1,606 @@
 {
   "items": [
     {
+      "id": "3c81f95af8a580761e10a105069b01b0563de421",
+      "title_hash": "a1521150b69497fe377eef7d0dcddd8b69d561a6",
+      "source": "GeekNews",
+      "title": "Show GN: agent-gc – AI 코딩 에이전트가 남긴 worktree 쓰레기를 치워주는 TUI",
+      "link": "https://news.hada.io/topic?id=34893",
+      "published_at": "2026-10-06T14:41:21+00:00",
+      "summary": "Codex, Claude Code 같은 에이전트에 병렬로 일을 시키다 보니 worktree가 계속 늘어났음. worktree마다 install, 빌드, 테스트가 돌면서 node_modules , .next , target , .venv 도 같이 복제됨 어느 날 디스크가 꽉 차서 열어 보니 ~/.codex...",
+      "fetched_at": "2026-10-06T15:50:28.131580+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "77",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=32,practical_tech=0,tools_agents=32,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 32,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 32,
+          "strong_hits": [
+            "claude code",
+            "worktree",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "worktree",
+        "codex",
+        "에이전트",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "3c81f95af8a580761e10a105069b01b0563de421",
+      "is_english_source": false,
+      "sent_at": "2026-10-06T15:52:53.091362+00:00"
+    },
+    {
+      "id": "bd2b4d78e024d813211ef95e3abcf905ce3c0c6b",
+      "title_hash": "5723888a8aa1f021607f0e1a0fefd295a6de6660",
+      "source": "GeekNews",
+      "title": "Polars 2.0 출시",
+      "link": "https://news.hada.io/topic?id=34894",
+      "published_at": "2026-10-06T14:42:02+00:00",
+      "summary": "LazyFrame.collect() 의 기본 실행 엔진이 스트리밍 엔진 으로 바뀌어 대부분 쿼리의 메모리 사용량과 성능이 개선됨. 일부 연산에서 행 순서를 보장하려면 maintain_order=True 를 지정해야 함 메모리가 부족할 때 데이터를 디스크로 내보내는 아웃...",
+      "fetched_at": "2026-10-06T15:50:28.131580+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=2,tools_agents=4,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "출시"
+      ],
+      "detail_slug": "bd2b4d78e024d813211ef95e3abcf905ce3c0c6b",
+      "is_english_source": false,
+      "sent_at": "2026-10-06T15:52:53.091362+00:00"
+    },
+    {
+      "id": "91c466bb18337ff9366fa50676e897c1fb8dbfdb",
+      "title_hash": "e60a63e7b8ab14f989d96bee65304b66838254d4",
+      "source": "GeekNews",
+      "title": "Show GN: Mytory Video Tools - 간단한 영상 작업을 초고속으로 처리하는 FFmpeg GUI",
+      "link": "https://news.hada.io/topic?id=34898",
+      "published_at": "2026-10-06T15:46:09+00:00",
+      "summary": "영상 작업을 할 때가 많은데 몇 가지가 아쉬웠습니다. mkv를 mp4로 변경하는데 GUI 인코딩 툴들은 컨테이너만 바꾸는 기능을 찾질 못하겠더라고요. 재인코딩을 하면 엄청 오래 걸리지만 컨테이너만 갈아끼우면(즉, Remuxing) 완전 빠른데 말입니다. 물론 내용물이 컨테이너에 호환이 돼야 하지만요. 영",
+      "fetched_at": "2026-10-06T15:50:28.131580+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "58",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=13,practical_tech=2,tools_agents=13,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 13,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "컨테이너"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 13,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "tool",
+            "툴"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "컨테이너"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "tool",
+        "툴"
+      ],
+      "detail_slug": "91c466bb18337ff9366fa50676e897c1fb8dbfdb",
+      "is_english_source": false,
+      "sent_at": "2026-10-06T15:52:53.091362+00:00"
+    },
+    {
+      "id": "1a51d15a1a43c582b34216f11c39134bc4126844",
+      "title_hash": "d0e2407c7ebf26d96c308023821c9d3466b8e9c7",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Parseable, an open observability datalake, handles 100M time-series/min",
+      "link": "https://www.parseable.com",
+      "published_at": "2026-10-06T13:30:50+00:00",
+      "summary": "HN story type: story HN points: 25 HN comments: 4 HN top comments: yashdotrv: Hi HN, This is Yash, founding team at Parseable ( https://github.com/parseablehq ). We've built an open source observability data lake using Rust, that handles high-cardinality data at around 100M time series in production ( https://www.parseable.com/blog/how-parseable-handles-100-mil... ) Our architecture is built around columnar design, and we use Apache Arrow for in-memory columnar processing and Apache Parquet...",
+      "fetched_at": "2026-10-06T15:50:28.131580+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49978171",
+      "hn_story_type": "story",
+      "hn_points": "25",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49978171",
+      "hn_item_text": "",
+      "hn_comment_preview": "yashdotrv: Hi HN, This is Yash, founding team at Parseable ( https://github.com/parseablehq ). We've built an open source observability data lake using Rust, that handles high-cardinality data at around 100M time series in production ( https://www.parseable.com/blog/how-parseable-handles-100-mil... ) Our architecture is built around columnar design, and we use Apache Arrow for in-memory columnar processing and Apache Parquet...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "58",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=34,practical_tech=34,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 34,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 34,
+          "strong_hits": [
+            "observability",
+            "architecture",
+            "open source",
+            "production",
+            "show hn",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "observability",
+        "architecture",
+        "open source",
+        "production",
+        "show hn",
+        "rust"
+      ],
+      "detail_slug": "1a51d15a1a43c582b34216f11c39134bc4126844",
+      "is_english_source": true,
+      "sent_at": "2026-10-06T15:52:53.091362+00:00"
+    },
+    {
+      "id": "683be5d57af682da476fd336d5cb723cff207981",
+      "title_hash": "0a294da7d6937912fc4180552477b14997079ee5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Jotbus – a shared encrypted scratchpad for coding agents",
+      "link": "https://jotbus.com/",
+      "published_at": "2026-10-06T13:45:04+00:00",
+      "summary": "HN story type: story HN points: 15 HN comments: 9 HN top comments: samuell: Looks like a really cool project, especially for quick no-setup use cases. If you prefer to keep things local and open source, and your agents' notes do fit in issues, you might want to check out Epiq too, which is a local but distributable issue board synced via an event log mechanism to ensure consistency when syncing across repos: https://ljtn.github.io/epiq tinthedev: Looks pretty cool, although I'm not sure I see the advantage over a skill using something like a private git repo / file store / server? So far, I've used that, a UNIX-socket inspired approach to push/pull with a remote git (hosted on my server) that the branches/files can be tossed to, and pulled via other agent. Skill instructs them to make a copy-paste ready instruction for the other prompt. Why'd Jotbus be wor... shake-n-fries: Hey everyone, I frequently have to copy-paste context and files between different coding agents, either between my different environments/machines, or from me to teammates. I built Jotbus so I wouldn’t have to keep doing that. You can try it free with: npx jotbus No login or signup required. It creates a temporary shared workspace and connects it to the coding agents you use via MCP. Once it's installed, you can j...",
+      "fetched_at": "2026-10-06T15:50:28.131580+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49978401",
+      "hn_story_type": "story",
+      "hn_points": "15",
+      "hn_comments_count": "9",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49978401",
+      "hn_item_text": "",
+      "hn_comment_preview": "samuell: Looks like a really cool project, especially for quick no-setup use cases. If you prefer to keep things local and open source, and your agents' notes do fit in issues, you might want to check out Epiq too, which is a local but distributable issue board synced via an event log mechanism to ensure consistency when syncing across repos: https://ljtn.github.io/epiq\ntinthedev: Looks pretty cool, although I'm not sure I see the advantage over a skill using something like a private git repo / file store / server? So far, I've used that, a UNIX-socket inspired approach to push/pull with a remote git (hosted on my server) that the branches/files can be tossed to, and pulled via other agent. Skill instructs them to make a copy-paste ready instruction for the other prompt. Why'd Jotbus be wor...\nshake-n-fries: Hey everyone, I frequently have to copy-paste context and files between different coding agents, either between my different environments/machines, or from me to teammates. I built Jotbus so I wouldn’t have to keep doing that. You can try it free with: npx jotbus No login or signup required. It creates a temporary shared workspace and connects it to the coding agents you use...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=26,practical_tech=14,tools_agents=26,strategy_insight=4,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 26,
+        "strategy_insight": 4,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "open source",
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 26,
+          "strong_hits": [
+            "coding agent",
+            "mcp"
+          ],
+          "support_hits": [
+            "prompt",
+            "agent",
+            "setup",
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "mcp",
+        "prompt",
+        "agent",
+        "setup",
+        "local",
+        "local + agent"
+      ],
+      "detail_slug": "683be5d57af682da476fd336d5cb723cff207981",
+      "is_english_source": true,
+      "sent_at": "2026-10-06T15:52:53.091362+00:00"
+    },
+    {
+      "id": "346f060a899fef3d444a12873b1cb9b9051d8d0f",
+      "title_hash": "86311a712f66c9f88ef278ffc87db76765d0260e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "JetBrains reported a net financial loss first time in its tracked history",
+      "link": "https://www.helgilibrary.com/companies/jetbrains",
+      "published_at": "2026-10-06T11:45:55+00:00",
+      "summary": "HN story type: story HN points: 362 HN comments: 368 HN top comments: bdavbdav: All the death knell comments - Is no one looking at the revenue line? Revenue still trending the same. Costs presumably haven't skyrocketed. They've invested in something big. Thats probably a good thing, and often needed to evolve. conradfr: A bit tongue-in-cheek but I'm amazed by people that don't open an IDE or look at code. Are you paid to press enter at anything that Claude present to you? Personally I usually use Claude inside the Jetbrain's IDE terminal, even if I code by hand obviously less. I still like using the diff, navigation, quick access to any file path for my prompt etc but maybe that won't last. (edit: although I currently use an old... theappsecguy: Wow, this really sucks. With all the money flocking to companies that trained LLMs on stolen data, we may lose the only set of IDEs that offer high quality professional development tools",
+      "fetched_at": "2026-10-06T15:50:28.131580+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49977072",
+      "hn_story_type": "story",
+      "hn_points": "362",
+      "hn_comments_count": "368",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49977072",
+      "hn_item_text": "",
+      "hn_comment_preview": "bdavbdav: All the death knell comments - Is no one looking at the revenue line? Revenue still trending the same. Costs presumably haven't skyrocketed. They've invested in something big. Thats probably a good thing, and often needed to evolve.\nconradfr: A bit tongue-in-cheek but I'm amazed by people that don't open an IDE or look at code. Are you paid to press enter at anything that Claude present to you? Personally I usually use Claude inside the Jetbrain's IDE terminal, even if I code by hand obviously less. I still like using the diff, navigation, quick access to any file path for my prompt etc but maybe that won't last. (edit: although I currently use an old...\ntheappsecguy: Wow, this really sucks. With all the money flocking to companies that trained LLMs on stolen data, we may lose the only set of IDEs that offer high quality professional development tools",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=6,tools_agents=22,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 22,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "prompt",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm",
+        "prompt",
+        "tool",
+        "claude + code"
+      ],
+      "detail_slug": "346f060a899fef3d444a12873b1cb9b9051d8d0f",
+      "is_english_source": true,
+      "sent_at": "2026-10-06T15:52:53.091362+00:00"
+    },
+    {
+      "id": "8484508ca389b0bd4d3fd3ae544a105ae1f67e40",
+      "title_hash": "586c944927d246cc7c76af8d2fed33b2ea4f72a5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Release of Polars 2.0",
+      "link": "https://pola.rs/posts/release-polars-2/",
+      "published_at": "2026-10-06T11:59:01+00:00",
+      "summary": "HN story type: story HN points: 208 HN comments: 35 HN top comments: gozzoo: I'm not following the trends closely, but has Polars become a full replacement for Pandas? Are there use cases where one is better suited than the other? niltecedu: A bit surprised about the datafusion results from the post, I have tried it time and time again, but datafusion has always been the leading/trading blowers with polars for our workfloads with duckdb being vastly slower. therno: I use Polars 2.0(rc) to (pre)calculate billions of weather scores on https://therno.com and it has been a lifesaver Happy that I can upgrade to 2.0 final tonight.",
+      "fetched_at": "2026-10-06T15:50:28.131580+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49977177",
+      "hn_story_type": "story",
+      "hn_points": "208",
+      "hn_comments_count": "35",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49977177",
+      "hn_item_text": "",
+      "hn_comment_preview": "gozzoo: I'm not following the trends closely, but has Polars become a full replacement for Pandas? Are there use cases where one is better suited than the other?\nniltecedu: A bit surprised about the datafusion results from the post, I have tried it time and time again, but datafusion has always been the leading/trading blowers with polars for our workfloads with duckdb being vastly slower.\ntherno: I use Polars 2.0(rc) to (pre)calculate billions of weather scores on https://therno.com and it has been a lifesaver Happy that I can upgrade to 2.0 final tonight.",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "29",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=5,practical_tech=4,tools_agents=2,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "release"
+      ],
+      "detail_slug": "8484508ca389b0bd4d3fd3ae544a105ae1f67e40",
+      "is_english_source": true,
+      "sent_at": "2026-10-06T15:52:53.091362+00:00"
+    },
+    {
       "id": "7d61f490107d65f89ce36366e74fd7d155b01501",
       "title_hash": "908ca972921fe01f431086a35d3bafc1d6f011ef",
       "source": "GeekNews",
@@ -171332,584 +171932,6 @@
       "detail_slug": "190c06680f67d20a4f4d31bccfffdd2316626c70",
       "is_english_source": false,
       "sent_at": "2026-03-28T13:40:14.599936+00:00"
-    },
-    {
-      "id": "5ec3909709817a230ef6effb1f74c20caf7ca9a1",
-      "title_hash": "6424d5dc30eabf760b2d44b625689240d603960d",
-      "source": "GeekNews",
-      "title": "Vercel의 json-render - Generative UI 프레임워크",
-      "link": "https://news.hada.io/topic?id=27933",
-      "published_at": "2026-03-28T00:31:02+00:00",
-      "summary": "AI가 사용자 프롬프트를 받아 JSON 구조를 생성 하고, 이를 미리 정의된 컴포넌트로 렌더링하는 생성형 UI 프레임워크 프롬프트로 부터 동적이고 개인화된 UI를 생성하되, 사전 정의된 컴포넌트 카탈로그 를 통해 안전하고 예측 가능한 출력을 보장 카탈로그...",
-      "fetched_at": "2026-03-28T13:37:07.686938+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "프롬프트"
-      ],
-      "detail_slug": "5ec3909709817a230ef6effb1f74c20caf7ca9a1",
-      "is_english_source": false,
-      "sent_at": "2026-03-28T13:40:14.599936+00:00"
-    },
-    {
-      "id": "c19be0ed5d5f2f0f0c4b8da3953db3589b227c2b",
-      "title_hash": "3d781d55409a03d0f3ab13331613472cc04ab46f",
-      "source": "GeekNews",
-      "title": "Show GN: messagetolink — 서버에 아무것도 남지 않는 Markdown 메시지 공유 도구",
-      "link": "https://news.hada.io/topic?id=27949",
-      "published_at": "2026-03-28T07:49:55+00:00",
-      "summary": "비밀번호, 접속 정보, 안내 메모 등 글 형태로 된 정보들을 누군가에게 전달할 때 링크 하나로 보낼 수 있습니다. 마크다운으로 메시지를 작성하면 전체 내용이 URL의 해시 프래그먼트(#)에 인코딩됩니다. 해시 프래그먼트는 서버로 전송되지 않으므로 서버에는 메시지 데이터가 일절 남지 않습니다. 비밀번호",
-      "fetched_at": "2026-03-28T13:37:07.686938+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "c19be0ed5d5f2f0f0c4b8da3953db3589b227c2b",
-      "is_english_source": false,
-      "sent_at": "2026-03-28T13:40:14.599936+00:00"
-    },
-    {
-      "id": "754598a0c0db5f9ad3ace720ad9e11fb76581260",
-      "title_hash": "009edc0e8a33a5958180d20d1b7a92204853babd",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "I put all 8,642 Spanish laws in Git – every reform is a commit",
-      "link": "https://github.com/EnriqueLop/legalize-es",
-      "published_at": "2026-03-28T12:01:27+00:00",
-      "summary": "HN story type: story HN points: 192 HN comments: 58 HN top comments: enriquelop: I built a pipeline that converts all Spanish state legislation into version-controlled Markdown. Each law is a file, each reform is a real git commit with the historical date. 8,642 laws, 27,866 commits. The idea: legislation is just patches on patches on patches. Git already solves this. Instead of reading \"strike paragraph 3 and replace with...\", you get an actual diff. The repo is the product. Browse any law, g... vitorbaptistaa: Congratulations! This is a very cool project. A few years ago there were similar ones -- browse gitlaw. In Brazil we have lexml, a standard to describe the law and their changes over time. It's surprisingly complex. j-bos: This is brilliant. I wish this were available for all legislations. There's so many inefficiencies that are trivially solved with existing tech frameworks.",
-      "fetched_at": "2026-03-28T13:37:07.686938+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47553798",
-      "hn_story_type": "story",
-      "hn_points": "192",
-      "hn_comments_count": "58",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47553798",
-      "hn_item_text": "",
-      "hn_comment_preview": "enriquelop: I built a pipeline that converts all Spanish state legislation into version-controlled Markdown. Each law is a file, each reform is a real git commit with the historical date. 8,642 laws, 27,866 commits. The idea: legislation is just patches on patches on patches. Git already solves this. Instead of reading \"strike paragraph 3 and replace with...\", you get an actual diff. The repo is the product. Browse any law, g...\nvitorbaptistaa: Congratulations! This is a very cool project. A few years ago there were similar ones -- browse gitlaw. In Brazil we have lexml, a standard to describe the law and their changes over time. It's surprisingly complex.\nj-bos: This is brilliant. I wish this were available for all legislations. There's so many inefficiencies that are trivially solved with existing tech frameworks.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=10,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 10,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "framework",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "framework",
-        "rag",
-        "github.com"
-      ],
-      "detail_slug": "754598a0c0db5f9ad3ace720ad9e11fb76581260",
-      "is_english_source": true,
-      "translated_title": "스페인 법률 8,642개를 Git에 담고 개정은 커밋으로",
-      "short_summary": "한 개발자가 스페인 국가 법률 8,642개를 버전 관리되는 마크다운으로 바꿨다. 법마다 파일을 만들고 개정 2만7,866건을 실제 Git 커밋으로 남겨 조문 변화와 이력을 diff처럼 따라가게 했다.",
-      "why_it_matters": "법령은 원래 수정이 누적되는 구조라서 Git 같은 버전 관리 방식과 잘 맞는다. 법무, 규제 대응, 공공데이터 실무에서는 문서 열람보다 변경 추적이 쉬워진다는 점이 더 크게 와닿는다.\n- 개정문 해석에 매달리지 않고 어느 문장이 언제 바뀌었는지 diff와 커밋 기록으로 바로 확인할 수 있다.\n- 컴플라이언스, 정책 모니터링, 리걸테크 서비스에서 변경 감지와 이력 비교를 자동화하기 쉬워진다.\n- 전용 시스템이 아니어도 개발자가 익숙한 도구로 법령 데이터를 다루는 길을 연 사례라 후속 활용 범위가 넓다.",
-      "hn_reaction_summary": "HN 반응은 대체로 강한 호평 쪽이었다. 법령이야말로 패치의 연속인데, 그걸 Git으로 보여주는 발상이 직관적이고 실용적이라는 반응이 많이 보였다.\n- 왜 이런 방식이 더 널리 없었는지 아쉽다는 의견과 함께, 다른 나라 입법 데이터에도 적용됐으면 좋겠다는 반응이 반복됐다.\n- 브라질의 LexML, 예전 gitlaw 같은 사례가 언급되며 법령 구조화와 변경 이력 표현이 생각보다 까다롭다는 점도 같이 나왔다.\n- 실무적으로는 멋진 아이디어를 넘어 원문 정합성, 최신성 유지, 복잡한 개정 예외를 얼마나 안정적으로 처리하느냐가 핵심 논점으로 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-28T13:40:14.599936+00:00"
-    },
-    {
-      "id": "f7ee9315d6076a81cd81a49c1a83e9630f08c671",
-      "title_hash": "4231ebc62850ac8babebc6207eb10d0189ea2111",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "No one is happy with NASA's new idea for private space stations",
-      "link": "https://arstechnica.com/space/2026/03/what-happens-next-with-nasas-plan-to-replace-the-iss-source-it-could-get-ugly/",
-      "published_at": "2026-03-28T11:13:23+00:00",
-      "summary": "HN story type: story HN points: 33 HN comments: 17 HN top comments: codexb: NASA hasn't had a proper goal or mission for decades. That's their problem. And the spaceflight goal that everyone wants -- making things cheaper -- is not something that government agencies are particularly good at producing. mikkupikku: Nobody can even come up with a coherent reason for any of these proposals to exist. Even the ISS is more of a political instrument than a real science thing. NASA likes to say its about studying how to help humans live in space, but those results were in decades ago: more than a few months in zero-g wrecks people. So why are we still trying to build old modular Salyut/Mir derivatives instead of trying to figure ou... cl0ckt0wer: It's liability laundering. If an openclaw blackmails a politician while hosted in space, what's the legal recourse?",
-      "fetched_at": "2026-03-28T13:37:07.686938+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47553516",
-      "hn_story_type": "story",
-      "hn_points": "33",
-      "hn_comments_count": "17",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47553516",
-      "hn_item_text": "",
-      "hn_comment_preview": "codexb: NASA hasn't had a proper goal or mission for decades. That's their problem. And the spaceflight goal that everyone wants -- making things cheaper -- is not something that government agencies are particularly good at producing.\nmikkupikku: Nobody can even come up with a coherent reason for any of these proposals to exist. Even the ISS is more of a political instrument than a real science thing. NASA likes to say its about studying how to help humans live in space, but those results were in decades ago: more than a few months in zero-g wrecks people. So why are we still trying to build old modular Salyut/Mir derivatives instead of trying to figure ou...\ncl0ckt0wer: It's liability laundering. If an openclaw blackmails a politician while hosted in space, what's the legal recourse?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=6,tools_agents=12,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 12,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "codex",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "codex",
-        "ide"
-      ],
-      "detail_slug": "f7ee9315d6076a81cd81a49c1a83e9630f08c671",
-      "is_english_source": true,
-      "translated_title": "NASA 민간 우주정거장 구상에 쏟아진 회의론",
-      "short_summary": "NASA가 민간 우주정거장 구상을 내놨지만 HN에서는 목표가 흐릿하고 왜 지금 또 저궤도 정거장이 필요한지 납득하기 어렵다는 반응이 많았다. 비용 절감, 활용 목적, 책임 구조 모두 설득력이 약하다는 지적이 이어졌다.",
-      "why_it_matters": "ISS 이후 체제를 민간으로 넘기려는 흐름이지만, 이번 논쟁은 운영 주체만 바꾼다고 문제가 풀리지는 않는다는 점을 보여준다.\n- NASA와 참여 기업은 연구 목적, 수익 모델, 예산 분담을 더 선명하게 설명해야 한다. 그렇지 않으면 조달과 투자 설득이 길어진다.\n- 실무적으로는 안전 규정과 법적 책임, 운영 실패 시 부담 구조를 먼저 정리해야 민간 정거장 사업이 속도를 낼 수 있다.\n- 기존 ISS식 저궤도 정거장을 반복할지, 다른 거주 기술로 넘어갈지에 따라 기술 로드맵과 파트너 선정 기준도 달라질 수 있다.",
-      "hn_reaction_summary": "HN 분위기는 대체로 냉담하다. 댓글은 NASA의 목표 부재와 민간 정거장 자체의 존재 이유를 가장 크게 문제 삼는다.\n- NASA가 수십 년째 분명한 임무를 못 세우고 있다는 비판이 반복됐다. 비용 절감 같은 과제를 정부 조직이 풀기 어렵다는 회의도 컸다.\n- ISS도 과학보다 정치 성격이 강했다며, 새 정거장 역시 무엇을 검증하고 왜 필요한지 설명이 약하다는 지적이 이어졌다.\n- 민간 운영이 책임 회피나 규제 공백으로 이어질 수 있다는 우려도 나왔다. 사고나 분쟁이 생겼을 때 누가 책임지는지가 불분명하다는 시선이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-28T13:40:14.599936+00:00"
-    },
-    {
-      "id": "b0953099733acb3db9637f501968ae7a9e8f0c9f",
-      "title_hash": "2c9989ef84f1a9e129d16a973bb16ea01e936bf4",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Cocoa-Way – Native macOS Wayland compositor for running Linux apps seamlessly",
-      "link": "https://github.com/J-x-Z/cocoa-way",
-      "published_at": "2026-03-28T10:06:13+00:00",
-      "summary": "HN story type: story HN points: 120 HN comments: 32 HN top comments: cyanmagenta: Forgive the naivety, but what graphical Linux apps are people trying to run that don’t have native MacOS builds? In my experience, Linux GUIs are generally written in Qt or GTK, both of which are multi-platform. I don’t doubt that they exist, I’m just struggling to think of a popular example. jbverschoor: Perfect.. this will allow me to run GUI apps in a container. I did a similar thing with X11, but I didn't like so much. Bit by bit, Apple is loosing it's Desktop position. It all starts at the developers. At soon, every person will be a \"developer\". tsuru: Wow. Would this allow a macos-based wayland-client to create an EGL surface?",
-      "fetched_at": "2026-03-28T13:37:07.686938+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47553185",
-      "hn_story_type": "story",
-      "hn_points": "120",
-      "hn_comments_count": "32",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47553185",
-      "hn_item_text": "",
-      "hn_comment_preview": "cyanmagenta: Forgive the naivety, but what graphical Linux apps are people trying to run that don’t have native MacOS builds? In my experience, Linux GUIs are generally written in Qt or GTK, both of which are multi-platform. I don’t doubt that they exist, I’m just struggling to think of a popular example.\njbverschoor: Perfect.. this will allow me to run GUI apps in a container. I did a similar thing with X11, but I didn't like so much. Bit by bit, Apple is loosing it's Desktop position. It all starts at the developers. At soon, every person will be a \"developer\".\ntsuru: Wow. Would this allow a macos-based wayland-client to create an EGL surface?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=12,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "container"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "container",
-        "github.com"
-      ],
-      "detail_slug": "b0953099733acb3db9637f501968ae7a9e8f0c9f",
-      "is_english_source": true,
-      "translated_title": "리눅스 앱을 매끄럽게 띄우는 macOS용 Wayland 컴포지터",
-      "short_summary": "Cocoa-Way는 macOS에서 리눅스 GUI 앱을 자연스럽게 실행하도록 만든 네이티브 Wayland 컴포지터다. HN에서는 컨테이너 개발 환경에 잘 맞는다는 기대와, 실제 수요가 얼마나 큰지 묻는 반응이 함께 나왔다.",
-      "why_it_matters": "맥을 메인 작업 환경으로 쓰면서도 리눅스 GUI 앱을 함께 다뤄야 하는 개발자에게 바로 와닿는 소식이다. 특히 X11 우회보다 Wayland 기반 흐름을 선호하는 팀이라면 로컬 개발 방식이 조금 달라질 수 있다.\n- GUI가 필요한 리눅스 도구를 컨테이너 안에서 띄우는 흐름이 더 자연스러워질 수 있다. 개발용 유틸, 내부 툴, 테스트 앱을 맥에서 바로 확인하기 쉬워진다.\n- 맥용 네이티브 빌드가 없거나 유지 상태가 애매한 리눅스 앱을 가져다 쓰는 선택지가 넓어진다. 포팅 비용 없이 먼저 써보고 판단하는 식의 실무 활용도 가능하다.\n- X11 기반 우회 구성에 비해 Wayland 쪽으로 개발 환경을 정리하려는 흐름과 맞물린다. 로컬과 컨테이너, 원격 리눅스 환경의 그래픽 실행 경험을 비슷하게 가져가려는 팀에 특히 눈에 띈다.",
-      "hn_reaction_summary": "댓글 분위기는 호기심과 실용 기대가 섞여 있다. 반응이 아주 과열되기보다는 \"정확히 어디에 쓰면 좋은가\"를 따져 묻는 쪽에 가깝다.\n- 가장 많이 보이는 질문은 실제 사용처다. Qt나 GTK처럼 멀티플랫폼 앱이 많은데, 굳이 macOS에서 리눅스 GUI를 돌려야 할 대표 사례가 무엇이냐는 의문이 나왔다.\n- 반대로 컨테이너 안의 GUI 앱 실행에는 반가운 변화라는 의견도 있다. X11로 비슷한 구성을 해봤지만 만족스럽지 않았다는 경험담이 붙었다.\n- 일부 댓글은 더 기술적인 가능성에 주목했다. macOS 기반 Wayland 클라이언트, EGL surface 같은 그래픽 경계면까지 확장될 수 있는지 탐색하는 분위기다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-28T13:40:14.599936+00:00"
-    },
-    {
-      "id": "f17d9bf0c4319723a86167c7567c042ab6f8397e",
-      "title_hash": "b3b4661a10bc0ef6da9ddca8c8ce072715d256a4",
-      "source": "GeekNews",
-      "title": "Codex 활용 사례 모음",
-      "link": "https://news.hada.io/topic?id=27938",
-      "published_at": "2026-03-28T00:45:01+00:00",
-      "summary": "OpenAI가 agentic 코딩 도구 Codex 를 실무에 바로 적용할 수 있는 12가지 유즈케이스를 공식 문서로 정리해 공개했으며, 각 케이스에는 권장 팀/카테고리, 스타터 프롬프트, 활용 Skills 정보가 포함되어 있음 Engineering·Front-end·Data·Integrations·Mobile·Evaluation 등",
-      "fetched_at": "2026-03-28T09:30:49.294118+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "63",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=18,practical_tech=-4,tools_agents=18,strategy_insight=3,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 18,
-        "strategy_insight": 3,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "valuation"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 18,
-          "strong_hits": [
-            "agentic",
-            "codex"
-          ],
-          "support_hits": [
-            "agent",
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "valuation"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agentic",
-        "codex",
-        "agent",
-        "프롬프트"
-      ],
-      "detail_slug": "f17d9bf0c4319723a86167c7567c042ab6f8397e",
-      "is_english_source": false,
-      "sent_at": "2026-03-28T09:33:51.214183+00:00"
-    },
-    {
-      "id": "886b1c0714f2501428ad6850c55254897e085679",
-      "title_hash": "ac50ceac04c48e95476155355076f2a4e8b08b89",
-      "source": "GeekNews",
-      "title": ".claude/ 폴더 구조 분석",
-      "link": "https://news.hada.io/topic?id=27941",
-      "published_at": "2026-03-28T00:53:17+00:00",
-      "summary": ".claude/ 폴더는 Claude Code의 핵심 제어 디렉터리 로, 프로젝트별 규칙·명령·권한·메모리 상태를 관리함 CLAUDE.md 는 Claude의 행동 원칙과 프로젝트 규칙을 정의하는 중심 파일 로, 여러 계층의 설정을 병합해 적용함",
-      "fetched_at": "2026-03-28T09:30:49.294118+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 15,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "원칙"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "886b1c0714f2501428ad6850c55254897e085679",
-      "is_english_source": false,
-      "sent_at": "2026-03-28T09:33:51.214183+00:00"
     }
   ],
   "topic_digests": {
