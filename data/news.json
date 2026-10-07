@@ -1,6 +1,603 @@
 {
   "items": [
     {
+      "id": "c9fb4b3fad93fb8a94aee029225e166e9bc02764",
+      "title_hash": "69375a0fa3fef1885f7c2ad6ad90dcecd9044ffb",
+      "source": "GeekNews",
+      "title": "Show GN: brgr – Claude Code나 Codex가 다른 코딩 에이전트에게 일을 맡기는 herdr 플러그인",
+      "link": "https://news.hada.io/topic?id=34915",
+      "published_at": "2026-10-07T00:28:34+00:00",
+      "summary": "herdr에서 여러 코딩 에이전트를 동시에 돌리다보니, 매번 trust 확인이나 업데이트 제안에서 멈추게 되고, 끝나면 결과를 메인 에이전트로 직접 북붙하는게 귀찮아서 만들었습니다. 메인 에이전트(Codex 또는 Claude Code)가 일을 넘기면, 워커가 옆 pane에 각자 git worktree를 하나씩 갖고 열립니다.",
+      "fetched_at": "2026-10-07T04:20:30.502786+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "75",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=5,tools_agents=30,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 30,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 30,
+          "strong_hits": [
+            "claude code",
+            "worktree",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "worktree",
+        "codex",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "c9fb4b3fad93fb8a94aee029225e166e9bc02764",
+      "is_english_source": false,
+      "sent_at": "2026-10-07T04:22:51.290096+00:00"
+    },
+    {
+      "id": "7b2791fb3abe7cdc93b5e32bb00c02bdabd68a80",
+      "title_hash": "1a27a5b409c042048db4bc3f819bf970f903e606",
+      "source": "GeekNews",
+      "title": "OpenAI, 확률·선택지·점수를 반환하는 Decisions API 공개 베타 시작",
+      "link": "https://news.hada.io/topic?id=34923",
+      "published_at": "2026-10-07T01:33:49+00:00",
+      "summary": "OpenAI가 텍스트·이미지를 평가해 확률, 선택지와 점수를 반환하는 Decisions API 의 공개 베타를 시작함. 서술형 답변 대신 앱에서 바로 사용할 판단 결과를 제공하며, Responses API보다 약 10배 빠름 조건이 참일 확률, 고정 선택지 중 하나, 평가 기준에...",
+      "fetched_at": "2026-10-07T04:20:30.502786+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "58",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=13,practical_tech=5,tools_agents=4,strategy_insight=13,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 13,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "decision",
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "decision",
+        "판단"
+      ],
+      "detail_slug": "7b2791fb3abe7cdc93b5e32bb00c02bdabd68a80",
+      "is_english_source": false,
+      "sent_at": "2026-10-07T04:22:51.290096+00:00"
+    },
+    {
+      "id": "fb304788ffd8f9f6baa455bcdc32e476bd5f9bb9",
+      "title_hash": "3d6a185e91f5922abe1089fc6bdd2615150112b4",
+      "source": "GeekNews",
+      "title": "Show GN: TunnelForge - SSH 터널 + MySQL/PostgreSQL 덤프·복원·엔진 간 이전 데스크톱 앱 (MIT)",
+      "link": "https://news.hada.io/topic?id=34917",
+      "published_at": "2026-10-07T00:33:22+00:00",
+      "summary": "Bastion(점프 서버) 뒤에 있는 MySQL·PostgreSQL을 다룰 때 터널 열기, 쿼리, 덤프·복원, 엔진 간 이전을 한 앱에서 하려고 만든 데스크톱 앱입니다. 주요 기능 SSH 터널 관리: bastion 경유/직접 연결, RSA·Ed25519·ECDSA 키, 그룹별 정리와 연결 상태 표시 SQL 에디터: 테이블·컬럼 자",
+      "fetched_at": "2026-10-07T04:20:30.502786+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "postgres",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "postgres",
+        "sql"
+      ],
+      "detail_slug": "fb304788ffd8f9f6baa455bcdc32e476bd5f9bb9",
+      "is_english_source": false,
+      "sent_at": "2026-10-07T04:22:51.290096+00:00"
+    },
+    {
+      "id": "fb363d47b762538b1e0f01a1ce7947d3dfa6a846",
+      "title_hash": "ee57ea04d6c04ffd4b8d3cda88fcb2b149efd484",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Jev-Driven SRE Diagnosis: What Worked and What Failed",
+      "link": "https://www.sregym.com/blog/jev-driven-sre-diagnosis",
+      "published_at": "2026-10-07T01:27:49+00:00",
+      "summary": "HN story type: story HN points: 11 HN comments: 2 HN top comments: clintonb: > Ultimately, we believe that incorporating Jev-driven diagnosis into an SRE agent’s workflow is a significant step toward effectively combining System One and System Two models. Why? What’s the end goal? Lower cost? Faster analysis? I configured an agent to respond to pages via Slack. It has access to ClickStack (for telemetry), Kubernetes, and GitHub. It runs one of the Sonnet models. The cost is so low, respond... beebmam: It seems to me that Jev is designed for when many quick decisions, with low input context, need to be made. SRE work is probably best suited for very few critical decisions that need to be made, with high input context.",
+      "fetched_at": "2026-10-07T04:20:30.502786+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49986765",
+      "hn_story_type": "story",
+      "hn_points": "11",
+      "hn_comments_count": "2",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49986765",
+      "hn_item_text": "",
+      "hn_comment_preview": "clintonb: > Ultimately, we believe that incorporating Jev-driven diagnosis into an SRE agent’s workflow is a significant step toward effectively combining System One and System Two models. Why? What’s the end goal? Lower cost? Faster analysis? I configured an agent to respond to pages via Slack. It has access to ClickStack (for telemetry), Kubernetes, and GitHub. It runs one of the Sonnet models. The cost is so low, respond...\nbeebmam: It seems to me that Jev is designed for when many quick decisions, with low input context, need to be made. SRE work is probably best suited for very few critical decisions that need to be made, with high input context.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=9,tools_agents=22,strategy_insight=9,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 22,
+        "strategy_insight": 9,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "kubernetes"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "workflow",
+            "cli"
+          ],
+          "support_hits": [
+            "workflow",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + workflow"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "kubernetes"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "workflow",
+        "cli",
+        "agent",
+        "agent + workflow"
+      ],
+      "detail_slug": "fb363d47b762538b1e0f01a1ce7947d3dfa6a846",
+      "is_english_source": true,
+      "sent_at": "2026-10-07T04:22:51.290096+00:00"
+    },
+    {
+      "id": "b0a4f2071e39a8a64232313c350782d8cc5e7bdd",
+      "title_hash": "4f203bb71f290279052a7bcb87c45a792f2b958e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "ESP32-C3 Adblock",
+      "link": "https://github.com/M-Abozaid/esp32-c3-adblock",
+      "published_at": "2026-10-07T01:39:21+00:00",
+      "summary": "HN story type: story HN points: 25 HN comments: 5 HN top comments: 1vuio0pswjnm7: Whitelist/allowlist is easier, e.g., it's smaller Depends on the user but not everyone is visiting new websites everyday Even for those that are, the number of domain-IP mappings needed will be relatively small Definitely under 140,000 Most DNS data I use is \"static\", it rarely changes. As such most times I don't have to make DNS queries. I store the domain-IP mappings in proxy memory; this is faster than DNS No \"... muti: Weird how the readme talks about hash collisions, but not in the way I would expect. Two blocked domains with the same hash isn't a problem, they both need to be blocked. Where hash collisions matter is false positives, e.g. if hash(google.com) = hash(adserver.com). There does appear to be a web dashboard and /unblock api so should be straightforward to resolve. fwip: Cool idea, latency might be too high, wish the docs weren't all AI vomit.",
+      "fetched_at": "2026-10-07T04:20:30.502786+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49986862",
+      "hn_story_type": "story",
+      "hn_points": "25",
+      "hn_comments_count": "5",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49986862",
+      "hn_item_text": "",
+      "hn_comment_preview": "1vuio0pswjnm7: Whitelist/allowlist is easier, e.g., it's smaller Depends on the user but not everyone is visiting new websites everyday Even for those that are, the number of domain-IP mappings needed will be relatively small Definitely under 140,000 Most DNS data I use is \"static\", it rarely changes. As such most times I don't have to make DNS queries. I store the domain-IP mappings in proxy memory; this is faster than DNS No \"...\nmuti: Weird how the readme talks about hash collisions, but not in the way I would expect. Two blocked domains with the same hash isn't a problem, they both need to be blocked. Where hash collisions matter is false positives, e.g. if hash(google.com) = hash(adserver.com). There does appear to be a web dashboard and /unblock api so should be straightforward to resolve.\nfwip: Cool idea, latency might be too high, wish the docs weren't all AI vomit.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=10,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "latency",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "latency",
+        "api",
+        "github.com"
+      ],
+      "detail_slug": "b0a4f2071e39a8a64232313c350782d8cc5e7bdd",
+      "is_english_source": true,
+      "sent_at": "2026-10-07T04:22:51.290096+00:00"
+    },
+    {
+      "id": "2c9acd98c71ffc6926234e6047d3a3e8dcad9717",
+      "title_hash": "2ae4915c84c0b61c4986725907cc51bb3c6501db",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Decisions API is in public beta",
+      "link": "https://developers.openai.com/api/docs/guides/decisions",
+      "published_at": "2026-10-06T20:57:25+00:00",
+      "summary": "HN story type: story HN points: 188 HN comments: 82 HN top comments: simonw: curl https://api.openai.com/v1/decisions \\ -H \"Authorization: Bearer $(llm keys get openai)\" \\ -H \"Content-Type: application/json\" \\ --data ' { \"model\": \"gpt-6-luna\", \"input\": [{ \"role\": \"user\", \"content\": [ {\"type\": \"input_text\", \"text\": \"I am angry about the new product feature\"} ] }], \"questions\": [{ \"type\": \"predicate\", \"name\": \"complaint\", \"instructions\": \"Is this a complaint?\" }, { \"type\": \"predicate\", \"name... TSiege: The response to Jev should be the nail in the coffin over whether or not the AI business is a commodity market. Out of no where Jev appeared as the next round of the price wars. Jev showed the value of System One models. A fast yes/no/confidence score not only is cheaper but also often all people want. Open source versions flood hugging face and now the big players are giving up a potentially big driver of output... Topfi: Ran my decisions evals (still rudimentary, less than 600 calls (UI component selection, chat charting, tag selection, PKM stuff)) on this via OpenRouter against Jev and Mercury Decide. Jev because it has replaced my mt0 efforts by sheer force of affordability (more importantly, the limits running on a MacBook Neo bring even after vocab pruning and quant insanity) and Mercury Decide because I do like dLLM efforts (...",
+      "fetched_at": "2026-10-07T04:20:30.502786+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49984025",
+      "hn_story_type": "story",
+      "hn_points": "188",
+      "hn_comments_count": "82",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49984025",
+      "hn_item_text": "",
+      "hn_comment_preview": "simonw: curl https://api.openai.com/v1/decisions \\ -H \"Authorization: Bearer $(llm keys get openai)\" \\ -H \"Content-Type: application/json\" \\ --data ' { \"model\": \"gpt-6-luna\", \"input\": [{ \"role\": \"user\", \"content\": [ {\"type\": \"input_text\", \"text\": \"I am angry about the new product feature\"} ] }], \"questions\": [{ \"type\": \"predicate\", \"name\": \"complaint\", \"instructions\": \"Is this a complaint?\" }, { \"type\": \"predicate\", \"name...\nTSiege: The response to Jev should be the nail in the coffin over whether or not the AI business is a commodity market. Out of no where Jev appeared as the next round of the price wars. Jev showed the value of System One models. A fast yes/no/confidence score not only is cheaper but also often all people want. Open source versions flood hugging face and now the big players are giving up a potentially big driver of output...\nTopfi: Ran my decisions evals (still rudimentary, less than 600 calls (UI component selection, chat charting, tag selection, PKM stuff)) on this via OpenRouter against Jev and Mercury Decide. Jev because it has replaced my mt0 efforts by sheer force of affordability (more importantly, the limits running on a MacBook Neo bring even after v...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=8,strategy_insight=7,industry_business=4",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 8,
+        "strategy_insight": 7,
+        "industry_business": 4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "open source",
+            "api"
+          ],
+          "support_hits": [
+            "guide"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 8,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "business",
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "open source",
+        "api",
+        "guide"
+      ],
+      "detail_slug": "2c9acd98c71ffc6926234e6047d3a3e8dcad9717",
+      "is_english_source": true,
+      "sent_at": "2026-10-07T04:22:51.290096+00:00"
+    },
+    {
+      "id": "ee14fb63904ce58f135619d80cb311d0136e69f5",
+      "title_hash": "8be18992323a2fab7b9c7f2781ef97f256ec2726",
+      "source": "TechCrunch",
+      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "link": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "published_at": "2026-10-06T20:00:30+00:00",
+      "summary": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
+      "fetched_at": "2026-10-07T04:20:30.502786+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "29",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=23,practical_tech=-8,tools_agents=0,strategy_insight=0,industry_business=23",
+      "slot_scores": {
+        "practical_tech": -8,
+        "tools_agents": 0,
+        "strategy_insight": 0,
+        "industry_business": 23
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation",
+            "ipo"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 23,
+          "strong_hits": [
+            "valuation",
+            "startup",
+            "ipo"
+          ],
+          "support_hits": [
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "valuation",
+        "startup",
+        "ipo",
+        "techcrunch.com"
+      ],
+      "detail_slug": "ee14fb63904ce58f135619d80cb311d0136e69f5",
+      "is_english_source": true,
+      "sent_at": "2026-10-07T04:22:51.290096+00:00"
+    },
+    {
       "id": "8c6a0489d143c32a6f53a1f1c62f79ab3b325d64",
       "title_hash": "77686cd5b01cf5306d4921fe818892a7f9480884",
       "source": "GeekNews",
@@ -171374,600 +171971,6 @@
       "detail_slug": "257e7335761295ccae3ecf7e30267b8c3cad5037",
       "is_english_source": false,
       "sent_at": "2026-03-29T06:03:18.572043+00:00"
-    },
-    {
-      "id": "887a2f0ac0d480a7b0bc85e3f7b2e75a4978c1fa",
-      "title_hash": "2ec57243e4ebd50667547be60a7a348e87e32e89",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "OpenYak – An open-source Cowork that runs any model and owns your filesystem",
-      "link": "https://github.com/openyak/desktop",
-      "published_at": "2026-03-29T04:26:13+00:00",
-      "summary": "HN story type: story HN points: 36 HN comments: 11 HN top comments: rakag: What's the difference between this and OpenWork which has existed for a while? girvo: I don’t get it. It says nothing leaves your computer, but it’s sending things to OpenRouter, not running models locally. Perhaps I am dumb (and I always feel dumb after reading an AI generated README for yet another AI tool Tbf) SomaticPirate: Not to be too conspiratorial here but since the founder of OpenClaw was snatched up, there seems to be a rush of “open source” AI projects desperately bidding to be alternatives. Which can generate huge returns if one of the major players decides that “they also need a cowork-style product” So its uniquely viable to be a sellout here and attempt to clone a major lab’s attempt on the off-chance you get acquired later",
-      "fetched_at": "2026-03-29T06:00:30.105372+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47560380",
-      "hn_story_type": "story",
-      "hn_points": "36",
-      "hn_comments_count": "11",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47560380",
-      "hn_item_text": "",
-      "hn_comment_preview": "rakag: What's the difference between this and OpenWork which has existed for a while?\ngirvo: I don’t get it. It says nothing leaves your computer, but it’s sending things to OpenRouter, not running models locally. Perhaps I am dumb (and I always feel dumb after reading an AI generated README for yet another AI tool Tbf)\nSomaticPirate: Not to be too conspiratorial here but since the founder of OpenClaw was snatched up, there seems to be a rush of “open source” AI projects desperately bidding to be alternatives. Which can generate huge returns if one of the major players decides that “they also need a cowork-style product” So its uniquely viable to be a sellout here and attempt to clone a major lab’s attempt on the off-chance you get acquired later",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "42",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=18,practical_tech=18,tools_agents=14,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 18,
-        "tools_agents": 14,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 18,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "local + run",
-        "github.com"
-      ],
-      "detail_slug": "887a2f0ac0d480a7b0bc85e3f7b2e75a4978c1fa",
-      "is_english_source": true,
-      "translated_title": "OpenYak, 어떤 모델이든 붙는 오픈소스 코워커",
-      "short_summary": "OpenYak은 여러 AI 모델을 연결해 로컬 파일시스템 작업까지 맡기겠다는 오픈소스 코워커 도구로 HN에 올랐다. 댓글에서는 기존 도구와의 차이, 로컬 실행을 내세우면서 외부 라우터를 쓰는 구조를 두고 의문이 이어졌다.",
-      "why_it_matters": "에이전트형 개발 도구 경쟁이 빨라지는 가운데, OpenYak은 모델 선택권과 로컬 파일 접근을 한데 묶으려는 흐름을 보여준다. 실무에서는 기능 자체보다 어떤 모델 경로를 쓰는지, 데이터가 실제로 어디까지 나가는지가 더 바로 영향을 준다.\n- 특정 모델사에 묶이지 않고 작업 흐름에 맞춰 모델을 바꿔 쓰려는 수요가 커지고 있다는 신호다.\n- 파일시스템 접근을 전면에 내세운 만큼 자동 수정, 코드 생성, 로컬 작업 실행 같은 개발 워크플로 변화와 맞닿아 있다.\n- 다만 '내 컴퓨터 밖으로 나가지 않는다'는 메시지와 외부 API 라우팅이 함께 있으면 보안 검토와 도입 판단이 더 까다로워진다.",
-      "hn_reaction_summary": "HN 반응은 기대보다 검증 쪽에 가까웠다. 새 도구 자체보다 정말 새로운 점이 있는지, 설명이 정확한지부터 따져 묻는 분위기가 강했다.\n- 가장 많이 나온 반응은 기존 오픈소스 대안과 무엇이 다른지 잘 보이지 않는다는 지적이다.\n- 로컬 중심을 말하면서 OpenRouter로 요청을 보내는 구조가 함께 언급돼, 프라이버시 설명이 모호하다는 비판이 반복됐다.\n- 일부는 최근 유사 프로젝트가 잇따르는 배경을 두고, 제품 완성도보다 인수 기대를 노린 복제 경쟁 아니냐는 냉소도 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-29T06:03:18.572043+00:00"
-    },
-    {
-      "id": "7e4cae995f9e773a84fc2c06dd4599523f29fa6a",
-      "title_hash": "16dbd022815519eae40ef8e134e36cb260cfd625",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "I Built an Open-World Engine for the N64 [video]",
-      "link": "https://www.youtube.com/watch?v=lXxmIw9axWw",
-      "published_at": "2026-03-28T11:49:28+00:00",
-      "summary": "HN story type: story HN points: 377 HN comments: 64 HN top comments: CoryOndrejka: Very cool. In 1998 (oof) we built Road Rash 64 which was accidentally open world -- even though you had race on a particular road, with a start and finish line, you could drive anywhere, see traffic all over the map, jump off of mountains, etc. The r4k plus reality coprocessor was quite potent -- we got to over 750k shaded triangles per second in optimized testing -- though finicky because you had to manage audio... azertify: In case anyone is interested, this creator built a remake of Portal for the N64, uploading a really cool set of videos describing the work that went into building it. He's since stopped to work on his own IP, I believe that the issue was that Valve couldn't allow it because they'd never get Nintendo to agree to it. Something along those lines, anyway. LarsDu88: I actually used similar camera draw distance trick in my game Rogue Stargun. The real way to optimize this stuff really well is for the artist to spend a lot of time making LODS for the distant objects. For the really distant objects, esp for a platform like n64, you can replace the distant objects with billboard imposters which are basically just flat poster textures that swap perspectives at certain angles. GTA...",
-      "fetched_at": "2026-03-29T06:00:30.105372+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47553717",
-      "hn_story_type": "story",
-      "hn_points": "377",
-      "hn_comments_count": "64",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47553717",
-      "hn_item_text": "",
-      "hn_comment_preview": "CoryOndrejka: Very cool. In 1998 (oof) we built Road Rash 64 which was accidentally open world -- even though you had race on a particular road, with a start and finish line, you could drive anywhere, see traffic all over the map, jump off of mountains, etc. The r4k plus reality coprocessor was quite potent -- we got to over 750k shaded triangles per second in optimized testing -- though finicky because you had to manage audio...\nazertify: In case anyone is interested, this creator built a remake of Portal for the N64, uploading a really cool set of videos describing the work that went into building it. He's since stopped to work on his own IP, I believe that the issue was that Valve couldn't allow it because they'd never get Nintendo to agree to it. Something along those lines, anyway.\nLarsDu88: I actually used similar camera draw distance trick in my game Rogue Stargun. The real way to optimize this stuff really well is for the artist to spend a lot of time making LODS for the distant objects. For the really distant objects, esp for a platform like n64, you can replace the distant objects with billboard imposters which are basically just flat poster textures that swap perspect...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "31",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=6,tools_agents=7,strategy_insight=4,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 7,
-        "strategy_insight": 4,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "perspective"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "7e4cae995f9e773a84fc2c06dd4599523f29fa6a",
-      "is_english_source": true,
-      "translated_title": "N64용 오픈월드 엔진을 직접 만든 이야기",
-      "short_summary": "한 개발자가 닌텐도 64에서 구동되는 오픈월드 엔진 제작 과정을 영상으로 공개했다. HN에서는 제한된 하드웨어에서 시야 거리와 LOD를 다루는 방식이 지금 봐도 배울 점이 많다는 반응이 이어졌다.",
-      "why_it_matters": "레트로 하드웨어 데모처럼 보이지만, 실제로는 제한된 성능 안에서 월드를 어떻게 설계하고 무엇을 과감히 생략할지 보여주는 사례에 가깝다. 지금의 게임 개발이나 3D 인터랙션 작업에도 그대로 통하는 판단 기준이 담겨 있다.\n- 성능이 넉넉하지 않은 환경에서는 연산을 늘리기보다 시야 거리, 오브젝트 배치, 카메라 연출로 체감 품질을 끌어올리는 접근이 더 현실적이라는 점을 보여준다.\n- 댓글에서도 반복해서 나온 것처럼 먼 오브젝트를 LOD나 빌보드로 바꾸는 식의 고전적 기법은 모바일, 웹 3D, 인디 게임에서도 여전히 유효하다.\n- 최신 엔진 기능에 기대기보다 하드웨어 한계를 먼저 이해하고 설계를 맞추는 태도가 왜 필요한지 다시 생각하게 만든다.",
-      "hn_reaction_summary": "HN 분위기는 전반적으로 감탄과 기술 회고가 섞인 편이었다. 단순히 \"신기하다\"에서 끝나지 않고, 당시 N64로 실제 어떤 최적화를 했는지 경험담과 구현 팁이 길게 이어졌다.\n- Road Rash 64 개발 경험을 꺼내며 당시에도 사실상 오픈월드에 가까운 주행 경험이 가능했다는 증언이 나왔고, N64 성능을 과소평가해선 안 된다는 반응이 눈에 띄었다.\n- 같은 제작자가 예전에 N64용 Portal 리메이크를 만들었다는 언급도 나오면서, 이번 작업을 일회성 장난이 아니라 꾸준한 기술 탐구의 연장선으로 보는 시각이 있었다.\n- 실무적인 논점으로는 카메라 기반 드로우 디스턴스 조절, 먼 거리 오브젝트의 LOD 처리, 빌보드 임포스터 같은 최적화 기법이 반복해서 거론됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-29T06:03:18.572043+00:00"
-    },
-    {
-      "id": "6c778e71bb330c68881ed5ab647c8534ad2a78d4",
-      "title_hash": "b8e740682b351524b01e950e5a31834468c94a90",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "OpenBSD on Motorola 88000 Processors",
-      "link": "http://miod.online.fr/software/openbsd/stories/m88k1.html",
-      "published_at": "2026-03-27T14:39:51+00:00",
-      "summary": "HN story type: story HN points: 75 HN comments: 8 HN top comments: readitalready: I still have some of the 88000 reference manuals, and it was really my first introduction to RISC architecture, and I thought it was great. But I never figured out why companies like Apple never chose it for their CPU? OneDonOne: An excellent source for this architecture is Mitch Alsup and his Usenet posts going back to the late 1980s (he still posted regularly in the 2020s.) zdw: The 88k multi-chip cache/MMU architecture is fascinating, especially how it could be designed with a single cache chip, or a split I/D cache across two or more different chips.",
-      "fetched_at": "2026-03-29T06:00:30.105372+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47543186",
-      "hn_story_type": "story",
-      "hn_points": "75",
-      "hn_comments_count": "8",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47543186",
-      "hn_item_text": "",
-      "hn_comment_preview": "readitalready: I still have some of the 88000 reference manuals, and it was really my first introduction to RISC architecture, and I thought it was great. But I never figured out why companies like Apple never chose it for their CPU?\nOneDonOne: An excellent source for this architecture is Mitch Alsup and his Usenet posts going back to the late 1980s (he still posted regularly in the 2020s.)\nzdw: The 88k multi-chip cache/MMU architecture is fascinating, especially how it could be designed with a single cache chip, or a split I/D cache across two or more different chips.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 2,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "architecture",
-            "cache"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "cache"
-      ],
-      "detail_slug": "6c778e71bb330c68881ed5ab647c8534ad2a78d4",
-      "is_english_source": true,
-      "translated_title": "Motorola 88000에서 구동한 OpenBSD",
-      "short_summary": "OpenBSD를 Motorola 88000 프로세서에서 구동한 사례를 다룬 HN 프론트페이지 글이다. 오래된 RISC 아키텍처와 운영체제 포팅의 감각을 함께 보여주며 하드웨어 설계 맥락도 다시 떠올리게 한다.",
-      "why_it_matters": "최신 기능 발표와는 다른 결의 이야기지만, 운영체제를 낯선 CPU에 올리는 일의 본질을 다시 보여준다는 점에서 눈여겨볼 만하다.\n- 레거시 하드웨어 지원, 에뮬레이터 개발, 부트 체인 점검처럼 저수준 시스템 작업을 하는 팀이라면 포팅 감각과 디버깅 관점을 얻을 수 있다.\n- 88k처럼 사라진 아키텍처도 문서와 커뮤니티 지식이 남아 있으면 되살릴 수 있다는 점이 드러난다. 오래된 장비를 다루는 보존 작업에도 닿아 있다.\n- 당장 제품 기능이 바뀌는 뉴스는 아니지만, OS 이식성과 아키텍처 독립성을 어떻게 확보할지 생각하게 만든다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 반가움과 기술적 호기심 쪽에 가깝다. 예전 88k 문서를 갖고 있었다는 회고부터, 왜 더 널리 쓰이지 못했는지에 대한 궁금증까지 역사와 설계 이야기가 함께 나왔다.\n- 88000이 자신의 첫 RISC 입문이었다는 반응처럼, 한 세대 전 CPU 설계에 대한 향수와 재평가가 반복해서 보인다.\n- Mitch Alsup의 오래된 Usenet 글을 참고 자료로 꼽는 등, 공식 문서 밖의 축적된 커뮤니티 지식이 여전히 가치 있다는 의견이 눈에 띈다.\n- 특히 멀티칩 캐시·MMU 구성 같은 88k 특유의 설계가 흥미로운 논점으로 언급됐다. 실무자 입장에서는 구조적 제약이 소프트웨어 포팅에 어떤 영향을 주는지 떠올려볼 만하다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-29T06:03:18.572043+00:00"
-    },
-    {
-      "id": "73254743d5a9263e1811d349c21621a073b2eda5",
-      "title_hash": "baf13384b414e4767b7c5dc8ca010abc692cbc1f",
-      "source": "GeekNews",
-      "title": "Claude Code, 웹에서 작업 예약 실행하기",
-      "link": "https://news.hada.io/topic?id=27958",
-      "published_at": "2026-03-28T22:33:07+00:00",
-      "summary": "클라우드 예약 기능 으로 반복 업무를 자동화하고, 컴퓨터가 꺼져 있어도 백그라운드에서 실행 가능 예약 방식은 Cloud , Desktop , /loop 세 가지로, 실행 위치와 주기 설정 단위가 다름 웹, 데스크톱 앱,...",
-      "fetched_at": "2026-03-29T01:54:29.026455+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "65",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 20,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "자동화"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "자동화",
-        "claude + code"
-      ],
-      "detail_slug": "73254743d5a9263e1811d349c21621a073b2eda5",
-      "is_english_source": false,
-      "sent_at": "2026-03-29T01:57:44.133918+00:00"
-    },
-    {
-      "id": "693af72eca0ead6f9a062a1f4740f3953e2df658",
-      "title_hash": "ac7f63320930e0c554bbff8e023a7819916aa743",
-      "source": "GeekNews",
-      "title": "스페인 법률을 Git 저장소로 관리하는 Legalize-es 프로젝트",
-      "link": "https://news.hada.io/topic?id=27960",
-      "published_at": "2026-03-29T00:37:02+00:00",
-      "summary": "스페인 정부의 BOE 공개 API 를 통해 수집한 1960년 이후 8,600개 이상 법률 을 Markdown 파일로 관리하는 저장소 각 법률은 YAML 메타데이터 와 함께 저장되며, 모든 개정 이력이 Git 커밋 으로 추적됨 헌법, 유기법, 일반...",
-      "fetched_at": "2026-03-29T01:54:29.026455+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "693af72eca0ead6f9a062a1f4740f3953e2df658",
-      "is_english_source": false,
-      "sent_at": "2026-03-29T01:57:44.133918+00:00"
-    },
-    {
-      "id": "c2f50b2f8038e10883d48015d47a0e0a721f013d",
-      "title_hash": "dce53e64ed41ad4a04d582044fb27c93c45727e6",
-      "source": "GeekNews",
-      "title": "크롬 v145 부터 버티컬 탭 지원 시작",
-      "link": "https://news.hada.io/topic?id=27963",
-      "published_at": "2026-03-29T00:46:01+00:00",
-      "summary": "chrome://flags/#vertical-tabs 에서 활성화 하고 재시작 탭바에서 우클릭 후에 메뉴에서 \"탭을 측면으로 이동(Move Tabs To The Side)\" 선택 탭바 사이즈 조절 가능, 상단에 \"탭 접기\", \"탭 그룹\", \"탭 검색\" 기능 제공 원...",
-      "fetched_at": "2026-03-29T01:54:29.026455+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "c2f50b2f8038e10883d48015d47a0e0a721f013d",
-      "is_english_source": false,
-      "sent_at": "2026-03-29T01:57:44.133918+00:00"
-    },
-    {
-      "id": "6f0faa8e054b54e1cca50083ea6616229e0d6a4e",
-      "title_hash": "2429583d110701783d57c6f818972b59d7e6885f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The first 40 months of the AI era",
-      "link": "https://lzon.ca/posts/other/thoughts-ai-era/",
-      "published_at": "2026-03-28T18:42:08+00:00",
-      "summary": "HN story type: story HN points: 113 HN comments: 49 HN top comments: theteapot: > While I’m certain that this technology is producing some productivity improvements, I’m still genuinely (and frustratingly) unsure just how much of an improvement it is actually creating. I often wonder how much more productive I'd be if just a fraction the effort and money poured into LLMs was spent on better API documentation and conventional coding tools. A lot of the time, I'm resorting to using an AI becaus... aidos: > To what degree did I expand scope because I knew I could do more using the AI? Someone at work recently termed this “Claude Creep”. It’s so easy to generate things push you towards going further but the reality is that’s you’re setting yourself up for more and more work to get them over the line. tkgally: Nice observation about AI-generated content: > I’ve had the idea that from a social perspective it’d be regarded like plastic surgery, in that it only looks weird when its over-done, or done badly.",
-      "fetched_at": "2026-03-29T01:54:29.026455+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47557185",
-      "hn_story_type": "story",
-      "hn_points": "113",
-      "hn_comments_count": "49",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47557185",
-      "hn_item_text": "",
-      "hn_comment_preview": "theteapot: > While I’m certain that this technology is producing some productivity improvements, I’m still genuinely (and frustratingly) unsure just how much of an improvement it is actually creating. I often wonder how much more productive I'd be if just a fraction the effort and money poured into LLMs was spent on better API documentation and conventional coding tools. A lot of the time, I'm resorting to using an AI becaus...\naidos: > To what degree did I expand scope because I knew I could do more using the AI? Someone at work recently termed this “Claude Creep”. It’s so easy to generate things push you towards going further but the reality is that’s you’re setting yourself up for more and more work to get them over the line.\ntkgally: Nice observation about AI-generated content: > I’ve had the idea that from a social perspective it’d be regarded like plastic surgery, in that it only looks weird when its over-done, or done badly.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=25,practical_tech=14,tools_agents=25,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 25,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "rust",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 25,
-          "strong_hits": [
-            "coding tool",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "coding tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "perspective"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding tool",
-        "ide",
-        "llm",
-        "ai + coding"
-      ],
-      "detail_slug": "6f0faa8e054b54e1cca50083ea6616229e0d6a4e",
-      "is_english_source": true,
-      "translated_title": "생성형 AI 시대, 첫 40개월의 현실 점검",
-      "short_summary": "생성형 AI가 퍼진 지난 40개월을 돌아보며, 기대만큼의 생산성 향상이 실제 현장에서 나타났는지 묻는 글이다. HN에서는 도움은 인정하면서도 문서화 부재를 AI로 메우는 현실, 범위 확대, 마무리 비용 증가를 함께 짚었다.",
-      "why_it_matters": "실무에서는 이제 AI를 쓰느냐보다 어디까지 맡기고 어떤 비용을 감수하느냐가 더 큰 문제가 됐다.\n- 초안 작성은 빨라져도 검토와 수정, 출시 직전 다듬기 부담이 뒤로 밀릴 수 있다.\n- API 문서나 기존 개발 도구의 빈틈을 AI로 메우고 있다면, 근본 개선이 더 큰 생산성으로 이어질 수 있다.\n- AI 덕분에 할 수 있는 일이 늘수록 요구 범위도 함께 커지는 이른바 클로드 크리프를 관리해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 낙관 일변도보다 차분한 체감 평가에 가까웠다. 도움이 된다는 데는 대체로 동의하지만, 실제로 얼마나 더 빨라졌는지는 아직 불확실하다는 반응이 많았다.\n- AI를 쓰는 이유가 도구 자체의 완성도보다 부족한 문서와 불편한 개발 환경을 보완하기 위해서라는 지적이 반복됐다.\n- 생산성 향상보다 일의 범위가 불어나 결과적으로 더 많은 마무리 노동을 부른다는 반론이 눈에 띄었다.\n- AI 생성물은 과하면 어색하지만 적절히 쓰면 사회적으로 자연스럽게 받아들여질 것이라는 문화적 비유도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-03-29T01:57:44.133918+00:00"
     }
   ],
   "topic_digests": {
