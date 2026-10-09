@@ -1,6 +1,578 @@
 {
   "items": [
     {
+      "id": "9975d5839fa4e5c7051a4c28461a21d9b2161a89",
+      "title_hash": "a29ab1e6c410b7a812f52c38214e1570f66e249b",
+      "source": "GeekNews",
+      "title": "Rust 오류 처리에 빠진 한 조각",
+      "link": "https://news.hada.io/topic?id=35061",
+      "published_at": "2026-10-09T12:02:38+00:00",
+      "summary": "Rust 오류 처리에서 정확한 오류 타입 과 간편한 전파를 양립하려면, 함수처럼 오류 타입도 쉽게 조합하고 처리한 오류는 타입에서 제거할 수 있어야 함 eros 는 가능한 오류를 튜플 형태의 집합으로 표현하며, 새 enum이나 변환 코드를 선언하지 않고도 오류 집합을...",
+      "fetched_at": "2026-10-09T18:37:09.814658+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "코드"
+      ],
+      "detail_slug": "9975d5839fa4e5c7051a4c28461a21d9b2161a89",
+      "is_english_source": false,
+      "sent_at": "2026-10-09T18:39:39.728179+00:00"
+    },
+    {
+      "id": "2402a66ce58316868a5469c57634c2b40ea876b7",
+      "title_hash": "8e7d5c292ef299dd7c53d97e3551feebae997608",
+      "source": "GeekNews",
+      "title": "Oxide, 약 6,700억원 규모 시리즈 D 투자 유치",
+      "link": "https://news.hada.io/topic?id=35074",
+      "published_at": "2026-10-09T14:36:42+00:00",
+      "summary": "Oxide가 공급을 크게 웃도는 수요에 대응하기 위해 4억 4,500만 달러($445m) 규모의 시리즈 D 투자를 유치함 컴퓨터 판매에서 부품비, 제조비, 급여와 운영비를 차감하고도 과세소득 이 발생해, 봄에 법인 소득세를 납부함 하드웨어 사업은 고객에게 시스템...",
+      "fetched_at": "2026-10-09T18:37:09.814658+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=5,practical_tech=-4,tools_agents=5,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 5,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "투자"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide"
+      ],
+      "detail_slug": "2402a66ce58316868a5469c57634c2b40ea876b7",
+      "is_english_source": false,
+      "sent_at": "2026-10-09T18:39:39.728179+00:00"
+    },
+    {
+      "id": "79cbf29cbb21adc63b744f3a30d4378d2ec54f2d",
+      "title_hash": "0c4435a636fb2392ba3bb06d2454cffccad0783e",
+      "source": "GeekNews",
+      "title": "OpenAI, 분할 원리, 그리고 수학",
+      "link": "https://news.hada.io/topic?id=35064",
+      "published_at": "2026-10-09T12:37:31+00:00",
+      "summary": "OpenAI가 분할 원리(Partition Principle)가 선택 공리를 함의하지 않는다 는 결과를 발표했지만, 선택 공리를 15년 넘게 연구한 Asaf Karagila는 공개된 프리프린트만으로는 연구 전략과 구성을 파악하기 어렵다고 비판함 핵심 문제는 수학적 소통의 품질 로, Karag...",
+      "fetched_at": "2026-10-09T18:37:09.814658+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=5,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 5,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "전략"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rag"
+      ],
+      "detail_slug": "79cbf29cbb21adc63b744f3a30d4378d2ec54f2d",
+      "is_english_source": false,
+      "sent_at": "2026-10-09T18:39:39.728179+00:00"
+    },
+    {
+      "id": "1fe8b30bf776ef82ab7e472d357975467109a8ee",
+      "title_hash": "9bf5529bf8c5002bcd48974f6d06bbc714564b2c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Germany transforms former coal mines into Europe's largest lake landscape",
+      "link": "https://www.euronews.com/2026/04/14/almost-like-lake-como-germany-transforms-former-coal-mines-into-europes-largest-lake-lands",
+      "published_at": "2026-10-09T15:05:24+00:00",
+      "summary": "HN story type: story HN points: 129 HN comments: 68 HN top comments: m4rtink: This is quite normal thing to do for many open pit mines or rather hard not to do if the pit goes below the water table. There are some very nice natural swimming pools in the local area thanks to that, for example: https://www.kudyznudy.cz/aktivity/koupaliste-u-libuse-v-lule... (stone quarry, IMHO one of the best summer swimming pools anywhere) https://cs.wikipedia.org/wiki/Zatopen%C3%BD_lom_v_Blansku (stone quar... larusso: This report seems to be a bit one-sided. They say the lakes will be used as reservoirs for rivers like the spree. The issue is that the spree was feed for years with excess water from the old mines which had to pump the water out. Now they don’t pump water anymore to fill up these lakes and some parts of the spree run low on water during summer. The water table fell a lot over the last 10 to 20 years in Berlin. I’... martin_a: To provide a counterpoint that is missing in the article: Conservation organizations are somewhat skeptical that these projects might take much longer and be more expensive than planned, due to climate change. Projects like Garzweiler and Hambach were expected to take 25 to 30 years to fill up, but with droughts like this summer it might take much longer and the water would have to be diverted from already stresse...",
+      "fetched_at": "2026-10-09T18:37:09.814658+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50021540",
+      "hn_story_type": "story",
+      "hn_points": "129",
+      "hn_comments_count": "68",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50021540",
+      "hn_item_text": "",
+      "hn_comment_preview": "m4rtink: This is quite normal thing to do for many open pit mines or rather hard not to do if the pit goes below the water table. There are some very nice natural swimming pools in the local area thanks to that, for example: https://www.kudyznudy.cz/aktivity/koupaliste-u-libuse-v-lule... (stone quarry, IMHO one of the best summer swimming pools anywhere) https://cs.wikipedia.org/wiki/Zatopen%C3%BD_lom_v_Blansku (stone quar...\nlarusso: This report seems to be a bit one-sided. They say the lakes will be used as reservoirs for rivers like the spree. The issue is that the spree was feed for years with excess water from the old mines which had to pump the water out. Now they don’t pump water anymore to fill up these lakes and some parts of the spree run low on water during summer. The water table fell a lot over the last 10 to 20 years in Berlin. I’...\nmartin_a: To provide a counterpoint that is missing in the article: Conservation organizations are somewhat skeptical that these projects might take much longer and be more expensive than planned, due to climate change. Projects like Garzweiler and Hambach were expected to take 25 to 30 years to fill up, but with droughts like this sum...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=10,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "local"
+      ],
+      "detail_slug": "1fe8b30bf776ef82ab7e472d357975467109a8ee",
+      "is_english_source": true,
+      "sent_at": "2026-10-09T18:39:39.728179+00:00"
+    },
+    {
+      "id": "a1613829c1fa029ef9a3072a28711454def7265c",
+      "title_hash": "e2fac82a8aed9f8aa4f81dd8f7e3d133f85b256e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Our $445M Series D",
+      "link": "https://oxide.computer/blog/our-445m-series-d",
+      "published_at": "2026-10-09T13:12:47+00:00",
+      "summary": "HN story type: story HN points: 419 HN comments: 175 HN top comments: passive: Sounds like a great company raising money for the right reasons. Oxide continues to be one of the most inspiring companies in the space, I was just encouraging someone to apply there yesterday. :) simonw: Love the photo caption \"FIGURE 1. US BEING AS EXCITED AS YOU CAN BE PAYING TAXES\". Oxide are so good at comms. arpinum: I'm surprised they didn't go the debt route, trade finance could cover their customer orders. I know they are risk averse in case companies back out of orders, but bringing on more shareholders is its own form of risk. Is something else going on here, are they locking in orders from AMD and other suppliers beyond their current order backlog?",
+      "fetched_at": "2026-10-09T18:37:09.814658+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50020014",
+      "hn_story_type": "story",
+      "hn_points": "419",
+      "hn_comments_count": "175",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50020014",
+      "hn_item_text": "",
+      "hn_comment_preview": "passive: Sounds like a great company raising money for the right reasons. Oxide continues to be one of the most inspiring companies in the space, I was just encouraging someone to apply there yesterday. :)\nsimonw: Love the photo caption \"FIGURE 1. US BEING AS EXCITED AS YOU CAN BE PAYING TAXES\". Oxide are so good at comms.\narpinum: I'm surprised they didn't go the debt route, trade finance could cover their customer orders. I know they are risk averse in case companies back out of orders, but bringing on more shareholders is its own form of risk. Is something else going on here, are they locking in orders from AMD and other suppliers beyond their current order backlog?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rag"
+      ],
+      "detail_slug": "a1613829c1fa029ef9a3072a28711454def7265c",
+      "is_english_source": true,
+      "sent_at": "2026-10-09T18:39:39.728179+00:00"
+    },
+    {
+      "id": "86816c5f15183c5722821403ce18c085bd9adbd7",
+      "title_hash": "d44f60bb517dd5e58102dbcaa6cd5546dcf202e5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Training Text-to-Image Models Without a VAE",
+      "link": "https://www.linum.ai/field-notes/pyramid-jit",
+      "published_at": "2026-10-06T20:24:52+00:00",
+      "summary": "HN story type: story HN points: 23 HN comments: 7 HN top comments: schopra909: Hi HN, author here! For context, we're a 2-person lab training generative video models. Goal is a new set of controllable, animation tools (you can read more about that here https://www.linum.ai/about if you're curious). The biggest bottleneck for our last text-to-video model in terms of training and inference cost is attention. Video models are incredibly token dense (e.g. 110K tokens for a several second clip).... bitpush: Is there a way to use this in ComfyUI today?",
+      "fetched_at": "2026-10-09T18:37:09.814658+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "49983582",
+      "hn_story_type": "story",
+      "hn_points": "23",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=49983582",
+      "hn_item_text": "",
+      "hn_comment_preview": "schopra909: Hi HN, author here! For context, we're a 2-person lab training generative video models. Goal is a new set of controllable, animation tools (you can read more about that here https://www.linum.ai/about if you're curious). The biggest bottleneck for our last text-to-video model in terms of training and inference cost is attention. Video models are incredibly token dense (e.g. 110K tokens for a several second clip)....\nbitpush: Is there a way to use this in ComfyUI today?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=9,tools_agents=14,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 14,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "inference"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "bottleneck"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "tool"
+      ],
+      "detail_slug": "86816c5f15183c5722821403ce18c085bd9adbd7",
+      "is_english_source": true,
+      "sent_at": "2026-10-09T18:39:39.728179+00:00"
+    },
+    {
+      "id": "7cee92c4ba4b511e67d6255b946b2ca4d6c33478",
+      "title_hash": "b0b68d31c24c7ae165709095821d30b4a671357c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "TypeSafe a Raises $870M at a $7.5B",
+      "link": "https://typesafe.ai/blog/series-ai",
+      "published_at": "2026-10-09T17:02:31+00:00",
+      "summary": "HN story type: story HN points: 26 HN comments: 5 HN top comments: prometheus1992: I really don't understand how this can be. I have sat in fund raising meetings with VCs in toronto and my experience is that there is shit ton of due diligence at the tech level. a product which has no moat, was already available, was duplicated within a couple of days is valued at 7B - i thought we were past the peak of the hype cycle. redoxate: What edge do they have over the market to justify such evaluation",
+      "fetched_at": "2026-10-09T18:37:09.814658+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50023450",
+      "hn_story_type": "story",
+      "hn_points": "26",
+      "hn_comments_count": "5",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50023450",
+      "hn_item_text": "",
+      "hn_comment_preview": "prometheus1992: I really don't understand how this can be. I have sat in fund raising meetings with VCs in toronto and my experience is that there is shit ton of due diligence at the tech level. a product which has no moat, was already available, was duplicated within a couple of days is valued at 7B - i thought we were past the peak of the hype cycle.\nredoxate: What edge do they have over the market to justify such evaluation",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=7,practical_tech=0,tools_agents=-2,strategy_insight=2,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": -2,
+        "strategy_insight": 2,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "valuation"
+          ],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "valuation",
+        "market"
+      ],
+      "detail_slug": "7cee92c4ba4b511e67d6255b946b2ca4d6c33478",
+      "is_english_source": true,
+      "sent_at": "2026-10-09T18:39:39.728179+00:00"
+    },
+    {
       "id": "55dad6a68a43e680677ab2da6cc7b4ebd054ecdf",
       "title_hash": "41c38d560fbfe8971c8aedaaaf5dbd45615471ab",
       "source": "GeekNews",
@@ -170970,599 +171542,6 @@
       "hn_reaction_summary": "현재 HN 메타데이터상 이 글은 반응이 거의 없는 채용 공고다. 댓글 흐름에서 별도 쟁점이 형성되진 않았고, 커뮤니티 평가를 읽기에는 표본이 너무 적다.\n- 포인트는 1점, 댓글은 0개라서 기술 선택이나 회사에 대한 집단적 판단은 드러나지 않았다.\n- 토론이 붙지 않아 연봉, 원격 근무, 제품 방향 같은 실무 관심사는 HN 댓글만으로는 확인할 수 없다.\n- 지금 단계에서는 여론보다 'Rust 기반 DB 내부 엔지니어 채용'이라는 사실 자체가 핵심 정보다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-03T00:48:16.924629+00:00"
-    },
-    {
-      "id": "84d89765aff84f7d4a84c4352849c5d3946d8884",
-      "title_hash": "83b35d8047d22dcdf05afa9b4218d6071f970b83",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The Australian government has announced gambling advertising reforms",
-      "link": "https://www.bbc.com/news/articles/c62492e925lo",
-      "published_at": "2026-04-02T18:24:12+00:00",
-      "summary": "HN story type: story HN points: 87 HN comments: 60 HN top comments: NamTaf: Finally. The deluge of gambling ads on TV during Friday night footy is absolutely appalling. There’s a very robust conduit for normalising sports gambling through advertisements around the broadcasts and it’s clearly influencing young adults. I’ve noticed a dramatic uptick in how common it is compared to when I was that age. pelagicAustral: I fashion myself a bit of a fan of football and an occasional F1 viewer, and I must say, every time I watch a live event with friends I can't help but mention how betting houses have completely taken over the advertising space. Betson, Betano, Betway, bet365,etc... that and the pervasive Crypto.com it is unbelievable how they are trying to find a niche in this demographic. The crypto ones are the best, it's like t... clickety_clack: Ireland needs this. I don’t live there anymore, but the amount of ads literally everywhere you go there these days is insane. Gambling ruins lives.",
-      "fetched_at": "2026-04-03T00:45:12.133503+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47618221",
-      "hn_story_type": "story",
-      "hn_points": "87",
-      "hn_comments_count": "60",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47618221",
-      "hn_item_text": "",
-      "hn_comment_preview": "NamTaf: Finally. The deluge of gambling ads on TV during Friday night footy is absolutely appalling. There’s a very robust conduit for normalising sports gambling through advertisements around the broadcasts and it’s clearly influencing young adults. I’ve noticed a dramatic uptick in how common it is compared to when I was that age.\npelagicAustral: I fashion myself a bit of a fan of football and an occasional F1 viewer, and I must say, every time I watch a live event with friends I can't help but mention how betting houses have completely taken over the advertising space. Betson, Betano, Betway, bet365,etc... that and the pervasive Crypto.com it is unbelievable how they are trying to find a niche in this demographic. The crypto ones are the best, it's like t...\nclickety_clack: Ireland needs this. I don’t live there anymore, but the amount of ads literally everywhere you go there these days is insane. Gambling ruins lives.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "31",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cli"
-      ],
-      "detail_slug": "84d89765aff84f7d4a84c4352849c5d3946d8884",
-      "is_english_source": true,
-      "translated_title": "호주 정부, 도박 광고 규제 개편안 발표",
-      "short_summary": "호주 정부가 도박 광고 개편안을 발표했다. HN에서는 스포츠 중계가 베팅 광고로 뒤덮이며 젊은 층의 도박을 일상처럼 만들고 있다는 우려가 이어졌다.",
-      "why_it_matters": "이번 발표는 스포츠 중계와 광고 수익에 기대 온 시장 관행에 제동이 걸릴 수 있다는 신호다. 실무 현장에서는 광고 판매, 스폰서십, 브랜드 안전 기준을 함께 다시 볼 가능성이 크다.\n- 방송사와 플랫폼은 도박 광고 노출 시간대와 연령 보호 기준을 더 엄격하게 설계해야 할 수 있다.\n- 스포츠 콘텐츠에 베팅 브랜드를 깊게 묶어 온 업계는 후원 계약과 광고 패키지 구성에 조정이 생길 여지가 있다.\n- 이런 흐름이 다른 나라로 번지면 글로벌 캠페인 운영도 국가별 규제와 크리에이티브 분리를 더 촘촘하게 가져가야 한다.",
-      "hn_reaction_summary": "HN 분위기는 대체로 환영 쪽에 가까웠다. 댓글에서는 스포츠 시청 경험이 베팅 광고에 잠식됐다는 피로감과, 이런 노출이 젊은 층의 도박 감각을 무디게 만든다는 우려가 반복됐다.\n- 금요일 밤 풋티나 F1 같은 생중계를 볼 때 베팅 업체가 광고 지면을 거의 장악했다는 경험담이 여럿 나왔다.\n- 단순히 광고가 많다는 불만보다, 스포츠와 도박을 자연스럽게 묶어 버리는 구조 자체가 문제라는 지적이 두드러졌다.\n- 아일랜드 사례를 끌어오며 다른 나라에도 비슷한 규제가 필요하다는 공감이 이어졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-03T00:48:16.924629+00:00"
-    },
-    {
-      "id": "997ffa7285056c05ddd0afa552207e757921d225",
-      "title_hash": "cf52f02237f0056406b45804e0c21ef23886aee1",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "George Goble has died",
-      "link": "https://www.legacy.com/us/obituaries/wlfi/name/george-goble-obituary?id=61144779",
-      "published_at": "2026-04-02T18:21:08+00:00",
-      "summary": "HN story type: story HN points: 100 HN comments: 19 HN post text: https://en.wikipedia.org/wiki/George_H._Goble HN top comments: finaard: His obituary or wikipedia page are well worth a read for what he was involved in - though he probably is best known for lighting a BBQ in under 5 seconds by use of liquid oxygen, and getting into trouble with the local firedepartment for that. He used to have that video on his website - which I've discovered via a Usenet discussion not too long after it happened. It was one of the first videos I've downloaded via... svggrfgovgf: Sorry to hear. I remember George running the EE PDP-11 as a time share system with Lear Siegler ADM-3A terminals at Purdue while the CS department (as part of the school of science) was using punch cards! The EE department had a room with 10 or so ADM-3As connected to a single PDP-11 that had a few 100KBs of RAM (512KB?). (photos of ADM-3A at http://dunfield.classiccmp.org/altair/altair5.htm It has 24 lines of 80... tantalor: Lighting a charcoal grill with liquid oxygen: https://www.youtube.com/watch?v=UjPxDOEdsX8",
-      "fetched_at": "2026-04-03T00:45:12.133503+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47618176",
-      "hn_story_type": "story",
-      "hn_points": "100",
-      "hn_comments_count": "19",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47618176",
-      "hn_item_text": "https://en.wikipedia.org/wiki/George_H._Goble",
-      "hn_comment_preview": "finaard: His obituary or wikipedia page are well worth a read for what he was involved in - though he probably is best known for lighting a BBQ in under 5 seconds by use of liquid oxygen, and getting into trouble with the local firedepartment for that. He used to have that video on his website - which I've discovered via a Usenet discussion not too long after it happened. It was one of the first videos I've downloaded via...\nsvggrfgovgf: Sorry to hear. I remember George running the EE PDP-11 as a time share system with Lear Siegler ADM-3A terminals at Purdue while the CS department (as part of the school of science) was using punch cards! The EE department had a room with 10 or so ADM-3As connected to a single PDP-11 that had a few 100KBs of RAM (512KB?). (photos of ADM-3A at http://dunfield.classiccmp.org/altair/altair5.htm It has 24 lines of 80...\ntantalor: Lighting a charcoal grill with liquid oxygen: https://www.youtube.com/watch?v=UjPxDOEdsX8",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "34",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=10,practical_tech=10,tools_agents=9,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 10,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "local + run"
-      ],
-      "detail_slug": "997ffa7285056c05ddd0afa552207e757921d225",
-      "is_english_source": true,
-      "translated_title": "퍼듀의 전설적 엔지니어 조지 고블 별세",
-      "short_summary": "해커뉴스에 퍼듀대 엔지니어이자 실험가로 알려진 조지 고블의 별세 소식이 올라왔다. 댓글에는 PDP-11 시분할 시스템 운영과 액체산소 바비큐 시연 같은 일화가 함께 회고됐다.",
-      "why_it_matters": "한 사람의 부고를 넘어 초기 컴퓨팅 현장을 떠받친 실무형 엔지니어의 흔적을 다시 보게 하는 이야기다. 연구실과 학교 인프라를 직접 굴리던 세대가 어떤 방식으로 기술 문화를 만들었는지 돌아보게 한다.\n- 화려한 제품 발표보다 현장 운영 경험이 기술사의 큰 축이었다는 점을 보여준다.\n- EE 학과의 PDP-11 시분할 시스템 일화는 조직마다 컴퓨팅 도입 속도와 방식이 얼마나 달랐는지 실감하게 한다.\n- 액체산소로 바비큐를 붙인 시연처럼, 실험 정신과 안전 감각의 경계가 당시 엔지니어 문화의 한 단면으로 읽힌다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 애도와 회고에 가깝다. 단순한 유명 일화보다 그가 남긴 현장 경험과 기술 문화에 더 무게를 두는 반응이 눈에 띈다.\n- 가장 많이 반복된 포인트는 액체산소 바비큐 시연이다. 다만 몇몇 댓글은 이 장면만으로 기억되기엔 아깝다고 짚는다.\n- 퍼듀에서 PDP-11과 ADM-3A 단말기를 돌리던 시절을 직접 기억하는 증언이 나오며, 초기 시분할 환경의 생생한 분위기를 전한다.\n- 읽어볼 만한 자료로 부고나 위키 문서를 권하는 반응이 이어졌고, 한 인물의 경력을 따라가면 컴퓨팅 초창기 맥락이 함께 보인다는 의견이 많다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-03T00:48:16.924629+00:00"
-    },
-    {
-      "id": "32dcf01fd8ade128756e6790f45a1956acacfbe0",
-      "title_hash": "4240d4ce69b207905aef2f7f14608b282c0dba9e",
-      "source": "GeekNews",
-      "title": "Claude Code, 깜빡임 없는 NO_FLICKER 모드 공개",
-      "link": "https://news.hada.io/topic?id=28108",
-      "published_at": "2026-04-02T01:37:02+00:00",
-      "summary": "기존 렌더러의 화면 깜박임·점프 현상을 해소 하는 실험적 렌더러 도입 대화가 길어져도 메모리·CPU 사용량이 일정 하게 유지되며, 터미널 환경에서 마우스 클릭·커서 이동·UI 요소 클릭이 가능 해짐 CLAUDE_CODE_NO_FLICKER=1",
-      "fetched_at": "2026-04-02T20:37:14.443071+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 15,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "32dcf01fd8ade128756e6790f45a1956acacfbe0",
-      "is_english_source": false,
-      "sent_at": "2026-04-02T20:40:35.177499+00:00"
-    },
-    {
-      "id": "cba1c7ba2333ce75aa947eff0b8bef9c76f4696a",
-      "title_hash": "15b8fb6a5f28f71977350a896d3c913e73d5767a",
-      "source": "GeekNews",
-      "title": "OpenAI의 무덤: 성사되지 못한 모든 거래와 제품들",
-      "link": "https://news.hada.io/topic?id=28107",
-      "published_at": "2026-04-02T01:36:35+00:00",
-      "summary": "IPO를 앞두고 수익성 압박이 커지면서, OpenAI가 야심차게 발표했던 다수의 제품과 파트너십 딜들이 취소·지연·불투명 상태로 남겨지고 있음 Sora-Disney 10억 달러 딜 이 돌연 취소된 것을 비롯해, ChatGPT 쇼핑 기능, 성인용 모드 등 여러 이니셔티브가 잇따라 폐기됨 ...",
-      "fetched_at": "2026-04-02T20:37:14.443071+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "55",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=10,practical_tech=-4,tools_agents=4,strategy_insight=3,industry_business=10",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 10
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "ipo"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 10,
-          "strong_hits": [
-            "파트너십",
-            "ipo"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "파트너십",
-        "ipo"
-      ],
-      "detail_slug": "cba1c7ba2333ce75aa947eff0b8bef9c76f4696a",
-      "is_english_source": false,
-      "sent_at": "2026-04-02T20:40:35.177499+00:00"
-    },
-    {
-      "id": "13b72545fc21e01fc496fc886296f216bf4584e5",
-      "title_hash": "37a3810a40dcddeb383fa887d311adc1ba966228",
-      "source": "GeekNews",
-      "title": "FreeBSD 원격 커널 RCE(CVE-2026-4747)로 root 쉘 획득",
-      "link": "https://news.hada.io/topic?id=28130",
-      "published_at": "2026-04-02T16:36:55+00:00",
-      "summary": "FreeBSD의 kgssapi.ko 모듈 에서 RPCSEC_GSS 인증 처리 중 스택 버퍼 오버플로 가 발생해 원격 코드 실행 가능 svc_rpc_gss_validate() 함수가 경계 검사 없이 자격 증명 데이터를 복사 하면서 반환 주소까지 덮어씀 공격자는...",
-      "fetched_at": "2026-04-02T20:37:14.443071+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api",
-        "코드"
-      ],
-      "detail_slug": "13b72545fc21e01fc496fc886296f216bf4584e5",
-      "is_english_source": false,
-      "sent_at": "2026-04-02T20:40:35.177499+00:00"
-    },
-    {
-      "id": "206795a6586315ef49cb5ef94b1220c98ad3a5e7",
-      "title_hash": "4afd0313d9bbd42e1041d219a8d7eea78cb585c7",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Cursor 3",
-      "link": "https://cursor.com/blog/cursor-3",
-      "published_at": "2026-04-02T18:13:41+00:00",
-      "summary": "HN story type: story HN points: 102 HN comments: 90 HN top comments: seamossfet: Man, I wish they'd keep the old philosophy of letting the developer drive and the agent assist. I feel like this design direction is leaning more towards a chat interface as a first class citizen and the code itself as a secondary concern. I really don't like that. Even when I'm using AI agents to write code, I still find myself spending most of my time reading and reasoning about code. Showing me little snippets... nu11ptr: I've been running Claude Code in my Cursor IDE for a while now via extension. I like the setup, and I direct Claude on one task at a time, while still having full access to my code (and nice completions via Cursor). I still spend time tweaking, etc. before committing. I have zero interest in these new \"swarms of agents\" they are trying to force on us from every direction. I can barely keep straight my code working... zwaps: I like cursor and its workflow as a tool, but I do wonder whether moving to cloud (I mean for lots of the cool features) will work. Yes we all GET Cursor has to make money. No one is fooled what this is about. It's also fine, the video and screenshot thing is great. However, is this really a moat?",
-      "fetched_at": "2026-04-02T20:37:14.443071+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47618084",
-      "hn_story_type": "story",
-      "hn_points": "102",
-      "hn_comments_count": "90",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47618084",
-      "hn_item_text": "",
-      "hn_comment_preview": "seamossfet: Man, I wish they'd keep the old philosophy of letting the developer drive and the agent assist. I feel like this design direction is leaning more towards a chat interface as a first class citizen and the code itself as a secondary concern. I really don't like that. Even when I'm using AI agents to write code, I still find myself spending most of my time reading and reasoning about code. Showing me little snippets...\nnu11ptr: I've been running Claude Code in my Cursor IDE for a while now via extension. I like the setup, and I direct Claude on one task at a time, while still having full access to my code (and nice completions via Cursor). I still spend time tweaking, etc. before committing. I have zero interest in these new \"swarms of agents\" they are trying to force on us from every direction. I can barely keep straight my code working...\nzwaps: I like cursor and its workflow as a tool, but I do wonder whether moving to cloud (I mean for lots of the cool features) will work. Yes we all GET Cursor has to make money. No one is fooled what this is about. It's also fine, the video and screenshot thing is great. However, is this really a moat?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "73",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=49,practical_tech=4,tools_agents=49,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 49,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 49,
-          "strong_hits": [
-            "claude code",
-            "workflow",
-            "ai agent",
-            "cursor",
-            "ide"
-          ],
-          "support_hits": [
-            "extension",
-            "workflow",
-            "agent",
-            "setup",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + workflow",
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "workflow",
-        "ai agent",
-        "cursor",
-        "ide",
-        "extension",
-        "agent",
-        "setup",
-        "tool",
-        "agent + workflow",
-        "claude + code"
-      ],
-      "detail_slug": "206795a6586315ef49cb5ef94b1220c98ad3a5e7",
-      "is_english_source": true,
-      "translated_title": "Cursor 3 공개, 개발자 주도권 논쟁",
-      "short_summary": "Cursor 3가 HN 전면에 오르며 AI 코딩 도구의 방향을 둘러싼 논쟁이 커졌다. 이용자들은 강한 에이전트 기능과 클라우드 의존 확대보다, 개발자가 주도하는 코드 중심 흐름을 더 원한다는 반응을 보였다.",
-      "why_it_matters": "이번 반응은 AI IDE 경쟁이 성능 비교를 넘어, 작업 흐름의 주도권을 누가 쥐느냐로 옮겨가고 있음을 보여준다.\n- 대화창과 다중 에이전트가 전면에 나오면, 코드 탐색과 검토 비중이 큰 실무자에게는 생산성보다 인지 부담이 더 커질 수 있다.\n- 클라우드 기반 기능이 늘수록 비용, 지연, 사내 코드 반출 우려를 함께 따져야 한다.\n- 결국 시장은 완전 자동화보다 '한 번에 한 작업을 맡기고 최종 판단은 사람이 한다'는 운영 방식에 더 민감하게 반응하고 있다.",
-      "hn_reaction_summary": "댓글 분위기는 기대감보다는 경계에 가까웠다. Cursor 자체에 대한 호감은 있지만, 이번 방향이 개발자를 돕는 도구에서 에이전트 중심 인터페이스로 기우는 점을 불편해하는 의견이 많았다.\n- '코드는 결국 사람이 읽고 판단해야 한다'는 반응이 반복해서 올라왔다.\n- 여러 에이전트가 동시에 움직이는 스웜식 UX는 복잡성만 키운다는 비판이 눈에 띄었다.\n- 영상·스크린샷 기능은 흥미롭다는 반응도 있었지만, 클라우드 의존과 수익화 전략에 대한 회의론이 함께 붙었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-02T20:40:35.177499+00:00"
-    },
-    {
-      "id": "40448c32f20a22d63bd861f30268285b1fe23f96",
-      "title_hash": "40c6117bd4bceb622363a8e069b6bcca72a22dc7",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "US Burned 14 Years of Missiles in 30 Days",
-      "link": "https://trendytechtribe.com/energy/us-burned-14-years-missiles-30-days",
-      "published_at": "2026-04-02T20:24:11+00:00",
-      "summary": "HN story type: story HN points: 32 HN comments: 5 HN top comments: TheOtherHobbes: Interestingly, this leaves the US much less able to deal with a war with some other enemy. ljsprague: \"The burn rate is unsustainable: The US fired 850+ Tomahawk cruise missiles in 30 days but purchased only 57 in the FY2026 budget. That is 14.9 years of production consumed in a single month.\" Does the author think the US can only make 57 missiles a year? righthand: The Xeno Databse game(?) on that site is beyond abstract in purpose. You also have to scroll to the end of the page, not article to “collect” it.",
-      "fetched_at": "2026-04-02T20:37:14.443071+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47619701",
-      "hn_story_type": "story",
-      "hn_points": "32",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47619701",
-      "hn_item_text": "",
-      "hn_comment_preview": "TheOtherHobbes: Interestingly, this leaves the US much less able to deal with a war with some other enemy.\nljsprague: \"The burn rate is unsustainable: The US fired 850+ Tomahawk cruise missiles in 30 days but purchased only 57 in the FY2026 budget. That is 14.9 years of production consumed in a single month.\" Does the author think the US can only make 57 missiles a year?\nrighthand: The Xeno Databse game(?) on that site is beyond abstract in purpose. You also have to scroll to the end of the page, not article to “collect” it.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "production",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "production",
-        "rag"
-      ],
-      "detail_slug": "40448c32f20a22d63bd861f30268285b1fe23f96",
-      "is_english_source": true,
-      "translated_title": "미국, 한 달 만에 미사일 14년치 소진",
-      "short_summary": "HN에 오른 이 글은 미국이 30일 동안 토마호크 순항미사일 850기 이상을 써 사실상 수년치 물량을 소모했다고 짚는다. 다만 댓글에서는 이 수치가 예산 편성과 실제 생산능력을 섞어 과장된 것 아니냐는 반론도 나왔다.",
-      "why_it_matters": "이 글이 던지는 쟁점은 자극적인 숫자보다 전시 소모율과 방산 생산 속도 사이의 간극이다. 재고는 빠르게 줄어드는데 보충이 늦으면 작전 선택지와 억지력에 바로 부담이 생긴다.\n- 단기간 고강도 작전이 이어지면 평시 조달 계획만으로는 재고를 메우기 어렵다는 점을 보여준다.\n- 실무적으로는 예산 증액만이 아니라 생산 라인 확대, 부품 공급망 점검, 납기 단축이 함께 과제로 떠오른다.\n- 다른 분쟁까지 동시에 대비해야 하는 조직이라면 지금 보유량보다 얼마나 빨리 다시 만들 수 있는지가 더 큰 변수로 작동한다.",
-      "hn_reaction_summary": "댓글 분위기는 기사 문제의식에는 일정 부분 공감하면서도 '14년치 소진'이라는 계산은 그대로 믿기 어렵다는 쪽에 가까웠다. 반응 수는 많지 않았지만 실무자가 볼 만한 논점은 분명했다.\n- 한쪽에서는 이런 소모 속도가 이어지면 미국의 다른 전장 대응 여력이 줄 수 있다는 우려가 나왔다.\n- 다른 쪽에서는 FY2026 예산상 구매 수량을 연간 생산능력처럼 읽은 것 아니냐며 기사 프레이밍을 비판했다.\n- 일부는 기사보다 사이트 구성과 읽기 경험을 문제 삼았는데, 전달 방식이 내용의 신뢰도 판단에도 영향을 준다는 반응으로 볼 수 있다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-02T20:40:35.177499+00:00"
     }
   ],
   "topic_digests": {
