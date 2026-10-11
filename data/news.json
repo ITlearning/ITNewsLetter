@@ -1,6 +1,494 @@
 {
   "items": [
     {
+      "id": "c8cb3db108e00206a5af900f16246672f82da0cc",
+      "title_hash": "881ccbb79adf4aaa2aac7326b7e2c0380d021592",
+      "source": "GeekNews",
+      "title": "Show GN: buttonmasher – 중복 결제와 재시도 버그를 찾아보는 Claude Code 스킬",
+      "link": "https://news.hada.io/topic?id=35162",
+      "published_at": "2026-10-11T11:54:13+00:00",
+      "summary": "결제 API에서 orders(cart_id) 에 unique 제약을 걸어두면 이중 결제가 막힐까요? 결제 API를 먼저 호출하고 주문을 저장하는 구조라면 막히지 않습니다. 결제 버튼을 두 번 눌렀을 때 두 요청 모두 주문이 저장되기 전에 결제 API를 호출할 수 있기 때문입니다. unique 제약은 이후의 INSERT만 막",
+      "fetched_at": "2026-10-11T12:16:22.514431+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=5,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "c8cb3db108e00206a5af900f16246672f82da0cc",
+      "is_english_source": false,
+      "sent_at": "2026-10-11T12:18:53.334306+00:00"
+    },
+    {
+      "id": "ed7d70b3a3f3584e28ff6f415fc68e719b3e0adf",
+      "title_hash": "0259f3ad53d7f62b51e9cd50ebfd12ff166eda49",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "LineageOS 24.0",
+      "link": "https://lineageos.org/Changelog-32/",
+      "published_at": "2026-10-11T06:18:59+00:00",
+      "summary": "HN story type: story HN points: 159 HN comments: 41 HN top comments: deng: I was secretly hoping they'd stop supporting the Pixel 4a so I would have a reason to get a new phone, but no, still there in the list of supported devices. So I guess I'll just keep using that thing another year... Anyway: big thanks to the Lineage maintainers, keeping so many phones from landfill! haunter: >Recently, Contributor 0xCAFEBABE introduced a very different kind of generic target that can be run on various types of bare-metal hardware devices. >While it’s still in experimental state, it has successfully booted on: >Common x86_64 PCs >Apple Silicon Macs >NVIDIA DGX Spark >Qualcomm Snapdragon X Series Laptops That actually sounds awesome! Refurbishing old laptops with Android would be a nice choice alongside... khkjlhgkl: I love LineageOS. I have been using Lineage and previously Cyanogen for many years. This is how Android is meant to be.",
+      "fetched_at": "2026-10-11T12:16:22.514431+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50040276",
+      "hn_story_type": "story",
+      "hn_points": "159",
+      "hn_comments_count": "41",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50040276",
+      "hn_item_text": "",
+      "hn_comment_preview": "deng: I was secretly hoping they'd stop supporting the Pixel 4a so I would have a reason to get a new phone, but no, still there in the list of supported devices. So I guess I'll just keep using that thing another year... Anyway: big thanks to the Lineage maintainers, keeping so many phones from landfill!\nhaunter: >Recently, Contributor 0xCAFEBABE introduced a very different kind of generic target that can be run on various types of bare-metal hardware devices. >While it’s still in experimental state, it has successfully booted on: >Common x86_64 PCs >Apple Silicon Macs >NVIDIA DGX Spark >Qualcomm Snapdragon X Series Laptops That actually sounds awesome! Refurbishing old laptops with Android would be a nice choice alongside...\nkhkjlhgkl: I love LineageOS. I have been using Lineage and previously Cyanogen for many years. This is how Android is meant to be.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rag"
+      ],
+      "detail_slug": "ed7d70b3a3f3584e28ff6f415fc68e719b3e0adf",
+      "is_english_source": true,
+      "sent_at": "2026-10-11T12:18:53.334306+00:00"
+    },
+    {
+      "id": "bef4346cf02e1e53f9ea24362226ddd6216b2dbe",
+      "title_hash": "b55733cfba0b0d2fee366623b38b6eb8952b04a6",
+      "source": "GeekNews",
+      "title": "버그를 환자처럼, 코딩 에이전트를 의료팀처럼 다룬 5개월",
+      "link": "https://news.hada.io/topic?id=35160",
+      "published_at": "2026-10-11T10:34:40+00:00",
+      "summary": "Cockroach Labs는 계획 검토, 독립적인 코드 리뷰, 인계와 병합 감사를 거치는 교육병원형 코딩 파이프라인 MOLT Sinai 를 구축해 약 5개월간 운영함 첫 대형 실험인 IBM Db2 마이그레이션 지원 은 사람이 코드를 작성하지 않고 이틀 미만, 토큰 비용 4,172달러에 구...",
+      "fetched_at": "2026-10-11T12:16:22.514431+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=8,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "코드 리뷰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "코드 리뷰"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "bef4346cf02e1e53f9ea24362226ddd6216b2dbe",
+      "is_english_source": false,
+      "sent_at": "2026-10-11T12:18:53.334306+00:00"
+    },
+    {
+      "id": "c1ab4f32a3a853333da5eeb4b281cb3c796c8fb6",
+      "title_hash": "39da0f663e93b27a034b0c640068f2fb6b7a8f34",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Sudden drop in Cloudflare bot traffic after strike on Yandex datacenter",
+      "link": "https://radar.cloudflare.com/bots/as13238?dateRange=7d",
+      "published_at": "2026-10-11T10:27:53+00:00",
+      "summary": "HN story type: story HN points: 169 HN comments: 49 HN top comments: londons_explore: Yandex is Russian Google. Of course they have bots... That's how you index the web. If we took Google offline I bet there would also be a reduction in bot traffic from them too! Indexing is also probably a low priority task, so if half their datacenter capacity is taken offline, their bot traffic probably reduces by more than 50%. throwaw12: Someone needs to learn how to read the Bot Traffic page. That is a drop in traffic specifically from Yandex bots (which includes their crawlers and other apps hosted in their DC) Now compare it with Bot Traffic in: * Russia: https://radar.cloudflare.com/bots/ru?dateRange=7d * Europe: https://radar.cloudflare.com/bots/europe?dateRange=7d * Worldwide: https://radar.cloudflare.com/bots?dateRange=7d Dip is barely noti... f311a: I can’t believe there are so many dumb comments in this thread. All it shows is that crawling from Yandex search engine stopped from one Yandex data center ASN. No one runs opinion bots from data center IPs that people mention here.",
+      "fetched_at": "2026-10-11T12:16:22.514431+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50041619",
+      "hn_story_type": "story",
+      "hn_points": "169",
+      "hn_comments_count": "49",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50041619",
+      "hn_item_text": "",
+      "hn_comment_preview": "londons_explore: Yandex is Russian Google. Of course they have bots... That's how you index the web. If we took Google offline I bet there would also be a reduction in bot traffic from them too! Indexing is also probably a low priority task, so if half their datacenter capacity is taken offline, their bot traffic probably reduces by more than 50%.\nthrowaw12: Someone needs to learn how to read the Bot Traffic page. That is a drop in traffic specifically from Yandex bots (which includes their crawlers and other apps hosted in their DC) Now compare it with Bot Traffic in: * Russia: https://radar.cloudflare.com/bots/ru?dateRange=7d * Europe: https://radar.cloudflare.com/bots/europe?dateRange=7d * Worldwide: https://radar.cloudflare.com/bots?dateRange=7d Dip is barely noti...\nf311a: I can’t believe there are so many dumb comments in this thread. All it shows is that crawling from Yandex search engine stopped from one Yandex data center ASN. No one runs opinion bots from data center IPs that people mention here.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "index"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "index",
+        "how to"
+      ],
+      "detail_slug": "c1ab4f32a3a853333da5eeb4b281cb3c796c8fb6",
+      "is_english_source": true,
+      "sent_at": "2026-10-11T12:18:53.334306+00:00"
+    },
+    {
+      "id": "abea6fb5daece13d1702f7f4c5c8aa6e73c254bf",
+      "title_hash": "b33f84463ba362958d520adeb259aa61c7a628a4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "PSPi 6 – Raspberry Pi in a PSP",
+      "link": "https://github.com/othermod/PSPi-Version-6",
+      "published_at": "2026-10-11T00:45:49+00:00",
+      "summary": "HN story type: story HN points: 105 HN comments: 10 HN top comments: erk__: Anyone who has a PSP laying around somewhere should go have a look at it because the battery in them consistently turn into a rather spicy pillow. Which I guess makes mod like this more interesting. networked: Awesome! It looks like eBay still has relatively inexpensive units sold for parts, so you can avoid cannibalizing a working PSP-1000 for this. I wonder what it would take to adapt the design for the smaller PSP-2000/3000. theodric: A fine one-off. Pi SoCs have no sleep/suspend mode, so you'll be pocketing it powered on or waiting for it to boot every time you go to use it. Furthermore, you have to destroy a PSP to build this, AND buy an overpriced Pi (seriously, go look at the prices now) to shove in it, which will probably cost you more than a more capable and already-built modern retro portable. All that aside, I have been down such paths...",
+      "fetched_at": "2026-10-11T12:16:22.514431+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50038623",
+      "hn_story_type": "story",
+      "hn_points": "105",
+      "hn_comments_count": "10",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50038623",
+      "hn_item_text": "",
+      "hn_comment_preview": "erk__: Anyone who has a PSP laying around somewhere should go have a look at it because the battery in them consistently turn into a rather spicy pillow. Which I guess makes mod like this more interesting.\nnetworked: Awesome! It looks like eBay still has relatively inexpensive units sold for parts, so you can avoid cannibalizing a working PSP-1000 for this. I wonder what it would take to adapt the design for the smaller PSP-2000/3000.\ntheodric: A fine one-off. Pi SoCs have no sleep/suspend mode, so you'll be pocketing it powered on or waiting for it to boot every time you go to use it. Furthermore, you have to destroy a PSP to build this, AND buy an overpriced Pi (seriously, go look at the prices now) to shove in it, which will probably cost you more than a more capable and already-built modern retro portable. All that aside, I have been down such paths...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "34",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=10,practical_tech=7,tools_agents=10,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "github.com"
+      ],
+      "detail_slug": "abea6fb5daece13d1702f7f4c5c8aa6e73c254bf",
+      "is_english_source": true,
+      "sent_at": "2026-10-11T12:18:53.334306+00:00"
+    },
+    {
+      "id": "559424f040ea7b8316f1773b782564203ff3311a",
+      "title_hash": "3e1d81d98bc264aa11c84c8cf0c20eebcd22d2eb",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "I paid people to try and follow my README",
+      "link": "https://shkspr.mobi/blog/2026/10/i-paid-people-to-try-and-follow-my-readme/",
+      "published_at": "2026-10-11T11:47:29+00:00",
+      "summary": "HN story type: story HN points: 20 HN comments: 6 HN top comments: coo1estguy: This used to be called \"I hired QA people to identify gaps in my project\", but hey now it has become paying people to follow readme WhyNotHugo: There's a zeroth step missing from both the Quickstart and Full Set Up: install php-fpm, configure it, and configure your http server to serve using it as a backend. It seems to be taken for granted — that's something you'd already have in place if you're already serving applications in PHP, but would have to figure out on your own if you haven't served anything in PHP so far in your life. commandersaki: I hate READMEs with a gazillion emojis, too much noise.",
+      "fetched_at": "2026-10-11T12:16:22.514431+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50042219",
+      "hn_story_type": "story",
+      "hn_points": "20",
+      "hn_comments_count": "6",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50042219",
+      "hn_item_text": "",
+      "hn_comment_preview": "coo1estguy: This used to be called \"I hired QA people to identify gaps in my project\", but hey now it has become paying people to follow readme\nWhyNotHugo: There's a zeroth step missing from both the Quickstart and Full Set Up: install php-fpm, configure it, and configure your http server to serve using it as a backend. It seems to be taken for granted — that's something you'd already have in place if you're already serving applications in PHP, but would have to figure out on your own if you haven't served anything in PHP so far in your life.\ncommandersaki: I hate READMEs with a gazillion emojis, too much noise.",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "33",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=9,practical_tech=4,tools_agents=7,strategy_insight=9,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 9,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "noise"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "noise",
+        "why"
+      ],
+      "detail_slug": "559424f040ea7b8316f1773b782564203ff3311a",
+      "is_english_source": true,
+      "sent_at": "2026-10-11T12:18:53.334306+00:00"
+    },
+    {
       "id": "0420498fe5577dc6d40008de8b14113e30cccf9a",
       "title_hash": "1fb5f40cd99377749ec855c51858f7ad7c23a2da",
       "source": "GeekNews",
@@ -170711,538 +171199,6 @@
       "hn_reaction_summary": "댓글 반응은 많지 않지만 전반적으로는 호의적이다. 다만 제품 자체보다 랜딩 페이지 문구가 신뢰를 깎을 수 있다는 지적이 가장 또렷했다.\n- 학습 도구로 꽤 유용해 보이고 만듦새도 괜찮다는 긍정 평가가 나왔다.\n- 반복된 핵심 논점은 카피 품질이다. LLM이 쓴 듯한 문장이 제품 인상을 해친다는 피드백이 있었다.\n- 모바일 앱이 아니라 웹앱으로 낸 점을 반기는 반응도 있었다. 가볍게 접속해 써보는 학습 도구에는 이 방식이 잘 맞는다는 뜻으로 읽힌다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-05T06:39:59.090604+00:00"
-    },
-    {
-      "id": "682a9c7fec695eaec36afa753d3178fb2e936c76",
-      "title_hash": "2cab7ea9ab55746c1e542f079a9afbe2442f5092",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: I made open source, zero power PCB hackathon badges",
-      "link": "https://github.com/KaiPereira/Overglade-Badges",
-      "published_at": "2026-04-04T14:20:21+00:00",
-      "summary": "HN story type: story HN points: 77 HN comments: 8 HN post text: I love getting cool swag from hackathons and I also love designing PCB's, so when my friend asked me if I would design hackathon badges for a large game jam in singapore, I was absolutely down! The theme of overglade was a \"The game jam within a game\", pretty cool concept right! High schoolers from around the world were flown out to the event by hackclub after they spent about 70 hours designing their own game. These badges needed to be really cheap and simple, because we were going to manufacture about a hundred in a pretty limited amount of time. I went with a zero-power approach, which means sticking with e-inks, and I decided to include NFC if the organizers wanted to introduce it into the roleplay of the event, and so participants could add their website or github if they so choose! I used an RP2040-based architecture because it's really easy and cheap to get on the first try, and then added an ST25 passive NFC tag which was really simple to configure. The badge is in the shape of a ticket, because you got a \"ticket\" to the event after spending a lot of time designing games to qualify! 20 GPIO's are broken out onto the edges if you're ever in a pinch at a hackathon, and I w... HN top comments: sen: That's very cool. I have a few ePaper picture frames that don't use any power, and when you tap your phone to them it uses the power-over-NFC to boot itself and update the photo you send to it. It's such a cool idea and something I always felt like could be used more for displays that don't need to update very often. bschwindHN: Very cool! Quick question: did you use a plugin to generate the NFC antenna? The routing and layout looks nice. The end result is great! I bet it was satisfying to get it working on the first try. NooneAtAll3: how does \"zero-power\" work exactly? all power from NFC?",
-      "fetched_at": "2026-04-05T06:37:12.580101+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47639303",
-      "hn_story_type": "story",
-      "hn_points": "77",
-      "hn_comments_count": "8",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47639303",
-      "hn_item_text": "I love getting cool swag from hackathons and I also love designing PCB's, so when my friend asked me if I would design hackathon badges for a large game jam in singapore, I was absolutely down! The theme of overglade was a \"The game jam within a game\", pretty cool concept right! High schoolers from around the world were flown out to the event by hackclub after they spent about 70 hours designing their own game. These badges needed to be really cheap and simple, because we were going to manufacture about a hundred in a pretty limited amount of time. I went with a zero-power approach, which means sticking with e-inks, and I decided to include NFC if the organizers wanted to introduce it into the roleplay of the event, and so participants could add their website or github if they so choose! I used an RP2040-based architecture because it's really easy and cheap to get on the first try, and then added an ST25 passive NFC tag which was really simple to configure. The badge is in the shape of a ticket, because you got a \"ticket\" to the event after spending a lot of time designing games to qualify! 20 GPIO's are broken out onto the edges if you're ever in a pinch at a hackathon, and I w...",
-      "hn_comment_preview": "sen: That's very cool. I have a few ePaper picture frames that don't use any power, and when you tap your phone to them it uses the power-over-NFC to boot itself and update the photo you send to it. It's such a cool idea and something I always felt like could be used more for displays that don't need to update very often.\nbschwindHN: Very cool! Quick question: did you use a plugin to generate the NFC antenna? The routing and layout looks nice. The end result is great! I bet it was satisfying to get it working on the first try.\nNooneAtAll3: how does \"zero-power\" work exactly? all power from NFC?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "46",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 22,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 22,
-          "strong_hits": [
-            "architecture",
-            "open source",
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "plugin"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "open source",
-        "show hn",
-        "github.com"
-      ],
-      "detail_slug": "682a9c7fec695eaec36afa753d3178fb2e936c76",
-      "is_english_source": true,
-      "translated_title": "오픈소스 무전원 PCB 해커톤 배지 제작기",
-      "short_summary": "게임잼 참가자용으로 만든 오픈소스 PCB 배지다. e-ink와 패시브 NFC를 써 배터리 없이 동작하게 했고, RP2040 기반에 GPIO도 열어 둬 값싸고 실용적인 행사 배지로 설계했다.",
-      "why_it_matters": "행사용 배지는 예산과 일정, 운영 부담이 늘 문제다. 이 사례는 배터리를 빼도 참가 경험과 확장성을 꽤 잘 살릴 수 있다는 점을 보여준다.\n- e-ink와 패시브 NFC 조합이라 충전과 배터리 교체를 신경 쓰지 않아도 된다. 수십~수백 개를 짧은 일정에 준비할 때 특히 유리하다.\n- RP2040과 비교적 단순한 부품 구성이어서 첫 제작 성공률을 높이기 좋다. 학교 행사나 해커톤 굿즈를 직접 만들려는 팀에 바로 참고가 된다.\n- 참가자 웹사이트나 GitHub를 NFC에 담고 GPIO까지 빼 둬서, 기념품에 그치지 않고 현장 장치나 실험용 보드로도 이어질 여지가 있다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이었다. 디자인 완성도와 아이디어를 칭찬하는 반응이 많았고, 구현 방식에 대한 기술적인 궁금증도 바로 따라붙었다.\n- 가장 많이 나온 질문은 '무전원'의 실제 의미였다. NFC 전력만으로 어떻게 갱신하는지, 어느 정도까지 가능한지에 관심이 모였다.\n- ePaper를 자주 바꾸지 않는 디스플레이에 더 널리 쓸 수 있겠다는 공감이 있었다. 이미 비슷한 NFC 기반 액자 사례를 떠올리는 댓글도 나왔다.\n- 안테나 라우팅과 레이아웃처럼 PCB 설계 디테일을 묻는 반응도 보였다. 보기 좋은 데서 끝나지 않고, 실제로 따라 만들어보고 싶은 프로젝트로 받아들인 셈이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-05T06:39:59.090604+00:00"
-    },
-    {
-      "id": "f320bbab4375b06a1f805921014b7babd1fa1435",
-      "title_hash": "b0d4733479304faa05c48f954dcbbe68ce55262d",
-      "source": "GeekNews",
-      "title": "goose - Block이 만든 오픈소스 로컬 실행 자율 AI 개발 에이전트",
-      "link": "https://news.hada.io/topic?id=28209",
-      "published_at": "2026-04-05T00:32:02+00:00",
-      "summary": "프로젝트 생성, 코드 실행·수정·테스트, 디버깅, 워크플로 오케스트레이션, 외부 API 연동까지 처음부터 끝까지 자율 수행하는 로컬 실행 AI 에이전트 맥/윈/리눅스에서 Desktop 앱과 CLI 두 가지 인터페이스 모두 지원 Anthropic, OpenAI, Gemini, Ollama 등 20개 이상의 LLM 프로바...",
-      "fetched_at": "2026-04-05T02:28:41.299505+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=9,tools_agents=14,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 14,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [
-            "로컬 실행",
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "에이전트",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "cli"
-      ],
-      "detail_slug": "f320bbab4375b06a1f805921014b7babd1fa1435",
-      "is_english_source": false,
-      "sent_at": "2026-04-05T02:32:21.868617+00:00"
-    },
-    {
-      "id": "a46b093b3d37fdc881ae7f5f18f5ec495d9d27bc",
-      "title_hash": "db108fb8a539fd57d7cece03f8f080d75a7d0120",
-      "source": "GeekNews",
-      "title": "코드 생성 성능을 향상시키는 놀라울 만큼 단순한 자기 증류 기법",
-      "link": "https://news.hada.io/topic?id=28211",
-      "published_at": "2026-04-05T00:38:40+00:00",
-      "summary": "Simple Self-Distillation(SSD) 은 대형 언어 모델이 교사 모델이나 강화학습 없이 스스로 생성한 코드를 다시 학습해 성능을 높이는 방법 Qwen3-30B-Instruct 모델의 LiveCodeBench v6 pass@1 점수를 42.4%에서 55.3%로 향상 ...",
-      "fetched_at": "2026-04-05T02:28:41.299505+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=4,practical_tech=4,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "코드",
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "코드",
-        "성능"
-      ],
-      "detail_slug": "a46b093b3d37fdc881ae7f5f18f5ec495d9d27bc",
-      "is_english_source": false,
-      "sent_at": "2026-04-05T02:32:21.868617+00:00"
-    },
-    {
-      "id": "9422a95356d03a208893a5a63d332ea2910041a7",
-      "title_hash": "8bdae49b74ef9c41e6a9536f5b8920919d161ca4",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "AWS Engineer Reports PostgreSQL Perf Halved by Linux 7.0, Fix May Not Be Easy",
-      "link": "https://www.phoronix.com/news/Linux-7.0-AWS-PostgreSQL-Drop",
-      "published_at": "2026-04-05T00:13:55+00:00",
-      "summary": "HN story type: story HN points: 109 HN comments: 22 HN top comments: lfittl: Its worth reading this follow-up LKML post by Andres Freund (who works on Postgres): https://lore.kernel.org/lkml/yr3inlzesdb45n6i6lpbimwr7b25kqk... galbar: It's not a good look to break userspace applications without a deprecation period where both old and new solutions exist, allowing for a transition period. dsr_: Nobody sensible runs the latest kernel; nobody running PG in production should be afraid of setting a non-default at either boot time or as a sysctl. So this will, most likely, be another step in building a PG database server (turn off pre-emption if your kernel is 7.0 or later and PG is pre-whatever-version). At worst it might become a permanent part of building a PG server and a FAQ... but if it affects one thin...",
-      "fetched_at": "2026-04-05T02:28:41.299505+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47644864",
-      "hn_story_type": "story",
-      "hn_points": "109",
-      "hn_comments_count": "22",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47644864",
-      "hn_item_text": "",
-      "hn_comment_preview": "lfittl: Its worth reading this follow-up LKML post by Andres Freund (who works on Postgres): https://lore.kernel.org/lkml/yr3inlzesdb45n6i6lpbimwr7b25kqk...\ngalbar: It's not a good look to break userspace applications without a deprecation period where both old and new solutions exist, allowing for a transition period.\ndsr_: Nobody sensible runs the latest kernel; nobody running PG in production should be afraid of setting a non-default at either boot time or as a sysctl. So this will, most likely, be another step in building a PG database server (turn off pre-emption if your kernel is 7.0 or later and PG is pre-whatever-version). At worst it might become a permanent part of building a PG server and a FAQ... but if it affects one thin...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 24,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 24,
-          "strong_hits": [
-            "production",
-            "database",
-            "postgres",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "production",
-        "database",
-        "postgres",
-        "sql"
-      ],
-      "detail_slug": "9422a95356d03a208893a5a63d332ea2910041a7",
-      "is_english_source": true,
-      "translated_title": "리눅스 7.0에서 PostgreSQL 성능 반토막 논란",
-      "short_summary": "AWS 엔지니어가 리눅스 7.0 환경에서 PostgreSQL 성능이 절반 수준으로 떨어졌다고 보고했다. 커널 쪽 변화가 원인으로 지목되며, 간단한 패치로 끝나지 않을 수 있다는 우려가 나온다.",
-      "why_it_matters": "데이터베이스 성능 문제를 애플리케이션이나 쿼리 탓으로만 보기 어렵다는 점을 다시 보여준다. 운영체제와 커널 기본값 변화가 그대로 서비스 비용과 지연 시간에 번질 수 있다는 얘기다.\n- PostgreSQL 운영 환경이라면 커널 업그레이드만으로 처리량과 응답 시간이 크게 흔들릴 수 있어 사전 성능 검증이 더 까다로워진다.\n- 댓글 맥락상 부팅 옵션이나 sysctl 같은 우회책이 거론되지만, 표준 배포 설정에서 벗어나는 만큼 운영 복잡도와 문서화 부담이 늘어난다.\n- 문제 해결이 커널과 Postgres 양쪽 조율을 요구할 가능성이 있어, 당장 현업에서는 버전 고정보다 검증 절차 강화가 먼저 과제가 된다.",
-      "hn_reaction_summary": "HN 반응은 대체로 우려와 현실론이 함께 섞였다. 커널 변화가 사용자 공간 애플리케이션에 큰 영향을 준 점을 비판하는 목소리가 있었고, 한편으로는 운영 환경에서는 원래 보수적으로 대응한다는 의견도 적지 않았다.\n- 가장 많이 반복된 비판은 기존 애플리케이션을 깨뜨릴 정도의 변화를 내면서 충분한 전환 기간이 없었다는 점이다.\n- 반대편에서는 최신 커널을 곧바로 프로덕션에 올리지는 않으며, 필요하면 pre-emption 관련 비기본 설정을 적용하는 것도 현실적인 대응이라는 주장이 나왔다.\n- 실무자가 볼 만한 쟁점은 명확하다. 성능 저하가 커널-DB 경계의 계약 문제인지, 아니면 운영자가 감수해야 할 튜닝 항목이 하나 더 늘어난 것인지에 의견이 갈린다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-05T02:32:21.868617+00:00"
-    },
-    {
-      "id": "de0e0b84abc33991f10a315904926a335daddc5c",
-      "title_hash": "66cc5da0b12223d52b0b9b71ceda3b7c09b4db63",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "How many products does Microsoft have named 'Copilot'?",
-      "link": "https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html",
-      "published_at": "2026-04-04T19:39:43+00:00",
-      "summary": "HN story type: story HN points: 431 HN comments: 220 HN top comments: thedelanyo: Someone said - in Linux, everything is a file. In Microsoft, everything is a copilot. Lol. lateforwork: Copilot is just Microsoft's term for AI. How many products have Copilot? Just about all of them. chatmasta: I don’t use windows, so most of this doesn’t affect me, but I do use GitHub and VSCode. Can anyone clarify, once and for all, whether “GitHub Copilot” and “VSCode Copilot” (sic?) are the same product? The documentation isn’t even clear, and it’s important because it affects billing. How do these two products interact and where do they NOT overlap? This confusion even bleeds into other coding harnesses. I have no i...",
-      "fetched_at": "2026-04-05T02:28:41.299505+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47642569",
-      "hn_story_type": "story",
-      "hn_points": "431",
-      "hn_comments_count": "220",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47642569",
-      "hn_item_text": "",
-      "hn_comment_preview": "thedelanyo: Someone said - in Linux, everything is a file. In Microsoft, everything is a copilot. Lol.\nlateforwork: Copilot is just Microsoft's term for AI. How many products have Copilot? Just about all of them.\nchatmasta: I don’t use windows, so most of this doesn’t affect me, but I do use GitHub and VSCode. Can anyone clarify, once and for all, whether “GitHub Copilot” and “VSCode Copilot” (sic?) are the same product? The documentation isn’t even clear, and it’s important because it affects billing. How do these two products interact and where do they NOT overlap? This confusion even bleeds into other coding harnesses. I have no i...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "37",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=4,tools_agents=13,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 13,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 13,
-          "strong_hits": [
-            "copilot"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "copilot",
-        "ai + coding"
-      ],
-      "detail_slug": "de0e0b84abc33991f10a315904926a335daddc5c",
-      "is_english_source": true,
-      "translated_title": "마이크로소프트 '코파일럿' 제품은 대체 몇 개인가",
-      "short_summary": "마이크로소프트가 여러 서비스에 'Copilot' 이름을 붙이면서 제품 경계가 흐려졌다는 점을 짚은 HN 화제 글이다. 개발자들은 GitHub Copilot과 VS Code 안의 Copilot의 관계, 과금 기준이 특히 헷갈린다고 반응했다.",
-      "why_it_matters": "브랜드를 한 이름으로 묶는 전략은 홍보에는 편하지만, 실무에서는 도입 판단과 비용 관리에 바로 혼선을 만든다.\n- 같은 'Copilot'이라도 제품마다 기능 범위와 포함 관계가 달라 팀 내 설명 비용이 커진다.\n- IDE, 운영체제, 오피스처럼 접점이 넓을수록 라이선스 중복 구매나 지원 문의가 늘 수 있다.\n- 도입 검토 문서나 사내 가이드에서 'Copilot'을 한 단어로 뭉뚱그리면 오해가 생기기 쉬워, 제품명과 범위를 더 구체적으로 적어야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 비꼬는 쪽에 가까웠다. 웃음 섞인 반응이 많았지만, 그 밑에는 문서와 제품 구조가 지나치게 불명확하다는 불만이 깔려 있었다.\n- '마이크로소프트에서는 모든 것이 코파일럿'이라는 식의 농담이 반복되며 브랜드 남용을 꼬집었다.\n- 개발자들은 GitHub Copilot과 VS Code 안의 Copilot이 같은 것인지, 어디서 겹치고 어디서 갈리는지 명확하지 않다고 지적했다.\n- 단순한 네이밍 문제가 아니라 과금, 지원 범위, 팀 표준화에 영향을 주는 운영 문제라는 의견이 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-05T02:32:21.868617+00:00"
-    },
-    {
-      "id": "0362061e5a571055571909318fd19d2c775dcbcc",
-      "title_hash": "0f58ea1e6275bc307619316efc5bdac54e3ab219",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "LLM Wiki – example of an \"idea file\"",
-      "link": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
-      "published_at": "2026-04-04T16:57:45+00:00",
-      "summary": "HN story type: story HN points: 77 HN comments: 20 HN post text: https://x.com/karpathy/status/2040470801506541998 https://xcancel.com/karpathy/status/2040470801506541998 HN top comments: devnullbrain: I don't see why this wouldn't just lead to model collapse: https://www.nature.com/articles/s41586-024-07566-y If you've spent any time using LLMs to write documentation you'll see this for yourself: the compounding will just be rewriting valid information with less terse information. I find it concerning Karpathy doesn't see this. But I'm not surprised, because AI maximalists seem to find it really difficult to be... gchamonlive: I don't think this is taking it as far as it can go. Everything should live in the repo. Code and docs yes. But also the planning files, epics, work items, architectural documentation and decisions. Here is a small example of my Linux system doc: https://github.com/gchamon/archie/tree/main/docs And you don't need to reinvent the wheel. Code docs can like either right next to it in the readme or in docs/ if it's to... kenforthewin: This is just RAG. Yes, it's not using a vector database - but it's building an index file of semantic connections, it's constructing hierarchical semantic structures in the filesystem to aid retrieval .. this is RAG. On a sidenote, I've been building an AI powered knowledge base (yes, it uses RAG) that has wiki synthesis and similar ideas, take a look at https://github.com/kenforthewin/atomic",
-      "fetched_at": "2026-04-05T02:28:41.299505+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47640875",
-      "hn_story_type": "story",
-      "hn_points": "77",
-      "hn_comments_count": "20",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47640875",
-      "hn_item_text": "https://x.com/karpathy/status/2040470801506541998 https://xcancel.com/karpathy/status/2040470801506541998",
-      "hn_comment_preview": "devnullbrain: I don't see why this wouldn't just lead to model collapse: https://www.nature.com/articles/s41586-024-07566-y If you've spent any time using LLMs to write documentation you'll see this for yourself: the compounding will just be rewriting valid information with less terse information. I find it concerning Karpathy doesn't see this. But I'm not surprised, because AI maximalists seem to find it really difficult to be...\ngchamonlive: I don't think this is taking it as far as it can go. Everything should live in the repo. Code and docs yes. But also the planning files, epics, work items, architectural documentation and decisions. Here is a small example of my Linux system doc: https://github.com/gchamon/archie/tree/main/docs And you don't need to reinvent the wheel. Code docs can like either right next to it in the readme or in docs/ if it's to...\nkenforthewin: This is just RAG. Yes, it's not using a vector database - but it's building an index file of semantic connections, it's constructing hierarchical semantic structures in the filesystem to aid retrieval .. this is RAG. On a sidenote, I've been building an AI powered knowledge base (yes, it uses RAG) that has wiki s...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=15,strategy_insight=9,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 24,
-        "tools_agents": 15,
-        "strategy_insight": 9,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 24,
-          "strong_hits": [
-            "vector database",
-            "index",
-            "rag"
-          ],
-          "support_hits": [
-            "vector"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "vector database"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "vector database",
-        "index",
-        "rag",
-        "vector",
-        "github.com"
-      ],
-      "detail_slug": "0362061e5a571055571909318fd19d2c775dcbcc",
-      "is_english_source": true,
-      "translated_title": "LLM 위키, '아이디어 파일' 예시",
-      "short_summary": "안드레이 카파시가 LLM이 읽고 이어 쓰기 좋은 위키형 '아이디어 파일' 사례를 소개했다. HN에서는 실용적이라는 반응과 함께, 결국 RAG의 다른 표현이거나 문서 품질이 흐려질 수 있다는 우려가 맞섰다.",
-      "why_it_matters": "AI 보조 개발이 늘수록 사람이 읽는 문서와 모델이 읽는 문서의 경계가 옅어진다. 이번 논의는 저장소와 문서 체계를 어떻게 짜야 LLM이 실제 업무 맥락을 덜 놓치고 일할 수 있는지를 보여준다.\n- 기획 메모, 설계 결정, 작업 이력까지 저장소 안에 함께 두면 에이전트가 필요한 맥락을 더 안정적으로 따라간다.\n- 파일 간 링크와 계층을 잘 잡아두면 별도 벡터 DB 없이도 검색과 회수 흐름을 꽤 단순하게 운영할 수 있다.\n- 반대로 LLM이 문서를 계속 다시 쓰게 두면 핵심 정보가 장황해지고 원본 사실이 흐려질 수 있어, 기준 문서와 리뷰 규칙을 먼저 세워야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 흥미롭지만 마냥 새롭다고 보지는 않는 쪽에 가까웠다. 아이디어 자체보다 이 방식이 기존 문서화나 RAG보다 실제로 무엇을 더 잘하느냐를 따지는 반응이 많았다.\n- 회의적인 쪽은 LLM이 문서를 반복 재작성하면 정보 밀도가 떨어지고, 결국 품질 저하가 누적될 수 있다고 봤다.\n- 긍정적인 쪽은 코드만이 아니라 에픽, 작업 항목, 아키텍처 결정까지 저장소에 함께 넣는 방식이 더 현실적이라고 말했다.\n- '이름만 다를 뿐 결국 RAG'라는 반응도 반복됐다. 새 용어보다 검색 구조와 회수 품질을 어떻게 설계하느냐가 핵심 논점으로 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-05T02:32:21.868617+00:00"
     }
   ],
   "topic_digests": {
