@@ -1,6 +1,599 @@
 {
   "items": [
     {
+      "id": "63b9043281b44d4ac8974879ce6f8bdf61b7f7ea",
+      "title_hash": "438d725a7408ce04364e7ec487798e40e6725016",
+      "source": "GeekNews",
+      "title": "리서치 업체, Anthropic IPO를 “투자자가 얼마나 쉽게 현혹되는지 가늠할 전례 없는 시험”으로 평가",
+      "link": "https://news.hada.io/topic?id=35243",
+      "published_at": "2026-10-12T12:36:00+00:00",
+      "summary": "New Constructs 는 상장 시 기업가치 2조 달러($2t)를 추구하는 것으로 알려진 Anthropic의 가치를 1,500억 달러($150b) 로 평가하며 IPO에 강한 경고를 내놓음 목표 기업가치를 뒷받침하려면 Nvidia의 최근 1년 이익의 두 배 가 필요하다는 추산이...",
+      "fetched_at": "2026-10-12T13:13:57.262945+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "57",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=12,practical_tech=-8,tools_agents=0,strategy_insight=-1,industry_business=12",
+      "slot_scores": {
+        "practical_tech": -8,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 12
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "ipo",
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 12,
+          "strong_hits": [
+            "ipo",
+            "투자"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ipo",
+        "투자",
+        "기업"
+      ],
+      "detail_slug": "63b9043281b44d4ac8974879ce6f8bdf61b7f7ea",
+      "is_english_source": false,
+      "sent_at": "2026-10-12T13:16:41.128733+00:00"
+    },
+    {
+      "id": "065815f24814ed28b75c2f698ff5ab5dfb8930c8",
+      "title_hash": "49c9f1ca17042bfa1380d209700f70654a495e12",
+      "source": "GeekNews",
+      "title": "Postgres가 느린 게 아니라 스토리지가 느린 것이다",
+      "link": "https://news.hada.io/topic?id=35244",
+      "published_at": "2026-10-12T12:39:00+00:00",
+      "summary": "동일한 33억 행 PostgreSQL 무작위 UPDATE 부하에서 로컬 NVMe 는 3,000 IOPS의 기본 gp3 EBS보다 처리량이 9.24배 높았음. 이 결과는 해당 워크로드와 스토리지 구성에 한정됨 작업 데이터가 메모리와 운영체제 페이지 캐시를 넘어서면 물리 I/O가 늘어나고, 쿼리와...",
+      "fetched_at": "2026-10-12T13:13:57.262945+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "postgres",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "postgres",
+        "sql"
+      ],
+      "detail_slug": "065815f24814ed28b75c2f698ff5ab5dfb8930c8",
+      "is_english_source": false,
+      "sent_at": "2026-10-12T13:16:41.128733+00:00"
+    },
+    {
+      "id": "a99ff28638c11a107992aefd6ef7712efb96a64f",
+      "title_hash": "0a0963a8a467d71f6599b7fdc029303cbae2bb39",
+      "source": "GeekNews",
+      "title": "Show GN: 이음 (ieum) - 한국어 문장으로 쓰는 프로그래밍 언어",
+      "link": "https://news.hada.io/topic?id=35224",
+      "published_at": "2026-10-12T05:05:04+00:00",
+      "summary": "한국어 문장으로 쓰는 프로그래밍 언어입니다. ai 의 도움을 받아 최대한 자연어스러운 코드를 쓸 수 있는 언어와 IDE 확장 프로그램을 만들어 보았습니다. 다른 한국어 기반 언어와의 차별점은 실제로 언어를 사용하기에는 너무 기능이 부족한 점이 있는 것 같아 python 호환을 추가해 보았습니다!",
+      "fetched_at": "2026-10-12T13:13:57.262945+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide"
+      ],
+      "detail_slug": "a99ff28638c11a107992aefd6ef7712efb96a64f",
+      "is_english_source": false,
+      "sent_at": "2026-10-12T13:16:41.128733+00:00"
+    },
+    {
+      "id": "c1449a4de21cf301025c13e93e1c88b3a08d6925",
+      "title_hash": "e87a6248807f0d84fb6f1b27497d35342f6647cc",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "QGIS bans AI assisted contributions",
+      "link": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "published_at": "2026-10-12T11:22:24+00:00",
+      "summary": "HN story type: story HN points: 159 HN comments: 116 HN top comments: jcolot: Part of this is an alignment problem, but on the human side: the bottleneck is no longer writing code but staying aligned with it, knowing what it does and whether it does what you meant. In my own work, that’s now most of the job, even for code I asked for. For maintainers reviewing large PRs from strangers, it's certainly much worse. A ban is bit harsh, but I understand why they’re rationing their attention. perrygeo: For an outright ban on \"LLM, AI or agent assisted code contributions\", they do very little to define what that means. This is a terribly written policy - I sincerely urge the QGIS maintainers to put enforceable guardrails on the definition. This reminds me of the legal ambiguity behind the GPL and its definition of \"derivative work\". A careful analysis of the GPL shows that using GPL software doesn't trigger any o... KolmogorovComp: I think this is the end of open-contributions, the maintainers already having too much on their plate. Plus it is becoming exceedingly rare of finding a contributor that save time, as in can do better than the maintainer itself using LLM and reviewing it itself.",
+      "fetched_at": "2026-10-12T13:13:57.262945+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50054751",
+      "hn_story_type": "story",
+      "hn_points": "159",
+      "hn_comments_count": "116",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50054751",
+      "hn_item_text": "",
+      "hn_comment_preview": "jcolot: Part of this is an alignment problem, but on the human side: the bottleneck is no longer writing code but staying aligned with it, knowing what it does and whether it does what you meant. In my own work, that’s now most of the job, even for code I asked for. For maintainers reviewing large PRs from strangers, it's certainly much worse. A ban is bit harsh, but I understand why they’re rationing their attention.\nperrygeo: For an outright ban on \"LLM, AI or agent assisted code contributions\", they do very little to define what that means. This is a terribly written policy - I sincerely urge the QGIS maintainers to put enforceable guardrails on the definition. This reminds me of the legal ambiguity behind the GPL and its definition of \"derivative work\". A careful analysis of the GPL shows that using GPL software doesn't trigger any o...\nKolmogorovComp: I think this is the end of open-contributions, the maintainers already having too much on their plate. Plus it is becoming exceedingly rare of finding a contributor that save time, as in can do better than the maintainer itself using LLM and reviewing it itself.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=7,tools_agents=17,strategy_insight=15,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 17,
+        "strategy_insight": 15,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 15,
+          "strong_hits": [
+            "bottleneck"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm",
+        "agent",
+        "github.com"
+      ],
+      "detail_slug": "c1449a4de21cf301025c13e93e1c88b3a08d6925",
+      "is_english_source": true,
+      "sent_at": "2026-10-12T13:16:41.128733+00:00"
+    },
+    {
+      "id": "8a2b08b94bc8ec3092daccb05f39f5c9d6807b22",
+      "title_hash": "1deb451d111a668b31c38f5be744aae6dbca4bbf",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: PS2 games statically recompiled to WebAssembly",
+      "link": "https://github.com/snuri00/ps2-web-recomp",
+      "published_at": "2026-10-12T06:46:53+00:00",
+      "summary": "HN story type: story HN points: 104 HN comments: 48 HN top comments: kodablah: I did similar for PS Vita over the past few months: https://github.com/cretz/vitaslop But instead of single games, I \"built\" an ARM-to-WASM transpiler in WASM. Also cool transcoding of WebGPU shaders, audio, and more. Only have tested a few games so far, it's early days, but works quite well in Chrome mobile on flagship Android phones. Megabinator: What about compiling the compiler to WebAssembly so it can be hosted anywhere and convert a project directly from a browser? zuInnp: All of this recomp stuff is pretty amazing. I really don't like how AI changed my profession, but hey at least I get something good from it.",
+      "fetched_at": "2026-10-12T13:13:57.262945+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50052251",
+      "hn_story_type": "story",
+      "hn_points": "104",
+      "hn_comments_count": "48",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50052251",
+      "hn_item_text": "",
+      "hn_comment_preview": "kodablah: I did similar for PS Vita over the past few months: https://github.com/cretz/vitaslop But instead of single games, I \"built\" an ARM-to-WASM transpiler in WASM. Also cool transcoding of WebGPU shaders, audio, and more. Only have tested a few games so far, it's early days, but works quite well in Chrome mobile on flagship Android phones.\nMegabinator: What about compiling the compiler to WebAssembly so it can be hosted anywhere and convert a project directly from a browser?\nzuInnp: All of this recomp stuff is pretty amazing. I really don't like how AI changed my profession, but hey at least I get something good from it.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=11,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 11,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "compiler",
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "compiler"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "compiler",
+        "show hn",
+        "github.com"
+      ],
+      "detail_slug": "8a2b08b94bc8ec3092daccb05f39f5c9d6807b22",
+      "is_english_source": true,
+      "sent_at": "2026-10-12T13:16:41.128733+00:00"
+    },
+    {
+      "id": "2fefe41400d3d8c294d01bad2565b0123cce05ee",
+      "title_hash": "80dba92fa388d10da292f2dc528ba194a6a7a3df",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Hackers activate automatic defrosting accross European supermarket fridges",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "published_at": "2026-10-12T12:16:42+00:00",
+      "summary": "HN story type: story HN points: 62 HN comments: 38 HN top comments: renyicircle: > Connecting your case controller to the internet offers further opportunities to generate savings. If you can diagnose issues and control the case remotely, service engineers needn’t be called out to simple situations like starting a defrost. And being able to compare performance and efficiency across an entire estate of stores makes it easy to spot patterns and make incremental efficiency gains. ( https://www.da... MisterMunchkin: Interesting. The government has been suggesting war with Russia is coming. This would be a great initial move. Take out the European food supply network, then hit things like the grid and the internet. It's funny because red storm rising is an old book at this point, but it's pretty accurately shown exactly how conflict with Russia plays out. Even down to Russia realising it is about to run out of diesel... causin... alexdrdr: Only going to get worse as hackers get increasing access to more advanced AI models and compute Open weight models catch up quickly, so it is only a matter of time before Fable level models are in the hands of bad players Key issue will be that banks and key infrastructure *may* get their security patched in time. But there’s going to be so many vulnerable companies like in this case",
+      "fetched_at": "2026-10-12T13:13:57.262945+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50055304",
+      "hn_story_type": "story",
+      "hn_points": "62",
+      "hn_comments_count": "38",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50055304",
+      "hn_item_text": "",
+      "hn_comment_preview": "renyicircle: > Connecting your case controller to the internet offers further opportunities to generate savings. If you can diagnose issues and control the case remotely, service engineers needn’t be called out to simple situations like starting a defrost. And being able to compare performance and efficiency across an entire estate of stores makes it easy to spot patterns and make incremental efficiency gains. ( https://www.da...\nMisterMunchkin: Interesting. The government has been suggesting war with Russia is coming. This would be a great initial move. Take out the European food supply network, then hit things like the grid and the internet. It's funny because red storm rising is an old book at this point, but it's pretty accurately shown exactly how conflict with Russia plays out. Even down to Russia realising it is about to run out of diesel... causin...\nalexdrdr: Only going to get worse as hackers get increasing access to more advanced AI models and compute Open weight models catch up quickly, so it is only a matter of time before Fable level models are in the hands of bad players Key issue will be that banks and key infrastructure *may* get their security patched in time....",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=3,strategy_insight=2,industry_business=4",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 3,
+        "strategy_insight": 2,
+        "industry_business": 4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "performance",
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 3,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "industry",
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "security"
+      ],
+      "detail_slug": "2fefe41400d3d8c294d01bad2565b0123cce05ee",
+      "is_english_source": true,
+      "sent_at": "2026-10-12T13:16:41.128733+00:00"
+    },
+    {
+      "id": "26641743373eeee62acaa599d99b81ddd7ac00e2",
+      "title_hash": "2658dcaeab9eb7740d0c2a95ed60c2e66188987c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Citroen revives the 2CV for an electric age",
+      "link": "https://www.bbc.co.uk/news/articles/c620r33plgppo",
+      "published_at": "2026-10-12T12:09:09+00:00",
+      "summary": "HN story type: story HN points: 30 HN comments: 21 HN top comments: PorciiVorbesc: >As they face mounting competition from Chinese manufacturers, Citroen and other European brands are exploiting their heritage as a means of selling modern motors Heritage and vintage looks, will only take you so far. Working class people still choose best bang/range for the buck car since their car is a tool, not a fashion statement bag. hn_submit: I've always been amazed why the 2CV is seen as a styling icon. It's a bare-bones car from the 1930's which didn't get produced until the late 40's due to the war. By the time production ramped up it was hopelessly outdated. The only thing positive that can be said about the modern iteration is its $15K price. But for that money you're not getting a real car but a city roundabout with very limited range and speed.... forestingfisher: I'm really digging Citroen's design recently. Along with Renault and Hyundai, they feel like cars from the future instead of the bloated aggressive and angular design we've come to expect",
+      "fetched_at": "2026-10-12T13:13:57.262945+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50055220",
+      "hn_story_type": "story",
+      "hn_points": "30",
+      "hn_comments_count": "21",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50055220",
+      "hn_item_text": "",
+      "hn_comment_preview": "PorciiVorbesc: >As they face mounting competition from Chinese manufacturers, Citroen and other European brands are exploiting their heritage as a means of selling modern motors Heritage and vintage looks, will only take you so far. Working class people still choose best bang/range for the buck car since their car is a tool, not a fashion statement bag.\nhn_submit: I've always been amazed why the 2CV is seen as a styling icon. It's a bare-bones car from the 1930's which didn't get produced until the late 40's due to the war. By the time production ramped up it was hopelessly outdated. The only thing positive that can be said about the modern iteration is its $15K price. But for that money you're not getting a real car but a city roundabout with very limited range and speed....\nforestingfisher: I'm really digging Citroen's design recently. Along with Renault and Hyundai, they feel like cars from the future instead of the bloated aggressive and angular design we've come to expect",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "36",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=12,practical_tech=9,tools_agents=4,strategy_insight=12,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 4,
+        "strategy_insight": 12,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "production"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [],
+          "support_hits": [
+            "future",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "future",
+        "why",
+        "future + work"
+      ],
+      "detail_slug": "26641743373eeee62acaa599d99b81ddd7ac00e2",
+      "is_english_source": true,
+      "sent_at": "2026-10-12T13:16:41.128733+00:00"
+    },
+    {
       "id": "9b128e2c8a9703d765dc52426d5fcef6eb412810",
       "title_hash": "ee8a3c8b9b06421643811debd7b8a9e17c06ce79",
       "source": "GeekNews",
@@ -170395,613 +170988,6 @@
       "hn_reaction_summary": "HN 댓글 분위기는 답답함과 불안이 섞인 쪽에 가깝다. 빨리 복구되길 바란다는 반응과 함께, 이게 성장통인지 구조적 불안정성인지 따져보는 시선이 보인다.\n- 반복해서 나온 말은 \"대안이 뭐냐\"였다. 장애가 길어질수록 다른 코딩 도구로 갈아탈 가능성을 점치는 흐름이다.\n- 상태 페이지는 멀쩡한데 실제로는 Code와 Chat 양쪽에서 문제가 난다는 증언이 나왔다. 관측 체계 자체를 못 믿겠다는 반응으로 이어졌다.\n- 일부는 지금의 문제를 일시적 성장통으로 보지만, 다른 쪽은 GitHub급 서비스처럼 안정성 이슈가 고착되는 것 아니냐는 우려를 드러냈다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-06T15:50:56.778738+00:00"
-    },
-    {
-      "id": "7cdf34007fb4ff15d13accf277baefaa2da9cfb1",
-      "title_hash": "a74ab876c53f46fb7a3b34f7b57b5d5d6a00c034",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Germany Doxes \"UNKN,\" Head of RU Ransomware Gangs REvil, GandCrab",
-      "link": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
-      "published_at": "2026-04-06T13:52:37+00:00",
-      "summary": "HN story type: story HN points: 80 HN comments: 24 HN top comments: KingOfCoders: Putting someone on a (most) wanted list is \"doxing\"? [Edit] \"An international search is underway for Daniil Maksimovich SHCHUKIN on suspicion of numerous counts of gang-related and commercial extortion using ransomware to the detriment of commercial enterprises, public facilities, and institutions.\" Phelinofist: Spiegel recently did a video on them: https://www.youtube.com/watch?v=HuwRrqM6H1M nailer: Feels odd for an infosec blog to use 'doxxing' this way. Doxxing is generally considered to be unethical exposure of personal information. Identifying a criminal is ethical.",
-      "fetched_at": "2026-04-06T15:47:35.849590+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47660954",
-      "hn_story_type": "story",
-      "hn_points": "80",
-      "hn_comments_count": "24",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47660954",
-      "hn_item_text": "",
-      "hn_comment_preview": "KingOfCoders: Putting someone on a (most) wanted list is \"doxing\"? [Edit] \"An international search is underway for Daniil Maksimovich SHCHUKIN on suspicion of numerous counts of gang-related and commercial extortion using ransomware to the detriment of commercial enterprises, public facilities, and institutions.\"\nPhelinofist: Spiegel recently did a video on them: https://www.youtube.com/watch?v=HuwRrqM6H1M\nnailer: Feels odd for an infosec blog to use 'doxxing' this way. Doxxing is generally considered to be unethical exposure of personal information. Identifying a criminal is ethical.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=7,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "enterprise"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "code + security"
-      ],
-      "detail_slug": "7cdf34007fb4ff15d13accf277baefaa2da9cfb1",
-      "is_english_source": true,
-      "translated_title": "독일, REvil·GandCrab 수장 신원 공개",
-      "short_summary": "독일이 러시아 랜섬웨어 조직 REvil과 GandCrab의 수장으로 지목한 다니일 막시모비치 슈추킨의 신원을 공개하고 국제 수배에 들어갔다. 기업과 공공기관을 노린 갈취 혐의가 핵심으로 제시됐다.",
-      "why_it_matters": "랜섬웨어 대응이 단순 경고나 기술 차단을 넘어 운영진 특정과 국제 공조 수사 단계로 옮겨가고 있다는 신호다.\n- 보안 실무자는 IOC 차단만으로 끝내지 말고 침해 흔적, 지갑 주소, 협박 메시지 같은 증거를 수사 협력 자산으로 정리할 필요가 있다.\n- 기업과 공공기관 대상 사건은 법무, 보험, 대외 공지까지 함께 움직인다. 사고 대응 체계도 그 흐름에 맞춰 점검해야 한다.\n- 공격 조직의 실명과 구조가 드러날수록 제재, 체포, 인프라 압박이 이어질 가능성이 커진다. 방어 전략도 장기 추적 관점이 더해진다.",
-      "hn_reaction_summary": "댓글 분위기는 사건 자체보다 기사 제목의 'doxes'라는 표현이 맞느냐를 두고 먼저 달아올랐다.\n- 가장 많이 나온 반응은 공개 수배나 신원 특정은 '도싱'이 아니라 정당한 범죄 수사라는 지적이었다.\n- 인포섹 매체라면 용어를 더 엄밀하게 써야 한다는 의견이 반복됐다. 표현 하나가 기사 뉘앙스를 크게 바꾼다는 반응이다.\n- 일부는 관련 다큐·영상 링크를 덧붙이며 조직 배경을 보완했다. 실무자 입장에서는 사건 보도에서 법적·윤리적 언어 선택이 얼마나 민감한지 살펴볼 만하다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-06T15:50:56.778738+00:00"
-    },
-    {
-      "id": "b4b2bc53825e8b47b315bdd88266dd9500168908",
-      "title_hash": "edb651d5136fe0c7dc7bd60c639a3f0c10a0dd94",
-      "source": "GeekNews",
-      "title": "Show GN: ROACH PI – AI 코딩 에이전트에 엔지니어링 규율을 씌우는 오픈소스 확장",
-      "link": "https://news.hada.io/topic?id=28257",
-      "published_at": "2026-04-06T07:12:34+00:00",
-      "summary": "GitHub: https://github.com/tmdgusya/roach-pi 최근 Claude Code 소스코드가 유출되면서, AI 코딩 에이전트 내부에서 어떤 프롬프트가 주입되고 어떤 동작이 일어나는지 사용자가 전혀 알 수 없다는 점이 다시 화제가 됨 ROACH PI는 pi 코딩 에이전트(https://github.com/badlogic/pi-mono)의",
-      "fetched_at": "2026-04-06T11:38:17.809468+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "67",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=22,practical_tech=2,tools_agents=22,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 22,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 22,
-          "strong_hits": [
-            "claude code",
-            "에이전트"
-          ],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "에이전트",
-        "프롬프트",
-        "claude + code"
-      ],
-      "detail_slug": "b4b2bc53825e8b47b315bdd88266dd9500168908",
-      "is_english_source": false,
-      "sent_at": "2026-04-06T11:41:04.635128+00:00"
-    },
-    {
-      "id": "609996e2fca4a976a7f1ca76927721cd25fa698c",
-      "title_hash": "40efd9ac394024f4cfd8099a1408b429e8731120",
-      "source": "GeekNews",
-      "title": "Microsoft는 Petzold 이후 일관된 GUI 전략을 갖지 못했다",
-      "link": "https://news.hada.io/topic?id=28258",
-      "published_at": "2026-04-06T08:32:54+00:00",
-      "summary": "1980년대 후반까지는 Win16/Win32 API 중심의 단일 모델로 Windows 앱 개발이 명확했으나, 이후 수십 년간 일관성 없는 플랫폼 전환 이 반복됨 MFC, COM, WPF, Silverlight, UWP, MAUI 등 17종의 GUI 기술이 공존하며, 개발자들은 어떤 프레임워크...",
-      "fetched_at": "2026-04-06T11:38:17.809468+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "전략"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "609996e2fca4a976a7f1ca76927721cd25fa698c",
-      "is_english_source": false,
-      "sent_at": "2026-04-06T11:41:04.635128+00:00"
-    },
-    {
-      "id": "b87643748e74faf552f3e1b7f11a0d610fd935a0",
-      "title_hash": "08d33fcce8009497e3f6d88fe289063d2be2080c",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Does coding with LLMs mean more microservices?",
-      "link": "https://ben.page/microservices",
-      "published_at": "2026-04-06T02:33:21+00:00",
-      "summary": "HN story type: story HN points: 37 HN comments: 26 HN top comments: iainmerrick: Like almost all of these articles, there's really nothing AI- or LLM-specific here at all. Modularization, microservices, monorepos etc have all been used in the past to help scale up software development for huge teams and complex systems. The only new thing is that small teams using these new tools will run into problems that previously only affected much larger teams. The cadence is faster, sometimes a lot fast... nikeee: What matters for LLMs is what matters for humans, which usually means DX. Most Microservice setups are extremely hard to debug across service boundaries, so I think in the future, we'll see more architectural decisions that make sense for LLMs to work with. Which will probably mean modular monoliths or something like that. int_19h: That's an argument for components with well-defined contracts on their interfaces, but making them microservices just complicates debugging for the model. It's also unclear whether tight coupling is actually a problem when you can refactor this fast.",
-      "fetched_at": "2026-04-06T11:38:17.809468+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47656335",
-      "hn_story_type": "story",
-      "hn_points": "37",
-      "hn_comments_count": "26",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47656335",
-      "hn_item_text": "",
-      "hn_comment_preview": "iainmerrick: Like almost all of these articles, there's really nothing AI- or LLM-specific here at all. Modularization, microservices, monorepos etc have all been used in the past to help scale up software development for huge teams and complex systems. The only new thing is that small teams using these new tools will run into problems that previously only affected much larger teams. The cadence is faster, sometimes a lot fast...\nnikeee: What matters for LLMs is what matters for humans, which usually means DX. Most Microservice setups are extremely hard to debug across service boundaries, so I think in the future, we'll see more architectural decisions that make sense for LLMs to work with. Which will probably mean modular monoliths or something like that.\nint_19h: That's an argument for components with well-defined contracts on their interfaces, but making them microservices just complicates debugging for the model. It's also unclear whether tight coupling is actually a problem when you can refactor this fast.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=11,tools_agents=17,strategy_insight=15,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 17,
-        "strategy_insight": 15,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "refactor"
-          ],
-          "support_hits": [
-            "debugging"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 17,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "setup",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 15,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "future + work"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "llm",
-        "setup",
-        "tool",
-        "ai + coding"
-      ],
-      "detail_slug": "b87643748e74faf552f3e1b7f11a0d610fd935a0",
-      "is_english_source": true,
-      "translated_title": "LLM 코딩 시대, 마이크로서비스가 더 늘까",
-      "short_summary": "HN에서는 LLM 코딩이 곧 마이크로서비스 확대로 이어지지는 않는다는 반응이 많았다. 개발 속도는 빨라졌지만, 핵심은 서비스 분할보다 모듈 경계와 디버깅 경험이라는 쪽에 무게가 실렸다.",
-      "why_it_matters": "LLM이 코드 생산 속도를 끌어올리면서 작은 팀도 예전엔 큰 조직만 겪던 구조 문제를 더 빨리 마주하게 됐다. 이번 논의는 시스템을 더 잘게 쪼개는 일이 정말 답인지 다시 보게 만든다.\n- 팀 규모가 작아도 모듈 경계, 인터페이스 계약, 저장소 구조를 초반부터 더 엄격하게 잡아야 할 가능성이 커진다.\n- 마이크로서비스는 분리에는 유리하지만 서비스 경계를 넘는 디버깅과 추적이 어려워져 사람과 LLM 모두 작업 맥락을 놓치기 쉽다.\n- 실무에선 서비스 수를 늘리기보다 계약이 분명한 모듈형 모놀리스로 정리하고, 필요할 때만 분리하는 흐름이 힘을 받을 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 신중했다. LLM이 새 원칙을 만든다기보다, 원래 있던 아키텍처 논쟁을 더 빠른 속도로 다시 꺼내고 있다는 시각이 많았다.\n- 가장 많이 나온 반응은 '이건 AI 고유의 문제가 아니라 예전부터 있던 모듈화와 팀 확장 문제'라는 주장이다.\n- 반대로 LLM 친화적인 구조를 생각하면 더 많은 마이크로서비스보다 디버깅이 쉬운 설계와 좋은 DX가 먼저라는 의견이 반복됐다.\n- 인터페이스 계약은 분명해야 하지만, 빠르게 리팩터링할 수 있다면 굳이 서비스까지 쪼갤 필요가 있느냐는 반론도 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-06T11:41:04.635128+00:00"
-    },
-    {
-      "id": "ca84caf9bf0697358c01e1e0283f008d6fdefaf8",
-      "title_hash": "6d53456353cac89c1ae05e9aaf178a93e80c59b9",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
-      "link": "https://github.com/fikrikarim/parlor",
-      "published_at": "2026-04-05T17:53:19+00:00",
-      "summary": "HN story type: story HN points: 112 HN comments: 8 HN post text: Related: https://news.ycombinator.com/item?id=47653752 HN top comments: jwr: That is very, very interesting. I've been hoping to have an assistant in the workshop (hands-free!) that I could talk to and have it help me with simple tasks: timers, calculating, digging up notes, etc. — basically, what the phone assistants were supposed to be, but aren't. \"You will have to unlock your iphone first\" is kind of a deal-breaker when you are in the middle of mixing polyurethane resin and have gloves... dvt: Solid work and great showcase, I've done a bunch of stuff with Kokoro and the latency is incredible. So crazy how badly Apple dropped the ball... feels like your demo should be a Siri demo (I mean that in the most complimentary way possible). est: I am making something similar. Also been using Kokoro for TTS. Very cool project! Gemma 4 is kinda too heavyweight even with E2B. I am sticking with qwen 0.8B at the moment.",
-      "fetched_at": "2026-04-06T11:38:17.809468+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47652007",
-      "hn_story_type": "story",
-      "hn_points": "112",
-      "hn_comments_count": "8",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47652007",
-      "hn_item_text": "Related: https://news.ycombinator.com/item?id=47653752",
-      "hn_comment_preview": "jwr: That is very, very interesting. I've been hoping to have an assistant in the workshop (hands-free!) that I could talk to and have it help me with simple tasks: timers, calculating, digging up notes, etc. — basically, what the phone assistants were supposed to be, but aren't. \"You will have to unlock your iphone first\" is kind of a deal-breaker when you are in the middle of mixing polyurethane resin and have gloves...\ndvt: Solid work and great showcase, I've done a bunch of stuff with Kokoro and the latency is incredible. So crazy how badly Apple dropped the ball... feels like your demo should be a Siri demo (I mean that in the most complimentary way possible).\nest: I am making something similar. Also been using Kokoro for TTS. Very cool project! Gemma 4 is kinda too heavyweight even with E2B. I am sticking with qwen 0.8B at the moment.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=10,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 10,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "latency",
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "latency",
-        "show hn",
-        "github.com"
-      ],
-      "detail_slug": "ca84caf9bf0697358c01e1e0283f008d6fdefaf8",
-      "is_english_source": true,
-      "translated_title": "M3 Pro에서 구동한 실시간 음성 AI 데모",
-      "short_summary": "Gemma E2B 기반으로 오디오·비디오를 받아 음성으로 바로 답하는 실시간 AI 데모가 HN 전면에 올랐다. 반응은 지연이 짧다는 점에 집중됐고, 로컬 음성 비서의 현실성이 한층 가까워졌다는 평가가 나왔다.",
-      "why_it_matters": "이 데모는 고사양 서버가 아니라 M3 Pro급 로컬 환경에서도 실시간 멀티모달 비서를 꽤 자연스럽게 돌릴 수 있음을 보여준다. 현업에서는 음성 인터페이스를 더 가볍게 붙일 수 있는지, 어떤 모델과 TTS 조합이 실제 체감 성능을 만드는지 다시 따져보게 하는 사례다.\n- 손을 쓰기 어려운 작업 환경에서도 바로 쓸 수 있는 음성 비서 수요가 드러났다. 작업실, 제조, 실험실처럼 화면 조작이 번거로운 곳에서 활용 여지가 크다.\n- 이번 포인트는 모델 성능만이 아니다. 짧은 지연과 안정적인 음성 출력이 중요하다는 점이 부각됐고, 제품 설계에서도 응답 속도가 더 앞자리에 놓이게 됐다.\n- 댓글 흐름을 보면 대형 모델보다 가벼운 모델 조합이 실전에서는 더 낫다는 시각도 있다. 현장 적용에서는 정확도와 함께 추론 비용, 지연, 발열을 함께 봐야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이다. 특히 '이게 원래 스마트폰 음성 비서가 했어야 할 일'이라는 반응이 반복됐고, 실사용 장면을 바로 떠올릴 수 있다는 점이 강하게 먹혔다.\n- 가장 많이 나온 평가는 지연이 짧고 데모 완성도가 높다는 점이다. 몇몇 댓글은 오히려 Siri 데모처럼 느껴진다고 평가했다.\n- 반복된 사용 사례는 핸즈프리 보조였다. 장갑을 낀 작업 중 타이머, 계산, 메모 조회를 시키는 식의 워크숍 시나리오가 대표적이었다.\n- 기술적으로는 Kokoro TTS 경험담과 함께, Gemma 4는 여전히 무겁고 qwen 0.8B 같은 더 작은 모델이 실전용으로 낫다는 의견이 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-06T11:41:04.635128+00:00"
-    },
-    {
-      "id": "70fb4d224247b8418baf5cc7fa13f433f2184c9f",
-      "title_hash": "88e89e8755d7182827901f0c1062ebd8ab289bdb",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The 1987 game “The Last Ninja” was 40 kilobytes",
-      "link": "https://twitter.com/exQUIZitely/status/2040777977521398151",
-      "published_at": "2026-04-06T03:03:22+00:00",
-      "summary": "HN story type: story HN points: 141 HN comments: 92 HN top comments: YZF: I was looking at a production service we run that was using a few GBs of memory. When I add up all the actual data needed in a naive compact representation I end up with a few MBs. So much waste. That's before thinking of clever ways to compress, or de-duplicate or rearrange that data. Back in the day getting the 16KB expansion pack for my 1KB RAM ZX81 was a big deal. And I also wrote code for PIC microcontrollers... andai: I shipped a browser game that was 8KB. Okay, plus 30 million lines of Chromium ;) Most of my games are roughly in that range though. I think my MMO was 32KB, and it had a sound effects generator and speech synth in it. (Jsfxr and SAM) I built it in a few days for a game jam. I'm not trying to brag, I'm trying to say this stuff is easy if you actually care. Just look at JS13K. Every game there is 13KB or below, and... vinkelhake: I grew up with and absolutely adore The Last Ninja series. I'm not going to comment on the size thing because it's so trite. Instead - here's [0] Ben Daglish (on flute) performing \"Wastelands\" together with the Norwegian C64/Amiga tribute band FastLoaders. He unfortunately passed away in 2018, just 52 years old. If that tickled your fancy, here's [1] a full concert with them where they perform all songs from The L...",
-      "fetched_at": "2026-04-06T11:38:17.809468+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47656501",
-      "hn_story_type": "story",
-      "hn_points": "141",
-      "hn_comments_count": "92",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47656501",
-      "hn_item_text": "",
-      "hn_comment_preview": "YZF: I was looking at a production service we run that was using a few GBs of memory. When I add up all the actual data needed in a naive compact representation I end up with a few MBs. So much waste. That's before thinking of clever ways to compress, or de-duplicate or rearrange that data. Back in the day getting the 16KB expansion pack for my 1KB RAM ZX81 was a big deal. And I also wrote code for PIC microcontrollers...\nandai: I shipped a browser game that was 8KB. Okay, plus 30 million lines of Chromium ;) Most of my games are roughly in that range though. I think my MMO was 32KB, and it had a sound effects generator and speech synth in it. (Jsfxr and SAM) I built it in a few days for a game jam. I'm not trying to brag, I'm trying to say this stuff is easy if you actually care. Just look at JS13K. Every game there is 13KB or below, and...\nvinkelhake: I grew up with and absolutely adore The Last Ninja series. I'm not going to comment on the size thing because it's so trite. Instead - here's [0] Ben Daglish (on flute) performing \"Wastelands\" together with the Norwegian C64/Amiga tribute band FastLoaders. He unfortunately passed away in 2018, just 52 years old. If that tickled y...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "production",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "production",
-        "rag"
-      ],
-      "detail_slug": "70fb4d224247b8418baf5cc7fa13f433f2184c9f",
-      "is_english_source": true,
-      "translated_title": "1987년 게임 ‘라스트 닌자’의 용량은 40KB였다",
-      "short_summary": "1987년작 게임 ‘라스트 닌자’가 40KB였다는 사실이 HN에서 화제가 됐다. 이용자들은 당시의 극한 최적화를 돌아보며, 오늘날 소프트웨어의 메모리 낭비와 개발 태도를 함께 짚었다.",
-      "why_it_matters": "40KB짜리 게임 이야기는 단순한 복고 회상이 아니다. 지금의 웹 서비스와 앱이 얼마나 쉽게 비대해지는지 돌아보게 하고, 실제로 무엇이 꼭 필요한지 다시 따져보게 만든다.\n\n- 메모리와 번들 크기는 하드웨어 제약이 큰 임베디드, 모바일, 게임 개발에서 여전히 비용과 성능에 바로 연결된다.\n- 실무에서는 데이터 표현, 중복 제거, 에셋 관리만 다시 점검해도 생각보다 큰 절감 여지가 있다는 점을 떠올리게 한다.\n- 기능 추가보다 기본기 없는 스택 확장이 먼저 쌓이고 있지 않은지, 팀의 개발 습관을 점검하는 계기가 된다.",
-      "hn_reaction_summary": "댓글 분위기는 감탄과 향수가 중심이었지만, 단순한 용량 비교만으로 지금을 재단하는 건 식상하다는 시선도 함께 나왔다. 그래도 전반적으로는 ‘작게 만들 수 있는데 너무 쉽게 무거워진다’는 문제의식이 강했다.\n\n- 몇몇 이용자는 실제 서비스가 GB 단위 메모리를 쓰지만, 순수 데이터만 보면 MB 수준이라며 현대 소프트웨어의 낭비를 지적했다.\n- 소형 게임 제작 경험을 공유한 댓글들은 제약이 있으면 훨씬 작게도 만들 수 있다고 말하며, 결국 관심과 설계의 문제라는 쪽에 무게를 실었다.\n- 한편으로는 시리즈 자체에 대한 애정과 음악 이야기도 이어지며, 기술적 경탄과 작품에 대한 추억이 함께 소비된 스레드였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-06T11:41:04.635128+00:00"
-    },
-    {
-      "id": "1d00d46166f69a7a8afe3a735444bc29cf8a47ea",
-      "title_hash": "fa8a6d1fbf95c84bc85076a324b02d51ea708bfe",
-      "source": "GeekNews",
-      "title": "Show GN: Claude Code랑 같이 쓰려고 만든 터미널 Sticker",
-      "link": "https://news.hada.io/topic?id=28255",
-      "published_at": "2026-04-06T06:28:20+00:00",
-      "summary": "Claude Code + tmux 환경에서 쓰려고 터미널 스티커 앱을 만들었습니다. 만든 이유: 단축키나 메모를 macOS 스티커에 적어두고 있었는데, 터미널과 분리되어 있어서 계속 왔다 갔다 하는 게 불편했습니다. 구현: 터미널 안에서 스티커처럼 메모 생성 / 드래그 이동 색상 변경 (테",
-      "fetched_at": "2026-04-06T07:31:05.080300+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 15,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "1d00d46166f69a7a8afe3a735444bc29cf8a47ea",
-      "is_english_source": false,
-      "sent_at": "2026-04-06T07:33:55.694140+00:00"
     }
   ],
   "topic_digests": {
