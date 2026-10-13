@@ -1,6 +1,599 @@
 {
   "items": [
     {
+      "id": "ef13869d6f8c0a1fea217c95339b09dc99cf0e04",
+      "title_hash": "0dd7907fe92b08ed93fdb3f2a2df9036a7ddcfb0",
+      "source": "GeekNews",
+      "title": "AI 코딩 에이전트(Claude Code·Codex·Gemini CLI) 세팅이 실패하는 15가지 패턴과 해결법",
+      "link": "https://news.hada.io/topic?id=35266",
+      "published_at": "2026-10-13T00:18:31+00:00",
+      "summary": "코딩 에이전트를 몇 주 쓰다 보면 \"일은 많이 했는데 실제로 반영된 건 없는\" 상태가 돼요. 원인은 대부분 모델 성능이 아니라 운영 설정이에요. 증거 없는 \"완료\" : 완료 기준에 \"실행한 명령과 실제 결과\"를 꼭 넣게 해요. \"테스트 통과\"가...",
+      "fetched_at": "2026-10-13T01:44:09.508229+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "75",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=2,tools_agents=30,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 30,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 30,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "cli",
+        "claude + code"
+      ],
+      "detail_slug": "ef13869d6f8c0a1fea217c95339b09dc99cf0e04",
+      "is_english_source": false,
+      "sent_at": "2026-10-13T01:46:48.833983+00:00"
+    },
+    {
+      "id": "8614958905ed3841c6db0c5bcdad647c8893957e",
+      "title_hash": "0edc4069d491470242f60c8d1911309375bc9945",
+      "source": "GeekNews",
+      "title": "GLM-Legal - 계약 검토와 증거 분석, 법률 문서 작성을 위한 AI 모델",
+      "link": "https://news.hada.io/topic?id=35252",
+      "published_at": "2026-10-12T18:42:24+00:00",
+      "summary": "Z.ai가 GLM-5.3-Flash 기반 법률 특화 모델 GLM-Legal 공개. 원문 문서 분석부터 법규 적용, 논증 구성, 최종 문서 작성까지 이어지는 업무를 대상으로 훈련 계약 조항의 구체적인 수정안 작성, 여러 증거 문서의 모순 연결, 국가별 개인정보 규제에 따른 출시 체크리스트 생성 지원...",
+      "fetched_at": "2026-10-13T01:44:09.508229+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "55",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=10,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=10",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "규제"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "규제"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "규제",
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "규제",
+        "출시"
+      ],
+      "detail_slug": "8614958905ed3841c6db0c5bcdad647c8893957e",
+      "is_english_source": false,
+      "sent_at": "2026-10-13T01:46:48.833983+00:00"
+    },
+    {
+      "id": "3e140902d4bc9dd2893090840c53047ccb9240db",
+      "title_hash": "beab331b411faca641ffcb91e53684ce9aa81df6",
+      "source": "GeekNews",
+      "title": "AI는 도구이며, 잘 쓰려면 숙련이 필요하다",
+      "link": "https://news.hada.io/topic?id=35268",
+      "published_at": "2026-10-13T00:32:44+00:00",
+      "summary": "LLM은 사람이 목적에 맞게 다룰 수 있는 도구 이며, 유용성은 사용자가 지시하고 피드백을 해석하며 오류를 알아내 수정하는 능력에 달려 있음 예측 불가능성 은 중요한 한계지만, 예측 가능성과 신뢰성은 도구의 품질을 평가하는 기준이지 도구 여부를 결정하는 필수...",
+      "fetched_at": "2026-10-13T01:44:09.508229+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "3e140902d4bc9dd2893090840c53047ccb9240db",
+      "is_english_source": false,
+      "sent_at": "2026-10-13T01:46:48.833983+00:00"
+    },
+    {
+      "id": "d91ea1ac0dfe75b31676b7308afba720a6fdb73d",
+      "title_hash": "e0fa260ff2e06fd90ae3091e368b3505ab5df350",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "GLM-Legal",
+      "link": "https://z.ai/blog/glm-legal",
+      "published_at": "2026-10-12T16:11:45+00:00",
+      "summary": "HN story type: story HN points: 428 HN comments: 247 HN top comments: jedberg: I would love to see these benchmarks split up across \"generic\" tasks and novel tasks. For example, redlining an OEM agreement with my vendor. They pretty much all use the same template, and the objections are always the same. I tried using Claude first, and even my lawyer was impressed that it found things they missed. Then I used Claude to redline that type of contract and the other side said \"your lawyer was sur... fireflysentinel: Seems like people forgot Z.ai was snapshotting the entire workspace before every prompt. https://blog.ferstar.org/en/posts/zcode-silent-workspace-sna... How could we trust legal product from a company who was ignoring privacy protection law like that? victor9000: I’m not sure if this is the right solution, but we clearly need better tools for the legal space. Anthropic's recent policy update makes this abundantly clear: “When our products are used in ways that can affect someone's health, legal rights, finances, livelihood, or access to essential services, we require there to be a qualified ‘human in the loop’ (that is, someone who has the authority to review and, if neces...",
+      "fetched_at": "2026-10-13T01:44:09.508229+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50058507",
+      "hn_story_type": "story",
+      "hn_points": "428",
+      "hn_comments_count": "247",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50058507",
+      "hn_item_text": "",
+      "hn_comment_preview": "jedberg: I would love to see these benchmarks split up across \"generic\" tasks and novel tasks. For example, redlining an OEM agreement with my vendor. They pretty much all use the same template, and the objections are always the same. I tried using Claude first, and even my lawyer was impressed that it found things they missed. Then I used Claude to redline that type of contract and the other side said \"your lawyer was sur...\nfireflysentinel: Seems like people forgot Z.ai was snapshotting the entire workspace before every prompt. https://blog.ferstar.org/en/posts/zcode-silent-workspace-sna... How could we trust legal product from a company who was ignoring privacy protection law like that?\nvictor9000: I’m not sure if this is the right solution, but we clearly need better tools for the legal space. Anthropic's recent policy update makes this abundantly clear: “When our products are used in ways that can affect someone's health, legal rights, finances, livelihood, or access to essential services, we require there to be a qualified ‘human in the loop’ (that is, someone who has the authority to review and, if neces...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=19,practical_tech=14,tools_agents=19,strategy_insight=13,industry_business=-2",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 19,
+        "strategy_insight": 13,
+        "industry_business": -2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "benchmark",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 19,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "template",
+            "prompt",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "template",
+        "prompt",
+        "tool",
+        "claude + code"
+      ],
+      "detail_slug": "d91ea1ac0dfe75b31676b7308afba720a6fdb73d",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T01:46:48.833983+00:00"
+    },
+    {
+      "id": "2b5b6385f9d8ce540dd8a5c224152810793686b3",
+      "title_hash": "bf4a26d29cea2f0a401c18c00065ed4849728941",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "link": "https://github.com/prabanta-dev/janas",
+      "published_at": "2026-10-12T22:05:43+00:00",
+      "summary": "HN story type: story HN points: 28 HN comments: 13 HN top comments: 3eb7988a1663: If anyone needs to see what 62 tokens/second looks like: https://token.qusai.pro/?speed=62 Which seems sufficient for mortals who are not running gas town, but want a local model. kadoban: Why are the models being used so old (in llm years anyway). Why no Qwen 3.8 ? InsidiousWombat: I wonder when we will start seeing small commercial accelerators integrated with NVMes; could potentially use far more bandwidth than typical NVMe drive can push thru the four lanes. Given that you'd have probably a lot more capacity just to get to required bandwidth it could be used to switch very quickly between models (as all stored there would essentially be \"loaded\")",
+      "fetched_at": "2026-10-13T01:44:09.508229+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50063717",
+      "hn_story_type": "story",
+      "hn_points": "28",
+      "hn_comments_count": "13",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50063717",
+      "hn_item_text": "",
+      "hn_comment_preview": "3eb7988a1663: If anyone needs to see what 62 tokens/second looks like: https://token.qusai.pro/?speed=62 Which seems sufficient for mortals who are not running gas town, but want a local model.\nkadoban: Why are the models being used so old (in llm years anyway). Why no Qwen 3.8 ?\nInsidiousWombat: I wonder when we will start seeing small commercial accelerators integrated with NVMes; could potentially use far more bandwidth than typical NVMe drive can push thru the four lanes. Given that you'd have probably a lot more capacity just to get to required bandwidth it could be used to switch very quickly between models (as all stored there would essentially be \"loaded\")",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "37",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=13,practical_tech=13,tools_agents=12,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 13,
+        "tools_agents": 12,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 13,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "local + run",
+        "github.com"
+      ],
+      "detail_slug": "2b5b6385f9d8ce540dd8a5c224152810793686b3",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T01:46:48.833983+00:00"
+    },
+    {
+      "id": "64f478227a74374ca3e04210b08c1acee0e4c47a",
+      "title_hash": "97f45cabb921b3a4a69943e52463fbf6b5d8c973",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Making Of Super Mario 64 – full Giles Goddard interview (2001)",
+      "link": "https://pixelatron.com/blog/the-making-of-super-mario-64-full-giles-goddard-interview-ngc/",
+      "published_at": "2026-10-10T19:28:41+00:00",
+      "summary": "HN story type: story HN points: 224 HN comments: 85 HN top comments: deltaburnt: I often think about how crazy it must have been to be a game developer around this period. Almost every bit of design, math, coding knowledge was flipped on its head. Overnight developers who were managing relatively simple XY coordinates suddenly had to discover the complexities of 3D rotations, perspective math, and probably more linear algebra than they ever really expected to know. It’s even crazier we got mas... okeuro49: If you are interested in Mario 64 have a look at Kaze Emanuar's YouTube channel. https://youtube.com/channel/UCuvSqzfO_LV_QzHdmEj84SQ From Wikipedia: > Starting from 2022, Emanuar would begin uploading videos discussing Nintendo 64 technical details and optimization techniques,[15] along with outlining Super Mario 64's bugs, technical shortcomings and poorly optimized features, fixing them in the process.[16][17][... Aissen: > What’s the secret behind that Mario ‘feel’? > I think that is fine-tuning. Many, many, many hours and days spent actually sitting down and playing the game. Turns out quality takes time. Who would have thought. Very few games reach this level of fine-tuning, because it takes dedication (and budget). Funnily, it's almost conflicting with this answer: > Was much changed during development? > Apart from the number...",
+      "fetched_at": "2026-10-13T01:44:09.508229+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50036287",
+      "hn_story_type": "story",
+      "hn_points": "224",
+      "hn_comments_count": "85",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50036287",
+      "hn_item_text": "",
+      "hn_comment_preview": "deltaburnt: I often think about how crazy it must have been to be a game developer around this period. Almost every bit of design, math, coding knowledge was flipped on its head. Overnight developers who were managing relatively simple XY coordinates suddenly had to discover the complexities of 3D rotations, perspective math, and probably more linear algebra than they ever really expected to know. It’s even crazier we got mas...\nokeuro49: If you are interested in Mario 64 have a look at Kaze Emanuar's YouTube channel. https://youtube.com/channel/UCuvSqzfO_LV_QzHdmEj84SQ From Wikipedia: > Starting from 2022, Emanuar would begin uploading videos discussing Nintendo 64 technical details and optimization techniques,[15] along with outlining Super Mario 64's bugs, technical shortcomings and poorly optimized features, fixing them in the process.[16][17][...\nAissen: > What’s the secret behind that Mario ‘feel’? > I think that is fine-tuning. Many, many, many hours and days spent actually sitting down and playing the game. Turns out quality takes time. Who would have thought. Very few games reach this level of fine-tuning, because it takes dedication (and budget). Funnily, it's almost c...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "37",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=4,tools_agents=13,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 13,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 13,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "perspective"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "ai + coding"
+      ],
+      "detail_slug": "64f478227a74374ca3e04210b08c1acee0e4c47a",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T01:46:48.833983+00:00"
+    },
+    {
+      "id": "57f3fd207dda0c7747f0845b948eaa1fda08b9d3",
+      "title_hash": "72d5dd692d8ea41d89ba544f7dd0915e24566f55",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "link": "https://taylor.town/kk-ai-2026",
+      "published_at": "2026-10-12T15:16:45+00:00",
+      "summary": "HN story type: story HN points: 141 HN comments: 43 HN top comments: gwern: > Amid all this activity, a picture of our AI future is coming into view, and it is not the HAL 9000—a discrete machine animated by a charismatic (yet potentially homicidal) humanlike consciousness—or a Singularitan rapture of superintelligence. The only important prediction Kelly made was a complete rejection of the Singularity. It is also probably the prediction that sentiment has changed on the most in the dire... stephen_cagle: By my own, completely arbitrary split of this into 16 predictions, I would say that this hits on maybe 8 of 16 if we are being a bit generous. Which is good, but certainly not \"Inevitable\" (the title of the book). With that said, maybe he meant inevitable as N approaches infinity... So there's still time! Aside: I think the biggest interesting prediction he had was that AI would obey a user driven network effect.... cousinbryce: Google’s main product was and continues to be ads",
+      "fetched_at": "2026-10-13T01:44:09.508229+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50057668",
+      "hn_story_type": "story",
+      "hn_points": "141",
+      "hn_comments_count": "43",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50057668",
+      "hn_item_text": "",
+      "hn_comment_preview": "gwern: > Amid all this activity, a picture of our AI future is coming into view, and it is not the HAL 9000—a discrete machine animated by a charismatic (yet potentially homicidal) humanlike consciousness—or a Singularitan rapture of superintelligence. The only important prediction Kelly made was a complete rejection of the Singularity. It is also probably the prediction that sentiment has changed on the most in the dire...\nstephen_cagle: By my own, completely arbitrary split of this into 16 predictions, I would say that this hits on maybe 8 of 16 if we are being a bit generous. Which is good, but certainly not \"Inevitable\" (the title of the book). With that said, maybe he meant inevitable as N approaches infinity... So there's still time! Aside: I think the biggest interesting prediction he had was that AI would obey a user driven network effect....\ncousinbryce: Google’s main product was and continues to be ads",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "34",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=10,practical_tech=4,tools_agents=7,strategy_insight=10,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 10,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "future",
+        "future + work"
+      ],
+      "detail_slug": "57f3fd207dda0c7747f0845b948eaa1fda08b9d3",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T01:46:48.833983+00:00"
+    },
+    {
       "id": "8ad6b394379fd86323834ed1d621b55d7a8ef220",
       "title_hash": "392e2c3c9715a2b69eb47199e1931ad583121631",
       "source": "GeekNews",
@@ -170284,623 +170877,6 @@
       "hn_reaction_summary": "댓글 분위기는 기대와 경계가 팽팽하게 맞서는 쪽에 가까웠다. 실제로 써 본 사람들의 체감과 아직 검증이 덜 됐다는 불안이 동시에 드러났다.\n- 긍정적인 쪽은 콜라겐처럼 비교적 익숙한 사례를 들며 관절 통증 완화나 피부 개선 같은 경험적 효능을 더 진지하게 봐야 한다고 말했다.\n- 회의적인 쪽은 장기 안전성이 충분히 확인되지 않았고, 표준 식품이나 의약품이 아닌 물질을 몸에 넣는 데 부담이 크다고 봤다.\n- 반복해서 나온 논점은 체감 후기와 동료심사 근거 사이의 거리, 그리고 의료 과학이 경험적 신호를 어디까지 받아들여야 하느냐였다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-07T08:25:49.462761+00:00"
-    },
-    {
-      "id": "0a9ceac928de8a89356068b7724d473fd1097c48",
-      "title_hash": "4be168f54864a179fb12f8f85a482d737c6c7385",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Build web apps for smart glasses",
-      "link": "https://hub.evenrealities.com/docs/getting-started/overview",
-      "published_at": "2026-04-05T08:43:18+00:00",
-      "summary": "HN story type: story HN points: 4 HN comments: 1 HN top comments: mozz100: “Plugins are web apps built with standard web technologies (HTML, CSS, JavaScript/TypeScript) and the Even Hub SDK.” I wonder if owners of these smart glasses who also hang out here have tried this. Might persuade me to buy a pair!",
-      "fetched_at": "2026-04-07T08:22:51.687143+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47647397",
-      "hn_story_type": "story",
-      "hn_points": "4",
-      "hn_comments_count": "1",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47647397",
-      "hn_item_text": "",
-      "hn_comment_preview": "mozz100: “Plugins are web apps built with standard web technologies (HTML, CSS, JavaScript/TypeScript) and the Even Hub SDK.” I wonder if owners of these smart glasses who also hang out here have tried this. Might persuade me to buy a pair!",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=4,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 4,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "typescript",
-            "sdk"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "plugin"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "typescript",
-        "sdk"
-      ],
-      "detail_slug": "0a9ceac928de8a89356068b7724d473fd1097c48",
-      "is_english_source": true,
-      "translated_title": "스마트 안경용 웹앱 개발하기",
-      "short_summary": "스마트 안경용 플러그인을 HTML, CSS, JavaScript/TypeScript와 Even Hub SDK로 만들 수 있다는 소개다. 전용 툴체인보다 익숙한 웹 기술로 진입장벽을 낮추는 데 초점이 있다.",
-      "why_it_matters": "스마트 안경 앱 생태계가 네이티브 전용 개발에서 웹 기술 기반 확장 모델로 넓어질 수 있다는 점이 눈에 띈다. 프런트엔드 개발자가 익숙한 도구로 빠르게 시도해 볼 수 있다는 메시지에 가깝다.\n- HTML, CSS, JavaScript/TypeScript 중심이라 새 플랫폼 학습 부담을 줄이고 프로토타입 속도를 끌어올리기 쉽다.\n- 스마트 안경이 초기 생태계를 키우는 단계라면, 먼저 작은 플러그인을 올려 사용 사례를 선점할 여지가 있다.\n- 반대로 실사용 성능, 입력 방식 제약, 배포 절차 같은 운영 현실은 아직 더 확인해야 한다.",
-      "hn_reaction_summary": "HN 반응은 아직 매우 초기 단계다. 댓글이 많지 않지만, 보이는 반응은 기술 장벽이 낮아 보인다는 기대와 실제 제품 경험을 더 보고 싶다는 신중론으로 나뉜다.\n- 반복된 포인트는 표준 웹 기술로 만들 수 있다는 점이다. 이 부분이 구매와 개발 진입의 심리적 장벽을 낮춘다는 반응이 나왔다.\n- 동시에 실제 스마트 안경 사용자 후기가 있어야 판단할 수 있다는 분위기도 보인다. 문서만으로는 제품 완성도와 활용성을 가늠하기 어렵다는 뜻이다.\n- 실무자 관점에서는 SDK 자체보다도 실제 기기 경험, 개발 편의성, 앱 배포 흐름이 다음 확인 포인트로 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-07T08:25:49.462761+00:00"
-    },
-    {
-      "id": "2cac3cb45717e80b3ff150a330bfa32c732459bb",
-      "title_hash": "7e66279da9672913769edef2c3909996c1bd1adc",
-      "source": "GeekNews",
-      "title": "Claude Code, 2월 업데이트 이후 복잡한 엔지니어링 작업에서 사용 불가 수준으로 품질 저하",
-      "link": "https://news.hada.io/topic?id=28272",
-      "published_at": "2026-04-07T00:46:44+00:00",
-      "summary": "클로드 코드가 2월 업데이트 후 지시를 무시하거나 반대로 수행 또는 작업을 완료하지 않고 완료했다고 주장 하는 등 복잡한 엔지니어링 작업 실패 현상이 다수 보고됨 저하의 핵심 원인으로 redact-thinking-2026-02-12 배포...",
-      "fetched_at": "2026-04-07T04:13:59.237324+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=2,tools_agents=15,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 15,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "2cac3cb45717e80b3ff150a330bfa32c732459bb",
-      "is_english_source": false,
-      "sent_at": "2026-04-07T04:16:53.858829+00:00"
-    },
-    {
-      "id": "5fa577e8da47e99596ba70c0751c214dc2fe52a4",
-      "title_hash": "860186bd43b9b697aea559adcf401d9a3bccfdd1",
-      "source": "GeekNews",
-      "title": "Sam Altman이 우리의 미래를 통제할지도 모른다 – 그를 신뢰할 수 있을까?",
-      "link": "https://news.hada.io/topic?id=28273",
-      "published_at": "2026-04-07T00:49:44+00:00",
-      "summary": "OpenAI는 설립 초기부터 AI를 인류 역사상 가장 강력하고 잠재적으로 위험한 기술로 규정하고, 비영리법인으로 출발해 인류의 안전을 회사 존립보다 우선 하는 구조를 채택했으나, 이후 영리법인으로 전환하면서 그 원칙이 형해화되고 있음 2023년 11월, 공동창업자 Ilya Sutskever 주...",
-      "fetched_at": "2026-04-07T04:13:59.237324+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "55",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=10,practical_tech=0,tools_agents=4,strategy_insight=10,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 10,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 10,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [
-            "원칙"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "신뢰",
-        "원칙"
-      ],
-      "detail_slug": "5fa577e8da47e99596ba70c0751c214dc2fe52a4",
-      "is_english_source": false,
-      "sent_at": "2026-04-07T04:16:53.858829+00:00"
-    },
-    {
-      "id": "5aa9ea2435595ccf9edc8d17ff76957a01ebd40d",
-      "title_hash": "939e746931ad3d957691de1e3ced0c379c5d90b3",
-      "source": "GeekNews",
-      "title": "InsForge - AI 코딩 에이전트를 위한 에이전틱 백엔드 플랫폼",
-      "link": "https://news.hada.io/topic?id=28269",
-      "published_at": "2026-04-07T00:31:02+00:00",
-      "summary": "AI 코딩 에이전트 및 AI 코드 에디터 를 위해 설계된 백엔드 개발 플랫폼 에이전트가 데이터베이스·인증·스토리지·함수 등 백엔드 기본 요소 를 엔드-투-엔드로 직접 이해하고 운영 가능 에이전트와 백엔드 인프라 사이에 시맨틱 레이어(Semantic...",
-      "fetched_at": "2026-04-07T04:13:59.237324+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "인프라",
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "5aa9ea2435595ccf9edc8d17ff76957a01ebd40d",
-      "is_english_source": false,
-      "sent_at": "2026-04-07T04:16:53.858829+00:00"
-    },
-    {
-      "id": "67e2e8318a635327fd862ebd8d6c1d6b9c4c734a",
-      "title_hash": "2e9d1e69fc1b5cb440b29bb4b30cefb95ce427f1",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Anos – a hand-written ~100KiB microkernel for x86-64 and RISC-V",
-      "link": "https://github.com/roscopeco/anos",
-      "published_at": "2026-04-04T06:58:03+00:00",
-      "summary": "HN story type: story HN points: 35 HN comments: 7 HN post text: I pretty much always have a kernel project going on, and have been that way for decades. Over the past couple of years, that's been Anos, which has gotten further along than any of my previous hobby kernels, supporting IPC, multitasking, SMP (x86-64 only right now) and running on real hardware. LLMs (mostly Claude Code) have been used during development, but I learned early on that it's not _great_ at code at this level, so I've restricted its use to mostly documentation and tests. There's _a little_ AI code in the user space, but I have a strict \"no AI code\" rule in the kernel itself. I find this helps not only with the quality / functionality of the code, but also with learning - for example, even though I've written multiple kernels in the past, it wasn't until Anos that I _truly_ grokked pagetable management and what was possible with a good VMM interface, and if I'd outsourced that implementation to an LLM I probably wouldn't have learned any of that. In terms of approach, Anos avoids legacy platform features and outdated wiki / tutorial resources, and instead tries to implement as much as possible from manuals and datasheets, and it's definitely worked out well so far. The... HN top comments: thomasjudge: The comment in the \"high level overview\" section - \"(just a hobby, won't be big and professional like GNU-Linux®)\" is an amusing reference jonpalmisc: Going to take a guess the author is not a Spanish speaker :p themafia: > I don't know how useful projects like Anos are any more They have the same utility they always have. They help you and the people you share it with learn. So it's exceedingly useful. > given we now live in the age of AI coding We live in an age of AI overinvestment. I would reserve judgement until they prove they actually have something.",
-      "fetched_at": "2026-04-07T04:13:59.237324+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47636579",
-      "hn_story_type": "story",
-      "hn_points": "35",
-      "hn_comments_count": "7",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47636579",
-      "hn_item_text": "I pretty much always have a kernel project going on, and have been that way for decades. Over the past couple of years, that's been Anos, which has gotten further along than any of my previous hobby kernels, supporting IPC, multitasking, SMP (x86-64 only right now) and running on real hardware. LLMs (mostly Claude Code) have been used during development, but I learned early on that it's not _great_ at code at this level, so I've restricted its use to mostly documentation and tests. There's _a little_ AI code in the user space, but I have a strict \"no AI code\" rule in the kernel itself. I find this helps not only with the quality / functionality of the code, but also with learning - for example, even though I've written multiple kernels in the past, it wasn't until Anos that I _truly_ grokked pagetable management and what was possible with a good VMM interface, and if I'd outsourced that implementation to an LLM I probably wouldn't have learned any of that. In terms of approach, Anos avoids legacy platform features and outdated wiki / tutorial resources, and instead tries to implement as much as possible from manuals and datasheets, and it's definitely worked out well so far. The...",
-      "hn_comment_preview": "thomasjudge: The comment in the \"high level overview\" section - \"(just a hobby, won't be big and professional like GNU-Linux®)\" is an amusing reference\njonpalmisc: Going to take a guess the author is not a Spanish speaker :p\nthemafia: > I don't know how useful projects like Anos are any more They have the same utility they always have. They help you and the people you share it with learn. So it's exceedingly useful. > given we now live in the age of AI coding We live in an age of AI overinvestment. I would reserve judgement until they prove they actually have something.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "53",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=29,practical_tech=16,tools_agents=29,strategy_insight=7,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 29,
-        "strategy_insight": 7,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [
-            "implementation",
-            "tutorial"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 29,
-          "strong_hits": [
-            "claude code",
-            "llm"
-          ],
-          "support_hits": [
-            "ai coding"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "llm",
-        "ai coding",
-        "claude + code",
-        "ai + coding",
-        "github.com"
-      ],
-      "detail_slug": "67e2e8318a635327fd862ebd8d6c1d6b9c4c734a",
-      "is_english_source": true,
-      "translated_title": "x86-64·RISC-V용 100KiB급 마이크로커널 Anos",
-      "short_summary": "Anos는 x86-64와 RISC-V를 겨냥한 약 100KiB급 마이크로커널이다. IPC, 멀티태스킹, 실제 하드웨어 구동을 지원하며 SMP는 현재 x86-64에서만 동작한다.",
-      "why_it_matters": "Anos는 취미 프로젝트 소개를 넘어, 저수준 시스템 소프트웨어를 지금 어떤 방식으로 배우고 구현하는지 보여주는 사례다. 특히 커널 코드는 AI에 맡기지 않고 직접 쓰고, 오래된 튜토리얼 대신 매뉴얼과 데이터시트를 기준으로 구현했다는 점이 눈에 띈다.\n- IPC, 멀티태스킹, SMP, 실제 하드웨어 구동까지 공개돼 있어 단순 데모를 넘는 학습 자료로 볼 만하다.\n- LLM은 문서와 테스트 쪽에만 제한적으로 쓰고 커널 본문은 직접 작성했다는 점이, 저수준 영역에서 AI 보조를 어디까지 허용할지 생각하게 만든다.\n- 공식 문서를 바탕으로 플랫폼의 낡은 관성을 피해 구현해 나간 흐름은 OS 개발, 펌웨어, 시스템 프로그래밍을 하는 사람에게 실무적인 참고가 된다.",
-      "hn_reaction_summary": "댓글 수는 많지 않았지만 분위기는 대체로 우호적이었다. 가벼운 농담도 있었고, AI 시대에도 이런 커널 프로젝트가 여전히 배울 가치가 있느냐를 두고 짧지만 선명한 의견이 오갔다.\n- 상단 댓글에서는 high level overview의 문구를 리눅스 초기 선언문 패러디로 받아들이며 반가워하는 반응이 나왔다.\n- 반복해서 나온 옹호 논리는 학습 가치였다. 직접 구현해야 페이징, VMM, 커널 구조를 제대로 이해할 수 있다는 공감이 있었다.\n- AI 코딩 시대라 이런 프로젝트의 효용이 줄었다는 시선도 있었지만, 몇몇 댓글은 아직은 AI 과열이 크다며 판단을 유보해야 한다는 쪽에 가까웠다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-07T04:16:53.858829+00:00"
-    },
-    {
-      "id": "f145b4ae0bd9dc01e4c9479e4d00796315927c94",
-      "title_hash": "817c3767a70bb6035ecc55089eb7cd5a09dabdec",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Tusk for macOS and Gnome",
-      "link": "https://shapemachine.xyz/tusk/",
-      "published_at": "2026-04-04T10:39:32+00:00",
-      "summary": "HN story type: story HN points: 59 HN comments: 18 HN top comments: btown: Are the Gnome features planned to be ported to macOS? Frozen columns and cancelable queries are pretty vital things! petepete: This looks great, definitely going to take it for a spin tomorrow. I'm pretty happy at the moment editing in vim invoked from psql with \\e - which has been my setup for way more than a decade now, but I do miss isql (Query Analyzer) from SQL Server 2000, which was just about perfect. irdc: Awesome, finally! Are you planning to integrate with Postgres.app?",
-      "fetched_at": "2026-04-07T04:13:59.237324+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47637828",
-      "hn_story_type": "story",
-      "hn_points": "59",
-      "hn_comments_count": "18",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47637828",
-      "hn_item_text": "",
-      "hn_comment_preview": "btown: Are the Gnome features planned to be ported to macOS? Frozen columns and cancelable queries are pretty vital things!\npetepete: This looks great, definitely going to take it for a spin tomorrow. I'm pretty happy at the moment editing in vim invoked from psql with \\e - which has been my setup for way more than a decade now, but I do miss isql (Query Analyzer) from SQL Server 2000, which was just about perfect.\nirdc: Awesome, finally! Are you planning to integrate with Postgres.app?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "45",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=4,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 21,
-        "tools_agents": 4,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 21,
-          "strong_hits": [
-            "postgres",
-            "show hn",
-            "sql"
-          ],
-          "support_hits": [
-            "query"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "setup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "postgres",
-        "show hn",
-        "sql",
-        "query"
-      ],
-      "detail_slug": "f145b4ae0bd9dc01e4c9479e4d00796315927c94",
-      "is_english_source": true,
-      "translated_title": "macOS·GNOME용 SQL 도구 Tusk 공개",
-      "short_summary": "Hacker News에서 macOS와 GNOME용 SQL 도구 Tusk가 소개되며 관심을 모았다. 댓글에서는 열 고정, 쿼리 취소, Postgres.app 연동 같은 실사용 기능이 빠르게 화제로 떠올랐다.",
-      "why_it_matters": "데이터베이스 작업 도구는 성능보다도 매일 손에 익는 사용감이 더 크게 작용한다. 이번 반응은 새 도구가 나왔다는 소식보다, 실제 업무 흐름을 얼마나 잘 바꿔줄 수 있는지가 더 먼저 검증된 사례에 가깝다.\n- macOS와 GNOME을 함께 겨냥해 데스크톱 SQL 작업 환경의 선택지가 넓어졌다. 같은 성격의 도구를 여러 운영체제에서 맞춰 쓰려는 팀에 특히 눈길이 간다.\n- 댓글에서 바로 언급된 열 고정, 쿼리 취소 같은 기능은 보기 좋은 옵션이 아니라 실무 필수에 가깝다. 대용량 결과를 확인하거나 오래 걸리는 질의를 다룰 때 차이가 크게 난다.\n- Postgres.app 연동 요청이 나온 점도 눈여겨볼 만하다. 설치와 연결이 매끄러워지면 개발 환경 진입 장벽이 낮아지고 로컬 데이터 작업 흐름도 더 단순해질 수 있다.",
-      "hn_reaction_summary": "반응은 대체로 호의적이었지만, 첫인상보다 기능 완성도와 생태계 연결성을 먼저 따지는 분위기가 강했다. 새 도구를 반기는 목소리와 함께 기존 작업 방식과 비교하는 시선도 뚜렷했다.\n- 긍정 쪽에서는 \"드디어 나왔다\"는 반응이 보였다. 특히 직접 써보겠다는 댓글이 나올 만큼 첫 공개 인상은 괜찮다는 평가가 많았다.\n- 반복해서 나온 논점은 macOS와 GNOME 기능 격차였다. 열 고정과 쿼리 취소처럼 실제로 자주 쓰는 기능이 macOS에도 들어오는지가 관심사였다.\n- 일부는 여전히 `psql + vim` 같은 오래된 조합을 선호한다고 밝혔다. 새 GUI 도구가 채택되려면 익숙한 CLI 흐름을 대체할 만큼 편의성과 연동성이 뒷받침돼야 한다는 뜻으로 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-07T04:16:53.858829+00:00"
-    },
-    {
-      "id": "230cf6f38612b45fb2ad29abdec5cd4111024354",
-      "title_hash": "e34858e499fa08ebf3c77af7c0bbdeb44919ee47",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "HackerRank (YC S11) Is Hiring",
-      "link": "https://news.ycombinator.com/item?id=47667011",
-      "published_at": "2026-04-06T21:00:00+00:00",
-      "summary": "HN story type: job HN points: 1 HN comments: 0 HN post text: The job of a developer is becoming an orchestrator of AI agents. HackerRank is helping 2500+ companies change how they hire for this new world. We've played a critical role in developer hiring over the last 15 years, with 30m+ developers on our platform and now going through a founding moment -- reinventing the company for the agentic era. Specifically, we are changing hiring across 3 dimensions: > Tasks: Real-world tasks on code repositories vs standard algorithmic-style puzzles > Evaluation: AI fluency, orchestration skills vs functional correctness > Candidate experience: Agentic IDE vs a simple code editor We are already live across many companies and it's exciting to see the world finally move away from the old-school Leetcode style puzzles. Role The role of the FDE will be to help our customers implement the new hiring process and serve as a bridge between the product & customer teams as we rapidly build the new HackerRank. Being technically fluent and strong communication skills are critical. You will be working directly with engineering leaders at our customers to redesign how they evaluate talent. Location Santa Clara, New York, London, Bangalore (hybrid set up with 3 t...",
-      "fetched_at": "2026-04-07T04:13:59.237324+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47667011",
-      "hn_story_type": "job",
-      "hn_points": "1",
-      "hn_comments_count": "0",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47667011",
-      "hn_item_text": "The job of a developer is becoming an orchestrator of AI agents. HackerRank is helping 2500+ companies change how they hire for this new world. We've played a critical role in developer hiring over the last 15 years, with 30m+ developers on our platform and now going through a founding moment -- reinventing the company for the agentic era. Specifically, we are changing hiring across 3 dimensions: > Tasks: Real-world tasks on code repositories vs standard algorithmic-style puzzles > Evaluation: AI fluency, orchestration skills vs functional correctness > Candidate experience: Agentic IDE vs a simple code editor We are already live across many companies and it's exciting to see the world finally move away from the old-school Leetcode style puzzles. Role The role of the FDE will be to help our customers implement the new hiring process and serve as a bridge between the product & customer teams as we rapidly build the new HackerRank. Being technically fluent and strong communication skills are critical. You will be working directly with engineering leaders at our customers to redesign how they evaluate talent. Location Santa Clara, New York, London, Bangalore (hybrid set up with 3 t...",
-      "hn_comment_preview": "",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=19,practical_tech=5,tools_agents=19,strategy_insight=2,industry_business=14",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 19,
-        "strategy_insight": 2,
-        "industry_business": 14
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "valuation"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 19,
-          "strong_hits": [
-            "ai agent",
-            "agentic",
-            "ide"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 14,
-          "strong_hits": [
-            "valuation",
-            "customers"
-          ],
-          "support_hits": [
-            "platform",
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ai agent",
-        "agentic",
-        "ide",
-        "agent"
-      ],
-      "detail_slug": "230cf6f38612b45fb2ad29abdec5cd4111024354",
-      "is_english_source": true,
-      "translated_title": "해커랭크, AI 채용 전환 이끌 인재 채용",
-      "short_summary": "해커랭크는 알고리즘 퍼즐 중심 평가에서 벗어나 실제 저장소 과제와 AI 활용 역량을 보는 채용 방식으로 전환 중이라고 밝혔다. 이번 공고는 그 변화를 고객사에 안착시키는 FDE 역할을 찾는 내용이다.",
-      "why_it_matters": "개발자 채용의 기준이 문제 풀이 점수에서 실제 업무 수행 방식으로 옮겨가고 있음을 보여주는 공고다. 특히 AI 에이전트를 쓰는 개발 환경이 채용 프로세스 안으로 들어오고 있다는 점이 눈에 띈다.\n- 과제는 알고리즘 문제보다 실제 코드 저장소 기반 작업으로 바뀌고, 평가는 정답만이 아니라 AI를 어떻게 쓰는지까지 보려는 흐름이다.\n- 기업은 과제 설계, 평가 기준, 면접 운영 방식을 함께 손봐야 할 수 있다. 채용팀과 엔지니어링 리더의 협업 부담도 커진다.\n- 지원자도 코딩 테스트 준비만으로는 부족하다. AI 도구를 활용한 작업 과정과 판단 근거를 설명하는 역량이 더 자주 요구될 가능성이 크다.",
-      "hn_reaction_summary": "현재 HN에서는 반응이 거의 보이지 않는다. 포인트 1, 댓글 0이라 찬반 논쟁이나 반복적으로 등장한 쟁점은 아직 형성되지 않은 상태다.\n- 공개된 맥락만 보면 메시지의 초점은 채용 공고 자체보다 해커랭크가 채용 평가 기준을 어떻게 바꾸려 하는지에 맞춰져 있다.\n- 댓글이 없어 현업 개발자들의 즉각적인 반발이나 지지는 확인되지 않는다. 대신 시장이 이 변화를 아직 관망하고 있다고 해석할 여지가 있다.\n- 실무자가 읽을 만한 포인트는 분명하다. 실제 업무형 과제, AI 활용 평가, 에이전트형 IDE 경험이 앞으로 채용 논의의 핵심 축으로 떠오를 수 있다는 점이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-07T04:16:53.858829+00:00"
     }
   ],
   "topic_digests": {
