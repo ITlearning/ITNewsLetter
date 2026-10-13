@@ -1,6 +1,617 @@
 {
   "items": [
     {
+      "id": "7263cbba7a7c02acfe36791a8345048b2f02344f",
+      "title_hash": "022325e82e05efc27c22bb43f61c899db07371f7",
+      "source": "GeekNews",
+      "title": "Show GN: Flats – AI 에이전트가 만든 웹사이트를 내 컴퓨터에서 호스팅",
+      "link": "https://news.hada.io/topic?id=35303",
+      "published_at": "2026-10-13T14:59:52+00:00",
+      "summary": "안녕하세요. Claude Code, Codex 같은 AI 에이전트가 만든 결과물을 자신의 컴퓨터에서 실행하고 공유할 수 있는 오픈소스 프로젝트 Flats를 만들었습니다. Claude Artifacts나 ChatGPT의 Sites처럼 AI가 웹사이트나 앱을 만들어주는 경험은 편리하지만, 결과물을 실행하고 공유하려면 외부 서비스에 의존하게",
+      "fetched_at": "2026-10-13T18:25:34.350451+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=0,tools_agents=25,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 25,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "7263cbba7a7c02acfe36791a8345048b2f02344f",
+      "is_english_source": false,
+      "sent_at": "2026-10-13T18:29:39.451481+00:00"
+    },
+    {
+      "id": "a12cd0f45d93966e398f86f29904a61aa6e22f2b",
+      "title_hash": "c10160231f951786a510c723f2bf28ca34a370fb",
+      "source": "GeekNews",
+      "title": "Mozilla, Firefox Enterprise 공개",
+      "link": "https://news.hada.io/topic?id=35301",
+      "published_at": "2026-10-13T14:34:50+00:00",
+      "summary": "Firefox Enterprise 는 규제 및 보안에 민감한 조직을 위한 기업용 브라우저로, 자체 인프라에서 브라우저 관리와 정책, 데이터를 통제하도록 설계됨 온프레미스 배포 를 지원하며, 조직이 데이터와 정책, 관리 기능의 위치를 정하고 감사할 수 있음",
+      "fetched_at": "2026-10-13T18:25:34.350451+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "57",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=12,practical_tech=-2,tools_agents=0,strategy_insight=3,industry_business=12",
+      "slot_scores": {
+        "practical_tech": -2,
+        "tools_agents": 0,
+        "strategy_insight": 3,
+        "industry_business": 12
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "인프라"
+          ],
+          "negative_hits": [
+            "규제"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "규제"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 12,
+          "strong_hits": [
+            "enterprise",
+            "규제"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "enterprise",
+        "규제",
+        "기업"
+      ],
+      "detail_slug": "a12cd0f45d93966e398f86f29904a61aa6e22f2b",
+      "is_english_source": false,
+      "sent_at": "2026-10-13T18:29:39.451481+00:00"
+    },
+    {
+      "id": "a4a1a4a14cf6f9cf3f3f12ccf66e25a9d919f51a",
+      "title_hash": "3295dab81dcb2f9f1a2bc7ae33ca34cb46f8192a",
+      "source": "GeekNews",
+      "title": "MacBook Air에서 1시간 분량 오디오를 약 13초 만에 전사",
+      "link": "https://news.hada.io/topic?id=35302",
+      "published_at": "2026-10-13T14:37:50+00:00",
+      "summary": "Embedding Gemma Transcribe 는 Google의 멀티모달 임베딩 모델 EmbeddingGemma 2를 음성 인식에 활용하며, 기본형 MacBook Air에서 1시간 분량 오디오를 약 13초 만에 기기 내에서 전사함 오디오 인코더는 그대로 유지 하고, 짧은 오디오 구간을 텍스트 공간으로 옮...",
+      "fetched_at": "2026-10-13T18:25:34.350451+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "embedding"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "embedding"
+      ],
+      "detail_slug": "a4a1a4a14cf6f9cf3f3f12ccf66e25a9d919f51a",
+      "is_english_source": false,
+      "sent_at": "2026-10-13T18:29:39.451481+00:00"
+    },
+    {
+      "id": "c7800ad21b81d6c7b7a3b545d76fca2357156823",
+      "title_hash": "50f203323531476a293228a894c6a56d9dc014c1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+      "link": "https://news.ycombinator.com/item?id=50073471",
+      "published_at": "2026-10-13T15:41:00+00:00",
+      "summary": "HN story type: story HN points: 24 HN comments: 12 HN post text: Hey Hacker News! I'm Eric, the founder of Consus. We route all AI requests to ITAR restricted and controlled unclassified information (CUI) compliant infrastructure. Consus itself satisfies ITAR restrictions, and we recently completed our FedRAMP equivalency audit against the 410 FedRAMP High controls. FedRAMP High is the U.S. government’s strictest security baseline for cloud services handling sensitive unclassified data. A breach of this data could cause severe or catastrophic harm. Achieving FedRAMP equivalency, or authorization, is required before processing CUI information. Demo: https://youtu.be/6MYxJe6P4oY Aerospace and defense is experiencing rapid growth. Unfortunately, most companies are struggling to use AI because of necessary data protections & compliance risk. These companies can move even faster if they could use the AI tools that most other industries take for granted. I spent most of my career prior to Consus in aerospace & defense. I launched national security payloads at SpaceX, and was an early employee at Castelion. I’ve watched first hand how compliance red-tape makes it difficult for companies to adopt new technologies and trust vendors that touch their se... HN top comments: projectescape: This is great, question though, since you support coding agents like Claude Code and Codex, they run MCP servers, plugins, web search/fetch and their own telemetry from the dev's machine. Do you give customers guidance or controls for that side, or is it out of scope for the gateway? skinfaxi: How does ZDR work with requests that trip security measures in the model provider? Do the providers retain those requests for analysis or is that too guaranteed? runamuck: I love this. Will this guarantee that proprietary/ sensitive/ CUI data won't leak to model training or other parties?",
+      "fetched_at": "2026-10-13T18:25:34.350451+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50073471",
+      "hn_story_type": "story",
+      "hn_points": "24",
+      "hn_comments_count": "12",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50073471",
+      "hn_item_text": "Hey Hacker News! I'm Eric, the founder of Consus. We route all AI requests to ITAR restricted and controlled unclassified information (CUI) compliant infrastructure. Consus itself satisfies ITAR restrictions, and we recently completed our FedRAMP equivalency audit against the 410 FedRAMP High controls. FedRAMP High is the U.S. government’s strictest security baseline for cloud services handling sensitive unclassified data. A breach of this data could cause severe or catastrophic harm. Achieving FedRAMP equivalency, or authorization, is required before processing CUI information. Demo: https://youtu.be/6MYxJe6P4oY Aerospace and defense is experiencing rapid growth. Unfortunately, most companies are struggling to use AI because of necessary data protections & compliance risk. These companies can move even faster if they could use the AI tools that most other industries take for granted. I spent most of my career prior to Consus in aerospace & defense. I launched national security payloads at SpaceX, and was an early employee at Castelion. I’ve watched first hand how compliance red-tape makes it difficult for companies to adopt new technologies and trust vendors that touch their se...",
+      "hn_comment_preview": "projectescape: This is great, question though, since you support coding agents like Claude Code and Codex, they run MCP servers, plugins, web search/fetch and their own telemetry from the dev's machine. Do you give customers guidance or controls for that side, or is it out of scope for the gateway?\nskinfaxi: How does ZDR work with requests that trip security measures in the model provider? Do the providers retain those requests for analysis or is that too guaranteed?\nrunamuck: I love this. Will this guarantee that proprietary/ sensitive/ CUI data won't leak to model training or other parties?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "74",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=50,practical_tech=25,tools_agents=50,strategy_insight=12,industry_business=6",
+      "slot_scores": {
+        "practical_tech": 25,
+        "tools_agents": 50,
+        "strategy_insight": 12,
+        "industry_business": 6
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 25,
+          "strong_hits": [
+            "security",
+            "rust",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 50,
+          "strong_hits": [
+            "coding agent",
+            "claude code",
+            "codex",
+            "mcp",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "plugin",
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [
+            "career",
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 6,
+          "strong_hits": [
+            "customers",
+            "launch"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "claude code",
+        "codex",
+        "mcp",
+        "ide",
+        "llm",
+        "plugin",
+        "agent",
+        "tool",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "c7800ad21b81d6c7b7a3b545d76fca2357156823",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T18:29:39.451481+00:00"
+    },
+    {
+      "id": "13dd4d9da563c6351d6237a186e0d8be57bbba3f",
+      "title_hash": "fb0a503e1a5f17681c854c151b63fc183b40b8f0",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Gemini 4 Argon",
+      "link": "https://deepmind.google/models/gemini/",
+      "published_at": "2026-10-13T16:03:16+00:00",
+      "summary": "HN story type: story HN points: 490 HN comments: 374 HN top comments: simonw: Unsurprisingly, the pelicans are excellent. Google are the only lab who have publicly shared that they have specifically trained for SVG output - https://twitter.com/sunjiao123sun_/status/202455551655137292... - and they've had great pelican results in the past too (which they have shown off themselves - https://twitter.com/JeffDean/status/2024525132266688757 ). Here's low, medium, high. Even low is better than pe... damsta: > The model launches today at an introductory price of $2 per million input tokens and $10 per million output tokens (with cached input tokens at 95% off). Couldn't you just say what the price will be after the introductory period and when it'll take effect? Do they have some SKILL.md for these blog posts that requires the most important information to always be buried ten levels deep and hidden behind a login page? postalcoder: I'm using this model via API. I am most excited about its ability to write the english language (or any language). My least favorite trend on twitter has been people posting 2D illustrations/3D renders as a proxy for model capability. Well-written prose is far less likely to go viral but far outstrips the importance rendering a fantasy world in one shot. I've been trying it out via the API and the model has been a...",
+      "fetched_at": "2026-10-13T18:25:34.350451+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50073879",
+      "hn_story_type": "story",
+      "hn_points": "490",
+      "hn_comments_count": "374",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50073879",
+      "hn_item_text": "",
+      "hn_comment_preview": "simonw: Unsurprisingly, the pelicans are excellent. Google are the only lab who have publicly shared that they have specifically trained for SVG output - https://twitter.com/sunjiao123sun_/status/202455551655137292... - and they've had great pelican results in the past too (which they have shown off themselves - https://twitter.com/JeffDean/status/2024525132266688757 ). Here's low, medium, high. Even low is better than pe...\ndamsta: > The model launches today at an introductory price of $2 per million input tokens and $10 per million output tokens (with cached input tokens at 95% off). Couldn't you just say what the price will be after the introductory period and when it'll take effect? Do they have some SKILL.md for these blog posts that requires the most important information to always be buried ten levels deep and hidden behind a login page?\npostalcoder: I'm using this model via API. I am most excited about its ability to write the english language (or any language). My least favorite trend on twitter has been people posting 2D illustrations/3D renders as a proxy for model capability. Well-written prose is far less likely to go viral but far outstrips the importance rendering...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=-2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 2,
+        "strategy_insight": -2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "cache",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "launches"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "launches"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cache",
+        "api"
+      ],
+      "detail_slug": "13dd4d9da563c6351d6237a186e0d8be57bbba3f",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T18:29:39.451481+00:00"
+    },
+    {
+      "id": "2ce572a4501c1d5256ea194f176858b7e6372b64",
+      "title_hash": "158c0382e992bf7231e4026bbbc58719cb07baa2",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "BB(10) > Graham's Number",
+      "link": "https://github.com/jeff87654/busy-beaver/blob/main/BB10/1RB0RA_1LC1LF_1RD0LB_1RA1LE_1LI0LC_0RG1LD_1RH1LG_1LC0RG_0LJ0LI_1RZ0LC.md",
+      "published_at": "2026-10-13T12:40:04+00:00",
+      "summary": "HN story type: story HN points: 61 HN comments: 40 HN top comments: kekqqq: I fail to understand why this is interesting or relevant. The README is very non-human-generated and hard to parse or understand. deanCommie: IMHO an output of a function being bigger than Graham's number isn't particularly impressive. Consider TREE(3) -> https://www.youtube.com/watch?v=3P6DWAwwViU Graham's Number is notable for being one of the first, being an actual relevant bound in an unrelated proof (not just the output of a function), of teaching people the Up Arrow Notation. To me, BB(10), TREE(3) etc. being so large is only minorly more impressi... philipwhiuk: One problem with LLMs in academic contexts is that because you're paying by the token, it's resulting in extremely short papers that don't adequately explain the context. It's the same problem with long-standing short papers. And this is a fine example of this.",
+      "fetched_at": "2026-10-13T18:25:34.350451+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50070741",
+      "hn_story_type": "story",
+      "hn_points": "61",
+      "hn_comments_count": "40",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50070741",
+      "hn_item_text": "",
+      "hn_comment_preview": "kekqqq: I fail to understand why this is interesting or relevant. The README is very non-human-generated and hard to parse or understand.\ndeanCommie: IMHO an output of a function being bigger than Graham's number isn't particularly impressive. Consider TREE(3) -> https://www.youtube.com/watch?v=3P6DWAwwViU Graham's Number is notable for being one of the first, being an actual relevant bound in an unrelated proof (not just the output of a function), of teaching people the Up Arrow Notation. To me, BB(10), TREE(3) etc. being so large is only minorly more impressi...\nphilipwhiuk: One problem with LLMs in academic contexts is that because you're paying by the token, it's resulting in extremely short papers that don't adequately explain the context. It's the same problem with long-standing short papers. And this is a fine example of this.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "39",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=7,tools_agents=15,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 15,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm",
+        "github.com"
+      ],
+      "detail_slug": "2ce572a4501c1d5256ea194f176858b7e6372b64",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T18:29:39.451481+00:00"
+    },
+    {
+      "id": "3e89bde49cc5b3f754e7f87822a9cb099694ce7b",
+      "title_hash": "a4c4173747d7f9c0d9f531315c156e88dd2c1959",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "New Apple TV 4K",
+      "link": "https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k/",
+      "published_at": "2026-10-13T13:21:35+00:00",
+      "summary": "HN story type: story HN points: 173 HN comments: 339 HN top comments: Brendinooo: I'm a little surprised at the price (especially when their newly-announced HomeView is the same price, and it has a screen!). I love this product: it's the one box I can (reasonably) trust to not be mining my viewing habits for data. I have two older ones and was looking to get something that supported 4K but waited for this to come out. $300 might be a decent price if you use it for all of the things that it can... newscracker: Too pricey, as many others have noted. I was waiting for this model to consider upgrading from the previous generation, but I can’t justify it at this price. I guess this is why recently Apple included the Apple TV service within the lowest/basic iCloud+ plan in most countries. There’s no way to justify the cost of this new device plus the high cost of the Apple TV content subscription, which has its own drawbacks... goalieca: I have an AppleTV because I never want to plug my TV into the internet. I just need a box that can stream videos. Does it need to have AI? No. It really doesn’t. I wish Apple just dropped all this junk and figured out what they want that TV app to do.",
+      "fetched_at": "2026-10-13T18:25:34.350451+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50071310",
+      "hn_story_type": "story",
+      "hn_points": "173",
+      "hn_comments_count": "339",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50071310",
+      "hn_item_text": "",
+      "hn_comment_preview": "Brendinooo: I'm a little surprised at the price (especially when their newly-announced HomeView is the same price, and it has a screen!). I love this product: it's the one box I can (reasonably) trust to not be mining my viewing habits for data. I have two older ones and was looking to get something that supported 4K but waited for this to come out. $300 might be a decent price if you use it for all of the things that it can...\nnewscracker: Too pricey, as many others have noted. I was waiting for this model to consider upgrading from the previous generation, but I can’t justify it at this price. I guess this is why recently Apple included the Apple TV service within the lowest/basic iCloud+ plan in most countries. There’s no way to justify the cost of this new device plus the high cost of the Apple TV content subscription, which has its own drawbacks...\ngoalieca: I have an AppleTV because I never want to plug my TV into the internet. I just need a box that can stream videos. Does it need to have AI? No. It really doesn’t. I wish Apple just dropped all this junk and figured out what they want that TV app to do.",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "40",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=16,practical_tech=9,tools_agents=7,strategy_insight=16,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 16,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 16,
+          "strong_hits": [
+            "habits",
+            "trust"
+          ],
+          "support_hits": [
+            "habits",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "habits",
+        "trust",
+        "why"
+      ],
+      "detail_slug": "3e89bde49cc5b3f754e7f87822a9cb099694ce7b",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T18:29:39.451481+00:00"
+    },
+    {
       "id": "ffd375563fe3c08c4f0364dc1c7e5b1532615911",
       "title_hash": "e002663f2a1fe3f3866789d4af178a059c22fbb9",
       "source": "GeekNews",
@@ -170188,602 +170799,6 @@
       "detail_slug": "744e7351531abd01a298d018f3a01a1f16d25740",
       "is_english_source": false,
       "sent_at": "2026-04-08T05:10:32.183129+00:00"
-    },
-    {
-      "id": "8c9a0e21b7f969afe380cee009d8b7e228323519",
-      "title_hash": "21cf5f563e7a8435ce403e7918664fa160bf60d6",
-      "source": "GeekNews",
-      "title": "우린 이미 ‘Idiocracy’인가?",
-      "link": "https://news.hada.io/topic?id=28299",
-      "published_at": "2026-04-08T00:42:15+00:00",
-      "summary": "2006년 영화 ‘Idiocracy’ 의 디스토피아적 미래와 현재 사회를 비교한 ‘Idiocracy Proximity Index’ 가 공개되어, 현실 유사도를 수치로 제시함 정치, 기업, 교육, 과학, 환경, 문화 등 전 영역에서 영화 속 설정과 실제 사례를 나란히 배치해 평균 유...",
-      "fetched_at": "2026-04-08T05:06:25.713500+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "index"
-      ],
-      "detail_slug": "8c9a0e21b7f969afe380cee009d8b7e228323519",
-      "is_english_source": false,
-      "sent_at": "2026-04-08T05:10:32.183129+00:00"
-    },
-    {
-      "id": "fbded335a0c5dc6a882b2faba0ab9889e1988ebc",
-      "title_hash": "1b3f8abd2c2d12201d88b96f740a6edd10e961ce",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "S3 Files",
-      "link": "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html",
-      "published_at": "2026-04-07T19:44:01+00:00",
-      "summary": "HN story type: story HN points: 250 HN comments: 69 HN post text: https://aws.amazon.com/blogs/aws/launching-s3-files-making-s... HN top comments: MontyCarloHall: This is essentially S3FS using EFS (AWS's managed NFS service) as a cache layer for active data and small random accesses. Unfortunately, this also means that it comes with some of EFS's eye-watering pricing: — All writes cost $0.06/GB, since everything is first written to the EFS cache. For write-heavy applications, this could be a dealbreaker. — Reads hitting the cache get billed at $0.03/GB. Large reads (>128kB... everfrustrated: The best way to think of the architecture of this is it's EFS with a bidirectional sync to S3. You can write into one and read out from the other and vice versa. Consistency guarantees kept within each but not between. wbl: \"NFS provides the semantics your applications expect\" is one of the funniest things I have ever read.",
-      "fetched_at": "2026-04-08T05:06:25.713500+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47680404",
-      "hn_story_type": "story",
-      "hn_points": "250",
-      "hn_comments_count": "69",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47680404",
-      "hn_item_text": "https://aws.amazon.com/blogs/aws/launching-s3-files-making-s...",
-      "hn_comment_preview": "MontyCarloHall: This is essentially S3FS using EFS (AWS's managed NFS service) as a cache layer for active data and small random accesses. Unfortunately, this also means that it comes with some of EFS's eye-watering pricing: — All writes cost $0.06/GB, since everything is first written to the EFS cache. For write-heavy applications, this could be a dealbreaker. — Reads hitting the cache get billed at $0.03/GB. Large reads (>128kB...\neverfrustrated: The best way to think of the architecture of this is it's EFS with a bidirectional sync to S3. You can write into one and read out from the other and vice versa. Consistency guarantees kept within each but not between.\nwbl: \"NFS provides the semantics your applications expect\" is one of the funniest things I have ever read.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=7,strategy_insight=2,industry_business=10",
-      "slot_scores": {
-        "practical_tech": 24,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 10
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 24,
-          "strong_hits": [
-            "architecture",
-            "distributed",
-            "cache",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 10,
-          "strong_hits": [
-            "launch",
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "distributed",
-        "cache",
-        "rust"
-      ],
-      "detail_slug": "fbded335a0c5dc6a882b2faba0ab9889e1988ebc",
-      "is_english_source": true,
-      "translated_title": "AWS, S3를 파일처럼 다루는 S3 Files 공개",
-      "short_summary": "AWS가 S3를 파일 시스템처럼 접근하게 해 주는 S3 Files를 공개했다. HN에서는 레거시 앱 호환성은 반기면서도, EFS 캐시 기반에 가까운 구조라 비용과 동기화 특성을 먼저 따져봐야 한다는 반응이 많았다.",
-      "why_it_matters": "객체 저장소와 파일 인터페이스 사이의 간극을 AWS가 줄이려는 흐름이 드러난다. 파일 기반 애플리케이션이 S3를 더 쉽게 쓰게 될 수 있지만, 도입 전 검토해야 할 조건도 분명하다는 점이 함께 부각됐다.\n- 파일 시스템을 전제로 만든 분석, 미디어, 레거시 워크로드는 코드를 크게 고치지 않고 S3를 붙일 여지가 생긴다.\n- 다만 HN에서는 쓰기와 캐시 적중 읽기 비용이 만만치 않을 수 있다는 지적이 많았다. 저장 단가만 보고 판단하면 운영비 계산이 어긋날 수 있다.\n- S3와 파일 인터페이스 사이의 동기화 경계가 다르면 배치 처리, 동시 접근, 복구 절차를 따로 검증해야 한다.",
-      "hn_reaction_summary": "프론트페이지 반응은 관심은 크지만 톤은 꽤 신중한 쪽에 가까웠다. 기능 소개 자체보다 실제 내부 구조가 무엇인지, 그래서 비용과 일관성에 어떤 제약이 생기는지를 따지는 댓글이 많이 보였다.\n- 가장 자주 나온 해석은 \"사실상 EFS에 S3 양방향 동기화를 붙인 구조에 가깝다\"는 쪽이었다.\n- 쓰기 많은 서비스에는 비용이 빠르게 불어날 수 있다는 우려가 반복됐다. 작은 랜덤 읽기와 캐시 동작도 함께 따져야 한다는 의견이 많았다.\n- \"애플리케이션이 기대하는 NFS 의미론\" 같은 표현에는 냉소적인 반응도 있었다. 파일 시스템 호환성을 어디까지 믿어도 되는지가 주요 논점이었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-08T05:10:32.183129+00:00"
-    },
-    {
-      "id": "a995fa3c1e5f08053338ee68228e4e19263dbb87",
-      "title_hash": "0f7c0f7e9ce393cf934f5b8375ddf740b0354eba",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: An interactive map of Tolkien's Middle-earth",
-      "link": "https://middle-earth-interactive-map.web.app/",
-      "published_at": "2026-04-07T20:42:37+00:00",
-      "summary": "HN story type: story HN points: 125 HN comments: 27 HN post text: An interactive map of Tolkien’s Middle-earth, with events from across the legendarium plotted as markers. I have been commuting a fair bit between the East and West coast, and thanks to American Airlines' free onboard WiFi, I was able to vibe-code a full interactive map of Middle-earth right from my economy seat at the back of the bus. It's rather amazing how much an LLM knows about Tolkien's work, and it was fun to delve into many of the nooks and crannies of Tolkien's lore. Some features: - Plot on the map the journey of the main characters in both The Hobbit and The Lord of the Rings. - Follow a list of events in the chronological Timeline - Zoom in on the high-def map and explore many of the off-the-main-plotline places - Use the 'measure distances' feature to see how far apart things are. I also had a lot of fun learning about tiling to allow for efficient zooming. If you are anything like me, this should provide a fun companion to reading the books or watching the movies (note that on this site, I followed the book narrative, and did not include Peter Jackson's many departures) If you get the chance to check it out, I would love more feedback, and if there is demand, I mig... HN top comments: jcstryker: Great work! A window into one of the most important universe we have created. Any chance you would be willing to share the source code? freakynit: As much hate as vibe-coding gets (and most of it is justified), it has also allowed all of us to vibe-code our thoughts to small single-page web apps very easily. Shameless vibe-coded plugs for my own regular usage: 1. https://llm-token-cost-calculator.pagey.site/ 2. https://metrics-memory-usage.pagey.site/ bananaflag: I notice the map is the one from the movies (it shows the Orocarni a bit too close, but it's nice they appear on the map). Maybe when describing historical events you should also put the year (it is given only for some of them). Anyway, very nice work! I think it's appropriate especially for casual fans (especially movie fans) to delve (sorry) deeper into the lore.",
-      "fetched_at": "2026-04-08T05:06:25.713500+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47681112",
-      "hn_story_type": "story",
-      "hn_points": "125",
-      "hn_comments_count": "27",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47681112",
-      "hn_item_text": "An interactive map of Tolkien’s Middle-earth, with events from across the legendarium plotted as markers. I have been commuting a fair bit between the East and West coast, and thanks to American Airlines' free onboard WiFi, I was able to vibe-code a full interactive map of Middle-earth right from my economy seat at the back of the bus. It's rather amazing how much an LLM knows about Tolkien's work, and it was fun to delve into many of the nooks and crannies of Tolkien's lore. Some features: - Plot on the map the journey of the main characters in both The Hobbit and The Lord of the Rings. - Follow a list of events in the chronological Timeline - Zoom in on the high-def map and explore many of the off-the-main-plotline places - Use the 'measure distances' feature to see how far apart things are. I also had a lot of fun learning about tiling to allow for efficient zooming. If you are anything like me, this should provide a fun companion to reading the books or watching the movies (note that on this site, I followed the book narrative, and did not include Peter Jackson's many departures) If you get the chance to check it out, I would love more feedback, and if there is demand, I mig...",
-      "hn_comment_preview": "jcstryker: Great work! A window into one of the most important universe we have created. Any chance you would be willing to share the source code?\nfreakynit: As much hate as vibe-coding gets (and most of it is justified), it has also allowed all of us to vibe-code our thoughts to small single-page web apps very easily. Shameless vibe-coded plugs for my own regular usage: 1. https://llm-token-cost-calculator.pagey.site/ 2. https://metrics-memory-usage.pagey.site/\nbananaflag: I notice the map is the one from the movies (it shows the Orocarni a bit too close, but it's nice they appear on the map). Maybe when describing historical events you should also put the year (it is given only for some of them). Anyway, very nice work! I think it's appropriate especially for casual fans (especially movie fans) to delve (sorry) deeper into the lore.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "42",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=9,tools_agents=18,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 18,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 18,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "ai + coding"
-      ],
-      "detail_slug": "a995fa3c1e5f08053338ee68228e4e19263dbb87",
-      "is_english_source": true,
-      "translated_title": "인터랙티브 지도로 만나는 톨킨의 중간계",
-      "short_summary": "톨킨 세계관의 사건과 인물 이동 경로를 한눈에 따라갈 수 있는 인터랙티브 중간계 지도다. 『호빗』과 『반지의 제왕』의 여정, 연표, 거리 측정 기능까지 담아 독서와 재감상에 곁들이기 좋게 만들었다.",
-      "why_it_matters": "생성형 AI와 웹 지도를 엮으면 틈새 주제도 짧은 시간 안에 꽤 완성도 높은 탐색형 서비스로 만들 수 있다는 점을 보여준다. 팬덤 프로젝트처럼 보이지만, 실무에서는 지식 아카이브와 교육용 콘텐츠를 설계하는 방식에 바로 닿아 있다.\n- 한 장짜리 웹앱이라도 지도, 타임라인, 거리 계산을 묶으면 사용자가 오래 머무는 탐색 경험을 만들 수 있다는 사례다.\n- LLM으로 방대한 설정을 구조화하고, 타일링으로 고해상도 지도를 다루는 조합이 콘텐츠 서비스의 제작 비용과 초기 속도를 바꾼다.\n- 책 서사를 기준으로 삼았다는 점도 눈에 띈다. 원작 기준과 영상화 버전을 어디까지 반영할지 정하는 편집 원칙이 실제 서비스 기획에서도 더 또렷해진다.",
-      "hn_reaction_summary": "HN에서는 작품 사랑이 느껴지는 결과물이라는 호평이 먼저 나왔고, 동시에 바이브 코딩의 한계와 장점을 함께 보는 분위기가 이어졌다. 완성도는 높게 보면서도 출처 공개, 연표 표기, 지도 기준 같은 세부 개선 의견이 꾸준히 붙었다.\n- 소스 코드를 공개할 수 있느냐는 반응이 나왔고, 작은 단일 페이지 앱을 빠르게 만드는 데 바이브 코딩이 꽤 쓸모 있다는 공감도 보였다.\n- 반대로 바이브 코딩에 대한 회의감도 깔려 있었다. 결과물은 반기지만, 방식 자체를 무조건 치켜세우지는 않는 신중한 톤이다.\n- 지도는 영화판 이미지를 쓴 듯하다는 지적, 역사적 사건에 연도를 더 넣어 달라는 제안처럼 설정 정확도와 정보 밀도를 손보면 더 좋아질 거라는 피드백이 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-08T05:10:32.183129+00:00"
-    },
-    {
-      "id": "181098ab871ed1a3dbd8346c32674073954ab6c3",
-      "title_hash": "607c6adc34aa57908c25bc5a1dc54f26a7cfbdcd",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Xilem – An experimental Rust native UI framework",
-      "link": "https://github.com/linebender/xilem",
-      "published_at": "2026-04-07T23:36:15+00:00",
-      "summary": "HN story type: story HN points: 49 HN comments: 12 HN top comments: amarant: Given the similarity in \"inspired by\" projects, how does this compare to iced? I've found iced to be surprisingly mature in every aspect I've tried, except the documentation, which is severely lacking mtndew4brkfst: Was there some new developments with this project that renewed interest recently? I started learning Rust in 2018 or 2019 and I think \"good Rust GUI\" research is probably at least that old. brainless: I keep trying Xilem and then egui or Iced. Xilem needs more widgets out of the box to be easy to build with. Slint is another option. I wonder what cross platform GUI framework (from any language) will finally become as common as Electron based apps or the vast number of native OS apps in Windows or macOS or Linux. I keep going back to Tauri, which is practical to build desktop apps quickly but still uses HTML, CS...",
-      "fetched_at": "2026-04-08T05:06:25.713500+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47682719",
-      "hn_story_type": "story",
-      "hn_points": "49",
-      "hn_comments_count": "12",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47682719",
-      "hn_item_text": "",
-      "hn_comment_preview": "amarant: Given the similarity in \"inspired by\" projects, how does this compare to iced? I've found iced to be surprisingly mature in every aspect I've tried, except the documentation, which is severely lacking\nmtndew4brkfst: Was there some new developments with this project that renewed interest recently? I started learning Rust in 2018 or 2019 and I think \"good Rust GUI\" research is probably at least that old.\nbrainless: I keep trying Xilem and then egui or Iced. Xilem needs more widgets out of the box to be easy to build with. Slint is another option. I wonder what cross platform GUI framework (from any language) will finally become as common as Electron based apps or the vast number of native OS apps in Windows or macOS or Linux. I keep going back to Tauri, which is practical to build desktop apps quickly but still uses HTML, CS...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=5,strategy_insight=9,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 5,
-        "strategy_insight": 9,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "framework",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "framework",
-        "rust",
-        "github.com"
-      ],
-      "detail_slug": "181098ab871ed1a3dbd8346c32674073954ab6c3",
-      "is_english_source": true,
-      "translated_title": "Xilem, 실험 단계의 러스트 네이티브 UI 프레임워크",
-      "short_summary": "Xilem은 러스트로 네이티브 UI를 만들기 위한 실험적 프레임워크다. HN에서는 iced·egui·Slint·Tauri와 비교하며 성숙도, 기본 위젯, 실사용 가능성을 두고 의견이 오갔다.",
-      "why_it_matters": "러스트 데스크톱 앱을 검토하는 팀이라면 Xilem 자체보다 지금 GUI 생태계가 어디까지 왔는지 가늠하는 참고 자료로 볼 만하다.\n- 프레임워크 선택 기준이 단순 성능보다 문서화 수준, 기본 위젯 수, 크로스플랫폼 완성도로 옮겨가고 있다.\n- 실무에서는 Xilem을 바로 채택하기보다 iced, egui, Slint, Tauri와 나란히 놓고 개발 속도와 유지보수 부담을 비교해야 한다.\n- 네이티브 UI에 관심이 있어도 결국 Tauri로 돌아간다는 반응은, 개발 편의성과 출시 속도가 아직 더 크게 작용한다는 뜻이다.",
-      "hn_reaction_summary": "댓글 분위기는 호기심과 신중론이 함께 보인다. 방향성은 흥미롭지만, 당장 주력 도구로 쓰기엔 아직 판단할 재료가 더 필요하다는 쪽에 가깝다.\n- iced와 비교해 얼마나 성숙했는지 묻는 반응이 많았고, 특히 문서 품질과 실제 사용 경험이 자주 언급됐다.\n- Xilem은 기본 제공 위젯이 더 많아야 손쉽게 앱을 만들 수 있다는 지적이 반복됐다.\n- 크로스플랫폼 GUI의 확실한 승자가 아직 없다는 인식도 강했다. 여러 네이티브 옵션을 살펴보다가도 현실적으로는 Tauri를 택한다는 의견이 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-08T05:10:32.183129+00:00"
-    },
-    {
-      "id": "8f1195ea54a6368e529fb9eb711d6e99c42e42ed",
-      "title_hash": "3cb95f85edcbd0902dc6ff8bd70d101753fc15f7",
-      "source": "GeekNews",
-      "title": "YouTube 고급 검색 - Playlists.at",
-      "link": "https://news.hada.io/topic?id=28292",
-      "published_at": "2026-04-07T20:33:09+00:00",
-      "summary": "YouTube 영상을 세밀하게 찾을 수 있는 고급 검색 인터페이스 를 제공하는 웹 도구 검색 접두어(prefix) 를 활용해 일반 검색보다 정교한 결과를 얻을 수 있음 결과는 플레이리스트 형태 로 표시되며, 포함된 영상 수가 함께 표시됨 ...",
-      "fetched_at": "2026-04-08T00:57:23.041008+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "8f1195ea54a6368e529fb9eb711d6e99c42e42ed",
-      "is_english_source": false,
-      "sent_at": "2026-04-08T01:00:43.603195+00:00"
-    },
-    {
-      "id": "d921b934ee810cae480306fcf1702ebb90f7a589",
-      "title_hash": "0ce446b5a2530130b6b1831bbece95cb262ae1f2",
-      "source": "GeekNews",
-      "title": "Adobe가 Creative Cloud 설치 여부를 감지하기 위해 hosts 파일을 수정함",
-      "link": "https://news.hada.io/topic?id=28290",
-      "published_at": "2026-04-07T19:33:36+00:00",
-      "summary": "Windows와 macOS에서 Adobe Creative Cloud 설치 시 시스템의 hosts 파일이 자동 변경 되어, 웹사이트 방문 시 설치 여부를 감지하는 구조임 [adobe.com/home] 접속 시 자바스크립트가 detect-ccd.creativecloud.adobe.com 의 이미지를 요청하며, h...",
-      "fetched_at": "2026-04-08T00:57:23.041008+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "d921b934ee810cae480306fcf1702ebb90f7a589",
-      "is_english_source": false,
-      "sent_at": "2026-04-08T01:00:43.603195+00:00"
-    },
-    {
-      "id": "4a36449a1bec504f176117ac3d0a8e49f624685c",
-      "title_hash": "25a014f94f6a9f6adbae20cc5fceddc3b6d22b19",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Google open-sources experimental agent orchestration testbed Scion",
-      "link": "https://www.infoq.com/news/2026/04/google-agent-testbed-scion/",
-      "published_at": "2026-04-07T13:39:15+00:00",
-      "summary": "HN story type: story HN points: 153 HN comments: 43 HN post text: https://googlecloudplatform.github.io/scion/overview/ HN top comments: jawiggins: Really interesting to see Google's approach to this. Recently I shared my approach, Optio, which is also an Agent Orchestration platform: https://news.ycombinator.com/item?id=47520220 I was much more focused on integrating with ticketing systems (Notion, Github Issues, Jira, Linear), and then having coding agents specifically work towards merging a PR. Scion's support for long running agents and inter-container co... sowbug: I'm looking forward to trying this. I've had a positive but high-variance experience with Gastown[1], which is in the same genre. I hope that Scion does better. My main complaints with Gastown are that (1) it's expensive, partly because (2) it refuses to use anything but Claude models, in spite of my configuration attempts, (3) I can't figure out how to back up or add a remote to its beads/dolt bug database, which... BlueRock-Jake: Isolation over constraints sounds like the right philosophy. Containers give you a boundary but not vis into what ran inside them. Curious how much execution context Scion surfaces, w/o that you're still in a position similar to the LiteLLM attack where something can run and cause damage before you know it happened.",
-      "fetched_at": "2026-04-08T00:57:23.041008+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47675213",
-      "hn_story_type": "story",
-      "hn_points": "153",
-      "hn_comments_count": "43",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47675213",
-      "hn_item_text": "https://googlecloudplatform.github.io/scion/overview/",
-      "hn_comment_preview": "jawiggins: Really interesting to see Google's approach to this. Recently I shared my approach, Optio, which is also an Agent Orchestration platform: https://news.ycombinator.com/item?id=47520220 I was much more focused on integrating with ticketing systems (Notion, Github Issues, Jira, Linear), and then having coding agents specifically work towards merging a PR. Scion's support for long running agents and inter-container co...\nsowbug: I'm looking forward to trying this. I've had a positive but high-variance experience with Gastown[1], which is in the same genre. I hope that Scion does better. My main complaints with Gastown are that (1) it's expensive, partly because (2) it refuses to use anything but Claude models, in spite of my configuration attempts, (3) I can't figure out how to back up or add a remote to its beads/dolt bug database, which...\nBlueRock-Jake: Isolation over constraints sounds like the right philosophy. Containers give you a boundary but not vis into what ran inside them. Curious how much execution context Scion surfaces, w/o that you're still in a position similar to the LiteLLM attack where something can run and cause damage before you know it happened.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=25,practical_tech=16,tools_agents=25,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 25,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "container",
-            "database"
-          ],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 25,
-          "strong_hits": [
-            "coding agent",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "ide",
-        "llm",
-        "agent",
-        "ai + coding"
-      ],
-      "detail_slug": "4a36449a1bec504f176117ac3d0a8e49f624685c",
-      "is_english_source": true,
-      "translated_title": "구글, 실험용 에이전트 오케스트레이션 테스트베드 Scion 공개",
-      "short_summary": "구글이 실험용 에이전트 오케스트레이션 테스트베드 Scion을 오픈소스로 공개했다. HN에서는 장기 실행 작업과 격리 방식에 기대를 보이면서도 가시성, 비용, 모델 종속성은 따져봐야 한다는 반응이 이어졌다.",
-      "why_it_matters": "구글이 에이전트 운영 방식을 실험용 테스트베드 형태로 공개했다는 점이 눈에 띈다. 실무팀 입장에서는 새 프레임워크 하나가 늘어난 것보다, 멀티 에이전트 운영을 어떤 기준으로 검증할지 다시 보게 만드는 공개다.\n- 대형 벤더가 관련 도구를 오픈소스로 내놓으면서 자체 구현과 비교할 기준점이 하나 더 생겼다.\n- 장기 실행 작업, 격리, 컨테이너 간 협업 같은 운영 이슈를 초기에 시험해 볼 수 있는 환경에 관심이 쏠릴 수 있다.\n- 아직 실험 단계인 만큼 바로 도입하기보다는 실행 추적, 보안 경계, 비용 구조를 먼저 확인하는 흐름이 강해질 가능성이 있다.",
-      "hn_reaction_summary": "HN 분위기는 대체로 호기심 섞인 기대감에 가깝다. 다만 이미 비슷한 도구를 써 본 사람들이 실제 운영에서 걸리는 문제를 빠르게 짚어 주는 댓글이 많았다.\n- Optio, Gastown 같은 기존 도구와 비교하며 티켓 시스템 연동, PR 머지 흐름, 장기 실행 에이전트 지원 범위를 따져보는 반응이 이어졌다.\n- 격리를 우선하는 철학은 반기면서도, 컨테이너 안에서 무엇이 실행됐는지 얼마나 잘 드러나느냐가 핵심 쟁점으로 반복됐다.\n- 비용, 특정 모델 종속, 상태 저장과 백업 같은 운영 편의성도 실사용 관점에서 자주 언급됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-08T01:00:43.603195+00:00"
     }
   ],
   "topic_digests": {
