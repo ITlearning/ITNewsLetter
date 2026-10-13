@@ -1,6 +1,562 @@
 {
   "items": [
     {
+      "id": "d1aa0a49b68284819aa4530128ea31505fcaf26d",
+      "title_hash": "ea50abe2cf679ecc563cb05baa9704d1299397bb",
+      "source": "GeekNews",
+      "title": "Show GN: claude-bulkhead: PC에서 병렬로 돌리는 Claude Code 세션들의 프로세스, 포트, 메모리 충돌을 막는 플...",
+      "link": "https://news.hada.io/topic?id=35290",
+      "published_at": "2026-10-13T08:53:00+00:00",
+      "summary": "Claude Code 세션 여러 개를 git worktree별로 나누어 한 PC에서 동시에 실행하고 있습니다. 이 환경에서 같은 문제가 반복되었습니다. 한 에이전트가 정리 작업 중에 taskkill /F /IM node.exe를 실행하면 다른 세션에서 실행 중이던 개발 서버와 테스트가 모두 종료되었습니다. 세 세션이 동시에 빌드를 시작했을 때...",
+      "fetched_at": "2026-10-13T10:04:08.897166+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=0,tools_agents=25,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 25,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "worktree",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "worktree",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "d1aa0a49b68284819aa4530128ea31505fcaf26d",
+      "is_english_source": false,
+      "sent_at": "2026-10-13T10:06:41.817488+00:00"
+    },
+    {
+      "id": "a880cdaefa1d191eb68a4de4d11c262235df2570",
+      "title_hash": "61c37e1acc44a48c079f6a41cf20d7991634c87b",
+      "source": "GeekNews",
+      "title": "Show GN: Bohm - AI로 만든 웹앱을 데이터와 함께 내 PC에서 계속 쓰게 해주는 AI 브라우저",
+      "link": "https://news.hada.io/topic?id=35284",
+      "published_at": "2026-10-13T06:30:18+00:00",
+      "summary": "안녕하세요~ 봄(Bohm)브라우저를 만든 지지 입니다. AI로 쓸 만한 작은 앱을 만드는 건 쉬워졌는데, 그 앱을 계속 쓰는 건 여전히 어렵습니다. 브라우저 데이터를 지우면 입력해 둔 기록이 사라지고, API 키는 HTML 파일에 그대로 들어가고, AI가 새 버전을 만들면 기존 데이터와 맞지 않게 됩니다",
+      "fetched_at": "2026-10-13T10:04:08.897166+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api"
+      ],
+      "detail_slug": "a880cdaefa1d191eb68a4de4d11c262235df2570",
+      "is_english_source": false,
+      "sent_at": "2026-10-13T10:06:41.817488+00:00"
+    },
+    {
+      "id": "bdc4f9a68986e41c2835aa4b9399604247bab7bf",
+      "title_hash": "fbde42f64d86b162e93005db6df82c7855bbf5bf",
+      "source": "GeekNews",
+      "title": "Intel D270 GPU AI 가속기, 최대 480GB LPDDR5X 탑재",
+      "link": "https://news.hada.io/topic?id=35288",
+      "published_at": "2026-10-13T08:44:40+00:00",
+      "summary": "Intel GPU D270 은 대규모 학습보다 프로덕션 AI 추론에 최적화한 데이터센터 GPU로, 긴 컨텍스트와 다수의 동시 세션을 처리하는 에이전트 워크로드를 겨냥함 카드당 최대 480GB LPDDR5X 를 탑재해 더 큰 모델과 긴 컨텍스트, 추론 중 늘어나는 KV 캐시를 메모리에 ...",
+      "fetched_at": "2026-10-13T10:04:08.897166+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "bdc4f9a68986e41c2835aa4b9399604247bab7bf",
+      "is_english_source": false,
+      "sent_at": "2026-10-13T10:06:41.817488+00:00"
+    },
+    {
+      "id": "805f5f3619ed52dcdc1465a7e0039e495164843b",
+      "title_hash": "ed7a46d59cb103ce0e75c84c5e0d278608b80112",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Were Software Engineers blue-collar workers all along?",
+      "link": "https://ptrbrynt.com/posts/were-we-blue-collar-workers-all-along",
+      "published_at": "2026-10-13T09:25:10+00:00",
+      "summary": "HN story type: story HN points: 62 HN comments: 72 HN top comments: Autious: I don't lament LLM's because they are a better or automation of an approach to doing my tasks. I lament them because they are built on loose foundations, limited understanding, misunderstood function and risk, data theft, and shaky legal grounds. I'm an engineer, my job is to deal with and reduce complexity not accept it blindly without soberly weighing all the pros and cons after building a solid understanding. W... rwmj: Is white vs blue collar ever a useful distinction? I think worker versus capital owner is a more important one. zkmon: There is no color for the collar. Companies have only 2 categories - managers and workers. Almost everyone is officially classed as worker in the records. You can see in the word \"worker\" in most formal communications. Back in the day, blue-collar literally referred to workers whose clothes get dirty due to their work- construction work etc. Everyone else is white-collar. That doesn't mean a blue collar work is mu...",
+      "fetched_at": "2026-10-13T10:04:08.897166+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50068946",
+      "hn_story_type": "story",
+      "hn_points": "62",
+      "hn_comments_count": "72",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50068946",
+      "hn_item_text": "",
+      "hn_comment_preview": "Autious: I don't lament LLM's because they are a better or automation of an approach to doing my tasks. I lament them because they are built on loose foundations, limited understanding, misunderstood function and risk, data theft, and shaky legal grounds. I'm an engineer, my job is to deal with and reduce complexity not accept it blindly without soberly weighing all the pros and cons after building a solid understanding. W...\nrwmj: Is white vs blue collar ever a useful distinction? I think worker versus capital owner is a more important one.\nzkmon: There is no color for the collar. Companies have only 2 categories - managers and workers. Almost everyone is officially classed as worker in the records. You can see in the word \"worker\" in most formal communications. Back in the day, blue-collar literally referred to workers whose clothes get dirty due to their work- construction work etc. Everyone else is white-collar. That doesn't mean a blue collar work is mu...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=9,tools_agents=12,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "automation",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "automation",
+        "llm"
+      ],
+      "detail_slug": "805f5f3619ed52dcdc1465a7e0039e495164843b",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T10:06:41.817488+00:00"
+    },
+    {
+      "id": "f177da5b03c94f1f074834eb3b54a53eda1483a3",
+      "title_hash": "d03ee1e1235e222b84e0c429de8341800da26e52",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "DishwasherBench – Can Frontier Models Stack a Dishwasher?",
+      "link": "https://github.com/composo-ai/DishwasherBench",
+      "published_at": "2026-10-13T08:24:06+00:00",
+      "summary": "HN story type: story HN points: 44 HN comments: 17 HN top comments: _puk: The obvious fork is \"can frontier models stack a dishwasher to my wife's exacting standards\". I can't. So that would surely be proof of AGI. comrade1234: Years ago after my wife filled the dishwasher I commented that it looked like a 12-year-old filled it. I said it as a joke but it really hurt her and I still feel bad about it. That said, it no longer looks like that when she fills it... mlukewizard: Inspired by Joma Tech's new YouTube video Stacked loads are run against a dishwasher simulation calibrated to my own Bosch dishwasher Playable by both humans and AI Currently a WIP, simulations need refining before running a full benchmark, but keen to hear some feedback!",
+      "fetched_at": "2026-10-13T10:04:08.897166+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50068437",
+      "hn_story_type": "story",
+      "hn_points": "44",
+      "hn_comments_count": "17",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50068437",
+      "hn_item_text": "",
+      "hn_comment_preview": "_puk: The obvious fork is \"can frontier models stack a dishwasher to my wife's exacting standards\". I can't. So that would surely be proof of AGI.\ncomrade1234: Years ago after my wife filled the dishwasher I commented that it looked like a 12-year-old filled it. I said it as a joke but it really hurt her and I still feel bad about it. That said, it no longer looks like that when she fills it...\nmlukewizard: Inspired by Joma Tech's new YouTube video Stacked loads are run against a dishwasher simulation calibrated to my own Bosch dishwasher Playable by both humans and AI Currently a WIP, simulations need refining before running a full benchmark, but keen to hear some feedback!",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=10,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "benchmark"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "benchmark",
+        "github.com"
+      ],
+      "detail_slug": "f177da5b03c94f1f074834eb3b54a53eda1483a3",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T10:06:41.817488+00:00"
+    },
+    {
+      "id": "0a3847de2b11e76e38fa30e060d39bfec6ff7df3",
+      "title_hash": "bd5f5bb35dc0ac47956cd822ffd2de6af508d1dc",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Who is vfmaddrnd231pd?",
+      "link": "https://purplesyringa.moe/blog/who-is-vfmaddrnd231pd/",
+      "published_at": "2026-10-12T21:12:43+00:00",
+      "summary": "HN story type: story HN points: 204 HN comments: 20 HN top comments: pbsd: An old version of binutils [1] explains what DDS means: How to encode VEX.vvvv: 0: VEX.vvvv must be 1111b. 1: VEX.NDS. Register-only source is encoded in VEX.vvvv where the content of source registers will be preserved. VEX.DDS. The second register operand is encoded in VEX.vvvv where the content of first source register will be overwritten by the result. VEX.NDD2. The second destination register operand is encode... 039234562456: It only existed in SDM volume 2 revisions 082 to 084. It did not appear in #252046, the changes doc -- so its existence in volume 2 was not intentional. It is not surprising that Intel contemplated a version of 0F,38,B8 at 0F,3A,B8 to get /Ib for rounding. It is surprising that this briefly appeared in the SDM many years after the AVX512 had settled with SKX and CNL. Maybe the sandpile.org guy knows more history? enjoyyourlife: See https://www.felixcloutier.com/x86/vfmaddrnd231pd Theory: It was removed due to hardware issue and never worked",
+      "fetched_at": "2026-10-13T10:04:08.897166+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50063138",
+      "hn_story_type": "story",
+      "hn_points": "204",
+      "hn_comments_count": "20",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50063138",
+      "hn_item_text": "",
+      "hn_comment_preview": "pbsd: An old version of binutils [1] explains what DDS means: How to encode VEX.vvvv: 0: VEX.vvvv must be 1111b. 1: VEX.NDS. Register-only source is encoded in VEX.vvvv where the content of source registers will be preserved. VEX.DDS. The second register operand is encoded in VEX.vvvv where the content of first source register will be overwritten by the result. VEX.NDD2. The second destination register operand is encode...\n039234562456: It only existed in SDM volume 2 revisions 082 to 084. It did not appear in #252046, the changes doc -- so its existence in volume 2 was not intentional. It is not surprising that Intel contemplated a version of 0F,38,B8 at 0F,3A,B8 to get /Ib for rounding. It is surprising that this briefly appeared in the SDM many years after the AVX512 had settled with SKX and CNL. Maybe the sandpile.org guy knows more history?\nenjoyyourlife: See https://www.felixcloutier.com/x86/vfmaddrnd231pd Theory: It was removed due to hardware issue and never worked",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "30",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=6,practical_tech=6,tools_agents=4,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 4,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "template"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "how to"
+      ],
+      "detail_slug": "0a3847de2b11e76e38fa30e060d39bfec6ff7df3",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T10:06:41.817488+00:00"
+    },
+    {
+      "id": "332f48ed2d6ce6d8502a931780778c67d60b0f1a",
+      "title_hash": "c4efa04644df648542c7fa7151466ad424303ffa",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Document Review with Unsiloed and TypeSafe Jev",
+      "link": "https://www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev",
+      "published_at": "2026-10-13T08:24:51+00:00",
+      "summary": "HN story type: story HN points: 7 HN comments: 1 HN top comments: armcat: They use the OCR + structured data extraction in this example, but I'm thinking you could extrapolate this to any scenario where you are extracting some data (from a table, markdown file, OCRed doc), and then use a decision model to perform a fast on-the-fly review/validation.",
+      "fetched_at": "2026-10-13T10:04:08.897166+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50068443",
+      "hn_story_type": "story",
+      "hn_points": "7",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50068443",
+      "hn_item_text": "",
+      "hn_comment_preview": "armcat: They use the OCR + structured data extraction in this example, but I'm thinking you could extrapolate this to any scenario where you are extracting some data (from a table, markdown file, OCRed doc), and then use a decision model to perform a fast on-the-fly review/validation.",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=4,tools_agents=2,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "decision"
+      ],
+      "detail_slug": "332f48ed2d6ce6d8502a931780778c67d60b0f1a",
+      "is_english_source": true,
+      "sent_at": "2026-10-13T10:06:41.817488+00:00"
+    },
+    {
       "id": "20de8aa0999ff10b8613f40e5ca7affbf162b525",
       "title_hash": "ab13618e8a353d3a42462de57f3ceb5cccd249ce",
       "source": "GeekNews",
@@ -170270,596 +170826,6 @@
       "detail_slug": "ca552730485fe8b52f4bb6b0b3656a4518b4d433",
       "is_english_source": false,
       "sent_at": "2026-04-07T16:44:24.353965+00:00"
-    },
-    {
-      "id": "a61a6b9ca44307601225ca975806b61c95575a6c",
-      "title_hash": "899adb708e749bc4e5b9170cf20398ee9e206f38",
-      "source": "GeekNews",
-      "title": "Battle for Wesnoth: 오픈소스 턴제 전략 게임",
-      "link": "https://news.hada.io/topic?id=28277",
-      "published_at": "2026-04-07T02:32:46+00:00",
-      "summary": "하이 판타지 세계관 을 배경으로 한 오픈소스 턴제 전략 게임 으로, 싱글플레이 캠페인과 온라인·핫시트 멀티플레이 전투를 지원 17개 캠페인 , 55개 멀티플레이 맵 , 7개 진영 의 200종 이상 유닛",
-      "fetched_at": "2026-04-07T16:40:25.865655+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "전략"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "전략"
-      ],
-      "detail_slug": "a61a6b9ca44307601225ca975806b61c95575a6c",
-      "is_english_source": false,
-      "sent_at": "2026-04-07T16:44:24.353965+00:00"
-    },
-    {
-      "id": "56a7fdb36a5345344d817ae4f79230b62654c130",
-      "title_hash": "380bf41d98f02d9fb8c9272180b77313ac513c84",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Claude Code is locking people out for hours",
-      "link": "https://github.com/anthropics/claude-code/issues/44257",
-      "published_at": "2026-04-07T15:04:23+00:00",
-      "summary": "HN story type: story HN points: 169 HN comments: 196 HN top comments: xantronix: As much as people on Hacker News complain about subscription models for productivity and creativity suites, the open arms embrace of subscription development tools (services, really) which seek to offload the very act itself makes me wonder how and why so many people are eager to dive right in. I get it. LLMs are cool technology. Is this a symptom of the same phenomenon behind the deluge of disposable JavaScript f... mvkel: Mounting evidence that claude max users are put into one big compute fuel pool. demand increased dramatically with openai's PR snafu. the pool hit a ceiling, hence people maxing out after 1 query. \"working on it\" means finding a way to distill CC that isn't noticeable to bring the pool down. The distillation will continue until uptime improves kristjansson: No one is going to like this answer, but there’s a simple solution: pay for API tokens and adjust your use of CC so that the actions you have it take are worth the cost of the tokens. It’s great to buy dollars for a penny, but the guy selling em is going to want to charge a dollar eventually…",
-      "fetched_at": "2026-04-07T16:40:25.865655+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47676521",
-      "hn_story_type": "story",
-      "hn_points": "169",
-      "hn_comments_count": "196",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47676521",
-      "hn_item_text": "",
-      "hn_comment_preview": "xantronix: As much as people on Hacker News complain about subscription models for productivity and creativity suites, the open arms embrace of subscription development tools (services, really) which seek to offload the very act itself makes me wonder how and why so many people are eager to dive right in. I get it. LLMs are cool technology. Is this a symptom of the same phenomenon behind the deluge of disposable JavaScript f...\nmvkel: Mounting evidence that claude max users are put into one big compute fuel pool. demand increased dramatically with openai's PR snafu. the pool hit a ceiling, hence people maxing out after 1 query. \"working on it\" means finding a way to distill CC that isn't noticeable to bring the pool down. The distillation will continue until uptime improves\nkristjansson: No one is going to like this answer, but there’s a simple solution: pay for API tokens and adjust your use of CC so that the actions you have it take are worth the cost of the tokens. It’s great to buy dollars for a penny, but the guy selling em is going to want to charge a dollar eventually…",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=28,practical_tech=14,tools_agents=28,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 28,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [
-            "query"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 28,
-          "strong_hits": [
-            "claude code",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "ide",
-        "llm",
-        "tool",
-        "claude + code",
-        "github.com"
-      ],
-      "detail_slug": "56a7fdb36a5345344d817ae4f79230b62654c130",
-      "is_english_source": true,
-      "translated_title": "Claude Code, 몇 시간씩 사용이 막힌다는 불만 확산",
-      "short_summary": "Hacker News에서는 Claude Code가 제한에 걸린 뒤 몇 시간 동안 사실상 못 쓴다는 불만이 크게 퍼졌다. 정액제 AI 개발 도구의 가용성과 숨은 사용량 제한이 이번 논쟁의 중심에 섰다.",
-      "why_it_matters": "이 이슈는 AI 코딩 도구를 팀 생산성의 기본 전제로 둬도 되는지 다시 묻게 한다.\n- 정액제로 보여도 실제 사용은 공유 연산 자원과 내부 제한에 묶일 수 있어, 바쁜 시간대엔 업무가 갑자기 끊길 수 있다.\n- 실무에서는 API 기반 백업 경로, 다른 모델로의 전환, 로컬에서 이어갈 수 있는 작업 흐름을 함께 준비해야 한다.\n- 도구를 고를 때도 기능 시연보다 제한 정책 고지, 장애 대응 속도, 안정적인 사용 가능 시간을 먼저 따져야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 단순 불편 제보보다 구독형 AI 개발 도구의 구조 자체를 따져 묻는 쪽에 가까웠다.\n- 상위 댓글에서는 여러 사용자가 하나의 연산 풀을 나눠 쓰는 구조라면, 정액제가 결국 수요 급증 때 바로 흔들릴 수밖에 없다는 지적이 반복됐다.\n- 다른 쪽에서는 불편하더라도 API 종량제가 더 솔직한 모델이며, 자동화 범위를 비용에 맞춰 조절해야 한다는 의견이 나왔다.\n- 실무자가 읽어둘 대목은 장애 자체보다도, 특정 서비스에 깊게 묶인 개발 흐름이 얼마나 쉽게 멈출 수 있는지에 대한 경고다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-07T16:44:24.353965+00:00"
-    },
-    {
-      "id": "9a8f111b201d606c7c5a750466ea4c7bf854c72a",
-      "title_hash": "839b6dec404d05720d4b0bd44a9335a8cc7ea482",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "You can't cancel a JavaScript promise (except sometimes you can)",
-      "link": "https://www.inngest.com/blog/hanging-promises-for-control-flow",
-      "published_at": "2026-04-07T13:34:33+00:00",
-      "summary": "HN story type: story HN points: 46 HN comments: 29 HN top comments: pjc50: I like how C# handles this. You're not forced to support cancellation, but it's strongly encouraged. The APIs all take a CancellationToken, which is driven by a CancellationTokenSource from the ultimate caller. This can then either be manually checked, or when you call a library API it will notice and throw an OperationCancelledException. Edit: note that there is a \"wrong\" way to do this as well. The Java thread l... eithed: > Promise itself has no first-class protocol for cancellation, but you may be able to directly cancel the underlying asynchronous operation, typically using AbortController. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe... bastawhiz: Be careful with this, though. If a promise is expected to resolve and it never does, and the promise needs to resolve or reject to clean up a global reference (like an event listener or interval), you'll create a memory leak. It's easy to end up with a leak that's almost impossible to track down, because there isn't something obvious you can grep for.",
-      "fetched_at": "2026-04-07T16:40:25.865655+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47675155",
-      "hn_story_type": "story",
-      "hn_points": "46",
-      "hn_comments_count": "29",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47675155",
-      "hn_item_text": "",
-      "hn_comment_preview": "pjc50: I like how C# handles this. You're not forced to support cancellation, but it's strongly encouraged. The APIs all take a CancellationToken, which is driven by a CancellationTokenSource from the ultimate caller. This can then either be manually checked, or when you call a library API it will notice and throw an OperationCancelledException. Edit: note that there is a \"wrong\" way to do this as well. The Java thread l...\neithed: > Promise itself has no first-class protocol for cancellation, but you may be able to directly cancel the underlying asynchronous operation, typically using AbortController. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe...\nbastawhiz: Be careful with this, though. If a promise is expected to resolve and it never does, and the promise needs to resolve or reject to clean up a global reference (like an event listener or interval), you'll create a memory leak. It's easy to end up with a leak that's almost impossible to track down, because there isn't something obvious you can grep for.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "api",
-            "rag"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api",
-        "rag",
-        "library"
-      ],
-      "detail_slug": "9a8f111b201d606c7c5a750466ea4c7bf854c72a",
-      "is_english_source": true,
-      "translated_title": "자바스크립트 Promise 취소, 안 되지만 예외는 있다",
-      "short_summary": "Promise 자체는 표준 취소를 지원하지 않지만, 밑단 비동기 작업은 AbortController로 멈출 수 있다는 점을 설명한 글이다. HN에서는 C#식 취소 토큰과 비교하며, 정리 로직이 빠지면 메모리 누수로 이어질 수 있다는 우려가 나왔다.",
-      "why_it_matters": "프런트엔드와 Node.js 코드에서 '취소'를 어떻게 설계할지 다시 보게 하는 이야기다. Promise를 멈춘다고 끝나는 문제가 아니라, 요청과 타이머, 리스너 같은 실제 자원을 어디서 정리할지가 실무를 가른다.\n- fetch나 스트림처럼 오래 가는 작업은 Promise 래퍼만 만들지 말고, AbortController 같은 취소 신호를 API 경계에 같이 두는 편이 낫다.\n- 취소 뒤에도 resolve나 reject가 일어나지 않으면 cleanup 코드가 빠질 수 있다. 이벤트 리스너, interval, 캐시 참조 해제 지점을 따로 점검해야 한다.\n- 팀 규칙도 바뀐다. '작업을 진짜 중단하는 것'과 '결과만 무시하는 것'을 구분해 두지 않으면 장애와 누수를 추적하기 어려워진다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 공감 쪽이었지만, 언어 차원의 취소 부재를 그냥 받아들이기엔 불편하다는 반응도 적지 않았다.\n- C#의 CancellationToken처럼 호출자에서 취소를 전파하는 모델이 더 읽기 쉽고 안전하다는 비교가 반복됐다.\n- AbortController는 현실적인 해법으로 받아들여졌지만, Promise 자체의 취소와는 다른 층위라는 점을 분명히 해야 한다는 의견이 나왔다.\n- 실무자들이 특히 주목한 쟁점은 메모리 누수였다. 취소 뒤 Promise가 끝나지 않으면 리스너나 타이머 정리가 빠질 수 있다는 경험담이 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-07T16:44:24.353965+00:00"
-    },
-    {
-      "id": "bea5fa6045f342da1247bdc11224cb3c6f99b012",
-      "title_hash": "e351f2a94bf841c39f980ec3146f52ecb4d42e04",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Finalrun – Spec-driven testing using English and vision for mobile apps",
-      "link": "https://github.com/final-run/finalrun-agent",
-      "published_at": "2026-04-07T14:33:48+00:00",
-      "summary": "HN story type: story HN points: 7 HN comments: 2 HN post text: I wanted to test mobile apps in plain English instead of relying on brittle selectors like XPath or accessibility IDs. With a vision-based agent, that part actually works well. It can look at the screen, understand intent, and perform actions across Android and iOS. The bigger problem showed up around how tests are defined and maintained. When test flows are kept outside the codebase (written manually or generated from PRDs), they quickly go out of sync with the app. Keeping them updated becomes a lot of effort, and they lose reliability over time. I then tried generating tests directly from the codebase (via MCP). That improved sync, but introduced high token usage and slower generation. The shift for me was realizing test generation shouldn’t be a one-off step. Tests need to live alongside the codebase so they stay in sync and have more context. I kept the execution vision-based (no brittle selectors), but moved test generation closer to the repo. I’ve open sourced the core pieces: 1. generate tests from codebase context 2. YAML-based test flows 3. Vision-based execution across Android and iOS Repo: https://github.com/final-run/finalrun-agent Demo: https://youtu.be/rJCw3p0PHr4... HN top comments: arnold_laishram: Looks pretty cool. How does your agent understand plain english?",
-      "fetched_at": "2026-04-07T16:40:25.865655+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47676044",
-      "hn_story_type": "story",
-      "hn_points": "7",
-      "hn_comments_count": "2",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47676044",
-      "hn_item_text": "I wanted to test mobile apps in plain English instead of relying on brittle selectors like XPath or accessibility IDs. With a vision-based agent, that part actually works well. It can look at the screen, understand intent, and perform actions across Android and iOS. The bigger problem showed up around how tests are defined and maintained. When test flows are kept outside the codebase (written manually or generated from PRDs), they quickly go out of sync with the app. Keeping them updated becomes a lot of effort, and they lose reliability over time. I then tried generating tests directly from the codebase (via MCP). That improved sync, but introduced high token usage and slower generation. The shift for me was realizing test generation shouldn’t be a one-off step. Tests need to live alongside the codebase so they stay in sync and have more context. I kept the execution vision-based (no brittle selectors), but moved test generation closer to the repo. I’ve open sourced the core pieces: 1. generate tests from codebase context 2. YAML-based test flows 3. Vision-based execution across Android and iOS Repo: https://github.com/final-run/finalrun-agent Demo: https://youtu.be/rJCw3p0PHr4...",
-      "hn_comment_preview": "arnold_laishram: Looks pretty cool. How does your agent understand plain english?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "46",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=19,tools_agents=22,strategy_insight=2,industry_business=-8",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 22,
-        "strategy_insight": 2,
-        "industry_business": -8
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "open source",
-            "show hn"
-          ],
-          "support_hits": [
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 22,
-          "strong_hits": [
-            "spec-driven",
-            "mcp",
-            "ide"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -8,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "spec-driven",
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "spec-driven",
-        "mcp",
-        "ide",
-        "agent",
-        "github.com"
-      ],
-      "detail_slug": "bea5fa6045f342da1247bdc11224cb3c6f99b012",
-      "is_english_source": true,
-      "translated_title": "Finalrun: 영어와 비전으로 하는 모바일 앱 테스트",
-      "short_summary": "Finalrun은 XPath나 접근성 ID 대신 자연어와 화면 인식으로 모바일 앱을 테스트하는 오픈소스 도구다. 테스트를 코드베이스 가까이에 두어 앱 변경과의 어긋남을 줄이려는 접근이 눈에 띈다.",
-      "why_it_matters": "모바일 UI 테스트가 자주 깨지는 팀이라면 눈여겨볼 만한 접근이다. 실행은 비전 기반으로 풀고, 테스트 정의는 저장소 맥락에 붙여 유지보수 부담을 낮추려는 점이 실무 포인트다.\n- XPath나 접근성 ID에 덜 의존해 화면 구조가 자주 바뀌는 앱에서도 테스트가 덜 흔들릴 수 있다.\n- PRD나 외부 문서에서 테스트를 따로 관리하던 방식보다 코드와 함께 흐름을 맞추기 쉬워진다.\n- 다만 코드베이스 기반 생성은 토큰 비용과 생성 속도 문제가 있어 CI 시간과 운영비를 함께 따져봐야 한다.",
-      "hn_reaction_summary": "댓글 반응은 아직 많지 않지만 첫인상은 대체로 호의적이다. 다만 신기한 데모로 끝내지 않고, 자연어를 실제로 어떻게 이해하는지부터 확인하려는 분위기가 먼저 보인다.\n- 가장 먼저 나온 질문도 영어 지시를 에이전트가 어떤 방식으로 해석하느냐는 점이다.\n- 비전 기반 실행 자체에는 흥미를 보이지만, 현업에서는 재현성·오작동 통제·설명 가능성까지 봐야 한다는 맥락으로 읽힌다.\n- 댓글 수가 적어 강한 찬반이 형성된 단계는 아니고, 지금은 구현 방식 검증에 초점이 맞춰진 초기 반응에 가깝다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-07T16:44:24.353965+00:00"
-    },
-    {
-      "id": "511f246679e2cf1f02e74674ad36b59a80216238",
-      "title_hash": "4f868d4928268fcbba56dee680a0dc4a8878970c",
-      "source": "GeekNews",
-      "title": "멀티 에이전트 오케스트레이션은 왜 잘 안 되는가?",
-      "link": "https://news.hada.io/topic?id=28283",
-      "published_at": "2026-04-07T06:27:10+00:00",
-      "summary": "최근 AI로 “제로 휴먼 컴퍼니” 를 운영할 수 있게 해주는 ‘Paperclip’ 프로젝트가 이슈가 되었는데요. 에이전트들을 회사 조직도처럼 구성해서 CEO, 팀장, 실무자 역할을 부여하고 회사의 미션과 세부 프로젝트 들을 정의하면 자율적으로 일하기 시작합니다. 한 달 만에 github 스타 4만 개를 돌파했습니다.",
-      "fetched_at": "2026-04-07T12:31:10.599447+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=0,tools_agents=14,strategy_insight=3,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 14,
-        "strategy_insight": 3,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "에이전트",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "ceo"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "cli"
-      ],
-      "detail_slug": "511f246679e2cf1f02e74674ad36b59a80216238",
-      "is_english_source": false,
-      "sent_at": "2026-04-07T12:34:30.612498+00:00"
-    },
-    {
-      "id": "074c7bb088824b762d98c4fdc23fb0b3ee150ca7",
-      "title_hash": "274af6b8faa31b2c919b6a62693620d712c62780",
-      "source": "GeekNews",
-      "title": "$35,000 사기를 통해 얻은 교훈",
-      "link": "https://news.hada.io/topic?id=28286",
-      "published_at": "2026-04-07T11:32:56+00:00",
-      "summary": "베이징의 AR 버스 투어 프로젝트 에 참여해 기술 복구를 시도했으나, $35,000의 대금을 받지 못한 채 종료된 경험 임 현장은 버전 관리 부재 , 비전문적 장비 구성 , AR 기본 원리 무시 등으로 시스템이 붕괴된 상...",
-      "fetched_at": "2026-04-07T12:31:10.599447+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "교훈"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "교훈"
-      ],
-      "detail_slug": "074c7bb088824b762d98c4fdc23fb0b3ee150ca7",
-      "is_english_source": false,
-      "sent_at": "2026-04-07T12:34:30.612498+00:00"
-    },
-    {
-      "id": "d6b6e5e574ead086beee97783c15cd09cbef5b5d",
-      "title_hash": "8712ead9c5736367de6d80b535bb2c70767ab854",
-      "source": "GeekNews",
-      "title": "양자 컴퓨팅 시점에 대한 암호공학 엔지니어의 관점",
-      "link": "https://news.hada.io/topic?id=28284",
-      "published_at": "2026-04-07T08:33:00+00:00",
-      "summary": "최근 연구 결과로 암호적으로 의미 있는 양자 컴퓨터(CRQC) 출현 가능성이 수년 내로 앞당겨지며, 양자 내성 암호(PQC) 배포의 긴급성이 급격히 높아짐 Google과 Oratomic의 연구는 256비트 타원곡선 공격에 필요한 자원 감소 를 보여주며, 하드웨...",
-      "fetched_at": "2026-04-07T12:31:10.599447+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "관점"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "관점"
-      ],
-      "detail_slug": "d6b6e5e574ead086beee97783c15cd09cbef5b5d",
-      "is_english_source": false,
-      "sent_at": "2026-04-07T12:34:30.612498+00:00"
     }
   ],
   "topic_digests": {
