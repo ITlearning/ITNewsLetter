@@ -1,6 +1,590 @@
 {
   "items": [
     {
+      "id": "83c90d34ea217797570fed5004e79724a5b05a34",
+      "title_hash": "afa2a4035c8349ddac4c5f5065d6e7ef2d8fd697",
+      "source": "GeekNews",
+      "title": "Show GN: hone - 에이전트 평가 사이클을 자동으로 돌리고, 처음 보는 케이스로 판정하는 CLI",
+      "link": "https://news.hada.io/topic?id=35391",
+      "published_at": "2026-10-15T03:35:39+00:00",
+      "summary": "에이전트 프롬프트를 고칠 때마다 평가 돌리고, 결과 보고, 다시 고치는 일을 자동화해봤습니다. 이름은 hone입니다. 명령어는 4개입니다. hone draft: 에이전트의 프롬프트와 코드를 읽고 테스트 케이스를 직접 씁니다. 반드시 불러야 하는 도구, 부르면 안 되는 도구, 호출 순서, 인자, 답에 들",
+      "fetched_at": "2026-10-15T03:43:46.713640+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "66",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=21,practical_tech=2,tools_agents=21,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 21,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 21,
+          "strong_hits": [
+            "에이전트",
+            "cli",
+            "자동화"
+          ],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "cli",
+        "자동화",
+        "프롬프트"
+      ],
+      "detail_slug": "83c90d34ea217797570fed5004e79724a5b05a34",
+      "is_english_source": false,
+      "sent_at": "2026-10-15T03:46:13.080140+00:00"
+    },
+    {
+      "id": "ab7294d287f68c925f52ae6c4af2867b24aa8d1d",
+      "title_hash": "0de9769ffd41542a207daf7c13ddbd9faaf26999",
+      "source": "GeekNews",
+      "title": "2026년 B2B GTM 플레이북 - AI 검색, 구매 신호, GTM 엔진과 새로운 가격 모델",
+      "link": "https://news.hada.io/topic?id=35385",
+      "published_at": "2026-10-15T01:55:02+00:00",
+      "summary": "2026년 B2B 시장 진입 전략은 GTM 방식과 채널, AI 우선 실행 체계, 신호와 데이터, 가격 모델 이라는 네 가지 레버를 함께 설계하는 방향으로 바뀌고 있음 여러 GTM 방식을 동시에 추진하기보다 제품 가격과 회사 단계, 시장 규모에 맞는 하나를 우선해야 하며, AI가 일반적인 영업 ...",
+      "fetched_at": "2026-10-15T03:43:46.713640+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "55",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=10,practical_tech=0,tools_agents=9,strategy_insight=10,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 10,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "플레이북"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [
+            "신호"
+          ],
+          "support_hits": [
+            "전략"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "시장"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신호",
+        "전략"
+      ],
+      "detail_slug": "ab7294d287f68c925f52ae6c4af2867b24aa8d1d",
+      "is_english_source": false,
+      "sent_at": "2026-10-15T03:46:13.080140+00:00"
+    },
+    {
+      "id": "cebc99f61314fab14a133ea613c1fcc9c9c9c509",
+      "title_hash": "d83c0462bdf4709f1c585fdc56c717046b4f5237",
+      "source": "GeekNews",
+      "title": "AI 기업 인수에서는 ARR보다 코드부터 봐야 하는 이유",
+      "link": "https://news.hada.io/topic?id=35386",
+      "published_at": "2026-10-15T02:05:02+00:00",
+      "summary": "기존 실사는 매출과 성장률을 보여주지만, AI 기업이 판매하는 기술을 실제로 자체 구축했는지, 경쟁사가 쉽게 복제할 수 있는지 까지 알려주지는 못함 연간 반복 매출 420만 달러, 성장률 40%를 내세운 한 기업의 코드를 열어보니 GPT-4o와 시스템 프롬프트, React 화면, 약...",
+      "fetched_at": "2026-10-15T03:43:46.713640+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "52",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-2,tools_agents=6,strategy_insight=-1,industry_business=7",
+      "slot_scores": {
+        "practical_tech": -2,
+        "tools_agents": 6,
+        "strategy_insight": -1,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "인수"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "인수",
+        "기업"
+      ],
+      "detail_slug": "cebc99f61314fab14a133ea613c1fcc9c9c9c509",
+      "is_english_source": false,
+      "sent_at": "2026-10-15T03:46:13.080140+00:00"
+    },
+    {
+      "id": "bb24568b9071a7b00afdc2f877f44f00207cd944",
+      "title_hash": "a46bf304f2109767f1aeed8f07601ece53239486",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Your C is not standard C",
+      "link": "https://sebsite.pw/w/20261012-notstdc.html",
+      "published_at": "2026-10-13T13:36:21+00:00",
+      "summary": "HN story type: story HN points: 47 HN comments: 12 HN top comments: omoikane: GCC still not implementing the standard pragmas reminds me of the old GCC pragma easter egg. This is in cccp.c from gcc 0.9: /* * the behavior of the #pragma directive is implementation defined. * this implementation defines it as follows. */ do_pragma () { close (0); if (open (\"/dev/tty\", O_RDONLY) != 0) goto nope; close (1); if (open (\"/dev/tty\", O_WRONLY) != 1) goto nope; execl (\"/usr/games/hack\", \"#pragma\", 0)... dzaima: > gcc, however, always defines FLT_ROUNDS to 1 Well, considering that gcc doesn't support the FENV_ACCESS pragma, and as such all fesetround calls are always UB, it is valid for it to act as if the rounding mode never changes from the default :) MisterTea: As someone who loves and enjoys writing Plan 9 c, all I can say is \"standard c\", whatever that means these days, is a mess. Too many things to name ranging from the only two oss compilers being bloated monsters, post c99 additions being pointless, in-line asm ruining portability*, and POSIX can die in a fire (along with typewriter terminals.) I have a friend who is currently on the C committee and is likely going...",
+      "fetched_at": "2026-10-15T03:43:46.713640+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50071546",
+      "hn_story_type": "story",
+      "hn_points": "47",
+      "hn_comments_count": "12",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50071546",
+      "hn_item_text": "",
+      "hn_comment_preview": "omoikane: GCC still not implementing the standard pragmas reminds me of the old GCC pragma easter egg. This is in cccp.c from gcc 0.9: /* * the behavior of the #pragma directive is implementation defined. * this implementation defines it as follows. */ do_pragma () { close (0); if (open (\"/dev/tty\", O_RDONLY) != 0) goto nope; close (1); if (open (\"/dev/tty\", O_WRONLY) != 1) goto nope; execl (\"/usr/games/hack\", \"#pragma\", 0)...\ndzaima: > gcc, however, always defines FLT_ROUNDS to 1 Well, considering that gcc doesn't support the FENV_ACCESS pragma, and as such all fesetround calls are always UB, it is valid for it to act as if the rounding mode never changes from the default :)\nMisterTea: As someone who loves and enjoys writing Plan 9 c, all I can say is \"standard c\", whatever that means these days, is a mess. Too many things to name ranging from the only two oss compilers being bloated monsters, post c99 additions being pointless, in-line asm ruining portability*, and POSIX can die in a fire (along with typewriter terminals.) I have a friend who is currently on the C committee and is likely going...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=7,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "compiler",
+            "rag"
+          ],
+          "support_hits": [
+            "implementation"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "compiler"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "compiler",
+        "rag",
+        "implementation"
+      ],
+      "detail_slug": "bb24568b9071a7b00afdc2f877f44f00207cd944",
+      "is_english_source": true,
+      "sent_at": "2026-10-15T03:46:13.080140+00:00"
+    },
+    {
+      "id": "98329474753f560ebb6e5339131bb120b60e458b",
+      "title_hash": "439cce1fc64a0e8274fa182deb0a4ff3922a4d45",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Fancy Curl Sites",
+      "link": "https://nytpu.com/gemlog/2026-03-18",
+      "published_at": "2026-10-14T19:29:12+00:00",
+      "summary": "HN story type: story HN points: 96 HN comments: 17 HN top comments: colewilson: Very neat! It's also possible to do this 100% statically without checking the user agent, by using alternate terminal buffers: - `curl -L https://cole.ws` (my personal portfolio site) does this It embeds the actual HTML inside an alternate terminal buffer (starting with ` \\r` and ending with ` When you curl it, it still writes the HTML to your terminal, but immediately clears that buffer and writes the ANSI versio... classictraffic: Fun! I also did something similar with my personal website this summer: - `curl listening.cailinpitt.com` shows what music I've been listening to recently - `curl reading.cailinpitt.com` shows what books and articles I've been reading recently jayknight: >If you were just trying to download the original HTML version of this page, add -H \"X-Original: true\" to the curl command to have the server respond exactly how it would've to any non-curl HTTP client. It seems like \"Accept: text/html\" would be more standard https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/... ... and then use `text/x-ansi` as the curl version, so other text-based clients could also fe...",
+      "fetched_at": "2026-10-15T03:43:46.713640+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50093612",
+      "hn_story_type": "story",
+      "hn_points": "96",
+      "hn_comments_count": "17",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50093612",
+      "hn_item_text": "",
+      "hn_comment_preview": "colewilson: Very neat! It's also possible to do this 100% statically without checking the user agent, by using alternate terminal buffers: - `curl -L https://cole.ws` (my personal portfolio site) does this It embeds the actual HTML inside an alternate terminal buffer (starting with ` \\r` and ending with ` When you curl it, it still writes the HTML to your terminal, but immediately clears that buffer and writes the ANSI versio...\nclassictraffic: Fun! I also did something similar with my personal website this summer: - `curl listening.cailinpitt.com` shows what music I've been listening to recently - `curl reading.cailinpitt.com` shows what books and articles I've been reading recently\njayknight: >If you were just trying to download the original HTML version of this page, add -H \"X-Original: true\" to the curl command to have the server respond exactly how it would've to any non-curl HTTP client. It seems like \"Accept: text/html\" would be more standard https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/... ... and then use `text/x-ansi` as the curl version, so other text-based clients could also fe...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=4,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "agent"
+      ],
+      "detail_slug": "98329474753f560ebb6e5339131bb120b60e458b",
+      "is_english_source": true,
+      "sent_at": "2026-10-15T03:46:13.080140+00:00"
+    },
+    {
+      "id": "7be3f7d9bb1cc5c1cc5f1d1430ff05da1b75256a",
+      "title_hash": "757d013f896bd8dfe0875b3aca731e24522a0871",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Virtual Oxide Labs: Emulating a Full Oxide Rack",
+      "link": "https://oxide.computer/blog/voxel-labs",
+      "published_at": "2026-10-14T18:21:14+00:00",
+      "summary": "HN story type: story HN points: 87 HN comments: 9 HN top comments: qchris: > When I joined Oxide last year, one of the first things I was introduced to was our racklettes; that is, smaller than average racks of four sleds and two switches each. These racklettes can be initialized and run just like a real rack, precisely because they are a real rack. Just not in any form factor it would be economical to sell. Probably shouldn't have mentioned this publicly ;) Every time an Oxide post come... swherdman: If you just want to try emulating the virtualization stack i build this about 6-9 months ago https://github.com/swherdman/whoah-cli Steps to build if you prefer it manually: https://swherdman.com/blog/We-Have-Oxide-at-Home-P1/ https://swherdman.com/blog/We-Have-Oxide-at-Home-P2/ pbnjay: Fun to see the emulation heading up the stack, I wish my employer could afford some real oxide racks! About 4 months ago, I booted helios + omicron on bare metal on a server in my homelab (following the YouTube here: https://www.youtube.com/watch?v=qwXtS0-r1uQ ). Performance wasn't great on my old hardware (32cores, dual Xeon 2.6ghz, 256gb DDR4), and it used like 30% CPU while idle, but it was fun poking around an...",
+      "fetched_at": "2026-10-15T03:43:46.713640+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50092423",
+      "hn_story_type": "story",
+      "hn_points": "87",
+      "hn_comments_count": "9",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50092423",
+      "hn_item_text": "",
+      "hn_comment_preview": "qchris: > When I joined Oxide last year, one of the first things I was introduced to was our racklettes; that is, smaller than average racks of four sleds and two switches each. These racklettes can be initialized and run just like a real rack, precisely because they are a real rack. Just not in any form factor it would be economical to sell. Probably shouldn't have mentioned this publicly ;) Every time an Oxide post come...\nswherdman: If you just want to try emulating the virtualization stack i build this about 6-9 months ago https://github.com/swherdman/whoah-cli Steps to build if you prefer it manually: https://swherdman.com/blog/We-Have-Oxide-at-Home-P1/ https://swherdman.com/blog/We-Have-Oxide-at-Home-P2/\npbnjay: Fun to see the emulation heading up the stack, I wish my employer could afford some real oxide racks! About 4 months ago, I booted helios + omicron on bare metal on a server in my homelab (following the YouTube here: https://www.youtube.com/watch?v=qwXtS0-r1uQ ). Performance wasn't great on my old hardware (32cores, dual Xeon 2.6ghz, 256gb DDR4), and it used like 30% CPU while idle, but it was fun poking around an...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "performance",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "rag"
+      ],
+      "detail_slug": "7be3f7d9bb1cc5c1cc5f1d1430ff05da1b75256a",
+      "is_english_source": true,
+      "sent_at": "2026-10-15T03:46:13.080140+00:00"
+    },
+    {
+      "id": "9d0f647a4f606c9fd8ec421942bb8f645b5d8345",
+      "title_hash": "32b5985452220c94f11bb0d76881cb3549840202",
+      "source": "TechCrunch",
+      "title": "Colossal Biosciences announces new AI platform to help accelerate de-extinction efforts",
+      "link": "https://techcrunch.com/2026/10/14/colossal-biosciences-announces-new-ai-platform-to-help-accelerate-de-extinction-efforts/",
+      "published_at": "2026-10-14T21:00:00+00:00",
+      "summary": "Colossal announced a new AI platform to help accelerate its de-extinction efforts and Peter Diamandis has launched a new fund to back startups who use it.",
+      "fetched_at": "2026-10-15T03:43:46.713640+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=25,practical_tech=0,tools_agents=0,strategy_insight=-4,industry_business=25",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 0,
+        "strategy_insight": -4,
+        "industry_business": 25
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "announces"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 25,
+          "strong_hits": [
+            "announces",
+            "startup",
+            "launch"
+          ],
+          "support_hits": [
+            "platform",
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "announces",
+        "startup",
+        "launch",
+        "platform",
+        "techcrunch.com"
+      ],
+      "detail_slug": "9d0f647a4f606c9fd8ec421942bb8f645b5d8345",
+      "is_english_source": true,
+      "sent_at": "2026-10-15T03:46:13.080140+00:00"
+    },
+    {
       "id": "d2059d95dc8d0a7e95fd74155b717c24fcbbcc63",
       "title_hash": "478aaaab5dba05b7d3df00fdde859172f53647e7",
       "source": "GeekNews",
@@ -170022,619 +170606,6 @@
       "detail_slug": "74b09296e6668f7a1c87bc39040f273da2fbe2b6",
       "is_english_source": false,
       "sent_at": "2026-04-09T22:33:02.241868+00:00"
-    },
-    {
-      "id": "0285b148cc89439eefef484ea858d05aa8d3a8a6",
-      "title_hash": "4c64e8170c868a7a84f723fcfb4b653109d3c577",
-      "source": "GeekNews",
-      "title": "OpenAI, 새 언어 모델 GPT-2를 위험성 이유로 전체 공개 보류",
-      "link": "https://news.hada.io/topic?id=28361",
-      "published_at": "2026-04-09T19:32:51+00:00",
-      "summary": "GPT-2 는 8백만 개 웹페이지로 학습된 대규모 텍스트 생성 인공지능 으로, 주어진 문장을 자연스럽게 이어 쓰는 능력을 보임 OpenAI는 이 모델이 가짜 뉴스나 온라인 사칭 등에 악용될 위험 이 있다며 전체 모델 대신 축소 버전만 공개",
-      "fetched_at": "2026-04-09T22:30:47.855126+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "0285b148cc89439eefef484ea858d05aa8d3a8a6",
-      "is_english_source": false,
-      "sent_at": "2026-04-09T22:33:02.241868+00:00"
-    },
-    {
-      "id": "7ad8c1bb23d71f1b3863d0803c2c90a84ba79e4e",
-      "title_hash": "e4315848f9bc68ad15248851cb65258ed64cc84a",
-      "source": "GeekNews",
-      "title": "Hormuz 해협은 열렸나요?",
-      "link": "https://news.hada.io/topic?id=28357",
-      "published_at": "2026-04-09T16:32:24+00:00",
-      "summary": "Hormuz 해협의 개방 상태 를 실시간으로 표시하는 웹사이트로, 현재는 “NO”로 표시됨 지도는 Leaflet , OpenStreetMap , CARTO 데이터를 기반으로 구성되어 시각적 정보를 제공 Polymarket 예측 시장",
-      "fetched_at": "2026-04-09T22:30:47.855126+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "49",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=4,practical_tech=0,tools_agents=0,strategy_insight=3,industry_business=4",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 0,
-        "strategy_insight": 3,
-        "industry_business": 4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "market",
-            "시장"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "market",
-        "시장"
-      ],
-      "detail_slug": "7ad8c1bb23d71f1b3863d0803c2c90a84ba79e4e",
-      "is_english_source": false,
-      "sent_at": "2026-04-09T22:33:02.241868+00:00"
-    },
-    {
-      "id": "006ad5edc1877322383f622444438fd18ffcbcb7",
-      "title_hash": "2565619dfb05d892a42414f1a80a7e88b5ce7631",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Druids – Build your own software factory",
-      "link": "https://github.com/fulcrumresearch/druids",
-      "published_at": "2026-04-08T20:12:38+00:00",
-      "summary": "HN story type: story HN points: 10 HN comments: 1 HN post text: Hi HN! Druids ( https://github.com/fulcrumresearch/druids ) is an open-source library for structuring and running multi-agent coding workflows. Druids makes it easy to do this by abstracting away all the VM infrastructure, agent provisioning, and communication. You can watch our demo video here ( https://www.youtube.com/watch?v=EVJqW-tvSy4 ) to see what it looks like. At a high level: - Users can write Python programs that define what roles the agents take on and how they interact with each other. - A program is made of events - clear state transitions that the agents or clients can call to modify state. Each event gets exposed as an agent tool. - Druids provisions full VMs so that the agents can run continuously and communicate effectively. We made Druids because we were making lots of internal coding tools using agents and found it annoying to have to rearrange the wiring every time. As we were building Druids, we realized a lot of our internal tools were easier to express as an event-driven architecture – separating deterministic control flow from agent behavior – and this design also made it possible to have many agents work reliably. We had issues with scaling the number of... HN top comments: ethros: I'm going to check this out. I’ve been working on my end-to-end development method and these types of holistic pipelines I think are the future. (or the present!) I've decided to start with concept capture, which then builds out strategy docs, which feed into specs, etc ... might be time for me to share, but I'm in the process of battle testing myself! Looking at your post again, I guess I could script a conceptin...",
-      "fetched_at": "2026-04-09T22:30:47.855126+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47695666",
-      "hn_story_type": "story",
-      "hn_points": "10",
-      "hn_comments_count": "1",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47695666",
-      "hn_item_text": "Hi HN! Druids ( https://github.com/fulcrumresearch/druids ) is an open-source library for structuring and running multi-agent coding workflows. Druids makes it easy to do this by abstracting away all the VM infrastructure, agent provisioning, and communication. You can watch our demo video here ( https://www.youtube.com/watch?v=EVJqW-tvSy4 ) to see what it looks like. At a high level: - Users can write Python programs that define what roles the agents take on and how they interact with each other. - A program is made of events - clear state transitions that the agents or clients can call to modify state. Each event gets exposed as an agent tool. - Druids provisions full VMs so that the agents can run continuously and communicate effectively. We made Druids because we were making lots of internal coding tools using agents and found it annoying to have to rearrange the wiring every time. As we were building Druids, we realized a lot of our internal tools were easier to express as an event-driven architecture – separating deterministic control flow from agent behavior – and this design also made it possible to have many agents work reliably. We had issues with scaling the number of...",
-      "hn_comment_preview": "ethros: I'm going to check this out. I’ve been working on my end-to-end development method and these types of holistic pipelines I think are the future. (or the present!) I've decided to start with concept capture, which then builds out strategy docs, which feed into specs, etc ... might be time for me to share, but I'm in the process of battle testing myself! Looking at your post again, I guess I could script a conceptin...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "72",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=48,practical_tech=21,tools_agents=48,strategy_insight=12,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 21,
-        "tools_agents": 48,
-        "strategy_insight": 12,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 21,
-          "strong_hits": [
-            "architecture",
-            "show hn"
-          ],
-          "support_hits": [
-            "testing",
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 48,
-          "strong_hits": [
-            "multi-agent",
-            "coding tool",
-            "workflow",
-            "ide",
-            "cli"
-          ],
-          "support_hits": [
-            "coding tool",
-            "workflow",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + workflow",
-            "ai + coding"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 12,
-          "strong_hits": [],
-          "support_hits": [
-            "research",
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "future + work"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "multi-agent",
-        "coding tool",
-        "workflow",
-        "ide",
-        "cli",
-        "agent",
-        "agent + workflow",
-        "ai + coding",
-        "github.com"
-      ],
-      "detail_slug": "006ad5edc1877322383f622444438fd18ffcbcb7",
-      "is_english_source": true,
-      "translated_title": "Druids로 멀티 에이전트 개발 공장 만들기",
-      "short_summary": "Druids는 멀티 에이전트 코딩 워크플로를 파이썬과 이벤트 중심 구조로 설계하게 해 주는 오픈소스다. VM 구성, 에이전트 배치, 통신을 감춰 반복적인 내부 개발 도구 구성을 단순하게 하겠다는 취지다.",
-      "why_it_matters": "에이전트 기반 개발 자동화가 실험 단계를 넘어 실제 워크플로 설계 문제로 옮겨가는 흐름을 보여준다. 특히 여러 에이전트를 안정적으로 굴리기 위한 제어 구조를 코드로 명시할 수 있다는 점이 실무자에게 직접적인 포인트다.\n- VM 인프라와 에이전트 프로비저닝을 라이브러리 뒤로 숨겨, 팀이 오케스트레이션 로직 자체에 더 빨리 집중할 수 있다.\n- 이벤트 기반으로 상태 전이를 나누면 결정적인 제어 흐름과 에이전트의 비결정적 행동을 분리하기 쉬워진다.\n- 사내 코딩 툴을 자주 붙였다 떼야 하는 조직이라면, 매번 배선부터 다시 짜는 비용을 줄일 수 있는 접근으로 읽힌다.",
-      "hn_reaction_summary": "HN 반응은 아직 매우 초기 단계지만 분위기는 대체로 호의적이다. 댓글에서는 단일 기능보다 기획부터 명세까지 잇는 전체 개발 파이프라인 관점에서 이 도구를 보려는 시선이 먼저 드러났다.\n- 한 이용자는 자신의 엔드투엔드 개발 방식에 이런 전반적 파이프라인 도구가 잘 맞는다며 직접 써보겠다는 반응을 보였다.\n- 관심 지점은 개별 에이전트 성능보다, 아이디어 수집에서 전략 문서와 스펙 작성으로 이어지는 흐름을 얼마나 잘 스크립트할 수 있느냐에 있다.\n- 다만 댓글 수가 1개뿐이라 확장성, 운영 비용, 실제 안정성에 대한 본격적인 검증이나 반론은 아직 나오지 않은 상태다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-09T22:33:02.241868+00:00"
-    },
-    {
-      "id": "3f85132763251c4c0a6dcddd4d599f60e7849855",
-      "title_hash": "7d9d77929bb545ad9b81c495c7e5b5250c7e3f17",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "PicoZ80 – Drop-In Z80 Replacement",
-      "link": "https://eaw.app/picoz80/",
-      "published_at": "2026-04-09T18:53:20+00:00",
-      "summary": "HN story type: story HN points: 90 HN comments: 18 HN top comments: Lerc: I had been pondering about doing more or less the same thing for 6502 (6510). It was always the dilemma of whether to pull the CPU out of a C64 and replace it like this, do it as a bus mastering cartridge, or replace the RAM. I have been leaning towards the cartridge plan to avoid the requirement of doing machine surgery. If you get the RP2350 to pretend to be the RAM then the video hardware could read directly ou... boznz: Hot tip: Ignore the RP2350 design sheet and use a standard 1.2V LDO in to provide the internal vCore - you save having to use that weird inductor and can clock it at a 300Mhz much more reliably at 1.2V. Dwedit: The one thing that makes a modern computer faster than an 80s computer is cache . Without cache, your computer has to go to the memory bus to fetch every instruction and memory read or write, and your system will wait to get the bytes back before it takes any action. You end up at the performance level of an 80s computer. So you replace the CPU with a faster one with built-in cache. CPU ends up with its own privat...",
-      "fetched_at": "2026-04-09T22:30:47.855126+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47708041",
-      "hn_story_type": "story",
-      "hn_points": "90",
-      "hn_comments_count": "18",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47708041",
-      "hn_item_text": "",
-      "hn_comment_preview": "Lerc: I had been pondering about doing more or less the same thing for 6502 (6510). It was always the dilemma of whether to pull the CPU out of a C64 and replace it like this, do it as a bus mastering cartridge, or replace the RAM. I have been leaning towards the cartridge plan to avoid the requirement of doing machine surgery. If you get the RP2350 to pretend to be the RAM then the video hardware could read directly ou...\nboznz: Hot tip: Ignore the RP2350 design sheet and use a standard 1.2V LDO in to provide the internal vCore - you save having to use that weird inductor and can clock it at a 300Mhz much more reliably at 1.2V.\nDwedit: The one thing that makes a modern computer faster than an 80s computer is cache . Without cache, your computer has to go to the memory bus to fetch every instruction and memory read or write, and your system will wait to get the bytes back before it takes any action. You end up at the performance level of an 80s computer. So you replace the CPU with a faster one with built-in cache. CPU ends up with its own privat...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "performance",
-            "cache"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "cache"
-      ],
-      "detail_slug": "3f85132763251c4c0a6dcddd4d599f60e7849855",
-      "is_english_source": true,
-      "translated_title": "PicoZ80: 그대로 꽂는 Z80 대체 CPU",
-      "short_summary": "PicoZ80는 기존 Z80 자리에 바로 꽂아 쓸 수 있게 만든 대체 CPU 프로젝트다. HN에서는 개조 난이도, 전원 설계 팁, 메모리 버스 병목 때문에 체감 성능이 어디까지 오를지 논의가 이어졌다.",
-      "why_it_matters": "레트로 컴퓨터를 완전히 새로 만들지 않고도 수리와 성능 개선의 여지를 넓히는 접근이라는 점에서 눈길을 끈다. 단순한 취미 프로젝트를 넘어 오래된 시스템을 어떻게 현대 부품으로 연장할지 보여준다.\n- CPU를 뜯어내는 방식, 카트리지 방식, RAM 대체 방식 같은 선택지가 다시 비교되면서 복원과 업그레이드의 현실적인 기준이 드러났다.\n- RP2350 같은 현대 부품으로 구형 CPU를 대체하려는 흐름은 단종 칩 유지보수와 부품 수급 문제를 줄이는 방향과 맞닿아 있다.\n- 다만 실제 성능 향상은 CPU 자체보다 메모리 버스와 주변 회로에 더 크게 묶일 수 있어, 실무적으로는 보드 전체 병목을 함께 봐야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 호기심과 기술 토론이 섞인 편이었다. 멋진 아이디어라는 반응이 많았지만, 실제로 얼마나 빨라지느냐와 어떤 방식으로 교체하느냐를 두고 현실적인 이야기가 이어졌다.\n- 비슷한 발상을 6502·6510 계열에도 적용해 보고 싶다는 반응이 나왔고, 본체를 뜯는 대신 카트리지나 RAM 대체 방식이 더 낫다는 의견이 반복됐다.\n- 전원 설계에서는 RP2350 데이터시트보다 1.2V LDO 구성이 더 안정적일 수 있다는 구체적인 팁이 공유됐다.\n- 가장 많이 나온 반론은 캐시 없는 고속 CPU 대체만으로는 한계가 뚜렷하다는 점이었다. 메모리 버스 대기와 주변 장치 접근이 남아 있어 기대만큼의 체감 향상은 어렵다는 시각이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-09T22:33:02.241868+00:00"
-    },
-    {
-      "id": "af0fa0f75c1158c11240eab70e61a92e5141f002",
-      "title_hash": "650a795b6ce7d18104a15646f010c5188a4b8fa7",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Research-Driven Agents: What Happens When Your Agent Reads Before It Codes",
-      "link": "https://blog.skypilot.co/research-driven-agents/",
-      "published_at": "2026-04-09T16:58:49+00:00",
-      "summary": "HN story type: story HN points: 92 HN comments: 38 HN top comments: simlevesque: I've been making skills from arxiv papers for a while. I have a one for multi-object tracking for example. It has a SKILL.md describing all important papers (over 30) on the subject and a folder with each paper's full content as reStructuredText. To feed Arxiv papers to LLMs I found that RST gives the best token count/fidelity ratio. Markdown lacks precision. LateX is too verbose. I have a script with the paper's... dataviz1000: Sorry to spam, I'm working on this also from a different angle. Hopefully sharing adds to the conversation. First, about the loop, Claude's (coding agent) context and attention is big enough to self-reflect. Agent Tuning shows a technique that not only demonstrates this but a way quantify it. [0] The difference is autoresearch's val_bpb measures what the agent built; Agent Tuning's p̂ measures the agent itself. >... ctoth: I've been very interested in this recently. I'm pretty sure that every project should have a ./papers directory of annotated papers in it like I do in Qlatt[0]. Literally every project. If it's something that's been done a million times then that means it has good literature on it? If not, then even more important to find related stuff! And not just crunchy CS stuff like databases or compilers or whatever. Are you...",
-      "fetched_at": "2026-04-09T22:30:47.855126+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47706141",
-      "hn_story_type": "story",
-      "hn_points": "92",
-      "hn_comments_count": "38",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47706141",
-      "hn_item_text": "",
-      "hn_comment_preview": "simlevesque: I've been making skills from arxiv papers for a while. I have a one for multi-object tracking for example. It has a SKILL.md describing all important papers (over 30) on the subject and a folder with each paper's full content as reStructuredText. To feed Arxiv papers to LLMs I found that RST gives the best token count/fidelity ratio. Markdown lacks precision. LateX is too verbose. I have a script with the paper's...\ndataviz1000: Sorry to spam, I'm working on this also from a different angle. Hopefully sharing adds to the conversation. First, about the loop, Claude's (coding agent) context and attention is big enough to self-reflect. Agent Tuning shows a technique that not only demonstrates this but a way quantify it. [0] The difference is autoresearch's val_bpb measures what the agent built; Agent Tuning's p̂ measures the agent itself. >...\nctoth: I've been very interested in this recently. I'm pretty sure that every project should have a ./papers directory of annotated papers in it like I do in Qlatt[0]. Literally every project. If it's something that's been done a million times then that means it has good literature on it? If not, then even more important to find...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=25,practical_tech=14,tools_agents=25,strategy_insight=4,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 25,
-        "strategy_insight": 4,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "compiler",
-            "database"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 25,
-          "strong_hits": [
-            "coding agent",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "compiler"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "ide",
-        "llm",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "af0fa0f75c1158c11240eab70e61a92e5141f002",
-      "is_english_source": true,
-      "translated_title": "에이전트가 코딩 전 먼저 읽을 때 생기는 일",
-      "short_summary": "에이전트가 코드를 바로 짜기보다 논문과 문서를 먼저 읽을 때 결과가 어떻게 달라지는지 다룬 글이다. HN에서는 이를 뒷받침할 지식 저장 방식과 자기반성 루프의 실효성이 함께 논의됐다.",
-      "why_it_matters": "코딩 에이전트의 성능 경쟁이 구현 속도에서 사전 탐색과 맥락 축적으로 옮겨가고 있다는 점을 보여준다.\n- 프로젝트 안에 논문, 설계 문서, 참고 자료를 구조적으로 쌓아 두면 에이전트가 시행착오를 줄이고 더 나은 출발점을 잡을 수 있다는 시각이 힘을 얻고 있다.\n- 단순 프롬프트보다 SKILL.md 같은 작업 지침과 자료 포맷 선택이 실제 품질에 영향을 준다는 점에서, 팀 차원의 지식 자산화 방식이 실무 이슈로 떠오른다.\n- 에이전트 도입 효과를 높이려면 코드 생성 자체보다 먼저 무엇을 읽히고 어떻게 검색하게 할지 설계하는 일이 더 중요해질 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 공감 쪽이었지만, 구현 방식과 측정 기준을 두고는 의견이 갈렸다.\n- 여러 사용자가 프로젝트마다 논문 묶음이나 참고 자료 디렉터리를 두고 에이전트에 읽히는 실험을 이미 하고 있다며 경험을 보탰다.\n- 자료 포맷은 Markdown보다 RST가 낫고 LaTeX는 너무 장황하다는 식의 실전 팁이 나왔는데, 결국 토큰 효율과 원문 충실도가 핵심 쟁점으로 보인다.\n- 자기반성 루프를 에이전트가 스스로 돌릴 수 있는지, 그리고 그 성과를 무엇으로 계량할지에 대한 논의도 이어져 단순 데모를 넘어 평가 방법까지 관심이 모였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-09T22:33:02.241868+00:00"
-    },
-    {
-      "id": "c6793d08f19c3ab4ee0a6a2469a17e2f04d1c522",
-      "title_hash": "4475d4fba7fff3be9e60d00d11468159ec28984d",
-      "source": "GeekNews",
-      "title": "Show GN: Spring AI Playground - MCP 툴 작성부터 테스트, 외부 연동까지 지원하는 데스크톱 앱",
-      "link": "https://news.hada.io/topic?id=28355",
-      "published_at": "2026-04-09T14:25:51+00:00",
-      "summary": "안녕하세요. 최근 Claude Code나 Cursor 같은 AI 에이전트의 도움을 받아 MCP(Model Context Protocol) 툴 코드를 작성하고 활용하는 사례가 많아졌습니다. 하지만 막상 작성된 툴 코드를 실제 환경에서 돌려보고 검증하려고 하면 답답한 순간이 많았습니다. 이 툴이 정말 제대로 동작하는가?</l",
-      "fetched_at": "2026-04-09T18:22:52.905726+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "82",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=37,practical_tech=2,tools_agents=37,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 37,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 37,
-          "strong_hits": [
-            "model context protocol",
-            "claude code",
-            "cursor",
-            "에이전트",
-            "mcp"
-          ],
-          "support_hits": [
-            "툴"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "model context protocol",
-        "claude code",
-        "cursor",
-        "에이전트",
-        "mcp",
-        "툴",
-        "claude + code"
-      ],
-      "detail_slug": "c6793d08f19c3ab4ee0a6a2469a17e2f04d1c522",
-      "is_english_source": false,
-      "sent_at": "2026-04-09T18:25:30.781132+00:00"
-    },
-    {
-      "id": "712d0496ca1219b178d6d36d6a01eb0fc29bc76e",
-      "title_hash": "1c8ebecad876c01003fa9583933893f371f41166",
-      "source": "GeekNews",
-      "title": "AX팀을 만드는 순간, 당신의 조직은 AX에 실패한다",
-      "link": "https://news.hada.io/topic?id=28341",
-      "published_at": "2026-04-09T05:28:45+00:00",
-      "summary": "한 줄 요약 AX 추진팀 신설은 계층을 줄여야 할 때 계층을 하나 더 쌓는 역설이다. MIT NANDA 연구에서 성공한 5%는 중앙 AI 랩이 아니라 현장 관리자가 주도한 조직이었다. 15년 CTO 경험에서 배운 AX의 제1원칙은 도구가 아니라 조직과 사람이다. AX 추진팀 역설 — 계층을 없애야 하는데 계층을",
-      "fetched_at": "2026-04-09T18:22:52.905726+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "원칙"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "원칙"
-      ],
-      "detail_slug": "712d0496ca1219b178d6d36d6a01eb0fc29bc76e",
-      "is_english_source": false,
-      "sent_at": "2026-04-09T18:25:30.781132+00:00"
     }
   ],
   "topic_digests": {
