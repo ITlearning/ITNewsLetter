@@ -1,6 +1,587 @@
 {
   "items": [
     {
+      "id": "795b51e8444c10f77837a30c8a6e34859896ee34",
+      "title_hash": "d28480a39fe0af33d9ab09b44b4857a36d3a4a28",
+      "source": "GeekNews",
+      "title": "Claude Code 팀의 코드 리뷰 방식",
+      "link": "https://news.hada.io/topic?id=35495",
+      "published_at": "2026-10-16T22:36:23+00:00",
+      "summary": "Claude가 자체 코드의 약 90%를 작성 하는 Claude Code 팀은 코드 읽기의 대부분을 자동화하고, 사람은 위험 판단과 결과 책임에 집중하도록 리뷰 과정을 바꿈 목표는 대부분의 PR을 작성자를 포함한 사람 최대 1명 의 관여로 병합하되, 되돌리기와 사고를 늘리지 않...",
+      "fetched_at": "2026-10-17T01:26:35.257363+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=2,tools_agents=20,strategy_insight=13,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 20,
+        "strategy_insight": 13,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "자동화"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "코드 리뷰",
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "코드 리뷰"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "자동화",
+        "claude + code"
+      ],
+      "detail_slug": "795b51e8444c10f77837a30c8a6e34859896ee34",
+      "is_english_source": false,
+      "sent_at": "2026-10-17T01:28:53.882519+00:00"
+    },
+    {
+      "id": "24f3747e7f673c6cc1cb9576e5829e56aebf186b",
+      "title_hash": "9eb25f587d0a46a5403b41983c2401fe99da2694",
+      "source": "GeekNews",
+      "title": "Apache Spark 리소스 최적화: 하루 800만 건의 작업 실행에서 얻은 교훈",
+      "link": "https://news.hada.io/topic?id=35502",
+      "published_at": "2026-10-16T23:40:20+00:00",
+      "summary": "하루 약 800만 건의 Spark 실행을 처리하는 Salesforce Data 360 이 할당한 자원과 실제 작업량을 비교해 낭비를 줄인 사례. 작업이 성공했다는 사실만으로 적정한 자원을 사용했다고 판단할 수는 없음 공통 작업 제출 경로에 계측 플러그인을 주입 해 애플리케이션 ...",
+      "fetched_at": "2026-10-17T01:26:35.257363+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "55",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=10,practical_tech=0,tools_agents=4,strategy_insight=10,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 10,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [
+            "교훈"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단",
+        "교훈"
+      ],
+      "detail_slug": "24f3747e7f673c6cc1cb9576e5829e56aebf186b",
+      "is_english_source": false,
+      "sent_at": "2026-10-17T01:28:53.882519+00:00"
+    },
+    {
+      "id": "dbaf77b0922995f9c7ff21f97a254762049c2d25",
+      "title_hash": "36419a43873beb4b1f71fd7fd3292fa58fc923fc",
+      "source": "GeekNews",
+      "title": "PostgreSQL 무중단 스키마 변경을 위한 실무 가이드",
+      "link": "https://news.hada.io/topic?id=35501",
+      "published_at": "2026-10-16T23:38:43+00:00",
+      "summary": "PostgreSQL 스키마 변경은 구버전과 신버전 애플리케이션이 함께 동작하도록 단계적으로 배포 하는 것이 핵심. 데이터베이스가 켜져 있어도 요청 지연과 오류, 쓰기 중단이 발생하면 무중단으로 볼 수 없음 확장-축소(expand-contract) 패턴으로 새 구조 추가, 기존...",
+      "fetched_at": "2026-10-17T01:26:35.257363+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "postgres",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "postgres",
+        "sql"
+      ],
+      "detail_slug": "dbaf77b0922995f9c7ff21f97a254762049c2d25",
+      "is_english_source": false,
+      "sent_at": "2026-10-17T01:28:53.882519+00:00"
+    },
+    {
+      "id": "724ae1fb6de6171208a268bb53108e528de77132",
+      "title_hash": "139bf90a54801ab43d717b101c4b855ba9b75e20",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "How the Claude Code team does code review",
+      "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "published_at": "2026-10-16T19:04:47+00:00",
+      "summary": "HN story type: story HN points: 233 HN comments: 219 HN top comments: status_quo69: No wonder most people at Anthropic believe our jobs are in jeopardy, they've already made a system wherein the machines are treating them like pets. I really don't get the tendency here from Anthropic to describe what's most likely churn? A high pressure amount of changes/PRs a day on a TUI to wrap a while loop? I'm not going to be a reductionist here so I'm going to cut it off there, I'm positive that the complex... mk12: I saw someone say the other day (in response to another blog post being well written) that Anthropic employees have a rule against using AI for writing/external comms? That seems clearly not the case here, normal people don't write like this: > Most of the path is automated; a person's attention goes where the risk is > The eval grows with every incident, and every change to the reviewer is scored against all of it. dieortin: > One colleague said slowing down does lower your error rate, but mostly because you're doing less of everything That’s not how rates work",
+      "fetched_at": "2026-10-17T01:26:35.257363+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50122951",
+      "hn_story_type": "story",
+      "hn_points": "233",
+      "hn_comments_count": "219",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50122951",
+      "hn_item_text": "",
+      "hn_comment_preview": "status_quo69: No wonder most people at Anthropic believe our jobs are in jeopardy, they've already made a system wherein the machines are treating them like pets. I really don't get the tendency here from Anthropic to describe what's most likely churn? A high pressure amount of changes/PRs a day on a TUI to wrap a while loop? I'm not going to be a reductionist here so I'm going to cut it off there, I'm positive that the complex...\nmk12: I saw someone say the other day (in response to another blog post being well written) that Anthropic employees have a rule against using AI for writing/external comms? That seems clearly not the case here, normal people don't write like this: > Most of the path is automated; a person's attention goes where the risk is > The eval grows with every incident, and every change to the reviewer is scored against all of it.\ndieortin: > One colleague said slowing down does lower your error rate, but mostly because you're doing less of everything That’s not how rates work",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "42",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=4,tools_agents=18,strategy_insight=13,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 18,
+        "strategy_insight": 13,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 18,
+          "strong_hits": [
+            "claude code",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "code review"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "code review"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "claude + code"
+      ],
+      "detail_slug": "724ae1fb6de6171208a268bb53108e528de77132",
+      "is_english_source": true,
+      "sent_at": "2026-10-17T01:28:53.882519+00:00"
+    },
+    {
+      "id": "94c37f91f9df9cfaca0712a7a5ca49388603b147",
+      "title_hash": "7d15a774161c2b9b39cba8d87ac3d10e669648df",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "link": "https://github.com/cobanov/PS5LM",
+      "published_at": "2026-10-16T18:32:35+00:00",
+      "summary": "HN story type: story HN points: 193 HN comments: 47 HN top comments: Rabbit504030201: The project's primary site should not be GitHub, and I am serious. Playstation 5 is not some historical curiosity and Sony might strike the page down any hour now. Those projects should default to hosts less geared toward corporate governancy; custom internet domain being the first requirement. xnx: I've never even considered getting a PS5, but hackers converting a locked-down appliance into a general purpose computer has me really considering. jjcm: Even though it only runs qwen 3.8 27b at a 2 bit quant, it's still highly viable, especially for things where you just need a constant token stream of slightly below average intelligence, ie this would be great for things like: - monitoring server error rates - reviewing security footage - watching plant growth / controlling watering etc. Any long running task you can now just slap a PS5 on it. 70 cents a day in p...",
+      "fetched_at": "2026-10-17T01:26:35.257363+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50122431",
+      "hn_story_type": "story",
+      "hn_points": "193",
+      "hn_comments_count": "47",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50122431",
+      "hn_item_text": "",
+      "hn_comment_preview": "Rabbit504030201: The project's primary site should not be GitHub, and I am serious. Playstation 5 is not some historical curiosity and Sony might strike the page down any hour now. Those projects should default to hosts less geared toward corporate governancy; custom internet domain being the first requirement.\nxnx: I've never even considered getting a PS5, but hackers converting a locked-down appliance into a general purpose computer has me really considering.\njjcm: Even though it only runs qwen 3.8 27b at a 2 bit quant, it's still highly viable, especially for things where you just need a constant token stream of slightly below average intelligence, ie this would be great for things like: - monitoring server error rates - reviewing security footage - watching plant growth / controlling watering etc. Any long running task you can now just slap a PS5 on it. 70 cents a day in p...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=10,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "security",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "rag",
+        "github.com"
+      ],
+      "detail_slug": "94c37f91f9df9cfaca0712a7a5ca49388603b147",
+      "is_english_source": true,
+      "sent_at": "2026-10-17T01:28:53.882519+00:00"
+    },
+    {
+      "id": "bab2690c541ef3d31131095088dc7aa96678d7ac",
+      "title_hash": "1f4fb69923f1eb038dcec5d7fa7e0d12ef20c609",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Tesla Roadster",
+      "link": "https://www.tesla.com/roadster",
+      "published_at": "2026-10-16T01:32:45+00:00",
+      "summary": "HN story type: story HN points: 1183 HN comments: 2117 HN post text: https://www.youtube.com/watch?v=7p5LxFdc-Qg https://twitter.com/Tesla/status/2110788059008819215 HN top comments: synapsomorphy: Ok, so it actually flies. That was unexpected. It's an incredible engineering achievement to build in massive fans and rocket engines into a high performance car. It's truly wild. It's being sold in two modes. One with cold gas (no combustion) seemingly just for extra forwards acceleration (no flying) and one with real combustion rocket engines, the latter was in the video and is \"invite only\". Wild that they devo... karim79: It's not a flying car. It's a meme stock marketing stunt. I mean, it looks cool and I enjoyed the video but this stuff is not happening and will not be available, ever, probably. mNovak: Everyone's focusing on the cold gas thrusters, which of course is very cool, but not actually shocking that it technically could be done (economically is another question). But can we talk about the just casually driving straight vertical or sticking to the ceiling? I didn't think that would be technically possible for a 1000kg+ car with probably at least 2\" of ground clearance. There's presumably very limited sto...",
+      "fetched_at": "2026-10-17T01:26:35.257363+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50112657",
+      "hn_story_type": "story",
+      "hn_points": "1183",
+      "hn_comments_count": "2117",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50112657",
+      "hn_item_text": "https://www.youtube.com/watch?v=7p5LxFdc-Qg https://twitter.com/Tesla/status/2110788059008819215",
+      "hn_comment_preview": "synapsomorphy: Ok, so it actually flies. That was unexpected. It's an incredible engineering achievement to build in massive fans and rocket engines into a high performance car. It's truly wild. It's being sold in two modes. One with cold gas (no combustion) seemingly just for extra forwards acceleration (no flying) and one with real combustion rocket engines, the latter was in the video and is \"invite only\". Wild that they devo...\nkarim79: It's not a flying car. It's a meme stock marketing stunt. I mean, it looks cool and I enjoyed the video but this stuff is not happening and will not be available, ever, probably.\nmNovak: Everyone's focusing on the cold gas thrusters, which of course is very cool, but not actually shocking that it technically could be done (economically is another question). But can we talk about the just casually driving straight vertical or sticking to the ceiling? I didn't think that would be technically possible for a 1000kg+ car with probably at least 2\" of ground clearance. There's presumably very limited sto...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=3,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 3,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "performance",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 3,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "rust"
+      ],
+      "detail_slug": "bab2690c541ef3d31131095088dc7aa96678d7ac",
+      "is_english_source": true,
+      "sent_at": "2026-10-17T01:28:53.882519+00:00"
+    },
+    {
+      "id": "19c0759728e3bb0d98c7c69635cc806c15cd0031",
+      "title_hash": "70066fe91a7a207cf1f63fe10f9e4691f9def46e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Wireless magnetic millirobots that deliver medicine inside the beating heart",
+      "link": "https://hub.jhu.edu/2026/10/12/magnetic-millirobots-cardiac-treatment/",
+      "published_at": "2026-10-14T07:21:12+00:00",
+      "summary": "HN story type: story HN points: 66 HN comments: 7 HN top comments: wetwater: Sounds like great weapon to assassinate someone. Jokes apart, can anyone well versed actually tell of this is just a paper for publishing sake or is there any truth to this story ? raomin: if they manage to drive small robots, they could probably also drive magnetotactic bacteria...! https://en.wikipedia.org/wiki/Magnetotactic_bacteria divy77: electric signal based actuators is catching up after machine learning boom",
+      "fetched_at": "2026-10-17T01:26:35.257363+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50083673",
+      "hn_story_type": "story",
+      "hn_points": "66",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50083673",
+      "hn_item_text": "",
+      "hn_comment_preview": "wetwater: Sounds like great weapon to assassinate someone. Jokes apart, can anyone well versed actually tell of this is just a paper for publishing sake or is there any truth to this story ?\nraomin: if they manage to drive small robots, they could probably also drive magnetotactic bacteria...! https://en.wikipedia.org/wiki/Magnetotactic_bacteria\ndivy77: electric signal based actuators is catching up after machine learning boom",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "36",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=12,practical_tech=4,tools_agents=7,strategy_insight=12,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 12,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [
+            "learning",
+            "signal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "learning",
+        "signal"
+      ],
+      "detail_slug": "19c0759728e3bb0d98c7c69635cc806c15cd0031",
+      "is_english_source": true,
+      "sent_at": "2026-10-17T01:28:53.882519+00:00"
+    },
+    {
       "id": "a2de2dbd583ac15fe4cc65e0dde4cf823635f0b1",
       "title_hash": "d7ab46810678536ed6f0638d594dedd3210c714b",
       "source": "GeekNews",
@@ -169727,636 +170308,6 @@
       "detail_slug": "f79e400370e74d856a46029250fc106827ab0c60",
       "is_english_source": false,
       "sent_at": "2026-04-12T08:47:12.141662+00:00"
-    },
-    {
-      "id": "dac9ada5be4499bb0dbd3ded609b05b154de93dc",
-      "title_hash": "d87a3ddf8fb6c5739b52feac1449d04a904e3025",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "I run multiple $10K MRR companies on a $20/month tech stack",
-      "link": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
-      "published_at": "2026-04-12T06:00:00+00:00",
-      "summary": "HN story type: story HN points: 123 HN comments: 70 HN top comments: hackingonempty: > The enterprise mindset dictates that you need an out-of-process database server. But the truth is, a local SQLite file communicating over the C-interface or memory is orders of magnitude faster than making a TCP network hop to a remote Postgres server. I don't want to diss SQLite because it is awesome and more than adequate for many/most web apps but you can connect to Postgres (or any DB really) on localhost ov... f311a: There are zero reasons to limit yourself to 1GB of RAM. By paying $20 instead of $5 you can get at least 8gb of RAM. You can use it for caches or a database that supports concurrent writes. The $15 difference won’t make any financial difference if you are trying to run a small business. Thinking about on how to fit everything on a $5 VPS does not help your business. t_mahmood: SQLite is fine, but I have ran Postgresql on a $20 server without any issues, and I would suggest if you have to deal with concurrent users and tasks, Postgresql is the way to go. SQLite WAL works, but sometimes it caused some issues, when you have a lot of concurrent tasks running continuously. And, not sure I'm correct, but I felt Postgresql has more optimized storage if you have large text data than SQLite, at...",
-      "fetched_at": "2026-04-12T08:43:30.360973+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47736555",
-      "hn_story_type": "story",
-      "hn_points": "123",
-      "hn_comments_count": "70",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47736555",
-      "hn_item_text": "",
-      "hn_comment_preview": "hackingonempty: > The enterprise mindset dictates that you need an out-of-process database server. But the truth is, a local SQLite file communicating over the C-interface or memory is orders of magnitude faster than making a TCP network hop to a remote Postgres server. I don't want to diss SQLite because it is awesome and more than adequate for many/most web apps but you can connect to Postgres (or any DB really) on localhost ov...\nf311a: There are zero reasons to limit yourself to 1GB of RAM. By paying $20 instead of $5 you can get at least 8gb of RAM. You can use it for caches or a database that supports concurrent writes. The $15 difference won’t make any financial difference if you are trying to run a small business. Thinking about on how to fit everything on a $5 VPS does not help your business.\nt_mahmood: SQLite is fine, but I have ran Postgresql on a $20 server without any issues, and I would suggest if you have to deal with concurrent users and tasks, Postgresql is the way to go. SQLite WAL works, but sometimes it caused some issues, when you have a lot of concurrent tasks running continuously. And, not sure I'm correct, but I felt Postgresql has more optimized storage...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "61",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=37,practical_tech=37,tools_agents=4,strategy_insight=2,industry_business=12",
-      "slot_scores": {
-        "practical_tech": 37,
-        "tools_agents": 4,
-        "strategy_insight": 2,
-        "industry_business": 12
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 37,
-          "strong_hits": [
-            "database",
-            "postgres",
-            "storage",
-            "cache",
-            "sql"
-          ],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 12,
-          "strong_hits": [
-            "enterprise",
-            "deal"
-          ],
-          "support_hits": [
-            "business"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "database",
-        "postgres",
-        "storage",
-        "cache",
-        "sql",
-        "how to",
-        "local + run"
-      ],
-      "detail_slug": "dac9ada5be4499bb0dbd3ded609b05b154de93dc",
-      "is_english_source": true,
-      "translated_title": "월 20달러 스택으로 MRR 1만달러 회사 여러 개 운영하기",
-      "short_summary": "월 20달러 안팎의 저비용 스택으로 MRR 1만달러 회사를 여러 개 돌린다는 운영 사례가 HN에서 주목받았다. 댓글은 SQLite로도 충분하다는 쪽과, 동시 쓰기와 운영 여유를 생각하면 Postgres와 더 큰 서버가 낫다는 쪽으로 갈렸다.",
-      "why_it_matters": "비용 절감 사례처럼 보이지만, 실제 쟁점은 작은 SaaS를 어디까지 단순한 구조로 운영할 수 있느냐다.\n- 클라우드 비용보다 운영 복잡도가 더 부담인 팀이라면, DB와 인프라 구성을 줄여 배포와 장애 대응을 단순하게 가져갈 여지가 있다.\n- 반대로 동시 쓰기, 백그라운드 작업, 큰 텍스트 데이터가 늘면 병목이 빨리 드러날 수 있어 SQLite에서 Postgres로 넘어갈 기준을 미리 잡아둘 필요가 있다.\n- 지금 실무에서는 처음부터 큰 구성을 깔기보다, 매출과 트래픽에 맞춰 인프라를 단계적으로 키우는 판단이 더 현실적인 운영 전략으로 읽힌다.",
-      "hn_reaction_summary": "댓글 분위기는 '작게 시작해도 된다'는 공감과 '절약이 목적이 되면 안 된다'는 반론이 팽팽하게 맞서는 쪽에 가까웠다.\n- SQLite를 지지한 쪽은 로컬 파일 기반 접근이 원격 DB 호출보다 빠르고, 많은 웹앱은 이 정도 구성으로도 충분하다고 봤다.\n- 반대 쪽은 월 20달러 서버에서도 더 많은 메모리를 확보해 Postgres를 무리 없이 돌릴 수 있고, 동시 사용자와 지속적인 작업 처리에서는 더 안정적이라고 지적했다.\n- 반복해서 나온 논점은 비용 자체보다, 어느 시점부터 운영 여유와 확장성을 위해 더 무거운 구성을 받아들여야 하느냐였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-12T08:47:12.141662+00:00"
-    },
-    {
-      "id": "a8dade7a38c72be7fbb84c5a33f7914e344dfbd3",
-      "title_hash": "caa5e50ee264038b6d1a29f9b46d6e9bbee43cb9",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "US appeals court declares 158-year-old home distilling ban unconstitutional",
-      "link": "https://www.theguardian.com/law/2026/apr/11/appeals-court-ruling-home-distilling-ban-unconstitutional",
-      "published_at": "2026-04-12T05:08:03+00:00",
-      "summary": "HN story type: story HN points: 126 HN comments: 84 HN top comments: angry_octet: As tourists to sketchy places in Asia discovered, methanol poisoning is a real risk, even from large scale distillation. It is the quality control that matters. Illegal stills make quality control impossible, so legalisation and government certified testing can make it safe. However, this ruling is not about alcohol, it is about dissolving Federal authority exercised via the trade and commerce clause of the Consti... ghastmaster: The article is devoid of any meaningful legal language. It is important to note that this ruling applies only to the states of Texas, Louisiana, and Mississippi as the fifth circuit is the court that decided this. That said, when parties bring cases to other federal circuit courts, they may cite this case. Frequently, circuit decisions can impact other district courts decisions. avidiax: Edit: According to AI, I've got this a bit backwards. The ruling hits the taxing power, not the commerce clause. It's nonetheless interesting, since the machine gun ban may be affected. The court says that you can't use a tax to ban something outright, which is what the post-1986 machine gun ban is: refusing to collect a tax on post-1986 machine guns, effectively banning them. That leaves the commerce clause as th...",
-      "fetched_at": "2026-04-12T08:43:30.360973+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47736298",
-      "hn_story_type": "story",
-      "hn_points": "126",
-      "hn_comments_count": "84",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47736298",
-      "hn_item_text": "",
-      "hn_comment_preview": "angry_octet: As tourists to sketchy places in Asia discovered, methanol poisoning is a real risk, even from large scale distillation. It is the quality control that matters. Illegal stills make quality control impossible, so legalisation and government certified testing can make it safe. However, this ruling is not about alcohol, it is about dissolving Federal authority exercised via the trade and commerce clause of the Consti...\nghastmaster: The article is devoid of any meaningful legal language. It is important to note that this ruling applies only to the states of Texas, Louisiana, and Mississippi as the fifth circuit is the court that decided this. That said, when parties bring cases to other federal circuit courts, they may cite this case. Frequently, circuit decisions can impact other district courts decisions.\navidiax: Edit: According to AI, I've got this a bit backwards. The ruling hits the taxing power, not the commerce clause. It's nonetheless interesting, since the machine gun ban may be affected. The court says that you can't use a tax to ban something outright, which is what the post-1986 machine gun ban is: refusing to collect a tax on post-1986 machine guns, effec...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "31",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=6,tools_agents=7,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 7,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "a8dade7a38c72be7fbb84c5a33f7914e344dfbd3",
-      "is_english_source": true,
-      "translated_title": "미 항소법원, 158년 된 가정 증류 금지 위헌 판단",
-      "short_summary": "미국 제5연방순회항소법원이 158년간 이어진 가정용 증류 금지를 위헌으로 판단했다. 다만 효력은 텍사스·루이지애나·미시시피에 한정되며, HN에서는 주류 안전보다 연방 권한과 과세권 해석이 더 큰 쟁점이 됐다.",
-      "why_it_matters": "이번 판결은 술 자체보다 연방정부가 금지와 과세를 어떻게 묶어 규제할 수 있는지를 다시 묻는 사례에 가깝다. 실무적으로는 주류 규제뿐 아니라, 세금 체계를 활용한 사실상 금지 모델 전반을 함께 볼 필요가 있다.\n- 당장 효력은 제5순회 관할인 텍사스·루이지애나·미시시피에 묶이지만, 다른 연방 법원 소송에서 참고 판례로 인용될 여지가 생겼다.\n- 세금을 부과하지 않는 방식으로 특정 행위를 사실상 막을 수 있는지에 시선이 쏠린다. 비슷한 구조의 다른 연방 규제에도 논점이 번질 수 있다.\n- 실제 제도 변화가 이어지면 안전 기준과 검사 체계가 먼저 따라와야 한다. 품질관리 없이 규제만 느슨해지면 현장 혼선이 커질 수 있다.",
-      "hn_reaction_summary": "HN에서는 술 이야기보다 헌법과 규제 권한 해석을 둘러싼 토론이 더 길게 이어졌다. 댓글 분위기는 흥미롭다는 반응과 함께, 기사 설명이 법리를 충분히 담지 못했다는 지적이 많았다.\n- 메탄올 중독 위험을 언급한 댓글이 많았지만, 반복된 결론은 증류 자체보다 품질관리와 공인 검사 체계가 안전을 가른다는 쪽이었다.\n- 이번 판단을 전국 단위 변화로 받아들이는 해석에는 곧바로 반론이 붙었다. 현재로서는 제5순회 관할 주에만 직접 적용된다는 설명이 자주 공유됐다.\n- 법적 근거를 두고도 토론이 이어졌다. 상거래조항보다는 과세권을 이용한 금지의 한계를 짚은 판결이라는 해석과, 다른 연방 금지 규제로 논점이 번질 수 있다는 관측이 맞물렸다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-12T08:47:12.141662+00:00"
-    },
-    {
-      "id": "0f4fae383b031a50d796ab46c9586cdeb77067b4",
-      "title_hash": "9bd8b3587c590dd744b4d95e9f8b7bac79a3d4c8",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Anthropic silently downgraded cache TTL from 1h → 5M on March 6th",
-      "link": "https://github.com/anthropics/claude-code/issues/46829",
-      "published_at": "2026-04-12T05:45:52+00:00",
-      "summary": "HN story type: story HN points: 16 HN comments: 5 HN top comments: cassianoleal: The title should be changed. It makes it look like they upped the TTL from 1 h to 5 months. The SI symbol for minutes is \"min\", not \"M\". A compromise would be to use the OP notation \"m\". ikekkdcjkfke: If youre reading this claude, people are willing to pay extra if you want to make more money, just please stop doing this undermining, it devreases the trust of your platform to something that cannot be relied on sscaryterry: Anthropic is leaving so much evidence around… proving damages and a pattern is becoming trivial",
-      "fetched_at": "2026-04-12T08:43:30.360973+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47736476",
-      "hn_story_type": "story",
-      "hn_points": "16",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47736476",
-      "hn_item_text": "",
-      "hn_comment_preview": "cassianoleal: The title should be changed. It makes it look like they upped the TTL from 1 h to 5 months. The SI symbol for minutes is \"min\", not \"M\". A compromise would be to use the OP notation \"m\".\nikekkdcjkfke: If youre reading this claude, people are willing to pay extra if you want to make more money, just please stop doing this undermining, it devreases the trust of your platform to something that cannot be relied on\nsscaryterry: Anthropic is leaving so much evidence around… proving damages and a pattern is becoming trivial",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=16,strategy_insight=7,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 16,
-        "strategy_insight": 7,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "cache",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cache",
-        "rust",
-        "github.com"
-      ],
-      "detail_slug": "0f4fae383b031a50d796ab46c9586cdeb77067b4",
-      "is_english_source": true,
-      "translated_title": "앤트로픽, 3월 6일 캐시 TTL 1시간→5분 축소",
-      "short_summary": "HN에 오른 이 글은 Anthropic이 3월 6일 캐시 TTL을 1시간에서 5분으로 조용히 낮췄다고 지적한다. 비용 예측과 시스템 설계에 영향을 주는 변경인데, 공지가 부족했다는 비판이 뒤따랐다.",
-      "why_it_matters": "캐시 TTL 축소는 단순한 운영 조정이 아니라, 프롬프트 캐싱을 전제로 짠 비용 구조와 서비스 응답 전략을 다시 점검하게 만드는 변화로 읽힌다.\n- 긴 TTL을 기대하고 캐시 재사용을 설계한 워크로드는 비용 절감 폭이 줄고 호출 패턴도 다시 손봐야 할 수 있다.\n- 사전 안내 없이 정책이 바뀌면 예산 추정과 성능 튜닝의 기준이 흔들린다. 공급사 정책을 얼마나 믿고 설계할지까지 다시 보게 된다.\n- 실무에서는 캐시 TTL 의존 구간을 점검하고, 정책 변경 모니터링과 폴백 전략을 더 촘촘히 준비할 필요가 있다.",
-      "hn_reaction_summary": "댓글 수는 많지 않지만 분위기는 대체로 날카롭다. 비용 문제 자체보다 조용한 정책 변경과 표기 혼선이 더 크게 거론됐다.\n- 가장 먼저 나온 반응은 제목의 '5M' 표기가 5개월처럼 읽힌다는 지적이다. 분 단위는 'min'이나 'm'로 쓰는 편이 낫다는 의견이 나왔다.\n- 일부는 돈을 더 받더라도 예고하고 명확하게 바꾸는 편이 낫다고 봤다. 몰래 기준을 바꾸면 플랫폼 신뢰가 무너진다는 반응이다.\n- 또 다른 댓글은 이런 사례가 쌓일수록 손해와 패턴을 입증하기 쉬워진다며, 운영 투명성 자체를 문제 삼았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-12T08:47:12.141662+00:00"
-    },
-    {
-      "id": "83eb46d059ec6ae4279c6ec3c858d35ce1a249cd",
-      "title_hash": "1367fbc549a691612f52cc8dd88d370cff7a524f",
-      "source": "GeekNews",
-      "title": "Meta의 HyperAgents — 에이전트가 스스로 자신의 하네스를 설계할 때",
-      "link": "https://news.hada.io/topic?id=28430",
-      "published_at": "2026-04-12T01:02:02+00:00",
-      "summary": "Meta와 UBC가 공동 발표한 HyperAgents 는 작업 수행 코드뿐 아니라 개선 메커니즘 자체까지 스스로 수정하는 자기참조적 AI 에이전트 프레임워크 코딩, 논문 리뷰, 로보틱스, 수학 채점 등 다양한 도메인에서 자기 개선을 반복한 결과, 에이전트가 영속 메...",
-      "fetched_at": "2026-04-12T04:33:24.886315+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "56",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=7,tools_agents=11,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 11,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "agent"
-      ],
-      "detail_slug": "83eb46d059ec6ae4279c6ec3c858d35ce1a249cd",
-      "is_english_source": false,
-      "sent_at": "2026-04-12T04:36:08.274063+00:00"
-    },
-    {
-      "id": "9db32dfa3d8e0357aa2c8924dc9d01c4e6c147c3",
-      "title_hash": "b9557649d92b284da235f8e07504f1ac200dad4c",
-      "source": "GeekNews",
-      "title": "Show GN: OCR 번역기 - VLM 기반 윈도우용 rust/slint 앱",
-      "link": "https://news.hada.io/topic?id=28431",
-      "published_at": "2026-04-12T01:16:54+00:00",
-      "summary": "rust/slint로 만든 윈도우용 OCR 번역기입니다. VLM 기반으로 gemini와 로컬 모델을 지원합니다. (LM Studio, OpenAI compatible API등) 단축키, 오버레이, 텍스트 박스, 자동 재번역, 클립보드, 프롬프트 변경, 스타일 기능 등 다양한 기능을 지원합니다. 텍스트 박스 모드에서는 번역중인 화면 내...",
-      "fetched_at": "2026-04-12T04:33:24.886315+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 10,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 10,
-          "strong_hits": [
-            "rust",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "api"
-      ],
-      "detail_slug": "9db32dfa3d8e0357aa2c8924dc9d01c4e6c147c3",
-      "is_english_source": false,
-      "sent_at": "2026-04-12T04:36:08.274063+00:00"
-    },
-    {
-      "id": "10ff8124fd6899c65164a770fc647e4db7a12cd4",
-      "title_hash": "e49ba5ca706e98aeb7788ddd794677bbd823ff48",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Used Graphify to turn incidents into a queryable knowledge graph",
-      "link": "https://github.com/Rootly-AI-Labs/rootly-graphify-importer",
-      "published_at": "2026-04-12T01:47:07+00:00",
-      "summary": "HN story type: story HN points: 5 HN comments: 1 HN top comments: hamzmu: Karpathy said we should build LLM knowledge bases, and 48 hours later someone made Graphify: one command, full semantic knowledge graph. We applied that idea to incident management. Most tools tell you what just happened. But during an incident, you actually want: (1) What happened last time this broke? (2) What fixed it? (3) What's likely to break next? Incident data, alerts and teams are fed into Graphify. Now i...",
-      "fetched_at": "2026-04-12T04:33:24.886315+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47735507",
-      "hn_story_type": "story",
-      "hn_points": "5",
-      "hn_comments_count": "1",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47735507",
-      "hn_item_text": "",
-      "hn_comment_preview": "hamzmu: Karpathy said we should build LLM knowledge bases, and 48 hours later someone made Graphify: one command, full semantic knowledge graph. We applied that idea to incident management. Most tools tell you what just happened. But during an incident, you actually want: (1) What happened last time this broke? (2) What fixed it? (3) What's likely to break next? Incident data, alerts and teams are fed into Graphify. Now i...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=9,tools_agents=17,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 17,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [],
-          "support_hits": [
-            "query"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 17,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "tool",
-        "github.com"
-      ],
-      "detail_slug": "10ff8124fd6899c65164a770fc647e4db7a12cd4",
-      "is_english_source": true,
-      "translated_title": "Graphify로 장애 대응 기록을 질의형 지식 그래프로",
-      "short_summary": "Graphify를 이용해 장애 기록, 알림, 담당 팀 정보를 묶고 질의 가능한 시맨틱 지식 그래프로 바꿨다는 사례다. 방금 벌어진 일만 보는 대신, 지난 대응 이력과 해결책, 다음 위험 지점을 바로 찾게 하려는 접근이다.",
-      "why_it_matters": "장애 대응은 현재 상태를 보는 데서 끝나지 않는다. 같은 문제가 다시 터졌을 때 과거 맥락과 해결 경로를 빠르게 꺼내 쓸 수 있느냐가 운영 품질을 가른다.\n- 장애 이력과 알림, 팀 정보를 그래프로 연결하면 지난번 복구 방법이나 연관 장애를 더 바로 추적할 수 있다.\n- 온콜 대응이 개인 경험에 덜 묶인다. 교대나 인수인계 때도 검색 가능한 운영 지식으로 이어지기 쉽다.\n- LLM과 결합하면 다음에 흔들릴 서비스나 의존 구간을 짚는 방식까지 바뀔 여지가 있다.",
-      "hn_reaction_summary": "현재 HN 반응은 아직 많지 않다. 다만 공개된 댓글은 아이디어의 속도감과 실제 장애 대응에 붙였다는 점을 흥미롭게 보는 분위기다.\n- Karpathy가 말한 LLM 지식베이스 구상을 곧바로 incident management에 적용한 사례라는 점이 눈길을 끈다.\n- 관심은 기술 시연보다 지난번엔 무엇이 통했는지, 다음엔 어디가 깨질지를 묻는 운영 관점에 모인다.\n- 댓글 수가 1개뿐이라 성능 검증이나 정확도, 운영 비용을 둘러싼 본격적인 찬반은 아직 드러나지 않았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-12T04:36:08.274063+00:00"
-    },
-    {
-      "id": "4e7f42820fbf4242132e197a9e5aeece5d3763e1",
-      "title_hash": "346a0cdafd2e947a6f29a7719c9aecf268668eb9",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
-      "link": "https://www.v68k.org/advanced-mac-substitute/",
-      "published_at": "2026-04-11T15:39:19+00:00",
-      "summary": "HN story type: story HN points: 224 HN comments: 57 HN top comments: keepamovin: This is super cool. I love that look. Something about classic black & white macos has a timeless \"alternative timeline\" L'Air de Panache aesthetic that to me says credibility and stability. Maybe it's the memory of the rows of Macintosh SE or Plus, those solid little upright beige bricks, in the computer room at my elementary school. I made a MacOS system 7 web desktop UI with real web browsing: https://win9-5.com... rcarmo: This is pretty neat. I have been spending the past few months adding an ARM64 JIT to Basilisk II ( https://github.com/rcarmo/macemu ) and totally appreciate what's involved (I'm currently stuck patching a Quadra ROM to bypass NuBus hardware detection...) Will definitely give it a try, since I would _love_ to have a Classic Mac environment with some modern creature comforts (like file sharing) in tiny machines. londons_explore: I am amazed that 1980's software works on binary API compatibility rather than relying on API quirks like timing, memory alignment quirks, memory layout from specific allocator behaviour, etc. It only takes one unintentional reliance on an implementation detail to make an application not run on another OS implementation...",
-      "fetched_at": "2026-04-12T04:33:24.886315+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47731506",
-      "hn_story_type": "story",
-      "hn_points": "224",
-      "hn_comments_count": "57",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47731506",
-      "hn_item_text": "",
-      "hn_comment_preview": "keepamovin: This is super cool. I love that look. Something about classic black & white macos has a timeless \"alternative timeline\" L'Air de Panache aesthetic that to me says credibility and stability. Maybe it's the memory of the rows of Macintosh SE or Plus, those solid little upright beige bricks, in the computer room at my elementary school. I made a MacOS system 7 web desktop UI with real web browsing: https://win9-5.com...\nrcarmo: This is pretty neat. I have been spending the past few months adding an ARM64 JIT to Basilisk II ( https://github.com/rcarmo/macemu ) and totally appreciate what's involved (I'm currently stuck patching a Quadra ROM to bypass NuBus hardware detection...) Will definitely give it a try, since I would _love_ to have a Classic Mac environment with some modern creature comforts (like file sharing) in tiny machines.\nlondons_explore: I am amazed that 1980's software works on binary API compatibility rather than relying on API quirks like timing, memory alignment quirks, memory layout from specific allocator behaviour, etc. It only takes one unintentional reliance on an implementation detail to make an application not run on another OS implementation...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "35",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api",
-        "implementation"
-      ],
-      "detail_slug": "4e7f42820fbf4242132e197a9e5aeece5d3763e1",
-      "is_english_source": true,
-      "translated_title": "1980년대 맥 OS를 API 수준에서 재구현한 AMS",
-      "short_summary": "Advanced Mac Substitute는 1980년대 Mac OS를 하드웨어 에뮬레이션이 아니라 API 호환 방식으로 다시 구현하는 프로젝트다. 오래된 맥 소프트웨어를 현대 환경에서 더 가볍고 유연하게 돌릴 가능성을 보여준다.",
-      "why_it_matters": "이 프로젝트는 복고 데모에 머물지 않는다. 예전 맥 앱을 오늘의 환경에서 어떻게 다시 살릴지, 그 방법을 새롭게 보여준다.\n- 특정 하드웨어나 ROM에 기대는 대신 API 호환으로 접근해 레거시 소프트웨어 보존과 실행의 선택지를 넓힌다.\n- 파일 공유 같은 현대적 편의 기능을 붙이기 쉬워, 옛 시스템을 구경하는 수준을 넘어 실제 사용 환경으로 발전할 여지가 있다.\n- 실무적으로는 오래된 플랫폼을 되살릴 때 무엇을 그대로 흉내 내고 무엇을 인터페이스로 대체할지 판단하는 좋은 참고 사례가 된다.",
-      "hn_reaction_summary": "HN에서는 기술적 완성도에 대한 감탄과 클래식 맥 특유의 분위기에 대한 호감이 함께 나왔다. 다만 진짜 어려움은 겉모습보다 호환성의 디테일이라는 지적도 꾸준히 보였다.\n- 초기 맥의 흑백 UI와 단단한 인상이 주는 매력을 반기는 댓글이 많았고, 향수와 별개로 디자인의 개성이 살아 있다는 반응이 이어졌다.\n- 에뮬레이터나 저수준 호환성 작업을 해 본 개발자들은 구현 난도를 잘 안다며 반겼고, 현대적 편의성을 갖춘 클래식 맥 환경을 기대했다.\n- 반대쪽에서는 오래된 소프트웨어가 타이밍, 메모리 정렬, 구현 세부에 의존하는 경우가 많아 API 수준 재구현만으로 충분한지 의문을 제기했다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-12T04:36:08.274063+00:00"
     }
   ],
   "topic_digests": {
