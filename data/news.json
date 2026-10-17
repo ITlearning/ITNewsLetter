@@ -1,6 +1,512 @@
 {
   "items": [
     {
+      "id": "1fcb389259198d37acb096736c23d3e069108954",
+      "title_hash": "1b53b92e9e8be80283f430d85329d0e9ede50d3f",
+      "source": "GeekNews",
+      "title": "Show GN: 수노(Suno)용 한국어 작사 Claude 스킬 – 부를 수 있는 가사와 Style 입력을 같이 설계",
+      "link": "https://news.hada.io/topic?id=35531",
+      "published_at": "2026-10-17T16:33:01+00:00",
+      "summary": "직접 Suno로 곡을 만들어 유튜브에 올리고 있고(수익도 나고 있습니다), 그 과정에서 이런 실패를 줄이려고 쓰던 작사 규칙을 Claude 에이전트 스킬로 정리해 공개했습니다. Suno로 노래를 만들면 가사는 멀쩡한데 이상하게 들리는 경우가 많습니다. 줄 끝이 랩처럼 몰아치거나, 한 글자를 길게 끌어 늘어지거",
+      "fetched_at": "2026-10-17T18:01:56.491889+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "1fcb389259198d37acb096736c23d3e069108954",
+      "is_english_source": false,
+      "sent_at": "2026-10-17T18:04:09.629859+00:00"
+    },
+    {
+      "id": "7756f937d8f89102cac21e5f699dfb4a6f4ec818",
+      "title_hash": "d8795a458ba5d83c3fbe25f601672518af2415d3",
+      "source": "GeekNews",
+      "title": "고마워요, Deno",
+      "link": "https://news.hada.io/topic?id=35533",
+      "published_at": "2026-10-17T16:43:03+00:00",
+      "summary": "Deno 팀이 Cloudflare에 합류 하며 향후 1년에 걸쳐 런타임 투자를 축소함. 독립 런타임으로서의 확산은 제한적이었지만, Deno가 추진한 기능과 설계는 JavaScript 생태계에 남음 런타임 간 경쟁 은 Node의 변화를 재촉함. 웹 표준 API, 권한 모델, 별도 빌드 없는 T...",
+      "fetched_at": "2026-10-17T18:01:56.491889+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=1,tools_agents=0,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 1,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 1,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "투자"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자"
+      ],
+      "detail_slug": "7756f937d8f89102cac21e5f699dfb4a6f4ec818",
+      "is_english_source": false,
+      "sent_at": "2026-10-17T18:04:09.629859+00:00"
+    },
+    {
+      "id": "296b78ea03abd1581786e44154ce41ef1e53ee08",
+      "title_hash": "d39ecb87617c196138e4c5013eb1a3b53198b5a7",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Linux bugs fixed per release over time: >2× rise since 2026-04",
+      "link": "https://lwn.net/Articles/1088776/",
+      "published_at": "2026-10-17T17:14:12+00:00",
+      "summary": "HN story type: story HN points: 30 HN comments: 4 HN top comments: 05kqhg: The headline is \"Development statistics for the 7.2 kernel\", and the last paragraph is highly LLM critical in contrast with the editorialized headline \"Linux bugs fixed per release over time: >2× rise since 2026-04\", which seems to imply some sort of Mythos bug finding. From the last paragraph: \"The Linux kernel is aimed at production use, not research or experimentation. But there is currently a massive experimen... pelagicAustral: To the surprise of no one. Although, I must recognise that I did not envision a future where Linus embraced AI as frictionless has its been, then again after the inclusion of Rust in the kernel, I probably would've risked some money on it. Matl: While great in theory, the flip side is all the slop patches and PRs that both the kernel and open source in general now has to deal with, often with only agents as responders. It honestly doesn't want to make me open anything for outside contributions anymore.",
+      "fetched_at": "2026-10-17T18:01:56.491889+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50132950",
+      "hn_story_type": "story",
+      "hn_points": "30",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50132950",
+      "hn_item_text": "",
+      "hn_comment_preview": "05kqhg: The headline is \"Development statistics for the 7.2 kernel\", and the last paragraph is highly LLM critical in contrast with the editorialized headline \"Linux bugs fixed per release over time: >2× rise since 2026-04\", which seems to imply some sort of Mythos bug finding. From the last paragraph: \"The Linux kernel is aimed at production use, not research or experimentation. But there is currently a massive experimen...\npelagicAustral: To the surprise of no one. Although, I must recognise that I did not envision a future where Linus embraced AI as frictionless has its been, then again after the inclusion of Rust in the kernel, I probably would've risked some money on it.\nMatl: While great in theory, the flip side is all the slop patches and PRs that both the kernel and open source in general now has to deal with, often with only agents as responders. It honestly doesn't want to make me open anything for outside contributions anymore.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=14,strategy_insight=6,industry_business=10",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 14,
+        "strategy_insight": 6,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "open source",
+            "production",
+            "rust",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "research",
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "release",
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "open source",
+        "production",
+        "rust",
+        "rag"
+      ],
+      "detail_slug": "296b78ea03abd1581786e44154ce41ef1e53ee08",
+      "is_english_source": true,
+      "sent_at": "2026-10-17T18:04:09.629859+00:00"
+    },
+    {
+      "id": "6f049bffd1e28df3cc6e9683b2648249972febf3",
+      "title_hash": "ab2d0664b760d75f6442bb416612d8517be3252d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "link": "https://github.com/antirez/c64-hw-simulator",
+      "published_at": "2026-10-15T07:18:14+00:00",
+      "summary": "HN story type: story HN points: 11 HN comments: 1 HN top comments: NikolaNovak: This is awesome! I just got a commodore 64 ultimate last week to play with my son but also nerd out on - the more I use ai at work, the more I miss the pleasure of hand coding and fully owning / understanding a piece of hardware. I wrote my first BASIC program in 35 years last weekend, a version of wordle for his birthday with special birthday cake PETSCII art if his name is entered. I never really geeked put abou...",
+      "fetched_at": "2026-10-17T18:01:56.491889+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50100366",
+      "hn_story_type": "story",
+      "hn_points": "11",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50100366",
+      "hn_item_text": "",
+      "hn_comment_preview": "NikolaNovak: This is awesome! I just got a commodore 64 ultimate last week to play with my son but also nerd out on - the more I use ai at work, the more I miss the pleasure of hand coding and fully owning / understanding a piece of hardware. I wrote my first BASIC program in 35 years last weekend, a version of wordle for his birthday with special birthday cake PETSCII art if his name is entered. I never really geeked put abou...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=11,practical_tech=7,tools_agents=11,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 11,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ai + coding",
+        "github.com"
+      ],
+      "detail_slug": "6f049bffd1e28df3cc6e9683b2648249972febf3",
+      "is_english_source": true,
+      "sent_at": "2026-10-17T18:04:09.629859+00:00"
+    },
+    {
+      "id": "7498f480fcc22a56abd34cc7710f2d8ed3ec9de6",
+      "title_hash": "4e1bae7f786a964de6ba65d687e67798a3244ce1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Esp32sim – Run ESP32 firmware in the browser",
+      "link": "https://github.com/mikroverk/esp32sim",
+      "published_at": "2026-10-17T13:51:08+00:00",
+      "summary": "HN story type: story HN points: 48 HN comments: 9 HN post text: Hi HN, I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser. The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator. The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected. Source: https://github.com/mikroverk/esp32sim I made a short video showing it in action: https://youtu.be/waoWFilTWEc I’m particularly interested in feedback from embedded developers: what would an emulator like this need to support before you’d actually use it for development, testing or CI? HN top comments: raminf: Outstanding! Very cool. On a lot of IoT projects, it's easier to create a \"functional\" software simulator for the hardware part so the mobile and cloud people can get going without having to wait for test hardware. Those simulators work at the level of emulating BLE or WiFi/API commands. Once you have hardware, the simulators are only used in CI/CD testing. Where I can see this coming handy is instead of a \"functi... turbine401: How is this different from Wokwi.com? They’ve been doing for years, and have a large number of microcontrollers emulated. dofm: I actually want to have a play with this sometime. But honestly, these gigantic, poorly-formatted AI-slop paragraphs like the one below this heading… https://github.com/mikroverk/esp32sim#boards-esp32-s3 … are just too much with their dense mix of formatting, brackets, semantic punctuation, command line arguments and part numbers etc. (This one is particularly absurd but it's not the only one). I may be middle-age...",
+      "fetched_at": "2026-10-17T18:01:56.491889+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50131189",
+      "hn_story_type": "story",
+      "hn_points": "48",
+      "hn_comments_count": "9",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50131189",
+      "hn_item_text": "Hi HN, I’ve been working on esp32sim, an open-source ESP32 emulator that runs in the browser. The fun part of the demo is that there is no ESP32 involved — the firmware is executing in the emulator. The goal is to make ESP32 software easier to experiment with, test and simulate without always needing physical hardware connected. Source: https://github.com/mikroverk/esp32sim I made a short video showing it in action: https://youtu.be/waoWFilTWEc I’m particularly interested in feedback from embedded developers: what would an emulator like this need to support before you’d actually use it for development, testing or CI?",
+      "hn_comment_preview": "raminf: Outstanding! Very cool. On a lot of IoT projects, it's easier to create a \"functional\" software simulator for the hardware part so the mobile and cloud people can get going without having to wait for test hardware. Those simulators work at the level of emulating BLE or WiFi/API commands. Once you have hardware, the simulators are only used in CI/CD testing. Where I can see this coming handy is instead of a \"functi...\nturbine401: How is this different from Wokwi.com? They’ve been doing for years, and have a large number of microcontrollers emulated.\ndofm: I actually want to have a play with this sometime. But honestly, these gigantic, poorly-formatted AI-slop paragraphs like the one below this heading… https://github.com/mikroverk/esp32sim#boards-esp32-s3 … are just too much with their dense mix of formatting, brackets, semantic punctuation, command line arguments and part numbers etc. (This one is particularly absurd but it's not the only one). I may be middle-age...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=10,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "show hn",
+            "api",
+            "rag"
+          ],
+          "support_hits": [
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "show hn",
+        "api",
+        "rag",
+        "testing",
+        "github.com"
+      ],
+      "detail_slug": "7498f480fcc22a56abd34cc7710f2d8ed3ec9de6",
+      "is_english_source": true,
+      "sent_at": "2026-10-17T18:04:09.629859+00:00"
+    },
+    {
+      "id": "db611ff82b6bacaf56371601690c20f0aa856f12",
+      "title_hash": "4db9a4b0b6adc8e9f8c3418fa1de74a30f233ea0",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Artie (YC S23) Is Hiring Enterprise AES and Senior Engineers",
+      "link": "https://www.artie.com/careers",
+      "published_at": "2026-10-17T17:02:50+00:00",
+      "summary": "HN story type: job HN points: 1 HN comments: 0",
+      "fetched_at": "2026-10-17T18:01:56.491889+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50132839",
+      "hn_story_type": "job",
+      "hn_points": "1",
+      "hn_comments_count": "0",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50132839",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=4,tools_agents=2,strategy_insight=7,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 7,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "career"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "enterprise"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "career"
+      ],
+      "detail_slug": "db611ff82b6bacaf56371601690c20f0aa856f12",
+      "is_english_source": true,
+      "sent_at": "2026-10-17T18:04:09.629859+00:00"
+    },
+    {
       "id": "cca695012c534a70c48717390ab4b3619e3fa46f",
       "title_hash": "258481b74566f0d85eec15866cf7cf6621fea581",
       "source": "GeekNews",
@@ -169749,513 +170255,6 @@
       "detail_slug": "fab72ecfa4326259404f1c974b8880609f286dfc",
       "is_english_source": false,
       "sent_at": "2026-04-13T05:35:09.103697+00:00"
-    },
-    {
-      "id": "14fa7131f3cc9728f03b2d85010fec100ae7edfe",
-      "title_hash": "c63b8b25f864af6da2bf3ca577f31f661b52fc5f",
-      "source": "GeekNews",
-      "title": "pgmicro - SQLite 기반으로 만든 인-프로세스 PostgreSQL",
-      "link": "https://news.hada.io/topic?id=28464",
-      "published_at": "2026-04-13T01:02:01+00:00",
-      "summary": "PostgreSQL SQL을 SQLite 바이트코드로 직접 컴파일 하는 인메모리 임베디드 데이터베이스 AI 에이전트 환경에서 급증하는 일시적·소규모 데이터베이스 수요 를 겨냥해 설계됨 Rust로 처음부터 재작성한 SQLite 재구현체인 Turso를 엔진으로 사용...",
-      "fetched_at": "2026-04-13T05:30:49.802455+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "62",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=17,practical_tech=17,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "postgres",
-            "rust",
-            "sql"
-          ],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "postgres",
-        "rust",
-        "sql",
-        "코드"
-      ],
-      "detail_slug": "14fa7131f3cc9728f03b2d85010fec100ae7edfe",
-      "is_english_source": false,
-      "sent_at": "2026-04-13T05:35:09.103697+00:00"
-    },
-    {
-      "id": "3ba86750b6e5310d78ad3cf4ba4e5c29ecb9d243",
-      "title_hash": "5a8bc70200ac95b72ec3817214ca3e7807b4cda3",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Haunt, the 70s text adventure game, is now playable on a website",
-      "link": "https://haunt.madebywindmill.com",
-      "published_at": "2026-04-13T03:31:02+00:00",
-      "summary": "HN story type: story HN points: 30 HN comments: 9 HN top comments: kqr: Many, many historic text adventures are available in the browser, thanks to the Parchment interpreter. You can find them on the IFDB, and click the link to play online. One of my favourites among the classics are Plundered Hearts[1]. There's also a lively community of people who make modern text adventures. These tend to be shorter and more well designed than many of the cruel games of the past. My all-time favour... pinchydev: Spoilers in link. After spending way too long trying to press a button that doesn't do anything (press button, depress button, push button, button, press the button) or trying to talk to the speaker (say open, talk to speaker, talk at speaker, shout at speaker) I got frustrated and used claude to give me a walkthrough based on the source code. Turns out the correct command was \"hi\" here's the walkthrough: https://... joongix: I work in game dev (animation side) and what strikes me about these old text adventures is how much the parser's limitations shaped the design philosophy. When you can't express everything, you have to make the world's constraints feel intentional rather than arbitrary. Modern games sometimes have the opposite problem — the engine can do anything, so the world feels boundless and yet strangely hollow. There's some...",
-      "fetched_at": "2026-04-13T05:30:49.802455+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47747248",
-      "hn_story_type": "story",
-      "hn_points": "30",
-      "hn_comments_count": "9",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47747248",
-      "hn_item_text": "",
-      "hn_comment_preview": "kqr: Many, many historic text adventures are available in the browser, thanks to the Parchment interpreter. You can find them on the IFDB, and click the link to play online. One of my favourites among the classics are Plundered Hearts[1]. There's also a lively community of people who make modern text adventures. These tend to be shorter and more well designed than many of the cruel games of the past. My all-time favour...\npinchydev: Spoilers in link. After spending way too long trying to press a button that doesn't do anything (press button, depress button, push button, button, press the button) or trying to talk to the speaker (say open, talk to speaker, talk at speaker, shout at speaker) I got frustrated and used claude to give me a walkthrough based on the source code. Turns out the correct command was \"hi\" here's the walkthrough: https://...\njoongix: I work in game dev (animation side) and what strikes me about these old text adventures is how much the parser's limitations shaped the design philosophy. When you can't express everything, you have to make the world's constraints feel intentional rather than arbitrary. Modern games sometimes have the opposite problem — the engi...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "42",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=9,tools_agents=18,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 18,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 18,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "venture"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli",
-        "claude + code"
-      ],
-      "detail_slug": "3ba86750b6e5310d78ad3cf4ba4e5c29ecb9d243",
-      "is_english_source": true,
-      "translated_title": "70년대 텍스트 어드벤처 'Haunt', 웹으로 부활",
-      "short_summary": "1970년대 텍스트 어드벤처 게임 'Haunt'를 이제 웹사이트에서 바로 플레이할 수 있게 됐다. HN에서는 브라우저 기반 보존을 반기면서도, 옛 파서 게임 특유의 불친절한 입력 방식이 다시 화제가 됐다.",
-      "why_it_matters": "이번 소식은 고전 게임 보존이 단순 아카이브를 넘어, 지금 바로 체험할 수 있는 형태로 옮겨가고 있다는 점에서 눈에 띈다.\n- 설치 과정 없이 브라우저에서 바로 실행되면 오래된 소프트웨어를 다시 접하는 진입 장벽이 크게 낮아진다.\n- 게임 업계나 디지털 아카이브 실무에서는 콘텐츠를 '소장'하는 수준을 넘어 실제 사용 가능한 상태로 보존해야 한다는 요구가 더 커질 수 있다.\n- 생성형 AI와 소스 공개 문화가 결합되면, 막히는 구간을 분석하거나 공략을 재구성하는 식으로 옛 작품을 다시 소비하는 방식도 늘어날 가능성이 있다.",
-      "hn_reaction_summary": "HN 반응은 대체로 반가움과 불만이 함께 섞인 분위기였다. 브라우저에서 고전 텍스트 어드벤처를 즐길 수 있다는 점은 호평받았지만, 당시 파서의 제약은 지금 기준으로 꽤 거칠다는 지적도 나왔다.\n- 비슷한 고전 작품을 웹에서 돌릴 수 있게 해준 Parchment 인터프리터와 IFDB 같은 생태계를 함께 언급하며, 인터랙티브 픽션 보존 문화 자체를 반기는 댓글이 많았다.\n- 한편으로는 정답 명령어를 맞혀야만 진행되는 불친절한 UX가 반복해서 지적됐다. 버튼을 눌러도 안 되고, 결국 정답이 'hi'였다는 사례가 대표적이다.\n- 게임 개발 관점에서는 파서의 한계가 오히려 세계의 규칙을 또렷하게 만들었다는 평가도 있었다. 반대로 현대 게임은 가능성은 넓지만, 설계 의도가 흐려질 수 있다는 비교가 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-13T05:35:09.103697+00:00"
-    },
-    {
-      "id": "9707f797bc0fdb8ad3f419ad16100a12aa6a6c8e",
-      "title_hash": "df0f93e5f824399cdd358f2f37cc666214e3a813",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "State of Homelab 2026",
-      "link": "https://mrlokans.work/posts/state-of-homelab-2026/",
-      "published_at": "2026-04-13T01:42:37+00:00",
-      "summary": "HN story type: story HN points: 55 HN comments: 32 HN top comments: AdrienPoupa: This is very cool, but you should not use Cloudflare Tunnels to stream media. This is forbidden by their terms of service (or at the very least not the intended use of Tunnels and they may disable your service). Use Wireguard or Tailscale instead. https://www.xda-developers.com/cloudflare-tunnels-are-great-... cadamsdotcom: There should be volunteer groups at local libraries running these services for their local communities. It’d be a great way for kids to learn to operate services and a great alternative for anyone who wants to use the fantastic open source stuff that’s out there but lacks expertise or time. arjie: Cloudflare Tunnel is a wonderful thing. In fact, Cloudflare itself is fantastic for homelabbers because it gives you so much for free. I used to just host direct on my own home IP, but nowadays I find it easier to just `cloudflared`. Don't have to worry about the firewall and any breaches into my network and all of that stuff. I started from a similar place as you and then eventually now my IaaC for my homelab is...",
-      "fetched_at": "2026-04-13T05:30:49.802455+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47746577",
-      "hn_story_type": "story",
-      "hn_points": "55",
-      "hn_comments_count": "32",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47746577",
-      "hn_item_text": "",
-      "hn_comment_preview": "AdrienPoupa: This is very cool, but you should not use Cloudflare Tunnels to stream media. This is forbidden by their terms of service (or at the very least not the intended use of Tunnels and they may disable your service). Use Wireguard or Tailscale instead. https://www.xda-developers.com/cloudflare-tunnels-are-great-...\ncadamsdotcom: There should be volunteer groups at local libraries running these services for their local communities. It’d be a great way for kids to learn to operate services and a great alternative for anyone who wants to use the fantastic open source stuff that’s out there but lacks expertise or time.\narjie: Cloudflare Tunnel is a wonderful thing. In fact, Cloudflare itself is fantastic for homelabbers because it gives you so much for free. I used to just host direct on my own home IP, but nowadays I find it easier to just `cloudflared`. Don't have to worry about the firewall and any breaches into my network and all of that stuff. I started from a similar place as you and then eventually now my IaaC for my homelab is...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=4,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 4,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "local + run"
-      ],
-      "detail_slug": "9707f797bc0fdb8ad3f419ad16100a12aa6a6c8e",
-      "is_english_source": true,
-      "translated_title": "2026년 홈랩 운영 현황과 셀프호스팅 흐름",
-      "short_summary": "홈랩이 취미를 넘어 개인 인프라 운영 방식으로 자리 잡으면서 원격 접속, 보안, 자동화 도구 선택이 더 현실적인 과제가 됐다. HN에선 Cloudflare Tunnel의 편의성과 약관 리스크, WireGuard·Tailscale 대안이 함께 거론됐다.",
-      "why_it_matters": "홈랩은 이제 단순한 취미용 서버가 아니라, 개인이 서비스 운영 감각을 익히는 실전 환경에 가깝다. 어떤 방식으로 외부에 열고 어떻게 관리하느냐가 비용과 리스크를 바로 바꾼다.\n- Cloudflare Tunnel처럼 손쉬운 공개 도구가 진입장벽을 낮췄다. 대신 용도에 따라 약관 위반이나 서비스 차단 가능성까지 확인해야 한다.\n- 미디어 스트리밍처럼 트래픽이 큰 워크로드는 WireGuard나 Tailscale 같은 VPN 계열이 더 낫다는 의견이 나왔다. 편의성보다 운영 지속성이 앞서는 구간이 있다는 뜻이다.\n- 홈랩도 수동 설정보다 IaC로 관리하는 흐름이 보인다. 한 번 맞춰 쓰는 수준에서 재현 가능한 운영으로 넘어가고 있다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이지만, 편하게 공개할 수 있다는 장점만 보고 접근하면 안 된다는 경계도 강했다. 특히 원격 공개 방식과 운영 철학을 두고 의견이 갈렸다.\n- Cloudflare Tunnel은 설정이 쉽고 무료 혜택이 많다는 평가를 받았지만, 미디어 스트리밍에는 약관상 맞지 않을 수 있다는 반론이 반복됐다.\n- 대안으로는 WireGuard와 Tailscale이 자주 언급됐다. 직접 홈 IP를 노출하지 않으면서도 용도에 맞게 통제하기 쉽다는 맥락이다.\n- 일부는 홈랩을 개인 취미를 넘어 지역 커뮤니티 인프라로 확장하자는 시각도 내놨다. 도서관 같은 공간에서 운영과 학습을 함께 해보자는 제안이 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-13T05:35:09.103697+00:00"
-    },
-    {
-      "id": "96d3aaf3540b150079e820be7f1fe716afb55c76",
-      "title_hash": "b30b3332a020f4e9afb387e769e2e96cda71f9ce",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Apple's accidental moat: How the \"AI Loser\" may end up winning",
-      "link": "https://adlrocha.substack.com/p/adlrocha-how-the-ai-loser-may-end",
-      "published_at": "2026-04-13T02:53:10+00:00",
-      "summary": "HN story type: story HN points: 83 HN comments: 68 HN top comments: pram: I've had it turned off since Sequoia, and this I truly appreciate. It hasn't nagged me once to turn it or Siri on, and it isn't mandatory. When I open up JIRA or Slack I am always greeted with multiple new dialogues pointing at some new AI bullshit, in comparison. We hates it precious amazingamazing: Gemma4 in my view is good enough to do things similar to Gemini 2.5 flash, meaning if I point it code and ask for help and there is a problem with the code it’ll answer correctly in terms of suggestions but it’s not great at using all tools or one shooting things that require a lot of context or “expert knowledge” If a couple more iterations of this, say gemma6 is as good as current opus and runs completely locall... grtteee: This is the classic apple approach - wait to understand what the thing is capable of doing (aka let others make sunk investments), envision a solution that is way better than the competition and then architect a path to building a leapfrog product that builds a large lead.",
-      "fetched_at": "2026-04-13T05:30:49.802455+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47747017",
-      "hn_story_type": "story",
-      "hn_points": "83",
-      "hn_comments_count": "68",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47747017",
-      "hn_item_text": "",
-      "hn_comment_preview": "pram: I've had it turned off since Sequoia, and this I truly appreciate. It hasn't nagged me once to turn it or Siri on, and it isn't mandatory. When I open up JIRA or Slack I am always greeted with multiple new dialogues pointing at some new AI bullshit, in comparison. We hates it precious\namazingamazing: Gemma4 in my view is good enough to do things similar to Gemini 2.5 flash, meaning if I point it code and ask for help and there is a problem with the code it’ll answer correctly in terms of suggestions but it’s not great at using all tools or one shooting things that require a lot of context or “expert knowledge” If a couple more iterations of this, say gemma6 is as good as current opus and runs completely locall...\ngrtteee: This is the classic apple approach - wait to understand what the thing is capable of doing (aka let others make sunk investments), envision a solution that is way better than the competition and then architect a path to building a leapfrog product that builds a large lead.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "35",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=11,practical_tech=10,tools_agents=11,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 10,
-        "tools_agents": 11,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "substack.com"
-          ]
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "local",
-        "tool"
-      ],
-      "detail_slug": "96d3aaf3540b150079e820be7f1fe716afb55c76",
-      "is_english_source": true,
-      "translated_title": "AI 패자로 보인 애플, 결국 이길까",
-      "short_summary": "애플이 생성형 AI 경쟁에서 뒤처진 듯 보여도, 무리하게 밀어붙이지 않는 태도와 기기 통합력이 나중엔 강점이 될 수 있다는 글이다. HN에서는 '강요하지 않는 AI'에 대한 호감과 애플식 후발 전략에 대한 기대가 함께 나왔다.",
-      "why_it_matters": "생성형 AI 경쟁의 초점이 '누가 먼저 넣었나'에서 '누가 덜 거슬리게, 더 믿을 만하게 넣었나'로 옮겨가고 있음을 보여준다. 실무에서는 모델 성능 자체보다 제품 설계와 배포 방식이 더 크게 작용할 수 있다.\n- AI 기능을 기본값으로 억지로 노출하지 않는 설계가 사용자 피로를 줄이고 반감을 낮출 수 있다.\n- 모델 성능 격차가 줄어들수록 기기, OS, 앱을 함께 묶는 통합 경험이 더 큰 차이를 만든다.\n- 제품팀 입장에서는 최신 모델 경쟁보다 로컬 실행, 프라이버시, 알림 최소화 같은 운영 원칙을 다시 보게 된다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 '지금 억지로 쓰게 하는 AI보다 애플 방식이 낫다'는 쪽에 기울었다. 다만 기대의 근거는 화려한 성능보다 덜 방해하고 더 자연스럽게 스며드는 사용자 경험에 있었다.\n- JIRA나 Slack처럼 AI 팝업과 권유가 많은 제품에 지쳤다는 반응이 반복됐고, 애플이 이를 강제하지 않는 점을 좋게 봤다.\n- 로컬 모델 품질이 몇 세대만 더 올라오면 애플의 온디바이스 전략이 힘을 받을 수 있다는 전망도 나왔다.\n- '남보다 늦게 들어오되, 이해한 뒤 더 매끈하게 만든다'는 전형적인 애플식 접근으로 해석하는 의견이 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-13T05:35:09.103697+00:00"
-    },
-    {
-      "id": "cb7a330e0cad9082ad85e67053bb0293e2a331f1",
-      "title_hash": "6cbfde6553066cb83d3553b489c81e92a315bc7e",
-      "source": "GeekNews",
-      "title": "스페인에서 Cloudflare의 축구 관련 차단으로 Docker Pull 실패 발생",
-      "link": "https://news.hada.io/topic?id=28458",
-      "published_at": "2026-04-13T00:44:07+00:00",
-      "summary": "스페인 지역에서 Docker 이미지 다운로드(docker pull) 요청이 차단되는 현상 발생 원인은 Cloudflare의 축구 경기 중계 관련 차단 정책 이 Docker Hub 트래픽에도 영향을 준 것으로 확인 해당 차단으로 인해 개발 환경 구축 및 배포 자동화 과정...",
-      "fetched_at": "2026-04-13T01:23:06.749272+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=5,tools_agents=9,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "docker"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "자동화"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "docker"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "자동화"
-      ],
-      "detail_slug": "cb7a330e0cad9082ad85e67053bb0293e2a331f1",
-      "is_english_source": false,
-      "sent_at": "2026-04-13T01:26:11.758527+00:00"
-    },
-    {
-      "id": "119659e9dbd2a3717f485b88e366bf3cb254ec95",
-      "title_hash": "545634ee52ccf68b66609fd27d02b8492da52a8b",
-      "source": "GeekNews",
-      "title": "월 20달러 기술 스택으로 여러 개의 월 1만 달러 MRR 회사를 운영하는 방법",
-      "link": "https://news.hada.io/topic?id=28457",
-      "published_at": "2026-04-13T00:41:07+00:00",
-      "summary": "복잡한 인프라와 구독비를 제거 해 월 20달러 수준의 기술 스택으로 여러 회사를 안정적으로 운영하는 구조 제시 단일 VPS, Go, SQLite, 로컬 AI 만으로도 확장 가능한 서비스를 구축하고 유지할 수 있음을 입증 로컬 GPU와 오픈소스 도구",
-      "fetched_at": "2026-04-13T01:23:06.749272+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "sql"
-          ],
-          "support_hits": [
-            "인프라"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "sql",
-        "인프라"
-      ],
-      "detail_slug": "119659e9dbd2a3717f485b88e366bf3cb254ec95",
-      "is_english_source": false,
-      "sent_at": "2026-04-13T01:26:11.758527+00:00"
     }
   ],
   "topic_digests": {
