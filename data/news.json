@@ -1,6 +1,595 @@
 {
   "items": [
     {
+      "id": "53e8d440e9a0b7ec6b81fdb27d487db0529a90d4",
+      "title_hash": "0a47b0d97dd1cdcd2092ecb0884b39d4554f51f3",
+      "source": "GeekNews",
+      "title": "AI 에이전트에게 고치라고 시켰더니 &quot;수정했습니다&quot; 라는 답만 오고 파일 md5 는 그대로였다",
+      "link": "https://news.hada.io/topic?id=35608",
+      "published_at": "2026-10-19T00:36:27+00:00",
+      "summary": "서브에이전트에게 파일을 고치라고 맡기면 정말 고칠까요? 빈 폴더에서 Claude Code 2.1.281 과 haiku 로 세 번 돌려 보니, 큰 AI 가 \"수정했습니다\" 라고 보고한 순간에도 calc.py 는 한 글자도 바뀌지 않았습니다. $ claude -p --model haiku --setting-sources project --tools \"Agent,Read",
+      "fetched_at": "2026-10-19T07:20:22.373006+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "69",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=24,practical_tech=0,tools_agents=24,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 24,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 24,
+          "strong_hits": [
+            "claude code",
+            "에이전트"
+          ],
+          "support_hits": [
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "agent",
+        "tool",
+        "claude + code"
+      ],
+      "detail_slug": "53e8d440e9a0b7ec6b81fdb27d487db0529a90d4",
+      "is_english_source": false,
+      "sent_at": "2026-10-19T07:22:47.538534+00:00"
+    },
+    {
+      "id": "50089ecb42e5d4da1f074a34ebff684f8c746ab1",
+      "title_hash": "7cd5c669b3a516790b4c600399a2e99bd5d8c4b0",
+      "source": "GeekNews",
+      "title": "뛰어난 한국인 창업가 대표들이 가장 큰 가치를 느끼는 지원은 내가 예측하지 못한 것이었다",
+      "link": "https://news.hada.io/topic?id=35628",
+      "published_at": "2026-10-19T06:13:10+00:00",
+      "summary": "3년 4개월전, 저는 뛰어난 한국인 창업가/CEO들을 대상으로 Kru를 론칭했습니다. 오늘은 지난 3년 4개월의 경험을 바탕으로 개발하게 된 가설 하나를 공유하고자 합니다. 바로 한국인 창업가/CEO들의 대다수가 그 어떤 지원보다도 전략을 명확히 하고 조직을 전략에 얼라인하여 주도 하도록 돕는 지원에",
+      "fetched_at": "2026-10-19T07:20:22.373006+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 5,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "전략"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "ceo"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "전략"
+      ],
+      "detail_slug": "50089ecb42e5d4da1f074a34ebff684f8c746ab1",
+      "is_english_source": false,
+      "sent_at": "2026-10-19T07:22:47.538534+00:00"
+    },
+    {
+      "id": "62875065b7272ccfc73511c351e2af180c3f64a8",
+      "title_hash": "cf281545aef6943e8e56a23a8e7e18fac4ddef58",
+      "source": "GeekNews",
+      "title": "일회성 샌드박스를 위한 버전 관리 파일시스템",
+      "link": "https://news.hada.io/topic?id=35606",
+      "published_at": "2026-10-19T00:34:36+00:00",
+      "summary": "Tines의 3B는 실행 후 폐기하는 Linux 샌드박스에 영속 파일시스템을 연결 . Git 저장소와 SQLite, DuckDB 등을 다음 실행에서도 이어 쓰면서, 성공한 실행의 변경만 일괄 반영 실행마다 고정된 스냅샷 을 읽고, 실패하면 파일 변경을 폐기. 다른 실행이나 UI에는 반...",
+      "fetched_at": "2026-10-19T07:20:22.373006+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sql"
+      ],
+      "detail_slug": "62875065b7272ccfc73511c351e2af180c3f64a8",
+      "is_english_source": false,
+      "sent_at": "2026-10-19T07:22:47.538534+00:00"
+    },
+    {
+      "id": "9f5518364e54cce60533ca6a2f07249a45543b5b",
+      "title_hash": "f64bc475263e2d2aecc43b371d292efa3118ff0b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Superlite: A Faster Alternatie to Superpowers",
+      "link": "https://contextfirst.blog/superlite-hand-an-agent-a-spec/",
+      "published_at": "2026-10-19T02:01:16+00:00",
+      "summary": "HN story type: story HN points: 64 HN comments: 29 HN top comments: Olscore: You do not always need a spec, but it helps in some projects. What you do need in almost every project is coherency and decision depth; i.e., you need to be able to trace decisions back through the project history and create some sort of ledger of intent. Why was it coded this way? What happened with this bug, etc. This becomes increasingly challenging in larger codebases, way beyond \"agent memory\". Building up an... michelb: I've been using Compound Engineering by Every for a long time now. I like the brainstorm and plan features. Similarly I like the /grill-me skill by Matt Pocock. As a mediocre programmer, they help me get my ideas refined, documented and implemented. I have found most of the other skills to emulate an 'enterprisy' way of developing, having everything checked multiple time by 'councils' and whatnot, making things sl... jemdiggity: Like others I found superpowers helpful maybe 4 months ago. The models don't seem to need it anymore. I also don't have the same prompting issues the author has. Opus 5.5 tends to develop the spec, assumes I agree, and builds it. I make my sandwich and come back to a spec md, a diff, other evidence of completion. I use cc cli with a cmux-like platform it can control (ie open tabs showing specs, diffs itself).",
+      "fetched_at": "2026-10-19T07:20:22.373006+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50147492",
+      "hn_story_type": "story",
+      "hn_points": "64",
+      "hn_comments_count": "29",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50147492",
+      "hn_item_text": "",
+      "hn_comment_preview": "Olscore: You do not always need a spec, but it helps in some projects. What you do need in almost every project is coherency and decision depth; i.e., you need to be able to trace decisions back through the project history and create some sort of ledger of intent. Why was it coded this way? What happened with this bug, etc. This becomes increasingly challenging in larger codebases, way beyond \"agent memory\". Building up an...\nmichelb: I've been using Compound Engineering by Every for a long time now. I like the brainstorm and plan features. Similarly I like the /grill-me skill by Matt Pocock. As a mediocre programmer, they help me get my ideas refined, documented and implemented. I have found most of the other skills to emulate an 'enterprisy' way of developing, having everything checked multiple time by 'councils' and whatnot, making things sl...\njemdiggity: Like others I found superpowers helpful maybe 4 months ago. The models don't seem to need it anymore. I also don't have the same prompting issues the author has. Opus 5.5 tends to develop the spec, assumes I agree, and builds it. I make my sandwich and come back to a spec md, a diff, other evidence of completion. I use cc c...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "45",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=21,practical_tech=4,tools_agents=21,strategy_insight=9,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 21,
+        "strategy_insight": 9,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 21,
+          "strong_hits": [
+            "agent memory",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "prompt",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "agent memory",
+        "ide",
+        "cli",
+        "prompt",
+        "agent"
+      ],
+      "detail_slug": "9f5518364e54cce60533ca6a2f07249a45543b5b",
+      "is_english_source": true,
+      "sent_at": "2026-10-19T07:22:47.538534+00:00"
+    },
+    {
+      "id": "5520e2257c7296fb92959b250683bd38b8ec0540",
+      "title_hash": "8d2d0f3a78d51b73fb534972c9fc506c8f21d61a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "DeepSeek V4.1 Flash 1017 (Max)",
+      "link": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+      "published_at": "2026-10-19T04:41:46+00:00",
+      "summary": "HN story type: story HN points: 105 HN comments: 33 HN top comments: lhl: The old DeepSeek V4.1 Flash has been my workhorse model for the past month (after running tests comparing w/ Qwen 3.8 Flash Next, GLM 5.3 Flash, MiMo 2.6 Flash (including the MOPD fix)) and I've run tens of billions of tokens through it and pushed it fairly hard in both private internal benchmarking and in my own workloads to figure out where it's strong/weak. Partly because I run it on very fast local infra (200+... Tiberium: Somehow GPT 6.1 Sol (medium) is cheaper per task ($0.21 vs $0.26) and faster per task (2.9 vs 4.9 minutes) vs v4.1 Flash 1017 (max). I hope AA adds other reasoning effort results of Deepseek so it'd be more realistic to compare it with other models, because IMO using models at max effort is very unrealistic for most people, they then take a huge amount of time and tokens for a small performance uplift. aliljet: What I really want to know for models like this is if I can have them run on really lame consumer hardware (consider 128gb of ram, 2080ti) with extremely low TPS, but with reasonable enough intelligence that you can walk away and expect something to bake really nicely while you sleep. Perhaps I'm losing touch with the edge, but it doesn't seem like this is quite possible with the hardware baseline I'm talking abou...",
+      "fetched_at": "2026-10-19T07:20:22.373006+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50148452",
+      "hn_story_type": "story",
+      "hn_points": "105",
+      "hn_comments_count": "33",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50148452",
+      "hn_item_text": "",
+      "hn_comment_preview": "lhl: The old DeepSeek V4.1 Flash has been my workhorse model for the past month (after running tests comparing w/ Qwen 3.8 Flash Next, GLM 5.3 Flash, MiMo 2.6 Flash (including the MOPD fix)) and I've run tens of billions of tokens through it and pushed it fairly hard in both private internal benchmarking and in my own workloads to figure out where it's strong/weak. Partly because I run it on very fast local infra (200+...\nTiberium: Somehow GPT 6.1 Sol (medium) is cheaper per task ($0.21 vs $0.26) and faster per task (2.9 vs 4.9 minutes) vs v4.1 Flash 1017 (max). I hope AA adds other reasoning effort results of Deepseek so it'd be more realistic to compare it with other models, because IMO using models at max effort is very unrealistic for most people, they then take a huge amount of time and tokens for a small performance uplift.\naliljet: What I really want to know for models like this is if I can have them run on really lame consumer hardware (consider 128gb of ram, 2080ti) with extremely low TPS, but with reasonable enough intelligence that you can walk away and expect something to bake really nicely while you sleep. Perhaps I'm losing touch with the edge, but it doesn't seem...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "44",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=20,practical_tech=20,tools_agents=9,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 20,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 20,
+          "strong_hits": [
+            "performance",
+            "benchmark"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "benchmark",
+        "local + run"
+      ],
+      "detail_slug": "5520e2257c7296fb92959b250683bd38b8ec0540",
+      "is_english_source": true,
+      "sent_at": "2026-10-19T07:22:47.538534+00:00"
+    },
+    {
+      "id": "1e74204dbc68b88a8245702914e00f3818b8480d",
+      "title_hash": "e3e8c3abc1f89f2b5e25c7249c1ef66a106af263",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "link": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "published_at": "2026-10-19T05:55:31+00:00",
+      "summary": "HN story type: story HN points: 4 HN comments: 0",
+      "fetched_at": "2026-10-19T07:20:22.373006+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50148855",
+      "hn_story_type": "story",
+      "hn_points": "4",
+      "hn_comments_count": "0",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50148855",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "44",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=6,tools_agents=20,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 20,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "guide"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "1e74204dbc68b88a8245702914e00f3818b8480d",
+      "is_english_source": true,
+      "sent_at": "2026-10-19T07:22:47.538534+00:00"
+    },
+    {
+      "id": "bbb3482c9ca6a84ff5bb5a3c1ac3f2e550f3e608",
+      "title_hash": "86bb0841cece0093b4200ca08c4e7663babc0fbd",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "William Gibson and the trademarking of cyberspace",
+      "link": "https://colo.to/cyberspace.html",
+      "published_at": "2026-10-18T23:37:57+00:00",
+      "summary": "HN story type: story HN points: 153 HN comments: 47 HN top comments: jMyles: Whatever else is real or myth with regard to these trolly pranking trademark spats, I think it's pretty reasonable to say that the term \"cyberspace\" emerged amidst - or at least adjacent to - a lot of LSD and Grateful Dead tapes. https://w2.eff.org/Misc/Publications/John_Perry_Barlow/HTML/... Animats: I saw that Autodesk VR setup. They had ping-pong working. There was serious thought about how to do CAD work in VR. But it was like trying to do mechanical drawing while wearing oven mitts. Precision work with hands in open air is just not human-compatible. But a lot of people at the time did think it was the future. koolala: I'm glad it failed to trademark. Autodesk is one of the worst corpo's around when it comes to being corpo. How un self-aware for them to make that 'street' joke. They were like a 100+ million company back then.",
+      "fetched_at": "2026-10-19T07:20:22.373006+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50146625",
+      "hn_story_type": "story",
+      "hn_points": "153",
+      "hn_comments_count": "47",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50146625",
+      "hn_item_text": "",
+      "hn_comment_preview": "jMyles: Whatever else is real or myth with regard to these trolly pranking trademark spats, I think it's pretty reasonable to say that the term \"cyberspace\" emerged amidst - or at least adjacent to - a lot of LSD and Grateful Dead tapes. https://w2.eff.org/Misc/Publications/John_Perry_Barlow/HTML/...\nAnimats: I saw that Autodesk VR setup. They had ping-pong working. There was serious thought about how to do CAD work in VR. But it was like trying to do mechanical drawing while wearing oven mitts. Precision work with hands in open air is just not human-compatible. But a lot of people at the time did think it was the future.\nkoolala: I'm glad it failed to trademark. Autodesk is one of the worst corpo's around when it comes to being corpo. How un self-aware for them to make that 'street' joke. They were like a 100+ million company back then.",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "34",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=10,practical_tech=6,tools_agents=4,strategy_insight=10,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 4,
+        "strategy_insight": 10,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "setup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "future",
+        "future + work"
+      ],
+      "detail_slug": "bbb3482c9ca6a84ff5bb5a3c1ac3f2e550f3e608",
+      "is_english_source": true,
+      "sent_at": "2026-10-19T07:22:47.538534+00:00"
+    },
+    {
       "id": "3569a263667fd9ec6ec7856b0d65cef8ae9bdc18",
       "title_hash": "a49ed03268225877eac358beadabf9bcc6708072",
       "source": "GeekNews",
@@ -169272,643 +169861,6 @@
       "hn_reaction_summary": "HN 분위기는 흥미롭지만 경계심이 더 강한 쪽에 가까웠다. 편의성은 인정하면서도 브라우저가 AI 실행 지점이 되는 순간 생길 보안 문제와 웹 생태계 잠식을 걱정하는 반응이 반복됐다.\n- 가장 많이 나온 우려는 보안이다. 힘들게 단단하게 만든 브라우저 샌드박스 안에 새 공격면을 들이는 것 아니냐는 식의 비판이 눈에 띄었다.\n- 한편으로는 실용적이라는 반응도 있었다. 자주 쓰는 지시문을 매번 붙여 넣지 말고 기본 동작이나 프리셋으로 저장하고 싶다는 요구가 나왔다.\n- 또 다른 큰 축은 웹 생태계 논쟁이다. 브라우저와 검색 플랫폼이 사용자 접점을 더 가져가면, 퍼블리셔가 자기 사이트에서 직접 관계를 만들고 수익을 내기 더 어려워진다는 불만이 이어졌다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-15T07:22:43.536258+00:00"
-    },
-    {
-      "id": "7db9f9d02ff02580b392f81ca054dbbbd18fc014",
-      "title_hash": "ea176dbfeb918b60dff55cebf8657d47203a9860",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "My adventure in designing API keys",
-      "link": "https://vjay15.github.io/blog/apikeys/",
-      "published_at": "2026-04-12T13:17:45+00:00",
-      "summary": "HN story type: story HN points: 23 HN comments: 3 HN top comments: dhruv3006: Hey - this was a great blog ! I liked how you used the birthday paradox here. PS : I too am working on a APIs.Take a look here : https://voiden.md/ calrain: I don't like giving away any information what-so-ever in an API key, and would lean towards a UUIDv7 string, just trying to avoid collisions. Even the random hex with checksum component seems overkill to me, either the API key is correct or it isn't. vjay15: Hello everyone this is my third blog, I am still a junior learning stuff ^_^",
-      "fetched_at": "2026-04-15T07:18:51.879121+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47739278",
-      "hn_story_type": "story",
-      "hn_points": "23",
-      "hn_comments_count": "3",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47739278",
-      "hn_item_text": "",
-      "hn_comment_preview": "dhruv3006: Hey - this was a great blog ! I liked how you used the birthday paradox here. PS : I too am working on a APIs.Take a look here : https://voiden.md/\ncalrain: I don't like giving away any information what-so-ever in an API key, and would lean towards a UUIDv7 string, just trying to avoid collisions. Even the random hex with checksum component seems overkill to me, either the API key is correct or it isn't.\nvjay15: Hello everyone this is my third blog, I am still a junior learning stuff ^_^",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=7,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 7,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "uuid",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "venture"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "uuid",
-        "api"
-      ],
-      "detail_slug": "7db9f9d02ff02580b392f81ca054dbbbd18fc014",
-      "is_english_source": true,
-      "translated_title": "API 키를 설계하며 겪은 시행착오",
-      "short_summary": "API 키를 어떤 형식으로 만들고 어떻게 검증할지 고민한 과정을 풀어낸 글이다. 충돌 가능성을 생일 역설로 설명하고, 키에 정보를 넣을지 체크섬을 둘지 같은 선택지를 짚는다.",
-      "why_it_matters": "API 키는 발급만 되면 끝나는 문자열이 아니다. 형식 하나를 어떻게 잡느냐에 따라 보안 운영, 장애 대응, 개발자 경험까지 함께 달라진다는 점을 다시 보여준다.\n- 충돌 확률을 감으로 넘기지 않고 계산으로 따져야 키 길이와 생성 전략을 설계할 수 있다.\n- 체크섬이나 접두사, 식별 정보 포함 여부는 오타를 빨리 잡고 운영을 돕지만, 그만큼 키에서 드러나는 정보도 늘어난다.\n- 한 번 정한 키 포맷은 로그, 대시보드, 지원 도구, 키 교체 흐름에 이어져 초기에 기준을 잘 잡아두는 편이 낫다.",
-      "hn_reaction_summary": "댓글 반응은 많지 않았지만 분위기는 대체로 호의적이었다. 다만 API 키를 얼마나 단순하게 가져가야 하느냐를 두고 실무 감각 차이가 또렷하게 드러났다.\n- 한 독자는 생일 역설을 끌어와 충돌 가능성을 설명한 대목이 이해에 도움이 됐다고 봤다.\n- 반대쪽에서는 키에 어떤 정보도 싣지 말고 UUIDv7 같은 단순한 무작위 문자열로 가자는 의견이 나왔다.\n- 체크섬까지 넣는 설계는 과하다는 시각도 있었고, 결국 운영 편의와 노출 최소화 사이에서 어디에 선을 그을지가 쟁점으로 읽혔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-15T07:22:43.536258+00:00"
-    },
-    {
-      "id": "f59a594de1c2fc0a6e547a5724fdc3567ff4ec68",
-      "title_hash": "7fb4c5065c4736107400a8c0a3c529dba601cdb3",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Peter Steinberger – WhatsApp CLI: sync, search, send",
-      "link": "https://github.com/steipete/wacli",
-      "published_at": "2026-04-15T07:04:45+00:00",
-      "summary": "HN story type: story HN points: 5 HN comments: 0",
-      "fetched_at": "2026-04-15T07:18:51.879121+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47775628",
-      "hn_story_type": "story",
-      "hn_points": "5",
-      "hn_comments_count": "0",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47775628",
-      "hn_item_text": "",
-      "hn_comment_preview": "",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "34",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=10,practical_tech=7,tools_agents=10,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 10,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cli",
-        "github.com"
-      ],
-      "detail_slug": "f59a594de1c2fc0a6e547a5724fdc3567ff4ec68",
-      "is_english_source": true,
-      "translated_title": "터미널에서 쓰는 왓츠앱 CLI, 동기화·검색·전송",
-      "short_summary": "Peter Steinberger가 공개한 wacli는 WhatsApp Web 기반의 오픈소스 CLI다. 메시지 동기화와 오프라인 검색, 텍스트·파일 전송, 연락처·그룹 관리를 터미널에서 처리할 수 있다.",
-      "why_it_matters": "개인용 WhatsApp을 코드와 터미널 워크플로에 연결하는 일은 늘 애매했다. wacli는 그 작업을 로컬 중심 도구로 끌어와 자동화 가능성을 넓힌다.\n- 비즈니스 API를 거치지 않고도 메시지 검색, 전송, 그룹 관리 같은 작업을 CLI에서 바로 다룰 수 있다.\n- 메시지를 로컬에 동기화해 두면 오프라인 검색이 가능해 에이전트, 알림 봇, 운영 스크립트에 붙이기 쉬워진다.\n- 다만 비공식 WhatsApp Web 방식이라 정책 변화와 계정 안정성 리스크를 함께 봐야 한다. 과거 대화 백필도 휴대폰이 온라인이어야 하고 결과가 완전히 보장되진 않는다.",
-      "hn_reaction_summary": "현재 HN 반응은 아주 이른 단계다. 포인트 5점, 댓글 0개라 분위기나 찬반이 형성됐다고 보긴 어렵다.\n- 댓글이 아직 없어 사용성, 안정성, 계정 제재 위험을 둘러싼 집단적 평가도 나오지 않았다.\n- 실무자가 지금 볼 포인트는 개인용 WhatsApp 자동화를 CLI로 감당할 수 있느냐는 현실성이다.\n- 반복된 찬반 포인트는 아직 없지만, 이후 토론이 붙으면 비공식 프로토콜 의존과 운영 안정성이 핵심 논점이 될 가능성이 크다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-15T07:22:43.536258+00:00"
-    },
-    {
-      "id": "633ed29ab78e1aa44c3764df637a44c690e7ceaa",
-      "title_hash": "565e0b59d98e49c4aa861f66e83fa6adf24a48b7",
-      "source": "GeekNews",
-      "title": "Claude Code Routines 공개",
-      "link": "https://news.hada.io/topic?id=28533",
-      "published_at": "2026-04-15T00:48:55+00:00",
-      "summary": "일정, API 호출, GitHub 이벤트에 따라 자동 실행되는 클라우드 기반 코드 자동화 기능 으로, Anthropic 인프라에서 동작 루틴은 프롬프트, 저장소, 커넥터, 트리거 로 구성되며, 노트북이 꺼져 있어도 실행 지속 트리거는 스케줄, API, GitHub 이벤...",
-      "fetched_at": "2026-04-15T03:10:49.434429+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "67",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=22,practical_tech=9,tools_agents=22,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 22,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [
-            "인프라",
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 22,
-          "strong_hits": [
-            "claude code",
-            "자동화"
-          ],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "자동화",
-        "프롬프트",
-        "claude + code"
-      ],
-      "detail_slug": "633ed29ab78e1aa44c3764df637a44c690e7ceaa",
-      "is_english_source": false,
-      "sent_at": "2026-04-15T03:13:28.040323+00:00"
-    },
-    {
-      "id": "a99791c1fbee59b712fa40c728c19e02e66b1c8d",
-      "title_hash": "862333fda443bd5123b783deb4c21f6081af4d95",
-      "source": "GeekNews",
-      "title": "Backblaze가 OneDrive와 Dropbox 폴더 백업을 중단함",
-      "link": "https://news.hada.io/topic?id=28529",
-      "published_at": "2026-04-15T00:40:36+00:00",
-      "summary": "약 10년간 신뢰받던 Backblaze 개인 백업 서비스 가 최근 주요 폴더를 더 이상 백업하지 않는 것으로 확인됨 .git , Dropbox , OneDrive 폴더가 백업 대상에서 제외되었으며, 설정에서도 이를 다시 포함시킬 방법이 없음 Back...",
-      "fetched_at": "2026-04-15T03:10:49.434429+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "신뢰"
-      ],
-      "detail_slug": "a99791c1fbee59b712fa40c728c19e02e66b1c8d",
-      "is_english_source": false,
-      "sent_at": "2026-04-15T03:13:28.040323+00:00"
-    },
-    {
-      "id": "f79b770167458aa35dcc1fc19f3e8e2f06830440",
-      "title_hash": "f97fdb0526dfa003336a3013be9dfb1498cda079",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Fuck the cloud (2009)",
-      "link": "https://ascii.textfiles.com/archives/1717",
-      "published_at": "2026-04-14T22:00:11+00:00",
-      "summary": "HN story type: story HN points: 119 HN comments: 71 HN top comments: h4kunamata: Up to early 2000s, people would go to the internet to have fun, everything was new, it was the mass migration from analog to digital era. 2020s, people are going offline to have fun. Homelab is becoming a thing even for people who never had experience with computer, people hosting their own documents, movies, music, backups in case things go bad. Even some companies have realised the price of going cloud, some are... purplehat_: I'm surprised people are advocating self-hosting as a viable solution. It takes a lot of knowledge to do sync and backup yourself, most of it implicit knowledge that people here don't realize we have and so for us it seems very easy. There was a comment in another post on the front page about how anyone \"remotely technical\" can set up a docker container, and I think this is a good example because the mechanics of... anon7000: The irony of this is hilarious > Resource Limit Is Reached > The website is temporarily unable to service your request as it exceeded resource limit. Please try again later.",
-      "fetched_at": "2026-04-15T03:10:49.434429+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47772048",
-      "hn_story_type": "story",
-      "hn_points": "119",
-      "hn_comments_count": "71",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47772048",
-      "hn_item_text": "",
-      "hn_comment_preview": "h4kunamata: Up to early 2000s, people would go to the internet to have fun, everything was new, it was the mass migration from analog to digital era. 2020s, people are going offline to have fun. Homelab is becoming a thing even for people who never had experience with computer, people hosting their own documents, movies, music, backups in case things go bad. Even some companies have realised the price of going cloud, some are...\npurplehat_: I'm surprised people are advocating self-hosting as a viable solution. It takes a lot of knowledge to do sync and backup yourself, most of it implicit knowledge that people here don't realize we have and so for us it seems very easy. There was a comment in another post on the front page about how anyone \"remotely technical\" can set up a docker container, and I think this is a good example because the mechanics of...\nanon7000: The irony of this is hilarious > Resource Limit Is Reached > The website is temporarily unable to service your request as it exceeded resource limit. Please try again later.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=25,practical_tech=25,tools_agents=2,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 25,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 25,
-          "strong_hits": [
-            "container",
-            "migration",
-            "docker"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "docker + container"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "docker"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "container",
-        "migration",
-        "docker",
-        "docker + container"
-      ],
-      "detail_slug": "f79b770167458aa35dcc1fc19f3e8e2f06830440",
-      "is_english_source": true,
-      "translated_title": "클라우드에 전부 맡기지 말자 (2009)",
-      "short_summary": "2009년 글이지만 HN에서는 지금 다시 읽을 만한 문제제기로 받아들여졌다. 클라우드 비용과 통제권 문제에 공감하는 반응과, 셀프호스팅은 운영 난도가 높다는 반론이 함께 나왔다.",
-      "why_it_matters": "이 글이 다시 소환된 이유는 클라우드를 쓰느냐 마느냐보다, 어디까지 외부 서비스에 맡길지 다시 따져보게 만들기 때문이다.\n- 인프라 비용이 커지고 장애나 정책 변경의 영향이 커지면서, 백업·문서·미디어처럼 일부 워크로드를 직접 관리하려는 흐름이 다시 보인다.\n- 실무에서는 전면 이전보다 선택과 분리가 더 현실적이다. 핵심 데이터 보관, 백업 복구, 고정 비용이 큰 서비스부터 재배치 검토가 필요하다는 뜻이다.\n- 동시에 직접 운영은 공짜가 아니다. 보안, 동기화, 장애 대응까지 감당할 팀 역량이 있는지 먼저 계산해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 크게 공감과 경계로 갈렸다. 클라우드 피로감에는 대체로 동의했지만, 셀프호스팅을 누구나 할 수 있는 해법으로 보는 데에는 선을 긋는 반응이 많았다.\n- 찬성 쪽은 클라우드 비용 상승과 통제권 상실을 이유로 들며, 홈랩과 자가 호스팅이 다시 현실적인 선택지가 되고 있다고 봤다.\n- 반대 쪽은 백업, 동기화, 운영 자동화에는 말로 드러나지 않는 숙련이 필요하다고 지적했다. 기술자에게 쉬운 일이 일반 사용자에게도 쉽다고 볼 수 없다는 얘기다.\n- 원문 사이트가 리소스 한도 초과 화면을 띄운 점을 두고는, 메시지 자체보다 운영 현실의 아이러니를 보여준다는 반응도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-15T03:13:28.040323+00:00"
-    },
-    {
-      "id": "298a6ee1c07d7c6999d4480f723fc10264ca1699",
-      "title_hash": "e63918ee76fad1d522111baec5722b86575262d5",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "OpenAI's $852B valuation faces investor scrutiny amid strategy shift, FT reports",
-      "link": "https://www.reuters.com/legal/transactional/openai-investors-question-852-billion-valuation-strategy-shifts-ft-reports-2026-04-14/",
-      "published_at": "2026-04-15T01:36:22+00:00",
-      "summary": "HN story type: story HN points: 57 HN comments: 43 HN top comments: gradus_ad: Claude Code is extremely easy to set up and use. I suspect its saturation among software professionals is at the majority of the addressable market. What if there are no other killer apps for Enterprise? Only CC will produce the level of token churn that could drive huge profits for model providers. The Enterprise market is not as substantial as the rapid success of CC makes seem. impulser_: \"You have ChatGPT, a 1 billion-user business growing 50-100% a year, what are you doing talking about enterprise and code?\" The ironic part about this is GPT models are by far the worst models to chat too. I think I rather talk to a wall than GPT-5.4. It so unpleasant. I feel bad for anyone who only experience with AI is ChatGPT. matchagaucho: As someone working in the enterprise space with OAI, this still feels like we're in the top of the first inning. Many teams remain anchored on equating AI with chat experiences, while a growing share of enterprise value is emerging from leasing compute clusters to run agentic workloads in containerized environments. OpenAI has built a cloud-first architecture that supports this model. The desktop experience and ap...",
-      "fetched_at": "2026-04-15T03:10:49.434429+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47773640",
-      "hn_story_type": "story",
-      "hn_points": "57",
-      "hn_comments_count": "43",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47773640",
-      "hn_item_text": "",
-      "hn_comment_preview": "gradus_ad: Claude Code is extremely easy to set up and use. I suspect its saturation among software professionals is at the majority of the addressable market. What if there are no other killer apps for Enterprise? Only CC will produce the level of token churn that could drive huge profits for model providers. The Enterprise market is not as substantial as the rapid success of CC makes seem.\nimpulser_: \"You have ChatGPT, a 1 billion-user business growing 50-100% a year, what are you doing talking about enterprise and code?\" The ironic part about this is GPT models are by far the worst models to chat too. I think I rather talk to a wall than GPT-5.4. It so unpleasant. I feel bad for anyone who only experience with AI is ChatGPT.\nmatchagaucho: As someone working in the enterprise space with OAI, this still feels like we're in the top of the first inning. Many teams remain anchored on equating AI with chat experiences, while a growing share of enterprise value is emerging from leasing compute clusters to run agentic workloads in containerized environments. OpenAI has built a cloud-first architecture that supports this model. The desktop experience and ap...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "45",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=21,practical_tech=15,tools_agents=21,strategy_insight=2,industry_business=20",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 21,
-        "strategy_insight": 2,
-        "industry_business": 20
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "architecture",
-            "container",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "valuation"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 21,
-          "strong_hits": [
-            "claude code",
-            "agentic",
-            "ide"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 20,
-          "strong_hits": [
-            "enterprise",
-            "valuation"
-          ],
-          "support_hits": [
-            "business",
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "market + share"
-          ],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "agentic",
-        "ide",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "298a6ee1c07d7c6999d4480f723fc10264ca1699",
-      "is_english_source": true,
-      "translated_title": "전략 전환 속 오픈AI 8,520억달러 가치 시험대",
-      "short_summary": "파이낸셜타임스는 오픈AI가 전략 전환 국면에서 8,520억달러 기업가치에 대한 투자자 검증을 받고 있다고 전했다. HN에서는 소비자용 챗봇 성장과 기업용·코딩 수요 중 무엇이 장기 수익을 만들지 논쟁이 이어졌다.",
-      "why_it_matters": "이번 이야기는 AI 기업의 몸값이 이제 모델 성능만이 아니라, 실제로 어떤 수익 구조를 키울 수 있느냐로 평가받기 시작했다는 신호다.\n- 실무 현장에서는 단순 챗봇 도입보다 코딩 보조, 에이전트 실행, 전용 연산 자원 계약처럼 돈이 지속적으로 붙는 사용처가 더 엄격하게 검증될 가능성이 크다.\n- 공급사 입장에서는 사용자 수보다 토큰 사용량과 반복 과금이 나오는 업무 흐름을 어떻게 만들지 설명해야 하는 압박이 커진다.\n- 도입 기업도 AI를 붙였다는 수준을 넘어서, 어떤 업무가 비용 대비 성과를 내는지 숫자로 증명해야 하는 단계로 넘어가고 있다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 뚜렷하게 갈렸다. 한쪽은 기대를 낮춰 봤고, 다른 쪽은 아직 초반전이라고 봤다.\n- 회의론 쪽에서는 기업용 시장과 코딩 보조 수요가 생각보다 좁을 수 있고, 지금의 고평가를 떠받칠 만큼 킬러 앱이 많지 않다는 지적이 반복됐다.\n- 반대로 ChatGPT 자체가 이미 큰 소비자 사업이며, 기업 시장도 이제 막 본격화되는 단계라는 반론도 적지 않았다.\n- 제품 경험을 두고는 GPT 계열 대화 품질에 대한 불만이 보였고, 앞으로는 채팅 UI보다 에이전트 워크로드와 인프라 제공이 더 큰 가치가 될 수 있다는 의견도 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-15T03:13:28.040323+00:00"
-    },
-    {
-      "id": "fe0a2365eafcf57d6ebfa4565bdabad84656cd36",
-      "title_hash": "9159c40b430d0386e21087a8cc5500e184633675",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Trusted access for the next era of cyber defense",
-      "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
-      "published_at": "2026-04-14T20:07:20+00:00",
-      "summary": "HN story type: story HN points: 65 HN comments: 45 HN top comments: alopha: That's a lot of waffle to try and say 'we've got a really scary next model coming too real soon, promise!' Avicebron: I don't think they've added enough cyber. My cyber workflow demands more trusted access for cyber so that I can use these cyber-permissive models for my cybersecurity. ofjcihen: I love that in the era of having LLMs summarize everything all of these companies have opted for what I call the “YouTube streamer apology video” tone and length for these announcements. These feels more or less like a way to get in the news after Anthropic's Mythos announcement by removing some guardrails. I’m still signing up though.",
-      "fetched_at": "2026-04-15T03:10:49.434429+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47770770",
-      "hn_story_type": "story",
-      "hn_points": "65",
-      "hn_comments_count": "45",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47770770",
-      "hn_item_text": "",
-      "hn_comment_preview": "alopha: That's a lot of waffle to try and say 'we've got a really scary next model coming too real soon, promise!'\nAvicebron: I don't think they've added enough cyber. My cyber workflow demands more trusted access for cyber so that I can use these cyber-permissive models for my cybersecurity.\nofjcihen: I love that in the era of having LLMs summarize everything all of these companies have opted for what I call the “YouTube streamer apology video” tone and length for these announcements. These feels more or less like a way to get in the news after Anthropic's Mythos announcement by removing some guardrails. I’m still signing up though.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=19,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 19,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "security",
-            "index",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 19,
-          "strong_hits": [
-            "workflow",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "workflow"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "index",
-        "rust"
-      ],
-      "detail_slug": "fe0a2365eafcf57d6ebfa4565bdabad84656cd36",
-      "is_english_source": true,
-      "translated_title": "차세대 사이버 방어를 위한 신뢰 기반 접근",
-      "short_summary": "차세대 사이버 방어 환경에 맞춰 더 넓은 권한과 신뢰 체계를 갖춘 접근 방식을 내세운 발표다. HN에선 실질 변화보다 마케팅 문구와 향후 모델 예고에 가깝다는 반응이 많았다.",
-      "why_it_matters": "보안 현장에서는 AI의 권한 범위와 안전장치 수준이 업무 효율과 운영 리스크를 함께 바꾼다. 이번 스토리는 보안용 AI가 더 많은 일을 하게 될 때 무엇을 같이 점검해야 하는지 떠올리게 한다.\n- 위협 분석, 취약점 탐지, 공격 시뮬레이션 같은 업무에서 모델 권한이 넓어질수록 승인 절차와 감사 로그 설계가 더 중요해진다.\n- 벤더 발표만 보고 도입하기보다 어떤 가드레일이 유지됐고 무엇이 완화됐는지부터 확인해야 한다.\n- 경쟁사 발표 이후 비슷한 기능 공개가 이어질 수 있어, 보안 조직은 평가 기준과 내부 사용 원칙을 미리 정리해 둘 필요가 있다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 냉소적이다. 발표 내용 자체보다 장황한 문체와 업계 경쟁용 메시지처럼 보인다는 지적이 많았고, 그래도 한편에선 직접 써보겠다는 관심도 보였다.\n- 핵심 없이 말을 길게 돌려서 \"곧 더 강한 모델이 나온다\"는 신호만 준 것 아니냐는 반응이 반복됐다.\n- 'cyber' 같은 표현을 과하게 덧붙인 마케팅 톤을 비꼬는 댓글이 눈에 띄었다.\n- Anthropic의 Mythos 발표 뒤 관심을 끌기 위해 가드레일을 일부 푼 것처럼 보인다는 해석이 있었지만, 실제 사용성은 확인해 보겠다는 의견도 있었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-15T03:13:28.040323+00:00"
     }
   ],
   "topic_digests": {
