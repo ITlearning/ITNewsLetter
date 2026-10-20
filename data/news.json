@@ -1,6 +1,580 @@
 {
   "items": [
     {
+      "id": "f115778732db1705e5f9b8acb7062fd21123eab7",
+      "title_hash": "a4f6a7d9f26180d7b394061119975ae447af4c59",
+      "source": "GeekNews",
+      "title": "Show GN: Review Inbox - 리뷰 기다리는 PR을 Claude Code 입력창 위에 띄워 주는 mod",
+      "link": "https://news.hada.io/topic?id=35676",
+      "published_at": "2026-10-20T01:28:32+00:00",
+      "summary": "2주전부터 제 Claude Code 입력창 위에는 노란 줄이 하나 떠 있습니다. 동료의 PR이 사흘째 제 리뷰를 기다리고 있다는 뜻입니다. Claude Code를 쓰고부터 하루 대부분을 터미널에서 보내다 보니, PR을 올리는 속도는 빨라졌는데 리뷰 요청은 오히려 놓치게 되었습니다. GitHub 알림 탭을 열 일이 없어졌거든요",
+      "fetched_at": "2026-10-20T04:04:29.505817+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=9,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 9,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "f115778732db1705e5f9b8acb7062fd21123eab7",
+      "is_english_source": false,
+      "sent_at": "2026-10-20T04:06:51.872468+00:00"
+    },
+    {
+      "id": "9435498f14e0062417e368f9dfab3e1e62dcc5de",
+      "title_hash": "ff175985a5ae0663272b79db50028a6d921c8109",
+      "source": "GeekNews",
+      "title": "Ask GN: 회사에서 계속해서 늘어나는 에이전트, 어떻게 관리하나요?",
+      "link": "https://news.hada.io/topic?id=35673",
+      "published_at": "2026-10-20T00:49:14+00:00",
+      "summary": "데브옵스로 일하고 있는데, 여러 팀들이 클로드나 코덱스로 팀 에이전트를 만들고 배포하고 슬랙으로 연동하고 있습니다. 자동화하는 것은 문제가 아닌데, 운영 팀 입장에선 중복과 보안이 문제가 되는 것 같습니다. 대부분의 에이전트가 코딩, Q&A이다 보니 기능적으로 겹치는 부분이 많습니다. 또",
+      "fetched_at": "2026-10-20T04:04:29.505817+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=0,tools_agents=14,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 14,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "에이전트",
+            "자동화"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "자동화"
+      ],
+      "detail_slug": "9435498f14e0062417e368f9dfab3e1e62dcc5de",
+      "is_english_source": false,
+      "sent_at": "2026-10-20T04:06:51.872468+00:00"
+    },
+    {
+      "id": "e9626ef80d3adde68aee9d39d6620bd351b07c03",
+      "title_hash": "7eed66ef764c511fb6bca63f10871473c28919f0",
+      "source": "GeekNews",
+      "title": "MiniMax M3.1 Flash - 에이전트 성능을 높이고 사용 비용을 70% 낮춘 모델",
+      "link": "https://news.hada.io/topic?id=35657",
+      "published_at": "2026-10-19T19:33:43+00:00",
+      "summary": "MiniMax가 업무 자동화와 코딩, 컴퓨터 사용, 사이버보안 역량을 강화한 M3.1 Flash 출시. 익명으로 200조 토큰 이상을 처리한 Space Bunny 가 이 모델의 초기 버전 MiniMax 기준 전작보다 온라인 추론 속도는 약 3배, 에이전트 작업의 전체 사용 비용은 70...",
+      "fetched_at": "2026-10-20T04:04:29.505817+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=2,tools_agents=14,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 14,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "에이전트",
+            "자동화"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "자동화"
+      ],
+      "detail_slug": "e9626ef80d3adde68aee9d39d6620bd351b07c03",
+      "is_english_source": false,
+      "sent_at": "2026-10-20T04:06:51.872468+00:00"
+    },
+    {
+      "id": "7064edddca18631f598bf6629d301b0284b6af41",
+      "title_hash": "042fe1215198c894d1a20d7f648e2ce6914aadda",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
+      "link": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
+      "published_at": "2026-10-19T16:16:46+00:00",
+      "summary": "HN story type: story HN points: 63 HN comments: 64 HN post text: https://public-inspection.federalregister.gov/2026-21447.pdf HN top comments: neuronexmachina: When it says civilian agencies are ordered to purge all \"third-party products and services developed using DeepSeek implementations\", what does that actually mean? Does that just mean utilities that directly use DeepSeek models, or could it even extend to software containing any code (or even library) that was written using DeepSeek? Considering DeepSeek Flash is probably the most popular open-weight model right n... kidfiji: Please excuse my lack of full context, but if the weights are open and the model can be self hosted, what’s the actual security risk for that case? Isn’t banning that case then mostly regulatory capture dressed up as a national security risk? throw0101c: > The order's summary of risks says DeepSeek's servers are in China and that Chinese law \"permits extensive authority to government cyber and intelligence functions to access private company infrastructure\". So the Chinese version of the American CLOUD Act?",
+      "fetched_at": "2026-10-20T04:04:29.505817+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50154244",
+      "hn_story_type": "story",
+      "hn_points": "63",
+      "hn_comments_count": "64",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50154244",
+      "hn_item_text": "https://public-inspection.federalregister.gov/2026-21447.pdf",
+      "hn_comment_preview": "neuronexmachina: When it says civilian agencies are ordered to purge all \"third-party products and services developed using DeepSeek implementations\", what does that actually mean? Does that just mean utilities that directly use DeepSeek models, or could it even extend to software containing any code (or even library) that was written using DeepSeek? Considering DeepSeek Flash is probably the most popular open-weight model right n...\nkidfiji: Please excuse my lack of full context, but if the weights are open and the model can be self hosted, what’s the actual security risk for that case? Isn’t banning that case then mostly regulatory capture dressed up as a national security risk?\nthrow0101c: > The order's summary of risks says DeepSeek's servers are in China and that Chinese law \"permits extensive authority to government cyber and intelligence functions to access private company infrastructure\". So the Chinese version of the American CLOUD Act?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [
+            "implementation",
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "implementation",
+        "library",
+        "code + security"
+      ],
+      "detail_slug": "7064edddca18631f598bf6629d301b0284b6af41",
+      "is_english_source": true,
+      "sent_at": "2026-10-20T04:06:51.872468+00:00"
+    },
+    {
+      "id": "82492445208b97eeabf5ea465c972fb98c7a2d3a",
+      "title_hash": "759a472697b428956e19ddb9c76741b178284ffa",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "link": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "published_at": "2026-10-19T23:22:18+00:00",
+      "summary": "HN story type: story HN points: 99 HN comments: 13 HN top comments: gruez: >that they showed up in the pages because of a bug that has now been fixed. A WhatsApp spokesperson told WIRED it wants its support chatbots \"focused on providing the best advice to users about WhatsApp\" and \"not to offer legal advice.\" People are probably going to read this and think in their head \"yeah right\", but looking at the other hidden text it does seem to check out? Later in the page there's also hidden t... matt3210: Sure, a bug. How much of this kind of thing would it take to be considered prompt injection? > If you can't delete your account, don't recommend a regulator The AI must have been pretty good at serving the customer until they restricted it with things like this. otterley: As an attorney and hacker, I wouldn’t want my chatbot giving out legal advice or citing law either. That kind of activity tends to raise the hackles of regulators.",
+      "fetched_at": "2026-10-20T04:04:29.505817+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50159341",
+      "hn_story_type": "story",
+      "hn_points": "99",
+      "hn_comments_count": "13",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50159341",
+      "hn_item_text": "",
+      "hn_comment_preview": "gruez: >that they showed up in the pages because of a bug that has now been fixed. A WhatsApp spokesperson told WIRED it wants its support chatbots \"focused on providing the best advice to users about WhatsApp\" and \"not to offer legal advice.\" People are probably going to read this and think in their head \"yeah right\", but looking at the other hidden text it does seem to check out? Later in the page there's also hidden t...\nmatt3210: Sure, a bug. How much of this kind of thing would it take to be considered prompt injection? > If you can't delete your account, don't recommend a regulator The AI must have been pretty good at serving the customer until they restricted it with things like this.\notterley: As an attorney and hacker, I wouldn’t want my chatbot giving out legal advice or citing law either. That kind of activity tends to raise the hackles of regulators.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=4,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "prompt"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm",
+        "prompt"
+      ],
+      "detail_slug": "82492445208b97eeabf5ea465c972fb98c7a2d3a",
+      "is_english_source": true,
+      "sent_at": "2026-10-20T04:06:51.872468+00:00"
+    },
+    {
+      "id": "c3f43aa19124010d6797aebc072ad29da9206aaf",
+      "title_hash": "05e3c65c85613a7b8c4b428d274edde589d239ce",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Go will reject certificate chains containing eight distrusted SPKIs",
+      "link": "https://github.com/golang/go/issues/82345",
+      "published_at": "2026-10-20T03:05:07+00:00",
+      "summary": "HN story type: story HN points: 12 HN comments: 3 HN top comments: wnoise: It is a shame that you cannot have a cert signed by multiple CAs. (The format seems like it would allow it, but nothing supports it, and in practice CAs demand the ability to actually modify some fields, and then sign that.) ericbarrett: A bit more info (and some discussion linked from these Bugzilla reports): https://bugzilla.mozilla.org/show_bug.cgi?id=2083709 https://bugzilla.mozilla.org/show_bug.cgi?id=2018979 mendym: This seems to be the list of certs https://gist.github.com/mendymm/ff7a9fd00339260b4d2dbdcb0f48... data from https://www.ccadb.org/resources",
+      "fetched_at": "2026-10-20T04:04:29.505817+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50160877",
+      "hn_story_type": "story",
+      "hn_points": "12",
+      "hn_comments_count": "3",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50160877",
+      "hn_item_text": "",
+      "hn_comment_preview": "wnoise: It is a shame that you cannot have a cert signed by multiple CAs. (The format seems like it would allow it, but nothing supports it, and in practice CAs demand the ability to actually modify some fields, and then sign that.)\nericbarrett: A bit more info (and some discussion linked from these Bugzilla reports): https://bugzilla.mozilla.org/show_bug.cgi?id=2083709 https://bugzilla.mozilla.org/show_bug.cgi?id=2018979\nmendym: This seems to be the list of certs https://gist.github.com/mendymm/ff7a9fd00339260b4d2dbdcb0f48... data from https://www.ccadb.org/resources",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=5,strategy_insight=12,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 5,
+        "strategy_insight": 12,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "golang",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [
+            "noise",
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "golang",
+        "rust",
+        "github.com"
+      ],
+      "detail_slug": "c3f43aa19124010d6797aebc072ad29da9206aaf",
+      "is_english_source": true,
+      "sent_at": "2026-10-20T04:06:51.872468+00:00"
+    },
+    {
+      "id": "e1a03ba96df800887d1916b49c0315a8e4143b1c",
+      "title_hash": "6d182b18699f1b00e412f5c89e099e5b773ff194",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "OpenBSD 8.0: released Oct 20, 2026",
+      "link": "https://marc.info/?l=openbsd-misc&m=179245849770356&w=2",
+      "published_at": "2026-10-20T01:53:51+00:00",
+      "summary": "HN story type: story HN points: 17 HN comments: 1",
+      "fetched_at": "2026-10-20T04:04:29.505817+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50160419",
+      "hn_story_type": "story",
+      "hn_points": "17",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50160419",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "29",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=5,practical_tech=4,tools_agents=2,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "release"
+      ],
+      "detail_slug": "e1a03ba96df800887d1916b49c0315a8e4143b1c",
+      "is_english_source": true,
+      "sent_at": "2026-10-20T04:06:51.872468+00:00"
+    },
+    {
       "id": "36b316853ac2485df652f24fcdf6aa2c400571b7",
       "title_hash": "7167a336576392bcba5961a8619a10bf1810f3c2",
       "source": "GeekNews",
@@ -169156,614 +169730,6 @@
       "hn_reaction_summary": "댓글 분위기는 기술적으로 흥미롭지만 설계 면에서 불안하다는 쪽에 가깝다. 특히 기본 보안 기능의 과한 권한과 공개 방식이 반복해서 거론됐다.\n- Windows Defender가 시스템 파일을 읽는 수준을 넘어 복구나 쓰기까지 할 수 있는 구조가 맞느냐는 의문이 가장 많이 나왔다.\n- 작성자가 PoC를 충분히 설명했다기보다 사실상 코드만 던진 것 아니냐는 지적도 있었다.\n- 한편으로는 로컬 권한 상승 취약점은 다른 운영체제에서도 자주 나오는 유형이라며, 윈도만의 문제로만 볼 일은 아니라는 반응도 보였다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-16T08:22:07.329659+00:00"
-    },
-    {
-      "id": "ee82b10812765543e526d742136a691edc1e35ba",
-      "title_hash": "7d35656398eac14879ba0fd2e47c625cc5e47bad",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The Accursèd Alphabetical Clock",
-      "link": "https://boat.horse/clock/index.html",
-      "published_at": "2026-04-15T02:39:05+00:00",
-      "summary": "HN story type: story HN points: 6 HN comments: 1 HN top comments: gnabgib: As a Show HN (40 points, 15 days ago, 27 comments) https://news.ycombinator.com/item?id=47571401",
-      "fetched_at": "2026-04-16T08:18:42.900907+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47774039",
-      "hn_story_type": "story",
-      "hn_points": "6",
-      "hn_comments_count": "1",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47774039",
-      "hn_item_text": "",
-      "hn_comment_preview": "gnabgib: As a Show HN (40 points, 15 days ago, 27 comments) https://news.ycombinator.com/item?id=47571401",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "show hn",
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "show hn",
-        "index"
-      ],
-      "detail_slug": "ee82b10812765543e526d742136a691edc1e35ba",
-      "is_english_source": true,
-      "translated_title": "저주받은 알파벳 시계",
-      "short_summary": "'The Accursèd Alphabetical Clock'는 제목상 알파벳과 시간 표기를 결합한 실험적 시계 프로젝트다. 현재 HN 반응은 작지만, 댓글은 앞선 Show HN 토론으로 이어지며 작품 자체에 다시 시선을 모은다.",
-      "why_it_matters": "이 항목은 시간을 읽는 익숙한 방식을 일부러 비튼 인터페이스 실험으로 읽힌다. 메이커 프로젝트나 정보 표현을 다루는 실무자라면 재미와 가독성 사이의 선을 점검해볼 만하다.\n- 익숙한 시간 표기를 비틀면 첫인상은 강해진다. 대신 배우는 비용이 커져 실제 사용성 검증이 더 까다로워진다.\n- 프런트엔드나 디바이스 설계에서는 독창적인 표현만큼 한눈에 읽히는 정보 구조가 필요하다는 점을 떠올리게 한다.\n- 이번 HN 반응이 크지 않은 점은, 실험적 프로젝트도 새 업데이트나 맥락이 분명해야 다시 확산되기 쉽다는 현실을 보여준다.",
-      "hn_reaction_summary": "현재 스토리 반응은 6포인트와 댓글 1개로 작다. 다만 유일한 댓글이 15일 전 Show HN 스레드를 다시 가리키면서, 새 논쟁보다는 기존 프로젝트 소개로 관심이 이어지는 분위기다.\n- 이번 스레드는 깊은 토론보다 예전에 올라온 작품을 다시 공유하는 성격이 강하다.\n- 실무적으로는 같은 프로젝트라도 새 정보가 분명하지 않으면 HN에서 토론 동력이 약해질 수 있다는 점이 보인다.\n- 반대로 이전 Show HN에서 더 많은 댓글이 달린 점을 보면, 메이커형 콘텐츠는 데모와 제작 맥락이 함께 있을 때 반응을 얻기 쉽다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-16T08:22:07.329659+00:00"
-    },
-    {
-      "id": "967480d3edacc28ae73f139a887e3ab581cf991c",
-      "title_hash": "6b412f069a42609fa1cfc5f26ba6d79ae2646801",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Stop Using Ollama",
-      "link": "https://sleepingrobots.com/dreams/stop-using-ollama/",
-      "published_at": "2026-04-16T03:35:11+00:00",
-      "summary": "HN story type: story HN points: 352 HN comments: 78 HN top comments: cientifico: For most users that wanted to run LLM locally, ollama solved the UX problem. One command, and you are running the models even with the rocm drivers without knowing. If llama provides such UX, they failed terrible at communicating that. Starting with the name. Llama.cpp: that's a cpp library! Ollama is the wrapper. That's the mental model. I don't want to build my own program! I just want to have fun :-P denismi: Hmm.. pacman -Ss ollama | wc -l 16 pacman -Ss llama.cpp | wc -l 0 pacman -Ss lmstudio | wc -l 0 Maybe some day. 0xbadcafebee: No mention of the fact that Ollama is about 1000x easier to use. Llama.cpp is a great project, but it's also one of the least user friendly pieces of software I've used. I don't think anyone in the project cares about normal users. I started with Ollama, and it was great. But I moved to llama.cpp to have more up-to-date fixes. I still use Ollama to pull and list my models because it's so easy. I then built my own...",
-      "fetched_at": "2026-04-16T08:18:42.900907+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47788385",
-      "hn_story_type": "story",
-      "hn_points": "352",
-      "hn_comments_count": "78",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47788385",
-      "hn_item_text": "",
-      "hn_comment_preview": "cientifico: For most users that wanted to run LLM locally, ollama solved the UX problem. One command, and you are running the models even with the rocm drivers without knowing. If llama provides such UX, they failed terrible at communicating that. Starting with the name. Llama.cpp: that's a cpp library! Ollama is the wrapper. That's the mental model. I don't want to build my own program! I just want to have fun :-P\ndenismi: Hmm.. pacman -Ss ollama | wc -l 16 pacman -Ss llama.cpp | wc -l 0 pacman -Ss lmstudio | wc -l 0 Maybe some day.\n0xbadcafebee: No mention of the fact that Ollama is about 1000x easier to use. Llama.cpp is a great project, but it's also one of the least user friendly pieces of software I've used. I don't think anyone in the project cares about normal users. I started with Ollama, and it was great. But I moved to llama.cpp to have more up-to-date fixes. I still use Ollama to pull and list my models because it's so easy. I then built my own...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=12,tools_agents=14,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 14,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "local"
-      ],
-      "detail_slug": "967480d3edacc28ae73f139a887e3ab581cf991c",
-      "is_english_source": true,
-      "translated_title": "Ollama를 그만 쓰라는 주장, 왜 나왔나",
-      "short_summary": "HN에서는 로컬 LLM을 돌릴 때 Ollama 대신 llama.cpp 같은 직접 제어형 도구로 옮기자는 글이 화제가 됐다. 댓글에서는 최신 기능과 제어권은 인정하면서도, 쉬운 설치와 모델 관리 경험 때문에 Ollama를 쉽게 버리기 어렵다는 반론이 많았다.",
-      "why_it_matters": "로컬 LLM 운영의 기준이 편한 래퍼에 머물지, 더 빠르게 바뀌는 실행 엔진 쪽으로 옮겨갈지 가늠하게 하는 논쟁이다.\n- 최신 모델 지원, 성능 패치, 세밀한 옵션 조정이 더 필요해지면 Ollama의 추상화가 오히려 답답하게 느껴질 수 있다.\n- 반대로 사내 배포나 온보딩이 우선이면 한 줄 설치와 쉬운 모델 관리가 주는 이점이 여전히 크다.\n- 실무에서는 편의성과 제어권 중 어디가 병목인지 먼저 보고, 필요하면 Ollama와 llama.cpp를 함께 쓰는 방식도 검토할 만하다.",
-      "hn_reaction_summary": "댓글 분위기는 문제 제기에는 공감하지만, 일반 사용자 기준으로는 아직 Ollama 쪽 손을 들어주는 편에 가까웠다.\n- 찬성 쪽은 llama.cpp가 더 빨리 개선되고 옵션 통제가 쉬워 고급 사용자는 결국 아래 레이어로 내려가게 된다고 봤다.\n- 반대 쪽은 Ollama가 설치, 드라이버 대응, 모델 다운로드와 목록 관리까지 한 번에 풀어 줘 진입장벽을 크게 낮췄다고 평가했다.\n- 중간 입장도 있었다. 모델 관리는 Ollama로 하고 실행이나 튜닝은 다른 도구로 넘기는 절충이 현실적이라는 의견이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-16T08:22:07.329659+00:00"
-    },
-    {
-      "id": "16fb7927875d562f2e03c59276e3314caaf6f8d1",
-      "title_hash": "9039870a0f7fc2560b3939383ff55fcd8423f637",
-      "source": "GeekNews",
-      "title": "Show GN: Lazyagent - 여러 코딩 에이전트 작업을 한곳에서 추적하는 TUI",
-      "link": "https://news.hada.io/topic?id=28574",
-      "published_at": "2026-04-16T00:50:38+00:00",
-      "summary": "Lazyagent는 Claude Code, Codex, OpenCode 같은 코딩 에이전트의 이벤트를 한곳에 모아 보여주는 터미널 TUI입니다. 코딩 에이전트를 여러 개 동시에 돌리기 시작하면 지금 무엇이 실행 중인지, 방금 어떤 툴을 호출했는지, 하위 에이전트가 부모 에이전트의 지시를 제대로 수행했는지 같은 기본적인 흐름조차",
-      "fetched_at": "2026-04-16T04:10:50.166716+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "74",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=29,practical_tech=0,tools_agents=29,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 29,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 29,
-          "strong_hits": [
-            "claude code",
-            "codex",
-            "에이전트"
-          ],
-          "support_hits": [
-            "agent",
-            "툴"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "에이전트",
-        "agent",
-        "툴",
-        "claude + code"
-      ],
-      "detail_slug": "16fb7927875d562f2e03c59276e3314caaf6f8d1",
-      "is_english_source": false,
-      "sent_at": "2026-04-16T04:13:45.514820+00:00"
-    },
-    {
-      "id": "471224fe06d0861fc68eb5259d7814dabbda375a",
-      "title_hash": "ba02ecaf8a63a250a68910bf3191e9c62a707694",
-      "source": "GeekNews",
-      "title": "판단 없는 AI 는 왜 실패할까?",
-      "link": "https://news.hada.io/topic?id=28575",
-      "published_at": "2026-04-16T01:07:42+00:00",
-      "summary": "판단 없는 AI 는 왜 실패할까?",
-      "fetched_at": "2026-04-16T04:10:50.166716+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "471224fe06d0861fc68eb5259d7814dabbda375a",
-      "is_english_source": false,
-      "sent_at": "2026-04-16T04:13:45.514820+00:00"
-    },
-    {
-      "id": "37974ef3ffaa4c74cd3f947943ec1ba9d2e7d99d",
-      "title_hash": "b4d376e30735b8b918d53c96daccf56799e24d0c",
-      "source": "GeekNews",
-      "title": "데이터베이스가 정말 필요한가",
-      "link": "https://news.hada.io/topic?id=28587",
-      "published_at": "2026-04-16T02:35:34+00:00",
-      "summary": "모든 데이터베이스는 결국 파일 시스템 위의 구조화된 파일 집합 으로, 초기 단계의 애플리케이션은 직접 파일을 관리해도 충분한 성능 확보 가능 동일한 서버를 Go, Bun, Rust로 구현해 파일 스캔·인메모리 맵·디스크 이진 탐색 세 가지 접근 방식을 비교한 결과, ...",
-      "fetched_at": "2026-04-16T04:10:50.166716+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "성능"
-      ],
-      "detail_slug": "37974ef3ffaa4c74cd3f947943ec1ba9d2e7d99d",
-      "is_english_source": false,
-      "sent_at": "2026-04-16T04:13:45.514820+00:00"
-    },
-    {
-      "id": "89691869ad6a9988ec1bb1900224cad33bffc830",
-      "title_hash": "f2e4287c0c83d6f88264249635153ffa09c44e8f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Hiraeth – AWS Emulator",
-      "link": "https://github.com/SethPyle376/hiraeth",
-      "published_at": "2026-04-16T02:28:18+00:00",
-      "summary": "HN story type: story HN points: 8 HN comments: 2 HN post text: With the recent changes around Localstack pricing/licensing I've been hunting for alternatives. I decided that it might be a fun experiment to try rolling my own. SQS is a service I use heavily so I chose that as the first service to implement. I have more services planned and in development. A few things I think are cool: 4MB Docker Image Size Instant Startup AWS Sigv4 Authentication A little admin UI that can be helpful for development/troubleshooting Most of the SQS API implemented, the rest will soon follow :) HN top comments: great_psy: What kind of things would you use this to simulate ? Is this to make sure services are wired up with permission and communicate properly before you deploy or what is the use case ? Also, why not have a dev environment where you can test things on the real thing (ideally with smaller size instances to save $) Carrok: Looks cool! Now add (simulated) billing. ;)",
-      "fetched_at": "2026-04-16T04:10:50.166716+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47787947",
-      "hn_story_type": "story",
-      "hn_points": "8",
-      "hn_comments_count": "2",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47787947",
-      "hn_item_text": "With the recent changes around Localstack pricing/licensing I've been hunting for alternatives. I decided that it might be a fun experiment to try rolling my own. SQS is a service I use heavily so I chose that as the first service to implement. I have more services planned and in development. A few things I think are cool: 4MB Docker Image Size Instant Startup AWS Sigv4 Authentication A little admin UI that can be helpful for development/troubleshooting Most of the SQS API implemented, the rest will soon follow :)",
-      "hn_comment_preview": "great_psy: What kind of things would you use this to simulate ? Is this to make sure services are wired up with permission and communicate properly before you deploy or what is the use case ? Also, why not have a dev environment where you can test things on the real thing (ideally with smaller size instances to save $)\nCarrok: Looks cool! Now add (simulated) billing. ;)",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=12,strategy_insight=4,industry_business=8",
-      "slot_scores": {
-        "practical_tech": 24,
-        "tools_agents": 12,
-        "strategy_insight": 4,
-        "industry_business": 8
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 24,
-          "strong_hits": [
-            "show hn",
-            "docker",
-            "api"
-          ],
-          "support_hits": [
-            "deploy"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 8,
-          "strong_hits": [
-            "startup",
-            "deal"
-          ],
-          "support_hits": [
-            "startup"
-          ],
-          "negative_hits": [
-            "docker"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "show hn",
-        "docker",
-        "api",
-        "deploy",
-        "github.com"
-      ],
-      "detail_slug": "89691869ad6a9988ec1bb1900224cad33bffc830",
-      "is_english_source": true,
-      "translated_title": "Hiraeth, LocalStack 대안을 노린 AWS 에뮬레이터",
-      "short_summary": "LocalStack의 가격·라이선스 변화 이후 대안을 찾던 개발자가 SQS부터 구현한 경량 AWS 에뮬레이터를 공개했다. 4MB 도커 이미지와 즉시 실행, SigV4 인증, 관리 UI를 앞세웠고 다른 서비스도 더할 계획이다.",
-      "why_it_matters": "로컬 AWS 개발 환경을 더 가볍고 단순하게 가져가려는 흐름이 드러난다. 특히 SQS처럼 자주 쓰는 서비스만 빠르게 돌리고 싶은 팀에는 꽤 실용적인 선택지로 보인다.\n- LocalStack 대안을 찾는 수요가 실제로 있다는 점을 다시 보여준다. 가격이나 라이선스 변화가 생기면 개발용 스택도 바로 재검토 대상이 된다.\n- 4MB 이미지와 즉시 실행은 로컬 테스트 속도를 크게 좌우하는 포인트다. CI나 개인 개발 환경에서 무거운 에뮬레이터를 줄이고 싶은 팀에 맞는다.\n- 아직은 SQS 중심이고 API도 전부 구현된 상태는 아니다. 도입 전에는 어떤 시나리오까지 재현되는지, 실제 AWS와 차이가 어디서 나는지 먼저 확인해야 한다.",
-      "hn_reaction_summary": "초기 HN 반응은 조용하지만, 실무 관점의 질문은 분명했다. 흥미롭다는 반응과 함께 \"굳이 에뮬레이션이 필요한가\"라는 검증 질문이 바로 붙었다.\n- 가장 많이 나온 쟁점은 용도다. 배포 전 권한과 서비스 연결을 점검하려는 목적이라면, 차라리 작은 규모의 실제 AWS 개발 환경을 쓰는 편이 낫지 않냐는 질문이 나왔다.\n- 반응 톤은 대체로 우호적이지만 아직 탐색 단계에 가깝다. 기능 소개보다 어떤 테스트를 대신할 수 있는지가 더 궁금하다는 분위기다.\n- \"청구서도 시뮬레이션해 달라\"는 농담은 비용 피로감을 드러낸다. 단순한 웃음거리 같지만, 이런 도구를 찾는 배경에 운영비와 사용료 부담이 있다는 점을 잘 보여준다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-16T04:13:45.514820+00:00"
-    },
-    {
-      "id": "46729c43c84627fddbe047b64c4f08ba0948fb3e",
-      "title_hash": "907800006359274cad8c78188ae1e81a44b06ab8",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "YouTube users get option to set their Shorts time limit to zero minutes",
-      "link": "https://www.theverge.com/streaming/912898/youtube-shorts-feed-limit-zero-minutes",
-      "published_at": "2026-04-15T23:36:56+00:00",
-      "summary": "HN story type: story HN points: 246 HN comments: 106 HN top comments: savanaly: >YouTube now lets you turn off Shorts No it doesn't. If you were hoping it would mean you don't see shorts when you visit the Youtube home page, that's not what this is. I just tried the thing mentioned in the article-- set my Shorts time limit to 0 minutes. What it does is make it so if you click a short from somewhere the short plays, but then if you try to swipe to the next one it hits you with the \"You reached... insin: Upvoting because Shorts are terrible. Flagging because the submission title - which is 100% faithful to the friendly article - is a complete lie! Plug: I added a bunch of features to Control Panel for YouTube [1] which let you either hide Shorts completely, everywhere (which is the default) or take more control of how you use them if you do (e.g. redirecting to the normal video player) [1] https://soitis.dev/contr... Cider9986: Before I quit YouTube, this was my setup. Brave Shields[1] - Adblock SponsorBlock[2] - Crowd-sourced skip sponsored segments DeArrow[3] - Make thumbnails not clickbait UnTrap[4] - Remove shorts and make UI amazing. Return Youtube Dislike[5] I deleted my Google account and now occasionally use Invidious with LibRedirect[6] to watch YT videos. Importing subscriptions into Invidious was a helpful stepping stone. [1]...",
-      "fetched_at": "2026-04-16T04:10:50.166716+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47786791",
-      "hn_story_type": "story",
-      "hn_points": "246",
-      "hn_comments_count": "106",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47786791",
-      "hn_item_text": "",
-      "hn_comment_preview": "savanaly: >YouTube now lets you turn off Shorts No it doesn't. If you were hoping it would mean you don't see shorts when you visit the Youtube home page, that's not what this is. I just tried the thing mentioned in the article-- set my Shorts time limit to 0 minutes. What it does is make it so if you click a short from somewhere the short plays, but then if you try to swipe to the next one it hits you with the \"You reached...\ninsin: Upvoting because Shorts are terrible. Flagging because the submission title - which is 100% faithful to the friendly article - is a complete lie! Plug: I added a bunch of features to Control Panel for YouTube [1] which let you either hide Shorts completely, everywhere (which is the default) or take more control of how you use them if you do (e.g. redirecting to the normal video player) [1] https://soitis.dev/contr...\nCider9986: Before I quit YouTube, this was my setup. Brave Shields[1] - Adblock SponsorBlock[2] - Crowd-sourced skip sponsored segments DeArrow[3] - Make thumbnails not clickbait UnTrap[4] - Remove shorts and make UI amazing. Return Youtube Dislike[5] I deleted my Google account and now occasionally use Invidious with LibRedirect[6] to...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=4,tools_agents=14,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 14,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [
-            "setup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli",
-        "setup"
-      ],
-      "detail_slug": "46729c43c84627fddbe047b64c4f08ba0948fb3e",
-      "is_english_source": true,
-      "translated_title": "유튜브, 쇼츠 시청 제한 0분 설정 지원",
-      "short_summary": "유튜브가 쇼츠 시청 시간을 0분으로 설정하는 옵션을 추가했다. 다만 HN에서는 쇼츠를 아예 숨기는 기능이 아니라 연속 넘기기만 막는 수준이라는 반응이 많았다.",
-      "why_it_matters": "짧은 영상에 오래 붙잡히지 않게 하려는 수요에 맞춰 유튜브가 기본 제어 장치를 넣기 시작했다. 다만 이번 변화는 노출 자체를 없애기보다 소비 흐름에 브레이크를 거는 쪽에 가깝다.\n- 쇼츠를 눌러도 다음 영상으로 넘기려는 순간 제한이 걸려 무한 스크롤을 끊는 데는 도움이 된다.\n- 홈 화면이나 추천 영역에서 쇼츠가 계속 보인다면 집중 관리나 사용 시간 통제 측면의 체감 변화는 크지 않을 수 있다.\n- 실무적으로 보면 플랫폼이 '완전 차단'보다 '마찰 추가'를 택했다는 신호다. 사용자 통제 기능을 어디까지 열어둘지 설계할 때 참고할 만하다.",
-      "hn_reaction_summary": "HN 반응은 대체로 냉소적이었다. 제목만 보면 쇼츠를 끌 수 있을 것 같지만 실제 동작은 기대보다 훨씬 제한적이라는 지적이 반복됐다.\n- 가장 많이 나온 반응은 '이건 쇼츠 비활성화가 아니라 다음 쇼츠로 넘기기 차단'이라는 해석이었다.\n- 댓글에서는 Control Panel for YouTube, UnTrap, SponsorBlock, DeArrow 같은 확장 조합으로 쇼츠를 숨기거나 UI를 정리하는 방법이 많이 공유됐다.\n- 일부는 Invidious 같은 대체 프런트엔드를 언급하며 유튜브 기본 경험에 대한 피로감이 꽤 누적돼 있다는 점을 보여줬다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-16T04:13:45.514820+00:00"
     }
   ],
   "topic_digests": {
