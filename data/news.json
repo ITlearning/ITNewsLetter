@@ -1,6 +1,626 @@
 {
   "items": [
     {
+      "id": "17c69788c50a716b8e2a4b041fc97327fe74f873",
+      "title_hash": "e3f6ff0fdded1cb8f39e8c8fa4d7e881725c39ca",
+      "source": "GeekNews",
+      "title": "Show GN: ZZO - 바로 사용하는 URL 단축 API와 MCP",
+      "link": "https://news.hada.io/topic?id=35824",
+      "published_at": "2026-10-22T16:58:02+00:00",
+      "summary": "URL 단축 서비스 zzo.kr 을 소개합니다. 긴 인터넷 주소를 짧은 링크로 변환하고, 간단히 QR코드로도 공유 할 수 있는 웹 서비스 입니다. 회원가입 없이 브라우저에서 URL 단축부터, API, MCP까지 사용할 수 있도록 만들었습니다. URL 단축 서비스",
+      "fetched_at": "2026-10-22T18:25:16.865158+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=7,tools_agents=9,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "mcp"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "mcp"
+      ],
+      "detail_slug": "17c69788c50a716b8e2a4b041fc97327fe74f873",
+      "is_english_source": false,
+      "sent_at": "2026-10-22T18:27:43.151773+00:00"
+    },
+    {
+      "id": "1c7c0e5c15b7e5eeebb5749ed77e79ab318dc4f6",
+      "title_hash": "3c7d653eb9a23cc2eadc695a5b4d9f4d0107026f",
+      "source": "GeekNews",
+      "title": "LLM으로 신뢰도 점수를 매기는 것은 좋지 않은 생각",
+      "link": "https://news.hada.io/topic?id=35827",
+      "published_at": "2026-10-22T17:46:27+00:00",
+      "summary": "LLM이 출력하는 신뢰도 점수 는 내부 확신을 측정한 값이 아니라, 대화에 이어질 법한 텍스트를 토큰 단위로 생성한 결과임 믿을 만한 점수는 예측에 쓰인 정보를 반영 해야 하며, 같은 종류의 질문에서 실제 정답률과 일치하는지 검증해야 함 보정...",
+      "fetched_at": "2026-10-22T18:25:16.865158+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "1c7c0e5c15b7e5eeebb5749ed77e79ab318dc4f6",
+      "is_english_source": false,
+      "sent_at": "2026-10-22T18:27:43.151773+00:00"
+    },
+    {
+      "id": "ccebcdf2984e8721ad7ee380e9c90241b4fde6d1",
+      "title_hash": "09eeeb0c8cc678afa00d55212ce1eaac9e950133",
+      "source": "GeekNews",
+      "title": "OpenAI CLI - OpenAI REST API를 위한 공식 명령줄 도구",
+      "link": "https://news.hada.io/topic?id=35818",
+      "published_at": "2026-10-22T15:45:53+00:00",
+      "summary": "OpenAI REST API 공식 CLI 로, 리소스 기반 명령을 통해 응답 생성, 파일 관리, 이미지 생성과 편집, 관리자 API 등을 사용할 수 있음 도움말은 API 키나 네트워크 없이 작동 하며, 작업별 명령 탐색, 셸 자동 완성, 실행하지 않고 명령줄에 예시를 채우는 기능을 지...",
+      "fetched_at": "2026-10-22T18:25:16.865158+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=5,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli"
+      ],
+      "detail_slug": "ccebcdf2984e8721ad7ee380e9c90241b4fde6d1",
+      "is_english_source": false,
+      "sent_at": "2026-10-22T18:27:43.151773+00:00"
+    },
+    {
+      "id": "1a6d8314613dc3ba83ad99577db46fc3e73ccf68",
+      "title_hash": "f47eee427b5376936e12de3b336756bc52fbcc39",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Nvidia OpenShell",
+      "link": "https://github.com/NVIDIA/OpenShell",
+      "published_at": "2026-10-22T17:44:06+00:00",
+      "summary": "HN story type: story HN points: 25 HN comments: 7 HN top comments: dangoodmanUT: Taking default telemetry is insane. That aside, the level of control is cool, almost too pedantic. It likely is only particularly useful for very nuanced enterprise requirements (probably what it's targeting). Most companies can be much more coarse with their permissions, and I think the agentic industry is moving away from k8s as a deployment platform. nasretdinov: It's funny that it takes checks notes a video game card manufacturer to make a good sandbox for AI agents and not the AI companies themselves... agentdev001: Nvidia Openshell is absolutely awesome, great bundle of features in one spot. Im happy to see Nvidia seems to have accelerated on support here, I was kinda worried that as competing projects have popped up in the last 6mo that openshell would get google'd",
+      "fetched_at": "2026-10-22T18:25:16.865158+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50198675",
+      "hn_story_type": "story",
+      "hn_points": "25",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50198675",
+      "hn_item_text": "",
+      "hn_comment_preview": "dangoodmanUT: Taking default telemetry is insane. That aside, the level of control is cool, almost too pedantic. It likely is only particularly useful for very nuanced enterprise requirements (probably what it's targeting). Most companies can be much more coarse with their permissions, and I think the agentic industry is moving away from k8s as a deployment platform.\nnasretdinov: It's funny that it takes checks notes a video game card manufacturer to make a good sandbox for AI agents and not the AI companies themselves...\nagentdev001: Nvidia Openshell is absolutely awesome, great bundle of features in one spot. Im happy to see Nvidia seems to have accelerated on support here, I was kinda worried that as competing projects have popped up in the last 6mo that openshell would get google'd",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=33,practical_tech=14,tools_agents=33,strategy_insight=2,industry_business=15",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 33,
+        "strategy_insight": 2,
+        "industry_business": 15
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "sandbox"
+          ],
+          "support_hits": [
+            "deployment"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 33,
+          "strong_hits": [
+            "ai agent",
+            "sandbox",
+            "agentic",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + sandbox"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 15,
+          "strong_hits": [
+            "enterprise"
+          ],
+          "support_hits": [
+            "platform",
+            "industry"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "enterprise + platform"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ai agent",
+        "sandbox",
+        "agentic",
+        "ide",
+        "agent",
+        "agent + sandbox",
+        "github.com"
+      ],
+      "detail_slug": "1a6d8314613dc3ba83ad99577db46fc3e73ccf68",
+      "is_english_source": true,
+      "sent_at": "2026-10-22T18:27:43.151773+00:00"
+    },
+    {
+      "id": "ebede2cc0ef6ac04ee8872fdf58c2c2abdbf001b",
+      "title_hash": "cea0cc4d419a6e3d23a332aaf0c2d0672beb8681",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Last Museum: Semantic search across 5.8M artworks from major museums",
+      "link": "https://lastmuseum.com/",
+      "published_at": "2026-10-22T12:40:04+00:00",
+      "summary": "HN story type: story HN points: 65 HN comments: 22 HN top comments: 8s2ngy: I was thinking of doing something like this myself. I've been pondering how to use AI to support, rather than subordinate, human work. Instead of using AI-generated artworks for blog posts and press releases, it would be better to use AI to \"intelligently\" search across humanity's collective oeuvre and find artwork relevant to the accompanying text. Once the AI hype dies down a little, it would be worth thinking a... cj00: I used the same concept to build a searchable database of YouTube thumbnails in my watch history. I always end up trying to remember a video I didn't finish from a week or two ago and YouTube's history search plain sucks. So I built an app that tracks all my watch history across all devices, downloads the thumbnails and runs them through a local Gemma model to write a paragraph description and OCR any text in the... billbrown: \"Art Deco\" search is _terrific_ https://lastmuseum.com/search?q=art%20deco",
+      "fetched_at": "2026-10-22T18:25:16.865158+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50194522",
+      "hn_story_type": "story",
+      "hn_points": "65",
+      "hn_comments_count": "22",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50194522",
+      "hn_item_text": "",
+      "hn_comment_preview": "8s2ngy: I was thinking of doing something like this myself. I've been pondering how to use AI to support, rather than subordinate, human work. Instead of using AI-generated artworks for blog posts and press releases, it would be better to use AI to \"intelligently\" search across humanity's collective oeuvre and find artwork relevant to the accompanying text. Once the AI hype dies down a little, it would be worth thinking a...\ncj00: I used the same concept to build a searchable database of YouTube thumbnails in my watch history. I always end up trying to remember a video I didn't finish from a week or two ago and YouTube's history search plain sucks. So I built an app that tracks all my watch history across all devices, downloads the thumbnails and runs them through a local Gemma model to write a paragraph description and OCR any text in the...\nbillbrown: \"Art Deco\" search is _terrific_ https://lastmuseum.com/search?q=art%20deco",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=9,strategy_insight=2,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 22,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 22,
+          "strong_hits": [
+            "database",
+            "rag"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "database",
+        "rag",
+        "how to",
+        "local + run"
+      ],
+      "detail_slug": "ebede2cc0ef6ac04ee8872fdf58c2c2abdbf001b",
+      "is_english_source": true,
+      "sent_at": "2026-10-22T18:27:43.151773+00:00"
+    },
+    {
+      "id": "190a208e017a97ad295f552dbba8bf2f95f3e2d8",
+      "title_hash": "32cb0c717a109ba5495bd6c954384e0983ce2809",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+      "link": "https://github.com/rbartoli/agent-usage-guard",
+      "published_at": "2026-10-22T18:02:38+00:00",
+      "summary": "HN story type: story HN points: 7 HN comments: 3 HN top comments: zzyyxx332211: After consuming my whole usage window in a few minutes multiple times, I realised I needed a hook to do some checks for me and prompt me before submitting when cache had expired and content is too big, so that it can suggest me to \"compact then send\". It can also prevent sub-agents from spawning when above 80% usage window. Control is handed over to the user. The first I built, based on hooks (run for 75 days), th... Robin_Message: I was under the impression a compact resurrected the session anyway so it is not a good idea on a cold session. Is that true or is it actually cheaper?",
+      "fetched_at": "2026-10-22T18:25:16.865158+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50198936",
+      "hn_story_type": "story",
+      "hn_points": "7",
+      "hn_comments_count": "3",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50198936",
+      "hn_item_text": "",
+      "hn_comment_preview": "zzyyxx332211: After consuming my whole usage window in a few minutes multiple times, I realised I needed a hook to do some checks for me and prompt me before submitting when cache had expired and content is too big, so that it can suggest me to \"compact then send\". It can also prevent sub-agents from spawning when above 80% usage window. Control is handed over to the user. The first I built, based on hooks (run for 75 days), th...\nRobin_Message: I was under the impression a compact resurrected the session anyway so it is not a good idea on a cold session. Is that true or is it actually cheaper?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=25,practical_tech=17,tools_agents=25,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 25,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "show hn",
+            "cache"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "ide"
+          ],
+          "support_hits": [
+            "prompt",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "prompt",
+        "agent",
+        "claude + code",
+        "github.com"
+      ],
+      "detail_slug": "190a208e017a97ad295f552dbba8bf2f95f3e2d8",
+      "is_english_source": true,
+      "sent_at": "2026-10-22T18:27:43.151773+00:00"
+    },
+    {
+      "id": "0acbd90412aa47b1028ff1e8e0fca3b6f94b2c47",
+      "title_hash": "536ff7b8a2d331536648326166b2d6814c8247f9",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "What's Getting Pwned",
+      "link": "https://pwn.watch/",
+      "published_at": "2026-10-22T14:08:12+00:00",
+      "summary": "HN story type: story HN points: 220 HN comments: 116 HN top comments: DrewADesign: > Major U.S. banks detect unauthorized third-party AI agents inside customer accounts Step 2 is instead of waiting to be caught, the instigators should issue a press release blaming cunning rogue agents as part of their research, call no felonies because they’re working for the greater good of eliminating a shitload of jobs, say the real problem is a lack of regulation. They could even return the money if it looks... pixl97: Would be interesting to see what 2025 looked like in comparison. The rate at which flaws are being found is just insane. Many people warned us in the past that our lax security postures would come back to bite us, and we're finally here. demibabs: Every ai generated page tries to cram way too much information in way too small a place",
+      "fetched_at": "2026-10-22T18:25:16.865158+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50195543",
+      "hn_story_type": "story",
+      "hn_points": "220",
+      "hn_comments_count": "116",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50195543",
+      "hn_item_text": "",
+      "hn_comment_preview": "DrewADesign: > Major U.S. banks detect unauthorized third-party AI agents inside customer accounts Step 2 is instead of waiting to be caught, the instigators should issue a press release blaming cunning rogue agents as part of their research, call no felonies because they’re working for the greater good of eliminating a shitload of jobs, say the real problem is a lack of regulation. They could even return the money if it looks...\npixl97: Would be interesting to see what 2025 looked like in comparison. The rate at which flaws are being found is just insane. Many people warned us in the past that our lax security postures would come back to bite us, and we're finally here.\ndemibabs: Every ai generated page tries to cram way too much information in way too small a place",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "40",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=16,practical_tech=5,tools_agents=10,strategy_insight=4,industry_business=16",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 10,
+        "strategy_insight": 4,
+        "industry_business": 16
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "regulation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ai agent",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [
+            "regulation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 16,
+          "strong_hits": [
+            "regulation",
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + regulation"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "regulation",
+        "release",
+        "ai + regulation"
+      ],
+      "detail_slug": "0acbd90412aa47b1028ff1e8e0fca3b6f94b2c47",
+      "is_english_source": true,
+      "sent_at": "2026-10-22T18:27:43.151773+00:00"
+    },
+    {
       "id": "b6fa752e0438d4b2cfb737a1fafc734a44fc9a52",
       "title_hash": "6e93f8d38151076a90c4a60404bf10ddf9bab4b1",
       "source": "GeekNews",
@@ -168840,568 +169460,6 @@
       "hn_reaction_summary": "댓글 분위기는 신기한 해킹을 흥미롭게 보면서도 설명 문구와 구현 선택은 꽤 날카롭게 검증하는 쪽에 가까웠다. 아이디어보다 표현의 정확성과 운영 감각을 따지는 반응이 많았다.\n- 프라이버시 주장에 대한 반론이 가장 먼저 나왔다. 로컬 저장과 모델 서버 전송은 다른 문제인데, 설명이 지나치게 단정적이라는 지적이다.\n- 전역 Git 설정을 바꾸는 설치 안내는 위험하다는 반응이 있었다. 기존 GitHub 푸시 흐름을 망가뜨릴 수 있다는 우려가 반복됐다.\n- MP4와 QR 코드 기반 저장 방식은 재미있는 발상으로 보이지만, 압축 텍스트보다 왜 나은지 불분명하다는 의문이 나왔다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-19T19:43:42.968501+00:00"
-    },
-    {
-      "id": "60af290c27a824ac40c778a18676b0867a47aab8",
-      "title_hash": "27dfe7437c3347d5779553cddebaa9a19ef9781c",
-      "source": "GeekNews",
-      "title": "Show GN: AI 코딩 에이전트 구조를 공부하기 위한 Claude Code Harness 한국어판 공유",
-      "link": "https://news.hada.io/topic?id=28683",
-      "published_at": "2026-04-19T11:52:11+00:00",
-      "summary": "클로드 코드 하네스 분석 자료를 한국어로 번역해 웹으로 정리했습니다. Claude Code를 더 깊게 이해하고 싶은 한국어 독자들을 위해, 공개된 원문 분석을 한국어로 옮기고 책처럼 읽을 수 있는 형태로 다시 묶었습니다. 사이트는 아키텍처, 프롬프트 엔지니어링, 컨텍스트 관리, 프롬프트 캐싱, 보안 및 권한",
-      "fetched_at": "2026-04-19T15:30:28.580922+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "67",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=22,practical_tech=4,tools_agents=22,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 22,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "아키텍처",
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 22,
-          "strong_hits": [
-            "claude code",
-            "에이전트"
-          ],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "아키텍처"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "에이전트",
-        "프롬프트",
-        "claude + code"
-      ],
-      "detail_slug": "60af290c27a824ac40c778a18676b0867a47aab8",
-      "is_english_source": false,
-      "sent_at": "2026-04-19T15:33:27.463398+00:00"
-    },
-    {
-      "id": "6687c2d851ed721d04ec9791e36dac546320a692",
-      "title_hash": "d4fea4d1cc1d8b09d35cabd152681208e4aa80fc",
-      "source": "GeekNews",
-      "title": "Opus 4.6과 Opus 4.7의 토큰 비용 계산기",
-      "link": "https://news.hada.io/topic?id=28672",
-      "published_at": "2026-04-19T00:52:14+00:00",
-      "summary": "Opus 4.7의 새 토크나이저 로 인해 동일 프롬프트가 더 많은 토큰 으로 집계되는 문제를 분석할 수 있는 계산 도구 같은 입력이 콘텐츠 유형에 따라 1.0~1.35배 토큰으로 매핑되며, 단어를 바꾸지 않아도 요청당 비용 증가 ...",
-      "fetched_at": "2026-04-19T15:30:28.580922+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "프롬프트"
-      ],
-      "detail_slug": "6687c2d851ed721d04ec9791e36dac546320a692",
-      "is_english_source": false,
-      "sent_at": "2026-04-19T15:33:27.463398+00:00"
-    },
-    {
-      "id": "99e2b0b1359a1402c34b2d96e5a05ff1307a5241",
-      "title_hash": "3019b8b10d6fb2978ad7627e36fd3e92f3ad4244",
-      "source": "GeekNews",
-      "title": "Vercel, 2026년 4월 보안 사고 발생 (내부 시스템 무단 접근)",
-      "link": "https://news.hada.io/topic?id=28687",
-      "published_at": "2026-04-19T15:13:51+00:00",
-      "summary": "Vercel은 2026년 4월, 일부 내부 시스템에 대한 무단 접근(unauthorized access) 이 발생한 보안 사고를 공식적으로 공개했다. ￼ 현재 해당 사건은 조사 중이며, 외부 보안 전문가와 함께 대응을 진행하고 있고 법 집행 기관에도 통보된 상태다. ￼ 영향 범위 영향은 전체 고",
-      "fetched_at": "2026-04-19T15:30:28.580922+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "99e2b0b1359a1402c34b2d96e5a05ff1307a5241",
-      "is_english_source": false,
-      "sent_at": "2026-04-19T15:33:27.463398+00:00"
-    },
-    {
-      "id": "3fdc19de5bcb60ced23ba934aa75686beff5c324",
-      "title_hash": "5cedc6f5e116815190f9961569a29776f4190834",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Vercel April 2026 security incident",
-      "link": "https://vercel.com/kb/bulletin/vercel-april-2026-security-incident",
-      "published_at": "2026-04-19T14:14:38+00:00",
-      "summary": "HN story type: story HN points: 67 HN comments: 18 HN top comments: neom: https://x.com/theo/status/2045871215705747965 - \"Everything I know about this hack suggests it could happen to any host\" He also suggests in another post that Linear and GitHub could also be pwned? Either way, hugops to all the SRE/DevOps out there, seems like it's going to be a busy Sunday for many. mikert89: Much as I want to rip on vercel, its clear that ai is going to lead to mass security breaches. The attack surface is so large, and ai agents are working around the clock. This is a new normal. Open source software is going to change, companies wont be running random repos off github anymore MattIPv4: Related: https://news.ycombinator.com/item?id=47824426 https://x.com/theo/status/2045862972342313374 > I have reason to believe this is credible. https://x.com/theo/status/2045870216555499636 > Env vars marked as sensitive are safe. Ones NOT marked as sensitive should be rolled out of precaution https://x.com/theo/status/2045871215705747965 > Everything I know about this hack suggests it could happen to any host h...",
-      "fetched_at": "2026-04-19T15:30:28.580922+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47824463",
-      "hn_story_type": "story",
-      "hn_points": "67",
-      "hn_comments_count": "18",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47824463",
-      "hn_item_text": "",
-      "hn_comment_preview": "neom: https://x.com/theo/status/2045871215705747965 - \"Everything I know about this hack suggests it could happen to any host\" He also suggests in another post that Linear and GitHub could also be pwned? Either way, hugops to all the SRE/DevOps out there, seems like it's going to be a busy Sunday for many.\nmikert89: Much as I want to rip on vercel, its clear that ai is going to lead to mass security breaches. The attack surface is so large, and ai agents are working around the clock. This is a new normal. Open source software is going to change, companies wont be running random repos off github anymore\nMattIPv4: Related: https://news.ycombinator.com/item?id=47824426 https://x.com/theo/status/2045862972342313374 > I have reason to believe this is credible. https://x.com/theo/status/2045870216555499636 > Env vars marked as sensitive are safe. Ones NOT marked as sensitive should be rolled out of precaution https://x.com/theo/status/2045871215705747965 > Everything I know about this hack suggests it could happen to any host h...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=14,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 14,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "open source",
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "ai agent",
-            "ide"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "security"
-      ],
-      "detail_slug": "3fdc19de5bcb60ced23ba934aa75686beff5c324",
-      "is_english_source": true,
-      "translated_title": "버셀, 2026년 4월 보안 사고 후폭풍",
-      "short_summary": "버셀의 2026년 4월 보안 사고가 HN 전면에 올랐다. 댓글에선 특정 업체의 실수라기보다 어느 호스팅 환경에서도 터질 수 있는 문제로 보며, 환경변수 관리와 비밀값 교체 범위를 두고 논의가 이어졌다.",
-      "why_it_matters": "이번 이슈는 배포 플랫폼 한 곳의 사고로만 보기 어렵다. 실무에서는 환경변수, 연동 토큰, 외부 SaaS까지 한꺼번에 다시 점검해야 한다는 신호에 가깝다.\n- 민감값으로 표시한 환경변수만 확인하고 끝낼 일이 아니다. 표시되지 않은 값도 예방 차원에서 교체 대상에 넣을 운영 기준이 필요하다.\n- 호스팅, GitHub, Linear, CI/CD를 따로 보지 말고 하나의 공급망으로 다뤄야 한다. 연결 권한이 넓을수록 사고 반경도 함께 커진다.\n- AI 에이전트와 자동화가 늘수록 외부 코드와 권한이 맞닿는 면적도 커진다. 저장소 실행 정책과 토큰 범위, 비밀값 회전 주기를 더 보수적으로 가져갈 필요가 있다.",
-      "hn_reaction_summary": "댓글 분위기는 버셀 비난 일변도라기보다 이 정도 사고는 어느 호스트에서도 날 수 있다는 쪽에 더 가까웠다. 동시에 AI 자동화가 공격면을 빠르게 넓히고 있다는 불안도 강하게 드러났다.\n- 자주 나온 반응은 특정 회사만의 문제가 아니라는 점이다. 플랫폼보다 권한 설계와 비밀 관리의 구조적 취약점을 봐야 한다는 의견이 많았다.\n- 민감 표시된 환경변수는 안전하다는 언급과 함께, 표시되지 않은 값까지 어디까지 교체할지 실무 판단이 필요하다는 반응이 이어졌다.\n- 일부는 오픈소스 저장소와 외부 서비스를 운영 환경에 곧바로 연결하는 관행을 다시 봐야 한다고 지적했다. AI 에이전트가 상시 동작하는 시대에는 더 그렇다는 쪽이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-19T15:33:27.463398+00:00"
-    },
-    {
-      "id": "e4ca9d803630996b590a552fc3a7c8bf042d78ee",
-      "title_hash": "786a90ee9437e58e0bd0da45e73659c9545c74de",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Notes from the SF Peptide Scene",
-      "link": "https://12gramsofcarbon.com/p/notes-from-the-sf-peptide-scene",
-      "published_at": "2026-04-19T14:43:07+00:00",
-      "summary": "HN story type: story HN points: 9 HN comments: 2 HN top comments: ambicapter: I think this author has a very different conception of what “sincerity” is than I do, but I guess that’s the difference between the east coast and the west coast. Analemma_: Note that this post isn't just about peptides, it's more an overview of the SF social scene in general and what has changed in just the last year. So it includes things like \"Tesla FSD actually works now\" and \"the right is uncool again and nobody talks about e.g. Curtis Yarvin anymore\" (both true, IME).",
-      "fetched_at": "2026-04-19T15:30:28.580922+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47824681",
-      "hn_story_type": "story",
-      "hn_points": "9",
-      "hn_comments_count": "2",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47824681",
-      "hn_item_text": "",
-      "hn_comment_preview": "ambicapter: I think this author has a very different conception of what “sincerity” is than I do, but I guess that’s the difference between the east coast and the west coast.\nAnalemma_: Note that this post isn't just about peptides, it's more an overview of the SF social scene in general and what has changed in just the last year. So it includes things like \"Tesla FSD actually works now\" and \"the right is uncool again and nobody talks about e.g. Curtis Yarvin anymore\" (both true, IME).",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "31",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "e4ca9d803630996b590a552fc3a7c8bf042d78ee",
-      "is_english_source": true,
-      "translated_title": "샌프란시스코 펩타이드 신 관찰 노트",
-      "short_summary": "이 글은 샌프란시스코의 펩타이드 커뮤니티를 계기로, 지난 1년 사이 달라진 도시의 사교 분위기와 기술 낙관의 흐름을 훑는다. HN 반응도 펩타이드 자체보다 SF 문화 변화에 더 주목한다.",
-      "why_it_matters": "겉으로는 펩타이드 신을 다룬 글이지만, 실제로는 샌프란시스코 기술 커뮤니티의 분위기가 어디로 움직이는지 보여주는 기록에 가깝다. 업계 안팎의 화제와 네트워킹 문법이 어떻게 바뀌는지 읽을 단서가 된다.\n- 기술 자체보다 그것을 둘러싼 사회적 공기와 취향 변화가 더 앞서 움직인다는 점을 보여준다. 커뮤니티 감각을 읽는 데 참고할 만하다.\n- Tesla FSD 같은 사례처럼 예전엔 과장처럼 들리던 주장이 다시 현실적인 대화 주제로 올라오고 있다는 신호가 보인다.\n- 정치적 취향이나 문화 코드가 유행처럼 바뀌면서, 창업자와 투자자 사이에서 어떤 말이 먹히는지도 달라질 수 있다.",
-      "hn_reaction_summary": "댓글 수는 많지 않지만 반응은 글의 관찰 방식과 SF 문화 해석에 쏠려 있다. 펩타이드 전문 글이라기보다 최근 1년간 샌프란시스코 사교 장면이 어떻게 달라졌는지 읽는 글이라는 해석이 눈에 띈다.\n- 한쪽에서는 글쓴이가 말하는 진정성의 감각에 거리감을 보였다. 동부와 서부의 문화 차이로 읽는 시선도 나왔다.\n- 다른 쪽에서는 이 글의 핵심을 펩타이드가 아니라 SF 전반의 사회적 분위기 변화로 정리했다.\n- 실무자가 볼 만한 논점은 기술 담론의 복귀, 정치적 코드의 퇴조, 그리고 커뮤니티 안에서 무엇이 다시 쿨해졌는가 하는 변화다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-19T15:33:27.463398+00:00"
-    },
-    {
-      "id": "833207d17d2c3ecc24393aef1532f94d6de07b6d",
-      "title_hash": "9a8b1c6754f77514cd058066925bb2e447b2aa1d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Shader Lab, like Photoshop but for shaders",
-      "link": "https://eng.basement.studio/tools/shader-lab",
-      "published_at": "2026-04-16T17:32:33+00:00",
-      "summary": "HN story type: story HN points: 56 HN comments: 10 HN top comments: elliottcarlson: Nice interface -- I made something similar but for a specific game (Binding of Isaac) because it has a specific way of implementing shaders for mods. https://sublimnl.github.io/IsaacShaderStudio/ felixthehat: looks like a slopfork of the fairly new https://shaders.com - frustrating for them! aguacaterojo: V cool. Works in ff on mac for me. Maybe vibe coded but it's a spectrum. Probably in need of a bit of polish and a better performing example & maybe resolution switching. Basement Studio is legit I have bought their fonts in the past. Floating windows are a little pointless but aesthetic choice or a one shot ui. FPS would be nice, also distinction between canvas and void. Video export works great.",
-      "fetched_at": "2026-04-19T15:30:28.580922+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47796759",
-      "hn_story_type": "story",
-      "hn_points": "56",
-      "hn_comments_count": "10",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47796759",
-      "hn_item_text": "",
-      "hn_comment_preview": "elliottcarlson: Nice interface -- I made something similar but for a specific game (Binding of Isaac) because it has a specific way of implementing shaders for mods. https://sublimnl.github.io/IsaacShaderStudio/\nfelixthehat: looks like a slopfork of the fairly new https://shaders.com - frustrating for them!\naguacaterojo: V cool. Works in ff on mac for me. Maybe vibe coded but it's a spectrum. Probably in need of a bit of polish and a better performing example & maybe resolution switching. Basement Studio is legit I have bought their fonts in the past. Floating windows are a little pointless but aesthetic choice or a one shot ui. FPS would be nice, also distinction between canvas and void. Video export works great.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=9,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "show hn",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "show hn",
-        "rust"
-      ],
-      "detail_slug": "833207d17d2c3ecc24393aef1532f94d6de07b6d",
-      "is_english_source": true,
-      "translated_title": "셰이더를 포토샵처럼 다루는 Shader Lab",
-      "short_summary": "Shader Lab은 셰이더를 포토샵처럼 편집해보자는 브라우저 기반 도구로 주목받았다. HN에서는 인터페이스와 영상 export를 좋게 보면서도 완성도와 원본성 논란을 함께 짚었다.",
-      "why_it_matters": "셰이더 작업을 코드 중심에서 시각 편집 중심으로 옮기려는 흐름이 다시 눈에 띈다. 효과를 빠르게 시험하고 바로 공유해야 하는 팀이라면 이런 도구의 방향 자체가 실무 변화로 이어질 수 있다.\n- 브라우저에서 바로 셰이더를 만지고 결과를 확인할 수 있으면 초기 프로토타입 제작 속도가 빨라질 여지가 있다.\n- 영상 export처럼 결과물을 바로 뽑아내는 기능은 데모 제작, 내부 공유, 클라이언트 커뮤니케이션에 바로 연결된다.\n- 다만 해상도 전환, FPS 표시, 예제 성능, UI 마감 같은 기본기가 더 갖춰져야 실전 작업 도구로 자리 잡을 수 있다는 반응도 함께 나왔다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 흥미롭고 호의적이지만, 곧바로 검증 모드로 들어가는 HN 특유의 반응도 강했다. 보기 좋은 데모라는 평가와 아직은 다듬어야 한다는 평가가 같이 붙었다.\n- 인터페이스가 좋고 맥의 파이어폭스에서도 동작했다는 반응이 있었다. 영상 export는 특히 잘 된다는 평가가 나왔다.\n- 비슷한 도구를 특정 게임용으로 만들어봤다는 경험담이 나오며, 셰이더 편집 수요 자체는 분명하다는 맥락이 더해졌다.\n- 반대로 최근 나온 shaders.com을 닮았다는 지적과 함께, 폴리시 부족·성능 예제·FPS 표시·해상도 전환 같은 아쉬움이 반복해서 언급됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-19T15:33:27.463398+00:00"
-    },
-    {
-      "id": "93497ad1ffb80d0e14b8a70b7ec90f2f0947835f",
-      "title_hash": "ed682234ce0c95381ee98b72e3a205bb622f6c8f",
-      "source": "GeekNews",
-      "title": "Show GN: LunaTools - 18가지 기능의 구글 크롬 확장 프로그램 (마우스 제스처, 탭 관리, 세션 매니저, 환율 변환...",
-      "link": "https://news.hada.io/topic?id=28681",
-      "published_at": "2026-04-19T09:39:51+00:00",
-      "summary": "LunaTools - 18가지 기능의 구글 크롬 확장 프로그램 (마우스 제스처, 탭 관리, 세션 매니저, 환율 변환, PiP, 볼륨 증폭 등) https://github.com/lunamoth/LunaTools LunaTools 공개한지도 오늘로 딱 1년 됐군요. 5개 기능으로 시작해서 지난 1년간 계속 업데이트해서 어느덧 18개 기능을 갖췄습니다",
-      "fetched_at": "2026-04-19T11:21:25.107162+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "tool"
-      ],
-      "detail_slug": "93497ad1ffb80d0e14b8a70b7ec90f2f0947835f",
-      "is_english_source": false,
-      "sent_at": "2026-04-19T11:24:26.406363+00:00"
     }
   ],
   "topic_digests": {
