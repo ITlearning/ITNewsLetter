@@ -1,6 +1,580 @@
 {
   "items": [
     {
+      "id": "e4ec48e79eeda5ca86ee8d7e2846894ad50f6734",
+      "title_hash": "f84d221b58e5187b9d50edb1ef17ed0cd003bc62",
+      "source": "GeekNews",
+      "title": "Show GN: claude-code-todo - 클로드 코드 옆에 띄워 두는 TODO pane",
+      "link": "https://news.hada.io/topic?id=35870",
+      "published_at": "2026-10-23T16:03:26+00:00",
+      "summary": "Claude Code로 작업하다 생기는 할 일을 바로 적고, 고치고, 지울 수 있게 만든 플러그인입니다. 세션을 닫아도 목록은 남습니다. 채팅 옆 pane에 전역 목록과 프로젝트 목록이 탭으로 나뉘어 있고, 프롬프트 위에는 남은 개수와 다음 할 일, 마감 지난 개수가 한 줄로 나옵니다. pane에서 키(d 완료,",
+      "fetched_at": "2026-10-23T19:20:13.510051+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "62",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=17,practical_tech=2,tools_agents=17,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 17,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "프롬프트",
+        "claude + code"
+      ],
+      "detail_slug": "e4ec48e79eeda5ca86ee8d7e2846894ad50f6734",
+      "is_english_source": false,
+      "sent_at": "2026-10-23T19:22:31.248610+00:00"
+    },
+    {
+      "id": "391e9a83d01d6c28eb18b736917c88a1c8613cfb",
+      "title_hash": "0de092ea74ae08d76ce4373a7dd2eb4d645ea0af",
+      "source": "GeekNews",
+      "title": "Epic Games Inc 대 Apple Inc 소송, 호주에서 iOS 대체 배포와 결제 허용 명령",
+      "link": "https://news.hada.io/topic?id=35872",
+      "published_at": "2026-10-23T16:08:08+00:00",
+      "summary": "호주 연방법원은 Apple의 시장지배력 남용 에 대한 구제로, 호주 이용자에게 iOS 앱의 직접 다운로드와 대체 앱 스토어, 대체 결제를 허용하도록 명령함 IAP 강제와 외부 결제 안내 금지 뿐 아니라, 수수료와 추가 결제 단계로 대안 이용을 억제하거나 개발자에게 불...",
+      "fetched_at": "2026-10-23T19:20:13.510051+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "52",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=0,strategy_insight=3,industry_business=7",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": 3,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "소송"
+          ],
+          "support_hits": [
+            "시장"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "소송",
+        "시장"
+      ],
+      "detail_slug": "391e9a83d01d6c28eb18b736917c88a1c8613cfb",
+      "is_english_source": false,
+      "sent_at": "2026-10-23T19:22:31.248610+00:00"
+    },
+    {
+      "id": "fe8ed269d2668bcd75a9dcb2682f000dd95303b5",
+      "title_hash": "54151217bb69749816e8760edcc80e63db5e40e2",
+      "source": "GeekNews",
+      "title": "Ask HN: 모델이 그렇게 뛰어나다면, OpenAI는 왜 직접 회사 100개를 세우지 않을까?",
+      "link": "https://news.hada.io/topic?id=35862",
+      "published_at": "2026-10-23T12:35:23+00:00",
+      "summary": "최첨단 모델이 그렇게 뛰어나다면 OpenAI나 Anthropic이 직접 제품과 회사를 만들어 더 큰 수익을 내지 않는 이유 를 묻는 질문. 모델 가격이 내려가는 상황에서 토큰 판매가 최선의 전략인지도 문제 제기 소프트웨어 제작과 사업 운영은 별개의 문제 라는 답변. 고객...",
+      "fetched_at": "2026-10-23T19:20:13.510051+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 5,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "전략"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "전략"
+      ],
+      "detail_slug": "fe8ed269d2668bcd75a9dcb2682f000dd95303b5",
+      "is_english_source": false,
+      "sent_at": "2026-10-23T19:22:31.248610+00:00"
+    },
+    {
+      "id": "bad72da8b86572aa04f73b64380e0229057a3c4c",
+      "title_hash": "c337fd778360945322edb83e1b3ff58f939c41c3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "UUIDv7 doesn't have the properties you think it does",
+      "link": "https://alexsci.com/blog/uuidv7-is-weird/",
+      "published_at": "2026-10-23T16:39:45+00:00",
+      "summary": "HN story type: story HN points: 60 HN comments: 38 HN top comments: hackingonempty: > If you need to list things ordered by creation time very often, it’s useful if the primary index gives that behavior, removing the need for another index. I thought the main reason UUIDv7 was created with a time component is to keep temporally related rows together in the index pages. Randomly distributed row ids seem OK until the entire index no longer fits in RAM. gcbirzan: >Unfortunately, the timestamp embedded in a UUIDv7 ID may not relate to the object creation time. The Postgres docs for uuid_extract_timestamp helpfully warn that “the extracted timestamp is not necessarily exactly equal to the time the UUID was generated”. Just like NOW() won't have the current time. kentm: Kind of funny title since I didn’t think UUIDv7 had any of the properties being disputed here. The reason to use UUIDv7 is because it reduces the space over which the UUID can cover at a given time, which improves write clustering. They don’t need to be strictly ordered for this, just “good enough”. I hope to god no one is actually using the timestamp portion to replace an “updated at” timestamp but I suspect I’ll...",
+      "fetched_at": "2026-10-23T19:20:13.510051+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50211746",
+      "hn_story_type": "story",
+      "hn_points": "60",
+      "hn_comments_count": "38",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50211746",
+      "hn_item_text": "",
+      "hn_comment_preview": "hackingonempty: > If you need to list things ordered by creation time very often, it’s useful if the primary index gives that behavior, removing the need for another index. I thought the main reason UUIDv7 was created with a time component is to keep temporally related rows together in the index pages. Randomly distributed row ids seem OK until the entire index no longer fits in RAM.\ngcbirzan: >Unfortunately, the timestamp embedded in a UUIDv7 ID may not relate to the object creation time. The Postgres docs for uuid_extract_timestamp helpfully warn that “the extracted timestamp is not necessarily exactly equal to the time the UUID was generated”. Just like NOW() won't have the current time.\nkentm: Kind of funny title since I didn’t think UUIDv7 had any of the properties being disputed here. The reason to use UUIDv7 is because it reduces the space over which the UUID can cover at a given time, which improves write clustering. They don’t need to be strictly ordered for this, just “good enough”. I hope to god no one is actually using the timestamp portion to replace an “updated at” timestamp but I suspect I’ll...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "distributed",
+            "postgres",
+            "index",
+            "uuid"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "distributed",
+        "postgres",
+        "index",
+        "uuid"
+      ],
+      "detail_slug": "bad72da8b86572aa04f73b64380e0229057a3c4c",
+      "is_english_source": true,
+      "sent_at": "2026-10-23T19:22:31.248610+00:00"
+    },
+    {
+      "id": "61bf781b599ce0bd5fe9805a9dc356fa07fdbe92",
+      "title_hash": "ff2029f8f8e5a3e0179625fa49e75b45ae9c0bf6",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Time Nuts (2005)",
+      "link": "http://leapsecond.com/time-nuts.htm",
+      "published_at": "2026-10-23T17:12:51+00:00",
+      "summary": "HN story type: story HN points: 20 HN comments: 13 HN top comments: jacquesm: So, I originally posted this a while back when I was hip-deep in nano-second level time measurement and learning every day how little I knew about this field. We all take for granted that there are a billion nano seconds in a second and that in theory you can count those one-by-one if you have a precise enough oscillator but to actually have stability good enough to track the effects of sub-cycle changes to radio... aftbit: There's a lot of interesting stuff in the time-nut world. There's a fun mailing list at https://time-nuts.febo.narkive.com/ and Jeff Geerling has been doing a lot of stuff with clocks lately on YouTube. An interesting intro project is to set up a GPSDO and track the long-term aging of an OXCO or Rubidium standard (many of which are surplused out of telecom applications for somewhat reasonable prices on eBay). Also... helterskelter2: Thank you! I've had the idea of aquiring an atomic clock in the back of my head for a while now and I'm glad to see there's a like-minded community out there. I'm not even sure what I'd do with it except measure time dilation effects.",
+      "fetched_at": "2026-10-23T19:20:13.510051+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50212281",
+      "hn_story_type": "story",
+      "hn_points": "20",
+      "hn_comments_count": "13",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50212281",
+      "hn_item_text": "",
+      "hn_comment_preview": "jacquesm: So, I originally posted this a while back when I was hip-deep in nano-second level time measurement and learning every day how little I knew about this field. We all take for granted that there are a billion nano seconds in a second and that in theory you can count those one-by-one if you have a precise enough oscillator but to actually have stability good enough to track the effects of sub-cycle changes to radio...\naftbit: There's a lot of interesting stuff in the time-nut world. There's a fun mailing list at https://time-nuts.febo.narkive.com/ and Jeff Geerling has been doing a lot of stuff with clocks lately on YouTube. An interesting intro project is to set up a GPSDO and track the long-term aging of an OXCO or Rubidium standard (many of which are surplused out of telecom applications for somewhat reasonable prices on eBay). Also...\nhelterskelter2: Thank you! I've had the idea of aquiring an atomic clock in the back of my head for a while now and I'm glad to see there's a like-minded community out there. I'm not even sure what I'd do with it except measure time dilation effects.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "31",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=4,tools_agents=7,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide"
+      ],
+      "detail_slug": "61bf781b599ce0bd5fe9805a9dc356fa07fdbe92",
+      "is_english_source": true,
+      "sent_at": "2026-10-23T19:22:31.248610+00:00"
+    },
+    {
+      "id": "8c3cf75040acc78efe3f8d5970c330828afc685a",
+      "title_hash": "0ed8c81a9dc82a35ea15a06df17687b7288204d6",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Swurf – Swipe through the real web",
+      "link": "https://swurf.org/",
+      "published_at": "2026-10-23T06:54:52+00:00",
+      "summary": "HN story type: story HN points: 21 HN comments: 4 HN post text: Hello HN, Swurf allows you to swipe through the real web one page after another. It learns what you like and doesn’t show you the same page twice. The idea came naturally: there’s a seemingly infinite amount of high quality blog posts, random topic rabbit holes, and trending or cool sites that exist which the average person simply will never load on their browser. Swurf solves that by allowing you to rapidly traverse a constantly growing and learning feed of sites that it thinks you’d want to view. Quickly sift through endless pages and find things you like - effortlessly. One of the core drivers for making this project was the desire for real content. The project started as a simple tool for myself to find new and interesting things to learn and read about. Hours spent scrolling on my phone - while it still has its place - is increasingly losing its sense of reward. It’s genuinely hard to put into words exactly how swurfin’ feels but it’s almost refreshing in a sense. I encourage you to try it out and provide feedback. At this time there are no accounts and you can jump in and start swurfin’ immediately. There is a three dot menu button on the bottom right which allows you to s... HN top comments: hggh: It reminds me of StumbleUpon [0] [0] https://en.wikipedia.org/wiki/StumbleUpon lysace: I like the idea. Maybe add a very brief explanation about how it learns? Also please make a tvOS version. It's a perfect fit. :) Bug report: Copying selected text doesn't work. Mac/Chrome. Via keyboard shortcuts or context menu.",
+      "fetched_at": "2026-10-23T19:20:13.510051+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50205320",
+      "hn_story_type": "story",
+      "hn_points": "21",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50205320",
+      "hn_item_text": "Hello HN, Swurf allows you to swipe through the real web one page after another. It learns what you like and doesn’t show you the same page twice. The idea came naturally: there’s a seemingly infinite amount of high quality blog posts, random topic rabbit holes, and trending or cool sites that exist which the average person simply will never load on their browser. Swurf solves that by allowing you to rapidly traverse a constantly growing and learning feed of sites that it thinks you’d want to view. Quickly sift through endless pages and find things you like - effortlessly. One of the core drivers for making this project was the desire for real content. The project started as a simple tool for myself to find new and interesting things to learn and read about. Hours spent scrolling on my phone - while it still has its place - is increasingly losing its sense of reward. It’s genuinely hard to put into words exactly how swurfin’ feels but it’s almost refreshing in a sense. I encourage you to try it out and provide feedback. At this time there are no accounts and you can jump in and start swurfin’ immediately. There is a three dot menu button on the bottom right which allows you to s...",
+      "hn_comment_preview": "hggh: It reminds me of StumbleUpon [0] [0] https://en.wikipedia.org/wiki/StumbleUpon\nlysace: I like the idea. Maybe add a very brief explanation about how it learns? Also please make a tvOS version. It's a perfect fit. :) Bug report: Copying selected text doesn't work. Mac/Chrome. Via keyboard shortcuts or context menu.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=9,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 9,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "show hn",
+            "api",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "show hn",
+        "api",
+        "rag"
+      ],
+      "detail_slug": "8c3cf75040acc78efe3f8d5970c330828afc685a",
+      "is_english_source": true,
+      "sent_at": "2026-10-23T19:22:31.248610+00:00"
+    },
+    {
+      "id": "7040013c59828c65e4a2c443fb8408916f248bcf",
+      "title_hash": "d4e5046e3abbf0cdf15fc1535f66732dbf914bd8",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Total Historian",
+      "link": "https://www.theideasletter.org/essay/total-historian/",
+      "published_at": "2026-10-23T16:23:29+00:00",
+      "summary": "HN story type: story HN points: 16 HN comments: 3 HN top comments: thadt: > There is a palpable public hunger for historical perspective in the 2020s. How could it be otherwise? Most citizens grasp very well that they are witnessing changes of momentous significance right now and that historical change of a profound kind is taking place in our time. Yet this moment finds the academic profession of history ill-prepared to benefit. Many historians experience their discipline as being in t... vinaigrette: Beside his indispensable academic work, Bloch really is a reminder to walk the talk -- no matter your age and position.",
+      "fetched_at": "2026-10-23T19:20:13.510051+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50211504",
+      "hn_story_type": "story",
+      "hn_points": "16",
+      "hn_comments_count": "3",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50211504",
+      "hn_item_text": "",
+      "hn_comment_preview": "thadt: > There is a palpable public hunger for historical perspective in the 2020s. How could it be otherwise? Most citizens grasp very well that they are witnessing changes of momentous significance right now and that historical change of a profound kind is taking place in our time. Yet this moment finds the academic profession of history ill-prepared to benefit. Many historians experience their discipline as being in t...\nvinaigrette: Beside his indispensable academic work, Bloch really is a reminder to walk the talk -- no matter your age and position.",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "38",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=14,practical_tech=4,tools_agents=7,strategy_insight=14,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 14,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 14,
+          "strong_hits": [],
+          "support_hits": [
+            "perspective",
+            "prepare",
+            "essay"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "how + prepare"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "perspective",
+        "prepare",
+        "essay",
+        "how + prepare"
+      ],
+      "detail_slug": "7040013c59828c65e4a2c443fb8408916f248bcf",
+      "is_english_source": true,
+      "sent_at": "2026-10-23T19:22:31.248610+00:00"
+    },
+    {
       "id": "7b4a0b773e32c8d939baa1d9d8c2819677674130",
       "title_hash": "c9a7b1f605569d4a69998c6abc984c1200917efd",
       "source": "GeekNews",
@@ -168724,593 +169298,6 @@
       "detail_slug": "d6e75b12035238114e8d00c586e9ff74452dff97",
       "is_english_source": false,
       "sent_at": "2026-04-21T00:57:00.983166+00:00"
-    },
-    {
-      "id": "f17cc57ae766aea794d47c065e0e5eb6213311a5",
-      "title_hash": "cbb02e3c6306e1ae2d02b38945f32dfa2fa46349",
-      "source": "GeekNews",
-      "title": "Cherri - 애플 단축어를 코드로 작성하는 프로그래밍 언어",
-      "link": "https://news.hada.io/topic?id=28732",
-      "published_at": "2026-04-21T00:31:02+00:00",
-      "summary": "Siri Shortcuts 를 텍스트 코드로 작성하면 실행 가능한 Shortcut 파일로 직접 컴파일 해주는 도메인 특화 언어 단축어의 액션과 1대1 매핑 으로, 컴파일 결과를 Shortcuts 앱에서 바로 디버깅 가능 Go와 Ruby 문법에서 영감을 받았으며, C...",
-      "fetched_at": "2026-04-21T00:52:26.248087+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=2,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "f17cc57ae766aea794d47c065e0e5eb6213311a5",
-      "is_english_source": false,
-      "sent_at": "2026-04-21T00:57:00.983166+00:00"
-    },
-    {
-      "id": "246fcf2df00ae4473f819ba58bddbf36b922f5ab",
-      "title_hash": "31bc07861b954a733ef1ccf467ad7ece15f86f16",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Soul Player C64 – A real transformer running on a 1 MHz Commodore 64",
-      "link": "https://github.com/gizmo64k/soulplayer-c64",
-      "published_at": "2026-04-20T19:51:07+00:00",
-      "summary": "HN story type: story HN points: 65 HN comments: 16 HN top comments: wk_end: > 25K parameters is about 70 million times smaller than GPT-4. It will produce broken sentences. That's the point - the architecture works at this scale. Since it seems to just produce broken and nonsensical sentences (at least based on the one example given) I'm not sure if it does work at this scale. Anyway, as written this passage doesn't really make a whole lot of sense (the point is that it produces broken se... daemonologist: You can chat with the model on the project page: https://indiepixel.de/meful/index.html It (v3) mostly only says hello and bye, but I guess for 25k parameters you can't complain. (I think the rather exuberant copy is probably the product of Claude et al.) anyfoo: This would have blown me away back in the late 80s/early 90s. (Or maybe not, if it doesn't perform better than random, I haven't actually tried it out yet. Some more examples would have been nice!) I wonder how far you could push this while still staying period correct, e.g. by adding a REU (RAM Expansion Unit), or even a GeoRAM (basically a REU on steroids). SuperCPU would also be an option, but for me it's alway...",
-      "fetched_at": "2026-04-21T00:52:26.248087+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47839645",
-      "hn_story_type": "story",
-      "hn_points": "65",
-      "hn_comments_count": "16",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47839645",
-      "hn_item_text": "",
-      "hn_comment_preview": "wk_end: > 25K parameters is about 70 million times smaller than GPT-4. It will produce broken sentences. That's the point - the architecture works at this scale. Since it seems to just produce broken and nonsensical sentences (at least based on the one example given) I'm not sure if it does work at this scale. Anyway, as written this passage doesn't really make a whole lot of sense (the point is that it produces broken se...\ndaemonologist: You can chat with the model on the project page: https://indiepixel.de/meful/index.html It (v3) mostly only says hello and bye, but I guess for 25k parameters you can't complain. (I think the rather exuberant copy is probably the product of Claude et al.)\nanyfoo: This would have blown me away back in the late 80s/early 90s. (Or maybe not, if it doesn't perform better than random, I haven't actually tried it out yet. Some more examples would have been nice!) I wonder how far you could push this while still staying period correct, e.g. by adding a REU (RAM Expansion Unit), or even a GeoRAM (basically a REU on steroids). SuperCPU would also be an option, but for me it's alway...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=5,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 5,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "architecture",
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "index",
-        "github.com"
-      ],
-      "detail_slug": "246fcf2df00ae4473f819ba58bddbf36b922f5ab",
-      "is_english_source": true,
-      "translated_title": "1MHz 코모도어 64에서 돌아간 초소형 트랜스포머",
-      "short_summary": "1MHz 코모도어 64에서 2만5000개 파라미터 규모의 트랜스포머를 실제로 구동한 프로젝트가 HN에 올라왔다. 반응은 기술 데모로서는 흥미롭다는 쪽과, 출력 품질이 너무 낮아 성과를 어디까지 인정할지 모르겠다는 쪽으로 갈렸다.",
-      "why_it_matters": "요즘 AI 경쟁이 더 큰 모델에 쏠린 가운데, 이 사례는 정반대 방향의 실험이 어디까지 가능한지 보여준다. 실용성보다도 극단적인 제약 환경에서 트랜스포머를 어떻게 줄이고 돌릴지에 시선이 모인다.\n- 성능보다 아키텍처 구현 자체에 의미를 두는 사례라서, 온디바이스 AI나 초경량 추론을 다루는 개발자에게 좋은 참고점이 된다.\n- 결과물이 매끄러운 문장을 만들지 못하더라도, 메모리와 연산 예산이 아주 빡빡한 환경에서 무엇을 포기하고 무엇을 남길지 감을 잡게 해준다.\n- 거대한 모델을 그대로 가져오기보다 목적에 맞게 잘라 쓰는 접근이 다시 주목받는 흐름과도 맞닿아 있다.",
-      "hn_reaction_summary": "HN 분위기는 \"기술적으로는 재밌다\"와 \"그래서 실제로 쓸 수 있나\"로 나뉘었다. 감탄은 있었지만, 댓글 다수는 출력 품질과 설명 방식이 기대를 너무 키운다고 봤다.\n- 2만5000개 파라미터라는 극단적 축소 자체는 인상적이지만, 예시 출력이 깨진 문장에 가까워 아키텍처가 정말 유의미하게 작동한 것인지 의문이라는 반응이 나왔다.\n- 직접 돌려본 이용자는 인사말 정도만 겨우 되는 수준이라고 했고, 프로젝트 소개 문구가 실제 결과보다 들떠 보인다는 지적도 있었다.\n- 한편으로는 80~90년대 감성의 해킹 성과로 즐기는 시선도 있었고, REU·GeoRAM·SuperCPU 같은 확장 하드웨어로 어디까지 밀어볼 수 있을지 궁금해하는 의견도 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-21T00:57:00.983166+00:00"
-    },
-    {
-      "id": "63726228d0ddac150f56aa9b1e95286c97c0bdbc",
-      "title_hash": "4982aaa21200737498892486f48da43e55d7e2f5",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Jujutsu megamerges for fun and profit",
-      "link": "https://isaaccorbrey.com/notes/jujutsu-megamerges-for-fun-and-profit",
-      "published_at": "2026-04-20T21:32:10+00:00",
-      "summary": "HN story type: story HN points: 106 HN comments: 24 HN top comments: sukit: Been trying to get into jj lately, but I rely a lot on VS Code's git gutter to review changes as I code. Doesn't look like jj has an equivalent in VS Code. Anyone got tool recommendations? nchmy: Some fantastic tricks in this article. Will definitely improve my Megamerge game. Thanks! Though, I'd be remiss not to mention that this (and any other) jj workflow would be much easier with jjui. It's the best TUI around, not just for jj I proposed incorporating some of this article into it. https://github.com/idursun/jjui/discussions/644 VerTiGo_Etrex: Makes me happy to see the influx of jj posts as of late. Great tool. Roughly this workflow is how I convinced a few friends to finally loosen their death grip on git and try something new.",
-      "fetched_at": "2026-04-21T00:52:26.248087+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47841129",
-      "hn_story_type": "story",
-      "hn_points": "106",
-      "hn_comments_count": "24",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47841129",
-      "hn_item_text": "",
-      "hn_comment_preview": "sukit: Been trying to get into jj lately, but I rely a lot on VS Code's git gutter to review changes as I code. Doesn't look like jj has an equivalent in VS Code. Anyone got tool recommendations?\nnchmy: Some fantastic tricks in this article. Will definitely improve my Megamerge game. Thanks! Though, I'd be remiss not to mention that this (and any other) jj workflow would be much easier with jjui. It's the best TUI around, not just for jj I proposed incorporating some of this article into it. https://github.com/idursun/jjui/discussions/644\nVerTiGo_Etrex: Makes me happy to see the influx of jj posts as of late. Great tool. Roughly this workflow is how I convinced a few friends to finally loosen their death grip on git and try something new.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "35",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=11,practical_tech=4,tools_agents=11,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 11,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "workflow"
-          ],
-          "support_hits": [
-            "workflow",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + review"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "workflow",
-        "tool"
-      ],
-      "detail_slug": "63726228d0ddac150f56aa9b1e95286c97c0bdbc",
-      "is_english_source": true,
-      "translated_title": "Jujutsu로 메가머지 다루는 법",
-      "short_summary": "Jujutsu(jj)로 큰 변경 묶음을 더 수월하게 합치는 흐름을 소개한 글이 HN에서 주목받았다. 댓글에서는 실전 팁에 대한 호평과 함께 VS Code 연동 부족, jjui 같은 보조 도구 이야기가 함께 나왔다.",
-      "why_it_matters": "브랜치가 길어지거나 한꺼번에 합쳐야 할 변경이 커질수록 머지 전략이 곧 생산성 문제가 된다. 이번 글은 그런 상황에서 Git 바깥의 선택지를 다시 보게 만든다.\n- 큰 변경을 여러 갈래로 쌓아 관리하는 팀이라면 jj식 워크플로가 머지 부담을 어떻게 줄일지 점검해볼 만하다.\n- 다만 VS Code의 git gutter처럼 익숙한 보조 기능이 비어 있다는 반응이 있어 IDE 중심 팀은 전환 비용도 함께 따져야 한다.\n- 실무에서는 코어 명령보다 주변 도구가 체감 완성도를 좌우한다. jjui 같은 TUI가 함께 언급된 점도 그 신호로 읽힌다.",
-      "hn_reaction_summary": "전체 분위기는 대체로 호의적이다. 메가머지 운영에 바로 써먹을 팁이라는 반응이 많았고, 최근 jj 관련 글이 늘어나는 흐름을 반기는 목소리도 보였다.\n- 글의 요령이 실제 작업 습관을 바꿔줄 만하다는 평가가 나왔다.\n- jjui를 함께 써야 워크플로가 더 편해진다는 추천이 반복됐다.\n- 반론 쪽에서는 VS Code에서 변경선을 바로 보는 경험이 부족하다는 점이 걸림돌로 지적됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-21T00:57:00.983166+00:00"
-    },
-    {
-      "id": "cba6d0b8ee618c2effd07a40c68ef40a03a25153",
-      "title_hash": "237d1396277b396567790ea47696d45adacdf9ab",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Kimi vendor verifier – verify accuracy of inference providers",
-      "link": "https://www.kimi.com/blog/kimi-vendor-verifier",
-      "published_at": "2026-04-20T18:39:53+00:00",
-      "summary": "HN story type: story HN points: 150 HN comments: 15 HN top comments: m1keil: A related article from fireworks.ai about running open weights models and why such verifier needs to exists in the first place https://fireworks.ai/blog/quality-first-with-kimi-k2p5 foundry27: I like this idea. This might be one of the more effective social pressures available for getting inference providers to fix long-standing issues. AWS Bedrock, for example, has crippling defects in its serving stack for Kimi’s K2 and K2.5 models that cause 20%-30% of attempts to emit tool calls to instead silently end the conversation (with no token output). That makes AWS effectively irrelevant as a serious infere... bobbiechen: If I understand correctly, threat model here seems to be to protect against accidental issues that would impact performance, but doesn't cover malicious actor. For example, Sketchy Provider tells you they are running the latest and greatest, but actually is knowingly running some cheaper (and worse) model and pocketing the difference. These tests wouldn't help since Sketchy Provider could detect when they're being...",
-      "fetched_at": "2026-04-21T00:52:26.248087+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47838703",
-      "hn_story_type": "story",
-      "hn_points": "150",
-      "hn_comments_count": "15",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47838703",
-      "hn_item_text": "",
-      "hn_comment_preview": "m1keil: A related article from fireworks.ai about running open weights models and why such verifier needs to exists in the first place https://fireworks.ai/blog/quality-first-with-kimi-k2p5\nfoundry27: I like this idea. This might be one of the more effective social pressures available for getting inference providers to fix long-standing issues. AWS Bedrock, for example, has crippling defects in its serving stack for Kimi’s K2 and K2.5 models that cause 20%-30% of attempts to emit tool calls to instead silently end the conversation (with no token output). That makes AWS effectively irrelevant as a serious infere...\nbobbiechen: If I understand correctly, threat model here seems to be to protect against accidental issues that would impact performance, but doesn't cover malicious actor. For example, Sketchy Provider tells you they are running the latest and greatest, but actually is knowingly running some cheaper (and worse) model and pocketing the difference. These tests wouldn't help since Sketchy Provider could detect when they're being...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=9,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 9,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "performance",
-            "inference"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "inference"
-      ],
-      "detail_slug": "cba6d0b8ee618c2effd07a40c68ef40a03a25153",
-      "is_english_source": true,
-      "translated_title": "Kimi 공급자 검증기, 추론 품질 점검",
-      "short_summary": "Kimi 진영이 추론 API 사업자가 모델을 얼마나 정확히 서빙하는지 확인하는 검증 도구를 내놨다. HN에서는 품질 감시 장치로 반기는 반응과 함께, 악의적 속임수까지 막기는 어렵다는 지적이 나왔다.",
-      "why_it_matters": "같은 모델 이름을 내걸어도 실제 응답 품질은 공급자마다 꽤 다를 수 있다. 이제는 모델 자체 성능만이 아니라, 누가 얼마나 제대로 서빙하느냐를 검증하는 일이 운영 실무의 한 부분이 되고 있다.\n- 오픈웨이트 모델도 공급자별 설정과 툴 호출 처리, 스트리밍 방식 차이 때문에 체감 품질이 크게 달라질 수 있다.\n- 이런 검증 도구가 퍼지면 장애를 덮기보다 빨리 고치라는 압박이 커진다. 공급자 비교 기준도 벤치마크 점수에서 실제 운영 품질로 옮겨간다.\n- 모델 도입 전에는 가격과 속도만 볼 수 없다. 배포 전 공급자별 검증과 회귀 테스트를 함께 돌리는 흐름이 더 강해질 가능성이 크다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이다. 다만 이 도구가 어디까지 검증해 주는지, 현업에서 믿고 쓸 수 있는 기준이 될 수 있는지가 핵심 논점으로 붙었다.\n- 긍정 쪽에서는 추론 사업자의 오래된 서빙 결함을 드러내고, 고치게 만드는 공개 압박 수단이 될 수 있다는 반응이 많았다.\n- AWS Bedrock에서 Kimi K2·K2.5 툴 호출이 20~30% 확률로 조용히 끝난다는 사례가 언급되며, 같은 모델이라도 서빙이 불안하면 실무에서는 사실상 쓸 수 없다는 불만이 나왔다.\n- 반론으로는 악의적 사업자가 검증 요청만 따로 감지해 대응하면 속임수를 잡기 어렵다는 지적이 있었다. 즉 실수나 품질 저하는 잘 잡아도, 고의적 사칭까지 막는 장치는 아니라는 평가다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-21T00:57:00.983166+00:00"
-    },
-    {
-      "id": "6db3f5c09504ffdea8c0bb7dba004f658ec41460",
-      "title_hash": "3af126066049e4bcd10ea741eb7ef3902d066fa4",
-      "source": "GeekNews",
-      "title": "Show GN: VS Code/Cursor에서 개발과 인프라 반복 작업을 통합하는 익스텐션: alogin-skills",
-      "link": "https://news.hada.io/topic?id=28726",
-      "published_at": "2026-04-20T16:14:08+00:00",
-      "summary": "최근 바이브코딩을 활용해 VS Code와 Cursor 내에서 개발하며, 원격 서버 접속과 반복되는 명령어 실행을 한번에 처리할 수 있는 익스텐션 alogin-skills를 만들어 공개했습니다. 이 툴의 뿌리는 20년 전 주니어 시절, 수십 대의 서버를 관리하며 만들었던 'alogin'이라는 작은 스크립트입니다. 당시에는",
-      "fetched_at": "2026-04-20T20:41:26.097358+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "56",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=2,tools_agents=11,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 11,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "인프라"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "cursor"
-          ],
-          "support_hits": [
-            "툴"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cursor",
-        "툴"
-      ],
-      "detail_slug": "6db3f5c09504ffdea8c0bb7dba004f658ec41460",
-      "is_english_source": false,
-      "sent_at": "2026-04-20T20:44:05.723024+00:00"
-    },
-    {
-      "id": "6a7d71ebe9a268a84c07bf5ac17dd14c59bb44a8",
-      "title_hash": "ca8b4af669dc72ddf278c0275f6b9aeeb108d590",
-      "source": "GeekNews",
-      "title": "첫 프로젝트 확보는 기존 인맥과 소개가 중심이었고, 전 직장 동료·지인·커뮤니티 연결이 반복적으로 출...",
-      "link": "https://news.hada.io/topic?id=28729",
-      "published_at": "2026-04-20T17:37:44+00:00",
-      "summary": "Slack, 포럼, 오픈소스 커뮤니티, 블로그 같은 공개 활동에서 쌓인 신뢰와 가시성 이 실제 의뢰와 장기 고객 관계로 이어짐 범용 컨설팅보다 특정 기술, 산업군, 문제 유형에 집중한 전문화와 작업 증명 이 차별화 수단으로 자주 언급됨 콜드 아웃리치는 대...",
-      "fetched_at": "2026-04-20T20:41:26.097358+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "산업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "신뢰"
-      ],
-      "detail_slug": "6a7d71ebe9a268a84c07bf5ac17dd14c59bb44a8",
-      "is_english_source": false,
-      "sent_at": "2026-04-20T20:44:05.723024+00:00"
-    },
-    {
-      "id": "0441463c2b0d72fe26779ef0970a47cff48c1f82",
-      "title_hash": "428b702dc05b5a4a8383c03d6bdaa19b5d992588",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Kimi K2.6: Advancing open-source coding",
-      "link": "https://www.kimi.com/blog/kimi-k2-6",
-      "published_at": "2026-04-20T15:28:13+00:00",
-      "summary": "HN story type: story HN points: 445 HN comments: 229 HN top comments: simonw: Accessed via OpenRouter, this one decided to wrap the SVG pelican in HTML with controls for the animation speed: https://gisthost.github.io/?ecaad98efe0f747e27bc0e0ebc669e94... Transcript and HTML here: https://gist.github.com/simonw/ecaad98efe0f747e27bc0e0ebc669... rane: Added support for Kimi in https://github.com/raine/claude-code-proxy and it does appear to work surprisingly well with Claude Code, although the usage limit for the entry tier doesn't seem as generous as I'd have expected. game_the0ry: There is some humor in the fact that china (of all countries) is pioneering possibly the world's most important tech via open source, while we (US) are doing the exact opposite.",
-      "fetched_at": "2026-04-20T20:41:26.097358+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47835735",
-      "hn_story_type": "story",
-      "hn_points": "445",
-      "hn_comments_count": "229",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47835735",
-      "hn_item_text": "",
-      "hn_comment_preview": "simonw: Accessed via OpenRouter, this one decided to wrap the SVG pelican in HTML with controls for the animation speed: https://gisthost.github.io/?ecaad98efe0f747e27bc0e0ebc669e94... Transcript and HTML here: https://gist.github.com/simonw/ecaad98efe0f747e27bc0e0ebc669...\nrane: Added support for Kimi in https://github.com/raine/claude-code-proxy and it does appear to work surprisingly well with Claude Code, although the usage limit for the entry tier doesn't seem as generous as I'd have expected.\ngame_the0ry: There is some humor in the fact that china (of all countries) is pioneering possibly the world's most important tech via open source, while we (US) are doing the exact opposite.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=24,practical_tech=9,tools_agents=24,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 24,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 24,
-          "strong_hits": [
-            "claude code",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "ide",
-        "claude + code",
-        "ai + coding"
-      ],
-      "detail_slug": "0441463c2b0d72fe26779ef0970a47cff48c1f82",
-      "is_english_source": true,
-      "translated_title": "Kimi K2.6, 오픈소스 코딩 경쟁 밀어올리다",
-      "short_summary": "Kimi K2.6가 오픈소스 코딩 모델의 존재감을 끌어올리며 HN 전면에 올랐다. 댓글에서는 실제 도구 연동 경험, 사용 한도, 중국의 오픈소스 전략을 둘러싼 논의가 이어졌다.",
-      "why_it_matters": "오픈소스 코딩 모델이 실사용 도구 체인에 더 깊게 들어올 수 있다는 신호로 읽힌다. 비용과 벤더 종속성을 따지는 팀이라면 바로 검토할 만한 변화다.\n- OpenRouter나 Claude Code 프록시처럼 기존 경로에 붙여 써보려는 반응이 나왔다. 새 워크플로를 처음부터 만들지 않아도 시험 도입이 가능하다는 뜻이다.\n- 폐쇄형 모델 중심이던 코딩 보조 시장에 대체재 압박이 커질 수 있다. 성능이 받쳐주면 가격 협상력과 배포 선택지가 넓어진다.\n- 다만 입문 요금제의 사용 한도가 기대보다 넉넉하지 않다는 언급도 있었다. 팀 단위 적용 전에는 호출량과 제한 조건을 먼저 계산해볼 필요가 있다.",
-      "hn_reaction_summary": "분위기는 대체로 호의적이지만 일방적 찬사는 아니다. 직접 써본 체감 성능 평가와 함께 서비스 정책, 개방 전략에 대한 시선이 같이 붙었다.\n- Simon Willison 댓글처럼 결과물을 바로 보여주는 실사용 예시가 주목받았다. 단순 벤치마크보다 실제 코딩 산출물을 본 반응이 좋았다.\n- Claude Code 프록시에 붙여보니 의외로 잘 작동했다는 평가가 나왔다. 반면 엔트리 요금제 한도는 생각보다 빠듯하다는 지적도 반복됐다.\n- 중국이 오픈소스로 앞서가고 미국은 반대로 가는 것 아니냐는 댓글이 공감을 얻었다. 모델 성능뿐 아니라 누가 더 개방적으로 생태계를 키우는지도 쟁점으로 떠올랐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-20T20:44:05.723024+00:00"
     }
   ],
   "topic_digests": {
