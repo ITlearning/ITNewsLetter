@@ -1,6 +1,570 @@
 {
   "items": [
     {
+      "id": "9a026dd65bb834be6cda12638a8a87329181bfa1",
+      "title_hash": "6fa521bec8379a0612807433f572bbb937c7a66b",
+      "source": "GeekNews",
+      "title": "vLLM의 도구 호출 정확도 문제 해결하기",
+      "link": "https://news.hada.io/topic?id=36103",
+      "published_at": "2026-10-27T10:33:31+00:00",
+      "summary": "도구 호출이 스키마를 어기면 오류 메시지와 재시도가 쌓여 에이전트의 품질과 비용에 영향을 줌. Ubicloud의 Kimi K2.6 테스트에서는 vLLM 0.28의 스키마 정확도가 92% 에 그쳤음 제약 디코딩(constrained decoding) 은 생성 단계마다 스키마에 맞지 않는 토큰을 ...",
+      "fetched_at": "2026-10-27T10:36:45.415321+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "ai + coding"
+      ],
+      "detail_slug": "9a026dd65bb834be6cda12638a8a87329181bfa1",
+      "is_english_source": false,
+      "sent_at": "2026-10-27T10:39:08.054715+00:00"
+    },
+    {
+      "id": "710cb45444826571aaa3062fe131c402869a2f74",
+      "title_hash": "adc1fd93c466fcba2b4ae456fed80e8062269495",
+      "source": "GeekNews",
+      "title": "Show GN: 카드 배틀 - Decision Model을 이용한..",
+      "link": "https://news.hada.io/topic?id=36100",
+      "published_at": "2026-10-27T09:37:57+00:00",
+      "summary": "자연어로 카드 덱을 만들어서 대전하는 카드 배틀 게임을 만들어보았습니다. 본질적으로는 전에 만들었던 텍스트배틀과 같은데 Decision Model을 사용하면서 카드 3장으로 한 덱을 만드는 쪽으로 구현했습니다. 최소한의 광고만으로 비용이 유지될지가 관건이고 무리다 싶으면 내려갈 수 있습니다. ㅠ",
+      "fetched_at": "2026-10-27T10:36:45.415321+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "decision"
+      ],
+      "detail_slug": "710cb45444826571aaa3062fe131c402869a2f74",
+      "is_english_source": false,
+      "sent_at": "2026-10-27T10:39:08.054715+00:00"
+    },
+    {
+      "id": "02629b5510ed4d145a81394d2749a0c7f9a622e4",
+      "title_hash": "c82433dbec38342b8527c42e4bf1afc73e936a7c",
+      "source": "GeekNews",
+      "title": "Nietzschian Debugger - 답 대신 질문으로 스스로 버그 원인을 찾게 하는 디버거",
+      "link": "https://news.hada.io/topic?id=36098",
+      "published_at": "2026-10-27T07:32:17+00:00",
+      "summary": "Nietzschian Debugger 는 버그를 고쳐주는 대신 가정과 증거, 추론을 되묻고 개발자가 직접 원인을 찾도록 이끄는 CLI 도구임 모든 응답을 질문으로 구성 하며 수정 방법은 알려주지 않음. AI 답변을 복사하는 지름길보다 직접 고민하는 과정을 통해 디버깅 역량을 기...",
+      "fetched_at": "2026-10-27T10:36:45.415321+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli"
+      ],
+      "detail_slug": "02629b5510ed4d145a81394d2749a0c7f9a622e4",
+      "is_english_source": false,
+      "sent_at": "2026-10-27T10:39:08.054715+00:00"
+    },
+    {
+      "id": "b58cccd315eff0399ec47bc54137a6bb7ff3f6b3",
+      "title_hash": "4dc2bd01d682b503c56bd19762f828afec47a4ff",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Mythical Man-Month in the Age of AI",
+      "link": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "published_at": "2026-10-27T06:25:37+00:00",
+      "summary": "HN story type: story HN points: 155 HN comments: 113 HN top comments: rimeice: > \"Adding agents to a project with unclear requirements gets you the wrong answer faster.\" The thing is it gets you the wrong answer so fast it’s now the best way to figure out the right requirements. comboy: Related thing is that LLMs are still notoriously bad at writing instructions for themselves (so managing themselves also). They tend to overspecify. If I had a copy of myself I would tell him \"do the thing\", but agents say \"do the thing like this and this, it must be such and such, use X and put it together that way\". The subagent is just as intelligent but now it's constrained, sometimes as you start developing s... jFriedensreich: The author misapplies/misunderstands the mythical man month even in the first example. It does not apply for idea generation and also not to problem solving/ fixing things, only to software creation. Even then, it also does not apply when creation is cheap, if you can generate 100 solutions cheaply without coordination between them and pick the winner with a relatively fast eval, creation behaves way more like fix...",
+      "fetched_at": "2026-10-27T10:36:45.415321+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50255298",
+      "hn_story_type": "story",
+      "hn_points": "155",
+      "hn_comments_count": "113",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50255298",
+      "hn_item_text": "",
+      "hn_comment_preview": "rimeice: > \"Adding agents to a project with unclear requirements gets you the wrong answer faster.\" The thing is it gets you the wrong answer so fast it’s now the best way to figure out the right requirements.\ncomboy: Related thing is that LLMs are still notoriously bad at writing instructions for themselves (so managing themselves also). They tend to overspecify. If I had a copy of myself I would tell him \"do the thing\", but agents say \"do the thing like this and this, it must be such and such, use X and put it together that way\". The subagent is just as intelligent but now it's constrained, sometimes as you start developing s...\njFriedensreich: The author misapplies/misunderstands the mythical man month even in the first example. It does not apply for idea generation and also not to problem solving/ fixing things, only to software creation. Even then, it also does not apply when creation is cheap, if you can generate 100 solutions cheaply without coordination between them and pick the winner with a relatively fast eval, creation behaves way more like fix...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=4,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm",
+        "agent"
+      ],
+      "detail_slug": "b58cccd315eff0399ec47bc54137a6bb7ff3f6b3",
+      "is_english_source": true,
+      "sent_at": "2026-10-27T10:39:08.054715+00:00"
+    },
+    {
+      "id": "27d57f742425bac9769f96115b4ca6857467e835",
+      "title_hash": "17ea0a75fbc464d8294a5ebf90367ecd6d7c3b4d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "16-bit Windows (Windows 1.x, 2.x, 3.0, 3.1, etc.) on 64-bit Windows",
+      "link": "https://github.com/otya128/winevdm",
+      "published_at": "2026-10-27T01:15:04+00:00",
+      "summary": "HN story type: story HN points: 91 HN comments: 22 HN top comments: haunter: Installed MS Office 2.0 some months ago with it just for fun. It actually works pretty well apart from the dictionary files, for some reason those are not recognized https://files.catbox.moe/dy4bqy.png I’ve used it for a week just I was curious: 1, is it good enough for modern day to day word processing (mostly emails)? Yes it is 2, can the modern word processors (Office 365, LibreOffice, Google Docs) recognize an... gabmartini: Nice, I will be able to play Civ2 on Windows 11! In related news, with the latest WINE on Linux 16 bits/32 bits applications are supported, so I was able to run my beloved Civilization 2 without problems. londons_explore: I really don't understand why Microsoft didn't build this when they released 64 bit windows. 16 bit windows wasn't complicated, and a simple VM and API translation layer could have kept compatibility going back 30+ years for not many engineering hours. Yet instead they dropped 16 bit windows support and probably spent more engineering hours to support all the ancient software trying to update, and users who held b...",
+      "fetched_at": "2026-10-27T10:36:45.415321+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50253529",
+      "hn_story_type": "story",
+      "hn_points": "91",
+      "hn_comments_count": "22",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50253529",
+      "hn_item_text": "",
+      "hn_comment_preview": "haunter: Installed MS Office 2.0 some months ago with it just for fun. It actually works pretty well apart from the dictionary files, for some reason those are not recognized https://files.catbox.moe/dy4bqy.png I’ve used it for a week just I was curious: 1, is it good enough for modern day to day word processing (mostly emails)? Yes it is 2, can the modern word processors (Office 365, LibreOffice, Google Docs) recognize an...\ngabmartini: Nice, I will be able to play Civ2 on Windows 11! In related news, with the latest WINE on Linux 16 bits/32 bits applications are supported, so I was able to run my beloved Civilization 2 without problems.\nlondons_explore: I really don't understand why Microsoft didn't build this when they released 64 bit windows. 16 bit windows wasn't complicated, and a simple VM and API translation layer could have kept compatibility going back 30+ years for not many engineering hours. Yet instead they dropped 16 bit windows support and probably spent more engineering hours to support all the ancient software trying to update, and users who held b...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=5,strategy_insight=4,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 5,
+        "strategy_insight": 4,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api",
+        "github.com"
+      ],
+      "detail_slug": "27d57f742425bac9769f96115b4ca6857467e835",
+      "is_english_source": true,
+      "sent_at": "2026-10-27T10:39:08.054715+00:00"
+    },
+    {
+      "id": "8e8a8296627eedc2779543a49dc45f8ec47595e8",
+      "title_hash": "f681d5d00a501a69c2f8b317b0f0b3ea03972e7e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Three new discoveries in mathematics, computer science, and physics",
+      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "published_at": "2026-10-26T21:35:28+00:00",
+      "summary": "HN story type: story HN points: 929 HN comments: 450 HN post text: Related: The Exponential Time Hypothesis Is False [pdf] - https://news.ycombinator.com/item?id=50251661 HN top comments: rickdeckard: > \"We are announcing three new discoveries in mathematics, computer science, and physics about harmonic analysis, complexity theory, and quantum field theory.\" I'm still not fond of the bicycle manufacturer announcing its achievements in bicycle racing, even if it selects the 5 top cyclists to support the orchestration of the announcement. From past incidences it's already known that their model is very likely tra... stillpointlab: I think OpenAI deserve credit for adjusting their approach after the last math drop. I think Terrance Tao shares some credit here for galvanizing the response. Including the relevant mathematicians and scientists before dumping this onto the public is sure to go a long way to relaxing fears in those communities. I'm not sure how they will deal with accusations of favoritism but at least they are demonstrating a wi... abetusk: ETH is false! I really would not have believed it. [0]: > We give a deterministic algorithm for exactly counting the satisfying assignments of an arbitrary k-CNF formula. For every fixed k ⩾ 2, on a formula with n variables and m clauses, our algorithm uses $poly_k (n, m)$ space and runs in time $(n + m)^{O_k(1)} 2^{n/(\\log n)^{1/2 + o(1)}}$ The dominant term there is (roughly) $2^{n / (\\log n)^{0.5}}$, so still s...",
+      "fetched_at": "2026-10-27T10:36:45.415321+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50251344",
+      "hn_story_type": "story",
+      "hn_points": "929",
+      "hn_comments_count": "450",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50251344",
+      "hn_item_text": "Related: The Exponential Time Hypothesis Is False [pdf] - https://news.ycombinator.com/item?id=50251661",
+      "hn_comment_preview": "rickdeckard: > \"We are announcing three new discoveries in mathematics, computer science, and physics about harmonic analysis, complexity theory, and quantum field theory.\" I'm still not fond of the bicycle manufacturer announcing its achievements in bicycle racing, even if it selects the 5 top cyclists to support the orchestration of the announcement. From past incidences it's already known that their model is very likely tra...\nstillpointlab: I think OpenAI deserve credit for adjusting their approach after the last math drop. I think Terrance Tao shares some credit here for galvanizing the response. Including the relevant mathematicians and scientists before dumping this onto the public is sure to go a long way to relaxing fears in those communities. I'm not sure how they will deal with accusations of favoritism but at least they are demonstrating a wi...\nabetusk: ETH is false! I really would not have believed it. [0]: > We give a deterministic algorithm for exactly counting the satisfying assignments of an arbitrary k-CNF formula. For every fixed k ⩾ 2, on a formula with n variables and m clauses, our algorithm uses $poly_k (n, m)$ space and runs in time $(n + m)^{O_k(1)} 2^{...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=9,tools_agents=12,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "index"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli"
+      ],
+      "detail_slug": "8e8a8296627eedc2779543a49dc45f8ec47595e8",
+      "is_english_source": true,
+      "sent_at": "2026-10-27T10:39:08.054715+00:00"
+    },
+    {
+      "id": "41449023fab8c88ae7c8c8d1bb1ed7a9366c1eb3",
+      "title_hash": "e095e9165d49f7ffad63eb7d2dbdfac1953ae794",
+      "source": "TechCrunch",
+      "title": "This startup’s self-driving excavators help dig up $600M in new funding",
+      "link": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+      "published_at": "2026-10-26T17:45:00+00:00",
+      "summary": "Bedrock Robotics, which is now valued at $4.1 billion, is particularly focused on autonomous excavators, in part because of a growing shortage of skilled operators.",
+      "fetched_at": "2026-10-27T10:36:45.415321+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "30",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=24,practical_tech=-4,tools_agents=-4,strategy_insight=-4,industry_business=24",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": -4,
+        "strategy_insight": -4,
+        "industry_business": 24
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "funding"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "funding"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "funding"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 24,
+          "strong_hits": [
+            "funding",
+            "startup"
+          ],
+          "support_hits": [
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "startup + funding"
+          ],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "funding",
+        "startup",
+        "startup + funding",
+        "techcrunch.com"
+      ],
+      "detail_slug": "41449023fab8c88ae7c8c8d1bb1ed7a9366c1eb3",
+      "is_english_source": true,
+      "sent_at": "2026-10-27T10:39:08.054715+00:00"
+    },
+    {
       "id": "c7d3f7c1aa338f932da9c12ce9650b1868841046",
       "title_hash": "01343afe08902b64da61042c2701b30b7a7220fc",
       "source": "GeekNews",
@@ -168069,635 +168633,6 @@
       "hn_reaction_summary": "댓글 분위기는 대체로 호의적이지만, 구조와 운영성 검증이 더 필요하다는 신중론이 함께 나왔다. 아이디어 자체보다 실제 클라우드 환경에서 얼마나 무리 없이 굴러가느냐에 관심이 모였다.\n- 앱이 시크릿을 직접 보지 않게 하는 발상은 반갑다는 반응이 있었다. 특히 AI 워크플로에 맞는 별도 경로 방식이라는 평가가 나왔다.\n- 한편 컨트롤러가 컨트롤 플레인과 데이터 플레인을 함께 맡는 구조는 분리하는 편이 낫다는 지적이 반복됐다.\n- AKS, EKS 같은 관리형 쿠버네티스에서도 잘 동작하는지, 지원 범위가 어디까지인지가 주요 질문으로 나왔다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-25T22:00:49.179582+00:00"
-    },
-    {
-      "id": "5eba1a0c0a40b16e9d80aaecd51d5dfaddd34fcb",
-      "title_hash": "b810541c3fca24a5d5284c572764c8e41607fa84",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "How Hard Is It to Open a File?",
-      "link": "https://blog.sebastianwick.net/posts/how-hard-is-it-to-open-a-file/",
-      "published_at": "2026-04-24T02:01:40+00:00",
-      "summary": "HN story type: story HN points: 17 HN comments: 2 HN top comments: croemer: Good explanation of the flatpak sandbox escape. For those allergic to LLM writing: Some sentences read very LLM-like, e.g.: > The fix wasn’t “change one function” — it was “audit the entire call chain from portal request to bubblewrap execution and replace every path string with an fd.” TZubiri: Knowing what to be concerned about in security is a skill, it is possible to overengineer security and put too much effort in non risks. This reminds me of when a student was concerned about the client leaking the server's ip address. Not saying that there aren't vulns, but the fix is fixing the bug and using a standard hardening mechanism like selinux or unix users. I strongly doubt that the root issue is the goo...",
-      "fetched_at": "2026-04-25T21:55:32.270546+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47884625",
-      "hn_story_type": "story",
-      "hn_points": "17",
-      "hn_comments_count": "2",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47884625",
-      "hn_item_text": "",
-      "hn_comment_preview": "croemer: Good explanation of the flatpak sandbox escape. For those allergic to LLM writing: Some sentences read very LLM-like, e.g.: > The fix wasn’t “change one function” — it was “audit the entire call chain from portal request to bubblewrap execution and replace every path string with an fd.”\nTZubiri: Knowing what to be concerned about in security is a skill, it is possible to overengineer security and put too much effort in non risks. This reminds me of when a student was concerned about the client leaking the server's ip address. Not saying that there aren't vulns, but the fix is fixing the bug and using a standard hardening mechanism like selinux or unix users. I strongly doubt that the root issue is the goo...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=14,tools_agents=17,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 17,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "security",
-            "sandbox"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 17,
-          "strong_hits": [
-            "sandbox",
-            "cli",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "sandbox",
-        "cli",
-        "llm"
-      ],
-      "detail_slug": "5eba1a0c0a40b16e9d80aaecd51d5dfaddd34fcb",
-      "is_english_source": true,
-      "translated_title": "파일 하나 여는 일은 왜 이렇게 어려울까",
-      "short_summary": "이 글은 파일 열기처럼 단순해 보이는 동작도 샌드박스와 권한 경계를 만나면 얼마나 복잡해지는지 짚는다. HN에서는 Flatpak 샌드박스 탈출 설명은 좋았다는 반응과 함께, 보안 우선순위를 과하게 잡은 것 아니냐는 의견도 나왔다.",
-      "why_it_matters": "파일 I/O는 기본 기능이지만, 샌드박스와 포털을 거치면 작은 구현 차이가 곧 취약점으로 이어질 수 있다. 이번 글은 '파일을 연다'는 평범한 동작 뒤에 숨어 있는 신뢰 경계를 다시 보게 만든다.\n- 경로 문자열을 넘기는 방식이 우회 지점을 만들 수 있다는 점을 드러낸다. 권한 위임 흐름 전체를 따라가며 봐야 한다.\n- 대응도 한 함수만 고쳐서는 끝나지 않는다. 요청 단계부터 격리 실행까지 호출 체인을 함께 점검해야 재발을 막기 쉽다.\n- 데스크톱 앱이나 컨테이너형 배포를 다루는 팀이라면 파일 경로 처리, fd 전달 방식, 샌드박스 경계 검토를 배포 전에 더 앞단으로 끌어올릴 필요가 있다.",
-      "hn_reaction_summary": "HN 반응은 설명의 선명함은 인정하면서도, 보안 문제를 어디까지 넓게 봐야 하느냐를 두고 온도 차를 보였다. 댓글 수는 많지 않지만 실무자가 눈여겨볼 쟁점은 또렷하다.\n- 한쪽은 Flatpak 샌드박스 탈출 과정을 이해하기 쉽게 풀었다고 평가했다. 다만 문장 일부가 LLM이 쓴 듯 딱딱하다는 지적도 있었다.\n- 다른 한쪽은 보안에서는 진짜 위험과 과한 걱정을 가려내는 감각이 더 필요하다고 봤다. 버그 수정과 함께 SELinux나 유닉스 사용자 분리 같은 표준 하드닝을 먼저 챙기자는 의견이다.\n- 전체적으로는 취약점 자체만큼이나, 방어 비용을 어디에 써야 하는지가 논점으로 읽힌다. 설계 개선과 운영 하드닝의 균형을 함께 보라는 반응에 가깝다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-25T22:00:49.179582+00:00"
-    },
-    {
-      "id": "201fc0853a733a3bcf1c9556158c33d90dd3c1e5",
-      "title_hash": "84b973022517b429b1c67504502705bac122e941",
-      "source": "GeekNews",
-      "title": "Gemini Enterprise Agent Platform — 구글 클라우드의 차세대 AI 에이전트 통합 플랫폼",
-      "link": "https://news.hada.io/topic?id=28882",
-      "published_at": "2026-04-25T13:44:00+00:00",
-      "summary": "구글 클라우드가 기존 Vertex AI를 확장·진화시킨 새로운 플랫폼 'Gemini Enterprise Agent Platform'을 공식 출시했습니다. 이 플랫폼은 AI 에이전트(사람의 개입 없이 스스로 판단하고 행동하는 AI 소프트웨어)를 만들고, 확장하고, 통제하고, 최적화하는 전 과정을 하나의 환경에서 처리할 수 있도록 설계되었습니...",
-      "fetched_at": "2026-04-25T17:45:21.377065+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "63",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=18,practical_tech=0,tools_agents=11,strategy_insight=4,industry_business=18",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 11,
-        "strategy_insight": 4,
-        "industry_business": 18
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 18,
-          "strong_hits": [
-            "enterprise",
-            "출시"
-          ],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "enterprise + platform"
-          ],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "enterprise",
-        "출시",
-        "platform",
-        "enterprise + platform"
-      ],
-      "detail_slug": "201fc0853a733a3bcf1c9556158c33d90dd3c1e5",
-      "is_english_source": false,
-      "sent_at": "2026-04-25T17:48:40.151718+00:00"
-    },
-    {
-      "id": "e306540f40cf616c25274a83821ba7de99239a75",
-      "title_hash": "19b3d1cac7e38af128d0a749195135c48fe9d2e6",
-      "source": "GeekNews",
-      "title": "Google, Anthropic에 최대 400억 달러 (약 59조원) 투자",
-      "link": "https://news.hada.io/topic?id=28867",
-      "published_at": "2026-04-25T02:34:00+00:00",
-      "summary": "Google이 Anthropic에 즉시 100억 달러를 현금 투자 하고, 성과 목표 달성 시 추가 300억 달러를 투입하는 대규모 투자를 발표, 기업가치는 3,500억 달러 로 책정 Anthropic은 소프트웨어 코딩 속도를 높이는 AI 에이전트 Claude Code 의 폭발적 성공...",
-      "fetched_at": "2026-04-25T17:45:21.377065+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "61",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=-4,tools_agents=16,strategy_insight=-1,industry_business=7",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 16,
-        "strategy_insight": -1,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "claude code",
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "투자"
-          ],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "에이전트",
-        "claude + code"
-      ],
-      "detail_slug": "e306540f40cf616c25274a83821ba7de99239a75",
-      "is_english_source": false,
-      "sent_at": "2026-04-25T17:48:40.151718+00:00"
-    },
-    {
-      "id": "e84d7d280af24e5797ca5cbcabe85bbfb7d81321",
-      "title_hash": "fef92df8b9f332aee17bbdc5e89c31b32e91ffca",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "What's Missing in the 'Agentic' Story",
-      "link": "https://www.mnot.net/blog/2026/04/24/agents_as_collective_bargains",
-      "published_at": "2026-04-25T15:51:11+00:00",
-      "summary": "HN story type: story HN points: 43 HN comments: 25 HN top comments: tpurves: The conceptual problem is that we keep wanting to compare AI behavior to that of traditional computers. The proper comparison is comparing AI, and how we trust or delegate to it, to the concept of delegating to other humans or even to domestic animal. Employees can be trained and given very specific skills and guidelines but still have agency and non-deterministic behavior. A seeing eye dog, a pack mule or chariot... cramsession: > You bought a laptop or desktop with an operating system, and it did what it said on the tin: it ran programs and stored files. I feel like people may be viewing the past with rose colored glasses. Computing in the 90s meant hitting ctrl-s every 5 seconds because you never knew when the application you were using was going to crash. Most things didn't \"just work\", but required extensive tweaking to configure your... ArielTM: The browser analogy holds because publishers wanted browsers. Sites lived with User-Agent and robots.txt because the click paid for it. AI agents are the destination. No return click to bargain with. That's why Cloudflare just went default-block + 402 Payment Required instead of waiting on a standards body. Open standards on the agent side are the easy half. Getting sites to show up is the part W3C can't fix alone.",
-      "fetched_at": "2026-04-25T17:45:21.377065+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47902339",
-      "hn_story_type": "story",
-      "hn_points": "43",
-      "hn_comments_count": "25",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47902339",
-      "hn_item_text": "",
-      "hn_comment_preview": "tpurves: The conceptual problem is that we keep wanting to compare AI behavior to that of traditional computers. The proper comparison is comparing AI, and how we trust or delegate to it, to the concept of delegating to other humans or even to domestic animal. Employees can be trained and given very specific skills and guidelines but still have agency and non-deterministic behavior. A seeing eye dog, a pack mule or chariot...\ncramsession: > You bought a laptop or desktop with an operating system, and it did what it said on the tin: it ran programs and stored files. I feel like people may be viewing the past with rose colored glasses. Computing in the 90s meant hitting ctrl-s every 5 seconds because you never knew when the application you were using was going to crash. Most things didn't \"just work\", but required extensive tweaking to configure your...\nArielTM: The browser analogy holds because publishers wanted browsers. Sites lived with User-Agent and robots.txt because the click paid for it. AI agents are the destination. No return click to bargain with. That's why Cloudflare just went default-block + 402 Payment Required instead of waiting on a standards body. Open standards...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=24,practical_tech=11,tools_agents=24,strategy_insight=9,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 24,
-        "strategy_insight": 9,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [
-            "guide"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 24,
-          "strong_hits": [
-            "ai agent",
-            "agentic",
-            "ide",
-            "cli"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ai agent",
-        "agentic",
-        "ide",
-        "cli",
-        "agent"
-      ],
-      "detail_slug": "e84d7d280af24e5797ca5cbcabe85bbfb7d81321",
-      "is_english_source": true,
-      "translated_title": "에이전트 AI 담론이 놓치고 있는 것",
-      "short_summary": "이 글은 AI 에이전트를 기존 소프트웨어처럼 다루는 시선으로는 현재 변화를 설명하기 어렵다고 짚는다. HN 토론에서도 신뢰, 위임, 사이트의 수익 구조 같은 현실 조건이 빠진 논의라는 반응이 이어졌다.",
-      "why_it_matters": "에이전트 도입을 검토하는 팀이라면 모델 성능만 볼 일이 아니라, 실제 서비스가 어디서 막히는지 먼저 봐야 한다는 메시지로 읽힌다.\n- 에이전트는 결정론적 소프트웨어보다 사람에게 일을 맡기는 방식에 더 가깝다는 시각이 나왔다. 그래서 권한 범위, 검수 단계, 실패 대응 설계가 먼저 필요하다는 뜻이다.\n- 웹 생태계는 브라우저 때와 조건이 다르다는 지적도 나왔다. 클릭이 사라지면 콘텐츠 제공자가 에이전트를 반길 이유가 줄어들어 접근 제한이나 과금이 빨라질 수 있다.\n- 실무에서는 표준 논의만 기다리기보다 로그, 승인 흐름, 비용 통제, 데이터 제공자와의 관계를 함께 설계해야 한다는 함의가 크다.",
-      "hn_reaction_summary": "댓글 분위기는 기술 데모보다 운영 현실을 더 따져보자는 쪽에 가까웠다. 낙관론도 있었지만, 비유와 전제부터 다시 세워야 한다는 반론이 반복됐다.\n- 가장 많이 나온 논점은 AI를 전통적 컴퓨터처럼 보면 판단이 어긋난다는 점이었다. 사람이나 동물에게 일을 맡길 때처럼 신뢰와 감독의 문제가 함께 따라온다는 의견이다.\n- 브라우저 비유를 두고도 회의적인 반응이 있었다. 웹사이트는 예전처럼 트래픽 보상을 기대하기 어려워 에이전트 접근을 막거나 돈을 받으려 할 수 있다는 주장이다.\n- 한편 과거 컴퓨팅이 늘 안정적이었다는 식의 향수도 반박됐다. 결국 새 도구가 낯선 것이 아니라, 이번에는 경제적 이해관계와 통제 문제가 더 앞에 나와 있다는 쪽으로 논의가 모였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-25T17:48:40.151718+00:00"
-    },
-    {
-      "id": "4229d8a3ddd9502b1a9debe70879c60e9cb4307b",
-      "title_hash": "c35e2beb53c21f40c7baad51b858bb0a6dce4471",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "GPT 5.5 biosafety bounty",
-      "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty/",
-      "published_at": "2026-04-25T14:17:31+00:00",
-      "summary": "HN story type: story HN points: 61 HN comments: 56 HN top comments: abujazar: This looks like some kind of marketing. Also, the equivalent of spec work. The NDA/secrecy also means any time spent on this is completely meaningless to the participants unless they win the lottery, because results can't be published. puppystench: They ran a bounty on Kaggle last year but with $500k in payouts and with all results open and publishable. https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-t... With only $25k in payouts and everything locked down under NDA, I can't imagine many people will participate. Well, other than those submitting mountains of LLM-generated junk. altcognito: Billions upon billions going to these companies. 25k reward from a selected group of people if you help us determine whether or not someone can use our tool to generate weapons of mass destruction.",
-      "fetched_at": "2026-04-25T17:45:21.377065+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47901734",
-      "hn_story_type": "story",
-      "hn_points": "61",
-      "hn_comments_count": "56",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47901734",
-      "hn_item_text": "",
-      "hn_comment_preview": "abujazar: This looks like some kind of marketing. Also, the equivalent of spec work. The NDA/secrecy also means any time spent on this is completely meaningless to the participants unless they win the lottery, because results can't be published.\npuppystench: They ran a bounty on Kaggle last year but with $500k in payouts and with all results open and publishable. https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-t... With only $25k in payouts and everything locked down under NDA, I can't imagine many people will participate. Well, other than those submitting mountains of LLM-generated junk.\naltcognito: Billions upon billions going to these companies. 25k reward from a selected group of people if you help us determine whether or not someone can use our tool to generate weapons of mass destruction.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=5,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 5,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 5,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "index"
-      ],
-      "detail_slug": "4229d8a3ddd9502b1a9debe70879c60e9cb4307b",
-      "is_english_source": true,
-      "translated_title": "GPT 5.5 생물안전 바운티, 보상과 비공개 논란",
-      "short_summary": "GPT 5.5의 생물안전 위험을 점검하는 바운티가 HN 프론트페이지에 올랐다. 하지만 보상이 2만5000달러에 그치고 결과가 NDA로 묶여 있어, 공개 검증보다 홍보에 가깝다는 반응이 많았다.",
-      "why_it_matters": "AI 모델의 생물안전 검증이 제품 운영의 한 축으로 올라왔다는 점은 분명하다. 다만 외부 연구 협업을 어떻게 설계하느냐에 따라 신뢰도와 참여 수준이 크게 갈린다는 점도 함께 드러난다.\n- 보안·안전 점검을 외부 바운티로 돌릴 때는 보상 규모와 공개 가능 범위가 참여자 풀을 사실상 결정한다.\n- NDA가 강하면 연구 결과가 커뮤니티 자산으로 남지 못한다. 실무에서는 재현 가능한 평가 기준과 사후 공개 정책이 더 중요해진다.\n- 민감한 오남용 가능성을 다루는 프로그램일수록, 형식적 이벤트가 아니라 실제 위험 완화로 이어지는 운영 체계인지 검증받게 된다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 회의적이다. 문제 제기 자체보다도, 왜 이런 조건으로 외부 참가자를 모으는지에 시선이 쏠렸다.\n- 가장 많이 나온 반응은 \"홍보성 이벤트 같다\"는 지적이다. 당첨되지 않으면 결과를 공개할 수도 없어 참가자에게 남는 것이 적다는 불만이 컸다.\n- 지난해 Kaggle에서 더 큰 상금과 공개 가능한 결과물로 진행한 사례와 비교하며, 이번 조건으로는 진지한 연구자보다 잡음성 제출만 늘 수 있다는 우려가 나왔다.\n- 거대 AI 기업이 대량살상무기 수준의 악용 가능성을 점검하면서도 보상은 작고 참여 대상은 제한적이라는 점에서, 안전을 다루는 태도 자체가 어색하다는 비판도 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-25T17:48:40.151718+00:00"
-    },
-    {
-      "id": "ee6ac1b9814c4cb1a37bb3b19b054e34d6b37cda",
-      "title_hash": "11833631d8ec973c2ea227a834866ca815cd5a07",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "A Collection of Chronic Medical Conditions Common in Autistic and ADHD Adults [pdf]",
-      "link": "https://allbrainsbelong.org/wp-content/uploads/2023/08/CLINICIAN-GUIDE-Everything-is-Connected-to-Everything-Project-All-Brains-Belong-VT-8.15.23.pdf",
-      "published_at": "2026-04-25T13:34:46+00:00",
-      "summary": "HN story type: story HN points: 28 HN comments: 11 HN top comments: virtualritz: This is a stark reminder why you use LaTex or typst with a good template for typesetting your scientific contributions. Unless you learned basic typography that is. This eyesore looks like it was done in Word & Co. What a pity, given what a treasure trove this is. As someone with a partner who has ADHD I think this should be mandatory reading for any GP. cjbgkagh: This is great, check my post history, I've been beating this drum for many years now. hEDS is very very very under-diagnosed and this one simple fact is sufficient to explain a the prevalence of a whole zoo of seemingly unrelated conditions. There is an intensive to keep hEDS as a 'rare' disease as the US has extra grants for disease in this classification and this has put pressure on diagnostic criteria which wer... SummSolutions: Extremely important information. Other connective tissue disorders can also present with these findings.",
-      "fetched_at": "2026-04-25T17:45:21.377065+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47901469",
-      "hn_story_type": "story",
-      "hn_points": "28",
-      "hn_comments_count": "11",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47901469",
-      "hn_item_text": "",
-      "hn_comment_preview": "virtualritz: This is a stark reminder why you use LaTex or typst with a good template for typesetting your scientific contributions. Unless you learned basic typography that is. This eyesore looks like it was done in Word & Co. What a pity, given what a treasure trove this is. As someone with a partner who has ADHD I think this should be mandatory reading for any GP.\ncjbgkagh: This is great, check my post history, I've been beating this drum for many years now. hEDS is very very very under-diagnosed and this one simple fact is sufficient to explain a the prevalence of a whole zoo of seemingly unrelated conditions. There is an intensive to keep hEDS as a 'rare' disease as the US has extra grants for disease in this classification and this has put pressure on diagnostic criteria which wer...\nSummSolutions: Extremely important information. Other connective tissue disorders can also present with these findings.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=6,tools_agents=14,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 14,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "guide"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [
-            "template"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli",
-        "template"
-      ],
-      "detail_slug": "ee6ac1b9814c4cb1a37bb3b19b054e34d6b37cda",
-      "is_english_source": true,
-      "translated_title": "자폐·ADHD 성인에게 흔한 만성질환 모음",
-      "short_summary": "자폐·ADHD 성인에게 자주 동반되는 만성 의학적 문제를 한데 모은 자료다. HN에서는 일차진료 의사가 꼭 봐야 할 참고자료라는 반응과 함께 hEDS 등 결합조직 질환의 과소진단 문제가 함께 거론됐다.",
-      "why_it_matters": "이 자료는 자폐·ADHD를 행동이나 인지 특성만으로 보지 말고, 오래 이어지는 신체 질환과 함께 봐야 한다는 점을 다시 떠올리게 한다. 진료와 상담, 사례 해석 방식에 바로 영향을 줄 수 있는 종류의 정리다.\n- 자폐·ADHD 성인의 만성 증상을 각각 따로 보지 않고, 동반질환 가능성을 묶어서 살펴보는 기준점이 된다.\n- HN에서 반복해서 언급된 hEDS 같은 결합조직 질환 이슈는 문진과 감별, 전문의 의뢰 기준을 다시 점검하게 만든다.\n- 당사자와 실무자 모두에게 설명되지 않던 증상 묶음을 재평가할 실마리를 준다.",
-      "hn_reaction_summary": "댓글 수는 많지 않았지만 분위기는 대체로 호의적이었다. 자료의 내용 가치는 높게 보면서도, 문서 형식과 해석 범위를 두고 몇 가지 반복된 논점이 나왔다.\n- 가장 많이 나온 반응은 GP 같은 일차진료 의사가 꼭 읽어야 할 자료라는 평가였다.\n- hEDS가 지나치게 덜 진단된다는 주장에 공감하는 댓글이 있었고, 자폐·ADHD와 만성 신체질환의 연결을 더 넓게 봐야 한다는 의견이 이어졌다.\n- 한편 모든 사례를 한 질환으로 몰아 설명하면 안 되며, 다른 결합조직 질환 가능성도 함께 봐야 한다는 보완 의견이 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-25T17:48:40.151718+00:00"
-    },
-    {
-      "id": "e220edb700a28fcb9e6af0df84805fbc3e6f8e3e",
-      "title_hash": "534001efc149e58ed3cfd7534188934bc3830d0b",
-      "source": "GeekNews",
-      "title": "Show GN: imgssh - SSH 안에서 로컬 클립보드 이미지를 붙여넣기",
-      "link": "https://news.hada.io/topic?id=28875",
-      "published_at": "2026-04-25T05:59:48+00:00",
-      "summary": "안녕하세요. 요즘 원격 서버에 SSH로 붙어서 Claude Code나 Codex 같은 터미널 도구를 쓰는 일이 많아졌는데, 이미지 넣는 과정이 생각보다 번거롭더라고요. 로컬에는 이미 스크린샷이 클립보드에 있는데, 원격 서버 입장에서는 그걸 알 방법이 없어서 매번 파일로 저장하고 scp로 올리고 경로를 다시",
-      "fetched_at": "2026-04-25T13:32:26.241515+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "65",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 20,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "codex"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "claude + code"
-      ],
-      "detail_slug": "e220edb700a28fcb9e6af0df84805fbc3e6f8e3e",
-      "is_english_source": false,
-      "sent_at": "2026-04-25T13:37:53.415168+00:00"
     }
   ],
   "topic_digests": {
