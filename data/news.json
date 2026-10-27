@@ -1,6 +1,579 @@
 {
   "items": [
     {
+      "id": "64f18dfdae68444012f8ab5b85be07cdeadf1a48",
+      "title_hash": "533a3c62bd54e3edf77177a884d9ece95f9897f8",
+      "source": "GeekNews",
+      "title": "Show GN: Translate Book: arXiv - arXiv 논문을 원문 구조 그대로 번역본으로 변환해 주는 Claude Code 스킬",
+      "link": "https://news.hada.io/topic?id=36087",
+      "published_at": "2026-10-27T01:47:08+00:00",
+      "summary": "영어 논문을 단순히 번역기에 넣어 본 분들은 아시겠지만, 문장은 그럭저럭 나오는데 수식이 다 깨집니다. 그림이나 테이블도 깨지고, 이상한 곳에 붙어 있고요. 결국 가독성이 떨어져 다시 원문으로 돌아가게 됩니다. 한 마디로, 직관성이 떨어집니다. 그래서 PDF를 번역하지 않고, arXiv에",
+      "fetched_at": "2026-10-27T02:17:56.426285+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "64f18dfdae68444012f8ab5b85be07cdeadf1a48",
+      "is_english_source": false,
+      "sent_at": "2026-10-27T02:20:22.456715+00:00"
+    },
+    {
+      "id": "972050b14f0a599a0c1b9a22d3f271bf4ae522f7",
+      "title_hash": "033760ea4dee2c52cf22defad38724a2b8107819",
+      "source": "GeekNews",
+      "title": "Gram 3.4.0 출시, eMudhra 인증서 보안 수정과 Git 좌우 비교 뷰 추가",
+      "link": "https://news.hada.io/topic?id=36071",
+      "published_at": "2026-10-27T00:08:38+00:00",
+      "summary": "Gram에 포함된 인증서 관련 패키지가 eMudhra CA 문제 의 영향을 받아 보안 수정 버전을 출시함. 가능한 한 빨리 3.4.0으로 업그레이드하거나, 기존 버전의 소스를 최신 webpki 패키지로 다시 빌드할 것을 권고함 Git diff 좌우 비교 뷰 와 Git 패널에서 접근할 수 있...",
+      "fetched_at": "2026-10-27T02:17:56.426285+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "출시"
+      ],
+      "detail_slug": "972050b14f0a599a0c1b9a22d3f271bf4ae522f7",
+      "is_english_source": false,
+      "sent_at": "2026-10-27T02:20:22.456715+00:00"
+    },
+    {
+      "id": "84c8378de68ad036ea357c7c09c35f8be86c4c64",
+      "title_hash": "dae49baf669114a3aad6ace1c30199cfe9bb0a43",
+      "source": "GeekNews",
+      "title": "2026년, “AI 활용법”은 가치가 없다",
+      "link": "https://news.hada.io/topic?id=36075",
+      "published_at": "2026-10-27T00:17:39+00:00",
+      "summary": "모델을 더 잘 작동시키는 요령과 작업 방식은 효과가 있다면 몇 달 뒤 제품의 기본 경험 으로 흡수될 것이므로, 이를 익힌 데서 오는 가치는 오래가지 않을 수 있음 프롬프트 엔지니어링 요령도 이미 불필요해진 프로그래밍 최적화 습관처럼, 효용이 사라진 뒤에도 ...",
+      "fetched_at": "2026-10-27T02:17:56.426285+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "51",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 6,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "프롬프트"
+      ],
+      "detail_slug": "84c8378de68ad036ea357c7c09c35f8be86c4c64",
+      "is_english_source": false,
+      "sent_at": "2026-10-27T02:20:22.456715+00:00"
+    },
+    {
+      "id": "32570d2572e1a5283887859991b8992703a9a975",
+      "title_hash": "29b9fe043c5ad1c38023da2b3c83fef2c450bf86",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "GPT-6.1 Terra",
+      "link": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "published_at": "2026-10-26T18:01:17+00:00",
+      "summary": "HN story type: story HN points: 507 HN comments: 326 HN post text: https://developers.openai.com/api/docs/models/gpt-6.1-terra HN top comments: minimaxir: Similar 75% price cut trajectory as GPT-5.6 Sol -> GPT-6.1 Sol. Overall, Terra is still half the price of Sol. But like the original release of Terra, it's still a weird middle child between the small-model-that-got-substantially-better (Luna) and the large-model-that-got-significiantly-cheaper (Sol). The TerminalBench 4.0 cost-per-task results are a bit confusing and I'm not sure why you would pick Terra over Sol... Someone1234: I'm very confused about their model market position/naming schema. First we had: > Luna (Small), Terra (Medium), Sol (Big). Which was fairly smooth after you got used to their planets. But then they added Astra as the \"Bigger,\" which was mostly still self-coherent: > Luna (Small), Terra (Medium), Sol (Big), Astra (Bigger) But then things go confusing, they released Sol-6.1 which sometimes is superior to Astra, and... totetsu: is it eligible for data sharing incentive free token quota?",
+      "fetched_at": "2026-10-27T02:17:56.426285+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50248124",
+      "hn_story_type": "story",
+      "hn_points": "507",
+      "hn_comments_count": "326",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50248124",
+      "hn_item_text": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+      "hn_comment_preview": "minimaxir: Similar 75% price cut trajectory as GPT-5.6 Sol -> GPT-6.1 Sol. Overall, Terra is still half the price of Sol. But like the original release of Terra, it's still a weird middle child between the small-model-that-got-substantially-better (Luna) and the large-model-that-got-significiantly-cheaper (Sol). The TerminalBench 4.0 cost-per-task results are a bit confusing and I'm not sure why you would pick Terra over Sol...\nSomeone1234: I'm very confused about their model market position/naming schema. First we had: > Luna (Small), Terra (Medium), Sol (Big). Which was fairly smooth after you got used to their planets. But then they added Astra as the \"Bigger,\" which was mostly still self-coherent: > Luna (Small), Terra (Medium), Sol (Big), Astra (Bigger) But then things go confusing, they released Sol-6.1 which sometimes is superior to Astra, and...\ntotetsu: is it eligible for data sharing incentive free token quota?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=-2,strategy_insight=4,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": -2,
+        "strategy_insight": 4,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "index",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "index",
+        "api"
+      ],
+      "detail_slug": "32570d2572e1a5283887859991b8992703a9a975",
+      "is_english_source": true,
+      "sent_at": "2026-10-27T02:20:22.456715+00:00"
+    },
+    {
+      "id": "24cb89fb9c6b9c5b2d45835d365be3a55902bce5",
+      "title_hash": "b918ea468b4245a26c74c908cce89a620f89e7e5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "CSS-Tricks has a new owner",
+      "link": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+      "published_at": "2026-10-26T15:51:23+00:00",
+      "summary": "HN story type: story HN points: 389 HN comments: 90 HN top comments: grahamburger: I run a similar-in-spirit site about starting from scratch on a project and getting to something functional. I tried both ads and courses, in my case neither were very successful. The most success I had was in offering to do the things the site tells you how to do in exchange for money. That's been my full time job for the last 6 years. I don't know if that's workable in the UI/UX world. I've done only a small amo... sikozu: I didn't expect this. While I do believe that selling to DigitalOcean was a mistake ultimately, I'm concerned about the long time viability of this move considering the current landscape of web development. Don't get me wrong, I think CSS-Tricks is a great resource and it has helped me over the years, but if I was in Geoff's shoes right now I'd be pretty scared. Look at TailwindCSS for example, they had to reduce... jeromechoo: As an eng who spent over a decade on frontend and hasn’t touched CSS since last November, I’m ecstatic for this news. Nothing a frontier LLM has built me in the last year has been satisfactory to me. Every detail was shipped after millions of tokens stripping back and optimizing what Fable/Opus started doing. The process is leaner and faster, but frontend isn’t “solved” just because LLMs exist.",
+      "fetched_at": "2026-10-27T02:17:56.426285+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50245831",
+      "hn_story_type": "story",
+      "hn_points": "389",
+      "hn_comments_count": "90",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50245831",
+      "hn_item_text": "",
+      "hn_comment_preview": "grahamburger: I run a similar-in-spirit site about starting from scratch on a project and getting to something functional. I tried both ads and courses, in my case neither were very successful. The most success I had was in offering to do the things the site tells you how to do in exchange for money. That's been my full time job for the last 6 years. I don't know if that's workable in the UI/UX world. I've done only a small amo...\nsikozu: I didn't expect this. While I do believe that selling to DigitalOcean was a mistake ultimately, I'm concerned about the long time viability of this move considering the current landscape of web development. Don't get me wrong, I think CSS-Tricks is a great resource and it has helped me over the years, but if I was in Geoff's shoes right now I'd be pretty scared. Look at TailwindCSS for example, they had to reduce...\njeromechoo: As an eng who spent over a decade on frontend and hasn’t touched CSS since last November, I’m ecstatic for this news. Nothing a frontier LLM has built me in the last year has been satisfactory to me. Every detail was shipped after millions of tokens stripping back and optimizing what Fable/Opus started doing. The process...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=6,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm"
+      ],
+      "detail_slug": "24cb89fb9c6b9c5b2d45835d365be3a55902bce5",
+      "is_english_source": true,
+      "sent_at": "2026-10-27T02:20:22.456715+00:00"
+    },
+    {
+      "id": "606d9c19f5044fe3cffb6a645ea1be97882ecb94",
+      "title_hash": "ee779abd6af2c4939fde5fca94c7cd2b3d31c44c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+      "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+      "published_at": "2026-10-26T22:41:48+00:00",
+      "summary": "HN story type: story HN points: 79 HN comments: 21 HN top comments: jacquesm: This doesn't really have anything to do with GLM-5.3. This is what happens when you share models between users and don't do your bookkeeping properly, the actual model doesn't matter. What it shows is that there isn't enough isolation between the user sessions and that memory can overlap when that should never be possible. This is an SGLANG and a Cloudflare bug long before it is a Z.AI model bug, I don't see what... kami23: I like this RCA a lot more than most. I appreciate the ownership and clear explanation of why their testing did not catch this bug. Also impressed with the speed to address the issue unplug the model and then pretty quick remediation, the speed to remediation matters less to me, but good to see they can act quickly on their platform to kill the serving of the model. segmondy: \"We deployed GLM 5.3 with a 1,048,576-token context window, but the KV cache pool on our prefill GPUs only had room for 681,280 tokens. We were aware of this mismatch before launch. \" Did they advertise it as 1,048,576 token when they only had room for 681,280 tokens?",
+      "fetched_at": "2026-10-27T02:17:56.426285+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50252159",
+      "hn_story_type": "story",
+      "hn_points": "79",
+      "hn_comments_count": "21",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50252159",
+      "hn_item_text": "",
+      "hn_comment_preview": "jacquesm: This doesn't really have anything to do with GLM-5.3. This is what happens when you share models between users and don't do your bookkeeping properly, the actual model doesn't matter. What it shows is that there isn't enough isolation between the user sessions and that memory can overlap when that should never be possible. This is an SGLANG and a Cloudflare bug long before it is a Z.AI model bug, I don't see what...\nkami23: I like this RCA a lot more than most. I appreciate the ownership and clear explanation of why their testing did not catch this bug. Also impressed with the speed to address the issue unplug the model and then pretty quick remediation, the speed to remediation matters less to me, but good to see they can act quickly on their platform to kill the serving of the model.\nsegmondy: \"We deployed GLM 5.3 with a 1,048,576-token context window, but the KV cache pool on our prefill GPUs only had room for 681,280 tokens. We were aware of this mismatch before launch. \" Did they advertise it as 1,048,576 token when they only had room for 681,280 tokens?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "37",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=13,practical_tech=13,tools_agents=2,strategy_insight=4,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 13,
+        "tools_agents": 2,
+        "strategy_insight": 4,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 13,
+          "strong_hits": [
+            "cache"
+          ],
+          "support_hits": [
+            "testing",
+            "deploy"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "launch"
+          ],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cache",
+        "testing",
+        "deploy"
+      ],
+      "detail_slug": "606d9c19f5044fe3cffb6a645ea1be97882ecb94",
+      "is_english_source": true,
+      "sent_at": "2026-10-27T02:20:22.456715+00:00"
+    },
+    {
+      "id": "ab0f770f45d26047d1b0182ff840e0d192e1aad3",
+      "title_hash": "6cd88a9b6d00fbea4ee77c471f8e1b4de2310da3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "A Man from the Future: Why Johnny Can't Stop Abstracting",
+      "link": "http://muratbuffalo.blogspot.com/2026/10/the-man-from-future-why-johnny-cant.html",
+      "published_at": "2026-10-26T17:49:55+00:00",
+      "summary": "HN story type: story HN points: 123 HN comments: 63 HN top comments: seemaze: I always recommend Turing's Cathedral: The Origins of the Digital Universe [0] by George Dyson when John von Neumann comes up, it's a fabulous read. [0] https://www.penguinrandomhouse.com/books/44425/turings-cathe... nish__: > Budapest around 1900 produced an absurd cluster of minds: von Neumann, Eugene Wigner, Edward Teller, Leo Szilard, Paul Erdős, Theodore von Kármán, George Pólya. Not to mention Nikola Tesla about 20 years prior. > When several of them turned up at Los Alamos and realized they had gone to high school together, Szilard joked that Hungary was a cover story for a Martian landing. What if there actually are people who... cadamsdotcom: What beautiful writing. I had no idea JVN did so many things.. \"Can we survive technology?\" got me thinking about our industry's upheaval. Software engineering's receiving the disruption it so proudly inflicted on other industries.. not reaping what it sowed; rather just the natural order of things. Acceptance and moving with change is all that can work. Obstructing; denying; ignoring progress.. you'll lose your e...",
+      "fetched_at": "2026-10-27T02:17:56.426285+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50247928",
+      "hn_story_type": "story",
+      "hn_points": "123",
+      "hn_comments_count": "63",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50247928",
+      "hn_item_text": "",
+      "hn_comment_preview": "seemaze: I always recommend Turing's Cathedral: The Origins of the Digital Universe [0] by George Dyson when John von Neumann comes up, it's a fabulous read. [0] https://www.penguinrandomhouse.com/books/44425/turings-cathe...\nnish__: > Budapest around 1900 produced an absurd cluster of minds: von Neumann, Eugene Wigner, Edward Teller, Leo Szilard, Paul Erdős, Theodore von Kármán, George Pólya. Not to mention Nikola Tesla about 20 years prior. > When several of them turned up at Los Alamos and realized they had gone to high school together, Szilard joked that Hungary was a cover story for a Martian landing. What if there actually are people who...\ncadamsdotcom: What beautiful writing. I had no idea JVN did so many things.. \"Can we survive technology?\" got me thinking about our industry's upheaval. Software engineering's receiving the disruption it so proudly inflicted on other industries.. not reaping what it sowed; rather just the natural order of things. Acceptance and moving with change is all that can work. Obstructing; denying; ignoring progress.. you'll lose your e...",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "36",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=12,practical_tech=9,tools_agents=7,strategy_insight=12,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 12,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [],
+          "support_hits": [
+            "future",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "industry"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "future",
+        "why",
+        "future + work"
+      ],
+      "detail_slug": "ab0f770f45d26047d1b0182ff840e0d192e1aad3",
+      "is_english_source": true,
+      "sent_at": "2026-10-27T02:20:22.456715+00:00"
+    },
+    {
       "id": "8976fac08f545f013249c0d99e5dc261fe5b0bfb",
       "title_hash": "9d9b4cf3072586d4d5c1c08d0b637dfde787d3ca",
       "source": "GeekNews",
@@ -168140,610 +168713,6 @@
       "detail_slug": "d54df0b147ee2c58d5ddd7ac7dcec529374f0509",
       "is_english_source": false,
       "sent_at": "2026-04-25T09:26:13.578481+00:00"
-    },
-    {
-      "id": "f997fbe5ed3462b3f9ead95fe9b9ffd731189c50",
-      "title_hash": "3538fb9580bec0d67f215a0c08590a5c2fb1d66d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
-      "link": "https://github.com/nex-crm/wuphf",
-      "published_at": "2026-04-25T08:53:53+00:00",
-      "summary": "HN story type: story HN points: 24 HN comments: 5 HN post text: I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet. It runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you. The shape is the one Karpathy has been circling for a while: an LLM-native knowledge substrate that agents both read from and write into, so context compounds across sessions rather than getting re-pasted every morning. Most implementations of that idea land on Postgres, pgvector, Neo4j, Kafka, and a dashboard. I wanted to go back to the basics and see how far markdown + git could go before I added anything heavier. What it does: -> Each agent gets a private notebook at agents/{slug}/notebook/.md, plus access to a shared team wiki at team/. -> Draft-to-wiki promotion flow. Notebook entries are reviewed (agent or human) and promoted to the canonical wiki with a back-link. A small state machine drives expiry and auto-archive. -> Per-entity fact log: append-only JSONL at team/entities/{kind}-{slug}.facts.jsonl. A synthesis worker rebuilds the entity brief every N facts. Commits land under a distinct \"Pam the Archivist\" git... HN top comments: mellosouls: Karpathy's original post for context: https://x.com/karpathy/status/2039805659525644595 https://xcancel.com/karpathy/status/2039805659525644595 dhruv3006: I love that so many people are building with markdown ! But also would like to understand how markdown helps in durability - if I understand correctly markdown has a edge over other formats for LLMs. Also I too am building something similar on markdown which versions with git but for a completely different use case : https://voiden.md/ goodra7174: I was looking for something similar to try out. Cool!",
-      "fetched_at": "2026-04-25T09:22:57.728884+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47899844",
-      "hn_story_type": "story",
-      "hn_points": "24",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47899844",
-      "hn_item_text": "I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet. It runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you. The shape is the one Karpathy has been circling for a while: an LLM-native knowledge substrate that agents both read from and write into, so context compounds across sessions rather than getting re-pasted every morning. Most implementations of that idea land on Postgres, pgvector, Neo4j, Kafka, and a dashboard. I wanted to go back to the basics and see how far markdown + git could go before I added anything heavier. What it does: -> Each agent gets a private notebook at agents/{slug}/notebook/.md, plus access to a shared team wiki at team/. -> Draft-to-wiki promotion flow. Notebook entries are reviewed (agent or human) and promoted to the canonical wiki with a back-link. A small state machine drives expiry and auto-archive. -> Per-entity fact log: append-only JSONL at team/entities/{kind}-{slug}.facts.jsonl. A synthesis worker rebuilds the entity brief every N facts. Commits land under a distinct \"Pam the Archivist\" git...",
-      "hn_comment_preview": "mellosouls: Karpathy's original post for context: https://x.com/karpathy/status/2039805659525644595 https://xcancel.com/karpathy/status/2039805659525644595\ndhruv3006: I love that so many people are building with markdown ! But also would like to understand how markdown helps in durability - if I understand correctly markdown has a edge over other formats for LLMs. Also I too am building something similar on markdown which versions with git but for a completely different use case : https://voiden.md/\ngoodra7174: I was looking for something similar to try out. Cool!",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "61",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=37,practical_tech=37,tools_agents=35,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 37,
-        "tools_agents": 35,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 37,
-          "strong_hits": [
-            "postgres",
-            "show hn",
-            "index",
-            "sql"
-          ],
-          "support_hits": [
-            "implementation",
-            "vector"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 35,
-          "strong_hits": [
-            "ai agent",
-            "ide",
-            "cli",
-            "llm"
-          ],
-          "support_hits": [
-            "agent",
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + agent"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "postgres",
-        "show hn",
-        "index",
-        "sql",
-        "implementation",
-        "vector",
-        "local + run",
-        "github.com"
-      ],
-      "detail_slug": "f997fbe5ed3462b3f9ead95fe9b9ffd731189c50",
-      "is_english_source": true,
-      "translated_title": "마크다운·깃으로 운영하는 카파시식 에이전트 위키",
-      "short_summary": "AI 에이전트가 읽고 쓰는 지식 저장소를 마크다운과 Git 위에 얹은 로컬 위키 프로젝트다. BM25와 SQLite로 검색을 붙이고, 개인 노트에서 팀 위키로 승격하는 흐름까지 넣어 세션이 바뀌어도 문맥이 이어지게 했다.",
-      "why_it_matters": "에이전트 메모리 구조를 무거운 인프라 없이 파일과 Git 중심으로 풀어낸 점이 눈에 띈다. 실험 단계의 에이전트 워크플로를 실제 운영 습관으로 옮기려는 팀이라면 바로 비교해볼 만한 설계다.\n\n- Postgres, 벡터 DB, 그래프 DB 없이도 에이전트용 지식층을 만들 수 있다는 메시지가 분명하다. 초기 도입 비용과 운영 복잡도를 낮추는 데 도움이 된다.\n- 개인 노트에서 검토를 거쳐 팀 위키로 올리는 흐름이 있어, 에이전트가 남긴 초안을 사람 검수와 연결하기 쉽다. 실무에서는 기록 누적과 품질 관리가 함께 움직인다는 뜻이다.\n- 저장소가 로컬 마크다운과 Git 기반이라 이식과 백업, 변경 추적이 단순하다. 특정 서비스에 묶이지 않고 지식을 들고 이동할 수 있다는 점도 운영상 장점으로 읽힌다.",
-      "hn_reaction_summary": "HN 반응은 대체로 호의적이다. 특히 마크다운을 중심에 둔 단순한 구조를 반기는 분위기가 있었고, 동시에 왜 이 형식이 오래 버티는지에 대한 질문도 나왔다.\n\n- 한 댓글은 카파시의 원문 맥락을 연결해 주며, 이 프로젝트가 어떤 문제의식에서 나온 것인지 짚어 줬다.\n- 반복해서 나온 포인트는 마크다운의 내구성과 LLM 친화성이다. 단순히 익숙해서가 아니라, 왜 다른 포맷보다 유지와 활용에 유리한지 설명이 더 필요하다는 반응이 있었다.\n- 비슷한 방향의 도구를 만들고 있다는 사례 공유와 직접 써보고 싶다는 반응도 보였다. 실무자 입장에서는 '무거운 스택 없이 어디까지 가나'를 가늠해 보는 레퍼런스로 받아들여진 셈이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-25T09:26:13.578481+00:00"
-    },
-    {
-      "id": "6b37c7305e204a8ae48187480e0c9271effdc502",
-      "title_hash": "1679e08ffcaeb60d2c31b9e111583a9bef62e0b3",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The Classic American Diner",
-      "link": "https://blogs.loc.gov/picturethis/2026/04/the-classic-american-diner/",
-      "published_at": "2026-04-24T19:01:09+00:00",
-      "summary": "HN story type: story HN points: 220 HN comments: 133 HN top comments: hackingonempty: One of my hobbies is looking up old prices in the BLS CPI calculator to see what they would cost today (March 2026 is the latest data.) The June 1940 photograph along Hwy 1 in Maryland had $0.05 hotdogs ($1.17) and $0.10 burgers ($2.34). The Feb 1959 photograph from the NYC diner advertises a $0.45 burger ($5.14) and probably a $0.75 steak sandwich ($8.57) hackermailman: There's a well run diner here beside the courts and because they have booths which are a little more private than tables it's always full of lawyers with clients or architects with builders that need space to lay out plans. It's always some professionals utilizing the whole table. Many armed sheriffs too so there is always security. It's run like a Michelin star restaurant the second you are out of water someone i... joecool1029: NJ got snubbed in this submission. We still have tons of independent diners (around 450 according to this article: https://www.npr.org/2024/04/01/1241959475/new-jersey-diners-... )",
-      "fetched_at": "2026-04-25T09:22:57.728884+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47894435",
-      "hn_story_type": "story",
-      "hn_points": "220",
-      "hn_comments_count": "133",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47894435",
-      "hn_item_text": "",
-      "hn_comment_preview": "hackingonempty: One of my hobbies is looking up old prices in the BLS CPI calculator to see what they would cost today (March 2026 is the latest data.) The June 1940 photograph along Hwy 1 in Maryland had $0.05 hotdogs ($1.17) and $0.10 burgers ($2.34). The Feb 1959 photograph from the NYC diner advertises a $0.45 burger ($5.14) and probably a $0.75 steak sandwich ($8.57)\nhackermailman: There's a well run diner here beside the courts and because they have booths which are a little more private than tables it's always full of lawyers with clients or architects with builders that need space to lay out plans. It's always some professionals utilizing the whole table. Many armed sheriffs too so there is always security. It's run like a Michelin star restaurant the second you are out of water someone i...\njoecool1029: NJ got snubbed in this submission. We still have tons of independent diners (around 450 according to this article: https://www.npr.org/2024/04/01/1241959475/new-jersey-diners-... )",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=9,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli"
-      ],
-      "detail_slug": "6b37c7305e204a8ae48187480e0c9271effdc502",
-      "is_english_source": true,
-      "translated_title": "미국 클래식 다이너의 역사와 지금",
-      "short_summary": "미국식 다이너의 전통과 공간적 매력을 돌아보는 이야기다. HN에서는 옛 메뉴 가격을 현재 물가로 환산하고, 지금도 다이너가 지역 일상의 거점으로 살아 있다는 경험담이 이어졌다.",
-      "why_it_matters": "이 이야기는 오래된 외식 공간을 추억으로만 소비하지 않고, 지금의 생활과 일터 주변에서 어떤 역할을 하는지 다시 보게 만든다.\n- 옛 메뉴 가격을 현재 물가로 환산한 반응이 붙으면서 외식비 체감과 소비 환경 변화가 더 또렷하게 드러난다.\n- 다이너는 식사만 하는 곳이 아니라 상담, 미팅, 지역 커뮤니티가 겹치는 생활 인프라로 읽힌다.\n- 레트로한 공간도 서비스 완성도와 입지, 단골 수요가 받쳐주면 여전히 사업성이 있다는 점을 보여준다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 전반적으로 따뜻한 향수와 구체적인 현장 경험담이 섞여 있었다. 단순 회고에 그치지 않고, 가격 변화와 지역 문화의 현재성을 짚는 반응이 많았다.\n- 가장 자주 반복된 포인트는 1940년대와 1950년대 메뉴 가격을 CPI 기준으로 오늘 가치에 맞춰 보는 물가 비교였다.\n- 잘 운영되는 다이너는 부스 구조와 빠른 응대 덕분에 변호사, 건축 실무자 같은 사람들이 미팅 장소로 쓴다는 경험담도 눈에 띄었다.\n- 뉴저지가 빠졌다는 지적처럼, 다이너 문화가 아직 강하게 남아 있는 지역을 빼면 현재 미국 생활문화를 너무 과거형으로만 보게 된다는 반론도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-25T09:26:13.578481+00:00"
-    },
-    {
-      "id": "e35d06b51fe4f56f3b67d220a74cb8f3a5cb92ee",
-      "title_hash": "ca1719fdcb0617aa11a079dbdd5ee040eba07a3e",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "There Will Be a Scientific Theory of Deep Learning",
-      "link": "https://arxiv.org/abs/2604.21691",
-      "published_at": "2026-04-24T18:06:05+00:00",
-      "summary": "HN story type: story HN points: 232 HN comments: 98 HN top comments: hodgehog11: As someone who works in the area, this provides a decent summary of the most popular research items. The most useful and impressive part is the set of open problems at the end, which just about covers all of the main research directions in the field. The skepticism I'm seeing in the comments really highlights how little of this work is trickling down to the public, which is very sad to see. While it can offer few... RyanShook: Here's where I'm missing understanding: for decades the idea of neural networks had existed with minimal attention. Then in 2017 Attention Is All You Need gets released and since then there is an exponential explosion in deep learning. I understand that deep learning is accelerated by GPUs but the concept of a transformer could have been used on much slower hardware much earlier. Animats: This is encouraging. The title is a bit much. \"Potential points of attack for understanding what deep learning is really doing\" would be more accurate but less attention-grabbing. It might lead to understanding how to measure when a deep learning system is making stuff up or hallucinating. That would have a huge payoff. Until we get that, deep learning systems are limited to tasks where the consequences of outputt...",
-      "fetched_at": "2026-04-25T09:22:57.728884+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47893779",
-      "hn_story_type": "story",
-      "hn_points": "232",
-      "hn_comments_count": "98",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47893779",
-      "hn_item_text": "",
-      "hn_comment_preview": "hodgehog11: As someone who works in the area, this provides a decent summary of the most popular research items. The most useful and impressive part is the set of open problems at the end, which just about covers all of the main research directions in the field. The skepticism I'm seeing in the comments really highlights how little of this work is trickling down to the public, which is very sad to see. While it can offer few...\nRyanShook: Here's where I'm missing understanding: for decades the idea of neural networks had existed with minimal attention. Then in 2017 Attention Is All You Need gets released and since then there is an exponential explosion in deep learning. I understand that deep learning is accelerated by GPUs but the concept of a transformer could have been used on much slower hardware much earlier.\nAnimats: This is encouraging. The title is a bit much. \"Potential points of attack for understanding what deep learning is really doing\" would be more accurate but less attention-grabbing. It might lead to understanding how to measure when a deep learning system is making stuff up or hallucinating. That would have a huge payoff. Until we get that, deep learning systems...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "35",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=7,strategy_insight=9,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 7,
-        "strategy_insight": 9,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rag",
-        "how to"
-      ],
-      "detail_slug": "e35d06b51fe4f56f3b67d220a74cb8f3a5cb92ee",
-      "is_english_source": true,
-      "translated_title": "딥러닝도 결국 과학 이론으로 설명된다",
-      "short_summary": "이 글은 딥러닝이 경험적 성능 경쟁을 넘어, 왜 작동하는지 설명하는 과학 이론으로 정리될 수 있다고 본다. HN에서는 연구 과제 정리가 좋다는 평가와 함께 제목이 앞서간다는 반론이 함께 나왔다.",
-      "why_it_matters": "지금 현업에서 필요한 건 모델이 잘 맞는다는 감각이 아니라, 언제 믿고 언제 경계해야 하는지 가르는 기준이다. 이런 논의는 딥러닝을 더 잘 만드는 문제를 넘어 운영과 검증 방식 자체를 바꿀 수 있다.\n- 모델 해석과 일반화 원리가 정리되면 성능 비교가 단순 벤치마크 싸움에서 실패 조건과 한계 분석 중심으로 옮겨갈 수 있다.\n- 환각이나 불안정한 출력도 사후 대응보다 측정과 예측의 문제로 다룰 여지가 커진다.\n- 연구의 열린 문제를 구조적으로 보는 시각은 실무팀에도 유용하다. 무엇이 아직 미해결인지 알아야 도입 범위와 책임선을 현실적으로 잡을 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 기대와 의심이 뚜렷하게 갈렸다. 연구자 시각에서는 잘 정리된 개요라는 반응이 있었지만, 제목은 다소 과하다는 지적도 반복됐다.\n- 긍정 쪽에서는 글 말미의 오픈 문제 정리가 현재 딥러닝 연구 흐름을 꽤 폭넓게 짚었다는 평가가 나왔다.\n- 회의적인 반응은 \"과학 이론\"이라는 표현이 너무 앞서간다는 쪽에 모였다. 지금은 설명의 실마리 모음에 가깝다는 시각이다.\n- 실무자가 볼 만한 논점으로는 왜 트랜스포머가 2017년 이후 폭발했는지, 이론이 생기면 환각 같은 실패를 더 잘 가늠할 수 있는지가 자주 거론됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-25T09:26:13.578481+00:00"
-    },
-    {
-      "id": "f90fa6cabc2908fdbee3a40bc7af7be5df2d3889",
-      "title_hash": "fc9f25809f7cbce9108cfd54638d6d7126880ea6",
-      "source": "Anthropic Engineering (Claude)",
-      "title": "Managed Agents",
-      "link": "https://www.anthropic.com/engineering/managed-agents",
-      "published_at": "2026-04-24T14:19:43.000Z",
-      "summary": "",
-      "fetched_at": "2026-04-25T05:12:29.432461+00:00",
-      "source_priority_boost": "32",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "34",
-      "priority_signal": "slot=tools_agents,boost=32,slot_score=2,practical_tech=0,tools_agents=2,strategy_insight=0,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 2,
-        "strategy_insight": 0,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agent"
-      ],
-      "detail_slug": "f90fa6cabc2908fdbee3a40bc7af7be5df2d3889",
-      "is_english_source": true,
-      "translated_title": "앤트로픽, 장기 실행용 관리형 에이전트 공개",
-      "short_summary": "앤트로픽은 장시간 작업을 맡기는 에이전트를 위해 세션, 하니스, 샌드박스를 분리한 관리형 구조를 소개했다. 장애 복구와 보안, 확장성을 높이면서 첫 응답 지연도 크게 줄였다는 설명이다.",
-      "why_it_matters": "에이전트 서비스를 붙여 쓰는 수준을 넘어 제품으로 운영하려는 팀이라면 눈여겨볼 만한 설계다. 모델이 빨라지고 똑똑해질수록 하드코딩한 오케스트레이션이 금방 낡기 때문에, 실행 환경과 상태 저장을 어떻게 나누는지가 운영 비용과 장애 대응 속도를 가른다.\n\n- 세션 로그를 컨텍스트 창과 분리해 두면 긴 작업에서도 맥락을 덜 잃고, 하니스가 죽어도 같은 작업을 다시 이어 붙이기 쉬워진다.\n- 실행용 샌드박스에서 자격 증명을 직접 만지지 않게 설계해 프롬프트 인젝션이나 코드 실행 중 비밀정보 노출 위험을 낮출 수 있다.\n- 브레인과 핸드를 분리하면 고객 VPC, MCP 도구, 여러 실행 환경을 더 유연하게 연결할 수 있다. 응답 시작 속도까지 개선돼 실제 서비스 체감도 바로 달라질 수 있다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-25T05:16:03.207267+00:00"
-    },
-    {
-      "id": "25aac6dad4bd0c231b8b21e45fc780bba56d3463",
-      "title_hash": "2dc232b757b117e80d0b66de63934090198cca79",
-      "source": "GeekNews",
-      "title": "클로드 코드로 UX 라이팅 리소스 50% 절감한 후기 (Figma MCP 활용)",
-      "link": "https://news.hada.io/topic?id=28869",
-      "published_at": "2026-04-25T03:18:09+00:00",
-      "summary": "서비스 전체 문구 검수(보통 UX Writing이라고 정의된 업무)라는 막막한 과제를 AI로 자동화하고 해결한 기록을 공유합니다. 단순한 'AI 활용'을 넘어, 조직의 판단 기준을 시스템화하고 실무에 밀착시킨 과정이 잘 담겨 있네요. 핵심 요약 모호한 글쓰기 가이드 대신 '수치화된 스펙트럼'",
-      "fetched_at": "2026-04-25T05:12:29.432461+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "64",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=19,practical_tech=2,tools_agents=19,strategy_insight=8,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 19,
-        "strategy_insight": 8,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 19,
-          "strong_hits": [
-            "mcp",
-            "자동화",
-            "스펙"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "mcp",
-        "자동화",
-        "스펙"
-      ],
-      "detail_slug": "25aac6dad4bd0c231b8b21e45fc780bba56d3463",
-      "is_english_source": false,
-      "sent_at": "2026-04-25T05:16:03.207267+00:00"
-    },
-    {
-      "id": "4bc302a1a694f68240096c502cca3e32bc20671a",
-      "title_hash": "09030b68b71b4f04539cc392da0c9d02376b85d4",
-      "source": "GeekNews",
-      "title": "Ubuntu 26.04",
-      "link": "https://news.hada.io/topic?id=28870",
-      "published_at": "2026-04-25T03:39:08+00:00",
-      "summary": "데스크톱, 서버, 클라우드 전반에서 보안 과 성능 향상에 초점을 맞춘 Ubuntu 26.04 LTS Resolute Raccoon 이 출시됨 유지보수 기간은 Ubuntu Desktop, Ubuntu Server, Ubuntu Cloud, Ubuntu WSL, Ubuntu Core에 5년 제공되고, 나...",
-      "fetched_at": "2026-04-25T05:12:29.432461+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=2,tools_agents=4,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "출시"
-      ],
-      "detail_slug": "4bc302a1a694f68240096c502cca3e32bc20671a",
-      "is_english_source": false,
-      "sent_at": "2026-04-25T05:16:03.207267+00:00"
-    },
-    {
-      "id": "6979709b2a47e5cfb24b30d4294a3bfc3a7cab6d",
-      "title_hash": "076cf3313732ae273da14679376df99513acb509",
-      "source": "GeekNews",
-      "title": "Arch Linux는 이제 bit-for-bit 재현 가능한 Docker 이미지를 제공함",
-      "link": "https://news.hada.io/topic?id=28854",
-      "published_at": "2026-04-24T17:33:17+00:00",
-      "summary": "bit-for-bit 재현성 이란 동일한 소스로 빌드하면 언제, 어디서, 누가 빌드하든 바이트 수준까지 완전히 동일한 결과물이 나오는 것을 의미 빌드 환경에 따라 미세하게 달라지는 타임스탬프, 캐시, 메타데이터 같은 비결정론적 요소를 모두 제거해야 달성 가능 ...",
-      "fetched_at": "2026-04-25T05:12:29.432461+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "docker"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "docker"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "docker"
-      ],
-      "detail_slug": "6979709b2a47e5cfb24b30d4294a3bfc3a7cab6d",
-      "is_english_source": false,
-      "sent_at": "2026-04-25T05:16:03.207267+00:00"
     }
   ],
   "topic_digests": {
