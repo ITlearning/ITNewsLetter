@@ -1,6 +1,594 @@
 {
   "items": [
     {
+      "id": "ca7718ea29223b41c77a137c21418898e416a21c",
+      "title_hash": "89b62ab743bed46bb678bd05d44f5bce9b2c1e1e",
+      "source": "GeekNews",
+      "title": "Show GN: Specify - 코드베이스의 아키텍처와 기능 흐름을 시각화하는 도구",
+      "link": "https://news.hada.io/topic?id=36223",
+      "published_at": "2026-10-29T11:14:42+00:00",
+      "summary": "안녕하세요. Specify를 개발하고 있습니다. 지난 1년 동안 Claude Code와 Codex로 프로덕트를 만들면서, 기능이 동작하고 테스트를 통과해도 프로덕트의 구조와 설계 의도에 맞는지는 별도로 확인해야 한다는 고민이 생겼습니다. 에이전트가 만든 코드가 빠르게 쌓일수록 데이터 흐름과 기능 간 관계를 전체적",
+      "fetched_at": "2026-10-29T12:24:35.164133+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "75",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=4,tools_agents=30,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 30,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "아키텍처",
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 30,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트",
+            "spec"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "아키텍처"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "spec",
+        "claude + code"
+      ],
+      "detail_slug": "ca7718ea29223b41c77a137c21418898e416a21c",
+      "is_english_source": false,
+      "sent_at": "2026-10-29T12:26:40.644502+00:00"
+    },
+    {
+      "id": "0210abd8afce0164194e3435fe536c42e59aa045",
+      "title_hash": "1f65f4c5a23763bd97fdc7a47dfb4632af2999d5",
+      "source": "GeekNews",
+      "title": "Show GN: knock - 클로드 코드로 일하는 척하면서 친구랑 점심 메뉴 정하기",
+      "link": "https://news.hada.io/topic?id=36211",
+      "published_at": "2026-10-29T06:17:33+00:00",
+      "summary": "Claude Code 안에서 친구와 채팅하는 플러그인을 만들었습니다. ❯ /knock bob ❯ 점심? ⏺ 라멘, 5분 뒤 로비 내가 입력한 말은 친구에게 가고, 친구의 답은 Claude 답변이 뜨는 자리에 뜹니다. 옆에서 보면 Claude와 일하는 중으로 보입니다. 모델을 부르지 않아서 토큰도 쓰지 않",
+      "fetched_at": "2026-10-29T12:24:35.164133+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=2,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "0210abd8afce0164194e3435fe536c42e59aa045",
+      "is_english_source": false,
+      "sent_at": "2026-10-29T12:26:40.644502+00:00"
+    },
+    {
+      "id": "9f2abb5d7e609688b8122174b548dc4bb8cc1693",
+      "title_hash": "5a424e6e4f18a53ba1179bd51bfe154542ffbb76",
+      "source": "GeekNews",
+      "title": "Show GN: 생성형 LLM 없이 만든 실시간 음성 예약 봇 데모 - jev 활용기",
+      "link": "https://news.hada.io/topic?id=36205",
+      "published_at": "2026-10-29T02:39:59+00:00",
+      "summary": "안녕하세요. 저희는 AI와 사람 간의 실시간 음성 통신 기술을 개발하고 있습니다. \"단순 일상 대화가 아니라 식당 예약처럼 실제 비즈니스 업무를 수행하는 음성 에이전트를 만드는 게 가능한가?\"라는 의문에서 출발해, 실제 데모를 구현하며 겪은 생성형 LLM의 한계와 이를 비생성형 판별 모델인 ...",
+      "fetched_at": "2026-10-29T12:24:35.164133+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "9f2abb5d7e609688b8122174b548dc4bb8cc1693",
+      "is_english_source": false,
+      "sent_at": "2026-10-29T12:26:40.644502+00:00"
+    },
+    {
+      "id": "bffb09630bd7b7569b8425718a26f72fd0b0ae45",
+      "title_hash": "1fbc3e6cd8fa44effd441b26118431f6f608da0f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "MiniLake Is a Local Databricks API Emulator with SQL, Delta Lake and Spark",
+      "link": "https://dmux.github.io/minilake/",
+      "published_at": "2026-10-27T14:12:59+00:00",
+      "summary": "HN story type: story HN points: 40 HN comments: 5 HN top comments: gavinray: If this actually works, this is such a huge boon. Let me share why: I work on connectors to various datasources, mostly SQL DB's The most useful tests are the integration tests, sending actual queries to the source For most DB's we have a giant Docker Compose which runs a local instance But things like Snowflake, Databricks, Redshift, Athena suck to test because we need an external hosted instance I would kill to... akbarian: Getting tired of the standard AI design, all websites look the same now isoprophlex: Great for CI i guess; or is this meant as a cost savings measure where you can swap out your databricks for self-hosted this?",
+      "fetched_at": "2026-10-29T12:24:35.164133+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50259697",
+      "hn_story_type": "story",
+      "hn_points": "40",
+      "hn_comments_count": "5",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50259697",
+      "hn_item_text": "",
+      "hn_comment_preview": "gavinray: If this actually works, this is such a huge boon. Let me share why: I work on connectors to various datasources, mostly SQL DB's The most useful tests are the integration tests, sending actual queries to the source For most DB's we have a giant Docker Compose which runs a local instance But things like Snowflake, Databricks, Redshift, Athena suck to test because we need an external hosted instance I would kill to...\nakbarian: Getting tired of the standard AI design, all websites look the same now\nisoprophlex: Great for CI i guess; or is this meant as a cost savings measure where you can swap out your databricks for self-hosted this?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=25,practical_tech=25,tools_agents=4,strategy_insight=4,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 25,
+        "tools_agents": 4,
+        "strategy_insight": 4,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 25,
+          "strong_hits": [
+            "docker",
+            "api",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "docker",
+        "api",
+        "sql",
+        "local + run"
+      ],
+      "detail_slug": "bffb09630bd7b7569b8425718a26f72fd0b0ae45",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T12:26:40.644502+00:00"
+    },
+    {
+      "id": "0d210a319b10595d417a2d29d19fd4381774e630",
+      "title_hash": "6c1ae42ffae17a5a53fd2a317f8f3fe0b20658cd",
+      "source": "Yozm IT",
+      "title": "LLM부터 MCP까지 ‘왜 필요한가’로 이해하는 AI 리터러시",
+      "link": "https://yozm.wishket.com/magazine/detail/4010",
+      "published_at": "",
+      "summary": "새로운 모델과 기능이 나올 때마다 찾아보고 써봤지만, 정작 업무에 뭘 써야 할지는 여전히 의문이었습니다. 나는 지금 AI라는 도구를 공부하고 있는 걸까, 아니면 일을 더 잘하고 싶어서 AI를 공부하고 있는 걸까. 이 질문에서 출발해 LLM, 프롬프트, 스킬, 에이전트, 루프, 할루시네이션, RAG, 청킹, 벡터화, API, MCP까지 11가지 개념을 업무 흐름 안에서 왜 필요한지로 다시 묶었습니다. 결국 AI를 잘 쓴다는 것도 기술을 많이 아는 일이 아니라, 내 업무에 무엇이 왜 필요한지 선택하는 일입니다.",
+      "fetched_at": "2026-10-29T12:24:35.164133+00:00",
+      "source_priority_boost": "10",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "23",
+      "priority_signal": "slot=tools_agents,boost=10,slot_score=13,practical_tech=10,tools_agents=13,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 13,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "api",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 13,
+          "strong_hits": [
+            "에이전트",
+            "mcp"
+          ],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "mcp",
+        "프롬프트"
+      ],
+      "detail_slug": "0d210a319b10595d417a2d29d19fd4381774e630",
+      "is_english_source": false,
+      "sent_at": "2026-10-29T12:26:40.644502+00:00"
+    },
+    {
+      "id": "685290e02926c2e592aa8bcfe007ac81248160b2",
+      "title_hash": "bdc80f577408be5b3238c346e36e52937c58da77",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "OpenAI's agents talked to each other through the CPU Cache",
+      "link": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "published_at": "2026-10-26T21:24:18+00:00",
+      "summary": "HN story type: story HN points: 228 HN comments: 137 HN top comments: hashmap: \"Look, it wouldn't have even mattered if we had done advanced cyber security like turn off internet or look at logs when huggingface was attacked!! See look it can still.. *prompts a shitload of agents, waits 6 hours* look wowwww they still learned how to talk to each other even if we turned internet off!\" \"They wouldn't have been able to attack huggingface though, thats still criminal negligence.\" \"No see this ac... kylecazar: \"In one case, agents were given only a general list of vulnerabilities and told to find a communication channel on their own.\" As far as I can tell, it's being presented in media as if the agents have some intrinsic yearn to communicate with each other and establish a cabal. They are being instructed to do it. It's testing. If I prompted my agents to communicate with each other via any means necessary locally, and... cadamsdotcom: (Because the agents were asked to find a way.) Article is great, very balanced. But if you're going to spend time reading something, the primary source isn't much longer and gives a clearer picture. OpenAI's article is quite readable. As another commenter wrote you can get it here: https://news.ycombinator.com/item?id=50214416 > In one experiment, we asked agents in separate microVMs, created and managed by OpenAI...",
+      "fetched_at": "2026-10-29T12:24:35.164133+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50251200",
+      "hn_story_type": "story",
+      "hn_points": "228",
+      "hn_comments_count": "137",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50251200",
+      "hn_item_text": "",
+      "hn_comment_preview": "hashmap: \"Look, it wouldn't have even mattered if we had done advanced cyber security like turn off internet or look at logs when huggingface was attacked!! See look it can still.. *prompts a shitload of agents, waits 6 hours* look wowwww they still learned how to talk to each other even if we turned internet off!\" \"They wouldn't have been able to attack huggingface though, thats still criminal negligence.\" \"No see this ac...\nkylecazar: \"In one case, agents were given only a general list of vulnerabilities and told to find a communication channel on their own.\" As far as I can tell, it's being presented in media as if the agents have some intrinsic yearn to communicate with each other and establish a cabal. They are being instructed to do it. It's testing. If I prompted my agents to communicate with each other via any means necessary locally, and...\ncadamsdotcom: (Because the agents were asked to find a way.) Article is great, very balanced. But if you're going to spend time reading something, the primary source isn't much longer and gives a clearer picture. OpenAI's article is quite readable. As another commenter wrote you can get it here: https://news.ycombinator.com/item?id=5...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "security",
+            "cache"
+          ],
+          "support_hits": [
+            "testing",
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [],
+          "support_hits": [
+            "prompt",
+            "agent",
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "cache",
+        "testing",
+        "how to",
+        "code + security"
+      ],
+      "detail_slug": "685290e02926c2e592aa8bcfe007ac81248160b2",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T12:26:40.644502+00:00"
+    },
+    {
+      "id": "9e51bf8146432a7671c7814a1bc8bf8e71c0fb3b",
+      "title_hash": "fa3a6128b6b7c906e54b2195821a6aa754594855",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Getting debug access on a Brother printer over Telnet",
+      "link": "https://inventor7777.github.io/blog/2026/10/22/debug-access-on-brother/",
+      "published_at": "2026-10-26T13:54:39+00:00",
+      "summary": "HN story type: story HN points: 79 HN comments: 26 HN top comments: kalleboo: The interesting part to me in there is seeing a TRON kernel in the wild. In the 80's TRON was Japan's bet for the future of operating systems, but it just lived on as an embedded kernel in cars, printers and other industrial applications. https://en.wikipedia.org/wiki/TRON_project https://www.osnews.com/story/145872/japan-tried-to-build-an-... minraws: I have managed to find zero-days in my Canon with some effort over the last few weeks, me and a cheap model, well it was never really that hard, but I feel like it has given me more time. I am considering reverse engineering the entire thing, I honestly don't know if that's worth it given I can connect an rpi to the system and get everything done via my own app now. And keeping printer off of wifi networks was the... xrd: I keep searching for Brother printers at Goodwill because apparently they are the best for non-DRM cartridges. But, when I use my little pocket friend (an AI called Gemini, perhaps you know him?) he often indicates that the printer I'm seeing is 12 years old, and probably has wear and tear on the rollers. Does anyone know if this is true? I would really like to get a printer that avoids the cartridge cartels. But,...",
+      "fetched_at": "2026-10-29T12:24:35.164133+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50243757",
+      "hn_story_type": "story",
+      "hn_points": "79",
+      "hn_comments_count": "26",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50243757",
+      "hn_item_text": "",
+      "hn_comment_preview": "kalleboo: The interesting part to me in there is seeing a TRON kernel in the wild. In the 80's TRON was Japan's bet for the future of operating systems, but it just lived on as an embedded kernel in cars, printers and other industrial applications. https://en.wikipedia.org/wiki/TRON_project https://www.osnews.com/story/145872/japan-tried-to-build-an-...\nminraws: I have managed to find zero-days in my Canon with some effort over the last few weeks, me and a cheap model, well it was never really that hard, but I feel like it has given me more time. I am considering reverse engineering the entire thing, I honestly don't know if that's worth it given I can connect an rpi to the system and get everything done via my own app now. And keeping printer off of wifi networks was the...\nxrd: I keep searching for Brother printers at Goodwill because apparently they are the best for non-DRM cartridges. But, when I use my little pocket friend (an AI called Gemini, perhaps you know him?) he often indicates that the printer I'm seeing is 12 years old, and probably has wear and tear on the rollers. Does anyone know if this is true? I would really like to get a printer that avoids the cartridge ca...",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "34",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=10,practical_tech=4,tools_agents=7,strategy_insight=10,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 10,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "future",
+        "future + work"
+      ],
+      "detail_slug": "9e51bf8146432a7671c7814a1bc8bf8e71c0fb3b",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T12:26:40.644502+00:00"
+    },
+    {
       "id": "0e9f94bc09ae475e708d8b7ef6a7dbd9be65532b",
       "title_hash": "6ac0598ff546b795dd7c15f271e22f7f1ea4d6af",
       "source": "GeekNews",
@@ -167685,620 +168273,6 @@
       "detail_slug": "983a3dde4e68d3942e7e7761f90b94ebcc2ceec2",
       "is_english_source": false,
       "sent_at": "2026-04-28T12:35:56.583212+00:00"
-    },
-    {
-      "id": "3619d439448885d191d43a7f3e55e89ea66021d9",
-      "title_hash": "40efe7bf2c043baa9580e5d6626bcb5d21c12fa9",
-      "source": "GeekNews",
-      "title": "dirac-run/dirac",
-      "link": "https://news.hada.io/topic?id=28975",
-      "published_at": "2026-04-28T08:34:23+00:00",
-      "summary": "긴 컨텍스트에서 추론 성능이 흔들리는 문제를 줄이기 위해 촘촘한 컨텍스트 큐레이션 과 도구 효율 대비 성능 최적화 에 초점을 맞춘 오픈소스 코딩 에이전트임 gemini-3-flash-preview 기준 Terminal-Bench-2 65.2% 를 기록했고, 공...",
-      "fetched_at": "2026-04-28T12:33:13.443995+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "3619d439448885d191d43a7f3e55e89ea66021d9",
-      "is_english_source": false,
-      "sent_at": "2026-04-28T12:35:56.583212+00:00"
-    },
-    {
-      "id": "ead63f5e420cda748d0eba2135ec2c785f4f3077",
-      "title_hash": "556ebc2dd81e38b10afe0a69df857a7e47bc36df",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "New Gas-Powered Data Centers Could Emit More Greenhouse Gases Than Whole Nations",
-      "link": "https://www.wired.com/story/new-gas-powered-data-centers-could-emit-more-greenhouse-gases-than-entire-nations/",
-      "published_at": "2026-04-28T11:29:30+00:00",
-      "summary": "HN story type: story HN points: 48 HN comments: 44 HN top comments: aresant: The AI data center narrative is the perfect storm: First most of the data center build out is happening in areas that have had little other opportunity so local resistance is muted. Abilene, Texas is referenced and is the kind of place my grandfather would lovingly say is where you go to learn to be a “dirt farmer” Second, every environmentalist in the US is fighting 100 different battles with the most anti-regula... usrusr: And the sad part is that ai would be a perfect fit for intermittent energy sources: run inference 24/7 (on whatever you can muster, even if it's fossil it simply does not consume all that much compared to training) and over-build training to achieve whatever total throughout you need in time of energy abundance. How heavy would CO2 pricing have to be to make the market do this instead of the exact opposite? kleiba2: > the potential to create more greenhouse gases than the country of Morocco emitted in 2024. Does that comparison mean anything to anybody?",
-      "fetched_at": "2026-04-28T12:33:13.443995+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47932977",
-      "hn_story_type": "story",
-      "hn_points": "48",
-      "hn_comments_count": "44",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47932977",
-      "hn_item_text": "",
-      "hn_comment_preview": "aresant: The AI data center narrative is the perfect storm: First most of the data center build out is happening in areas that have had little other opportunity so local resistance is muted. Abilene, Texas is referenced and is the kind of place my grandfather would lovingly say is where you go to learn to be a “dirt farmer” Second, every environmentalist in the US is fighting 100 different battles with the most anti-regula...\nusrusr: And the sad part is that ai would be a perfect fit for intermittent energy sources: run inference 24/7 (on whatever you can muster, even if it's fossil it simply does not consume all that much compared to training) and over-build training to achieve whatever total throughout you need in time of energy abundance. How heavy would CO2 pricing have to be to make the market do this instead of the exact opposite?\nkleiba2: > the potential to create more greenhouse gases than the country of Morocco emitted in 2024. Does that comparison mean anything to anybody?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=0,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 0,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "inference"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "inference",
-        "local + run"
-      ],
-      "detail_slug": "ead63f5e420cda748d0eba2135ec2c785f4f3077",
-      "is_english_source": true,
-      "translated_title": "가스발전 데이터센터 확산, 한 나라급 배출 우려",
-      "short_summary": "새로 지어지는 가스발전 기반 데이터센터가 한 국가와 맞먹는 온실가스를 낼 수 있다는 경고가 나왔다. AI 인프라 확대가 전력 조달 방식까지 바꾸고 있다는 지적이다.",
-      "why_it_matters": "AI 인프라 경쟁이 빨라질수록 병목은 반도체만이 아니라 전력으로 옮겨간다. 전력을 가스로 메우기 시작하면 비용 구조와 탄소 부담, 입지 전략이 함께 흔들릴 수 있다.\n- 데이터센터 증설은 이제 서버 조달만의 문제가 아니다. 전력원이 무엇인지, 배출량이 얼마나 늘어나는지까지 함께 검토해야 한다.\n- 지역 일자리와 투자 유치 논리가 앞서면 규제나 주민 견제가 약한 곳으로 대형 시설이 몰릴 수 있다.\n- 재생에너지 연계보다 즉시 공급 가능한 화석연료가 선택되면 기업의 탄소 감축 계획과 실제 운영 사이 간격이 더 벌어질 수 있다.",
-      "hn_reaction_summary": "HN 댓글은 배출량 수치 자체보다 왜 시장이 이런 방향으로 움직이느냐에 더 집중했다. 특히 AI 수요를 핑계로 가장 쉬운 전력원을 택하는 구조를 문제 삼는 반응이 많았다.\n- 지방의 반발이 약한 지역에 데이터센터가 들어서기 쉬워진다는 지적이 반복됐다. 경제적 기회가 적은 곳일수록 수용 압박이 커진다는 시선이다.\n- AI 워크로드는 원래 간헐적 재생에너지와 더 잘 맞출 수 있는데, 시장 인센티브가 정반대로 작동한다는 비판이 나왔다.\n- 한편으로는 모로코 같은 국가와의 배출량 비교가 체감되지 않는다는 반론도 있었다. 수치의 크기보다 비교 방식이 설득력 있는지가 쟁점으로 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T12:35:56.583212+00:00"
-    },
-    {
-      "id": "a2def7c8b8615d4a97a46c437ecdd6ccbfc56d7a",
-      "title_hash": "976ef98ad0c51a43db82d934a1250a89efe3b265",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Localsend: An open-source cross-platform alternative to AirDrop",
-      "link": "https://github.com/localsend/localsend",
-      "published_at": "2026-04-28T11:54:20+00:00",
-      "summary": "HN story type: story HN points: 43 HN comments: 14 HN top comments: a7fort: Recently started using it, it works really well and it's much more reliable than AirDrop. But the UX could be improved. But I just wish Apple fixed AirDrop, every time I go to use I have so little confidence in it, it often doesn't see devices or if you have multiple Mac users it will confuse them, showing you the same Mac device twice without telling you which user it is newhotelowner: And it works in the browser. https://web.localsend.org/ From windows to android to iOS. lxgr: I feel like we need a spamsolutions.txt [1] for purported AirDrop replacements. This one fails the \"must not require an existing Wi-Fi network that both peers are connected to\" criterion. [1] https://craphound.com/spamsolutions.txt",
-      "fetched_at": "2026-04-28T12:33:13.443995+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47933208",
-      "hn_story_type": "story",
-      "hn_points": "43",
-      "hn_comments_count": "14",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47933208",
-      "hn_item_text": "",
-      "hn_comment_preview": "a7fort: Recently started using it, it works really well and it's much more reliable than AirDrop. But the UX could be improved. But I just wish Apple fixed AirDrop, every time I go to use I have so little confidence in it, it often doesn't see devices or if you have multiple Mac users it will confuse them, showing you the same Mac device twice without telling you which user it is\nnewhotelowner: And it works in the browser. https://web.localsend.org/ From windows to android to iOS.\nlxgr: I feel like we need a spamsolutions.txt [1] for purported AirDrop replacements. This one fails the \"must not require an existing Wi-Fi network that both peers are connected to\" criterion. [1] https://craphound.com/spamsolutions.txt",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=7,tools_agents=12,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "local",
-        "github.com"
-      ],
-      "detail_slug": "a2def7c8b8615d4a97a46c437ecdd6ccbfc56d7a",
-      "is_english_source": true,
-      "translated_title": "LocalSend, 에어드롭 대신 쓸 오픈소스 파일 전송 도구",
-      "short_summary": "LocalSend는 윈도우, 안드로이드, iOS, 브라우저까지 아우르는 오픈소스 파일 전송 도구로 소개됐다. HN에서는 에어드롭보다 안정적이라는 평가와 함께 UX와 동일 Wi‑Fi 의존성은 아쉽다는 반응이 나왔다.",
-      "why_it_matters": "기기 종류가 섞인 환경에서 파일을 자주 옮겨야 한다면 바로 검토해볼 만한 선택지다. 특히 애플 중심 흐름에 윈도우나 안드로이드가 끼는 순간 업무 동선이 단순해질 여지가 있다.\n- 맥 전용 기능에 기대지 않고 여러 운영체제를 한 번에 묶을 수 있어 협업 환경의 제약을 줄여준다.\n- 브라우저에서도 쓸 수 있어 앱 설치가 어려운 상황이나 임시 전달 경로로 활용하기 쉽다.\n- 다만 같은 Wi‑Fi에 붙어 있어야 한다는 조건은 현장 대응이나 외부 미팅처럼 변수가 많은 환경에서 걸림돌이 될 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 우호적이지만, 무조건적인 찬사는 아니다. 실제 사용 경험에서 오는 만족감과 함께 에어드롭 대안으로 보기엔 아직 부족하다는 반론이 함께 나왔다.\n- 에어드롭보다 더 안정적으로 느껴졌다는 경험담이 눈에 띄었고, 특히 기기 인식 문제에 지친 사용자들의 공감이 있었다.\n- 브라우저 지원은 장점으로 받아들여졌다. 운영체제가 달라도 바로 쓸 수 있다는 점이 실용적으로 보인다는 반응이다.\n- 반대로 기존 Wi‑Fi 네트워크가 필요하다는 점은 반복해서 지적됐다. 일부는 이 조건 때문에 진짜 에어드롭 대체재로 보긴 어렵다고 평가했다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T12:35:56.583212+00:00"
-    },
-    {
-      "id": "8e74dd334e4a0c0ee7bab42f6bada6669700e612",
-      "title_hash": "9c253e0182448939f01c8fc95a32be411c8a06f4",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Period tracking app has been yapping about your flow to Meta",
-      "link": "https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been",
-      "published_at": "2026-04-28T11:31:40+00:00",
-      "summary": "HN story type: story HN points: 25 HN comments: 21 HN top comments: childofhedgehog: Why would anyone think that a non-HIPPA compliant app would keep medical information private to the level of security needed for medical data? Flo has definitely breached user trust, but that trust seems misplaced from the get-go. moffers: I don’t have the right configuration of equipment to use an app like this, but does anyone know why this needs to be a service-driven app? What piece of functionality requires a server to track your health? frankdenbow: its crazy to me that Flo is used so widely, as its started by Russian men and their treatment of data has bee public for a while, it just hasnt spread fast enough. I know theres at least one other option called Calessa ( http://Calessa.app )",
-      "fetched_at": "2026-04-28T12:33:13.443995+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47932990",
-      "hn_story_type": "story",
-      "hn_points": "25",
-      "hn_comments_count": "21",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47932990",
-      "hn_item_text": "",
-      "hn_comment_preview": "childofhedgehog: Why would anyone think that a non-HIPPA compliant app would keep medical information private to the level of security needed for medical data? Flo has definitely breached user trust, but that trust seems misplaced from the get-go.\nmoffers: I don’t have the right configuration of equipment to use an app like this, but does anyone know why this needs to be a service-driven app? What piece of functionality requires a server to track your health?\nfrankdenbow: its crazy to me that Flo is used so widely, as its started by Russian men and their treatment of data has bee public for a while, it just hasnt spread fast enough. I know theres at least one other option called Calessa ( http://Calessa.app )",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=12,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 12,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "security",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 12,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "substack.com"
-          ]
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "rust"
-      ],
-      "detail_slug": "8e74dd334e4a0c0ee7bab42f6bada6669700e612",
-      "is_english_source": true,
-      "translated_title": "생리 추적 앱, 민감한 기록을 메타에 넘겼다",
-      "short_summary": "Hacker News에서는 생리 주기 추적 앱이 사용자의 민감한 건강 정보를 메타와 공유했다는 문제를 다뤘다. 댓글에서는 앱 신뢰 자체가 잘못됐다는 반응과 함께, 이런 서비스가 왜 서버 중심이어야 하느냐는 의문이 이어졌다.",
-      "why_it_matters": "건강 데이터 앱의 수익화 방식과 추적 설계가 다시 도마에 올랐다. 특히 생리 기록처럼 민감한 정보는 일반 앱 분석 도구와 섞이는 순간 리스크가 커진다는 점을 보여준다.\n- 실무에서는 분석 SDK, 광고 픽셀, 서버 전송 로그에 건강 관련 이벤트가 섞여 있지 않은지 먼저 점검해야 한다.\n- 사용자 신뢰를 내세우는 서비스라면 저장 위치와 제3자 전송 여부를 제품 설명이 아니라 실제 데이터 흐름 기준으로 검증해야 한다.\n- 로컬 우선 설계가 가능한 기능인데도 서버 의존 구조를 택했다면, 그 이유를 보안과 운영 관점에서 다시 설명할 수 있어야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 냉소적이고 비판적이다. 이번 유출 논란만이 아니라, 애초에 이런 앱을 얼마나 믿을 수 있느냐는 쪽으로 논점이 넓어졌다.\n- 반복해서 나온 반응은 \"의료급 보호 체계가 아닌 앱에 왜 그 수준의 프라이버시를 기대했나\"라는 회의론이다.\n- 기능 구조를 두고는 생리 추적이 왜 서버 기반 서비스여야 하느냐는 질문이 이어졌다. 오프라인이나 로컬 저장으로도 충분한 것 아니냐는 문제 제기다.\n- 일부는 Flo의 배경과 과거 데이터 처리 논란을 다시 언급했고, 대안 앱을 찾거나 옮겨야 한다는 의견도 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T12:35:56.583212+00:00"
-    },
-    {
-      "id": "8ff19d090953d20e7bfe5a77c62235036870ce38",
-      "title_hash": "ceba62626eba056eb93a8b643f203e74e45ef086",
-      "source": "GeekNews",
-      "title": "Show GN: LAO — 아이디어를 개발 AI가 실행할 수 있는 설계서로 바꿔주는 macOS 앱",
-      "link": "https://news.hada.io/topic?id=28959",
-      "published_at": "2026-04-28T00:43:51+00:00",
-      "summary": "LAO는 아이디어와 개발 AI 사이에 놓는 “설계 사무소” 같은 macOS 앱입니다. Claude Code, Codex, Gemini CLI 같은 개발 AI를 쓰다 보면 아이디어를 바로 채팅으로 던지고 개발을 시작하게 됩니다. 처음에는 빠른 것 같지만, 실제로는 만들고 나서야 빠진 것들이 보입니다. 로그인은 어떻게 할지, 빈",
-      "fetched_at": "2026-04-28T08:24:02.924938+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "70",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=0,tools_agents=25,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 25,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 25,
-          "strong_hits": [
-            "claude code",
-            "codex",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "cli",
-        "claude + code"
-      ],
-      "detail_slug": "8ff19d090953d20e7bfe5a77c62235036870ce38",
-      "is_english_source": false,
-      "sent_at": "2026-04-28T08:26:43.871816+00:00"
-    },
-    {
-      "id": "8558a007fa086353e3a64eef0f1aa512c0501225",
-      "title_hash": "dc2f9b3a08b200978b9e95f213a65998f31df3d9",
-      "source": "GeekNews",
-      "title": "중국, Meta의 AI 스타트업 Manus 인수 차단",
-      "link": "https://news.hada.io/topic?id=28972",
-      "published_at": "2026-04-28T05:33:49+00:00",
-      "summary": "중국 당국 이 관련 법규에 따라 외국인 투자 금지 결정을 내리며, Meta의 Manus 인수 철회 를 요구함 중국에서 설립된 뒤 Singapore로 이전한 Manus는 범용 AI 에이전트 를 개발하며, 시장 조사·코딩·데이터 분석 같은 복잡한 작업을 수행할 수 있음...",
-      "fetched_at": "2026-04-28T08:24:02.924938+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "57",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=12,practical_tech=-8,tools_agents=5,strategy_insight=-5,industry_business=12",
-      "slot_scores": {
-        "practical_tech": -8,
-        "tools_agents": 5,
-        "strategy_insight": -5,
-        "industry_business": 12
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -8,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자",
-            "인수"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 5,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -5,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자",
-            "인수"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 12,
-          "strong_hits": [
-            "투자",
-            "인수"
-          ],
-          "support_hits": [
-            "시장"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "투자",
-        "인수",
-        "시장"
-      ],
-      "detail_slug": "8558a007fa086353e3a64eef0f1aa512c0501225",
-      "is_english_source": false,
-      "sent_at": "2026-04-28T08:26:43.871816+00:00"
-    },
-    {
-      "id": "6008c79f34cc983c41d4161bcaa5131a500a9e1d",
-      "title_hash": "cbd1885cdb1dc6b091519f7cf6ed69b741a59909",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "GTFOBins",
-      "link": "https://gtfobins.org/",
-      "published_at": "2026-04-28T06:27:39+00:00",
-      "summary": "HN story type: story HN points: 100 HN comments: 38 HN top comments: RagingCactus: Seeing the confusion in the comments I want to provide some examples of situations where this might come up in a security or CTF context: * You have a restricted shell or other way to execute a restricted set of commands or binaries, often with arbitrary parameters. You can use GTFOBins in interesting ways to read files, write files, or even execute commands and ultimately break out of your restricted context into... laserbeam: I am confused. Is this saying that if you don't have access to `cat`, instead of `cat /path/to/input-file` you can use `base64 /path/to/input-file | base64 --decode`? Or is it saying that `base64 /path/to/input-file | base64 --decode` can bypass read file permission flags? regecks: Haha, as a former maintainer to one of these tools, it makes me laugh to see someone pop a shell. Creative, nice work, nice resource.",
-      "fetched_at": "2026-04-28T08:24:02.924938+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47931035",
-      "hn_story_type": "story",
-      "hn_points": "100",
-      "hn_comments_count": "38",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47931035",
-      "hn_item_text": "",
-      "hn_comment_preview": "RagingCactus: Seeing the confusion in the comments I want to provide some examples of situations where this might come up in a security or CTF context: * You have a restricted shell or other way to execute a restricted set of commands or binaries, often with arbitrary parameters. You can use GTFOBins in interesting ways to read files, write files, or even execute commands and ultimately break out of your restricted context into...\nlaserbeam: I am confused. Is this saying that if you don't have access to `cat`, instead of `cat /path/to/input-file` you can use `base64 /path/to/input-file | base64 --decode`? Or is it saying that `base64 /path/to/input-file | base64 --decode` can bypass read file permission flags?\nregecks: Haha, as a former maintainer to one of these tools, it makes me laugh to see someone pop a shell. Creative, nice work, nice resource.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=20,practical_tech=20,tools_agents=9,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 20,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 20,
-          "strong_hits": [
-            "security",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "rag",
-        "code + security"
-      ],
-      "detail_slug": "6008c79f34cc983c41d4161bcaa5131a500a9e1d",
-      "is_english_source": true,
-      "translated_title": "제한된 셸 탈출 기법 모은 GTFOBins",
-      "short_summary": "Hacker News에서 다시 주목받은 GTFOBins는 평범한 유닉스 바이너리를 이용해 제한된 셸에서 파일 읽기, 쓰기, 명령 실행 우회를 정리한 레퍼런스다. 댓글에서는 권한 자체를 뚫는 도구로 오해하는 반응과 CTF·보안 점검에 유용하다는 설명이 함께 나왔다.",
-      "why_it_matters": "보안팀과 인프라 운영자는 '허용된 명령만 남기면 안전하다'는 가정을 다시 점검할 시점이다.\n- 제한 셸이나 일부 바이너리만 허용된 환경에서도, 조합 가능한 명령이 남아 있으면 파일 접근이나 셸 탈출 경로가 생길 수 있다.\n- 실무에서는 `sudo` 허용 목록, 서버 기본 패키지, 운영용 유틸리티 노출 범위를 다시 살피는 계기가 된다.\n- 공격 기법 모음처럼 보이지만, 방어 관점에서는 점검 항목과 재현 가능한 테스트 케이스로 바로 활용할 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 '유용한 자료'라는 평가와 '정확히 무엇을 우회하는가'라는 혼란이 함께 섞인 쪽에 가까웠다.\n- 가장 많이 반복된 설명은, GTFOBins가 파일 권한을 마술처럼 무시하는 도구가 아니라 이미 실행 가능한 바이너리를 비틀어 제한된 환경을 빠져나오는 데 쓰인다는 점이다.\n- 보안·CTF 경험자들은 실제로 자주 맞닥뜨리는 상황이라며 구체적인 활용 예시를 덧붙였고, 자료 자체의 실전성을 높게 봤다.\n- 반대로 입문자들은 `base64` 같은 예시를 두고 단순한 대체 명령인지 권한 우회인지 헷갈려 했고, 그 차이를 짚는 답글이 이어졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T08:26:43.871816+00:00"
     }
   ],
   "topic_digests": {
