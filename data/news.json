@@ -1,6 +1,587 @@
 {
   "items": [
     {
+      "id": "02556e00e20038ab847c7cd2a8deb790e1db6254",
+      "title_hash": "4735bbfe6e0dfbb7d7632b0efae59babfd244423",
+      "source": "GeekNews",
+      "title": "Show GN: Ferryx - Windows·Linux에서도 쓸 수 있는 코딩 에이전트용 네이티브 터미널",
+      "link": "https://news.hada.io/topic?id=36204",
+      "published_at": "2026-10-29T02:06:32+00:00",
+      "summary": "Claude Code, Codex 같은 에이전트 여러 개를 터미널 탭에 띄워 놓고 쓰는 용도로 만든 데스크톱 터미널입니다. macOS, Windows, Linux에서 다 돕니다. 쉽게 말하면 Orca + cmux + Herdr 를 만들고 싶었습니다. 특히 신경 쓴 건 이 두 개예요. 앱을 닫아도 에이전트가 안 죽습니다. 터미널",
+      "fetched_at": "2026-10-29T04:06:28.547801+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=0,tools_agents=25,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 25,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "02556e00e20038ab847c7cd2a8deb790e1db6254",
+      "is_english_source": false,
+      "sent_at": "2026-10-29T04:08:50.404987+00:00"
+    },
+    {
+      "id": "eb7b72b82c5c9d20ad812cc4c61d60f0f6ec3499",
+      "title_hash": "2a1d2c3ab33c43fab7037116453ffb0d0d23d756",
+      "source": "GeekNews",
+      "title": "이대로는 지속 가능하지 않다 - 취약점 공개 속도를 따라가지 못하는 보안 대응",
+      "link": "https://news.hada.io/topic?id=36195",
+      "published_at": "2026-10-29T00:04:54+00:00",
+      "summary": "취약점 발견과 공개 속도 가 방어 조직의 대응 능력을 넘어섰으며, AI로 패치를 생성하는 것만으로는 이 문제를 해결할 수 없음 실제 병목은 패치 개발이 아니라 적용 과정 에 있음. 조직별 공격 표면과 악용 가능성을 파악하고, 완화책을 검토하고, 수정을 배포하는...",
+      "fetched_at": "2026-10-29T04:06:28.547801+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "병목"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "병목"
+      ],
+      "detail_slug": "eb7b72b82c5c9d20ad812cc4c61d60f0f6ec3499",
+      "is_english_source": false,
+      "sent_at": "2026-10-29T04:08:50.404987+00:00"
+    },
+    {
+      "id": "7d8ed5a792956bc02778cdb1891a8c82f68606d4",
+      "title_hash": "c70350ab6d9d1f7a7e829edebf501537a36e6752",
+      "source": "GeekNews",
+      "title": "AAII v5 공개 - 비공개 평가 비중을 60%로 높인 AI 모델 역량 지수",
+      "link": "https://news.hada.io/topic?id=36197",
+      "published_at": "2026-10-29T00:10:15+00:00",
+      "summary": "Artificial Analysis Intelligence Index v5 는 벤치마크 2개를 추가하고 3개를 개편했으며, 지수의 60%를 비공개 테스트 세트 또는 비공개 정답 기반 평가로 구성함 Claude Opus 5.5 (max) 가 58점으로 선두이며, GPT-6 Astra (max)가 57점, GPT-6.1 Sol (max)이 5...",
+      "fetched_at": "2026-10-29T04:06:28.547801+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "index"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "index"
+      ],
+      "detail_slug": "7d8ed5a792956bc02778cdb1891a8c82f68606d4",
+      "is_english_source": false,
+      "sent_at": "2026-10-29T04:08:50.404987+00:00"
+    },
+    {
+      "id": "d8ed926326cd5e0b1a583cc75f6ff29e662f0aa2",
+      "title_hash": "83cfcb34429505d059153aff756bee6904cea752",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+      "link": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+      "published_at": "2026-10-28T23:45:46+00:00",
+      "summary": "HN story type: story HN points: 112 HN comments: 44 HN top comments: JLO64: > Upgrading to GitLab 19.3.6 on October 22 didn’t fix the vulnerability. The fix isn’t in GitLab’s own code but in a patch to Ruby, which GitLab applies only in its official packages. Our image used standard Ruby, so it didn’t get the patch. > The bug is in Ruby’s regular expression engine, so any program that compiles regular expressions from untrusted input is exposed, not only GitLab. I feel like this era of co... cowlevel: The bug is integer overflow in a random C data-processing library (specifically regexes) leading to RCE. Who else is tired of C libraries since this week? akersten: > If you use our alpinelinux/gitlab container image, pull alpinelinux/gitlab:19.3.6 again. The image published on October 27 contains Ruby 3.3.13. Any 19.3.6 image you pulled before October 27, and all older tags, are vulnerable. shouldn't they tag a new version instead of re-releasing a fixed 19.3.6, if earlier 19.3.6 are vulnerable?",
+      "fetched_at": "2026-10-29T04:06:28.547801+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50282544",
+      "hn_story_type": "story",
+      "hn_points": "112",
+      "hn_comments_count": "44",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50282544",
+      "hn_item_text": "",
+      "hn_comment_preview": "JLO64: > Upgrading to GitLab 19.3.6 on October 22 didn’t fix the vulnerability. The fix isn’t in GitLab’s own code but in a patch to Ruby, which GitLab applies only in its official packages. Our image used standard Ruby, so it didn’t get the patch. > The bug is in Ruby’s regular expression engine, so any program that compiles regular expressions from untrusted input is exposed, not only GitLab. I feel like this era of co...\ncowlevel: The bug is integer overflow in a random C data-processing library (specifically regexes) leading to RCE. Who else is tired of C libraries since this week?\nakersten: > If you use our alpinelinux/gitlab container image, pull alpinelinux/gitlab:19.3.6 again. The image published on October 27 contains Ruby 3.3.13. Any 19.3.6 image you pulled before October 27, and all older tags, are vulnerable. shouldn't they tag a new version instead of re-releasing a fixed 19.3.6, if earlier 19.3.6 are vulnerable?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "51",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=27,practical_tech=27,tools_agents=7,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 27,
+        "tools_agents": 7,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 27,
+          "strong_hits": [
+            "container",
+            "security",
+            "rust"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "container",
+        "security",
+        "rust",
+        "library",
+        "code + security"
+      ],
+      "detail_slug": "d8ed926326cd5e0b1a583cc75f6ff29e662f0aa2",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T04:08:50.404987+00:00"
+    },
+    {
+      "id": "9663f3e1c395d455b9aca7e8c3997bf1ef257771",
+      "title_hash": "b9ca21d1914111d779c4a5a465d829920d066e1a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "link": "https://divagr.com/blog/qwenputer",
+      "published_at": "2026-10-29T00:25:45+00:00",
+      "summary": "HN story type: story HN points: 193 HN comments: 43 HN top comments: tiborsaas: This is fun and games, but wait until an agents finds this and does the most misaligned thing with it in order to fold paper clips. > Because a CPU inside a language model clearly wasn't cursed enough, I decided the prudent thing would be to give it a filesystem too. Love the spirit :) jerrythegerbil: There was an interesting bit of research that qwen has a single neuron that makes it “demonic evil qwen” and a simple “Who are you?” will get some absolutely terrifyingly vile results. Anyways, what I’m trying to say is I want evil qwen to be my CPU. giveexamples: https://www.percepta.ai/blog/can-llms-be-computers They implemented wasm in transformer with cpu decoding for the wasm part.",
+      "fetched_at": "2026-10-29T04:06:28.547801+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50282838",
+      "hn_story_type": "story",
+      "hn_points": "193",
+      "hn_comments_count": "43",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50282838",
+      "hn_item_text": "",
+      "hn_comment_preview": "tiborsaas: This is fun and games, but wait until an agents finds this and does the most misaligned thing with it in order to fold paper clips. > Because a CPU inside a language model clearly wasn't cursed enough, I decided the prudent thing would be to give it a filesystem too. Love the spirit :)\njerrythegerbil: There was an interesting bit of research that qwen has a single neuron that makes it “demonic evil qwen” and a simple “Who are you?” will get some absolutely terrifyingly vile results. Anyways, what I’m trying to say is I want evil qwen to be my CPU.\ngiveexamples: https://www.percepta.ai/blog/can-llms-be-computers They implemented wasm in transformer with cpu decoding for the wasm part.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=25,practical_tech=4,tools_agents=25,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 25,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "ide",
+            "cli",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "llm",
+        "agent",
+        "ai + coding"
+      ],
+      "detail_slug": "9663f3e1c395d455b9aca7e8c3997bf1ef257771",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T04:08:50.404987+00:00"
+    },
+    {
+      "id": "40f6ac8da3560c7b29d313d1d45c103615a2cae7",
+      "title_hash": "2c2dd96072e50f8245ecaa022afe9b41d7cd5d0a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Claude Code burns ~15–20% of your tokens on a 3-word status line",
+      "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "published_at": "2026-10-29T03:33:42+00:00",
+      "summary": "HN story type: story HN points: 34 HN comments: 0",
+      "fetched_at": "2026-10-29T04:06:28.547801+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50284255",
+      "hn_story_type": "story",
+      "hn_points": "34",
+      "hn_comments_count": "0",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50284255",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=7,tools_agents=16,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 16,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code",
+        "github.com"
+      ],
+      "detail_slug": "40f6ac8da3560c7b29d313d1d45c103615a2cae7",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T04:08:50.404987+00:00"
+    },
+    {
+      "id": "921749d21a03c7e9380dab02bf946e726ec8b015",
+      "title_hash": "958ed416da09bf9a384f8ece77e11b9181d24d57",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Richest 0.1% (8M) produce more carbon pollution than 3.5B",
+      "link": "https://www.oxfam.org/en/press-releases/ultra-rich-01-produce-more-carbon-pollution-nearly-half-humanity-while-cashing",
+      "published_at": "2026-10-29T03:01:57+00:00",
+      "summary": "HN story type: story HN points: 60 HN comments: 11 HN top comments: thenewnewguy: Their methodology is extremely suspect in my opinion, as they attribute \"shareholder emissions\" to anyone that owns 10% or more of a company. Direct quote from their doc: > a person with a 20% share in a company has 20% of its emissions allocated to their shareholder emissions While shareholders obviously hold a greater degree of control over a company's emissions than a random consumer, assigning 100% of the blam... Ericson2314: This is mostly a distraction because so much Carbon pollution is within supply chains, and therefore not wise to ascribe to individual consumers. The exceptions are driving and flying. 8M is more than the private jet users, I assume. Getting rid of ICE driving is going very well (outside fossil-Luddite America). Getting rid of flying is harder, but I fully support a rail bridge across the Bearing Strait. I'll take... atleastoptimal: Is that really a surprise? Most of the world bikes or takes a train. The richest 0.1% have fleets of taxis, private jets, etc.",
+      "fetched_at": "2026-10-29T04:06:28.547801+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50284089",
+      "hn_story_type": "story",
+      "hn_points": "60",
+      "hn_comments_count": "11",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50284089",
+      "hn_item_text": "",
+      "hn_comment_preview": "thenewnewguy: Their methodology is extremely suspect in my opinion, as they attribute \"shareholder emissions\" to anyone that owns 10% or more of a company. Direct quote from their doc: > a person with a 20% share in a company has 20% of its emissions allocated to their shareholder emissions While shareholders obviously hold a greater degree of control over a company's emissions than a random consumer, assigning 100% of the blam...\nEricson2314: This is mostly a distraction because so much Carbon pollution is within supply chains, and therefore not wise to ascribe to individual consumers. The exceptions are driving and flying. 8M is more than the private jet users, I assume. Getting rid of ICE driving is going very well (outside fossil-Luddite America). Getting rid of flying is harder, but I fully support a rail bridge across the Bearing Strait. I'll take...\natleastoptimal: Is that really a surprise? Most of the world bikes or takes a train. The richest 0.1% have fleets of taxis, private jets, etc.",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "37",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=13,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=13",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 13
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 13,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "supply + chain"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "release",
+        "company",
+        "supply + chain"
+      ],
+      "detail_slug": "921749d21a03c7e9380dab02bf946e726ec8b015",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T04:08:50.404987+00:00"
+    },
+    {
       "id": "9ea2b27b6cc0ddd9c6b96c38fb310eebbb3e6330",
       "title_hash": "f7d9e7b246e9633c54541364a3104f32aa161bf8",
       "source": "GeekNews",
@@ -167769,572 +168350,6 @@
       "hn_reaction_summary": "현재 HN 메타데이터상 점수는 낮고 댓글은 아직 없다. 그래서 뚜렷한 찬반 흐름보다는, 관심 있는 개발자가 먼저 발견해보는 초기 단계의 반응으로 보는 편이 맞다.\n- 댓글이 0개라 반복적으로 나온 쟁점이나 반론은 아직 확인되지 않는다.\n- 다만 제목만으로도 Postgres 확장을 Rust로 만든다는 점이 핵심 관심사로 읽힌다.\n- 실무자 입장에서는 실제 운영 사례, 성능 특성, 기존 C 확장 대비 개발 경험이 이후 댓글에서 붙을 만한 논점이다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-28T04:17:49.724549+00:00"
-    },
-    {
-      "id": "d10207725cce8b27040c69d6d760bd47fd827845",
-      "title_hash": "501de73df7e417114f5e57c6e3989bb0fb2e773a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Ted Nyman – High Performance Git",
-      "link": "https://gitperf.com/",
-      "published_at": "2026-04-28T00:32:04+00:00",
-      "summary": "HN story type: story HN points: 41 HN comments: 9 HN top comments: normie3000: > LFS adds its own operational overhead. Seemingly seconds on every remote-touching command, even on a very small repo. snthpy: I've been wanting to ask this: Why isn't git clone --depth 1 ... the default? I would guess that for at least 90% of the repos I clone, I just want to install something. Even for the rest, I might hack on the code but seldom look into the history. If I do then I could do a `git fetch` at that point and save the bandwidth and disk space the rest of the time. wadefletch: ted nyman: #1 most knowledgable college football fan in sf and also git which makes more sense i guess",
-      "fetched_at": "2026-04-28T04:14:31.557784+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47929035",
-      "hn_story_type": "story",
-      "hn_points": "41",
-      "hn_comments_count": "9",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47929035",
-      "hn_item_text": "",
-      "hn_comment_preview": "normie3000: > LFS adds its own operational overhead. Seemingly seconds on every remote-touching command, even on a very small repo.\nsnthpy: I've been wanting to ask this: Why isn't git clone --depth 1 ... the default? I would guess that for at least 90% of the repos I clone, I just want to install something. Even for the rest, I might hack on the code but seldom look into the history. If I do then I could do a `git fetch` at that point and save the bandwidth and disk space the rest of the time.\nwadefletch: ted nyman: #1 most knowledgable college football fan in sf and also git which makes more sense i guess",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 2,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "performance"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance"
-      ],
-      "detail_slug": "d10207725cce8b27040c69d6d760bd47fd827845",
-      "is_english_source": true,
-      "translated_title": "테드 나이먼의 고성능 Git 실전 가이드",
-      "short_summary": "고성능 Git 운영법을 다룬 글이 Hacker News 프론트페이지에 올랐다. 댓글에서는 Git LFS의 체감 오버헤드와 shallow clone 기본값 문제를 두고 실무 중심의 논의가 이어졌다.",
-      "why_it_matters": "Git 성능 문제는 대형 저장소에서만 생기는 일이 아니다. clone, fetch, push가 조금씩 느려져도 개발 흐름과 CI 시간이 함께 늘어나기 때문에 팀 운영 방식까지 다시 보게 만든다.\n- Git LFS를 쓰고 있다면 저장 공간 절감만 볼 게 아니라 원격 작업마다 붙는 지연과 운영 부담도 같이 따져야 한다.\n- 설치나 빌드가 목적이라면 전체 이력보다 shallow clone이 더 나을 수 있다. 개발 환경과 CI 기본값을 점검할 만한 시점이다.\n- 저장소가 커질수록 파일 관리 방식과 브랜치 전략이 곧 성능 이슈가 된다. Git 사용 습관 자체를 손볼 필요가 있다.",
-      "hn_reaction_summary": "댓글 분위기는 과한 찬사보다 실제 사용 경험을 바탕으로 병목을 짚는 쪽에 가까웠다. 짧은 스레드였지만 현업에서 자주 부딪히는 불편이 또렷하게 드러났다.\n- Git LFS는 분명 편한 점이 있지만 원격 명령마다 몇 초씩 느려진다는 불만이 나왔다. 작은 저장소에서도 체감된다는 반응이다.\n- `git clone --depth 1`가 왜 기본이 아닌지 묻는 의견이 눈에 띄었다. 설치용 clone과 이력 탐색용 clone은 다르게 봐야 한다는 문제의식이다.\n- 작성자에 대한 가벼운 농담도 있었지만, 전반적으로는 Git의 기본 동작이 지금의 사용 패턴과 잘 맞는지 다시 따져보자는 흐름이 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T04:17:49.724549+00:00"
-    },
-    {
-      "id": "adbbbf66405a2159685a0129bc445fb9dd54a793",
-      "title_hash": "9afe13e9b009e40824f4c79a44e047bbfd43bba5",
-      "source": "GeekNews",
-      "title": "cmux에서 파일 편집까지 편하게 하려고 만든 VSCode 스타일 Neovim 세팅",
-      "link": "https://news.hada.io/topic?id=28953",
-      "published_at": "2026-04-27T18:55:25+00:00",
-      "summary": "cmux 에서 AI 에이전트가 만든 파일을 바로 확인·수정하고, 프로젝트 파일을 관리하기 쉽게 만든 VSCode 스타일 Neovim 설정 파일 탐색기 Ctrl+b 로 VSCode 사이드바처럼 파일 탐색기를 열고 닫을 수 있음 명령 팔",
-      "fetched_at": "2026-04-28T00:05:26.429894+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "adbbbf66405a2159685a0129bc445fb9dd54a793",
-      "is_english_source": false,
-      "sent_at": "2026-04-28T00:08:02.794427+00:00"
-    },
-    {
-      "id": "6c80a25e5235aa04b9548a3ed5aa329da1f3a105",
-      "title_hash": "5c6074b9087a763070805efb801dfcff03252e52",
-      "source": "GeekNews",
-      "title": "Fast16: Stuxnet보다 5년 앞선 고정밀 소프트웨어 사보타주",
-      "link": "https://news.hada.io/topic?id=28955",
-      "published_at": "2026-04-27T20:39:25+00:00",
-      "summary": "2005년 제작된 미문서화 사보타주 프레임워크 로, 선택된 계산 소프트웨어의 메모리 코드를 패치해 수치 결과를 왜곡 하도록 설계됨 svcmgmt.exe 는 겉으로는 서비스 래퍼처럼 보이지만 내부에 Lua 5.0 가상 머신 과 암호화된 바이트코드...",
-      "fetched_at": "2026-04-28T00:05:26.429894+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=2,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "6c80a25e5235aa04b9548a3ed5aa329da1f3a105",
-      "is_english_source": false,
-      "sent_at": "2026-04-28T00:08:02.794427+00:00"
-    },
-    {
-      "id": "5afdcd3c94888c03eed16999e9afd0afe7adefc7",
-      "title_hash": "6cf0bc9dd2934eccbf558541d416bc6e127f5c46",
-      "source": "GeekNews",
-      "title": "만들기 전에 거는 세 가지 제약",
-      "link": "https://news.hada.io/topic?id=28954",
-      "published_at": "2026-04-27T19:33:24+00:00",
-      "summary": "제품 아이디어는 제약조건 을 먼저 걸어야 탐색 공간이 줄고, 너무 복잡하거나 정체성이 없는 결과물 로 흐르는 일을 막아줌 모든 아이디어는 한 장짜리 one pager 로 정리해야 하며, 그 안에 담기지 않는다면 조사, 계획, 프로토타입이 더 필요한 상...",
-      "fetched_at": "2026-04-28T00:05:26.429894+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "5afdcd3c94888c03eed16999e9afd0afe7adefc7",
-      "is_english_source": false,
-      "sent_at": "2026-04-28T00:08:02.794427+00:00"
-    },
-    {
-      "id": "6625caa911faffd431c5e8102c422fb2be56e27f",
-      "title_hash": "c1be1a7c5689ac3f51848e7d0482344056886333",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The woes of sanitizing SVGs",
-      "link": "https://muffin.ink/blog/scratch-svg-sanitization/",
-      "published_at": "2026-04-27T15:31:36+00:00",
-      "summary": "HN story type: story HN points: 170 HN comments: 66 HN top comments: simonw: I'm glad this article includes the only credible fix for the HTTP leak problems: CSP. A useful thing I learned recently is that, while CSP headers are usually set using HTTP headers, you can also reliably set them directly in HTML - for example for HTML generated directly on a page where HTTP headers don't come into play: \"> It feels like this shouldn't work, because JavaScript in the untrusted content could use t... andybak: My first thought is \"support a tiny subset of svg that probably still covers 90% of real-world use cases\". I do feel that's there's two distinct types of svg - \"bunch of paths with fills\" and \"clever dangerous stuff\" where most real SVGs are of the former type. Fully expect this to be shot down by someone that's thought about this problem for longer than the 120 seconds I just spent. :) philo23: It'd be nice if there was a sandbox attribute you could add to inline tags, like the attribute that'd let you opt out of all the potentially \"dynamic\" stuff inside of an SVG like scripts and event handlers, or even just literally sandbox the entire thing from accessing the \"parent\" HTML page's context/cookies/etc just like an iframe. I'm sure it'd just open up a whole other can of worms though... not to mention ha...",
-      "fetched_at": "2026-04-28T00:05:26.429894+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47922957",
-      "hn_story_type": "story",
-      "hn_points": "170",
-      "hn_comments_count": "66",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47922957",
-      "hn_item_text": "",
-      "hn_comment_preview": "simonw: I'm glad this article includes the only credible fix for the HTTP leak problems: CSP. A useful thing I learned recently is that, while CSP headers are usually set using HTTP headers, you can also reliably set them directly in HTML - for example for HTML generated directly on a page where HTTP headers don't come into play: \"> It feels like this shouldn't work, because JavaScript in the untrusted content could use t...\nandybak: My first thought is \"support a tiny subset of svg that probably still covers 90% of real-world use cases\". I do feel that's there's two distinct types of svg - \"bunch of paths with fills\" and \"clever dangerous stuff\" where most real SVGs are of the former type. Fully expect this to be shot down by someone that's thought about this problem for longer than the 120 seconds I just spent. :)\nphilo23: It'd be nice if there was a sandbox attribute you could add to inline tags, like the attribute that'd let you opt out of all the potentially \"dynamic\" stuff inside of an SVG like scripts and event handlers, or even just literally sandbox the entire thing from accessing the \"parent\" HTML page's context/cookies/etc just like an iframe. I'm sure it'd just open...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=12,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 12,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "sandbox",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "sandbox",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "sandbox",
-        "rust"
-      ],
-      "detail_slug": "6625caa911faffd431c5e8102c422fb2be56e27f",
-      "is_english_source": true,
-      "translated_title": "SVG를 안전하게 정리하기 어려운 이유",
-      "short_summary": "SVG는 그림 파일처럼 보여도 스크립트와 외부 참조, 이벤트를 품을 수 있어 정제가 생각보다 까다롭다는 이야기다. HN에서는 CSP를 사실상 가장 믿을 만한 방어선으로 보고, 아예 안전한 일부 기능만 허용하자는 의견이 함께 나왔다.",
-      "why_it_matters": "사용자 업로드 이미지, 문서 미리보기, 에디터 임베드처럼 SVG를 그대로 다루는 서비스라면 바로 맞닿는 문제다. 보기에는 단순한 벡터 파일이어도 웹 문맥에서는 예상보다 넓은 공격면을 만든다.\n- 태그 몇 개 지우는 수준의 sanitize로 끝나지 않는다는 점이 실무 부담이다. 렌더링은 유지하면서 스크립트, 이벤트, 외부 요청 가능성까지 함께 막아야 한다.\n- 댓글 맥락상 현실적인 대응은 CSP 같은 브라우저 정책을 함께 거는 쪽에 무게가 실렸다. 애플리케이션 로직만으로 완전히 막겠다는 접근은 구멍이 남기 쉽다는 뜻이다.\n- 업로드 SVG를 허용하는 제품이라면 허용 기능을 아주 좁게 제한하거나, 경우에 따라 래스터 이미지로 변환하는 운영 방침까지 검토해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 \"SVG는 생각보다 위험한 웹 문서\"라는 쪽에 가까웠다. 단순히 sanitizer를 더 촘촘히 짜는 것보다 브라우저 보안정책과 기능 제한을 함께 봐야 한다는 반응이 반복됐다.\n- 가장 많이 힘이 실린 포인트는 CSP였다. 특히 HTTP 요청을 통한 정보 노출 문제는 CSP 없이는 믿을 만한 해법이 잘 보이지 않는다는 의견이 나왔다.\n- 실무적인 대안으로는 \"대부분의 SVG는 path와 fill 정도면 충분하니 안전한 극소수만 허용하자\"는 주장이 눈에 띄었다. 완전한 SVG 지원보다 제한된 지원이 낫다는 관점이다.\n- 반대로 브라우저나 표준 차원에서 inline SVG용 sandbox가 있으면 좋겠다는 아쉬움도 있었다. 다만 그렇게 해도 또 다른 예외와 복잡성이 생길 것이라는 회의론이 함께 붙었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T00:08:02.794427+00:00"
-    },
-    {
-      "id": "2aef15b3f569214bc5bc6154761cabe9dc800473",
-      "title_hash": "d9a1b71a92e28f16a296f6bdaa74c3dbb8ee6e61",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "New Integrated by Design FreeBSD Book",
-      "link": "https://vivianvoss.net/blog/integrated-by-design-launch",
-      "published_at": "2026-04-27T23:14:26+00:00",
-      "summary": "HN story type: story HN points: 22 HN comments: 1 HN top comments: dontdoxxme: The style of the blog post, with short, abrupt sentences does not captivate me. I’d like to think someone writing a book has a more interesting writing style. Or maybe LLMs have damaged me and I’m too critical of writing style now, whatever it is this doesn’t sell the book to me.",
-      "fetched_at": "2026-04-28T00:05:26.429894+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47928554",
-      "hn_story_type": "story",
-      "hn_points": "22",
-      "hn_comments_count": "1",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47928554",
-      "hn_item_text": "",
-      "hn_comment_preview": "dontdoxxme: The style of the blog post, with short, abrupt sentences does not captivate me. I’d like to think someone writing a book has a more interesting writing style. Or maybe LLMs have damaged me and I’m too critical of writing style now, whatever it is this doesn’t sell the book to me.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "31",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "launch"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "llm"
-      ],
-      "detail_slug": "2aef15b3f569214bc5bc6154761cabe9dc800473",
-      "is_english_source": true,
-      "translated_title": "통합 설계 철학을 담은 FreeBSD 신간",
-      "short_summary": "FreeBSD를 처음부터 하나의 통합된 시스템으로 바라보는 새 책이 소개됐다. HN에서는 책 내용보다 소개 글의 짧고 끊기는 문체가 아쉽다는 반응이 먼저 나왔다.",
-      "why_it_matters": "운영체제를 기능 목록이 아니라 설계와 운영 방식까지 묶인 하나의 시스템으로 이해하려는 실무자라면 눈여겨볼 만한 소식이다. 새 기능 발표는 아니지만 FreeBSD를 다시 검토할 때 참고할 관점을 던져준다.\n- Linux 중심으로 굳어진 인프라 선택지 사이에서 FreeBSD의 일관된 시스템 구성 방식을 다시 살펴볼 계기가 된다.\n- 네트워크 장비, 스토리지, 서버 운영처럼 예측 가능한 동작과 관리 일관성이 필요한 환경에서 읽을 만한 배경 자료가 될 수 있다.\n- 팀 온보딩이나 기술 검토 문서를 만들 때 FreeBSD를 어떤 철학으로 설명할지 기준점을 잡는 데 도움이 된다.",
-      "hn_reaction_summary": "HN 반응은 아직 많지 않다. 현재 보이는 흐름은 책의 기술 내용 토론보다, 책을 소개하는 글이 얼마나 설득력 있게 읽히는지에 더 쏠려 있다.\n- 눈에 띄는 댓글은 소개 글 문장이 짧고 툭툭 끊겨 책의 매력을 살리지 못한다고 지적했다.\n- 초반 분위기는 FreeBSD 자체의 장단점 논쟁보다 글쓰기 톤과 전달력 평가에 가깝다.\n- 댓글 수가 1개 수준이라 반복된 찬반 구도나 실무적 반론은 아직 본격적으로 형성되지 않았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T00:08:02.794427+00:00"
-    },
-    {
-      "id": "a20310a51ce1ccff121fd8fa70ae38ad535da309",
-      "title_hash": "822f84b64d14855566ddd65ac55e824c35da653f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Easyduino: Open Source PCB Devboards for KiCad",
-      "link": "https://github.com/Hanqaqa/Easyduino",
-      "published_at": "2026-04-27T17:45:02+00:00",
-      "summary": "HN story type: story HN points: 159 HN comments: 23 HN top comments: simojo: Recently, I made an Arduino UNO that I showed to have better switching characteristics than a commercial board. It was a great project to help me understand how seemingly inconsequential routing practices can lead to issues down the line. http://www.simonjjones.com/#/posts/golden-arduino zamalek: Awesome! It's been a while, but my next level of learning was designing PCBs without breakout boards (and I had several failed revisions). This will be great to learn from. Liftyee: Neat project. These popular \"commodity\" devboard designs have been remixed and copied so much that it was just missing an open-source design to slot into many existing projects. I can imagine designing a board using one of these designs as a \"template\" but adding whatever capabilities I need, then knowing it fits a standard footprint.",
-      "fetched_at": "2026-04-28T00:05:26.429894+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47924813",
-      "hn_story_type": "story",
-      "hn_points": "159",
-      "hn_comments_count": "23",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47924813",
-      "hn_item_text": "",
-      "hn_comment_preview": "simojo: Recently, I made an Arduino UNO that I showed to have better switching characteristics than a commercial board. It was a great project to help me understand how seemingly inconsequential routing practices can lead to issues down the line. http://www.simonjjones.com/#/posts/golden-arduino\nzamalek: Awesome! It's been a while, but my next level of learning was designing PCBs without breakout boards (and I had several failed revisions). This will be great to learn from.\nLiftyee: Neat project. These popular \"commodity\" devboard designs have been remixed and copied so much that it was just missing an open-source design to slot into many existing projects. I can imagine designing a board using one of these designs as a \"template\" but adding whatever capabilities I need, then knowing it fits a standard footprint.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=7,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 7,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [
-            "template"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "github.com"
-      ],
-      "detail_slug": "a20310a51ce1ccff121fd8fa70ae38ad535da309",
-      "is_english_source": true,
-      "translated_title": "KiCad용 오픈소스 개발보드 Easyduino",
-      "short_summary": "Easyduino는 KiCad에서 바로 열어 보고 수정할 수 있는 오픈소스 PCB 개발보드 설계다. 아두이노 계열 보드를 학습용 템플릿처럼 활용해 직접 개조하거나 새 보드로 확장하기 쉽게 돕는다.",
-      "why_it_matters": "기성 개발보드를 그대로 쓰는 단계에서 벗어나 자체 PCB를 만들어 보려는 개발자에게 실전 출발점이 될 만한 공개 설계다.\n- 브레이크아웃 보드 조합을 넘어 직접 보드를 설계할 때 필요한 배선 감각과 풋프린트 이해를 익히는 데 도움이 된다.\n- 표준 개발보드 형태를 바탕으로 필요한 기능만 더한 커스텀 보드를 만들기 쉬워진다.\n- KiCad 기반이라 바로 열어 보고 수정할 수 있어 초기 설계 검토와 시행착오를 줄이는 데 유리하다.",
-      "hn_reaction_summary": "Hacker News에서는 전반적으로 반응이 좋았고, 단순한 공개 회로도가 아니라 실제 학습용 레퍼런스로 쓸 만하다는 평가가 많았다.\n- 사소해 보이는 라우팅 차이도 스위칭 특성이나 이후 문제로 이어질 수 있다는 실전 경험담이 눈에 띄었다.\n- 브레이크아웃 보드 없이 PCB를 설계하다 여러 번 리비전을 겪었다는 사람들에게 좋은 참고 자료라는 의견이 반복됐다.\n- 널리 쓰이는 개발보드 폼팩터를 유지한 오픈소스 템플릿이라 기존 프로젝트에 붙여 쓰기 좋겠다는 반응이 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T00:08:02.794427+00:00"
     }
   ],
   "topic_digests": {
