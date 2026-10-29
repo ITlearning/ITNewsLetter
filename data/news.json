@@ -1,6 +1,583 @@
 {
   "items": [
     {
+      "id": "0e9f94bc09ae475e708d8b7ef6a7dbd9be65532b",
+      "title_hash": "6ac0598ff546b795dd7c15f271e22f7f1ea4d6af",
+      "source": "GeekNews",
+      "title": "Show GN: anti-stuck - Claude Code가 멈춘 명령·서브에이전트를 영원히 기다리지 않게 하는 플러그인",
+      "link": "https://news.hada.io/topic?id=36210",
+      "published_at": "2026-10-29T06:00:51+00:00",
+      "summary": "제가 만든 Claude Code 플러그인입니다. Flutter 앱을 Claude Code로 개발하면서 가장 비싼 실패는 틀린 코드가 아니라 \"기다림\"이었습니다. 하루 동안 실제로 겪은 것들: Marionette MCP connect가 10분 넘게 매달림 (MCP 호출은 Bash 타임아웃 밖. stdio MCP 기본 유휴 한도는 30분)",
+      "fetched_at": "2026-10-29T08:15:30.004558+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=2,tools_agents=25,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 25,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "에이전트",
+            "mcp"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "mcp",
+        "claude + code"
+      ],
+      "detail_slug": "0e9f94bc09ae475e708d8b7ef6a7dbd9be65532b",
+      "is_english_source": false,
+      "sent_at": "2026-10-29T08:17:49.746030+00:00"
+    },
+    {
+      "id": "b059647c42d1b2213ee363e1fc6122205c463199",
+      "title_hash": "abfed5b559bac98e65e613594c4edaa76e17bbdf",
+      "source": "GeekNews",
+      "title": "StackOverflow의 월간 질문 수, 이제 1,000건 미만",
+      "link": "https://news.hada.io/topic?id=36207",
+      "published_at": "2026-10-29T04:32:53+00:00",
+      "summary": "HN 제목에 따르면 StackOverflow의 월간 질문 수가 1,000건 미만 이지만, 제공된 본문에는 실제 집계 결과가 없어 수치와 대상 월을 확인할 수 없음 Stack Exchange Data Explorer에 공개된 SQL 쿼리 로 StackOverflow 질문 수를 생성 월별로 집계함 집계 대...",
+      "fetched_at": "2026-10-29T08:15:30.004558+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sql"
+      ],
+      "detail_slug": "b059647c42d1b2213ee363e1fc6122205c463199",
+      "is_english_source": false,
+      "sent_at": "2026-10-29T08:17:49.746030+00:00"
+    },
+    {
+      "id": "c7af8679972a77b794196a27472b464d63e70e5b",
+      "title_hash": "1d06d6850ed153249974ae67b401f523b4c1212a",
+      "source": "GeekNews",
+      "title": "Claude Code는 각 백그라운드 에이전트의 대화 기록을 주기적으로 해당 모델에 전송함",
+      "link": "https://news.hada.io/topic?id=36213",
+      "published_at": "2026-10-29T06:33:51+00:00",
+      "summary": "Claude Code는 백그라운드 에이전트마다 약 30초 간격으로 전체 대화 기록 을 해당 에이전트의 모델에 보내 3~5단어 상태 요약을 생성함. 결과는 에이전트 패널에만 표시되며 대화나 모델의 문맥에는 들어가지 않음 Flamerix AI의 측정에서 agent_summary 호출은...",
+      "fetched_at": "2026-10-29T08:15:30.004558+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "67",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=22,practical_tech=0,tools_agents=22,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 22,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "claude code",
+            "에이전트"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "c7af8679972a77b794196a27472b464d63e70e5b",
+      "is_english_source": false,
+      "sent_at": "2026-10-29T08:17:49.746030+00:00"
+    },
+    {
+      "id": "dc17e71549f8440b745b93b13c5f42a348347873",
+      "title_hash": "3a86c55e528d05172cc87e6b07e07cf0a5105aae",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "StackOverflow now gets fewer than 1000 questions a month",
+      "link": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+      "published_at": "2026-10-28T23:35:02+00:00",
+      "summary": "HN story type: story HN points: 369 HN comments: 309 HN top comments: kstrauser: OK, let's get this out of the way: 1. SO question numbers dropped precipitously before AI came along. 2. AI clearly finished the job. I took the graph from this very page and annotated it with the public launch of ChatGPT in November 2022.[0] Yes, the decline hastened after that, inarguably. But also, it was already nearly 50% down from its June 2020 local maxima. This is also inarguable. SO had been flatlined sin... foofoo4u: I stopped posting questions onto Stack Overflow after experiencing two user-hostile practices of theirs. The first was how they would repeatedly mark my posts as dupes when in reality they weren't. Sure, my questions had large overlaps with existing questions. But mine had sufficient nuanced differences that my questions warranted being open. The second is how they would repeatedly rewrite my posts. And extensivel... cowlevel: You're underselling it. It's less than in their second month of existence - and that has been true every month for the past year. For the last few months it's also lower than their first month. Stack Overflow, effectively, no longer exists. And we know why. It's because of their hostile attitude towards their users. No doubt they'll continue operating until there's no more value in selling AI data licenses, then t...",
+      "fetched_at": "2026-10-29T08:15:30.004558+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50282454",
+      "hn_story_type": "story",
+      "hn_points": "369",
+      "hn_comments_count": "309",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50282454",
+      "hn_item_text": "",
+      "hn_comment_preview": "kstrauser: OK, let's get this out of the way: 1. SO question numbers dropped precipitously before AI came along. 2. AI clearly finished the job. I took the graph from this very page and annotated it with the public launch of ChatGPT in November 2022.[0] Yes, the decline hastened after that, inarguably. But also, it was already nearly 50% down from its June 2020 local maxima. This is also inarguable. SO had been flatlined sin...\nfoofoo4u: I stopped posting questions onto Stack Overflow after experiencing two user-hostile practices of theirs. The first was how they would repeatedly mark my posts as dupes when in reality they weren't. Sure, my questions had large overlaps with existing questions. But mine had sufficient nuanced differences that my questions warranted being open. The second is how they would repeatedly rewrite my posts. And extensivel...\ncowlevel: You're underselling it. It's less than in their second month of existence - and that has been true every month for the past year. For the last few months it's also lower than their first month. Stack Overflow, effectively, no longer exists. And we know why. It's because of their hostile attitude towards their users. No dou...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=6,tools_agents=9,strategy_insight=4,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 9,
+        "strategy_insight": 4,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "query"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "launch"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli",
+        "local"
+      ],
+      "detail_slug": "dc17e71549f8440b745b93b13c5f42a348347873",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T08:17:49.746030+00:00"
+    },
+    {
+      "id": "5e44c7016011b53605cb41994705b907a9d7df2c",
+      "title_hash": "6813b85f21333ed240750dfc7a5cf2f5c2bdb548",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Formlabs Studio 1 $699 Resin Printer",
+      "link": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
+      "published_at": "2026-10-28T21:19:30+00:00",
+      "summary": "HN story type: story HN points: 172 HN comments: 111 HN top comments: pen2l: Formlabs uses a proprietary resin cartridge... it's the paper printers situation all over again, the printers themselves are not that expensive but the disposable ink costs an arm and a leg. Don't go with Formlabs, support any of the open-platform alternatives. And also, be aware that these printers require some serious development work (you need solvent to wash away uncured resin (if you ask me, this basically ne... RantyDave: I have a resin printer (elegoo mars 2p) and have done a number of small \"production\" runs of things that don't really matter. I have to say that it is the biggest pain in the arse thing I even own. While the prints come out \"good\", I find that dimensional accuracy is often really not good at all; and that the whole rinse in isopropyl, finish in the sun process is just a sticky, irritating, and probably carcinogeni... rfrey: This thing is all over YouTube, they really backed up the truck to the Influencer Club and started handing out the goods. Lots of people I like and respect have showcased it, like Applied Science, Jeff Geerling, among others. But although there's a lot of discussion about how large a discount this is from FormLab's 8 billion dollar printers, there is absolutely NO comparison that I can find to other brands! OK, it...",
+      "fetched_at": "2026-10-29T08:15:30.004558+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50281044",
+      "hn_story_type": "story",
+      "hn_points": "172",
+      "hn_comments_count": "111",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50281044",
+      "hn_item_text": "",
+      "hn_comment_preview": "pen2l: Formlabs uses a proprietary resin cartridge... it's the paper printers situation all over again, the printers themselves are not that expensive but the disposable ink costs an arm and a leg. Don't go with Formlabs, support any of the open-platform alternatives. And also, be aware that these printers require some serious development work (you need solvent to wash away uncured resin (if you ask me, this basically ne...\nRantyDave: I have a resin printer (elegoo mars 2p) and have done a number of small \"production\" runs of things that don't really matter. I have to say that it is the biggest pain in the arse thing I even own. While the prints come out \"good\", I find that dimensional accuracy is often really not good at all; and that the whole rinse in isopropyl, finish in the sun process is just a sticky, irritating, and probably carcinogeni...\nrfrey: This thing is all over YouTube, they really backed up the truck to the Influencer Club and started handing out the goods. Lots of people I like and respect have showcased it, like Applied Science, Jeff Geerling, among others. But although there's a lot of discussion about how large a discount this is from FormLab's 8 billion dol...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "production"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "production"
+      ],
+      "detail_slug": "5e44c7016011b53605cb41994705b907a9d7df2c",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T08:17:49.746030+00:00"
+    },
+    {
+      "id": "ce72006cb5e93919b9f03c76b96644efd980bb32",
+      "title_hash": "a5dbd9c37a8326186659c250ff5fe8d5050e7da0",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Why is this fingerprinting script creating bioweapons?",
+      "link": "https://nullpt.rs/fingerprinting-bioweapons",
+      "published_at": "2026-10-28T17:13:29+00:00",
+      "summary": "HN story type: story HN points: 1116 HN comments: 220 HN top comments: andai: > Out of curiosity, I tried GLM-5.3 with the same prompt and it complied! I am noticing a trend here. Didn't HF say the same thing, when they got hacked, the only LLM that would assist with defense was GLM? > When we started the log analysis, we first used frontier models behind commercial APIs. This did not work: the analysis requires submitting large volumes of real attack commands, exploit payloads, and C2 arti... jacquesm: Nice sleuthing! We do a similar thing to mark documents that are still under embargo and one day I forgot to remove the watermark. The customer complained they had not received the document (a day or two after I sent it), and much searching was done. Finally we found a line in an outlook log on their end that said that the watermark was the reason the file had been put in indefinite quarantine until someone would... throwaway89201: Nice finds! This HN profile I looked at today by chance, also contains some anti-LLM incantations, albeit much less obfuscated. I wasn't aware Anthropic had such a magic string: https://news.ycombinator.com/user?id=jeroenhd",
+      "fetched_at": "2026-10-29T08:15:30.004558+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50276998",
+      "hn_story_type": "story",
+      "hn_points": "1116",
+      "hn_comments_count": "220",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50276998",
+      "hn_item_text": "",
+      "hn_comment_preview": "andai: > Out of curiosity, I tried GLM-5.3 with the same prompt and it complied! I am noticing a trend here. Didn't HF say the same thing, when they got hacked, the only LLM that would assist with defense was GLM? > When we started the log analysis, we first used frontier models behind commercial APIs. This did not work: the analysis requires submitting large volumes of real attack commands, exploit payloads, and C2 arti...\njacquesm: Nice sleuthing! We do a similar thing to mark documents that are still under embargo and one day I forgot to remove the watermark. The customer complained they had not received the document (a day or two after I sent it), and much searching was done. Finally we found a line in an outlook log on their end that said that the watermark was the reason the file had been put in indefinite quarantine until someone would...\nthrowaway89201: Nice finds! This HN profile I looked at today by chance, also contains some anti-LLM incantations, albeit much less obfuscated. I wasn't aware Anthropic had such a magic string: https://news.ycombinator.com/user?id=jeroenhd",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=9,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 9,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [
+            "prompt"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api"
+      ],
+      "detail_slug": "ce72006cb5e93919b9f03c76b96644efd980bb32",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T08:17:49.746030+00:00"
+    },
+    {
+      "id": "011f08b23b673704f81a735e6d6abc851cb146d0",
+      "title_hash": "e5e891a274e6e92f8ad5ecf081b1cc2ac2195076",
+      "source": "TechCrunch",
+      "title": "Upwind raises $400M after walking away from Datadog acquisition offer",
+      "link": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
+      "published_at": "2026-10-28T23:15:00+00:00",
+      "summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.",
+      "fetched_at": "2026-10-29T08:15:30.004558+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "29",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=23,practical_tech=-3,tools_agents=0,strategy_insight=-4,industry_business=23",
+      "slot_scores": {
+        "practical_tech": -3,
+        "tools_agents": 0,
+        "strategy_insight": -4,
+        "industry_business": 23
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -3,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "acquisition",
+            "valuation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "acquisition"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 23,
+          "strong_hits": [
+            "acquisition",
+            "valuation",
+            "startup"
+          ],
+          "support_hits": [
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "acquisition",
+        "valuation",
+        "startup",
+        "techcrunch.com"
+      ],
+      "detail_slug": "011f08b23b673704f81a735e6d6abc851cb146d0",
+      "is_english_source": true,
+      "sent_at": "2026-10-29T08:17:49.746030+00:00"
+    },
+    {
       "id": "02556e00e20038ab847c7cd2a8deb790e1db6254",
       "title_hash": "4735bbfe6e0dfbb7d7632b0efae59babfd244423",
       "source": "GeekNews",
@@ -167722,634 +168299,6 @@
       "hn_reaction_summary": "댓글 분위기는 '유용한 자료'라는 평가와 '정확히 무엇을 우회하는가'라는 혼란이 함께 섞인 쪽에 가까웠다.\n- 가장 많이 반복된 설명은, GTFOBins가 파일 권한을 마술처럼 무시하는 도구가 아니라 이미 실행 가능한 바이너리를 비틀어 제한된 환경을 빠져나오는 데 쓰인다는 점이다.\n- 보안·CTF 경험자들은 실제로 자주 맞닥뜨리는 상황이라며 구체적인 활용 예시를 덧붙였고, 자료 자체의 실전성을 높게 봤다.\n- 반대로 입문자들은 `base64` 같은 예시를 두고 단순한 대체 명령인지 권한 우회인지 헷갈려 했고, 그 차이를 짚는 답글이 이어졌다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-28T08:26:43.871816+00:00"
-    },
-    {
-      "id": "238f49a92c775a0d4a58ea739dc3e50c74204154",
-      "title_hash": "b114e6ae2781d08a5a842e5fa7fdfe61a0607278",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Meetings are forcing functions",
-      "link": "https://www.mooreds.com/wordpress/archives/3734",
-      "published_at": "2026-04-26T03:12:04+00:00",
-      "summary": "HN story type: story HN points: 112 HN comments: 51 HN top comments: wiseowise: Speedrun to annoy the hell out of your developers. If the purpose of your meetings is to “create pressure to make progress” then I’ll just stop attending. It’s not a middle school, stop patronizing adults. msteffen: IMO this is such a manager-brained take. If your long-term strategic goals aren't being advanced, you have to figure out why. Talk to your team and figure out what the deal is. Talk to other teams too, while you're at it. You might accidentally solve a problem. The number of managers who've successfully convinced themselves that knowing things and making decisions aren't part of their job, and just fill their days... katzgrau: There’s a lot of meeting hate here and as a developer, I used to feel the same. But after bootstrapping a SaaS company and at times struggling through cross-team execution, I’ve come around. A short weekly standing meeting, like the one described in the book The 4 Disciplines of Execution, is actually a powerful tool. Without it, maintenance, admin, and firefighting will expand to fill the entire week. The meeting...",
-      "fetched_at": "2026-04-28T08:24:02.924938+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47906942",
-      "hn_story_type": "story",
-      "hn_points": "112",
-      "hn_comments_count": "51",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47906942",
-      "hn_item_text": "",
-      "hn_comment_preview": "wiseowise: Speedrun to annoy the hell out of your developers. If the purpose of your meetings is to “create pressure to make progress” then I’ll just stop attending. It’s not a middle school, stop patronizing adults.\nmsteffen: IMO this is such a manager-brained take. If your long-term strategic goals aren't being advanced, you have to figure out why. Talk to your team and figure out what the deal is. Talk to other teams too, while you're at it. You might accidentally solve a problem. The number of managers who've successfully convinced themselves that knowing things and making decisions aren't part of their job, and just fill their days...\nkatzgrau: There’s a lot of meeting hate here and as a developer, I used to feel the same. But after bootstrapping a SaaS company and at times struggling through cross-team execution, I’ve come around. A short weekly standing meeting, like the one described in the book The 4 Disciplines of Execution, is actually a powerful tool. Without it, maintenance, admin, and firefighting will expand to fill the entire week. The meeting...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=9,industry_business=7",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 9,
-        "strategy_insight": 9,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "tool"
-      ],
-      "detail_slug": "238f49a92c775a0d4a58ea739dc3e50c74204154",
-      "is_english_source": true,
-      "translated_title": "회의는 일을 앞으로 움직이게 하는 장치다",
-      "short_summary": "이 글은 회의를 단순한 정보 공유가 아니라, 미뤄지기 쉬운 일을 실제로 앞으로 밀어주는 실행 장치로 본다. 특히 장기 과제와 팀 간 협업에서는 짧고 규칙적인 점검이 진척을 만든다는 주장이다.",
-      "why_it_matters": "실무에서는 급한 운영 이슈가 하루를 쉽게 잠식한다. 이 글이 말하는 포인트는 회의를 늘리자는 것이 아니라, 우선순위가 밀리지 않게 붙잡아 두는 최소한의 리듬이 필요하다는 데 있다.\n- 장기 과제는 담당자가 있어도 일상 업무에 밀리기 쉽다. 정기 점검이 있으면 다음 주까지 무엇을 끝낼지 더 또렷해진다.\n- 여러 팀이 얽힌 일은 문서만으로는 잘 굴러가지 않을 때가 많다. 짧은 회의가 막힌 지점과 의사결정 대기 상태를 빨리 드러낼 수 있다.\n- 반대로 목적이 흐린 채 압박 수단으로만 쓰면 역효과가 난다. 회의 횟수보다 안건의 선명함과 책임 정리가 더 중요하다는 점도 함께 읽힌다.",
-      "hn_reaction_summary": "HN 반응은 꽤 갈렸다. 개발자를 닦달하는 관리 방식처럼 보인다는 반감이 컸지만, 한편에서는 짧은 정례 회의가 실제 실행력을 높인다는 경험담도 나왔다.\n- 비판 쪽은 \"진척을 강제하려는 회의\"라는 발상 자체가 성인 실무자를 학생처럼 대하는 태도라고 본다.\n- 옹호 쪽은 유지보수와 잡무, 급한 불 끄기가 한 주를 다 먹어버리기 쉬워서, 짧은 주간 점검이 장기 목표를 지키는 데 도움이 된다고 말한다.\n- 반복된 논점은 회의의 존재보다 설계 방식이다. 문제 원인을 팀과 함께 풀지 않고 회의만 늘리면 해법이 아니라 관리자의 자기위안이 된다는 지적이 많았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T08:26:43.871816+00:00"
-    },
-    {
-      "id": "1777d44cd054b49a800726d34a138a5f3716e909",
-      "title_hash": "c26c735acb8d98608b7df42c0832be6396393ceb",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Scraping 241 UK council planning portals – 2.6M decisions so far",
-      "link": "https://news.ycombinator.com/item?id=47931470",
-      "published_at": "2026-04-28T07:34:03+00:00",
-      "summary": "HN story type: story HN points: 29 HN comments: 34 HN post text: I've been scraping 241 UK council planning portals – 2.6M decisions so far UK planning data is technically public. In practice it's locked behind 400+ different council portals, some still running bespoke ASP.NET that looks like it dates from 2004, some behind AWS WAF, all with subtly different schemas. I've spent four months scraping them. I'm now at 241 councils and 2.6 million decisions across England, Scotland and Wales. The scraping problem Most UK councils run one of a handful of portal systems, Idox being the most common. In theory this makes things easy. In practice every council has configured theirs differently, some block non-browser requests via TLS fingerprinting, some have rate limits that will get you banned inside 10 minutes, and a handful are running the aforementioned bespoke ASP.NET. I ended up writing several scrapers: a standard requests-based one, a Playwright-based one for councils that block anything that doesn't look like a real browser, and a curl_cffi one for TLS fingerprinting. Some councils I still can't get. Liverpool's portal sits behind AWS WAF with a JavaScript challenge. I have a working Playwright-based scraper that solves the challenge once an... HN top comments: CJefferson: So, this sounds exciting to me, but the postcode checker really feels like a spam as a user. All it tells me is 'Mixed results'. I could make a website that prints 'mixed results', I bet most results are 'mixed'! I understand wanting to get money, but honestly, there is no way I would give money to this website in it's current state, you are giving me far too little info before asking me to hand over a credit card... niffydroid: Ace, I can see how this could actually be quite useful for house conveyancing. You've put a lot of effort into this. How are you affected by the upcoming changes to local government? They'll no doubt be some rationalisation at some point. efaref: Great site. This data should really be more accessible. Planning in the UK is a total crapshoot, subject to the whims of the planning authorities. In our case, a simple rear extension and dormer loft conversion, similar to hundreds of thousands across the country, we ended up having to appeal which added 2 years and tens of thousands of pounds in costs to our extension project. Our area shows up as a high refusal...",
-      "fetched_at": "2026-04-28T08:24:02.924938+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47931470",
-      "hn_story_type": "story",
-      "hn_points": "29",
-      "hn_comments_count": "34",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47931470",
-      "hn_item_text": "I've been scraping 241 UK council planning portals – 2.6M decisions so far UK planning data is technically public. In practice it's locked behind 400+ different council portals, some still running bespoke ASP.NET that looks like it dates from 2004, some behind AWS WAF, all with subtly different schemas. I've spent four months scraping them. I'm now at 241 councils and 2.6 million decisions across England, Scotland and Wales. The scraping problem Most UK councils run one of a handful of portal systems, Idox being the most common. In theory this makes things easy. In practice every council has configured theirs differently, some block non-browser requests via TLS fingerprinting, some have rate limits that will get you banned inside 10 minutes, and a handful are running the aforementioned bespoke ASP.NET. I ended up writing several scrapers: a standard requests-based one, a Playwright-based one for councils that block anything that doesn't look like a real browser, and a curl_cffi one for TLS fingerprinting. Some councils I still can't get. Liverpool's portal sits behind AWS WAF with a JavaScript challenge. I have a working Playwright-based scraper that solves the challenge once an...",
-      "hn_comment_preview": "CJefferson: So, this sounds exciting to me, but the postcode checker really feels like a spam as a user. All it tells me is 'Mixed results'. I could make a website that prints 'mixed results', I bet most results are 'mixed'! I understand wanting to get money, but honestly, there is no way I would give money to this website in it's current state, you are giving me far too little info before asking me to hand over a credit card...\nniffydroid: Ace, I can see how this could actually be quite useful for house conveyancing. You've put a lot of effort into this. How are you affected by the upcoming changes to local government? They'll no doubt be some rationalisation at some point.\nefaref: Great site. This data should really be more accessible. Planning in the UK is a total crapshoot, subject to the whims of the planning authorities. In our case, a simple rear extension and dormer loft conversion, similar to hundreds of thousands across the country, we ended up having to appeal which added 2 years and tens of thousands of pounds in costs to our extension project. Our area shows up as a high refusal...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=11,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 11,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "extension",
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api",
-        "local + run"
-      ],
-      "detail_slug": "1777d44cd054b49a800726d34a138a5f3716e909",
-      "is_english_source": true,
-      "translated_title": "영국 지방의회 241곳 계획 포털서 260만 건 수집",
-      "short_summary": "작성자는 제각각인 영국 지방의회 계획 포털 241곳을 4개월간 긁어 260만 건의 결정 데이터를 모았다. TLS 지문 차단, 속도 제한, 구형 ASP.NET, AWS WAF 때문에 요청형·브라우저형 등 여러 수집기를 따로 운영했다고 설명한다.",
-      "why_it_matters": "공개 데이터라고 해도 실제 활용은 전혀 다른 문제라는 점을 잘 보여주는 사례다. 행정 시스템이 제각각이면 검색과 비교, 자동화가 막히고 결국 데이터를 모으는 쪽이 큰 비용을 떠안게 된다.\n- 부동산 거래, 개발 타당성 검토, 지역 분석처럼 계획 허가 이력이 필요한 업무는 이런 정제 데이터가 있으면 조사 시간이 크게 줄어든다.\n- 표준 API가 없는 공공 데이터는 스크레이핑과 브라우저 자동화에 의존하게 된다. 운영 정책이나 보안 설정이 바뀌면 파이프라인이 바로 흔들릴 수 있다.\n- 영국 사례지만 한국을 포함한 다른 공공 데이터 사업에도 그대로 닿는다. 공개 여부보다 접근 방식의 표준화가 실무 생산성을 가른다.",
-      "hn_reaction_summary": "댓글 분위기는 \"이런 데이터가 원래 더 쉽게 열려 있어야 한다\"는 공감과, 현재 서비스가 사용자에게 가치를 충분히 보여주지 못한다는 아쉬움이 함께 나오는 쪽에 가깝다.\n- 가장 많이 반복된 반응은 공공 계획 데이터의 접근성이 너무 낮다는 점이다. 주택 거래나 증축 검토에 실제로 쓸 만하다는 평가도 붙었다.\n- 반대로 초기 제품 경험은 박하다는 지적이 나왔다. 우편번호 조회가 \"혼합 결과\" 정도만 보여주고 곧바로 결제를 유도해 설득력이 약하다는 반응이다.\n- 지방정부 개편이 진행되면 포털 통합이나 체계 변경이 생길 수 있다는 점도 논점으로 언급됐다. 데이터 수집보다 장기 유지보수가 더 어려울 수 있다는 시각이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T08:26:43.871816+00:00"
-    },
-    {
-      "id": "4f8ae07a6395a816eab5c6a8d5fdcddd5b6692a7",
-      "title_hash": "f5b13a34690f97300ab191e9412b3e1604a200c7",
-      "source": "GeekNews",
-      "title": "HyperFrames - HTML로 비디오를 만드는 AI 에이전트 전용 오픈소스 프레임워크",
-      "link": "https://news.hada.io/topic?id=28961",
-      "published_at": "2026-04-28T00:46:01+00:00",
-      "summary": "Remotion과 비슷하게 HTML + CSS + GSAP만으로 영상을 제작하고 MP4로 렌더링 React나 독자적 DSL 없이 순수 HTML 파일 이 곧 비디오 컴포지션이며, 빌드 단계 없이 index.html이 그대로 재생됨 Claude Code, Codex 등의 AI 코딩 에이전트가 HTML을 직접 작성하는 워크플로우...",
-      "fetched_at": "2026-04-28T04:14:31.557784+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "75",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=5,tools_agents=30,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 30,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 30,
-          "strong_hits": [
-            "claude code",
-            "codex",
-            "워크플로우",
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "워크플로우",
-        "에이전트",
-        "claude + code"
-      ],
-      "detail_slug": "4f8ae07a6395a816eab5c6a8d5fdcddd5b6692a7",
-      "is_english_source": false,
-      "sent_at": "2026-04-28T04:17:49.724549+00:00"
-    },
-    {
-      "id": "8567374443d1dbaf9098a3a3346832225e70e213",
-      "title_hash": "34c69f9cd96d128b05cfad8ecdb0fce27ab4662c",
-      "source": "GeekNews",
-      "title": "pgbackrest는 더 이상 유지보수 되지 않음",
-      "link": "https://news.hada.io/topic?id=28965",
-      "published_at": "2026-04-28T00:56:12+00:00",
-      "summary": "PostgreSQL용 백업·복구 도구 로서 대규모 환경까지 확장되도록 설계됐지만, 이제 유지보수를 종료 함 bug fix, PR review, 이슈 대응, 신규 기능 개발이 모두 중단됐고, 불규칙하게 끌고 가기보다 명확히 멈추는 쪽을 택함 전체·differential·incremental...",
-      "fetched_at": "2026-04-28T04:14:31.557784+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 10,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 10,
-          "strong_hits": [
-            "postgres",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "postgres",
-        "sql"
-      ],
-      "detail_slug": "8567374443d1dbaf9098a3a3346832225e70e213",
-      "is_english_source": false,
-      "sent_at": "2026-04-28T04:17:49.724549+00:00"
-    },
-    {
-      "id": "707a28534d82cedf2147d565812e62f31011d36c",
-      "title_hash": "00d70b34bec8da26c29683fa93c5539eb80b3fd3",
-      "source": "GeekNews",
-      "title": "진짜 한국인처럼 리뷰해주는 AI 에이전트 팀 만들기 (Harness 포크 + NVIDIA 100만 페르소나)",
-      "link": "https://news.hada.io/topic?id=28956",
-      "published_at": "2026-04-27T23:37:53+00:00",
-      "summary": "TL;DR 리뷰를 집중적으로 해야 하는 하네스 — 코드 리뷰, 문서 리뷰, UX 리서치, 인터뷰 시뮬레이션 — 에서는 5명의 리뷰어가 5개의 다른 관점을 가져야 가치가 있다. 일반 AI 에이전트 팀은 5명이 모두 비슷한 톤·관점이라 사실상 1명의 의견이 5번 반복됨. 이 포크는 NVIDIA Nemotron-Pers",
-      "fetched_at": "2026-04-28T04:14:31.557784+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "55",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=10,practical_tech=2,tools_agents=9,strategy_insight=10,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 9,
-        "strategy_insight": 10,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 10,
-          "strong_hits": [
-            "코드 리뷰"
-          ],
-          "support_hits": [
-            "관점"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "코드 리뷰"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "코드 리뷰",
-        "관점"
-      ],
-      "detail_slug": "707a28534d82cedf2147d565812e62f31011d36c",
-      "is_english_source": false,
-      "sent_at": "2026-04-28T04:17:49.724549+00:00"
-    },
-    {
-      "id": "839fc80a70bf8987c9417365a7585b6b0c099276",
-      "title_hash": "68df3857e5661fd479b80d7dd8a17be9e139bf71",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: AgentSwift – Open-source iOS builder agent",
-      "link": "https://github.com/hpennington/agentswift",
-      "published_at": "2026-04-28T01:14:31+00:00",
-      "summary": "HN story type: story HN points: 18 HN comments: 5 HN post text: I'm working on a coding agent for building iOS apps. It's built on openspec and xcodebuildmcp. It's free and open source. HN top comments: trueno: as someone who's likely never going to dive into this i am curious, what's the upside here using this over.. claude code and plugging in xcode mcp server(s) alongside xcode ? I see it uses claude anyways, I'm just curious if you've designed some additional guardrailing or features here.",
-      "fetched_at": "2026-04-28T04:14:31.557784+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47929375",
-      "hn_story_type": "story",
-      "hn_points": "18",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47929375",
-      "hn_item_text": "I'm working on a coding agent for building iOS apps. It's built on openspec and xcodebuildmcp. It's free and open source.",
-      "hn_comment_preview": "trueno: as someone who's likely never going to dive into this i am curious, what's the upside here using this over.. claude code and plugging in xcode mcp server(s) alongside xcode ? I see it uses claude anyways, I'm just curious if you've designed some additional guardrailing or features here.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "63",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=39,practical_tech=17,tools_agents=39,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 39,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "open source",
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 39,
-          "strong_hits": [
-            "coding agent",
-            "claude code",
-            "mcp",
-            "ide"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "claude code",
-        "mcp",
-        "ide",
-        "agent",
-        "claude + code",
-        "ai + coding",
-        "github.com"
-      ],
-      "detail_slug": "839fc80a70bf8987c9417365a7585b6b0c099276",
-      "is_english_source": true,
-      "translated_title": "오픈소스로 만든 iOS 앱 빌더 에이전트, AgentSwift",
-      "short_summary": "AgentSwift는 openspec과 xcodebuildmcp를 바탕으로 만든 오픈소스 iOS 개발 에이전트다. HN에서는 무료 공개 자체보다 기존 Claude Code 조합과 무엇이 다른지에 관심이 모였다.",
-      "why_it_matters": "iOS 개발용 에이전트를 별도 도구로 묶어낸 시도라는 점이 눈에 띈다. 스펙 기반 개발 흐름과 Xcode 빌드 자동화를 한 번에 다루려는 접근으로 읽힌다.\n- 오픈소스라서 팀 상황에 맞게 고치기 쉽다. 폐쇄형 에이전트의 동작을 비교하는 기준점으로도 쓸 수 있다.\n- iOS 개발은 Xcode와 빌드 체인 의존성이 커서, 전용 에이전트가 자리를 잡으면 반복 작업 자동화 범위가 넓어질 수 있다.\n- 다만 실무에서는 모델을 붙였다는 사실보다 실패 처리, 가드레일, 개발 흐름 통합 수준이 채택 여부를 가를 가능성이 크다.",
-      "hn_reaction_summary": "댓글 분위기는 기대감만 앞서는 쪽보다는 차별점을 먼저 확인하려는 쪽에 가깝다. 전용 iOS 에이전트가 왜 필요한지 묻는 반응이 눈에 띈다.\n- 가장 두드러진 질문은 Claude Code에 Xcode MCP 서버를 붙인 방식과 무엇이 다른가 하는 점이다.\n- 그래서 단순 포장인지, 아니면 iOS 작업에 맞춘 가드레일과 워크플로 자동화가 있는지가 핵심 논점으로 보인다.\n- 무료 오픈소스라는 점은 긍정적으로 읽히지만, 실무자는 결국 실제 개발 경험이 얼마나 달라지는지로 판단하겠다는 분위기다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T04:17:49.724549+00:00"
-    },
-    {
-      "id": "ffb42921b7d879e99fe9275fbbfe366ca47df0b5",
-      "title_hash": "5a302c41b0eb30e35378563dd2bbc1cff92e9b08",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Pgrx: Build Postgres Extensions with Rust",
-      "link": "https://github.com/pgcentralfoundation/pgrx",
-      "published_at": "2026-04-25T08:16:19+00:00",
-      "summary": "HN story type: story HN points: 5 HN comments: 0",
-      "fetched_at": "2026-04-28T04:14:31.557784+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47899669",
-      "hn_story_type": "story",
-      "hn_points": "5",
-      "hn_comments_count": "0",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47899669",
-      "hn_item_text": "",
-      "hn_comment_preview": "",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "postgres",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [
-            "extension"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "postgres",
-        "rust",
-        "github.com"
-      ],
-      "detail_slug": "ffb42921b7d879e99fe9275fbbfe366ca47df0b5",
-      "is_english_source": true,
-      "translated_title": "Rust로 Postgres 확장 만드는 pgrx",
-      "short_summary": "pgrx는 Postgres 확장을 Rust로 개발할 수 있게 돕는 도구로 보인다. 데이터베이스 안쪽 로직을 더 안전한 언어로 옮기려는 팀의 관심을 끌 만한 주제다.",
-      "why_it_matters": "Postgres 확장을 직접 만들거나 운영하는 팀이라면 개발 언어와 배포 방식에 대한 판단에 바로 연결되는 이야기다. 애플리케이션 코드 밖으로 밀어낸 로직을 DB 안에서 처리하려는 흐름과도 맞닿아 있다.\n- C 중심이던 확장 개발에 Rust를 붙일 수 있다면 메모리 안전성과 유지보수성 측면에서 검토할 여지가 생긴다.\n- 검색, 인덱싱, 사용자 정의 함수처럼 DB 내부 성능과 밀접한 기능을 구현하는 팀에는 선택지가 하나 더 늘어난다.\n- 실무에서는 기존 Postgres 운영 환경을 크게 바꾸지 않으면서도 확장 개발 생산성을 높일 수 있는지 살펴볼 포인트다.",
-      "hn_reaction_summary": "현재 HN 메타데이터상 점수는 낮고 댓글은 아직 없다. 그래서 뚜렷한 찬반 흐름보다는, 관심 있는 개발자가 먼저 발견해보는 초기 단계의 반응으로 보는 편이 맞다.\n- 댓글이 0개라 반복적으로 나온 쟁점이나 반론은 아직 확인되지 않는다.\n- 다만 제목만으로도 Postgres 확장을 Rust로 만든다는 점이 핵심 관심사로 읽힌다.\n- 실무자 입장에서는 실제 운영 사례, 성능 특성, 기존 C 확장 대비 개발 경험이 이후 댓글에서 붙을 만한 논점이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-28T04:17:49.724549+00:00"
     }
   ],
   "topic_digests": {
