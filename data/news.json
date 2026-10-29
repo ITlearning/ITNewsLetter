@@ -1,6 +1,561 @@
 {
   "items": [
     {
+      "id": "9ea2b27b6cc0ddd9c6b96c38fb310eebbb3e6330",
+      "title_hash": "f7d9e7b246e9633c54541364a3104f32aa161bf8",
+      "source": "GeekNews",
+      "title": "DAYJOB: Tax - 전문 세무 과제 50개로 AI 에이전트 평가하기",
+      "link": "https://news.hada.io/topic?id=36188",
+      "published_at": "2026-10-28T21:33:11+00:00",
+      "summary": "DAYJOB: Tax 는 AI 에이전트가 고객의 최초 요청부터 최종 산출물까지 세무 업무를 책임지고 수행하는지 평가하며, 고객이 묻지 않은 문제를 발견하는 전문적 판단력 까지 시험함 평가 기준의 95% 이상을 충족해야 통과하는 조건에서 Claude Sonnet 5.5가 통...",
+      "fetched_at": "2026-10-28T23:57:39.924120+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "9ea2b27b6cc0ddd9c6b96c38fb310eebbb3e6330",
+      "is_english_source": false,
+      "sent_at": "2026-10-28T23:59:58.085482+00:00"
+    },
+    {
+      "id": "3dcb5ec69d1729c02548b61c3abc670c6ffa53ea",
+      "title_hash": "cde80723b6a7f7e8f4e3b3d387ab47925388d6aa",
+      "source": "GeekNews",
+      "title": "Reddit 커뮤니티, 악성 사이트 연결 문제로 Archive.today 링크 차단",
+      "link": "https://news.hada.io/topic?id=36190",
+      "published_at": "2026-10-28T22:36:50+00:00",
+      "summary": "Reddit의 시애틀 지역 커뮤니티 r/Seattle 운영진이 보관된 기사에서 악성 사이트로 연결되는 링크를 발견했다며 , Archive.today 계열 링크가 포함된 게시물을 자동 삭제하기로 함 문제가 된 것은 보관된 NYT 기사의 소송 문서 PDF 링크 로, 원래 법률사무소의 PDF ...",
+      "fetched_at": "2026-10-28T23:57:39.924120+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=0,strategy_insight=3,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": 3,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "소송"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "소송"
+      ],
+      "detail_slug": "3dcb5ec69d1729c02548b61c3abc670c6ffa53ea",
+      "is_english_source": false,
+      "sent_at": "2026-10-28T23:59:58.085482+00:00"
+    },
+    {
+      "id": "0773d42bc6ab3f2b4e0ff3c7fc07b43476e34fbe",
+      "title_hash": "a691b7ebe09419511d0787609d24942f17405316",
+      "source": "GeekNews",
+      "title": "나는 여전히 OpenGL ES 3.0을 가르친다",
+      "link": "https://news.hada.io/topic?id=36186",
+      "published_at": "2026-10-28T20:41:56+00:00",
+      "summary": "컴퓨터 그래픽스 입문 수업의 목표는 범용 렌더러가 아니라 3D 장면 구현 이며, OpenGL ES 3.0은 이 목표에 필요한 그래픽스 API와 추상화를 배우는 데 여전히 유용함 WebGL2 호환성 덕분에 학생들이 C++ 예제를 웹으로 옮겨 자신의 사이트에 공개할 수 있고, 여러 ...",
+      "fetched_at": "2026-10-28T23:57:39.924120+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api"
+      ],
+      "detail_slug": "0773d42bc6ab3f2b4e0ff3c7fc07b43476e34fbe",
+      "is_english_source": false,
+      "sent_at": "2026-10-28T23:59:58.085482+00:00"
+    },
+    {
+      "id": "c63251d626d1ca0e9b985cba3bb7c35751d8adaf",
+      "title_hash": "512979795b7e46a8e2db9c392c6712ffa314ecc4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Agent SDK",
+      "link": "https://cursor.com/blog/agent-sdk",
+      "published_at": "2026-10-28T14:02:20+00:00",
+      "summary": "HN story type: story HN points: 89 HN comments: 107 HN top comments: gawacer: We’ve officially hit the JS framework churn phase of AI tooling. h0rv: Why would you not use an open-source harness in October 2026? I am generally curious - what is the alpha? scosman: Open AI and Anthropic already have \"Agent SDK\" brands. Vercel is \"AI SDK\". I wish folks would come up with some good names for new projects.",
+      "fetched_at": "2026-10-28T23:57:39.924120+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50273731",
+      "hn_story_type": "story",
+      "hn_points": "89",
+      "hn_comments_count": "107",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50273731",
+      "hn_item_text": "",
+      "hn_comment_preview": "gawacer: We’ve officially hit the JS framework churn phase of AI tooling.\nh0rv: Why would you not use an open-source harness in October 2026? I am generally curious - what is the alpha?\nscosman: Open AI and Anthropic already have \"Agent SDK\" brands. Vercel is \"AI SDK\". I wish folks would come up with some good names for new projects.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=11,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 11,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "framework",
+            "sdk"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [
+            "cursor"
+          ],
+          "support_hits": [
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "framework",
+        "sdk"
+      ],
+      "detail_slug": "c63251d626d1ca0e9b985cba3bb7c35751d8adaf",
+      "is_english_source": true,
+      "sent_at": "2026-10-28T23:59:58.085482+00:00"
+    },
+    {
+      "id": "9a9e6a4eadb341f03651957470e842a7c7fbbf75",
+      "title_hash": "c12d84616c3fc8ff51c18734b8e75e2ca861f8ee",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Grid, a factory-scale robot in Massachusetts that builds PCBs on demand",
+      "link": "https://www.circuithub.com/post/unveiling-the-grid",
+      "published_at": "2026-10-26T13:13:31+00:00",
+      "summary": "HN story type: story HN points: 399 HN comments: 192 HN top comments: seddona: Hi Andrew founder of CircuitHub here. Happy to answer any questions. Hardware design has been in the news a lot lately as it's going through the same AI revolution as coding. We're happy to make it easy to turn those designs into physical products. ncrtower: I just wanted a quote. But signup was painful it needs a major review. Then I uploaded a zip of my gerbers and it came up with some error that I could not figure out and halted any further movement. I'd love to do my PCBs domestic but the site makes it way too hard. greyface-: Just uploaded KiCad files for a board I designed for fabrication at JLCPCB. I have `LCSC` part number properties on everything. CircuitHub didn't recognize any of them. Would be nice if they had mappings of footprint-equivalent parts from JLCPCB's \"basic\" library, so I didn't have to spend hours re-sourcing (and possibly re-footprinting) everything. Love that it's fully self-serve and not \"please call sales\", and...",
+      "fetched_at": "2026-10-28T23:57:39.924120+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50243060",
+      "hn_story_type": "story",
+      "hn_points": "399",
+      "hn_comments_count": "192",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50243060",
+      "hn_item_text": "",
+      "hn_comment_preview": "seddona: Hi Andrew founder of CircuitHub here. Happy to answer any questions. Hardware design has been in the news a lot lately as it's going through the same AI revolution as coding. We're happy to make it easy to turn those designs into physical products.\nncrtower: I just wanted a quote. But signup was painful it needs a major review. Then I uploaded a zip of my gerbers and it came up with some error that I could not figure out and halted any further movement. I'd love to do my PCBs domestic but the site makes it way too hard.\ngreyface-: Just uploaded KiCad files for a board I designed for fabrication at JLCPCB. I have `LCSC` part number properties on everything. CircuitHub didn't recognize any of them. Would be nice if they had mappings of footprint-equivalent parts from JLCPCB's \"basic\" library, so I didn't have to spend hours re-sourcing (and possibly re-footprinting) everything. Love that it's fully self-serve and not \"please call sales\", and...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "32",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=8,practical_tech=6,tools_agents=8,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 8,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ai + coding"
+      ],
+      "detail_slug": "9a9e6a4eadb341f03651957470e842a7c7fbbf75",
+      "is_english_source": true,
+      "sent_at": "2026-10-28T23:59:58.085482+00:00"
+    },
+    {
+      "id": "5b665cbb99f0f89accc1fa61baf92bb72977a1ae",
+      "title_hash": "4e170962539a3574c1d92234a31bd4a20b385ba2",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "A Health Update",
+      "link": "https://furbo.org/2026/10/28/a-health-update/",
+      "published_at": "2026-10-28T21:13:21+00:00",
+      "summary": "HN story type: story HN points: 41 HN comments: 3 HN top comments: incanus77: Best of luck to Craig. If you don't know who he is, he's the reason we call(ed) Twitter posts 'tweets' [1] and also wrote perhaps the first pre-SDK iPhone app from the outside [2]. [1] https://furbo.org/2013/06/28/the-origin-of-tweet/ [2] https://furbo.org/2007/08/19/mobiletwitterrific/ kami23: Methotrexate is such a gnarly drug, my partner was on it for rheumatoid arthritis for a little bit, but the side effects were too awful for her to continue it. Luckily there was alternatives. Didn't know it was used in chemo!",
+      "fetched_at": "2026-10-28T23:57:39.924120+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50280974",
+      "hn_story_type": "story",
+      "hn_points": "41",
+      "hn_comments_count": "3",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50280974",
+      "hn_item_text": "",
+      "hn_comment_preview": "incanus77: Best of luck to Craig. If you don't know who he is, he's the reason we call(ed) Twitter posts 'tweets' [1] and also wrote perhaps the first pre-SDK iPhone app from the outside [2]. [1] https://furbo.org/2013/06/28/the-origin-of-tweet/ [2] https://furbo.org/2007/08/19/mobiletwitterrific/\nkami23: Methotrexate is such a gnarly drug, my partner was on it for rheumatoid arthritis for a little bit, but the side effects were too awful for her to continue it. Luckily there was alternatives. Didn't know it was used in chemo!",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "sdk"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sdk"
+      ],
+      "detail_slug": "5b665cbb99f0f89accc1fa61baf92bb72977a1ae",
+      "is_english_source": true,
+      "sent_at": "2026-10-28T23:59:58.085482+00:00"
+    },
+    {
+      "id": "4bf72133e1af33afa2f6c631be6212d71c4926f1",
+      "title_hash": "d23efdbea6e9dca3827c991971383a45d504f1a9",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Nango (YC W23) Is Hiring Across Eng, FDE, Marketing, DevRel",
+      "link": "https://nango.dev/careers",
+      "published_at": "2026-10-28T21:00:06+00:00",
+      "summary": "HN story type: job HN points: 1 HN comments: 0",
+      "fetched_at": "2026-10-28T23:57:39.924120+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50280824",
+      "hn_story_type": "job",
+      "hn_points": "1",
+      "hn_comments_count": "0",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50280824",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=4,tools_agents=-2,strategy_insight=7,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": -2,
+        "strategy_insight": 7,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "career"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "career"
+      ],
+      "detail_slug": "4bf72133e1af33afa2f6c631be6212d71c4926f1",
+      "is_english_source": true,
+      "sent_at": "2026-10-28T23:59:58.085482+00:00"
+    },
+    {
       "id": "9b7eb8d0d28cf99d832b5d88a378c628c27924d3",
       "title_hash": "6158f8fd997717fb7eda1ca8e687bd43adcb7f60",
       "source": "GeekNews",
@@ -167780,563 +168335,6 @@
       "hn_reaction_summary": "Hacker News에서는 전반적으로 반응이 좋았고, 단순한 공개 회로도가 아니라 실제 학습용 레퍼런스로 쓸 만하다는 평가가 많았다.\n- 사소해 보이는 라우팅 차이도 스위칭 특성이나 이후 문제로 이어질 수 있다는 실전 경험담이 눈에 띄었다.\n- 브레이크아웃 보드 없이 PCB를 설계하다 여러 번 리비전을 겪었다는 사람들에게 좋은 참고 자료라는 의견이 반복됐다.\n- 널리 쓰이는 개발보드 폼팩터를 유지한 오픈소스 템플릿이라 기존 프로젝트에 붙여 쓰기 좋겠다는 반응이 나왔다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-28T00:08:02.794427+00:00"
-    },
-    {
-      "id": "ed990b41552797f8ff01cedfbb3677b971b48c4b",
-      "title_hash": "0103876872dbbb9671b46affacb5c83e7fa3f928",
-      "source": "GeekNews",
-      "title": "자동 갱신되는 스크린샷",
-      "link": "https://news.hada.io/topic?id=28950",
-      "published_at": "2026-04-27T10:33:52+00:00",
-      "summary": "실행 중인 웹 애플리케이션에서 스크린샷을 자동 캡처 해 도움말 문서 빌드와 함께 갱신하는 흐름으로, UI 변경 뒤에도 문서 이미지를 최신 상태 로 유지하기 쉬움 Markdown 안의 SCREENSHOT 주석이 대상 경로, 캡처 방식, CSS selector 같은 지시를 담...",
-      "fetched_at": "2026-04-27T19:52:03.628980+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "ed990b41552797f8ff01cedfbb3677b971b48c4b",
-      "is_english_source": false,
-      "sent_at": "2026-04-27T19:54:46.609375+00:00"
-    },
-    {
-      "id": "83a3b4e85f874ba1dba780016cfad952b463a09f",
-      "title_hash": "517289716001c0678fe0745fbffbf5ef824d2b27",
-      "source": "GeekNews",
-      "title": "SWE-bench Verified가 더 이상 프런티어 코딩 역량을 측정하지 못하는 이유",
-      "link": "https://news.hada.io/topic?id=28949",
-      "published_at": "2026-04-27T09:35:09+00:00",
-      "summary": "자율 소프트웨어 엔지니어링 작업의 대표 지표였던 SWE-bench Verified 는 프런티어 모델 역량 을 재기에는 적합성이 크게 떨어짐 최근 최고 성능 향상폭이 74.9%에서 80.9% 로 제한된 가운데, 남은 실패가 모델 한계인지 데이터세트 결함인지 구분...",
-      "fetched_at": "2026-04-27T19:52:03.628980+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=2,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "83a3b4e85f874ba1dba780016cfad952b463a09f",
-      "is_english_source": false,
-      "sent_at": "2026-04-27T19:54:46.609375+00:00"
-    },
-    {
-      "id": "33f9e84d3ef193e37bfa1a49514f349b84a09f9b",
-      "title_hash": "62315d3ea3a1eeb19dfc897adffb1c0431d47d03",
-      "source": "GeekNews",
-      "title": "stitch가 유행시킨(?) DESIGN.md를 모아놓은 사이트",
-      "link": "https://news.hada.io/topic?id=28947",
-      "published_at": "2026-04-27T07:59:11+00:00",
-      "summary": "웹사이트 디자인 가이드라인을 명세화하는 DESIGN.md 를 만드는 게 중요한 경우가 꽤 있습니다 크롬에는 현재 사이트를 기준으로 작성해주는 플러그인 있고 이번에는 유명한 사이트들 디자인 명세를 정리해서 모아놓은 사이트가 생겼습니다 apple 같은 사이트는 벌써 다운로드도 엄청나네요",
-      "fetched_at": "2026-04-27T19:52:03.628980+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "33f9e84d3ef193e37bfa1a49514f349b84a09f9b",
-      "is_english_source": false,
-      "sent_at": "2026-04-27T19:54:46.609375+00:00"
-    },
-    {
-      "id": "b38b02c2eedb1da56a3b5fa568bdae7bb85e1168",
-      "title_hash": "1dc00c496646800559696bfd84fc0908eba5b2a6",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Pgbackrest is no longer being maintained",
-      "link": "https://github.com/pgbackrest/pgbackrest",
-      "published_at": "2026-04-27T10:56:34+00:00",
-      "summary": "HN story type: story HN points: 361 HN comments: 190 HN top comments: radimm: This is the message the author posted on LinkedIn: After a lot of thought, I have decided to stop working on pgBackRest. I did not come to this decision lightly. pgBackRest has been my passion project for the last thirteen years, and I was fortunate to have corporate sponsorship for much of this time, but there were also many late nights and weekends as I worked to make pgBackRest the project it is today, aided by... j1elo: Open Source has worked fine here. The author doesn't find financial support for the work, so they just want to change winds and that's a perfectly fine path forward. If this is really much more than a personal project \"for fun, on my leisure time\", and it became an actually serious product -level project that provides good value in commercial environments for people, there's clearly an opportunity for a for-profit... freakynit: So sad to see this happening.. I had just last year prepared a detailed guide for reliable postgre backups to local volume as well as cloud storage, using pgBackRest, for my own projects.. pgBackRest have worked so well for me https://github.com/freakynit/postgre-backup-and-restore-guid... Thanks to the author for all the time and effort he put into this project..",
-      "fetched_at": "2026-04-27T19:52:03.628980+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47919997",
-      "hn_story_type": "story",
-      "hn_points": "361",
-      "hn_comments_count": "190",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47919997",
-      "hn_item_text": "",
-      "hn_comment_preview": "radimm: This is the message the author posted on LinkedIn: After a lot of thought, I have decided to stop working on pgBackRest. I did not come to this decision lightly. pgBackRest has been my passion project for the last thirteen years, and I was fortunate to have corporate sponsorship for much of this time, but there were also many late nights and weekends as I worked to make pgBackRest the project it is today, aided by...\nj1elo: Open Source has worked fine here. The author doesn't find financial support for the work, so they just want to change winds and that's a perfectly fine path forward. If this is really much more than a personal project \"for fun, on my leisure time\", and it became an actually serious product -level project that provides good value in commercial environments for people, there's clearly an opportunity for a for-profit...\nfreakynit: So sad to see this happening.. I had just last year prepared a detailed guide for reliable postgre backups to local volume as well as cloud storage, using pgBackRest, for my own projects.. pgBackRest have worked so well for me https://github.com/freakynit/postgre-backup-and-restore-guid... Thanks to the author for all the time...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=12,strategy_insight=9,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 12,
-        "strategy_insight": 9,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "open source",
-            "storage"
-          ],
-          "support_hits": [
-            "guide"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [
-            "prepare"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "storage",
-        "guide",
-        "github.com"
-      ],
-      "detail_slug": "b38b02c2eedb1da56a3b5fa568bdae7bb85e1168",
-      "is_english_source": true,
-      "translated_title": "PostgreSQL 백업 도구 pgBackRest 유지보수 중단",
-      "short_summary": "PostgreSQL 백업 도구 pgBackRest의 개발자가 13년간 이어온 유지보수를 멈추겠다고 밝혔다. HN에서는 오픈소스 인프라의 지속 가능성과 기업 후원 구조의 한계가 다시 쟁점이 됐다.",
-      "why_it_matters": "운영 환경에서 널리 쓰인 백업 도구의 유지보수 중단은 곧바로 복구 체계 점검으로 이어진다. PostgreSQL을 직접 운영하는 팀이라면 이제 기술 선택이 아니라 책임 분담의 문제로 봐야 한다.\n- 신규 PostgreSQL 버전 대응이나 보안 수정이 늦어질 수 있어 장기 운영 리스크가 커진다.\n- pgBackRest에 맞춰 복구 절차와 스토리지 연동을 짜 둔 팀은 포크, 대체 도구, 내부 유지보수 가능성을 함께 검토해야 한다.\n- 무료 오픈소스에 기대던 비용이 앞으로는 상용 지원 계약이나 사내 운영 인력 부담으로 옮겨갈 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 안타까움과 현실론이 함께 섞였다. 오랫동안 잘 써 온 도구가 개인의 헌신 위에 서 있었다는 점이 많은 사람에게 크게 다가갔다.\n- 개발자에게 감사와 아쉬움을 전하는 반응이 많았고, 실제 운영에서 pgBackRest를 믿고 써 왔다는 경험담도 이어졌다.\n- 오픈소스가 실패했다기보다, 기업 현장에서 가치를 얻는 쪽과 유지보수 비용을 내는 쪽이 분리돼 있다는 지적이 반복됐다.\n- 포크나 상용 회사의 인수 가능성도 거론됐지만, 누가 장기 책임을 질지 아직 보이지 않는다는 우려가 컸다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-27T19:54:46.609375+00:00"
-    },
-    {
-      "id": "f7dcd70880143f904229d064c8b6a4f93f70521b",
-      "title_hash": "14a47df872f631b389f3c286495ca270a6f12d9d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Super ZSNES – GPU Powered SNES Emulator",
-      "link": "https://zsnes.com/",
-      "published_at": "2026-04-27T17:50:10+00:00",
-      "summary": "HN story type: story HN points: 97 HN comments: 20 HN top comments: bityard: The \"uncompressed audio replacements\" will be pretty nice, it will be interesting to see what comes of those. There is a guy, Mathew Valente (a.k.a. TSSF), who put in a surprising amount of effort tracking down the original samples used by the composer of the SNES and PSX Final Fantasy games, Nobuo Uematsu. Nearly all of the samples came from various contemporary hardware and software synthesizers. Mathew found mo... carrja99: ZSNES was a core part of my childhood. I downloaded it back when it was still fresh back in the late nineties / early aughts and used to emulate all matter of favorite games and homebrew translation projects for Star Ocean and Tales of Phantasia. jsd1982: It should be possible to have the PPU emulation capture all of the final register state per pixel (or scanline if accuracy isn't paramount) and have the GPU render each pixel using only that state, doing the layer blending, color math, and mode 7 calculations as necessary. Based on MVG's video breaking down the draw commands performed it doesn't look like that's how Super ZSNES have implemented their PPU - it seem...",
-      "fetched_at": "2026-04-27T19:52:03.628980+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47924877",
-      "hn_story_type": "story",
-      "hn_points": "97",
-      "hn_comments_count": "20",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47924877",
-      "hn_item_text": "",
-      "hn_comment_preview": "bityard: The \"uncompressed audio replacements\" will be pretty nice, it will be interesting to see what comes of those. There is a guy, Mathew Valente (a.k.a. TSSF), who put in a surprising amount of effort tracking down the original samples used by the composer of the SNES and PSX Final Fantasy games, Nobuo Uematsu. Nearly all of the samples came from various contemporary hardware and software synthesizers. Mathew found mo...\ncarrja99: ZSNES was a core part of my childhood. I downloaded it back when it was still fresh back in the late nineties / early aughts and used to emulate all matter of favorite games and homebrew translation projects for Star Ocean and Tales of Phantasia.\njsd1982: It should be possible to have the PPU emulation capture all of the final register state per pixel (or scanline if accuracy isn't paramount) and have the GPU render each pixel using only that state, doing the layer blending, color math, and mode 7 calculations as necessary. Based on MVG's video breaking down the draw commands performed it doesn't look like that's how Super ZSNES have implemented their PPU - it seem...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "31",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "f7dcd70880143f904229d064c8b6a4f93f70521b",
-      "is_english_source": true,
-      "translated_title": "GPU로 확장한 SNES 에뮬레이터, 슈퍼 ZSNES",
-      "short_summary": "Super ZSNES는 SNES 에뮬레이션에 GPU 활용을 밀어붙이는 프로젝트로 보인다. HN에서는 오디오 확장에 대한 기대와 함께 구현 방식의 정확도를 따지는 기술 논의가 이어졌다.",
-      "why_it_matters": "레트로 에뮬레이터가 이제는 원작 재현만이 아니라 그래픽과 음원까지 손보는 확장 플랫폼으로 옮겨가고 있다는 신호로 읽힌다. 실무적으로는 성능을 GPU에 넘기는 설계와 원본 하드웨어 충실도 사이의 균형이 다시 화두가 된다.\n- GPU 기반 렌더링이 자리를 잡으면 레이어 합성, Mode 7 처리, 후처리 같은 구간을 더 유연하게 다룰 여지가 생긴다.\n- 무압축 오디오 교체 같은 아이디어는 리마스터 성격의 사용자 경험을 만들 수 있어 모드 제작과 보존 작업의 폭을 넓힌다.\n- 반대로 구현이 편의 위주로 흐르면 호환성이나 화면 재현이 흔들릴 수 있어, 에뮬레이터 개발자는 정확도 기준을 더 분명히 잡아야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 반가움과 기술 검증이 함께 섞인 쪽에 가깝다. 오래된 ZSNES 추억을 꺼내는 반응이 많았지만, 실제 구현이 얼마나 설득력 있는지 따져보는 목소리도 적지 않았다.\n- 오디오 교체 기능에는 기대가 컸다. 특히 과거 게임 음악 샘플 원본을 추적해온 사례가 언급되며 활용 가능성이 주목받았다.\n- 한편 GPU 기반 PPU 구현이 어떤 방식인지, 픽셀 단위 상태를 얼마나 충실하게 반영하는지가 반복해서 논점으로 나왔다.\n- 단순히 빠르게 돌리는 수준을 넘어서 원작 감각을 어디까지 보존할지, 그 선을 두고 실무적인 찬반이 갈리는 모습이었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-27T19:54:46.609375+00:00"
-    },
-    {
-      "id": "732fbd3deb454fca027f3a910a6cf36ca0fec9ee",
-      "title_hash": "8a5dada0111b9a18ae8bcc3d493d954030e92faa",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "GitHub Copilot is moving to usage-based billing",
-      "link": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
-      "published_at": "2026-04-27T16:03:08+00:00",
-      "summary": "HN story type: story HN points: 366 HN comments: 285 HN top comments: theanonymousone: Something is hilariously off here: Why should I pay $10 and be forced to use it by the end of the month, while I can pay $10 and have it last as long as I want? Their \"API pricing\" is exactly the same as that of providers: https://docs.github.com/en/copilot/reference/copilot-billing... my002: The era of subsidised inference is truly ending. The new model multipliers ( https://docs.github.com/en/copilot/reference/copilot-billing... ) seem like a huge leap, though. From 1x to 6x for new-ish GPT and Sonnet models. 27x for Opus... Seems like folks would be better off with OpenRouter instead. textech: I'd be fine with it if they can make Sonnet 4.5 unlimited. I haven't personally seen any major differences between 4.6 or any of the other newer models. Claude 4.5 seems to be the right balance and works great for me.",
-      "fetched_at": "2026-04-27T19:52:03.628980+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47923357",
-      "hn_story_type": "story",
-      "hn_points": "366",
-      "hn_comments_count": "285",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47923357",
-      "hn_item_text": "",
-      "hn_comment_preview": "theanonymousone: Something is hilariously off here: Why should I pay $10 and be forced to use it by the end of the month, while I can pay $10 and have it last as long as I want? Their \"API pricing\" is exactly the same as that of providers: https://docs.github.com/en/copilot/reference/copilot-billing...\nmy002: The era of subsidised inference is truly ending. The new model multipliers ( https://docs.github.com/en/copilot/reference/copilot-billing... ) seem like a huge leap, though. From 1x to 6x for new-ish GPT and Sonnet models. 27x for Opus... Seems like folks would be better off with OpenRouter instead.\ntextech: I'd be fine with it if they can make Sonnet 4.5 unlimited. I haven't personally seen any major differences between 4.6 or any of the other newer models. Claude 4.5 seems to be the right balance and works great for me.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=12,strategy_insight=4,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 12,
-        "strategy_insight": 4,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "inference",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "copilot",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "inference",
-        "api"
-      ],
-      "detail_slug": "732fbd3deb454fca027f3a910a6cf36ca0fec9ee",
-      "is_english_source": true,
-      "translated_title": "GitHub Copilot, 사용량 기반 과금으로 전환",
-      "short_summary": "GitHub Copilot이 정액제 중심에서 사용량 기반 과금으로 옮겨가자, HN에서는 AI 코딩 도구의 저가 보조금 시대가 끝나간다는 반응이 나왔다. 댓글은 모델별 배수 요금이 너무 크고, 직접 API를 쓰는 편이 더 낫다는 쪽으로 많이 기울었다.",
-      "why_it_matters": "정액 구독처럼 받아들이던 AI 코딩 도구가 이제는 모델 선택과 호출량에 따라 비용이 크게 달라지는 서비스로 바뀌고 있다. 실무에서는 성능 비교만큼이나 예산 통제와 사용 정책이 더 앞에 나오게 된다.\n- 최신 고성능 모델에 높은 배수가 붙으면, 같은 작업량이어도 팀 비용이 예상보다 빨리 불어날 수 있다.\n- Copilot의 편의성만으로는 설득이 어려워져 직접 API 사용, OpenRouter 같은 중개 서비스와의 비용 비교가 본격화될 가능성이 크다.\n- 개인과 팀 모두 어떤 모델을 기본값으로 둘지, 무거운 요청을 어디까지 허용할지 같은 운영 기준을 다시 정해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 회의적이다. 단순한 가격 인상 논란이라기보다, Copilot이 이제 정말 더 나은 묶음 상품인지 따져보자는 흐름이 강하게 보인다.\n- 가장 많이 나온 불만은 월 구독료를 내도 사용 기한이 월말에 끊기는데, 비슷한 돈으로 직접 API를 쓰면 더 유연하다는 점이다.\n- 새 모델에 붙는 요금 배수가 너무 가파르다는 지적이 반복됐고, 특히 고급 모델은 체감상 부담이 크다는 반응이 많았다.\n- 한편 완전히 부정적이지만은 않았다. Sonnet 4.5 같은 실용적인 모델을 넉넉하게 쓸 수 있다면 받아들일 수 있다는 현실론도 적지 않았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-27T19:54:46.609375+00:00"
-    },
-    {
-      "id": "83d9a4ceab5dfc995e233f479d09e6602fa842da",
-      "title_hash": "a4625f25d8dc3771c0e030731ff9e80a06f4a65c",
-      "source": "GeekNews",
-      "title": "EU Age Control: 디지털 ID를 위한 트로이 목마",
-      "link": "https://news.hada.io/topic?id=28930",
-      "published_at": "2026-04-27T01:16:34+00:00",
-      "summary": "연령만 증명하는 프라이버시 보호형 인증 으로 홍보되지만, 실제 배포 구조는 각국 앱과 선택적 경로에 의존하며 단일 EU 앱 으로 작동하지 않음 대형 플랫폼은 EU wallet 대신 여권 스캔과 liveness 검사를 수행하는 일반 KYC provider 를 쓸 수 있...",
-      "fetched_at": "2026-04-27T15:42:19.008891+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "83d9a4ceab5dfc995e233f479d09e6602fa842da",
-      "is_english_source": false,
-      "sent_at": "2026-04-27T15:45:21.683009+00:00"
     }
   ],
   "topic_digests": {
