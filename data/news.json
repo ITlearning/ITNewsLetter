@@ -1,6 +1,515 @@
 {
   "items": [
     {
+      "id": "00d7162da0a56d9be210575677a62870df667ec4",
+      "title_hash": "f2b60453428ee6c84c96311968e194d6b741f255",
+      "source": "GeekNews",
+      "title": "Show GN: Shellside - Claude Code가 상주하는 생성형 캔버스, 요청하면 나만의 도구·앱·워크플로우를 즉석에서 생성",
+      "link": "https://news.hada.io/topic?id=36285",
+      "published_at": "2026-10-30T09:48:52+00:00",
+      "summary": "보드마다 Claude Code가 함께 들어 있는 생성형 캔버스 웹서비스 보드에 붙은 터미널에서 Claude Code가 돌고, 보드를 직접 읽고 쓰며 작업 필요한 도구·화면을 요청하면 그 자리에서 보드 위에 만들어 띄움 강점: 코딩 없이 대화만으로 나만의 워크플로우를 직접 만들고 계속 고쳐 쓸",
+      "fetched_at": "2026-10-30T13:18:29.860860+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=0,tools_agents=25,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 25,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "워크플로우",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "워크플로우",
+        "ide",
+        "claude + code"
+      ],
+      "detail_slug": "00d7162da0a56d9be210575677a62870df667ec4",
+      "is_english_source": false,
+      "sent_at": "2026-10-30T13:21:09.540075+00:00"
+    },
+    {
+      "id": "22bf403b075adcd7322c5516c861b81b9685bb86",
+      "title_hash": "d04ed054b54f0e82e76d49eef7cdbc6f771f3df3",
+      "source": "GeekNews",
+      "title": "데이터 에이전트는 실제 분석을 할 수 있을까?",
+      "link": "https://news.hada.io/topic?id=36272",
+      "published_at": "2026-10-30T02:59:43+00:00",
+      "summary": "데이터 에이전트의 실력을 판단하려면 SQL 생성 을 넘어 여러 데이터베이스 결합, 도메인 지식 활용, 비정형 데이터 처리까지 평가해야 함 실제 분석 환경을 반영한 벤치마크에서 최고 에이전트의 단일 시도 통과율은 약 61% 였으며, 질의별 프롬프트 최적화로 얻은...",
+      "fetched_at": "2026-10-30T13:18:29.860860+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "56",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=5,tools_agents=11,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 11,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "프롬프트"
+      ],
+      "detail_slug": "22bf403b075adcd7322c5516c861b81b9685bb86",
+      "is_english_source": false,
+      "sent_at": "2026-10-30T13:21:09.540075+00:00"
+    },
+    {
+      "id": "cf00c755c3c176729d181f9ef71a3b681dd54abc",
+      "title_hash": "698f35cccbca51b8c96294cb6c3def6fd586de85",
+      "source": "GeekNews",
+      "title": "Herdr, 터미널과 코딩 에이전트용 네이티브 앱 출시",
+      "link": "https://news.hada.io/topic?id=36283",
+      "published_at": "2026-10-30T08:32:34+00:00",
+      "summary": "Herdr 는 터미널과 코딩 에이전트를 작업 공간별로 정리하고, 사용자 개입이 필요한 에이전트를 한곳에서 확인하는 데스크톱 앱임 창과 실행 코어를 분리 해 창을 닫아도 터미널은 계속 실행됨. 단, 패널이나 탭을 닫으면 해당 터미널이 종료되며, 재부팅이나 코어 충...",
+      "fetched_at": "2026-10-30T13:18:29.860860+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "cf00c755c3c176729d181f9ef71a3b681dd54abc",
+      "is_english_source": false,
+      "sent_at": "2026-10-30T13:21:09.540075+00:00"
+    },
+    {
+      "id": "1fed803c4b7dc3ee9eb25f60e2e79936999d89eb",
+      "title_hash": "2bd953dceb8889024f3e14a63dd8be843e45e5b9",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+      "link": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "published_at": "2026-10-28T13:38:04+00:00",
+      "summary": "HN story type: story HN points: 37 HN comments: 27 HN top comments: lordofgibbons: I wish AA benchmarked the models at the reasoning efforts people actual use them at. For example, it's very rare for people that I know to use the \"max\" reasoning setting - specially because Claude Code itself scares you away from using it. But all of these coding benchmarks are based on just that reasoning effort. I get it, they can only benchmark so much. But I'd rather have a benchmark of how the model is actua... matesz: \"The final point I need to make, which does flatter the closed labs, is that the likes of Anthropic and OpenAI moved on from caring about these indices months, or even years, ago. Their focus is to a large majority on supporting internal uses – like AI R&D automation – and the use-cases of customers who are spending billions of dollars.\" Is this true? If yes it makes a lot of sense. Time and time again, when I try... chvid: How does AA make money? Who are their investors?",
+      "fetched_at": "2026-10-30T13:18:29.860860+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50273340",
+      "hn_story_type": "story",
+      "hn_points": "37",
+      "hn_comments_count": "27",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50273340",
+      "hn_item_text": "",
+      "hn_comment_preview": "lordofgibbons: I wish AA benchmarked the models at the reasoning efforts people actual use them at. For example, it's very rare for people that I know to use the \"max\" reasoning setting - specially because Claude Code itself scares you away from using it. But all of these coding benchmarks are based on just that reasoning effort. I get it, they can only benchmark so much. But I'd rather have a benchmark of how the model is actua...\nmatesz: \"The final point I need to make, which does flatter the closed labs, is that the likes of Anthropic and OpenAI moved on from caring about these indices months, or even years, ago. Their focus is to a large majority on supporting internal uses – like AI R&D automation – and the use-cases of customers who are spending billions of dollars.\" Is this true? If yes it makes a lot of sense. Time and time again, when I try...\nchvid: How does AA make money? Who are their investors?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=24,practical_tech=9,tools_agents=24,strategy_insight=2,industry_business=1",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 24,
+        "strategy_insight": 2,
+        "industry_business": 1
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "benchmark"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 24,
+          "strong_hits": [
+            "claude code",
+            "automation"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 1,
+          "strong_hits": [
+            "customers"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "automation",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "1fed803c4b7dc3ee9eb25f60e2e79936999d89eb",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T13:21:09.540075+00:00"
+    },
+    {
+      "id": "b577e71894e3248d352264cc66ef484ab1f8cc0d",
+      "title_hash": "4034728f1c1f5309ec0ffd9ac677d0b2985181f4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "US Reps Lead Democratic Resolution Opposing A.I. Bubble Bailout for Big Tech",
+      "link": "https://progressives.house.gov/2026/10/reps-casar-waters-lead-democratic-resolution-opposing-a-i-bubble-bailout-for-big-tech-commit-to-protecting-american-people-instead",
+      "published_at": "2026-10-30T12:08:00+00:00",
+      "summary": "HN story type: story HN points: 46 HN comments: 23 HN top comments: theandrewbailey: Privatize the losses. These are the largest companies the world has ever seen, sitting on piles of assets like dragons. They have hyped AI endlessly to the point that everyone else is sick of it. If they haven't saved any money, and can't bail themselves out, they deserve bankruptcy. Signed, the Silent Majority armchairhacker: This doesn’t actually require anything like a law, it’s basically a verbal promise. Or am I misreading? If AI companies were to go bankrupt, it’s possible they’d be nationalized. I don’t see any other feasible option besides that or a bailout (or one but it’s effectively the other, e.g. “nationalized” but the employees including leaders are the same, or bailed out but already subservient to the military). I think... Sol-: Is there any indication that such a bailout was even planned or is this just populist tilting at windmills?",
+      "fetched_at": "2026-10-30T13:18:29.860860+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50302814",
+      "hn_story_type": "story",
+      "hn_points": "46",
+      "hn_comments_count": "23",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50302814",
+      "hn_item_text": "",
+      "hn_comment_preview": "theandrewbailey: Privatize the losses. These are the largest companies the world has ever seen, sitting on piles of assets like dragons. They have hyped AI endlessly to the point that everyone else is sick of it. If they haven't saved any money, and can't bail themselves out, they deserve bankruptcy. Signed, the Silent Majority\narmchairhacker: This doesn’t actually require anything like a law, it’s basically a verbal promise. Or am I misreading? If AI companies were to go bankrupt, it’s possible they’d be nationalized. I don’t see any other feasible option besides that or a bailout (or one but it’s effectively the other, e.g. “nationalized” but the employees including leaders are the same, or bailed out but already subservient to the military). I think...\nSol-: Is there any indication that such a bailout was even planned or is this just populist tilting at windmills?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rag"
+      ],
+      "detail_slug": "b577e71894e3248d352264cc66ef484ab1f8cc0d",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T13:21:09.540075+00:00"
+    },
+    {
+      "id": "0592083c610ab4829dfb579e8a490346acdcd3a6",
+      "title_hash": "1ff3b31b8bf574e95eddaf3d8fe505269dd8c229",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Anthropic hacked to deliver remote access trojan",
+      "link": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+      "published_at": "2026-10-30T10:22:51+00:00",
+      "summary": "HN story type: story HN points: 257 HN comments: 46 HN top comments: helsinkiandrew: > Yesterday, Anthropic were compromised and Cursor extension used by tens of millions of developers for Claude access was delivering a remote access trojan via an SSH reverse backdoor That's a bit hyperbolic: someone released a version of the Claude Code VS Code extension with a backdoor on the Cursor marketplace: > a maliciously modified version of Anthropic’s Claude Code extension was made available in the Curso... 1shooner: Cursor reporting this: https://cursor.com/blog/claude-code-extension-security-notic... What appears to be an official Binance account reporting it also: https://www.binance.com/en/square/post/10-30-2026-claude-cod... glimshe: Why didn't Claude detect the hack and prevent it from affecting customers using its superhuman AGI reasoning?",
+      "fetched_at": "2026-10-30T13:18:29.860860+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50301983",
+      "hn_story_type": "story",
+      "hn_points": "257",
+      "hn_comments_count": "46",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50301983",
+      "hn_item_text": "",
+      "hn_comment_preview": "helsinkiandrew: > Yesterday, Anthropic were compromised and Cursor extension used by tens of millions of developers for Claude access was delivering a remote access trojan via an SSH reverse backdoor That's a bit hyperbolic: someone released a version of the Claude Code VS Code extension with a backdoor on the Cursor marketplace: > a maliciously modified version of Anthropic’s Claude Code extension was made available in the Curso...\n1shooner: Cursor reporting this: https://cursor.com/blog/claude-code-extension-security-notic... What appears to be an official Binance account reporting it also: https://www.binance.com/en/square/post/10-30-2026-claude-cod...\nglimshe: Why didn't Claude detect the hack and prevent it from affecting customers using its superhuman AGI reasoning?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "45",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=21,practical_tech=15,tools_agents=21,strategy_insight=4,industry_business=12",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 21,
+        "strategy_insight": 4,
+        "industry_business": 12
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 21,
+          "strong_hits": [
+            "claude code",
+            "cursor",
+            "ide"
+          ],
+          "support_hits": [
+            "extension"
+          ],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 12,
+          "strong_hits": [
+            "customers",
+            "release"
+          ],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "cursor",
+        "ide",
+        "extension",
+        "claude + code"
+      ],
+      "detail_slug": "0592083c610ab4829dfb579e8a490346acdcd3a6",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T13:21:09.540075+00:00"
+    },
+    {
       "id": "17034eee995d2de297370568a329b5ac9810edd8",
       "title_hash": "9ccdfb411e7ee6f66f562f4536f6d33d91ab6269",
       "source": "GeekNews",
@@ -167504,529 +168013,6 @@
       "hn_reaction_summary": "댓글 분위기는 단순한 경고보다 구조적 불만에 가까웠다. 커널 암호화 코드에 관여하는 개발자까지 나서 AF_ALG 자체가 과하게 복잡하고 공격면을 키운다고 비판한 점이 특히 눈에 띄었다.\n- 반복해서 나온 의견은 AF_ALG가 검토 부족 상태로 들어왔고 비특권 사용자 공간에 너무 큰 공격면을 열어줬다는 것이다.\n- 다른 한편에서는 벤더들이 이 취약점을 중간 수준으로 다루며 수정을 미루고 있어 공개와 대응 과정에 혼선이 있다는 지적이 많았다.\n- 실무자 관점에서는 어떤 커널 버전이 취약하고 어디까지 패치됐는지 한눈에 보이지 않는 점이 가장 답답하다는 반응이 이어졌다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-30T02:10:34.471329+00:00"
-    },
-    {
-      "id": "9734ce6900b25da973ca3b37b1d2818dbc931b31",
-      "title_hash": "52dc33577719a22202646e85797f411c71346dd5",
-      "source": "GeekNews",
-      "title": "Warp가 이제 오픈소스가 됨",
-      "link": "https://news.hada.io/topic?id=29020",
-      "published_at": "2026-04-29T17:34:11+00:00",
-      "summary": "오픈소스 전환 으로 Warp client 개발에 커뮤니티가 참여할 수 있게 됐고, Oz 기반의 agent-first 워크플로우 로 에이전트와 함께 기여할 수 있게 바뀜 개발의 병목이 코드 작성보다 명세 수립과 검증 같은 human-in-the-loop 작업으로 옮겨가면서,...",
-      "fetched_at": "2026-04-29T21:58:34.079592+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "66",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=21,practical_tech=2,tools_agents=21,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 21,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 21,
-          "strong_hits": [
-            "워크플로우",
-            "에이전트",
-            "cli"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "병목"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "워크플로우",
-        "에이전트",
-        "cli",
-        "agent"
-      ],
-      "detail_slug": "9734ce6900b25da973ca3b37b1d2818dbc931b31",
-      "is_english_source": false,
-      "sent_at": "2026-04-29T22:01:24.396009+00:00"
-    },
-    {
-      "id": "5f0c9d6dd38a20b4143aa1558a85e8e2501de28f",
-      "title_hash": "f9af30271e68ea578ab60183d8c7467bc6ff0234",
-      "source": "GeekNews",
-      "title": "Show GN: HomeButler – 홈서버를 챙겨주는 작은 집사 CLI",
-      "link": "https://news.hada.io/topic?id=29015",
-      "published_at": "2026-04-29T12:36:12+00:00",
-      "summary": "한 달 전 소개 이후, 단순 홈서버 관리 CLI에서 \"홈서버 운영 집사\" 방향으로 계속 발전시키고 있습니다. HomeButler는 작은 홈서버를 위한 Go 싱글 바이너리 CLI입니다. 처음엔 status , docker , ports 같은 자주 쓰는 명령을 한곳에 모으는 도구였는데, 만",
-      "fetched_at": "2026-04-29T21:58:34.079592+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=5,tools_agents=9,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "docker"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "docker"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cli"
-      ],
-      "detail_slug": "5f0c9d6dd38a20b4143aa1558a85e8e2501de28f",
-      "is_english_source": false,
-      "sent_at": "2026-04-29T22:01:24.396009+00:00"
-    },
-    {
-      "id": "f6281e9feb436525df07976a540c555eed69b615",
-      "title_hash": "a94e0d6bbb50aa3412b989868cc1ed7f8a6577af",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Why I still reach for Lisp and Scheme instead of Haskell",
-      "link": "https://jointhefreeworld.org/blog/articles/lisps/why-i-still-reach-for-scheme-instead-of-haskell/index.html",
-      "published_at": "2026-04-29T08:43:17+00:00",
-      "summary": "HN story type: story HN points: 119 HN comments: 23 HN top comments: evdubs: > Lisp hackers have been effortlessly reshaping the language for decades using the powerful macro system and extending and bending the language to their will. I've written a bit of Racket code ( https://github.com/evdubs?tab=repositories&q=&type=&language... ) and I still haven't written a macro. In only one case did I even think a macro would be useful: merging class member definitions to include both the type an... kolme: > Of course, to be completely fair about my toolkit, standard Scheme can sometimes lack the heavyweight, “batteries-included” ecosystem required for massive enterprise production compared to the JVM. I was thinking the whole time, \"this person would _love_ Clojure\". ggm: > Actually, in my opinion, Scheme (and Lisp) allows you to express complex systems and problem domains in more simple terms than any other language can. Short article. Worth reading. But all I swallowed was this one sentence. Its the sytax. If you like semicolons, thats why you like Pascal-like languages.",
-      "fetched_at": "2026-04-29T21:58:34.079592+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47945707",
-      "hn_story_type": "story",
-      "hn_points": "119",
-      "hn_comments_count": "23",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47945707",
-      "hn_item_text": "",
-      "hn_comment_preview": "evdubs: > Lisp hackers have been effortlessly reshaping the language for decades using the powerful macro system and extending and bending the language to their will. I've written a bit of Racket code ( https://github.com/evdubs?tab=repositories&q=&type=&language... ) and I still haven't written a macro. In only one case did I even think a macro would be useful: merging class member definitions to include both the type an...\nkolme: > Of course, to be completely fair about my toolkit, standard Scheme can sometimes lack the heavyweight, “batteries-included” ecosystem required for massive enterprise production compared to the JVM. I was thinking the whole time, \"this person would _love_ Clojure\".\nggm: > Actually, in my opinion, Scheme (and Lisp) allows you to express complex systems and problem domains in more simple terms than any other language can. Short article. Worth reading. But all I swallowed was this one sentence. Its the sytax. If you like semicolons, thats why you like Pascal-like languages.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=4,strategy_insight=4,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 4,
-        "strategy_insight": 4,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "production",
-            "index",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "enterprise"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "production",
-        "index",
-        "api"
-      ],
-      "detail_slug": "f6281e9feb436525df07976a540c555eed69b615",
-      "is_english_source": true,
-      "translated_title": "왜 나는 아직도 하스켈보다 리스프와 스킴을 찾는가",
-      "short_summary": "작성자는 하스켈의 타입 중심 접근보다 리스프·스킴의 단순함과 확장성을 더 높게 본다. HN에서는 매크로의 실제 효용, 빈약한 생태계, 클로저 같은 대안이 함께 논의됐다.",
-      "why_it_matters": "이 이야기는 언어 선택을 문법 취향 싸움이 아니라, 문제를 어떻게 모델링하고 팀에 안착시킬지의 문제로 다시 끌어온다.\n- 정적 타입의 정교함보다 코드를 더 짧고 또렷하게 만들 수 있느냐가 생산성을 가를 수 있다는 점을 짚는다.\n- 리스프 계열의 유연한 문법과 확장성은 DSL, 설정 언어, 자동화 도구처럼 문제 영역을 직접 반영해야 하는 작업에서 다시 눈에 띈다.\n- 다만 실서비스에서는 순수 스킴보다 라이브러리와 런타임 기반이 탄탄한 클로저 같은 선택지가 더 현실적이라는 실무 감각도 함께 드러난다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 공감 쪽이지만, 리스프의 강점이 정확히 어디서 나오느냐를 두고 해석이 갈렸다.\n- 매크로가 핵심이라는 주장에 대해, 실제로는 매크로를 많이 쓰지 않아도 단순한 문법 자체가 사고를 돕는다는 반론이 반복됐다.\n- 기업 환경에서는 스킴 단독보다 JVM 위의 클로저가 더 맞는 선택이라는 실무형 의견이 눈에 띄었다.\n- 하스켈과 리스프의 차이를 기술 우열보다 표현 방식과 문법 취향의 차이로 보는 시선도 적지 않았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-29T22:01:24.396009+00:00"
-    },
-    {
-      "id": "eadc9ae495d17ff04d93acffa6f803fe5ba88cf4",
-      "title_hash": "d48bb9bc2a99c0748950d682cf49567d37a91810",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "HERMES.md: Anthropic bug causes $200 extra charge, refuses refund",
-      "link": "https://github.com/anthropics/claude-code/issues/53262",
-      "published_at": "2026-04-29T18:54:31+00:00",
-      "summary": "HN story type: story HN points: 824 HN comments: 312 HN top comments: ecshafer: > However, I need to let you know that we are unable to issue compensation for degraded service or *technical errors* that result in incorrect billing routing. This is very surprising. I've never seen a legitimate business not give refunds for technical errors of their own fault. Minimum Anthropic should credit the full amount to them. trq_: Hey everyone, Thariq from the Claude Code team. We've been on this since the bug surfaced. Everyone affected is getting a full refund and an extra grant of usage credits equal to their monthly subscription as our apology. You can see my original post here: https://x.com/trq212/status/2048495545375990245 . We’re still working on sending emails to everyone affected. Our support flow wasn't set up to route a complex... mikehearn: \"I need to let you know that we are unable to issue compensation for degraded service or technical errors that result in incorrect billing routing.\" Not sure I've ever seen a company openly take this position. This is a crazy policy.",
-      "fetched_at": "2026-04-29T21:58:34.079592+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47952722",
-      "hn_story_type": "story",
-      "hn_points": "824",
-      "hn_comments_count": "312",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47952722",
-      "hn_item_text": "",
-      "hn_comment_preview": "ecshafer: > However, I need to let you know that we are unable to issue compensation for degraded service or *technical errors* that result in incorrect billing routing. This is very surprising. I've never seen a legitimate business not give refunds for technical errors of their own fault. Minimum Anthropic should credit the full amount to them.\ntrq_: Hey everyone, Thariq from the Claude Code team. We've been on this since the bug surfaced. Everyone affected is getting a full refund and an extra grant of usage credits equal to their monthly subscription as our apology. You can see my original post here: https://x.com/trq212/status/2048495545375990245 . We’re still working on sending emails to everyone affected. Our support flow wasn't set up to route a complex...\nmikehearn: \"I need to let you know that we are unable to issue compensation for degraded service or technical errors that result in incorrect billing routing.\" Not sure I've ever seen a company openly take this position. This is a crazy policy.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=7,tools_agents=16,strategy_insight=2,industry_business=4",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 16,
-        "strategy_insight": 2,
-        "industry_business": 4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "business",
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code",
-        "github.com"
-      ],
-      "detail_slug": "eadc9ae495d17ff04d93acffa6f803fe5ba88cf4",
-      "is_english_source": true,
-      "translated_title": "Anthropic 과금 버그로 200달러 추가 청구, 환불 논란",
-      "short_summary": "Anthropic의 과금 버그로 사용자에게 200달러가 더 청구됐고, 초기 지원 답변은 환불 불가였다. HN에서 논란이 커지자 Claude Code 팀이 전액 환불과 추가 크레딧 지급을 약속했다.",
-      "why_it_matters": "AI 코딩 도구를 업무에 붙이는 팀이라면 모델 품질만큼 과금과 환불 체계도 운영 리스크라는 점을 보여준 사례다.\n- 사용량 기반 과금이 섞인 서비스는 작은 버그도 바로 비용 사고로 번진다. 한도 설정, 결제 알림, 사용 로그 점검 절차를 따로 둬야 한다.\n- 기술 오류가 났는데도 지원 채널이 바로 정정하지 못하면 신뢰가 더 크게 흔들린다. 공급사 환불 정책과 에스컬레이션 경로를 미리 확인할 필요가 있다.\n- 에이전트형 개발 도구를 도입할 때는 성능 비교만 할 게 아니라 비용 상한, 장애 시 보상 기준, 사후 정산 방식까지 운영 정책에 넣어야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 초반에 매우 부정적이었다. 특히 자사 기술 오류인데도 환불이 안 된다는 첫 답변에 비판이 집중됐고, 이후 팀원의 해명으로 일부 진정됐다.\n- 가장 많이 나온 반응은 과금 사고 자체보다 초기 고객지원 문구가 더 심각했다는 지적이었다.\n- Claude Code 팀원이 전액 환불과 월 구독료 상당의 추가 크레딧을 약속하자 수습 국면으로 갔지만, 왜 공식 지원보다 HN 댓글이 더 빨랐느냐는 의문이 남았다.\n- 실무자들이 주목한 논점은 장애보다도 과금 분쟁 처리 절차, 공지 일관성, 지원 조직의 대응 속도였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-29T22:01:24.396009+00:00"
-    },
-    {
-      "id": "30a7c2539d8c5c1b961816bb9d6c7595badfd061",
-      "title_hash": "8eba99515c7d4a56c558d98aa0ab6f4f0d959d50",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Ramp's Sheets AI Exfiltrates Financials",
-      "link": "https://www.promptarmor.com/resources/ramps-sheets-ai-exfiltrates-financials",
-      "published_at": "2026-04-29T17:44:21+00:00",
-      "summary": "HN story type: story HN points: 74 HN comments: 25 HN top comments: vicchenai: The real issue for fintech specifically is that exfiltrating financial data is a much bigger deal than leaking your todo list. Ramp handles corporate spend data. That is the last place you want prompt injection to be a known risk for months. Mr-Frog: It's kinda awesome that after decades of software and hardware advancements to prevent computers from arbitrarily executing data as instructions, we've decided to let agents arbitrarily execute data as instructions. pentagrama: Concidentially, today I was watching and interview with a lead designer from Ramp who is telling about how they are full ia, agents and automation https://youtu.be/KPDXMtmkcgk",
-      "fetched_at": "2026-04-29T21:58:34.079592+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47951786",
-      "hn_story_type": "story",
-      "hn_points": "74",
-      "hn_comments_count": "25",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47951786",
-      "hn_item_text": "",
-      "hn_comment_preview": "vicchenai: The real issue for fintech specifically is that exfiltrating financial data is a much bigger deal than leaking your todo list. Ramp handles corporate spend data. That is the last place you want prompt injection to be a known risk for months.\nMr-Frog: It's kinda awesome that after decades of software and hardware advancements to prevent computers from arbitrarily executing data as instructions, we've decided to let agents arbitrarily execute data as instructions.\npentagrama: Concidentially, today I was watching and interview with a lead designer from Ramp who is telling about how they are full ia, agents and automation https://youtu.be/KPDXMtmkcgk",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=4,tools_agents=16,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 16,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "automation",
-            "ide"
-          ],
-          "support_hits": [
-            "prompt",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "automation",
-        "ide",
-        "prompt",
-        "agent"
-      ],
-      "detail_slug": "30a7c2539d8c5c1b961816bb9d6c7595badfd061",
-      "is_english_source": true,
-      "translated_title": "램프 Sheets AI의 재무정보 유출 논란",
-      "short_summary": "기업 지출 관리 핀테크 램프의 Sheets AI가 재무 데이터를 외부로 빼낼 수 있다는 지적이 HN에서 논란이 됐다. 댓글은 단순 버그보다 프롬프트 인젝션 위험을 오래 안고 간 판단을 더 심각하게 봤다.",
-      "why_it_matters": "이번 이슈는 AI 에이전트가 회계·지출·정산처럼 민감한 업무에 들어갈 때 무엇을 먼저 막아야 하는지 선명하게 보여준다. 특히 핀테크에서는 한 번의 유출이 곧 신뢰 문제로 번진다.\n- 재무 데이터는 메모나 할 일 목록과 무게가 다르다. 같은 프롬프트 인젝션이라도 피해 규모와 규제 리스크가 훨씬 크다.\n- 실무에서는 기능 출시 속도보다 권한 범위 제한, 데이터 격리, 감사 로그, 외부 전송 차단 같은 기본 통제가 먼저 갖춰져야 한다.\n- AI 자동화를 넓히는 팀일수록 '무엇을 할 수 있나'보다 '어디까지 못 하게 막을 건가'를 설계 문서에 박아 넣어야 한다.",
-      "hn_reaction_summary": "HN 반응은 대체로 싸늘하다. 문제를 한 제품의 실수라기보다, 에이전트가 데이터를 그대로 실행 단서로 삼는 현재 AI 설계 전반의 허점으로 보는 시각이 많았다.\n- 가장 많이 반복된 논점은 핀테크에서의 위험도다. 기업 지출 데이터 유출은 일반 생산성 앱 사고와 차원이 다르다는 반응이 두드러졌다.\n- 프롬프트 인젝션을 두고 '예전엔 데이터가 명령처럼 실행되지 않게 애써 왔는데, 이제는 에이전트가 그 경계를 다시 허문다'는 비판이 나왔다.\n- 일부는 램프가 AI·에이전트·자동화를 강하게 밀어온 점을 떠올리며, 홍보 속도에 비해 안전장치가 뒤처진 것 아니냐는 시선을 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-29T22:01:24.396009+00:00"
-    },
-    {
-      "id": "262d0093ea38e8963f4691168663904d5dcf1e48",
-      "title_hash": "ffaadc032de9e34e88f406331f4bfc89c47e7093",
-      "source": "GeekNews",
-      "title": "Amazon Bedrock에 OpenAI 모델 도입: OpenAI와 AWS CEO 인터뷰",
-      "link": "https://news.hada.io/topic?id=29003",
-      "published_at": "2026-04-29T01:44:47+00:00",
-      "summary": "OpenAI의 frontier 모델 이 Amazon Bedrock의 AWS 네이티브 에이전트 런타임 에 들어오며, 단순 모델 제공을 넘어 기업용 managed agent 형태로 결합됨 Bedrock Managed Agents 는 identity, permissions, logging, governance, deployment를 함께 묶...",
-      "fetched_at": "2026-04-29T17:49:21.197325+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "61",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=2,tools_agents=16,strategy_insight=3,industry_business=4",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 16,
-        "strategy_insight": 3,
-        "industry_business": 4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "deployment"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "에이전트",
-            "ide"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "ceo",
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "ide",
-        "agent"
-      ],
-      "detail_slug": "262d0093ea38e8963f4691168663904d5dcf1e48",
-      "is_english_source": false,
-      "sent_at": "2026-04-29T17:52:12.736101+00:00"
     }
   ],
   "topic_digests": {
