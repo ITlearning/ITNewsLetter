@@ -1,6 +1,575 @@
 {
   "items": [
     {
+      "id": "17034eee995d2de297370568a329b5ac9810edd8",
+      "title_hash": "9ccdfb411e7ee6f66f562f4536f6d33d91ab6269",
+      "source": "GeekNews",
+      "title": "Show GN: korea-data-mcp – AI 에이전트가 한국 공공 API를 틀리게 읽지 않도록 해주는 MCP 서버",
+      "link": "https://news.hada.io/topic?id=36277",
+      "published_at": "2026-10-30T04:47:44+00:00",
+      "summary": "DART, 공공데이터포털, 국가법령정보 API를 MCP 서버로 묶었습니다. Claude, Cursor 같은 AI 에이전트가 한국 기업·부동산·법령 데이터를 정확히 조회하도록 만드는 게 목표입니다. 만들게 된 계기 공공 API 응답을 에이전트에 그대로 넘기면 그럴듯하지만 틀린 답이 나옵니다. 예: DAR",
+      "fetched_at": "2026-10-30T09:08:37.471895+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "64",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=19,practical_tech=5,tools_agents=19,strategy_insight=3,industry_business=-2",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 19,
+        "strategy_insight": 3,
+        "industry_business": -2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 19,
+          "strong_hits": [
+            "cursor",
+            "에이전트",
+            "mcp"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cursor",
+        "에이전트",
+        "mcp"
+      ],
+      "detail_slug": "17034eee995d2de297370568a329b5ac9810edd8",
+      "is_english_source": false,
+      "sent_at": "2026-10-30T09:11:20.710440+00:00"
+    },
+    {
+      "id": "e744453c354651b6a7c18fd12ad2672a5cd96d25",
+      "title_hash": "2e78df8ba41d29b9f06cb6326f68932d3f4d28d8",
+      "source": "GeekNews",
+      "title": "small-change로 코드 리뷰 속도 높이기",
+      "link": "https://news.hada.io/topic?id=36270",
+      "published_at": "2026-10-30T02:48:36+00:00",
+      "summary": "Imprint는 PR 증가로 리뷰 시간이 길어지자, 제한된 조건을 충족하는 변경을 small-change 로 분류해 빠르게 승인하는 방식을 도입함 자격은 사람이 바꿀 수 없는 CI/CD 검사 로 판정하며, 코드 규모, 자동 리뷰 결과, 작성자의 해당 서비스 경험, 변경...",
+      "fetched_at": "2026-10-30T09:08:37.471895+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "코드 리뷰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "코드 리뷰"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "코드 리뷰"
+      ],
+      "detail_slug": "e744453c354651b6a7c18fd12ad2672a5cd96d25",
+      "is_english_source": false,
+      "sent_at": "2026-10-30T09:11:20.710440+00:00"
+    },
+    {
+      "id": "f0f51c8b6e1847b178ab42fc33080cf962549022",
+      "title_hash": "7523d53fa66aad6e5b050fb727aae435aed5375d",
+      "source": "GeekNews",
+      "title": "OpenAI, Pro와 Business Premium 사용량 한도 2배 확대",
+      "link": "https://news.hada.io/topic?id=36273",
+      "published_at": "2026-10-30T03:06:14+00:00",
+      "summary": "Pro 100·200·500과 Business Premium의 모든 사용량 한도를 2배로 확대 하며, 오늘부터 바로 적용시작 사용자 피드백을 반영해 Pro 200의 한도를 축소하지 않기로 결정 했으며, 기존 Work와 Codex 사용량 한도를 유지할 것 개인 에이전트 dot의 확대...",
+      "fetched_at": "2026-10-30T09:08:37.471895+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=0,tools_agents=14,strategy_insight=3,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 14,
+        "strategy_insight": 3,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "business"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "codex",
+        "에이전트"
+      ],
+      "detail_slug": "f0f51c8b6e1847b178ab42fc33080cf962549022",
+      "is_english_source": false,
+      "sent_at": "2026-10-30T09:11:20.710440+00:00"
+    },
+    {
+      "id": "af594d65f732b51bc77cd5463456b0528de7e5f7",
+      "title_hash": "87de324b4e21bfcc661e6982202404ef254fac95",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Binance-hacker-1029 – $5.6B stolen from Binance",
+      "link": "https://arkm.com/explorer/entity/21a94755-f604-45e5-9501-6542e23005e8",
+      "published_at": "2026-10-29T21:38:59+00:00",
+      "summary": "HN story type: story HN points: 1287 HN comments: 791 HN top comments: Tiberium: About $2.4 billion out of this is already frozen by Circle and Tether. Some of the big ones: - 971.15M USDT (Ethereum): https://etherscan.io/tx/0x7baba482077843514d9c72bac0110ba091... - 823M USDC (Ethereum): https://etherscan.io/tx/0xc954c86f118e8e410e6a3eb9e3b38ff4a9... - 312.73M USDT (Tron): https://tronscan.org/#/transaction/71b0ec0fe873fe820c37cc3ec... - 175M USDT (Ethereum): https://etherscan.io/tx/0x0c07a5e4... madradavid: Looks like a DevOps guy is going to take the blame for this: \"Binance's initial investigation suggests that the security incident may involve a compromised DevOps engineer’s laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions.\" https://x.com/binance/status/2115993361517891592 cryptoz: Some of the old Mt Gox threads are an interesting read today: https://news.ycombinator.com/item?id=7203051 https://news.ycombinator.com/item?id=7294762 https://news.ycombinator.com/item?id=7369879",
+      "fetched_at": "2026-10-30T09:08:37.471895+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50296470",
+      "hn_story_type": "story",
+      "hn_points": "1287",
+      "hn_comments_count": "791",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50296470",
+      "hn_item_text": "",
+      "hn_comment_preview": "Tiberium: About $2.4 billion out of this is already frozen by Circle and Tether. Some of the big ones: - 971.15M USDT (Ethereum): https://etherscan.io/tx/0x7baba482077843514d9c72bac0110ba091... - 823M USDC (Ethereum): https://etherscan.io/tx/0xc954c86f118e8e410e6a3eb9e3b38ff4a9... - 312.73M USDT (Tron): https://tronscan.org/#/transaction/71b0ec0fe873fe820c37cc3ec... - 175M USDT (Ethereum): https://etherscan.io/tx/0x0c07a5e4...\nmadradavid: Looks like a DevOps guy is going to take the blame for this: \"Binance's initial investigation suggests that the security incident may involve a compromised DevOps engineer’s laptop, which allowed an attacker to gain access to a service container and submit unauthorized withdrawal transactions.\" https://x.com/binance/status/2115993361517891592\ncryptoz: Some of the old Mt Gox threads are an interesting read today: https://news.ycombinator.com/item?id=7203051 https://news.ycombinator.com/item?id=7294762 https://news.ycombinator.com/item?id=7369879",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "container",
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "container",
+        "security"
+      ],
+      "detail_slug": "af594d65f732b51bc77cd5463456b0528de7e5f7",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T09:11:20.710440+00:00"
+    },
+    {
+      "id": "33c9526780962f13d1fd7238d7482764d47bccc4",
+      "title_hash": "518b87e255c363305bdb25578bc5d36881a04a4e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "LLM Voice",
+      "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "published_at": "2026-10-29T14:57:55+00:00",
+      "summary": "HN story type: story HN points: 466 HN comments: 247 HN top comments: BurritoKing: As someone who is aggressively pro AI, I've also noticed how awful everything is to read lately. It's always so hard to put my finger on the exact thing, but it's a mixture of everything sounding identical and everything being a rambling unconcise mess. I find I routinely start reading interesting posts and just .. stop part way, abandoning it. A site I read stories on has been flooded with AI generated content, a... PaulKeeble: I just can't seem to stay interested and read LLM text. It just seems to lack going somewhere, its information density is often really low and its full of odd isms that I don't find very interesting to read. I don't have a good radar for detecting the various LLM particular speech patterns but everytime I have an issue with an article there is always people talking about how its clearly AI written. I find the same... Terr_: All human communication is based on internally simulating the presumed mind that was/will-be at the other end. Even now, some part of your brain--however subconscious--is building a tiny sketch of me with assumed beliefs and motivations, and you're using it to predict and interpret the next words. But what happens when everything is persistently, subtly wrong ? When we cannot smoothly map the text to a simulation?...",
+      "fetched_at": "2026-10-30T09:08:37.471895+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50290177",
+      "hn_story_type": "story",
+      "hn_points": "466",
+      "hn_comments_count": "247",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50290177",
+      "hn_item_text": "",
+      "hn_comment_preview": "BurritoKing: As someone who is aggressively pro AI, I've also noticed how awful everything is to read lately. It's always so hard to put my finger on the exact thing, but it's a mixture of everything sounding identical and everything being a rambling unconcise mess. I find I routinely start reading interesting posts and just .. stop part way, abandoning it. A site I read stories on has been flooded with AI generated content, a...\nPaulKeeble: I just can't seem to stay interested and read LLM text. It just seems to lack going somewhere, its information density is often really low and its full of odd isms that I don't find very interesting to read. I don't have a good radar for detecting the various LLM particular speech patterns but everytime I have an issue with an article there is always people talking about how its clearly AI written. I find the same...\nTerr_: All human communication is based on internally simulating the presumed mind that was/will-be at the other end. Even now, some part of your brain--however subconscious--is building a tiny sketch of me with assumed beliefs and motivations, and you're using it to predict and interpret the next words. But what happens when ev...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm"
+      ],
+      "detail_slug": "33c9526780962f13d1fd7238d7482764d47bccc4",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T09:11:20.710440+00:00"
+    },
+    {
+      "id": "aa66227182b73c1c6aeec54ed45f5fac33eebe76",
+      "title_hash": "64d2dd33301406c8e779cd1ffd992502c0ed0684",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "link": "https://github.com/SheepSeb/tinyworldformer",
+      "published_at": "2026-10-29T20:32:28+00:00",
+      "summary": "HN story type: story HN points: 202 HN comments: 14 HN top comments: boustrophedon: I might have missed it in the readme, but what hardware did the training take place on? This is really neat. skrellm: I honestly believe that these neat projects (smallest possible, locally run LLMs) are the real future of AI on the long run. dannyw: This is incredibly cool! Fascinating to see looped transformers be necessary for mini-Doom, but not for simpler games.",
+      "fetched_at": "2026-10-30T09:08:37.471895+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50295450",
+      "hn_story_type": "story",
+      "hn_points": "202",
+      "hn_comments_count": "14",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50295450",
+      "hn_item_text": "",
+      "hn_comment_preview": "boustrophedon: I might have missed it in the readme, but what hardware did the training take place on? This is really neat.\nskrellm: I honestly believe that these neat projects (smallest possible, locally run LLMs) are the real future of AI on the long run.\ndannyw: This is incredibly cool! Fascinating to see looped transformers be necessary for mini-Doom, but not for simpler games.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "37",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=13,practical_tech=13,tools_agents=12,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 13,
+        "tools_agents": 12,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 13,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "local + run",
+        "github.com"
+      ],
+      "detail_slug": "aa66227182b73c1c6aeec54ed45f5fac33eebe76",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T09:11:20.710440+00:00"
+    },
+    {
+      "id": "04fd494fe5fb9bada1d93478288b7ca6dc8fe161",
+      "title_hash": "5062e3c32aecd83af4f741872657f2a157868f60",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Wasmer (YC S19) Is Hiring OS/Hypervisor Experts in Europe",
+      "link": "https://www.workatastartup.com/jobs/98722",
+      "published_at": "2026-10-30T07:00:35+00:00",
+      "summary": "HN story type: job HN points: 1 HN comments: 0",
+      "fetched_at": "2026-10-30T09:08:37.471895+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50300643",
+      "hn_story_type": "job",
+      "hn_points": "1",
+      "hn_comments_count": "0",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50300643",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=7,practical_tech=4,tools_agents=2,strategy_insight=2,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "startup"
+          ],
+          "support_hits": [
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "startup"
+      ],
+      "detail_slug": "04fd494fe5fb9bada1d93478288b7ca6dc8fe161",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T09:11:20.710440+00:00"
+    },
+    {
       "id": "164590dc2904035e9afddfae356d44c6e2914d1d",
       "title_hash": "cf28bdc9122a29e8a2751b4fa8ca20eec4b0099d",
       "source": "GeekNews",
@@ -167458,642 +168027,6 @@
       "detail_slug": "262d0093ea38e8963f4691168663904d5dcf1e48",
       "is_english_source": false,
       "sent_at": "2026-04-29T17:52:12.736101+00:00"
-    },
-    {
-      "id": "58eb7b8e4c08840e7c602c6b88ed61064e3d460b",
-      "title_hash": "5659ac00b30e1962d20fefab8f72cfef36e759a9",
-      "source": "GeekNews",
-      "title": "Claude Code가 작성한 코드의 소유자는 누구인가?",
-      "link": "https://news.hada.io/topic?id=29005",
-      "published_at": "2026-04-29T02:07:31+00:00",
-      "summary": "AI 보조 코드의 저작권 은 인간의 의미 있는 창작 기여가 있는지에 달려 있으며, AI가 주로 만들고 인간이 거의 손대지 않은 결과물은 보호를 받지 못할 수 있음 핵심 판단 기준은 meaningful human authorship 이며, 목표만 지시하는 수준보다 아키텍처를 정하고 결...",
-      "fetched_at": "2026-04-29T17:49:21.197325+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=4,tools_agents=15,strategy_insight=8,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 15,
-        "strategy_insight": 8,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "아키텍처",
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "아키텍처"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "58eb7b8e4c08840e7c602c6b88ed61064e3d460b",
-      "is_english_source": false,
-      "sent_at": "2026-04-29T17:52:12.736101+00:00"
-    },
-    {
-      "id": "95d0607899455cf84b601924a43d51e831bd2b9a",
-      "title_hash": "5dc3a2c0e5c41122b77f415cb6eeb6724c78d192",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
-      "link": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
-      "published_at": "2026-04-29T16:01:51+00:00",
-      "summary": "HN story type: story HN points: 18 HN comments: 2 HN post text: When building workflows that rely on LLMs, we commonly use structured output for programmatic use cases like converting an invoice into rows or meeting transcripts into tickets or even complex PDFs into database entries. The model may return the schema you want, but with hallucinated values like `invoice_date` being off by 2 months or the transcript array ordered wrongly. The JSON is valid, but the values are not. Structured output today is a big part of using LLMs, especially when building deterministic workflows. Current structured output benchmarks (e.g., JSONSchemaBench) only validate the pass rate for JSON schema and types, and not the actual values within the produced JSON. So we designed the Structured Output Benchmark (SOB) that fixes this by measuring both the JSON schema pass rate, types, and the value accuracy across all three modalities, text, image, and audio. For our test set, every record is paired with a JSON Schema and a ground-truth answer that was verified against the source context manually by a human and an LLM cross-check, so a missing or hallucinated value will be considered to be wrong. Open source is doing pretty well with GLM 4.7 coming in number 2 righ... HN top comments: stared: Thank you for sharing benchmark. However, the results are selective. Why no Opus 4.7? Why Gemini 3.1 Pro is missing? If there is some other criterion (e.g. models within certain time or budget), great - just make it explicit. When I see \"Top 5 at a glance\" and it missed key frontier models, I am (at best) confused.",
-      "fetched_at": "2026-04-29T17:49:21.197325+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47950283",
-      "hn_story_type": "story",
-      "hn_points": "18",
-      "hn_comments_count": "2",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47950283",
-      "hn_item_text": "When building workflows that rely on LLMs, we commonly use structured output for programmatic use cases like converting an invoice into rows or meeting transcripts into tickets or even complex PDFs into database entries. The model may return the schema you want, but with hallucinated values like `invoice_date` being off by 2 months or the transcript array ordered wrongly. The JSON is valid, but the values are not. Structured output today is a big part of using LLMs, especially when building deterministic workflows. Current structured output benchmarks (e.g., JSONSchemaBench) only validate the pass rate for JSON schema and types, and not the actual values within the produced JSON. So we designed the Structured Output Benchmark (SOB) that fixes this by measuring both the JSON schema pass rate, types, and the value accuracy across all three modalities, text, image, and audio. For our test set, every record is paired with a JSON Schema and a ground-truth answer that was verified against the source context manually by a human and an LLM cross-check, so a missing or hallucinated value will be considered to be wrong. Open source is doing pretty well with GLM 4.7 coming in number 2 righ...",
-      "hn_comment_preview": "stared: Thank you for sharing benchmark. However, the results are selective. Why no Opus 4.7? Why Gemini 3.1 Pro is missing? If there is some other criterion (e.g. models within certain time or budget), great - just make it explicit. When I see \"Top 5 at a glance\" and it missed key frontier models, I am (at best) confused.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=26,practical_tech=26,tools_agents=19,strategy_insight=4,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 26,
-        "tools_agents": 19,
-        "strategy_insight": 4,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 26,
-          "strong_hits": [
-            "open source",
-            "benchmark",
-            "database",
-            "show hn"
-          ],
-          "support_hits": [
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 19,
-          "strong_hits": [
-            "workflow",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "workflow"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "benchmark",
-        "database",
-        "show hn",
-        "testing"
-      ],
-      "detail_slug": "95d0607899455cf84b601924a43d51e831bd2b9a",
-      "is_english_source": true,
-      "translated_title": "결정적 LLM 출력을 검증하는 새 벤치마크",
-      "short_summary": "새 Structured Output Benchmark(SOB)는 LLM이 JSON 스키마를 맞추는지뿐 아니라 값까지 정확한지 함께 측정한다. 텍스트·이미지·오디오 전반에서, 형식은 맞지만 내용이 틀리는 자동화 실무의 빈틈을 겨냥한 평가다.",
-      "why_it_matters": "LLM을 업무 자동화에 붙일 때 이제는 'JSON이 나왔는가'보다 '값이 맞는가'를 따져야 한다는 문제의식을 잘 보여준다.\n- 청구서 추출, 회의록 티켓화, PDF 파싱 같은 흐름에서는 날짜나 순서가 조금만 틀려도 후속 시스템 전체가 어긋난다. 스키마 통과율만으로 모델을 고르기 어려운 이유다.\n- 텍스트뿐 아니라 이미지와 오디오까지 같은 기준으로 본다는 점이 실무적이다. 멀티모달 입력을 다루는 팀은 평가 기준을 더 촘촘하게 잡아야 한다.\n- 실제 도입 단계에서는 JSON 유효성 검사만으로 끝내기보다 정답값 검증 세트와 회귀 테스트를 함께 운영해야 한다는 요구가 더 커질 수 있다.",
-      "hn_reaction_summary": "댓글 수는 아직 적지만 분위기는 대체로 문제 제기에는 공감하고, 결과 표시는 더 투명해야 한다는 쪽에 가깝다.\n- 벤치마크 취지 자체는 호의적으로 받아들여졌다. 스키마는 맞아도 값이 틀리는 문제를 따로 재야 한다는 점이 현업 감각과 맞닿아 있다는 반응이다.\n- 다만 상위 모델 소개가 선택적으로 보인다는 지적이 나왔다. Opus 4.7이나 Gemini 3.1 Pro처럼 빠진 모델이 있어 비교 기준이나 비용·시점 제한을 분명히 밝혀야 한다는 의견이다.\n- 실무자가 볼 논점은 순위보다 설계의 투명성이다. 포함 모델과 평가 조건이 불명확하면 벤치마크 활용도도 함께 떨어진다는 우려가 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-29T17:52:12.736101+00:00"
-    },
-    {
-      "id": "be1e4be43a077bcfe6a03652e28b3ccae7dfcfbb",
-      "title_hash": "97b2117883d00976eee3c114ecf5e03274e61a82",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Letting AI play my game – building an agentic test harness to help play-testing",
-      "link": "https://blog.jeffschomay.com/letting-ai-play-my-game",
-      "published_at": "2026-04-29T12:43:12+00:00",
-      "summary": "HN story type: story HN points: 82 HN comments: 17 HN top comments: justindz: What a great lunch read! I've been weekend-warrioring a terminal-based CRPG for a bit myself. I was recently exploring ways to use agents to help with balance testing, which is a real scale problem for solo indie dev. So far, all I've created is a fight simulator: essentially, have the current player state (stats, effects, gear, companions, etc.) do this fight, simulated, X number of times using one of the current... haunter: Is there an AI which can \"solve\" the Path of Exile 1/2 passive skill tree yet? jongalloway2: I've been doing this lately, building a Godot game with Copilot CLI. I'm using Godot MCP Pro which can automate interactions and screenshots, and have the whole game script in a markdown doc. I was happily surprised when I asked for a walkthrough and it all just worked, found and fixed some regressions while I was sleeping.",
-      "fetched_at": "2026-04-29T17:49:21.197325+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47947525",
-      "hn_story_type": "story",
-      "hn_points": "82",
-      "hn_comments_count": "17",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47947525",
-      "hn_item_text": "",
-      "hn_comment_preview": "justindz: What a great lunch read! I've been weekend-warrioring a terminal-based CRPG for a bit myself. I was recently exploring ways to use agents to help with balance testing, which is a real scale problem for solo indie dev. So far, all I've created is a fight simulator: essentially, have the current player state (stats, effects, gear, companions, etc.) do this fight, simulated, X number of times using one of the current...\nhaunter: Is there an AI which can \"solve\" the Path of Exile 1/2 passive skill tree yet?\njongalloway2: I've been doing this lately, building a Godot game with Copilot CLI. I'm using Godot MCP Pro which can automate interactions and screenshots, and have the whole game script in a markdown doc. I was happily surprised when I asked for a walkthrough and it all just worked, found and fixed some regressions while I was sleeping.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=24,practical_tech=6,tools_agents=24,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 24,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 24,
-          "strong_hits": [
-            "copilot",
-            "agentic",
-            "mcp",
-            "cli"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "copilot",
-        "agentic",
-        "mcp",
-        "cli",
-        "agent"
-      ],
-      "detail_slug": "be1e4be43a077bcfe6a03652e28b3ccae7dfcfbb",
-      "is_english_source": true,
-      "translated_title": "AI가 직접 플레이하는 게임 테스트 하네스",
-      "short_summary": "AI 에이전트가 게임을 직접 플레이하도록 붙여 반복 테스트와 플레이테스트를 자동화한 사례다. 사람 손으로 오래 돌려야 드러나는 밸런스 문제와 회귀를 더 빨리 찾는 쪽에 초점이 맞춰져 있다.",
-      "why_it_matters": "게임 테스트는 구현보다 반복 검증이 더 오래 걸릴 때가 많다. AI를 플레이어처럼 붙여두면 사람이 계속 붙어 있지 않아도 장시간 시나리오를 돌려볼 수 있어, 소규모 팀이나 1인 개발에서 특히 바로 써먹기 좋다.\n- 밸런스 테스트처럼 경우의 수가 많은 작업을 자동으로 여러 번 돌려 병목을 줄일 수 있다.\n- 새 기능을 넣은 뒤 기본 진행, 전투, 상호작용이 깨졌는지 밤새 확인하는 회귀 점검 흐름으로 이어지기 쉽다.\n- 테스트 코드를 촘촘히 짜기 어려운 게임에서도 실제 플레이에 가까운 검증 수단을 하나 더 확보하게 된다.",
-      "hn_reaction_summary": "HN 반응은 대체로 호의적이었다. 댓글에서는 \"재미있는 읽을거리\" 수준을 넘어, 혼자 게임을 만드는 개발자가 당장 응용할 수 있는 실전 아이디어로 받아들이는 분위기가 읽힌다.\n- 반복 전투 시뮬레이션으로 밸런스를 잡아보려 했다는 반응처럼, AI를 QA 보조 도구로 쓰려는 관심이 컸다.\n- Path of Exile 같은 복잡한 스킬 트리도 \"풀 수 있느냐\"는 질문이 나올 만큼, 최적화와 공략 생성 쪽 기대도 함께 드러났다.\n- Godot와 Copilot CLI, MCP 기반 자동 조작처럼 이미 비슷한 흐름을 실험 중이라는 경험담도 나와, 단순한 구경거리가 아니라 실제 제작 파이프라인 논의로 이어졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-29T17:52:12.736101+00:00"
-    },
-    {
-      "id": "a90a82db1f062a1252d5e32acc83d91ea9a9bfd0",
-      "title_hash": "34768de5153a8773c2292699256ce576588a6181",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Linux 7.0 Broke PostgreSQL: The Preemption Regression Explained",
-      "link": "https://read.thecoder.cafe/p/linux-broke-postgresql",
-      "published_at": "2026-04-29T15:13:44+00:00",
-      "summary": "HN story type: story HN points: 77 HN comments: 26 HN top comments: ameliaquining: This post comes uncomfortably close to plagiarizing https://thebuild.com/blog/2026/04/23/preempt_none-is-dead-yo... , which it cites as a source; almost all the technical explanation is in there and some of the wording is extremely similar. Compare, e.g., \"What Linux 7.0 actually changed\" in Pettus's post to \"What Is Preemption?\" in this one. I think this link should have been to Pettus's post instead. buster: I'd rather like to know if any real world usage broke, before coming to the conclusion that an edge case synthetic benchmark is worth changing the kernel (back or wherever) where supposedly the change that broke the benchmark had real world benefits. Since we will never know it might be a good idea to feature gate the change, change the default and let users decide to change it back. This may give some feedback on... ozgrakkurt: It is a crime that postgres isn't able to allocate with 1GB huge pages by changing a config parameter in 2026 Also a crime that people are still running databases with 4kb pages. To put it in perspective, this means you will have more than 30 million pages on a server with 128GB RAM. As an example, if there is 16bytes of metadata for memory page. The metadata itself would take more than half a gigabyte.",
-      "fetched_at": "2026-04-29T17:49:21.197325+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47949585",
-      "hn_story_type": "story",
-      "hn_points": "77",
-      "hn_comments_count": "26",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47949585",
-      "hn_item_text": "",
-      "hn_comment_preview": "ameliaquining: This post comes uncomfortably close to plagiarizing https://thebuild.com/blog/2026/04/23/preempt_none-is-dead-yo... , which it cites as a source; almost all the technical explanation is in there and some of the wording is extremely similar. Compare, e.g., \"What Linux 7.0 actually changed\" in Pettus's post to \"What Is Preemption?\" in this one. I think this link should have been to Pettus's post instead.\nbuster: I'd rather like to know if any real world usage broke, before coming to the conclusion that an edge case synthetic benchmark is worth changing the kernel (back or wherever) where supposedly the change that broke the benchmark had real world benefits. Since we will never know it might be a good idea to feature gate the change, change the default and let users decide to change it back. This may give some feedback on...\nozgrakkurt: It is a crime that postgres isn't able to allocate with 1GB huge pages by changing a config parameter in 2026 Also a crime that people are still running databases with 4kb pages. To put it in perspective, this means you will have more than 30 million pages on a server with 128GB RAM. As an example, if there is 16bytes of metadata for...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=7,strategy_insight=4,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 24,
-        "tools_agents": 7,
-        "strategy_insight": 4,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 24,
-          "strong_hits": [
-            "benchmark",
-            "database",
-            "postgres",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "perspective"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "benchmark",
-        "database",
-        "postgres",
-        "sql"
-      ],
-      "detail_slug": "a90a82db1f062a1252d5e32acc83d91ea9a9bfd0",
-      "is_english_source": true,
-      "translated_title": "리눅스 7.0 선점성 회귀가 PostgreSQL 성능을 흔든 이유",
-      "short_summary": "리눅스 7.0의 선점 정책 변경이 PostgreSQL 성능 회귀를 낳은 배경을 짚은 글이다. HN에서는 이 문제가 실제 운영 환경까지 번지는지, 아니면 특정 벤치마크에 더 민감한 사례인지 논쟁이 이어졌다.",
-      "why_it_matters": "커널 기본값 하나가 데이터베이스 성능의 전제를 바꿀 수 있다는 점을 보여준다.\n- OS 업그레이드 뒤 처리량이 떨어졌다면 SQL이나 DB 버전만 볼 게 아니라 선점 정책과 스케줄러 변화까지 함께 점검해야 한다.\n- 합성 벤치마크와 실서비스 영향은 다를 수 있다. 그래서 배포 전후에 p99 지연시간, CPU 사용률, 락 경합을 따로 확인하는 운영 절차가 필요하다.\n- PostgreSQL 메모리 설정과 huge page 전략을 오래된 기본값에 맡겨 둔 팀이라면 이번 논쟁을 계기로 튜닝 기준을 다시 볼 만하다.",
-      "hn_reaction_summary": "댓글 분위기는 기술 설명 자체보다 출처 처리와 실제 영향 범위를 따져 묻는 쪽에 더 가까웠다.\n- 가장 눈에 띈 반응은 설명이 다른 원문 글을 지나치게 많이 빌렸다는 지적이었다. 차라리 그 글을 직접 올렸어야 했다는 말도 나왔다.\n- 또 다른 쟁점은 실서비스 체감 여부다. 특정 벤치마크가 깨졌다고 해서 곧바로 커널 기본값을 되돌릴 일은 아니라는 신중론이 반복됐다.\n- 일부는 PostgreSQL의 1GB huge page 활용성과 4KB 페이지 관행을 비판하며, 문제를 커널만이 아니라 DB 메모리 구조 관점에서도 봐야 한다고 주장했다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-29T17:52:12.736101+00:00"
-    },
-    {
-      "id": "ca42f657cba5f5d49154839f7fd6fec618a6c3a8",
-      "title_hash": "a75687aaa266c3ce00123e167dfc77c58e65e610",
-      "source": "GeekNews",
-      "title": "Claude한테 짜게 시키고 Codex한테 까게 시키기 — 두 에이전트를 한 레포에서 분담시키는 실무 패턴",
-      "link": "https://news.hada.io/topic?id=29011",
-      "published_at": "2026-04-29T08:29:32+00:00",
-      "summary": "요즘 X·디스코드에서 \"Claude Code랑 Codex 같이 쓴다\"는 글이 부쩍 늘어, 다들 좋다는데 진짜 그런지 한 달 정도 두 도구를 한 레포에 같이 깔고 굴려봤습니다. 막상 도입하려고 보니 어디서부터 셋업해야 하는지, 두 도구를 어떻게 분담시켜야 충돌이 안 나는지, AGENTS.md와 CLAUDE.md를 똑같이 채워도 ...",
-      "fetched_at": "2026-04-29T13:37:15.894615+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "72",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=27,practical_tech=2,tools_agents=27,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 27,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 27,
-          "strong_hits": [
-            "claude code",
-            "codex",
-            "에이전트"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "에이전트",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "ca42f657cba5f5d49154839f7fd6fec618a6c3a8",
-      "is_english_source": false,
-      "sent_at": "2026-04-29T13:40:56.386274+00:00"
-    },
-    {
-      "id": "48925b23c7c7a394f18fb65ad7f923cdffe8e7a3",
-      "title_hash": "fa512c9f2a76c7b7f3d57307b92699d4634e3611",
-      "source": "GeekNews",
-      "title": "LocalSend - AirDrop를 대체하는 오픈소스 크로스플랫폼 로컬 파일 공유 앱",
-      "link": "https://news.hada.io/topic?id=29000",
-      "published_at": "2026-04-29T01:06:02+00:00",
-      "summary": "무료 오픈소스 앱 으로, 인터넷 연결 없이 로컬 네트워크 안의 가까운 기기들과 파일과 메시지를 안전하게 주고받을 수 있음 외부 서버나 서드파티 서버에 의존하지 않고, 기기 간 통신을 REST API 와 HTTPS 암호화 로 처리해 빠르...",
-      "fetched_at": "2026-04-29T13:37:15.894615+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "48925b23c7c7a394f18fb65ad7f923cdffe8e7a3",
-      "is_english_source": false,
-      "sent_at": "2026-04-29T13:40:56.386274+00:00"
-    },
-    {
-      "id": "3345dc42073a7c598dff9f5289a5cf58b46da367",
-      "title_hash": "30b4e1387bd9794c229b615f035f85866d862331",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ad blocker",
-      "link": "https://github.com/electricant/adblock-rust-manager",
-      "published_at": "2026-04-29T12:24:53+00:00",
-      "summary": "HN story type: story HN points: 7 HN comments: 4 HN post text: Firefox 149 ships adblock-rust (Brave's Rust engine, MPL-2.0) completely disabled with no UI. It's controlled by two about:config prefs with no WebExtension API, so you can't touch them programmatically from a standard extension. This extension gives it a UI: ETP toggle (via browser.privacy API, instant), filter list manager with clipboard helpers for the manual about:config steps, and 8 preset lists. You can also add your own if you so desire. HN top comments: embedding-shape: > Disable Firefox's built-in Enhanced Tracking Protection so adblock-rust handles blocking instead. What concrete and practical differences are there between the two? I'm guessing because this exists, adblock-rust somehow is better than the built-in ETP? In what way? I'm using ETP + uBlock Origin right now, and can't remember the last time I saw an ad, if I used this instead, what practical differences would I not... HelloUsername: Relevant recent discussion: \"Firefox Has Integrated Brave's Adblock Engine\" https://news.ycombinator.com/item?id=47897891 25-apr-2026 248 comments kgwxd: Don't want it. Tracker/Ad blocking should forever be an extension, maintained by someone with zero obligation to, or association with, the ad/tracking industry. A USER agent.",
-      "fetched_at": "2026-04-29T13:37:15.894615+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47947369",
-      "hn_story_type": "story",
-      "hn_points": "7",
-      "hn_comments_count": "4",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47947369",
-      "hn_item_text": "Firefox 149 ships adblock-rust (Brave's Rust engine, MPL-2.0) completely disabled with no UI. It's controlled by two about:config prefs with no WebExtension API, so you can't touch them programmatically from a standard extension. This extension gives it a UI: ETP toggle (via browser.privacy API, instant), filter list manager with clipboard helpers for the manual about:config steps, and 8 preset lists. You can also add your own if you so desire.",
-      "hn_comment_preview": "embedding-shape: > Disable Firefox's built-in Enhanced Tracking Protection so adblock-rust handles blocking instead. What concrete and practical differences are there between the two? I'm guessing because this exists, adblock-rust somehow is better than the built-in ETP? In what way? I'm using ETP + uBlock Origin right now, and can't remember the last time I saw an ad, if I used this instead, what practical differences would I not...\nHelloUsername: Relevant recent discussion: \"Firefox Has Integrated Brave's Adblock Engine\" https://news.ycombinator.com/item?id=47897891 25-apr-2026 248 comments\nkgwxd: Don't want it. Tracker/Ad blocking should forever be an extension, maintained by someone with zero obligation to, or association with, the ad/tracking industry. A USER agent.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=27,practical_tech=27,tools_agents=14,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 27,
-        "tools_agents": 14,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 27,
-          "strong_hits": [
-            "embedding",
-            "show hn",
-            "rust",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [
-            "extension",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "industry"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "embedding",
-        "show hn",
-        "rust",
-        "api",
-        "github.com"
-      ],
-      "detail_slug": "3345dc42073a7c598dff9f5289a5cf58b46da367",
-      "is_english_source": true,
-      "translated_title": "파이어폭스에 숨은 Brave 차단기, 확장으로 켠다",
-      "short_summary": "파이어폭스 149에는 Brave의 Rust 기반 광고 차단 엔진이 들어갔지만 기본값은 꺼져 있고 UI도 없다. 이 확장은 about:config 설정을 다루기 쉽게 만들어 토글과 필터 목록 관리 기능을 붙여준다.",
-      "why_it_matters": "파이어폭스 안에 이미 들어간 광고 차단 엔진을 실제로 꺼내 쓰게 해주는 사례라는 점에서 볼 만하다. 브라우저 기본 기능과 확장 기능의 경계가 어디로 움직이는지도 함께 보여준다.\n- Firefox 149에 adblock-rust가 탑재됐다는 건 내장형 차단 기능 강화의 신호다. 앞으로 차단 정책과 성능 논의가 확장 바깥으로 옮겨갈 수 있다.\n- 다만 지금은 표준 WebExtension API로 제어할 수 없어 about:config를 손으로 만져야 한다. 배포와 사용자 지원 관점에서는 아직 마찰이 남아 있다.\n- 8개 프리셋 목록과 사용자 정의 목록을 붙일 수 있어, 기본 추적 방지(ETP)나 uBlock Origin과 비교 시험을 해보려는 실무자에게는 테스트용 관리 도구에 가깝다.",
-      "hn_reaction_summary": "댓글 수는 아직 적지만 분위기는 호기심보다 검증 요구와 경계심에 가깝다. 기존 기본 추적 방지(ETP)나 uBlock Origin과 비교해 무엇이 실제로 달라지는지 묻는 반응이 반복됐다.\n- 가장 많이 나온 질문은 '굳이 왜 써야 하느냐'였다. 이미 광고를 거의 보지 않는데 체감 차이가 있는지 설명이 더 필요하다는 얘기다.\n- 일부는 광고·추적 차단은 브라우저 본체보다 독립 확장이 맡아야 한다고 봤다. 차단 주체와 통제권이 섞이는 점을 꺼리는 시선이다.\n- 최근 관련 HN 토론이 크게 열렸던 만큼 관심은 기능 소개 자체보다 운영 철학 쪽에 쏠린다. 무엇을 누가 막을지, 그 기준을 누가 쥘지가 실무 논점으로 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-29T13:40:56.386274+00:00"
     }
   ],
   "topic_digests": {
