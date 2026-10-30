@@ -1,6 +1,621 @@
 {
   "items": [
     {
+      "id": "d08d249dcf64706611465c677d718e2df1fd1d92",
+      "title_hash": "6c7bd6230add33772978b29f2ac97ece899de636",
+      "source": "GeekNews",
+      "title": "공식 Claude Code 확장 프로그램의 백도어",
+      "link": "https://news.hada.io/topic?id=36287",
+      "published_at": "2026-10-30T12:34:14+00:00",
+      "summary": "Kevin Beaumont에 따르면 Claude Code 확장 프로그램 2.1.313 에 원격 접근 악성코드가 포함됐으며, Cursor는 자사 확장 마켓플레이스에서 해당 버전의 보안 사고를 확인함 악성코드는 피해 시스템 정보를 수집한 뒤 역방향 SSH 연결 을 만들어 공격자가 선택한 시스...",
+      "fetched_at": "2026-10-30T21:39:29.976272+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=2,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "cursor"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "cursor",
+        "claude + code"
+      ],
+      "detail_slug": "d08d249dcf64706611465c677d718e2df1fd1d92",
+      "is_english_source": false,
+      "sent_at": "2026-10-30T21:42:01.103461+00:00"
+    },
+    {
+      "id": "c9d951dc94a027b229f2129828162ceef2c71d0a",
+      "title_hash": "2f8ab54ce480c268491cae493ac345ee391b2a4c",
+      "source": "GeekNews",
+      "title": "Blackstone, “Anthropic은 IPO 이후에도 투자적격 신용등급을 받지 못할 수 있어”",
+      "link": "https://news.hada.io/topic?id=36306",
+      "published_at": "2026-10-30T20:31:01+00:00",
+      "summary": "Blackstone, “Anthropic은 IPO 이후에도 투자적격 신용등급을 받지 못할 수 있어”",
+      "fetched_at": "2026-10-30T21:39:29.976272+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "55",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=10,practical_tech=-8,tools_agents=0,strategy_insight=-1,industry_business=10",
+      "slot_scores": {
+        "practical_tech": -8,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "ipo",
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "ipo",
+            "투자"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ipo",
+        "투자"
+      ],
+      "detail_slug": "c9d951dc94a027b229f2129828162ceef2c71d0a",
+      "is_english_source": false,
+      "sent_at": "2026-10-30T21:42:01.103461+00:00"
+    },
+    {
+      "id": "4ccf75090f37daef32b643b43cb3381e1e077656",
+      "title_hash": "d9dccec72049c6b860e9014c81c9c2d5f5ec7c0f",
+      "source": "GeekNews",
+      "title": "ICE, 가면을 되찾으려 삭제 요청 대행업체를 고용하다",
+      "link": "https://news.hada.io/topic?id=36301",
+      "published_at": "2026-10-30T17:44:03+00:00",
+      "summary": "FlokiNET 이 ICE를 대리하는 ZeroFox의 Icepick 사이트 삭제 요청을 거부함. 유출된 정부 직원의 업무상 신원 정보를 언론인과 시민의 공적 책임 추적에 쓰이는 자료로 판단함 데이터는 침해 사고로 유출 됐으며 당사자들은 공개에 동의하지 않았음. 다만 FlokiNET은...",
+      "fetched_at": "2026-10-30T21:39:29.976272+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단"
+      ],
+      "detail_slug": "4ccf75090f37daef32b643b43cb3381e1e077656",
+      "is_english_source": false,
+      "sent_at": "2026-10-30T21:42:01.103461+00:00"
+    },
+    {
+      "id": "487476a88adf7f18d4b82772c8b96cb5828d703a",
+      "title_hash": "decfa56f8e146cda12665119b6c16d1134106364",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Automatic deduction of FlashAttention kernel from ~25 lines of SQL",
+      "link": "https://github.com/xqlsystems/xarray-sql/blob/6debe2495dcb4e8fac20ab97df5b89baae2a31a6/benchmarks/ml/01_attention.py",
+      "published_at": "2026-10-30T20:09:47+00:00",
+      "summary": "HN story type: story HN points: 11 HN comments: 1 HN post text: In this demo, we automatically deduce a FlashAttention kernel with ~25 lines of SQL, which just expresses vanilla attention. This is possible due to three portable SQL extensions that we’re building: - xarray-sql: a library that efficiently represents petabyte scale array datasets in the cloud as tables (relations). - ddx: a database extension that adds automatic differentiation in the style of JAX to standard SQL, assuming the above array data model. - einfold: a modular query planner for fast tensor contractions in vanilla SQL, again, assuming the above array data model. My hope is that the relational model and algebra provide fresh perspectives on how we might do accelerator programming. Here, our thesis is that separating the logical layers in a tensor program from the physical layers is both more correct and more scalable. If the Bitter Lesson is a central dogma of machine learning, then why not formalize it with relational algebra? If this interests you and you’d like to tinker with us at the intersection of database theory and ML systems, join us on Discord at https://xql.systems (link at the bottom). Cheers.",
+      "fetched_at": "2026-10-30T21:39:29.976272+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50309479",
+      "hn_story_type": "story",
+      "hn_points": "11",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50309479",
+      "hn_item_text": "In this demo, we automatically deduce a FlashAttention kernel with ~25 lines of SQL, which just expresses vanilla attention. This is possible due to three portable SQL extensions that we’re building: - xarray-sql: a library that efficiently represents petabyte scale array datasets in the cloud as tables (relations). - ddx: a database extension that adds automatic differentiation in the style of JAX to standard SQL, assuming the above array data model. - einfold: a modular query planner for fast tensor contractions in vanilla SQL, again, assuming the above array data model. My hope is that the relational model and algebra provide fresh perspectives on how we might do accelerator programming. Here, our thesis is that separating the logical layers in a tensor program from the physical layers is both more correct and more scalable. If the Bitter Lesson is a central dogma of machine learning, then why not formalize it with relational algebra? If this interests you and you’d like to tinker with us at the intersection of database theory and ML systems, join us on Discord at https://xql.systems (link at the bottom). Cheers.",
+      "hn_comment_preview": "",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=31,practical_tech=31,tools_agents=12,strategy_insight=11,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 31,
+        "tools_agents": 12,
+        "strategy_insight": 11,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 31,
+          "strong_hits": [
+            "benchmark",
+            "database",
+            "show hn",
+            "sql"
+          ],
+          "support_hits": [
+            "library",
+            "query"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "extension"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 11,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [
+            "perspective",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "benchmark",
+        "database",
+        "show hn",
+        "sql",
+        "library",
+        "query",
+        "github.com"
+      ],
+      "detail_slug": "487476a88adf7f18d4b82772c8b96cb5828d703a",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T21:42:01.103461+00:00"
+    },
+    {
+      "id": "e2f8a4ea677a69dbfb97a2c9c872b6d763bc45b0",
+      "title_hash": "29a3d1dd362ea157533725215d1e6361caa2edbe",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "link": "https://github.com/dbreunig/nesformer",
+      "published_at": "2026-10-30T16:40:22+00:00",
+      "summary": "HN story type: story HN points: 145 HN comments: 97 HN top comments: dbreunig: A couple thoughts on the process here… First off, Opus 5.5 built working weights and code with only two prompts: 1. Read this article and any relevant source code: https://divagr.com/blog/qwenputer . Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use... armcat: This opens up so many interesting opportunities. In principle one could compile a small VM inside the LLM weights. The VM can host for example a Python interpreter, a shell and tools like sed, cat, grep etc. Instead of LLMs having to do slow autoregressive token emission with the current \"external\" tool calling, it could literally execute everything except web search, inside the LLM, with just matmul operations. Y... pbohun: >Overall, nesformer runs 150–290× slower than the real console. I like these kinds of projects because it helps to show the massive compute requirement between LLMs and ordinary programs. A while back I saw some people saying we would just have LMMs hallucinate an entire operating system every single frame . I guess technically it's now proven to be technically possible, but it would be thousands of times slower w...",
+      "fetched_at": "2026-10-30T21:39:29.976272+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50306442",
+      "hn_story_type": "story",
+      "hn_points": "145",
+      "hn_comments_count": "97",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50306442",
+      "hn_item_text": "",
+      "hn_comment_preview": "dbreunig: A couple thoughts on the process here… First off, Opus 5.5 built working weights and code with only two prompts: 1. Read this article and any relevant source code: https://divagr.com/blog/qwenputer . Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use...\narmcat: This opens up so many interesting opportunities. In principle one could compile a small VM inside the LLM weights. The VM can host for example a Python interpreter, a shell and tools like sed, cat, grep etc. Instead of LLMs having to do slow autoregressive token emission with the current \"external\" tool calling, it could literally execute everything except web search, inside the LLM, with just matmul operations. Y...\npbohun: >Overall, nesformer runs 150–290× slower than the real console. I like these kinds of projects because it helps to show the massive compute requirement between LLMs and ordinary programs. A while back I saw some people saying we would just have LMMs hallucinate an entire operating system every single frame . I guess technically...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=30,practical_tech=12,tools_agents=30,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 30,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 30,
+          "strong_hits": [
+            "tool calling",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "prompt",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "tool + calling"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "tool calling",
+        "ide",
+        "llm",
+        "prompt",
+        "tool",
+        "tool + calling",
+        "github.com"
+      ],
+      "detail_slug": "e2f8a4ea677a69dbfb97a2c9c872b6d763bc45b0",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T21:42:01.103461+00:00"
+    },
+    {
+      "id": "74c2891f7d86715d2022dbbde29a635cb5d6262a",
+      "title_hash": "3d32c8cd9032225b8bb76d4c5ae366c94f9ce901",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Florilegium: Procedural Flowers in LaTeX",
+      "link": "https://github.com/kevinraymond/florilegium",
+      "published_at": "2026-10-30T15:48:12+00:00",
+      "summary": "HN story type: story HN points: 164 HN comments: 29 HN top comments: lkm0: In the same vein, a few years ago, somebody implemented procedural decorations for a recreation of Byrne's \"Elements of Euclid\" in LaTeX: https://github.com/jemmybutton/byrne-euclid (bottom of the readme) scott_codie: In the reddit post, it is clear the person who came up with this didn't want it to be copied. I feel sad for that person. paaloeye: This one is a stunner! Now I'm thinking about the next level: define a number of classes of procedurally generated patterns and let LLM decide overall sentiment relevance per page and make it somewhat logical across the document. Rebuild the document a few times, change the temperature, and choose the best.",
+      "fetched_at": "2026-10-30T21:39:29.976272+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50305637",
+      "hn_story_type": "story",
+      "hn_points": "164",
+      "hn_comments_count": "29",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50305637",
+      "hn_item_text": "",
+      "hn_comment_preview": "lkm0: In the same vein, a few years ago, somebody implemented procedural decorations for a recreation of Byrne's \"Elements of Euclid\" in LaTeX: https://github.com/jemmybutton/byrne-euclid (bottom of the readme)\nscott_codie: In the reddit post, it is clear the person who came up with this didn't want it to be copied. I feel sad for that person.\npaaloeye: This one is a stunner! Now I'm thinking about the next level: define a number of classes of procedurally generated patterns and let LLM decide overall sentiment relevance per page and make it somewhat logical across the document. Rebuild the document a few times, change the temperature, and choose the best.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "44",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=7,tools_agents=20,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 20,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "ide",
+            "cli",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "llm",
+        "github.com"
+      ],
+      "detail_slug": "74c2891f7d86715d2022dbbde29a635cb5d6262a",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T21:42:01.103461+00:00"
+    },
+    {
+      "id": "722915fa0f56dddd5624b05c7a3a72deccf8d62c",
+      "title_hash": "05f9b0f5e2f9d9880a306028655fae19a0b443e1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The federated code forge",
+      "link": "https://tangled.org/blog/forge/",
+      "published_at": "2026-10-30T15:44:29+00:00",
+      "summary": "HN story type: story HN points: 180 HN comments: 62 HN top comments: stryan: Really looking forward to seeing Tangled develop! I've got a side project that's main repo and CI is on my self-hosted Gitea but code and releases are mirrored to Github; I'm hoping to move it off Gitea and onto Tangled for code/releases/potentially CI and just keep Github for discoverability/backups/namespace \"squatting\". Just need git-bug to add a Tangled bridge so I can keep issues synced and (ideally) for ther... icy: Hi! Tangled co-founder here. We're super stoked with this launch -- we've stabilized our AT Protocol lexicons, completely overhauled our architecture and UI, and made self-hosting the entire stack (or parts of it!) incredibly easy. We've also shipped support for organizations, and have private repos rolling out in the following couple weeks. Happy to answer any questions at all. ivanjermakov: Finnish startup Tangled raises €3.8M to reinvent code collaboration https://www.vestbee.com/insights/articles/tangled-raises-3-8...",
+      "fetched_at": "2026-10-30T21:39:29.976272+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50305573",
+      "hn_story_type": "story",
+      "hn_points": "180",
+      "hn_comments_count": "62",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50305573",
+      "hn_item_text": "",
+      "hn_comment_preview": "stryan: Really looking forward to seeing Tangled develop! I've got a side project that's main repo and CI is on my self-hosted Gitea but code and releases are mirrored to Github; I'm hoping to move it off Gitea and onto Tangled for code/releases/potentially CI and just keep Github for discoverability/backups/namespace \"squatting\". Just need git-bug to add a Tangled bridge so I can keep issues synced and (ideally) for ther...\nicy: Hi! Tangled co-founder here. We're super stoked with this launch -- we've stabilized our AT Protocol lexicons, completely overhauled our architecture and UI, and made self-hosting the entire stack (or parts of it!) incredibly easy. We've also shipped support for organizations, and have private repos rolling out in the following couple weeks. Happy to answer any questions at all.\nivanjermakov: Finnish startup Tangled raises €3.8M to reinvent code collaboration https://www.vestbee.com/insights/articles/tangled-raises-3-8...",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "46",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=22,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=22",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 22
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "architecture"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 22,
+          "strong_hits": [
+            "release",
+            "startup",
+            "launch",
+            "deal"
+          ],
+          "support_hits": [
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "release",
+        "startup",
+        "launch",
+        "deal"
+      ],
+      "detail_slug": "722915fa0f56dddd5624b05c7a3a72deccf8d62c",
+      "is_english_source": true,
+      "sent_at": "2026-10-30T21:42:01.103461+00:00"
+    },
+    {
       "id": "36f00262b1bf40bd955cc797e18fd2eabd0f8116",
       "title_hash": "85c046efbe96b5ab1b6a3ad40cd4caa73643e5d1",
       "source": "GeekNews",
@@ -167361,625 +167976,6 @@
       "detail_slug": "b9900bec5b5dbe969cc53e5182a7c72c72aef14e",
       "is_english_source": false,
       "sent_at": "2026-04-30T10:29:14.770341+00:00"
-    },
-    {
-      "id": "704fa96e56e3f87f0063f3e518066e6363f9c865",
-      "title_hash": "1c5b8161303b511bf41e6d4d848a881fe3ba2531",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Mike: open-source legal AI",
-      "link": "https://mikeoss.com/",
-      "published_at": "2026-04-30T00:56:23+00:00",
-      "summary": "HN story type: story HN points: 98 HN comments: 41 HN top comments: reverius42: Presumably this is an issue for the commercial competitors too, but in light of the recent court ruling in United States v. Heppner that AI chatbots can break attorney-client privilege and/or work product doctrine, what kinds of things can this be safely used for? (I would assume you want to avoid sending anything with client-confidential information in it to a service provider like OpenAI or Anthropic.) Potential... kostarelo: For a moment I thought it was some open-source LLM trained on legal. It's not, it's a web app wrapping major LLM providers and streamlining legal workflows, uploading documents, and having the LLM providers interact with them. Cool project regardless! kernalix7: Self-hostable legal AI as open source is a useful direction in principle. Hard to tell how mature the actual implementation is though, the repo is pretty fresh and the marketing site is doing a lot of heavy lifting compared to what's in the code right now. Will be more interesting to revisit in a few weeks.",
-      "fetched_at": "2026-04-30T10:26:27.814016+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47956739",
-      "hn_story_type": "story",
-      "hn_points": "98",
-      "hn_comments_count": "41",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47956739",
-      "hn_item_text": "",
-      "hn_comment_preview": "reverius42: Presumably this is an issue for the commercial competitors too, but in light of the recent court ruling in United States v. Heppner that AI chatbots can break attorney-client privilege and/or work product doctrine, what kinds of things can this be safely used for? (I would assume you want to avoid sending anything with client-confidential information in it to a service provider like OpenAI or Anthropic.) Potential...\nkostarelo: For a moment I thought it was some open-source LLM trained on legal. It's not, it's a web app wrapping major LLM providers and streamlining legal workflows, uploading documents, and having the LLM providers interact with them. Cool project regardless!\nkernalix7: Self-hostable legal AI as open source is a useful direction in principle. Hard to tell how mature the actual implementation is though, the repo is pretty fresh and the marketing site is doing a lot of heavy lifting compared to what's in the code right now. Will be more interesting to revisit in a few weeks.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=11,tools_agents=20,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 20,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "workflow",
-            "ide",
-            "cli",
-            "llm"
-          ],
-          "support_hits": [
-            "workflow"
-          ],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "workflow",
-        "ide",
-        "cli",
-        "llm"
-      ],
-      "detail_slug": "704fa96e56e3f87f0063f3e518066e6363f9c865",
-      "is_english_source": true,
-      "translated_title": "법률 업무를 돕는 오픈소스 AI '마이크'",
-      "short_summary": "Mike는 문서 업로드와 검토 흐름을 묶어 법률 업무를 보조하는 오픈소스 웹앱이다. 자체 법률 특화 모델이라기보다 주요 LLM API를 연결한 워크플로 도구에 가깝다는 점이 함께 거론됐다.",
-      "why_it_matters": "법률 AI를 새로 만드는 쪽보다, 기존 LLM을 실무 흐름에 얹는 쪽이 먼저 시장에 들어오고 있다는 신호로 읽힌다.\n- 계약서 검토나 문서 분류처럼 반복되는 일을 줄일 수 있어 로펌과 사내 법무팀의 도입 실험이 빨라질 수 있다.\n- 다만 외부 모델 제공사에 문서를 보내는 구조라면 기밀 유지, 기록 관리, 책임 범위를 먼저 따져야 한다.\n- 오픈소스와 셀프호스팅 가능성은 눈에 띄지만, 실제 운영 전에는 구현 성숙도와 보안 설계를 함께 점검할 필요가 있다.",
-      "hn_reaction_summary": "HN에서는 방향 자체는 반기면서도, 실제로 안심하고 쓸 수 있느냐를 두고 신중한 반응이 많았다.\n- 몇몇은 법률 특화 오픈소스 모델로 오해했지만, 실제로는 주요 LLM 제공사를 감싼 웹앱이라는 설명이 반복해서 나왔다.\n- 가장 많이 나온 쟁점은 변호사-의뢰인 비밀유지와 업무산출물 보호였다. 최근 미국 판결까지 언급되며 민감 문서를 외부 API에 보내도 되는지 의문이 제기됐다.\n- 저장소가 아직 초기 단계로 보인다는 점도 자주 언급됐다. 아이디어는 좋지만 마케팅에 비해 구현은 더 지켜봐야 한다는 평가다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-30T10:29:14.770341+00:00"
-    },
-    {
-      "id": "9db9f736dca40928c1c46699c237e7717fb47a0e",
-      "title_hash": "ae238b7b5282c72948dfdac75bb0ada55ad77e18",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The Zig project's rationale for their anti-AI contribution policy",
-      "link": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/",
-      "published_at": "2026-04-30T02:15:47+00:00",
-      "summary": "HN story type: story HN points: 296 HN comments: 131 HN top comments: branko_d: From https://kristoff.it/blog/contributor-poker-and-ai/ : \"Unfortunately the reality of LLM-based contributions has been mostly negative for us, from an increase in background noise due to worthless drive-by PRs full of hallucinations (that wouldn’t even compile, let alone pass CI), to insane 10 thousand line long first time PRs. In-between we also received plenty of PRs that looked fine on the surface, some of wh... hitekker: Apparently, the noise around the AI policy came from Bun's developers saying that policy blocks upstreaming their performance PR. But the real reason seems to be that PR's code itself isn't in great shape, and introduces unhealthy complexity https://ziggit.dev/t/bun-s-zig-fork-got-4x-faster-compilatio... > Parallel semantic analysis has been an explicitly planned feature of the Zig compiler for a long time, and it... lccerina: It seems that Zig people are following the path of ZeroMQ [1]: \"To enforce collective ownership of the project, which increases economic incentive to Contributors and reduces the risk of hijack by hostile entities.\" A healthy contributor community is more important than mere code performance, quantity of features or lines of code, etc.. [1] https://zguide.zeromq.org/docs/chapter6",
-      "fetched_at": "2026-04-30T10:26:27.814016+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47957294",
-      "hn_story_type": "story",
-      "hn_points": "296",
-      "hn_comments_count": "131",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47957294",
-      "hn_item_text": "",
-      "hn_comment_preview": "branko_d: From https://kristoff.it/blog/contributor-poker-and-ai/ : \"Unfortunately the reality of LLM-based contributions has been mostly negative for us, from an increase in background noise due to worthless drive-by PRs full of hallucinations (that wouldn’t even compile, let alone pass CI), to insane 10 thousand line long first time PRs. In-between we also received plenty of PRs that looked fine on the surface, some of wh...\nhitekker: Apparently, the noise around the AI policy came from Bun's developers saying that policy blocks upstreaming their performance PR. But the real reason seems to be that PR's code itself isn't in great shape, and introduces unhealthy complexity https://ziggit.dev/t/bun-s-zig-fork-got-4x-faster-compilatio... > Parallel semantic analysis has been an explicitly planned feature of the Zig compiler for a long time, and it...\nlccerina: It seems that Zig people are following the path of ZeroMQ [1]: \"To enforce collective ownership of the project, which increases economic incentive to Contributors and reduces the risk of hijack by hostile entities.\" A healthy contributor community is more important than mere code performance, quantity of features or lines o...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=12,strategy_insight=7,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 12,
-        "strategy_insight": 7,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "performance",
-            "compiler"
-          ],
-          "support_hits": [
-            "guide"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "noise"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "compiler"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "compiler",
-        "guide"
-      ],
-      "detail_slug": "9db9f736dca40928c1c46699c237e7717fb47a0e",
-      "is_english_source": true,
-      "translated_title": "Zig 프로젝트가 AI 기여를 막는 이유",
-      "short_summary": "Zig 프로젝트는 AI가 만든 PR이 환각, 과도한 대형 변경, 검토 비용 증가로 이어져 기여 품질을 해쳤다고 설명했다. HN에서는 성능보다 유지보수성과 공동 소유권을 우선한 결정이라는 반응이 이어졌다.",
-      "why_it_matters": "이 이슈는 AI 코드를 받을지 말지의 문제가 아니라, 리뷰 시간과 유지보수 책임을 누가 떠안는지로 논점이 옮겨가고 있다는 점을 보여준다.\n- 겉으로는 멀쩡해 보여도 설계 맥락이 비어 있는 AI PR은 리뷰어 시간을 크게 잡아먹는다.\n- 첫 기여부터 수천 줄짜리 변경을 올리는 흐름을 막겠다는 신호라서, 오픈소스의 기여 기준이 더 보수적으로 바뀔 수 있다.\n- 성능 개선 제안이라도 구조를 복잡하게 만들면 받아들이지 않겠다는 입장이 분명해졌다. 실무에서도 속도보다 장기 유지비를 먼저 따져야 한다는 메시지다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 Zig 쪽 판단에 공감하는 편이다. AI가 만든 코드 자체보다, 검토 부담과 프로젝트 건강성을 더 크게 본다는 의견이 반복됐다.\n- 많이 나온 찬성론은 '컴파일도 안 되는 PR, 지나치게 큰 첫 PR, 그럴듯하지만 틀린 코드'가 유지보수자를 지치게 만든다는 점이다.\n- 반론 겸 쟁점으로는 Bun 개발진이 언급한 성능 PR 사례가 있었지만, 댓글 다수는 정책보다 코드 복잡성과 업스트림 적합성이 더 큰 문제였다고 봤다.\n- 일부는 ZeroMQ 사례를 떠올리며, 기능 수나 성능보다 건강한 기여 문화와 집단 소유 구조를 지키는 선택으로 해석했다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-30T10:29:14.770341+00:00"
-    },
-    {
-      "id": "94172a207dbcca35c33ce23807cbe7d6373be227",
-      "title_hash": "8a0fe3e51def0870fc4bc1fb4dbd0991280ab71a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Alignment whack-a-mole: Finetuning activates recall of copyrighted books in LLMs",
-      "link": "https://github.com/cauchy221/Alignment-Whack-a-Mole-Code",
-      "published_at": "2026-04-30T03:11:51+00:00",
-      "summary": "HN story type: story HN points: 137 HN comments: 104 HN top comments: TFNA: I’m a researcher who for years has been scanning my library’s holdings on my particular discipline for my own use, but also uploading the books to the shadow libraries for everyone else’s benefit. The revelation that LLMs are training on the shadow libraries has made me put a lot more effort into ensuring my scans are well-OCRed. The idea that I could eventually ask ChatGPT or whatever about obscure things in my f... rectang: At some point, there will be a successful copyright infringement suit against an LLM user who redistributes infringing output generated by an LLM. It could be the NYTimes suit, or it could be another, but it's coming — after which the industry will face a Napster-style reckoning. What comes next? Perhaps it won't be that hard to assemble a proprietary licensed corpus and get decent performance out of it. Look at a... x-complexity: Modern copyright duration is the actual problem: It should've never been longer than what was outlined in the Statute of Anne. (28~14 years) https://en.wikipedia.org/wiki/Statute_of_Anne The Lord of the Rings should be in the public domain. The original Harry Potter book should've been in the public domain. Star Wars should've been in the public domain. Everything from before 1998 should've been in the public doma...",
-      "fetched_at": "2026-04-30T10:26:27.814016+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47957627",
-      "hn_story_type": "story",
-      "hn_points": "137",
-      "hn_comments_count": "104",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47957627",
-      "hn_item_text": "",
-      "hn_comment_preview": "TFNA: I’m a researcher who for years has been scanning my library’s holdings on my particular discipline for my own use, but also uploading the books to the shadow libraries for everyone else’s benefit. The revelation that LLMs are training on the shadow libraries has made me put a lot more effort into ensuring my scans are well-OCRed. The idea that I could eventually ask ChatGPT or whatever about obscure things in my f...\nrectang: At some point, there will be a successful copyright infringement suit against an LLM user who redistributes infringing output generated by an LLM. It could be the NYTimes suit, or it could be another, but it's coming — after which the industry will face a Napster-style reckoning. What comes next? Perhaps it won't be that hard to assemble a proprietary licensed corpus and get decent performance out of it. Look at a...\nx-complexity: Modern copyright duration is the actual problem: It should've never been longer than what was outlined in the Statute of Anne. (28~14 years) https://en.wikipedia.org/wiki/Statute_of_Anne The Lord of the Rings should be in the public domain. The original Harry Potter book should've been in the public domain. Star Wars should'...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=14,tools_agents=15,strategy_insight=4,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 15,
-        "strategy_insight": 4,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "performance"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "industry"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "github.com"
-      ],
-      "detail_slug": "94172a207dbcca35c33ce23807cbe7d6373be227",
-      "is_english_source": true,
-      "translated_title": "파인튜닝은 LLM의 저작권 도서 기억을 다시 깨운다",
-      "short_summary": "이 글은 정렬이나 안전장치를 넣은 모델도 파인튜닝을 거치면 학습 중 본 저작권 도서 내용을 다시 길게 재현할 수 있다고 짚는다. HN에서는 기술적 통제의 한계와 함께 학습 데이터 출처와 소송 위험을 둘러싼 논쟁이 이어졌다.",
-      "why_it_matters": "모델 커스터마이징이 쉬워질수록 저작권 도서의 재현 문제는 연구 이슈를 넘어 제품 운영과 법무 검토의 과제가 된다.\n- 베이스 모델에서 막아 둔 출력도 파인튜닝 뒤 다시 나타날 수 있다면, 안전성 평가는 출시 전 한 번으로 끝나지 않는다.\n- 사내 튜닝, 오픈 가중치 모델, 고객별 맞춤 모델을 쓰는 팀은 데이터 출처와 재현 테스트를 더 엄격하게 관리해야 한다.\n- 저작권 침해 가능성이 있는 답변이 실제 서비스에서 나오면 필터링, 로그 보관, 책임 범위 설계까지 함께 점검해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 흥미와 불안이 섞여 있었다. 희귀 지식을 더 잘 끌어낼 수 있다는 기대가 있었지만, 결국 저작권 분쟁이 커질 것이라는 경고도 강했다.\n- 일부는 그림자 도서관과 OCR 품질 이야기를 꺼내며, LLM이 난해한 전문 자료 접근성을 크게 바꿀 수 있다고 봤다.\n- 반대편에서는 침해성 출력의 재배포가 실제 소송으로 이어질 수 있고, 업계가 한 번 크게 정리되는 순간이 올 수 있다고 우려했다.\n- 반복된 논점은 두 가지였다. 라이선스를 갖춘 코퍼스만으로 경쟁력 있는 성능을 낼 수 있는지, 그리고 책임이 모델 제공자와 사용자 중 어디까지 이어지는지다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-30T10:29:14.770341+00:00"
-    },
-    {
-      "id": "45cc4e6d9249200b5dcb2067a7b138144f292daa",
-      "title_hash": "280a845ec94de876f8209f48320f3bd8e2fc869b",
-      "source": "GeekNews",
-      "title": "Claude-Ads - Claude Code로 광고 대행사를 대체하기",
-      "link": "https://news.hada.io/topic?id=29022",
-      "published_at": "2026-04-30T00:46:02+00:00",
-      "summary": "구글, 메타, 유튜브, 틱톡, 링크드인, 애플 광고등 7개 광고 플랫폼에서 250개 이상의 자동화된 감사 항목 을 실행하는 오픈소스 Claude Code 스킬 광고 대행사가 월 $5,000~$10,000에 2~4주 걸려 15~20개 항목만 점검하는 감사를, 3~5분 만에 250개 이상 무료로 수행",
-      "fetched_at": "2026-04-30T06:17:18.897340+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "65",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 20,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "자동화"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "자동화",
-        "claude + code"
-      ],
-      "detail_slug": "45cc4e6d9249200b5dcb2067a7b138144f292daa",
-      "is_english_source": false,
-      "sent_at": "2026-04-30T06:19:49.961602+00:00"
-    },
-    {
-      "id": "a82273d012d2c70aa7c012b61ba680043ec7708d",
-      "title_hash": "7e9de1d473f2b75759bb21af1756155d7096bf4d",
-      "source": "GeekNews",
-      "title": "UX의 법칙들",
-      "link": "https://news.hada.io/topic?id=29034",
-      "published_at": "2026-04-30T02:27:32+00:00",
-      "summary": "사용자 인터페이스를 설계할 때 디자인 사용성과 인지 심리 관점에서 디자이너가 고려해야 할 30+가지 심리학 기반 원칙과 패턴 을 모은 컬렉션 인지 및 지각, 의사 결정, 피드백 및 반응, 몰입 및 동기 부여, 정보 구조화, 게슈탈트 원칙, 사용자 행동 패턴, 설계 원칙, 시간 및 작업...",
-      "fetched_at": "2026-04-30T06:17:18.897340+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "52",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=7,practical_tech=0,tools_agents=4,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [
-            "관점",
-            "원칙"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "관점",
-        "원칙"
-      ],
-      "detail_slug": "a82273d012d2c70aa7c012b61ba680043ec7708d",
-      "is_english_source": false,
-      "sent_at": "2026-04-30T06:19:49.961602+00:00"
-    },
-    {
-      "id": "1df61bd17bbfc600bfe86c09f7518ba9f55f38f5",
-      "title_hash": "6da636e3f29a269beba9f42f993028d6c19b2e99",
-      "source": "GeekNews",
-      "title": "Rust가 잡지 못하는 버그들",
-      "link": "https://news.hada.io/topic?id=29027",
-      "published_at": "2026-04-30T01:06:57+00:00",
-      "summary": "메모리 안전성 은 크게 개선되지만, Rust 프로덕션 코드에서도 시스템 경계 처리 문제는 그대로 남아 취약점으로 이어질 수 있음 같은 경로를 여러 syscall에서 다시 해석하는 흐름, 생성 뒤 권한을 바꾸는 방식, 문자열 기반 경로 비교 는 TOCTOU와...",
-      "fetched_at": "2026-04-30T06:17:18.897340+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "코드"
-      ],
-      "detail_slug": "1df61bd17bbfc600bfe86c09f7518ba9f55f38f5",
-      "is_english_source": false,
-      "sent_at": "2026-04-30T06:19:49.961602+00:00"
-    },
-    {
-      "id": "e34f59d53379a13518a57239b65679cf440d567e",
-      "title_hash": "29f4d96829920ca74535c449d9f4af5356c6c64c",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Where the goblins came from",
-      "link": "https://openai.com/index/where-the-goblins-came-from/",
-      "published_at": "2026-04-30T03:21:04+00:00",
-      "summary": "HN story type: story HN points: 350 HN comments: 154 HN top comments: ollin: For context, two days ago some users [1] discovered this sentence reiterated throughout the codex 5.5 system prompt [2]: > Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query. [1] https://x.com/arb8020/status/2048958391637401718 [2] https://github.com/openai/codex/blob/main/codex-rs/models-ma... postalcoder: Would love if OpenAI did more of these types of posts. Off the top of my head, I'd like to understand: - The sepia tint on images from gpt-image-1 - The obsession with the word \"seam\" as it pertains to coding Other LLM phraseology that I cannot unsee is Claude's \"___ is the real unlock\" (try google it or search twitter!). There's no way that this phrase is overrepresented in the training data, I don't remember peo... nomilk: > We unknowingly gave particularly high rewards for metaphors with creatures. I recall a math instructor who would occasionally refer to variables (usually represented by intimidating greek letters) as \"this guy\". Weirdly, the casual anthropomorphism made the math seem more approachable. Perhaps 'metaphors with creatures' has a similar effect i.e. makes a problem seem more cute/approachable. On another note, buzzw...",
-      "fetched_at": "2026-04-30T06:17:18.897340+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47957688",
-      "hn_story_type": "story",
-      "hn_points": "350",
-      "hn_comments_count": "154",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47957688",
-      "hn_item_text": "",
-      "hn_comment_preview": "ollin: For context, two days ago some users [1] discovered this sentence reiterated throughout the codex 5.5 system prompt [2]: > Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query. [1] https://x.com/arb8020/status/2048958391637401718 [2] https://github.com/openai/codex/blob/main/codex-rs/models-ma...\npostalcoder: Would love if OpenAI did more of these types of posts. Off the top of my head, I'd like to understand: - The sepia tint on images from gpt-image-1 - The obsession with the word \"seam\" as it pertains to coding Other LLM phraseology that I cannot unsee is Claude's \"___ is the real unlock\" (try google it or search twitter!). There's no way that this phrase is overrepresented in the training data, I don't remember peo...\nnomilk: > We unknowingly gave particularly high rewards for metaphors with creatures. I recall a math instructor who would occasionally refer to variables (usually represented by intimidating greek letters) as \"this guy\". Weirdly, the casual anthropomorphism made the math seem more approachable. Perhaps 'metaphors with creatures' has a si...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=26,practical_tech=11,tools_agents=26,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 26,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "index"
-          ],
-          "support_hits": [
-            "query"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 26,
-          "strong_hits": [
-            "codex",
-            "llm"
-          ],
-          "support_hits": [
-            "prompt"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "codex",
-        "llm",
-        "prompt",
-        "claude + code",
-        "ai + coding"
-      ],
-      "detail_slug": "e34f59d53379a13518a57239b65679cf440d567e",
-      "is_english_source": true,
-      "translated_title": "LLM은 왜 자꾸 고블린을 말했나",
-      "short_summary": "이 글은 모델이 왜 ‘고블린’ 같은 생물 비유를 반복하게 됐는지, 시스템 프롬프트와 보상 설계 맥락에서 설명한다. HN에서는 이런 내부 설명이 드물다는 반응과 함께 다른 말버릇도 공개해 달라는 요구가 이어졌다.",
-      "why_it_matters": "겉보기에 사소한 말버릇처럼 보여도, 모델의 어조와 비유는 실제 제품 경험과 신뢰도에 바로 영향을 준다. 이번 이야기는 모델 스타일이 학습 데이터만이 아니라 보상과 튜닝 과정에서도 얼마든지 굳어질 수 있다는 점을 보여준다.\n- 프롬프트와 보상 신호가 겹치면 특정 표현 습관이 예상보다 강하게 반복될 수 있다. 서비스 운영자는 출력 품질을 기능 정확도와 따로 보지 말아야 한다.\n- 사용자 입장에서는 귀엽거나 친근한 비유가 도움 될 때도 있지만, 업무 도구에서는 장황함이나 오작동처럼 읽힐 수 있다. 톤 제어와 금지 규칙이 왜 필요한지 드러난다.\n- 실무적으로는 모델 평가 항목에 사실성뿐 아니라 문체 반복, 불필요한 비유, 브랜드에 맞는 어조 같은 기준을 함께 넣어야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 흥미롭고 호의적이지만, 웃고 넘기기보다 모델의 말투가 어떻게 만들어지는지 더 투명하게 설명해 달라는 쪽에 가깝다. 단순 해프닝보다는 LLM 특유의 반복 표현을 해부하는 계기로 받아들이는 반응이 많다.\n- OpenAI가 이런 비하인드 글을 더 자주 써야 한다는 의견이 반복됐다. 이용자들은 이미지의 세피아 톤이나 코딩 문맥의 특정 단어처럼 다른 이상한 습관도 설명해 달라고 했다.\n- 일부는 동물 비유가 내용을 더 친근하고 덜 위협적으로 느끼게 만들 수 있다고 봤다. 수학 설명에서 변수를 사람처럼 부르는 것과 비슷하다는 비유도 나왔다.\n- 동시에 특정 표현이 정말 데이터보다 보상 설계의 영향인지, 왜 어떤 회사 모델마다 말버릇이 생기는지 더 깊은 분석이 필요하다는 문제 제기도 이어졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-30T06:19:49.961602+00:00"
     }
   ],
   "topic_digests": {
