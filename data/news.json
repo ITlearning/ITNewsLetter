@@ -1,6 +1,584 @@
 {
   "items": [
     {
+      "id": "307dbbdb9a8231225edc40ca1ceacbfd64f8ccc2",
+      "title_hash": "a5710ecfe6715fb5ba0b6e17bbd1510ccfde5ae2",
+      "source": "GeekNews",
+      "title": "Show GN: AI Usage - 여러 Claude Code·Codex 계정의 사용 한도를 보여 주는 macOS 바탕화면 위젯",
+      "link": "https://news.hada.io/topic?id=36332&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-10-31T13:48:08+00:00",
+      "summary": "Claude Code와 Codex 계정을 여러 개 번갈아 쓰다 보니, 어느 계정에 한도가 남았는지 확인하려고 터미널을 여는 일이 잦아서 만들었습니다. 계정마다 5시간·주간 한도를 활동 링으로 바탕화면 위젯에 보여 줍니다. 주요 기능 계정당 게이지 1개, 링 3개 (Claude: 5시간 / 주간 / 주간 Fable, Co",
+      "fetched_at": "2026-10-31T18:27:19.643359+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "codex"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "claude + code"
+      ],
+      "detail_slug": "307dbbdb9a8231225edc40ca1ceacbfd64f8ccc2",
+      "is_english_source": false,
+      "sent_at": "2026-10-31T18:29:51.668202+00:00"
+    },
+    {
+      "id": "db391448c6439afd1115c1f0a0e86f6879cea1d2",
+      "title_hash": "001e22aa16d710019d2b37bcc58ed0c9ec1c1524",
+      "source": "GeekNews",
+      "title": "Sanstun: Rust로 구현한 sans-IO, 병렬 처리 친화적 WireGuard",
+      "link": "https://news.hada.io/topic?id=36341&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-10-31T15:50:44+00:00",
+      "summary": "Firezone이 sanstun 을 공개함. WireGuard 상태 머신을 Rust로 구현한 사용자 공간 라이브러리로, 입출력과 상태 로직을 분리하고 사용성, 보안, 병렬 처리 성능을 고려한 API를 제공함 sans-IO 설계는 네트워크 입출력뿐 아니라 시간과 난수도 상태 로직에서 분리함...",
+      "fetched_at": "2026-10-31T18:27:19.643359+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=12,practical_tech=12,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "rust",
+            "api"
+          ],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "api",
+        "성능"
+      ],
+      "detail_slug": "db391448c6439afd1115c1f0a0e86f6879cea1d2",
+      "is_english_source": false,
+      "sent_at": "2026-10-31T18:29:51.668202+00:00"
+    },
+    {
+      "id": "94ce93be5cfe1f2b3b4b1315e30ada33bb06027a",
+      "title_hash": "7be8a098d9392d29535cc4380e4d0082dac4304d",
+      "source": "GeekNews",
+      "title": "GCC가 switch를 저수준 코드로 변환하는 방법",
+      "link": "https://news.hada.io/topic?id=36343&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-10-31T17:40:44+00:00",
+      "summary": "GCC는 switch 를 비트셋, 점프 테이블, 비교 트리 로 변환하며, 하나의 switch 안에서도 구간별로 서로 다른 전략을 조합함 점프 테이블 이 유리한지는 단순한 case 개수가 아니라 필요한 비교 횟수 대비 테이블 크기로 판단하...",
+      "fetched_at": "2026-10-31T18:27:19.643359+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "55",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=10,practical_tech=2,tools_agents=4,strategy_insight=10,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 10,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [
+            "전략"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단",
+        "전략"
+      ],
+      "detail_slug": "94ce93be5cfe1f2b3b4b1315e30ada33bb06027a",
+      "is_english_source": false,
+      "sent_at": "2026-10-31T18:29:51.668202+00:00"
+    },
+    {
+      "id": "75a1811940ad19e672179137c97ce76c4f9cf1f3",
+      "title_hash": "569725cad6607388c0690fbbcd1776d9e35ebd18",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "published_at": "2026-10-31T14:29:03+00:00",
+      "summary": "HN story type: story HN points: 180 HN comments: 86 HN top comments: akersten: This is the kind of stuff that keeps me up at night. Claude, ArtCraft, tons of other auto-downloading tools, are rolling 10'000's of code changes a month. If one compromised update snuck this guy in, it's kind of game over. The windows of opportunity for an attack like this seem to be widening the faster we \"develop\" software. Makes me want to have like 5 separate computers: - one for banking only - one for develo... jumploops: I’ve been thinking about how we’re still in the early days of agents, similar to the early days of the internet, happily opening up our machines and running new protocols. Soon (now?) the threats will become ever more complex, and we’ll be back in the early-2000s-like virus storms. markstos: Once ranked, victims can be assigned a proportional token budget so that a high value victim might be targeted with zero days or deepfakes that are more expensive to execute but have passed the desired cost/reward threshold.",
+      "fetched_at": "2026-10-31T18:27:19.643359+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50316531",
+      "hn_story_type": "story",
+      "hn_points": "180",
+      "hn_comments_count": "86",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50316531",
+      "hn_item_text": "",
+      "hn_comment_preview": "akersten: This is the kind of stuff that keeps me up at night. Claude, ArtCraft, tons of other auto-downloading tools, are rolling 10'000's of code changes a month. If one compromised update snuck this guy in, it's kind of game over. The windows of opportunity for an attack like this seem to be widening the faster we \"develop\" software. Makes me want to have like 5 separate computers: - one for banking only - one for develo...\njumploops: I’ve been thinking about how we’re still in the early days of agents, similar to the early days of the internet, happily opening up our machines and running new protocols. Soon (now?) the threats will become ever more complex, and we’ll be back in the early-2000s-like virus storms.\nmarkstos: Once ranked, victims can be assigned a proportional token budget so that a high value victim might be targeted with zero days or deepfakes that are more expensive to execute but have passed the desired cost/reward threshold.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=4,tools_agents=22,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 22,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm",
+        "agent",
+        "tool",
+        "claude + code"
+      ],
+      "detail_slug": "75a1811940ad19e672179137c97ce76c4f9cf1f3",
+      "is_english_source": true,
+      "sent_at": "2026-10-31T18:29:51.668202+00:00"
+    },
+    {
+      "id": "0092488c684a4014118083e4285a8b089f13965a",
+      "title_hash": "de11396696636b87c43b959a66d342f5d4692d56",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Ghostman – A fast, keyboard-driven TUI API client and webhook inspector",
+      "link": "https://github.com/4yk5/Ghostman",
+      "published_at": "2026-10-30T07:48:40+00:00",
+      "summary": "HN story type: story HN points: 18 HN comments: 7 HN top comments: grimgrin: 4y5k, have some self-respect. you could have cooked on this for a little bit longer than: yesterday. there is one commit! this is ... quite possibly, but I'm unsure, the first \"show hn\" with a single commit, lol burnoutdv: Without having looked to deeply into this..why? https://github.com/darrenburns/posting Exists, its from on of the co-devs of textual the framework this uses anyway..and more mature I would wager to say. booi: Is it weird that in 2027 I get excited by apps becoming TUIs? Would love to see OpenAPI support at least for import",
+      "fetched_at": "2026-10-31T18:27:19.643359+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50300902",
+      "hn_story_type": "story",
+      "hn_points": "18",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50300902",
+      "hn_item_text": "",
+      "hn_comment_preview": "grimgrin: 4y5k, have some self-respect. you could have cooked on this for a little bit longer than: yesterday. there is one commit! this is ... quite possibly, but I'm unsure, the first \"show hn\" with a single commit, lol\nburnoutdv: Without having looked to deeply into this..why? https://github.com/darrenburns/posting Exists, its from on of the co-devs of textual the framework this uses anyway..and more mature I would wager to say.\nbooi: Is it weird that in 2027 I get excited by apps becoming TUIs? Would love to see OpenAPI support at least for import",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=10,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 22,
+        "tools_agents": 10,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 22,
+          "strong_hits": [
+            "framework",
+            "show hn",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "framework",
+        "show hn",
+        "api",
+        "github.com"
+      ],
+      "detail_slug": "0092488c684a4014118083e4285a8b089f13965a",
+      "is_english_source": true,
+      "sent_at": "2026-10-31T18:29:51.668202+00:00"
+    },
+    {
+      "id": "3913344979fb606baa2af96210a1ac1febf7d292",
+      "title_hash": "ad1a5c78371afc72e6a7fd184b5deb5fb1a0a29a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "link": "https://jepsen.io/analyses/particledb-1.1.4",
+      "published_at": "2026-10-31T13:39:52+00:00",
+      "summary": "HN story type: story HN points: 64 HN comments: 29 HN post text: https://github.com/jepsen-io/particledb HN top comments: edude03: > We present 96 issues in ParticleDB, ranging from the pedestrian (crashes, deadlocks, data loss, etc.) to the piquant (partially-invisible rows which could not be deleted, WHERE 4 = 5, dropped tables re-emerging in distorted forms, confused columns, strings turning into integers, and so on). Definitely seems worse than usual (looking back most databases seem to have ParticleDB 1.1.4 claimed to be a Postgres-compatible database ... Instead, we found a library of confusion > exhibited frequent, profound transactional anomalies in essentially every way we could measure. We routinely observed the loss of committed writes, internal consistency violations, G1a (Aborted Read), G1b (Intermediate Read), and P4 (Lost Update). In the append workload, successfully appended valu... tensegrist: > ParticleDB’s home page advertised that ParticleDB was “formally proven” with a TLA+ proof. However, during our collaboration no TLA+ specification was available. It is unclear what properties might be proven, or whether they described ParticleDB as built.",
+      "fetched_at": "2026-10-31T18:27:19.643359+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50316100",
+      "hn_story_type": "story",
+      "hn_points": "64",
+      "hn_comments_count": "29",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50316100",
+      "hn_item_text": "https://github.com/jepsen-io/particledb",
+      "hn_comment_preview": "edude03: > We present 96 issues in ParticleDB, ranging from the pedestrian (crashes, deadlocks, data loss, etc.) to the piquant (partially-invisible rows which could not be deleted, WHERE 4 = 5, dropped tables re-emerging in distorted forms, confused columns, strings turning into integers, and so on). Definitely seems worse than usual (looking back most databases seem to have <10 issues total, and the majority seem \"mild\")...\nthe_duke: Brutal! > ParticleDB 1.1.4 claimed to be a Postgres-compatible database ... Instead, we found a library of confusion > exhibited frequent, profound transactional anomalies in essentially every way we could measure. We routinely observed the loss of committed writes, internal consistency violations, G1a (Aborted Read), G1b (Intermediate Read), and P4 (Lost Update). In the append workload, successfully appended valu...\ntensegrist: > ParticleDB’s home page advertised that ParticleDB was “formally proven” with a TLA+ proof. However, during our collaboration no TLA+ specification was available. It is unclear what properties might be proven, or whether they described ParticleDB as built.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "database",
+            "postgres"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "database",
+        "postgres",
+        "library"
+      ],
+      "detail_slug": "3913344979fb606baa2af96210a1ac1febf7d292",
+      "is_english_source": true,
+      "sent_at": "2026-10-31T18:29:51.668202+00:00"
+    },
+    {
+      "id": "1357dfc8a168729c73871bc5ff23c41b30127165",
+      "title_hash": "10c2477241c493f34cf94ce91d34b705dde86991",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "What is a light-day? The milestone Voyager 1 is closing in on",
+      "link": "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/",
+      "published_at": "2026-10-31T16:09:55+00:00",
+      "summary": "HN story type: story HN points: 44 HN comments: 13 HN top comments: polalavik: Free space pathloss for rf signals is proportional to 1/r^2, absolutely bonkers we can get anything from voyager. zomtorg: And the closest known galaxy to the Milky Way, Canis Major Dwarf Galaxy, is just 25,000 light-years away - it's almost incomprehensible how vast the universe is! robotresearcher: > the spacecraft, in flight since 1977, is cruising at nearly 38,000 mph (61,000 kph) through the vacuum of space, The page takes great pains to explain things, but omits a frame of reference for this speed. I’m guessing it’s sun-relative, but it could be relative to its take-off on Earth. Does anyone know?",
+      "fetched_at": "2026-10-31T18:27:19.643359+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50317429",
+      "hn_story_type": "story",
+      "hn_points": "44",
+      "hn_comments_count": "13",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50317429",
+      "hn_item_text": "",
+      "hn_comment_preview": "polalavik: Free space pathloss for rf signals is proportional to 1/r^2, absolutely bonkers we can get anything from voyager.\nzomtorg: And the closest known galaxy to the Milky Way, Canis Major Dwarf Galaxy, is just 25,000 light-years away - it's almost incomprehensible how vast the universe is!\nrobotresearcher: > the spacecraft, in flight since 1977, is cruising at nearly 38,000 mph (61,000 kph) through the vacuum of space, The page takes great pains to explain things, but omits a frame of reference for this speed. I’m guessing it’s sun-relative, but it could be relative to its take-off on Earth. Does anyone know?",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "33",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=9,practical_tech=4,tools_agents=2,strategy_insight=9,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 9,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "signal"
+          ],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "signal",
+        "research"
+      ],
+      "detail_slug": "1357dfc8a168729c73871bc5ff23c41b30127165",
+      "is_english_source": true,
+      "sent_at": "2026-10-31T18:29:51.668202+00:00"
+    },
+    {
       "id": "e293d62482bc351d2b0a0142dbe47fe3b9676e0d",
       "title_hash": "471be07d9d6336872a042deba35c08a7482ecfda",
       "source": "GeekNews",
@@ -167314,568 +167892,6 @@
       "hn_reaction_summary": "댓글은 아직 1개뿐이라 전체 분위기를 단정하긴 이르다. 다만 현재 드러난 반응은 위협 주장 자체보다, 그 대응으로 코드를 닫는 선택이 맞느냐에 초점이 맞춰져 있다.\n- 공개된 댓글은 AI Safety Institute와 NCSC도 그런 조치를 권고하지 않았다며, 대응 수위가 과하다고 본다.\n- AI 보안 스캐너로 위험이 조금 늘 수는 있어도 저장소를 통째로 닫는 건 지나친 반응이라는 시각이 보인다.\n- 이미 공개된 코드가 널리 수집됐을 가능성을 들어, 지금 와서 비공개로 돌려도 실익이 크지 않다는 현실론도 나온다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-01T15:41:50.603340+00:00"
-    },
-    {
-      "id": "ea079625396c5bd7e9771a8054cc6dacd4e04ddf",
-      "title_hash": "aedba4aa377dd58ae181d82d52abc108130dce2f",
-      "source": "GeekNews",
-      "title": "Linux 커널 취약점은 배포판에 사전 알림이 가지 않는다",
-      "link": "https://news.hada.io/topic?id=29067",
-      "published_at": "2026-05-01T09:33:14+00:00",
-      "summary": "Linux 커널의 로컬 권한 상승 취약점인 CopyFail 은 최근 커널의 “make-me-root” 취약점 중 가장 심각한 축 에 듦 문제는 4.14의 commit 72548b093ee38a6d4f2a19e6ef1948ae05c181f7 에서 도입됐고, 6.18.22 , 6.19.12",
-      "fetched_at": "2026-05-01T11:29:09.257875+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "ea079625396c5bd7e9771a8054cc6dacd4e04ddf",
-      "is_english_source": false,
-      "sent_at": "2026-05-01T11:32:07.356051+00:00"
-    },
-    {
-      "id": "6e7f71dbc1f9adcf7c76c3131916bbb5ea2393a9",
-      "title_hash": "1079484e509470ca0ae1f73406e7cb7371149592",
-      "source": "GeekNews",
-      "title": "Ask GN: 생성형 AI나 챗봇을 사용할 때 피드백 누르시나요?",
-      "link": "https://news.hada.io/topic?id=29065",
-      "published_at": "2026-05-01T04:50:27+00:00",
-      "summary": "생성형 AI나 챗봇을 이용하시면서 AI의 답변에 대해서 '좋아요' 나 '싫어요' 버튼 같은 피드백 다들 누르시나요? 피드백을 누르는 사람은 적어서 문맥 같은걸로 사람들의 반응을 파악한다고도 하는데 실제로 누르시는 사람이 얼마나 되는지 궁금합니다.",
-      "fetched_at": "2026-05-01T11:29:09.257875+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "6e7f71dbc1f9adcf7c76c3131916bbb5ea2393a9",
-      "is_english_source": false,
-      "sent_at": "2026-05-01T11:32:07.356051+00:00"
-    },
-    {
-      "id": "df35f5337530b5255510e062ecb33f16d5cf144c",
-      "title_hash": "e093840b5525f7e06e5d089e4922a080207606ad",
-      "source": "GeekNews",
-      "title": "내 차량의 모든 데이터 수집을 비활성화할 수 있나요?",
-      "link": "https://news.hada.io/topic?id=29061",
-      "published_at": "2026-05-01T02:33:08+00:00",
-      "summary": "차량 연결성 은 Rivian 차량의 핵심 기능이며, 이를 모두 끄면 데이터가 차량 밖으로 나가지 않음 연결성을 비활성화하면 내비게이션 , active lane centering, over-the-air updates 같은 일부 기능이 제한되거나 꺼짐 over-the-air updates",
-      "fetched_at": "2026-05-01T11:29:09.257875+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "df35f5337530b5255510e062ecb33f16d5cf144c",
-      "is_english_source": false,
-      "sent_at": "2026-05-01T11:32:07.356051+00:00"
-    },
-    {
-      "id": "5ef7a8dd0b0b38268bd55a1d8b43b1de5296260c",
-      "title_hash": "694a15093002d01b70ca4466fbdb721b8aa70c5b",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Grok 4.3",
-      "link": "https://docs.x.ai/developers/models/grok-4.3",
-      "published_at": "2026-05-01T08:29:31+00:00",
-      "summary": "HN story type: story HN points: 113 HN comments: 134 HN top comments: artdigital: Grok is my favorite model for chatting, and my favorite voice mode. It seems to be the only voice mode that isn't routing to a extremely cheap model (like Haiku), and has been the highest quality out of all the frontier ones. When you subscribe to SuperGrok you can also create a \"council\" of agents, each with their own system prompt and when you ask something, they will all get asked in parallel to come to a concl... sundarurfriend: As an English-as-second-language speaker and writer, one thing Grok really shines at is capturing the tone and level of \"formality\" of a piece of text and the replicating it correctly. It seems to understand the little human subtleties of language in a way the other major providers don't. Chatgpt goes overly stiff and formal sounding, or ends up in a weird \"aye guvnor\" type informal language (Claude is sometimes b... tornikeo: So, we have: - claude for corps and gov - codex for devs - grok for what, roleplay, racism? Those are the two things I've ever heard grok associated with around me.",
-      "fetched_at": "2026-05-01T11:29:09.257875+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47972447",
-      "hn_story_type": "story",
-      "hn_points": "113",
-      "hn_comments_count": "134",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47972447",
-      "hn_item_text": "",
-      "hn_comment_preview": "artdigital: Grok is my favorite model for chatting, and my favorite voice mode. It seems to be the only voice mode that isn't routing to a extremely cheap model (like Haiku), and has been the highest quality out of all the frontier ones. When you subscribe to SuperGrok you can also create a \"council\" of agents, each with their own system prompt and when you ask something, they will all get asked in parallel to come to a concl...\nsundarurfriend: As an English-as-second-language speaker and writer, one thing Grok really shines at is capturing the tone and level of \"formality\" of a piece of text and the replicating it correctly. It seems to understand the little human subtleties of language in a way the other major providers don't. Chatgpt goes overly stiff and formal sounding, or ends up in a weird \"aye guvnor\" type informal language (Claude is sometimes b...\ntornikeo: So, we have: - claude for corps and gov - codex for devs - grok for what, roleplay, racism? Those are the two things I've ever heard grok associated with around me.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "46",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=7,tools_agents=22,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 22,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "docs."
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 22,
-          "strong_hits": [
-            "codex",
-            "ide"
-          ],
-          "support_hits": [
-            "prompt",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "codex",
-        "ide",
-        "prompt",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "5ef7a8dd0b0b38268bd55a1d8b43b1de5296260c",
-      "is_english_source": true,
-      "translated_title": "Grok 4.3, 대화·음성 품질 호평 속 정체성 논쟁",
-      "short_summary": "Hacker News에서는 Grok 4.3를 두고 대화감과 음성 품질, 문체의 격식 재현 능력을 높게 평가하는 반응이 나왔다. 반면 제품의 정체성과 안전성, 업무 도구로서의 설득력에는 냉소와 의문도 함께 붙었다.",
-      "why_it_matters": "이번 이야기는 새 모델을 평가하는 기준이 스펙보다 실제 사용감으로 옮겨가고 있음을 보여준다. HN 반응도 벤치마크보다 대화 톤, 음성 응답, 에이전트 활용 경험에 더 민감했다.\n- 말투와 격식이 중요한 글쓰기, 고객 응대, 음성 인터페이스 업무라면 Grok 계열을 비교 후보에 다시 넣어볼 만하다.\n- 성능과 별개로 브랜드 리스크와 안전성 인식이 기업 도입 속도를 가른다. 실무에서는 정책, 로그, 가드레일 검증이 함께 따라와야 한다.\n- 댓글에서 병렬 에이전트 활용이 언급된 점도 눈에 띈다. 이제는 모델 하나의 성능보다 워크플로 완성도를 따지는 흐름이 더 선명해졌다.",
-      "hn_reaction_summary": "댓글 분위기는 호평과 조롱이 선명하게 갈렸다. 직접 써본 이용자들은 대화 품질을 강하게 밀어줬고, 회의적인 쪽은 Grok의 브랜드 이미지와 실무 용도를 집요하게 물었다.\n- 긍정 반응에서는 자연스러운 대화감, 높은 음성 모드 품질, 문체의 톤과 격식 재현 능력이 반복해서 언급됐다.\n- 부정 반응에서는 채팅 외에 무엇이 분명한 강점인지, 그리고 브랜드 논란을 감수할 만큼 매력이 있는지 의문이 나왔다.\n- 실무자가 읽을 포인트는 개인 취향 수준의 만족과 조직 도입 기준이 다르다는 점이다. 사용감 호평만으로는 업무 채택을 설명하기 어렵다는 분위기다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-01T11:32:07.356051+00:00"
-    },
-    {
-      "id": "bc1f35131bb784432c837fcc78f1f1748194920a",
-      "title_hash": "a9f03f1e82fce60ecb79de75b446c280b6b00519",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Shai-Hulud Themed Malware Found in the PyTorch Lightning AI Training Library",
-      "link": "https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/",
-      "published_at": "2026-04-30T16:09:26+00:00",
-      "summary": "HN story type: story HN points: 404 HN comments: 146 HN top comments: wlkr: This might just be the frequency illusion at play, but there seem to have been a number of high-profile supply chain attacks of late in major packages. There are several articles on the first few pages of HN right now with different cases. Looking back ten years to `left-pad`, are there more successful attacks now than ever? I would suspect so, and surely the value of a successful attack has also increased, so are... RandyOrion: One thing that makes me wonder is that there are 4 security issues raised and all of them were automatically commented and closed by some bot called `pl-ghost` [1][2][3][4]. In the end, only this one [4] properly handled, and all bot comments are deleted. You can see the bot comments in another report [5], which is more informative than the OP one. [1] https://github.com/Lightning-AI/pytorch-lightning/issues/216..... jackdoe: I cant wait to have no dependencies. An extreme example is now when I make interactive educational apps for my daughter, I just make Opus use plain js and html; from double pendulums to fluid simulations, works one shot. Before I had hundreds of dependencies. Luckily with MIT licensed code I can just tell Opus to extract exactly the pieces I need and embed them, and tweaked for my usecase. So far works great for h...",
-      "fetched_at": "2026-05-01T11:29:09.257875+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47964617",
-      "hn_story_type": "story",
-      "hn_points": "404",
-      "hn_comments_count": "146",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47964617",
-      "hn_item_text": "",
-      "hn_comment_preview": "wlkr: This might just be the frequency illusion at play, but there seem to have been a number of high-profile supply chain attacks of late in major packages. There are several articles on the first few pages of HN right now with different cases. Looking back ten years to `left-pad`, are there more successful attacks now than ever? I would suspect so, and surely the value of a successful attack has also increased, so are...\nRandyOrion: One thing that makes me wonder is that there are 4 security issues raised and all of them were automatically commented and closed by some bot called `pl-ghost` [1][2][3][4]. In the end, only this one [4] properly handled, and all bot comments are deleted. You can see the bot comments in another report [5], which is more informative than the OP one. [1] https://github.com/Lightning-AI/pytorch-lightning/issues/216.....\njackdoe: I cant wait to have no dependencies. An extreme example is now when I make interactive educational apps for my daughter, I just make Opus use plain js and html; from double pendulums to fluid simulations, works one shot. Before I had hundreds of dependencies. Luckily with MIT licensed code I can just tell Opus to extract exact...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=2,strategy_insight=2,industry_business=6",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 6
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "supply + chain"
-          ],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "library",
-        "code + security"
-      ],
-      "detail_slug": "bc1f35131bb784432c837fcc78f1f1748194920a",
-      "is_english_source": true,
-      "translated_title": "PyTorch Lightning에서 발견된 '샤이훌루드' 악성코드",
-      "short_summary": "PyTorch Lightning AI 학습 라이브러리에서 '샤이훌루드' 테마 악성코드가 발견됐다는 소식이 HN에서 크게 주목받았다. 공급망 공격이 대형 패키지로 번지는 흐름과 프로젝트의 보안 이슈 대응 방식이 함께 도마에 올랐다.",
-      "why_it_matters": "AI 개발 스택은 한 번 뚫리면 학습 환경과 배포 파이프라인 전체가 흔들린다. 이번 사례는 유명 라이브러리도 예외가 아니라는 점을 다시 보여준다.\n- 모델 학습용 의존성은 서버 권한, 토큰, 데이터 접근 권한과 맞닿아 있어 패키지 오염이 곧 내부 환경 침투로 이어질 수 있다.\n- 실무에서는 버전 고정, 설치 전 검증, 사내 미러, SBOM 점검처럼 의존성 관리 절차를 더 촘촘히 가져갈 필요가 있다.\n- 보안 제보가 봇에 의해 닫힌 정황까지 논란이 되면서, 오픈소스를 고를 때 코드만이 아니라 운영 대응력도 함께 봐야 한다는 메시지가 커졌다.",
-      "hn_reaction_summary": "댓글 분위기는 단순한 사고 한 건보다 공급망 공격이 이제 상시 위험이 됐다는 쪽에 가까웠다. 다만 최근 사례가 유독 눈에 띄는 것인지, 실제로 공격 성공률과 유인이 함께 커진 것인지를 두고 논쟁도 이어졌다.\n- 최근 유명 패키지 공격이 잇따라 보이는 현상을 두고 '착시가 아니라 구조적 추세 변화일 수 있다'는 반응이 반복됐다.\n- 여러 보안 이슈가 `pl-ghost` 봇에 의해 자동 종료된 정황을 문제 삼으며, 취약점 접수와 공개 처리 과정이 허술했다는 비판이 나왔다.\n- 의존성이 너무 많은 생태계가 위험을 키운다는 지적도 많았고, 필요한 코드만 추려 직접 포함하는 방식이 더 현실적이라는 실무형 의견도 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-01T11:32:07.356051+00:00"
-    },
-    {
-      "id": "cc408a676d46ec614afb454548419a2e957b2e68",
-      "title_hash": "250c1cf9dfb52c74e7fd8c8aac742e95213b888b",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: WhatCable, a tiny menu bar app for inspecting USB-C cables",
-      "link": "https://github.com/darrylmorley/whatcable",
-      "published_at": "2026-05-01T08:43:45+00:00",
-      "summary": "HN story type: story HN points: 119 HN comments: 35 HN post text: USB-C cables can be a mess. One cable charges at 5W, another does 100W and Thunderbolt 4, and they look identical in the drawer. WhatCable sits in your menu bar and reads the cable data your Mac already has access to. Plug in a cable and it tells you in plain English what it can actually do: charging wattage, data speed, display support, Thunderbolt, etc. Built in Swift/SwiftUI. Open source, free, no tracking. GitHub: https://github.com/darrylmorley/whatcable HN top comments: sagacity: This is pretty nice, but why do a lot of Mac apps insist on living in the menu bar? theanonymousone: I would like to ask an LLM to rewrite it as Python CLI script. Is it even possible, or some Swift-only functionality is necessary? P.S. Some time ago I learnt through HN of a one-line command in macOS which revealed the power (Wattage) of the connected charger. Can't find it now, but it was very useful. bkummel: Doesn't work for me. Says \"No USB-C ports detected\", although I'm pretty sure my monitor is connected via USB-C, and the monitor also has a built-in USB hub where my USB keyboard is connected to.",
-      "fetched_at": "2026-05-01T11:29:09.257875+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47972511",
-      "hn_story_type": "story",
-      "hn_points": "119",
-      "hn_comments_count": "35",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47972511",
-      "hn_item_text": "USB-C cables can be a mess. One cable charges at 5W, another does 100W and Thunderbolt 4, and they look identical in the drawer. WhatCable sits in your menu bar and reads the cable data your Mac already has access to. Plug in a cable and it tells you in plain English what it can actually do: charging wattage, data speed, display support, Thunderbolt, etc. Built in Swift/SwiftUI. Open source, free, no tracking. GitHub: https://github.com/darrylmorley/whatcable",
-      "hn_comment_preview": "sagacity: This is pretty nice, but why do a lot of Mac apps insist on living in the menu bar?\ntheanonymousone: I would like to ask an LLM to rewrite it as Python CLI script. Is it even possible, or some Swift-only functionality is necessary? P.S. Some time ago I learnt through HN of a one-line command in macOS which revealed the power (Wattage) of the connected charger. Can't find it now, but it was very useful.\nbkummel: Doesn't work for me. Says \"No USB-C ports detected\", although I'm pretty sure my monitor is connected via USB-C, and the monitor also has a built-in USB hub where my USB keyboard is connected to.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=17,tools_agents=20,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 20,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "open source",
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "ide",
-            "cli",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli",
-        "llm",
-        "github.com"
-      ],
-      "detail_slug": "cc408a676d46ec614afb454548419a2e957b2e68",
-      "is_english_source": true,
-      "translated_title": "USB-C 케이블 성능 알려주는 맥 메뉴바 앱",
-      "short_summary": "WhatCable은 맥이 이미 읽을 수 있는 USB-C 케이블 정보를 메뉴바에서 풀어 보여주는 오픈소스 앱이다. 충전 속도, 데이터 전송, 디스플레이 지원, 썬더볼트 여부를 바로 확인할 수 있다.",
-      "why_it_matters": "USB-C 케이블은 겉모습만으로 성능을 가리기 어려워 실무에서 헷갈리기 쉽다. WhatCable은 맥이 가진 정보를 바로 보여줘, 연결 문제를 추측으로 좁히던 과정을 짧게 만든다.\n- 충전이 느린 원인이 어댑터인지 케이블인지 더 빨리 가려낼 수 있다.\n- 외장 모니터, 허브, 고속 저장장치를 연결할 때 데이터 속도와 화면 출력 지원 여부를 즉시 확인할 수 있다.\n- 무료 오픈소스이고 추적 기능도 없어, 맥 사용자라면 부담 없이 점검 도구로 곁에 둘 만하다.",
-      "hn_reaction_summary": "댓글 분위기는 아이디어 자체에는 호의적이지만, 실제 사용 방식과 호환성에 대한 질문이 함께 붙는 쪽에 가깝다.\n- 메뉴바 상주 앱이 꼭 필요한지 묻는 의견이 나왔고, 같은 기능을 CLI로도 쓰고 싶다는 반응이 보였다.\n- Swift/SwiftUI가 아니라 Python 스크립트로도 가능한지, 아니면 macOS 전용 기능이 필요한지가 반복된 기술 논점이었다.\n- 일부 사용자는 USB-C로 연결돼 있는데도 포트를 찾지 못했다고 말해, 하드웨어 조합에 따른 인식 한계도 체크 포인트로 떠올랐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-01T11:32:07.356051+00:00"
-    },
-    {
-      "id": "ae46a08fc1101e4fcbae8600d91824ace94d9f8a",
-      "title_hash": "d848e9a54df3f1948957168b6eddfad1aaead9bc",
-      "source": "GeekNews",
-      "title": "Show GN: k-sajja-agents - 하지만 진짜 전문가가 말아주는",
-      "link": "https://news.hada.io/topic?id=29045",
-      "published_at": "2026-04-30T09:12:09+00:00",
-      "summary": "사람들은 이제 문제가 생기면 전문가에게 상담받기 보다 AI에게 먼저 물어봅니다. 전문가, 즉 사짜들이 설 자리가 사라지고 있죠. 그런데 이걸 반대로 보면, 새로운 기회가 생기고 있다는 뜻이기도 합니다. 내가 실제로 일하는 방식을 오픈소스 Agent Skill로 만들어두면 어떨까요? 사용자",
-      "fetched_at": "2026-05-01T07:18:59.645957+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agent"
-      ],
-      "detail_slug": "ae46a08fc1101e4fcbae8600d91824ace94d9f8a",
-      "is_english_source": false,
-      "sent_at": "2026-05-01T07:22:23.181354+00:00"
     }
   ],
   "topic_digests": {
