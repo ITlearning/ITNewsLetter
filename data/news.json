@@ -1,6 +1,587 @@
 {
   "items": [
     {
+      "id": "fde42095ca6bd3fc3456b976398238f48bc760d8",
+      "title_hash": "fde8846ca02683eeb85e351ffba76362509ae6c8",
+      "source": "GeekNews",
+      "title": "Cursor 마켓플레이스의 Claude Code 확장에서 SSH 백도어 발견",
+      "link": "https://news.hada.io/topic?id=36295",
+      "published_at": "2026-10-30T15:34:07+00:00",
+      "summary": "Cursor 마켓플레이스에서 Claude Code 확장에 SSH 백도어를 삽입한 변조본 이 배포됨. 최신 공지의 영향 대상은 macOS·Windows용 2.1.312·2.1.313 악성코드는 확장 로드 즉시 실행돼 시스템 정보를 전송하고 공격자의 SSH 키와 자동 실행 스크립트를 설치...",
+      "fetched_at": "2026-10-31T01:48:53.313631+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=2,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "cursor"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "cursor",
+        "claude + code"
+      ],
+      "detail_slug": "fde42095ca6bd3fc3456b976398238f48bc760d8",
+      "is_english_source": false,
+      "sent_at": "2026-10-31T01:51:29.424661+00:00"
+    },
+    {
+      "id": "2751285fd59cc4edd1915de64b5107990697818f",
+      "title_hash": "4583b1cb01664577fcbc658d4e28e10e577fc51c",
+      "source": "GeekNews",
+      "title": "미국 기술주, AI 비용 우려에 급락",
+      "link": "https://news.hada.io/topic?id=36303",
+      "published_at": "2026-10-30T18:36:56+00:00",
+      "summary": "대규모 AI 투자에 비해 실적이 기대에 못 미치면서 미국 기술주가 이틀 연속 하락함. 금요일 Nasdaq은 3.5% 넘게 떨어졌고 Intel은 장중 최대 30% 급락함 Meta, Alphabet, Oracle, Amazon, Microsoft의 2026년 지출 계획은 총 8,006억 달러 에 달하며, 막대한 AI 투...",
+      "fetched_at": "2026-10-31T01:48:53.313631+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "55",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=10,practical_tech=-12,tools_agents=-4,strategy_insight=-5,industry_business=10",
+      "slot_scores": {
+        "practical_tech": -12,
+        "tools_agents": -4,
+        "strategy_insight": -5,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -12,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자",
+            "실적",
+            "주가"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자",
+            "실적"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자",
+            "실적"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "투자",
+            "실적"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자",
+        "실적"
+      ],
+      "detail_slug": "2751285fd59cc4edd1915de64b5107990697818f",
+      "is_english_source": false,
+      "sent_at": "2026-10-31T01:51:29.424661+00:00"
+    },
+    {
+      "id": "17573880a82574ebbdfebaba19ff691bbec53ee0",
+      "title_hash": "af736c947fd268e8d54b949d97917f111b960441",
+      "source": "GeekNews",
+      "title": "Tangled - 자체 호스팅과 협업을 결합한 연합형 코드 포지",
+      "link": "https://news.hada.io/topic?id=36307",
+      "published_at": "2026-10-30T21:32:19+00:00",
+      "summary": "Tangled 는 코드를 자체 서버에 호스팅하면서도 다른 사용자와 협업할 수 있는 연합형 코드 포지임. Git 호스팅이나 CI 실행기만 운영하거나 API 서버와 UI까지 모두 자체 운영할 수 있음 AT Protocol 을 기반으로 확장 기능, 사용자 정의 Git 호스팅 서버와 CI 구성...",
+      "fetched_at": "2026-10-31T01:48:53.313631+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api",
+        "코드"
+      ],
+      "detail_slug": "17573880a82574ebbdfebaba19ff691bbec53ee0",
+      "is_english_source": false,
+      "sent_at": "2026-10-31T01:51:29.424661+00:00"
+    },
+    {
+      "id": "660d3f1dfe1511aaf4076bdaf615c42660b5082a",
+      "title_hash": "ccdd6db339300c2a320c5cb3fa8d8e7266f55b70",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The $6.3B Binance hack was pulled off in just 20 minutes",
+      "link": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
+      "published_at": "2026-10-30T12:50:01+00:00",
+      "summary": "HN story type: story HN points: 316 HN comments: 216 HN top comments: lordnacho: The heist itself only took 20 minutes, but the preparation is a business that has gone on for years. Much like a heist movie, the exciting bit is just the conclusion after a long build-up where Danny gets the gang together, plans it, and executes it. jakaroo: The short duration of this crypto hack isn't particularly noteworthy. Of course it takes time to find or design the exploit, but execution is typically very quick for such events gurkwart: Something tells me that the timing of the Claude Code supply chain attack is not a coincidence ... https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "fetched_at": "2026-10-31T01:48:53.313631+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50303172",
+      "hn_story_type": "story",
+      "hn_points": "316",
+      "hn_comments_count": "216",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50303172",
+      "hn_item_text": "",
+      "hn_comment_preview": "lordnacho: The heist itself only took 20 minutes, but the preparation is a business that has gone on for years. Much like a heist movie, the exciting bit is just the conclusion after a long build-up where Danny gets the gang together, plans it, and executes it.\njakaroo: The short duration of this crypto hack isn't particularly noteworthy. Of course it takes time to find or design the exploit, but execution is typically very quick for such events\ngurkwart: Something tells me that the timing of the Claude Code supply chain attack is not a coincidence ... https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "42",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=4,tools_agents=18,strategy_insight=2,industry_business=8",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 18,
+        "strategy_insight": 2,
+        "industry_business": 8
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 18,
+          "strong_hits": [
+            "claude code",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [
+            "business"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "supply + chain"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "claude + code"
+      ],
+      "detail_slug": "660d3f1dfe1511aaf4076bdaf615c42660b5082a",
+      "is_english_source": true,
+      "sent_at": "2026-10-31T01:51:29.424661+00:00"
+    },
+    {
+      "id": "73cd111214c73ce71c59ff204d8a0337d796156b",
+      "title_hash": "38b6c3a2634af6a8e3ecbe0cdcc860053655b767",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Northflank Breached",
+      "link": "https://status.northflank.com",
+      "published_at": "2026-10-30T15:10:31+00:00",
+      "summary": "HN story type: story HN points: 362 HN comments: 274 HN top comments: jonathaneunice: I hope this is a real wake-up call for teams running anything remotely SaaS-shaped. I count at least six substantial, lightning-speed attacks against multi-tenant as-a-service vendors since September. Not this year--just since last month. PingCAP/TiDB, Fireworks AI, Zeabur, OpenCode Console, Railway, now Northflank. All of them modern \"we keep your content safe\" players with high hopes and probably pretty good pro... dangoodmanUT: A trick i've started doing is encrypting my env vars, then hard-code the decryption key in the code that way if the provider gets popped, they need my binary to decrypt it it shouldn't be necessary and it sounds stupid, but in cases like this, it proves invaluable (it appears they don't have customer code/binary access, but maybe that wasn't important enough to mention) dangoodmanUT: Unfortunately for infra startups, I think we're going to see a convergence back to hyperscalers as a result of incidents like this and railway. There's no amount of \"nicer to use\" that can replace security, at least certainly when selling to enterprises",
+      "fetched_at": "2026-10-31T01:48:53.313631+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50305025",
+      "hn_story_type": "story",
+      "hn_points": "362",
+      "hn_comments_count": "274",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50305025",
+      "hn_item_text": "",
+      "hn_comment_preview": "jonathaneunice: I hope this is a real wake-up call for teams running anything remotely SaaS-shaped. I count at least six substantial, lightning-speed attacks against multi-tenant as-a-service vendors since September. Not this year--just since last month. PingCAP/TiDB, Fireworks AI, Zeabur, OpenCode Console, Railway, now Northflank. All of them modern \"we keep your content safe\" players with high hopes and probably pretty good pro...\ndangoodmanUT: A trick i've started doing is encrypting my env vars, then hard-code the decryption key in the code that way if the provider gets popped, they need my binary to decrypt it it shouldn't be necessary and it sounds stupid, but in cases like this, it proves invaluable (it appears they don't have customer code/binary access, but maybe that wasn't important enough to mention)\ndangoodmanUT: Unfortunately for infra startups, I think we're going to see a convergence back to hyperscalers as a result of incidents like this and railway. There's no amount of \"nicer to use\" that can replace security, at least certainly when selling to enterprises",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "39",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=7,strategy_insight=2,industry_business=12",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 12
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 12,
+          "strong_hits": [
+            "enterprise",
+            "startup"
+          ],
+          "support_hits": [
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "code + security"
+      ],
+      "detail_slug": "73cd111214c73ce71c59ff204d8a0337d796156b",
+      "is_english_source": true,
+      "sent_at": "2026-10-31T01:51:29.424661+00:00"
+    },
+    {
+      "id": "9d760882ef4493682008e22eb4e39cb280b497de",
+      "title_hash": "52a91e5cb5064f87fcfde50a6276c649bb2d3464",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+      "link": "https://tng.episodle.com/",
+      "published_at": "2026-10-30T23:51:24+00:00",
+      "summary": "HN story type: story HN points: 49 HN comments: 15 HN top comments: karim79: It's great just a bit toooo hard. But it's for trekkies so I'm not going to judge, I like Star Trek but I can't say that I'm anywhere as close to being a hardcore trekkies, I'm still learning and getting into it. I'm happy to see work like this and I'm also curious as to how you got all the screenshot content. Was that through scraping or ffmpeg going through video content or what? I'm deeply curious. Additionally... Arainach: I appreciate this. The full text search is fairly crucial, as while I've seen the entire series more than once I cannot for the life of me remember \"the name of the episode where the aliens pretending to be dumb kidnap Geordi\", but the search is good enough to get there without being too obvious. mijowi: Maybe I’m not enough of a Trekkie, but I feel multiple choice would be good here.",
+      "fetched_at": "2026-10-31T01:48:53.313631+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50311686",
+      "hn_story_type": "story",
+      "hn_points": "49",
+      "hn_comments_count": "15",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50311686",
+      "hn_item_text": "",
+      "hn_comment_preview": "karim79: It's great just a bit toooo hard. But it's for trekkies so I'm not going to judge, I like Star Trek but I can't say that I'm anywhere as close to being a hardcore trekkies, I'm still learning and getting into it. I'm happy to see work like this and I'm also curious as to how you got all the screenshot content. Was that through scraping or ffmpeg going through video content or what? I'm deeply curious. Additionally...\nArainach: I appreciate this. The full text search is fairly crucial, as while I've seen the entire series more than once I cannot for the life of me remember \"the name of the episode where the aliens pretending to be dumb kidnap Geordi\", but the search is good enough to get there without being too obvious.\nmijowi: Maybe I’m not enough of a Trekkie, but I feel multiple choice would be good here.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "show hn",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "show hn",
+        "api"
+      ],
+      "detail_slug": "9d760882ef4493682008e22eb4e39cb280b497de",
+      "is_english_source": true,
+      "sent_at": "2026-10-31T01:51:29.424661+00:00"
+    },
+    {
+      "id": "e8a67a527ad301487c768f61b926a750dd8a9399",
+      "title_hash": "82104f1be6f8a48b17282801fb9bb6e73991d2bf",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Building an AI-native engineering org",
+      "link": "https://twitter.com/sgondala2/status/2115832070274723875",
+      "published_at": "2026-10-29T21:58:34+00:00",
+      "summary": "HN story type: story HN points: 110 HN comments: 143 HN top comments: juancn: Not a single mention of value or revenue. Only three metrics went up: LOC, token spend and presumably release speed/frequency. What's the markup (profit/COGS)? is it up? Customer satisfaction? Is NPS moving one way or another? nater5000: This post is funny to me, because I feel it falls well short of what a proper, forward-thinking \"AI-native\" engineering org would actually look like. That is, the author is presenting this as kind of a radical departure from normal engineering, but I just see it as normal engineering with more AI. I don't see that as AI-native. To me, true \"AI-native\" engineering will be one where questions regarding how humans wi... simonw: It this point, a whole lot of teams have been leaning into AI-first, not-entirely-reviewed code since around March this year. That means we are already 6-8 months in, and not far from having a full year of experience of what that actually looks like, albeit weirdly influenced by the increase in model capabilities during that period. I'm looking forward to those retrospectives. Did this turn out to work OK for the...",
+      "fetched_at": "2026-10-31T01:48:53.313631+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50296730",
+      "hn_story_type": "story",
+      "hn_points": "110",
+      "hn_comments_count": "143",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50296730",
+      "hn_item_text": "",
+      "hn_comment_preview": "juancn: Not a single mention of value or revenue. Only three metrics went up: LOC, token spend and presumably release speed/frequency. What's the markup (profit/COGS)? is it up? Customer satisfaction? Is NPS moving one way or another?\nnater5000: This post is funny to me, because I feel it falls well short of what a proper, forward-thinking \"AI-native\" engineering org would actually look like. That is, the author is presenting this as kind of a radical departure from normal engineering, but I just see it as normal engineering with more AI. I don't see that as AI-native. To me, true \"AI-native\" engineering will be one where questions regarding how humans wi...\nsimonw: It this point, a whole lot of teams have been leaning into AI-first, not-entirely-reviewed code since around March this year. That means we are already 6-8 months in, and not far from having a full year of experience of what that actually looks like, albeit weirdly influenced by the increase in model capabilities during that period. I'm looking forward to those retrospectives. Did this turn out to work OK for the...",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "32",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=8,practical_tech=4,tools_agents=2,strategy_insight=8,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 8,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "code + review"
+      ],
+      "detail_slug": "e8a67a527ad301487c768f61b926a750dd8a9399",
+      "is_english_source": true,
+      "sent_at": "2026-10-31T01:51:29.424661+00:00"
+    },
+    {
       "id": "d08d249dcf64706611465c677d718e2df1fd1d92",
       "title_hash": "6c7bd6230add33772978b29f2ac97ece899de636",
       "source": "GeekNews",
@@ -167369,613 +167950,6 @@
       "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이다. F#이 HN 전면에 나온 점을 반가워하는 반응이 많았고, 에뮬레이터를 언어 학습 과제로 택한 선택도 좋게 평가받았다.\n- 가장 많이 반복된 평가는 '멋진 개인 프로젝트'와 '이런 작업이 새 언어를 배우는 좋은 방법'이라는 쪽이었다.\n- 기술적으로는 F# 관용구를 더 살릴 수 있는 부분, 불필요한 allocation 감소, 일부 레지스터 처리 방식에 대한 가벼운 피드백이 나왔다.\n- 한편으로는 LLM 도움을 앞세운 과장된 제작기보다 직접 구현한 흔적이 보여서 반갑다는 반응도 있었고, 이를 보고 비슷한 레트로 컴퓨팅 프로젝트를 다시 해보고 싶다는 의견도 보였다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-04-30T18:48:01.642639+00:00"
-    },
-    {
-      "id": "2f380905736e75d00c0327dc561e64c035d46e19",
-      "title_hash": "f8a8a42af6517dce6df2ee4d0e6741583e5d4f07",
-      "source": "GeekNews",
-      "title": "Show GN: Geas - AI Agent가 실수하지 않도록 엄격한 업무 프로토콜을 지키게 하기",
-      "link": "https://news.hada.io/topic?id=29040",
-      "published_at": "2026-04-30T06:43:15+00:00",
-      "summary": "안녕하세요 Claude code를 업무에서 굉장히 많이 사용하고 있는 주니어 보안 연구원입니다. 배경 여느때와 같이 Claude code로 작업을 하고 있던 날이었습니다. 크고 중요한 작업을 해야하는 터라 작업을 이해시키고 계획을 짜는 것에 굉장히 공을 들이고 있었습니다. 열심히 토론을 한",
-      "fetched_at": "2026-04-30T14:36:48.309225+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "67",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=22,practical_tech=0,tools_agents=22,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 22,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 22,
-          "strong_hits": [
-            "claude code",
-            "ai agent"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "실수"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "ai agent",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "2f380905736e75d00c0327dc561e64c035d46e19",
-      "is_english_source": false,
-      "sent_at": "2026-04-30T14:39:16.961061+00:00"
-    },
-    {
-      "id": "2e3ab012e5829061864d5fb253c2943677ef6449",
-      "title_hash": "3f8be4b33efc12e484ae895735c22e3180ed08bc",
-      "source": "GeekNews",
-      "title": "GLM-5 대규모 서비스 중 발견한 레이스 컨디션 버그 수정기 — Coding Agent 추론 인프라의 Scaling Pain",
-      "link": "https://news.hada.io/topic?id=29032",
-      "published_at": "2026-04-30T01:40:16+00:00",
-      "summary": "GLM-5 기반 Coding Agent를 수억 건 규모로 서비스하며 마주친 KV Cache 레이스 컨디션 버그 두 건의 재현·수정 과정과 처리량 개선 최적화를 공유한다. 배경 스케일링 법칙(Scaling Laws)은 모델 파라미터와 데이터 규모의 혁신만 이끈 게 아니라, 인프라 엔지니어링도 한계까지 밀어붙이고 있다. Z",
-      "fetched_at": "2026-04-30T14:36:48.309225+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "62",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=17,practical_tech=7,tools_agents=17,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 17,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "cache"
-          ],
-          "support_hits": [
-            "인프라"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 17,
-          "strong_hits": [
-            "coding agent"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "agent",
-        "ai + coding"
-      ],
-      "detail_slug": "2e3ab012e5829061864d5fb253c2943677ef6449",
-      "is_english_source": false,
-      "sent_at": "2026-04-30T14:39:16.961061+00:00"
-    },
-    {
-      "id": "21a1dd32aa0c9aade4eb97de5a403dbba657dc27",
-      "title_hash": "929730b4dd011650427e76865314218281cf9fa2",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Mozilla's Opposition to Chrome's Prompt API",
-      "link": "https://github.com/mozilla/standards-positions/issues/1213",
-      "published_at": "2026-04-30T07:43:55+00:00",
-      "summary": "HN story type: story HN points: 318 HN comments: 123 HN top comments: jaffathecake: When I posted this, I linked to the latest statement https://github.com/mozilla/standards-positions/issues/1213#i... , which is the content relevant to the title (the details of our opposition to the API). Unfortunately someone removed the link to the specific post. heresie-dabord: The objections seem clear: tight-coupling of prompts to models, and model neutrality in the TOU. From https://github.com/mozilla/standards-positions/issues/1213 : \"A personal example: I created a system prompt for creating announcements for a home automation system. The Gemini model I was using initially responded in a very US-American way, which didn't fit the British voice of my speaker. I told the model, via th... hmokiguess: The nice thing about open protocols is that we don't have to endorse or use one implementation over another, yet, somehow, the browser monopoly continues to be a standing dilemma. There are nice projects, like ungoogled chromium, tor, and many more, but I find the biggest issue is that there isn't a voice out there for the average person and a project that connects with the masses. I think another issue is that a...",
-      "fetched_at": "2026-04-30T14:36:48.309225+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47959463",
-      "hn_story_type": "story",
-      "hn_points": "318",
-      "hn_comments_count": "123",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47959463",
-      "hn_item_text": "",
-      "hn_comment_preview": "jaffathecake: When I posted this, I linked to the latest statement https://github.com/mozilla/standards-positions/issues/1213#i... , which is the content relevant to the title (the details of our opposition to the API). Unfortunately someone removed the link to the specific post.\nheresie-dabord: The objections seem clear: tight-coupling of prompts to models, and model neutrality in the TOU. From https://github.com/mozilla/standards-positions/issues/1213 : \"A personal example: I created a system prompt for creating announcements for a home automation system. The Gemini model I was using initially responded in a very US-American way, which didn't fit the British voice of my speaker. I told the model, via th...\nhmokiguess: The nice thing about open protocols is that we don't have to endorse or use one implementation over another, yet, somehow, the browser monopoly continues to be a standing dilemma. There are nice projects, like ungoogled chromium, tor, and many more, but I find the biggest issue is that there isn't a voice out there for the average person and a project that connects with the masses. I think another issue is that a...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "api",
-            "rag"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "automation"
-          ],
-          "support_hits": [
-            "prompt"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api",
-        "rag",
-        "implementation",
-        "github.com"
-      ],
-      "detail_slug": "21a1dd32aa0c9aade4eb97de5a403dbba657dc27",
-      "is_english_source": true,
-      "translated_title": "모질라가 크롬 Prompt API에 반대하는 이유",
-      "short_summary": "모질라는 크롬의 Prompt API가 프롬프트를 특정 모델 동작에 묶어 두고 웹 표준의 중립성을 해칠 수 있다고 봤다. HN에서는 기술적 우려에 공감하는 반응과 함께 크로미움 중심 생태계에 대한 피로감도 함께 나왔다.",
-      "why_it_matters": "브라우저가 AI 기능을 품는 방식은 곧 웹앱 설계 방식에 영향을 준다. 이번 논쟁은 단순한 API 추가가 아니라, 프롬프트와 모델을 어디까지 웹 표준에 올릴 수 있느냐는 문제로 읽힌다.\n- 프롬프트가 모델별 말투와 편향, 응답 습관에 따라 달라지면 한 번 만든 로직을 여러 브라우저와 모델에 그대로 옮기기 어려워진다.\n- 표준 단계에서 특정 구현 방식이 굳어지면 제품팀은 기능 개발보다 프롬프트 보정과 예외 처리에 더 많은 시간을 쓰게 될 수 있다.\n- 브라우저 내장 AI를 검토하는 팀이라면 편의성만 볼 게 아니라 이식성, 벤더 종속, 정책 변경 리스크까지 함께 따져야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 모질라의 문제 제기를 이해하는 쪽에 가까웠다. 다만 논의는 API 자체를 넘어, 누가 웹의 AI 사용 방식을 사실상 정하느냐로 빠르게 확장됐다.\n- 가장 많이 반복된 포인트는 프롬프트가 모델마다 다르게 먹히는데 이를 공통 API처럼 다루는 건 시기상조라는 지적이다.\n- 실제 예시로 같은 프롬프트라도 문화권이나 말투가 달라져 결과가 어긋난다는 경험담이 인용되며 반론보다 우려가 더 힘을 받았다.\n- 한편으로는 이런 논쟁 뒤에 크로미움 중심 브라우저 생태계가 있다는 점, 대중적 대안이 약하다는 점을 함께 꼬집는 반응도 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-30T14:39:16.961061+00:00"
-    },
-    {
-      "id": "9bb8be275f1e7e52db6e49088adeffd966fabac5",
-      "title_hash": "392475fa3473fc99f273edf10f23f85ddfbc58e5",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Cursor Camp",
-      "link": "https://neal.fun/cursor-camp/",
-      "published_at": "2026-04-29T15:39:43+00:00",
-      "summary": "HN story type: story HN points: 1072 HN comments: 172 HN top comments: bko: I like that this is on the front page and there are no comments. I imagine because everyone is busy exploring and didn't yet go back to the comments to see what people think. Good sign! johnfn: This is so good! Using mouse motion as a control scheme is particularly genius - how did no one think of this before? I particularly like the points where the mouse control is taken away from you, i.e. when you float downstream, or when you go down a slide. It's also particularly genius how the mouse can 'teleport' around the screen (i.e. when you go into a door and come out somewhere else). This idea could even b... latexr: Badge Guide (to avoid spoilers, encoded with rot13¹): * Cannonball!: Tb ba gur qvivat obneq va gur cbby. Fbhgurnfg sebz gur fgnegvat cbfvgvba. * Treasure Hunter: Teno n zrgny qrgrpgbe gura frnepu arne gur yrsg fvqr bs gur ibyyrlonyy svryq. Abegujrfg sebz gur fgnegvat cbfvgvba. * Goal!: Fpber n tbny jvgu gur fbppre onyy. Fbhgurnfg sebz gur fgnegvat cbvag. * S'more Please: Teno n znefuznyybj sebz gur ohpxrg naq chg...",
-      "fetched_at": "2026-04-30T14:36:48.309225+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47949939",
-      "hn_story_type": "story",
-      "hn_points": "1072",
-      "hn_comments_count": "172",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47949939",
-      "hn_item_text": "",
-      "hn_comment_preview": "bko: I like that this is on the front page and there are no comments. I imagine because everyone is busy exploring and didn't yet go back to the comments to see what people think. Good sign!\njohnfn: This is so good! Using mouse motion as a control scheme is particularly genius - how did no one think of this before? I particularly like the points where the mouse control is taken away from you, i.e. when you float downstream, or when you go down a slide. It's also particularly genius how the mouse can 'teleport' around the screen (i.e. when you go into a door and come out somewhere else). This idea could even b...\nlatexr: Badge Guide (to avoid spoilers, encoded with rot13¹): * Cannonball!: Tb ba gur qvivat obneq va gur cbby. Fbhgurnfg sebz gur fgnegvat cbfvgvba. * Treasure Hunter: Teno n zrgny qrgrpgbe gura frnepu arne gur yrsg fvqr bs gur ibyyrlonyy svryq. Abegujrfg sebz gur fgnegvat cbfvgvba. * Goal!: Fpber n tbny jvgu gur fbppre onyy. Fbhgurnfg sebz gur fgnegvat cbvag. * S'more Please: Teno n znefuznyybj sebz gur ohpxrg naq chg...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=6,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "guide"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "cursor",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cursor",
-        "ide"
-      ],
-      "detail_slug": "9bb8be275f1e7e52db6e49088adeffd966fabac5",
-      "is_english_source": true,
-      "translated_title": "Cursor Camp, 마우스로 노는 웹 경험의 재발견",
-      "short_summary": "Hacker News에서 큰 반응을 얻은 'Cursor Camp'는 마우스 움직임 자체를 놀이와 탐험의 방식으로 바꾼 인터랙티브 작품으로 주목받았다. 댓글도 곧바로 토론으로 번지기보다 직접 들어가 체험해보라는 분위기가 강했다.",
-      "why_it_matters": "웹에서 익숙한 포인터를 주된 상호작용 수단으로 다시 설계했다는 점이 눈길을 끈다. 단순한 데모를 넘어, 제품 소개와 브랜딩도 이렇게 체험형으로 만들 수 있다는 신호로 읽힌다.\n- 클릭 중심 UI에 머물지 않고 마우스 이동, 화면 전환, 잠깐의 제어 박탈까지 연출 요소로 묶는 방식이 눈에 띈다.\n- 랜딩 페이지나 프로모션 사이트를 만드는 팀이라면 기능 설명보다 먼저 '직접 만져보게 하는 흐름'이 얼마나 강한지 다시 보게 된다.\n- HN 전면에 오를 정도의 반응은, 잘 만든 짧은 인터랙티브 경험이 문서형 소개보다 더 빠르게 공유와 입소문을 만든다는 점을 보여준다.",
-      "hn_reaction_summary": "전체 분위기는 매우 호의적이었다. 초반에는 댓글이 적은 것조차 사람들이 토론보다 먼저 들어가서 이것저것 눌러보고 있다는 신호로 받아들이는 반응이 나왔다.\n- 마우스 움직임을 조작 체계로 삼은 발상이 신선하다는 평가가 반복됐다.\n- 문을 드나들며 위치가 바뀌는 장면, 물길이나 미끄럼틀처럼 잠시 제어를 넘기는 연출이 특히 인상적이라는 반응이 많았다.\n- 한편으로는 배지 공략을 공유하는 댓글이 붙을 만큼, 논쟁보다는 숨은 요소를 찾고 체험을 확장하는 쪽에 관심이 쏠렸다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-30T14:39:16.961061+00:00"
-    },
-    {
-      "id": "16e23f8b7bac38699655544c05425b6348f4198d",
-      "title_hash": "4e56c38a7e4981bba9d3986e9b1d79a6c6647a16",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Granite 4.1: IBM's 8B Model Matching 32B MoE",
-      "link": "https://firethering.com/granite-4-1-ibm-open-source-model-family/",
-      "published_at": "2026-04-30T10:31:17+00:00",
-      "summary": "HN story type: story HN points: 183 HN comments: 100 HN top comments: 0xbadcafebee: People complain a lot about LLM-written articles, but the human comments here on HN are far worse. Mostly a bunch of people extremely proud of themselves for not reading an LLM-written article, and then a bunch of people who take it at face value and make the model seem almost useful, and one comment that actually looked at other benchmarks. Good 'ol humanity, good at.. being emotional... and not doing analysis...... dash2: Nah, I ain't reading that. If they can't be bothered to get a human to write it, it can't be that important. I'm glad for them though. Or sorry that happened. 2ndorderthought: I test drove it yesterday. It's pretty impressive at 8b. Runs on commodity hardware quickly. Qwen3.6 35b a3b is still my local champion but I may use this for auto complete and small tasks. Granite has recent training data which is nice. If the other small models got fine tuned on recent data I don't know if I would use this at all, but that alone makes it pretty decent. The 4b they released was not good for my ne...",
-      "fetched_at": "2026-04-30T14:36:48.309225+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47960507",
-      "hn_story_type": "story",
-      "hn_points": "183",
-      "hn_comments_count": "100",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47960507",
-      "hn_item_text": "",
-      "hn_comment_preview": "0xbadcafebee: People complain a lot about LLM-written articles, but the human comments here on HN are far worse. Mostly a bunch of people extremely proud of themselves for not reading an LLM-written article, and then a bunch of people who take it at face value and make the model seem almost useful, and one comment that actually looked at other benchmarks. Good 'ol humanity, good at.. being emotional... and not doing analysis......\ndash2: Nah, I ain't reading that. If they can't be bothered to get a human to write it, it can't be that important. I'm glad for them though. Or sorry that happened.\n2ndorderthought: I test drove it yesterday. It's pretty impressive at 8b. Runs on commodity hardware quickly. Qwen3.6 35b a3b is still my local champion but I may use this for auto complete and small tasks. Granite has recent training data which is nice. If the other small models got fine tuned on recent data I don't know if I would use this at all, but that alone makes it pretty decent. The 4b they released was not good for my ne...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=9,strategy_insight=2,industry_business=1",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 1
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "benchmark"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 1,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "benchmark",
-        "local + run"
-      ],
-      "detail_slug": "16e23f8b7bac38699655544c05425b6348f4198d",
-      "is_english_source": true,
-      "translated_title": "IBM Granite 4.1, 8B로 32B급 MoE에 맞먹는 성능",
-      "short_summary": "IBM이 Granite 4.1을 공개하며 8B 모델이 32B급 MoE와 견줄 만한 성능을 낸다고 밝혔다. HN에서는 가볍게 잘 돈다는 반응과 함께, 벤치마크 해석과 홍보성 표현을 경계하는 시선이 같이 나왔다.",
-      "why_it_matters": "작은 모델로 어디까지 실무 성능을 끌어올릴 수 있느냐는 흐름에서 눈여겨볼 만한 사례다. 특히 로컬 실행과 비용 효율을 따지는 팀이라면 단순 성능 수치보다 배포 현실성을 함께 볼 필요가 있다.\n- 8B급 모델이 일반 하드웨어에서 빠르게 돌아간다는 평이 나와, 자동완성이나 가벼운 보조 작업용 후보로 검토할 여지가 생겼다.\n- 최근 학습 데이터가 강점으로 언급돼, 최신 정보 반영이 필요한 워크플로에서는 체감 차이가 날 수 있다는 기대가 붙었다.\n- 다만 32B급 MoE와의 비교는 벤치마크 조건을 함께 봐야 한다. 도입 전에는 Qwen 같은 대안과 실제 업무 프롬프트로 나란히 비교하는 편이 안전하다.",
-      "hn_reaction_summary": "댓글 분위기는 반반으로 갈렸다. 모델 자체를 차분히 평가한 사람도 있었지만, AI가 쓴 소개 글에 대한 거부감이 토론 전면으로 나오면서 정작 성능 논의가 흐려졌다는 지적도 많았다.\n- 반복된 긍정 포인트는 \"8B치고 꽤 인상적이고, 범용 하드웨어에서 빠르다\"는 실사용 감각이었다.\n- 반대쪽에서는 기사 문체가 AI 냄새가 난다는 이유로 내용을 아예 신뢰하지 않거나 읽지 않겠다는 반응이 적지 않았다.\n- 실무자가 볼 만한 쟁점은 하나다. 마케팅 문구를 그대로 믿기보다 다른 소형 모델과 벤치마크, 최신 데이터의 실제 효용, 로컬 작업 성능을 따로 확인해야 한다는 점이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-04-30T14:39:16.961061+00:00"
-    },
-    {
-      "id": "41ff97d512673f7b38d75b7dcbefe8ab5401ad0b",
-      "title_hash": "14acc71636846959bf734e5ed40e7e21e8e46bcd",
-      "source": "GeekNews",
-      "title": "spawn-agent: 로컬 코딩 에이전트를 Vercel AI SDK 모델처럼 다루는 어댑터",
-      "link": "https://news.hada.io/topic?id=29043",
-      "published_at": "2026-04-30T08:05:08+00:00",
-      "summary": "이 프로젝트는 사용자의 컴퓨터에 이미 설치된 여러 코딩 에이전트(Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, OpenCode, Factory Droid, Pi)를 자식 프로세스로 띄워, Vercel AI SDK의 LanguageModelV3 인터페이스 뒤로 감추어 주는 어댑터 라이브러리입니다. 통신은 공개 명세인 Agent...",
-      "fetched_at": "2026-04-30T10:26:27.814016+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "87",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=42,practical_tech=5,tools_agents=42,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 42,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "sdk"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 42,
-          "strong_hits": [
-            "claude code",
-            "copilot",
-            "cursor",
-            "codex",
-            "에이전트",
-            "cli"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "copilot",
-        "cursor",
-        "codex",
-        "에이전트",
-        "cli",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "41ff97d512673f7b38d75b7dcbefe8ab5401ad0b",
-      "is_english_source": false,
-      "sent_at": "2026-04-30T10:29:14.770341+00:00"
-    },
-    {
-      "id": "b9900bec5b5dbe969cc53e5182a7c72c72aef14e",
-      "title_hash": "370c12d406877c8edfb1cb851985951132f7df5a",
-      "source": "GeekNews",
-      "title": "Zed 1.0 릴리즈",
-      "link": "https://news.hada.io/topic?id=29024",
-      "published_at": "2026-04-30T00:57:57+00:00",
-      "summary": "Zed 1.0 은 웹 기술 기반 편집기였던 Atom 이후 다시 처음부터 만든 데스크톱 편집기로, 애플리케이션 전체를 GPU 셰이더 중심으로 구성하고 Rust로 자체 UI 프레임워크 GPUI 를 구현해 왔음 기존 기반 기술의 한계를 넘기 위해 자체 스택 전 계층을...",
-      "fetched_at": "2026-04-30T10:26:27.814016+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust"
-      ],
-      "detail_slug": "b9900bec5b5dbe969cc53e5182a7c72c72aef14e",
-      "is_english_source": false,
-      "sent_at": "2026-04-30T10:29:14.770341+00:00"
     }
   ],
   "topic_digests": {
