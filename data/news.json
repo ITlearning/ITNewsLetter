@@ -1,6 +1,576 @@
 {
   "items": [
     {
+      "id": "619b6d0e38eda07790d299735337fc946328a6fb",
+      "title_hash": "fb62c4d88f60df288a67537a9dea35be50dac011",
+      "source": "GeekNews",
+      "title": "Anthropic, 비디오 게임 재구현 단속에 나서다",
+      "link": "https://news.hada.io/topic?id=36384&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-01T11:37:08+00:00",
+      "summary": "게시물에 따르면 Claude Code 에 특정 기존 게임의 재현을 금지하는 새 규칙이 10월 27일경 추가됐음 해당 규칙은 Anthropic 서버에서 tengu_heron_brook 이라는 플래그로 전달됨 독창적인 게임 , 특정 장르...",
+      "fetched_at": "2026-11-01T15:12:34.884247+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "619b6d0e38eda07790d299735337fc946328a6fb",
+      "is_english_source": false,
+      "sent_at": "2026-11-01T15:14:56.994314+00:00"
+    },
+    {
+      "id": "3fc4ef3b811828a6cd687c6d7d68ddfffd94942f",
+      "title_hash": "93761c476e2a8731bd7ff77f09727cf262fd3837",
+      "source": "GeekNews",
+      "title": "Show GN: Aven - 내 서버에서 사용하는 Railway 스타일 배포 플랫폼",
+      "link": "https://news.hada.io/topic?id=36386&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-01T12:02:46+00:00",
+      "summary": "Railway를 사용하면서 비슷한 환경을 내 서버에서도 직접 운영해 보고 싶어서 Aven을 만들었습니다. Aven은 Linux 서버에 설치해서 사용하는 오픈소스 PaaS입니다. Docker를 기반으로 동작하며, Railway처럼 웹 대시보드에서 프로젝트를 만들고 서비스를 배포할 수 있습니다. Kubernetes는 사용하지 않습니다.",
+      "fetched_at": "2026-11-01T15:12:34.884247+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=4,strategy_insight=3,industry_business=-8",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -8
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "kubernetes",
+            "docker"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "kubernetes",
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "kubernetes",
+        "docker"
+      ],
+      "detail_slug": "3fc4ef3b811828a6cd687c6d7d68ddfffd94942f",
+      "is_english_source": false,
+      "sent_at": "2026-11-01T15:14:56.994314+00:00"
+    },
+    {
+      "id": "68782915da72e0ba35c94f75150d4192b4d37daf",
+      "title_hash": "109bf0218a48547e764f517ef60a9420d8fe104d",
+      "source": "GeekNews",
+      "title": "형제와 함께 외부 투자 없이 SaaS를 20년간 운영하기",
+      "link": "https://news.hada.io/topic?id=36392&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-01T13:36:18+00:00",
+      "summary": "두 형제가 2006년 시작한 파일 변환 서비스 Zamzar 는 20년간 5억 5,000만 명 이상 이 사용했으며, 7억 6,600만 건 이상의 파일 변환을 처리함 지원하는 변환 유형은 150개에서 2,128개 로 늘었으며, 현재 하루 100만 건 이상의 API 요청",
+      "fetched_at": "2026-11-01T15:12:34.884247+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=1,tools_agents=0,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 1,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 1,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "투자"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자"
+      ],
+      "detail_slug": "68782915da72e0ba35c94f75150d4192b4d37daf",
+      "is_english_source": false,
+      "sent_at": "2026-11-01T15:14:56.994314+00:00"
+    },
+    {
+      "id": "756754436da64a6903a59747ee4479aacf28b2a1",
+      "title_hash": "b9c54fe9cebd5a422ceb4bea04bb7217c691062c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "link": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "published_at": "2026-11-01T14:34:43+00:00",
+      "summary": "HN story type: story HN points: 30 HN comments: 4 HN top comments: matheusmoreira: Does anyone actually trust these products? Always seemed like a terrible idea to me. The correct solution is to use free software cryptography on top of these things. mzajc: Linked article: https://www.tomshardware.com/tech-industry/cyber-security/le...",
+      "fetched_at": "2026-11-01T15:12:34.884247+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50326099",
+      "hn_story_type": "story",
+      "hn_points": "30",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50326099",
+      "hn_item_text": "",
+      "hn_comment_preview": "matheusmoreira: Does anyone actually trust these products? Always seemed like a terrible idea to me. The correct solution is to use free software cryptography on top of these things.\nmzajc: Linked article: https://www.tomshardware.com/tech-industry/cyber-security/le...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=7,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 7,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "security",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "industry"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "rust"
+      ],
+      "detail_slug": "756754436da64a6903a59747ee4479aacf28b2a1",
+      "is_english_source": true,
+      "sent_at": "2026-11-01T15:14:56.994314+00:00"
+    },
+    {
+      "id": "a5d03ac5205a8cb9313a33fc4240e0778ffd9f31",
+      "title_hash": "54b76e0e2f883f076c19610a048c7d8396bc4d8f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+      "link": "https://arxiv.org/abs/2409.02292",
+      "published_at": "2026-11-01T01:46:29+00:00",
+      "summary": "HN story type: story HN points: 132 HN comments: 67 HN top comments: emrehan: We demonstrated this in 2016 at PennApps and won the hackathon. The demo video: https://www.youtube.com/watch?v=pAM9c3eBFyE Code: https://github.com/fyquah/ramear Press: https://technical.ly/software-development/scary-hardware-hac... The most challenging part was to demonstrate it live on stage, typing on the airgapped desktop and decoding the signals on the laptop with the antena next to it. I found an image stil... talon8635: These and other methods are good reason to believe that AI can never be 100% contained, which gives me pause. The famous air gap case is stuxnet, but there are other technical and biological approaches. It’s a very weird reality we’ve found ourselves in if you stop, zoom out about, and really take in the gravity of the issues we are grappling with as a human race. Exciting, truly, and a bit nerve wracking. TGower: Cool paper even if the attack isn't practical, requiring getting the malware on the computer and a SDR antenna within 7 meters with clear line of sight of the affected computer for 100 bits per second (less after applying error correction). Hard to imagine a scenario where you can pull off both of those, but you couldn't plug in a USB, grab the PC, or record the screen directly.",
+      "fetched_at": "2026-11-01T15:12:34.884247+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50322022",
+      "hn_story_type": "story",
+      "hn_points": "132",
+      "hn_comments_count": "67",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50322022",
+      "hn_item_text": "",
+      "hn_comment_preview": "emrehan: We demonstrated this in 2016 at PennApps and won the hackathon. The demo video: https://www.youtube.com/watch?v=pAM9c3eBFyE Code: https://github.com/fyquah/ramear Press: https://technical.ly/software-development/scary-hardware-hac... The most challenging part was to demonstrate it live on stage, typing on the airgapped desktop and decoding the signals on the laptop with the antena next to it. I found an image stil...\ntalon8635: These and other methods are good reason to believe that AI can never be 100% contained, which gives me pause. The famous air gap case is stuxnet, but there are other technical and biological approaches. It’s a very weird reality we’ve found ourselves in if you stop, zoom out about, and really take in the gravity of the issues we are grappling with as a human race. Exciting, truly, and a bit nerve wracking.\nTGower: Cool paper even if the attack isn't practical, requiring getting the malware on the computer and a SDR antenna within 7 meters with clear line of sight of the affected computer for 100 bits per second (less after applying error correction). Hard to imagine a scenario where you can pull off both of those, but you couldn't plug in a USB,...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "37",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=4,tools_agents=13,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 13,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 13,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "signal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "ai + coding"
+      ],
+      "detail_slug": "a5d03ac5205a8cb9313a33fc4240e0778ffd9f31",
+      "is_english_source": true,
+      "sent_at": "2026-11-01T15:14:56.994314+00:00"
+    },
+    {
+      "id": "e8b88039dbf99efc4749afb6bc3210e08010cb2b",
+      "title_hash": "ce3e31e8a22faa81618cfeaf1e7e5997e6c5b0f0",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Understanding Email Encryption",
+      "link": "https://www.fastmail.com/blog/email-encryption/",
+      "published_at": "2026-10-30T20:55:56+00:00",
+      "summary": "HN story type: story HN points: 62 HN comments: 14 HN top comments: upofadown: The article on end to end email encryption: >Contrast all this with Signal or WhatsApp, where encryption works automatically because a single organisation controls the full software stack rather than using open protocols. In a usability study involving Signal[1], 21 out of 28 computer science students failed to establish and maintain a secure end to end encrypted connection. There seems to be a tradeoff. We can do... savant2: >OpenPGP uses a decentralized “Web of Trust” where users vouch for each other’s keys. This article fails to mention WKD [1] (Web Key Directory) which is supported by Proton Mail, doesn't rely on the \"Web of Trust\" and allows seamless PGP encryption of sent emails. Here is an example of how this works (and how it can get annoying) [2]. [1] https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-s... [2] https://... user09812037: > [...] Contrast all this with Signal or WhatsApp, where encryption works automatically [...] This is an incredibly overconfident statement, given that no one can definitively prove WhatsApp or production consumer builds of Signal actually encrypt anything (note: this is unrelated to Signal builds compiled by users themselves) . Existing reverse-engineering papers on WhatsApp merely confirm the presence of cryptog...",
+      "fetched_at": "2026-11-01T15:12:34.884247+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50310038",
+      "hn_story_type": "story",
+      "hn_points": "62",
+      "hn_comments_count": "14",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50310038",
+      "hn_item_text": "",
+      "hn_comment_preview": "upofadown: The article on end to end email encryption: >Contrast all this with Signal or WhatsApp, where encryption works automatically because a single organisation controls the full software stack rather than using open protocols. In a usability study involving Signal[1], 21 out of 28 computer science students failed to establish and maintain a secure end to end encrypted connection. There seems to be a tradeoff. We can do...\nsavant2: >OpenPGP uses a decentralized “Web of Trust” where users vouch for each other’s keys. This article fails to mention WKD [1] (Web Key Directory) which is supported by Proton Mail, doesn't rely on the \"Web of Trust\" and allows seamless PGP encryption of sent emails. Here is an example of how this works (and how it can get annoying) [2]. [1] https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-s... [2] https://...\nuser09812037: > [...] Contrast all this with Signal or WhatsApp, where encryption works automatically [...] This is an incredibly overconfident statement, given that no one can definitively prove WhatsApp or production consumer builds of Signal actually encrypt anything (note: this is unrelated to Signal builds compiled by users them...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=12,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 12,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "production",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [
+            "signal",
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "production",
+        "rust"
+      ],
+      "detail_slug": "e8b88039dbf99efc4749afb6bc3210e08010cb2b",
+      "is_english_source": true,
+      "sent_at": "2026-11-01T15:14:56.994314+00:00"
+    },
+    {
+      "id": "e58672779bec4cd6007d11df0a02893f48cfa559",
+      "title_hash": "9c19fb9be3f1296e0d18404077e7912498359bd2",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "One-minute frequency disturbances from synchronization in power systems",
+      "link": "https://www.nature.com/articles/s41560-026-02144-0",
+      "published_at": "2026-10-31T10:14:08+00:00",
+      "summary": "HN story type: story HN points: 28 HN comments: 7 HN top comments: schiffern: The corresponding concept in gears is to avoid meshing two gears unless the number of teeth are co-prime, because this will cause uneven wear patterns. If the tooth counts are coprime, then each tooth will contact every tooth on the other gear the same number of times, effectively \"wear leveling\" the teeth. In this instance, one fix is to fire the timer every 59 seconds, so it will naturally drift out of phase wit... bob1029: I'm not sure I agree with the conclusion that this is merely caused by UPS system control logic. That is an extreme amount of coordination across a lot of makes, models and configurations. The FFT indicates this is a periodic signal, not a once a day or week thing. It's happening continuously all day every day. I don't know of any UPS systems that perform tests with this kind of regularity. In any case, I refuse t... geerlingguy: I know my older APC UPSes do weekly self tests, but I guess newer equipment does more frequent self testing? And of course they're all internet-connected meaning clocks are within a few hundred ms of each other. It also made me think about how many GitHub Actions I have that kick off on Sunday morning at a specific time. I try to vary the time/day for those jobs but I'm guessing there are enough things that kick o...",
+      "fetched_at": "2026-11-01T15:12:34.884247+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50314617",
+      "hn_story_type": "story",
+      "hn_points": "28",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50314617",
+      "hn_item_text": "",
+      "hn_comment_preview": "schiffern: The corresponding concept in gears is to avoid meshing two gears unless the number of teeth are co-prime, because this will cause uneven wear patterns. If the tooth counts are coprime, then each tooth will contact every tooth on the other gear the same number of times, effectively \"wear leveling\" the teeth. In this instance, one fix is to fire the timer every 59 seconds, so it will naturally drift out of phase wit...\nbob1029: I'm not sure I agree with the conclusion that this is merely caused by UPS system control logic. That is an extreme amount of coordination across a lot of makes, models and configurations. The FFT indicates this is a periodic signal, not a once a day or week thing. It's happening continuously all day every day. I don't know of any UPS systems that perform tests with this kind of regularity. In any case, I refuse t...\ngeerlingguy: I know my older APC UPSes do weekly self tests, but I guess newer equipment does more frequent self testing? And of course they're all internet-connected meaning clocks are within a few hundred ms of each other. It also made me think about how many GitHub Actions I have that kick off on Sunday morning at a specific time....",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=6,tools_agents=2,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 2,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "signal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "signal"
+      ],
+      "detail_slug": "e58672779bec4cd6007d11df0a02893f48cfa559",
+      "is_english_source": true,
+      "sent_at": "2026-11-01T15:14:56.994314+00:00"
+    },
+    {
       "id": "fe73cdff2b8c115a2186168ed7b73baf95844c93",
       "title_hash": "0ed96546bac57656af87f7d2d0671d21688f001f",
       "source": "GeekNews",
@@ -167115,645 +167685,6 @@
       "hn_reaction_summary": "댓글은 많지 않았지만 분위기는 단순한 감탄보다 “이게 지금 모델에도 먹히느냐”는 검증 쪽에 가까웠다. 상위 반응도 연구의 파장보다 최신성 문제를 먼저 짚었다.\n- 가장 눈에 띈 댓글은 “2024년 결과라 이미 오래됐다”는 취지였다. 최근 모델은 거부 인코딩을 일부러 퍼뜨려 이런 제거 시도를 막도록 학습된다고 주장했다.\n- 그래서 논점도 연구의 발견 자체보다 적용 범위로 모였다. 구세대 모델의 취약점인지, 최신 정렬 기법에도 남아 있는지가 핵심이다.\n- 실무자가 읽을 포인트는 공격 데모보다 방어 설계다. 안전 기능이 내부에서 얼마나 집중돼 있는지, 분산 전략이 실제로 효과를 내는지 확인해야 한다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-02T16:41:31.492657+00:00"
-    },
-    {
-      "id": "ab02f64f9b10da0fd7f901f38475bc7bf5205d27",
-      "title_hash": "754d2b50fb4ba6dd418f3773befa350893891d02",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "How fast is a macOS VM, and how small could it be?",
-      "link": "https://eclecticlight.co/2026/05/02/how-fast-is-a-macos-vm-and-how-small-could-it-be/",
-      "published_at": "2026-05-02T09:30:49+00:00",
-      "summary": "HN story type: story HN points: 157 HN comments: 55 HN top comments: fouc: >Starting with 4 virtual cores and 8 GB vRAM, where the VM ran perfectly briskly with around 5 GB of memory used, I stepped down to 3 cores and 6 GB, to discover that memory usage fell to 3.9 GB and everything worked well. With just 2 cores and 4 GB of memory only 3.1 GB of that was used, and the VM continued to handle those lightweight tasks normally. Good reminder that there's a certain amount of memory tied up... Havoc: Got a M5 air recently - my first dive into MacOS land so trying to figure this out too. Seems essentially impossible to get: * pytorch * GPU acceleration * VM/container like isolation The virtio-gpu layer gets closest but seems to only pass through graphics GPU not compute GPU so no pytorch mgaunard: My only experience with VMs on macOS is colima+docker, and it's relatively painful and inefficient (but usable).",
-      "fetched_at": "2026-05-02T16:38:34.586213+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47984852",
-      "hn_story_type": "story",
-      "hn_points": "157",
-      "hn_comments_count": "55",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47984852",
-      "hn_item_text": "",
-      "hn_comment_preview": "fouc: >Starting with 4 virtual cores and 8 GB vRAM, where the VM ran perfectly briskly with around 5 GB of memory used, I stepped down to 3 cores and 6 GB, to discover that memory usage fell to 3.9 GB and everything worked well. With just 2 cores and 4 GB of memory only 3.1 GB of that was used, and the VM continued to handle those lightweight tasks normally. Good reminder that there's a certain amount of memory tied up...\nHavoc: Got a M5 air recently - my first dive into MacOS land so trying to figure this out too. Seems essentially impossible to get: * pytorch * GPU acceleration * VM/container like isolation The virtio-gpu layer gets closest but seems to only pass through graphics GPU not compute GPU so no pytorch\nmgaunard: My only experience with VMs on macOS is colima+docker, and it's relatively painful and inefficient (but usable).",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=20,practical_tech=20,tools_agents=7,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 20,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 20,
-          "strong_hits": [
-            "container",
-            "docker"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "docker + container"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "docker"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "container",
-        "docker",
-        "docker + container"
-      ],
-      "detail_slug": "ab02f64f9b10da0fd7f901f38475bc7bf5205d27",
-      "is_english_source": true,
-      "translated_title": "macOS 가상 머신, 어디까지 가볍고 빠를까",
-      "short_summary": "이 글은 macOS VM에 할당한 CPU 코어와 메모리를 줄여 가며 어디까지 성능 저하 없이 쓸 수 있는지 살핀다. 가벼운 작업 기준으로는 생각보다 작은 사양에서도 무난히 돌아간다는 점이 눈에 띈다.",
-      "why_it_matters": "애플 실리콘 맥을 개발용으로 쓰는 환경이라면 VM 기본 설정을 다시 볼 만하다는 얘기다. 막연히 넉넉하게 잡기보다 실제 작업 부하에 맞춰 자원을 줄여도 되는지 가늠할 기준을 준다.\n- 가벼운 개발 작업이라면 2코어, 4GB 수준에서도 돌아갔다는 관찰은 테스트용 VM 비용과 메모리 점유를 줄일 여지가 있음을 보여준다.\n- VM에는 작업량과 별개로 들어가는 기본 오버헤드가 있다는 점이 드러난다. 팀에서 표준 템플릿을 만들 때 과할당을 줄이는 근거로 쓸 수 있다.\n- 로컬 개발, 브라우저 테스트, 격리 실행처럼 GPU 연산이 덜 중요한 용도와 그렇지 않은 용도를 나눠 설계해야 한다는 실무 감각도 남긴다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 실용적이다. 설정을 어디까지 줄일 수 있는지 궁금해하는 반응이 많았고, 동시에 macOS 가상화의 한계도 반복해서 거론됐다.\n- 가장 자주 나온 논점은 GPU 컴퓨트 지원 부족이다. 그래픽 출력은 되더라도 PyTorch 같은 워크로드는 여전히 답답하다는 반응이 있었다.\n- 컨테이너와 VM 격리 경험이 리눅스만큼 매끄럽지 않다는 지적도 이어졌다. `colima + docker`는 쓸 수는 있지만 불편하고 비효율적이라는 평가가 보인다.\n- 결국 가벼운 개발용 VM에는 희망적이지만, ML이나 GPU 의존 작업까지 기대하면 실망할 수 있다는 식의 현실적인 선 긋기가 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-02T16:41:31.492657+00:00"
-    },
-    {
-      "id": "11c7070a6c9c5f02ffc782c1d62da9046c5311e5",
-      "title_hash": "2f2e2a20b426ba946f6f7f98f8f9ce733a636f14",
-      "source": "GeekNews",
-      "title": "Apple이 Support 앱에 Claude.md 파일을 포함해서 배포함",
-      "link": "https://news.hada.io/topic?id=29093",
-      "published_at": "2026-05-02T04:04:10+00:00",
-      "summary": "애플이 오늘 배포한 Apple Support app v5.13 업데이트에 Claude.md 파일을 포함한 채 배포 아마도 해당 파일은 Apple이 의도적으로 공개한 항목이 아니라 실수로 남겨진 것으로 파악됨 이후 긴급히 출시된 5.13.1 업데이트에서 해당 파...",
-      "fetched_at": "2026-05-02T12:28:45.491871+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 1,
-          "strong_hits": [],
-          "support_hits": [
-            "실수"
-          ],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "출시"
-      ],
-      "detail_slug": "11c7070a6c9c5f02ffc782c1d62da9046c5311e5",
-      "is_english_source": false,
-      "sent_at": "2026-05-02T12:31:28.900865+00:00"
-    },
-    {
-      "id": "781f34ffe5595975a51d93115f0b35a3aabffd3e",
-      "title_hash": "8ab78b1ccc2a4edd9983600102a288ac47ba7714",
-      "source": "GeekNews",
-      "title": "시, Flock이 영업 데모로 어린이 체조실 카메라에 접근한 사실을 알게 됨",
-      "link": "https://news.hada.io/topic?id=29098",
-      "published_at": "2026-05-02T08:33:24+00:00",
-      "summary": "Atlanta 교외 도시 Dunwoody 에서 Flock 영업 직원들이 전국 경찰서 대상 제품 시연을 위해 어린이 체조실, 놀이터, 학교, Jewish community center, 수영장 카메라에 접근한 사실이 드러남 Dunwoody 주민 Jason Hunyar 는 공공기록 청구로 Flock 접근 로그를 확보했...",
-      "fetched_at": "2026-05-02T12:28:45.491871+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "781f34ffe5595975a51d93115f0b35a3aabffd3e",
-      "is_english_source": false,
-      "sent_at": "2026-05-02T12:31:28.900865+00:00"
-    },
-    {
-      "id": "2e40539dfbc325ef8bb71947f91211be71203eae",
-      "title_hash": "d17ac65bf64e20ca04b5bf0733e6fc71faad9d66",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Filling PDF forms with AI using client-side tool calling",
-      "link": "https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&form=w9&lang=en",
-      "published_at": "2026-05-02T08:54:27+00:00",
-      "summary": "HN story type: story HN points: 21 HN comments: 10 HN post text: Hey HN! I built SimplePDF Copilot: an AI assistant that can interact with the PDF editor. It fills fields, answers questions, focuses on a specific field, adds fields, deletes pages, and so on. It's built on top of SimplePDF that I started 7 years ago, pioneering privacy-respecting client-side pdf editing, now used monthly by 200k+ people. As for the privacy model: the PDF itself never leaves the browser. Parsing, rendering, and field detection all run client-side. The text the model needs (and your messages) goes to whatever LLM you point at. By default that's our demo proxy (DeepSeek V4 Flash, rate-capped), but you can BYOK and point it at any cloud provider, or go fully local (I've been testing with LM Studio). Unlike the existing \"Chat with PDF\" tools that only retrieve the text/OCR layer, Copilot can act on the PDF: filling fields, adding fields (detected client-side using CommonForms by Joe Barrow [1], jbarrow on HN with some post-processing heuristics I added on top), focusing on fields, deleting pages, and so on. I built this because SimplePDF is mostly used by healthcare customers where document privacy is paramount, and I wanted an AI experience that didn't require shi... HN top comments: nilirl: One thing I've struggled with before is building a collection of data models based off of a collection of PDF forms. I wanted to abstract away the PDF form building my own html form on top of a data model that can later be used to programmatically fill the PDF . Since I had 100s of PDFs, I wanted an OCR+LLM pipeline to build a data model for each PDF. Unfortunately, OCR + LLM works ~90% of the time but sometimes f... iamflimflam1: Might be worth making it clearer that the chat messages are going to a remote server. So any PII data is leaving the local machine. grahammccain: Keep going though. I’m definitely looking for something like this once we can get something secure we can use with proprietary and pii data.",
-      "fetched_at": "2026-05-02T12:28:45.491871+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47984675",
-      "hn_story_type": "story",
-      "hn_points": "21",
-      "hn_comments_count": "10",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47984675",
-      "hn_item_text": "Hey HN! I built SimplePDF Copilot: an AI assistant that can interact with the PDF editor. It fills fields, answers questions, focuses on a specific field, adds fields, deletes pages, and so on. It's built on top of SimplePDF that I started 7 years ago, pioneering privacy-respecting client-side pdf editing, now used monthly by 200k+ people. As for the privacy model: the PDF itself never leaves the browser. Parsing, rendering, and field detection all run client-side. The text the model needs (and your messages) goes to whatever LLM you point at. By default that's our demo proxy (DeepSeek V4 Flash, rate-capped), but you can BYOK and point it at any cloud provider, or go fully local (I've been testing with LM Studio). Unlike the existing \"Chat with PDF\" tools that only retrieve the text/OCR layer, Copilot can act on the PDF: filling fields, adding fields (detected client-side using CommonForms by Joe Barrow [1], jbarrow on HN with some post-processing heuristics I added on top), focusing on fields, deleting pages, and so on. I built this because SimplePDF is mostly used by healthcare customers where document privacy is paramount, and I wanted an AI experience that didn't require shi...",
-      "hn_comment_preview": "nilirl: One thing I've struggled with before is building a collection of data models based off of a collection of PDF forms. I wanted to abstract away the PDF form building my own html form on top of a data model that can later be used to programmatically fill the PDF . Since I had 100s of PDFs, I wanted an OCR+LLM pipeline to build a data model for each PDF. Unfortunately, OCR + LLM works ~90% of the time but sometimes f...\niamflimflam1: Might be worth making it clearer that the chat messages are going to a remote server. So any PII data is leaving the local machine.\ngrahammccain: Keep going though. I’m definitely looking for something like this once we can get something secure we can use with proprietary and pii data.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "61",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=37,practical_tech=17,tools_agents=37,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 37,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 37,
-          "strong_hits": [
-            "tool calling",
-            "copilot",
-            "ide",
-            "cli",
-            "llm"
-          ],
-          "support_hits": [
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "tool + calling"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "customers"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "tool calling",
-        "copilot",
-        "ide",
-        "cli",
-        "llm",
-        "local",
-        "tool",
-        "tool + calling"
-      ],
-      "detail_slug": "2e40539dfbc325ef8bb71947f91211be71203eae",
-      "is_english_source": true,
-      "translated_title": "브라우저 안에서 AI로 PDF 폼 채우는 SimplePDF 코파일럿",
-      "short_summary": "SimplePDF Copilot은 PDF 파일 자체를 브라우저 밖으로 보내지 않고 폼 입력, 필드 추가, 페이지 삭제 같은 작업을 AI로 처리한다. 다만 모델이 읽는 텍스트와 채팅은 원격 서버를 거칠 수 있어 개인정보 처리 경계가 실제 도입의 변수로 떠올랐다.",
-      "why_it_matters": "이 도구는 'PDF를 읽는 AI'를 넘어 'PDF를 직접 편집하는 AI'로 한 단계 옮겨간 사례다. 특히 의료처럼 문서 보안 요구가 높은 현장에서는 업무 자동화 가능성과 데이터 통제 범위를 함께 따져보게 만든다.\n- 브라우저 안에서 파싱, 렌더링, 필드 탐지가 돌아가므로 원본 PDF를 외부로 넘기기 어려운 조직에도 검토 여지가 생긴다.\n- 단순 질의응답이 아니라 필드 채우기, 특정 항목 포커스, 필드 추가, 페이지 삭제까지 이어져 반복적인 문서 처리 흐름을 더 많이 자동화할 수 있다.\n- 실무에서는 'PDF는 안 나가지만 프롬프트와 추출 텍스트는 어디로 가는가'가 핵심 체크포인트다. BYOK나 로컬 모델 운영 여부가 도입 기준을 가를 가능성이 크다.",
-      "hn_reaction_summary": "HN 반응은 방향성에는 공감하지만, 프라이버시 설명은 더 엄격해야 한다는 쪽에 무게가 실렸다. 써보고 싶다는 반응도 있었지만 의료·PII 문서에 적용하려면 신뢰 경계를 더 분명히 보여 달라는 주문이 반복됐다.\n- 가장 많이 나온 쟁점은 'PDF는 로컬에 남아도 채팅과 모델 입력은 원격으로 나갈 수 있다'는 점이었다. 개인정보가 실제로 어디까지 이동하는지 더 명확히 써야 한다는 의견이 눈에 띄었다.\n- 일부 댓글은 수백 개 PDF를 데이터 모델로 추상화하는 수요를 언급했다. OCR+LLM 파이프라인이 90% 정도는 맞아도 남은 10%의 예외 처리 비용이 커서, 현장 자동화의 병목이 여전히 남아 있다는 지적이다.\n- 전반적 분위기는 회의론보다 조건부 기대에 가깝다. 보안 요건만 맞추면 실제 업무에 바로 써보고 싶다는 반응이 함께 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-02T12:31:28.900865+00:00"
-    },
-    {
-      "id": "5965865469e96591b2df5d70dc114c7eba0300c8",
-      "title_hash": "1c07c5506900238002f19c662a3c652bb3ff2e16",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Piruetas – A self-hosted diary app I built for my girlfriend",
-      "link": "https://piruet.app",
-      "published_at": "2026-05-02T10:42:55+00:00",
-      "summary": "HN story type: story HN points: 20 HN comments: 22 HN post text: I searched for a simple, self-hosted journal app for my girlfriend and everything I found was either too complex, too feature-heavy, too feature-less for what I needed or required trusting a cloud service. So I built Piruetas (it means pirouettes in Spanish - she chose the name btw). It's a day-per-page diary with rich text editing, drag-and-drop image uploads, auto-save, public share links, and a clean mobile UI. It can be set up for Personal or Multi-user usage via docker compose deployment. She seems to like it so I decided to give back to the community and make it available for everyone (after some QA) Live demo: https://piruet.app (login: demo / piruetas — data resets every 30 min!) GitHub: https://github.com/patillacode/piruetas HN top comments: roscas: Nice, simple, light and dark theme, a calendar. I would remove the internet checks for your storage.ko-fi.com and it did some calls on pypi.org and files.pythonhosted.org. All it needs should be on the docker by default. But that is just me. edu: Pirueta is not lollipop in Spanish, it would be “piruletas” (at least in Spain Spanish). Piruetas is pirouette, as in what a ice skater might do. deaux: Wholesale accepting all of the stock Opus colors is certainly a choice.",
-      "fetched_at": "2026-05-02T12:28:45.491871+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47985210",
-      "hn_story_type": "story",
-      "hn_points": "20",
-      "hn_comments_count": "22",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47985210",
-      "hn_item_text": "I searched for a simple, self-hosted journal app for my girlfriend and everything I found was either too complex, too feature-heavy, too feature-less for what I needed or required trusting a cloud service. So I built Piruetas (it means pirouettes in Spanish - she chose the name btw). It's a day-per-page diary with rich text editing, drag-and-drop image uploads, auto-save, public share links, and a clean mobile UI. It can be set up for Personal or Multi-user usage via docker compose deployment. She seems to like it so I decided to give back to the community and make it available for everyone (after some QA) Live demo: https://piruet.app (login: demo / piruetas — data resets every 30 min!) GitHub: https://github.com/patillacode/piruetas",
-      "hn_comment_preview": "roscas: Nice, simple, light and dark theme, a calendar. I would remove the internet checks for your storage.ko-fi.com and it did some calls on pypi.org and files.pythonhosted.org. All it needs should be on the docker by default. But that is just me.\nedu: Pirueta is not lollipop in Spanish, it would be “piruletas” (at least in Spain Spanish). Piruetas is pirouette, as in what a ice skater might do.\ndeaux: Wholesale accepting all of the stock Opus colors is certainly a choice.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "46",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=7,strategy_insight=7,industry_business=1",
-      "slot_scores": {
-        "practical_tech": 22,
-        "tools_agents": 7,
-        "strategy_insight": 7,
-        "industry_business": 1
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 22,
-          "strong_hits": [
-            "storage",
-            "show hn",
-            "docker",
-            "rust"
-          ],
-          "support_hits": [
-            "deployment"
-          ],
-          "negative_hits": [
-            "ipo"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 1,
-          "strong_hits": [
-            "ipo"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "docker"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "storage",
-        "show hn",
-        "docker",
-        "rust",
-        "deployment"
-      ],
-      "detail_slug": "5965865469e96591b2df5d70dc114c7eba0300c8",
-      "is_english_source": true,
-      "translated_title": "여자친구를 위해 만든 셀프호스팅 다이어리 앱, 피루에타스",
-      "short_summary": "기존 저널 앱이 너무 복잡하거나 클라우드 의존적이라, 개발자가 하루 한 페이지 방식의 셀프호스팅 다이어리 앱을 직접 만들었다. 리치 텍스트, 이미지 업로드, 자동 저장, 모바일 UI와 도커 컴포즈 배포를 지원한다.",
-      "why_it_matters": "개인 기록 앱에서도 기능을 늘리기보다 데이터 소유권과 사용 흐름을 단순하게 가져가려는 수요가 드러난 사례다. 특히 셀프호스팅을 원하는 사용자는 설치 난도와 모바일 사용성을 함께 본다는 점이 잘 보인다.\n- 일기처럼 민감한 데이터는 클라우드 서비스보다 직접 보관하고 싶어 하는 수요가 분명하다. 작은 앱이라도 프라이버시가 제품 선택의 출발점이 될 수 있다.\n- 도커 컴포즈로 개인용과 다중 사용자 구성을 모두 열어둔 점은 실무적으로도 참고할 만하다. 개인 프로젝트라도 배포 방식이 단순해야 실제 사용으로 이어진다.\n- 범용 노트 앱 대신 하루 한 페이지라는 좁은 모델을 택한 점도 눈에 띈다. 기능을 덜어낸 설계가 오히려 사용자 목적과 더 잘 맞을 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이다. 다만 깔끔한 UI를 반기는 반응과 셀프호스팅답지 않은 구현 요소를 짚는 반론이 함께 나왔다.\n- 라이트·다크 테마와 캘린더, 전반적으로 단순한 화면 구성이 좋다는 평가가 반복됐다. 군더더기 없는 일기 앱이라는 첫인상은 잘 먹혔다.\n- 반면 컨테이너가 외부 주소나 파이썬 패키지 저장소에 접근하는 점은 불필요하다는 지적이 나왔다. 셀프호스팅 도구라면 네트워크 의존성을 더 엄격하게 보게 된다는 뜻이다.\n- 이름의 스페인어 의미나 기본 색상 선택 같은 브랜딩 디테일까지 의견이 붙었다. HN 특유의 분위기처럼 제품 콘셉트보다 마감 완성도를 함께 보는 흐름이 드러났다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-02T12:31:28.900865+00:00"
-    },
-    {
-      "id": "f15916508b22f38160ca29adaca3fb3b00b58e54",
-      "title_hash": "04fbbe8921d500b0c8edf1e361a95184e8cf5b3c",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Mljar Studio – local AI data analyst that saves analysis as notebooks",
-      "link": "https://mljar.com/",
-      "published_at": "2026-05-02T10:21:31+00:00",
-      "summary": "HN story type: story HN points: 22 HN comments: 3 HN post text: Hi HN, I’ve been working on mljar-supervised (open-source AutoML for tabular data) for a few years. Recently I built a desktop app around it called MLJAR Studio. The idea is simple: you talk to your data in natural language, the AI generates Python code, executes it locally, and the whole conversation becomes a reproducible notebook (*.ipynb file). So instead of just chatting with data, you end up with something you can inspect, modify, and rerun. What MLJAR Studio does: - Sets up a local Python environment automatically, runs on Mac, Windows, and Linux - Installs missing packages during the conversation - Built-in AutoML for tabular data (classification, regression, multiclass) - Works with standard Python libraries (pandas, matplotlib, etc.) - Works with any data file: CSV, Excel, Stata, Parquet ... - Connects to PostgreSQL, MySQL, SQL Server, Snowflake, Databricks, and Supabase. For AI: use Ollama locally (zero data egress), bring your own OpenAI key, or use MLJAR AI add-on. I built this because I wanted something between Jupyter Notebook (flexible but manual) and AI tools that generate code but don’t preserve the workflow. Most tools I tried either hide too much or don’t giv... HN top comments: amirathi: Really cool. If somebody doesn't want to adopt a new platform, take a look at open source Jupyter MCP Server[1]. Once integrated with Claude, it can execute code on the live notebook kernel. I just let Claude write notebooks, run top to bottom, debug & fix errors & only ping me when everything is working. [1] https://github.com/datalayer/jupyter-mcp-server 2ndorderthought: This is one of those product areas I would call high-risk without a human in the loop. So I am glad you kept a person in the loop. It's really easy to lose tons of money making decisions based on bad statistics or models. Anyone remember how much money zillow lost because of automatic time series models? I do have concerns about the workflow. Data people aren't usually the best programmers. Models hallucinate and... estetlinus: This is one shot with Claude Code. What’s the moat?",
-      "fetched_at": "2026-05-02T12:28:45.491871+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "47985077",
-      "hn_story_type": "story",
-      "hn_points": "22",
-      "hn_comments_count": "3",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=47985077",
-      "hn_item_text": "Hi HN, I’ve been working on mljar-supervised (open-source AutoML for tabular data) for a few years. Recently I built a desktop app around it called MLJAR Studio. The idea is simple: you talk to your data in natural language, the AI generates Python code, executes it locally, and the whole conversation becomes a reproducible notebook (*.ipynb file). So instead of just chatting with data, you end up with something you can inspect, modify, and rerun. What MLJAR Studio does: - Sets up a local Python environment automatically, runs on Mac, Windows, and Linux - Installs missing packages during the conversation - Built-in AutoML for tabular data (classification, regression, multiclass) - Works with standard Python libraries (pandas, matplotlib, etc.) - Works with any data file: CSV, Excel, Stata, Parquet ... - Connects to PostgreSQL, MySQL, SQL Server, Snowflake, Databricks, and Supabase. For AI: use Ollama locally (zero data egress), bring your own OpenAI key, or use MLJAR AI add-on. I built this because I wanted something between Jupyter Notebook (flexible but manual) and AI tools that generate code but don’t preserve the workflow. Most tools I tried either hide too much or don’t giv...",
-      "hn_comment_preview": "amirathi: Really cool. If somebody doesn't want to adopt a new platform, take a look at open source Jupyter MCP Server[1]. Once integrated with Claude, it can execute code on the live notebook kernel. I just let Claude write notebooks, run top to bottom, debug & fix errors & only ping me when everything is working. [1] https://github.com/datalayer/jupyter-mcp-server\n2ndorderthought: This is one of those product areas I would call high-risk without a human in the loop. So I am glad you kept a person in the loop. It's really easy to lose tons of money making decisions based on bad statistics or models. Anyone remember how much money zillow lost because of automatic time series models? I do have concerns about the workflow. Data people aren't usually the best programmers. Models hallucinate and...\nestetlinus: This is one shot with Claude Code. What’s the moat?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "58",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=34,practical_tech=30,tools_agents=34,strategy_insight=7,industry_business=-2",
-      "slot_scores": {
-        "practical_tech": 30,
-        "tools_agents": 34,
-        "strategy_insight": 7,
-        "industry_business": -2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 30,
-          "strong_hits": [
-            "open source",
-            "postgres",
-            "show hn",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 34,
-          "strong_hits": [
-            "claude code",
-            "workflow",
-            "mcp",
-            "ide"
-          ],
-          "support_hits": [
-            "workflow",
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "workflow",
-        "mcp",
-        "ide",
-        "local",
-        "tool",
-        "claude + code"
-      ],
-      "detail_slug": "f15916508b22f38160ca29adaca3fb3b00b58e54",
-      "is_english_source": true,
-      "translated_title": "MLJAR 스튜디오, 분석을 노트북으로 남기는 로컬 AI 데이터 분석기",
-      "short_summary": "MLJAR 스튜디오는 자연어로 데이터 분석을 지시하면 로컬에서 파이썬 코드를 실행하고 결과를 재현 가능한 노트북으로 저장한다. 주피터의 유연함과 AI 자동화 사이를 잇는 데 초점을 맞췄다.",
-      "why_it_matters": "AI로 데이터 분석을 빠르게 시작하는 도구는 많지만, 결과를 검토하고 다시 돌리고 팀에 넘기는 단계에서 흐름이 자주 끊긴다. MLJAR 스튜디오는 로컬 실행과 노트북 저장으로 그 빈틈을 메우려는 접근이다.\n- 대화 결과가 그대로 .ipynb 파일로 남아 검토, 수정, 재실행이 쉬워진다.\n- 파이썬 환경 구성과 패키지 설치를 자동화해 분석 착수에 드는 손작업을 줄여준다.\n- 로컬 모델이나 자체 OpenAI 키를 쓸 수 있어 데이터 반출을 꺼리는 팀에도 맞는 선택지로 보인다.",
-      "hn_reaction_summary": "댓글 수는 많지 않지만 반응의 결은 분명하다. 로컬에서 돌고 사람이 끝까지 확인할 수 있는 구조에는 호감이 있었고, 동시에 이런 제품이 어디까지 차별화될 수 있는지 묻는 시선도 바로 붙었다.\n- 긍정 쪽에서는 주피터 기반 워크플로와 잘 이어져 실제 분석 현장에 얹기 쉽겠다는 평가가 나왔다.\n- 우려 쪽에서는 통계나 모델 판단을 AI에 과하게 맡기면 큰 비용으로 돌아올 수 있어 사람 검토가 빠지면 안 된다는 지적이 반복됐다.\n- 또 다른 쟁점은 방어선이다. Jupyter MCP Server나 Claude Code로 비슷한 흐름을 만들 수 있는데, 이 제품만의 강점이 무엇이냐는 질문이 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-02T12:31:28.900865+00:00"
-    },
-    {
-      "id": "973ed2aefc72b4c19a92afb9b2fa9eabdfaaa1f8",
-      "title_hash": "563466f088f9e5583f5f639472aa8fcd9243ed2b",
-      "source": "GeekNews",
-      "title": "Uber, Claude Code에 2026년 AI 예산을 4개월 만에 모두 태움",
-      "link": "https://news.hada.io/topic?id=29094",
-      "published_at": "2026-05-02T04:34:25+00:00",
-      "summary": "Uber는 Claude Code 와 Cursor 사용 확대로 2026년 AI 예산 전체를 4개월 만에 소진했고, 생산성 실험이 곧바로 예산 재검토 문제로 이어짐 Uber CTO는 엔지니어 1인당 월간 API 비용이 500~2,000달러 수준이었다고 밝혔고, 엔지니어의 95...",
-      "fetched_at": "2026-05-02T08:19:18.643727+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "65",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=5,tools_agents=20,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 20,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "cursor"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "cursor",
-        "claude + code"
-      ],
-      "detail_slug": "973ed2aefc72b4c19a92afb9b2fa9eabdfaaa1f8",
-      "is_english_source": false,
-      "sent_at": "2026-05-02T08:22:08.576340+00:00"
     }
   ],
   "topic_digests": {
