@@ -1,6 +1,588 @@
 {
   "items": [
     {
+      "id": "d11242ece3048968d04b2c679ccec75869b81c35",
+      "title_hash": "2c3682039da6263772da8f62100861a37b8647b8",
+      "source": "GeekNews",
+      "title": "NVIDIA Auto Ontology - 기업 데이터의 의미와 관계를 AI 에이전트에 연결하는 오픈소스 도구",
+      "link": "https://news.hada.io/topic?id=36528&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-03T14:37:52+00:00",
+      "summary": "데이터의 업무 용어와 지표, 관계를 정리 해 AI 에이전트가 기업 데이터를 이해하고 질의하도록 돕는 도구 메타데이터에서 온톨로지와 지식 그래프를 생성 하며, 기존 온톨로지와 의미 모델도 연결 가능 자연어 질문을 SQL로 변환하고 실행 하며, 업무 정의와 데이터 계보에 대조해 검증하고 답변의 출처를 제공 MCP, CLI, API 로 에이전트와 연결하며, 웹 UI에서 데이터 질의와 카탈로그 관리도 지원 Databricks, PostgreSQL, Snowflake, DuckDB와 연결하며, NVIDIA NIM이나 OpenAI 호환 모델 엔드포인트 를 사용 가능 기업 데이터의 의미와 …",
+      "fetched_at": "2026-11-03T17:05:53.617568+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "64",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=19,practical_tech=15,tools_agents=19,strategy_insight=3,industry_business=-2",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 19,
+        "strategy_insight": 3,
+        "industry_business": -2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "postgres",
+            "api",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 19,
+          "strong_hits": [
+            "에이전트",
+            "mcp",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "mcp",
+        "cli"
+      ],
+      "detail_slug": "d11242ece3048968d04b2c679ccec75869b81c35",
+      "is_english_source": false,
+      "sent_at": "2026-11-03T17:08:10.644495+00:00"
+    },
+    {
+      "id": "35db8dabd3fb598910be9bdc42363881b6edc12f",
+      "title_hash": "f70b5d103c8b69168da661b42746eeb9c7b18334",
+      "source": "GeekNews",
+      "title": "타임아웃을 하드코딩하지 마세요",
+      "link": "https://news.hada.io/topic?id=36520&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-03T10:01:43+00:00",
+      "summary": "도구에 필요한 것은 타임아웃의 제거가 아니라 사용자가 변경할 수 있는 제한 시간 임. 빠른 개발 환경을 기준으로 고정한 시간 제한은 느린 연결이나 큰 저장소를 사용하는 환경에서 도구 사용을 막음 npx skills 로 대규모 스킬 저장소를 설치하는 과정에서 60초 복제 제한 에 걸리는 사례가 있음. 수동 복제로 우회할 수 있지만 잠금 파일 공유와 업데이트에 문제가 생김 Docker의 AI 디버깅 도우미 Gordon 은 컨테이너 빌드가 2분 안에 끝나지 않으면 세션을 종료하며, 이 제한을 조정할 방법이 없음 타임아웃은 안전한 기본값 , 명확한 문 …",
+      "fetched_at": "2026-11-03T17:05:53.617568+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=-8",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -8
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "docker"
+          ],
+          "support_hits": [
+            "컨테이너"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "docker",
+            "컨테이너"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "docker",
+        "컨테이너"
+      ],
+      "detail_slug": "35db8dabd3fb598910be9bdc42363881b6edc12f",
+      "is_english_source": false,
+      "sent_at": "2026-11-03T17:08:10.644495+00:00"
+    },
+    {
+      "id": "a3d5708b8c465c14022f4c02b1d35aed2246a6d6",
+      "title_hash": "e28f95c6ff5cddc59b681b108ff080ca6f7a327e",
+      "source": "GeekNews",
+      "title": "AI 시대, 자아를 내려놓는 수학",
+      "link": "https://news.hada.io/topic?id=36524&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-03T12:33:42+00:00",
+      "summary": "수학의 가치를 개인의 성과나 능력 증명 이 아니라 진리의 이해 에 둔다면, AI의 발견이 인간의 탐구 목적을 위협할 필요는 없음 플라톤주의 관점 에서는 수학적 진리가 인간과 독립적으로 존재하며, 새로운 언어와 이론을 만드는 창의성은 그 진리를 발견하는 수단이 됨 올바른 추론과 의미의 이해 는 다름. 더 긴 추론을 수행하는 능력만으로는 무엇을 탐구할 가치가 있는지, 왜 그것을 알아야 하는지 결정할 수 없음 논문, 인용, 수상 같은 성과 지표 로 지적 활동의 가치를 규정하면 AI에 대한 대체 불안이 자연스러워짐. 창의성이나 직관 …",
+      "fetched_at": "2026-11-03T17:05:53.617568+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 5,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "관점"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "관점"
+      ],
+      "detail_slug": "a3d5708b8c465c14022f4c02b1d35aed2246a6d6",
+      "is_english_source": false,
+      "sent_at": "2026-11-03T17:08:10.644495+00:00"
+    },
+    {
+      "id": "d9273e39e31ae5b834389da0013468fbd6fde384",
+      "title_hash": "5b7dfe3ec8f49bc31b11fda94d52634c082d9e88",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "OpenAI seems to be silently re-enabling model training on Codex chats",
+      "link": "https://news.ycombinator.com/item?id=50352757",
+      "published_at": "2026-11-03T14:53:41+00:00",
+      "summary": "HN story type: story HN points: 90 HN comments: 31 HN post text: My company is pretty paranoid about leaking IP to the frontier labs through prompts, so we've all been diligent about disabling data sharing in Codex/Claude Code/etc. But yesterday my coworkers and I noticed that the setting had been silently reenabled in Codex. None of us knowingly opted back in. You can check your settings here: https://chatgpt.com/settings/data-controls. Look for \"Improve the model for everyone\". Curious if this is an isolated issue or something more widespread. EDIT: looks like this has been noted before https://news.ycombinator.com/item?id=49643556 EDIT: apparently you can also turn off data sharing here: https://privacy.openai.com/policies?modal=take-control HN top comments: monster_truck: If your company actually cared about this they would be running their own inference instead of leaving fate to a couple of checkboxes. 1239715: Disabling \"improve the model\" is one thing. Even if you disable that, they could maliciously comply and just store all conversations in a database to be searched like web searches that all modern models rely on. Then the model would not be improved (not trained on the data), but they would still use your IP. Given that it is impossible to really delete emails from providers, I would have little hope even with a ze... apt-apt-apt-apt: Or my other favorite move, the quiet new little guy in settings. E.g. \"Allow ABC to transmit, log, and track your every move? ON\" Hey, when did this little guy get here!",
+      "fetched_at": "2026-11-03T17:05:53.617568+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50352757",
+      "hn_story_type": "story",
+      "hn_points": "90",
+      "hn_comments_count": "31",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50352757",
+      "hn_item_text": "My company is pretty paranoid about leaking IP to the frontier labs through prompts, so we've all been diligent about disabling data sharing in Codex/Claude Code/etc. But yesterday my coworkers and I noticed that the setting had been silently reenabled in Codex. None of us knowingly opted back in. You can check your settings here: https://chatgpt.com/settings/data-controls. Look for \"Improve the model for everyone\". Curious if this is an isolated issue or something more widespread. EDIT: looks like this has been noted before https://news.ycombinator.com/item?id=49643556 EDIT: apparently you can also turn off data sharing here: https://privacy.openai.com/policies?modal=take-control",
+      "hn_comment_preview": "monster_truck: If your company actually cared about this they would be running their own inference instead of leaving fate to a couple of checkboxes.\n1239715: Disabling \"improve the model\" is one thing. Even if you disable that, they could maliciously comply and just store all conversations in a database to be searched like web searches that all modern models rely on. Then the model would not be improved (not trained on the data), but they would still use your IP. Given that it is impossible to really delete emails from providers, I would have little hope even with a ze...\napt-apt-apt-apt: Or my other favorite move, the quiet new little guy in settings. E.g. \"Allow ABC to transmit, log, and track your every move? ON\" Hey, when did this little guy get here!",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=25,practical_tech=14,tools_agents=25,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 25,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "inference",
+            "database"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "ide"
+          ],
+          "support_hits": [
+            "prompt"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "ide",
+        "prompt",
+        "claude + code"
+      ],
+      "detail_slug": "d9273e39e31ae5b834389da0013468fbd6fde384",
+      "is_english_source": true,
+      "sent_at": "2026-11-03T17:08:10.644495+00:00"
+    },
+    {
+      "id": "11cb8090bc1fb889f63c8e48e6dc7206b84988ec",
+      "title_hash": "86ad52dea761702f2ebaa53bdd4b215fe7990786",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Gitbook Breached",
+      "link": "https://news.ycombinator.com/item?id=50354336",
+      "published_at": "2026-11-03T16:45:49+00:00",
+      "summary": "HN story type: story HN points: 10 HN comments: 1 HN post text: We opened a ticket with support about Gitbook availability issues and got this in reply. We have yet to see any official customer communication or breach notification. Apologies for the formatting, did the best I could as it's a mobile paste. Update: GitBook security incident update Hey , The GitBook app, the GitBook API, and published docs are available again. A few services may still be degraded as we finish restoring everything to full performance. *What happened* GitBook has been the target of a sophisticated, highly targeted attack using AI agents. At 19:00 CET, November 2, the attacker gained unauthorized access to some of our infrastructure credentials. We detected the attack immediately and acted swiftly to block further impact. To make sure our infrastructure was fully secure, we then took the GitBook app and authenticated docs sites offline. We kept publicly published content live for as long as possible, using cached data. *What we did immediately* * Blocked the attacker and closed the vulnerabilities involved * Replaced every credential and secret across our infrastructure * Brought services back only once we were confident they were secure * Invalidated every custom... HN top comments: punchmesan: Oof that formatting is rougher than I thought. Will try to clean it up after I'm done reconfiguring gitbook...",
+      "fetched_at": "2026-11-03T17:05:53.617568+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50354336",
+      "hn_story_type": "story",
+      "hn_points": "10",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50354336",
+      "hn_item_text": "We opened a ticket with support about Gitbook availability issues and got this in reply. We have yet to see any official customer communication or breach notification. Apologies for the formatting, did the best I could as it's a mobile paste. Update: GitBook security incident update Hey , The GitBook app, the GitBook API, and published docs are available again. A few services may still be degraded as we finish restoring everything to full performance. *What happened* GitBook has been the target of a sophisticated, highly targeted attack using AI agents. At 19:00 CET, November 2, the attacker gained unauthorized access to some of our infrastructure credentials. We detected the attack immediately and acted swiftly to block further impact. To make sure our infrastructure was fully secure, we then took the GitBook app and authenticated docs sites offline. We kept publicly published content live for as long as possible, using cached data. *What we did immediately* * Blocked the attacker and closed the vulnerabilities involved * Replaced every credential and secret across our infrastructure * Brought services back only once we were confident they were secure * Invalidated every custom...",
+      "hn_comment_preview": "punchmesan: Oof that formatting is rougher than I thought. Will try to clean it up after I'm done reconfiguring gitbook...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "performance",
+            "security",
+            "cache",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ai agent",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "security",
+        "cache",
+        "api"
+      ],
+      "detail_slug": "11cb8090bc1fb889f63c8e48e6dc7206b84988ec",
+      "is_english_source": true,
+      "sent_at": "2026-11-03T17:08:10.644495+00:00"
+    },
+    {
+      "id": "552b5ccef393da5c5dfe3388504ba18d3cf78d1f",
+      "title_hash": "622c30c9bde5f5850b22eaef7c888404eb0c6c40",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Antimony: CAD Software Evolved from Lisp Machines and Not Drafting Tables",
+      "link": "https://www.mattkeeter.com/projects/antimony/3/",
+      "published_at": "2026-11-02T08:29:40+00:00",
+      "summary": "HN story type: story HN points: 33 HN comments: 7 HN top comments: mkeeter: This could use a (2015) label :) I've been tapering off maintenance since 2016 or so, but it has a more actively-maintained fork over at https://github.com/nsfm/stibium (albeit with heavy LLM assistance, because it's 2026!) YMMV – I haven't used it or closely inspected the changes, but have corresponded with the author, who seems genuinely dedicated in the success of the project. WillAdams: This probably merits noting that the whole Code CAD thing is getting pushed very hard lately with many new AI-driven projects. I will note the following projects which have made recent advancements: - OpenSCAD --- the hopefully final Release Candidate for the long-awaited update is now available: https://openscad.org/downloads.html#rc - PythonSCAD --- for folks who want variables which change and so forth: https:/... badlibrarian: To anyone else who had to parse early KiCad file formats, where the parentheses and quoting on S-expressions was more of a guideline than a rule, I salute you.",
+      "fetched_at": "2026-11-03T17:05:53.617568+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50334363",
+      "hn_story_type": "story",
+      "hn_points": "33",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50334363",
+      "hn_item_text": "",
+      "hn_comment_preview": "mkeeter: This could use a (2015) label :) I've been tapering off maintenance since 2016 or so, but it has a more actively-maintained fork over at https://github.com/nsfm/stibium (albeit with heavy LLM assistance, because it's 2026!) YMMV – I haven't used it or closely inspected the changes, but have corresponded with the author, who seems genuinely dedicated in the success of the project.\nWillAdams: This probably merits noting that the whole Code CAD thing is getting pushed very hard lately with many new AI-driven projects. I will note the following projects which have made recent advancements: - OpenSCAD --- the hopefully final Release Candidate for the long-awaited update is now available: https://openscad.org/downloads.html#rc - PythonSCAD --- for folks who want variables which change and so forth: https:/...\nbadlibrarian: To anyone else who had to parse early KiCad file formats, where the parentheses and quoting on S-expressions was more of a guideline than a rule, I salute you.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=6,tools_agents=12,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "guide"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm"
+      ],
+      "detail_slug": "552b5ccef393da5c5dfe3388504ba18d3cf78d1f",
+      "is_english_source": true,
+      "sent_at": "2026-11-03T17:08:10.644495+00:00"
+    },
+    {
+      "id": "661ebe0ba8d67eb21fd55055d2d91d539d14eb0e",
+      "title_hash": "f66f8edc6e117e16e1bc15ce42c0070876bdb54f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Ashby (YC W19) Is Hiring EMs",
+      "link": "https://www.ashbyhq.com/careers?ashby_jid=695b1ce6-c375-4fad-94ef-61b50a3fbd28&utm_source=hn",
+      "published_at": "2026-11-03T17:00:53+00:00",
+      "summary": "HN story type: job HN points: 1 HN comments: 0",
+      "fetched_at": "2026-11-03T17:05:53.617568+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50354582",
+      "hn_story_type": "job",
+      "hn_points": "1",
+      "hn_comments_count": "0",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50354582",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=4,tools_agents=2,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "career"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "career"
+      ],
+      "detail_slug": "661ebe0ba8d67eb21fd55055d2d91d539d14eb0e",
+      "is_english_source": true,
+      "sent_at": "2026-11-03T17:08:10.644495+00:00"
+    },
+    {
       "id": "5acee3a6bf4fe2b1d18e643a1a4c400a21e32cb9",
       "title_hash": "e610ccd55f277b5505660f887a6964cc8b4fa1b3",
       "source": "GeekNews",
@@ -166793,596 +167375,6 @@
       "detail_slug": "2bde5849f85d8cfa9673b3315d790984c31f478e",
       "is_english_source": false,
       "sent_at": "2026-05-05T03:09:42.850793+00:00"
-    },
-    {
-      "id": "70bc68239517aa15cc3a6290f48738c85155201c",
-      "title_hash": "eee9541b1e533d3797b9e3069ec26532a6f0c82d",
-      "source": "GeekNews",
-      "title": "2억 유로 슈퍼컴퓨터에서 코드를 실행하는 데 실제로 필요한 것",
-      "link": "https://news.hada.io/topic?id=29175",
-      "published_at": "2026-05-04T23:37:02+00:00",
-      "summary": "바르셀로나 카탈루냐 공대의 MareNostrum V 는 세계 15대 슈퍼컴퓨터 중 하나로, 8,000개 노드에 걸쳐 분산 컴퓨팅을 수행하는 €2억 규모의 공공 연구 인프라 단일 고성능 컴퓨터가 아니라 수천 대의 독립 컴퓨터가 InfiniBand NDR200 팻트리 토폴로지 로 연결된 분...",
-      "fetched_at": "2026-05-05T03:06:39.301528+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=6,practical_tech=6,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "인프라",
-            "코드",
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "인프라",
-        "코드",
-        "성능"
-      ],
-      "detail_slug": "70bc68239517aa15cc3a6290f48738c85155201c",
-      "is_english_source": false,
-      "sent_at": "2026-05-05T03:09:42.850793+00:00"
-    },
-    {
-      "id": "20aa4a0b8d7c786a1d46424075ea249eb0381fc0",
-      "title_hash": "7851aba4f0e4a3aa7dd7c34df594674c45d2d8a1",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Securing a DoD contractor: Finding a multi-tenant authorization vulnerability",
-      "link": "https://www.strix.ai/blog/how-strix-found-zero-auth-vulnerability-dod-backed-startup",
-      "published_at": "2026-05-04T17:46:32+00:00",
-      "summary": "HN story type: story HN points: 177 HN comments: 76 HN top comments: mcoliver: I've seen this at so many startups (and worked to patch the gaps and put in best practices) including those backed by top tier VCs. The problem is that it is rare for startups to have security minded people. It's usually designers, people who can raise money, and generalists who can stitch together apis. It's not generally platform, db, or security minded people. The proliferation of things like vercel and supabas... luminati: off-topic, but I've become quite intrigued with AI pentesting, after being very unhappy with the various pentest firms we've used in the past, that rip us off or do very mediocre tests (of course yeah yeah the really good ones exist but even then they're not going to match the speed at which we are claude coding now). Tried a bunch of open source pentesters, including strix (though we never managed to get strix to... codegeek: \"There was no meaningful organization scoping, no tenant isolation, and no permission check preventing a low-privilege user from accessing other organizations' records.\" Let me guess though. They are SOC2 and ISO compliant right ?",
-      "fetched_at": "2026-05-05T03:06:39.301528+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48012162",
-      "hn_story_type": "story",
-      "hn_points": "177",
-      "hn_comments_count": "76",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48012162",
-      "hn_item_text": "",
-      "hn_comment_preview": "mcoliver: I've seen this at so many startups (and worked to patch the gaps and put in best practices) including those backed by top tier VCs. The problem is that it is rare for startups to have security minded people. It's usually designers, people who can raise money, and generalists who can stitch together apis. It's not generally platform, db, or security minded people. The proliferation of things like vercel and supabas...\nluminati: off-topic, but I've become quite intrigued with AI pentesting, after being very unhappy with the various pentest firms we've used in the past, that rip us off or do very mediocre tests (of course yeah yeah the really good ones exist but even then they're not going to match the speed at which we are claude coding now). Tried a bunch of open source pentesters, including strix (though we never managed to get strix to...\ncodegeek: \"There was no meaningful organization scoping, no tenant isolation, and no permission check preventing a low-privilege user from accessing other organizations' records.\" Let me guess though. They are SOC2 and ISO compliant right ?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=27,practical_tech=27,tools_agents=14,strategy_insight=2,industry_business=9",
-      "slot_scores": {
-        "practical_tech": 27,
-        "tools_agents": 14,
-        "strategy_insight": 2,
-        "industry_business": 9
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 27,
-          "strong_hits": [
-            "open source",
-            "security",
-            "api"
-          ],
-          "support_hits": [
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 9,
-          "strong_hits": [
-            "startup"
-          ],
-          "support_hits": [
-            "platform",
-            "startup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "security",
-        "api",
-        "testing",
-        "code + security"
-      ],
-      "detail_slug": "20aa4a0b8d7c786a1d46424075ea249eb0381fc0",
-      "is_english_source": true,
-      "translated_title": "미 국방부 계약업체에서 드러난 멀티테넌트 권한 허점",
-      "short_summary": "미 국방부 계약업체 보안 점검 과정에서 조직 범위 지정과 테넌트 격리, 권한 검사가 빠진 멀티테넌트 취약점이 드러났다. 낮은 권한 사용자도 다른 조직의 기록에 접근할 수 있었던 구조적 문제를 짚는다.",
-      "why_it_matters": "이 사례는 로그인 기능만 붙였다고 B2B 서비스 보안이 끝나는 게 아니라는 점을 보여준다. 조직 경계와 권한 모델을 초기에 잘못 잡으면 고객 데이터가 한 번에 새어 나갈 수 있다.\n- 고객사별 데이터 격리는 DB 쿼리, API, 관리자 화면까지 같은 기준으로 강제해야 한다.\n- SOC2나 ISO 같은 인증이 있어도 실제 권한 분리 설계가 허술하면 사고를 막지 못한다.\n- 개발 속도가 빨라질수록 IDOR와 권한 우회 같은 기본 취약점을 자동 테스트와 리뷰 절차로 묶어 두는 일이 더 급해진다.",
-      "hn_reaction_summary": "HN에서는 취약점 자체보다 이런 기본적인 테넌트 분리가 스타트업과 성장 기업에서 아직도 자주 빠진다는 반응이 많았다. 보안 인력과 설계 문화의 부재를 문제의 뿌리로 보는 시각이 두드러졌다.\n- 제품 출시를 서두르다 보면 조직 스코프와 권한 검사가 뒤로 밀린다는 경험담이 반복해서 나왔다.\n- 컴플라이언스 인증 배지와 실제 보안 수준은 별개라는 냉소도 적지 않았다.\n- 기존 펜테스트 업체 품질에 대한 불만과 함께 AI 기반 펜테스트가 더 빠르게 허점을 찾을 수 있을지 주목하는 의견도 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-05T03:09:42.850793+00:00"
-    },
-    {
-      "id": "6ab0df6b85dc136264694ed0051d710498f16acb",
-      "title_hash": "3a83adb3be8a2564ad2cdf7ccd7e197e88bfeb03",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Bun is being ported from Zig to Rust",
-      "link": "https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5",
-      "published_at": "2026-05-05T01:08:17+00:00",
-      "summary": "HN story type: story HN points: 190 HN comments: 120 HN top comments: stingraycharles: Interesting to see this when the current top post on HN is someone worrying about Bun as it was acquired by Anthropic. The top comment there describes “Anthropic does experiments on their own codebase, the Bun team is not gonna do the same vibe coding experiments”. Yet here we are, what looks like a massive undertaking for vibe coding. Time will tell how this will turn out. Would be nice if the Bun maintainers cou... kgeist: Interesting how times have changed. Back in 2015, the entire Go runtime (already a mature codebase) was rewritten from C to Go semi-automatically: one of the maintainers wrote a C-to-Go conversion tool (for a subset of C they used) so that it compiled and produced identical output, and then the resulting code was manually refactored to make the Go code more idiomatic and optimized. And now you can just ask a langu... archargelod: Linked commit is probably not the most convincing for this tagline. Here's a branch[0] of Claude mass rewriting Zig code into Rust which is currently at 773,950 additions and 151 deletions: [0]: https://github.com/oven-sh/bun/compare/claude/phase-a-port",
-      "fetched_at": "2026-05-05T03:06:39.301528+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48016880",
-      "hn_story_type": "story",
-      "hn_points": "190",
-      "hn_comments_count": "120",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48016880",
-      "hn_item_text": "",
-      "hn_comment_preview": "stingraycharles: Interesting to see this when the current top post on HN is someone worrying about Bun as it was acquired by Anthropic. The top comment there describes “Anthropic does experiments on their own codebase, the Bun team is not gonna do the same vibe coding experiments”. Yet here we are, what looks like a massive undertaking for vibe coding. Time will tell how this will turn out. Would be nice if the Bun maintainers cou...\nkgeist: Interesting how times have changed. Back in 2015, the entire Go runtime (already a mature codebase) was rewritten from C to Go semi-automatically: one of the maintainers wrote a C-to-Go conversion tool (for a subset of C they used) so that it compiled and produced identical output, and then the resulting code was manually refactored to make the Go code more idiomatic and optimized. And now you can just ask a langu...\narchargelod: Linked commit is probably not the most convincing for this tagline. Here's a branch[0] of Claude mass rewriting Zig code into Rust which is currently at 773,950 additions and 151 deletions: [0]: https://github.com/oven-sh/bun/compare/claude/phase-a-port",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=24,practical_tech=22,tools_agents=24,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 22,
-        "tools_agents": 24,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 22,
-          "strong_hits": [
-            "refactor",
-            "runtime",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 24,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "runtime"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "tool",
-        "claude + code",
-        "ai + coding",
-        "github.com"
-      ],
-      "detail_slug": "6ab0df6b85dc136264694ed0051d710498f16acb",
-      "is_english_source": true,
-      "translated_title": "Bun, Zig 코드베이스를 Rust로 이전 중",
-      "short_summary": "Bun 팀이 기존 Zig 코드베이스를 Rust로 옮기는 작업을 진행 중이라는 소식이다. HN에서는 AI를 활용한 대규모 변환의 완성도와 유지보수성, Anthropic 인수 뒤 개발 문화 변화 가능성이 함께 거론됐다.",
-      "why_it_matters": "런타임의 구현 언어를 바꾸는 일은 단순한 리팩터링이 아니다. 성능, 디버깅 방식, 채용 난이도, 장기 유지보수 전략까지 한 번에 건드리는 변화라서 Bun 사용자와 시스템 소프트웨어 팀 모두 눈여겨볼 만하다.\n- Bun을 쓰는 팀은 새 기능보다 회귀 버그, 빌드 안정성, 네이티브 성능이 실제로 어떻게 달라지는지 먼저 확인할 필요가 있다.\n- Rust로 옮기면 개발자 풀과 생태계 활용 폭은 넓어질 수 있다. 다만 Zig에서 쌓아온 저수준 최적화가 그대로 재현되는지는 별도 검증이 필요하다.\n- AI를 곁들인 대규모 코드 이전이 실제 프로덕션 런타임 개발에 들어왔다는 점에서, 비슷한 시도가 다른 인프라 프로젝트로 번질 가능성도 있다.",
-      "hn_reaction_summary": "HN 분위기는 기대와 경계가 뚜렷하게 갈렸다. 언어 재작성 자체는 낯설지 않다는 시선도 있었지만, 이번 건은 AI가 깊게 개입한 대형 포팅처럼 보여 불안하다는 반응이 적지 않았다.\n- Anthropic 인수 직후라 더 민감하게 받아들이는 분위기가 있었고, 일부는 이번 작업을 사실상 'vibe coding'에 가까운 실험처럼 본다.\n- 반대로 2015년 Go 런타임의 C→Go 전환 사례를 들며, 기계적 변환 뒤 사람이 다듬는 방식 자체는 새롭지 않다는 반론도 나왔다.\n- 댓글에서는 Claude가 대규모로 Zig 코드를 Rust로 바꾼 브랜치와 77만 줄이 넘는 추가분이 언급됐다. 결국 신뢰는 유지보수자가 어떤 테스트와 성능 근거를 내놓느냐에 달렸다는 의견이 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-05T03:09:42.850793+00:00"
-    },
-    {
-      "id": "0c2307fbcb947b1cacac78b262c55d05a6fde21d",
-      "title_hash": "e9bff232288c4d85ee11a79ffe075e3f5168e2ab",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Microsoft Edge stores all passwords in memory in clear text, even when unused",
-      "link": "https://twitter.com/L1v1ng0ffTh3L4N/status/2051308329880719730",
-      "published_at": "2026-05-04T18:22:42+00:00",
-      "summary": "HN story type: story HN points: 443 HN comments: 156 HN top comments: gruez: This feels like a case of \"It rather involved being on the other side of this airtight hatchway\"[1]. If you can read arbitrary process memory, you're probably also in a position to just dump out the passwords by pretending to be the user in question. > If an attacker gains administrative access on a terminal server, they can access the memory of all logged‑on user processes. If an attacker has administrative acces... ylk: For reference, this is how Google says Chrome stores passwords encrypted in memory and uses an elevated service to prevent other processes from impersonating Chrome and gaining access to the plain text passwords: https://security.googleblog.com/2024/07/improving-security-o... golem14: Since it's not been clearly stated: One attack vector might be that I step out to the bathroom for 5 minutes without locking computer, and evil hacker just dumps all my passwords before I come back. I think it's worthwhile considering this. There's a reason why password managers ask for a master password or passkey after 10 minutes. Since I thought Chrome relied on an encrypted enclave, it isn't quite feasible to...",
-      "fetched_at": "2026-05-05T03:06:39.301528+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48012735",
-      "hn_story_type": "story",
-      "hn_points": "443",
-      "hn_comments_count": "156",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48012735",
-      "hn_item_text": "",
-      "hn_comment_preview": "gruez: This feels like a case of \"It rather involved being on the other side of this airtight hatchway\"[1]. If you can read arbitrary process memory, you're probably also in a position to just dump out the passwords by pretending to be the user in question. > If an attacker gains administrative access on a terminal server, they can access the memory of all logged‑on user processes. If an attacker has administrative acces...\nylk: For reference, this is how Google says Chrome stores passwords encrypted in memory and uses an elevated service to prevent other processes from impersonating Chrome and gaining access to the plain text passwords: https://security.googleblog.com/2024/07/improving-security-o...\ngolem14: Since it's not been clearly stated: One attack vector might be that I step out to the bathroom for 5 minutes without locking computer, and evil hacker just dumps all my passwords before I come back. I think it's worthwhile considering this. There's a reason why password managers ask for a master password or passkey after 10 minutes. Since I thought Chrome relied on an encrypted enclave, it isn't quite feasible to...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "35",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=7,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 7,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [
-            "vector"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "vector"
-      ],
-      "detail_slug": "0c2307fbcb947b1cacac78b262c55d05a6fde21d",
-      "is_english_source": true,
-      "translated_title": "엣지, 쓰지 않는 비밀번호도 메모리에 평문 보관",
-      "short_summary": "마이크로소프트 엣지가 저장된 비밀번호를 쓰지 않을 때도 메모리에 평문으로 유지한다는 지적이 HN에서 화제가 됐다. 댓글에선 이미 메모리 접근권이 있으면 끝난 문제라는 의견과, 잠금 안 된 PC나 공용 서버에선 실제 위험이라는 반론이 맞섰다.",
-      "why_it_matters": "브라우저의 비밀번호 저장 방식은 평소엔 잘 드러나지 않지만, 단말 보안 정책과 운영 환경에 따라 체감 위험이 크게 달라진다.\n- 터미널 서버나 공용 PC처럼 여러 세션이 섞이는 환경에선 메모리 노출이 곧 계정 탈취로 이어질 수 있다.\n- 실무에선 화면 잠금, 세션 타임아웃, 브라우저 내장 저장 대신 전용 비밀번호 관리자 사용 여부를 다시 점검하게 된다.\n- 크롬의 메모리 암호화 방식이 비교 대상으로 떠오르면서 브라우저 선택 기준에 보안 구현 차이도 더 직접 반영될 가능성이 있다.",
-      "hn_reaction_summary": "댓글 분위기는 '심각한 결함'과 '이미 뚫린 뒤 시나리오'라는 해석이 팽팽하게 맞서는 쪽에 가까웠다.\n- 한쪽은 임의 메모리 읽기나 관리자 권한이 있으면 사실상 게임이 끝난 상태라며 과장된 반응을 경계했다.\n- 다른 쪽은 잠금 안 된 PC를 잠깐 비운 상황이나 터미널 서버 같은 환경에선 충분히 현실적인 공격면이라고 봤다.\n- 크롬이 평문 접근을 막기 위해 별도 보호 계층을 둔다는 점이 자주 언급되며, 브라우저별 보안 모델 차이를 따져봐야 한다는 의견이 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-05T03:09:42.850793+00:00"
-    },
-    {
-      "id": "c7a47d17a2ce91f95020b7a3d4410fbe5676d8e7",
-      "title_hash": "7fb75877e9a70637ac690405250a782d093650d2",
-      "source": "GeekNews",
-      "title": "pgBackRest가 죽었다. 이제 무엇을 해야 하나?",
-      "link": "https://news.hada.io/topic?id=29164",
-      "published_at": "2026-05-04T17:05:33+00:00",
-      "summary": "pgBackRest 의 단독 유지보수자 David Steele이 프로젝트 GitHub 페이지 에서 모든 작업 중단을 밝히며 유지보수 , 버그 수정, PR 리뷰, 신규 기능 개발이 멈추게 됨 pgBackRest 는 PostgreSQL 백업,...",
-      "fetched_at": "2026-05-04T22:57:03.678521+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 10,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 10,
-          "strong_hits": [
-            "postgres",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "postgres",
-        "sql"
-      ],
-      "detail_slug": "c7a47d17a2ce91f95020b7a3d4410fbe5676d8e7",
-      "is_english_source": false,
-      "sent_at": "2026-05-04T22:59:40.617574+00:00"
-    },
-    {
-      "id": "f3fb3912bad2ed43d3e16004effb53a247ce3739",
-      "title_hash": "c9ab38238cb629a70ca0daf124d838ecd6f8bdfa",
-      "source": "GeekNews",
-      "title": "Show GN: AI에게 매번 같은 설명을 하지 않기 위해 만든 gc-tree",
-      "link": "https://news.hada.io/topic?id=29161",
-      "published_at": "2026-05-04T13:42:10+00:00",
-      "summary": "gc-tree는 AI 코딩 에이전트를 위한 글로벌 컨텍스트 관리 도구입니다. 왜 만들었나요 AI를 쓰다 보면 세션이 바뀔 때마다 같은 설명을 반복하게 됩니다. 내가 어떤 방식으로 일하는지 팀이 어떤 용어를 쓰는지 이 repo와 저 repo가 어떻게 연결되는지 <p",
-      "fetched_at": "2026-05-04T22:57:03.678521+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "f3fb3912bad2ed43d3e16004effb53a247ce3739",
-      "is_english_source": false,
-      "sent_at": "2026-05-04T22:59:40.617574+00:00"
-    },
-    {
-      "id": "0fb2381eb82311dc4332cb85e09c1c0ef4cebb92",
-      "title_hash": "81c5569b00de0a8bf7ec9ed2dbfe25cd626a0db1",
-      "source": "GeekNews",
-      "title": "장기 실행 에이전트 - 에이전트가 며칠 동안 실행되면 무엇이 달라지는가",
-      "link": "https://news.hada.io/topic?id=29153",
-      "published_at": "2026-05-04T06:17:02+00:00",
-      "summary": "AI 에이전트가 단일 채팅 세션이 아닌 수일~수주간 자율 실행 되며, 여러 컨텍스트 윈도우와 샌드박스를 넘나들고 실패에서 복구하며 중단 지점부터 재개하는 새로운 패러다임 등장 기존 에이전트는 컨텍스트 윈도우 소진, 자기 평가 과신, 이전 수정 사항 재도입 등 단일 세...",
-      "fetched_at": "2026-05-04T22:57:03.678521+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "0fb2381eb82311dc4332cb85e09c1c0ef4cebb92",
-      "is_english_source": false,
-      "sent_at": "2026-05-04T22:59:40.617574+00:00"
     }
   ],
   "topic_digests": {
