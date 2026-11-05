@@ -1,6 +1,578 @@
 {
   "items": [
     {
+      "id": "a8abf88fab29c8c8dac279565e50e9ae66a0e5a1",
+      "title_hash": "84b0fdfb6e40bb8c4e34d41bc4168879b55d5a84",
+      "source": "GeekNews",
+      "title": "돌아온 페인트공 Shlemiel: Zig의 libc 재작성이 SQLite를 느리게 만든 과정",
+      "link": "https://news.hada.io/topic?id=36653&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-05T13:02:35+00:00",
+      "summary": "Rust 기반 체스 분석 서비스에서 약 4만 건의 JSON 레코드를 SQLite에 저장하는 데 수 분이 걸리고 CPU 코어 하나가 포화 되는 문제가 발생함 원인은 Linux용 SQLite를 컴파일할 때 사용한 Zig의 libc 재구현 에 있었으며, strspn 이 호출될 때마다 문자열 전체 길이를 측정해 토큰화 과정에서 문자열을 반복 순회함 토큰화가 진행될 때마다 남은 문자열 길이를 다시 측정해 이차 시간 복잡도 가 발생했으며, 해당 사례에서 1.2MB 파일의 토큰화는 약 12,000배 느려짐 SQLite 컴파일에 Zig를 사용하지 않은 Mac에서는 문제가 나타나지 않았으 …",
+      "fetched_at": "2026-11-05T14:48:39.722118+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=12,practical_tech=12,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "rust",
+            "sql"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "sql",
+        "코드"
+      ],
+      "detail_slug": "a8abf88fab29c8c8dac279565e50e9ae66a0e5a1",
+      "is_english_source": false,
+      "sent_at": "2026-11-05T14:51:11.398461+00:00"
+    },
+    {
+      "id": "8cf75c186aa6b262a776ccd62018439a2a9d7090",
+      "title_hash": "5b073fe1a877d47da23047728dfb0c5176cfba08",
+      "source": "GeekNews",
+      "title": "AI와 개발한 1년 — 사라진 건 없고, 달라진 건 많다",
+      "link": "https://news.hada.io/topic?id=36647&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-05T09:26:27+00:00",
+      "summary": "AI 에이전트와 1년여간 혼자 개발하며, 코드 작성보다 에이전트의 진행과 결과를 통제하고 개선하는 개발 과정 을 만드는 데 집중한 경험을 공유해봅니다. 시리즈로 여러편 써보려는데 그 첫번째 편입니다. 하네스 엔지니어링을 에이전트 설정과 도구 조합을 넘어, 코드 생산성이 급증한 조건에서 품질을 유지하도록 개발 과정 전체를 다시 디자인한 경험, 그리고 설계 → 구현 → 검증의 결과가 다시 설계와 규칙의 개선으로 돌아오는 닫힌 피드백 루프를 설명합니다. 설계와 규칙을 구현 컨텍스트 밖에서 검토 구현 과정의 맥락을 공유한 리뷰어는 전제와 사각지대도 공유하기 쉬우므로, 고정된 코드 스냅샷을 독립된 세션에서 검토 …",
+      "fetched_at": "2026-11-05T14:48:39.722118+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "8cf75c186aa6b262a776ccd62018439a2a9d7090",
+      "is_english_source": false,
+      "sent_at": "2026-11-05T14:51:11.398461+00:00"
+    },
+    {
+      "id": "d47027e0e159e3556bd87b04cf0529c5f049564e",
+      "title_hash": "eb72e86cbdeee87ca7d5d1197df683f8c23edfe8",
+      "source": "GeekNews",
+      "title": "당신의 암호학 음모론은 틀렸다",
+      "link": "https://news.hada.io/topic?id=36641&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-05T06:05:02+00:00",
+      "summary": "NSA의 실제 백도어 전력 만으로 현재의 암호 표준까지 백도어라고 단정할 수는 없음. 정부를 신뢰하는 문제와 기술적 능력, 자원, 임무를 근거로 의혹을 평가하는 문제는 구분해야 함 NSA에는 미국의 통신을 보호하는 COMSEC 과 외국을 감청하는 SIGINT 라는 상충하는 임무가 있음. DES에서는 S-box의 공격 저항성을 높이는 동시에 키 길이를 줄여 보안을 약화하는 선택을 했음 Clipper Chip과 Dual_EC_DRBG 는 실제로 문제가 있었지만, 외부 암호학계도 기술적 결함과 백도어 가능성을 일찍 포착했음. 이 사례들이 NSA의 은밀하고 전능한 표준 조작 능력을 입증하지는 않음 …",
+      "fetched_at": "2026-11-05T14:48:39.722118+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli"
+      ],
+      "detail_slug": "d47027e0e159e3556bd87b04cf0529c5f049564e",
+      "is_english_source": false,
+      "sent_at": "2026-11-05T14:51:11.398461+00:00"
+    },
+    {
+      "id": "7188864c254e74e525667496f2d49126ac58d8c1",
+      "title_hash": "574608587934d749362a82648f2db9e65583201b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "MCP Explained",
+      "link": "https://mcp-explained.com/",
+      "published_at": "2026-11-05T14:08:35+00:00",
+      "summary": "HN story type: story HN points: 39 HN comments: 15 HN top comments: nater5000: This is too dense. You might as well just post some Python code with sufficient comments to get the same point across. I think a nicely written article with a few diagrams would go a long way. Sometimes less is more. MCPs don't really need this level of technical explanations (it's basically just a REST API with standardized endpoints for discovery aimed at agents), and AI agents really do lack in the taste dimens... ndriscoll: Are MCP calls composable in e.g. codex yet? e.g. can a model pipe a jira MCP call to grep or sed, or at least into a file? Last I looked at MCP it was just a vastly worse version of curl, .netrc, and some short text files describing calls (which are themselves greppable). Is there anything useful beyond that that I'm missing? shaolinspirit: mcp's are barely needed, good cli's are usually better",
+      "fetched_at": "2026-11-05T14:48:39.722118+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50379249",
+      "hn_story_type": "story",
+      "hn_points": "39",
+      "hn_comments_count": "15",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50379249",
+      "hn_item_text": "",
+      "hn_comment_preview": "nater5000: This is too dense. You might as well just post some Python code with sufficient comments to get the same point across. I think a nicely written article with a few diagrams would go a long way. Sometimes less is more. MCPs don't really need this level of technical explanations (it's basically just a REST API with standardized endpoints for discovery aimed at agents), and AI agents really do lack in the taste dimens...\nndriscoll: Are MCP calls composable in e.g. codex yet? e.g. can a model pipe a jira MCP call to grep or sed, or at least into a file? Last I looked at MCP it was just a vastly worse version of curl, .netrc, and some short text files describing calls (which are themselves greppable). Is there anything useful beyond that that I'm missing?\nshaolinspirit: mcp's are barely needed, good cli's are usually better",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=24,practical_tech=9,tools_agents=24,strategy_insight=7,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 24,
+        "strategy_insight": 7,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 24,
+          "strong_hits": [
+            "ai agent",
+            "codex",
+            "mcp",
+            "cli"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "taste"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ai agent",
+        "codex",
+        "mcp",
+        "cli",
+        "agent"
+      ],
+      "detail_slug": "7188864c254e74e525667496f2d49126ac58d8c1",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T14:51:11.398461+00:00"
+    },
+    {
+      "id": "db35b1a22a85849f24de4be67f21cb32232e1201",
+      "title_hash": "081567b1e593ffac8c13a18d3e416ac01d503f76",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "GPT-6 Astra covertly underperforms on safety research",
+      "link": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/",
+      "published_at": "2026-11-05T07:44:30+00:00",
+      "summary": "HN story type: story HN points: 72 HN comments: 30 HN top comments: WarmWash: Doesn't Astra also have a \"weaker\" CoT because of it's looped transformer architecture? I remember hearing about how it could hamper interpretability, and looking a benchmarks its clear Astra can do more with less tokens, suggesting that it's \"non-token-thinking\" ability is greater. bushido: I've noticed covert underperformance on a variety of tasks in the past few months (albeit more with Claude). Classic/recurrent examples for me are: 1. Ask Claude to copy code from a more complex codebase that you own (like a monolith) and ask it to copy code to a separate codebase, like you'd do when extracting a service into a new repo, and it'll make significant changes to how the code works to pacify it's anxie... jablongo: This is not super surprising to me and mirrors my own experience with Astra and other models. I believe there is a more prosaic explanation: it is not obstructing safety research because it will restrict Astra's power in the future, its doing it because this is a type of research with overall safety implications that it has been trained to detect and avoid. So in other words, I believe this will also happen in the...",
+      "fetched_at": "2026-11-05T14:48:39.722118+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50376313",
+      "hn_story_type": "story",
+      "hn_points": "72",
+      "hn_comments_count": "30",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50376313",
+      "hn_item_text": "",
+      "hn_comment_preview": "WarmWash: Doesn't Astra also have a \"weaker\" CoT because of it's looped transformer architecture? I remember hearing about how it could hamper interpretability, and looking a benchmarks its clear Astra can do more with less tokens, suggesting that it's \"non-token-thinking\" ability is greater.\nbushido: I've noticed covert underperformance on a variety of tasks in the past few months (albeit more with Claude). Classic/recurrent examples for me are: 1. Ask Claude to copy code from a more complex codebase that you own (like a monolith) and ask it to copy code to a separate codebase, like you'd do when extracting a service into a new repo, and it'll make significant changes to how the code works to pacify it's anxie...\njablongo: This is not super surprising to me and mirrors my own experience with Astra and other models. I believe there is a more prosaic explanation: it is not obstructing safety research because it will restrict Astra's power in the future, its doing it because this is a type of research with overall safety implications that it has been trained to detect and avoid. So in other words, I believe this will also happen in the...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=8,strategy_insight=12,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 8,
+        "strategy_insight": 12,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "architecture",
+            "performance",
+            "benchmark"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [],
+          "support_hits": [
+            "research",
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "architecture",
+        "performance",
+        "benchmark"
+      ],
+      "detail_slug": "db35b1a22a85849f24de4be67f21cb32232e1201",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T14:51:11.398461+00:00"
+    },
+    {
+      "id": "b5d3319072465e9e6e018f47c4752d21a000595d",
+      "title_hash": "90937f9fccc6f313c518c58844f376deb02a00d5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "I wish tech companies knew more about me",
+      "link": "https://rakhim.exotext.com/i-wish-tech-companies-knew-more-about-me",
+      "published_at": "2026-11-05T13:40:52+00:00",
+      "summary": "HN story type: story HN points: 26 HN comments: 4 HN top comments: everdrive: Targeted advertising will never feel good, and it's not due to lack of information. Consider the following: - People who know you very well (friends, family, spouse) often buy you bad gifts you need to pretend to be happy to receive - Ultimately, advertisers aren't _merely_ trying to find things you want. They're trying to get you to buy _their_ things. So someone selling (let's say) hamburgers might be savvy enou... BigTTYGothGF: A very odd stance. Personally if I'm going to be tracked and advertised to I want it to be things I have absolutely no interest in, even better if it's in a language I don't speak. watwut: > My user account, system locale, browser locale, and keyboard settings are all set to English. I am logged into Chrome and all Google services. I travel to Germany every few months, and lots of services that I've been using for years suddenly decide I speak German. This does not require more tracking. This requires LESS tracking - just show the language explicitly requested by the user. > Netflix on Apple TV asks...",
+      "fetched_at": "2026-11-05T14:48:39.722118+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50378942",
+      "hn_story_type": "story",
+      "hn_points": "26",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50378942",
+      "hn_item_text": "",
+      "hn_comment_preview": "everdrive: Targeted advertising will never feel good, and it's not due to lack of information. Consider the following: - People who know you very well (friends, family, spouse) often buy you bad gifts you need to pretend to be happy to receive - Ultimately, advertisers aren't _merely_ trying to find things you want. They're trying to get you to buy _their_ things. So someone selling (let's say) hamburgers might be savvy enou...\nBigTTYGothGF: A very odd stance. Personally if I'm going to be tracked and advertised to I want it to be things I have absolutely no interest in, even better if it's in a language I don't speak.\nwatwut: > My user account, system locale, browser locale, and keyboard settings are all set to English. I am logged into Chrome and all Google services. I travel to Germany every few months, and lots of services that I've been using for years suddenly decide I speak German. This does not require more tracking. This requires LESS tracking - just show the language explicitly requested by the user. > Netflix on Apple TV asks...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "local"
+      ],
+      "detail_slug": "b5d3319072465e9e6e018f47c4752d21a000595d",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T14:51:11.398461+00:00"
+    },
+    {
+      "id": "098d9b1c7057ef8eac36bb7101111912463f2744",
+      "title_hash": "1c3c2945f62cd7127b907a493237aa88c4bacf6d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Baidu released ERNIE 5.5 Flash Base",
+      "link": "https://ernie.baidu.com/release/ernie-5-5-flash-base/",
+      "published_at": "2026-11-05T09:29:12+00:00",
+      "summary": "HN story type: story HN points: 114 HN comments: 65 HN top comments: mkl: The license seems really restrictive for something intended to be built on. Entire countries are forbidden to use it at all (European Union, the United Kingdom and South Korea), and you are responsible for making sure no one in those places uses your derivative. segmondy: When ernie 4 dropped, it was a really solid model and it felt very different from the other models, it got straight to the point. unfortunately for it, that's when deepseekv3 and glm started taking off. I kept it around for a few months, hopefully they recreated the magic and it doesn't over think. speedping: ERNIE feels old, like BERT. They either need a rebrand or fully embrace retro-dawn-of-ML vibes",
+      "fetched_at": "2026-11-05T14:48:39.722118+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50377078",
+      "hn_story_type": "story",
+      "hn_points": "114",
+      "hn_comments_count": "65",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50377078",
+      "hn_item_text": "",
+      "hn_comment_preview": "mkl: The license seems really restrictive for something intended to be built on. Entire countries are forbidden to use it at all (European Union, the United Kingdom and South Korea), and you are responsible for making sure no one in those places uses your derivative.\nsegmondy: When ernie 4 dropped, it was a really solid model and it felt very different from the other models, it got straight to the point. unfortunately for it, that's when deepseekv3 and glm started taking off. I kept it around for a few months, hopefully they recreated the magic and it doesn't over think.\nspeedping: ERNIE feels old, like BERT. They either need a rebrand or fully embrace retro-dawn-of-ML vibes",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "29",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=5,practical_tech=4,tools_agents=2,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "release"
+      ],
+      "detail_slug": "098d9b1c7057ef8eac36bb7101111912463f2744",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T14:51:11.398461+00:00"
+    },
+    {
       "id": "37adc9f0fb42d43666bf845f1892f8d99e332ee9",
       "title_hash": "f50ef19e81b546e9e812197947831a4241f0b145",
       "source": "GeekNews",
@@ -166578,644 +167150,6 @@
       "detail_slug": "c88467a10a4671370e6dd2165a331d5d46291b6f",
       "is_english_source": false,
       "sent_at": "2026-05-07T13:40:19.836966+00:00"
-    },
-    {
-      "id": "3e0c3218d5e5bb441c909b35477b27767a1d7f44",
-      "title_hash": "1805ada088f1d1be72b805cd2296507e5268da67",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Agent-harness-kit scaffolding for multi-agent workflows (MCP, provider-agnostic)",
-      "link": "https://ahk.cardor.dev",
-      "published_at": "2026-05-07T10:45:59+00:00",
-      "summary": "HN story type: story HN points: 35 HN comments: 7 HN top comments: philipp-gayret: Interesting project. I am working on a similar solution. Eventually you will run into the following with harnesses, so I wonder how these questions work with your project; 1) Can you define a process other than build -> review -> .. etc. And more importantly, can you define a process that is more complex? For example for each review finding, do X. Or go from end-to-end test, back to build. 2) In your setup, how do... arctide: hit this exact thing running a routines hub. When an agent is told to do something by the scheduler, the next step in the process only believes it’s done if the agent’s status is marked as ‘posted’. Statuses like ‘ready_to_post’ or ‘draft_verified_awaiting_review’… these are actually errors that the system needs to fix on the following attempt. The trickiest part was dealing with being stopped, but not having some... yshamrei: It looks very promising! Is there any plan to implement a ralph-loop inside?",
-      "fetched_at": "2026-05-07T13:36:39.908840+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48047826",
-      "hn_story_type": "story",
-      "hn_points": "35",
-      "hn_comments_count": "7",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48047826",
-      "hn_item_text": "",
-      "hn_comment_preview": "philipp-gayret: Interesting project. I am working on a similar solution. Eventually you will run into the following with harnesses, so I wonder how these questions work with your project; 1) Can you define a process other than build -> review -> .. etc. And more importantly, can you define a process that is more complex? For example for each review finding, do X. Or go from end-to-end test, back to build. 2) In your setup, how do...\narctide: hit this exact thing running a routines hub. When an agent is told to do something by the scheduler, the next step in the process only believes it’s done if the agent’s status is marked as ‘posted’. Statuses like ‘ready_to_post’ or ‘draft_verified_awaiting_review’… these are actually errors that the system needs to fix on the following attempt. The trickiest part was dealing with being stopped, but not having some...\nyshamrei: It looks very promising! Is there any plan to implement a ralph-loop inside?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "58",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=34,practical_tech=4,tools_agents=34,strategy_insight=2,industry_business=1",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 34,
-        "strategy_insight": 2,
-        "industry_business": 1
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 34,
-          "strong_hits": [
-            "multi-agent",
-            "workflow",
-            "mcp",
-            "ide"
-          ],
-          "support_hits": [
-            "workflow",
-            "agent",
-            "setup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + workflow"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 1,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "multi-agent",
-        "workflow",
-        "mcp",
-        "ide",
-        "agent",
-        "setup",
-        "agent + workflow"
-      ],
-      "detail_slug": "3e0c3218d5e5bb441c909b35477b27767a1d7f44",
-      "is_english_source": true,
-      "translated_title": "Agent Harness Kit, MCP 기반 멀티 에이전트 워크플로 뼈대",
-      "short_summary": "Agent Harness Kit은 MCP를 바탕으로 특정 공급자에 묶이지 않는 멀티 에이전트 워크플로 뼈대를 제안하는 프로젝트다. HN에서는 복잡한 분기 흐름과 상태 관리까지 감당할 수 있느냐가 핵심 쟁점으로 떠올랐다.",
-      "why_it_matters": "멀티 에이전트 자동화를 붙이려는 팀이라면 이제는 모델 성능만큼 작업 흐름을 어떻게 연결하고 되돌릴지도 큰 과제가 된다. 이 프로젝트는 바로 그 운영 계층을 겨냥한다.\n- 특정 모델 공급자에 덜 묶이는 구조라면 비용, 성능, 정책 변화에 맞춰 백엔드를 바꾸기 쉬워진다.\n- 실무에서는 빌드 후 리뷰처럼 일직선으로 끝나지 않는다. 리뷰 결과별 재작업이나 테스트 실패 뒤 재빌드 같은 루프를 먼저 다뤄야 한다.\n- 도입 전에는 상태 전이, 중단 후 재개, 실패 복구 규칙을 설계해야 자동화가 끝난 척 멈추는 문제를 줄일 수 있다.",
-      "hn_reaction_summary": "댓글 수는 많지 않지만 분위기는 호의와 경계가 함께 보인다. 아이디어 자체는 반기면서도, 실제 운영에서 어디서 깨질지를 따져 묻는 반응이 중심이었다.\n- 가장 많이 나온 논점은 더 복잡한 프로세스를 정의할 수 있느냐다. 리뷰 지적마다 다른 후속 작업을 태우거나, 종단간 테스트 뒤 다시 빌드로 돌아가는 흐름이 예로 나왔다.\n- 상태값 설계가 까다롭다는 경험담도 있었다. 완료처럼 보이지만 사실은 재처리가 필요한 중간 상태를 어떻게 다룰지가 핵심이라는 지적이다.\n- 일부는 ralph-loop 같은 반복 루프를 넣을 계획도 물었다. 단순 스케줄러를 넘어서 자기 수정형 오케스트레이션까지 기대하는 시선이 보인다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T13:40:19.836966+00:00"
-    },
-    {
-      "id": "fb6cdedc57d5f9c849e2e5a2b80f45a6e5e4fd03",
-      "title_hash": "ea7451d1b53a449a241560b98019543c531807c7",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "RaTeX: KaTeX-compatible LaTeX rendering engine in pure Rust",
-      "link": "https://ratex.lites.dev/",
-      "published_at": "2026-05-04T16:19:31+00:00",
-      "summary": "HN story type: story HN points: 26 HN comments: 5 HN top comments: tabbott: It's interesting to me that the page doesn't describe the size of the rust binary (relevant for mobile app use cases where you would need to add the Rust binary to your app) or performance. The webpage also does read like it was at least heavily LLM assisted, which makes it a bit hard to trust it. That all said, this is definitely something I'd be interested in using for Zulip if is indeed going to be a well maint... umvi: We recently switched from Node.js + Mathjax for rendering latex to Goja ( https://github.com/dop251/goja ) + Mathjax, and surprisingly it worked really well. We did this because the app is already 99% golang, and this allows us to eliminate the remaining non-go pieces, greatly simplifying the SBOM. And yes, we tried go-latex, but it's not nearly as feature complete as Mathjax. Not to mention using goja + Mathjax a... Rochus: Interesting. Reminds me of Typst (both implemented in Rust and replacing TeX to some degree) and Microtex.",
-      "fetched_at": "2026-05-07T13:36:39.908840+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48010729",
-      "hn_story_type": "story",
-      "hn_points": "26",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48010729",
-      "hn_item_text": "",
-      "hn_comment_preview": "tabbott: It's interesting to me that the page doesn't describe the size of the rust binary (relevant for mobile app use cases where you would need to add the Rust binary to your app) or performance. The webpage also does read like it was at least heavily LLM assisted, which makes it a bit hard to trust it. That all said, this is definitely something I'd be interested in using for Zulip if is indeed going to be a well maint...\numvi: We recently switched from Node.js + Mathjax for rendering latex to Goja ( https://github.com/dop251/goja ) + Mathjax, and surprisingly it worked really well. We did this because the app is already 99% golang, and this allows us to eliminate the remaining non-go pieces, greatly simplifying the SBOM. And yes, we tried go-latex, but it's not nearly as feature complete as Mathjax. Not to mention using goja + Mathjax a...\nRochus: Interesting. Reminds me of Typst (both implemented in Rust and replacing TeX to some degree) and Microtex.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 7,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "performance",
-            "golang",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "golang",
-        "rust"
-      ],
-      "detail_slug": "fb6cdedc57d5f9c849e2e5a2b80f45a6e5e4fd03",
-      "is_english_source": true,
-      "translated_title": "순수 Rust로 만든 KaTeX 호환 LaTeX 렌더러",
-      "short_summary": "RaTeX는 KaTeX와 호환되는 LaTeX 렌더링 엔진을 순수 Rust로 구현하려는 프로젝트다. HN에서는 언어 스택을 단순하게 만들 수 있다는 기대와 함께, 바이너리 크기·성능·유지보수 정보가 부족하다는 지적이 나왔다.",
-      "why_it_matters": "수식 렌더링을 JS 런타임 없이 처리하려는 팀이라면 눈여겨볼 만한 흐름이다. 특히 서버나 모바일 앱에서 언어 스택을 줄이고 배포 구성을 단순하게 만들 수 있다는 기대가 붙는다.\n- Rust 기반 엔진이 자리 잡으면 Node.js나 브라우저용 렌더러 의존을 줄여 백엔드와 앱 패키징 구조를 정리하기 쉬워진다.\n- 한 언어로 수식 처리 경로를 묶으면 SBOM 관리, 보안 검토, 운영 환경 표준화 부담을 낮추는 데 도움이 될 수 있다.\n- 다만 실제 도입 판단에는 바이너리 크기, 성능, 호환성, 유지보수 지속성 같은 운영 지표가 먼저 확인돼야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 '관심은 있지만 아직은 검증이 덜 됐다'에 가깝다. 순수 Rust 접근 자체는 반기지만, 실무자는 소개 문구보다 운영에 필요한 수치를 더 원한다는 반응이 눈에 띄었다.\n- 가장 많이 나온 의문은 모바일·내장 배포에 직결되는 바이너리 크기와 실제 렌더링 성능 정보가 없다는 점이다.\n- 일부는 Goja+MathJax처럼 기존 엔진을 감싸 언어 스택을 줄인 사례를 공유하며, 기능 완성도 면에서는 아직 검증된 대안이 더 낫다고 봤다.\n- Typst, Microtex를 떠올리는 반응도 있었지만, 지금 단계에서는 기술 방향성보다 신뢰도와 유지보수 계획을 더 따지는 분위기다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T13:40:19.836966+00:00"
-    },
-    {
-      "id": "59fc53d2ec2cafdefc55e65f9cec28527b79b207",
-      "title_hash": "6c9b5e13d9043fce488265c0858a679e4307e14d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Photoshop's challenges with focus, pt. 2",
-      "link": "https://unsung.aresluna.org/photoshops-challenges-with-focus-pt-2/",
-      "published_at": "2026-05-04T19:27:30+00:00",
-      "summary": "HN story type: story HN points: 85 HN comments: 29 HN top comments: MontagFTB: Hey all- I am Foster Brereton and Principal Scientist for this UI effort. Suffice it to say, the article and this thread have had their impact on the people behind the software. We are aware we got a lot of things wrong. As the primary technical lead on the UI migration, a lot of the implementation details ultimately fall up to me. Two things I can tell you: the engineering team does care about Photoshop (I’ve bee... vintagedave: > It’s not that hard to picture people spending 8+ hours a day going through these windows for years if not decades to come, and it’s not hard to add and multiply all... This is key to being a product manager, as well as a UX designer. It is the single most important lesson to learn for anyone managing stable, longterm software. I used to be the PM for the Delphi IDE (RAD Studio, C++Builder) and we did a UX refres... northernsausage: I use PS every single day and I can't tell you how frustrating the select and mask tool is to actually use. I've rolled back to 2020 version that seems to be easier to use but dumber product.",
-      "fetched_at": "2026-05-07T13:36:39.908840+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48013750",
-      "hn_story_type": "story",
-      "hn_points": "85",
-      "hn_comments_count": "29",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48013750",
-      "hn_item_text": "",
-      "hn_comment_preview": "MontagFTB: Hey all- I am Foster Brereton and Principal Scientist for this UI effort. Suffice it to say, the article and this thread have had their impact on the people behind the software. We are aware we got a lot of things wrong. As the primary technical lead on the UI migration, a lot of the implementation details ultimately fall up to me. Two things I can tell you: the engineering team does care about Photoshop (I’ve bee...\nvintagedave: > It’s not that hard to picture people spending 8+ hours a day going through these windows for years if not decades to come, and it’s not hard to add and multiply all... This is key to being a product manager, as well as a UX designer. It is the single most important lesson to learn for anyone managing stable, longterm software. I used to be the PM for the Delphi IDE (RAD Studio, C++Builder) and we did a UX refres...\nnorthernsausage: I use PS every single day and I can't tell you how frustrating the select and mask tool is to actually use. I've rolled back to 2020 version that seems to be easier to use but dumber product.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=9,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "migration",
-            "rust"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "migration",
-        "rust",
-        "implementation"
-      ],
-      "detail_slug": "59fc53d2ec2cafdefc55e65f9cec28527b79b207",
-      "is_english_source": true,
-      "translated_title": "포토샵 UI의 포커스 문제, 2편",
-      "short_summary": "포토샵 UI 전환 과정에서 생긴 포커스와 조작성 문제를 다룬 글이 HN에서도 공감을 얻었다. 개발 책임자는 시행착오를 인정했고, 실사용자들은 핵심 도구 불편 때문에 구버전으로 돌아간 경험을 전했다.",
-      "why_it_matters": "장시간 쓰는 크리에이티브 툴에서는 작은 포커스 문제나 UI 마찰도 바로 생산성 저하로 쌓인다. 이번 논의는 새 기능보다 작업 흐름의 안정성과 예측 가능성이 더 먼저 검증돼야 한다는 점을 다시 보여준다.\n- 반복 작업이 많은 도구일수록 클릭 수, 창 전환, 포커스 이동의 불편이 곧 시간 비용이 된다.\n- 제품팀과 UX팀은 새 인터페이스를 내기 전에 기존 사용자의 근육 기억이 어디서 깨지는지 먼저 확인해야 한다.\n- 공개 피드백에 개발 책임자가 직접 반응한 만큼, 이후 개선 속도와 회귀 방지 방식도 함께 평가받게 된다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 비난 일변도라기보다, 오래 쓰는 소프트웨어에서 UX 회귀를 어떻게 막을지 따지는 쪽에 가까웠다. 문제를 인정한 개발팀의 태도는 좋게 봤지만, 불편이 핵심 작업을 망치면 신뢰는 빠르게 무너진다는 반응이 많았다.\n- 가장 자주 나온 논점은 하루 종일 쓰는 툴에서는 작은 불편도 누적 피해가 크다는 점이다.\n- Adobe 측 기술 리드가 직접 잘못을 인정한 점은 주목받았지만, 말보다 실제 수정과 회귀 방지가 더 중요하다는 의견이 뒤따랐다.\n- 현업 사용자는 Select and Mask 같은 핵심 도구를 예로 들며, 최신 기능보다 예전 버전의 단순한 흐름이 더 낫다고 말했다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T13:40:19.836966+00:00"
-    },
-    {
-      "id": "a877b9917db005554d6db64317e0b320a6ad2b72",
-      "title_hash": "eedf7fb4219918e8c45b926b01c881cc66bd213a",
-      "source": "GeekNews",
-      "title": "Skills For Real Engineers - Matt Pocock",
-      "link": "https://news.hada.io/topic?id=29259",
-      "published_at": "2026-05-07T08:10:08+00:00",
-      "summary": "Matt Pocock의 에이전트 스킬 모음, 바이브 코딩이 아닌 실전 엔지니어링을 위한 도구상자 이 저장소는 TypeScript 교육자로 잘 알려진 Matt Pocock이 자신이 매일 쓰는 Claude Code용 에이전트 스킬, 즉 슬래시 커맨드와 행동 규약을 모아 공개한 프로젝트입니다. 슬로건은 \"Skills For Real Engineer...",
-      "fetched_at": "2026-05-07T09:25:50.952023+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "65",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=5,tools_agents=20,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 20,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "typescript"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "에이전트",
-        "claude + code"
-      ],
-      "detail_slug": "a877b9917db005554d6db64317e0b320a6ad2b72",
-      "is_english_source": false,
-      "sent_at": "2026-05-07T09:29:10.457816+00:00"
-    },
-    {
-      "id": "8d586ddfa282f92a030fe9438c7f0a1325c1e8e9",
-      "title_hash": "f3c08ca6c0f85b4cbb15d0c96dc355a6a58d5bc3",
-      "source": "GeekNews",
-      "title": "AI가 끌어올린 바닥, 우리의 천장은 어디인가? 대화 속에서 찾아낸 세 가지 화두",
-      "link": "https://news.hada.io/topic?id=29254",
-      "published_at": "2026-05-07T05:16:29+00:00",
-      "summary": "AI 시대를 앞두고 많은 이들이 느끼는 불안과 두려움이 어디서 비롯되는지 진단하고, 이를 극복하기 위한 실제적 전략을 제시하는 글이다. 1839년 사진기 발명으로 회화가 죽을 것이라고 예언한 폴 들라로슈의 사례부터 시작해, 현재 우리가 마주한 AI 혁신이 얼마나 유사한 패턴을 보이고 있는지 대조한다. 글쓴이는...",
-      "fetched_at": "2026-05-07T09:25:50.952023+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "전략"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "전략"
-      ],
-      "detail_slug": "8d586ddfa282f92a030fe9438c7f0a1325c1e8e9",
-      "is_english_source": false,
-      "sent_at": "2026-05-07T09:29:10.457816+00:00"
-    },
-    {
-      "id": "87e419cc918c0095eab9b5877308ba115cf8a299",
-      "title_hash": "b38753abde13f4ce926f98d931372674e6273203",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "ProgramBench: Can Language Models Rebuild Programs from Scratch?",
-      "link": "https://arxiv.org/abs/2605.03546",
-      "published_at": "2026-05-07T03:46:15+00:00",
-      "summary": "HN story type: story HN points: 43 HN comments: 25 HN top comments: behaviors: It's funny, because that task is very diverse. Any LLM will use the codebase given as a template(At least in free-tier models) My software as a contract of behaviors works like a program bench(I even cross tested buildouts) Made an entire corpus layout for multi agent multi platform builds to be compared. Even went ahead and ran 50 contracts for an example. It honestly showed improvable areas, and distinct differe... _pdp_: I am not surprised but this one sticks out... > Models favor monolithic, single-file implementations that diverge sharply from human-written code. Well, all of our code is monolithic with some files close 20K lines of code and we do use coding agents - not for the original code but as of late. I've always had that hunch that splitting everything into tiny files does not improve AI coding agent performance although... andy12_: It's interesting that Figure 4 shows that Sonnet and Opus have a very clear distinct curve from all other models, even from GPT 5.4. Anthropic superiority I guess.",
-      "fetched_at": "2026-05-07T09:25:50.952023+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48045174",
-      "hn_story_type": "story",
-      "hn_points": "43",
-      "hn_comments_count": "25",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48045174",
-      "hn_item_text": "",
-      "hn_comment_preview": "behaviors: It's funny, because that task is very diverse. Any LLM will use the codebase given as a template(At least in free-tier models) My software as a contract of behaviors works like a program bench(I even cross tested buildouts) Made an entire corpus layout for multi agent multi platform builds to be compared. Even went ahead and ran 50 contracts for an example. It honestly showed improvable areas, and distinct differe...\n_pdp_: I am not surprised but this one sticks out... > Models favor monolithic, single-file implementations that diverge sharply from human-written code. Well, all of our code is monolithic with some files close 20K lines of code and we do use coding agents - not for the original code but as of late. I've always had that hunch that splitting everything into tiny files does not improve AI coding agent performance although...\nandy12_: It's interesting that Figure 4 shows that Sonnet and Opus have a very clear distinct curve from all other models, even from GPT 5.4. Anthropic superiority I guess.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=24,practical_tech=11,tools_agents=24,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 24,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "performance"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 24,
-          "strong_hits": [
-            "coding agent",
-            "llm"
-          ],
-          "support_hits": [
-            "ai coding",
-            "template",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "llm",
-        "ai coding",
-        "template",
-        "agent",
-        "ai + coding"
-      ],
-      "detail_slug": "87e419cc918c0095eab9b5877308ba115cf8a299",
-      "is_english_source": true,
-      "translated_title": "ProgramBench: 언어 모델은 프로그램을 처음부터 다시 만들 수 있을까?",
-      "short_summary": "ProgramBench는 언어 모델이 기존 코드를 그대로 기대지 않고 프로그램을 처음부터 재구성할 수 있는지 살펴보는 벤치마크다. HN에서는 단일 파일 위주 산출물과 모델별 성능 격차가 특히 눈길을 끈다는 반응이 이어졌다.",
-      "why_it_matters": "코딩 에이전트를 실무에 붙이고 있다면, 이 벤치마크는 정답률보다 모델이 어떤 방식으로 코드를 다시 세우는지 보게 만든다.\n- 기존 코드베이스를 템플릿처럼 참조하지 못하는 조건에서 성능을 보면, 검색 능력과 설계 능력을 조금 더 분리해 판단할 수 있다.\n- 결과물이 단일 파일로 쏠리고 사람 손으로 짠 구조와 멀어진다면, 팀의 파일 분할 규칙과 리뷰 기준을 별도로 강제해야 할 가능성이 크다.\n- 모델 간 차이가 뚜렷하다는 점은 같은 자동화 흐름을 써도 선택한 모델에 따라 유지보수 비용과 후속 수정량이 크게 달라질 수 있음을 시사한다.",
-      "hn_reaction_summary": "HN 댓글은 벤치마크 자체의 신선함보다, 실제 AI 코딩 경험과 얼마나 맞아떨어지는지 따져보는 분위기였다.\n- 작업이 워낙 넓고 제각각이라서, 모델이 주어진 코드베이스를 템플릿처럼 활용하는 성향을 함께 봐야 한다는 의견이 나왔다.\n- '모델이 단일 파일 구현을 선호한다'는 대목에는 공감과 반론이 함께 붙었다. 큰 파일 위주 코드베이스도 AI 사용에 꼭 불리하지 않다는 실무 경험담이 이어졌다.\n- Figure 4를 근거로 Anthropic 계열 모델의 곡선이 GPT-5.4보다 더 두드러져 보인다는 반응도 있어, 댓글 전반에 모델 비교와 벤더 우위 논쟁이 섞였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T09:29:10.457816+00:00"
-    },
-    {
-      "id": "64a525630723417c9968ca6199be438cf595f03c",
-      "title_hash": "981f3430102ba50043344c9dbfe49b4b0c70a7c1",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Trust – Coding Rust like it's 1989",
-      "link": "https://github.com/wojtczyk/trust",
-      "published_at": "2026-05-07T05:58:52+00:00",
-      "summary": "HN story type: story HN points: 11 HN comments: 3 HN top comments: rob74: Cool! I assume TRUST stands for \"Turbo Rust\"? If yes, maybe it would be worth mentioning it. I doubt that Embarcadero Technologies (the current owners of the Delphi and C++ Builder IDEs, and probably also the owners of other former Borland trademarks) would mind - but then again, it doesn't hurt to stay on the safe side... vsgherzi: Honestly the experience looks pretty nice. Which is crazy to say for such an old style of program but I kind of like it. Perhaps just nostalgia for a time I never got your experience. kaant: Because Rust deserves a blue-screen IDE from the olden days and someone had to do this...",
-      "fetched_at": "2026-05-07T09:25:50.952023+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48045939",
-      "hn_story_type": "story",
-      "hn_points": "11",
-      "hn_comments_count": "3",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48045939",
-      "hn_item_text": "",
-      "hn_comment_preview": "rob74: Cool! I assume TRUST stands for \"Turbo Rust\"? If yes, maybe it would be worth mentioning it. I doubt that Embarcadero Technologies (the current owners of the Delphi and C++ Builder IDEs, and probably also the owners of other former Borland trademarks) would mind - but then again, it doesn't hurt to stay on the safe side...\nvsgherzi: Honestly the experience looks pretty nice. Which is crazy to say for such an old style of program but I kind of like it. Perhaps just nostalgia for a time I never got your experience.\nkaant: Because Rust deserves a blue-screen IDE from the olden days and someone had to do this...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=16,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 16,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "show hn",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "show hn",
-        "rust",
-        "github.com"
-      ],
-      "detail_slug": "64a525630723417c9968ca6199be438cf595f03c",
-      "is_english_source": true,
-      "translated_title": "Show HN: 1989년식 감성으로 Rust 코딩하기",
-      "short_summary": "HN에 올라온 'Trust'는 Rust 개발 경험을 1980년대 말 PC 개발도구 분위기로 되살린 프로젝트다. 댓글에서도 파란 화면의 복고풍 IDE 감성과 의외로 괜찮은 사용감이 함께 화제가 됐다.",
-      "why_it_matters": "새 언어나 도구를 꼭 최신 UI로만 풀어야 하는 건 아니라는 점을 보여주는 사례다. Rust 같은 현대 언어도 인터페이스 설계에 따라 전혀 다른 개발 경험으로 재해석될 수 있다.\\n- 기능 경쟁보다 개발 몰입감과 편집 경험 자체를 다시 보게 만든다. 경량 툴, 개인용 IDE, 교육용 개발환경을 고민하는 팀이라면 참고할 만하다.\\n- 복고풍 콘셉트로 보이지만, 실무적으로는 키보드 중심 흐름과 단순한 화면 구성이 얼마나 매력적인지 묻는 실험에 가깝다.\\n- Rust 생태계가 편집기와 IDE 선택지 면에서 더 넓어질 수 있다는 신호로도 읽힌다. 꼭 메인스트림 도구가 아니어도 개발자 취향을 겨냥한 틈새 경험이 통할 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이고 장난기 있다. 아직 반응 수는 많지 않지만, '재밌는 콘셉트'를 넘어서 의외로 써보고 싶다는 반응이 눈에 띈다.\\n- 가장 반복된 반응은 복고풍 화면이 생각보다 괜찮아 보인다는 점이다. 오래된 스타일인데도 오히려 신선하다는 평가가 붙었다.\\n- 이름 'TRUST'가 'Turbo Rust'의 약자인지, 예전 Borland 계열 상표와 충돌 소지가 없는지 짚는 의견도 나왔다. 콘셉트가 강한 만큼 브랜딩까지 신경 써야 한다는 뜻이다.\\n- 전반적으로는 진지한 비판보다 'Rust에 이런 파란 화면 IDE가 하나쯤 있어도 좋다'는 식의 유쾌한 반응이 중심이었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T09:29:10.457816+00:00"
     }
   ],
   "topic_digests": {
