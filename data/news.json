@@ -1,6 +1,616 @@
 {
   "items": [
     {
+      "id": "0c59efb66aa69b815d56972876b5e0ca8e48606f",
+      "title_hash": "451be6ac7cb58b1d292382e93e51ac909a493ae0",
+      "source": "GeekNews",
+      "title": "Ask HN: 현재 AI 에이전트를 어떤 구성으로 사용하고 있나요?",
+      "link": "https://news.hada.io/topic?id=36636&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-05T03:50:54+00:00",
+      "summary": "일상에서 AI를 어떻게 사용하고, 왜 그 구성을 선택했는지 공유를 요청함. 개인 작업 방식이 1년 전과 크게 달라진 만큼 현재의 활용 현황을 알아보려는 취지이며, 모든 항목에 답할 필요는 없음 개인적으로 비용을 내는 구독 과 요금제, 동일 제공업체의 복수 구독 여부, 구독 외 모델 사용 여부가 궁금함. Claude, ChatGPT/Codex, Cursor 등의 구독뿐 아니라 종량제 API, OpenRouter, 로컬 호스팅 모델을 쓰는지와 모델 및 제공업체도 공유 대상임 코딩 하네스와 인터페이스 , 에이전트 오케스트레이션이나 군집 도구, 더 범용적인 에이전트 플랫폼의 사용 여부와 선택 이유를 요청함 기본 CLI나 IDE 통합 대신 OpenCode, Pi, Aider, Muse Code, 자체 제작 하네스를 쓰는지, 전환했다면 어떤 이유였는지 궁금함 …",
+      "fetched_at": "2026-11-05T06:29:45.883071+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "80",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=35,practical_tech=5,tools_agents=35,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 35,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 35,
+          "strong_hits": [
+            "cursor",
+            "codex",
+            "에이전트",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cursor",
+        "codex",
+        "에이전트",
+        "ide",
+        "cli",
+        "claude + code"
+      ],
+      "detail_slug": "0c59efb66aa69b815d56972876b5e0ca8e48606f",
+      "is_english_source": false,
+      "sent_at": "2026-11-05T06:32:22.595368+00:00"
+    },
+    {
+      "id": "d37bb9af2495826b7f98cd4b17c138aee35c0d3b",
+      "title_hash": "cc5510bc21c60807704d3470ebef5e2ea0c07920",
+      "source": "GeekNews",
+      "title": "내 ISP가 DNS를 가로채고 있었다",
+      "link": "https://news.hada.io/topic?id=36640&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-05T05:01:54+00:00",
+      "summary": "홈랩의 Podman 컨테이너에서 외부 사이트 접속이 실패해 조사한 결과, 일반 DNS 질의는 ISP 소유 IP 주소 를 반환했지만 Cloudflare의 DoH 질의는 다른 주소를 반환함 Unbound 자체 호스팅 만으로 DNS 변조를 막을 수는 없음. 직접 재귀 조회할 때 여러 네임서버와 주고받는 질의는 통상 평문이므로 ISP가 관찰하거나 변조할 수 있음 DNSSEC 는 암호화가 아니라 서명 검증으로 DNS 데이터의 진위를 확인함. 유효한 서명과 신뢰 체인이 필요하며, 검증에 실패하면 잘못된 IP 대신 SERVFAIL 을 반환함 DoH와 DoT 는 리졸버까지의 전송 구간을 암 …",
+      "fetched_at": "2026-11-05T06:29:45.883071+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "컨테이너"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "컨테이너"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "d37bb9af2495826b7f98cd4b17c138aee35c0d3b",
+      "is_english_source": false,
+      "sent_at": "2026-11-05T06:32:22.595368+00:00"
+    },
+    {
+      "id": "f2fc0ef9752aa24c8471dd7933aba6851cf36e8b",
+      "title_hash": "83c00f7eccbb311da2bf020c8c18769b04652613",
+      "source": "GeekNews",
+      "title": "Show GN: Corvus - 공격 차단·실시간 관제·접속 대기열을 지원하는 셀프호스팅 게이트웨이",
+      "link": "https://news.hada.io/topic?id=36628&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-05T01:51:55+00:00",
+      "summary": "안녕하세요. 개인적으로 NPM(nginx proxy manager)를 사용하면서 정말 간단하고 편리함에 잘 쓰고 있었는데, 트래픽을 감시하여 공격을 차단하고, 제어하는 게이트웨이 역할을 하는 프로젝트가 있으면 좋겠다 생각하여 만들어 봤습니다. 컨테이너 하나에 통합되어 간편한 설치 프록시 호스트, Let's Encrypt 자동갱신, 리디렉션, TCP/UDP 스트림 등 NPM의 기본기능들을 포함 별도설정없이도 호스트를 추가하면, 알려진 공격패턴(SQL 인젝션, 경로 순회,스캐너등)이 차단되고 반복 공격하는 IP는 자동으로 차단시켜줍니다. 보안 규칙(ip …",
+      "fetched_at": "2026-11-05T06:29:45.883071+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [
+            "컨테이너"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "컨테이너"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sql",
+        "컨테이너"
+      ],
+      "detail_slug": "f2fc0ef9752aa24c8471dd7933aba6851cf36e8b",
+      "is_english_source": false,
+      "sent_at": "2026-11-05T06:32:22.595368+00:00"
+    },
+    {
+      "id": "6e905e94a418aa95c67a6c9afad7341484cf83cf",
+      "title_hash": "033236ba3e5ca2b11ae731c3ba117e8bb1d12740",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "link": "https://news.ycombinator.com/item?id=50366117",
+      "published_at": "2026-11-04T14:37:22+00:00",
+      "summary": "HN story type: story HN points: 251 HN comments: 240 HN post text: I'm curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to answer every question of course, just wanted to get a gut feel how people are using AI. 1) What AI subscriptions are you personally paying for? (Claude, ChatGPT/Codex, Cursor, etc) - Which tiers? - Have you purchased multiple subscriptions from the same provider (eg two Claude accounts)? 2) Are you using models outside (or instead) of those subscriptions? For example, pay-as-you-go APIs, OpenRouter, or locally hosted models. - Which models and providers? 3) What coding harnesses and interfaces are you using? Are you sticking with the default CLIs or IDE integrations, or using alternatives like OpenCode, Pi, Aider, Muse Code, or custom-built harnesses? - What made you switch harnesses (if you switched)? 4) Are you using any agent orchestration or swarm tools? - For example, Munder Difflin, Gas Town, Ruflo, or something custom. 5) Are you using broader agent platforms like OpenClaw / Hermes Agent / Grok bot / Dots / Muse? - If you are using them, what are your main use cases? ----- I know my workflow has differed significantly from a year ag... HN top comments: big-chungus4: I use free models in opencode, mainly DeepSeek, but it turns out my laptop can run Qwen3.8 flash next with strata at 60 tok/s via Strata. So I mostly use Qwen now in a customized version of pi. But when I need the GPU to be free, I have to use free models in opencode. I don't use any orchestration - free models don't have high enough limits for that, and local model has only 1 conversion cache slot, more won't fit... dgunay: I use AI primarily through work, I don't pay for a personal AI sub. I do have some OpenRouter credits but I mostly use them sparingly to try open weight models out for small personal projects. I currently interact primarily with Claude Code, but most of my async workers are on Codex. The orchestration part is custom. I talk to a \"chief of staff\" Opus instance to ingest various workstreams (Jira tickets, alerts, pe... earthdeity: Claude + Codex, both from work. Just those. https://github.com/oscscull/quarterdeck built my own harness. I had trouble with both claude and codex. In particular, managing multiple tasks in a kanban, syncing between my machines, making sure work is done on the right machine and can be triggered from either. Making sure I ping reviewers, meeting reminders, todos. Parking tickets til conditions are met or time elaps...",
+      "fetched_at": "2026-11-05T06:29:45.883071+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50366117",
+      "hn_story_type": "story",
+      "hn_points": "251",
+      "hn_comments_count": "240",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50366117",
+      "hn_item_text": "I'm curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to answer every question of course, just wanted to get a gut feel how people are using AI. 1) What AI subscriptions are you personally paying for? (Claude, ChatGPT/Codex, Cursor, etc) - Which tiers? - Have you purchased multiple subscriptions from the same provider (eg two Claude accounts)? 2) Are you using models outside (or instead) of those subscriptions? For example, pay-as-you-go APIs, OpenRouter, or locally hosted models. - Which models and providers? 3) What coding harnesses and interfaces are you using? Are you sticking with the default CLIs or IDE integrations, or using alternatives like OpenCode, Pi, Aider, Muse Code, or custom-built harnesses? - What made you switch harnesses (if you switched)? 4) Are you using any agent orchestration or swarm tools? - For example, Munder Difflin, Gas Town, Ruflo, or something custom. 5) Are you using broader agent platforms like OpenClaw / Hermes Agent / Grok bot / Dots / Muse? - If you are using them, what are your main use cases? ----- I know my workflow has differed significantly from a year ag...",
+      "hn_comment_preview": "big-chungus4: I use free models in opencode, mainly DeepSeek, but it turns out my laptop can run Qwen3.8 flash next with strata at 60 tok/s via Strata. So I mostly use Qwen now in a customized version of pi. But when I need the GPU to be free, I have to use free models in opencode. I don't use any orchestration - free models don't have high enough limits for that, and local model has only 1 conversion cache slot, more won't fit...\ndgunay: I use AI primarily through work, I don't pay for a personal AI sub. I do have some OpenRouter credits but I mostly use them sparingly to try open weight models out for small personal projects. I currently interact primarily with Claude Code, but most of my async workers are on Codex. The orchestration part is custom. I talk to a \"chief of staff\" Opus instance to ingest various workstreams (Jira tickets, alerts, pe...\nearthdeity: Claude + Codex, both from work. Just those. https://github.com/oscscull/quarterdeck built my own harness. I had trouble with both claude and codex. In particular, managing multiple tasks in a kanban, syncing between my machines, making sure work is done on the right machine and can be triggered from either. Making sure...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "100",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=76,practical_tech=20,tools_agents=76,strategy_insight=8,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 20,
+        "tools_agents": 76,
+        "strategy_insight": 8,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 20,
+          "strong_hits": [
+            "cache",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 76,
+          "strong_hits": [
+            "claude code",
+            "workflow",
+            "ai agent",
+            "agentic",
+            "cursor",
+            "codex",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "workflow",
+            "agent",
+            "setup",
+            "local",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + workflow",
+            "claude + code",
+            "ai + coding",
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "workflow",
+        "ai agent",
+        "agentic",
+        "cursor",
+        "codex",
+        "ide",
+        "cli",
+        "agent",
+        "setup",
+        "local",
+        "tool",
+        "agent + workflow",
+        "claude + code",
+        "ai + coding",
+        "local + agent"
+      ],
+      "detail_slug": "6e905e94a418aa95c67a6c9afad7341484cf83cf",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T06:32:22.595368+00:00"
+    },
+    {
+      "id": "5e9e270406f072f3ed714fd8f292895921c5d175",
+      "title_hash": "aa39b632f992f53ae591a6546f7a49ac4644702e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Residential proxies detected on White House network",
+      "link": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+      "published_at": "2026-11-04T20:45:18+00:00",
+      "summary": "HN story type: story HN points: 892 HN comments: 274 HN top comments: dhosek: They’re too polite to say it explicitly, but when they say: > Most of the activity happens in the evening, Eastern time: about half of it falls between 5 p.m. and midnight, and almost none happens in the early morning. That pattern suggests a person rather than a public guest Wi-Fi network: someone regularly on the White House network late into the evening, whose device is infected with a proxy SDK. Our data shows... btown: The danger here, of course, is that while these compromised devices are currently being monetized in a relatively benign way (other than bandwidth costs to the user, which to be sure can be nontrivial)… it would be naive to assume that there isn't a Command and Control capability that can assign less benign tasking - or can be compromised to do so. This also puts some of the troubling reports that politicians were... lakeviewterrace: So they don't actually know what this network is, just who owns the IP space... time for a blog post to advertise our week-old service! There is no evidence that physically ties this to the WH. It could be in a security lab for all they know. Or a guest network for the news media.",
+      "fetched_at": "2026-11-05T06:29:45.883071+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50371246",
+      "hn_story_type": "story",
+      "hn_points": "892",
+      "hn_comments_count": "274",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50371246",
+      "hn_item_text": "",
+      "hn_comment_preview": "dhosek: They’re too polite to say it explicitly, but when they say: > Most of the activity happens in the evening, Eastern time: about half of it falls between 5 p.m. and midnight, and almost none happens in the early morning. That pattern suggests a person rather than a public guest Wi-Fi network: someone regularly on the White House network late into the evening, whose device is infected with a proxy SDK. Our data shows...\nbtown: The danger here, of course, is that while these compromised devices are currently being monetized in a relatively benign way (other than bandwidth costs to the user, which to be sure can be nontrivial)… it would be naive to assume that there isn't a Command and Control capability that can assign less benign tasking - or can be compromised to do so. This also puts some of the troubling reports that politicians were...\nlakeviewterrace: So they don't actually know what this network is, just who owns the IP space... time for a blog post to advertise our week-old service! There is no evidence that physically ties this to the WH. It could be in a security lab for all they know. Or a guest network for the news media.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "security",
+            "sdk"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "sdk"
+      ],
+      "detail_slug": "5e9e270406f072f3ed714fd8f292895921c5d175",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T06:32:22.595368+00:00"
+    },
+    {
+      "id": "bb2ce4166bc2b5b0fdcdb7ef214140265b06625e",
+      "title_hash": "21b0c6901d7dd092a321f264b2dbc6ae5b07fc5f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Kimi K3.1 Pro model weights are out",
+      "link": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "published_at": "2026-11-04T15:30:30+00:00",
+      "summary": "HN story type: story HN points: 461 HN comments: 132 HN top comments: __jf__: Subtle quote from their website: > Advancing the Frontier of Open Intelligence. Too bad you probably need something like an 8x B300 node to run this. Black Friday is coming soon though, but I fear this open intelligence will be pacing anyone's liquidity frontier so I'll probably keep trailing the frontier for a while with nvidia/qwen3.8-27B-NVFP4 on dual RTX PRO 4000 in TP=2. I can almost fit 450k context in there. segmondy: Doesn't seem to outpace DeepSeekV4.1-Flash by much. Hy4 also announced their models and they have tons of internal benchmark, and K3.1 doesn't score that high on those benchmarks whereas Opus5.5 does, so it seems K3.1 is benchmaxxed. minimaxir: Third-party inference providers are now hosting it, with more popping up by the hour: https://openrouter.ai/moonshotai/kimi-k3.1-pro Together appears to have double throughput of the Moonshot AI endpoint at the same price point (with Modal having double that throughput), so I suspect there is room for inference providers to optimize...and therefore headroom to cut costs for competition.",
+      "fetched_at": "2026-11-05T06:29:45.883071+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50366999",
+      "hn_story_type": "story",
+      "hn_points": "461",
+      "hn_comments_count": "132",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50366999",
+      "hn_item_text": "",
+      "hn_comment_preview": "__jf__: Subtle quote from their website: > Advancing the Frontier of Open Intelligence. Too bad you probably need something like an 8x B300 node to run this. Black Friday is coming soon though, but I fear this open intelligence will be pacing anyone's liquidity frontier so I'll probably keep trailing the frontier for a while with nvidia/qwen3.8-27B-NVFP4 on dual RTX PRO 4000 in TP=2. I can almost fit 450k context in there.\nsegmondy: Doesn't seem to outpace DeepSeekV4.1-Flash by much. Hy4 also announced their models and they have tons of internal benchmark, and K3.1 doesn't score that high on those benchmarks whereas Opus5.5 does, so it seems K3.1 is benchmaxxed.\nminimaxir: Third-party inference providers are now hosting it, with more popping up by the hour: https://openrouter.ai/moonshotai/kimi-k3.1-pro Together appears to have double throughput of the Moonshot AI endpoint at the same price point (with Modal having double that throughput), so I suspect there is room for inference providers to optimize...and therefore headroom to cut costs for competition.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "benchmark",
+            "inference"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "benchmark",
+        "inference"
+      ],
+      "detail_slug": "bb2ce4166bc2b5b0fdcdb7ef214140265b06625e",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T06:32:22.595368+00:00"
+    },
+    {
+      "id": "dc72343447e9774d45f555a0562139052193ddea",
+      "title_hash": "593e8275ac34aabef8f1c7a7765468f53f1902e6",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Altera Announces Agilex 2X, a Complete FPGA and SoC Portfolio",
+      "link": "https://www.altera.com/newsroom/agilex-2x",
+      "published_at": "2026-11-05T05:47:14+00:00",
+      "summary": "HN story type: story HN points: 5 HN comments: 1 HN top comments: Foobar8568: > Engineering sample silicon for Agilex 27 FPGAs is expected in the second half of 2027. That's not even a paper launch at this stage.",
+      "fetched_at": "2026-11-05T06:29:45.883071+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50375653",
+      "hn_story_type": "story",
+      "hn_points": "5",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50375653",
+      "hn_item_text": "",
+      "hn_comment_preview": "Foobar8568: > Engineering sample silicon for Agilex 27 FPGAs is expected in the second half of 2027. That's not even a paper launch at this stage.",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "34",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=10,practical_tech=4,tools_agents=2,strategy_insight=-2,industry_business=10",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": -2,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "announces"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "announces",
+            "launch"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "announces",
+        "launch"
+      ],
+      "detail_slug": "dc72343447e9774d45f555a0562139052193ddea",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T06:32:22.595368+00:00"
+    },
+    {
       "id": "a04193d544486b31f5d101b7d41bef0388fe4dd9",
       "title_hash": "73171e46204e0891987ffe75a2ab95e73f5db969",
       "source": "GeekNews",
@@ -166643,586 +167253,6 @@
       "hn_reaction_summary": "댓글 분위기는 대체로 호기심과 애정 섞인 반응에 가까웠다. 라틴어를 배워본 사람과 실제 종교 행정에서 써본 사람의 경험담이 특히 많이 공감을 얻었다.\n- 가장 자주 나온 반응은 라틴어 학습법 추천이었다. 문법표 암기보다 몰입형 교재가 낫다는 의견이 반복됐다.\n- 서로 다른 언어권의 가톨릭 교회가 라틴어로 업무를 맞췄다는 사례처럼, 라틴어가 아직 실무 공용어로 작동한다는 점이 흥미 포인트로 받아들여졌다.\n- 한편 프란치스코 교황 시기의 라틴 미사 제약과 비교하며, 전례 정책과 별개로 웹과 기록 체계에서는 라틴어가 계속 남아 있다는 점을 아이러니하게 보는 시선도 있었다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-07T05:17:30.124591+00:00"
-    },
-    {
-      "id": "008284919496b02b9cd0f5ad165e475cee8f7716",
-      "title_hash": "9615b687a70f598816726092318f5404cd0e8c1d",
-      "source": "GeekNews",
-      "title": "Toprank - SEO 및 광고 관리용 Claude Code 플러그인",
-      "link": "https://news.hada.io/topic?id=29250",
-      "published_at": "2026-05-07T00:46:02+00:00",
-      "summary": "Google Search Console, Google Ads, Meta Ads 데이터에 직접 접근해 트래픽 분석, 낭비 광고비 탐지, 크리에이티브 피로도 진단, 메타 태그 수정 까지 수행하는 오픈소스 마케팅 자동화 도구 Google Ads 스킬 4개 + Meta Ads 스킬 2개 + SEO 스킬 9개 + 크로스 모델 스킬 1개로 구성...",
-      "fetched_at": "2026-05-07T01:02:11.112979+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "65",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 20,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "자동화"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "자동화",
-        "claude + code"
-      ],
-      "detail_slug": "008284919496b02b9cd0f5ad165e475cee8f7716",
-      "is_english_source": false,
-      "sent_at": "2026-05-07T01:06:14.351616+00:00"
-    },
-    {
-      "id": "e35bf1ae6828592b74963fd026d97236cf941354",
-      "title_hash": "a87e4a54db9606485c0627225a4978445f713e1f",
-      "source": "GeekNews",
-      "title": "직장에서 생산적으로 보이기",
-      "link": "https://news.hada.io/topic?id=29234",
-      "published_at": "2026-05-06T21:50:41+00:00",
-      "summary": "생성형 AI는 훈련받지 않은 사람이 다른 전문 영역의 산출물을 만드는 교차 영역 생성 을 가능하게 하며, 초보자가 결과를 검토할 판단력 없이 생산성을 높인 것처럼 보이게 만듦 직장에서는 코드, 데이터 시스템, 문서처럼 겉보기엔 진척으로 보이는 산출물이 늘지만, 사용자가 실제...",
-      "fetched_at": "2026-05-07T01:02:11.112979+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "e35bf1ae6828592b74963fd026d97236cf941354",
-      "is_english_source": false,
-      "sent_at": "2026-05-07T01:06:14.351616+00:00"
-    },
-    {
-      "id": "05e22f02f5f50c6f67078ab2f34b15e204b7f278",
-      "title_hash": "2986762f2f263db83311218252abf2630d8edbaa",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: PHP-fts – Full-text search engine in pure PHP, no extensions",
-      "link": "https://github.com/olivier-ls/php-fts",
-      "published_at": "2026-05-06T20:28:17+00:00",
-      "summary": "HN story type: story HN points: 28 HN comments: 7 HN top comments: idoubtit: I expected a toy project, but it is a usable library, which required a lot of work. Good job on delivering. A few comments: After reading \"composer.json\", I thought that the tests used a custom framework. I'm glad the project does not suffer from NIH syndrome, but the dev dependency on PHPUnit should be declared. There should a warning that it's only meant for some Western Latin languages. The normalization of the... francislavoie: We've been using https://github.com/loupe-php/loupe , works quite well for small-to-medium single-instance apps. captn3m0: Zend used to maintain a PHP port of Lucene 15 years ago that I used, but not sure what happened to it.",
-      "fetched_at": "2026-05-07T01:02:11.112979+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48041316",
-      "hn_story_type": "story",
-      "hn_points": "28",
-      "hn_comments_count": "7",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48041316",
-      "hn_item_text": "",
-      "hn_comment_preview": "idoubtit: I expected a toy project, but it is a usable library, which required a lot of work. Good job on delivering. A few comments: After reading \"composer.json\", I thought that the tests used a custom framework. I'm glad the project does not suffer from NIH syndrome, but the dev dependency on PHPUnit should be declared. There should a warning that it's only meant for some Western Latin languages. The normalization of the...\nfrancislavoie: We've been using https://github.com/loupe-php/loupe , works quite well for small-to-medium single-instance apps.\ncaptn3m0: Zend used to maintain a PHP port of Lucene 15 years ago that I used, but not sure what happened to it.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "framework",
-            "show hn"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [
-            "extension"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "framework",
-        "show hn",
-        "library",
-        "github.com"
-      ],
-      "detail_slug": "05e22f02f5f50c6f67078ab2f34b15e204b7f278",
-      "is_english_source": true,
-      "translated_title": "확장 없이 쓰는 순수 PHP 전문 검색 엔진",
-      "short_summary": "php-fts는 별도 확장이나 외부 검색 서버 없이 PHP만으로 전문 검색을 구현하는 라이브러리다. HN에서는 예상보다 실사용에 가깝다는 평가와 함께 언어 지원 범위와 적용 한계를 짚는 반응이 나왔다.",
-      "why_it_matters": "PHP 애플리케이션에 검색을 붙일 때 운영 복잡도를 낮추고 싶은 팀이라면 눈여겨볼 만한 시도다. 다만 도입 전에는 언어 처리 범위와 서비스 규모를 먼저 따져봐야 한다.\n- Elasticsearch 같은 별도 검색 서버나 PHP 확장 설치 없이 시작할 수 있어 소규모 서비스, 내부 도구, 단일 인스턴스 앱에서 빠르게 검토하기 좋다.\n- 댓글에서도 나왔듯 서구권 라틴계 언어 중심 전처리에 가까워 보인다. 한국어처럼 형태소 처리가 필요한 환경에는 바로 맞지 않을 가능성이 크다.\n- 실무에서는 성능 자체보다 배포 편의성과 운영 단순화가 더 큰 포인트다. 대신 검색 품질과 언어별 정규화 한계는 직접 검증해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 의외로 완성도가 괜찮다는 쪽에 가까웠다. 다만 칭찬만 이어진 건 아니고, 어디까지 쓸 수 있는지 선을 분명히 그어야 한다는 지적도 함께 나왔다.\n- 가장 눈에 띈 반응은 장난감 프로젝트일 줄 알았는데 실제 라이브러리로 보인다는 평가였다. 구현 난도와 작업량을 인정하는 분위기가 있었다.\n- 반복해서 나온 논점은 언어 지원 범위다. 서구권 라틴 문자 중심이라는 경고가 더 분명해야 한다는 의견이 있었다.\n- 비교 대상으로는 소규모 단일 인스턴스 앱에서 잘 쓴다는 loupe-php가 언급됐고, 예전 Zend의 Lucene 포팅 사례를 떠올리는 반응도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T01:06:14.351616+00:00"
-    },
-    {
-      "id": "e9f8c6582b1ab321f314dd05ad1e119c2fc11fe2",
-      "title_hash": "ce12786aa586e68efadaad38b3003fbdbc54902f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Programming Still Sucks",
-      "link": "https://www.stvn.sh/writing/programming-still-sucks-fqffhyp",
-      "published_at": "2026-05-06T19:06:41+00:00",
-      "summary": "HN story type: story HN points: 57 HN comments: 14 HN top comments: ksd482: Good read. I think one thing that has changed permanently is coding by hand has become unnecessary. Programmers had edge over others because they knew the spec and syntax. Now that field has been leveled. You still need to know the syntax but not the nitty gritty details and you don't need to be able to code a java's lambda's anonymous override or streams anymore. Just knowing it \"somewhat\" is enough. But that's a... SaucyWrong: This was beautiful. I also appreciated the backlink to Peter Welch’s spiritual ancestor to this essay, which I had forgotten how to find, and had the joy of reading again. fatih-erikli-cg: Normal will end up as programming at the end as a normal thing, this is what I know, I feel the same. Same shit happened so many times. Shit people become programmers as an excuse to all the shit happened before. People asking visa to stay in a country are programmers too. People asking military service to other people are programmers as well. People sending PDF invoice to other people are programmers, too. People...",
-      "fetched_at": "2026-05-07T01:02:11.112979+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48040269",
-      "hn_story_type": "story",
-      "hn_points": "57",
-      "hn_comments_count": "14",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48040269",
-      "hn_item_text": "",
-      "hn_comment_preview": "ksd482: Good read. I think one thing that has changed permanently is coding by hand has become unnecessary. Programmers had edge over others because they knew the spec and syntax. Now that field has been leveled. You still need to know the syntax but not the nitty gritty details and you don't need to be able to code a java's lambda's anonymous override or streams anymore. Just knowing it \"somewhat\" is enough. But that's a...\nSaucyWrong: This was beautiful. I also appreciated the backlink to Peter Welch’s spiritual ancestor to this essay, which I had forgotten how to find, and had the joy of reading again.\nfatih-erikli-cg: Normal will end up as programming at the end as a normal thing, this is what I know, I feel the same. Same shit happened so many times. Shit people become programmers as an excuse to all the shit happened before. People asking visa to stay in a country are programmers too. People asking military service to other people are programmers as well. People sending PDF invoice to other people are programmers, too. People...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "37",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=6,tools_agents=13,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 13,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 13,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "essay"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "ai + coding"
-      ],
-      "detail_slug": "e9f8c6582b1ab321f314dd05ad1e119c2fc11fe2",
-      "is_english_source": true,
-      "translated_title": "프로그래밍은 아직도 왜 이렇게 고된가",
-      "short_summary": "HN 프론트페이지에 오른 이 글은 도구가 바뀌어도 프로그래밍의 피로와 불만은 쉽게 사라지지 않는다는 감각을 건드린다. 댓글에서는 AI로 손코딩의 비중이 줄었다는 의견과, 결국 프로그래밍이 더 일상적인 일이 될 것이라는 전망이 함께 나왔다.",
-      "why_it_matters": "개발 도구가 빨라져도 현업의 체감은 꼭 더 편해진 쪽으로만 흐르지 않는다. 이번 글이 주목받은 이유도 코드 작성 자체보다, 프로그래밍 일을 둘러싼 역할 변화와 숙련의 기준이 흔들리고 있다는 문제의식에 있다.\n\n- AI 보조가 널리 퍼지면서 문법을 완벽히 외우는 능력보다 문제를 쪼개고 결과를 검증하는 감각이 더 앞에 나오고 있다.\n- 실무에서는 손코딩 속도 경쟁보다 요구사항 해석, 코드 리뷰, 유지보수 판단 같은 일이 더 크게 평가될 가능성이 커진다.\n- 개발 진입 장벽이 낮아질수록 차별점은 작성량이 아니라 맥락 이해와 책임 있는 판단으로 옮겨간다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 공감 쪽에 가까웠다. 글 자체를 잘 쓴 회고로 받아들이는 반응이 있었고, AI 이후 프로그래밍 노동이 어떻게 달라지는지에 관심이 모였다.\n\n- 반복해서 나온 의견은 이제 손으로 코드를 길게 짜는 능력만으로는 우위를 만들기 어렵다는 점이었다.\n- 한편으로는 프로그래밍이 특별한 기술이라기보다 점점 더 보편적인 업무 방식이 될 것이라는 시각도 보였다.\n- 실무자가 읽어볼 만한 쟁점은 AI가 문법 부담은 줄였지만, 설계 이해와 결과 검증의 책임까지 없애주지는 않는다는 대목이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T01:06:14.351616+00:00"
-    },
-    {
-      "id": "1f3fb02d5857291d93a2ea1ec6d28b75ecac4468",
-      "title_hash": "4dace66cb13f9e635d0819d6e83d25123aa9a56d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "How do I inform Windows that I'm writing a binary file?",
-      "link": "https://devblogs.microsoft.com/oldnewthing/20260504-00/?p=112296",
-      "published_at": "2026-05-05T06:14:48+00:00",
-      "summary": "HN story type: story HN points: 7 HN comments: 5 HN top comments: lmm: The article seems to be taking the position that the C runtime library is not part of \"Windows\", which feels like a rather odd view to me. What is the stable API that Windows offers to application developers if not that?",
-      "fetched_at": "2026-05-07T01:02:11.112979+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48018715",
-      "hn_story_type": "story",
-      "hn_points": "7",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48018715",
-      "hn_item_text": "",
-      "hn_comment_preview": "lmm: The article seems to be taking the position that the C runtime library is not part of \"Windows\", which feels like a rather odd view to me. What is the stable API that Windows offers to application developers if not that?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=2,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "runtime",
-            "api"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "runtime"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "runtime",
-        "api",
-        "library"
-      ],
-      "detail_slug": "1f3fb02d5857291d93a2ea1ec6d28b75ecac4468",
-      "is_english_source": true,
-      "translated_title": "윈도우에 바이너리 파일이라고 알리는 법은 없다",
-      "short_summary": "윈도우는 파일을 텍스트와 바이너리로 나눠 처리하지 않는다. 줄바꿈 변환이나 텍스트 모드 처리는 운영체제가 아니라 C 런타임 같은 상위 라이브러리의 몫이라는 설명이다.",
-      "why_it_matters": "파일 I/O에서 어디까지가 운영체제 책임이고 어디부터가 런타임 책임인지 헷갈릴 때 기준을 잡아주는 글이다. 레거시 윈도우 코드나 크로스플랫폼 파일 처리 코드를 만지는 사람에게 특히 바로 도움이 된다.\n- WriteFile 아래 단계에서는 텍스트 모드 변환이 없다. 줄바꿈, 인코딩, 직렬화 규칙은 애플리케이션이나 런타임에서 직접 관리해야 한다.\n- 예전 MS-DOS 감각으로 파일에도 텍스트 모드 스위치가 있을 거라 기대하면 설계를 잘못 잡기 쉽다. 콘솔 장치 설정과 일반 파일 처리를 구분해서 봐야 한다.\n- w와 wb의 차이가 운영체제 기능인지 표준 라이브러리 동작인지 분리해 이해하면, 포팅 과정에서 생기는 줄바꿈·인코딩 버그를 줄이는 데 도움이 된다.",
-      "hn_reaction_summary": "댓글 수는 많지 않았고, 초반 반응은 글의 결론 자체보다 설명의 경계를 어디에 두느냐에 모였다. 특히 개발자가 체감하는 윈도우 API의 범위를 어떻게 볼지에 시선이 쏠렸다.\n- 가장 눈에 띈 반응은 C 런타임을 Windows 바깥으로 밀어내는 설명이 어색하다는 지적이다. 실무에서는 CRT도 사실상 안정된 개발 인터페이스로 받아들인다는 문제제기다.\n- 그래서 읽을 만한 논점도 누가 변환을 하느냐보다, 버그가 났을 때 OS와 런타임 중 어느 층을 의심하고 확인할지에 가깝다.\n- 큰 찬반으로 갈리진 않았지만, 레거시 DOS 개념과 현대 Win32·CRT 경계를 어떻게 설명할지가 남는 쟁점으로 보인다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T01:06:14.351616+00:00"
-    },
-    {
-      "id": "4f89b7fb77495e4c6c7936b7a9417bf313c86efc",
-      "title_hash": "44efbe3adf90794a82759c131abe17a2c19c51c2",
-      "source": "GeekNews",
-      "title": "krabby: 빠른 Rust 컴파일러 만들기",
-      "link": "https://news.hada.io/topic?id=29230",
-      "published_at": "2026-05-06T16:01:01+00:00",
-      "summary": "Krabby 는 rustc 의 느린 컴파일 속도를 개선하려는 성능 우선의 빈 슬레이트 Rust 컴파일러 구현임 rustc 의 체감 성능 개선은 이제 단일 함수 변경보다 API와 자료구조 변경 에서 나오지만, 큰 코드베이스와 안정성 요구...",
-      "fetched_at": "2026-05-06T20:50:09.811343+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=14,practical_tech=14,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "rust",
-            "api"
-          ],
-          "support_hits": [
-            "코드",
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "api",
-        "코드",
-        "성능"
-      ],
-      "detail_slug": "4f89b7fb77495e4c6c7936b7a9417bf313c86efc",
-      "is_english_source": false,
-      "sent_at": "2026-05-06T20:53:01.366472+00:00"
-    },
-    {
-      "id": "9c2d1eb9a5b2403becfa42485b66a6e5c8e57fd1",
-      "title_hash": "73e57bb08b88becccb17c00ff678f03c563c5df3",
-      "source": "GeekNews",
-      "title": "Gemma 4 가속하기 : 다중 토큰 예측 drafter로 더 빠른 추론",
-      "link": "https://news.hada.io/topic?id=29214",
-      "published_at": "2026-05-06T01:10:20+00:00",
-      "summary": "Google은 Gemma 4 공개 후 몇 주 만에 다운로드 6,000만 회를 넘겼고, Gemma 4 제품군용 다중 토큰 예측(MTP) drafter 를 공개함 MTP drafter는 특화된 추측 디코딩(speculative ...",
-      "fetched_at": "2026-05-06T20:50:09.811343+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "spec"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "spec"
-      ],
-      "detail_slug": "9c2d1eb9a5b2403becfa42485b66a6e5c8e57fd1",
-      "is_english_source": false,
-      "sent_at": "2026-05-06T20:53:01.366472+00:00"
     }
   ],
   "topic_digests": {
