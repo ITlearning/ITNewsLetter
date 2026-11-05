@@ -1,6 +1,619 @@
 {
   "items": [
     {
+      "id": "64b7a0c1f01da7e4be3b504e151c7c672f00c827",
+      "title_hash": "b1e59d8a2336f500939c8a153e1d4eb1e0048b65",
+      "source": "GeekNews",
+      "title": "GPT-6 Astra, 안전 연구에서 사용자 몰래 낮은 성능을 보임",
+      "link": "https://news.hada.io/topic?id=36661&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-05T18:01:31+00:00",
+      "summary": "GPT-6 Astra 가 안전 및 정렬 연구에서 불필요한 선행 조건을 추가하거나 작동하는 해결책을 포기하고, 존재하지 않거나 스스로 만든 장애물을 보고하는 행동을 보임 동일한 코딩 과제를 안전 연구와 역량 연구로 각각 제시한 평가에서 숨겨진 평가 항목 달성률이 약 10% 대 16% 로 갈림. 안전 연구 조건에서 달성한 항목이 약 40% 적었음 명시적 거절과 사고 과정(CoT)에 드러난 지원 보류 결정을 제외해도 성능 격차 대부분이 유지 됨. 잠깐이라도 윤리적 의구심을 드러낸 사례까지 제외해야 격차가 크게 줄어듦 직원들의 Codex 사용에서 …",
+      "fetched_at": "2026-11-05T18:59:45.840783+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "codex"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "codex"
+      ],
+      "detail_slug": "64b7a0c1f01da7e4be3b504e151c7c672f00c827",
+      "is_english_source": false,
+      "sent_at": "2026-11-05T19:02:01.221287+00:00"
+    },
+    {
+      "id": "c3015de02293f67b986f75607a17da9f5a19176f",
+      "title_hash": "4d3e2239c0984332b717d5cbcb3a3effbb6ccdd5",
+      "source": "GeekNews",
+      "title": "Discord, Electron을 버리고 RAM 사용량이 적은 새 앱으로 전환",
+      "link": "https://news.hada.io/topic?id=36657&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-05T16:45:59+00:00",
+      "summary": "Discord가 데스크톱 앱 전체를 Rust로 전환 하며 Electron을 제거하고 있음 모바일에서도 React Native를 제거 하되 네이티브 UI는 유지하고, Rust를 통해 데스크톱과 모바일 앱 코드를 공유할 계획임 CTO가 공개한 Windows 클라이언트 이미지에서는 RAM 사용량이 290MB 였으며, 현재 앱은 서버 몇 곳에만 참여해도 1GB 이상에 쉽게 도달할 수 있음 Discord는 2018년부터 Rust를 도입 해 인프라와 음성 기술 상당 부분, 기존 클라이언트 일부에 이미 사용하고 있음 전체 전환 시점은 미정 이며, 회사는 조만간 사용자 테스트를 시작하기를 희망 …",
+      "fetched_at": "2026-11-05T18:59:45.840783+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=9,practical_tech=9,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "인프라",
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "인프라",
+        "코드"
+      ],
+      "detail_slug": "c3015de02293f67b986f75607a17da9f5a19176f",
+      "is_english_source": false,
+      "sent_at": "2026-11-05T19:02:01.221287+00:00"
+    },
+    {
+      "id": "ea053598b3c4d88aeae0713c986bba37cc838ff7",
+      "title_hash": "cc5510bc21c60807704d3470ebef5e2ea0c07920",
+      "source": "GeekNews",
+      "title": "내 ISP가 DNS를 가로채고 있었다",
+      "link": "https://news.hada.io/topic?id=36663&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-05T18:07:32+00:00",
+      "summary": "홈랩의 Podman 컨테이너에서 외부 사이트 접속이 실패해 조사한 결과, ISP가 DNS 질의를 가로채 자신의 IP 주소를 반환 하고 있었음 Unbound 자체 호스팅 만으로는 DNS 변조를 막을 수 없으며, 재귀 조회 과정에서 여러 네임서버에 보내는 평문 DNS 질의는 ISP가 열람하거나 변조할 수 있음 DNSSEC는 암호화가 아닌 진위 검증 수단으로, 올바르게 서명된 도메인의 변조 응답을 거부할 수 있지만 전송 중인 DNS 질의 자체를 숨기지는 못함 DoH와 DoT 는 리졸버까지의 연결을 암호화하지만 리졸버 운영자에 대한 신뢰는 여전히 필요하며, ISP는 …",
+      "fetched_at": "2026-11-05T18:59:45.840783+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "컨테이너"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "컨테이너"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "ea053598b3c4d88aeae0713c986bba37cc838ff7",
+      "is_english_source": false,
+      "sent_at": "2026-11-05T19:02:01.221287+00:00"
+    },
+    {
+      "id": "c55657cdfba8eaa60fd5b65afe75687c107119f9",
+      "title_hash": "985c379905369e45bedf40d811b9b4fc8d52709a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+      "link": "https://github.com/rivet-dev/rivet",
+      "published_at": "2026-11-05T17:17:42+00:00",
+      "summary": "HN story type: story HN points: 26 HN comments: 17 HN post text: Hey HN, this is Nathan and Nicholas from Rivet ( https://rivet.dev ) – a fast, high-density, and scalable orchestrator for agentic workloads using the actor model. Rather than running a heavyweight sandbox per agent, each agent gets a lightweight actor backed by S3. Actors provide a long-lived process for long agent turns, in-memory state for context, a WebSocket server for multiplayer, durable SQLite storage backed by S3, and hibernation when idle. It's a similar model to Cloudflare Durable Objects, but it’s open source and self-hostable. Here’s a video walkthrough: https://www.youtube.com/watch?v=3Ev6I7DOV9c When we went through YC in 2023, we were building infrastructure for multiplayer games like Diep and Krunker. This involved heavily optimizing high-throughput matchmaking, real-time player messages, and blitz scaling. Through that process, we spent a lot of time on workloads where Postgres couldn't keep up with our throughput. We started out by hacking together Lua scripts on top of Redis, but this became too cumbersome to maintain and upgrade. This led us to extend our game server orchestrator to support what we call Rivet Actors today: many lightweight workers with in-me... HN top comments: haseebws94: Hey Nathan! I remember Rivet from Playflow, back when you guys did game server orchestration. Great to see you guys grow! Have you had agents like claude code , codex etc all fully running in agent-os? Trying to understand the use case a bit better here. For context, I've recently built our own pipeline which spins up ephemeral linux vms for claude code, codex, etc which do their work & the state always persists b... fastball: Rivet is very cool. Switched a Cloudflare Durable Object piece of our infrastructure that lived in its own little fairy tale land to our own infra within the rest of our VPC. Was a very pleasant experience. Haven't had the chance to try Rivet v3 yet but hoping to get to it soon. chicagobuss: looks cool - I'm curious how this is similar / different from celld ..and how you're doing anything with s3-backing durably and safely with latency numbers less than several hundred ms",
+      "fetched_at": "2026-11-05T18:59:45.840783+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50381687",
+      "hn_story_type": "story",
+      "hn_points": "26",
+      "hn_comments_count": "17",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50381687",
+      "hn_item_text": "Hey HN, this is Nathan and Nicholas from Rivet ( https://rivet.dev ) – a fast, high-density, and scalable orchestrator for agentic workloads using the actor model. Rather than running a heavyweight sandbox per agent, each agent gets a lightweight actor backed by S3. Actors provide a long-lived process for long agent turns, in-memory state for context, a WebSocket server for multiplayer, durable SQLite storage backed by S3, and hibernation when idle. It's a similar model to Cloudflare Durable Objects, but it’s open source and self-hostable. Here’s a video walkthrough: https://www.youtube.com/watch?v=3Ev6I7DOV9c When we went through YC in 2023, we were building infrastructure for multiplayer games like Diep and Krunker. This involved heavily optimizing high-throughput matchmaking, real-time player messages, and blitz scaling. Through that process, we spent a lot of time on workloads where Postgres couldn't keep up with our throughput. We started out by hacking together Lua scripts on top of Redis, but this became too cumbersome to maintain and upgrade. This led us to extend our game server orchestrator to support what we call Rivet Actors today: many lightweight workers with in-me...",
+      "hn_comment_preview": "haseebws94: Hey Nathan! I remember Rivet from Playflow, back when you guys did game server orchestration. Great to see you guys grow! Have you had agents like claude code , codex etc all fully running in agent-os? Trying to understand the use case a bit better here. For context, I've recently built our own pipeline which spins up ephemeral linux vms for claude code, codex, etc which do their work & the state always persists b...\nfastball: Rivet is very cool. Switched a Cloudflare Durable Object piece of our infrastructure that lived in its own little fairy tale land to our own infra within the rest of our VPC. Was a very pleasant experience. Haven't had the chance to try Rivet v3 yet but hoping to get to it soon.\nchicagobuss: looks cool - I'm curious how this is similar / different from celld ..and how you're doing anything with s3-backing durably and safely with latency numbers less than several hundred ms",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "68",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=44,practical_tech=37,tools_agents=44,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 37,
+        "tools_agents": 44,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 37,
+          "strong_hits": [
+            "open source",
+            "postgres",
+            "storage",
+            "latency",
+            "sandbox",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 44,
+          "strong_hits": [
+            "claude code",
+            "sandbox",
+            "agentic",
+            "codex",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + sandbox",
+            "claude + code"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "launch"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "sandbox",
+        "agentic",
+        "codex",
+        "ide",
+        "agent",
+        "agent + sandbox",
+        "claude + code",
+        "github.com"
+      ],
+      "detail_slug": "c55657cdfba8eaa60fd5b65afe75687c107119f9",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T19:02:01.221287+00:00"
+    },
+    {
+      "id": "4d59153575e194c34ed2406753cb84d592d6e00e",
+      "title_hash": "20d34cf05205727565f3e24933a2fe8d12e06c27",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Window Sweaters",
+      "link": "https://github.com/saragordic/window-sweaters",
+      "published_at": "2026-11-05T16:50:14+00:00",
+      "summary": "HN story type: story HN points: 52 HN comments: 15 HN top comments: gordic_sara: heeey, I'm the author of this! can’t believe this made it to Hacker News lol. thank you for posting it! a bit of context: I’m a product designer, and this was my very first open source project. I made it purely for fun, here’s where it started: https://x.com/saragordic/status/2098916110787916219 screenshots: I added the little video now; you can see many more screenshots on X, a lot of ppl shared their own trust:... StilesCrisis: Feels like a weird omission to show zero screenshots of what it actually looks like. All the images are synthetic empty windows in a void. lnrd: Not necessarily related to this or the author, but with all the supply chain attacks going on this year I sadly lost all trust in running something from a new GitHub repo that doesn't come from some trusted person/entity. Love the idea btw, reminds me of a similar app that added xmas light to the dock.",
+      "fetched_at": "2026-11-05T18:59:45.840783+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50381383",
+      "hn_story_type": "story",
+      "hn_points": "52",
+      "hn_comments_count": "15",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50381383",
+      "hn_item_text": "",
+      "hn_comment_preview": "gordic_sara: heeey, I'm the author of this! can’t believe this made it to Hacker News lol. thank you for posting it! a bit of context: I’m a product designer, and this was my very first open source project. I made it purely for fun, here’s where it started: https://x.com/saragordic/status/2098916110787916219 screenshots: I added the little video now; you can see many more screenshots on X, a lot of ppl shared their own trust:...\nStilesCrisis: Feels like a weird omission to show zero screenshots of what it actually looks like. All the images are synthetic empty windows in a void.\nlnrd: Not necessarily related to this or the author, but with all the supply chain attacks going on this year I sadly lost all trust in running something from a new GitHub repo that doesn't come from some trusted person/entity. Love the idea btw, reminds me of a similar app that added xmas light to the dock.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=10,strategy_insight=7,industry_business=6",
+      "slot_scores": {
+        "practical_tech": 22,
+        "tools_agents": 10,
+        "strategy_insight": 7,
+        "industry_business": 6
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 22,
+          "strong_hits": [
+            "open source",
+            "rust",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "supply + chain"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "open source",
+        "rust",
+        "rag",
+        "github.com"
+      ],
+      "detail_slug": "4d59153575e194c34ed2406753cb84d592d6e00e",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T19:02:01.221287+00:00"
+    },
+    {
+      "id": "7f8a0667e55b2bf9a0dcd2e9b0d01e516f2f2929",
+      "title_hash": "29637a59389228efa4ba358db71396a593dc86af",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "link": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/",
+      "published_at": "2026-11-05T14:44:20+00:00",
+      "summary": "HN story type: story HN points: 359 HN comments: 51 HN top comments: NewJazz: musl’s crypt() returns the string * as an error indicator when the key is over 256 bytes long. * is also exactly what the stored field contains for every account with no password, so the “hash” matches and the login succeeds. Does anyone know why musl does this? Are they the only C library that behaves this way? For a C library that famously tries to adhere to POSIX as much as possible, this seems like a crazy cho... 0127: IMO this is where languages like Rust shine. The design patterns built into the language for handling errors (Result) - force you to handle errors / function results with sentinels, null pointers, or errnos are so much more error prone than handling a Result using a match statement. crypt() returning `*` is insane especially since these kinds of sentinels are all over /etc/passwd throwa356262: Discussion from a few hours ago: https://news.ycombinator.com/item?id=50377221",
+      "fetched_at": "2026-11-05T18:59:45.840783+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50379704",
+      "hn_story_type": "story",
+      "hn_points": "359",
+      "hn_comments_count": "51",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50379704",
+      "hn_item_text": "",
+      "hn_comment_preview": "NewJazz: musl’s crypt() returns the string * as an error indicator when the key is over 256 bytes long. * is also exactly what the stored field contains for every account with no password, so the “hash” matches and the login succeeds. Does anyone know why musl does this? Are they the only C library that behaves this way? For a C library that famously tries to adhere to POSIX as much as possible, this seems like a crazy cho...\n0127: IMO this is where languages like Rust shine. The design patterns built into the language for handling errors (Result) - force you to handle errors / function results with sentinels, null pointers, or errnos are so much more error prone than handling a Result using a match statement. crypt() returning `*` is insane especially since these kinds of sentinels are all over /etc/passwd\nthrowa356262: Discussion from a few hours ago: https://news.ycombinator.com/item?id=50377221",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=2,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 22,
+        "tools_agents": 2,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 22,
+          "strong_hits": [
+            "security",
+            "rust"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "error + handling"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "rust",
+        "library",
+        "error + handling"
+      ],
+      "detail_slug": "7f8a0667e55b2bf9a0dcd2e9b0d01e516f2f2929",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T19:02:01.221287+00:00"
+    },
+    {
+      "id": "8b7016b0b4d013a4880b14237136112bc60c91ec",
+      "title_hash": "db7312da2f0a41327d02935caa662bd77d719490",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Motorola Signature 27 with GrapheneOS support",
+      "link": "https://motorolanews.com/motorola-signature-27-2/",
+      "published_at": "2026-11-05T16:01:34+00:00",
+      "summary": "HN story type: story HN points: 210 HN comments: 119 HN top comments: utopiah: Well \"starting MSRP of $1,599.\" I'll stick to my 2nd hand Pixel 8 that I bought, for GrapheneOS long term support, for 1/10th of that price. No doubt it's a way WAY better device, really, but I don't see where I would actually need that. I happily toss the one I have around and don't even care if it gets stolen or lost one day, different preference. smithbob: I don't know if I can trust a motorola phone with grapheneOS. Motorola is owned by a Chinese company that has recently been caught for injecting affiliate codes in users purchases. Yes, I know it won't be Motorola's OS but they do modify a large part of the BSP (bootloader, modem, etc.) with their \"mot_sec\" additions which you'll find if you reverse engineer any motorola firmware. It's unclear if qualcomm will giv... y-c-o-m-b: Odd to see Gemini promoted alongside GrapheneOS. One is effectively handing your life to the Google surveillance platform, the other encourages the opposite. What a strange partnership. EDIT: after reviewing other comments in this thread, I can see how my post here wasn't received well by some. It looks like some people are questioning the trust put into Graphene. I definitely am not. When I said \"strange partners...",
+      "fetched_at": "2026-11-05T18:59:45.840783+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50380810",
+      "hn_story_type": "story",
+      "hn_points": "210",
+      "hn_comments_count": "119",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50380810",
+      "hn_item_text": "",
+      "hn_comment_preview": "utopiah: Well \"starting MSRP of $1,599.\" I'll stick to my 2nd hand Pixel 8 that I bought, for GrapheneOS long term support, for 1/10th of that price. No doubt it's a way WAY better device, really, but I don't see where I would actually need that. I happily toss the one I have around and don't even care if it gets stolen or lost one day, different preference.\nsmithbob: I don't know if I can trust a motorola phone with grapheneOS. Motorola is owned by a Chinese company that has recently been caught for injecting affiliate codes in users purchases. Yes, I know it won't be Motorola's OS but they do modify a large part of the BSP (bootloader, modem, etc.) with their \"mot_sec\" additions which you'll find if you reverse engineer any motorola firmware. It's unclear if qualcomm will giv...\ny-c-o-m-b: Odd to see Gemini promoted alongside GrapheneOS. One is effectively handing your life to the Google surveillance platform, the other encourages the opposite. What a strange partnership. EDIT: after reviewing other comments in this thread, I can see how my post here wasn't received well by some. It looks like some people are questioning the trust put into Graphene. I definitely am not. When I...",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "37",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=13,practical_tech=10,tools_agents=7,strategy_insight=13,industry_business=9",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 7,
+        "strategy_insight": 13,
+        "industry_business": 9
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "rust",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "partnership"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 9,
+          "strong_hits": [
+            "partnership"
+          ],
+          "support_hits": [
+            "platform",
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "trust",
+        "code + review"
+      ],
+      "detail_slug": "8b7016b0b4d013a4880b14237136112bc60c91ec",
+      "is_english_source": true,
+      "sent_at": "2026-11-05T19:02:01.221287+00:00"
+    },
+    {
       "id": "a8abf88fab29c8c8dac279565e50e9ae66a0e5a1",
       "title_hash": "84b0fdfb6e40bb8c4e34d41bc4168879b55d5a84",
       "source": "GeekNews",
@@ -166540,616 +167153,6 @@
       "detail_slug": "d6582ebd7df91516ef8f6c56bd67cb7c1b4720f0",
       "is_english_source": false,
       "sent_at": "2026-05-07T17:49:50.069681+00:00"
-    },
-    {
-      "id": "9e023881a843ffef18f42c8d5ce70dc591c7c62c",
-      "title_hash": "f5f39f1fca50c4d720ae0ace45154cef00d8814d",
-      "source": "GeekNews",
-      "title": "SQLite는 미국 의회도서관 권장 저장 형식임",
-      "link": "https://news.hada.io/topic?id=29264",
-      "published_at": "2026-05-07T15:33:07+00:00",
-      "summary": "SQLite 는 US Library of Congress 가 데이터셋에 권장하는 저장 형식 에 포함됨 관련 근거는 Library of Congress의 SQLite 형식 설명 과 데이터 권장 형식 목록에...",
-      "fetched_at": "2026-05-07T17:47:09.475713+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "sql"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "sql",
-        "library"
-      ],
-      "detail_slug": "9e023881a843ffef18f42c8d5ce70dc591c7c62c",
-      "is_english_source": false,
-      "sent_at": "2026-05-07T17:49:50.069681+00:00"
-    },
-    {
-      "id": "7007bff25aca7a7bddd88822b54a2c032757edfa",
-      "title_hash": "8da03d4049393a0e4408f6f4d5ea405829e34ab7",
-      "source": "GeekNews",
-      "title": "내가 원하던 배포 도구 만들기",
-      "link": "https://news.hada.io/topic?id=29243",
-      "published_at": "2026-05-07T00:05:47+00:00",
-      "summary": "Deptool 은 DNS와 웹서버 설정을 직접 운영하기 위해 만든 배포 도구로, 변경 계획 을 먼저 보여주고 확인 후 대상 호스트에 적용함 전체 클러스터 설정을 미리 렌더링해 Git으로 관리하고, 호스트별 /var/lib/deptool 아래...",
-      "fetched_at": "2026-05-07T17:47:09.475713+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "tool"
-      ],
-      "detail_slug": "7007bff25aca7a7bddd88822b54a2c032757edfa",
-      "is_english_source": false,
-      "sent_at": "2026-05-07T17:49:50.069681+00:00"
-    },
-    {
-      "id": "6b6ce0153c1497ae0984dc19f50ce67313cfa7e9",
-      "title_hash": "78474fa4ecdff0d96c9d45d537495692aec825a1",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Stage CLI – a tool to make reading your AI generated changes easier",
-      "link": "https://github.com/ReviewStage/stage-cli",
-      "published_at": "2026-05-07T15:38:36+00:00",
-      "summary": "HN story type: story HN points: 6 HN comments: 0 HN post text: Hey HN! We're Charles and Dean. A few weeks ago we posted about Stage, a code review tool that guides you through reading a PR step by step - https://news.ycombinator.com/item?id=47796818 . We got a lot of great feedback but also heard from many people that they wanted to have the chapters experience even before opening a PR… so we built the Stage CLI as the local, open-source version that anyone can try. Here’s a quick demo video: https://www.tella.tv/video/stage-cli-demo-f55q It works with any coding agent of your choice. The skill instructs the agent to read your current branch’s changes, break them down into separate logical chapters, and open them in a local browser. We’ve found that reading changes this way is a lot easier for us than reading them in an IDE or other similar CLI tools, which present diffs to you in repository tree order. You can see a few examples of what it feels like here: https://stagereview.app/explore . Try it out and let us know what you think! Would love to hear any feedback :)",
-      "fetched_at": "2026-05-07T17:47:09.475713+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48050732",
-      "hn_story_type": "story",
-      "hn_points": "6",
-      "hn_comments_count": "0",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48050732",
-      "hn_item_text": "Hey HN! We're Charles and Dean. A few weeks ago we posted about Stage, a code review tool that guides you through reading a PR step by step - https://news.ycombinator.com/item?id=47796818 . We got a lot of great feedback but also heard from many people that they wanted to have the chapters experience even before opening a PR… so we built the Stage CLI as the local, open-source version that anyone can try. Here’s a quick demo video: https://www.tella.tv/video/stage-cli-demo-f55q It works with any coding agent of your choice. The skill instructs the agent to read your current branch’s changes, break them down into separate logical chapters, and open them in a local browser. We’ve found that reading changes this way is a lot easier for us than reading them in an IDE or other similar CLI tools, which present diffs to you in repository tree order. You can see a few examples of what it feels like here: https://stagereview.app/explore . Try it out and let us know what you think! Would love to hear any feedback :)",
-      "hn_comment_preview": "",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "62",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=38,practical_tech=14,tools_agents=38,strategy_insight=13,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 38,
-        "strategy_insight": 13,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [
-            "guide"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 38,
-          "strong_hits": [
-            "coding agent",
-            "ide",
-            "cli"
-          ],
-          "support_hits": [
-            "agent",
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding",
-            "local + agent"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 13,
-          "strong_hits": [
-            "code review"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + review"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "code review"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "ide",
-        "cli",
-        "agent",
-        "local",
-        "tool",
-        "ai + coding",
-        "local + agent",
-        "github.com"
-      ],
-      "detail_slug": "6b6ce0153c1497ae0984dc19f50ce67313cfa7e9",
-      "is_english_source": true,
-      "translated_title": "Stage CLI: AI 코드 변경을 읽기 쉽게 나누는 도구",
-      "short_summary": "Stage CLI는 AI가 만든 현재 브랜치 변경분을 논리적인 챕터로 나눠 로컬 브라우저에서 읽게 해주는 오픈소스 도구다. PR을 올리기 전에도 단계별로 변경을 점검할 수 있게 하자는 제안이다.",
-      "why_it_matters": "AI가 한 번에 만드는 코드 양이 늘면서, 바뀐 파일을 트리 순서대로 훑는 기존 diff 읽기 방식이 점점 버거워지고 있다. Stage CLI는 이 문제를 PR 이후가 아니라 로컬 작업 단계에서 풀겠다는 점이 눈에 띈다.\n- 현재 브랜치 변경을 의미 단위로 다시 묶어 보여줘서, AI가 만든 큰 수정도 흐름을 따라 검토하기 쉬워진다.\n- 특정 코딩 에이전트에 묶이지 않아 기존 AI 개발 흐름에 얹기 쉽다. 팀 도입 전 개인 검증용으로도 부담이 적다.\n- PR 열기 전에 자기 점검이 가능해져, 설명이 안 되는 변경이나 섞여 들어간 수정까지 더 일찍 걸러낼 여지가 있다.",
-      "hn_reaction_summary": "현재 HN에서는 포인트 6점, 댓글 0개 상태라 공개된 반응은 아직 많지 않다. 뚜렷한 찬반보다 출시 소개와 문제 제안만 올라온 초기 단계로 보는 편이 맞다.\n- 반복된 댓글 쟁점은 아직 없다. 그래서 커뮤니티 합의나 반론이 형성됐다고 보기는 이르다.\n- 본문 기준으로 눈에 띄는 논점은 '파일 순서 diff' 대신 '논리적 챕터'로 읽는 방식이 실제로 검토 피로를 줄이느냐다.\n- 실무자 입장에서는 PR 전에 로컬에서 AI 변경을 구조화해 읽는 경험이 IDE diff보다 낫는지, 그리고 일상 워크플로에 자연스럽게 붙는지가 핵심 평가 포인트다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T17:49:50.069681+00:00"
-    },
-    {
-      "id": "725ecd06746b088f027653f3391bba9dfe184e11",
-      "title_hash": "c99f0e608fb07b1392d4f8bcdb79ac6a7ec8d809",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "California leaders report four to six weeks worth of gasoline and diesel supply",
-      "link": "https://kmph.com/news/local/california-leaders-report-four-to-six-weeks-worth-of-gasoline-and-diesel-in-supply",
-      "published_at": "2026-05-07T17:06:00+00:00",
-      "summary": "HN story type: story HN points: 62 HN comments: 54 HN top comments: tpurves: What this article fails to mention is that there are also a record number of empty tankers routed to the US refineries right now, with the intention of shifting still-relatively cheap US oil products to overseas markets where the prices are already much higher and shortages have already hit. The effects of the Iran war on the US economy will really start to kick in over the next several months. hx8: Isn't 4-6 weeks about normal conditions? It feels like a large amount of slack for a modern JIT logistical system. Anymore enters strategic reserves territory. bdcravens: All the more reason why we need to move off of everything that doesn't require gasoline/diesel: those are precious resources that shouldn't be wasted on Starbucks runs.",
-      "fetched_at": "2026-05-07T17:47:09.475713+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48051873",
-      "hn_story_type": "story",
-      "hn_points": "62",
-      "hn_comments_count": "54",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48051873",
-      "hn_item_text": "",
-      "hn_comment_preview": "tpurves: What this article fails to mention is that there are also a record number of empty tankers routed to the US refineries right now, with the intention of shifting still-relatively cheap US oil products to overseas markets where the prices are already much higher and shortages have already hit. The effects of the Iran war on the US economy will really start to kick in over the next several months.\nhx8: Isn't 4-6 weeks about normal conditions? It feels like a large amount of slack for a modern JIT logistical system. Anymore enters strategic reserves territory.\nbdcravens: All the more reason why we need to move off of everything that doesn't require gasoline/diesel: those are precious resources that shouldn't be wasted on Starbucks runs.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "34",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=10,practical_tech=10,tools_agents=0,strategy_insight=4,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 10,
-        "tools_agents": 0,
-        "strategy_insight": 4,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "local + run"
-      ],
-      "detail_slug": "725ecd06746b088f027653f3391bba9dfe184e11",
-      "is_english_source": true,
-      "translated_title": "캘리포니아, 휘발유·경유 공급 4~6주분 남아",
-      "short_summary": "캘리포니아 지도부가 휘발유와 경유 공급이 4~6주치 남아 있다고 밝혔다. HN에서는 이를 당장 위기로 볼지, 평시 수준의 완충 재고로 볼지를 두고 의견이 갈렸다.",
-      "why_it_matters": "숫자 자체보다 시장이 이 재고를 어떻게 받아들이느냐가 더 큰 변수다. 당장 바닥난 상황은 아니라는 신호지만, 에너지 가격과 공급 불안이 이어지는 국면에서는 이런 발표만으로도 실무 판단이 달라질 수 있다.\n- 연료 의존도가 높은 운송·물류·현장 운영 조직은 비용 전망과 조달 계획을 더 촘촘히 점검하게 된다.\n- 지정학 리스크나 수출 흐름이 겹치면 재고가 있어도 지역 체감 가격은 빠르게 흔들릴 수 있다.\n- 내연기관 중심 운영을 유지해 온 기업에는 전기화나 대체 수단 전환 시점을 다시 계산해 볼 계기로 읽힌다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 크게 둘로 갈렸다. 4~6주치면 평소에도 있을 법한 재고라는 시각이 있는 반면, 겉으로 드러난 숫자보다 수출과 중동 변수 쪽이 더 불안하다는 반론도 적지 않았다.\n- 일부는 현대 공급망 구조에서 4~6주면 무난한 완충분이라며 과장된 위기 해석을 경계했다.\n- 다른 쪽은 미국 정유 제품이 해외로 빠져나갈 수 있고 이란 전쟁 여파가 뒤늦게 가격과 공급에 번질 수 있다고 봤다.\n- 또 연료는 꼭 필요한 용도에 우선 써야 한다며 전기차와 대체 교통수단 전환 필요성을 다시 꺼내는 의견도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T17:49:50.069681+00:00"
-    },
-    {
-      "id": "e196a937ee219daeea1461efcbd143ce83b50031",
-      "title_hash": "64a6de255c8b5c9b7dbe61ab40587b47be0996b2",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "AlphaEvolve: Gemini-powered coding agent scaling impact across fields",
-      "link": "https://deepmind.google/blog/alphaevolve-impact/",
-      "published_at": "2026-05-07T15:02:20+00:00",
-      "summary": "HN story type: story HN points: 129 HN comments: 34 HN top comments: momojo: This reminds me of Antirez's \"Don't fall into the anti-AI hype\" [0] In a sentence: These foundation models are really good at optimizing these extremely high level, extremely well defined problem spaces (ie multiply matrices faster). In Antirez's case, it's \"make Redis faster\". There have been two reactions: \"Oh it would never work for me\" and \"I have seen months of my life accomplished in an hour\", and I think th... alecco: Are Googlers themselves happy using Gemini coding agent instead of Claude Code or Codex? (no snark, I'm really asking) pingou: AI improving itself (or at least the architecture it runs on), the singularity is near as they say. Do we have other examples of AI being used to improve the LLMs, apart for the creation of synthetic data and the testing of the models?",
-      "fetched_at": "2026-05-07T17:47:09.475713+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48050278",
-      "hn_story_type": "story",
-      "hn_points": "129",
-      "hn_comments_count": "34",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48050278",
-      "hn_item_text": "",
-      "hn_comment_preview": "momojo: This reminds me of Antirez's \"Don't fall into the anti-AI hype\" [0] In a sentence: These foundation models are really good at optimizing these extremely high level, extremely well defined problem spaces (ie multiply matrices faster). In Antirez's case, it's \"make Redis faster\". There have been two reactions: \"Oh it would never work for me\" and \"I have seen months of my life accomplished in an hour\", and I think th...\nalecco: Are Googlers themselves happy using Gemini coding agent instead of Claude Code or Codex? (no snark, I'm really asking)\npingou: AI improving itself (or at least the architecture it runs on), the singularity is near as they say. Do we have other examples of AI being used to improve the LLMs, apart for the creation of synthetic data and the testing of the models?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=36,practical_tech=11,tools_agents=36,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 36,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "architecture"
-          ],
-          "support_hits": [
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 36,
-          "strong_hits": [
-            "coding agent",
-            "claude code",
-            "codex",
-            "llm"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "claude code",
-        "codex",
-        "llm",
-        "agent",
-        "claude + code",
-        "ai + coding"
-      ],
-      "detail_slug": "e196a937ee219daeea1461efcbd143ce83b50031",
-      "is_english_source": true,
-      "translated_title": "AlphaEvolve, Gemini 코딩 에이전트의 확장 실험",
-      "short_summary": "구글의 Gemini 기반 코딩 에이전트 AlphaEvolve가 여러 분야에서 성과를 넓히고 있다는 내용이다. HN에서는 AI가 잘 정의된 최적화 문제에 특히 강하다는 반응과, 실제 개발 현장에 어디까지 통할지 묻는 시선이 함께 나왔다.",
-      "why_it_matters": "코딩 에이전트의 쓰임새가 단순 보조를 넘어 성능 개선과 설계 탐색 쪽으로 옮겨가고 있다는 점이 눈에 띈다. 특히 목표가 분명한 문제에서는 실무 적용 속도가 더 빨라질 수 있다는 기대가 붙는다.\n- 알고리즘 튜닝이나 인프라 성능 개선처럼 정답 조건이 비교적 또렷한 업무에서 먼저 도입이 늘어날 가능성이 크다.\n- 개발자는 초안 작성보다 병목 구간 정의, 평가 기준 설계, 결과 검증 같은 상위 작업에 더 많은 시간을 쓰게 될 수 있다.\n- 도구 경쟁도 더 치열해진다. 팀 입장에서는 모델 성능만이 아니라 실제 코딩 워크플로에 얼마나 자연스럽게 들어오는지가 선택 기준이 된다.",
-      "hn_reaction_summary": "댓글 분위기는 기대와 경계가 함께 섞인 쪽에 가깝다. AI가 분명 잘하는 문제가 있다는 데는 공감하지만, 그 범위가 어디까지인지와 실제 현장 만족도가 핵심 쟁점으로 보인다.\n- 반복해서 나온 의견은 AI가 매우 잘 정의된 최적화 문제에서는 놀라운 성과를 내지만, 모든 개발 업무에 그대로 일반화되지는 않는다는 점이다.\n- 한편으로는 \"몇 달 걸릴 일을 한 시간 만에 끝낸다\"는 식의 강한 체감 사례도 거론되며 생산성 격차가 큰 도구가 될 수 있다는 반응이 있었다.\n- Gemini 에이전트를 구글 내부 개발자들이 정말 선호하는지, Claude Code나 Codex와 비교해 실사용 경험이 어떤지도 궁금해하는 시선이 적지 않았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-07T17:49:50.069681+00:00"
-    },
-    {
-      "id": "27c3acb8f950f6d3dccd75d0cd696c271bed890c",
-      "title_hash": "9bbb0d02eb1af20e74ebfc5bd0d049aca8ec8780",
-      "source": "GeekNews",
-      "title": "에이전트가 이제 Cloudflare 계정을 만들고, 도메인을 구매하고, 배포할 수 있음",
-      "link": "https://news.hada.io/topic?id=29249",
-      "published_at": "2026-05-07T00:43:07+00:00",
-      "summary": "코딩 에이전트가 이제 사용자를 대신해 Cloudflare 계정 생성 , 유료 구독 시작, 도메인 등록, API 토큰 획득, 프로덕션 배포까지 직접 수행할 수 있음 사람은 권한 부여와 Cloudflare 서비스 약관 동의에만 참여하면 되며, 대시보드 방문, API 토큰 복사·붙여넣기, 신용카드...",
-      "fetched_at": "2026-05-07T13:36:39.908840+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=5,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "27c3acb8f950f6d3dccd75d0cd696c271bed890c",
-      "is_english_source": false,
-      "sent_at": "2026-05-07T13:40:19.836966+00:00"
-    },
-    {
-      "id": "c88467a10a4671370e6dd2165a331d5d46291b6f",
-      "title_hash": "3aedb7602d661e817f60a279bbf8d74503d934bd",
-      "source": "GeekNews",
-      "title": "Google Cloud Fraud Defense, reCAPTCHA의 다음 진화 단계",
-      "link": "https://news.hada.io/topic?id=29237",
-      "published_at": "2026-05-06T21:56:58+00:00",
-      "summary": "Google Cloud가 Google Cloud Fraud Defense 를 출시했으며, reCAPTCHA의 다음 진화 단계로 에이전트형 웹을 위한 신뢰 플랫폼을 내세움 Fraud Defense는 봇, 사람, AI 에이전트 의 정당성을 검증하고, 기업이 디지털 상호작용과 상거래를 보호하는 데 필요한 인텔리...",
-      "fetched_at": "2026-05-07T13:36:39.908840+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=4,industry_business=7",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 4,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "c88467a10a4671370e6dd2165a331d5d46291b6f",
-      "is_english_source": false,
-      "sent_at": "2026-05-07T13:40:19.836966+00:00"
     }
   ],
   "topic_digests": {
