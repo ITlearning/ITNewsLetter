@@ -1,6 +1,423 @@
 {
   "items": [
     {
+      "id": "01662ffa38e03b02466302425d5134143aeea89d",
+      "title_hash": "b2a3b90af9f7f40d7940cae51ae9e92411ed0441",
+      "source": "GeekNews",
+      "title": "Show GN: K-Humanizer - 한국어 글에서 번역투를 덜어내는 Agent Skill",
+      "link": "https://news.hada.io/topic?id=36707&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-06T14:09:29+00:00",
+      "summary": "AI로 쓴 이력서, 업무 메일, 제품 안내를 다듬는 K-Humanizer를 만들었습니다. Cursor, Claude, Codex에서 쓸 수 있고 MIT 라이선스로 공개했습니다. 버튼의 ‘작성 중인 내용의 임시 저장을 수행합니다’는 ‘임시 저장’이면 충분합니다. 반대로 ‘이의 신청은 담당 상담사를 통해서만 접수할 수 있습니다’에서 ‘만’을 빼면 접수 규칙이 달라집니다. 이번에 글자 변경률 제한을 없애고, 고친 문장이 여전히 같은 일을 가리키는지 확인하도록 지침을 바꿨습니다. npx skills add evergreentree97/K-Humanizer --skill k-humanizer --full-depth 한영 README에 사용법을, 평가 문서에 직접 시험해 볼 합성 예시를 실었습니다. 문장을 줄이면서 예외를 놓치거나 개발팀에서 쓰는 용어를 어색하게 바꾼 사례가 있으면, 실제 업무 자료 대신 같은 문제가 드러나는 짧은 예시로 알려 주세요. …",
+      "fetched_at": "2026-11-06T15:45:11.230621+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "67",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=22,practical_tech=0,tools_agents=22,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 22,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "cursor",
+            "codex"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cursor",
+        "codex",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "01662ffa38e03b02466302425d5134143aeea89d",
+      "is_english_source": false,
+      "sent_at": "2026-11-06T15:47:31.747022+00:00"
+    },
+    {
+      "id": "c6fff768178e3074b3884aad0e13480b256ba497",
+      "title_hash": "be49a9e9f2ebce924035a592639a763e13dc5974",
+      "source": "GeekNews",
+      "title": "Blender의 UI와 런타임: GPUI보다 훨씬 빠름",
+      "link": "https://news.hada.io/topic?id=36701&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-06T11:39:59+00:00",
+      "summary": "BUI 는 Blender의 위젯 그리기와 상호작용을 분리한 독립 UI 라이브러리로, Python, Rust, JavaScript, C/C++, Dear ImGui에서 같은 C 런타임 을 사용함 프로젝트의 Windows 노트북 벤치마크에서 동일한 gpui 문법의 설정 창은 첫 화면을 약 5배 빨리 표시 했으며, CPU 렌더러 사용 시 메모리는 약 절반이었음. 일부 최신 기능 추가 전 측정값이며 환경별 성능 보장은 아님 변경 영역만 다시 그리는 렌더링 과 유휴 시 대기를 기본으로 하며, CPU 렌더러 외에 Windows의 Direct3D 11과 Linux의 OpenGL 3.3 GPU 렌더러를 선택할 수 있음 기존 …",
+      "fetched_at": "2026-11-06T15:45:11.230621+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "성능"
+      ],
+      "detail_slug": "c6fff768178e3074b3884aad0e13480b256ba497",
+      "is_english_source": false,
+      "sent_at": "2026-11-06T15:47:31.747022+00:00"
+    },
+    {
+      "id": "a25c701701a79a89e1627a3db8db2f1f55650101",
+      "title_hash": "02e9abf772cc44d06a15d8d750d53c9ec1c0893a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Gemini Omni 1.2 Flash",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "published_at": "2026-11-06T13:35:27+00:00",
+      "summary": "HN story type: story HN points: 136 HN comments: 101 HN top comments: wxce: It's insane how Google has dropped the ball almost completely with AI. I literally don't care about their models anymore because I can't even try them without paying for them? I already pay for the plus plan but whatever their latest model was, is locked for me. Or otherwise it's just not accessible for me. If I try to add balance to my Google payment account, it shows me errors and is asking me to verify my ident... msabalau: This is a new video model. It is not a replacement for Gemini 4, it is doing something altogether different. It has been available, since yesterday, within Google Flow. I know, because I used it yesterday. Creatives normally are using Flow or similar third party tools, not APIs or AI Studio. The claim here is that there is more character consistency, which is helpful if true. But that's not something I can see fro... del82: I desperately wish Google would focus on improving the Gemini capabilities that are built-in to their office suite (docs, slides, etc.). The current built-in Gemini is terrible, and if I could use e.g. Claude natively with those products my workday would be an order of magnitude more productive. I'm shocked that they don't seem to be investing in agentic capabilities there at all.",
+      "fetched_at": "2026-11-06T15:45:11.230621+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50392118",
+      "hn_story_type": "story",
+      "hn_points": "136",
+      "hn_comments_count": "101",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50392118",
+      "hn_item_text": "",
+      "hn_comment_preview": "wxce: It's insane how Google has dropped the ball almost completely with AI. I literally don't care about their models anymore because I can't even try them without paying for them? I already pay for the plus plan but whatever their latest model was, is locked for me. Or otherwise it's just not accessible for me. If I try to add balance to my Google payment account, it shows me errors and is asking me to verify my ident...\nmsabalau: This is a new video model. It is not a replacement for Gemini 4, it is doing something altogether different. It has been available, since yesterday, within Google Flow. I know, because I used it yesterday. Creatives normally are using Flow or similar third party tools, not APIs or AI Studio. The claim here is that there is more character consistency, which is helpful if true. But that's not something I can see fro...\ndel82: I desperately wish Google would focus on improving the Gemini capabilities that are built-in to their office suite (docs, slides, etc.). The current built-in Gemini is terrible, and if I could use e.g. Claude natively with those products my workday would be an order of magnitude more productive. I'm shocked that they don't seem to...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=9,tools_agents=16,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 16,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "agentic",
+            "ide"
+          ],
+          "support_hits": [
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "agentic",
+        "ide",
+        "agent",
+        "tool"
+      ],
+      "detail_slug": "a25c701701a79a89e1627a3db8db2f1f55650101",
+      "is_english_source": true,
+      "sent_at": "2026-11-06T15:47:31.747022+00:00"
+    },
+    {
+      "id": "3f353e9cd085d856c8751481f33f168157aed707",
+      "title_hash": "765bbea3027b01b8fad10ed19cfd8e0b2eb89772",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+      "link": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+      "published_at": "2026-11-06T14:13:09+00:00",
+      "summary": "HN story type: story HN points: 47 HN comments: 22 HN top comments: Bender: LLM bots are the easiest to spot. Rate limit them to 16kb/s and 1 request every 5 seconds. Give them a friendly multilingual WCAG status 429 page that says to slow down or status 444 and drop them into nftables ipsets if they continue to be aggressive. Ask your favorite LLM how to set this up. If your LLM gets session paused, ask Gemini or Grok. Tell it if you are behind a CDN. Enable logging of ssl curves, cipher... blakesterz: What I still don't understand is who is doing it? I assume it's not the big companies like OpenAI or Google or Anthropic, right? So there are a bunch of small things out there doing the scraping and then they sell it to the big places? Or are these just smaller AI models doing the scraping and using it for themselves? Is there an underground ecosystem where people buy and sell this stuff? I understand why it's val... hedora: 11 THOUSAND searches in one day? What's the problem? If anything, libraries should be becoming more AI friendly, not less. Instead, we get this sort of bullshit from the ACM: https://dl.acm.org/doi/10.1145/3832783.3834511 It's a canonical DOI on what was a download server. It says exactly which file is being requested. (I chose a random recent one.) At the very most, they should serve a static page with a bibtex e...",
+      "fetched_at": "2026-11-06T15:45:11.230621+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50392499",
+      "hn_story_type": "story",
+      "hn_points": "47",
+      "hn_comments_count": "22",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50392499",
+      "hn_item_text": "",
+      "hn_comment_preview": "Bender: LLM bots are the easiest to spot. Rate limit them to 16kb/s and 1 request every 5 seconds. Give them a friendly multilingual WCAG status 429 page that says to slow down or status 444 and drop them into nftables ipsets if they continue to be aggressive. Ask your favorite LLM how to set this up. If your LLM gets session paused, ask Gemini or Grok. Tell it if you are behind a CDN. Enable logging of ssl curves, cipher...\nblakesterz: What I still don't understand is who is doing it? I assume it's not the big companies like OpenAI or Google or Anthropic, right? So there are a bunch of small things out there doing the scraping and then they sell it to the big places? Or are these just smaller AI models doing the scraping and using it for themselves? Is there an underground ecosystem where people buy and sell this stuff? I understand why it's val...\nhedora: 11 THOUSAND searches in one day? What's the problem? If anything, libraries should be becoming more AI friendly, not less. Instead, we get this sort of bullshit from the ACM: https://dl.acm.org/doi/10.1145/3832783.3834511 It's a canonical DOI on what was a download server. It says exactly which file is being requested. (I cho...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=7,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 7,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api",
+        "how to"
+      ],
+      "detail_slug": "3f353e9cd085d856c8751481f33f168157aed707",
+      "is_english_source": true,
+      "sent_at": "2026-11-06T15:47:31.747022+00:00"
+    },
+    {
+      "id": "771cd9a617fc124d834ddecdaeabff416c38b890",
+      "title_hash": "98d6fac4587aa61970e3d43b7982ae9f1396c16f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Hardcoded credentials and other issues in Tata Motors App",
+      "link": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
+      "published_at": "2026-11-06T07:28:39+00:00",
+      "summary": "HN story type: story HN points: 71 HN comments: 15 HN top comments: axegon_: Though I have been critical of LLMs in general, I have to give them credit for being really good digging out stuff that me as a human would find tedious. As such, I have my own LOCAL clanker that I use for two things: as a rubber duck and dump an apk with apktool inside a locked up container and let it go nuts. I've done it on numerous popular apps and it has found countless hardcoded credentials and keys in them.... qtqtqt: Tata says the issue has been fixed and there were no leaks: https://auto.timesofindia.com/news/cars/tata-motors-says-ira... monster_truck: As the person who had to rush out an update to MyFordMobile because some enterprising windows phone nerd ganked the hardcoded creds out of their Android app to build a winphone app that allowed you to authenticate against their backend and remotely start/unlock your car, which they _really_ did not like... Many such cases. And no, I was not the one who did that in the first place",
+      "fetched_at": "2026-11-06T15:45:11.230621+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50389260",
+      "hn_story_type": "story",
+      "hn_points": "71",
+      "hn_comments_count": "15",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50389260",
+      "hn_item_text": "",
+      "hn_comment_preview": "axegon_: Though I have been critical of LLMs in general, I have to give them credit for being really good digging out stuff that me as a human would find tedious. As such, I have my own LOCAL clanker that I use for two things: as a rubber duck and dump an apk with apktool inside a locked up container and let it go nuts. I've done it on numerous popular apps and it has found countless hardcoded credentials and keys in them....\nqtqtqt: Tata says the issue has been fixed and there were no leaks: https://auto.timesofindia.com/news/cars/tata-motors-says-ira...\nmonster_truck: As the person who had to rush out an update to MyFordMobile because some enterprising windows phone nerd ganked the hardcoded creds out of their Android app to build a winphone app that allowed you to authenticate against their backend and remotely start/unlock your car, which they _really_ did not like... Many such cases. And no, I was not the one who did that in the first place",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=9,tools_agents=16,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 16,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "container"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "local",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm",
+        "local",
+        "tool"
+      ],
+      "detail_slug": "771cd9a617fc124d834ddecdaeabff416c38b890",
+      "is_english_source": true,
+      "sent_at": "2026-11-06T15:47:31.747022+00:00"
+    },
+    {
       "id": "667bad29075bc035afeeff5548b6e5c7e21cb4fd",
       "title_hash": "687b4cc38d91d829f769fda3ae3beea241b7cfba",
       "source": "GeekNews",
@@ -166609,452 +167026,6 @@
       ],
       "detail_slug": "1811f59f45e6a60c51418cc4c0e1e64142173057",
       "is_english_source": false,
-      "sent_at": "2026-05-08T18:54:55.358073+00:00"
-    },
-    {
-      "id": "d346063e1e87ec551d9968a35ab814d05b74ff36",
-      "title_hash": "8c851bc9459e5680093e438490447e34a544bba9",
-      "source": "GeekNews",
-      "title": "OpenAI, GPT-5급 추론 능력을 가진 GPT-Realtime-2 시리즈 공개",
-      "link": "https://news.hada.io/topic?id=29284",
-      "published_at": "2026-05-08T01:20:02+00:00",
-      "summary": "실시간 음성 API 에 추론, 번역, 전사 기능을 갖춘 3개의 새로운 오디오 모델을 출시하여, 개발자가 더 자연스럽고 지능적인 음성 애플리케이션 을 구축할 수 있게 됨 GPT-Realtime-2 는 GPT-5급 추론 능력을 탑재한 최초의 음성 모델로, 도구 호출과...",
-      "fetched_at": "2026-05-08T18:51:21.908356+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "d346063e1e87ec551d9968a35ab814d05b74ff36",
-      "is_english_source": false,
-      "sent_at": "2026-05-08T18:54:55.358073+00:00"
-    },
-    {
-      "id": "fbcf21eb74e82e10d7ac863194aa1ebc5ffd5558",
-      "title_hash": "245d22d7ab3014edda4f7b92b39e2e218d37c7a7",
-      "source": "GeekNews",
-      "title": "Cloudflare, 인력 약 20% 감축 예정",
-      "link": "https://news.hada.io/topic?id=29293",
-      "published_at": "2026-05-08T05:36:26+00:00",
-      "summary": "Cloudflare는 전 세계 직원 1,100명 이상 을 감축하며, 비용 절감이 아니라 에이전트형 AI 시대 에 맞춰 내부 프로세스·팀·역할을 다시 설계하기 위한 결정이라고 밝힘 Cloudflare는 최근 3개월 동안 AI 사용량 이 600% 이상 증가했고, 엔지니어링·H...",
-      "fetched_at": "2026-05-08T18:51:21.908356+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "fbcf21eb74e82e10d7ac863194aa1ebc5ffd5558",
-      "is_english_source": false,
-      "sent_at": "2026-05-08T18:54:55.358073+00:00"
-    },
-    {
-      "id": "c63f77161dafb08b1f734317f08d3a679013a2c4",
-      "title_hash": "477b40dee287d4dc5401fc43a689945d5f1d693f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Git for AI Agents",
-      "link": "https://github.com/regent-vcs/re_gent",
-      "published_at": "2026-05-08T14:15:36+00:00",
-      "summary": "HN story type: story HN points: 63 HN comments: 38 HN post text: hi guys. been working on something i think is fundamentally missing in today's workflow with ai agents. vcs. i find myself struggling with questions that agents can't answer like \"why did you do it?\", \"when did u delete this folder? why?\", etc. or trying to /rewind (after a /compact...) or basically `bisect` to find when and why something was done by the agent in the current / previous session. just like git did for code, i think we are the same core capabilities with ai agents so... i developed an open source solution for that (currently supporting claude code) would love to get feedback, contribution or maybe other ideas or solutions you find for those problems. HN top comments: lifis: This seems easily solved with a tool use hook that calls git add .; git commit a -m \" \", specifying an alternate .git directory if desired hombre_fatal: Everything but trivial changes should go through a prompt -> plan -> impl phase where you revise a concrete plan file until it's ready for impl. Now impl is just a derivation of the plan, and the plan gets checked in with the same commit so that you can see the why, the intent, the objective, the research that informed the decisions. Much simpler, and a much, much more effective process than prompt -> impl. Zambyte: People in this thread seem to be too focused on the agent creating a git log. This seems to be solving a different problem than that does. When you're interacting with agents, multiple prompts may reasonable culminate in a single commit. It may be useful to track or undo things between commits - at the prompt level. I personally have a workflow when I use Jujutsu (jj) for git already, and this slotted in very nice...",
-      "fetched_at": "2026-05-08T18:51:21.908356+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48063548",
-      "hn_story_type": "story",
-      "hn_points": "63",
-      "hn_comments_count": "38",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48063548",
-      "hn_item_text": "hi guys. been working on something i think is fundamentally missing in today's workflow with ai agents. vcs. i find myself struggling with questions that agents can't answer like \"why did you do it?\", \"when did u delete this folder? why?\", etc. or trying to /rewind (after a /compact...) or basically `bisect` to find when and why something was done by the agent in the current / previous session. just like git did for code, i think we are the same core capabilities with ai agents so... i developed an open source solution for that (currently supporting claude code) would love to get feedback, contribution or maybe other ideas or solutions you find for those problems.",
-      "hn_comment_preview": "lifis: This seems easily solved with a tool use hook that calls git add .; git commit a -m \" \", specifying an alternate .git directory if desired\nhombre_fatal: Everything but trivial changes should go through a prompt -> plan -> impl phase where you revise a concrete plan file until it's ready for impl. Now impl is just a derivation of the plan, and the plan gets checked in with the same commit so that you can see the why, the intent, the objective, the research that informed the decisions. Much simpler, and a much, much more effective process than prompt -> impl.\nZambyte: People in this thread seem to be too focused on the agent creating a git log. This seems to be solving a different problem than that does. When you're interacting with agents, multiple prompts may reasonable culminate in a single commit. It may be useful to track or undo things between commits - at the prompt level. I personally have a workflow when I use Jujutsu (jj) for git already, and this slotted in very nice...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "75",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=51,practical_tech=17,tools_agents=51,strategy_insight=11,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 51,
-        "strategy_insight": 11,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "open source",
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 51,
-          "strong_hits": [
-            "claude code",
-            "workflow",
-            "ai agent",
-            "ide"
-          ],
-          "support_hits": [
-            "workflow",
-            "prompt",
-            "agent",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + workflow",
-            "claude + code",
-            "prompt + workflow"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 11,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [
-            "research",
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "workflow",
-        "ai agent",
-        "ide",
-        "prompt",
-        "agent",
-        "tool",
-        "agent + workflow",
-        "claude + code",
-        "prompt + workflow",
-        "github.com"
-      ],
-      "detail_slug": "c63f77161dafb08b1f734317f08d3a679013a2c4",
-      "is_english_source": true,
-      "translated_title": "AI 에이전트 작업 이력을 남기는 Git형 도구",
-      "short_summary": "오픈소스 Git for AI Agents는 에이전트가 언제 무엇을 왜 바꿨는지 남기고, 세션 중간 상태를 되감거나 변경 이유를 추적하려는 도구다. 현재는 Claude Code를 지원한다.",
-      "why_it_matters": "코드 결과물만 보는 방식으로는 AI 에이전트의 작업 과정을 설명하기 어렵다는 문제를 정면으로 다룬다. 에이전트를 실무에 더 깊게 넣을수록 변경 이력의 해상도와 설명 가능성이 새 기준이 될 수 있다.\n- 커밋만으로 놓치기 쉬운 중간 수정, 삭제 시점, 되돌리기 맥락을 따로 남길 수 있어 디버깅과 리뷰 흐름이 달라질 수 있다.\n- 세션 압축이나 긴 작업 뒤에도 왜 이런 선택이 나왔는지 추적할 수 있으면, 에이전트 활용을 실험 수준에서 운영 수준으로 끌어올리기 쉬워진다.\n- 지금은 Claude Code 지원에 머물지만, 에이전트별 작업 로그와 감사 기록을 표준화하려는 흐름과도 맞닿아 있다.",
-      "hn_reaction_summary": "댓글 분위기는 기대와 회의가 함께 섞인 편이다. 기존 Git 습관으로 충분하다는 시각과, 에이전트 작업은 커밋보다 더 촘촘한 기록이 필요하다는 시각이 맞붙었다.\n- 회의적인 쪽은 Git 훅으로 자동 커밋을 남기고 프롬프트, 계획, 구현 파일을 함께 관리하면 이유 추적 문제를 꽤 풀 수 있다고 봤다.\n- 공감하는 쪽은 여러 프롬프트가 한 커밋으로 합쳐지는 현실을 들어, 커밋 사이의 프롬프트 단위 이력과 되돌리기는 별도 문제라고 짚었다.\n- 실무자가 볼 논점은 기록의 단위를 어디에 둘지다. Git 로그를 보강할지, 에이전트 상호작용 자체를 새 버전관리 층으로 다룰지가 반복해서 거론됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-08T18:54:55.358073+00:00"
-    },
-    {
-      "id": "1996099e08d44a6b126d24592cac90ddb8607a9c",
-      "title_hash": "a7f52715a25042a8c70cbeee212572a8925ecf46",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "PC Engine CPU",
-      "link": "https://jsgroth.dev/blog/posts/pc-engine-cpu/",
-      "published_at": "2026-05-08T14:14:31+00:00",
-      "summary": "HN story type: story HN points: 86 HN comments: 29 HN top comments: MostlyStable: Since I missed this era of consoles, it took me a little bit to realize this wasn't about PC Engines[0] router/network/embedding computing equipment [0] https://www.pcengines.ch/index.htm nicole_express: The PC Engine CPU is highly underrated. People like to go \"haha, it was the TurboGrafx-16 but its CPU was 8-bit\" like that makes it a joke, but that clock speed boost on top of the 6502 architecture is a big deal. (The S-CPU on the SNES still has an 8-bit data bus too, so the 16-bit advantage isn't as strong as it seems) The Arcade Card add-on was designed specifically around using the transfer instructions to rap... christkv: The PC Engine was such a beautiful little console. It was mind blowing to see it the first time.",
-      "fetched_at": "2026-05-08T18:51:21.908356+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48063521",
-      "hn_story_type": "story",
-      "hn_points": "86",
-      "hn_comments_count": "29",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48063521",
-      "hn_item_text": "",
-      "hn_comment_preview": "MostlyStable: Since I missed this era of consoles, it took me a little bit to realize this wasn't about PC Engines[0] router/network/embedding computing equipment [0] https://www.pcengines.ch/index.htm\nnicole_express: The PC Engine CPU is highly underrated. People like to go \"haha, it was the TurboGrafx-16 but its CPU was 8-bit\" like that makes it a joke, but that clock speed boost on top of the 6502 architecture is a big deal. (The S-CPU on the SNES still has an 8-bit data bus too, so the 16-bit advantage isn't as strong as it seems) The Arcade Card add-on was designed specifically around using the transfer instructions to rap...\nchristkv: The PC Engine was such a beautiful little console. It was mind blowing to see it the first time.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=2,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "architecture",
-            "embedding",
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "embedding",
-        "index"
-      ],
-      "detail_slug": "1996099e08d44a6b126d24592cac90ddb8607a9c",
-      "is_english_source": true,
-      "translated_title": "PC 엔진 CPU, 8비트라는 오해",
-      "short_summary": "HN에서는 PC 엔진 CPU를 단순한 8비트 칩으로 깎아내리기 어렵다는 반응이 나왔다. 높은 클럭의 6502 계열 설계와 Arcade Card 활용 방식 덕분에 실제 체감 성능을 다시 봐야 한다는 의견이 이어졌다.",
-      "why_it_matters": "옛 콘솔 이야기처럼 보여도, 숫자 한 줄로 하드웨어를 재단하면 실제 성능을 놓치기 쉽다는 점을 잘 보여준다.\n- 비트 수만으로 성능을 판단하면 병목을 오해할 수 있다. 클럭, 버스 폭, 명령어 구성을 함께 봐야 한다는 점이 드러난다.\n- Arcade Card처럼 CPU 전송 명령에 맞춘 확장 설계는 하드웨어와 소프트웨어를 따로 보지 말아야 한다는 교훈으로 이어진다.\n- 에뮬레이터 개발이나 레거시 성능 분석처럼 옛 시스템을 다루는 실무에서도 스펙표보다 실제 워크로드를 보는 시각이 더 유용하다.",
-      "hn_reaction_summary": "댓글 분위기는 향수와 재평가가 함께 갔다. 이름 때문에 다른 PC Engines를 떠올렸다는 농담도 있었지만, 본론에서는 '8비트라서 약하다'는 통념을 반박하는 의견이 더 강하게 보였다.\n- 높은 클럭의 6502 계열 설계 덕분에 PC 엔진 CPU가 과소평가됐다는 반응이 반복됐다.\n- SNES도 데이터 버스가 8비트라는 비교가 나오면서, 세대 구분만으로 성능을 단정하는 시선에 반론이 붙었다.\n- 실무자가 읽을 만한 논점은 마케팅 숫자보다 메모리 이동 방식과 확장 하드웨어 결합이 체감 성능을 좌우한다는 점이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-08T18:54:55.358073+00:00"
-    },
-    {
-      "id": "d8ae6a1d2cd12c4dcf95dd2f336805512020a81e",
-      "title_hash": "307793e21107c158b35f15b8cabb3b2bf70c6d6d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "US Government releases first batch of UAP documents and videos",
-      "link": "https://www.war.gov/UFO/",
-      "published_at": "2026-05-08T12:10:25+00:00",
-      "summary": "HN story type: story HN points: 138 HN comments: 234 HN post text: https://apnews.com/article/trump-ufos-uap-aliens-pentagon-re... https://www.war.gov/UFO/#release HN top comments: anigbrowl: This is pure propaganda. It's been astroturfed on 4chan and mainstream social media for weeks, though to great skepticism on the former. The UFO nut community (people who make their interest/belief in UFOs into their entire personality, to the neglect of all other considerations) is being weaponized for political leverage, just like the anti-vax and chemtrail communities were. krferriter: Several of these look like balloons and birds. Two of them have already leaked before. Both of those are missiles being viewed with an infrared camera. One of them shows a missile passing through the field of view rapidly with a motion blur streak behind it. The other shows a missile performing maneuvers and a camera artifact showing a star-like diffraction+aperture artifact around the bright IR light source. None... andyjohnson0: So with The War having ground to an unsatisfactory halt, they're now releasing distraction #2. I wonder how many will be needed between now and November? Convince me I'm wrong.",
-      "fetched_at": "2026-05-08T18:51:21.908356+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48061938",
-      "hn_story_type": "story",
-      "hn_points": "138",
-      "hn_comments_count": "234",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48061938",
-      "hn_item_text": "https://apnews.com/article/trump-ufos-uap-aliens-pentagon-re... https://www.war.gov/UFO/#release",
-      "hn_comment_preview": "anigbrowl: This is pure propaganda. It's been astroturfed on 4chan and mainstream social media for weeks, though to great skepticism on the former. The UFO nut community (people who make their interest/belief in UFOs into their entire personality, to the neglect of all other considerations) is being weaponized for political leverage, just like the anti-vax and chemtrail communities were.\nkrferriter: Several of these look like balloons and birds. Two of them have already leaked before. Both of those are missiles being viewed with an infrared camera. One of them shows a missile passing through the field of view rapidly with a motion blur streak behind it. The other shows a missile performing maneuvers and a camera artifact showing a star-like diffraction+aperture artifact around the bright IR light source. None...\nandyjohnson0: So with The War having ground to an unsatisfactory halt, they're now releasing distraction #2. I wonder how many will be needed between now and November? Convince me I'm wrong.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "api",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api",
-        "rag"
-      ],
-      "detail_slug": "d8ae6a1d2cd12c4dcf95dd2f336805512020a81e",
-      "is_english_source": true,
-      "translated_title": "미 정부, UAP 문서·영상 1차 공개",
-      "short_summary": "미 정부가 UAP 관련 문서와 영상을 처음으로 묶어 공개했다. 다만 HN에서는 새 사실이 많지 않고, 일부 장면은 풍선·새·적외선으로 본 미사일처럼 보인다는 회의론이 두드러졌다.",
-      "why_it_matters": "이번 공개는 '무엇이 찍혔나'보다 정부가 어떤 방식으로 자료를 공개하고 해석의 주도권을 잡으려 하는지가 더 눈에 띈다. 실무적으로는 영상 판독, 출처 검증, 정보 유통 방식을 다시 점검하게 만드는 사례에 가깝다.\n\n- 공식 채널에서 자료가 풀리면 언론, 플랫폼, OSINT 커뮤니티는 2차 확산보다 원본 출처와 메타데이터 확인을 먼저 요구받게 된다.\n- 적외선 영상의 광학 아티팩트나 센서 한계를 모르면 오판이 커진다. 영상 분석 툴과 검증 절차를 다루는 팀이라면 참고할 만한 사례다.\n- 공개 시점과 연출 방식까지 쟁점이 되면서, 사실 검증과 별개로 정보 공개가 여론을 어떻게 움직이느냐를 읽는 감각도 더 중요해졌다.",
-      "hn_reaction_summary": "HN 분위기는 대체로 냉소적이었다. 흥미로운 공개라는 반응보다, 이미 돌던 영상을 다시 포장했거나 정치적 주의를 돌리려는 움직임 아니냐는 의심이 더 강하게 보였다.\n\n- 반복해서 나온 반응은 '풍선이나 새처럼 보인다', '적외선으로 본 미사일과 카메라 아티팩트에 가깝다'는 식의 현실적 해석이었다.\n- 일부 댓글은 4chan과 대형 소셜 플랫폼에서 미리 분위기가 조성됐다고 보며, 사실보다 선전 효과를 노린 유통 방식 자체를 문제 삼았다.\n- 실무자가 읽을 만한 논점은 미확인 영상의 해석보다 검증 체계다. 어떤 센서로 찍었는지, 원본 맥락이 있는지, 기존 유출본과 무엇이 다른지가 핵심 쟁점으로 묶였다.",
-      "ai_model": "codex-cli",
       "sent_at": "2026-05-08T18:54:55.358073+00:00"
     }
   ],
