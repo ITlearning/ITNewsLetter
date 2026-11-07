@@ -1,6 +1,516 @@
 {
   "items": [
     {
+      "id": "dd987f6d84d07eb66081908784477302f1956673",
+      "title_hash": "99d48737800772a885eba2767f44759164d7157c",
+      "source": "GeekNews",
+      "title": "코딩 에이전트를 위한 버전 관리 벤치마크",
+      "link": "https://news.hada.io/topic?id=36759&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-07T14:58:53+00:00",
+      "summary": "GitButler 팀이 운영하는 vc-bench 에서 Claude Code와 Codex에 같은 버전 관리 작업을 맡기고 Git, Jujutsu, GitButler를 비교함 전체 360회 중 359회 성공 . 기본 Git과 GitButler는 각각 120회 모두 통과했고, Jujutsu에서 한 번 실패함 GitButler는 이 실험에서 Git보다 작업 시간이 약 65% 짧고 , 실행한 명령은 약 78% 적었음 어떤 명령을 썼는지가 아니라 최종 Git 이력과 작업 트리가 요구사항에 맞는지 로 성공 여부를 판정함 미리 준비된 저장소에서 버전 관리 작업만 측정했으며, 코드 작성이나 작업 환경 준비, 여러 에이전트의 …",
+      "fetched_at": "2026-11-07T16:41:45.750289+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=2,tools_agents=25,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 25,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "dd987f6d84d07eb66081908784477302f1956673",
+      "is_english_source": false,
+      "sent_at": "2026-11-07T16:43:57.712987+00:00"
+    },
+    {
+      "id": "d3677860911dacb6567ce5088ffece424bb76067",
+      "title_hash": "20627fee6d7e682dcb5d42c50987879f6f0f75bd",
+      "source": "GeekNews",
+      "title": "Mac은 누구를 가족으로 추정할까 - macOS의 개인 지식 그래프",
+      "link": "https://news.hada.io/topic?id=36748&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-07T12:34:52+00:00",
+      "summary": "2022년 이후 모든 macOS에 탑재된 두 데몬 들이 연락처, 사진 속 얼굴, 일정과 통신 기록 을 연결해 사용자와 주변 사람의 관계를 기기 안에 기록함 macOS 26.6.2에서 확인한 XGBoost 분류기 2개 는 같은 성이나 주소, 연락하는 요일과 시간대, 사진에 함께 등장하는 빈도 등 144개 특징으로 가족 및 친구 관계를 추정함 데이터는 전체 디스크 접근 권한으로 보호되는 평문 SQLite 파일 에 저장됨. 통신 기록에는 상대, 시각, 앱, 송수신 방향이 담기며 메시지 본문은 포함되지 않음 원본 정보를 지워도 추론 결과가 남을 수 있음 . 일정 초대 …",
+      "fetched_at": "2026-11-07T16:41:45.750289+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sql"
+      ],
+      "detail_slug": "d3677860911dacb6567ce5088ffece424bb76067",
+      "is_english_source": false,
+      "sent_at": "2026-11-07T16:43:57.712987+00:00"
+    },
+    {
+      "id": "08faff9713106f7474725c8f295d26feb7099057",
+      "title_hash": "c20f06fb96eacb5761db3f1e49da72a753e38814",
+      "source": "GeekNews",
+      "title": "Entire, 에이전트 시대를 위한 분산 Git 네트워크 공개",
+      "link": "https://news.hada.io/topic?id=36760&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-07T15:00:02+00:00",
+      "summary": "Entire 가 기존 GitHub 저장소를 지역별 미러로 복제하는 분산 Git 네트워크 프리뷰 를 공개함. 코드는 기존 위치에 두고 에이전트의 clone/pull 트래픽을 미러로 분산함 현재 미국, EU, 호주 리전에서 대기자 명단을 통해 이용할 수 있으며, 향후 공개/비공개 저장소의 네이티브 호스팅과 네트워크 완전 탈중앙화를 추진함 대규모 동시 에이전트 작업에 맞춰 Git 백엔드를 재구축했으며, 자체 초기 테스트 에서 Cursor Origin 등 경쟁 서비스 대비 최대 25배 성능 을 기록함 벤치마크에서는 단일 저장소 기준 시간당 약 57만 회 clone , 네이 …",
+      "fetched_at": "2026-11-07T16:41:45.750289+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=4,tools_agents=14,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 14,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "코드",
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "cursor",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cursor",
+        "에이전트"
+      ],
+      "detail_slug": "08faff9713106f7474725c8f295d26feb7099057",
+      "is_english_source": false,
+      "sent_at": "2026-11-07T16:43:57.712987+00:00"
+    },
+    {
+      "id": "12efeec1bafb950d1da31148d08e3422db8e1b64",
+      "title_hash": "3be3d835939dfa12d24024d5c4ebc9e14834e088",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Spindle – a full-featured, type-safe web framework for OCaml 5",
+      "link": "https://github.com/hyphatech/spindle",
+      "published_at": "2026-11-05T10:45:28+00:00",
+      "summary": "HN story type: story HN points: 37 HN comments: 8 HN post text: Spindle is a multicore-by-design, eio-native web framework for modern OCaml. Its central idea is to provide an expressive, type-driven API and derive the rest: codecs, request validation, OpenAPI spec and frontend schemas (Zod and Melange). This keeps contracts in sync between server and client without maintaining separate definitions. The framework includes an RFC-strict HTTP server, composable dependencies, WebSockets, SSE and high-level primitives for building MCP servers. It also provides production-ready essentials like distributed tracing, OT-compatible metrics, logging and other features you would expect. Speed was never the goal but the benchmarks show it running x2 faster than NestJS and x5 faster than FastAPI on a single core. Give it a try. Documentation: https://hyphatech.github.io/spindle/ HN top comments: avsm: Nice work! Just looking through the Eio code, you may want to use the capability restrictions more. For example, in the static file serving code, you can use `Eio.Path.open_subtree` which will use Linux fd sandboxing to prevent accidental symlink escapes or other ways to leave that subtree: https://ocaml-multicore.github.io/eio/eio/Eio/Path/index.htm... B4uler5: Will keep an eye on this project, love me some Ocaml! Do you have an example of it deployed and in use? Don’t like the “fresh off the AI block” feeling of the website but could be a bit more confident if I could see it used in the actual wild! andsoitis: Cool to see some Lisp in this OCaml project: Add to your bin/dune: (executable (name main) (libraries spindle eio_main) (preprocess (pps ppx_wiretype)))**",
+      "fetched_at": "2026-11-07T16:41:45.750289+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50377613",
+      "hn_story_type": "story",
+      "hn_points": "37",
+      "hn_comments_count": "8",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50377613",
+      "hn_item_text": "Spindle is a multicore-by-design, eio-native web framework for modern OCaml. Its central idea is to provide an expressive, type-driven API and derive the rest: codecs, request validation, OpenAPI spec and frontend schemas (Zod and Melange). This keeps contracts in sync between server and client without maintaining separate definitions. The framework includes an RFC-strict HTTP server, composable dependencies, WebSockets, SSE and high-level primitives for building MCP servers. It also provides production-ready essentials like distributed tracing, OT-compatible metrics, logging and other features you would expect. Speed was never the goal but the benchmarks show it running x2 faster than NestJS and x5 faster than FastAPI on a single core. Give it a try. Documentation: https://hyphatech.github.io/spindle/",
+      "hn_comment_preview": "avsm: Nice work! Just looking through the Eio code, you may want to use the capability restrictions more. For example, in the static file serving code, you can use `Eio.Path.open_subtree` which will use Linux fd sandboxing to prevent accidental symlink escapes or other ways to leave that subtree: https://ocaml-multicore.github.io/eio/eio/Eio/Path/index.htm...\nB4uler5: Will keep an eye on this project, love me some Ocaml! Do you have an example of it deployed and in use? Don’t like the “fresh off the AI block” feeling of the website but could be a bit more confident if I could see it used in the actual wild!\nandsoitis: Cool to see some Lisp in this OCaml project: Add to your bin/dune: (executable (name main) (libraries spindle eio_main) (preprocess (pps ppx_wiretype)))**",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "73",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=49,practical_tech=49,tools_agents=25,strategy_insight=2,industry_business=-8",
+      "slot_scores": {
+        "practical_tech": 49,
+        "tools_agents": 25,
+        "strategy_insight": 2,
+        "industry_business": -8
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 49,
+          "strong_hits": [
+            "distributed",
+            "production",
+            "framework",
+            "benchmark",
+            "sandbox",
+            "show hn",
+            "index",
+            "api"
+          ],
+          "support_hits": [
+            "deploy"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "sandbox",
+            "mcp",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark",
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "distributed",
+        "production",
+        "framework",
+        "benchmark",
+        "sandbox",
+        "show hn",
+        "index",
+        "api",
+        "deploy",
+        "github.com"
+      ],
+      "detail_slug": "12efeec1bafb950d1da31148d08e3422db8e1b64",
+      "is_english_source": true,
+      "sent_at": "2026-11-07T16:43:57.712987+00:00"
+    },
+    {
+      "id": "9c4f995c1d3db5967cf9796c016a1d537bdda166",
+      "title_hash": "40add4d3e7934862d6e3c4be59e84a4dc858007e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Running a law firm on Free software",
+      "link": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+      "published_at": "2026-11-07T09:39:06+00:00",
+      "summary": "HN story type: story HN points: 114 HN comments: 53 HN top comments: 2Gkashmiri: Lawyer here. I have been extensively using LibreOffice in my court drafting, research, report writings and it has helped.. Over the years i have seen the progression of software, bugs I reported having been fixed in 2-3-5 releases always makes me happy. People hate it for reasons that feel wrong. They want a \"mirror\" of word, that's... Not going to happen, at least not in the UX department. For compatibility, it i... theturtletalks: These law firms all using Harvey don’t know that they are giving Harvey everything they need to integrate vertically and become the Amazon for law. Then you are at their whim for every client. Also, AI doesn’t give you an edge if everyone is using the same cookie cutter solution. netshade: As an aside: decoded.legal looks like an amazing resource for folks based in UK / EU that need legal w software expertise. I haven’t easily found similar folks in the US: does anyone have good recommendations for this?",
+      "fetched_at": "2026-11-07T16:41:45.750289+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50403066",
+      "hn_story_type": "story",
+      "hn_points": "114",
+      "hn_comments_count": "53",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50403066",
+      "hn_item_text": "",
+      "hn_comment_preview": "2Gkashmiri: Lawyer here. I have been extensively using LibreOffice in my court drafting, research, report writings and it has helped.. Over the years i have seen the progression of software, bugs I reported having been fixed in 2-3-5 releases always makes me happy. People hate it for reasons that feel wrong. They want a \"mirror\" of word, that's... Not going to happen, at least not in the UX department. For compatibility, it i...\ntheturtletalks: These law firms all using Harvey don’t know that they are giving Harvey everything they need to integrate vertically and become the Amazon for law. Then you are at their whim for every client. Also, AI doesn’t give you an edge if everyone is using the same cookie cutter solution.\nnetshade: As an aside: decoded.legal looks like an amazing resource for folks based in UK / EU that need legal w software expertise. I haven’t easily found similar folks in the US: does anyone have good recommendations for this?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=4,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 12,
+        "strategy_insight": 4,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli"
+      ],
+      "detail_slug": "9c4f995c1d3db5967cf9796c016a1d537bdda166",
+      "is_english_source": true,
+      "sent_at": "2026-11-07T16:43:57.712987+00:00"
+    },
+    {
+      "id": "f059af8094341d5e6030986d57bad66b078c695d",
+      "title_hash": "f5111fd450fa3cee47c977b70ca8807d6ea5f9e4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Gordon Gekko Effect: The Role of Culture in the Financial Industry [pdf]",
+      "link": "https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf",
+      "published_at": "2026-11-07T14:18:45+00:00",
+      "summary": "HN story type: story HN points: 9 HN comments: 1 HN top comments: tylerdane: \"The same factors that allow leadership to manifest itself through performance and teamwork also allow it to promote goals that lack a moral, ethical, legal, profitable, or even rational basis.\"",
+      "fetched_at": "2026-11-07T16:41:45.750289+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50404747",
+      "hn_story_type": "story",
+      "hn_points": "9",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50404747",
+      "hn_item_text": "",
+      "hn_comment_preview": "tylerdane: \"The same factors that allow leadership to manifest itself through performance and teamwork also allow it to promote goals that lack a moral, ethical, legal, profitable, or even rational basis.\"",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=2,strategy_insight=4,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 2,
+        "strategy_insight": 4,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "performance"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "industry"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "library"
+      ],
+      "detail_slug": "f059af8094341d5e6030986d57bad66b078c695d",
+      "is_english_source": true,
+      "sent_at": "2026-11-07T16:43:57.712987+00:00"
+    },
+    {
       "id": "360d63d5ad30901bcf57ece9bf5b4fd36ec84306",
       "title_hash": "e058b1f252bdb0d282adb7f4b2e3f752eb5437d2",
       "source": "GeekNews",
@@ -166511,506 +167021,6 @@
       "detail_slug": "2e73870d44acb99b028cbd83d289ddf38a35b0aa",
       "is_english_source": false,
       "sent_at": "2026-05-10T00:13:43.671927+00:00"
-    },
-    {
-      "id": "26ca4e7e607984221170a7045c04873df584db26",
-      "title_hash": "8b4abd35945cfa485be49dd5ae559fee101c5f92",
-      "source": "GeekNews",
-      "title": "AWS 북버지니아 데이터센터 장애 - 해결됨",
-      "link": "https://news.hada.io/topic?id=29337",
-      "published_at": "2026-05-09T23:33:40+00:00",
-      "summary": "AWS 는 목요일 밤부터 운영 문제를 보고했으며, 북버지니아 US-East-1 리전의 데이터센터 과열과 연결된 장애가 Coinbase 와 FanDuel 같은 거래 플랫폼에 영향을 줌 AWS는 금요일 오후 3시 29분(ET)",
-      "fetched_at": "2026-05-10T00:10:55.774864+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "26ca4e7e607984221170a7045c04873df584db26",
-      "is_english_source": false,
-      "sent_at": "2026-05-10T00:13:43.671927+00:00"
-    },
-    {
-      "id": "7b5acc58784da413b0c2d9eecbb838d4a3787a18",
-      "title_hash": "bbcb547c610577ae59de220e7b1c6a11929eb849",
-      "source": "GeekNews",
-      "title": "ClojureScript에 Async/Await 도입",
-      "link": "https://news.hada.io/topic?id=29336",
-      "published_at": "2026-05-09T21:33:24+00:00",
-      "summary": "ClojureScript 1.12.145 는 ^:async 힌트를 붙인 함수를 JavaScript async function 으로 출력하도록 컴파일러가 변경됨 await 로 Promise 값을 기다리는 ClojureScript 함수를 작성할 수 있어 JavaScript 상호운용성이 개선됨...",
-      "fetched_at": "2026-05-10T00:10:55.774864+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "7b5acc58784da413b0c2d9eecbb838d4a3787a18",
-      "is_english_source": false,
-      "sent_at": "2026-05-10T00:13:43.671927+00:00"
-    },
-    {
-      "id": "7071cf8643999f9781fc1a61ae341f56d8f20c17",
-      "title_hash": "59ebc74f43e4384e09da76e88b58fce93efbb41c",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: I made a Clojure-like language in Go, boots in 7ms",
-      "link": "https://github.com/nooga/let-go",
-      "published_at": "2026-05-09T17:52:13+00:00",
-      "summary": "HN story type: story HN points: 71 HN comments: 15 HN post text: Let-go is a Clojure-like language (~90% compatible with JVM Clojure) written in pure Go. It ships as a ~10MB static binary and cold boots in ~7ms - that's about 50x faster than JVM and 3x faster than Babashka. It has decent throughput on algorithmic workloads - within ballpark of the GraalVM-backed sci. I started this project in 2021 as an elaborate practical joke: I wanted to have an excuse for writing Clojure while pretending to write Go. Jokes aside, it turned out to be pretty decent: it feels like real Clojure, it has an nREPL server (supported in Calva, CIDER, etc.), it's easily embeddable in your Go programs (funcs, structs and channels cross the boundary without fuss). It's good for writing CLIs, web servers, data processing scripts and even doing some systems programming - I used it to write a deamonless container runtime. Oh, and it runs on Plan9. Under the hood there is a fairly simple compiler and a stack VM, both handcrafted specifically for running Clojure-like code. The compiler can work in AOT mode producing portable bytecode blobs and standalone binaries (runtime+bytecode). This is not a drop-in replacement for Clojure in general - it does not load JARs, it does... HN top comments: bjconlan: This is the kind of clojure port that I always was looking for. Mostly because I thought go's core library and channels abstractions hits a simpler/nicer base API which would with the core & async apis (not to mention scratches my big beautiful binary itch) Thanks for your work will definitely check it out again once I get over renewed love for cpp (26) Edit how did glojure go under my radar also a great project f... ingy: Try out this Wasm browser REPL https://gloathub.org/repl/ Gloat is a Glojure AOT automation tool. I worked with James Hamlin to get Glojure AOT going last summer and have been moving it forward since. I've also been working with marcingas (nooga) to get Gloat/Glojure/let-go all cooperating. chr15m: PR most welcome for https://github.com/chr15m/awesome-clojure-likes",
-      "fetched_at": "2026-05-10T00:10:55.774864+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48076815",
-      "hn_story_type": "story",
-      "hn_points": "71",
-      "hn_comments_count": "15",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48076815",
-      "hn_item_text": "Let-go is a Clojure-like language (~90% compatible with JVM Clojure) written in pure Go. It ships as a ~10MB static binary and cold boots in ~7ms - that's about 50x faster than JVM and 3x faster than Babashka. It has decent throughput on algorithmic workloads - within ballpark of the GraalVM-backed sci. I started this project in 2021 as an elaborate practical joke: I wanted to have an excuse for writing Clojure while pretending to write Go. Jokes aside, it turned out to be pretty decent: it feels like real Clojure, it has an nREPL server (supported in Calva, CIDER, etc.), it's easily embeddable in your Go programs (funcs, structs and channels cross the boundary without fuss). It's good for writing CLIs, web servers, data processing scripts and even doing some systems programming - I used it to write a deamonless container runtime. Oh, and it runs on Plan9. Under the hood there is a fairly simple compiler and a stack VM, both handcrafted specifically for running Clojure-like code. The compiler can work in AOT mode producing portable bytecode blobs and standalone binaries (runtime+bytecode). This is not a drop-in replacement for Clojure in general - it does not load JARs, it does...",
-      "hn_comment_preview": "bjconlan: This is the kind of clojure port that I always was looking for. Mostly because I thought go's core library and channels abstractions hits a simpler/nicer base API which would with the core & async apis (not to mention scratches my big beautiful binary itch) Thanks for your work will definitely check it out again once I get over renewed love for cpp (26) Edit how did glojure go under my radar also a great project f...\ningy: Try out this Wasm browser REPL https://gloathub.org/repl/ Gloat is a Glojure AOT automation tool. I worked with James Hamlin to get Glojure AOT going last summer and have been moving it forward since. I've also been working with marcingas (nooga) to get Gloat/Glojure/let-go all cooperating.\nchr15m: PR most welcome for https://github.com/chr15m/awesome-clojure-likes",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "58",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=34,practical_tech=34,tools_agents=22,strategy_insight=2,industry_business=-8",
-      "slot_scores": {
-        "practical_tech": 34,
-        "tools_agents": 22,
-        "strategy_insight": 2,
-        "industry_business": -8
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 34,
-          "strong_hits": [
-            "container",
-            "compiler",
-            "runtime",
-            "show hn",
-            "api"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 22,
-          "strong_hits": [
-            "automation",
-            "ide",
-            "cli"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -8,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "compiler",
-            "runtime"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "container",
-        "compiler",
-        "runtime",
-        "show hn",
-        "api",
-        "library",
-        "github.com"
-      ],
-      "detail_slug": "7071cf8643999f9781fc1a61ae341f56d8f20c17",
-      "is_english_source": true,
-      "translated_title": "고로 만든 클로저풍 언어, 7ms 만에 뜬다",
-      "short_summary": "Let-go는 Go로 만든 클로저풍 언어로, JVM 클로저와 약 90% 호환되며 콜드 부팅 시간이 약 7ms다. 단일 정적 바이너리로 배포할 수 있고 Go 프로그램에 쉽게 붙일 수 있어 CLI, 서버, 스크립트 용도에서 눈길을 끌었다.",
-      "why_it_matters": "클로저의 개발 감각을 살리면서도 JVM 기동 부담을 크게 줄였다는 점이 이번 프로젝트의 포인트다. 배포와 실행 비용이 민감한 도구형 작업에서 특히 실무적인 선택지가 될 수 있다.\n\n- 콜드 스타트가 매우 짧고 정적 바이너리로 묶을 수 있어 CLI, 배치 작업, 경량 서버처럼 바로 떠야 하는 환경에서 유리하다.\n- Go와의 경계가 낮다. 함수, 구조체, 채널을 자연스럽게 넘길 수 있어 기존 Go 서비스에 스크립팅 계층이나 확장 언어로 넣기 쉬운 편이다.\n- 다만 JAR를 읽는 완전한 대체재는 아니다. 기존 JVM 클로저 생태계를 그대로 옮기기보다 새 도구나 내장형 런타임 용도로 보는 편이 현실적이다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이었다. 단순한 성능 자랑보다도 '클로저 감각을 더 가볍게 가져올 수 있느냐'에 관심이 모였고, 관련 프로젝트를 잇는 생태계 얘기도 함께 나왔다.\n\n- 반복해서 나온 호평 포인트는 Go 표준 라이브러리와 채널 모델, 그리고 큰 바이너리 하나로 배포되는 감각이 클로저와 잘 맞는다는 점이다.\n- 반론보다는 비교가 많았다. Glojure, Gloat 같은 기존 시도들이 함께 언급되며 이 프로젝트를 독립 승자라기보다 확장되는 클로저 계열 실험 중 하나로 보는 시선이 보였다.\n- 실무자가 볼 논점은 성능 수치 자체보다 도구 지원과 호환성이다. nREPL, Calva, CIDER 지원은 반응이 좋았지만 기존 JVM 자산을 얼마나 그대로 쓸 수 있는지는 여전히 구분해서 봐야 한다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-10T00:13:43.671927+00:00"
-    },
-    {
-      "id": "4db4bb458d3c307cdc9f8d476c1707f29cfdb960",
-      "title_hash": "77d786728157d3fb62b348fd0cae12fcbbfd3687",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Getting arrested in Japan",
-      "link": "https://sundaicity.com/blogs/getting-arrested-in-japan",
-      "published_at": "2026-05-09T21:56:19+00:00",
-      "summary": "HN story type: story HN points: 109 HN comments: 94 HN top comments: metacritic12: Seems like it's not pleasant, and the author says in theory it could be as low of a bar as getting into a heated argument; but the author never discloses his actual charge, which I think is critical context. If he stabbed someone and got this treatment, it would be very different than if he had a loud but normal argument you might see in any big box store in the US. That he doesn't go on to protest why he got lock... ProjectVader: For those interested, here is the YouTube channel of the author. She has several videos about her experience. I used to watch her channel, and after reading this article (although she never mentions her name), I clicked through a few more of her posts, and saw her photo and immediately recognized the name. https://www.youtube.com/watch?v=175yRhSaNfU metalcrow: This sounds bad enough that it makes me wonder what the punishment for breaking the rules in jail is. If you can't sleep in a certain direction, what are they going to do if you refuse to obey? Or even can't obey because you don't speak Japanese?",
-      "fetched_at": "2026-05-10T00:10:55.774864+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48078647",
-      "hn_story_type": "story",
-      "hn_points": "109",
-      "hn_comments_count": "94",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48078647",
-      "hn_item_text": "",
-      "hn_comment_preview": "metacritic12: Seems like it's not pleasant, and the author says in theory it could be as low of a bar as getting into a heated argument; but the author never discloses his actual charge, which I think is critical context. If he stabbed someone and got this treatment, it would be very different than if he had a loud but normal argument you might see in any big box store in the US. That he doesn't go on to protest why he got lock...\nProjectVader: For those interested, here is the YouTube channel of the author. She has several videos about her experience. I used to watch her channel, and after reading this article (although she never mentions her name), I clicked through a few more of her posts, and saw her photo and immediately recognized the name. https://www.youtube.com/watch?v=175yRhSaNfU\nmetalcrow: This sounds bad enough that it makes me wonder what the punishment for breaking the rules in jail is. If you can't sleep in a certain direction, what are they going to do if you refuse to obey? Or even can't obey because you don't speak Japanese?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli"
-      ],
-      "detail_slug": "4db4bb458d3c307cdc9f8d476c1707f29cfdb960",
-      "is_english_source": true,
-      "translated_title": "일본에서 체포되면 겪게 되는 일",
-      "short_summary": "작성자는 일본에서 체포된 뒤 조사와 구금 과정에서 겪은 엄격한 규칙과 압박을 전했다. HN에서는 처우의 강도에 놀라면서도, 구체적 혐의가 빠져 있어 판단이 어렵다는 반응이 함께 나왔다.",
-      "why_it_matters": "해외 출장과 장기 체류가 잦은 업계일수록 일본의 형사 절차를 막연한 안전 이미지로만 보면 놓치는 부분이 있다. 이 글은 현지에서 갈등이 생겼을 때 리스크가 얼마나 커질 수 있는지 다시 보게 만든다.\n- 가벼운 실랑이도 경찰 개입 뒤 예상보다 크게 번질 수 있다는 경고로 읽힌다. 일본 출장이 잦다면 통역, 비상 연락망, 신분 확인 절차를 미리 정리해 둘 만하다.\n- 구금 중 세세한 규칙과 언어 장벽이 큰 부담으로 묘사된다. 기업 입장에서는 현지 법률 지원과 긴급 대응 프로세스를 준비하는 쪽이 현실적이다.\n- 해외 이주나 현지 채용을 검토할 때도 생활 정보만 볼 일이 아니라 사법 절차와 권리 보호 환경까지 함께 확인해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 충격과 신중론이 함께 갔다. 처우 자체는 심각하게 보되, 원글이 빠뜨린 맥락이 많아 단정은 어렵다는 반응이 반복됐다.\n- 가장 많이 나온 지점은 정확히 무슨 혐의로 체포됐는지 공개되지 않았다는 점이다. 이 정보 없이는 과잉 대응인지 중대한 사건인지 가늠하기 어렵다는 의견이 많았다.\n- 다른 축에서는 구금 규칙의 엄격함과 외국어 화자의 취약성이 거론됐다. 일본어를 모르면 지시를 따르기 더 어려울 것이라는 우려가 이어졌다.\n- 일부는 작성자의 다른 영상과 게시물을 찾아보며 경험의 맥락을 보완하려 했다. 한 편의 체험담을 어디까지 일반화할 수 있는지 따져보는 흐름도 강했다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-10T00:13:43.671927+00:00"
-    },
-    {
-      "id": "96553c9cc9f7f614528eb98f51713221a98b9742",
-      "title_hash": "ce6f84d5d60f081fd869d765c34abd7cd4def883",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "CPanel's Black Week: 3 New Vulnerabilities Patched After Attack on 44k Servers",
-      "link": "https://www.copahost.com/blog/cpanels-black-week-three-new-vulnerabilities-patched-after-ransomware-attack-on-44000-servers/",
-      "published_at": "2026-05-09T17:06:46+00:00",
-      "summary": "HN story type: story HN points: 98 HN comments: 53 HN top comments: zuzululu: Ages ago I used php-nuke to manage my forum and it got hacked and I thought it would get taken seriously Seeing these CPanel hacks remind me how old these codebases are and how much more vulnerability remain anonzzzies: CPanel and hosters who use them are in big trouble now; there are millions of servers running them, many of them for decades. Their clients can run code as an user without much sandboxing/guardrails at all. josu: So CPanel's security is just as bad as their UI, who would have thought?",
-      "fetched_at": "2026-05-10T00:10:55.774864+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48076465",
-      "hn_story_type": "story",
-      "hn_points": "98",
-      "hn_comments_count": "53",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48076465",
-      "hn_item_text": "",
-      "hn_comment_preview": "zuzululu: Ages ago I used php-nuke to manage my forum and it got hacked and I thought it would get taken seriously Seeing these CPanel hacks remind me how old these codebases are and how much more vulnerability remain\nanonzzzies: CPanel and hosters who use them are in big trouble now; there are millions of servers running them, many of them for decades. Their clients can run code as an user without much sandboxing/guardrails at all.\njosu: So CPanel's security is just as bad as their UI, who would have thought?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=20,practical_tech=20,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 20,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 20,
-          "strong_hits": [
-            "security",
-            "sandbox"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "sandbox",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "sandbox",
-        "code + security"
-      ],
-      "detail_slug": "96553c9cc9f7f614528eb98f51713221a98b9742",
-      "is_english_source": true,
-      "translated_title": "cPanel 블랙 위크, 4만4천대 공격 후 취약점 3건 추가 패치",
-      "short_summary": "cPanel이 4만4천 대 서버를 겨냥한 공격 이후 새 취약점 3건을 추가로 패치했다. 오래된 호스팅 운영판의 기술부채와 계정 격리 한계가 다시 도마에 올랐다.",
-      "why_it_matters": "이번 이슈는 개별 버그 몇 건보다, 레거시 호스팅 관리판이 안고 있는 넓은 공격면을 드러냈다는 점에서 더 크게 읽힌다.\n- cPanel을 쓰는 호스팅 사업자와 운영팀은 패치 적용 속도만이 아니라 계정 격리, 권한 분리, 기본 보안 설정까지 함께 점검해야 한다.\n- 설치 기반이 워낙 넓고 오래된 서버가 많아서 취약점 하나가 여러 고객 환경으로 번질 가능성이 크다.\n- 실무적으로는 보안 공지 추적, 긴급 패치 절차, 대체 운영 패널 검토를 운영 기준에 넣어야 할 신호로 볼 수 있다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 대체로 냉소적이었다. 단순한 일회성 사고라기보다 오래된 공유 호스팅 생태계의 구조적 문제라는 시각이 강했다.\n- 오래된 코드베이스라 아직 드러나지 않은 취약점이 더 남아 있을 것이라는 우려가 반복됐다.\n- cPanel이 깔린 서버 수가 많고 고객 코드 실행에 대한 샌드박싱이 약하다는 점 때문에 피해 범위를 걱정하는 반응이 많았다.\n- 보안 문제를 제품의 낡은 설계와 운영 문화 전반의 한계로 연결해 보는 비판도 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-10T00:13:43.671927+00:00"
-    },
-    {
-      "id": "5891c55d9fa4e4b5ec9eee953d536ce47238b130",
-      "title_hash": "a9e88c6878a870ed4f8b004ce2fbbcac2e63ffd1",
-      "source": "GeekNews",
-      "title": "Ask HN: 실제 UUID v4 충돌을 겪었습니다...",
-      "link": "https://news.hada.io/topic?id=29330",
-      "published_at": "2026-05-09T17:38:30+00:00",
-      "summary": "데이터베이스가 오늘 중복 UUID v4 를 감지했고, 기존 값은 2025년에 추가된 레코드의 b6133fd6-70fe-4fe3-bed6-8ca8fc9386cd 와 완전히 같았음 사용 중인 패키지는 npm의 uuid 이며, import { v4 as uuidv4 } from \"uuid\"; 뒤 ...",
-      "fetched_at": "2026-05-09T20:00:00.826062+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "uuid"
-          ],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "uuid",
-        "코드"
-      ],
-      "detail_slug": "5891c55d9fa4e4b5ec9eee953d536ce47238b130",
-      "is_english_source": false,
-      "sent_at": "2026-05-09T20:02:58.421444+00:00"
     }
   ],
   "topic_digests": {
