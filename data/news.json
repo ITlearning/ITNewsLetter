@@ -1,6 +1,582 @@
 {
   "items": [
     {
+      "id": "0387e5af4e8cdc234a83beff197e566dcf66b33f",
+      "title_hash": "cd3de679d8ceb39804f99f230755c68a1a91549f",
+      "source": "GeekNews",
+      "title": "Show GN: Heirmos – Claude Code와 Codex가 같은 기억을 쓰게 하는 플러그인",
+      "link": "https://news.hada.io/topic?id=36737&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-07T02:40:03+00:00",
+      "summary": "코딩 에이전트를 쓰다 보면 어제 정한 걸 오늘 세션에서 다시 설명하게 됩니다. \"테스트는 pytest로\", \"이 레포는 마이그레이션 손으로 작성\", \"그 방식은 지난주에 해 봤는데 안 됐음\" 같은 것들이요. 에이전트를 바꾸면(Claude Code → Codex) 처음부터 다시입니다. Heirmos는 이걸 자동으로 이어 주는 기억 레이어입니다. ■ 하는 일 세션이 끝나거나 컨텍스트가 압축될 때 대화에서 결정·선호·규칙만 뽑아 저장 다음 세션 시작 시 \"이 레포에서 전에 정한 것\"을 에이전트 컨텍스트에 자동 주입 작업 중엔 에이전트가 MCP로 지난 결 …",
+      "fetched_at": "2026-11-07T04:12:09.983822+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "75",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=0,tools_agents=30,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 30,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 30,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트",
+            "mcp"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "mcp",
+        "claude + code"
+      ],
+      "detail_slug": "0387e5af4e8cdc234a83beff197e566dcf66b33f",
+      "is_english_source": false,
+      "sent_at": "2026-11-07T04:14:40.209869+00:00"
+    },
+    {
+      "id": "81372d5794019ee980b88e3eef5682a1dd0f7333",
+      "title_hash": "825ee87d2f21b674b06a5dc030c3fde5671fc5cd",
+      "source": "GeekNews",
+      "title": "AI가 AI 연구를 극적으로 가속하고 있음",
+      "link": "https://news.hada.io/topic?id=36732&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-07T00:34:28+00:00",
+      "summary": "METR 조사에 따르면 Anthropic의 AI 역량 발전 속도 는 최근 1년간 이전 1년 대비 약 2배가 됐으며, 현재 이 속도를 유지하는 주된 요인은 AI를 통한 연구 자동화 로 추정됨 전체 역량 발전이 2배 빨라지려면 연구 노동의 생산성은 훨씬 더 높아져야 함. 실험용 연산 자원과 수확 체감을 고려한 단순 모형에서는 약 10배의 노동 생산성 향상 이 필요할 수 있지만, 불확실성이 매우 큼 더 강력한 AI가 연구를 가속하고 다시 더 강력한 AI를 만드는 복리적 가속 을 막을 명확한 병목은 이번 조사에서 발견되지 않았음. 다만 METR 조사팀도 판단이 여러 차례 바뀌었으며 상당한 불확실성을 인정함 …",
+      "fetched_at": "2026-11-07T04:12:09.983822+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "58",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=13,practical_tech=0,tools_agents=9,strategy_insight=13,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 13,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "자동화"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "판단",
+            "병목"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단",
+        "병목"
+      ],
+      "detail_slug": "81372d5794019ee980b88e3eef5682a1dd0f7333",
+      "is_english_source": false,
+      "sent_at": "2026-11-07T04:14:40.209869+00:00"
+    },
+    {
+      "id": "39f1696eb868511d92d5419e0763fc4edf71cb2c",
+      "title_hash": "b0793e7f76d689f901f20839ff167406cfc0c3f1",
+      "source": "GeekNews",
+      "title": "대부분의 AI 스타트업은 살아남지 못한다 - 살아남는 회사를 만드는 방법 [영상]",
+      "link": "https://news.hada.io/topic?id=36731&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-07T00:31:01+00:00",
+      "summary": "OpenAI나 Anthropic이 내 제품의 기능을 제공하게 되어도 회사가 살아남을 수 있는가? Khosla Ventures의 키스 라보이스가 산업별 AI 기업을 고를 때 던지는 핵심 질문임 사람의 일을 보조하는 코파일럿보다 업무를 끝까지 수행하는 오토파일럿 이 장기적으로 더 방어력 있는 사업이 될 수 있음 기반 모델의 부족한 부분을 메우는 데 머무르지 않고, 모델이 발전할수록 고객에게 더 큰 가치를 제공하는 구조 를 만들어야 함 독자적인 데이터 축적과 개선의 순환, 쉽게 접근할 수 없는 정보, 실제 서비스 제공과 결과에 대한 책임이 경쟁 우 …",
+      "fetched_at": "2026-11-07T04:12:09.983822+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "51",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=6,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=6",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 6
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "venture",
+            "기업",
+            "산업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "venture",
+        "기업",
+        "산업"
+      ],
+      "detail_slug": "39f1696eb868511d92d5419e0763fc4edf71cb2c",
+      "is_english_source": false,
+      "sent_at": "2026-11-07T04:14:40.209869+00:00"
+    },
+    {
+      "id": "1e7e6bc608ea4c49560dd2f8d500b35128e266a7",
+      "title_hash": "356c8300b030754d6d9ab0d01ca4bffb2fabded8",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Libghostty 1.0",
+      "link": "https://mitchellh.com/writing/libghostty-1-0",
+      "published_at": "2026-11-06T23:30:52+00:00",
+      "summary": "HN story type: story HN points: 348 HN comments: 57 HN top comments: jdorfman: > “And a whole wave of new terminals and \"agentic\" coding tools, such as herdr and cmux, have been built on it rather than writing yet another emulator.” Mitchell could have easily snuck his competing product Rex in there but resisted. Respect. JuniperMesos: Libghostty is a very cool project, this is an exciting release, kudos to mitchellh for spearheading this as well as all the people who have made contributions to the project. I use ghostty as my primary terminal emulator today and a few months ago I was experimenting with using libghostty in an android project that I plan to jump back to someday when I have the time, so I personally benefit from this work. spudlyo: One area where Ghostty really shines is with fancy TUI programs like the pi agent. Pi has a relatively recent tuiMode \"fullscreen\" feature, and it's been exceptional. Showing inline images with the Kitty graphics protocol has been a huge improvement too -- I love it when a model calls `read` on an image file and I get to see the results in my terminal. The OSC-8 hyperlink support very handy too. Viewport scrolling...",
+      "fetched_at": "2026-11-07T04:12:09.983822+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50399933",
+      "hn_story_type": "story",
+      "hn_points": "348",
+      "hn_comments_count": "57",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50399933",
+      "hn_item_text": "",
+      "hn_comment_preview": "jdorfman: > “And a whole wave of new terminals and \"agentic\" coding tools, such as herdr and cmux, have been built on it rather than writing yet another emulator.” Mitchell could have easily snuck his competing product Rex in there but resisted. Respect.\nJuniperMesos: Libghostty is a very cool project, this is an exciting release, kudos to mitchellh for spearheading this as well as all the people who have made contributions to the project. I use ghostty as my primary terminal emulator today and a few months ago I was experimenting with using libghostty in an android project that I plan to jump back to someday when I have the time, so I personally benefit from this work.\nspudlyo: One area where Ghostty really shines is with fancy TUI programs like the pi agent. Pi has a relatively recent tuiMode \"fullscreen\" feature, and it's been exceptional. Showing inline images with the Kitty graphics protocol has been a huge improvement too -- I love it when a model calls `read` on an image file and I get to see the results in my terminal. The OSC-8 hyperlink support very handy too. Viewport scrolling...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=4,tools_agents=16,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 16,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "coding tool",
+            "agentic"
+          ],
+          "support_hits": [
+            "coding tool",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding tool",
+        "agentic",
+        "agent"
+      ],
+      "detail_slug": "1e7e6bc608ea4c49560dd2f8d500b35128e266a7",
+      "is_english_source": true,
+      "sent_at": "2026-11-07T04:14:40.209869+00:00"
+    },
+    {
+      "id": "6aeb2c544b9fea6d26eef20df10b970de2f2f828",
+      "title_hash": "f319041402867800ab1ab1d491529cedd367e895",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "AI is dramatically accelerating AI research",
+      "link": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "published_at": "2026-11-06T20:27:23+00:00",
+      "summary": "HN story type: story HN points: 234 HN comments: 175 HN top comments: plaidfuji: As somebody who does ML research, LLMs certainly make ML research faster. Maybe even 10x in some cases, as the author suggests. But that’s just the parts of ML research that take place within your compute environment, namely experiments on model architecture, training strategy, UI/UX, etc. The algorithms and software. Just because that part of research is progressively accelerated does not imply that we’re on a co... chr15m: Every dot in these graphs is composed of multiple benchmarks smooshed together. Benchmarks are by definition a curated set of things that can be measured and evaluated. Things that can be measured and evaluated can be (expensively) trained on. The progress we are observing comes from figuring out how to measure and evaluate particular aspects of intelligence, and then expensively training on feedback loops made of... nsilvestri: AI is accelerating my work...work which only exists because of AI. If I had to do my individual tasks without AI, I would be slower. But if I take a step back, I'm really not changing the world any faster than I was before.",
+      "fetched_at": "2026-11-07T04:12:09.983822+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50397994",
+      "hn_story_type": "story",
+      "hn_points": "234",
+      "hn_comments_count": "175",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50397994",
+      "hn_item_text": "",
+      "hn_comment_preview": "plaidfuji: As somebody who does ML research, LLMs certainly make ML research faster. Maybe even 10x in some cases, as the author suggests. But that’s just the parts of ML research that take place within your compute environment, namely experiments on model architecture, training strategy, UI/UX, etc. The algorithms and software. Just because that part of research is progressively accelerated does not imply that we’re on a co...\nchr15m: Every dot in these graphs is composed of multiple benchmarks smooshed together. Benchmarks are by definition a curated set of things that can be measured and evaluated. Things that can be measured and evaluated can be (expensively) trained on. The progress we are observing comes from figuring out how to measure and evaluate particular aspects of intelligence, and then expensively training on feedback loops made of...\nnsilvestri: AI is accelerating my work...work which only exists because of AI. If I had to do my individual tasks without AI, I would be slower. But if I take a step back, I'm really not changing the world any faster than I was before.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=7,strategy_insight=4,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 7,
+        "strategy_insight": 4,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "architecture",
+            "benchmark"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "architecture",
+        "benchmark",
+        "how to"
+      ],
+      "detail_slug": "6aeb2c544b9fea6d26eef20df10b970de2f2f828",
+      "is_english_source": true,
+      "sent_at": "2026-11-07T04:14:40.209869+00:00"
+    },
+    {
+      "id": "1c87fbddde320a7b3642656cfa769f0dc04a3e81",
+      "title_hash": "cd9e2b5dff4240c9d8f04da410ec0d46dabc71f1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Sodium-ion batteries approach cost parity with LFP",
+      "link": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/",
+      "published_at": "2026-11-06T23:00:46+00:00",
+      "summary": "HN story type: story HN points: 149 HN comments: 66 HN top comments: syntaxing: I’m so desperate for home battery using sodium batteries. Safer and lower temperature it can operate at. Low energy density but I don’t care for home battery. hbarka: I switched the 12v lead-acid batteries on my EV to the 12v Lithium from OHMMU. Best upgrade I've done. I recently saw that they now offer 12V Sodium, and their warranty now went up to 3 years on the sodium, from 1 year. They have new data on its robustness. topspin: That was fast. CATL is only now ramping up Naxtra production and it's already approaching price parity with LFP. This is early validation of the cost curve predictions for this chemistry. Most of this is destined for stationary storage that would likely have used lithium-based chemistry instead, or not been built-out at all. Every GWh of capacity sodium offsets is a GWh that isn't supplied by lithium, so demand fo...",
+      "fetched_at": "2026-11-07T04:12:09.983822+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50399657",
+      "hn_story_type": "story",
+      "hn_points": "149",
+      "hn_comments_count": "66",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50399657",
+      "hn_item_text": "",
+      "hn_comment_preview": "syntaxing: I’m so desperate for home battery using sodium batteries. Safer and lower temperature it can operate at. Low energy density but I don’t care for home battery.\nhbarka: I switched the 12v lead-acid batteries on my EV to the 12v Lithium from OHMMU. Best upgrade I've done. I recently saw that they now offer 12V Sodium, and their warranty now went up to 3 years on the sodium, from 1 year. They have new data on its robustness.\ntopspin: That was fast. CATL is only now ramping up Naxtra production and it's already approaching price parity with LFP. This is early validation of the cost curve predictions for this chemistry. Most of this is destined for stationary storage that would likely have used lithium-based chemistry instead, or not been built-out at all. Every GWh of capacity sodium offsets is a GWh that isn't supplied by lithium, so demand fo...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "production",
+            "storage"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "production",
+        "storage"
+      ],
+      "detail_slug": "1c87fbddde320a7b3642656cfa769f0dc04a3e81",
+      "is_english_source": true,
+      "sent_at": "2026-11-07T04:14:40.209869+00:00"
+    },
+    {
+      "id": "2a6226d68bdb793cc141c75a301ff2aa74e1f304",
+      "title_hash": "2dbe35228c97a774109e368054d28f6edb303e5f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
+      "link": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+      "published_at": "2026-11-06T20:09:14+00:00",
+      "summary": "HN story type: story HN points: 54 HN comments: 8 HN top comments: tristanj: Google announced yesterday they would invest $17 billion into this Wyoming data center project https://blog.google/innovation-and-ai/infrastructure-and-clo... > Data center upstart Crusoe is being pushed aside at an artificial intelligence campus it was developing in Wyoming after failing to lock in customers including Alphabet Inc.’s Google, according to people familiar with the situation. https://www.bloomberg.c... simonw: Presumably the value of data centers that (1) already exist and (2) already have deals to provide the energy (and water) they need is about to skyrocket. aligianti: energy is the most valuable thing right now",
+      "fetched_at": "2026-11-07T04:12:09.983822+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50397711",
+      "hn_story_type": "story",
+      "hn_points": "54",
+      "hn_comments_count": "8",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50397711",
+      "hn_item_text": "",
+      "hn_comment_preview": "tristanj: Google announced yesterday they would invest $17 billion into this Wyoming data center project https://blog.google/innovation-and-ai/infrastructure-and-clo... > Data center upstart Crusoe is being pushed aside at an artificial intelligence campus it was developing in Wyoming after failing to lock in customers including Alphabet Inc.’s Google, according to people familiar with the situation. https://www.bloomberg.c...\nsimonw: Presumably the value of data centers that (1) already exist and (2) already have deals to provide the energy (and water) they need is about to skyrocket.\naligianti: energy is the most valuable thing right now",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "34",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=10,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=10",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "customers",
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "customers",
+        "deal"
+      ],
+      "detail_slug": "2a6226d68bdb793cc141c75a301ff2aa74e1f304",
+      "is_english_source": true,
+      "sent_at": "2026-11-07T04:14:40.209869+00:00"
+    },
+    {
       "id": "ec85ea02a37936811bb41e0d43294ab57c677bb8",
       "title_hash": "b4d50dfac117124e9e128ec74b635d63edfb95ab",
       "source": "GeekNews",
@@ -166482,574 +167058,6 @@
       "detail_slug": "6f283b6782566abb8593317b5b77566546693d4b",
       "is_english_source": false,
       "sent_at": "2026-05-09T11:42:28.195203+00:00"
-    },
-    {
-      "id": "11e9bc51981fa9d49d50ef91a14f8fe35dbec05e",
-      "title_hash": "93499436478672a9e3bab2740789be9c31779c1e",
-      "source": "GeekNews",
-      "title": "브라우저가 알려준 모든 정보를 보여주는 웹페이지",
-      "link": "https://news.hada.io/topic?id=29313",
-      "published_at": "2026-05-09T00:50:30+00:00",
-      "summary": "이 페이지는 방문 직후 첫 밀리초 동안 브라우저가 넘긴 데이터만으로 위치, 기기, 브라우저, 언어, GPU, 배터리, 폰트, 사용자 선호 등을 보여주며, 익스플로잇이나 해킹 없이 공개 문서화된 표준 기능만 사용함 모든 요청 헤더의 IP 주소 를 ip-api.c...",
-      "fetched_at": "2026-05-09T11:39:26.581523+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "11e9bc51981fa9d49d50ef91a14f8fe35dbec05e",
-      "is_english_source": false,
-      "sent_at": "2026-05-09T11:42:28.195203+00:00"
-    },
-    {
-      "id": "38a16f8ebf7034ac7cf7b2713e1b1f1fc9aeb3fd",
-      "title_hash": "d8ecd36787795b1721ee155cf4feaef0fbdeb6e5",
-      "source": "GeekNews",
-      "title": "Claude 연구원은 HTML이 Markdown보다 더 쓰기 좋다고 말했습니다.",
-      "link": "https://news.hada.io/topic?id=29320",
-      "published_at": "2026-05-09T10:07:14+00:00",
-      "summary": "Claude 연구원은 HTML이 Markdown보다 더 쓰기 좋다고 말했습니다.",
-      "fetched_at": "2026-05-09T11:39:26.581523+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "38a16f8ebf7034ac7cf7b2713e1b1f1fc9aeb3fd",
-      "is_english_source": false,
-      "sent_at": "2026-05-09T11:42:28.195203+00:00"
-    },
-    {
-      "id": "5c80bcc942a3f0126aa7bdeb4dd4700d41d3bfcb",
-      "title_hash": "073583e42041e46f20b099a5bef0e779cf2a44a0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Google broke reCAPTCHA for de-googled Android users",
-      "link": "https://reclaimthenet.org/google-broke-recaptcha-for-de-googled-android-users",
-      "published_at": "2026-05-08T18:45:58+00:00",
-      "summary": "HN story type: story HN points: 1105 HN comments: 384 HN post text: Related: Google Cloud fraud defense, the next evolution of reCAPTCHA - https://news.ycombinator.com/item?id=48039362 also: Google Cloud Fraud Defence is just WEI repackaged - https://news.ycombinator.com/item?id=48063199 HN top comments: coppsilgold: My understanding is that this new reCAPTCHA is basically just remote attestation. Remote attestation doesn't use blind signatures (as that would be 'farmable') so tying the device to the 'attestee' is technically possible with collusion of Google servers: EK (static burned-in private key) -> AIK (ephemeral identity key in secure enclave signed by a Google server) -> attestation (signed by AIK). As you can see if t... palata: > People running de-Googled phones chose those setups because they read the data practices, understood what Play Services phones home about, and decided they didn’t consent. This is wrong. Many (most?) users of alternative Android OSes do use a variant of the Play Services (be it sandboxed Play Services like on GrapheneOS, or an open source, reverse engineered implementation like microG that phones home just the s... dwedge: I've kept a spare cheap android for too long and recently went with Graphene instead. I have one Google profile and only use it for Uber, work's Google Chat and maps. One bank refused to work (even with Google services) so I moved bank. I've moved most of my mobile use to self hosted (freshrss full text, password manager, calendar, tasks) with no direct internet connection. It's a bit irritating but I'm glad I sta...",
-      "fetched_at": "2026-05-09T11:39:26.581523+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48067119",
-      "hn_story_type": "story",
-      "hn_points": "1105",
-      "hn_comments_count": "384",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48067119",
-      "hn_item_text": "Related: Google Cloud fraud defense, the next evolution of reCAPTCHA - https://news.ycombinator.com/item?id=48039362 also: Google Cloud Fraud Defence is just WEI repackaged - https://news.ycombinator.com/item?id=48063199",
-      "hn_comment_preview": "coppsilgold: My understanding is that this new reCAPTCHA is basically just remote attestation. Remote attestation doesn't use blind signatures (as that would be 'farmable') so tying the device to the 'attestee' is technically possible with collusion of Google servers: EK (static burned-in private key) -> AIK (ephemeral identity key in secure enclave signed by a Google server) -> attestation (signed by AIK). As you can see if t...\npalata: > People running de-Googled phones chose those setups because they read the data practices, understood what Play Services phones home about, and decided they didn’t consent. This is wrong. Many (most?) users of alternative Android OSes do use a variant of the Play Services (be it sandboxed Play Services like on GrapheneOS, or an open source, reverse engineered implementation like microG that phones home just the s...\ndwedge: I've kept a spare cheap android for too long and recently went with Graphene instead. I have one Google profile and only use it for Uber, work's Google Chat and maps. One bank refused to work (even with Google services) so I moved bank. I've moved most of my mobile use to self hosted (freshrss full text, password manager, ca...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=14,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 14,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "open source",
-            "sandbox"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "sandbox",
-            "ide"
-          ],
-          "support_hits": [
-            "setup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "sandbox",
-        "implementation"
-      ],
-      "detail_slug": "5c80bcc942a3f0126aa7bdeb4dd4700d41d3bfcb",
-      "is_english_source": true,
-      "translated_title": "구글 변경 탓에 비구글 안드로이드 reCAPTCHA 깨져",
-      "short_summary": "Hacker News에서는 구글의 새 reCAPTCHA가 기기 신뢰 검증에 가까워지면서 비구글 안드로이드에서 제대로 작동하지 않는다는 문제를 짚었다. 댓글은 사기 방지 강화보다 구글 의존을 키우는 변화라는 비판에 더 무게를 뒀다.",
-      "why_it_matters": "이번 논쟁은 CAPTCHA가 단순한 봇 차단을 넘어 기기 신뢰 체계로 옮겨가고 있음을 보여준다. 이 흐름이 굳어지면 모바일 서비스 접근 조건이 운영체제 선택과 프라이버시 설정까지 건드리게 된다.\n- 플레이 서비스가 없거나 제한된 환경에서는 로그인, 가입, 결제 흐름이 끊길 수 있다. 보안 기능 하나가 곧 접근성 문제로 번진다.\n- 은행 앱이나 호출 앱처럼 기기 무결성 검사를 붙인 서비스는 대체 안드로이드 사용자에게 사실상 사용 장벽이 될 수 있다.\n- 실무자는 reCAPTCHA나 기기 검증 API를 넣을 때 차단율만 볼 게 아니라 오탐, 이탈, 지원 비용까지 같이 봐야 한다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 대체로 비판적이었다. 많은 이용자가 이번 변화를 보안 강화라기보다 원격 인증과 플랫폼 통제 확대의 신호로 읽었다.\n- 가장 많이 나온 지적은 새 reCAPTCHA가 사실상 원격 인증에 가깝고, 예전 WEI 논란을 다른 이름으로 되살린 것 같다는 점이었다.\n- 한편 모든 대체 안드로이드 사용자가 완전한 비구글 환경을 쓰는 것은 아니라는 반론도 있었다. GrapheneOS의 sandboxed Play Services나 microG 같은 절충 구성이 흔하다는 얘기다.\n- 실사용 경험담도 눈에 띄었다. 은행 앱이 막히거나 특정 서비스만 별도 구글 기기에 남겨두는 식의 운영 비용이 커진다는 사례가 공감을 얻었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-09T11:42:28.195203+00:00"
-    },
-    {
-      "id": "c0952bf502c45af6c1e8392967d1f962c6f5f3f3",
-      "title_hash": "f99de5566af0c298f8a479db354ecfeb3a0c6d96",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "A recent experience with ChatGPT 5.5 Pro",
-      "link": "https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/",
-      "published_at": "2026-05-09T02:41:42+00:00",
-      "summary": "HN story type: story HN points: 356 HN comments: 197 HN post text: https://twitter.com/wtgowers/status/2052830948685676605 https://xcancel.com/wtgowers/status/2052830948685676605 HN top comments: ziotom78: I am a physics professor and often use Gemini to check my papers. It is a formidable tool: it was able to find a clerical error (a missing imaginary unit in a complex mathematical expression) I was not able to find for days, and it often underlines connections between concepts and ideas that I overlooked. However, it often makes conceptual errors that I can spot only because I have good knowledge of the topic I am... pmontra: It's a very long post with a mix of technical (math) and philosophical sections. Here are the most striking points to reflect upon IMHO. > It seems to me that training beginning PhD students to do research [...] has just got harder, since one obvious way to help somebody get started is to give them a problem that looks as though it might be a relatively gentle one. If LLMs are at the point where they can solve “ge... mxwsn: > Here’s a thought experiment: suppose that a mathematician solved a major problem by having a long exchange with an LLM in which the mathematician played a useful guiding role but the LLM did all the technical work and had the main ideas. Would we regard that as a major achievement of the mathematician? I don’t think we would. This is a cultural choice. It makes sense that in the mathematics culture we currently...",
-      "fetched_at": "2026-05-09T11:39:26.581523+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48071262",
-      "hn_story_type": "story",
-      "hn_points": "356",
-      "hn_comments_count": "197",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48071262",
-      "hn_item_text": "https://twitter.com/wtgowers/status/2052830948685676605 https://xcancel.com/wtgowers/status/2052830948685676605",
-      "hn_comment_preview": "ziotom78: I am a physics professor and often use Gemini to check my papers. It is a formidable tool: it was able to find a clerical error (a missing imaginary unit in a complex mathematical expression) I was not able to find for days, and it often underlines connections between concepts and ideas that I overlooked. However, it often makes conceptual errors that I can spot only because I have good knowledge of the topic I am...\npmontra: It's a very long post with a mix of technical (math) and philosophical sections. Here are the most striking points to reflect upon IMHO. > It seems to me that training beginning PhD students to do research [...] has just got harder, since one obvious way to help somebody get started is to give them a problem that looks as though it might be a relatively gentle one. If LLMs are at the point where they can solve “ge...\nmxwsn: > Here’s a thought experiment: suppose that a mathematician solved a major problem by having a long exchange with an LLM in which the mathematician played a useful guiding role but the LLM did all the technical work and had the main ideas. Would we regard that as a major achievement of the mathematician? I don’t think we would....",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=4,tools_agents=14,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 14,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "tool"
-      ],
-      "detail_slug": "c0952bf502c45af6c1e8392967d1f962c6f5f3f3",
-      "is_english_source": true,
-      "translated_title": "ChatGPT 5.5 Pro를 써본 뒤 남은 질문들",
-      "short_summary": "수학·연구 맥락에서 ChatGPT 5.5 Pro를 써본 경험을 바탕으로, LLM이 이제 어디까지 들어왔는지와 연구 훈련·성과 인정 기준이 어떻게 흔들릴지를 짚은 글이다. HN에서는 성능에 놀랐다는 반응과 함께, 개념 오류를 걸러낼 전문성이 더 중요해졌다는 의견이 맞섰다.",
-      "why_it_matters": "단순한 생산성 도구 이야기가 아니다. 연구와 고난도 지식노동에서 LLM을 어디까지 맡길 수 있는지, 그리고 사람이 맡아야 할 역할이 무엇인지 다시 묻게 만든 사례로 읽힌다.\n- 초안 정리나 검색을 넘어서 오류 탐지, 아이디어 연결, 문제 풀이 보조까지 들어오면 주니어 연구자 교육 방식부터 달라질 수 있다.\n- 실무에서는 '모델이 잘한다'보다 '누가 검증할 수 있나'가 더 큰 기준이 된다. 결과를 받아도 개념 오류를 걸러낼 사람은 여전히 필요하다.\n- 성과 평가 기준도 흔들린다. 사람이 방향만 잡고 핵심 기술 작업을 모델이 맡았다면, 그 결과를 어떻게 인정할지 조직과 업계가 곧 부딪힐 문제라는 시각이 많다.",
-      "hn_reaction_summary": "댓글 분위기는 감탄과 경계가 함께 갔다. 이미 논문 검토나 아이디어 점검에 LLM을 쓰고 있다는 경험담이 나왔지만, 동시에 '잘 쓰는 사람만 안전하게 쓸 수 있다'는 반론도 반복됐다.\n- 긍정론은 사소한 계산·표기 오류를 잘 잡고, 놓친 연결고리를 드러내는 보조자로 꽤 쓸 만하다는 쪽이다.\n- 신중론은 개념 수준의 착오가 여전히 나온다고 본다. 그래서 초보자일수록 더 쉽게 속을 수 있다는 우려가 컸다.\n- 가장 많이 붙은 논점은 교육과 공로 문제였다. 입문용 연구 과제가 더 빨리 잠식될 수 있고, 사람과 모델의 기여를 어디서 나눌지도 문화적으로 다시 정해야 한다는 얘기다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-09T11:42:28.195203+00:00"
-    },
-    {
-      "id": "9e90ad1a067ef070f5ec617365c02ecbd190a84f",
-      "title_hash": "f5c669a4681a881656849963fdc6754ae349435a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "America's carpet capital: an empire and its toxic legacy",
-      "link": "https://apnews.com/projects/pfas-forever-stained/",
-      "published_at": "2026-05-06T15:17:44+00:00",
-      "summary": "HN story type: story HN points: 29 HN comments: 8 HN top comments: c0balt: I feel for the people living there and being affected by the pollution. The long term effects of chemical pollution are ugly. But the CEO in the intro just seems like an odd choice. PFAS were known to cause issues for a long time, if you continued to use them for years then it is in your back too. Being \"surprised\" this might eventually affect your own product line just seems naive. You might have trusted 3M but j... xnx: Doesn't even mention microplastics. Clothing, car tires, and carpet have to be right up there with the top sources. expedition32: When people talk about how they want manufacturing back they conveniently forget the pollution.",
-      "fetched_at": "2026-05-09T11:39:26.581523+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48037243",
-      "hn_story_type": "story",
-      "hn_points": "29",
-      "hn_comments_count": "8",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48037243",
-      "hn_item_text": "",
-      "hn_comment_preview": "c0balt: I feel for the people living there and being affected by the pollution. The long term effects of chemical pollution are ugly. But the CEO in the intro just seems like an odd choice. PFAS were known to cause issues for a long time, if you continued to use them for years then it is in your back too. Being \"surprised\" this might eventually affect your own product line just seems naive. You might have trusted 3M but j...\nxnx: Doesn't even mention microplastics. Clothing, car tires, and carpet have to be right up there with the top sources.\nexpedition32: When people talk about how they want manufacturing back they conveniently forget the pollution.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=7,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 2,
-        "strategy_insight": 7,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "rust",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "ceo"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "api"
-      ],
-      "detail_slug": "9e90ad1a067ef070f5ec617365c02ecbd190a84f",
-      "is_english_source": true,
-      "translated_title": "미국 카펫 산업의 번영과 유독한 후유증",
-      "short_summary": "미국 ‘카펫 수도’의 성장 뒤에 남은 화학물질 오염의 흔적과 그 후유증을 짚는다. HN에서는 PFAS를 오래 써 온 업계의 책임, 제조업 회귀가 부르는 환경 비용이 함께 거론됐다.",
-      "why_it_matters": "제조업의 성공담이 끝난 뒤 어떤 비용이 지역사회에 남는지 보여주는 사례다. 환경 규제와 공급망 리스크, 소재 선택이 이제는 브랜드 평판과 제품 경쟁력까지 직접 흔든다는 점을 시사한다.\n- PFAS처럼 한때 널리 쓰인 소재도 뒤늦게 규제, 소송, 리콜 이슈로 번질 수 있다. 소재 조달 이력과 대체 계획을 미리 점검해야 한다.\n- 제조업 확대나 리쇼어링을 말할 때 생산성만 볼 수 없다는 경고다. 오염 처리 비용과 지역 반발이 사업성에 바로 얹힌다.\n- 소비재 기업이라면 제품 성능만이 아니라 폐기 후 영향, 잔류물질, 장기 노출 문제까지 설명할 준비가 필요하다.",
-      "hn_reaction_summary": "HN 댓글은 피해 지역 주민에 대한 공감과 함께, 업계가 PFAS 위험을 너무 오래 외면했다는 비판으로 기울었다. 기사에 빠진 논점으로는 미세플라스틱과 제조업 회귀의 환경 대가가 반복해서 언급됐다.\n- ‘몰랐다’는 식의 반응은 설득력이 약하다는 의견이 많았다. 공급업체를 믿었더라도 업계가 위험 신호를 모를 수 없었다는 시각이다.\n- 카펫, 의류, 타이어 같은 생활 소재가 미세플라스틱 배출원이라는 지적이 나왔다. 독성 화학물질만이 아니라 입자 오염까지 함께 봐야 한다는 얘기다.\n- 제조업을 다시 키우자는 담론이 오염 문제를 너무 쉽게 지운다는 반론도 있었다. 실무적으로는 생산 유치와 환경 책임을 따로 떼어 볼 수 없다는 논점이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-09T11:42:28.195203+00:00"
-    },
-    {
-      "id": "30777f14151ce6ce07040b0db787ec9d15f5c34c",
-      "title_hash": "136078c8c03f7c4e30a094a23ab6535f6a6eeca7",
-      "source": "GeekNews",
-      "title": "GPT-5.5 low vs medium vs high vs xhigh: 오픈소스 저장소의 실제 작업 26개에서 본 추론 곡선",
-      "link": "https://news.hada.io/topic?id=29316",
-      "published_at": "2026-05-09T02:42:52+00:00",
-      "summary": "GPT-5.5 Codex를 GraphQL-go-tools 의 실제 작업 26개에 low, medium, high, xhigh 설정으로 실행하자, 테스트 통과보다 사람 패치와의 의미적 동등성·코드 리뷰 통과율에서 추론 노력 차이가 더 크게 드러남 테스트 통과는 low 21/26, medium 21/26, high 25/26, xhigh...",
-      "fetched_at": "2026-05-09T07:25:22.892909+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "56",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=2,tools_agents=11,strategy_insight=8,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 11,
-        "strategy_insight": 8,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "codex"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "코드 리뷰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "코드 리뷰"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "codex",
-        "tool"
-      ],
-      "detail_slug": "30777f14151ce6ce07040b0db787ec9d15f5c34c",
-      "is_english_source": false,
-      "sent_at": "2026-05-09T07:28:31.823321+00:00"
-    },
-    {
-      "id": "d4d9212da6a5b511965ad099d8fda09393368a08",
-      "title_hash": "407ef9acb797f0e4ff4fe45f58021bd12757178a",
-      "source": "GeekNews",
-      "title": "모든 VPS 또는 클라우드 제공자에서 첫 SSH 연결의 MITM 막기",
-      "link": "https://news.hada.io/topic?id=29318",
-      "published_at": "2026-05-09T06:02:06+00:00",
-      "summary": "ssh-init-vm 은 새 VM의 첫 SSH 접속에서 중간자 공격 을 막기 위해 cloud-init으로 임시 SSH 호스트 개인키를 주입하고, 장기 호스트 키를 생성·가져오는 동안만 신뢰하게 함 Hetzner Cloud처럼...",
-      "fetched_at": "2026-05-09T07:25:22.892909+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "신뢰"
-      ],
-      "detail_slug": "d4d9212da6a5b511965ad099d8fda09393368a08",
-      "is_english_source": false,
-      "sent_at": "2026-05-09T07:28:31.823321+00:00"
     }
   ],
   "topic_digests": {
