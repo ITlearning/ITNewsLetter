@@ -1,6 +1,520 @@
 {
   "items": [
     {
+      "id": "efbf1ee6336fbf7a78a74590bdcb6f0e391db4d9",
+      "title_hash": "25bbaaecc6c84a0515c22b4af0da3c13cc5ffaeb",
+      "source": "GeekNews",
+      "title": "MaxxBench - “DeepSWE 점수는 좋네요. 그런데 진짜인가요?”",
+      "link": "https://news.hada.io/topic?id=36780&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-07T23:34:44+00:00",
+      "summary": "MaxxBench 는 DeepSWE의 89개 과제에서 요구사항이나 시작 코드를 조금 바꿔, 코딩 에이전트가 익숙한 정답 대신 달라진 작업에 적응하는지 평가함 참조 패치 증가량은 중앙값 17줄, 3.5% 에 불과했지만, 비교한 12개 구성의 최고점과 최저점 차이는 DeepSWE의 20.9%p에서 MaxxBench의 48.3%p로 커짐 여러 모델이 새 요구사항을 이해하고도 숨겨진 테스트에 대한 추측 을 우선함. 다만 Claude Opus 5.5처럼 요구사항을 더 잘 따르는 모델도 있어, 모든 모델의 성능이 떨어진 것은 아님 메모리 사용량을 프로그램의 자체 보고로 확인하는 과 …",
+      "fetched_at": "2026-11-08T01:01:02.195456+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "코드",
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "적응"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "efbf1ee6336fbf7a78a74590bdcb6f0e391db4d9",
+      "is_english_source": false,
+      "sent_at": "2026-11-08T01:03:16.819384+00:00"
+    },
+    {
+      "id": "3c29386a966ca60e8f252f0e96b4e8fe045eefa8",
+      "title_hash": "badfe72ea66bf4587b1456ad69a113b9b91892bb",
+      "source": "GeekNews",
+      "title": "모든 Windows 11 앱은 Electron을 버려야 한다, Discord가 그 이유를 보여줬다",
+      "link": "https://news.hada.io/topic?id=36778&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-07T22:35:27+00:00",
+      "summary": "Discord가 Electron 기반 데스크톱 앱을 Rust와 GPUI로 재구축 하고 있음. 시작 속도 비교 영상에서는 새 앱을 늦게 켰는데도 친구 목록이 먼저 뜸 새 클라이언트는 계정 2개를 동시 실행하면서도 RAM 290.2MB 를 사용함. 기존 1GB보다 약 70% 적지만, 아직 동일 조건 비교 벤치마크는 없음 빠른 초기화와 새 아키텍처 덕분에 “Starting” 화면을 없애고 , 업데이트는 백그라운드에서 자동으로 처리함 데스크톱 UI는 브라우저 엔진 대신 GPU로 직접 렌더링 하고, 모바일과 웹도 Rust 코드를 공유함. 웹은 HTML 렌더링을 유지하되 앱 로직을 …",
+      "fetched_at": "2026-11-08T01:01:02.195456+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=9,practical_tech=9,tools_agents=4,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "아키텍처",
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "아키텍처"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "아키텍처",
+        "코드"
+      ],
+      "detail_slug": "3c29386a966ca60e8f252f0e96b4e8fe045eefa8",
+      "is_english_source": false,
+      "sent_at": "2026-11-08T01:03:16.819384+00:00"
+    },
+    {
+      "id": "51824d9f513e516a9ed2b26d837c31f5bb581aa0",
+      "title_hash": "9e2bee301f905685bc3d9976880d1d7f4dc3da77",
+      "source": "GeekNews",
+      "title": "RealPage 임대료 책정 소송, 세입자에게 약 3억 6,000만 달러 지급하는 합의로 마무리",
+      "link": "https://news.hada.io/topic?id=36765&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-07T16:34:56+00:00",
+      "summary": "미국 연방법원이 RealPage 소프트웨어를 통한 임대료 담합 의혹 집단소송의 합의를 승인함. 합의에 참여한 임대인들이 세입자에게 지급할 금액은 약 3억 6,000만 달러 임 합의 기업들은 잘못이나 법적 책임을 인정하지 않았지만, 가격 추천을 위한 비공개 데이터 제공과 경쟁사 비공개 데이터 활용 을 중단하기로 함 합의 대상은 2018년 10월 18일부터 2025년 11월 21일까지 지정된 RealPage 제품을 사용한 미국 공동주택에서 소유주나 운영사에 임대료를 낸 세입자임 워싱턴 D.C.와 4개 주 법무장관은 합의가 별도 소송을 부당하게 제한할 …",
+      "fetched_at": "2026-11-08T01:01:02.195456+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "52",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=0,strategy_insight=3,industry_business=7",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": 3,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "소송"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "소송",
+        "기업"
+      ],
+      "detail_slug": "51824d9f513e516a9ed2b26d837c31f5bb581aa0",
+      "is_english_source": false,
+      "sent_at": "2026-11-08T01:03:16.819384+00:00"
+    },
+    {
+      "id": "6a5cc54191ea9b73aa6767519bd2b761d74f3671",
+      "title_hash": "51c5ad6faf96bf346a6d4f06b5e9ab92563e26b4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "published_at": "2026-11-07T20:45:32+00:00",
+      "summary": "HN story type: story HN points: 149 HN comments: 107 HN top comments: bcherny: Boris from the Claude Code team here. Historically Claude Code has not done secret scrubbing (there are many good tools for that), but we are looking into what we can do to prevent this. That said, a few thoughts: 1. .claude/settings.local.json is meant to stay local. This is not a file you should check into source control. We automatically gitignore it when Claude creates the file, so in this case the files were... tsergiu: I'm super paranoid about the level of access AI agents have. At the same time, I want them to take away the tedium of a bunch of tasks I'm required to do, and it sucks to have to micromanage them. The best solution I've been able to come up is using an ephemeral vm (on an isolated network) per task, using --dangerously-skip-permissions so it doesn't bother me. I couple that with an API proxy that lets me restrict... Aurornis: Confusing headline. They scanned for repos where people had committed their .claude/ folder and local settings and then scanned those files for commands which contained keys or passwords. So pressing “Don’t Ask Again” by itself doesn’t expose passwords by itself. If you commit your local Claude settings and in those settings you have manually approved commands containing secrets directly in the command and then yo...",
+      "fetched_at": "2026-11-08T01:01:02.195456+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50407882",
+      "hn_story_type": "story",
+      "hn_points": "149",
+      "hn_comments_count": "107",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50407882",
+      "hn_item_text": "",
+      "hn_comment_preview": "bcherny: Boris from the Claude Code team here. Historically Claude Code has not done secret scrubbing (there are many good tools for that), but we are looking into what we can do to prevent this. That said, a few thoughts: 1. .claude/settings.local.json is meant to stay local. This is not a file you should check into source control. We automatically gitignore it when Claude creates the file, so in this case the files were...\ntsergiu: I'm super paranoid about the level of access AI agents have. At the same time, I want them to take away the tedium of a bunch of tasks I'm required to do, and it sucks to have to micromanage them. The best solution I've been able to come up is using an ephemeral vm (on an isolated network) per task, using --dangerously-skip-permissions so it doesn't bother me. I couple that with an API proxy that lets me restrict...\nAurornis: Confusing headline. They scanned for repos where people had committed their .claude/ folder and local settings and then scanned those files for commands which contained keys or passwords. So pressing “Don’t Ask Again” by itself doesn’t expose passwords by itself. If you commit your local Claude settings and in those settings yo...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=36,practical_tech=9,tools_agents=36,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 36,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 36,
+          "strong_hits": [
+            "claude code",
+            "ai agent"
+          ],
+          "support_hits": [
+            "agent",
+            "local",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding",
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ai agent",
+        "agent",
+        "local",
+        "tool",
+        "claude + code",
+        "ai + coding",
+        "local + agent"
+      ],
+      "detail_slug": "6a5cc54191ea9b73aa6767519bd2b761d74f3671",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T01:03:16.819384+00:00"
+    },
+    {
+      "id": "15c72a283cf130b1a38461835705dec3e54e3474",
+      "title_hash": "68f608183b1a375912720ceba6147565a37bf5fc",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "published_at": "2026-11-07T17:19:00+00:00",
+      "summary": "HN story type: story HN points: 187 HN comments: 55 HN top comments: peri-cl: The big trend in that graph is that smaller models collapse the most. Everything with \"-flash\" in the name, plus OpenAI Luna. Look at GPT 5.6-Sol vs. GPT 5.6-Luna in particular. (The GLM pair shouldn't be expected follow this pattern, because they're misnamed: GLM-5.3 and GLM-5.3-flash are distinct lineages. The -flash is an early release of a new pretrain on a new architecture). If this *is* the main factor, I'd... rao-v: My understanding is this is less about labs training directly on the benchmark as about the labs being sloppy about creating RL environments that reflect the benchmark task They should be doing what this test did, and generalizing and significantly varying the training environments (and ensuring some of them are unexpectedly complex and unexpectedly simple). Further I suspect the smaller models are especially over... Systemerror7A69: Academically a - very - interesting article, which confirms my ongoing suspicion of LLM Benchmarks in general ( probably why I like it so much). Another thing that caught my eye is DeepSWE having a bunch of bugs in them. The more I learn about these benchmarks the more sceptical I become. I would expect such a prolific benchmark to have these bugs ironed out by now. The practical takeaway, however, seems to be an...",
+      "fetched_at": "2026-11-08T01:01:02.195456+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50406222",
+      "hn_story_type": "story",
+      "hn_points": "187",
+      "hn_comments_count": "55",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50406222",
+      "hn_item_text": "",
+      "hn_comment_preview": "peri-cl: The big trend in that graph is that smaller models collapse the most. Everything with \"-flash\" in the name, plus OpenAI Luna. Look at GPT 5.6-Sol vs. GPT 5.6-Luna in particular. (The GLM pair shouldn't be expected follow this pattern, because they're misnamed: GLM-5.3 and GLM-5.3-flash are distinct lineages. The -flash is an early release of a new pretrain on a new architecture). If this *is* the main factor, I'd...\nrao-v: My understanding is this is less about labs training directly on the benchmark as about the labs being sloppy about creating RL environments that reflect the benchmark task They should be doing what this test did, and generalizing and significantly varying the training environments (and ensuring some of them are unexpectedly complex and unexpectedly simple). Further I suspect the smaller models are especially over...\nSystemerror7A69: Academically a - very - interesting article, which confirms my ongoing suspicion of LLM Benchmarks in general ( probably why I like it so much). Another thing that caught my eye is DeepSWE having a bunch of bugs in them. The more I learn about these benchmarks the more sceptical I become. I would expect such a prolific be...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=6,industry_business=1",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 6,
+        "industry_business": 1
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "architecture",
+            "benchmark"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "research",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 1,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "architecture",
+        "benchmark"
+      ],
+      "detail_slug": "15c72a283cf130b1a38461835705dec3e54e3474",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T01:03:16.819384+00:00"
+    },
+    {
+      "id": "d663729b2e9cfc28a95479fe7ad20356dc90901f",
+      "title_hash": "55fe177cbe65fa45ca7934a8e4043358520bb215",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "GitHub New pull request overview page in public preview",
+      "link": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/",
+      "published_at": "2026-11-07T23:09:40+00:00",
+      "summary": "HN story type: story HN points: 41 HN comments: 27 HN top comments: capevace: We’ve been building our own Review Pipeline, including automated review guides, risk detection and much more. There’s SO much to be done around Code Review, I’m very surprised GitHub isn’t doing more. They have the reach already, they have years of real review data. And yet, the PR itself is not using any of the newly available methods for more efficient review. Agents are hammering PRs out left and right, and yet... gz09: I wish they would instead focus on fixing the regressions with PRs first... For example: There is a nasty bug that got introduced recently where you click \"Merge when ready\" but your chances of things actually going to the merge queue seem to be only at about 60-70%. When it happens the way you usually find out if things still aren't merged the next day. Their support has acknowledged the issue to us over a month... sickcodebruh: Been using Graphite all year. I had trouble adapting my GitHub mind to it at first and I still don’t love everything about Graphite, but _wow_ is Graphite’s PR review page organized better than GitHub. GitHub’s new PR stack is superior (atomic merges are life-changing) and having one fewer tokens to manage CLI to install is fantastic, but I’m still mostly Graphite because the page is just organized better. Specifi...",
+      "fetched_at": "2026-11-08T01:01:02.195456+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50408931",
+      "hn_story_type": "story",
+      "hn_points": "41",
+      "hn_comments_count": "27",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50408931",
+      "hn_item_text": "",
+      "hn_comment_preview": "capevace: We’ve been building our own Review Pipeline, including automated review guides, risk detection and much more. There’s SO much to be done around Code Review, I’m very surprised GitHub isn’t doing more. They have the reach already, they have years of real review data. And yet, the PR itself is not using any of the newly available methods for more efficient review. Agents are hammering PRs out left and right, and yet...\ngz09: I wish they would instead focus on fixing the regressions with PRs first... For example: There is a nasty bug that got introduced recently where you click \"Merge when ready\" but your chances of things actually going to the merge queue seem to be only at about 60-70%. When it happens the way you usually find out if things still aren't merged the next day. Their support has acknowledged the issue to us over a month...\nsickcodebruh: Been using Graphite all year. I had trouble adapting my GitHub mind to it at first and I still don’t love everything about Graphite, but _wow_ is Graphite’s PR review page organized better than GitHub. GitHub’s new PR stack is superior (atomic merges are life-changing) and having one fewer tokens to manage CLI to install is...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=6,tools_agents=14,strategy_insight=13,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 14,
+        "strategy_insight": 13,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "guide"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "code review"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "code review"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "agent"
+      ],
+      "detail_slug": "d663729b2e9cfc28a95479fe7ad20356dc90901f",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T01:03:16.819384+00:00"
+    },
+    {
       "id": "faef3b82041105fc3577fb9e8c71688a86845d4a",
       "title_hash": "1ef65aaf5ca3bc61e2d65cf655f49cee97295dba",
       "source": "GeekNews",
@@ -166482,525 +166996,6 @@
       "hn_reaction_summary": "HN 댓글 분위기는 공감과 경계가 동시에 강했다. 시작 장벽을 낮춰준다는 체감담이 많았지만, 오래 쓸수록 사고의 밀도와 몰입이 떨어진다는 반론도 꾸준히 나왔다.\n- 긍정적인 반응은 Claude 같은 도구가 계획 모드에서 아이디어 정리, PR 초안, 브레인스토밍의 관성을 크게 줄여준다는 경험에 모였다.\n- 우려하는 쪽은 LLM의 맞장구 성향이 사용자의 확신만 키우고, 낮은 수준의 기술적 판단을 그대로 굳힐 수 있다고 봤다.\n- 실무자가 읽을 논점은 생산성 자체보다, AI를 시작 보조로 둘지 사고 대행으로 넘길지 그 경계를 어디에 둘 것인가에 가깝다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-10T12:45:39.534897+00:00"
-    },
-    {
-      "id": "491802f53fab930e4f876d9bf975f7a9a523e6f2",
-      "title_hash": "da65434531902bc35e06f0fd2e986f046095721a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Replacing a 3 GB SQLite db with a 10 MB FST (finite state transducer) binary",
-      "link": "https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/",
-      "published_at": "2026-05-10T10:33:06+00:00",
-      "summary": "HN story type: story HN points: 44 HN comments: 4 HN top comments: asibahi: This was a very interesting read. I wonder if similar techniques can apply to Turkish or Japanese dictionaries? Hendrikto: > I do wish to point out, of course, that the whole reason it was possible to experiment cheaply and come across this serendipity was because 9 months ago, faced with the choice to either do the bad easy thing or the good nothing, I chose to do the bad easy thing.5 The SQLite database worked! I understood how it worked, behind the scenes with its B-trees and its Full Text Search extension. This is the most importa... lscharen: I was halfway through the article and began thinking that his described data structure sounded very familiar to something I used about 20 years ago. Sure enough, the first paragraph on the Wikipedia entry for DAFSA is: DAFSA is the rediscovery of a data structure called Directed Acyclic Word Graph (DAWG)",
-      "fetched_at": "2026-05-10T12:42:57.619819+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48082676",
-      "hn_story_type": "story",
-      "hn_points": "44",
-      "hn_comments_count": "4",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48082676",
-      "hn_item_text": "",
-      "hn_comment_preview": "asibahi: This was a very interesting read. I wonder if similar techniques can apply to Turkish or Japanese dictionaries?\nHendrikto: > I do wish to point out, of course, that the whole reason it was possible to experiment cheaply and come across this serendipity was because 9 months ago, faced with the choice to either do the bad easy thing or the good nothing, I chose to do the bad easy thing.5 The SQLite database worked! I understood how it worked, behind the scenes with its B-trees and its Full Text Search extension. This is the most importa...\nlscharen: I was halfway through the article and began thinking that his described data structure sounded very familiar to something I used about 20 years ago. Sure enough, the first paragraph on the Wikipedia entry for DAFSA is: DAFSA is the rediscovery of a data structure called Directed Acyclic Word Graph (DAWG)",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=9,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "database",
-            "sql",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [
-            "extension"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "database",
-        "sql",
-        "rag"
-      ],
-      "detail_slug": "491802f53fab930e4f876d9bf975f7a9a523e6f2",
-      "is_english_source": true,
-      "translated_title": "3GB SQLite DB를 10MB FST로 대체한 사례",
-      "short_summary": "3GB짜리 SQLite 데이터베이스를 10MB 수준의 FST 바이너리로 바꾼 사례다. 사전형 데이터에서는 범용 DB보다 목적에 맞춘 자료구조가 훨씬 작고 단순할 수 있음을 보여준다.",
-      "why_it_matters": "읽기 위주의 사전·검색 인덱스를 운영한다면 저장 방식 자체를 다시 보게 하는 사례다. 데이터 형태가 분명한 워크로드라면 범용 데이터베이스를 더 다듬는 대신, 정적인 전용 구조로 옮기는 선택이 현실적인 대안이 될 수 있다.\n- 3GB가 10MB로 줄었다는 건 배포 크기와 저장 비용이 설계 변수인 모바일, 엣지, 오프라인 제품에서 체감 차이가 크다는 뜻이다.\n- 조회 패턴이 단순한 데이터라면 SQLite FTS 같은 범용 기능을 계속 안고 가기보다, 빌드 시점 생성 + 런타임 읽기 전용 구조가 더 잘 맞을 수 있다.\n- 먼저 SQLite로 제품을 굴리고, 이후 병목이 보일 때 구조를 갈아탔다는 흐름도 실무적이다. 초기 구현 속도와 후속 최적화를 분리한 접근으로 읽힌다.",
-      "hn_reaction_summary": "댓글 수는 아직 적지만 분위기는 대체로 호의적이다. 단순히 용량을 줄였다는 데서 끝나지 않고, 이 방식이 어디까지 일반화될 수 있는지와 왜 이런 전환이 가능했는지에 관심이 모였다.\n- 한쪽에서는 터키어, 일본어 같은 다른 언어 사전에도 비슷한 기법이 통할지 물으며 적용 범위를 궁금해했다.\n- 또 다른 반응은 처음부터 완벽한 구조를 고집하기보다, 먼저 SQLite로 작동하는 버전을 만든 덕분에 나중 최적화가 가능했다는 점을 높게 봤다.\n- 자료구조에 익숙한 독자는 FST가 DAFSA·DAWG 계열과 닿아 있다고 짚었다. 새 발명이라기보다 알려진 구조를 문제에 맞게 잘 꺼내 쓴 사례라는 평가다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-10T12:45:39.534897+00:00"
-    },
-    {
-      "id": "ae0bb2fb00fcd5e394c2a44f94bd33c8e6f35fc9",
-      "title_hash": "24f9faf71f54cf6c5ad75173158f5f379ab36ad2",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Zed Editor Theme-Builder",
-      "link": "https://zed.dev/theme-builder",
-      "published_at": "2026-05-09T17:30:39+00:00",
-      "summary": "HN story type: story HN points: 243 HN comments: 71 HN top comments: thecatapps: I'm extremely glad to see something like this. I've tried to use Zed so many times, and this might sound neurotic -- but there are just so many little theming things that make a difference to me. For example, https://imgur.com/a/ia2GCgg -- top is VSCode, bottom is Zed. Both using Svelte, and using a similar theme. - Angle brackets are a different color - Capitalized built-in components are a different color - Bool... rbbydotdev: Cool to see all the progress with Zed, but it feels a bit too tied to user accounts. Prominent 'Sign In' buttons and ads like 'Try our new agentic...' They do have to make money and that's fine - but too often incentives start out this way and begin to corrupt the application... Whats next, ads inside file searches? (ubuntu blundered this way and soured the community) - \"LQQKING for something? try new ai search by... rhgraysonii: Finally, I can reasonably get something truly high contrast and not just close to it as the current offerings are. This is a little thing, but Zed continues to keep getting so many things right that it has gone from “interesting” to “my preferred editor” after 15 years in vim. The git “follow mode” has been especially great transitioning into heavy usage of LLMs in development. Happy to see the team continues to j...",
-      "fetched_at": "2026-05-10T12:42:57.619819+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48076651",
-      "hn_story_type": "story",
-      "hn_points": "243",
-      "hn_comments_count": "71",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48076651",
-      "hn_item_text": "",
-      "hn_comment_preview": "thecatapps: I'm extremely glad to see something like this. I've tried to use Zed so many times, and this might sound neurotic -- but there are just so many little theming things that make a difference to me. For example, https://imgur.com/a/ia2GCgg -- top is VSCode, bottom is Zed. Both using Svelte, and using a similar theme. - Angle brackets are a different color - Capitalized built-in components are a different color - Bool...\nrbbydotdev: Cool to see all the progress with Zed, but it feels a bit too tied to user accounts. Prominent 'Sign In' buttons and ads like 'Try our new agentic...' They do have to make money and that's fine - but too often incentives start out this way and begin to corrupt the application... Whats next, ads inside file searches? (ubuntu blundered this way and soured the community) - \"LQQKING for something? try new ai search by...\nrhgraysonii: Finally, I can reasonably get something truly high contrast and not just close to it as the current offerings are. This is a little thing, but Zed continues to keep getting so many things right that it has gone from “interesting” to “my preferred editor” after 15 years in vim. The git “follow mode” has been especiall...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=19,practical_tech=9,tools_agents=19,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 19,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 19,
-          "strong_hits": [
-            "agentic",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agentic",
-        "ide",
-        "llm",
-        "agent"
-      ],
-      "detail_slug": "ae0bb2fb00fcd5e394c2a44f94bd33c8e6f35fc9",
-      "is_english_source": true,
-      "translated_title": "Zed 에디터용 테마 빌더 공개",
-      "short_summary": "Zed의 Theme-Builder가 HN에서 화제가 됐다. 세밀한 문법 색상 조정과 고대비 테마 제작은 호평을 받았고, 계정 의존성과 AI 홍보 노출은 우려로 지적됐다.",
-      "why_it_matters": "에디터 경쟁이 이제는 기능 수보다 화면을 얼마나 오래 편하게 볼 수 있느냐로도 옮겨가고 있다. 이번 이야기는 테마 세밀도가 생산성과 이직 비용, 접근성에 바로 연결된다는 점을 다시 보여준다.\n- 고대비 테마를 직접 손보기 쉬워지면 눈의 피로를 줄이고, 접근성 요구가 있는 개발자도 작업 환경을 더 안정적으로 맞출 수 있다.\n- VS Code나 Vim에서 넘어오는 사용자에게는 토큰별 색상 차이와 하이라이트 완성도가 실제 전환 장벽을 낮추는 요소가 된다.\n- 반대로 로그인 유도와 AI 기능 홍보가 더 강해지면, 편집기 본연의 경험과 수익화 사이의 균형이 실사용 평가를 좌우할 가능성이 크다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 긍정적이다. 특히 코드 색을 세세하게 맞추고 싶었던 사용자와 진짜 고대비 테마를 원했던 사용자에게 반응이 좋았다.\n- 반복해서 나온 호평 포인트는 꺾쇠, 내장 컴포넌트명, 불리언 같은 세부 토큰 색상이 가독성과 몰입감에 큰 차이를 만든다는 점이다.\n- 일부는 Zed가 이미 흥미로운 편집기를 넘어 주력 에디터가 됐다고 평가했고, 이번 테마 빌더도 그 흐름을 뒷받침하는 기능으로 봤다.\n- 반대 의견은 계정 의존성과 AI 프로모션 노출에 집중됐다. 제품이 좋아도 이런 방향이 쌓이면 커뮤니티 신뢰를 깎을 수 있다는 경계다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-10T12:45:39.534897+00:00"
-    },
-    {
-      "id": "e9101fea24b1a943d4bea68db3cdbba1d48792d8",
-      "title_hash": "1131d20ed13f565393220bd8535f51076249d6c2",
-      "source": "GeekNews",
-      "title": "클로드 코드 사용하기: HTML의 놀라운 효율성",
-      "link": "https://news.hada.io/topic?id=29347",
-      "published_at": "2026-05-10T00:52:31+00:00",
-      "summary": "Claude Code 에서 Markdown 대신 HTML을 출력 형식으로 쓰면 시각화, 색상, 다이어그램, 상호작용을 더 풍부하게 담아 사람이 읽고 검토하기 쉬운 결과물을 만들 수 있음 HTML 은 표, CSS, SVG, script , JavaScript 상호작용, 이미지, 캔버스와 절대 위...",
-      "fetched_at": "2026-05-10T08:34:27.782698+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=2,tools_agents=15,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 15,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "e9101fea24b1a943d4bea68db3cdbba1d48792d8",
-      "is_english_source": false,
-      "sent_at": "2026-05-10T08:37:22.426312+00:00"
-    },
-    {
-      "id": "90a722d92a60938df0dd586972b7923a23697905",
-      "title_hash": "aefb139b87a01672a6dccd24b9538949ca5fff63",
-      "source": "GeekNews",
-      "title": "확률적 엔지니어링과 24/7 직원",
-      "link": "https://news.hada.io/topic?id=29345",
-      "published_at": "2026-05-10T00:48:02+00:00",
-      "summary": "소프트웨어 개발이 결정론적 시스템에서 확률적 시스템으로 조용히 전환되고 있으며, AI 에이전트가 밤새 코드를 생성·리뷰·병합하는 시대에 개발자의 역할과 조직 구조가 근본적으로 변화 중 AI 네이티브 팀 내부에서 역할이 상위로 이동하는 동시에 하위로 분화 되...",
-      "fetched_at": "2026-05-10T08:34:27.782698+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "90a722d92a60938df0dd586972b7923a23697905",
-      "is_english_source": false,
-      "sent_at": "2026-05-10T08:37:22.426312+00:00"
-    },
-    {
-      "id": "7a1f4a6b23179efe62c6f5103925bf55a56de2de",
-      "title_hash": "4f2444fc731d2a23f098c81da8c35c02bb17f8df",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Gemini API File Search is now multimodal",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag/",
-      "published_at": "2026-05-10T03:22:02+00:00",
-      "summary": "HN story type: story HN points: 78 HN comments: 8 HN top comments: FrequentLurker: This might be great and all but I am still miffed at how simple search on AI Studio is. You can only search the titles of your conversations and nothing inside them. On top of that they messed with the scrolling so Ctrl+F doesn't work reliably. trilogic: Good to have a choice between clouds and local use. How much would you pay to have this yours forever, running locally, GDPR and HIPaa compliant, without the headache of privacy or subscriptions. That´s what we offer with HugstonOne and we did it before Google. Multimodal, Lighting fast RAG, terabytes not kilobytes only :) All you need is a 32gb ram laptop and HugstonOne, not a rocket science.",
-      "fetched_at": "2026-05-10T08:34:27.782698+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48080702",
-      "hn_story_type": "story",
-      "hn_points": "78",
-      "hn_comments_count": "8",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48080702",
-      "hn_item_text": "",
-      "hn_comment_preview": "FrequentLurker: This might be great and all but I am still miffed at how simple search on AI Studio is. You can only search the titles of your conversations and nothing inside them. On top of that they messed with the scrolling so Ctrl+F doesn't work reliably.\ntrilogic: Good to have a choice between clouds and local use. How much would you pay to have this yours forever, running locally, GDPR and HIPaa compliant, without the headache of privacy or subscriptions. That´s what we offer with HugstonOne and we did it before Google. Multimodal, Lighting fast RAG, terabytes not kilobytes only :) All you need is a 32gb ram laptop and HugstonOne, not a rocket science.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=20,practical_tech=20,tools_agents=11,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 20,
-        "tools_agents": 11,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 20,
-          "strong_hits": [
-            "api",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api",
-        "rag",
-        "local + run"
-      ],
-      "detail_slug": "7a1f4a6b23179efe62c6f5103925bf55a56de2de",
-      "is_english_source": true,
-      "translated_title": "Gemini API 파일 검색, 멀티모달 지원",
-      "short_summary": "Gemini API의 파일 검색 기능이 멀티모달로 확장됐다는 소식이 HN에 올랐다. 관심은 기능 자체보다 실제 검색 UX와 프라이버시, 로컬 대안 비교로도 이어졌다.",
-      "why_it_matters": "파일 검색 기능이 텍스트 중심에서 여러 형식을 함께 다루는 방향으로 넓어지고 있다는 신호로 읽힌다. Gemini API를 붙여 검색형 AI 기능을 만드는 팀이라면 설계와 운영 기준을 다시 점검할 만하다.\n- 문서 검색과 비정형 입력 처리를 한 흐름으로 묶을 수 있으면 RAG 파이프라인과 제품 UX를 단순하게 가져갈 여지가 있다.\n- 대신 인덱싱 범위, 호출 비용, 응답 품질을 이전보다 더 촘촘하게 검증해야 한다.\n- 클라우드 의존이 커질수록 개인정보 처리와 규제 대응, 로컬 대안 검토가 실무 이슈로 바로 붙는다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 새 기능에 대한 기대보다 현재 도구 경험과 운영 방식에 대한 점검에 가까웠다. 기능 발표만으로는 부족하고, 실제로 얼마나 잘 찾고 얼마나 믿고 쓸 수 있는지가 더 큰 논점으로 보인다.\n- AI Studio 검색이 대화 제목만 찾고 본문 검색은 못 한다는 불만이 나왔고, 기본 탐색 경험이 불안정하다는 지적도 있었다.\n- 클라우드 기반 기능이 늘수록 로컬 실행, 영구 소유, GDPR·HIPAA 대응 같은 조건을 더 따져야 한다는 반응이 반복됐다.\n- 댓글 수는 많지 않았지만, 기능 추가 자체보다 현장 워크플로에 바로 도움이 되느냐를 먼저 보는 시선이 두드러졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-10T08:37:22.426312+00:00"
-    },
-    {
-      "id": "75604418851374f59391ea2b3dd3d8a7a364ecd1",
-      "title_hash": "37a80085b293d510493959c51312dfbc0d7441c6",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "EU Parliamentary Research Service calls VPNs \"a loophole that needs closing\"",
-      "link": "https://cyberinsider.com/eu-calls-vpns-a-loophole-that-needs-closing-in-age-verification-push/",
-      "published_at": "2026-05-09T05:52:12+00:00",
-      "summary": "HN story type: story HN points: 526 HN comments: 355 HN top comments: nirui: In case people no longer remember, when China started to require websites to register for a license before be allowed to operate, it was for \"protecting the children\" too. This simple policy then goes on to silence most individual publisher(/self-media) and consolidated the industry into the hands of the few, with no opportunity left for smaller entrepreneurs. This is arguably much worse than allowing children to... qnpnpmqppnp: This title seems misleading. The EP paper appears to be highlighting the existence of a debate regarding VPN. Relevant quote: \"Some argue that this is a loophole in the legislation that needs closing and call for age verification to be required for VPNs as well. In response, some VPN providers argue that they do not share information with third parties and state that their services are not intended for use by chil... donmcronald: I think all the identity verification schemes should start with the beneficial owners of companies. Governments have been lobbied to allow complete anonymity for the wealthy that own businesses doing questionable things while regular people are going to have to show id to buy food.",
-      "fetched_at": "2026-05-10T08:34:27.782698+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48072190",
-      "hn_story_type": "story",
-      "hn_points": "526",
-      "hn_comments_count": "355",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48072190",
-      "hn_item_text": "",
-      "hn_comment_preview": "nirui: In case people no longer remember, when China started to require websites to register for a license before be allowed to operate, it was for \"protecting the children\" too. This simple policy then goes on to silence most individual publisher(/self-media) and consolidated the industry into the hands of the few, with no opportunity left for smaller entrepreneurs. This is arguably much worse than allowing children to...\nqnpnpmqppnp: This title seems misleading. The EP paper appears to be highlighting the existence of a debate regarding VPN. Relevant quote: \"Some argue that this is a loophole in the legislation that needs closing and call for age verification to be required for VPNs as well. In response, some VPN providers argue that they do not share information with third parties and state that their services are not intended for use by chil...\ndonmcronald: I think all the identity verification schemes should start with the beneficial owners of companies. Governments have been lobbied to allow complete anonymity for the wealthy that own businesses doing questionable things while regular people are going to have to show id to buy food.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "31",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=4,tools_agents=7,strategy_insight=4,industry_business=4",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 4,
-        "industry_business": 4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "business",
-            "industry"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "75604418851374f59391ea2b3dd3d8a7a364ecd1",
-      "is_english_source": true,
-      "translated_title": "EU 의회 조사문건, VPN을 '막아야 할 허점'으로 거론",
-      "short_summary": "EU 의회 산하 조사 문건이 연령 확인 규제를 우회하는 통로로 VPN이 논의된다고 짚었다. HN에서는 사생활 침해와 검열 확대를 우려하는 반응이 컸고, 제목이 원문보다 강하다는 지적도 이어졌다.",
-      "why_it_matters": "유럽의 연령 확인 논의가 콘텐츠 서비스에 그치지 않고 접속 경로와 프라이버시 도구까지 번질 수 있다는 신호로 읽힌다. 아직 확정 정책은 아니어도 실무에서는 대비 포인트가 분명하다.\n- 성인물, 커뮤니티, 동영상 서비스는 지역별 연령 인증 흐름과 우회 접속 대응 방식을 더 촘촘히 설계하라는 압박을 받을 수 있다.\n- VPN까지 규제 대상으로 묶이기 시작하면 로그 보관, 제3자 인증, 최소 수집 원칙 같은 운영 이슈가 제품 기획과 법무 검토의 앞단으로 올라온다.\n- '우회 수단 차단' 논리가 힘을 얻으면 프라이버시 보호 도구 자체가 정책 논쟁의 중심으로 들어오게 된다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 경계심이 강했다. 다만 문건이 VPN 규제를 단정적으로 요구한 것은 아니라며, HN 제목이 원문보다 자극적이라는 반론도 꾸준히 나왔다.\n- 가장 반복된 우려는 '아동 보호' 같은 명분이 결국 신원 확인과 검열 인프라 확대로 이어질 수 있다는 점이었다. 일부는 중국의 규제 확대 사례를 떠올렸다.\n- 반대편에서는 원문이 정책 확정안이 아니라 찬반 논쟁을 소개한 수준이라며, 보고서의 톤과 HN 제목을 분리해서 봐야 한다고 지적했다.\n- 또 다른 쟁점은 형평성이다. 일반 이용자에게는 더 강한 신원 확인을 요구하면서 기업 소유 구조나 자본의 익명성은 그대로 두는 것 아니냐는 비판이 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-10T08:37:22.426312+00:00"
     }
   ],
   "topic_digests": {
