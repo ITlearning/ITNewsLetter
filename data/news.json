@@ -1,6 +1,576 @@
 {
   "items": [
     {
+      "id": "9041574401e5e0e622562c9a494dbe023807b718",
+      "title_hash": "531e73bfd67227b9a10e061686e2bdc9a4f1627e",
+      "source": "GeekNews",
+      "title": "Show GN: Boxdawn guard - Claude Code가 위험한 명령을 실행하기 전에 판정하는 플러그인",
+      "link": "https://news.hada.io/topic?id=36811&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-08T12:48:27+00:00",
+      "summary": "Claude Code가 Bash·PowerShell 명령을 실행하기 직전에 읽고, 위험한 명령은 거부하거나 확인을 받는 플러그인입니다. 나머지는 Claude Code 권한 설정에 그대로 맡깁니다. [기능] 프로젝트 밖 삭제·덮어쓰기, force push·reset --hard, DROP·WHERE 없는 DELETE, terraform destroy·kubectl delete 등을 거부하거나 확인 .env·SSH 키 같은 비밀 파일을 이름으로 읽으면 확인, 밖으로 보내면 거부, grep -r 검색에서는 빼고 실행 예: rm -rf tests/patches/plan/ ~/ → 거부 「rm: 프로젝트 밖까지 닿습니다: ~/」 · ~/ 를 빼면 판정 없음 …",
+      "fetched_at": "2026-11-08T17:36:56.375123+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "9041574401e5e0e622562c9a494dbe023807b718",
+      "is_english_source": false,
+      "sent_at": "2026-11-08T17:39:13.216796+00:00"
+    },
+    {
+      "id": "2e4bb7253d53f66e0e788867936d30da5dd92ef1",
+      "title_hash": "8dd5c0bdcfbdf45cf3c66cd98c293ec15b27275b",
+      "source": "GeekNews",
+      "title": "Meridian - Servo와 GPUI로 만든 실험적 웹 브라우저",
+      "link": "https://news.hada.io/topic?id=36807&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-08T12:00:59+00:00",
+      "summary": "Meridian 은 macOS용 웹 브라우저로, 현재 JavaScript와 레이아웃 기능 사용이 적은 웹사이트를 탐색하는 데 유용한 수준임 글꼴, 단축키, 색상, 탭 등을 폭넓게 설정할 수 있으며, 세로 탭과 가로 탭을 모두 지원함 자동 완성 주소창, 북마크와 방문 기록 등 탐색 기능에 더해 읽기 모드, 탭 미리보기 를 지원함 Rust 로 작성됐으며, Servo가 웹페이지와 브라우저 상태를 관리하고 GPUI가 브라우저 인터페이스를 그림 Servo와 GPUI를 연결하는 gpui-servo 를 별도 라이브러리로 제공하지만, Meridian 자체는 아직 실험적이며 개발 중임 지원 …",
+      "fetched_at": "2026-11-08T17:36:56.375123+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust"
+      ],
+      "detail_slug": "2e4bb7253d53f66e0e788867936d30da5dd92ef1",
+      "is_english_source": false,
+      "sent_at": "2026-11-08T17:39:13.216796+00:00"
+    },
+    {
+      "id": "5e7e7af63f4d20a187871c63b7c50fe06d07ba40",
+      "title_hash": "787c43ed5cc52521896d2537142fc943534b447c",
+      "source": "GeekNews",
+      "title": "Google, 와이오밍주 남동부의 Crusoe 데이터센터 부지 인수",
+      "link": "https://news.hada.io/topic?id=36806&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-08T11:32:31+00:00",
+      "summary": "Google이 Crusoe의 와이오밍주 남동부 데이터센터 부지 를 인수하면서, Crusoe가 맡았던 해당 프로젝트의 사전 개발 업무가 완료됨 사전 개발 범위는 부지 선정, 정부 인허가, 전력 전략 으로, 향후 건설과 운영을 위한 기반을 마련함 Crusoe와 Tallgrass Energy 는 전력 인프라와 데이터센터 인프라를 공동 개발하며 캠퍼스 조성을 시작함 캠퍼스의 하이브리드 전력 전략 은 연료전지, 전력망 전력, 천연가스 터빈을 결합함 장기적으로는 Tallgrass의 지역 CO2 지중 저장 허브 를 활용하는 탄소 포집 로드맵도 포함하지만, 현재 구현을 완료한 …",
+      "fetched_at": "2026-11-08T17:36:56.375123+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-2,tools_agents=4,strategy_insight=1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -2,
+        "tools_agents": 4,
+        "strategy_insight": 1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "인프라"
+          ],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 1,
+          "strong_hits": [],
+          "support_hits": [
+            "전략"
+          ],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "인수"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "인수"
+      ],
+      "detail_slug": "5e7e7af63f4d20a187871c63b7c50fe06d07ba40",
+      "is_english_source": false,
+      "sent_at": "2026-11-08T17:39:13.216796+00:00"
+    },
+    {
+      "id": "1f63b5c54de223d6bd9ea8b1a0de065fc341a5fa",
+      "title_hash": "dabf55315f4a5e64d072035c4a0de1eb78ceb21d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "I'm not a fan of Deno's security model (2024)",
+      "link": "https://goldstein.lol/posts/deno-security/",
+      "published_at": "2026-11-08T14:42:38+00:00",
+      "summary": "HN story type: story HN points: 28 HN comments: 9 HN top comments: phyzome: I actually have a terminal program that needs to ask for sensitive inputs from the user sometimes, potentially after attacker data has been printed. I've been trying to figure out how I should handle that! My plan was to encode to Unicode (lossily), strip out control characters, and add some visual framing. Anything else I should be considering? Is there a standard approach? Haven't actually done the research on t... hoppp: Deno has 1 year of official support left... I liked the security model because at least they had something, unlike node. kevin_thibedeau: > the permission prompt is “partially visible” (you can see an emoji) Terminals can be configured to render emoji in text presentation form where they become monochrome glyphs that can be colored like ordinary text with escape sequences. Not something to hinge your security model on.",
+      "fetched_at": "2026-11-08T17:36:56.375123+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50413769",
+      "hn_story_type": "story",
+      "hn_points": "28",
+      "hn_comments_count": "9",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50413769",
+      "hn_item_text": "",
+      "hn_comment_preview": "phyzome: I actually have a terminal program that needs to ask for sensitive inputs from the user sometimes, potentially after attacker data has been printed. I've been trying to figure out how I should handle that! My plan was to encode to Unicode (lossily), strip out control characters, and add some visual framing. Anything else I should be considering? Is there a standard approach? Haven't actually done the research on t...\nhoppp: Deno has 1 year of official support left... I liked the security model because at least they had something, unlike node.\nkevin_thibedeau: > the permission prompt is “partially visible” (you can see an emoji) Terminals can be configured to render emoji in text presentation form where they become monochrome glyphs that can be colored like ordinary text with escape sequences. Not something to hinge your security model on.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "39",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=9,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 9,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "prompt"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "code + security"
+      ],
+      "detail_slug": "1f63b5c54de223d6bd9ea8b1a0de065fc341a5fa",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T17:39:13.216796+00:00"
+    },
+    {
+      "id": "b568d358534bd0cbf8db15c80f2f8bbe733d0089",
+      "title_hash": "68a5bfe2dbb16bbdcc937a9b5a5e4fead8fe56b7",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Person of Interest",
+      "link": "https://krthr.co/person-of-interest/",
+      "published_at": "2026-11-08T11:23:28+00:00",
+      "summary": "HN story type: story HN points: 237 HN comments: 157 HN top comments: vesche: From reading the comments, I think a lot of people haven’t seen the show. I highly recommend it. However, you have to remember that this aired on CBS in the age of shows like CSI and NCIS. Therefore, it was made into a high-episode-number, cookie cutter serial crime drama. Every episode follows a similar pattern where the two main characters are trying to prevent a murder. However… if you can make it past that and... vgalin: I often think about Person of Interest, and when I clicked on the post, I expected to be presented with something else entirely, as the show is now 15 years old. What a pleasant surprise! I like to compare how similar or different The Machine is to current state-of-the-art LLMs. Interestingly, in this fiction, The Machine's preferred way of communicating doesn't seem to be through text, or even artificial speech.... microflash: Pleasantly surprised to see this here. One of the most memorable shows that I watched ages ago. It was strong at the beginning but kind of dragged on in later seasons. Still very nice to binge. In case you’re looking for some more shows related to AI, Cupertino by Robert King and Michelle King is currently airing and is pretty entertaining.",
+      "fetched_at": "2026-11-08T17:36:56.375123+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50412318",
+      "hn_story_type": "story",
+      "hn_points": "237",
+      "hn_comments_count": "157",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50412318",
+      "hn_item_text": "",
+      "hn_comment_preview": "vesche: From reading the comments, I think a lot of people haven’t seen the show. I highly recommend it. However, you have to remember that this aired on CBS in the age of shows like CSI and NCIS. Therefore, it was made into a high-episode-number, cookie cutter serial crime drama. Every episode follows a similar pattern where the two main characters are trying to prevent a murder. However… if you can make it past that and...\nvgalin: I often think about Person of Interest, and when I clicked on the post, I expected to be presented with something else entirely, as the show is now 15 years old. What a pleasant surprise! I like to compare how similar or different The Machine is to current state-of-the-art LLMs. Interestingly, in this fiction, The Machine's preferred way of communicating doesn't seem to be through text, or even artificial speech....\nmicroflash: Pleasantly surprised to see this here. One of the most memorable shows that I watched ages ago. It was strong at the beginning but kind of dragged on in later seasons. Still very nice to binge. In case you’re looking for some more shows related to AI, Cupertino by Robert King and Michelle King is currently airing and is pretty...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=9,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "cli",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli",
+        "llm"
+      ],
+      "detail_slug": "b568d358534bd0cbf8db15c80f2f8bbe733d0089",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T17:39:13.216796+00:00"
+    },
+    {
+      "id": "0af79f52930037c3744703b37495c195c7aff374",
+      "title_hash": "5afa6ed33f3534a74655c4982f13299c60de2bfd",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Writing as a thinking tool",
+      "link": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html",
+      "published_at": "2026-11-08T10:41:52+00:00",
+      "summary": "HN story type: story HN points: 112 HN comments: 29 HN top comments: billypilgrim: When I had started my PhD, I thought the writing part of a paper was just the last thing I needed to do to summarize my results, like a boring epilogue to the more exciting science. What surprised me was how much of the scientific process relied on my ability to convey my ideas to someone else. And to be able to do that you need clarity of mind, you need to have worked through multiple drafts to be able to get to... hoppp: Most of my projects are born out of scribbles on paper, system diagrams with boxes and little arrows to try to describe the system I want to build or my thought process written down like in this post. When I get it on paper and everything feels right I start creating the codebase but I have to get it down first, feels like I remember it more after I save my thoughts to external paper storage. ForgotMyUUID: I endlessly enjoyed the comparison with a Turning Machine. When I study someone's complex work, I do notes to keep several things in my sight scope: a piece of paper, PowerPoint slide or some fancy markdown text editor with syntax highlight. Seems like that this focusing is somewhat the natural way of building neuronal connections: if a logical piece is missing we have to use imagination to complete it and only th...",
+      "fetched_at": "2026-11-08T17:36:56.375123+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50412067",
+      "hn_story_type": "story",
+      "hn_points": "112",
+      "hn_comments_count": "29",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50412067",
+      "hn_item_text": "",
+      "hn_comment_preview": "billypilgrim: When I had started my PhD, I thought the writing part of a paper was just the last thing I needed to do to summarize my results, like a boring epilogue to the more exciting science. What surprised me was how much of the scientific process relied on my ability to convey my ideas to someone else. And to be able to do that you need clarity of mind, you need to have worked through multiple drafts to be able to get to...\nhoppp: Most of my projects are born out of scribbles on paper, system diagrams with boxes and little arrows to try to describe the system I want to build or my thought process written down like in this post. When I get it on paper and everything feels right I start creating the codebase but I have to get it down first, feels like I remember it more after I save my thoughts to external paper storage.\nForgotMyUUID: I endlessly enjoyed the comparison with a Turning Machine. When I study someone's complex work, I do notes to keep several things in my sight scope: a piece of paper, PowerPoint slide or some fancy markdown text editor with syntax highlight. Seems like that this focusing is somewhat the natural way of building neuronal connections: if a logical...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=9,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "storage",
+            "uuid"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "storage",
+        "uuid"
+      ],
+      "detail_slug": "0af79f52930037c3744703b37495c195c7aff374",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T17:39:13.216796+00:00"
+    },
+    {
+      "id": "f3b0ec1c30ffa858a198c1176a5a7be0f1ab4479",
+      "title_hash": "6eb5f634bf78f6ea9cbbbbd5c3b39da1c0c279c6",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "OpenAI raises $11B at a $1.25T valuation",
+      "link": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "published_at": "2026-11-08T14:49:23+00:00",
+      "summary": "HN story type: story HN points: 129 HN comments: 123 HN top comments: cmiles8: The real headline is that they couldn’t hit what they wanted in terms of valuation and funds raised. Just were not enough people willing to invest given concerns that it may be downhill from here for a while on AI. This will also make it even harder to avoid any future IPO being a down round. They’re almost certainly worth much less than Anthropic and Anthropic is, per reports, struggling to keep its valuation muc... bob1029: OpenAI seems to me like they are operating with a slightly longer horizon strategy than Anthropic. Going for the IPO is the last resort in my mind. It is what you do to get ahead of deteriorating financial conditions. I don't think Anthropic had a choice at their projected burn rate. Why would we surrender all our cloaks and daggers unless we absolutely have to? The political and regulatory headwinds are not looki... race2tb: These really should just be national projects. We will get there like China has.",
+      "fetched_at": "2026-11-08T17:36:56.375123+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50413822",
+      "hn_story_type": "story",
+      "hn_points": "129",
+      "hn_comments_count": "123",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50413822",
+      "hn_item_text": "",
+      "hn_comment_preview": "cmiles8: The real headline is that they couldn’t hit what they wanted in terms of valuation and funds raised. Just were not enough people willing to invest given concerns that it may be downhill from here for a while on AI. This will also make it even harder to avoid any future IPO being a down round. They’re almost certainly worth much less than Anthropic and Anthropic is, per reports, struggling to keep its valuation muc...\nbob1029: OpenAI seems to me like they are operating with a slightly longer horizon strategy than Anthropic. Going for the IPO is the last resort in my mind. It is what you do to get ahead of deteriorating financial conditions. I don't think Anthropic had a choice at their projected burn rate. Why would we surrender all our cloaks and daggers unless we absolutely have to? The political and regulatory headwinds are not looki...\nrace2tb: These really should just be national projects. We will get there like China has.",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "34",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=10,practical_tech=-4,tools_agents=2,strategy_insight=6,industry_business=10",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 2,
+        "strategy_insight": 6,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation",
+            "ipo"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "future",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "valuation",
+            "ipo"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "valuation",
+        "ipo"
+      ],
+      "detail_slug": "f3b0ec1c30ffa858a198c1176a5a7be0f1ab4479",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T17:39:13.216796+00:00"
+    },
+    {
       "id": "a2f2a9b99297c9476198301e4b1418adfc86e9d9",
       "title_hash": "fec3759cfa7885c7c0834a184775ab7a01280cce",
       "source": "GeekNews",
@@ -166329,645 +166899,6 @@
       "hn_reaction_summary": "댓글 분위기는 '심각하게 볼 문제는 맞지만 제목이 실제보다 더 취약점처럼 보이게 썼다'는 쪽에 가깝다. 제품 자체의 결함보다 사용자 설득을 노린 사회공학 공격으로 보는 시각이 두드러졌다.\n- 반복해서 나온 의견은 플러그인별 권한 선언과 사용자에게 보이는 권한 안내가 지금보다 분명해야 한다는 점이다.\n- 일부 사용자는 이미 권한 체계가 불충분하다고 보고 커뮤니티 플러그인을 아예 쓰지 않는다고 말했다.\n- 동시에 옵시디언 팀이 이 문제를 गंभीर하게 다룰 것이라는 신뢰도 적지 않았다. CEO가 직접 보안 업데이트를 예고한 점도 반응에 영향을 줬다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-11T09:38:23.168817+00:00"
-    },
-    {
-      "id": "e58e57e3d8c04860b6749071870169009dfcd0fb",
-      "title_hash": "3fd1577153bb44db2835ea95bb9bd12ca19fcadc",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "How Fast Does Claude, Acting as a User Space IP Stack, Respond to Pings?",
-      "link": "https://dunkels.com/adam/claude-user-space-ip-stack-ping/",
-      "published_at": "2026-05-10T23:02:31+00:00",
-      "summary": "HN story type: story HN points: 75 HN comments: 23 HN top comments: mintflow: This is cool, let aside the token usage, perhaps it can help analyze tcp throughput by redirect wire shark/to dump result ForHackernews: >Fun? Oh yeah! I think this author and I have different definitions of fun. ShinyLeftPad: How quickly claude responds when it acts like a user space LLM chatbot?",
-      "fetched_at": "2026-05-11T09:35:41.484907+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48089049",
-      "hn_story_type": "story",
-      "hn_points": "75",
-      "hn_comments_count": "23",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48089049",
-      "hn_item_text": "",
-      "hn_comment_preview": "mintflow: This is cool, let aside the token usage, perhaps it can help analyze tcp throughput by redirect wire shark/to dump result\nForHackernews: >Fun? Oh yeah! I think this author and I have different definitions of fun.\nShinyLeftPad: How quickly claude responds when it acts like a user space LLM chatbot?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm"
-      ],
-      "detail_slug": "e58e57e3d8c04860b6749071870169009dfcd0fb",
-      "is_english_source": true,
-      "translated_title": "사용자 공간 IP 스택이 된 Claude의 핑 응답 속도는?",
-      "short_summary": "Claude를 사용자 공간 IP 스택처럼 동작시켜 핑에 얼마나 빨리 응답하는지 실험한 글이다. LLM을 네트워크 프로토콜 처리에 끌어왔을 때 생기는 지연과, 어디까지 써볼 만한지 함께 보여준다.",
-      "why_it_matters": "LLM을 채팅 인터페이스 밖으로 꺼내 시스템 구성요소처럼 써보려는 흐름을 보여주는 사례다. 바로 제품에 넣을 기술이라기보다, 어디에 붙일 수 있고 어디서 한계가 드러나는지 감을 잡게 한다.\n- 네트워크 스택처럼 입력과 출력 규약이 엄격한 영역에서도 LLM을 실험적으로 연결할 수 있음을 보여준다.\n- 응답 지연과 토큰 비용이 커서 운영 경로보다는 디버깅, 교육, 프로토콜 관찰 같은 보조 용도에 더 가깝다.\n- 실무에서는 AI를 트래픽 처리의 한가운데보다 로그 해석, 패킷 분석, 이상 징후 설명 쪽에 두는 편이 현실적이라는 힌트를 준다.",
-      "hn_reaction_summary": "댓글 분위기는 신기한 실험이라는 호기심과, 비용과 속도를 생각하면 장난에 가깝다는 농담 섞인 회의론이 함께 흐른다.\n- 일부는 Wireshark 덤프를 붙여 TCP 처리량 같은 네트워크 상태를 읽는 보조 분석 도구로 써볼 수 있겠다고 봤다.\n- 반대로 토큰 사용량과 느린 응답을 떠올리며, 이런 실험을 '재미'라고 부르기 어렵다는 냉소도 나왔다.\n- 반복된 논점은 LLM을 데이터 경로에 직접 넣기보다 분석기나 실험 장치로 한정하는 편이 낫다는 선 긋기였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T09:38:23.168817+00:00"
-    },
-    {
-      "id": "74f9d032f4d5e3cb4088beff775be33a3e14ad49",
-      "title_hash": "4bac97a3e74f34cc0f0fbff50d5845f9bf53a16c",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "I returned to AWS and was reminded why I left",
-      "link": "http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html",
-      "published_at": "2026-05-09T08:37:41+00:00",
-      "summary": "HN story type: story HN points: 765 HN comments: 535 HN top comments: tedivm: > AWS stomped on open source projects - despite the clear desire of projects like Elasticsearch, Redis, and MongoDB not to be cloned and monetized, AWS pushed ahead with OpenSearch, Valkey, and DocumentDB anyway, capturing the hosted-service money after those communities and companies had built the markets; the result was a wave of defensive licenses like SSPL, Elastic License, RSAL, and other source-available mod... Galanwe: These arguments against AWS are boring. 99% of the negative comments are along the line of \"so i have a dead simple product, I dont know anything about AWS, I logged in and it was super complicated and it seemed pricey\". Well guess what, if you have a CRUD website and 100 users you're just not the target. Move on. Some days ago I wanted to sketch a 3D model of my TV remote. I opened blender and what a mess of comp... raffraffraff: I always smile at posts like this. They're right and wrong at the same time. Systems should be \"as simple as possible, but no simpler\". And thinking that you can gloss over the detail is just going to create more hassle later on. IAM is just complex. I can't think of any implementation of \"users, groups, roles, policies, identity providers, oidc\" that is truly simple. I'm reminded of a guy I worked with, who fough...",
-      "fetched_at": "2026-05-11T09:35:41.484907+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48073201",
-      "hn_story_type": "story",
-      "hn_points": "765",
-      "hn_comments_count": "535",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48073201",
-      "hn_item_text": "",
-      "hn_comment_preview": "tedivm: > AWS stomped on open source projects - despite the clear desire of projects like Elasticsearch, Redis, and MongoDB not to be cloned and monetized, AWS pushed ahead with OpenSearch, Valkey, and DocumentDB anyway, capturing the hosted-service money after those communities and companies had built the markets; the result was a wave of defensive licenses like SSPL, Elastic License, RSAL, and other source-available mod...\nGalanwe: These arguments against AWS are boring. 99% of the negative comments are along the line of \"so i have a dead simple product, I dont know anything about AWS, I logged in and it was super complicated and it seemed pricey\". Well guess what, if you have a CRUD website and 100 users you're just not the target. Move on. Some days ago I wanted to sketch a 3D model of my TV remote. I opened blender and what a mess of comp...\nraffraffraff: I always smile at posts like this. They're right and wrong at the same time. Systems should be \"as simple as possible, but no simpler\". And thinking that you can gloss over the detail is just going to create more hassle later on. IAM is just complex. I can't think of any implementation of \"users, groups, roles, policies, i...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "35",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=3,strategy_insight=4,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 3,
-        "strategy_insight": 4,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 3,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "implementation"
-      ],
-      "detail_slug": "74f9d032f4d5e3cb4088beff775be33a3e14ad49",
-      "is_english_source": true,
-      "translated_title": "AWS로 돌아갔다가 왜 떠났는지 다시 떠올렸다",
-      "short_summary": "AWS를 다시 써보니 콘솔 구조, IAM 설정, 비용 감각이 여전히 높은 진입장벽으로 느껴졌다는 이야기다. HN에서는 공감이 많았지만, AWS는 애초에 작은 서비스용 도구가 아니라는 반론도 함께 나왔다.",
-      "why_it_matters": "클라우드 선택을 다시 볼 때 기능 수보다 운영 피로와 팀 학습비용을 먼저 따져야 한다는 점을 보여준다. 특히 작은 팀이나 초기 제품일수록 복잡성 자체가 속도를 갉아먹을 수 있다.\n- AWS의 강점은 넓은 서비스 폭과 세밀한 제어에 있지만, 그만큼 IAM·네트워크·권한 모델을 익히는 시간이 바로 비용이 된다.\n- 비용 예측이 어렵고 콘솔 경험이 무거우면 인프라 결정이 개발 병목으로 바뀐다. 초기 단계라면 단순한 PaaS나 매니지드 플랫폼이 더 맞을 수 있다.\n- 오픈소스 생태계를 대하는 AWS의 태도까지 고려해야 한다는 시각도 나왔다. 기술 선택이 라이선스 리스크와 공급자 신뢰 문제로 이어질 수 있다는 뜻이다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 둘로 갈렸다. AWS를 다시 쓰면 결국 복잡성과 피로가 되살아난다는 공감이 많았지만, 그런 불만은 AWS의 대상 사용자층을 오해한 결과라는 반론도 적지 않았다.\n- 비판 쪽은 콘솔과 권한 체계가 지나치게 난해하고, 오픈소스를 흡수해 서비스화하는 방식도 불편하다고 봤다.\n- 반론 쪽은 대규모 요구사항을 감당하려면 IAM 같은 영역은 원래 단순할 수 없고, 소규모 CRUD 서비스라면 다른 선택지를 쓰면 된다고 말했다.\n- 실무 관점에서는 AWS의 복잡성이 불필요한 과잉설계인지, 아니면 규모가 커질 때 필요한 비용인지 구분해서 봐야 한다는 논점이 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T09:38:23.168817+00:00"
-    },
-    {
-      "id": "ea9c96c214e1e744f11e3ee98acd19afd541d3d0",
-      "title_hash": "8eb390ba1af070c9fd854fb8d80f037789246768",
-      "source": "GeekNews",
-      "title": "Open Design - Claude Design의 로컬 퍼스트 오픈소스 대체제",
-      "link": "https://news.hada.io/topic?id=29376",
-      "published_at": "2026-05-11T02:42:13+00:00",
-      "summary": "에이전트를 내장하지 않고 사용자의 PATH에 있는 16종 코딩 에이전트 CLI(Claude Code, Codex등)를 자동 감지하여 디자인 엔진으로 활용 31개 스킬 내장: 웹 프로토타입, SaaS 랜딩, 대시보드, 모바일 앱, 소셜 캐러셀, 매거진 포스터, PM 스펙, OKR, 인보이스 등 ...",
-      "fetched_at": "2026-05-11T05:25:04.124753+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "80",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=35,practical_tech=0,tools_agents=35,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 35,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 35,
-          "strong_hits": [
-            "claude code",
-            "codex",
-            "에이전트",
-            "cli",
-            "스펙"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "에이전트",
-        "cli",
-        "스펙",
-        "claude + code"
-      ],
-      "detail_slug": "ea9c96c214e1e744f11e3ee98acd19afd541d3d0",
-      "is_english_source": false,
-      "sent_at": "2026-05-11T05:27:45.843704+00:00"
-    },
-    {
-      "id": "31ca44c37d8de057d3a8c17a961f06fee24b9203",
-      "title_hash": "a192ed242b53c555e91a71df45f85d40ba405c84",
-      "source": "GeekNews",
-      "title": "bozo bit을 켜면 학습이 꺼진다",
-      "link": "https://news.hada.io/topic?id=29377",
-      "published_at": "2026-05-11T03:02:31+00:00",
-      "summary": "bozo bit 는 특정 사람의 판단과 말을 더는 들을 가치가 없다고 보는 태도임 사고 당사자를 무능하다고 분리하면 조직이 사고에서 배울 기회가 줄어듦 PocketOS의 AI 사고 대응은 Cook과 Woods의 distancing through differencing 에 해당함 해외 ...",
-      "fetched_at": "2026-05-11T05:25:04.124753+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "31ca44c37d8de057d3a8c17a961f06fee24b9203",
-      "is_english_source": false,
-      "sent_at": "2026-05-11T05:27:45.843704+00:00"
-    },
-    {
-      "id": "8cfb1beb1715ec152aa1ff4197b0cace7a6b58b9",
-      "title_hash": "1fc175d17173f46468add1ed4595bdd5000351a9",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: adamsreview – better multi-agent PR reviews for Claude Code",
-      "link": "https://github.com/adamjgmiller/adamsreview",
-      "published_at": "2026-05-11T02:06:29+00:00",
-      "summary": "HN story type: story HN points: 13 HN comments: 1 HN post text: I built adamsreview, a Claude Code plugin that runs deeper, multi-stage PR reviews using parallel sub-agents, validation passes, persistent JSON state, and optional ensemble review via Codex CLI and PR bot comments. On my own PRs, it has been catching dramatically more real bugs than Claude’s built-in /review, /ultrareview, CodeRabbit, Greptile, and Codex’s built-in review, while producing fewer false positives. adamsreview is six Claude Code slash commands packaged as a plugin: review, codex-review, add, promote, walkthrough, and fix. I modeled it after the built-in /review command and extended it meaningfully. You can clear context between review stages because state is stored in JSON artifacts on disk, with built-in scripts for keeping it updated. The walkthrough command uses Claude’s AskUserQuestion feature to walk you through uncertain findings or items needing human review one by one. Then, the fix command dispatches per-fix-group agents and re-reviews the work with Opus, reverting any regressions before committing survivors. It runs against your regular Claude Code subscription (Max plan recommended), unlike /ultrareview, which charges against your Extra Usage pool. I wou... HN top comments: esafak: That's looks like a fair bit of ceremony for what it does. Is this representative of the output? https://github.com/adamjgmiller/adamsreview/pull/3",
-      "fetched_at": "2026-05-11T05:25:04.124753+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48090276",
-      "hn_story_type": "story",
-      "hn_points": "13",
-      "hn_comments_count": "1",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48090276",
-      "hn_item_text": "I built adamsreview, a Claude Code plugin that runs deeper, multi-stage PR reviews using parallel sub-agents, validation passes, persistent JSON state, and optional ensemble review via Codex CLI and PR bot comments. On my own PRs, it has been catching dramatically more real bugs than Claude’s built-in /review, /ultrareview, CodeRabbit, Greptile, and Codex’s built-in review, while producing fewer false positives. adamsreview is six Claude Code slash commands packaged as a plugin: review, codex-review, add, promote, walkthrough, and fix. I modeled it after the built-in /review command and extended it meaningfully. You can clear context between review stages because state is stored in JSON artifacts on disk, with built-in scripts for keeping it updated. The walkthrough command uses Claude’s AskUserQuestion feature to walk you through uncertain findings or items needing human review one by one. Then, the fix command dispatches per-fix-group agents and re-reviews the work with Opus, reverting any regressions before committing survivors. It runs against your regular Claude Code subscription (Max plan recommended), unlike /ultrareview, which charges against your Extra Usage pool. I wou...",
-      "hn_comment_preview": "esafak: That's looks like a fair bit of ceremony for what it does. Is this representative of the output? https://github.com/adamjgmiller/adamsreview/pull/3",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=35,practical_tech=12,tools_agents=35,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 35,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 35,
-          "strong_hits": [
-            "claude code",
-            "multi-agent",
-            "codex",
-            "cli"
-          ],
-          "support_hits": [
-            "plugin",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + review"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "multi-agent",
-        "codex",
-        "cli",
-        "plugin",
-        "agent",
-        "claude + code",
-        "github.com"
-      ],
-      "detail_slug": "8cfb1beb1715ec152aa1ff4197b0cace7a6b58b9",
-      "is_english_source": true,
-      "translated_title": "Claude Code용 다단계 PR 리뷰 플러그인 adamsreview",
-      "short_summary": "adamsreview는 Claude Code에 다단계 PR 리뷰 흐름을 얹는 플러그인이다. 병렬 서브에이전트, 검증 단계, 디스크 기반 상태 저장, 자동 수정과 재검토까지 묶어 기본 리뷰보다 더 깊게 보겠다는 접근이다.",
-      "why_it_matters": "코드 리뷰 도구가 단순 요약형에서 벗어나, 리뷰와 수정, 재검증을 나눠 처리하는 흐름으로 옮겨가는 움직임을 보여준다.\n- 리뷰 상태를 JSON으로 남겨 단계별로 문맥을 비우고 다시 이어갈 수 있어, 긴 PR이나 반복 검토에서 작업 관리가 쉬워진다.\n- 불확실한 이슈는 walkthrough로 사람 확인을 끼워 넣고, fix 단계에서는 수정 뒤 다시 검토해 회귀를 걸러내도록 설계했다. 자동화와 사람 판단을 섞으려는 시도다.\n- 작성자는 기본 /review나 다른 PR 리뷰 도구보다 실제 버그를 더 잘 잡고 오탐은 줄였다고 주장했다. 실무에서는 이 주장이 재현되는지, 비용과 시간 대비 이득이 있는지가 바로 검증 포인트가 된다.",
-      "hn_reaction_summary": "초기 HN 반응은 관심보다 검증 쪽에 더 가까웠다. 댓글 수가 적은 가운데, 첫 반응은 기능 자체보다 절차의 무게를 먼저 짚었다.\n- 대표 댓글은 \"이 정도 일을 하는데 절차가 꽤 무겁다\"는 취지로, 실제 산출물이 그 복잡함을 감당할 만큼 납득되는지 물었다.\n- 논점은 멀티 에이전트와 다단계 검토가 정말 품질 차이를 만드는지, 아니면 설정과 운영 부담만 늘리는지에 모인다.\n- 실무자가 볼 포인트는 화려한 기능 수보다 결과물의 일관성이다. 버그 탐지율, 오탐 비율, 리뷰 시간 증가분을 함께 봐야 한다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T05:27:45.843704+00:00"
-    },
-    {
-      "id": "322ed91de0e1a799d4eb736d2c174353b2143b50",
-      "title_hash": "f643f57bd70c5a81641185296524356dd4dae1e0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "I'm going back to writing code by hand",
-      "link": "https://blog.k10s.dev/im-going-back-to-writing-code-by-hand/",
-      "published_at": "2026-05-11T01:23:51+00:00",
-      "summary": "HN story type: story HN points: 177 HN comments: 68 HN top comments: snowe2010: > The other change is simpler: I'm doing the design work myself, by hand, before any code gets written. Not a vague doc. Concrete interfaces, message types, ownership rules. That’s the hard part of coding. If you have an architecture then writing the code is dead simple. If you aren’t writing the code you aren’t going to notice when you architected an API that allows nulls but then your database doesn’t. Or that i... plastic041: Title says > back to writing code by hand But what they are doing is > doing the __design work__ myself, by hand, before any code gets written. So... Claude still is generating the code I guess? And seriously, I can't understand that they thought their vibe coded project works fine and even bought a domain for the project without ever looking at source code it generated, FOR 7 MONTHS?? viceconsole: > Vibe-coding makes you feel like you have infinite implementation budget. You don't. You have infinite LINE budget (the AI will generate as much code as you want). But you have the same finite complexity budget as always. This is a special case of a general fundamental point I'm struggling with. Let's assume AI has reduced the marginal cost of code to zero. So our supply of code is now infinite. Meanwhile, other...",
-      "fetched_at": "2026-05-11T05:25:04.124753+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48090029",
-      "hn_story_type": "story",
-      "hn_points": "177",
-      "hn_comments_count": "68",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48090029",
-      "hn_item_text": "",
-      "hn_comment_preview": "snowe2010: > The other change is simpler: I'm doing the design work myself, by hand, before any code gets written. Not a vague doc. Concrete interfaces, message types, ownership rules. That’s the hard part of coding. If you have an architecture then writing the code is dead simple. If you aren’t writing the code you aren’t going to notice when you architected an API that allows nulls but then your database doesn’t. Or that i...\nplastic041: Title says > back to writing code by hand But what they are doing is > doing the __design work__ myself, by hand, before any code gets written. So... Claude still is generating the code I guess? And seriously, I can't understand that they thought their vibe coded project works fine and even bought a domain for the project without ever looking at source code it generated, FOR 7 MONTHS??\nviceconsole: > Vibe-coding makes you feel like you have infinite implementation budget. You don't. You have infinite LINE budget (the AI will generate as much code as you want). But you have the same finite complexity budget as always. This is a special case of a general fundamental point I'm struggling with. Let's assume AI has reduced the marginal cost of code...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "45",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=14,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 21,
-        "tools_agents": 14,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 21,
-          "strong_hits": [
-            "architecture",
-            "database",
-            "api"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "database",
-        "api",
-        "implementation"
-      ],
-      "detail_slug": "322ed91de0e1a799d4eb736d2c174353b2143b50",
-      "is_english_source": true,
-      "translated_title": "다시 손으로 코드를 쓰기로 했다",
-      "short_summary": "글쓴이는 AI에 구현을 맡기기보다, 코드 전에 인터페이스와 책임 경계를 직접 설계하는 방식으로 돌아가고 있다고 말한다. HN에서는 이 글이 손코딩보다 손설계에 가깝다는 지적과 함께, AI가 코드 양만 늘릴 뿐 복잡성 비용은 줄이지 못한다는 반응이 많았다.",
-      "why_it_matters": "AI가 코드를 빠르게 찍어내는 시대일수록 병목은 구현이 아니라 설계와 검토로 옮겨간다. 이 글은 실무에서 어디까지 자동화하고 어디서 사람이 책임을 져야 하는지 다시 묻게 만든다.\n- 인터페이스와 데이터 모델, 소유권 규칙을 먼저 잡지 않으면 AI가 만든 코드는 빨리 늘어나도 뒤늦은 수정 비용이 더 커질 수 있다.\n- 코드 생성 비용이 낮아질수록 팀의 한계는 구현 속도가 아니라 복잡성을 읽고 통제하는 능력에 걸린다.\n- 프로토타입을 운영 단계로 넘길 때는 생성 코드를 직접 읽고 제약을 확인하는 리뷰 절차가 사실상 필수라는 신호로 볼 수 있다.",
-      "hn_reaction_summary": "HN에서는 공감과 회의가 함께 나왔다. AI 코딩의 과열을 경계하는 분위기가 강했지만, 제목과 실제 주장 사이의 차이를 짚는 댓글도 적지 않았다.\n- 가장 많이 반복된 의견은 AI가 무한한 구현 예산을 주는 것이 아니라, 코드 줄 수만 늘려 줄 뿐 복잡성 예산은 그대로라는 지적이었다.\n- 반론 쪽에서는 글쓴이가 손으로 코드를 다시 쓰는 게 아니라 설계를 직접 하는 것뿐인데 제목이 다소 과장됐다는 반응이 나왔다.\n- 생성 코드를 7개월 동안 제대로 보지 않았다는 대목을 문제 삼으며, AI 활용 이전에 코드 소유 의식과 검토 습관이 먼저라는 논점도 이어졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T05:27:45.843704+00:00"
-    },
-    {
-      "id": "b458612189d55b5ab348da6d4b9318a9575c073f",
-      "title_hash": "3d665768959165c7af15b51b54e410c34ab6cbf0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "An AI coding agent, used to write code, needs to reduce your maintenance costs",
-      "link": "https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs",
-      "published_at": "2026-05-10T23:39:55+00:00",
-      "summary": "HN story type: story HN points: 93 HN comments: 15 HN top comments: keithnz: In my experience AI reduces maintenance costs. Though, context might matter here, I'm working on a multi decade set of projects, while there is a lot of greenfield feature development, the old code / older projects have suddenly become a lot easier to work with, modernize, and in a bunch of cases, eliminated. Dependency on old libraries, build tools, in some cases updated, in other cases just eliminated, builds ar... richardbarosky: Insightful. Agree with this take. Unfortunately, maintainability is simply bucketed as a \"non-functional\" requirement. Maintainability (and similar NFRs) should actually be considered what preserves and enables the delivery of future functional requirements -- in contrast to framing non-functional requirements as simply \"how\" the software must do what it does vs. the \"what\"/functional requirements that \"actually m... hamhamed: This is what I've been preaching to my team. With 5.5 and 4.7 the coding agents are good enough know to almost never take any tech debt. Any new feature or fixes should come with a cleanup or refactor, on the same PR.",
-      "fetched_at": "2026-05-11T05:25:04.124753+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48089289",
-      "hn_story_type": "story",
-      "hn_points": "93",
-      "hn_comments_count": "15",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48089289",
-      "hn_item_text": "",
-      "hn_comment_preview": "keithnz: In my experience AI reduces maintenance costs. Though, context might matter here, I'm working on a multi decade set of projects, while there is a lot of greenfield feature development, the old code / older projects have suddenly become a lot easier to work with, modernize, and in a bunch of cases, eliminated. Dependency on old libraries, build tools, in some cases updated, in other cases just eliminated, builds ar...\nrichardbarosky: Insightful. Agree with this take. Unfortunately, maintainability is simply bucketed as a \"non-functional\" requirement. Maintainability (and similar NFRs) should actually be considered what preserves and enables the delivery of future functional requirements -- in contrast to framing non-functional requirements as simply \"how\" the software must do what it does vs. the \"what\"/functional requirements that \"actually m...\nhamhamed: This is what I've been preaching to my team. With 5.5 and 4.7 the coding agents are good enough know to almost never take any tech debt. Any new feature or fixes should come with a cleanup or refactor, on the same PR.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=24,practical_tech=9,tools_agents=24,strategy_insight=10,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 24,
-        "strategy_insight": 10,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "refactor"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 24,
-          "strong_hits": [
-            "coding agent",
-            "ide"
-          ],
-          "support_hits": [
-            "ai coding",
-            "agent",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "future + work"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "ide",
-        "ai coding",
-        "agent",
-        "tool",
-        "ai + coding"
-      ],
-      "detail_slug": "b458612189d55b5ab348da6d4b9318a9575c073f",
-      "is_english_source": true,
-      "translated_title": "AI 코딩 에이전트는 유지보수비부터 줄여야 한다",
-      "short_summary": "이 글은 코드를 빨리 써주는 능력보다, 앞으로의 유지보수 비용을 낮추는지가 AI 코딩 에이전트의 더 현실적인 기준이라고 본다. HN에서도 레거시 정리와 기술부채 감축에 실제 도움이 된다는 반응이 이어졌다.",
-      "why_it_matters": "생성 속도만 보던 AI 코딩 평가 기준이 조금씩 바뀌고 있다. 실무에서는 새 기능 생산성보다 레거시 정리, 리팩터링, 의존성 축소처럼 나중 비용을 얼마나 줄이느냐가 더 직접적인 성과로 연결될 수 있다.\n- 새 기능이나 버그 수정 PR에 정리 작업을 함께 넣는 흐름이 강해질 수 있다. 기능 개발과 기술부채 상환을 따로 미루지 않는 방식이다.\n- 오래된 라이브러리, 빌드 도구, 불필요한 코드 제거의 진입장벽이 낮아진다. 손은 많이 가지만 미뤄두던 작업을 더 자주 실행하게 된다.\n- AI 도입 효과를 \"얼마나 많이 만들었나\"보다 \"앞으로 덜 고치게 만들었나\"로 다시 보게 만든다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 공감 쪽에 가깝다. 특히 오래된 코드베이스를 다루는 개발자일수록 AI가 새 코드 작성보다 정리와 현대화에 더 쓸모 있었다는 경험담이 눈에 띈다.\n- 반복해서 나온 포인트는 레거시 의존성 정리, 빌드 체인 단순화, 죽은 코드 제거였다. 유지비가 큰 구간부터 손대기 쉬워졌다는 평가다.\n- 유지보수성은 흔히 비기능 요구사항으로 밀리지만, 사실은 다음 기능 개발 속도를 지키는 기반이라는 의견이 힘을 받았다.\n- 다만 효과는 맥락을 탄다는 전제도 있었다. 그린필드보다 오래된 프로젝트에서 체감 차이가 더 크다는 시각이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T05:27:45.843704+00:00"
     }
   ],
   "topic_digests": {
