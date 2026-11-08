@@ -1,6 +1,581 @@
 {
   "items": [
     {
+      "id": "26e7bce47c1a1465d61c48c94dc7edba54da36f6",
+      "title_hash": "a03349f225dbb93f21e7cce6627033ed94db4744",
+      "source": "GeekNews",
+      "title": "Claude와 작별하고 Pi로",
+      "link": "https://news.hada.io/topic?id=36795&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-08T06:32:38+00:00",
+      "summary": "Claude Pro 구독에 포함된 이후 1년 넘게 Claude Code를 사용해 온 개발자가, 누적된 불편 때문에 주력 코딩 하네스 를 Pi 로 전환함 CLAUDE.md 와 AGENTS.md 사이의 복사/심볼릭 링크 관리 , VSCode에서 한 세션만 IDE에 연결 할 수 있는 제약이 기존 작업 흐름을 방해함 공식 VSCode GUI 확장 은 여러 탭에서 선택한 코드를 받을 수 있지만, 일부 슬래시 명령 미지원과 사용자 지정 상태 표시줄 부재, 뒤섞이는 서브에이전트 출력 등의 불편이 있음 작성 시점 기준 올해 244회 릴리스 중 4분의 3 이상에서 시스템 프롬프트나 도구 설명이 바뀌 …",
+      "fetched_at": "2026-11-08T09:18:26.304482+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "74",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=29,practical_tech=2,tools_agents=29,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 29,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 29,
+          "strong_hits": [
+            "claude code",
+            "에이전트",
+            "ide"
+          ],
+          "support_hits": [
+            "agent",
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "ide",
+        "agent",
+        "프롬프트",
+        "claude + code"
+      ],
+      "detail_slug": "26e7bce47c1a1465d61c48c94dc7edba54da36f6",
+      "is_english_source": false,
+      "sent_at": "2026-11-08T09:20:56.397101+00:00"
+    },
+    {
+      "id": "3ba22c3f8a7f947f1074df7f77a88398df0065cc",
+      "title_hash": "e12ca620ca147bda8f6b1f8167e4d05677432e48",
+      "source": "GeekNews",
+      "title": "*sshole, 우리는 대체 언제 C를 없앨 것인가?",
+      "link": "https://news.hada.io/topic?id=36792&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-08T06:03:00+00:00",
+      "summary": "잠긴 계정과 해시 오류가 같은 \"*\" 값을 사용하는 충돌 로, PAM 없는 musl 시스템에서 인증되지 않은 사용자가 셸을 얻을 수 있는 취약점이 발생함 이번 문제는 메모리 안전성 취약점이 아님 . Rust에서도 같은 코드를 작성할 수 있지만, 타입 시스템이 형성하는 개발 관행은 이런 오류 처리를 용인하지 않음 musl은 일부 바이너리가 crypt 의 NULL 반환을 확인하지 않자 , 오류 시 NULL을 반환하도록 한 POSIX 명세 대신 \"*\" 센티널 값을 반환하도록 변경했음 Rust 의존성에는 컴파일 시간과 이식성 비용 이 실제로 존재하지만, 도입을 반대하 …",
+      "fetched_at": "2026-11-08T09:18:26.304482+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "코드"
+      ],
+      "detail_slug": "3ba22c3f8a7f947f1074df7f77a88398df0065cc",
+      "is_english_source": false,
+      "sent_at": "2026-11-08T09:20:56.397101+00:00"
+    },
+    {
+      "id": "5d17629717865ee342ab34aff0aa1199131003f2",
+      "title_hash": "7273c47921931177cf7005195916bfb2b7ffd58a",
+      "source": "GeekNews",
+      "title": "10달러짜리 4G USB 동글로 홈 서버 돌리기",
+      "link": "https://news.hada.io/topic?id=36776&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-07T21:48:55+00:00",
+      "summary": "배송비 포함 10달러에 구매한 4G USB 동글(OpenStick) 에 Debian을 설치하고, Podman으로 DNS 차단, AI 에이전트, 모니터링, RSS 등을 운영하는 홈랩 구축 RAM 512MB, 1GHz ARM Cortex-A53 4코어 와 4GB eMMC를 갖췄으며, 설치 과정은 다소 복잡하지만 적은 전력으로 소음 없이 홈 서버를 운영할 수 있음 AdGuard Home 으로 DNS 수준에서 유해 도메인을 차단하고, CastSponsorSkip 으로 Google Cast 재생 중 협찬 구간을 건너뛰는 등 일상에 유용한 서비스를 구동함 ZeroClaw 를 연결해 텔레그램에서 서버 로그와 남은 디스크 공간을 물어봄. …",
+      "fetched_at": "2026-11-08T09:18:26.304482+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "5d17629717865ee342ab34aff0aa1199131003f2",
+      "is_english_source": false,
+      "sent_at": "2026-11-08T09:20:56.397101+00:00"
+    },
+    {
+      "id": "88acc93cdbc1a5e7be3c6e1492b8953fa637de35",
+      "title_hash": "cec8f63a8a0025a3196c35c52447aa302802d27d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "ZapFast: A fast, native WhatsApp client in Rust and egui",
+      "link": "https://github.com/crmne/zapfast",
+      "published_at": "2026-11-08T02:02:27+00:00",
+      "summary": "HN story type: story HN points: 69 HN comments: 45 HN top comments: d3Xt3r: > In our Linux test it opens in under a second and uses about 200 MB of idle RAM Is it just me or does anyone else feel that 200 MB is a lot for a native chat app written in Rust, that's essentially a remote interface for the WhatsApp on your phone? I remember back in the day, apps like Miranda IM (and early versions of Trillian) used only digits of RAM, even when you had multiple plugins talking several protocols... codedokode: Also, I looked at how dates are written in a screenshot and thought that \"2 days ago\" would be so much better than \"Tuesday\". Because you do not have to compute in your head how many days ago Tuesday was. codedokode: Egui is pretty bad idea. It uses \"immediate mode\" rendering which means whole window is redrawn on every mouse move. I ran PhotoCraft (built in Rust + egui) in a VM wihout a GPU and the UI felt like it was running on 3 fps. If you use egui, try running it without a GPU before releasing. Egui is definitely not what you want to use on a 4K screen. It is only good for tiny screens of embedded devices. Why there is no...",
+      "fetched_at": "2026-11-08T09:18:26.304482+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50409855",
+      "hn_story_type": "story",
+      "hn_points": "69",
+      "hn_comments_count": "45",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50409855",
+      "hn_item_text": "",
+      "hn_comment_preview": "d3Xt3r: > In our Linux test it opens in under a second and uses about 200 MB of idle RAM Is it just me or does anyone else feel that 200 MB is a lot for a native chat app written in Rust, that's essentially a remote interface for the WhatsApp on your phone? I remember back in the day, apps like Miranda IM (and early versions of Trillian) used only digits of RAM, even when you had multiple plugins talking several protocols...\ncodedokode: Also, I looked at how dates are written in a screenshot and thought that \"2 days ago\" would be so much better than \"Tuesday\". Because you do not have to compute in your head how many days ago Tuesday was.\ncodedokode: Egui is pretty bad idea. It uses \"immediate mode\" rendering which means whole window is redrawn on every mouse move. I ran PhotoCraft (built in Rust + egui) in a VM wihout a GPU and the UI felt like it was running on 3 fps. If you use egui, try running it without a GPU before releasing. Egui is definitely not what you want to use on a 4K screen. It is only good for tiny screens of embedded devices. Why there is no...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=12,tools_agents=17,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 17,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "plugin"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "plugin",
+        "github.com"
+      ],
+      "detail_slug": "88acc93cdbc1a5e7be3c6e1492b8953fa637de35",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T09:20:56.397101+00:00"
+    },
+    {
+      "id": "ed049be48356e44a1df5f5d22b48e96ba24d6560",
+      "title_hash": "1159a0d9655ca99fd199b93e0ecaa3132f1b05e6",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "ISponsorBlockTV: SponsorBlock client for all YouTube TV clients",
+      "link": "https://github.com/dmunozv04/isponsorblocktv",
+      "published_at": "2026-11-08T03:47:19+00:00",
+      "summary": "HN story type: story HN points: 32 HN comments: 6 HN top comments: franga2000: Clever hack! I didn't think the latency would be low enough for that, but I guess with some ad segments being upwards of a minute long these days, it's still worth it. For anyone who can load APKs on their TV and wants a more integrated solution, this alternative client works wonderfully https://github.com/yuliskov/smarttube It's at the level of polish where people didn't even realize it wasn't the official client... ku1ik: I’ve been using it with Apple TV youtube app for several months and I can say it works very well. Very little configuration, and it does the job. Can’t go back. Highly recommended! makefu: Anyone is aware of software which does the same but for podcasts? I've had built a downloader by qwen38 ( https://cgit.euer.krebsco.de/makefu/podfetch ) which does so via multiple programmatic approaches (keywords, sponsorblock-ml, neuralblock) but actually i think crowdsourcing the solution is the best approach here.",
+      "fetched_at": "2026-11-08T09:18:26.304482+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50410249",
+      "hn_story_type": "story",
+      "hn_points": "32",
+      "hn_comments_count": "6",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50410249",
+      "hn_item_text": "",
+      "hn_comment_preview": "franga2000: Clever hack! I didn't think the latency would be low enough for that, but I guess with some ad segments being upwards of a minute long these days, it's still worth it. For anyone who can load APKs on their TV and wants a more integrated solution, this alternative client works wonderfully https://github.com/yuliskov/smarttube It's at the level of polish where people didn't even realize it wasn't the official client...\nku1ik: I’ve been using it with Apple TV youtube app for several months and I can say it works very well. Very little configuration, and it does the job. Can’t go back. Highly recommended!\nmakefu: Anyone is aware of software which does the same but for podcasts? I've had built a downloader by qwen38 ( https://cgit.euer.krebsco.de/makefu/podfetch ) which does so via multiple programmatic approaches (keywords, sponsorblock-ml, neuralblock) but actually i think crowdsourcing the solution is the best approach here.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=10,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "latency"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "latency",
+        "github.com"
+      ],
+      "detail_slug": "ed049be48356e44a1df5f5d22b48e96ba24d6560",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T09:20:56.397101+00:00"
+    },
+    {
+      "id": "2a4c7b60bdc2e13207db5335fd597e092abfbc5f",
+      "title_hash": "9941da36427dc008089288fa25fc8ea20cf4d017",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "link": "https://blog.bosscher.ch/posts/openstick/",
+      "published_at": "2026-11-07T18:12:12+00:00",
+      "summary": "HN story type: story HN points: 563 HN comments: 107 HN top comments: rwmj: Back when I hosted Perl (Apache, mod_perl, \"LAMP stack\") websites for a living our standard server build looked remarkably similar. We hosted websites for hundreds of concurrent users on each one. - Dual Pentium-II CPUs - 512 MB RAM - 100 Mbps wired ethernet - Red Hat Linux Mass storage was larger, but not by much, and the flash eMMC is probably faster than the spinning hard disks we used back then. LaurensBER: I've had a lot of fun with this little gadget and it's pretty cool to see how much you can host on a cheap gadget if you pick the right software! Given how expensive RAM is these days, I figured, this might be a good option for other people to get started with self-hosting as well! Happy to answer any question and take suggestions as to what other software would be a good addition! rcarmo: Fusion is quite interesting. I forked miniflux into https://github.com/rcarmo/picoflux because I wanted something lighter, but I like Fusion's screenshots better than the mini/picoflux web UI, so I will be looking at that ASAP.",
+      "fetched_at": "2026-11-08T09:18:26.304482+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50406670",
+      "hn_story_type": "story",
+      "hn_points": "563",
+      "hn_comments_count": "107",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50406670",
+      "hn_item_text": "",
+      "hn_comment_preview": "rwmj: Back when I hosted Perl (Apache, mod_perl, \"LAMP stack\") websites for a living our standard server build looked remarkably similar. We hosted websites for hundreds of concurrent users on each one. - Dual Pentium-II CPUs - 512 MB RAM - 100 Mbps wired ethernet - Red Hat Linux Mass storage was larger, but not by much, and the flash eMMC is probably faster than the spinning hard disks we used back then.\nLaurensBER: I've had a lot of fun with this little gadget and it's pretty cool to see how much you can host on a cheap gadget if you pick the right software! Given how expensive RAM is these days, I figured, this might be a good option for other people to get started with self-hosting as well! Happy to answer any question and take suggestions as to what other software would be a good addition!\nrcarmo: Fusion is quite interesting. I forked miniflux into https://github.com/rcarmo/picoflux because I wanted something lighter, but I like Fusion's screenshots better than the mini/picoflux web UI, so I will be looking at that ASAP.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "storage"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "storage"
+      ],
+      "detail_slug": "2a4c7b60bdc2e13207db5335fd597e092abfbc5f",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T09:20:56.397101+00:00"
+    },
+    {
+      "id": "aa36167926ab217ec1c3e8a63cfd36772b95f1d7",
+      "title_hash": "134907d367f8278cc62bd1ac37edcef6aa3b8504",
+      "source": "TechCrunch",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "published_at": "2026-11-06T22:53:46+00:00",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "fetched_at": "2026-11-08T09:18:26.304482+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "22",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=16,practical_tech=-8,tools_agents=-4,strategy_insight=-4,industry_business=16",
+      "slot_scores": {
+        "practical_tech": -8,
+        "tools_agents": -4,
+        "strategy_insight": -4,
+        "industry_business": 16
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation",
+            "funding"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "funding"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "funding"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 16,
+          "strong_hits": [
+            "valuation",
+            "funding"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "valuation",
+        "funding",
+        "techcrunch.com"
+      ],
+      "detail_slug": "aa36167926ab217ec1c3e8a63cfd36772b95f1d7",
+      "is_english_source": true,
+      "sent_at": "2026-11-08T09:20:56.397101+00:00"
+    },
+    {
       "id": "a681f12b42d1a962da38553cffaca127258b3c51",
       "title_hash": "1fc3099d73450348b894d0722ab7921aea9d06ba",
       "source": "GeekNews",
@@ -166402,594 +166977,6 @@
       "detail_slug": "95fd4a382a5928d859f36380390377758de77536",
       "is_english_source": false,
       "sent_at": "2026-05-10T21:06:19.647090+00:00"
-    },
-    {
-      "id": "5d5ef5fe82ce28e2abb636d5369644429cc95e18",
-      "title_hash": "1f49896b9e0d239e14eb160a24103bf1bc5f24fa",
-      "source": "GeekNews",
-      "title": "Show GN: 개발자인 아빠가 만든 포켓몬 태그스타 팬사이트",
-      "link": "https://news.hada.io/topic?id=29353",
-      "published_at": "2026-05-10T09:14:39+00:00",
-      "summary": "아이가 포켓몬 태그스타에 빠지면서 저도 같이 하게 되었고, 결국 관련 팬사이트까지 만들어보게 되었습니다. ‘포켓몬 태그스타’는 올해 출시된 아케이드 게임으로, 대형마트나 편의점 한쪽에서 종종 볼 수 있는 게임기입니다. (포켓몬 가오레의 후속작 입니다.) 실물 태그를 올리면 포켓몬이 화",
-      "fetched_at": "2026-05-10T21:03:07.995003+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "출시"
-      ],
-      "detail_slug": "5d5ef5fe82ce28e2abb636d5369644429cc95e18",
-      "is_english_source": false,
-      "sent_at": "2026-05-10T21:06:19.647090+00:00"
-    },
-    {
-      "id": "a34864083edddf1e33fd9dd6e560606ee5d1367b",
-      "title_hash": "37a521284c0b08a6778dfce4ccdfa3645ffd228b",
-      "source": "GeekNews",
-      "title": "AWS로 돌아갔고, 내가 왜 떠났는지 다시 깨달았다",
-      "link": "https://news.hada.io/topic?id=29364",
-      "published_at": "2026-05-10T16:34:27+00:00",
-      "summary": "초기부터 AWS를 지지했지만, 클라이언트 라이브러리 를 커뮤니티에 맡긴 기간, Python 3 전환 지연, 복잡한 과금과 IAM, AWS Lambda 락인 등이 쌓이며 더 이상 AWS를 좋아하지 않게 됨 DynamoDB 사용 뒤 하루 75달러 청구를 겪었고, 데이터 송신 비용은 GB당 20센트...",
-      "fetched_at": "2026-05-10T21:03:07.995003+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "a34864083edddf1e33fd9dd6e560606ee5d1367b",
-      "is_english_source": false,
-      "sent_at": "2026-05-10T21:06:19.647090+00:00"
-    },
-    {
-      "id": "bd358802d7d797144cacc339f2b042d516dfa22e",
-      "title_hash": "f211e7df1219643e0c7e5eef67e43c95c0c27eeb",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Ask HN: What are you working on? (May 2026)",
-      "link": "https://news.ycombinator.com/item?id=48085993",
-      "published_at": "2026-05-10T17:34:41+00:00",
-      "summary": "HN story type: story HN points: 56 HN comments: 199 HN post text: What are you working on? Any new ideas that you're thinking about? HN top comments: zeta0134: Still chugging away at my NES rhythm game. Currently, in addition to climbing the content mountain (so, SO much pixel art and music needs to be made) I'm also slowly learning video editing workflows. I was able to put together a brief gameplay trailer this last week: https://store.steampowered.com/app/4129270/Tactus/ Right this second I'm looking for an alternative to After Effects that runs on Linux systems, as k... pizzly: Paste Redactor. It redacts Personable Identifiable Information (PII) from your clipboard when you copy and paste text. It uses a custom trained local AI model so that your PII never leaves your device. That is what it does now. Currently working on it to make it work for agents as a privacy protection layer. The idea being that the most powerful AI models live in the cloud but need access to your local files to be... wwwkieran: We're working on Drawers ( https://drawers.computer ), a macOS app to give each of your projects its own dock, space, and windows. We integrate with macOS spaces to switch out a project-specific dock on each space, containing only the resources you need for that project. We made it possible to add granular resources instead of full apps to the dock (think specific slack channels instead of the whole slack app), to...",
-      "fetched_at": "2026-05-10T21:03:07.995003+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48085993",
-      "hn_story_type": "story",
-      "hn_points": "56",
-      "hn_comments_count": "199",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48085993",
-      "hn_item_text": "What are you working on? Any new ideas that you're thinking about?",
-      "hn_comment_preview": "zeta0134: Still chugging away at my NES rhythm game. Currently, in addition to climbing the content mountain (so, SO much pixel art and music needs to be made) I'm also slowly learning video editing workflows. I was able to put together a brief gameplay trailer this last week: https://store.steampowered.com/app/4129270/Tactus/ Right this second I'm looking for an alternative to After Effects that runs on Linux systems, as k...\npizzly: Paste Redactor. It redacts Personable Identifiable Information (PII) from your clipboard when you copy and paste text. It uses a custom trained local AI model so that your PII never leaves your device. That is what it does now. Currently working on it to make it work for agents as a privacy protection layer. The idea being that the most powerful AI models live in the cloud but need access to your local files to be...\nwwwkieran: We're working on Drawers ( https://drawers.computer ), a macOS app to give each of your projects its own dock, space, and windows. We integrate with macOS spaces to switch out a project-specific dock on each space, containing only the resources you need for that project. We made it possible to add granular resources instead...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=35,practical_tech=10,tools_agents=35,strategy_insight=13,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 10,
-        "tools_agents": 35,
-        "strategy_insight": 13,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 35,
-          "strong_hits": [
-            "workflow",
-            "ide",
-            "cli"
-          ],
-          "support_hits": [
-            "workflow",
-            "agent",
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + workflow",
-            "local + agent"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 13,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "team + workflow"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "workflow",
-        "ide",
-        "cli",
-        "agent",
-        "local",
-        "agent + workflow",
-        "local + agent"
-      ],
-      "detail_slug": "bd358802d7d797144cacc339f2b042d516dfa22e",
-      "is_english_source": true,
-      "translated_title": "해커뉴스 5월, 지금 만들고 있는 것들",
-      "short_summary": "해커뉴스 5월 ‘무엇을 만들고 있나’ 스레드에는 NES 리듬게임, 로컬 AI 기반 개인정보 가리기 도구, macOS 작업 공간 앱 같은 개인 프로젝트가 이어졌다. 결과물 소개만이 아니라 제작 병목과 도구 고민까지 함께 드러난 점이 눈길을 끈다.",
-      "why_it_matters": "이 스레드는 요즘 개발자와 인디 메이커가 어디에 시간을 쓰는지 보여준다. 거창한 발표보다 실제로 만들면서 부딪히는 문제와 우선순위가 더 또렷하게 드러난다.\n- AI 활용이 단순 생성에서 끝나지 않고, 로컬 프라이버시 보호나 에이전트 안전장치처럼 실무 문제로 옮겨가고 있다.\n- 제품 개발 범위가 코드에만 머물지 않는다. 아트, 음악, 영상 제작, 데스크톱 작업 흐름 설계까지 한 사람이 감당해야 하는 일이 넓어지고 있다.\n- 툴 선택 기준도 달라진다. 운영체제 통합, 로컬 실행, 맥락 전환 감소처럼 바로 생산성에 닿는 요소가 앞쪽으로 올라온다.",
-      "hn_reaction_summary": "댓글 분위기는 찬반 토론보다는 각자 만드는 것을 꺼내 놓고 피드백과 도구 추천을 주고받는 쇼앤텔에 가까웠다. 완성된 성과보다 만드는 과정의 마찰과 아이디어가 더 많이 공유됐다.\n- 로컬 AI로 개인정보를 기기 밖으로 내보내지 않으려는 접근이 눈길을 끌었고, 프라이버시를 기능 자체로 다루려는 흐름이 읽힌다.\n- 게임 개발 사례에서는 구현보다 픽셀 아트, 음악, 영상 편집 같은 제작 부담이 더 큰 병목이라는 현실이 드러났다.\n- 생산성 앱 쪽에서는 단순 기능 추가보다 작업 공간을 어떻게 나누고 전환할지, 실제 워크플로를 얼마나 덜 끊을지가 핵심 논점으로 보인다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-10T21:06:19.647090+00:00"
-    },
-    {
-      "id": "62af43922991da2f3f2bd40c71daa11764bb157a",
-      "title_hash": "dd725cebef5d639e6b0a0fb4d3a0585026c4e045",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Local AI needs to be the norm",
-      "link": "https://unix.foo/posts/local-ai-needs-to-be-norm/",
-      "published_at": "2026-05-10T17:19:28+00:00",
-      "summary": "HN story type: story HN points: 140 HN comments: 69 HN top comments: TheJCDenton: For the mainstream audience, the sentiment around local ai today is the same that they had around open source a few decades ago. For a few products, some paid solutions were so much more advanced that open source were very often completely overlooked. Why bother ? And the like. Then we had captive SaaS and other plateforms and now it's obviously wrong for most of us. The dependency we have with anthropic and opena... Animats: Question: for software development, how much of an AI do you need for local development? Can it be run locally? Can someone train something that knows a lot about software but lacks comprehensive coverage of history, politics, and popular culture? mattlondon: Yet there is another post a few rows down where people are losing their shit that Chrome has a local LLM model that uses a couple of GB of space for local-inference. Damned if they do, damned if they don't.",
-      "fetched_at": "2026-05-10T21:03:07.995003+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48085821",
-      "hn_story_type": "story",
-      "hn_points": "140",
-      "hn_comments_count": "69",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48085821",
-      "hn_item_text": "",
-      "hn_comment_preview": "TheJCDenton: For the mainstream audience, the sentiment around local ai today is the same that they had around open source a few decades ago. For a few products, some paid solutions were so much more advanced that open source were very often completely overlooked. Why bother ? And the like. Then we had captive SaaS and other plateforms and now it's obviously wrong for most of us. The dependency we have with anthropic and opena...\nAnimats: Question: for software development, how much of an AI do you need for local development? Can it be run locally? Can someone train something that knows a lot about software but lacks comprehensive coverage of history, politics, and popular culture?\nmattlondon: Yet there is another post a few rows down where people are losing their shit that Chrome has a local LLM model that uses a couple of GB of space for local-inference. Damned if they do, damned if they don't.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=25,practical_tech=25,tools_agents=9,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 25,
-        "tools_agents": 9,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 25,
-          "strong_hits": [
-            "open source",
-            "inference",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "inference",
-        "rag",
-        "local + run"
-      ],
-      "detail_slug": "62af43922991da2f3f2bd40c71daa11764bb157a",
-      "is_english_source": true,
-      "translated_title": "로컬 AI가 기본이어야 하는 이유",
-      "short_summary": "이 글은 AI를 클라우드 호출 서비스가 아니라 로컬에서 먼저 돌아가는 기본 도구로 봐야 한다고 주장한다. HN에서는 벤더 종속을 줄여야 한다는 공감과 함께 성능, 용량, 실사용성의 한계를 짚는 반론도 이어졌다.",
-      "why_it_matters": "AI 도입의 기준이 모델 성능 경쟁에서 실행 위치와 통제권으로 옮겨가고 있다는 문제의식이 담겨 있다.\n- 개발팀은 민감한 코드와 문서를 외부 API로 보내지 않고도 보조 기능을 붙일 수 있는지 더 따지게 된다.\n- 특정 벤더의 장애나 가격 정책에 덜 흔들리는 운영 구조를 만들 수 있어 장기 비용과 의존성 관리 방식이 바뀐다.\n- 반대로 기기 자원 사용량, 설치 용량, 모델 품질 저하를 어디까지 감수할지 현실적인 판단도 함께 필요하다.",
-      "hn_reaction_summary": "댓글 분위기는 로컬 AI의 방향성에는 대체로 공감하지만, 당장 모두의 기본값이 되기엔 마찰이 크다는 쪽에 가깝다.\n- 한쪽은 지금의 클라우드 AI 의존을 과거 상용 소프트웨어 우위 시절과 비슷하게 보며, 결국 로컬 생태계도 오픈소스처럼 커질 것이라고 본다.\n- 다른 쪽은 개발용처럼 범위를 좁힌 모델이라면 충분히 실용적인지, 범용 지식이 부족해도 현업에서 쓸 만한지 따져 묻는다.\n- 또 브라우저에 수 GB짜리 로컬 모델이 들어가면 불평하면서 로컬 AI를 원한다고 말하는 건 모순이라는 지적도 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-10T21:06:19.647090+00:00"
-    },
-    {
-      "id": "0054f3de65f4036453c18ab08a00846e8834d625",
-      "title_hash": "0c9282206e24147d9de5c80c77bb07f7c875162b",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Lakebase architecture delivers faster Postgres writes",
-      "link": "https://www.databricks.com/blog/how-lakebase-architecture-delivers-5x-faster-postgres-writes",
-      "published_at": "2026-05-08T15:46:12+00:00",
-      "summary": "HN story type: story HN points: 73 HN comments: 19 HN top comments: uhoh-itsmaciek: >Without those periodic full page images in the log, the storage layer would have to replay an infinitely long chain of small deltas to reconstruct a page for a read request. What was once a bounded O(checkpoint frequency) replay becomes an unbounded chain, leading to a spike in read latency and resource consumption. I don't follow: read requests are not served from the WAL. They read the current state of the page... gavinray: So, the general architecture described here is solid, and I support it, but I take issue with the \"Lakebase\" naming thing. Disaggregated storage and disaggregated compute have been an open trend in DBMS development for the last half-decade. This is an obvious move with modern computing paradigms, and the academic literature has a standard name for it. This feels like \"JAMStack\" from Netlify happening all over agai... erikcw: How does Lakebase compare to Ducklake[0]? [0] https://ducklake.select/",
-      "fetched_at": "2026-05-10T21:03:07.995003+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48064789",
-      "hn_story_type": "story",
-      "hn_points": "73",
-      "hn_comments_count": "19",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48064789",
-      "hn_item_text": "",
-      "hn_comment_preview": "uhoh-itsmaciek: >Without those periodic full page images in the log, the storage layer would have to replay an infinitely long chain of small deltas to reconstruct a page for a read request. What was once a bounded O(checkpoint frequency) replay becomes an unbounded chain, leading to a spike in read latency and resource consumption. I don't follow: read requests are not served from the WAL. They read the current state of the page...\ngavinray: So, the general architecture described here is solid, and I support it, but I take issue with the \"Lakebase\" naming thing. Disaggregated storage and disaggregated compute have been an open trend in DBMS development for the last half-decade. This is an obvious move with modern computing paradigms, and the academic literature has a standard name for it. This feels like \"JAMStack\" from Netlify happening all over agai...\nerikcw: How does Lakebase compare to Ducklake[0]? [0] https://ducklake.select/",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 24,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 24,
-          "strong_hits": [
-            "architecture",
-            "postgres",
-            "storage",
-            "latency"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "postgres",
-        "storage",
-        "latency"
-      ],
-      "detail_slug": "0054f3de65f4036453c18ab08a00846e8834d625",
-      "is_english_source": true,
-      "translated_title": "레이크베이스 아키텍처로 Postgres 쓰기 가속",
-      "short_summary": "Lakebase는 Postgres의 쓰기 성능을 더 끌어올리기 위한 아키텍처로 HN의 관심을 받았다. 댓글에서는 설계 방향에는 공감하면서도 읽기 경로 설명과 용어 포장에는 의문이 이어졌다.",
-      "why_it_matters": "클라우드 환경에서 Postgres 성능을 높일 때 이제는 엔진 내부 튜닝만이 아니라 저장소와 컴퓨트의 경계를 다시 짜는 접근이 현실적인 선택지로 올라오고 있다.\n- 쓰기 성능을 올리더라도 읽기 복원 비용과 지연이 함께 커지지 않게 설계해야 한다는 점이 실무 포인트로 드러난다.\n- 운영팀 입장에서는 WAL, 체크포인트, 페이지 복원 같은 기본 메커니즘이 분리형 아키텍처에서 어떻게 달라지는지 확인할 필요가 있다.\n- 새 이름보다 기존 분산 DB 패턴과 무엇이 같고 무엇이 다른지 따져봐야 도입 판단이 쉬워진다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 기술 방향 자체에는 우호적이지만, 설명의 정확성과 차별성 주장에는 꽤 까다롭게 반응하는 쪽에 가깝다.\n- WAL 설명을 두고 실제 읽기 요청이 어떤 경로로 처리되는지 헷갈린다는 반응이 나왔고, 저장 계층 복원 모델을 더 분명히 설명해야 한다는 지적이 있었다.\n- 저장소와 컴퓨트 분리는 이미 널리 알려진 흐름이라며 'Lakebase'라는 이름이 새 개념처럼 들린다는 비판도 반복됐다.\n- 일부는 Ducklake 같은 다른 프로젝트와 비교해 무엇이 다른지 물으며, 실무자는 마케팅 문구보다 구조적 차이와 운영 비용을 먼저 봐야 한다는 논점이 부각됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-10T21:06:19.647090+00:00"
-    },
-    {
-      "id": "52626a9d0f9852ed825d6b0268804474875823a1",
-      "title_hash": "2a8aabf73dbaf8ee30fb21e7df83753c25943e0a",
-      "source": "GeekNews",
-      "title": "Mac 소프트웨어 배포가 내 코르티솔 수치를 높이고 있다",
-      "link": "https://news.hada.io/topic?id=29362",
-      "published_at": "2026-05-10T14:34:51+00:00",
-      "summary": "Claude Code 프로필 관리용 작은 Go 유틸리티는 Linux와 Windows용 정적 실행 파일 배포가 쉬웠지만, macOS에서는 다운로드 파일에 적용되는 격리(quarantine) 때문에 실행이 막히고 수동 해제 안내도 사용자 경험을 해침 macOS 바이너리 서명을 위해",
-      "fetched_at": "2026-05-10T16:53:31.477494+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 15,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "52626a9d0f9852ed825d6b0268804474875823a1",
-      "is_english_source": false,
-      "sent_at": "2026-05-10T16:55:52.440817+00:00"
-    },
-    {
-      "id": "3ec3042aef798b16d19d4dbe832388400facb794",
-      "title_hash": "98e64e9ccd2b369d2c0be90b665a432c9876519c",
-      "source": "GeekNews",
-      "title": "사이버 자유지상주의의 위선",
-      "link": "https://news.hada.io/topic?id=29360",
-      "published_at": "2026-05-10T13:37:51+00:00",
-      "summary": "사이버 자유지상주의 는 정부와 규제에서 벗어난 인터넷 자유를 내세웠지만, 개인의 자유와 거대 영리 기업의 이해관계를 뒤섞어 플랫폼 권력을 정당화하는 논리로 작동함 John Perry Barlow의 A Declaration of the Independ...",
-      "fetched_at": "2026-05-10T16:53:31.477494+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "52",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=0,strategy_insight=3,industry_business=7",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": 3,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "규제"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "규제"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "규제"
-          ],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "규제",
-        "기업"
-      ],
-      "detail_slug": "3ec3042aef798b16d19d4dbe832388400facb794",
-      "is_english_source": false,
-      "sent_at": "2026-05-10T16:55:52.440817+00:00"
     }
   ],
   "topic_digests": {
