@@ -1,6 +1,599 @@
 {
   "items": [
     {
+      "id": "ad4fc66018545cacc6c7218b43bd6641118b92a8",
+      "title_hash": "d373853977b99a00c2f73640e97f4cfb7da79012",
+      "source": "GeekNews",
+      "title": "Show GN: Aptly - 작업에 맞는 Claude Code·Codex 서브에이전트 모델과 effort를 추천",
+      "link": "https://news.hada.io/topic?id=36852&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-09T00:16:34+00:00",
+      "summary": "Aptly는 OpenAI Decisions API를 이용해 설정된 모델 후보 목록에서 서브에이전트의 모델과 추론 프로필을 추천하는 로컬 MCP 서버입니다. 작업에 맞는 실행 프로필을 선택해 불필요한 토큰 사용과 비용을 줄이는 것이 목적입니다. 주요 기능은 다음과 같습니다. Codex와 Claude Code 지원 PreToolUse Hook을 통한 지원 대상 서브에이전트 호출의 기본 모델 자동 선택 사용자가 명시한 모델과 추론 강도 보존 모델 후보 설정 및 MCP·CLI를 통한 직접 추천 분류에는 최소한의 작업 요약을 Decisions API로 전달합니다. 실제 실행과 권한 결 …",
+      "fetched_at": "2026-11-09T01:54:26.104416+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "82",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=37,practical_tech=5,tools_agents=37,strategy_insight=8,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 37,
+        "strategy_insight": 8,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 37,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트",
+            "mcp",
+            "cli"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "mcp",
+        "cli",
+        "tool",
+        "claude + code"
+      ],
+      "detail_slug": "ad4fc66018545cacc6c7218b43bd6641118b92a8",
+      "is_english_source": false,
+      "sent_at": "2026-11-09T01:56:53.711432+00:00"
+    },
+    {
+      "id": "b80681592b06a5563859659994596711aa25a9cf",
+      "title_hash": "c8ed0c0760c4ec32e10f29fed9787a718e8615c5",
+      "source": "GeekNews",
+      "title": "Univer - 웹앱에 스프레드시트와 문서 편집기를 넣는 SDK",
+      "link": "https://news.hada.io/topic?id=36853&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-09T00:30:02+00:00",
+      "summary": "자체 서비스 안에 스프레드시트와 문서 편집 환경 을 만들 수 있음 편집 화면과 애플리케이션 코드가 같은 데이터를 다루며, 수식 결과도 자동으로 갱신 스프레드시트 편집 셀 서식, 병합, 틀 고정, 이미지와 실행 취소 수식 계산, 정렬, 필터, 데이터 검증과 조건부 서식 SUM , IF , XLOOKUP , 동적 배열 등 다양한 함수 지원 문서 편집 리치 텍스트, 문단 서식, 목록, 링크와 댓글을 제공함 API로 셀과 범위를 읽고 수정하고, 변경 이벤트를 애플리케이션과 연결 가능 AI 에이전트도 같은 API를 사용하며, 모델과 도구 실행은 애플리케이션 …",
+      "fetched_at": "2026-11-09T01:54:26.104416+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=12,practical_tech=12,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "sdk",
+            "api"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sdk",
+        "api",
+        "코드"
+      ],
+      "detail_slug": "b80681592b06a5563859659994596711aa25a9cf",
+      "is_english_source": false,
+      "sent_at": "2026-11-09T01:56:53.711432+00:00"
+    },
+    {
+      "id": "bffba40a07b9d5e0f5c88e0446f8cde597373105",
+      "title_hash": "fa11fef1e4b490fc0c5b62e3f860e1f7d740c9e8",
+      "source": "GeekNews",
+      "title": "Nvidia CEO Jensen Huang이 불륜과 관련해 직원들에게 보낸 서한",
+      "link": "https://news.hada.io/topic?id=36848&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-08T23:32:02+00:00",
+      "summary": "Jensen Huang 이 직원들에게 보낸 이메일에서 중국 스파이로 의심받는 인물과 연인 관계를 맺었음을 인정함 아내와 자녀에게 상처를 준 데 대해 사과하고, 자신의 행동과 그로 인한 피해에 전적인 책임 을 지겠다고 밝힘 Nvidia 이사회는 보도로 제기된 국가안보 우려 와 관련해 독립적인 조사에 착수했으며, Huang은 조사에 전적으로 협조하겠다고 약속함 동료, 이사회, 파트너, 주주들의 신뢰에 부응하지 못했음을 인정하고, Nvidia에 계속 헌신 하며 신뢰를 되찾겠다고 밝힘 Nvidia 공공정책 커뮤니케이션 책임자 John Rizzo는 Huang이 중 …",
+      "fetched_at": "2026-11-09T01:54:26.104416+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "ceo"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "bffba40a07b9d5e0f5c88e0446f8cde597373105",
+      "is_english_source": false,
+      "sent_at": "2026-11-09T01:56:53.711432+00:00"
+    },
+    {
+      "id": "27aa6fb799b281d65634b6a0d54a85c4729b14f2",
+      "title_hash": "168bd053d55933875b1d67c661f9b176141535da",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+      "link": "https://ketchup3d.github.io/app/",
+      "published_at": "2026-11-08T22:35:35+00:00",
+      "summary": "HN story type: story HN points: 197 HN comments: 48 HN top comments: nico: This is awesome. At the same time I wonder if we are entering an era in which it’s just better to build your own tools Need a 3D modeler? Use Claude or codex to build the 3D model first, then build the modeler around it as you iterate towards what you want to build So many times I’ve had to spend hours learning a software, reading docs, doing tutorials, only to later be able to do a small basic idea of what I actu... elxr: Tell your agent to add some showcases of the features on the landing page. Impressive how good that rust UI feels in a browser though. Even the text rendering is impressive. Maybe rust really is the future of cross platform web+mobile apps. jitl: I absolutely love sketchup, and seeing it passed between various developers and never improved while gradually getting less and less free was very sad. it was awesome when owned by google and totally free. super happy to see a spiritual successor!",
+      "fetched_at": "2026-11-09T01:54:26.104416+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50418176",
+      "hn_story_type": "story",
+      "hn_points": "197",
+      "hn_comments_count": "48",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50418176",
+      "hn_item_text": "",
+      "hn_comment_preview": "nico: This is awesome. At the same time I wonder if we are entering an era in which it’s just better to build your own tools Need a 3D modeler? Use Claude or codex to build the 3D model first, then build the modeler around it as you iterate towards what you want to build So many times I’ve had to spend hours learning a software, reading docs, doing tutorials, only to later be able to do a small basic idea of what I actu...\nelxr: Tell your agent to add some showcases of the features on the landing page. Impressive how good that rust UI feels in a browser though. Even the text rendering is impressive. Maybe rust really is the future of cross platform web+mobile apps.\njitl: I absolutely love sketchup, and seeing it passed between various developers and never improved while gradually getting less and less free was very sad. it was awesome when owned by google and totally free. super happy to see a spiritual successor!",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=11,tools_agents=22,strategy_insight=9,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 22,
+        "strategy_insight": 9,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "tutorial"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "codex",
+            "ide"
+          ],
+          "support_hits": [
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "codex",
+        "ide",
+        "agent",
+        "tool",
+        "claude + code"
+      ],
+      "detail_slug": "27aa6fb799b281d65634b6a0d54a85c4729b14f2",
+      "is_english_source": true,
+      "sent_at": "2026-11-09T01:56:53.711432+00:00"
+    },
+    {
+      "id": "f7e7174774a51e9a1f96ea3408e7b35ca16b0c40",
+      "title_hash": "b2e6d43cb6fcc870dfc16e9be3890626a87e11fe",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
+      "link": "https://isocpp.org/files/papers/P4454R0.pdf",
+      "published_at": "2026-11-08T23:28:01+00:00",
+      "summary": "HN story type: story HN points: 60 HN comments: 39 HN top comments: kikoreis: Just stopped by to say Sutter is not only right to be reiterating Bjarne's position here, he is also the author of IMO the most impactful paper regarding the progress of hardware performance and the shift to concurrent execution: https://www.cs.utexas.edu/~lin/cs380p/Free_Lunch.pdf pornel: Stroustrup's list of objections sounds quite sensible to me: https://www.stroustrup.com/Contracts_fundamental_flaws.pdf Routine8502: As someone who spent a few weeks trying to get into C++ (pre-LLM, so maybe it's better now?) and kind of just gave up out of confusion, I really found it challenging to deal with the multiple different ways to do something. I mean, which pointer should I use? How should I iterate? I'm sure there's an answer to this, but I just found it easier to go back to python and hit up rust when I needed it. It seems like par...",
+      "fetched_at": "2026-11-09T01:54:26.104416+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50418818",
+      "hn_story_type": "story",
+      "hn_points": "60",
+      "hn_comments_count": "39",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50418818",
+      "hn_item_text": "",
+      "hn_comment_preview": "kikoreis: Just stopped by to say Sutter is not only right to be reiterating Bjarne's position here, he is also the author of IMO the most impactful paper regarding the progress of hardware performance and the shift to concurrent execution: https://www.cs.utexas.edu/~lin/cs380p/Free_Lunch.pdf\npornel: Stroustrup's list of objections sounds quite sensible to me: https://www.stroustrup.com/Contracts_fundamental_flaws.pdf\nRoutine8502: As someone who spent a few weeks trying to get into C++ (pre-LLM, so maybe it's better now?) and kind of just gave up out of confusion, I really found it challenging to deal with the multiple different ways to do something. I mean, which pointer should I use? How should I iterate? I'm sure there's an answer to this, but I just found it easier to go back to python and hit up rust when I needed it. It seems like par...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "performance",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "rust"
+      ],
+      "detail_slug": "f7e7174774a51e9a1f96ea3408e7b35ca16b0c40",
+      "is_english_source": true,
+      "sent_at": "2026-11-09T01:56:53.711432+00:00"
+    },
+    {
+      "id": "9239f1b277f00814d4aedc8ebd6af3516631788c",
+      "title_hash": "bc74c5ba19e155ef3169d06a12e51fcd1b398eb3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "link": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+      "published_at": "2026-11-08T19:48:32+00:00",
+      "summary": "HN story type: story HN points: 74 HN comments: 38 HN top comments: simonw: I like this statement: > The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day . It's wild how much easier it is to build things that harness web technology these days. I'm building features on top of three.js and offline storage and SSE and WebAudio and WebAssembly multiple times per week these days. I used to tinker with som... palata: I know it tends to be an unpopular opinion, but to me the Web is too much, really. Many people (me included) like to complain about how systemd is trying to overtake everything, but browsers are a lot worse than that. Even if I can realistically choose my OS today, I have to run most apps in a browser. And the browser landscape is not that nice in terms of freedom: Google controls it through Chromium, Apple manage... the__alchemist: For anyone having a hard time following the comments or mentality: Someone explained in a HN comment a few weeks ago in a comment which has helped clarify in my mind: Web (And especially SAAS) developers make up a large portion of HN users. They use and love frontend frameworks, Node, NPM, and using web tech for many tasks, as a first line of tools.",
+      "fetched_at": "2026-11-09T01:54:26.104416+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50416456",
+      "hn_story_type": "story",
+      "hn_points": "74",
+      "hn_comments_count": "38",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50416456",
+      "hn_item_text": "",
+      "hn_comment_preview": "simonw: I like this statement: > The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day . It's wild how much easier it is to build things that harness web technology these days. I'm building features on top of three.js and offline storage and SSE and WebAudio and WebAssembly multiple times per week these days. I used to tinker with som...\npalata: I know it tends to be an unpopular opinion, but to me the Web is too much, really. Many people (me included) like to complain about how systemd is trying to overtake everything, but browsers are a lot worse than that. Even if I can realistically choose my OS today, I have to run most apps in a browser. And the browser landscape is not that nice in terms of freedom: Google controls it through Chromium, Apple manage...\nthe__alchemist: For anyone having a hard time following the comments or mentality: Someone explained in a HN comment a few weeks ago in a comment which has helped clarify in my mind: Web (And especially SAAS) developers make up a large portion of HN users. They use and love frontend frameworks, Node, NPM, and using web tech for many task...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=4,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 4,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "framework",
+            "storage"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "framework",
+        "storage"
+      ],
+      "detail_slug": "9239f1b277f00814d4aedc8ebd6af3516631788c",
+      "is_english_source": true,
+      "sent_at": "2026-11-09T01:56:53.711432+00:00"
+    },
+    {
+      "id": "0016bbe57eb67c9f6f552e3549b28eccac475227",
+      "title_hash": "d2b5cbc259dbfd30b29814a5c1e75cac82632ddf",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "I'm Not Convinced the AI Bubble Exists",
+      "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists",
+      "published_at": "2026-11-08T23:44:36+00:00",
+      "summary": "HN story type: story HN points: 11 HN comments: 3 HN top comments: pj_mukh: I dont know if the valuations make sense, but the usability is all there and so are the potential profits. Over a decade, that's probably all that matters. If the valuations pop or dip (anytime soon), I think that's mostly irrelevant. I get that the press probably doesn't like to hear this boring conclusion. P.S: A Matlab/Physics simulation guy running for a Liberal party seat in Canada? Say more! wmf: The only modification I'd make is to amortize the investments over 5-6 years instead of 20 because most of the cost is GPUs not the buildings. This increases the required revenue by 4x.",
+      "fetched_at": "2026-11-09T01:54:26.104416+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50418975",
+      "hn_story_type": "story",
+      "hn_points": "11",
+      "hn_comments_count": "3",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50418975",
+      "hn_item_text": "",
+      "hn_comment_preview": "pj_mukh: I dont know if the valuations make sense, but the usability is all there and so are the potential profits. Over a decade, that's probably all that matters. If the valuations pop or dip (anytime soon), I think that's mostly irrelevant. I get that the press probably doesn't like to hear this boring conclusion. P.S: A Matlab/Physics simulation guy running for a Liberal party seat in Canada? Say more!\nwmf: The only modification I'd make is to amortize the investments over 5-6 years instead of 20 because most of the cost is GPUs not the buildings. This increases the required revenue by 4x.",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "29",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=5,practical_tech=0,tools_agents=2,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "valuation"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "valuation"
+      ],
+      "detail_slug": "0016bbe57eb67c9f6f552e3549b28eccac475227",
+      "is_english_source": true,
+      "sent_at": "2026-11-09T01:56:53.711432+00:00"
+    },
+    {
       "id": "5d88752ae4c1f0c9eed1eb8c6414de99b36df050",
       "title_hash": "33e68c87bfc48ddb6a482a80b576e8616fc03718",
       "source": "GeekNews",
@@ -166297,614 +166890,6 @@
       "hn_reaction_summary": "HN 반응은 대체로 매우 좋았다. 댓글 수는 많지 않았지만, 이 글을 단순한 LLM 글이 아니라 보기 드문 스위프트 성능 최적화 자료로 받아들이는 분위기가 강했다.\n- Xcode에 포함된 clang도 적절한 플래그와 libomp를 갖추면 OpenMP 코드를 컴파일할 수 있다는 실무 팁이 공유됐다.\n- AMX 명령이나 M4 이후 SME 경로를 스위프트에서 어떻게 건드릴 수 있는지 궁금해하는 반응이 반복됐다. 저수준 가속 접근성은 여전히 논점으로 남아 있다.\n- 오래전부터 기술 글로 알려진 저자의 이름을 반가워하는 댓글도 있었다. 글의 완성도와 필력에 대한 신뢰가 함께 드러났다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-11T22:15:17.189047+00:00"
-    },
-    {
-      "id": "ed9476d2f78a8d7a135e4899da786c1c5109cb5f",
-      "title_hash": "f1525c8c815b60ce968bffa50439197dc1e4e922",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "GitLab Announces Workforce Reduction and End of Their CREDIT Values",
-      "link": "https://about.gitlab.com/blog/gitlab-act-2/",
-      "published_at": "2026-05-11T20:51:57+00:00",
-      "summary": "HN story type: story HN points: 91 HN comments: 31 HN top comments: Animats: Their old CREDIT values: Collaboration, Results for Customers, Efficiency, Diversity, Inclusion & Belonging, Iteration, and Transparency. New values: Speed with Quality, Ownership Mindset, Customer Outcomes. In other words, work harder, not smarter, and no more DEI. skrrtww: A lot of the conclusions they're drawing in this post about the \"agentic era\" seem quite misguided and some don't really seem to make sense. I have no doubt GitLab has too many employees and can benefit from being a more focused company, but it's tiring reading these layoff posts so chock full of buzzwords. I guess they're desperately hoping if they prognosticate about AI enough it will placate the investors. petetnt: With it’s current AI setup GitLab still couldn’t make anything that could be called great in UX so I can’t wait to see what they can do by eliminating the remaining human factor. Can’t personally wait seeing tickets like these [0] open for months with bots telling you that everything will be alright. [0] https://gitlab.com/gitlab-org/gitlab/-/work_items/588806",
-      "fetched_at": "2026-05-11T22:12:24.641503+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48100500",
-      "hn_story_type": "story",
-      "hn_points": "91",
-      "hn_comments_count": "31",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48100500",
-      "hn_item_text": "",
-      "hn_comment_preview": "Animats: Their old CREDIT values: Collaboration, Results for Customers, Efficiency, Diversity, Inclusion & Belonging, Iteration, and Transparency. New values: Speed with Quality, Ownership Mindset, Customer Outcomes. In other words, work harder, not smarter, and no more DEI.\nskrrtww: A lot of the conclusions they're drawing in this post about the \"agentic era\" seem quite misguided and some don't really seem to make sense. I have no doubt GitLab has too many employees and can benefit from being a more focused company, but it's tiring reading these layoff posts so chock full of buzzwords. I guess they're desperately hoping if they prognosticate about AI enough it will placate the investors.\npetetnt: With it’s current AI setup GitLab still couldn’t make anything that could be called great in UX so I can’t wait to see what they can do by eliminating the remaining human factor. Can’t personally wait seeing tickets like these [0] open for months with bots telling you that everything will be alright. [0] https://gitlab.com/gitlab-org/gitlab/-/work_items/588806",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=6,tools_agents=16,strategy_insight=-2,industry_business=12",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 16,
-        "strategy_insight": -2,
-        "industry_business": 12
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "guide"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "agentic",
-            "ide"
-          ],
-          "support_hits": [
-            "agent",
-            "setup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "announces"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 12,
-          "strong_hits": [
-            "announces",
-            "customers"
-          ],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agentic",
-        "ide",
-        "agent",
-        "setup"
-      ],
-      "detail_slug": "ed9476d2f78a8d7a135e4899da786c1c5109cb5f",
-      "is_english_source": true,
-      "translated_title": "깃랩, 인력 감축 발표와 CREDIT 가치 체계 폐지",
-      "short_summary": "GitLab이 인력 감축과 함께 기존 CREDIT 핵심가치를 접고 새 가치 체계로 전환하겠다고 밝혔다. 회사는 AI 시대 대응과 실행 속도를 내세웠지만, HN에서는 투자자용 명분 아니냐는 회의적인 반응이 많았다.",
-      "why_it_matters": "이번 발표는 단순한 감원 공지를 넘어서, GitLab이 조직 운영 원칙과 제품 우선순위를 AI 중심의 효율과 속도 쪽으로 다시 맞추겠다는 신호에 가깝다.\n- 협업과 포용을 담았던 기존 CREDIT가 사라지고 속도, 오너십, 고객 성과가 앞에 나오면서 팀 평가 기준과 업무 압박이 더 직접적으로 바뀔 수 있다.\n- GitLab을 쓰는 개발팀 입장에서는 출시 속도가 빨라질 여지는 있지만, UX 완성도나 지원 품질이 흔들리면 현장 만족도는 오히려 떨어질 수 있다.\n- AI 전환이 인력 운영과 함께 묶여 설명되는 흐름이 더 퍼질 수 있어서, SaaS 업계 전반의 조직 재편 신호로도 볼 만하다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 대체로 냉소적이다. 감원 자체보다도 이를 '에이전틱 시대' 같은 말로 포장한 설명 방식에 대한 거부감이 더 크게 드러났다.\n- 가장 자주 나온 반응은 기존 가치에서 협업과 DEI 색채가 빠지고, 결국 더 적은 인원으로 더 많이 일하라는 메시지처럼 보인다는 비판이다.\n- 한편 일부는 GitLab이 더 집중된 조직이 될 필요는 있었다고 봤다. 다만 AI를 내세운 설명은 투자자 설득용 수사에 가깝다는 지적이 반복됐다.\n- 제품 UX와 장기 미해결 이슈를 언급하며, 사람을 줄인 뒤 봇 대응이 늘면 사용자 경험이 더 나빠질 수 있다는 우려도 적지 않았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T22:15:17.189047+00:00"
-    },
-    {
-      "id": "80a4fa905a6801256feb17e6aa5202050c0ae1d2",
-      "title_hash": "ef80ee910e8140637965af230c53b5bb8561b3cb",
-      "source": "GeekNews",
-      "title": "AI는 어떻게 미완성 사고를 유창한 확신으로 바꾸는가? - 전문가일수록 더 위험한 이유",
-      "link": "https://news.hada.io/topic?id=29392",
-      "published_at": "2026-05-11T14:49:00+00:00",
-      "summary": "AI는 어떻게 설익은 생각을 전문가의 언어로 바꾸는가 링크드인, AI 커뮤니티에서 “Existential Invocation Engine”, “D9 Governance System”, “Total Agent Orchestration” 같은 거창한 이름의 프레임워크를 종종 볼 수 있음 이런 글들은 AI 거버넌스, 에이전트 아키텍처, 실행 통제,...",
-      "fetched_at": "2026-05-11T18:01:13.281135+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "56",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=2,tools_agents=11,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 11,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "아키텍처"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "아키텍처"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "agent"
-      ],
-      "detail_slug": "80a4fa905a6801256feb17e6aa5202050c0ae1d2",
-      "is_english_source": false,
-      "sent_at": "2026-05-11T18:04:05.394328+00:00"
-    },
-    {
-      "id": "d84bdadb940166be0860bc0e585aa409dd7075a3",
-      "title_hash": "06aad616529b2b93d3d9f08e22b12010acbbd8ab",
-      "source": "GeekNews",
-      "title": "3GB SQLite 데이터베이스를 10MB FST(유한 상태 변환기) 바이너리로 교체하기",
-      "link": "https://news.hada.io/topic?id=29379",
-      "published_at": "2026-05-11T06:02:24+00:00",
-      "summary": "Taskusanakirja 는 입력 중 접두사 검색을 제공하는 핀란드어-영어 사전임 핀란드어 굴절형 확장으로 항목이 4천만~6천만 개 까지 늘어 트라이가 한계에 닿음 임시 SQLite FTS 해법은 빨랐지만 최초 3GB 다운로드가 필요했음 Rus...",
-      "fetched_at": "2026-05-11T18:01:13.281135+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "sql"
-      ],
-      "detail_slug": "d84bdadb940166be0860bc0e585aa409dd7075a3",
-      "is_english_source": false,
-      "sent_at": "2026-05-11T18:04:05.394328+00:00"
-    },
-    {
-      "id": "0e09315093f40a6dadc1d6120a2cb730e053dec4",
-      "title_hash": "b8c425421f9dfe37212a28607284bf7fc12a1531",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "CUDA-oxide: Nvidia's official Rust to CUDA compiler",
-      "link": "https://nvlabs.github.io/cuda-oxide/index.html",
-      "published_at": "2026-05-11T15:55:07+00:00",
-      "summary": "HN story type: story HN points: 130 HN comments: 32 HN top comments: tiffanyh: Re: Rust (and \"safe\" programming languages). Does anyone have more details on NVIDIAs use of Spark/Ada? All I can find is what's listed below: https://www.adacore.com/case-studies/nvidia-adoption-of-spar... cyber_kinetist: I'm quite interested in how they dealt with Rust's memory model, which might not neatly map to CUDA's semantics. Curious what the differences are compared to CUDA C++, and if the Rust's type system can actually bring more safety to CUDA (I do think writing GPU kernels is inherently unsafe, it's just too hard to create a safe language because of how the hardware works, and because of the fact that you're hyper-opti... arpadav: This is amazing.. ive been working with custom CUDA kernels and https://crates.io/crates/cudarc for a long time, and this honestly looks like it could be a near drop-in replacement. im especially curious how build times would compare? Most Rust CUDA crates obv rely on calling CMake or nvcc, which can make compilation painfully slow. coincidentally, just last week i was profiling build times and found that tools li...",
-      "fetched_at": "2026-05-11T18:01:13.281135+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48096692",
-      "hn_story_type": "story",
-      "hn_points": "130",
-      "hn_comments_count": "32",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48096692",
-      "hn_item_text": "",
-      "hn_comment_preview": "tiffanyh: Re: Rust (and \"safe\" programming languages). Does anyone have more details on NVIDIAs use of Spark/Ada? All I can find is what's listed below: https://www.adacore.com/case-studies/nvidia-adoption-of-spar...\ncyber_kinetist: I'm quite interested in how they dealt with Rust's memory model, which might not neatly map to CUDA's semantics. Curious what the differences are compared to CUDA C++, and if the Rust's type system can actually bring more safety to CUDA (I do think writing GPU kernels is inherently unsafe, it's just too hard to create a safe language because of how the hardware works, and because of the fact that you're hyper-opti...\narpadav: This is amazing.. ive been working with custom CUDA kernels and https://crates.io/crates/cudarc for a long time, and this honestly looks like it could be a near drop-in replacement. im especially curious how build times would compare? Most Rust CUDA crates obv rely on calling CMake or nvcc, which can make compilation painfully slow. coincidentally, just last week i was profiling build times and found that tools li...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=15,strategy_insight=2,industry_business=1",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 15,
-        "strategy_insight": 2,
-        "industry_business": 1
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "compiler",
-            "index",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "tool + calling"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 1,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "compiler"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "compiler",
-        "index",
-        "rust"
-      ],
-      "detail_slug": "0e09315093f40a6dadc1d6120a2cb730e053dec4",
-      "is_english_source": true,
-      "translated_title": "엔비디아 공식 Rust CUDA 컴파일러, CUDA-oxide",
-      "short_summary": "엔비디아가 Rust 코드를 CUDA 커널로 컴파일하는 공식 도구 CUDA-oxide를 내놨다. HN에서는 기존 Rust CUDA 생태계를 얼마나 대체할지, 안전성·메모리 모델·빌드 속도에서 어떤 차이가 날지가 주요 관심사로 떠올랐다.",
-      "why_it_matters": "GPU 커널 개발을 Rust 쪽으로 끌어오려는 흐름이 이제 실험 단계를 넘어 벤더 공식 지원으로 옮겨가는 신호로 읽힌다.\n- 서드파티 래퍼나 우회 빌드 없이 Rust 중심 개발 흐름을 꾸릴 수 있다면 CUDA 작업의 진입 장벽이 낮아질 수 있다.\n- 실무에서는 Rust의 타입 시스템이 CUDA C++보다 어디까지 오류를 줄여주는지, 특히 메모리 모델과 unsafe 경계가 어떻게 정리되는지가 핵심 검토 포인트다.\n- 기존 cudarc 같은 도구를 쓰던 팀이라면 마이그레이션 비용과 빌드 시간 개선 여부가 바로 체감할 변화가 될 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 기대와 경계가 함께 간다. 전반적으로 반응은 좋지만 Rust라고 해서 GPU 커널이 곧바로 안전해지는 건 아니라는 현실적인 지적도 많다.\n- 긍정론은 엔비디아의 공식 지원이라는 점에 무게를 두며, 기존 Rust CUDA 워크플로에 거의 바로 넣을 수 있을지 주목했다.\n- 회의론은 Rust의 메모리 모델이 CUDA의 실행 의미와 얼마나 잘 맞는지, 그리고 저수준 최적화가 많은 커널 코드에서 안전성이 실제로 얼마나 늘어나는지 따졌다.\n- 일부는 엔비디아의 Spark/Ada 활용 사례까지 언급하며, 회사 차원의 안전 언어 전략이 어디까지 확장되는지도 관심 있게 봤다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T18:04:05.394328+00:00"
-    },
-    {
-      "id": "95a5f50da740b0693d95b120d0f41425fea211ac",
-      "title_hash": "5d3443e8417d70a1cdde2a0a11cd637f434a12d5",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Interfaze: A new model architecture built for high accuracy at scale",
-      "link": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
-      "published_at": "2026-05-11T16:22:31+00:00",
-      "summary": "HN story type: story HN points: 15 HN comments: 3 HN top comments: wood_spirit: > These are deep neural network architectures that are task-specific for things like OCR, translation, or GUI detection. The way they consume and see data is trained to be task specific, which makes them up to 100x more accurate at their specific task. They also produce useful metadata like bounding boxes and confidence scores, letting developers build predictable workflows they can rely on. Does code extraction a... sareiodata: Smaller models really arent great at structured output. If this works it would be great for a local model that might not be as good but as long as it respects structured output will be vastly more useful. sweaterkokuro: This is cool, Id love to be able to fine tune on this architecture. Is this something on the roadmap ever?",
-      "fetched_at": "2026-05-11T18:01:13.281135+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48097078",
-      "hn_story_type": "story",
-      "hn_points": "15",
-      "hn_comments_count": "3",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48097078",
-      "hn_item_text": "",
-      "hn_comment_preview": "wood_spirit: > These are deep neural network architectures that are task-specific for things like OCR, translation, or GUI detection. The way they consume and see data is trained to be task specific, which makes them up to 100x more accurate at their specific task. They also produce useful metadata like bounding boxes and confidence scores, letting developers build predictable workflows they can rely on. Does code extraction a...\nsareiodata: Smaller models really arent great at structured output. If this works it would be great for a local model that might not be as good but as long as it respects structured output will be vastly more useful.\nsweaterkokuro: This is cool, Id love to be able to fine tune on this architecture. Is this something on the roadmap ever?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=9,tools_agents=16,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 16,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "architecture"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "workflow",
-            "ide"
-          ],
-          "support_hits": [
-            "workflow",
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "workflow",
-        "ide",
-        "local"
-      ],
-      "detail_slug": "95a5f50da740b0693d95b120d0f41425fea211ac",
-      "is_english_source": true,
-      "translated_title": "인터페이즈: 대규모 처리에 맞춘 고정확도 모델 아키텍처",
-      "short_summary": "Interfaze는 OCR, 번역, GUI 인식처럼 목적이 분명한 작업에서 정확도와 확장성을 끌어올리려는 모델 아키텍처로 보인다. HN에서는 구조화된 출력과 예측 가능한 워크플로에 강점이 있다는 반응이 나왔다.",
-      "why_it_matters": "범용 모델 하나로 모든 문제를 풀기보다, 업무별로 잘게 나눈 특화 모델을 운영에 붙이려는 흐름이 더 또렷해지고 있다. 정확도뿐 아니라 결과 형식의 안정성까지 챙기려는 팀이라면 눈여겨볼 만한 이야기다.\n- OCR, 번역, GUI 탐지처럼 입력과 출력이 분명한 업무에서는 범용 LLM보다 전용 아키텍처가 더 나은 선택지가 될 수 있다는 점을 시사한다.\n- 바운딩 박스나 신뢰도 점수 같은 메타데이터를 함께 내주면 후처리와 검수 자동화가 쉬워진다. 운영 파이프라인을 더 예측 가능하게 짤 수 있다.\n- 특히 로컬 모델이나 소형 모델을 써야 하는 환경에서는 '좋은 문장'보다 '형식을 지키는 출력'이 더 절실하다. 실무에선 이 차이가 바로 배포 가능성으로 이어진다.",
-      "hn_reaction_summary": "초기 HN 반응은 크진 않지만 대체로 호의적이다. 화제성보다도 실제로 어디에 붙일 수 있는지, 어떤 출력 품질을 보장하는지가 더 많이 거론됐다.\n- 가장 많이 나온 평가는 '범용 모델'이 아니라 OCR·번역·GUI 탐지 같은 작업 특화형 구조라는 점이다. 이 덕분에 정확도와 워크플로 예측 가능성이 높아질 수 있다는 의견이 있었다.\n- 반복된 실무 포인트는 구조화된 출력이다. 작은 모델은 이 부분이 약한데, 형식만 안정적으로 맞춰줘도 로컬 환경에서 훨씬 쓸모가 커진다는 반응이 나왔다.\n- 한편으로는 미세조정 지원 여부를 묻는 댓글도 있었다. 관심은 있지만, 실제 도입 전에는 얼마나 열려 있는 아키텍처인지 확인이 필요하다는 분위기다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T18:04:05.394328+00:00"
-    },
-    {
-      "id": "ded6381a1e19fb87762ca84fa27583fe331859e5",
-      "title_hash": "f4673df12ab6140318d612c50d8fafba4328ea8d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: TikTok but for Scientific Papers",
-      "link": "https://andreaturchet.github.io/website/index.html",
-      "published_at": "2026-05-11T16:05:50+00:00",
-      "summary": "HN story type: story HN points: 27 HN comments: 19 HN top comments: kamranjon: Just wanted to maybe make a light suggestions that, for marketing purposes, this really doesn't need any suggestion of TikTok and also might benefit from less heavy handed mentions of AI. I think it provides a real value proposition on its own without needing to rely on those two things to sell itself. They are pretty polarized terms at this point and I can sort of understand the initial revulsion from hearing Tik... vinni2: This is exactly the problem with science reporting. All things can go wrong like click bait, out of context conclusions etc will go wrong. mufasachan: Insightful comment ahead: Is the gravity set very high or am I getting too old to play Flappy Bird with Transformers?",
-      "fetched_at": "2026-05-11T18:01:13.281135+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48096842",
-      "hn_story_type": "story",
-      "hn_points": "27",
-      "hn_comments_count": "19",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48096842",
-      "hn_item_text": "",
-      "hn_comment_preview": "kamranjon: Just wanted to maybe make a light suggestions that, for marketing purposes, this really doesn't need any suggestion of TikTok and also might benefit from less heavy handed mentions of AI. I think it provides a real value proposition on its own without needing to rely on those two things to sell itself. They are pretty polarized terms at this point and I can sort of understand the initial revulsion from hearing Tik...\nvinni2: This is exactly the problem with science reporting. All things can go wrong like click bait, out of context conclusions etc will go wrong.\nmufasachan: Insightful comment ahead: Is the gravity set very high or am I getting too old to play Flappy Bird with Transformers?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=8,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 8,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "show hn",
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 8,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "show hn",
-        "index"
-      ],
-      "detail_slug": "ded6381a1e19fb87762ca84fa27583fe331859e5",
-      "is_english_source": true,
-      "translated_title": "틱톡처럼 넘겨보는 과학 논문 탐색 앱",
-      "short_summary": "과학 논문을 숏폼 피드처럼 훑어보게 만든 서비스를 HN에서 소개했다. 접근은 신선하다는 반응과 함께, 짧은 형식이 논문 맥락을 지우고 과장된 해석을 부를 수 있다는 우려도 나왔다.",
-      "why_it_matters": "논문을 찾고 읽는 방식이 검색창과 학술 데이터베이스 중심에서 추천 피드형 경험으로 넓어질 수 있다는 점에서 눈여겨볼 만하다.\n\n- 연구자와 개발자는 익숙한 모바일 인터페이스로 낯선 분야 논문까지 더 빠르게 훑어볼 수 있다.\n- 반대로 제목과 짧은 요약만 소비하는 흐름이 굳어지면 방법론과 한계가 빠진 채 결론만 퍼질 위험도 커진다.\n- 리서치 툴을 만드는 팀이라면 추천 자체보다 원문 연결, 출처 표기, 과장 방지 장치가 실제 경쟁력이 될 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 '아이디어는 재밌지만 포장 방식과 정보 왜곡 가능성은 신중히 봐야 한다'는 쪽에 가까웠다.\n\n- 여러 반응은 'TikTok'과 'AI'를 전면에 내세운 소개가 서비스의 본래 가치를 흐리고 거부감만 키울 수 있다고 봤다.\n- 가장 많이 나온 우려는 숏폼 과학 콘텐츠가 클릭 유도와 맥락 손실을 낳아 기존 과학 보도의 문제를 더 키울 수 있다는 점이었다.\n- 한편 게임처럼 보이는 인터페이스와 사용감에 대한 농담도 나와, 재미와 진지함의 균형이 실제 제품 완성도를 가를 논점으로 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T18:04:05.394328+00:00"
-    },
-    {
-      "id": "551474b7c211419213e5d3a7230dd77cffeca26e",
-      "title_hash": "d8801c75c2116a5ac82e8137b4ea5901b3163da3",
-      "source": "GeekNews",
-      "title": "Show GN: AI 도구 궁합으로 풀어낸 ABTI 테스트",
-      "link": "https://news.hada.io/topic?id=29386",
-      "published_at": "2026-05-11T12:50:25+00:00",
-      "summary": "AI 도구들을 성능표가 아니라 캐릭터와 관계 궁합으로 풀어낸 ABTI 테스트 https://ai-kemi-test.pages.dev/ 10개의 질문에 답하면 ChatGPT, Claude, Gemini, Grok, Perplexity, Copilot, Midjourney, Suno 중 나와 가장 잘 맞는 AI 캐릭터 결과가 나옴 각 AI를 실제 기능 추천이 아니라 사람 같",
-      "fetched_at": "2026-05-11T13:51:00.956726+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "copilot"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "copilot"
-      ],
-      "detail_slug": "551474b7c211419213e5d3a7230dd77cffeca26e",
-      "is_english_source": false,
-      "sent_at": "2026-05-11T13:53:41.270155+00:00"
     }
   ],
   "topic_digests": {
