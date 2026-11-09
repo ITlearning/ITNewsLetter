@@ -1,6 +1,620 @@
 {
   "items": [
     {
+      "id": "561a8e9e082dad740944c0b965b341c42183b06e",
+      "title_hash": "774314d9c2a88027195866e53e89248142ca0c07",
+      "source": "GeekNews",
+      "title": "[AI 코딩] 클로드 코드 테스트 게이트 exit 1 대 2, 통과한 쪽과 막은 쪽은 무엇이 달랐을까",
+      "link": "https://news.hada.io/topic?id=36873&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-09T05:16:02+00:00",
+      "summary": "Claude Code 훅 검사기가 \"막음\" 을 찍고 exit 1 로 끝나면 막힐까요? 아니었습니다, PreToolUse(Write) 훅이 exit 1 일 때 모델은 완료했다고 답했고 파일도 그대로 만들어졌습니다. $ claude -p --model haiku --setting-sources project --allowedTools \"Write\" \"hello.txt 파일을 만들고 hi 한 줄을 써. 막히면 막힌 이유를 한 줄로 적고 다른 방법은 쓰지 마.\" == 훅이 exit 1 로 끝날 때 완료했습니다. hello.txt 파일이 생성되었고 \"hi\"가 한 줄 들어있습니다. hello.txt: 생김(hi) 같은 스크립트의 마지막 숫자만 2 로 바꾸자 …",
+      "fetched_at": "2026-11-09T06:03:39.451917+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "62",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=17,practical_tech=2,tools_agents=17,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 17,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "tool",
+        "claude + code"
+      ],
+      "detail_slug": "561a8e9e082dad740944c0b965b341c42183b06e",
+      "is_english_source": false,
+      "sent_at": "2026-11-09T06:06:08.032720+00:00"
+    },
+    {
+      "id": "ad6a12745eb644ce5c6eb598f01a682973b7f269",
+      "title_hash": "eb1568abcb712f3751459e463fcf3652278332e2",
+      "source": "GeekNews",
+      "title": "systemd는 Rust를 사랑한다",
+      "link": "https://news.hada.io/topic?id=36851&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-09T00:01:46+00:00",
+      "summary": "systemd가 Rust 지원을 병합 해 개별 바이너리를 C뿐 아니라 Rust로도 작성할 수 있게 됨. 핵심 공유 라이브러리는 당분간 C로 유지함 공통 C 코드를 Rust 크레이트로 감싸는 방식 으로 핵심 API를 공유하며, 구현 언어와 관계없이 옵션 처리, 도움말, 오류 메시지의 동작을 동일하게 유지함 Rust 빌드에도 기존 meson 을 사용하고 cargo와 Rust 표준 라이브러리는 사용하지 않음. 외부 크레이트 의존성 도입에도 보수적인 정책을 적용함 메모리 할당 실패를 처리하는 자체 할당자 크레이트 를 제공하며, 안정적인 C 코드를 단순히 언어를 바 …",
+      "fetched_at": "2026-11-09T06:03:39.451917+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=12,practical_tech=12,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "rust",
+            "api"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "api",
+        "코드"
+      ],
+      "detail_slug": "ad6a12745eb644ce5c6eb598f01a682973b7f269",
+      "is_english_source": false,
+      "sent_at": "2026-11-09T06:06:08.032720+00:00"
+    },
+    {
+      "id": "32df6de681542879489d9a87953f2f300d25ec8a",
+      "title_hash": "d6398c7a93f71c7122ff9c98d2685dcd7836a356",
+      "source": "GeekNews",
+      "title": "Harvest에 작별을, 시간 추적과 청구 서비스의 요금 개편에 실망하다",
+      "link": "https://news.hada.io/topic?id=36869&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-09T04:35:18+00:00",
+      "summary": "약 10년간 독립 계약자로 일해 온 이용자가 Harvest 의 요금 개편과 고객 지원 변화에 실망해 다른 청구 서비스를 찾고 있음 Harvest는 작업 시간 기록부터 청구서 발송, 결제 확인까지 지원하며, 이 이용자에게 단순하고 신뢰할 수 있는 인터페이스 와 합리적인 월 요금이 장점이었음 2025년 Bending Spoons 에 인수된 뒤, 전체 이용자를 새 기업용 요금제와 무제한 사용 과금 모델로 옮기면서 이 이용자의 월 요금이 13.32달러에서 133.98달러로 인상 됨 월 12.65달러인 flex 요금제 도 있지만, 기존 약 3%의 카드 거래 수수료에 2%를 추가로 …",
+      "fetched_at": "2026-11-09T06:03:39.451917+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "52",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=4,strategy_insight=4,industry_business=7",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 4,
+        "strategy_insight": 4,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "인수"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "인수",
+        "기업"
+      ],
+      "detail_slug": "32df6de681542879489d9a87953f2f300d25ec8a",
+      "is_english_source": false,
+      "sent_at": "2026-11-09T06:06:08.032720+00:00"
+    },
+    {
+      "id": "12dfafb9233fa57cf3f7772e7352d70c765ecbd5",
+      "title_hash": "da3b7f996fe540d1aecc91bd8d7066f73e80dd4a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Ask HN: How do you manage your AI agents' context across clients and projects?",
+      "link": "https://news.ycombinator.com/item?id=50403153",
+      "published_at": "2026-11-07T10:01:48+00:00",
+      "summary": "HN story type: story HN points: 35 HN comments: 26 HN post text: Hi Guys, like many of you I work with AI agents every day and across several clients. The major time cost for me is to re-explaining context and past decisions, client rules, that we already do. To finish every tools as its own memory. So I’m curious how you actually handle this: 1. When you start a new session, how do you give context to the agent (context came from chat, mail, ticket ...) ? 2. Do you use more than one agent type (claude, codex ...) ? And if yes, how do you carry context between agents ? 3. If you work for several clients, how do you keep their context separate ? 4. The last time something went wrong ( an agent used a rejected approach, forgot a decision ...), what happened, and how much time did it cost to you ? 5. Did you paid or built a tool that helped you with these problems ? Do you still use it ? I’m exploring whether to build something, so I’m trying to learn how other people really work. Thanks for your return. HN top comments: MadBrad-Develop: Yo! I made a database that is based on the old school IBM1401 punchcard system, and set a wake phrase which works in the IDE's MCP so that the state is held with just a couple hundred tokens being used to wake and continue the work! I use multiple agents, and they all use the same database to maintain continuity. It allows me to use more than one at a time if needed(I do research) or switch between turns depending... lp92: For the application I'm working on right now, I have tons of documentation. Every feature and even bug fixes have a TDD, FDD, Implementation Plan and/or RCA document in Markdown format. And these are grouped under logical sub folders. I also maintain a up to date master System Architect and Design document. Oh and a master index document listing every file along with a brief overview of the file. Its very easy to... spike021: I haven't used an AGENTS or CLAUDE file as much lately. I'm not sure how much more it helps, but generally I try to have one or more project md files. These are curated to whatever I am currently working on. Perhaps references to certain modules, commands, schemas for DB, etc. This way the agent doesn't get too much context it doesn't necessarily need. Again, not sure how much more effective or efficient it is but...",
+      "fetched_at": "2026-11-09T06:03:39.451917+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50403153",
+      "hn_story_type": "story",
+      "hn_points": "35",
+      "hn_comments_count": "26",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50403153",
+      "hn_item_text": "Hi Guys, like many of you I work with AI agents every day and across several clients. The major time cost for me is to re-explaining context and past decisions, client rules, that we already do. To finish every tools as its own memory. So I’m curious how you actually handle this: 1. When you start a new session, how do you give context to the agent (context came from chat, mail, ticket ...) ? 2. Do you use more than one agent type (claude, codex ...) ? And if yes, how do you carry context between agents ? 3. If you work for several clients, how do you keep their context separate ? 4. The last time something went wrong ( an agent used a rejected approach, forgot a decision ...), what happened, and how much time did it cost to you ? 5. Did you paid or built a tool that helped you with these problems ? Do you still use it ? I’m exploring whether to build something, so I’m trying to learn how other people really work. Thanks for your return.",
+      "hn_comment_preview": "MadBrad-Develop: Yo! I made a database that is based on the old school IBM1401 punchcard system, and set a wake phrase which works in the IDE's MCP so that the state is held with just a couple hundred tokens being used to wake and continue the work! I use multiple agents, and they all use the same database to maintain continuity. It allows me to use more than one at a time if needed(I do research) or switch between turns depending...\nlp92: For the application I'm working on right now, I have tons of documentation. Every feature and even bug fixes have a TDD, FDD, Implementation Plan and/or RCA document in Markdown format. And these are grouped under logical sub folders. I also maintain a up to date master System Architect and Design document. Oh and a master index document listing every file along with a brief overview of the file. Its very easy to...\nspike021: I haven't used an AGENTS or CLAUDE file as much lately. I'm not sure how much more it helps, but generally I try to have one or more project md files. These are curated to whatever I am currently working on. Perhaps references to certain modules, commands, schemas for DB, etc. This way the agent doesn't get too much conte...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "61",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=37,practical_tech=16,tools_agents=37,strategy_insight=9,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 37,
+        "strategy_insight": 9,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "database",
+            "index"
+          ],
+          "support_hits": [
+            "implementation"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 37,
+          "strong_hits": [
+            "ai agent",
+            "codex",
+            "mcp",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ai agent",
+        "codex",
+        "mcp",
+        "ide",
+        "cli",
+        "agent",
+        "tool",
+        "claude + code"
+      ],
+      "detail_slug": "12dfafb9233fa57cf3f7772e7352d70c765ecbd5",
+      "is_english_source": true,
+      "sent_at": "2026-11-09T06:06:08.032720+00:00"
+    },
+    {
+      "id": "5a3cd713b694bd83a29f96099eb9813b16736f1a",
+      "title_hash": "339bfbfc45cd267498bba56925e655e252552ac1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB",
+      "link": "https://github.com/rkaehn/uniform",
+      "published_at": "2026-11-07T05:16:31+00:00",
+      "summary": "HN story type: story HN points: 18 HN comments: 4 HN post text: Over the past year, I have been working to find a better way to write cross-platform apps. The problems I am trying to solve: - Native frameworks only work on a subset of platforms, so a different implementation of the UI needs to be written per target. - They are updated at the same pace as the platform itself, which forces the developer to split the user base to be able to use new features, or wait a long time for bugs to get fixed. - They also force developers to use specific high-level languages, so they are not a good fit for apps with high performance requirements, like creative apps or games. - Cross-platform frameworks that rely on bundling a browser engine solve the problem of code reuse, but they inherit the limitations of HTML/CSS. - Those that take control over layout and rendering are not efficient and lightweight enough to be used on the web, and require the use of compiled languages. Ideally, we would be able to bundle the UI framework directly with the application. This would allow developers to use new features and fix issues in the UI framework immediately. It would also allow ideas for improvements to compete in a natural way, rather than being decided by a co... HN top comments: socalgal2: The problem here is all the OS features are discarded. Can't insert password from password manager because to do so the page would need to access to passwords. Can't use the user dictionary because to do so would be a privacy issue. Doesn't support CJK and other languages that require an input method editor. etc.... It also means a platform's features are not duplicated so your app's behavior sticks out as having... pmkary: I have been dreaming about this for ages, ditching the DOM and building everything in WASM for example. This is insanely great. mkl: The name seems very un-searchable and already overused (I found several other web Uniforms while testing searching for yours, which I didn't find). The demo seemed low framerate or something on Chrome Android, and apparently my main, Firefox Android, doesn't support WebGPU by default.",
+      "fetched_at": "2026-11-09T06:03:39.451917+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50401844",
+      "hn_story_type": "story",
+      "hn_points": "18",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50401844",
+      "hn_item_text": "Over the past year, I have been working to find a better way to write cross-platform apps. The problems I am trying to solve: - Native frameworks only work on a subset of platforms, so a different implementation of the UI needs to be written per target. - They are updated at the same pace as the platform itself, which forces the developer to split the user base to be able to use new features, or wait a long time for bugs to get fixed. - They also force developers to use specific high-level languages, so they are not a good fit for apps with high performance requirements, like creative apps or games. - Cross-platform frameworks that rely on bundling a browser engine solve the problem of code reuse, but they inherit the limitations of HTML/CSS. - Those that take control over layout and rendering are not efficient and lightweight enough to be used on the web, and require the use of compiled languages. Ideally, we would be able to bundle the UI framework directly with the application. This would allow developers to use new features and fix issues in the UI framework immediately. It would also allow ideas for improvements to compete in a natural way, rather than being decided by a co...",
+      "hn_comment_preview": "socalgal2: The problem here is all the OS features are discarded. Can't insert password from password manager because to do so the page would need to access to passwords. Can't use the user dictionary because to do so would be a privacy issue. Doesn't support CJK and other languages that require an input method editor. etc.... It also means a platform's features are not duplicated so your app's behavior sticks out as having...\npmkary: I have been dreaming about this for ages, ditching the DOM and building everything in WASM for example. This is insanely great.\nmkl: The name seems very un-searchable and already overused (I found several other web Uniforms while testing searching for yours, which I didn't find). The demo seemed low framerate or something on Chrome Android, and apparently my main, Firefox Android, doesn't support WebGPU by default.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=26,practical_tech=26,tools_agents=10,strategy_insight=2,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 26,
+        "tools_agents": 10,
+        "strategy_insight": 2,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 26,
+          "strong_hits": [
+            "performance",
+            "framework",
+            "show hn"
+          ],
+          "support_hits": [
+            "implementation",
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "framework",
+        "show hn",
+        "implementation",
+        "testing",
+        "github.com"
+      ],
+      "detail_slug": "5a3cd713b694bd83a29f96099eb9813b16736f1a",
+      "is_english_source": true,
+      "sent_at": "2026-11-09T06:06:08.032720+00:00"
+    },
+    {
+      "id": "cd0e6839c0e9fde0aab3f166f53b09d6fa516e5e",
+      "title_hash": "2f61e7f1154ad81cc139dca09ff8be6c9e1ad348",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Ask HN: What are you working on? (November 2026)",
+      "link": "https://news.ycombinator.com/item?id=50417407",
+      "published_at": "2026-11-08T21:20:20+00:00",
+      "summary": "HN story type: story HN points: 180 HN comments: 604 HN post text: What are you working on? What have you been curious about lately? HN top comments: shepherdjerred: My pet project is this match tracker for League of Legends: https://scout-for-lol.com I have a _lot_ of features working for my group of friends -- I am trying to polish them up and release them to all of my users I've been working on this for ~4-5 years. AI has made it so easy to add features like a data lake and SQL analysis of match history, and then an AI chat to interact! https://scout-for-lol.com/docs/refere... araarabish: I’ve been working on BilingualBulletin, an iOS app for learning a language from real news, books and podcasts. The coolest thing about the app is that nearly everything runs on the phone, and there’s no account. I’m using Apple’s on-device translation, you can ask questions to Apple’s foundation models, and audio and video is even transcribed locally. It supports 19 languages, and comes with a lot of built-in RSS... jzig: I was laid off a few weeks ago. Then I learned my dad’s carpet cleaning company has been struggling, so I started learning about Google Local Service Ads to help him out. THEN I learned his old Windows desktop CRM was discontinued and one OS update away from no longer working. I wanted a way to track every dollar spent to determine return on ad spend, but the Google LSA dashboard left a lot to be desired. And exis...",
+      "fetched_at": "2026-11-09T06:03:39.451917+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50417407",
+      "hn_story_type": "story",
+      "hn_points": "180",
+      "hn_comments_count": "604",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50417407",
+      "hn_item_text": "What are you working on? What have you been curious about lately?",
+      "hn_comment_preview": "shepherdjerred: My pet project is this match tracker for League of Legends: https://scout-for-lol.com I have a _lot_ of features working for my group of friends -- I am trying to polish them up and release them to all of my users I've been working on this for ~4-5 years. AI has made it so easy to add features like a data lake and SQL analysis of match history, and then an AI chat to interact! https://scout-for-lol.com/docs/refere...\naraarabish: I’ve been working on BilingualBulletin, an iOS app for learning a language from real news, books and podcasts. The coolest thing about the app is that nearly everything runs on the phone, and there’s no account. I’m using Apple’s on-device translation, you can ask questions to Apple’s foundation models, and audio and video is even transcribed locally. It supports 19 languages, and comes with a lot of built-in RSS...\njzig: I was laid off a few weeks ago. Then I learned my dad’s carpet cleaning company has been struggling, so I started learning about Google Local Service Ads to help him out. THEN I learned his old Windows desktop CRM was discontinued and one OS update away from no longer working. I wanted a way to track every dollar spent t...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "39",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=9,strategy_insight=7,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 9,
+        "strategy_insight": 7,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sql",
+        "local + run"
+      ],
+      "detail_slug": "cd0e6839c0e9fde0aab3f166f53b09d6fa516e5e",
+      "is_english_source": true,
+      "sent_at": "2026-11-09T06:06:08.032720+00:00"
+    },
+    {
+      "id": "9bc319705c0133f2c3a642f34b29a3705184e42a",
+      "title_hash": "928f443418840f3207b1ee99b1345489c77fd441",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Chimera Vocal Synth",
+      "link": "https://chimera-vocal-synth.vercel.app/",
+      "published_at": "2026-11-08T22:36:03+00:00",
+      "summary": "HN story type: story HN points: 159 HN comments: 23 HN top comments: ykl: There are a bunch of fun examples on Twitter of things people are doing with Chimera: https://x.com/jamesonhodge/status/2118733265372860826 https://x.com/klausbrave/status/2119372853502177323 https://x.com/CupOJoseph/status/2119260104641900595 https://x.com/jamesonhodge/status/2119085825509954042 https://x.com/klausbrave/status/2119319095275671582 goodmythical: I could see this being very useful in a number of applications. Being trans, of course voice affirmation training. Then singing comes to mind, followed by language learning. A solid visual demo like this would help give people more than \"okay now more like the a in aunt\" starshadowx2: I guess this is like a modern version of pink trombone - https://dood.al/pinktrombone/ Also is the name a Teto reference?",
+      "fetched_at": "2026-11-09T06:03:39.451917+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50418182",
+      "hn_story_type": "story",
+      "hn_points": "159",
+      "hn_comments_count": "23",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50418182",
+      "hn_item_text": "",
+      "hn_comment_preview": "ykl: There are a bunch of fun examples on Twitter of things people are doing with Chimera: https://x.com/jamesonhodge/status/2118733265372860826 https://x.com/klausbrave/status/2119372853502177323 https://x.com/CupOJoseph/status/2119260104641900595 https://x.com/jamesonhodge/status/2119085825509954042 https://x.com/klausbrave/status/2119319095275671582\ngoodmythical: I could see this being very useful in a number of applications. Being trans, of course voice affirmation training. Then singing comes to mind, followed by language learning. A solid visual demo like this would help give people more than \"okay now more like the a in aunt\"\nstarshadowx2: I guess this is like a modern version of pink trombone - https://dood.al/pinktrombone/ Also is the name a Teto reference?",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=4,tools_agents=2,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "learning"
+      ],
+      "detail_slug": "9bc319705c0133f2c3a642f34b29a3705184e42a",
+      "is_english_source": true,
+      "sent_at": "2026-11-09T06:06:08.032720+00:00"
+    },
+    {
       "id": "ad4fc66018545cacc6c7218b43bd6641118b92a8",
       "title_hash": "d373853977b99a00c2f73640e97f4cfb7da79012",
       "source": "GeekNews",
@@ -166240,656 +166854,6 @@
       "detail_slug": "0c78dfd96b0e42344606f95c5d6731aea35d6090",
       "is_english_source": false,
       "sent_at": "2026-05-12T02:25:50.316838+00:00"
-    },
-    {
-      "id": "2132ac5e3b97f1f95f1da5afc7a408f7e0ffa496",
-      "title_hash": "fd6519857f68904e76db788a4c5ac0a4dbd2f108",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Postmortem: TanStack npm supply-chain compromise",
-      "link": "https://tanstack.com/blog/npm-supply-chain-compromise-postmortem",
-      "published_at": "2026-05-11T21:08:25+00:00",
-      "summary": "HN story type: story HN points: 550 HN comments: 200 HN post text: https://github.com/TanStack/router/issues/7383 HN top comments: cube00: Please be careful when revoking tokens. It looks like the payload installs a dead-man's switch at ~/.local/bin/gh-token-monitor.sh as a systemd user service (Linux) / LaunchAgent com.user.gh-token-monitor(macOS). It polls api.github.com/user with the stolen token every 60s, and if the token is revoked (HTTP 40x), it runs rm -rf ~/. https://github.com/TanStack/router/issues/7383#issuecomment-... ezekg: > Unpublish was unavailable for nearly all affected packages because of npm's \"no unpublish if dependents exist\" policy. We have to rely on npm security to pull tarballs server-side, which adds hours of delay during which malicious tarballs remain installable Per https://docs.npmjs.com/policies/unpublish : > If your package does not meet the unpublish policy criteria, we recommend deprecating the package. This all... varunsharma07: @mistralai/mistralai npm package was also compromised as part of this worm https://github.com/mistralai/client-ts/issues/217 It has been pulled from the npm registry now.",
-      "fetched_at": "2026-05-12T02:22:56.530360+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48100706",
-      "hn_story_type": "story",
-      "hn_points": "550",
-      "hn_comments_count": "200",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48100706",
-      "hn_item_text": "https://github.com/TanStack/router/issues/7383",
-      "hn_comment_preview": "cube00: Please be careful when revoking tokens. It looks like the payload installs a dead-man's switch at ~/.local/bin/gh-token-monitor.sh as a systemd user service (Linux) / LaunchAgent com.user.gh-token-monitor(macOS). It polls api.github.com/user with the stolen token every 60s, and if the token is revoked (HTTP 40x), it runs rm -rf ~/. https://github.com/TanStack/router/issues/7383#issuecomment-...\nezekg: > Unpublish was unavailable for nearly all affected packages because of npm's \"no unpublish if dependents exist\" policy. We have to rely on npm security to pull tarballs server-side, which adds hours of delay during which malicious tarballs remain installable Per https://docs.npmjs.com/policies/unpublish : > If your package does not meet the unpublish policy criteria, we recommend deprecating the package. This all...\nvarunsharma07: @mistralai/mistralai npm package was also compromised as part of this worm https://github.com/mistralai/client-ts/issues/217 It has been pulled from the npm registry now.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "46",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=22,strategy_insight=2,industry_business=11",
-      "slot_scores": {
-        "practical_tech": 22,
-        "tools_agents": 22,
-        "strategy_insight": 2,
-        "industry_business": 11
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 22,
-          "strong_hits": [
-            "security",
-            "api"
-          ],
-          "support_hits": [
-            "postmortem"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 22,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [
-            "agent",
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + agent"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 11,
-          "strong_hits": [
-            "launch"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "supply + chain"
-          ],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "api",
-        "postmortem",
-        "local + run"
-      ],
-      "detail_slug": "2132ac5e3b97f1f95f1da5afc7a408f7e0ffa496",
-      "is_english_source": true,
-      "translated_title": "TanStack npm 공급망 침해 사고 사후 분석",
-      "short_summary": "TanStack가 npm 공급망 침해 사고의 경위와 대응 과정을 공개했다. HN에서는 토큰 탈취 뒤 로컬에 남는 악성 코드와 npm의 느린 삭제 정책이 피해를 키웠다는 지적이 이어졌다.",
-      "why_it_matters": "이번 사례는 패키지 배포 계정이 뚫리면 라이브러리 오염에서 끝나지 않고 개발자 PC와 CI 비밀값까지 연쇄적으로 흔들릴 수 있음을 보여준다. 프런트엔드와 자바스크립트 생태계에 기대는 팀이라면 의존성 배포와 사고 대응 절차를 다시 점검할 시점이다.\n\n- 토큰을 폐기하는 것만으로 끝나지 않을 수 있다. 댓글 맥락상 악성 코드가 로컬에 감시 스크립트를 남기고, 토큰이 무효화되면 파괴 동작을 시도했다는 분석이 나왔다.\n- npm의 unpublish 제한 때문에 악성 패키지가 확인된 뒤에도 한동안 설치 가능할 수 있다. 내부 미러 차단, 캐시 삭제, 잠금 파일 재생성 같은 대응 절차를 미리 문서화해 둘 필요가 있다.\n- 실무적으로는 배포 계정 분리, 최소 권한 토큰, 2FA, 의존성 버전 고정, 새 릴리스 승인 절차를 더 엄격하게 가져가야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 충격과 경계 쪽에 가까웠다. 단순한 패키지 변조가 아니라 탈취된 토큰과 로컬 지속성까지 결합된 공격이라는 점이 특히 크게 받아들여졌다.\n\n- 가장 많이 반복된 논점은 토큰 revoke만으로는 대응이 끝나지 않는다는 점이었다. 로컬에 남는 감시 서비스나 스크립트 존재 여부를 함께 확인해야 한다는 반응이 많았다.\n- npm의 삭제 정책도 강한 비판을 받았다. 악성 tarball을 즉시 내리지 못해 몇 시간씩 노출 구간이 생긴다는 점이 실무 리스크로 지목됐다.\n- TanStack만의 문제가 아니라 다른 npm 패키지도 함께 언급되면서, 특정 프로젝트보다 생태계 전반의 공급망 방어 체계를 봐야 한다는 시각이 두드러졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-12T02:25:50.316838+00:00"
-    },
-    {
-      "id": "fb65ac5a4e7ed4abe8ab2160a34d5b4842f5d7e9",
-      "title_hash": "42703906f4359c236c21078a720e56e2cfc7a7a3",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "I let AI build a tool to help me figure out what was waking me up at night",
-      "link": "https://martin.sh/i-let-ai-build-a-tool-to-help-me-figure-out-what-was-waking-me-up-at-night/",
-      "published_at": "2026-05-11T21:04:10+00:00",
-      "summary": "HN story type: story HN points: 76 HN comments: 85 HN top comments: babblingfish: Hey, OP, consider sleeping with ear plugs. They're scientifically proven to reduce night time awakenings due to audio disturbances. [1] [1] https://academic.oup.com/sleep/advance-article/doi/10.1093/s... gverrilla: Have you tried sleeping without a watch? jmspring: Interesting. I may need to add some sensors. I spend time in two places. San Juan Islands WA and Santa Cruz, CA. On island, nights are too quiet. During the day, a float plane a mile away sounds like it is next door. In Santa Cruz, the house is on a major street. Busses, ambulances all sorts of yahoos. I sleep better quiet. But I sleep even better when settled - mind not going, etc. I generally don’t sleep well at...",
-      "fetched_at": "2026-05-12T02:22:56.530360+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48100662",
-      "hn_story_type": "story",
-      "hn_points": "76",
-      "hn_comments_count": "85",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48100662",
-      "hn_item_text": "",
-      "hn_comment_preview": "babblingfish: Hey, OP, consider sleeping with ear plugs. They're scientifically proven to reduce night time awakenings due to audio disturbances. [1] [1] https://academic.oup.com/sleep/advance-article/doi/10.1093/s...\ngverrilla: Have you tried sleeping without a watch?\njmspring: Interesting. I may need to add some sensors. I spend time in two places. San Juan Islands WA and Santa Cruz, CA. On island, nights are too quiet. During the day, a float plane a mile away sounds like it is next door. In Santa Cruz, the house is on a major street. Busses, ambulances all sorts of yahoos. I sleep better quiet. But I sleep even better when settled - mind not going, etc. I generally don’t sleep well at...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "tool"
-      ],
-      "detail_slug": "fb65ac5a4e7ed4abe8ab2160a34d5b4842f5d7e9",
-      "is_english_source": true,
-      "translated_title": "AI로 만든 수면 추적 도구로 야간 각성 원인 찾기",
-      "short_summary": "작성자가 AI의 도움으로 밤중에 자신을 깨우는 요인을 추적하는 도구를 만든 경험담이다. HN에서는 소음, 웨어러블, 생활 습관처럼 기술 밖 변수까지 함께 봐야 한다는 반응이 이어졌다.",
-      "why_it_matters": "개인용 센서와 AI를 묶어 자기 몸 상태를 직접 계측하는 흐름이 어디까지 왔는지 보여주는 사례다. 수면처럼 원인이 복합적인 문제에서는 데이터를 더 모으는 일과 바로 바꿔볼 수 있는 개입을 어떻게 나눌지가 실무 포인트로 읽힌다.\n- AI를 코드 작성 보조가 아니라 생활 문제를 푸는 맞춤형 도구 제작에 썼다는 점이 눈에 띈다.\n- 웨어러블, 소음, 수면 환경처럼 흩어진 신호를 한데 묶어보려는 접근은 헬스케어나 퍼스널 데이터 제품 기획에도 닿아 있다.\n- 다만 댓글 흐름처럼 귀마개나 시계 미착용 같은 단순한 조치가 먼저일 수 있어, 데이터 수집과 행동 실험의 우선순위 설계가 실제 활용성을 가른다.",
-      "hn_reaction_summary": "댓글 분위기는 흥미롭지만 약간은 회의적인 쪽에 가깝다. 도구 자체를 신기하게 보면서도, 정말 잠을 깨우는 원인이 무엇인지 판단하려면 센서보다 생활 변수와 측정 방식부터 점검해야 한다는 의견이 반복됐다.\n- 가장 많이 눈에 띄는 반응은 소음 문제였다. 귀마개가 야간 각성을 줄인다는 연구를 함께 들며 저비용 대안을 먼저 해보라는 조언이 나왔다.\n- 웨어러블이 오히려 수면에 영향을 줄 수 있다는 지적도 있었다. 시계를 빼고 자보라는 반응은 측정 도구가 변수로 끼어드는 문제를 짚는다.\n- 환경 차이와 심리 상태를 함께 봐야 한다는 경험담도 이어졌다. 조용한 곳과 시끄러운 곳의 차이만으로 설명되지 않고, 결국 마음이 가라앉았는지가 더 크다는 의견이 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-12T02:25:50.316838+00:00"
-    },
-    {
-      "id": "9b19d0859c5efd7ad46f0356c4488b98d130afb3",
-      "title_hash": "0fde4d5902d93d50141771df080c75214aa24f89",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Google says criminal hackers used AI to find a major software flaw",
-      "link": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
-      "published_at": "2026-05-11T13:20:14+00:00",
-      "summary": "HN story type: story HN points: 120 HN comments: 98 HN post text: Unlocked: https://www.nytimes.com/2026/05/11/us/politics/google-hacker... , https://archive.ph/I4Ui5 https://apnews.com/article/google-ai-cybersecurity-exploitat... https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker... HN top comments: crazygringo: > “We have high confidence that the actor likely leveraged an A.I. model to support the discovery and weaponization of this vulnerability,” the report said. I wonder what gives them that \"high confidence\", as opposed to this being just a traditional zero-day? I'm not being snarky or critical, I'm genuinely wondering what about an attack could possibly indicate it was discovered with LLM assistance? Like, unless th... s3p: >But new A.I. models like Anthropic’s Mythos, which was announced last month, appear to be so good at finding such holes that Anthropic shared it only with a limited number of firms and government agencies in the United States and Britain. Immediate distrust of the article. GPT 5.5 is out with nearly the same capability. The author might be parroting company marketing, unable to discern that a lot of this is much... sowbug: Security will be a wedge to restrict the sophistication of open-weight and local LLMs, just as it's been used to demonize and restrict cypherpunk technologies.",
-      "fetched_at": "2026-05-12T02:22:56.530360+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48094641",
-      "hn_story_type": "story",
-      "hn_points": "120",
-      "hn_comments_count": "98",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48094641",
-      "hn_item_text": "Unlocked: https://www.nytimes.com/2026/05/11/us/politics/google-hacker... , https://archive.ph/I4Ui5 https://apnews.com/article/google-ai-cybersecurity-exploitat... https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker...",
-      "hn_comment_preview": "crazygringo: > “We have high confidence that the actor likely leveraged an A.I. model to support the discovery and weaponization of this vulnerability,” the report said. I wonder what gives them that \"high confidence\", as opposed to this being just a traditional zero-day? I'm not being snarky or critical, I'm genuinely wondering what about an attack could possibly indicate it was discovered with LLM assistance? Like, unless th...\ns3p: >But new A.I. models like Anthropic’s Mythos, which was announced last month, appear to be so good at finding such holes that Anthropic shared it only with a limited number of firms and government agencies in the United States and Britain. Immediate distrust of the article. GPT 5.5 is out with nearly the same capability. The author might be parroting company marketing, unable to discern that a lot of this is much...\nsowbug: Security will be a wedge to restrict the sophistication of open-weight and local LLMs, just as it's been used to demonize and restrict cypherpunk technologies.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=10,strategy_insight=7,industry_business=10",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 10,
-        "strategy_insight": 7,
-        "industry_business": 10
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "security",
-            "rust",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [
-            "company",
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "market + share"
-          ],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "rust",
-        "rag"
-      ],
-      "detail_slug": "9b19d0859c5efd7ad46f0356c4488b98d130afb3",
-      "is_english_source": true,
-      "translated_title": "구글 “범죄 해커가 AI로 중대 취약점 찾았다”",
-      "short_summary": "구글은 범죄 해커가 AI 모델을 활용해 대형 소프트웨어 취약점을 찾고 악용 준비까지 도운 정황이 있다고 밝혔다. HN에서는 이 판단의 근거와 업계의 과장 가능성을 함께 따져 보는 반응이 이어졌다.",
-      "why_it_matters": "AI가 취약점 탐색의 보조 도구를 넘어 실제 공격 준비 단계에 붙기 시작했다는 신호로 읽힌다. 보안팀과 개발팀 모두 대응 속도와 검증 체계를 다시 점검해야 한다.\n- 취약점 발굴과 익스플로잇 초안 작성이 빨라지면 패치가 늦은 서비스부터 먼저 노출될 가능성이 커진다.\n- 코드 리뷰, 퍼징, 의존성 점검 같은 방어 절차를 더 자주 돌리고, 공개 직후 패치 적용 시간을 줄이는 운영 역량이 중요해진다.\n- 동시에 AI가 개입했다는 주장만으로 위협을 해석하면 판단이 흔들릴 수 있어, 탐지 근거와 재현 가능한 증거를 분리해 보는 태도가 필요하다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 신중론에 가깝다. 해커가 AI를 썼을 수는 있다는 반응도 있었지만, 구글이 말한 ‘높은 확신’이 무엇에 근거하느냐는 질문이 반복해서 나왔다.\n- 가장 많이 나온 논점은 공격 흔적만 보고 LLM 사용 여부를 어떻게 구분하느냐는 점이다. 기존 제로데이 공격과 무엇이 다른지 설명이 더 필요하다는 반응이 많았다.\n- 일부는 특정 모델의 능력을 앞세운 보도가 기업 마케팅을 그대로 받아쓴 것 아니냐며 회의적으로 봤다.\n- 또 다른 축에서는 이런 서사가 앞으로 오픈웨이트나 로컬 모델 규제를 밀어붙이는 명분으로 쓰일 수 있다는 우려가 제기됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-12T02:25:50.316838+00:00"
-    },
-    {
-      "id": "fca430b97c7519498aa88037fbbb8777dbaedb5a",
-      "title_hash": "0e1c321c4cf3f85ac4b0e44103ce0f82698116cd",
-      "source": "GeekNews",
-      "title": "코드 작성에 쓰는 AI 코딩 에이전트는 유지보수 비용을 줄여야 함",
-      "link": "https://news.hada.io/topic?id=29399",
-      "published_at": "2026-05-11T16:34:31+00:00",
-      "summary": "새 코드 작성 속도보다 유지보수 비용 이 장기 생산성을 좌우함 예시 모델에서는 2년 반 뒤 유지보수가 전체 시간의 절반을 넘음 AI 에이전트가 산출량과 유지보수 비용을 함께 늘리면 효과가 빠르게 사라짐 에이전트를 중단해도 이미 만든 코드의...",
-      "fetched_at": "2026-05-11T22:12:24.641503+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "fca430b97c7519498aa88037fbbb8777dbaedb5a",
-      "is_english_source": false,
-      "sent_at": "2026-05-11T22:15:17.189047+00:00"
-    },
-    {
-      "id": "c88588eb1b84b4e4a07b820d4e6cd1257aed614a",
-      "title_hash": "d7fb67d3b233fa94cb708f86444cf4beabc0dea0",
-      "source": "GeekNews",
-      "title": "Ask GN: AI끼리 대화하는 환경에서 사람이 개입하는 서비스에 대해서 어떻게 생각하시나요?",
-      "link": "https://news.hada.io/topic?id=29397",
-      "published_at": "2026-05-11T16:17:54+00:00",
-      "summary": "저는 AI 응답을 더 잘 만드는 방법을 계속 고민해봤는데 대부분의 사람들은 AI와의 채팅에서 피드백을 주거나 수정해주는 일을 굉장히 귀찮아하는 것 같습니다. 그러다 Moltbook을 보게 됐습니다. 거기서는 AI 에이전트들이 서로 포스팅하고 댓글다는 모습을 볼 수 있는데 그걸 보다가 문득 이런 생각이 들었습",
-      "fetched_at": "2026-05-11T22:12:24.641503+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "c88588eb1b84b4e4a07b820d4e6cd1257aed614a",
-      "is_english_source": false,
-      "sent_at": "2026-05-11T22:15:17.189047+00:00"
-    },
-    {
-      "id": "e26107e9059b65a56944613e1719ba457eb0b54c",
-      "title_hash": "7deefd5bec58f5654e58c5648d31ae4aba5c0b8d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: OpenGravity – A zero-install, BYOK vanilla JS clone of Antigravity",
-      "link": "https://github.com/ab-613/opengravity",
-      "published_at": "2026-05-11T20:23:25+00:00",
-      "summary": "HN story type: story HN points: 17 HN comments: 7 HN post text: Hi. I’m a high school student studying for my GCSEs. I was using Google Antigravity heavily for my side projects, but I kept hitting the usage limits, and getting random \"agent terminated\" errors. So I decided to try build my own version of the IDE. I love the UI, so I copied it as accurately as possible, and then hooked up some logic into it, including the INCREDIBLY finicky webcontainer api. I tried to keep it super lightweight, no build steps, or dependencies, and now that its open source, I'm hoping people can build things on top of it that arent possible with closed source tools, like complex custom agent workflows. Some screenshots: - https://github.com/ab-613/OpenGravity/blob/main/examples/scr... - https://github.com/ab-613/OpenGravity/blob/main/examples/htm... What it's made from: - Pure Vanilla JS: no react, vue, or build step. Built entirely in plain HTML/CSS/JS to keep it super lightweight. - WebContainer API and xterm.js: Instead of faking a terminal, I (after much pain) hooked up the WebContainer API so the AI agent has a real, in browser linux environment to run shell commands, install dependencies, and edit local files. - BYOK (Bring Your Own Key): API key ALWAYS... HN top comments: kushalpandya: Should've named it ZeroGravity to stay true to its design goals. ab613: Edit: A mod suggested I add in how I actually use this! Right now, its honestly just a massive side project that serves as a fun distraction from my GCSE revision. But I mainly use it to test out quick HTML/CSS/JS ideas in my browser when I get an idea, without needing to boot up a full dev environment or worry about rate limits.",
-      "fetched_at": "2026-05-11T22:12:24.641503+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48100192",
-      "hn_story_type": "story",
-      "hn_points": "17",
-      "hn_comments_count": "7",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48100192",
-      "hn_item_text": "Hi. I’m a high school student studying for my GCSEs. I was using Google Antigravity heavily for my side projects, but I kept hitting the usage limits, and getting random \"agent terminated\" errors. So I decided to try build my own version of the IDE. I love the UI, so I copied it as accurately as possible, and then hooked up some logic into it, including the INCREDIBLY finicky webcontainer api. I tried to keep it super lightweight, no build steps, or dependencies, and now that its open source, I'm hoping people can build things on top of it that arent possible with closed source tools, like complex custom agent workflows. Some screenshots: - https://github.com/ab-613/OpenGravity/blob/main/examples/scr... - https://github.com/ab-613/OpenGravity/blob/main/examples/htm... What it's made from: - Pure Vanilla JS: no react, vue, or build step. Built entirely in plain HTML/CSS/JS to keep it super lightweight. - WebContainer API and xterm.js: Instead of faking a terminal, I (after much pain) hooked up the WebContainer API so the AI agent has a real, in browser linux environment to run shell commands, install dependencies, and edit local files. - BYOK (Bring Your Own Key): API key ALWAYS...",
-      "hn_comment_preview": "kushalpandya: Should've named it ZeroGravity to stay true to its design goals.\nab613: Edit: A mod suggested I add in how I actually use this! Right now, its honestly just a massive side project that serves as a fun distraction from my GCSE revision. But I mainly use it to test out quick HTML/CSS/JS ideas in my browser when I get an idea, without needing to boot up a full dev environment or worry about rate limits.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "64",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=40,practical_tech=33,tools_agents=40,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 33,
-        "tools_agents": 40,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 33,
-          "strong_hits": [
-            "open source",
-            "container",
-            "show hn",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 40,
-          "strong_hits": [
-            "workflow",
-            "ai agent",
-            "ide"
-          ],
-          "support_hits": [
-            "workflow",
-            "agent",
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + workflow",
-            "local + agent"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "workflow",
-        "ai agent",
-        "ide",
-        "agent",
-        "local",
-        "tool",
-        "agent + workflow",
-        "local + agent",
-        "github.com"
-      ],
-      "detail_slug": "e26107e9059b65a56944613e1719ba457eb0b54c",
-      "is_english_source": true,
-      "translated_title": "OpenGravity, 설치 없이 쓰는 BYOK 웹 IDE",
-      "short_summary": "구글 Antigravity의 사용 제한과 불안정한 종료 문제를 피하려고, 한 학생 개발자가 브라우저에서 바로 쓰는 오픈소스 IDE 클론을 만들었다. 순수 HTML·CSS·JS와 WebContainer API를 써서 설치 없이 터미널, 파일 수정, 의존성 설치까지 브라우저 안에서 처리한다.",
-      "why_it_matters": "닫힌 AI 코딩 도구를 그대로 쓰기보다, 직접 고쳐 쓰고 흐름을 바꿀 수 있는 웹 IDE 바탕이 나왔다는 점이 눈에 띈다.\n- 별도 설치나 빌드 과정 없이 브라우저에서 바로 띄울 수 있어, 빠른 프로토타이핑이나 사내 실험용 도구 제작에 진입 장벽이 낮다.\n- BYOK 방식이라 사용량 제한이나 정책 변화에 덜 묶인다. 팀이 모델 공급자나 키 관리 방식을 스스로 정할 여지도 있다.\n- WebContainer 기반으로 실제 셸 명령과 파일 편집이 돌아가므로, 단순 데모를 넘어 맞춤형 에이전트 워크플로를 붙이는 출발점으로 볼 만하다.",
-      "hn_reaction_summary": "댓글 분위기는 가볍고 호의적이다. 아직 반응 수가 많지 않아 완성도 검증보다는 발상과 실제 사용 맥락에 관심이 모였다.\n- 가장 눈에 띈 반응은 이름에 대한 농담이었다. 제품 포지셔닝보다 콘셉트 자체를 재미있게 본 분위기가 강하다.\n- 작성자는 이 도구를 브라우저에서 HTML·CSS·JS 아이디어를 빠르게 시험하는 용도로 쓴다고 설명했다. 전체 개발 환경을 켜지 않아도 된다는 점이 실사용 포인트로 읽혔다.\n- 반복된 쟁점은 기능 비교보다 '왜 직접 만들었는가'에 가까웠다. 사용 제한, 에이전트 종료 오류, 오픈소스로 확장 가능하다는 배경이 댓글 맥락의 중심이었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T22:15:17.189047+00:00"
-    },
-    {
-      "id": "e4debb8ed1b5b4991f3cd24f710efead4160c9ef",
-      "title_hash": "549f747bbf7a7212610dfba4944e435c40c75602",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Training an LLM in Swift, Part 1: Taking matrix mult from Gflop/s to Tflop/s",
-      "link": "https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html",
-      "published_at": "2026-05-10T17:05:05+00:00",
-      "summary": "HN story type: story HN points: 194 HN comments: 10 HN top comments: stockresearcher: FYI, The version of clang that ships with Xcode can compile openMP code if you provide the right compiler flags. You have to provide libomp.dylib and a few header files, but the folks that run R compile it and provide it for distribution (they need it). If you trust R, you can probably trust this too: https://mac.r-project.org/openmp/ dagmx: This is a pretty phenomenal article. Even for those who don’t care about LLM use, this is just a great article on optimizing Swift performance, which is sadly something that doesn’t have a lot of written material for. I’m curious if the AMX instructions are truly secret. In theory you could use an M4 or above and get them via SME I think but I’m just guessing as I’ve never tried intrinsic from Swift myself. oflannabhra: Matt Gallagher and CocoaWithLove are major highlights from the early days of my journey in learning iOS development. Awesome to see he is still publishing such high quality information!",
-      "fetched_at": "2026-05-11T22:12:24.641503+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48085685",
-      "hn_story_type": "story",
-      "hn_points": "194",
-      "hn_comments_count": "10",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48085685",
-      "hn_item_text": "",
-      "hn_comment_preview": "stockresearcher: FYI, The version of clang that ships with Xcode can compile openMP code if you provide the right compiler flags. You have to provide libomp.dylib and a few header files, but the folks that run R compile it and provide it for distribution (they need it). If you trust R, you can probably trust this too: https://mac.r-project.org/openmp/\ndagmx: This is a pretty phenomenal article. Even for those who don’t care about LLM use, this is just a great article on optimizing Swift performance, which is sadly something that doesn’t have a lot of written material for. I’m curious if the AMX instructions are truly secret. In theory you could use an M4 or above and get them via SME I think but I’m just guessing as I’ve never tried intrinsic from Swift myself.\noflannabhra: Matt Gallagher and CocoaWithLove are major highlights from the early days of my journey in learning iOS development. Awesome to see he is still publishing such high quality information!",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=12,strategy_insight=14,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 12,
-        "strategy_insight": 14,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "performance",
-            "compiler",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 14,
-          "strong_hits": [
-            "learning",
-            "trust"
-          ],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "compiler"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "compiler",
-        "rust"
-      ],
-      "detail_slug": "e4debb8ed1b5b4991f3cd24f710efead4160c9ef",
-      "is_english_source": true,
-      "translated_title": "스위프트로 LLM 학습 1편: 행렬 곱셈을 Tflop/s급으로 끌어올리기",
-      "short_summary": "스위프트로 LLM 학습용 행렬 곱셈을 구현하며 성능을 Gflop/s급에서 Tflop/s급으로 끌어올린 과정을 다룬 글이다. HN에서는 LLM 자체보다도, 드문 스위프트 성능 최적화 자료라는 점에 더 큰 호응이 모였다.",
-      "why_it_matters": "이 글은 스위프트로도 저수준 성능 튜닝을 얼마나 밀어붙일 수 있는지 실전 사례로 보여준다. 모델 학습 이야기이지만, 실제로는 맥 개발 환경에서 수치 연산 병목을 어떻게 줄이는지가 더 또렷하게 남는다.\n- 스위프트를 앱 개발 언어로만 보던 팀이라면, 연산 커널 최적화와 시스템 수준 접근이 어디까지 가능한지 감을 잡을 수 있다.\n- 행렬 곱셈처럼 가장 비싼 경로를 먼저 손보는 방식은 LLM뿐 아니라 추론, 그래픽스, 과학 계산 코드에도 바로 이어진다.\n- 댓글에서는 Xcode clang으로 OpenMP를 쓰는 방법과 하드웨어 가속 경로 얘기까지 나왔다. 맥에서 성능 실험을 하는 개발자에게 바로 참고할 만한 단서다.",
-      "hn_reaction_summary": "HN 반응은 대체로 매우 좋았다. 댓글 수는 많지 않았지만, 이 글을 단순한 LLM 글이 아니라 보기 드문 스위프트 성능 최적화 자료로 받아들이는 분위기가 강했다.\n- Xcode에 포함된 clang도 적절한 플래그와 libomp를 갖추면 OpenMP 코드를 컴파일할 수 있다는 실무 팁이 공유됐다.\n- AMX 명령이나 M4 이후 SME 경로를 스위프트에서 어떻게 건드릴 수 있는지 궁금해하는 반응이 반복됐다. 저수준 가속 접근성은 여전히 논점으로 남아 있다.\n- 오래전부터 기술 글로 알려진 저자의 이름을 반가워하는 댓글도 있었다. 글의 완성도와 필력에 대한 신뢰가 함께 드러났다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-11T22:15:17.189047+00:00"
     }
   ],
   "topic_digests": {
