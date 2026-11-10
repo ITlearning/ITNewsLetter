@@ -1,6 +1,502 @@
 {
   "items": [
     {
+      "id": "4b9acd88f45e7e6f3e5f454f741b888c01ac1e7d",
+      "title_hash": "998b5f51bf36a149ec150e2a519f2e408cc05079",
+      "source": "GeekNews",
+      "title": "Ask GN: AI 코딩 에이전트에게 셸 명령 권한을 어디까지 주시나요?",
+      "link": "https://news.hada.io/topic?id=36930&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T03:15:29+00:00",
+      "summary": "Claude Code·Codex·Cursor 같은 에이전트에게 셸 명령을 맡길 때 다들 어떻게 쓰시는지 궁금합니다. 공개된 사고 보고서를 모아 보면 홈 폴더나 저장소, 데이터베이스가 날아간 경우가 꽤 있습니다. 그런데 명령 자체가 위험해 보이지 않는 경우가 많았습니다. rm은 스크립트나 테스트 파일 안에 있고, 에이전트는 그 스크립트를 실행했을 뿐이었습니다. prisma migrate reset이나 git stash drop처럼 rm이 없는데 작업을 날리는 명령도 있었습니다. 궁금한 건 세 가지입니다. 권한은 어떻게 두시나요? 매번 확인, 일부 명령만 자동 허용 …",
+      "fetched_at": "2026-11-10T06:57:46.363299+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "75",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=0,tools_agents=30,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 30,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 30,
+          "strong_hits": [
+            "claude code",
+            "cursor",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "cursor",
+        "codex",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "4b9acd88f45e7e6f3e5f454f741b888c01ac1e7d",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T07:00:14.783960+00:00"
+    },
+    {
+      "id": "610c2a5d876e257057a62d951e94dbc790087260",
+      "title_hash": "15c9e0e39251a21835ae4115796a816a2446cf57",
+      "source": "GeekNews",
+      "title": "유료 SDK 없이, 공개 데이터와 MapLibre로 아파트 3D 지도를 만든 11일",
+      "link": "https://news.hada.io/topic?id=36933&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T05:53:29+00:00",
+      "summary": "직접 개발 중인 아파트 인사이트의 주변 3D 지도를 만들면서 겪은 문제와 설계 선택을 정리했습니다. 브이월드의 건물 외곽선, 건축물대장의 높이, OpenStreetMap의 시설·도로 데이터를 결합하고 MapLibre GL JS로 그렸습니다. 유료 지도 SDK와 외부 3D 모델 파일은 사용하지 않았습니다. 글에서는 다음 내용을 다룹니다. 건물 9,481동이 포함된 지도가 도보 경로 데이터 때문에 두 번 생성되던 문제를 찾아 수정한 과정 애니메이션과 공간 탐색 비용을 줄인 방법, 측정 환경과 성능 개선 전후 수치 층수로 추정한 건물 높이를 화면에는 …",
+      "fetched_at": "2026-11-10T06:57:46.363299+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=7,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "sdk"
+          ],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "인사이트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "인사이트"
+      ],
+      "detail_slug": "610c2a5d876e257057a62d951e94dbc790087260",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T07:00:14.783960+00:00"
+    },
+    {
+      "id": "431a0cb3db58032014e1dcd962a5a95584fa03d2",
+      "title_hash": "6054855f71dba5487e5fc8fb500609c949c4da50",
+      "source": "GeekNews",
+      "title": "Show GN: Visitown - 방문자가 픽셀 마을을 걸어 다니는 실시간 방문자 분석",
+      "link": "https://news.hada.io/topic?id=36911&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-09T23:16:56+00:00",
+      "summary": "웹사이트 방문자를 픽셀 캐릭터로, 페이지를 마을 건물로 보여 주는 실시간 방문자 분석 도구를 만들었어요. 방문자가 페이지를 옮기면 캐릭터가 건물 사이를 실제로 걸어가요. 봇은 회색 로봇, 재방문자는 모자, 검색 유입은 돋보기를 들고 나타나요. 설치는 스크립트 한 줄이고 SDK는 gzip 약 7KB예요. 쿠키를 쓰지 않고 IP도 저장하지 않아요(나라 코드만 남겨요). 원본 기록은 7일 뒤 지워져요. 테마가 10종 있어요(한옥 장터·사이버펑크·우주 정거장·캔디 마을 등). \"두 나라에서 방문\", \"새벽 0~5시 방문자\"처럼 목표를 채우면 하나 …",
+      "fetched_at": "2026-11-10T06:57:46.363299+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "sdk"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sdk",
+        "코드"
+      ],
+      "detail_slug": "431a0cb3db58032014e1dcd962a5a95584fa03d2",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T07:00:14.783960+00:00"
+    },
+    {
+      "id": "ff752f8fae003cdb8d358e49defcda6155c545b4",
+      "title_hash": "7931c93aed0d00109d99d5bbce70e524dd412552",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "published_at": "2026-11-09T18:01:10+00:00",
+      "summary": "HN story type: story HN points: 461 HN comments: 737 HN top comments: postalcoder: I’ve had a chance to use fable 5.2. Some observations: - Anthropic is finally well balanced across models. Meaning: Opus 5.5 is so good that I do not feel Fable FOMO as I did when it was Fable 5/5.1 vs Opus 4.8/5. And Sonnet 5.5 sometimes makes me forget about Opus. - Fable is good, but you really have to push the ambition of your prompt in order to see proper separation from Opus 5.5. I personally have a hard tim... breakwaterlabs: - Why are they stacking Fable xHigh against Carbon Med? - How did they produce such a bizarre effort-intel curve for Carbon that goes against every available benchmark? - Why did they leave Carbon-- positioned primarily as a cyber model-- off of the single cyber benchmark comparison? - Why do they switch to comparing against Argon (rather than carbon) for robodojo? advaith08: We've been early testing Fable 5.2, and have been surprised by its coding ability. It was able to work with an esoteric 600k line fortran codebase to speed up some computational material science work for us by 36 times (!). Given that this could be done in 2 days, we've decided to open-source the results https://github.com/discovered-materials/dm_qe",
+      "fetched_at": "2026-11-10T06:57:46.363299+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50429068",
+      "hn_story_type": "story",
+      "hn_points": "461",
+      "hn_comments_count": "737",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50429068",
+      "hn_item_text": "",
+      "hn_comment_preview": "postalcoder: I’ve had a chance to use fable 5.2. Some observations: - Anthropic is finally well balanced across models. Meaning: Opus 5.5 is so good that I do not feel Fable FOMO as I did when it was Fable 5/5.1 vs Opus 4.8/5. And Sonnet 5.5 sometimes makes me forget about Opus. - Fable is good, but you really have to push the ambition of your prompt in order to see proper separation from Opus 5.5. I personally have a hard tim...\nbreakwaterlabs: - Why are they stacking Fable xHigh against Carbon Med? - How did they produce such a bizarre effort-intel curve for Carbon that goes against every available benchmark? - Why did they leave Carbon-- positioned primarily as a cyber model-- off of the single cyber benchmark comparison? - Why do they switch to comparing against Argon (rather than carbon) for robodojo?\nadvaith08: We've been early testing Fable 5.2, and have been surprised by its coding ability. It was able to work with an esoteric 600k line fortran codebase to speed up some computational material science work for us by 36 times (!). Given that this could be done in 2 days, we've decided to open-source the results https://github.com/discovered-materials/dm_qe",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "45",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=21,practical_tech=11,tools_agents=21,strategy_insight=4,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 21,
+        "strategy_insight": 4,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "benchmark"
+          ],
+          "support_hits": [
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 21,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "prompt"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "prompt",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "ff752f8fae003cdb8d358e49defcda6155c545b4",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T07:00:14.783960+00:00"
+    },
+    {
+      "id": "f9559db819b5159a7df27a1ad764b4db0e1c1827",
+      "title_hash": "5388dae83a4c9bcc107ed6eb8d559d84eaf5c53f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+      "link": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+      "published_at": "2026-11-10T06:01:08+00:00",
+      "summary": "HN story type: story HN points: 69 HN comments: 11 HN top comments: armcat: About six years ago we built a ticket classification/routing model and pipeline [1]. The initial version was trained using SVMs, it took a couple of minutes to train, and the ticket classification was just a few milliseconds. It's so fascinating to watch how the field moved over to LLMs, and then back to faster/cheaper classifiers again. [1] \"Linnaeus: A highly reusable and adaptable ML based log classification pi... Kaedon: At ~$21,700 saved per million tickets, saving millions annually would suggest at least 92 million tickets a year to reach $2 million saved. Is that about right? I initially thought of tickets as just customer support, or internal JIRAs, but the article mentions alarms, security findings, and capacity increase requests, so that makes the scale feel more plausible. Still surprising so many tickets go through the sys... tdhz77: You can do this even more efficiently with the rust crate bonsai. You will have more control and you can create sceneries of logic. You can use incredibly cheap models this way and get way better results. I built a real time character story. In which players interact and integrate fictional characters. There is no delay in response and the characters are all in character. Oh and it’s all voice. It’s shocking how e...",
+      "fetched_at": "2026-11-10T06:57:46.363299+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50436640",
+      "hn_story_type": "story",
+      "hn_points": "69",
+      "hn_comments_count": "11",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50436640",
+      "hn_item_text": "",
+      "hn_comment_preview": "armcat: About six years ago we built a ticket classification/routing model and pipeline [1]. The initial version was trained using SVMs, it took a couple of minutes to train, and the ticket classification was just a few milliseconds. It's so fascinating to watch how the field moved over to LLMs, and then back to faster/cheaper classifiers again. [1] \"Linnaeus: A highly reusable and adaptable ML based log classification pi...\nKaedon: At ~$21,700 saved per million tickets, saving millions annually would suggest at least 92 million tickets a year to reach $2 million saved. Is that about right? I initially thought of tickets as just customer support, or internal JIRAs, but the article mentions alarms, security findings, and capacity increase requests, so that makes the scale feel more plausible. Still surprising so many tickets go through the sys...\ntdhz77: You can do this even more efficiently with the rust crate bonsai. You will have more control and you can create sceneries of logic. You can use incredibly cheap models this way and get way better results. I built a real time character story. In which players interact and integrate fictional characters. There is no delay in respon...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "security",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "rust"
+      ],
+      "detail_slug": "f9559db819b5159a7df27a1ad764b4db0e1c1827",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T07:00:14.783960+00:00"
+    },
+    {
+      "id": "3256a9e916c0a6b0e91aeebe0558c58307d0e417",
+      "title_hash": "85a1953ccf7bf23263392c6ffb142e934cb2b5df",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Ultorg: The User Interface for Relational Databases",
+      "link": "https://www.ultorg.com/",
+      "published_at": "2026-11-10T03:59:39+00:00",
+      "summary": "HN story type: story HN points: 24 HN comments: 5 HN top comments: kragen: Eirik Bakke's Ultorg (SIEUFERD) is amazing and inspirational research, and I'm glad to see that it's finally available to the public after 17 years. It's one of those things that really makes you sit up and take notice of how much better our everyday software could have been. However, I wouldn't be willing to try it under proprietary-software terms. Last week, I was thinking about eliciting open-source software wi... akshayrajeshwar: Previously used it and it's AMAZING given you have data stored with good practices, e.g. with unique IDs that are consistent among many databases/sheets. I found it's easier to begin with Ultorg's usecase in mind than to migrate existing files to fit its use. And I do agree with the criticisms mentioned in the thread. Ultorg is solving a lot of problems of data organisation and context awareness, so starting a bus... NetMageSCW: A small desktop app that is a subscription rubs me the wrong way.",
+      "fetched_at": "2026-11-10T06:57:46.363299+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50435898",
+      "hn_story_type": "story",
+      "hn_points": "24",
+      "hn_comments_count": "5",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50435898",
+      "hn_item_text": "",
+      "hn_comment_preview": "kragen: Eirik Bakke's Ultorg (SIEUFERD) is amazing and inspirational research, and I'm glad to see that it's finally available to the public after 17 years. It's one of those things that really makes you sit up and take notice of how much better our everyday software could have been. However, I wouldn't be willing to try it under proprietary-software terms. Last week, I was thinking about eliciting open-source software wi...\nakshayrajeshwar: Previously used it and it's AMAZING given you have data stored with good practices, e.g. with unique IDs that are consistent among many databases/sheets. I found it's easier to begin with Ultorg's usecase in mind than to migrate existing files to fit its use. And I do agree with the criticisms mentioned in the thread. Ultorg is solving a lot of problems of data organisation and context awareness, so starting a bus...\nNetMageSCW: A small desktop app that is a subscription rubs me the wrong way.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 2,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "database",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "database",
+        "rag"
+      ],
+      "detail_slug": "3256a9e916c0a6b0e91aeebe0558c58307d0e417",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T07:00:14.783960+00:00"
+    },
+    {
       "id": "797d9dae274180a7e1adbff54ee3e2fe916c5bed",
       "title_hash": "33673f785a1d214cf2a6234f9adb9692ffdceb9d",
       "source": "GeekNews",
@@ -166218,545 +166714,6 @@
       "hn_reaction_summary": "댓글 분위기는 공감과 회의가 섞였다. 미국의 불확실성이 커졌다는 문제의식에는 대체로 동의했지만, 유럽이 곧바로 더 나은 선택지는 아니라는 반론이 꾸준히 나왔다.\n- EU도 아동 보호를 이유로 VPN 제한 같은 규제 논의를 하고 있어, 유럽 이전을 곧 자유 확대라고 보긴 어렵다는 지적이 반복됐다.\n- Google Analytics 대안으로 거론된 Matomo는 가격 대비 기능이 아쉽고, 셀프호스팅을 택하면 유료 기능 공백이 크다는 실사용 관점의 비판이 나왔다.\n- 한편 유럽산 개발 도구를 직접 소개하는 댓글도 있어, 지역 대체재를 찾으려는 수요와 시장 기대는 분명하다는 반응도 보였다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-13T12:19:26.678194+00:00"
-    },
-    {
-      "id": "684e0460e3ec72654f27643d0bc963fe718698d0",
-      "title_hash": "5e2c2d63608911b9354e557a841abcd58a5a03a9",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "How to make your text look futuristic (2016)",
-      "link": "https://typesetinthefuture.com/2016/02/18/futuristic/",
-      "published_at": "2026-05-12T20:16:26+00:00",
-      "summary": "HN story type: story HN points: 390 HN comments: 51 HN top comments: socalgal2: Does the Back To The Future logo really count? Raiders of the Lost Ark as a very similar style but does not evoke \"future\". Yes, there are subtle differences. My point is, if you divorced them from the connection to their content I think it would be hard to point to one as \"future\" and the other as \"not future\" dhosek: At the 1996 ATypI meeting in Den Haag, one of the speakers coined the term “sterotypography” to refer to certain cliches that get used in type usage. Another case of this is the use of Neuland and Neuland Inline to represent Africa, and of course the assortment of faux Chinese fonts that were ubiquitous on Chinese takeout menus in the 80s and 90s (and probably still are, but are there still takeout menus in the er... bhouston: Some of this is based on the 1966 Star Trek logo: https://logos.fandom.com/wiki/Star_Trek:_The_Original_Series",
-      "fetched_at": "2026-05-13T12:16:20.624636+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48113895",
-      "hn_story_type": "story",
-      "hn_points": "390",
-      "hn_comments_count": "51",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48113895",
-      "hn_item_text": "",
-      "hn_comment_preview": "socalgal2: Does the Back To The Future logo really count? Raiders of the Lost Ark as a very similar style but does not evoke \"future\". Yes, there are subtle differences. My point is, if you divorced them from the connection to their content I think it would be hard to point to one as \"future\" and the other as \"not future\"\ndhosek: At the 1996 ATypI meeting in Den Haag, one of the speakers coined the term “sterotypography” to refer to certain cliches that get used in type usage. Another case of this is the use of Neuland and Neuland Inline to represent Africa, and of course the assortment of faux Chinese fonts that were ubiquitous on Chinese takeout menus in the 80s and 90s (and probably still are, but are there still takeout menus in the er...\nbhouston: Some of this is based on the 1966 Star Trek logo: https://logos.fandom.com/wiki/Star_Trek:_The_Original_Series",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=6,tools_agents=12,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 12,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli"
-      ],
-      "detail_slug": "684e0460e3ec72654f27643d0bc963fe718698d0",
-      "is_english_source": true,
-      "translated_title": "텍스트를 미래적으로 보이게 만드는 타이포 법칙",
-      "short_summary": "이 글은 글자를 미래처럼 보이게 만드는 타이포그래피 관습을 짚는다. HN에서는 그 인상이 글자 형태 자체보다 SF 작품과 영화 로고가 만든 문화적 학습 효과에 가깝다는 반응이 많았다.",
-      "why_it_matters": "이 이야기는 취향 소개보다 시각 문법 해설에 가깝다. 지금도 AI 서비스, 개발자 도구, 하드웨어 브랜드가 미래 느낌을 자주 요구하는 만큼 실무에서 바로 써먹을 만한 관점이 나온다.\n- 막연한 주문을 폰트 취향으로만 받지 말고 자간, 기울기, 외곽선, 금속성 효과, 레퍼런스 맥락으로 나눠 설계할 수 있다.\n- 랜딩 페이지나 로고에서 익숙한 SF 클리셰를 쓰면 분위기는 빨리 잡히지만 다른 브랜드와 비슷해 보일 위험도 커진다.\n- 결국 새 폰트를 찾는 일보다 어떤 시대의 미래상을 빌려오는지 의식하는 쪽이 더 실무적이다.",
-      "hn_reaction_summary": "댓글 분위기는 흥미롭지만 꽤 비판적이다. 미래적인 글자라는 개념이 정말 형태의 문제인지, 아니면 대중문화가 반복해서 학습시킨 인상인지 따져 묻는 반응이 많다.\n- 백 투 더 퓨처 로고가 정말 미래적으로 보이느냐는 반론이 나왔고, 비슷한 스타일의 다른 영화 로고와 무엇이 다른지 비교하는 의견이 이어졌다.\n- 몇몇 댓글은 이런 관습을 타이포그래피 클리셰로 봤다. 특정 문화권을 상투적 서체로 표현해 온 오래된 관행과 닮았다는 지적도 나왔다.\n- 또 다른 축에서는 1966년 스타트렉 로고를 언급하며, 오늘의 미래체도 사실은 오래된 SF 시각 유산의 재활용이라는 해석이 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T12:19:26.678194+00:00"
-    },
-    {
-      "id": "7c3c994645e48b1961fd9f76a053ea3794d23335",
-      "title_hash": "1a57dbb31e9f51ea8d3d97572d798b3dbb550fe8",
-      "source": "GeekNews",
-      "title": "The AI Agent Complexity Ratchet: Why 90% Test Coverage Is Required",
-      "link": "https://news.hada.io/topic?id=29462",
-      "published_at": "2026-05-13T05:50:50+00:00",
-      "summary": "AI 코딩 시대의 복잡성 래칫(Complexity Ratchet) - Garry Tan의 에세이 요약 게리 탄(Garry Tan, Y Combinator CEO)이 X에 공유한 장문의 에세이로, 지난 1년간 AI 에이전트(Claude Code, Codex 등)와 함께 두 개의 오픈소스 프로젝트를 만든 경험을 정리한 글입니다. 약 97만 줄의 코드와 665개의 테스트 ...",
-      "fetched_at": "2026-05-13T08:03:13.516775+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "77",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=32,practical_tech=7,tools_agents=32,strategy_insight=5,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 32,
-        "strategy_insight": 5,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 32,
-          "strong_hits": [
-            "claude code",
-            "ai agent",
-            "codex",
-            "에이전트"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "ceo"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "ai agent",
-        "codex",
-        "에이전트",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "7c3c994645e48b1961fd9f76a053ea3794d23335",
-      "is_english_source": false,
-      "sent_at": "2026-05-13T08:07:03.053146+00:00"
-    },
-    {
-      "id": "dbd24902e870f965f760066e71d6a14eccad0bb4",
-      "title_hash": "0756ab880d861f5efce401049cde24d0e5587c72",
-      "source": "GeekNews",
-      "title": "Unitree GD01: 중국의 $537k(8억원) 탑승형 변신 로봇이 양산에 들어감",
-      "link": "https://news.hada.io/topic?id=29444",
-      "published_at": "2026-05-13T00:30:21+00:00",
-      "summary": "Unitree Robotics 가 탑승형 로봇인 GD01을 출시했으며, 세계 최초의 양산형 유인 메크 슈트로 내세움 GD01 시작 가격은 390만 위안 (약 $537k, 8억원)이며 현재 판매 범위는 중국 내 시장으로 제한 GD01은 조종자 포함 약 500kg 이며, 두 ...",
-      "fetched_at": "2026-05-13T08:03:13.516775+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "52",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=0,tools_agents=4,strategy_insight=-1,industry_business=7",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": -1,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [
-            "시장"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "출시",
-        "시장"
-      ],
-      "detail_slug": "dbd24902e870f965f760066e71d6a14eccad0bb4",
-      "is_english_source": false,
-      "sent_at": "2026-05-13T08:07:03.053146+00:00"
-    },
-    {
-      "id": "d6a88fa5d8feedb9c4415f69e4adedd591933986",
-      "title_hash": "21403982db1a0289f2098cf3ad735df185d247de",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "European governments: 3.000 tracking sites, 1.000 phpMyAdmins, and 99% poorly",
-      "link": "https://internetcleanup.foundation/2026/05/european-governments-3000-tracking-sites-1000-phpmyadmins-and-99pct-poorly-encrypted-email-introducing-securitybaseline-eu/",
-      "published_at": "2026-05-13T07:11:17+00:00",
-      "summary": "HN story type: story HN points: 29 HN comments: 4 HN top comments: zihotki: That's a wonderful initiative! I wanted first to complain about Dutch municipalities but looking at the foundation, I see fellow dutch- and belgian-men are already focusing on them! aequitas: Today we launch SecurityBaseline: monitoring 67.000 governments and 200.000 sites. Headlines: 3.000 governmental sites use tracking cookies illegally, over 1.000 database management interfaces are publicly reachable, 99% of governmental email is poorly encrypted.",
-      "fetched_at": "2026-05-13T08:03:13.516775+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48118763",
-      "hn_story_type": "story",
-      "hn_points": "29",
-      "hn_comments_count": "4",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48118763",
-      "hn_item_text": "",
-      "hn_comment_preview": "zihotki: That's a wonderful initiative! I wanted first to complain about Dutch municipalities but looking at the foundation, I see fellow dutch- and belgian-men are already focusing on them!\naequitas: Today we launch SecurityBaseline: monitoring 67.000 governments and 200.000 sites. Headlines: 3.000 governmental sites use tracking cookies illegally, over 1.000 database management interfaces are publicly reachable, 99% of governmental email is poorly encrypted.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "database",
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "launch"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "database",
-        "security"
-      ],
-      "detail_slug": "d6a88fa5d8feedb9c4415f69e4adedd591933986",
-      "is_english_source": true,
-      "translated_title": "유럽 공공기관 웹 보안 실태: 추적기 3000곳, phpMyAdmin 1000곳 노출",
-      "short_summary": "SecurityBaseline이 유럽 공공기관 6만7000곳과 사이트 20만개를 점검한 결과, 불법 추적 쿠키 사용 3000곳과 외부에 열린 DB 관리 화면 1000곳 이상이 드러났다. 정부 이메일 99%도 암호화가 미흡한 상태로 집계됐다.",
-      "why_it_matters": "이번 수치는 공공 웹 운영이 개인정보 보호, 기본 보안, 메일 인프라까지 동시에 흔들리고 있음을 보여준다. 일회성 사고보다 운영 기준과 상시 점검 체계가 비어 있다는 경고에 가깝다.\n- 추적 쿠키 문제는 규제와 민원 리스크로 바로 이어진다. 공공기관 운영팀은 분석 도구와 외부 스크립트 사용부터 다시 점검해야 한다.\n- phpMyAdmin 같은 관리 화면 노출은 침해 사고의 입구가 되기 쉽다. 접근 제어, 네트워크 분리, 외부 스캔 점검이 실무 우선순위로 올라간다.\n- 메일 암호화 미흡은 피싱 대응력과 대외 신뢰를 함께 깎는다. 전송 구간 암호화와 메일 인증 설정을 묶어서 손볼 필요가 있다.",
-      "hn_reaction_summary": "댓글 수는 아직 많지 않지만 분위기는 대체로 호의적이다. 공공기관 보안 상태를 숫자로 드러내고 계속 추적하겠다는 시도 자체를 반기는 반응이 먼저 보인다.\n- 대표 반응은 '좋은 이니셔티브'라는 평가다. 특정 나라만 탓하기보다 네덜란드와 벨기에 지방정부까지 이미 보고 있다는 점에 관심이 모였다.\n- 작성자로 보이는 댓글은 6만7000개 기관, 20만개 사이트를 모니터링한다는 범위를 다시 강조했다. 문제 제기보다 공개 측정과 지속 감시에 무게가 실렸다.\n- 미리 보인 댓글만 놓고 보면 강한 반론보다는 실행 가능한 감시 체계를 어떻게 유지할지에 시선이 간다. 실무자는 수치 자체보다 측정 방식과 후속 개선 압박을 눈여겨볼 만하다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T08:07:03.053146+00:00"
-    },
-    {
-      "id": "0158eb3773ff970abac3683bb3be327f09ac28a0",
-      "title_hash": "6d1d861f266c19c145a8a5cdd0b4266fa9cc5cf0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Scrcpy v4.0",
-      "link": "https://github.com/Genymobile/scrcpy/releases/tag/v4.0",
-      "published_at": "2026-05-12T20:50:02+00:00",
-      "summary": "HN story type: story HN points: 146 HN comments: 21 HN top comments: jraph: I recently moved, and the infra provider of the non-profit ISP I use imposes them a two month delay to set up a new fiber line. During this delay, I met neighbors who accepted to share their WiFi with me. They live a bit far, across the way. The best way I found to get a stable connection with decent speeds was to hang my phone at the top of a window using a salad bag, and share the phone connection to a computer... figmert: Amazing tool, but I had to stop using it. On my Samsung phone, I gesture based navigation. And every time I use scrcpy, the navigation stops working, and I have to restart the phone to get it working again. There's a ticket open but the developer has been unable to replicate the issue. Sadly until that is fixed, it is impossible to continue using it. The inconvenience (at least for me) is too real. yegle: https://github.com/wsvn53/scrcpy-mobile would allow you to control Android phone from an iOS device.",
-      "fetched_at": "2026-05-13T08:03:13.516775+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48114356",
-      "hn_story_type": "story",
-      "hn_points": "146",
-      "hn_comments_count": "21",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48114356",
-      "hn_item_text": "",
-      "hn_comment_preview": "jraph: I recently moved, and the infra provider of the non-profit ISP I use imposes them a two month delay to set up a new fiber line. During this delay, I met neighbors who accepted to share their WiFi with me. They live a bit far, across the way. The best way I found to get a stable connection with decent speeds was to hang my phone at the top of a window using a salad bag, and share the phone connection to a computer...\nfigmert: Amazing tool, but I had to stop using it. On my Samsung phone, I gesture based navigation. And every time I use scrcpy, the navigation stops working, and I have to restart the phone to get it working again. There's a ticket open but the developer has been unable to replicate the issue. Sadly until that is fixed, it is impossible to continue using it. The inconvenience (at least for me) is too real.\nyegle: https://github.com/wsvn53/scrcpy-mobile would allow you to control Android phone from an iOS device.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=7,tools_agents=12,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "tool",
-        "github.com"
-      ],
-      "detail_slug": "0158eb3773ff970abac3683bb3be327f09ac28a0",
-      "is_english_source": true,
-      "translated_title": "안드로이드 미러링 도구 scrcpy 4.0 공개",
-      "short_summary": "안드로이드 화면을 PC에서 띄우고 제어하는 오픈소스 도구 scrcpy 4.0이 HN 전면에 올랐다. 댓글에서는 현장 활용도가 높다는 반응과 함께 삼성 기기 제스처 내비게이션 충돌 같은 호환성 문제도 언급됐다.",
-      "why_it_matters": "scrcpy는 개발, QA, 원격 지원처럼 스마트폰을 PC 옆 작업 도구로 다뤄야 하는 흐름과 맞닿아 있다. 이번 화제는 새 버전 소식 자체보다 이런 유틸리티가 현장에서 얼마나 자주 쓰이는지를 다시 보여준다.\n- 기기 화면 확인과 입력 제어를 한 자리에서 처리할 수 있어 앱 테스트, 장애 재현, 데모 준비 같은 작업에 바로 연결된다.\n- 댓글에 나온 임시 네트워크 공유 사례처럼 예상 밖 환경에서도 스마트폰을 업무 장비처럼 활용하게 해 준다는 점이 드러났다.\n- 다만 제조사별 입력 처리 차이로 실사용이 막힐 수 있어, 팀에서 쓰는 대표 기종으로 먼저 호환성을 확인하는 편이 안전하다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이다. 오래 써 온 필수 유틸이라는 평가가 많았지만, 기기별 버그에 대한 불만도 분명하게 나왔다.\n- 가장 눈에 띈 반응은 '별별 상황에서 결국 도움 되는 도구'라는 실사용 경험담이었다.\n- 반대로 삼성폰에서 제스처 내비게이션이 깨져 재부팅이 필요하다는 사례처럼, 편의성보다 안정성이 더 큰 쟁점으로 떠올랐다.\n- 일부는 iOS에서 안드로이드를 제어하는 파생 프로젝트를 언급하며, scrcpy 생태계가 넓어지고 있다는 점에도 관심을 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T08:07:03.053146+00:00"
-    },
-    {
-      "id": "eadc2fb66bae78f242ed82f4f24a49f74d425dd1",
-      "title_hash": "faebcdd15272476e0b93c88df5376be470c707d7",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Restore full BambuNetwork support for Bambu Lab printers",
-      "link": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
-      "published_at": "2026-05-12T21:55:21+00:00",
-      "summary": "HN story type: story HN points: 384 HN comments: 169 HN top comments: bri3d: This looks to be a clone of the prior state of the repository that caused all the Bambu drama earlier this week. I did a ton of research because I didn't understand what people wanted here, and this is what's going on: Right now, Bambu have adjusted their system into two modalities: * \"default\" or \"Cloud\" mode, where you get an app, remote monitoring, but you have to use Bambu Studio or Bambu Connect to send print... ghostpepper: A lot of the distrust toward Bambu is because they originally announced cloud auth would be required even for printing locally in LAN mode, and only backpedalled on that when they saw the backlash. I'm not sure why their entire domain has been excluded from archive.org but you can still see the original post for now: https://blog.bambulab.com/firmware-update-introducing-new-au... -- Critical Operations That Requir... nazgu1: I considered buying bambu lab A1, bout watching this and previous dramas I rather go with different vendor. Are there any good alternatives for newcomers? I like hacker nature and openness of Prusa, but I’m worried if it is good printer as a first one…",
-      "fetched_at": "2026-05-13T08:03:13.516775+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48115127",
-      "hn_story_type": "story",
-      "hn_points": "384",
-      "hn_comments_count": "169",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48115127",
-      "hn_item_text": "",
-      "hn_comment_preview": "bri3d: This looks to be a clone of the prior state of the repository that caused all the Bambu drama earlier this week. I did a ton of research because I didn't understand what people wanted here, and this is what's going on: Right now, Bambu have adjusted their system into two modalities: * \"default\" or \"Cloud\" mode, where you get an app, remote monitoring, but you have to use Bambu Studio or Bambu Connect to send print...\nghostpepper: A lot of the distrust toward Bambu is because they originally announced cloud auth would be required even for printing locally in LAN mode, and only backpedalled on that when they saw the backlash. I'm not sure why their entire domain has been excluded from archive.org but you can still see the original post for now: https://blog.bambulab.com/firmware-update-introducing-new-au... -- Critical Operations That Requir...\nnazgu1: I considered buying bambu lab A1, bout watching this and previous dramas I rather go with different vendor. Are there any good alternatives for newcomers? I like hacker nature and openness of Prusa, but I’m worried if it is good printer as a first one…",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=12,strategy_insight=11,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 12,
-        "strategy_insight": 11,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 11,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [
-            "research",
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "github.com"
-      ],
-      "detail_slug": "eadc2fb66bae78f242ed82f4f24a49f74d425dd1",
-      "is_english_source": true,
-      "translated_title": "밤부랩 프린터 BambuNetwork 완전 지원 복구",
-      "short_summary": "밤부랩 프린터의 BambuNetwork 기능을 다시 폭넓게 쓰게 해 주는 저장소가 HN에서 주목받았다. 로컬 출력과 클라우드 인증을 둘러싼 최근 논란이 다시 불붙으면서 사용자 통제권 문제가 함께 거론됐다.",
-      "why_it_matters": "이 이슈는 3D 프린터 한 대의 기능 복구를 넘어, 제조사가 소프트웨어와 인증 체계를 어떻게 쥐고 가는지 보여주는 사례로 읽힌다. 장비를 샀더라도 네트워크 출력과 원격 관리가 회사 정책에 따라 달라질 수 있다는 점이 실무자에게 직접적인 변수다.\n- 로컬 네트워크 인쇄가 사실상 특정 공식 도구나 인증 흐름에 묶이면 작업 자동화와 자체 운영 환경 구성이 어려워진다.\n- 펌웨어 정책이 바뀔 때마다 기존 워크플로가 흔들릴 수 있어 장비 도입 때 하드웨어 성능만이 아니라 개방성까지 같이 봐야 한다.\n- 메이커 장비를 업무에 쓰는 팀이라면 벤더 종속, 오프라인 운용 가능성, 대체 도구 호환성을 미리 점검해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 단순한 기능 복구 환영보다 밤부랩에 대한 신뢰 문제에 더 무게가 실렸다. 특히 로컬 모드까지 클라우드 인증을 요구하려 했던 초기 발표와 뒤늦은 후퇴가 반복해서 언급됐다.\n- 비판 쪽은 편의성이 좋아도 소유한 장비의 기본 동작이 회사 서버 정책에 좌우되는 구조를 불편해했다.\n- 옹호하거나 중립적인 반응은 클라우드 기능과 공식 앱의 편의는 인정하면서도, 선택권은 사용자에게 남겨야 한다는 선을 그었다.\n- 실구매 관점에서는 프루사 같은 대안을 찾는 의견이 많았고, 초보자에게도 개방성과 유지보수성을 얼마나 우선할지 논점이 이어졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T08:07:03.053146+00:00"
     }
   ],
   "topic_digests": {
