@@ -1,6 +1,630 @@
 {
   "items": [
     {
+      "id": "1e8231e01ef692560fdfbd2c087cbe9af5c660f8",
+      "title_hash": "f605efea5d2dca7342d6eb50440057c28d4a461d",
+      "source": "GeekNews",
+      "title": "Show GN: Herdr CKD - 격리된 Git Worktree와 3자 교차 검증(C·A·B) 기반 오픈소스 AI 코딩 오케스트레이터",
+      "link": "https://news.hada.io/topic?id=36946&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T15:31:53+00:00",
+      "summary": "Claude Code나 로컬 LLM으로 코딩 에이전트를 돌리다 보면 에이전트 혼자 코드를 수정하고 테스트한 뒤, 빌드 오류나 누락된 요구사항이 있는데도 스스로 완료했다고 판정해 버리는 자기 합리화 문제를 자주 겪게 됩니다. 여러 에이전트를 한 대화방에 묶어두어도 작업자의 설명에 검수자가 쉽게 설득당하는 한계가 있었습니다. 이 문제를 프롬프트 지시가 아닌 물리적 권한 분리와 Git Worktree 격리로 풀어보고자 만든 오픈소스 오케스트레이터입니다. 주요 기능 및 차별점: 중심 코어 C (1개 고정): 파일 수정과 셸 실행 권한을 물리적 …",
+      "fetched_at": "2026-11-10T19:25:12.283667+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "72",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=27,practical_tech=2,tools_agents=27,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 27,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 27,
+          "strong_hits": [
+            "claude code",
+            "worktree",
+            "에이전트"
+          ],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "worktree",
+        "에이전트",
+        "프롬프트",
+        "claude + code"
+      ],
+      "detail_slug": "1e8231e01ef692560fdfbd2c087cbe9af5c660f8",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T19:27:21.077385+00:00"
+    },
+    {
+      "id": "a55fae481ced5dbc335c60139a09f2dc18305a0e",
+      "title_hash": "a1e0603ea717f459271128f35cd6558843f3fcd7",
+      "source": "GeekNews",
+      "title": "AlphaProof Code - Signal 암호화 구현을 기계어 수준에서 형식 검증",
+      "link": "https://news.hada.io/topic?id=36944&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T14:36:47+00:00",
+      "summary": "Google DeepMind가 인간 전문가와 AI 에이전트를 결합한 AlphaProof Code 로 Signal 프로토콜의 실제 코드가 지정된 핵심 보안 속성을 충족함을 수학적으로 증명함 Signal 프로토콜의 참조 구현인 libsignal 을 AArch64 Linux 기계어로 컴파일해 검증 함. 검증한 속성에는 기기가 일시적으로 침해돼도 이전 메시지를 보호하고, 이후 메시지의 보호를 회복하는 성질 이 포함됨 전문가가 검토한 수학적 명세를 바탕으로 Gemini Carbon 에이전트가 600만 줄 이상의 Lean 증명을 생성하고, Lean이 증명의 정확성을 자동으로 확인함 검증에는 4주 가 …",
+      "fetched_at": "2026-11-10T19:25:12.283667+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "signal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "a55fae481ced5dbc335c60139a09f2dc18305a0e",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T19:27:21.077385+00:00"
+    },
+    {
+      "id": "34ccb559a6e707179411aa29d9fb563dcd8edfe3",
+      "title_hash": "4dc663d3c0eb916f2227c3c17af78c92f422c634",
+      "source": "GeekNews",
+      "title": "TV는 벽 너머를 볼 수 있다",
+      "link": "https://news.hada.io/topic?id=36941&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T12:32:33+00:00",
+      "summary": "TV 방송 신호 를 수신하는 간단한 무선 수신기로 이웃 방의 움직임을 감지하고 이동 속도까지 추정하는 실험을 수행함 직접 도달한 신호가 강한 반사파에 상쇄되는 선택적 페이딩 상태에서는 주변의 작은 움직임에도 수신 신호가 매우 민감하게 변함 사람이 이동하며 만드는 반사파가 잔여 신호를 상쇄하면 스펙트로그램에 줄무늬 사이의 빈틈 이 생기며, 그 반복 간격으로 이동 속도를 계산할 수 있음 실험에서는 490 MHz 신호와 줄무늬 간격을 이용해 보행 속도를 약 1.3 m/s, 시속 4.6 km 로 추정함 WiFi나 LTE 같은 광대역 무선 신호에도 …",
+      "fetched_at": "2026-11-10T19:25:12.283667+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "스펙"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신호"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "스펙"
+      ],
+      "detail_slug": "34ccb559a6e707179411aa29d9fb563dcd8edfe3",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T19:27:21.077385+00:00"
+    },
+    {
+      "id": "efcd0568ec374d6709e08e629dedd3053b367bfb",
+      "title_hash": "fbd6a5200ca7a24913dbc02518ac76148846c126",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "link": "https://github.com/GoogleChrome/modern-web-guidance",
+      "published_at": "2026-11-10T18:01:15+00:00",
+      "summary": "HN story type: story HN points: 57 HN comments: 17 HN post text: Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without s everywhere, ` ` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ftrain post touched on [0]) Models know about some of these by name, but consistently won't default to using the platform-native solution and instead prefer the incumbent +JS based pattern. We started an effort in Chrome to supplement coding agents with this key domain knowledge and we're shipping our 1.0 today, in collaboration with Firefox, MDN, and Edge. 200+ guides (~1.7MB) of curated, hand-crafted implementation best-practices from web experts, updated as the web evolves. (Open source, obv, so.. we'll welcome your bikeshedding ;) Readable versions here: [1] I've spent the last 9 months obsessing over how to ship this as an agent skill + (Agentic RAG) CLI without blowing up your context window. (Or cedeing activation mechanics to MCP dynamic tool search). The skill description is minmaxed for activating on relevant frontend tasks. The RAG work I'm pretty proud of… originally a 50... HN top comments: simonw: Distribution suggestion: in addition to the npm packages you have right now, set up GitHub Pages to publish a markdown index document of the skills at https://googlechrome.github.io/modern-web-guidance-src/skill... (currently a 404) That index page should link to plain markdown versions of all of the documents, and should be designed for search with grep to find the right answers. That way I don't have to install... advisedwang: Chrome already has too much power in the browser standards world. The last thing we need is everyone's LLMs to follow Chrome team's guidance on how to do web development. This road leads back to \"To view this site, please view in [DOMINANT BROWSER]\" phyzix5761: \"Best Practices\" are pretty much dead in the AI era. Pretty soon no one is going to read any of the code AI produces and that's a scary thought.",
+      "fetched_at": "2026-11-10T19:25:12.283667+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50443812",
+      "hn_story_type": "story",
+      "hn_points": "57",
+      "hn_comments_count": "17",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50443812",
+      "hn_item_text": "Browsers natively handle a lot of what used to take 50 lines of JS (or a dependency): `CSS.highlights` for text range highlighting without s everywhere, ` ` and showModal() give you backdrops and ideal focus management, `field-sizing` to auto-grow textareas as the user types.. (Something yesterday's ftrain post touched on [0]) Models know about some of these by name, but consistently won't default to using the platform-native solution and instead prefer the incumbent +JS based pattern. We started an effort in Chrome to supplement coding agents with this key domain knowledge and we're shipping our 1.0 today, in collaboration with Firefox, MDN, and Edge. 200+ guides (~1.7MB) of curated, hand-crafted implementation best-practices from web experts, updated as the web evolves. (Open source, obv, so.. we'll welcome your bikeshedding ;) Readable versions here: [1] I've spent the last 9 months obsessing over how to ship this as an agent skill + (Agentic RAG) CLI without blowing up your context window. (Or cedeing activation mechanics to MCP dynamic tool search). The skill description is minmaxed for activating on relevant frontend tasks. The RAG work I'm pretty proud of… originally a 50...",
+      "hn_comment_preview": "simonw: Distribution suggestion: in addition to the npm packages you have right now, set up GitHub Pages to publish a markdown index document of the skills at https://googlechrome.github.io/modern-web-guidance-src/skill... (currently a 404) That index page should link to plain markdown versions of all of the documents, and should be designed for search with grep to find the right answers. That way I don't have to install...\nadvisedwang: Chrome already has too much power in the browser standards world. The last thing we need is everyone's LLMs to follow Chrome team's guidance on how to do web development. This road leads back to \"To view this site, please view in [DOMINANT BROWSER]\"\nphyzix5761: \"Best Practices\" are pretty much dead in the AI era. Pretty soon no one is going to read any of the code AI produces and that's a scary thought.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "69",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=45,practical_tech=33,tools_agents=45,strategy_insight=2,industry_business=3",
+      "slot_scores": {
+        "practical_tech": 33,
+        "tools_agents": 45,
+        "strategy_insight": 2,
+        "industry_business": 3
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 33,
+          "strong_hits": [
+            "open source",
+            "show hn",
+            "index",
+            "rag"
+          ],
+          "support_hits": [
+            "implementation",
+            "how to",
+            "guide"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 45,
+          "strong_hits": [
+            "coding agent",
+            "agentic",
+            "mcp",
+            "ide",
+            "cli",
+            "llm"
+          ],
+          "support_hits": [
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 3,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "agentic",
+        "mcp",
+        "ide",
+        "cli",
+        "llm",
+        "agent",
+        "tool",
+        "ai + coding",
+        "github.com"
+      ],
+      "detail_slug": "efcd0568ec374d6709e08e629dedd3053b367bfb",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T19:27:21.077385+00:00"
+    },
+    {
+      "id": "51425f85a47aa659617599b36c0072aa45997330",
+      "title_hash": "ad904b98893b5cf27b09204838d08b1a86841260",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Smart home devices should work without the internet",
+      "link": "https://docodethatmatters.com/home-automation-overnight-success/",
+      "published_at": "2026-11-10T15:25:20+00:00",
+      "summary": "HN story type: story HN points: 285 HN comments: 124 HN top comments: mountain_peak: Bought our home almost 20 years ago, and the former owner (apparently) owned a now-defunct home automation business. The upside was 100% X10/Insteon power and light controls, top alarm panel, environmental controls and so on running off of a wall-mounted \"SmartLinc\" touch panel. I expanded the system with Axis cameras and a Mac Server running Indigo and SecuritySpy (non-subscription), which enabled remote monitori... scosman: HomeAssistant publishes \"IoT Class\" for all of it's integrations ranging from \"Local Push\" to \"Cloud Polling\": https://www.home-assistant.io/blog/2016/02/12/classifying-th... I only use \"Local Polling\" or better, and highly prefer \"Local Push\". reasonabl_human: The new rules I have come to use are: - buy the cheapest hardware that gets the job done - ignore negative reviews that are software related - upon receipt of devices, ask claude for local-first cfw - have fun for a few hours acting as a meat proxy - boom, cheap local-only smart home is done Use a SBC or nas for home assistant. This process worked for me for switches, a thermostat, an air quality monitor, a thermo...",
+      "fetched_at": "2026-11-10T19:25:12.283667+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50441707",
+      "hn_story_type": "story",
+      "hn_points": "285",
+      "hn_comments_count": "124",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50441707",
+      "hn_item_text": "",
+      "hn_comment_preview": "mountain_peak: Bought our home almost 20 years ago, and the former owner (apparently) owned a now-defunct home automation business. The upside was 100% X10/Insteon power and light controls, top alarm panel, environmental controls and so on running off of a wall-mounted \"SmartLinc\" touch panel. I expanded the system with Axis cameras and a Mac Server running Indigo and SecuritySpy (non-subscription), which enabled remote monitori...\nscosman: HomeAssistant publishes \"IoT Class\" for all of it's integrations ranging from \"Local Push\" to \"Cloud Polling\": https://www.home-assistant.io/blog/2016/02/12/classifying-th... I only use \"Local Polling\" or better, and highly prefer \"Local Push\".\nreasonabl_human: The new rules I have come to use are: - buy the cheapest hardware that gets the job done - ignore negative reviews that are software related - upon receipt of devices, ask claude for local-first cfw - have fun for a few hours acting as a meat proxy - boom, cheap local-only smart home is done Use a SBC or nas for home assistant. This process worked for me for switches, a thermostat, an air quality monitor, a thermo...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "45",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=20,strategy_insight=8,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 21,
+        "tools_agents": 20,
+        "strategy_insight": 8,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 21,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security",
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "automation",
+            "ide"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "business"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "code + security",
+        "local + run"
+      ],
+      "detail_slug": "51425f85a47aa659617599b36c0072aa45997330",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T19:27:21.077385+00:00"
+    },
+    {
+      "id": "6ab7fd0375a35e89ef68b9b4720c398e96b3e178",
+      "title_hash": "c4bd59b8ffac69aade0f1c96ad83691833b86905",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Val Town is winding down",
+      "link": "https://blog.val.town/winding-down",
+      "published_at": "2026-11-10T17:31:14+00:00",
+      "summary": "HN story type: story HN points: 114 HN comments: 30 HN top comments: cmontella: I remember Steve from my days working on Eve, he was part of that community and always a big proponent of end-user programming. I was happy to see him working on this project but am not surprised it's shutting down. Nothing to to do with the quality of Val Town, but making a business in this space is really, really hard. You can't start the business without raising millions (Eve raised $2M, Darklang raised $3.5M,... jrmann100: Not mentioned directly in the blog post, but Val Town was fundamentally organized around the Deno runtime, whose team will stop maintaining it next year after joining Cloudflare [0]. [0] https://deno.com/blog/cloudflare Zambyte: It seems like everyone here knows what this is but me. I went to their homepage and I still can't tell what this is. How is this different from just giving your agent access to one of the many hosting services CLIs / MCPs? Did they just pioneer that?",
+      "fetched_at": "2026-11-10T19:25:12.283667+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50443427",
+      "hn_story_type": "story",
+      "hn_points": "114",
+      "hn_comments_count": "30",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50443427",
+      "hn_item_text": "",
+      "hn_comment_preview": "cmontella: I remember Steve from my days working on Eve, he was part of that community and always a big proponent of end-user programming. I was happy to see him working on this project but am not surprised it's shutting down. Nothing to to do with the quality of Val Town, but making a business in this space is really, really hard. You can't start the business without raising millions (Eve raised $2M, Darklang raised $3.5M,...\njrmann100: Not mentioned directly in the blog post, but Val Town was fundamentally organized around the Deno runtime, whose team will stop maintaining it next year after joining Cloudflare [0]. [0] https://deno.com/blog/cloudflare\nZambyte: It seems like everyone here knows what this is but me. I went to their homepage and I still can't tell what this is. How is this different from just giving your agent access to one of the many hosting services CLIs / MCPs? Did they just pioneer that?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=9,tools_agents=14,strategy_insight=2,industry_business=-6",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": -6
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "runtime"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "mcp",
+            "cli"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -6,
+          "strong_hits": [],
+          "support_hits": [
+            "business"
+          ],
+          "negative_hits": [
+            "runtime",
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "mcp",
+        "cli",
+        "agent"
+      ],
+      "detail_slug": "6ab7fd0375a35e89ef68b9b4720c398e96b3e178",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T19:27:21.077385+00:00"
+    },
+    {
+      "id": "2bc444dca8e0f60277acf57397af4d368cdadeae",
+      "title_hash": "14886857039d075f3349fa2521929850876a6bd5",
+      "source": "TechCrunch",
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "published_at": "2026-11-10T19:23:34+00:00",
+      "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+      "fetched_at": "2026-11-10T19:25:12.283667+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=25,practical_tech=-4,tools_agents=-4,strategy_insight=0,industry_business=25",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": -4,
+        "strategy_insight": 0,
+        "industry_business": 25
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "ipo"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 25,
+          "strong_hits": [
+            "startup",
+            "deal",
+            "ipo"
+          ],
+          "support_hits": [
+            "startup",
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "startup",
+        "deal",
+        "ipo",
+        "market",
+        "techcrunch.com"
+      ],
+      "detail_slug": "2bc444dca8e0f60277acf57397af4d368cdadeae",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T19:27:21.077385+00:00"
+    },
+    {
       "id": "62292d75f17ff988b48f4971995a4d12e846b8b9",
       "title_hash": "f55f9352da9577e8e323de5ba036c9b3e3a7b27a",
       "source": "GeekNews",
@@ -166040,620 +166664,6 @@
       "hn_reaction_summary": "아직 댓글이 없어 뚜렷한 HN 여론은 형성되지 않았다. 다만 본문이 던진 문제의식은 분명해서, 실무자라면 앞으로 붙을 논점을 미리 읽어둘 만하다.\n- 가장 큰 쟁점은 API 기준 성능과 실제 웹 UI 체감 성능이 다를 수 있다는 점이다. 서비스 운영 환경에서의 이른바 '너프'를 어떻게 계량할지가 핵심으로 보인다.\n- 모델별 세부 라인업을 모두 펼치지 않고 연구소별 대표 모델만 이어 그린 방식은 비교는 쉬워지지만, 세부 변화가 가려질 수 있다는 반론도 나올 수 있다.\n- 모바일 가독성까지 챙긴 시각화라는 점은 장점이지만, 결국 데이터 공백을 어떻게 메우느냐가 이 프로젝트의 신뢰도를 가를 가능성이 크다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-14T05:06:18.108602+00:00"
-    },
-    {
-      "id": "c874e81a5dd39d466c3949fee13107ed1c9c7aa7",
-      "title_hash": "ce0af29c8528d43f3f1af9eff4fd455679dda1d7",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Claude for Small Business",
-      "link": "https://www.anthropic.com/news/claude-for-small-business",
-      "published_at": "2026-05-14T03:59:35+00:00",
-      "summary": "HN story type: story HN points: 59 HN comments: 23 HN top comments: hommelix: By coincidence, I've looked yesterday a small documentary [1] about the people tagging all those invoices to train theses models. For 120 €/month they are reading about 1000 to 4000 invoices per day and check and tag them for AI training. [1] https://www.arte.tv/en/videos/126831-000-A/arte-reportage/ arjie: I understand why this is a good idea. I have Claude Code hooked up to my mail synced via IMAP, my Mercury read-only token, and beancount, and it gets almost all of my invoices and categorizes them. The tedious portion for a lot of this is: * find invoice I_E for expense E * associate and categorize E based on I_E and transaction field These things are annoying but Claude Code is great at it and it leaves a much sm... jryio: I run a s business (small if you compare it to tech companies). I can tell you the drag is between your own tools and the real world (which is very messy and inconsistent): taxes, compliance, payroll, amendments, share structures, etc. Within my island, my books are in order, invoices and time keeping is fully automated, calendars and sales pipelines are connected. I'm sure there are many businesses whose inner is...",
-      "fetched_at": "2026-05-14T05:03:17.060970+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48130950",
-      "hn_story_type": "story",
-      "hn_points": "59",
-      "hn_comments_count": "23",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48130950",
-      "hn_item_text": "",
-      "hn_comment_preview": "hommelix: By coincidence, I've looked yesterday a small documentary [1] about the people tagging all those invoices to train theses models. For 120 €/month they are reading about 1000 to 4000 invoices per day and check and tag them for AI training. [1] https://www.arte.tv/en/videos/126831-000-A/arte-reportage/\narjie: I understand why this is a good idea. I have Claude Code hooked up to my mail synced via IMAP, my Mercury read-only token, and beancount, and it gets almost all of my invoices and categorizes them. The tedious portion for a lot of this is: * find invoice I_E for expense E * associate and categorize E based on I_E and transaction field These things are annoying but Claude Code is great at it and it leaves a much sm...\njryio: I run a s business (small if you compare it to tech companies). I can tell you the drag is between your own tools and the real world (which is very messy and inconsistent): taxes, compliance, payroll, amendments, share structures, etc. Within my island, my books are in order, invoices and time keeping is fully automated, calendars and sales pipelines are connected. I'm sure there are many businesses whose inner is...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=9,tools_agents=20,strategy_insight=4,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 20,
-        "strategy_insight": 4,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "business"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "ide",
-        "tool",
-        "claude + code"
-      ],
-      "detail_slug": "c874e81a5dd39d466c3949fee13107ed1c9c7aa7",
-      "is_english_source": true,
-      "translated_title": "소규모 사업 운영을 돕는 Claude",
-      "short_summary": "Hacker News에서는 Claude를 소규모 사업의 백오피스에 붙여 송장 정리, 지출 분류, 메일 기반 회계 보조에 쓰는 흐름이 주목받았다. 다만 세금·급여·컴플라이언스처럼 현실 변수가 많은 영역까지 맡길 수 있느냐를 두고는 의견이 갈렸다.",
-      "why_it_matters": "생성형 AI가 개인용 비서 수준을 넘어, 소규모 사업의 운영 업무를 덜어주는 도구로 옮겨가고 있다는 점이 눈에 띈다. 실무에서는 거창한 자동화보다 문서 찾기와 거래 대조처럼 자잘하지만 자주 반복되는 일이 먼저 바뀔 가능성이 크다.\n- 이메일, 거래 내역, 장부를 연결하면 송장 수집과 비용 분류 같은 반복 업무를 꽤 줄일 수 있다.\n- 세무, 급여, 규정 대응은 예외가 많아 전면 자동화보다 초안 작성과 1차 분류 보조에 쓰는 쪽이 현실적이다.\n- 도입 전에는 읽기 전용 권한, 검수 책임, 감사 기록을 어떻게 둘지부터 정해 두는 편이 안전하다.",
-      "hn_reaction_summary": "댓글 분위기는 기대와 경계가 함께 섞여 있었다. 실제로 송장 매칭과 회계 분류에 써 봤더니 손이 많이 가는 일이 줄었다는 경험담이 나온 반면, 현실의 행정 업무는 너무 지저분해서 쉽게 일반화하기 어렵다는 반론도 이어졌다.\n- 찬성 쪽은 송장 찾기, 거래 매칭, 지출 분류처럼 귀찮고 반복적인 백오피스 업무에서 바로 효용이 난다고 봤다.\n- 회의적인 쪽은 세금, 컴플라이언스, 급여, 지분 구조 변경 같은 문제는 예외가 많아 AI가 끝까지 책임지기 어렵다고 지적했다.\n- 또 한편으로는 이런 기능 뒤에 저임금 데이터 라벨링 노동이 있다는 점을 함께 봐야 한다는 윤리적 문제제기도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-14T05:06:18.108602+00:00"
-    },
-    {
-      "id": "5a08982199254ca68cf519b81cbc2b1baa797667",
-      "title_hash": "d25e35f67b153e9723c6c3f85a2609ef49c931f2",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "MacBook Neo Deep Dive: Benchmarks, Wafer Economics, and the 8GB Gamble",
-      "link": "https://www.jdhodges.com/blog/macbook-neo-benchmarks-analysis/",
-      "published_at": "2026-05-13T18:30:51+00:00",
-      "summary": "HN story type: story HN points: 156 HN comments: 154 HN top comments: Fannon: While I got me a 16GB Macbook Air, I appreciate that Apple continues to make 8GB devices. This indicates for me also a commitment for not bloating up the OS (like Windows did) too much and caring about memory efficiency. darkteflon: I bought an 8gb M1 Air in 2020 (for what now feels like an absurdly small sum of money) as an experiment in how-cheap-is-too-cheap / chuckable travel laptop. I ended up using it as my main laptop for 2 years without regret, then handed it to my son for school. It remains in perfect condition and as delightful to use as the day I bought it (Apple software snafus notwithstanding). I fully expect to get at least 10 y... wlesieutre: > The I/O is also a genuine limitation: one USB 2.0 port is functionally useless for data transfer, no Thunderbolt means no fast external storage, and charging occupies your only USB 3 port. You're supposed to use the USB-2 port for charging and save the USB-3 port for external accessories, not the other way around It only supports 10Gb/s compared to 40 that USB-4 is theoretically capable of, but that's more than...",
-      "fetched_at": "2026-05-14T05:03:17.060970+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48125617",
-      "hn_story_type": "story",
-      "hn_points": "156",
-      "hn_comments_count": "154",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48125617",
-      "hn_item_text": "",
-      "hn_comment_preview": "Fannon: While I got me a 16GB Macbook Air, I appreciate that Apple continues to make 8GB devices. This indicates for me also a commitment for not bloating up the OS (like Windows did) too much and caring about memory efficiency.\ndarkteflon: I bought an 8gb M1 Air in 2020 (for what now feels like an absurdly small sum of money) as an experiment in how-cheap-is-too-cheap / chuckable travel laptop. I ended up using it as my main laptop for 2 years without regret, then handed it to my son for school. It remains in perfect condition and as delightful to use as the day I bought it (Apple software snafus notwithstanding). I fully expect to get at least 10 y...\nwlesieutre: > The I/O is also a genuine limitation: one USB 2.0 port is functionally useless for data transfer, no Thunderbolt means no fast external storage, and charging occupies your only USB 3 port. You're supposed to use the USB-2 port for charging and save the USB-3 port for external accessories, not the other way around It only supports 10Gb/s compared to 40 that USB-4 is theoretically capable of, but that's more than...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=2,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "benchmark",
-            "storage"
-          ],
-          "support_hits": [
-            "deep dive"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "benchmark",
-        "storage",
-        "deep dive"
-      ],
-      "detail_slug": "5a08982199254ca68cf519b81cbc2b1baa797667",
-      "is_english_source": true,
-      "translated_title": "맥북 네오 심층 해부: 벤치마크와 8GB 승부수",
-      "short_summary": "맥북 네오를 벤치마크와 칩 원가 관점에서 뜯어보며, 애플의 8GB 기본 전략이 어떤 계산 위에 서 있는지 짚은 글이다. HN에선 메모리 효율과 낮은 진입가를 반기는 의견과 포트·확장성 한계를 우려하는 의견이 맞섰다.",
-      "why_it_matters": "보급형 맥의 기준이 어디로 움직이는지 보여주는 사례다. 가격을 낮추는 대신 메모리와 입출력 구성을 어디까지 줄여도 되는지가 구매와 배치 판단의 기준으로 떠올랐다.\n- 8GB가 충분한지 보려면 벤치마크 점수만 볼 일이 아니다. 브라우저 탭, 개발 도구, 화상회의, 외장 저장장치처럼 실제 작업 조합에서 병목이 생기는지 봐야 한다.\n- 웨이퍼 비용과 기본 사양 전략을 함께 보면 애플이 왜 메모리 업그레이드와 포트 차등화로 제품군을 나누는지 읽힌다.\n- 교육용, 출장용, 사내 지급용처럼 대량 도입을 검토하는 조직이라면 초기 단가 절감과 사용 수명, 주변기기 제약을 같이 따져볼 필요가 있다.",
-      "hn_reaction_summary": "댓글 분위기는 크게 둘로 갈렸다. 8GB 맥북 에어를 오래 만족스럽게 썼다는 경험담이 적지 않았지만, 메인 업무 장비로는 제약이 빠르게 드러난다는 반론도 강했다.\n- 긍정 쪽은 애플이 8GB 제품을 계속 내는 걸 메모리 효율과 운영체제 경량화의 신호로 읽었다. 저렴한 입문기나 여행용 노트북으로는 충분하다는 평가가 많았다.\n- 비판 쪽은 메모리보다도 I/O 구성을 더 큰 문제로 봤다. USB 2.0 포트, 썬더볼트 부재, 충전 시 포트 점유 같은 점이 외장 스토리지와 도킹 환경에서 불편하다는 지적이 나왔다.\n- 실무 관점에선 기본형의 쓰임새를 어디까지 볼 것인지가 핵심 논점이었다. 가벼운 작업은 괜찮지만, 장기 주력 장비라면 16GB 이상이 낫다는 선긋기가 반복됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-14T05:06:18.108602+00:00"
-    },
-    {
-      "id": "097cdb0729f700b36a874b08e078483175b50170",
-      "title_hash": "30b1540785bbfe93faf3446f74b28dd10b50c3fb",
-      "source": "GeekNews",
-      "title": "캐나다의 Bill C-22는 지난해의 감시 악몽을 재포장한 버전",
-      "link": "https://news.hada.io/topic?id=29478",
-      "published_at": "2026-05-13T23:37:47+00:00",
-      "summary": "캐나다의 Bill C-22 는 Bill C-2의 일부 문제를 손봤지만, 디지털 권리 약화라는 핵심 우려는 대부분 남아 있음 Bill C-22는 통신사와 메시징 앱 같은 디지털 서비스에 메타데이터 를 1년간 기록·보관하도록 강제할 수 있음 공공안전부 장관은 기업에 법집행...",
-      "fetched_at": "2026-05-14T00:52:00.364829+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "097cdb0729f700b36a874b08e078483175b50170",
-      "is_english_source": false,
-      "sent_at": "2026-05-14T00:54:42.726436+00:00"
-    },
-    {
-      "id": "6c946629849d5e0c69ccfaee8a9d4775c984fd39",
-      "title_hash": "9f46c0611a3aebc790440090be0e71335d251ed7",
-      "source": "GeekNews",
-      "title": "Quack: DuckDB 클라이언트-서버 프로토콜",
-      "link": "https://news.hada.io/topic?id=29477",
-      "published_at": "2026-05-13T22:49:47+00:00",
-      "summary": "Quack 은 DuckDB 인스턴스 간 통신을 제공해 클라이언트-서버 구성과 여러 동시 작성자의 같은 데이터베이스 사용을 가능하게 함 DuckDB는 인프로세스 아키텍처 를 유지하면서, 여러 프로세스가 같은 파일을 수정할 때 필요한 상태 동기화를 원격 프로토콜로 처리함...",
-      "fetched_at": "2026-05-14T00:52:00.364829+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=2,tools_agents=4,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "아키텍처"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "아키텍처"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "6c946629849d5e0c69ccfaee8a9d4775c984fd39",
-      "is_english_source": false,
-      "sent_at": "2026-05-14T00:54:42.726436+00:00"
-    },
-    {
-      "id": "4f116d04e3691bbf6b67f7a850acba3fdd4ef4b9",
-      "title_hash": "ef1b9e2640c4639b4413d14520445ff91289c3eb",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Tell HN: Dont use Claude Design, lost access to my projects after unsubscribing",
-      "link": "https://news.ycombinator.com/item?id=48128003",
-      "published_at": "2026-05-13T21:40:18+00:00",
-      "summary": "HN story type: story HN points: 137 HN comments: 56 HN post text: I wanted to try codex after 5 months of claude code max subscription. And then I went back to my previous projects on claude design only to realize I don't have access to them anymore. This is a first. I never lost access to any of my past sessions because I unsubscribed in any of the LLM apps. I actually wanted to try out codex previously, but had similar experience with my credits. They gave extra credits equivalent to my montly subscription price, with some time limit because claude has so many issues that month. And as soon as plan ended. I lost access to the credits. Even after resubscribing, I still don't have access to those credits. I have sympathies towards the engineers, especially the ones that are putting themselves on X. But only when someone with large following has some issue, they sort it out. Having worked at a billing company, I can see how complex contracts sound good for the growth/sales folks but are also horrible for engineers actually implementing those contracts. Their complex rate limiting which is now a norm, identifying other harnesses to count them against extra usage are all probably not easy to implement without very rough edge cases. But all the \"b... HN top comments: jjcm: A lot of these things are made fast and loose, and unfortunately this is the reality of using the bleeding edge. Even Figma went through this kind of thing very early on. To add something else to the discussion however, I'd encourage people to skip out on Claude Design for other reasons, and that is the inherent restrictions of LLMs for visual design. LLMs are blind, and spatial relativity is tremendously hard acr... Topfi: It is still there and you may get it easily. If you export your data [0] all your Claude Design chats are in a design_chats directory along with the code, even if your account currently has no access to Claude Design. It is .json, but converting that into usable code is easily done, either manually or by asking any fairly modern LLM via OpenCode. Just did it myself, it works. I will say that I'd still prefer if th... coder97: Looks like I need to do a daily backup of the artifacts generated.",
-      "fetched_at": "2026-05-14T00:52:00.364829+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48128003",
-      "hn_story_type": "story",
-      "hn_points": "137",
-      "hn_comments_count": "56",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48128003",
-      "hn_item_text": "I wanted to try codex after 5 months of claude code max subscription. And then I went back to my previous projects on claude design only to realize I don't have access to them anymore. This is a first. I never lost access to any of my past sessions because I unsubscribed in any of the LLM apps. I actually wanted to try out codex previously, but had similar experience with my credits. They gave extra credits equivalent to my montly subscription price, with some time limit because claude has so many issues that month. And as soon as plan ended. I lost access to the credits. Even after resubscribing, I still don't have access to those credits. I have sympathies towards the engineers, especially the ones that are putting themselves on X. But only when someone with large following has some issue, they sort it out. Having worked at a billing company, I can see how complex contracts sound good for the growth/sales folks but are also horrible for engineers actually implementing those contracts. Their complex rate limiting which is now a norm, identifying other harnesses to count them against extra usage are all probably not easy to implement without very rough edge cases. But all the \"b...",
-      "hn_comment_preview": "jjcm: A lot of these things are made fast and loose, and unfortunately this is the reality of using the bleeding edge. Even Figma went through this kind of thing very early on. To add something else to the discussion however, I'd encourage people to skip out on Claude Design for other reasons, and that is the inherent restrictions of LLMs for visual design. LLMs are blind, and spatial relativity is tremendously hard acr...\nTopfi: It is still there and you may get it easily. If you export your data [0] all your Claude Design chats are in a design_chats directory along with the code, even if your account currently has no access to Claude Design. It is .json, but converting that into usable code is easily done, either manually or by asking any fairly modern LLM via OpenCode. Just did it myself, it works. I will say that I'd still prefer if th...\ncoder97: Looks like I need to do a daily backup of the artifacts generated.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=28,practical_tech=9,tools_agents=28,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 28,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 28,
-          "strong_hits": [
-            "claude code",
-            "codex",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "ide",
-        "llm",
-        "claude + code"
-      ],
-      "detail_slug": "4f116d04e3691bbf6b67f7a850acba3fdd4ef4b9",
-      "is_english_source": true,
-      "translated_title": "클로드 디자인, 해지 후 프로젝트 접근 차단 논란",
-      "short_summary": "한 사용자가 Claude Code Max를 해지한 뒤 클로드 디자인의 이전 프로젝트에 접근할 수 없게 됐다고 HN에 올렸다. 크레딧 소멸과 불투명한 과금 경험까지 겹치며 백업과 서비스 종속 위험이 다시 도마에 올랐다.",
-      "why_it_matters": "AI 도구를 업무 흐름에 붙여 쓰는 팀이라면 성능보다 먼저 데이터 소유권과 해지 후 접근 정책을 따져야 한다는 경고로 읽힌다.\n- 구독 상태에 따라 과거 산출물 접근이 막히면 개인 실험 기록이 아니라 업무 자산 전체가 흔들릴 수 있다.\n- 크레딧 만료와 추가 사용량 계산 방식이 복잡할수록 비용 예측이 어려워지고 운영 정책도 엉키기 쉽다.\n- 실무에서는 정기 내보내기, 로컬 백업, 대체 가능한 파일 포맷 확보가 사실상 기본 수칙이라는 점이 다시 확인됐다.",
-      "hn_reaction_summary": "댓글 분위기는 '최신 AI 서비스라면 거친 운영을 감수해야 한다'는 체념과, 그래도 해지 후 접근 제한은 과하다는 비판이 함께 섞였다.\n- 일부는 데이터 내보내기 안의 `design_chats` 디렉터리로 대화와 코드를 되살릴 수 있다며 완전 소실은 아니라고 반박했다.\n- 반대로 그래서 더더욱 일일 백업이 필요하다는 반응도 많았고, 벤더 종속을 줄이는 보관 습관이 반복해서 언급됐다.\n- 별개로 LLM은 시각 디자인에서 공간 감각 한계가 뚜렷하니 클로드 디자인 자체를 신중히 봐야 한다는 지적도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-14T00:54:42.726436+00:00"
-    },
-    {
-      "id": "6baab5024be2e7f8d661035e2103b833436ca040",
-      "title_hash": "c498f80b4c1d1ebe5946d578b49bf34e8f9e4aa9",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Twin brothers wipe 96 government databases minutes after being fired",
-      "link": "https://arstechnica.com/tech-policy/2026/05/drop-database-what-not-to-do-after-losing-an-it-job/",
-      "published_at": "2026-05-12T22:28:07+00:00",
-      "summary": "HN story type: story HN points: 285 HN comments: 216 HN top comments: scottlamb: > [Opexus] said that “the individuals responsible for hiring the twins are no longer employed by Opexus.” Getting close to the classic Monty Python line: \"Those responsible for sacking the people who have just been sacked, have been sacked.\" Jokes aside, stuff like this sucks because I suspect many employers will take from it the most extreme, dehumanizing lessons, e.g.: (a) make firings [edit: including lay-offs]... zuzululu: I'm just amused how these people were even hired to begin with ? They don't seem to be Americans? How were they even allowed to work on sensitive systems? Why was this even allowed? So many questions. At 4:58 pm, he wiped out a Department of Homeland Security database using the command “DROP DATABASE dhsproddb.” At 4:59 pm, he asked an AI tool, “How do i clear system logs from SQL servers after deleting databases?... Beestie: I don’t know where to start with this other than to point out that there is no way in hell these two clowns had the security clearance necessary to access a prod DB at DHS. I can only assume they stole creds from another employee who had that level of clearance. Also, tax records are not stored in a DHS domain . I think this story has been sanitized to mask some details which is ok I guess but I ain’t buying the b...",
-      "fetched_at": "2026-05-14T00:52:00.364829+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48115438",
-      "hn_story_type": "story",
-      "hn_points": "285",
-      "hn_comments_count": "216",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48115438",
-      "hn_item_text": "",
-      "hn_comment_preview": "scottlamb: > [Opexus] said that “the individuals responsible for hiring the twins are no longer employed by Opexus.” Getting close to the classic Monty Python line: \"Those responsible for sacking the people who have just been sacked, have been sacked.\" Jokes aside, stuff like this sucks because I suspect many employers will take from it the most extreme, dehumanizing lessons, e.g.: (a) make firings [edit: including lay-offs]...\nzuzululu: I'm just amused how these people were even hired to begin with ? They don't seem to be Americans? How were they even allowed to work on sensitive systems? Why was this even allowed? So many questions. At 4:58 pm, he wiped out a Department of Homeland Security database using the command “DROP DATABASE dhsproddb.” At 4:59 pm, he asked an AI tool, “How do i clear system logs from SQL servers after deleting databases?...\nBeestie: I don’t know where to start with this other than to point out that there is no way in hell these two clowns had the security clearance necessary to access a prod DB at DHS. I can only assume they stole creds from another employee who had that level of clearance. Also, tax records are not stored in a DHS domain . I think thi...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=9,strategy_insight=6,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 9,
-        "strategy_insight": 6,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "database",
-            "security",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "lessons",
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "database",
-        "security",
-        "sql"
-      ],
-      "detail_slug": "6baab5024be2e7f8d661035e2103b833436ca040",
-      "is_english_source": true,
-      "translated_title": "해고 직후 정부 DB 96개 지운 쌍둥이 형제",
-      "short_summary": "해고된 쌍둥이 형제가 몇 분 만에 정부 관련 데이터베이스 96개를 삭제했다는 사건이 HN에서 크게 화제가 됐다. 댓글은 사건 자체의 충격보다 권한 회수 실패, 운영 접근 통제 부재, 기사 세부의 신빙성에 더 주목했다.",
-      "why_it_matters": "이번 일은 내부자 위협이 거창한 외부 침입보다 퇴사 처리와 권한 회수 실패에서 더 쉽게 터질 수 있음을 보여준다. 실무에서는 해고·퇴사 절차와 운영 권한 설계를 함께 점검해야 한다는 경고에 가깝다.\n- 해고 직후에도 운영 DB 삭제가 가능했다는 점만으로 오프보딩, 계정 회수, 승인 체계가 제대로 묶여 있지 않았을 가능성을 드러낸다.\n- 공공 시스템이나 민감한 데이터를 다루는 조직일수록 사람을 더 의심하는 쪽보다 최소 권한, 즉시 접근 차단, 감사 로그 보존을 자동화하는 쪽이 현실적인 대응이다.\n- 사건 뒤에는 해고 절차를 더 비인간적으로 만들자는 반응이 나오기 쉽다. 하지만 현업에서 먼저 손봐야 할 것은 사람의 선의가 아니라 권한 구조와 운영 프로세스다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 황당함과 의심이 함께 섞여 있었다. 농담도 있었지만, 반복해서 나온 논점은 보안 통제가 왜 이렇게 허술했는지와 기사 설명이 얼마나 정확한지였다.\n- 가장 많이 나온 반응은 '애초에 어떻게 이런 접근 권한이 가능했나'였다. 채용 문제보다 자격 증명 관리와 운영 접근 통제가 더 큰 실패라는 지적이 많았다.\n- 일부는 DHS 운영 DB와 세금 기록 같은 표현이 어색하다며, 기사 내용이 익명화 과정에서 섞였거나 핵심 맥락이 빠졌을 수 있다고 봤다.\n- AI에게 로그 삭제 방법을 물었다는 대목은 눈길을 끌었지만, 댓글의 초점은 AI 남용보다 기본 보안 절차 붕괴에 더 맞춰져 있었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-14T00:54:42.726436+00:00"
-    },
-    {
-      "id": "20db333cd04ff215f8c67f78d6e08ac590ca6d76",
-      "title_hash": "e3fa9b262951cf7ef5eec89f066b20b8879bc908",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "A sentimental tour of late 1990s and early 2000s hacking tools",
-      "link": "https://andreafortuna.org/2026/05/13/amarcord/",
-      "published_at": "2026-05-13T18:25:09+00:00",
-      "summary": "HN story type: story HN points: 43 HN comments: 14 HN top comments: JohnMakin: > Beyond pure operations, IRC was also a social space with its own culture, rituals, and hierarchy. You proved yourself by sharing information, by having access to tools before others did, by being present when something interesting happened. The channels were chaotic, frequently toxic, and also a brutal apprenticeship in network security for anyone who could not afford a conference ticket. Many people who are now... tptacek: I'm sure language issues motivated the choice but I think this would be a lot more pleasant to read in your own voice and not in an LLMs. It reads pretty slick and magaziney. nobleach: I read Hacking Exposed around that time period. Up until then, my only \"hacking\" experience was with AOHell and everything that came along with that. It was interesting, but I wasn't really into the idea of trying to use CreditWiz to increase my odds of prison time. (I was a kid, I thought everything would lead to prison). Back Orifice just seemed like a great sysadmin tool!",
-      "fetched_at": "2026-05-14T00:52:00.364829+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48125557",
-      "hn_story_type": "story",
-      "hn_points": "43",
-      "hn_comments_count": "14",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48125557",
-      "hn_item_text": "",
-      "hn_comment_preview": "JohnMakin: > Beyond pure operations, IRC was also a social space with its own culture, rituals, and hierarchy. You proved yourself by sharing information, by having access to tools before others did, by being present when something interesting happened. The channels were chaotic, frequently toxic, and also a brutal apprenticeship in network security for anyone who could not afford a conference ticket. Many people who are now...\ntptacek: I'm sure language issues motivated the choice but I think this would be a lot more pleasant to read in your own voice and not in an LLMs. It reads pretty slick and magaziney.\nnobleach: I read Hacking Exposed around that time period. Up until then, my only \"hacking\" experience was with AOHell and everything that came along with that. It was interesting, but I wasn't really into the idea of trying to use CreditWiz to increase my odds of prison time. (I was a kid, I thought everything would lead to prison). Back Orifice just seemed like a great sysadmin tool!",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=9,tools_agents=14,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 14,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "tool"
-      ],
-      "detail_slug": "20db333cd04ff215f8c67f78d6e08ac590ca6d76",
-      "is_english_source": true,
-      "translated_title": "90년대 말과 2000년대 초 해킹 도구 회고",
-      "short_summary": "1990년대 말부터 2000년대 초까지 쓰이던 해킹 도구와 IRC 중심 문화를 되짚는 글이다. 당시의 혼란스러운 현장이 오늘 보안 커뮤니티와 실무 감각에 어떤 흔적을 남겼는지 함께 보여준다.",
-      "why_it_matters": "지금의 보안 실무를 이해하려면 도구만이 아니라 그 도구가 퍼지던 방식과 커뮤니티 분위기도 같이 볼 필요가 있다. 이 글은 초창기 해킹 도구와 학습 문화가 오늘의 보안 생태계로 어떻게 이어졌는지 감각적으로 짚는다.\n- IRC 같은 비공식 채널이 지식 공유, 평판 형성, 현장 학습의 장이었음을 보여준다. 오늘날 오픈소스 커뮤니티나 실시간 보안 채널을 볼 때도 닮은 구석이 있다.\n- 당시 도구를 돌아보면 관리 도구와 공격 도구의 경계가 어떻게 흐려졌는지 읽힌다. 실무에서는 기능보다 맥락과 사용 방식이 더 큰 문제라는 점을 다시 확인하게 된다.\n- 보안 인력의 성장 경로가 제도권 교육보다 커뮤니티 경험에 크게 기대던 시절을 비춘다. 채용, 교육, 온보딩 방식을 고민하는 팀에도 시사점이 있다.",
-      "hn_reaction_summary": "HN 반응은 전반적으로 향수 어린 회고에 공감하면서도, 그 시절 문화를 마냥 낭만화해선 안 된다는 쪽으로 모였다. 도구 자체보다 IRC 문화, 글의 문체, 당시의 윤리 감각을 두고 이야기가 이어졌다.\n- 반복해서 나온 평가는 IRC가 단순한 채팅방이 아니라 거칠지만 빠르게 배우는 보안 수련장 같았다는 점이다. 동시에 독하고 배타적인 분위기도 있었다는 회고가 붙었다.\n- 몇몇 댓글은 글의 문체가 지나치게 매끈하고 LLM이 쓴 글처럼 느껴진다고 지적했다. 내용보다 전달 방식이 몰입을 깬다는 반응이다.\n- AOHell, Back Orifice 같은 도구를 떠올리며, 장난과 호기심, 범죄의 경계가 지금보다 더 흐릿했던 시절이라는 회상이 나왔다. 실무자가 읽기엔 도구의 역사보다 문화적 맥락이 더 흥미로운 포인트로 보인다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-14T00:54:42.726436+00:00"
     }
   ],
   "topic_digests": {
