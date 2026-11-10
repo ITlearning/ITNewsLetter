@@ -1,6 +1,570 @@
 {
   "items": [
     {
+      "id": "b61ae1e14733883e616f0e0b3331e3c6819953d7",
+      "title_hash": "2cbd0e584a1711c70d3a84445542f0790f080faa",
+      "source": "GeekNews",
+      "title": "정체불명의 삐 소리가 나는 위치 찾기",
+      "link": "https://news.hada.io/topic?id=36936&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T08:40:53+00:00",
+      "summary": "여러 기기의 마이크로 소리를 수집하고 발원지를 삼각측량하는 Beep Locator 를 Claude Code로 제작해, 상자가 가득한 방에서 간헐적으로 울리는 경고음의 위치를 찾음 기기끼리 소리를 내 위치를 추정하지만 자동 측정이 잘되지 않아, 지도에 대략적인 위치를 지정한 뒤 소리로 보정하는 Rough mode 를 추가함 경고음 감지 직후 기기 하나가 짧은 소리를 내면, 서버가 이를 기준으로 각 기기의 녹음을 시간 정렬 해 발원지를 추정함 실제 사용에서 소리의 위치를 약 40cm 이내 로 좁혔으며, 해당 상자 더미에서 배터리 교체가 필요한 오래된 …",
+      "fetched_at": "2026-11-10T11:06:59.297539+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "b61ae1e14733883e616f0e0b3331e3c6819953d7",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T11:09:33.730427+00:00"
+    },
+    {
+      "id": "09c9b0372ab041865f8b590f3582a47cf594442a",
+      "title_hash": "4fb9e06bf61d3fa71aac1789d77309543f62d298",
+      "source": "GeekNews",
+      "title": "끔찍한 공개키 꼼수",
+      "link": "https://news.hada.io/topic?id=36938&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T09:04:20+00:00",
+      "summary": "RSA 공개키에 읽을 수 있는 문구를 심어 , 실제로 작동하고 인증기관의 신뢰도 받는 TLS 인증서를 만듦 공개 지수는 표준값으로 유지하고, 모듈러스의 상위 절반 을 조정해 인증서의 Base64 텍스트에 메시지가 드러나도록 함 수정한 모듈러스를 기존 소수로 나눈 뒤 가까운 소수를 찾아 키를 재구성하면, 메시지를 유지하면서 유효한 RSA 키 를 만들 수 있음 Base64 기준으로 RSA-2048은 약 150자, RSA-4096은 약 320자 를 넣을 수 있으며, 인증서 발급 후에도 같은 CSR로 갱신할 수 있음 이 방식은 개인키 엔트로피를 줄이며 , 제공 스크립트 …",
+      "fetched_at": "2026-11-10T11:06:59.297539+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "09c9b0372ab041865f8b590f3582a47cf594442a",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T11:09:33.730427+00:00"
+    },
+    {
+      "id": "4025ef929c2b1b70bbb94075f524ee83855e017e",
+      "title_hash": "795ab7d443ede876ea344357dfa538db9d1bb9ac",
+      "source": "GeekNews",
+      "title": "Amazon, Sonnet 4.6을 Strands Decider로 대체해 수백만 달러 절감",
+      "link": "https://news.hada.io/topic?id=36935&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T08:37:54+00:00",
+      "summary": "Amazon이 대규모 내부 티켓 분류에 쓰던 Claude Sonnet 4.6을 Strands Decider E4B 로 교체해 비용을 98% 줄였으며 , 연간 수백만 달러의 토큰 비용 절감을 예상함 의사결정 모델 은 텍스트를 생성하는 대신 주어진 선택지별 확률과 신뢰도를 반환하므로, 정해진 20개 범주에서 티켓 라벨을 고르는 작업에 적합했음 별도 티켓 평가에서 E4B가 운영 중인 Sonnet보다 좋은 결과를 보였고, 실제 비교에서 평균 호출 시간은 78% , 티켓당 총 토큰 수는 70% 감소함 실제 트래픽에서 두 모델을 병렬 실행하되 Sonnet 결과만 적용하는 이중 실행 방식 …",
+      "fetched_at": "2026-11-10T11:06:59.297539+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide"
+      ],
+      "detail_slug": "4025ef929c2b1b70bbb94075f524ee83855e017e",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T11:09:33.730427+00:00"
+    },
+    {
+      "id": "9e4868c3de260ca6cd831587bed2191e0e22ea82",
+      "title_hash": "25c6c1230c66735aec13d74f1898c7f7688365ab",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "ClickHouse Acquires Xata",
+      "link": "https://xata.io/blog/xata-is-joining-clickhouse",
+      "published_at": "2026-11-10T06:14:51+00:00",
+      "summary": "HN story type: story HN points: 39 HN comments: 6 HN top comments: hasyimibhar: Does this mean we can have scale-to-zero Postgres? One pain we have with Clickhouse Postgres is that we have to pay for dev/staging databases that receive no traffic most of the time. ianberdin: It's interesting that xata.io is a standalone product. Whereas in https://playcode.ai , it's just one of the features, it lets you create a new server in a second, which can contain anything, not just a database, and which takes up no space at all if nothing has changed. And you can have as many as you want, tens or twenties of them, which automatically go to sleep when not in use and cost you nothing. This is one... te_chris: I’ve gone all in on the clickhouse stack this year and I continue to be extremely impressed. Our product does physical simulation and generates a lot of time series rows per run (a million or so) so we needed something that could do fast time series aggregations. In clickhouse we’ve got one core db that supports that easily, while also being runnable locally in docker compose for dev. They’ve also made smart acqui...",
+      "fetched_at": "2026-11-10T11:06:59.297539+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50436706",
+      "hn_story_type": "story",
+      "hn_points": "39",
+      "hn_comments_count": "6",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50436706",
+      "hn_item_text": "",
+      "hn_comment_preview": "hasyimibhar: Does this mean we can have scale-to-zero Postgres? One pain we have with Clickhouse Postgres is that we have to pay for dev/staging databases that receive no traffic most of the time.\nianberdin: It's interesting that xata.io is a standalone product. Whereas in https://playcode.ai , it's just one of the features, it lets you create a new server in a second, which can contain anything, not just a database, and which takes up no space at all if nothing has changed. And you can have as many as you want, tens or twenties of them, which automatically go to sleep when not in use and cost you nothing. This is one...\nte_chris: I’ve gone all in on the clickhouse stack this year and I continue to be extremely impressed. Our product does physical simulation and generates a lot of time series rows per run (a million or so) so we needed something that could do fast time series aggregations. In clickhouse we’ve got one core db that supports that easily, while also being runnable locally in docker compose for dev. They’ve also made smart acqui...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=25,practical_tech=25,tools_agents=9,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 25,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 25,
+          "strong_hits": [
+            "database",
+            "postgres",
+            "docker"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "database",
+        "postgres",
+        "docker",
+        "local + run"
+      ],
+      "detail_slug": "9e4868c3de260ca6cd831587bed2191e0e22ea82",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T11:09:33.730427+00:00"
+    },
+    {
+      "id": "691a6632afbd6eb36a7c41ef84756aeb9be528d2",
+      "title_hash": "d5f30d1956c6fac9d1538f08213750e6e77accda",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Billion Watts in the Speaker [video]",
+      "link": "https://www.youtube.com/watch?v=PHOcTXYaMfg",
+      "published_at": "2026-11-07T21:45:50+00:00",
+      "summary": "HN story type: story HN points: 11 HN comments: 8 HN top comments: Eupolemos: This is not really a HN subject, I think - that said, I really love this dude. Popping up in my subscription-feed after 5 years was a highlight And it def. IS nerdy :D ablation: I seem to remember a few years back this guy made a lot of noise about a \"free energy\" (ahem) device he'd invented and claimed he was giving the plans to China and Russia as a way of getting back at the UK government for some slight or other, then promptly dropped off the face of the internet in protest(?) I guess he's back. xattt: Spoiler: it becomes a compact one-time use railgun.",
+      "fetched_at": "2026-11-10T11:06:59.297539+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50408336",
+      "hn_story_type": "story",
+      "hn_points": "11",
+      "hn_comments_count": "8",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50408336",
+      "hn_item_text": "",
+      "hn_comment_preview": "Eupolemos: This is not really a HN subject, I think - that said, I really love this dude. Popping up in my subscription-feed after 5 years was a highlight And it def. IS nerdy :D\nablation: I seem to remember a few years back this guy made a lot of noise about a \"free energy\" (ahem) device he'd invented and claimed he was giving the plans to China and Russia as a way of getting back at the UK government for some slight or other, then promptly dropped off the face of the internet in protest(?) I guess he's back.\nxattt: Spoiler: it becomes a compact one-time use railgun.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 9,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "prompt"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "noise"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "prompt"
+      ],
+      "detail_slug": "691a6632afbd6eb36a7c41ef84756aeb9be528d2",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T11:09:33.730427+00:00"
+    },
+    {
+      "id": "809f8422390bbb1a694184a4f4154e6259384ffc",
+      "title_hash": "31edec00a5e2faa1302cdb0c3bf7ecd9021e0aca",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Queens Public library under ransomware attack e-borrowing suspended",
+      "link": "https://connect.queenslibrary.org/",
+      "published_at": "2026-11-10T09:04:39+00:00",
+      "summary": "HN story type: story HN points: 35 HN comments: 15 HN top comments: RobotToaster: That seems a pretty terrible target for ransomware, it's not like public libraries have huge amounts of money. rustyhancock: Unfortunately, QPL has suffered a ransomware incident and currently much of the online access is unavailable lynx97: I wish the headlines around such things were more honest and would just say the truth: \"$company is currently offline because we never really invested in security and thought we could just wing it\"",
+      "fetched_at": "2026-11-10T11:06:59.297539+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50437790",
+      "hn_story_type": "story",
+      "hn_points": "35",
+      "hn_comments_count": "15",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50437790",
+      "hn_item_text": "",
+      "hn_comment_preview": "RobotToaster: That seems a pretty terrible target for ransomware, it's not like public libraries have huge amounts of money.\nrustyhancock: Unfortunately, QPL has suffered a ransomware incident and currently much of the online access is unavailable\nlynx97: I wish the headlines around such things were more honest and would just say the truth: \"$company is currently offline because we never really invested in security and thought we could just wing it\"",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=7,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "security",
+            "rust"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "rust",
+        "library"
+      ],
+      "detail_slug": "809f8422390bbb1a694184a4f4154e6259384ffc",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T11:09:33.730427+00:00"
+    },
+    {
+      "id": "843b410206c34afe5b511581ab042b6d2457801c",
+      "title_hash": "430f7102e719bd3631b67b36b2048a86ad871476",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Your TV can see through walls",
+      "link": "https://maurycyz.com/projects/fading/",
+      "published_at": "2026-11-10T05:24:45+00:00",
+      "summary": "HN story type: story HN points: 132 HN comments: 50 HN top comments: numlock86: Wait for people to learn about that you can listen in virtually anywhere through fiber-optic cables, as sound waves are enough to redirect the light in the cable to a measurable degree by \"bending\" the cable itself. Special devices to filter these variances out and transform them back to audio signals are a thing. It's only per line though, as any repeating device will just output a new cleaned up signal again. Oh... armcat: Several years back we actually made use of the principle mentioned in this post, to more systematically count traffic on the roads [1]. In our case we used LTE/4G radio, and we could even estimate the direction of travel, as well as the type of traffic (pedestrian, small vehicles, large vehicles). It was more accurate than Google Maps because it was independent of the moving phone, i.e. it was \"sensing the obstacl... swerner: As anyone observed who had a TV with just basic analog terrestrial antennas, before cable and satellite dishes - it does make a difference to the signal, when and where you stand and countless pieces of physical comedy in TV shows incorporated that.",
+      "fetched_at": "2026-11-10T11:06:59.297539+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50436410",
+      "hn_story_type": "story",
+      "hn_points": "132",
+      "hn_comments_count": "50",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50436410",
+      "hn_item_text": "",
+      "hn_comment_preview": "numlock86: Wait for people to learn about that you can listen in virtually anywhere through fiber-optic cables, as sound waves are enough to redirect the light in the cable to a measurable degree by \"bending\" the cable itself. Special devices to filter these variances out and transform them back to audio signals are a thing. It's only per line though, as any repeating device will just output a new cleaned up signal again. Oh...\narmcat: Several years back we actually made use of the principle mentioned in this post, to more systematically count traffic on the roads [1]. In our case we used LTE/4G radio, and we could even estimate the direction of travel, as well as the type of traffic (pedestrian, small vehicles, large vehicles). It was more accurate than Google Maps because it was independent of the moving phone, i.e. it was \"sensing the obstacl...\nswerner: As anyone observed who had a TV with just basic analog terrestrial antennas, before cable and satellite dishes - it does make a difference to the signal, when and where you stand and countless pieces of physical comedy in TV shows incorporated that.",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=4,tools_agents=2,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "signal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "signal"
+      ],
+      "detail_slug": "843b410206c34afe5b511581ab042b6d2457801c",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T11:09:33.730427+00:00"
+    },
+    {
       "id": "4b9acd88f45e7e6f3e5f454f741b888c01ac1e7d",
       "title_hash": "998b5f51bf36a149ec150e2a519f2e408cc05079",
       "source": "GeekNews",
@@ -166103,617 +166667,6 @@
       "detail_slug": "686c48040599c9e36401ddbfb4dea92672d44526",
       "is_english_source": false,
       "sent_at": "2026-05-13T16:31:32.266781+00:00"
-    },
-    {
-      "id": "444d35a99a5bd8da681240146016c5e71a78b61a",
-      "title_hash": "e6b015ac17a0af127a87ffb9fde668da773bd123",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Using OR-Tools CP-SAT for Scheduling Problems",
-      "link": "https://atalaykutlay.com/or-tools-cp-sat-for-scheduling-problems.html",
-      "published_at": "2026-05-13T11:02:57+00:00",
-      "summary": "HN story type: story HN points: 51 HN comments: 11 HN top comments: cchianel: Although this post discusses Constraint Programming - Satisfiability (CP-SAT) Solvers and Mixed Integer Problem (MIP) Solvers, it does not discuss Metaheuristic Solvers. Metaheuristic solvers are different in that you don't need to model your problem as a mixed integer problem. Instead, all it cares about is having a function that returns something you can compare. This allows you to model your problem however you... lsuresh: I'm a big fan of the CP-SAT solver. It was a remarkable piece of tech to learn about (especially Peter Stuckey's talks on lazy clause generation [1]). I'd used it in a past life to build a Kubernetes scheduler [2] and tackle some cluster management problems. [1] https://www.youtube.com/watch?v=lxiCHRFNgno [2] https://www.usenix.org/system/files/osdi20-suresh.pdf sobellian: I use CP-SAT for automated design problems. I need a guarantee on solution quality, so gen AI is a nonstarter. The problem formulation is quite messy and has constraints that can vary by locale. CP-SAT handles it pretty well. The one thing I've been trying to model well are cover constraints where for each x : xs, there is some y : ys st. pred(x, y). I've tried both boolean matrices and index constraints, and they...",
-      "fetched_at": "2026-05-13T16:28:12.088193+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48120351",
-      "hn_story_type": "story",
-      "hn_points": "51",
-      "hn_comments_count": "11",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48120351",
-      "hn_item_text": "",
-      "hn_comment_preview": "cchianel: Although this post discusses Constraint Programming - Satisfiability (CP-SAT) Solvers and Mixed Integer Problem (MIP) Solvers, it does not discuss Metaheuristic Solvers. Metaheuristic solvers are different in that you don't need to model your problem as a mixed integer problem. Instead, all it cares about is having a function that returns something you can compare. This allows you to model your problem however you...\nlsuresh: I'm a big fan of the CP-SAT solver. It was a remarkable piece of tech to learn about (especially Peter Stuckey's talks on lazy clause generation [1]). I'd used it in a past life to build a Kubernetes scheduler [2] and tackle some cluster management problems. [1] https://www.youtube.com/watch?v=lxiCHRFNgno [2] https://www.usenix.org/system/files/osdi20-suresh.pdf\nsobellian: I use CP-SAT for automated design problems. I need a guarantee on solution quality, so gen AI is a nonstarter. The problem formulation is quite messy and has constraints that can vary by locale. CP-SAT handles it pretty well. The one thing I've been trying to model well are cover constraints where for each x : xs, there is some y : ys st. pred(x, y). I've tried both boolean matr...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=6,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 6,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "kubernetes",
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "kubernetes"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "kubernetes",
-        "index"
-      ],
-      "detail_slug": "444d35a99a5bd8da681240146016c5e71a78b61a",
-      "is_english_source": true,
-      "translated_title": "OR-Tools CP-SAT로 일정 최적화하기",
-      "short_summary": "구글 OR-Tools의 CP-SAT로 일정 배치 같은 제약 최적화 문제를 어떻게 모델링하고 푸는지 설명한 글이다. HN에서는 실무 활용 경험이 이어졌고, 메타휴리스틱과의 차이와 모델링 난도도 함께 거론됐다.",
-      "why_it_matters": "규칙이 많고 예외가 잦은 스케줄링 업무를 코드로 옮겨야 하는 팀이라면 바로 실무 감각으로 이어지는 내용이다. 대충 돌아가는 자동화가 아니라 조건을 지키면서 더 나은 배치를 찾는 접근을 보여준다.\n- 인력 배치, 설비 사용, 배송 순서, 클러스터 스케줄링처럼 자원과 제약이 얽힌 문제를 하나의 모델로 다룰 수 있다.\n- 해의 품질 보장이 필요한 환경에서는 생성형 AI보다 결정적 솔버가 더 잘 맞을 수 있다는 현장 감각과도 맞닿아 있다.\n- 다만 성패는 제약을 어떻게 표현하느냐에 달려 있다. 도입 단계에서는 솔버 선택만큼 문제 정의와 모델링 역량이 중요해진다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이다. 실제 운영 시스템과 자동 설계 문제에 써봤다는 경험담이 붙으면서 연구용이 아니라 현업용 도구라는 인식이 강하게 드러났다.\n- 긍정 쪽에서는 CP-SAT가 복잡한 제약을 버티면서도 해의 품질을 보장해 준다는 점을 높게 봤다. 쿠버네티스 스케줄러와 클러스터 관리에 썼다는 사례도 나왔다.\n- 반론 쪽에서는 글이 메타휴리스틱 솔버를 충분히 다루지 않았다고 짚었다. 최적성보다 빠른 탐색과 유연한 모델링이 필요한 문제라면 접근이 달라질 수 있다는 얘기다.\n- 실무 논점으로는 커버 제약처럼 표현이 까다로운 조건을 어떻게 모델링할지가 반복해서 언급됐다. 결국 솔버 선택만큼 문제를 수식으로 옮기는 일이 어렵다는 반응이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T16:31:32.266781+00:00"
-    },
-    {
-      "id": "88b22cc7e023f6708237b8969b12826f2bc693f2",
-      "title_hash": "742378145f49cedc0fc459c8e952aad1bcf04949",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Googlebook",
-      "link": "https://googlebook.google/",
-      "published_at": "2026-05-12T17:37:36+00:00",
-      "summary": "HN story type: story HN points: 876 HN comments: 1457 HN post text: https://www.reddit.com/r/Android/comments/1tb8xls/introducin... HN top comments: reisse: I see the vision here, which the top commenters (sorry, couldn't read all of them) seems to miss. This should be a moonshot bet on the next generation of user experience. People are complaining about apps, but the idea here should be to make apps irrelevant as a concept. You don't need \"apps\", you need data feedable to LLM and a visualization toolkit for presenting results. And maybe some tools to manually wrangle... ankurdhama: So this is essentially Android desktop mode with Android 17 Gemini integration. Please get rid of that top panel. I just don't get why this and desktops like GNOME tries to copy macos top panel when clearly in macos it is menu bar that host app menus but that concept doesn't exists in these other desktops and yet they have a top panel. This is just bad UX. This will follow same model as Chromebooks i.e different d... Kadecgos: So, I'm only slightly trying to be a smartass here, but... Who is this for? They are marketing what is ostensibly a computer for people who seem to not want to use a computer in scenarios that I don't think even exist. Beyond that, this is a laptop that is running a really shitty, 'apps only, no you cannot do anything useful with this' operating system. I have an awful lot of complaints about MacOS's relatively re...",
-      "fetched_at": "2026-05-13T16:28:12.088193+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48111545",
-      "hn_story_type": "story",
-      "hn_points": "876",
-      "hn_comments_count": "1457",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48111545",
-      "hn_item_text": "https://www.reddit.com/r/Android/comments/1tb8xls/introducin...",
-      "hn_comment_preview": "reisse: I see the vision here, which the top commenters (sorry, couldn't read all of them) seems to miss. This should be a moonshot bet on the next generation of user experience. People are complaining about apps, but the idea here should be to make apps irrelevant as a concept. You don't need \"apps\", you need data feedable to LLM and a visualization toolkit for presenting results. And maybe some tools to manually wrangle...\nankurdhama: So this is essentially Android desktop mode with Android 17 Gemini integration. Please get rid of that top panel. I just don't get why this and desktops like GNOME tries to copy macos top panel when clearly in macos it is menu bar that host app menus but that concept doesn't exists in these other desktops and yet they have a top panel. This is just bad UX. This will follow same model as Chromebooks i.e different d...\nKadecgos: So, I'm only slightly trying to be a smartass here, but... Who is this for? They are marketing what is ostensibly a computer for people who seem to not want to use a computer in scenarios that I don't think even exist. Beyond that, this is a laptop that is running a really shitty, 'apps only, no you cannot do anything usefu...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "34",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=10,practical_tech=4,tools_agents=10,strategy_insight=4,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 10,
-        "strategy_insight": 4,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "tool"
-      ],
-      "detail_slug": "88b22cc7e023f6708237b8969b12826f2bc693f2",
-      "is_english_source": true,
-      "translated_title": "구글북, AI 중심 안드로이드 노트북 실험",
-      "short_summary": "HN에서는 구글북을 안드로이드 데스크톱 모드에 Gemini를 얹어 노트북 경험을 다시 짜려는 시도로 읽었다. 기대도 있었지만, 크롬북의 약점을 되풀이할 수 있다는 회의론이 더 거세게 맞붙었다.",
-      "why_it_matters": "이 논의는 노트북의 중심이 앱 실행에서 AI가 중간에 끼어드는 작업 흐름으로 옮겨갈 수 있는지 보여준다. 구글이 모바일, 크롬북, 생성형 AI를 한 화면 안에서 다시 묶으려는 방향으로 읽히는 만큼 실무자도 미리 볼 이유가 있다.\n- 안드로이드가 큰 화면과 AI 보조를 본격 결합하면, 앱 자체보다 데이터 연동 방식과 결과를 어떻게 보여줄지가 더 큰 설계 과제가 된다.\n- 웹앱, 안드로이드 앱, AI 기능의 경계가 흐려지면 제품 기획과 우선순위도 바뀐다. 특히 생산성 도구는 파일 처리와 멀티태스킹 경험을 다시 점검해야 한다.\n- 실제 채택은 화려한 데모보다 기본기에서 갈릴 가능성이 크다. 창 관리, 입력 방식, 권한 모델, 오프라인 동작이 현업 사용성을 좌우할 변수로 보인다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 호기심과 냉소가 강하게 갈렸다. 방향 자체는 흥미롭다는 반응이 있었지만, 지금 단계에서는 누가 왜 써야 하는지가 선명하지 않다는 지적이 반복됐다.\n- 긍정 쪽은 앱이라는 틀을 약하게 만들고, LLM이 데이터를 불러와 바로 다루는 새 사용자 경험의 실험으로 봤다.\n- 부정 쪽은 결국 안드로이드 데스크톱 모드의 재포장에 가깝고, 상단 패널 같은 UI도 기존 데스크톱을 어설프게 흉내 낸다고 비판했다.\n- 가장 자주 나온 논점은 실사용성이다. 파일 작업과 생산성 앱이 답답하면 또 하나의 반쪽짜리 노트북으로 끝날 수 있다는 우려가 컸다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T16:31:32.266781+00:00"
-    },
-    {
-      "id": "09144433fe86080fcce42027ae70ca779e220f09",
-      "title_hash": "6343dd005258ade00eb02cc78194b250b3687ee5",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "50K Tahoe residents need power as utility eyes redirecting lines to data centers",
-      "link": "https://fortune.com/2026/05/12/lake-tahoe-data-center-49000-residents-power-source/",
-      "published_at": "2026-05-13T15:18:41+00:00",
-      "summary": "HN story type: story HN points: 41 HN comments: 16 HN top comments: xnx: Related coverage without invoking the AI bogeyman: \"Liberty Utilities needs to replace 75% of Tahoe power supply as NV Energy deal ends soon\" https://mynews4.com/news/local/liberty-utilities-needs-to-re... freediddy: This is like the movie Chinatown, where people were fighting over water, but now it's all about electricity. It sounds like Lake Tahoe residents kicked the can down the road and didn't care about electricity for so long that now they have to pay the piper. I think it's entire just that they have to bear the costs of their own electricity. infecto: This is an interesting problem. I have been wanting to dig deeper on some of the complaints around water and power. This one is unique though. Doesn’t read much like a problem so much with data center growth as it does with Liberty mismanaging their business/assets. For almost 20 years liberty acted as nothing more than a transmission operator with very weak agreements on power generation. They should have been fi...",
-      "fetched_at": "2026-05-13T16:28:12.088193+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48123090",
-      "hn_story_type": "story",
-      "hn_points": "41",
-      "hn_comments_count": "16",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48123090",
-      "hn_item_text": "",
-      "hn_comment_preview": "xnx: Related coverage without invoking the AI bogeyman: \"Liberty Utilities needs to replace 75% of Tahoe power supply as NV Energy deal ends soon\" https://mynews4.com/news/local/liberty-utilities-needs-to-re...\nfreediddy: This is like the movie Chinatown, where people were fighting over water, but now it's all about electricity. It sounds like Lake Tahoe residents kicked the can down the road and didn't care about electricity for so long that now they have to pay the piper. I think it's entire just that they have to bear the costs of their own electricity.\ninfecto: This is an interesting problem. I have been wanting to dig deeper on some of the complaints around water and power. This one is unique though. Doesn’t read much like a problem so much with data center growth as it does with Liberty mismanaging their business/assets. For almost 20 years liberty acted as nothing more than a transmission operator with very weak agreements on power generation. They should have been fi...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=9,strategy_insight=2,industry_business=7",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [
-            "business"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rag"
-      ],
-      "detail_slug": "09144433fe86080fcce42027ae70ca779e220f09",
-      "is_english_source": true,
-      "translated_title": "타호 주민 전력난 속 데이터센터 송전 검토",
-      "short_summary": "타호 지역 주민 5만 명의 전력 수급이 불안한 가운데, 유틸리티 업체가 송전선을 데이터센터 쪽으로 돌리는 방안을 검토한다는 이야기가 나왔다. HN에서는 AI 수요보다 전력 계약 종료와 운영 실패가 더 큰 원인이라는 지적이 이어졌다.",
-      "why_it_matters": "전력 인프라 병목이 이제 추상적인 우려를 넘어 주민 공급 안정성과 데이터센터 입지 판단에 바로 영향을 주는 단계라는 점을 보여준다.\n- 전력망 여유가 작은 지역에서는 신규 AI·데이터센터 수요가 주민 전력과 같은 회선과 같은 증설 일정 위에서 경쟁할 수 있다.\n- 실무에서는 부지나 세금보다 전력 계약 구조, 송전 권리, 증설 책임이 더 큰 리스크로 떠오른다.\n- 지역 전력 운영이 흔들리면 요금 논쟁과 허가 심사가 함께 거세질 수 있어 초기 단계부터 전력 조달 계획을 더 촘촘히 봐야 한다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 데이터센터를 단순한 주범으로 보기보다, 기존 유틸리티의 장기 운영 실패와 비용 부담 문제를 더 따져보는 쪽에 가까웠다.\n- NV Energy 계약 종료가 다가왔는데도 Liberty Utilities가 충분히 대비하지 못했다는 지적이 반복됐다.\n- 주민이 오랫동안 전력 인프라 문제를 미뤄온 결과를 이제 비용으로 치르는 것 아니냐는 냉정한 반응도 있었다.\n- 실무자가 볼 만한 논점은 수요 증가 자체보다 누가 증설 비용을 내고 어떤 계약으로 전력을 확보했는지가 더 본질적이라는 점이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T16:31:32.266781+00:00"
-    },
-    {
-      "id": "f9e2c2964939a3ab62ef0727de5b680215ca9fc1",
-      "title_hash": "55f4ad0a38d3f36758bfd12cb724b1b186051b9e",
-      "source": "GeekNews",
-      "title": "Show GN: Everything Claude Code 스킬 183개를 Gemini CLI &amp; Antigravity로 마이그레이션",
-      "link": "https://news.hada.io/topic?id=29465",
-      "published_at": "2026-05-13T08:08:25+00:00",
-      "summary": "최근에 Claude Code용 \"Everything Claude Code\" (ECC, ⭐181k) 라는 인기 설정 모음을 보게 되었습니다. 2025년 9월, Anthropic x Forum Ventures 해커톤에서 우승한 작품이죠. 저도 사용해보고 싶었습니다. 하지만 아쉽게도 저는 Gemini를 메인으로 사용하고 있었습니다. 하지만 ECC는 Gemi",
-      "fetched_at": "2026-05-13T12:16:20.624636+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "65",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=3,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 20,
-        "strategy_insight": 3,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "venture"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "cli",
-        "claude + code"
-      ],
-      "detail_slug": "f9e2c2964939a3ab62ef0727de5b680215ca9fc1",
-      "is_english_source": false,
-      "sent_at": "2026-05-13T12:19:26.678194+00:00"
-    },
-    {
-      "id": "5c4eccb398ef92081c86a5f7709f40c712e447c5",
-      "title_hash": "459fd57c4106cb62881510eb4fcb2c550b99ab41",
-      "source": "GeekNews",
-      "title": "Gram 2.0.0 출시 - 편집기",
-      "link": "https://news.hada.io/topic?id=29464",
-      "published_at": "2026-05-13T08:03:18+00:00",
-      "summary": "기본 설정 이 더 합리적으로 바뀌어 상대 줄 번호 기본 활성화, 아이콘 기본 비활성화 같은 혼란스러운 동작이 수정됐지만, 이 변경 때문에 호환성 깨짐 이 있는 메이저 버전으로 올라감 언어 서버 자동 업데이트 가 기본 비활성화되어, ESLint가 더...",
-      "fetched_at": "2026-05-13T12:16:20.624636+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "출시"
-      ],
-      "detail_slug": "5c4eccb398ef92081c86a5f7709f40c712e447c5",
-      "is_english_source": false,
-      "sent_at": "2026-05-13T12:19:26.678194+00:00"
-    },
-    {
-      "id": "aa90a1abe37c0f1ee68b3322d557f3fed2491af8",
-      "title_hash": "be4fb59352c56a933dd929e3eb05935f598774a7",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "When “idle” isn't idle: how a Linux kernel optimization became a QUIC bug",
-      "link": "https://blog.cloudflare.com/quic-death-spiral-fix/",
-      "published_at": "2026-05-12T23:46:28+00:00",
-      "summary": "HN story type: story HN points: 112 HN comments: 15 HN top comments: neuralkoi: I can see why they rewrote QUIC in Rust and for use in userspace, though going the in-house approach would warrant keeping an eye on the relevant kernel commits like a hawk to avoid missing bug fixes like these. These in-house implementations tend to have less eyeballs than the kernel. I found it interesting that Cloudflare is not yet using BBR as the default in quiche. CUBIC's recovery in this day and age, and es... lproven: The article uses the term \"CCAs\" without ever defining it. I followed the links, and googled it, with no useful result. What is a CCA in this context? echoangle: Looking at the last plot, it seems like the backoff is roughly 1/5 of the total bandwith and it happens every 50 ms or so. Wouldn't it make sense to reduce the backoff and the growth speed if a backoff occurs repeatedly in rapid succession? We want to maximize the area under the curve (transmitted packages), right?",
-      "fetched_at": "2026-05-13T12:16:20.624636+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48116064",
-      "hn_story_type": "story",
-      "hn_points": "112",
-      "hn_comments_count": "15",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48116064",
-      "hn_item_text": "",
-      "hn_comment_preview": "neuralkoi: I can see why they rewrote QUIC in Rust and for use in userspace, though going the in-house approach would warrant keeping an eye on the relevant kernel commits like a hawk to avoid missing bug fixes like these. These in-house implementations tend to have less eyeballs than the kernel. I found it interesting that Cloudflare is not yet using BBR as the default in quiche. CUBIC's recovery in this day and age, and es...\nlproven: The article uses the term \"CCAs\" without ever defining it. I followed the links, and googled it, with no useful result. What is a CCA in this context?\nechoangle: Looking at the last plot, it seems like the backoff is roughly 1/5 of the total bandwith and it happens every 50 ms or so. Wouldn't it make sense to reduce the backoff and the growth speed if a backoff occurs repeatedly in rapid succession? We want to maximize the area under the curve (transmitted packages), right?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=2,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 2,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "rust",
-            "api"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "api",
-        "implementation"
-      ],
-      "detail_slug": "aa90a1abe37c0f1ee68b3322d557f3fed2491af8",
-      "is_english_source": true,
-      "translated_title": "유휴 상태 최적화가 QUIC 버그로 번진 이유",
-      "short_summary": "리눅스 커널의 유휴 상태 최적화가 QUIC 전송 흐름에 예상 밖의 영향을 주면서 장애로 이어진 사례를 짚은 글이다. 성능을 위한 작은 커널 변화도 사용자 공간 네트워크 스택에는 치명적인 변수로 번질 수 있음을 보여준다.",
-      "why_it_matters": "커널이 알아서 잘 처리해 줄 것이라는 기대가 깨지는 지점이다. QUIC처럼 사용자 공간에서 직접 전송 로직을 다루는 환경에서는 운영체제의 미세한 스케줄링 변화도 실제 서비스 품질에 바로 영향을 줄 수 있다.\n- 네트워크 성능 저하를 애플리케이션 코드 문제로만 보면 원인을 놓치기 쉽다. 커널 업데이트와 전송 스택의 상호작용까지 같이 봐야 한다.\n- 사내 구현이나 포크된 QUIC 스택을 쓰는 팀이라면 커널 변경 사항과 버그 수정 흐름을 더 촘촘히 따라가야 한다.\n- 혼잡 제어와 패이싱 튜닝은 이론보다 운영 데이터가 더 중요하다. 배포 후 관측 체계와 회귀 점검이 사실상 필수라는 메시지가 크다.",
-      "hn_reaction_summary": "HN에서는 버그 자체보다 왜 이런 문제가 사용자 공간 QUIC 스택에서 더 까다롭게 드러나는지에 반응이 모였다. 댓글 분위기는 기술적으로 차분했고, 구현 선택과 혼잡 제어 설정을 둘러싼 실무적 논점이 반복됐다.\n- Rust 기반 사용자 공간 QUIC로 다시 구현한 이유가 이해된다는 반응이 있었지만, 자체 구현은 커널 수정 사항을 놓치기 쉬워 더 위험하다는 지적도 나왔다.\n- Cloudflare의 quiche가 아직 BBR을 기본으로 쓰지 않는 점, CUBIC의 복구 특성 같은 혼잡 제어 설정이 함께 화제로 올랐다.\n- 글에서 CCA 같은 용어를 풀어 쓰지 않아 맥락 파악이 어렵다는 불만도 있었고, 반복 백오프 상황에서 전송률 조정 방식이 더 나아질 수 있지 않느냐는 분석도 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T12:19:26.678194+00:00"
-    },
-    {
-      "id": "d468e801a7542c3ee2a0e7e9097f361b56a8d323",
-      "title_hash": "da65e3a9756333d6a445162b41986bf76f71afec",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "I Moved My Digital Stack to Europe",
-      "link": "https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/",
-      "published_at": "2026-05-13T11:42:20+00:00",
-      "summary": "HN story type: story HN points: 91 HN comments: 41 HN top comments: schnitzelstoat: While I agree with him that the US is becoming more unpredictable, I don't think the EU is much better, especially with regards to digital things where they can be worse in some ways. For example, they are discussing restricting VPN access for 'child protection'[1] [1] https://www.europarl.europa.eu/thinktank/en/document/EPRS_AT... aurareturn: Google Analytics --> Matomo Matomo charges 22 euros for 50k hits/month.[0] Basically, it's unusable for anything other than a hobby site - especially with the number of crawlers nowadays. If you self host for free, you're missing basically all of the good parts of web analytics such as funnel analysis as they lock all of those features being paid subs. [0] https://matomo.org/pricing/ urvader: Great post! Today we just launched an European alternative to Claude Code - Berget Code- https://berget.ai/code",
-      "fetched_at": "2026-05-13T12:16:20.624636+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48120629",
-      "hn_story_type": "story",
-      "hn_points": "91",
-      "hn_comments_count": "41",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48120629",
-      "hn_item_text": "",
-      "hn_comment_preview": "schnitzelstoat: While I agree with him that the US is becoming more unpredictable, I don't think the EU is much better, especially with regards to digital things where they can be worse in some ways. For example, they are discussing restricting VPN access for 'child protection'[1] [1] https://www.europarl.europa.eu/thinktank/en/document/EPRS_AT...\naurareturn: Google Analytics --> Matomo Matomo charges 22 euros for 50k hits/month.[0] Basically, it's unusable for anything other than a hobby site - especially with the number of crawlers nowadays. If you self host for free, you're missing basically all of the good parts of web analytics such as funnel analysis as they lock all of those features being paid subs. [0] https://matomo.org/pricing/\nurvader: Great post! Today we just launched an European alternative to Claude Code - Berget Code- https://berget.ai/code",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "37",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=4,tools_agents=13,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 13,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 13,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "launch"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "d468e801a7542c3ee2a0e7e9097f361b56a8d323",
-      "is_english_source": true,
-      "translated_title": "디지털 스택을 유럽 서비스로 옮긴 기록",
-      "short_summary": "미국 플랫폼 의존을 줄이기 위해 디지털 도구를 유럽 서비스로 옮긴 경험담이 HN에서 화제가 됐다. 데이터 주권과 정책 리스크를 줄이려는 시도라는 공감이 있었지만, 비용과 기능 면에서 대체가 만만치 않다는 반론도 함께 나왔다.",
-      "why_it_matters": "미국 빅테크에 집중된 업무 도구를 다시 보게 만드는 글이다. 단순한 취향 문제가 아니라 데이터 관할권, 정책 변화, 공급망 리스크를 어떻게 나눌지에 대한 실무 판단으로 읽힌다.\n- 분석, 호스팅, 협업 도구를 EU 기반으로 바꾸면 데이터가 어디에 저장되고 어떤 규제를 받는지 더 분명하게 관리할 수 있다.\n- 다만 대체 서비스는 가격 체계가 불리하거나 고급 기능이 빠진 경우가 있어, 이전 전에는 기능 공백과 운영 비용을 같이 계산해야 한다.\n- 보안·컴플라이언스 요구가 큰 조직이라면 벤더 다변화와 고객 신뢰 확보 차원에서 검토할 만한 흐름이다.",
-      "hn_reaction_summary": "댓글 분위기는 공감과 회의가 섞였다. 미국의 불확실성이 커졌다는 문제의식에는 대체로 동의했지만, 유럽이 곧바로 더 나은 선택지는 아니라는 반론이 꾸준히 나왔다.\n- EU도 아동 보호를 이유로 VPN 제한 같은 규제 논의를 하고 있어, 유럽 이전을 곧 자유 확대라고 보긴 어렵다는 지적이 반복됐다.\n- Google Analytics 대안으로 거론된 Matomo는 가격 대비 기능이 아쉽고, 셀프호스팅을 택하면 유료 기능 공백이 크다는 실사용 관점의 비판이 나왔다.\n- 한편 유럽산 개발 도구를 직접 소개하는 댓글도 있어, 지역 대체재를 찾으려는 수요와 시장 기대는 분명하다는 반응도 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T12:19:26.678194+00:00"
     }
   ],
   "topic_digests": {
