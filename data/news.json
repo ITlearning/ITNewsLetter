@@ -1,6 +1,597 @@
 {
   "items": [
     {
+      "id": "62292d75f17ff988b48f4971995a4d12e846b8b9",
+      "title_hash": "f55f9352da9577e8e323de5ba036c9b3e3a7b27a",
+      "source": "GeekNews",
+      "title": "Show GN: skilladopt, Claude Code와 Codex 스킬을 내 프로젝트에 맞추는 도구",
+      "link": "https://news.hada.io/topic?id=36942&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T13:26:16+00:00",
+      "summary": "skilladopt는 남이 만든 Claude Code와 Codex 스킬을 내 프로젝트에 맞게 고치고, 바꾼 줄마다 근거를 남겨 나중에 다시 볼 곳만 알려 주는 도구입니다. GitHub에서 가져온 Claude Code나 Codex 스킬은 모두 다른 사람의 프로젝트를 기준으로 쓰여 있습니다. 내 프로젝트에 없는 도구를 쓰라고 하거나 테스트 명령이 다르고, 에이전트에게 준 우리 규칙과 부딪히는 일이 잦았습니다. 처음에 손으로 고쳐 넣어도 나중에 팀원이 테스트 명령을 바꾸거나 규칙을 추가하면 어느 줄을 다시 봐야 할지 찾기 번거로웠습니다. 그래서 스킬을 들일 때 문단마다 판단(keep, bind, rewrite, drop, review)과 근거를 남겨 두고, 프로젝트가 바뀌면 영향을 받은 줄만 짚어 주도록 만들었습니다. 스킬 안의 파일은 실행하지 않고 고정된 커밋만 읽으며, 작업자 에이전트는 도구 없이 또는 읽기 전용 샌드박스에서 돕니다. 한 번만 아래 명령을 실행한 뒤 Claude Code나 Codex에게 스킬을 넣어 달라고 말하면 됩니다. …",
+      "fetched_at": "2026-11-10T15:16:19.929540+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=0,tools_agents=25,strategy_insight=14,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 25,
+        "strategy_insight": 14,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 14,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "62292d75f17ff988b48f4971995a4d12e846b8b9",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T15:18:41.308666+00:00"
+    },
+    {
+      "id": "88149523c32dbe35187f66080095e564c4936a5f",
+      "title_hash": "ddcd0ae842bdd07f9364013fa45f03727993e9a0",
+      "source": "GeekNews",
+      "title": "CoreWeave 채권 수익률 16% 돌파, AI 관련 신용 불안 확대",
+      "link": "https://news.hada.io/topic?id=36940&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T11:33:18+00:00",
+      "summary": "CoreWeave의 2032년 만기 채권 수익률이 16%를 넘어서며 , AI 인프라 확장에 필요한 자금 조달을 둘러싼 투자자 불안이 커짐 Nvidia, Broadcom, Amazon도 채무불이행 보장 비용 이 상승했지만, 절대적인 신용 위험 수준은 CoreWeave보다 낮아 상승률만으로 같은 위험을 의미하지는 않음 민주당의 선거 승리 이후 주요 주의 데이터센터 건설 유예 가능성 이 투자 지연과 취소 우려를 키우며, Goldman Sachs는 유예 조치가 미국 내 계획 용량의 45%에 영향을 줄 수 있다고 추산함 AI 부채 조달이 붕괴한 상태는 아니며 , Goldman Sachs 집계상 …",
+      "fetched_at": "2026-11-10T15:16:19.929540+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-2,tools_agents=0,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -2,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "인프라"
+          ],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "투자"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자"
+      ],
+      "detail_slug": "88149523c32dbe35187f66080095e564c4936a5f",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T15:18:41.308666+00:00"
+    },
+    {
+      "id": "09166b8754980cd3b13046d0325b41d5af8a7096",
+      "title_hash": "12d0086a6fd16a47a37512daf4bbec7bfcc2db70",
+      "source": "GeekNews",
+      "title": "2026년, 엔지니어로 살아간다는 것",
+      "link": "https://news.hada.io/topic?id=36945&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T14:39:48+00:00",
+      "summary": "코드 작성과 디버깅, 설계까지 에이전트에 맡기는 일이 늘었지만, 비슷한 AI 도구를 쓰는 엔지니어 사이에서도 결과물의 격차 가 있으며, 그 차이는 어디서 오는지 돌아봄 엔지니어는 지금 풀고 있는 게 진짜 문제인지 , 단순하게 끝낼 수 있는 일을 복잡하게 만들고 있지는 않은지, 이 설계가 2년 뒤에도 타당할지 판단함 이유를 바로 설명하기 어려워도 결과물에서 뭔가 어긋났음을 알아차릴 때가 있음. 글쓴이는 한 문장을 다 읽기도 전에 AI가 쓴 글 같다고 느끼는 순간 을 직관의 예로 듦 창발(emergence) 은 사소한 경험들이 쌓여 하나 …",
+      "fetched_at": "2026-11-10T15:16:19.929540+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "09166b8754980cd3b13046d0325b41d5af8a7096",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T15:18:41.308666+00:00"
+    },
+    {
+      "id": "0518c56e10647279b5f69d843d98f54ceb4368a6",
+      "title_hash": "ab84aa2ae7070b0b1c334dcfbccb46d571d18c3c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "AlphaProof Code",
+      "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "published_at": "2026-11-10T12:11:12+00:00",
+      "summary": "HN story type: story HN points: 289 HN comments: 109 HN top comments: andai: Earlier this year I was doing some major refactors of an old project. At the time coding agents were really taking off where you could increasingly trust them for more autonomous work, so I was excited to give it a go. It did the refactor, running for several hours, and ended up volunteering an extensive test suite as well. All tests green! I was very impressed, until I squinted a little. It had implemented the wh... thibsrn: Great, what a great use case for AI. I feel like Google has been the cleanest of the big players in terms of useful contributions and control of their AI systems. This new proof agent doesn't seem to challenge the spec though, just the implementation, if I've understood correctly. I wonder how this agent is different than a classic coding agent, in the end it seems to work the same way, iterating over a codebase w... Mizza: I'm expecting that very soon, perhaps in the next two or three years, it will seem mad that we ever ran _any_ unverified software on our systems, like how it now seems mad we used Telnet or plaintext HTTP.",
+      "fetched_at": "2026-11-10T15:16:19.929540+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50439193",
+      "hn_story_type": "story",
+      "hn_points": "289",
+      "hn_comments_count": "109",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50439193",
+      "hn_item_text": "",
+      "hn_comment_preview": "andai: Earlier this year I was doing some major refactors of an old project. At the time coding agents were really taking off where you could increasingly trust them for more autonomous work, so I was excited to give it a go. It did the refactor, running for several hours, and ended up volunteering an extensive test suite as well. All tests green! I was very impressed, until I squinted a little. It had implemented the wh...\nthibsrn: Great, what a great use case for AI. I feel like Google has been the cleanest of the big players in terms of useful contributions and control of their AI systems. This new proof agent doesn't seem to challenge the spec though, just the implementation, if I've understood correctly. I wonder how this agent is different than a classic coding agent, in the end it seems to work the same way, iterating over a codebase w...\nMizza: I'm expecting that very soon, perhaps in the next two or three years, it will seem mad that we ever ran _any_ unverified software on our systems, like how it now seems mad we used Telnet or plaintext HTTP.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=15,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 15,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "refactor",
+            "rust"
+          ],
+          "support_hits": [
+            "implementation"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "coding agent"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "refactor",
+        "rust",
+        "implementation"
+      ],
+      "detail_slug": "0518c56e10647279b5f69d843d98f54ceb4368a6",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T15:18:41.308666+00:00"
+    },
+    {
+      "id": "357eadb5e85a746ecd8154857c54decd41a81fcc",
+      "title_hash": "2f0daeed51dbe0c4119978aa9d9559e20851d642",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: A 15 MB self-hosted Netflix and Spotify for your media server",
+      "link": "https://github.com/HolyArrs/HolyArrs",
+      "published_at": "2026-11-10T11:51:19+00:00",
+      "summary": "HN story type: story HN points: 100 HN comments: 51 HN top comments: utopiah: FWIW ls -lh /usr/sbin/minidlnad -rwxr-xr-x 1 root root 323K Feb 21 2025 /usr/sbin/minidlnad and a lot of TV, video projectors, etc support DLNA out of the box, if they don't add VLC and you are good to go. ZenoArrow: > AI or MCP features. Not in 1.0. Why would you even want this, what desirable features could you add by adding AI? tjohnell: I've seen multiple \"consolidate all the arr\" attempts over the years. None prevail. Not saying this one won't, but something tells me it's going to peter out and be abandonware. It's incredible how sticky the OG arr apps have been to be honest. Likely because they are extremely stable and well-integrated.",
+      "fetched_at": "2026-11-10T15:16:19.929540+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50439000",
+      "hn_story_type": "story",
+      "hn_points": "100",
+      "hn_comments_count": "51",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50439000",
+      "hn_item_text": "",
+      "hn_comment_preview": "utopiah: FWIW ls -lh /usr/sbin/minidlnad -rwxr-xr-x 1 root root 323K Feb 21 2025 /usr/sbin/minidlnad and a lot of TV, video projectors, etc support DLNA out of the box, if they don't add VLC and you are good to go.\nZenoArrow: > AI or MCP features. Not in 1.0. Why would you even want this, what desirable features could you add by adding AI?\ntjohnell: I've seen multiple \"consolidate all the arr\" attempts over the years. None prevail. Not saying this one won't, but something tells me it's going to peter out and be abandonware. It's incredible how sticky the OG arr apps have been to be honest. Likely because they are extremely stable and well-integrated.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "39",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=12,tools_agents=15,strategy_insight=4,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 15,
+        "strategy_insight": 4,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "mcp",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "mcp",
+        "ide",
+        "github.com"
+      ],
+      "detail_slug": "357eadb5e85a746ecd8154857c54decd41a81fcc",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T15:18:41.308666+00:00"
+    },
+    {
+      "id": "6c74f6f838efae771fc4fd41605eeff4480046ac",
+      "title_hash": "3698e09711774600e5d115cfc8ca098d83c04563",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Ableton Live 13",
+      "link": "https://www.ableton.com/en/live/",
+      "published_at": "2026-11-10T12:58:04+00:00",
+      "summary": "HN story type: story HN points: 104 HN comments: 112 HN top comments: iainctduncan: People here might be interested to know that you can run Scheme (lisp) code directly in Ableton through my Scheme for Max project in Max for Live. S4M is an open source extension to Max that allows you to run the s7 Scheme interpreter in a Max object, similar to the JS object in Max. Advantages over JS are that in can run in the high priority scheduler thread, enabling accurate timing, it has direct access to the... marceldegraaf: Still no built-in way to collaborate with other musicians, it seems. While I understand the technical difficulties, it's also very frustrating to work remotely with other musicians on an Ableton project. I don't need real-time Google Docs like editing, but it would be nice to have something better than \"freeze the project, dump it in Dropbox, and don't touch anything until they've made their edits\". Any Ableton Li... yboris: I'm forever puzzled why the effects ribbon at the bottom is UI-locked to be so tiny - it could easily span double its height to allow you to see all your filters without needing to scroll horizontally.",
+      "fetched_at": "2026-11-10T15:16:19.929540+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50439695",
+      "hn_story_type": "story",
+      "hn_points": "104",
+      "hn_comments_count": "112",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50439695",
+      "hn_item_text": "",
+      "hn_comment_preview": "iainctduncan: People here might be interested to know that you can run Scheme (lisp) code directly in Ableton through my Scheme for Max project in Max for Live. S4M is an open source extension to Max that allows you to run the s7 Scheme interpreter in a Max object, similar to the JS object in Max. Advantages over JS are that in can run in the high priority scheduler thread, enabling accurate timing, it has direct access to the...\nmarceldegraaf: Still no built-in way to collaborate with other musicians, it seems. While I understand the technical difficulties, it's also very frustrating to work remotely with other musicians on an Ableton project. I don't need real-time Google Docs like editing, but it would be nice to have something better than \"freeze the project, dump it in Dropbox, and don't touch anything until they've made their edits\". Any Ableton Li...\nyboris: I'm forever puzzled why the effects ribbon at the bottom is UI-locked to be so tiny - it could easily span double its height to allow you to see all your filters without needing to scroll horizontally.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=4,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 4,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "open source",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "extension"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "open source",
+        "rust"
+      ],
+      "detail_slug": "6c74f6f838efae771fc4fd41605eeff4480046ac",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T15:18:41.308666+00:00"
+    },
+    {
+      "id": "7f9f1bda37536dfe8de69924ecd2493dc1087f2a",
+      "title_hash": "5189938ef2ee9f3e8aaf6c7097a2b67885bda67f",
+      "source": "TechCrunch",
+      "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+      "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "published_at": "2026-11-10T14:01:39+00:00",
+      "summary": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+      "fetched_at": "2026-11-10T15:16:19.929540+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "24",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=18,practical_tech=-8,tools_agents=0,strategy_insight=0,industry_business=18",
+      "slot_scores": {
+        "practical_tech": -8,
+        "tools_agents": 0,
+        "strategy_insight": 0,
+        "industry_business": 18
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation",
+            "ipo"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 18,
+          "strong_hits": [
+            "valuation",
+            "ipo"
+          ],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "valuation",
+        "ipo",
+        "company",
+        "techcrunch.com"
+      ],
+      "detail_slug": "7f9f1bda37536dfe8de69924ecd2493dc1087f2a",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T15:18:41.308666+00:00"
+    },
+    {
       "id": "b61ae1e14733883e616f0e0b3331e3c6819953d7",
       "title_hash": "2cbd0e584a1711c70d3a84445542f0790f080faa",
       "source": "GeekNews",
@@ -166063,610 +166654,6 @@
       "hn_reaction_summary": "HN 반응은 전반적으로 향수 어린 회고에 공감하면서도, 그 시절 문화를 마냥 낭만화해선 안 된다는 쪽으로 모였다. 도구 자체보다 IRC 문화, 글의 문체, 당시의 윤리 감각을 두고 이야기가 이어졌다.\n- 반복해서 나온 평가는 IRC가 단순한 채팅방이 아니라 거칠지만 빠르게 배우는 보안 수련장 같았다는 점이다. 동시에 독하고 배타적인 분위기도 있었다는 회고가 붙었다.\n- 몇몇 댓글은 글의 문체가 지나치게 매끈하고 LLM이 쓴 글처럼 느껴진다고 지적했다. 내용보다 전달 방식이 몰입을 깬다는 반응이다.\n- AOHell, Back Orifice 같은 도구를 떠올리며, 장난과 호기심, 범죄의 경계가 지금보다 더 흐릿했던 시절이라는 회상이 나왔다. 실무자가 읽기엔 도구의 역사보다 문화적 맥락이 더 흥미로운 포인트로 보인다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-14T00:54:42.726436+00:00"
-    },
-    {
-      "id": "11989f86495d21653f55f03a19d094e30aa16fa9",
-      "title_hash": "6137dba62e9c660f146c9de6dc14fac9b05aef52",
-      "source": "GeekNews",
-      "title": "시니어 개발자가 전문성을 전달하지 못하는 이유",
-      "link": "https://news.hada.io/topic?id=29459",
-      "published_at": "2026-05-13T04:38:51+00:00",
-      "summary": "시니어 개발자 와 비개발자는 AI 에이전트가 개발자를 대체한다는 같은 문장을, 안정성과 시장 학습이라는 서로 다른 기준으로 받아들임 비즈니스 조직은 빠르게 출시해 피드백을 얻고 불확실성 을 줄이려 하지만, 시니어 개발자는 시스템을 망가뜨리는 복잡성 증가를...",
-      "fetched_at": "2026-05-13T20:40:08.713118+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=-1,industry_business=7",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": -1,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [
-            "시장"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "11989f86495d21653f55f03a19d094e30aa16fa9",
-      "is_english_source": false,
-      "sent_at": "2026-05-13T20:43:33.554344+00:00"
-    },
-    {
-      "id": "d6695d08884de8aefc18f4254f02e16ca25048dc",
-      "title_hash": "7e0bc94e896007f87942b030a8cd0455c628af2b",
-      "source": "GeekNews",
-      "title": "Show GN: 못친소 대결 BetterThanYou",
-      "link": "https://news.hada.io/topic?id=29475",
-      "published_at": "2026-05-13T17:43:41+00:00",
-      "summary": "AI가 얼굴 비주얼 승자를 골라주고 외모 능력치를 분석해주는 Better Than You를 소개합니다! 주위에 대결을 붙여보고 싶은 상대가 있나요? 솔직히 내가 너보다 낫다 싶은가요? 나온 프사중에 뭐가 좋을지 비교해보고 싶은가요?? 바이브코딩하던중에 바로 터미널 tmux 한켠에 드래그앤 드롭을 하세요! 그",
-      "fetched_at": "2026-05-13T20:40:08.713118+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "d6695d08884de8aefc18f4254f02e16ca25048dc",
-      "is_english_source": false,
-      "sent_at": "2026-05-13T20:43:33.554344+00:00"
-    },
-    {
-      "id": "cde1aecbe74fa5958edcb7f88a5c911377a78286",
-      "title_hash": "92dd54d0d5af59632f8772163ca7bb8e5b7e1ee6",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Launch HN: Ardent (YC P26) – Postgres sandboxes in seconds with zero migration",
-      "link": "https://www.tryardent.com/",
-      "published_at": "2026-05-13T16:54:03+00:00",
-      "summary": "HN story type: story HN points: 45 HN comments: 20 HN post text: Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few p... HN top comments: eugercek: If you use xfs (+`file_copy_method=CLONE`) you can do this with Postgres 18. `CREATE DATABASE clankerdb TEMPLATE sourcedb STRATEGY=FILE_COPY;`. But Ardent can be useful for many, because cloud providers uses heavily restricted Postgres. And many use Aurora, which doesn't event let configure the `log_line_prefix`. Though if cloud providers add file_copy_method=CLONE compatible managed pg ... ref: https://boringsql.... znnajdla: “Never impacts production data” is impossible to guarantee. Playing with real world data often has side effects outside of the database. For example if you store oauth tokens to external services in your DB (customer integrations) it’s easy to mess up your customers data through a bad API call (been there done that). There is still value in carefully testing on your prod DB, but for that you could just easily main... jedberg: Looks interesting, curious what your moat here is. What prevents Supabase/Neon from doing this? Actually don't they already do this? How does this differ from the branching Neon and Supabase already offer?",
-      "fetched_at": "2026-05-13T20:40:08.713118+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48124436",
-      "hn_story_type": "story",
-      "hn_points": "45",
-      "hn_comments_count": "20",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48124436",
-      "hn_item_text": "Hey HN! We’re Vikram and Evan from Ardent ( https://tryardent.com ). We're building database sandboxes for you and your coding agents. In the last two years coding agents have gotten dramatically more capable at handling complex engineering tasks. But without access to a realistic sandbox at the DB layer for testing, they ship garbage that can take down production databases. I spent over a year building an AI Data Engineer that failed for this exact reason. Evan spent the last 12 years in data engineering and hit this wall building agents at his last company. Ardent was built to make it possible for coding agents to get near instant access to production-like sandboxes so they can test their work. To do this we write a replication stream out of the target DB, scaling with kafka onto a read replica with copy on write enabled and autoscaling compute (we currently prefer neon as a primary branching engine due to their implementation of these properties). Our replication stream uses logical replication + ddl triggers to enable usage on any hosted postgres DB since most platforms do not allow physical replication which is traditionally used for creating replicas. This provides a few p...",
-      "hn_comment_preview": "eugercek: If you use xfs (+`file_copy_method=CLONE`) you can do this with Postgres 18. `CREATE DATABASE clankerdb TEMPLATE sourcedb STRATEGY=FILE_COPY;`. But Ardent can be useful for many, because cloud providers uses heavily restricted Postgres. And many use Aurora, which doesn't event let configure the `log_line_prefix`. Though if cloud providers add file_copy_method=CLONE compatible managed pg ... ref: https://boringsql....\nznnajdla: “Never impacts production data” is impossible to guarantee. Playing with real world data often has side effects outside of the database. For example if you store oauth tokens to external services in your DB (customer integrations) it’s easy to mess up your customers data through a bad API call (been there done that). There is still value in carefully testing on your prod DB, but for that you could just easily main...\njedberg: Looks interesting, curious what your moat here is. What prevents Supabase/Neon from doing this? Actually don't they already do this? How does this differ from the branching Neon and Supabase already offer?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "67",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=43,practical_tech=43,tools_agents=33,strategy_insight=2,industry_business=14",
-      "slot_scores": {
-        "practical_tech": 43,
-        "tools_agents": 33,
-        "strategy_insight": 2,
-        "industry_business": 14
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 43,
-          "strong_hits": [
-            "production",
-            "migration",
-            "database",
-            "postgres",
-            "sandbox",
-            "api",
-            "sql"
-          ],
-          "support_hits": [
-            "implementation",
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 33,
-          "strong_hits": [
-            "coding agent",
-            "sandbox",
-            "ide"
-          ],
-          "support_hits": [
-            "template",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + sandbox",
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 14,
-          "strong_hits": [
-            "customers",
-            "launch"
-          ],
-          "support_hits": [
-            "platform",
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "production",
-        "migration",
-        "database",
-        "postgres",
-        "sandbox",
-        "api",
-        "sql",
-        "implementation",
-        "testing"
-      ],
-      "detail_slug": "cde1aecbe74fa5958edcb7f88a5c911377a78286",
-      "is_english_source": true,
-      "translated_title": "Ardent, 마이그레이션 없이 여는 Postgres 샌드박스",
-      "short_summary": "Ardent는 운영 DB와 비슷한 Postgres 샌드박스를 몇 초 안에 띄워 코딩 에이전트가 실제에 가까운 환경에서 테스트하게 돕는 서비스다. 논리 복제와 DDL 트리거를 활용해 관리형 Postgres에도 별도 마이그레이션 없이 연결할 수 있다고 설명했다.",
-      "why_it_matters": "코딩 에이전트가 코드 생성은 빨라졌지만 DB 계층 검증이 약하면 운영 장애로 바로 이어진다. Ardent는 그 빈틈을 메우려는 도구로 읽힌다.\n- 운영과 유사한 DB 분기를 빠르게 만들 수 있어 스키마 변경, 쿼리 수정, 에이전트 생성 코드 검증을 배포 전에 돌리기 쉬워진다.\n- 물리 복제가 막힌 관리형 Postgres에서도 논리 복제와 DDL 트리거로 접근한다는 점이 실무 포인트다. 기존 클라우드 환경을 크게 바꾸지 않고 도입을 검토할 수 있다.\n- 다만 실제 업무에서는 데이터 마스킹, 외부 API 호출 차단, 권한 분리가 함께 가야 한다. 샌드박스만 있다고 운영 리스크가 저절로 사라지지는 않는다.",
-      "hn_reaction_summary": "댓글 분위기는 문제의식에는 공감하지만, 기술적 차별점과 안전성 주장에는 꽤 신중한 편이다.\n- 일부는 Postgres 18의 파일 복사 기반 DB 생성이나 파일시스템 클론으로 비슷한 효과를 낼 수 있다고 봤다. 반면 관리형 클라우드의 제약이 커서 이런 제품이 여전히 쓸모 있다는 반론도 나왔다.\n- '운영 데이터에 절대 영향이 없다'는 표현에는 회의적 반응이 있었다. DB 안의 OAuth 토큰이나 외부 연동 정보가 살아 있으면 샌드박스에서도 실제 서비스 부작용이 날 수 있다는 지적이다.\n- 제품의 해자도 반복해서 언급됐다. 네이티브 DB 기능과 클라우드가 따라오면 무엇이 남는지, 결국 관리형 환경의 제약을 얼마나 잘 우회하느냐가 관건이라는 시각이 보인다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T20:43:33.554344+00:00"
-    },
-    {
-      "id": "9445432cf840ef55ea2182c70b9f7c17ae70547b",
-      "title_hash": "73cbb8ea0fb9271873844f8a8f95f12488ecc95a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The Emacsification of Software",
-      "link": "https://sockpuppet.org/blog/2026/05/12/emacsification/",
-      "published_at": "2026-05-13T07:06:14+00:00",
-      "summary": "HN story type: story HN points: 107 HN comments: 62 HN top comments: SoftTalker: \"Personal Software\" i.e. programs that one writes for oneself, was the original vision of home computing back in the 1960s. The PC wasn't really anticipated, but the thought was that everyone would have a computer terminal at home, and write programs to do whatever was needed. It was imagined that programming would become easy enough that anyone could learn to do it. We're not there yet but with LLMs we're getting... shaokind: I've absolutely engaged in making personal software [0] thanks to the age of LLMs. But to be honest, my time using Emacs didn't teach me to \"build personal software\". My Emacs set up was extremely brittle, and it was a nightmare when I tried to use it across Windows & macOS. My university project was written using an unholy combination of org-mode & some workflow to create a beautiful LaTeX file, and I couldn't te... simoesd: I know the article is mostly about making stand-alone software, but this type of thing is why one of the things I value most when looking workflow tools I will be using heavily is extensibility. I can try put someone's neovim plugin for a second, figure out if it's something I actually need, and if so make my own personal version that matches my mental model perfectly, adds all the dumb little bells I want, and re...",
-      "fetched_at": "2026-05-13T20:40:08.713118+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48118727",
-      "hn_story_type": "story",
-      "hn_points": "107",
-      "hn_comments_count": "62",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48118727",
-      "hn_item_text": "",
-      "hn_comment_preview": "SoftTalker: \"Personal Software\" i.e. programs that one writes for oneself, was the original vision of home computing back in the 1960s. The PC wasn't really anticipated, but the thought was that everyone would have a computer terminal at home, and write programs to do whatever was needed. It was imagined that programming would become easy enough that anyone could learn to do it. We're not there yet but with LLMs we're getting...\nshaokind: I've absolutely engaged in making personal software [0] thanks to the age of LLMs. But to be honest, my time using Emacs didn't teach me to \"build personal software\". My Emacs set up was extremely brittle, and it was a nightmare when I tried to use it across Windows & macOS. My university project was written using an unholy combination of org-mode & some workflow to create a beautiful LaTeX file, and I couldn't te...\nsimoesd: I know the article is mostly about making stand-alone software, but this type of thing is why one of the things I value most when looking workflow tools I will be using heavily is extensibility. I can try put someone's neovim plugin for a second, figure out if it's something I actually need, and if so make my own personal...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "42",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=4,tools_agents=18,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 18,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 18,
-          "strong_hits": [
-            "workflow",
-            "llm"
-          ],
-          "support_hits": [
-            "workflow",
-            "plugin",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "workflow",
-        "llm",
-        "plugin",
-        "tool"
-      ],
-      "detail_slug": "9445432cf840ef55ea2182c70b9f7c17ae70547b",
-      "is_english_source": true,
-      "translated_title": "소프트웨어의 에맥스화, 손보며 쓰는 시대",
-      "short_summary": "이 글은 소프트웨어가 완제품보다 사용자가 직접 고쳐 쓰는 작업 환경으로 바뀌고 있다고 본다. HN에서는 LLM 덕분에 개인용 소프트웨어를 만들기 쉬워졌다는 공감과, 설정 지옥을 경계하는 반응이 함께 나왔다.",
-      "why_it_matters": "업무용 소프트웨어를 고정된 제품이 아니라 손보며 쓰는 작업대로 보는 시각이 다시 힘을 얻고 있다.\n- LLM이 붙으면서 사내 툴, 자동화 스크립트, 개인 워크플로 앱을 개발자 아닌 직군도 더 빠르게 시도할 수 있다.\n- 제품팀과 플랫폼팀은 모두에게 같은 화면을 주는 방식보다 확장 포인트, 스크립트 인터페이스, 데이터 접근성을 함께 설계하라는 압박을 더 자주 받게 된다.\n- 반대로 커스터마이징이 커질수록 이식성, 유지보수, 보안 통제가 약해질 수 있어 운영 기준과 배포 방식까지 같이 챙겨야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 공감 쪽이었지만, 에맥스식 확장성이 곧 좋은 사용자 경험은 아니라는 반론도 적지 않았다.\n- 여러 이용자가 LLM 시대에 내 문제를 푸는 작은 소프트웨어를 직접 만들기 쉬워졌다고 말했다.\n- 반면 에맥스나 오그모드 경험을 떠올리며 설정이 쉽게 깨지고 운영체제 사이 이동이 힘들었다는 불만이 반복됐다.\n- 실무 관점에서는 확장성이 큰 도구를 고르되 플러그인 의존도를 낮추고, 설정을 재현 가능하게 관리해야 한다는 논점이 두드러졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T20:43:33.554344+00:00"
-    },
-    {
-      "id": "7353d99e0e5691605cfd44856a6473e4bf2406a7",
-      "title_hash": "d86855bcdaedaff92b6d4a397d64e1b571d29d9a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Linux gaming is faster because Windows APIs are becoming Linux kernel features",
-      "link": "https://www.xda-developers.com/linux-gaming-is-getting-faster-because-windows-apis-are-becoming-linux-kernel-features/",
-      "published_at": "2026-05-10T20:54:06+00:00",
-      "summary": "HN story type: story HN points: 207 HN comments: 165 HN top comments: trashface: Feels like there is some real momentum on linux gaming now. I mostly play older games but I've gotten most of them working acceptably in proton on my old system 76 laptop (oryp5, with a nvidia 2060; ~7 years old). The laptop actually has plenty of power for the games I play, but I underclock to keep the heat/fan speeds down (been doing the same on the win10 install on the same system), still getting acceptable fra... JoeAltmaier: Used to be a staff member working on an x86 OS called CTOS. I realized if I implemented a couple of traps, we could run command-line DOS programs. So I did. And it worked. Dev tools, text processing, piped commands all worked. It helped that the DOS executable format was the same as the CTOS format - because we had traded Bill Gates our linker (which produces executables) for his BASIC compiler. Night_Thastus: Show me the numbers. Show me an identical gaming PC running Windows 11 and then Linux, and show not just FPS - but things like frametime pacing, latency, etc. This NTSync stuff is very impressive, but I haven't seen a lot of end-to-end numbers versus Windows. The last comparisons I saw showed pretty much every distribution on the order of 5-30% behind Windows, varying on the game. And Nvidia GPU support was still...",
-      "fetched_at": "2026-05-13T20:40:08.713118+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48087887",
-      "hn_story_type": "story",
-      "hn_points": "207",
-      "hn_comments_count": "165",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48087887",
-      "hn_item_text": "",
-      "hn_comment_preview": "trashface: Feels like there is some real momentum on linux gaming now. I mostly play older games but I've gotten most of them working acceptably in proton on my old system 76 laptop (oryp5, with a nvidia 2060; ~7 years old). The laptop actually has plenty of power for the games I play, but I underclock to keep the heat/fan speeds down (been doing the same on the win10 install on the same system), still getting acceptable fra...\nJoeAltmaier: Used to be a staff member working on an x86 OS called CTOS. I realized if I implemented a couple of traps, we could run command-line DOS programs. So I did. And it worked. Dev tools, text processing, piped commands all worked. It helped that the DOS executable format was the same as the CTOS format - because we had traded Bill Gates our linker (which produces executables) for his BASIC compiler.\nNight_Thastus: Show me the numbers. Show me an identical gaming PC running Windows 11 and then Linux, and show not just FPS - but things like frametime pacing, latency, etc. This NTSync stuff is very impressive, but I haven't seen a lot of end-to-end numbers versus Windows. The last comparisons I saw showed pretty much every distribution on the order...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=9,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "compiler",
-            "latency",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "compiler"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "compiler",
-        "latency",
-        "api"
-      ],
-      "detail_slug": "7353d99e0e5691605cfd44856a6473e4bf2406a7",
-      "is_english_source": true,
-      "translated_title": "윈도우 API를 품으며 빨라지는 리눅스 게임",
-      "short_summary": "리눅스 게임 성능 향상이 드라이버 튜닝을 넘어, 윈도우 API 호환 기능이 커널 안으로 들어오는 흐름과 맞물려 있다는 내용이다. Proton 같은 계층의 부담이 줄수록 성능과 반응성이 함께 좋아질 수 있다는 주장이다.",
-      "why_it_matters": "리눅스 게임이 이제 '그럭저럭 돌아간다'를 넘어, 성능 병목을 커널 차원에서 줄이는 단계로 가고 있다는 점이 눈에 띈다.\n- 호환 계층의 동기화 비용이 낮아지면 같은 PC에서도 프레임 타임과 입력 지연이 달라질 수 있다.\n- 스팀덱처럼 리눅스 기반 환경을 겨냥하는 팀은 테스트 우선순위와 최적화 기준을 다시 잡아야 할 수 있다.\n- 윈도우 전용 API 의존이 낮아지는 흐름이 이어지면 PC 게임의 플랫폼 전략도 조금씩 바뀔 여지가 있다.",
-      "hn_reaction_summary": "HN 댓글은 기대감이 크지만, 체감만으로 결론 내리기엔 이르다는 신중론도 만만치 않았다.\n- Proton으로 구형 게임을 무난하게 돌리고 있다는 경험담이 이어지며 리눅스 게임의 상승세를 체감한다는 반응이 많았다.\n- 반대로 같은 하드웨어에서 윈도우 11과 리눅스를 정면 비교한 FPS, 프레임 타임, 지연 수치가 더 필요하다는 요구가 반복됐다.\n- 엔비디아 지원 상태와 배포판별 편차는 아직 남은 변수로 보는 시선이 많았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T20:43:33.554344+00:00"
-    },
-    {
-      "id": "6608a5a14b08f20e6218c4546de81e7c5b281138",
-      "title_hash": "fb7308c3996f7defc72aab7105f3e28f48342dff",
-      "source": "GeekNews",
-      "title": "새로운 Mac 스틸러가 Claude에서 Apple 지원으로 위장하고 있습니다",
-      "link": "https://news.hada.io/topic?id=29456",
-      "published_at": "2026-05-13T02:14:12+00:00",
-      "summary": "보안 연구원들과 'Bleeping Computer'는 최근 맥 사용자를 겨냥한 새로운 공격 방식을 발견했습니다. 공격자들은 공유된 클로드(Claude) 채팅창 내에서 애플 지원팀(Apple Support)을 사칭하며, 맥에 '클로드 코드(Claude Code)' 소프트웨어를 설치하는 방법을 안내하며 접근합니다. 공격 방식 및 특징",
-      "fetched_at": "2026-05-13T16:28:12.088193+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=2,tools_agents=15,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 15,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "6608a5a14b08f20e6218c4546de81e7c5b281138",
-      "is_english_source": false,
-      "sent_at": "2026-05-13T16:31:32.266781+00:00"
-    },
-    {
-      "id": "686c48040599c9e36401ddbfb4dea92672d44526",
-      "title_hash": "e505a660a8805b64292942b420b65d37b0338551",
-      "source": "GeekNews",
-      "title": "EU, 아동을 겨냥한 TikTok·Instagram의 ‘중독적 설계’ 단속 추진",
-      "link": "https://news.hada.io/topic?id=29453",
-      "published_at": "2026-05-13T01:09:34+00:00",
-      "summary": "EU 집행위원회는 올해 후반 TikTok과 Instagram의 중독적 설계 기능을 겨냥한 규제 조치를 추진할 계획임 대상에는 TikTok의 무한 스크롤 , 자동 재생, 푸시 알림처럼 어린이 이용을 붙잡는 기능이 포함됨 Meta는 Instagram과 Facebook에서 자체 최...",
-      "fetched_at": "2026-05-13T16:28:12.088193+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=0,strategy_insight=3,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": 3,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "규제"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "규제"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "규제"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "규제"
-      ],
-      "detail_slug": "686c48040599c9e36401ddbfb4dea92672d44526",
-      "is_english_source": false,
-      "sent_at": "2026-05-13T16:31:32.266781+00:00"
     }
   ],
   "topic_digests": {
