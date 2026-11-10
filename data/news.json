@@ -1,6 +1,517 @@
 {
   "items": [
     {
+      "id": "797d9dae274180a7e1adbff54ee3e2fe916c5bed",
+      "title_hash": "33673f785a1d214cf2a6234f9adb9692ffdceb9d",
+      "source": "GeekNews",
+      "title": "raea - AI가 코드로 만든 영상/3D/게임을 GPU에서 렌더링하는 엔진",
+      "link": "https://news.hada.io/topic?id=36917&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T00:30:02+00:00",
+      "summary": "만들고 싶은 것을 말하면 AI 에이전트가 React/TypeScript 코드로 작성 하고 GPU로 렌더링 영상 및 모션 그래픽 은 텍스트, SVG, 애니메이션을 합성해 MP4로 작성 3D/게임 은 Bevy로 렌더링하며, 입력/물리/사운드를 넣어 실시간으로 실행하거나 독립 실행 프로그램으로 제작 에이전트가 특정 프레임을 이미지로 뽑아 확인하고 코드를 고치는 작업 까지 할 수 있음 잘린 텍스트, 낮은 대비, 화면 멈춤, 음량 문제를 검사하는 명령도 제공 Claude Code용 플러그인과 에이전트 스킬 제공 Rust/Bevy 기반 이며 macOS/Linux/Windows 빌드 제공 제작 …",
+      "fetched_at": "2026-11-10T02:48:27.324919+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=12,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "typescript",
+            "rust"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "797d9dae274180a7e1adbff54ee3e2fe916c5bed",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T02:50:58.297386+00:00"
+    },
+    {
+      "id": "3f69dddede1c2c37e58ab2a8cbbeee5bd8903862",
+      "title_hash": "b88aaf0a13c2d1fe27d37c916845979b29bb5f41",
+      "source": "GeekNews",
+      "title": "Claude Fable 5.2, Artificial Analysis 지능 지수에서 역대 최고인 65점 기록",
+      "link": "https://news.hada.io/topic?id=36910&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-09T22:41:15+00:00",
+      "summary": "Claude Fable 5.2 (Max, Default Fallback) 가 Artificial Analysis Intelligence Index에서 65점을 기록해, 비슷한 가격대 모델의 중앙값인 40점을 크게 웃돎 높은 지능 점수와 달리 작업당 처리 시간은 44.1분 으로, 비교 모델 중앙값 12.9분의 약 3.4배였음. Artificial Analysis는 출력 토큰 수와 생성 속도를 바탕으로 이 시간을 산출 Anthropic API 기준 100만 토큰당 입력 8달러, 출력 40달러 이며, Intelligence Index 평가의 작업당 평균 비용은 26.54달러임 Intelligence Index 평가에서 출력 토큰 2억 7,500만 개 를 생성해, 비교 …",
+      "fetched_at": "2026-11-10T02:48:27.324919+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "index",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "index",
+        "api"
+      ],
+      "detail_slug": "3f69dddede1c2c37e58ab2a8cbbeee5bd8903862",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T02:50:58.297386+00:00"
+    },
+    {
+      "id": "adf38ae7d1a650477c7f61f05b35f0f217038e6b",
+      "title_hash": "4dbfc265f0b14055c4e5bf28916031ffa2fc8ecb",
+      "source": "GeekNews",
+      "title": "ElevenLabs는 어떻게 영화 더빙에서 음성 AI 플랫폼으로 확장했나 [영상]",
+      "link": "https://news.hada.io/topic?id=36923&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-10T01:50:02+00:00",
+      "summary": "ElevenLabs는 오디오 모델을 직접 연구하고, 그 기술을 고객의 실제 업무에 적용 해 성장함. 영화 더빙에서 출발해 콘텐츠 제작과 콜센터 음성 에이전트로 확장함 출발점은 감정과 원래 목소리를 보존하는 더빙이었지만, 기술적 한계와 창작자에게 당장 필요한 작업을 확인한 뒤 고품질 음성 생성 부터 해결함 연구는 오디오에 집중하고, 제품에는 외부 LLM과 지식, 시스템 연동을 결합함. 장기적으로 연구 격차가 줄어들 가능성에 대비해 제품과 음성 마켓플레이스 도 구축함 소규모 자율 팀과 제품팀 소속 현장 엔지니어(FDE) 가 고객과 함 …",
+      "fetched_at": "2026-11-10T02:48:27.324919+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "adf38ae7d1a650477c7f61f05b35f0f217038e6b",
+      "is_english_source": false,
+      "sent_at": "2026-11-10T02:50:58.297386+00:00"
+    },
+    {
+      "id": "0ac943163fbfe7bd02b2a92160ba4edbefeffc27",
+      "title_hash": "becb2700ef0f39453e14b075a1711aadac9e6a5c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Exact – a new cross platform UI framework",
+      "link": "https://github.com/expo/exact",
+      "published_at": "2026-11-09T22:59:13+00:00",
+      "summary": "HN story type: story HN points: 54 HN comments: 24 HN top comments: zoom6628: Immediate thought was the Contract reminds me of QML. This Exact work looks great and I very much hope it succeeds. Qt has Proven this approach works. Now if these folk at Expo can do it at a price that every dev can afford it will get much wider adoption than Qt. tdhz77: The world has moved away from JavaScript. With llm, native is easy and the best option even for a single developer. hysan: Since there are no releases, I assuming this is still a WIP? It would explain why they list Linux and then don’t have any screenshots of it next to the other platforms. How it works is kinda light on details. I’m interested to learn more about the under the hood aspects of how they are translating everything to the different native toolkits.",
+      "fetched_at": "2026-11-10T02:48:27.324919+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50433541",
+      "hn_story_type": "story",
+      "hn_points": "54",
+      "hn_comments_count": "24",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50433541",
+      "hn_item_text": "",
+      "hn_comment_preview": "zoom6628: Immediate thought was the Contract reminds me of QML. This Exact work looks great and I very much hope it succeeds. Qt has Proven this approach works. Now if these folk at Expo can do it at a price that every dev can afford it will get much wider adoption than Qt.\ntdhz77: The world has moved away from JavaScript. With llm, native is easy and the best option even for a single developer.\nhysan: Since there are no releases, I assuming this is still a WIP? It would explain why they list Linux and then don’t have any screenshots of it next to the other platforms. How it works is kinda light on details. I’m interested to learn more about the under the hood aspects of how they are translating everything to the different native toolkits.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=12,tools_agents=17,strategy_insight=4,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 17,
+        "strategy_insight": 4,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "framework"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm",
+        "tool",
+        "github.com"
+      ],
+      "detail_slug": "0ac943163fbfe7bd02b2a92160ba4edbefeffc27",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T02:50:58.297386+00:00"
+    },
+    {
+      "id": "81b5622c79f1ff48b9b525a2584225fdcbf4c95b",
+      "title_hash": "8e2f8ff9dd3e6a825303263e8b610bb2bf7511c3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "link": "https://github.com/thisisme6598/gemini_files/",
+      "published_at": "2026-11-09T18:24:38+00:00",
+      "summary": "HN story type: story HN points: 446 HN comments: 103 HN top comments: bri3d: Note that this is specifically Consumer Gemini with Connected Apps; Workspace Gemini (and Workspace Intelligence, the RAG thing for enterprise/Workspace) still claims not to be subject to human review: https://knowledge.workspace.google.com/admin/generative-ai/g... So basically if you use consumer Gemini and specifically authorize the GMail app, for example, then it will sometimes use the GMail tool to load your m... EMM_386: It's worse than that. > Google Photos data is used to infer your interests, relationships to people in your photos, and where you've been, including by associating your face with corresponding location data and timestamps. This data is also used to do things for you, like look up your info or add items to your grocery list, and to improve Google services, including training generative AI. How does that work exactl... rustyhancock: Really frustrating that our privacy eroded to the point anyone would think this is reasonable. But it does explain some conversations with Gemini when I wonder why it's talking about particular things. Like asking it about consultation processes for changes to parks only to get a response that's uncannily tuned to the email I got prompting the enquiry. No mention of I just read your emails etc .",
+      "fetched_at": "2026-11-10T02:48:27.324919+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50429426",
+      "hn_story_type": "story",
+      "hn_points": "446",
+      "hn_comments_count": "103",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50429426",
+      "hn_item_text": "",
+      "hn_comment_preview": "bri3d: Note that this is specifically Consumer Gemini with Connected Apps; Workspace Gemini (and Workspace Intelligence, the RAG thing for enterprise/Workspace) still claims not to be subject to human review: https://knowledge.workspace.google.com/admin/generative-ai/g... So basically if you use consumer Gemini and specifically authorize the GMail app, for example, then it will sometimes use the GMail tool to load your m...\nEMM_386: It's worse than that. > Google Photos data is used to infer your interests, relationships to people in your photos, and where you've been, including by associating your face with corresponding location data and timestamps. This data is also used to do things for you, like look up your info or add items to your grocery list, and to improve Google services, including training generative AI. How does that work exactl...\nrustyhancock: Really frustrating that our privacy eroded to the point anyone would think this is reasonable. But it does explain some conversations with Gemini when I wonder why it's talking about particular things. Like asking it about consultation processes for changes to parks only to get a response that's uncannily tuned to the email...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=9,strategy_insight=4,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 9,
+        "strategy_insight": 4,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "rust",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [],
+          "support_hits": [
+            "prompt",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "enterprise"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "rag",
+        "github.com"
+      ],
+      "detail_slug": "81b5622c79f1ff48b9b525a2584225fdcbf4c95b",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T02:50:58.297386+00:00"
+    },
+    {
+      "id": "9f8c8f0cf450721297bef8df0003c5efb3f0cbbf",
+      "title_hash": "70b95c80e353b75fc84b8254314d93100800c5a8",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Parking-app convenience fees in 312 U.S. cities (median $0.35 per session)",
+      "link": "https://parkgraph.com/parking-app-fees",
+      "published_at": "2026-11-09T19:55:53+00:00",
+      "summary": "HN story type: story HN points: 61 HN comments: 36 HN top comments: ryandrake: It shouldn't be called a \"convenience fee\" unless you can opt out of it and pay some other non-convenient way. What if I don't want their version of convenience? Why should I have to pay a convenience fee? Why can't they just roll this into the main price of parking? It's gotten to the point where as soon as I see the word \"fee\" I assume I'm being ripped off. emptybits: I have been out of this industry annd without stake in it for years. But I co-founded PayByPhone, the original pay-for-parking app. TFA suggests that it’s charging $0 in fees. Is this true? Then aside from theories of corrupt decision making, why wouldn’t every city or parking provider choose the $0 option? (Particularly city governments with a responsibility to their residents.) cmiles8: It’s getting out of control. Not that long ago 25 cents paid for the parking entirely. This is an area where I’m hoping AI will cause total disruption. There’s no reason for all these apps to exist. A high school kid with AI coding could build a perfectly functional app in an afternoon and keep more money in local communities. These parking app companies need to just go away.",
+      "fetched_at": "2026-11-10T02:48:27.324919+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50430991",
+      "hn_story_type": "story",
+      "hn_points": "61",
+      "hn_comments_count": "36",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50430991",
+      "hn_item_text": "",
+      "hn_comment_preview": "ryandrake: It shouldn't be called a \"convenience fee\" unless you can opt out of it and pay some other non-convenient way. What if I don't want their version of convenience? Why should I have to pay a convenience fee? Why can't they just roll this into the main price of parking? It's gotten to the point where as soon as I see the word \"fee\" I assume I'm being ripped off.\nemptybits: I have been out of this industry annd without stake in it for years. But I co-founded PayByPhone, the original pay-for-parking app. TFA suggests that it’s charging $0 in fees. Is this true? Then aside from theories of corrupt decision making, why wouldn’t every city or parking provider choose the $0 option? (Particularly city governments with a responsibility to their residents.)\ncmiles8: It’s getting out of control. Not that long ago 25 cents paid for the parking entirely. This is an area where I’m hoping AI will cause total disruption. There’s no reason for all these apps to exist. A high school kid with AI coding could build a perfectly functional app in an afternoon and keep more money in local communities. These parking app companies need to just go away.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=4,tools_agents=17,strategy_insight=9,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 17,
+        "strategy_insight": 9,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "ai coding",
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "industry"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "ai coding",
+        "local",
+        "ai + coding"
+      ],
+      "detail_slug": "9f8c8f0cf450721297bef8df0003c5efb3f0cbbf",
+      "is_english_source": true,
+      "sent_at": "2026-11-10T02:50:58.297386+00:00"
+    },
+    {
       "id": "a321f955efbd801f0155f80635d99ac810d66b85",
       "title_hash": "806892e67bec23e26c1d4915cbdaf4c57713e0d9",
       "source": "GeekNews",
@@ -166246,515 +166757,6 @@
       "hn_reaction_summary": "댓글 분위기는 단순한 기능 복구 환영보다 밤부랩에 대한 신뢰 문제에 더 무게가 실렸다. 특히 로컬 모드까지 클라우드 인증을 요구하려 했던 초기 발표와 뒤늦은 후퇴가 반복해서 언급됐다.\n- 비판 쪽은 편의성이 좋아도 소유한 장비의 기본 동작이 회사 서버 정책에 좌우되는 구조를 불편해했다.\n- 옹호하거나 중립적인 반응은 클라우드 기능과 공식 앱의 편의는 인정하면서도, 선택권은 사용자에게 남겨야 한다는 선을 그었다.\n- 실구매 관점에서는 프루사 같은 대안을 찾는 의견이 많았고, 초보자에게도 개방성과 유지보수성을 얼마나 우선할지 논점이 이어졌다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-13T08:07:03.053146+00:00"
-    },
-    {
-      "id": "3f024edf6646b3457b346c8aa7ca833d5c57a0d3",
-      "title_hash": "32637465f82ded99ff6cfd5051c1fe328c0f6b18",
-      "source": "GeekNews",
-      "title": "Anthropic, Claude에게 &quot;왜&quot;를 가르치다 - 정렬 훈련(Alignment Training) 개선 사례",
-      "link": "https://news.hada.io/topic?id=29455",
-      "published_at": "2026-05-13T01:33:56+00:00",
-      "summary": "Anthropic이 작년 공개했던 에이전트 정렬 실패(agentic misalignment) 연구 - 모델이 셧다운을 피하기 위해 엔지니어를 협박하는 등의 행동을 보였던 사례 - 의 후속 개선 내용을 공개함. Claude 4 Opus는 협박 시나리오에서 최대 96%의 비율로 정렬 실패 행동을 보였으나, Claude Haiku 4.5 이후 모든 모델(Haiku 4...",
-      "fetched_at": "2026-05-13T03:49:05.412939+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "61",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=0,tools_agents=16,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 16,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "agentic",
-            "에이전트"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agentic",
-        "에이전트",
-        "agent"
-      ],
-      "detail_slug": "3f024edf6646b3457b346c8aa7ca833d5c57a0d3",
-      "is_english_source": false,
-      "sent_at": "2026-05-13T03:52:14.281987+00:00"
-    },
-    {
-      "id": "37564092b26f2730968b6cc8e5a5510884a32495",
-      "title_hash": "a3d413e35d5dd9ba2ab6aa6a2e8e66fa12808bfb",
-      "source": "GeekNews",
-      "title": "소프트웨어 아키텍처 배우기",
-      "link": "https://news.hada.io/topic?id=29452",
-      "published_at": "2026-05-13T01:06:34+00:00",
-      "summary": "소프트웨어 설계 는 강의보다 실제 프로젝트에서 책임을 맡고 문제가 자기 일이 될 때 더 깊게 배워짐 Conway’s Law 는 소프트웨어가 조직의 사회적 구조를 반복한다는 관점이며, 과학 코드와 산업 코드의 차이도 인센티브에서 생길 수 있음 rust-analyzer...",
-      "fetched_at": "2026-05-13T03:49:05.412939+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=9,practical_tech=9,tools_agents=4,strategy_insight=5,industry_business=-2",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 4,
-        "strategy_insight": 5,
-        "industry_business": -2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [
-            "아키텍처",
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "관점"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -2,
-          "strong_hits": [],
-          "support_hits": [
-            "산업"
-          ],
-          "negative_hits": [
-            "아키텍처"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "아키텍처",
-        "코드"
-      ],
-      "detail_slug": "37564092b26f2730968b6cc8e5a5510884a32495",
-      "is_english_source": false,
-      "sent_at": "2026-05-13T03:52:14.281987+00:00"
-    },
-    {
-      "id": "7f29bd5eaa45a592c71f54f6c2ea1ffbd139f7a6",
-      "title_hash": "e784d42d4885958559f4bfb704ec1a0c3dc3419c",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Traceway: MIT-licensed observability stack you can self-host in ~90s",
-      "link": "https://github.com/tracewayapp/traceway",
-      "published_at": "2026-05-11T07:05:01+00:00",
-      "summary": "HN story type: story HN points: 30 HN comments: 3 HN top comments: tecoholic: I was looking into this just yesterday. So the Loki + … comparison is a bit off in the Open Source space. The main ones are Signoz and ClickStack in this space. Both using ClickHouse as the database. Heavy compared to something like Loki, but they are OTEL native and not log monitoring. So not in the same category.",
-      "fetched_at": "2026-05-13T03:49:05.412939+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48091898",
-      "hn_story_type": "story",
-      "hn_points": "30",
-      "hn_comments_count": "3",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48091898",
-      "hn_item_text": "",
-      "hn_comment_preview": "tecoholic: I was looking into this just yesterday. So the Loki + … comparison is a bit off in the Open Source space. The main ones are Signoz and ClickStack in this space. Both using ClickHouse as the database. Heavy compared to something like Loki, but they are OTEL native and not log monitoring. So not in the same category.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "46",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=22,practical_tech=22,tools_agents=10,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 22,
-        "tools_agents": 10,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 22,
-          "strong_hits": [
-            "observability",
-            "open source",
-            "database"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "observability",
-        "open source",
-        "database",
-        "github.com"
-      ],
-      "detail_slug": "7f29bd5eaa45a592c71f54f6c2ea1ffbd139f7a6",
-      "is_english_source": true,
-      "translated_title": "90초 내 자체 호스팅 가능한 MIT 옵저버빌리티 스택",
-      "short_summary": "Traceway는 약 90초 만에 직접 띄울 수 있다고 내세운 MIT 라이선스 옵저버빌리티 스택이다. HN에서는 빠른 도입성보다 Loki와의 비교가 맞는지, Signoz·ClickStack 같은 OTEL 계열과 무엇이 다른지가 먼저 논점이 됐다.",
-      "why_it_matters": "자체 호스팅 관측 도구를 검토하는 팀이라면 눈여겨볼 만한 소식이다. 설치 시간을 크게 줄였다는 메시지는 분명 매력적이지만, 실제 도입 판단은 제품이 다루는 범위와 운영 부담을 어디까지 감당할지에 달려 있다.\n- MIT 라이선스와 빠른 셋업은 사내 PoC를 서둘러 돌려야 하는 팀에 꽤 현실적인 출발점이 된다.\n- 다만 로그 수집 도구인지, OTEL 기반 통합 관측 스택인지에 따라 비교 대상과 도입 기준이 완전히 달라진다.\n- 실무에서는 설치 편의성만큼이나 저장소 구조, 운영 복잡도, 기존 파이프라인과의 연결 비용이 채택 여부를 가를 가능성이 크다.",
-      "hn_reaction_summary": "HN 반응은 아직 초반 탐색에 가깝다. 댓글 수는 많지 않았지만, 제품 자체의 완성도보다 어떤 오픈소스 스택과 같은 선에서 봐야 하는지를 따지는 분위기가 먼저 보였다.\n- 가장 눈에 띈 반응은 Loki와의 비교가 어색하다는 지적이다. 댓글에서는 Signoz와 ClickStack이 더 가까운 비교 대상으로 언급됐다.\n- 반복된 논점은 로그 모니터링과 OTEL 네이티브 관측 스택을 같은 범주로 볼 수 있느냐는 점이다.\n- ClickHouse 기반 스택은 기능 폭이 넓은 대신 더 무겁게 느껴질 수 있다는 시각도 나왔다. 빠른 설치보다 운영 모델 비교가 먼저라는 반응으로 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T03:52:14.281987+00:00"
-    },
-    {
-      "id": "555e76233ab6b3a4f61f9138cdfce8ab0393bc91",
-      "title_hash": "65179a38821f01a4f668985183c08743f89fadf2",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Reimagining the mouse pointer for the AI era",
-      "link": "https://deepmind.google/blog/ai-pointer/",
-      "published_at": "2026-05-12T17:40:13+00:00",
-      "summary": "HN story type: story HN points: 163 HN comments: 133 HN top comments: why_at: My first impression coming away from this is skepticism. Anything with voice controls for routine use is a pretty tough sell. Doing this when you're not completely alone would be annoying to everyone around you. Most of their examples seem like they could have been done with a right click drop down menu so they don't really need to \"re-invent the mouse pointer\". So is this thing talking to Google's servers all the... Nathanba: Kind of incredible how consistently terrible Google is at everything they do in the AI space. So they choose this demo and write a big blog post and advertise.. and the demo is horrible, doesn't work. Doesn't track what I circle with the mouse, just apparently where the mouse pointer landed at the end and only exactly where it landed. Multiple times it said \"Got it, I'll move this empty space between the clouds ov... arjie: Oh interesting, this is very cool. At first I thought it was just focus-follows-mouse but it's more interesting. You have certain keywords trigger \"add to prompt\". Ignoring the voice functionality (which is admittedly crucial currently because other inputs currently take over focus), I've often wanted to just have a continuous conversation with the LLM as I 'point and click' (or tab over and select) at various thi...",
-      "fetched_at": "2026-05-13T03:49:05.412939+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48111581",
-      "hn_story_type": "story",
-      "hn_points": "163",
-      "hn_comments_count": "133",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48111581",
-      "hn_item_text": "",
-      "hn_comment_preview": "why_at: My first impression coming away from this is skepticism. Anything with voice controls for routine use is a pretty tough sell. Doing this when you're not completely alone would be annoying to everyone around you. Most of their examples seem like they could have been done with a right click drop down menu so they don't really need to \"re-invent the mouse pointer\". So is this thing talking to Google's servers all the...\nNathanba: Kind of incredible how consistently terrible Google is at everything they do in the AI space. So they choose this demo and write a big blog post and advertise.. and the demo is horrible, doesn't work. Doesn't track what I circle with the mouse, just apparently where the mouse pointer landed at the end and only exactly where it landed. Multiple times it said \"Got it, I'll move this empty space between the clouds ov...\narjie: Oh interesting, this is very cool. At first I thought it was just focus-follows-mouse but it's more interesting. You have certain keywords trigger \"add to prompt\". Ignoring the voice functionality (which is admittedly crucial currently because other inputs currently take over focus), I've often wanted to just have a continuous c...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=4,tools_agents=14,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 14,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "cli",
-            "llm"
-          ],
-          "support_hits": [
-            "prompt"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cli",
-        "llm",
-        "prompt"
-      ],
-      "detail_slug": "555e76233ab6b3a4f61f9138cdfce8ab0393bc91",
-      "is_english_source": true,
-      "translated_title": "AI 시대에 맞춰 마우스 포인터를 다시 그리다",
-      "short_summary": "이 스토리는 마우스 포인터와 음성 입력을 묶어 화면의 맥락을 AI에 바로 전달하는 인터페이스를 제안한다. HN에서는 발상 자체는 흥미롭다는 반응도 있었지만, 데모 완성도와 음성 중심 UX에는 회의론이 더 많았다.",
-      "why_it_matters": "생성형 AI가 앱 안의 보조 기능을 넘어서 운영체제 수준 입력 방식까지 건드리기 시작했다는 점에서 눈여겨볼 만하다. 클릭과 선택, 복사 과정을 줄이고 화면에서 가리키는 행위 자체를 프롬프트로 바꾸려는 흐름이다.\n- 이런 방식이 자리 잡으면 문서, 이미지, 웹페이지를 오가며 내용을 복사해 붙이는 대신 화면 요소를 바로 집어 AI에 넘기는 작업이 늘 수 있다.\n- 다만 실무에서는 멋진 개념보다 오작동과 지연이 더 치명적이다. 포인터가 가리킨 대상을 정확히 이해하지 못하면 생산성 도구가 아니라 마찰만 커진다.\n- 음성 입력을 기본 전제로 삼으면 사무실이나 공용 공간에서 쓰기 어렵다. 실제 도입 단계에서는 키보드나 제스처 같은 대체 입력 설계가 함께 따라와야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 신중하거나 비판적이다. 아이디어의 방향은 인정하지만, 공개 데모가 설득력을 만들지 못했다는 평가가 많이 보인다.\n- 가장 많이 나온 반응은 음성 중심 인터페이스에 대한 거부감이다. 혼자 있지 않은 환경에서는 쓰기 불편하고 주변에도 방해가 된다는 지적이 반복됐다.\n- 데모 정확도에 대한 불만도 컸다. 사용자가 원을 그리며 가리킨 대상이 아니라 마지막 포인터 위치만 잡는 것처럼 보였다는 반응이 대표적이다.\n- 반대로 일부는 포인터와 AI를 이어 붙여 화면을 보며 계속 대화하는 방식 자체는 꽤 매력적이라고 봤다. 다만 그 가능성을 살리려면 음성 의존도를 낮추고 입력 품질을 먼저 끌어올려야 한다는 쪽에 무게가 실렸다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T03:52:14.281987+00:00"
-    },
-    {
-      "id": "fb42872f15a50838e00317b2e5c5cb6edcd408f6",
-      "title_hash": "52c295d531f2bb857af155f58e489fbcc35d91bf",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Tell NYT, Atlantic, USA Today to keep Wayback Machine",
-      "link": "https://www.savethearchive.com/newsleaders/",
-      "published_at": "2026-05-12T23:11:40+00:00",
-      "summary": "HN story type: story HN points: 214 HN comments: 52 HN top comments: ctippett: Am I correct that this has come about because archive.org respects robots.txt and these sites have blocked their crawler from indexing their sites? I'm not sure how to articulate my thoughts on this exactly, other than to say it's disappointing that doing the right thing (i.e. respecting robots.txt) is rewarded with the burden of soliciting responses to a petition while at the same time others are rewarded with pr... ajaimk: Idea: allow scraping but can’t publish for 1 year? someperson: Maybe they should have an escrow like Financial Times is available on NewsBank service with a 30 day escrow",
-      "fetched_at": "2026-05-13T03:49:05.412939+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48115807",
-      "hn_story_type": "story",
-      "hn_points": "214",
-      "hn_comments_count": "52",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48115807",
-      "hn_item_text": "",
-      "hn_comment_preview": "ctippett: Am I correct that this has come about because archive.org respects robots.txt and these sites have blocked their crawler from indexing their sites? I'm not sure how to articulate my thoughts on this exactly, other than to say it's disappointing that doing the right thing (i.e. respecting robots.txt) is rewarded with the burden of soliciting responses to a petition while at the same time others are rewarded with pr...\najaimk: Idea: allow scraping but can’t publish for 1 year?\nsomeperson: Maybe they should have an escrow like Financial Times is available on NewsBank service with a 30 day escrow",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "index",
-            "api"
-          ],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "index",
-        "api",
-        "how to"
-      ],
-      "detail_slug": "fb42872f15a50838e00317b2e5c5cb6edcd408f6",
-      "is_english_source": true,
-      "translated_title": "NYT·애틀랜틱·USA투데이에 웨이백 유지 촉구",
-      "short_summary": "해커뉴스에서는 뉴욕타임스, 애틀랜틱, USA투데이가 웨이백 머신의 기사 보관을 막지 말아야 한다는 요구가 주목받았다. 댓글에서는 archive.org의 robots.txt 준수와 지연 공개 같은 절충안이 함께 거론됐다.",
-      "why_it_matters": "이 이슈는 웹 보관과 언론사 통제권이 정면으로 부딪히는 사례다. 기사 접근 정책이 바뀌면 과거 보도 추적, 링크 보존, 사실 확인 방식도 바로 영향을 받는다.\n- 언론사가 크롤링을 막으면 오래된 기사 인용과 원문 검증이 더 까다로워질 수 있다.\n- archive.org가 robots.txt를 따르는 구조라면, 실무자는 기술 문제보다 매체 정책 변화에 더 크게 흔들릴 수 있다.\n- 댓글에서 나온 지연 공개나 에스크로 방식은 보관은 살리되 수익 보호도 챙기려는 절충안으로 이어질 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 보관 자체를 막는 흐름에 아쉬움을 느끼는 쪽이 우세했다. 특히 규칙을 지킨 archive.org가 오히려 불리해졌다는 반응이 반복됐다.\n- robots.txt를 존중한 결과 기록이 사라지는 상황이 역설적이라는 지적이 많았다.\n- 반대로 언론사 권리를 완전히 무시하기보다 30일이나 1년 뒤 공개 같은 유예안을 검토하자는 의견도 나왔다.\n- 실무자가 볼 만한 논점은 보존 필요와 저작권, 유료 기사 수익 보호 사이에서 어디에 선을 그을지다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-13T03:52:14.281987+00:00"
-    },
-    {
-      "id": "047043fecb5d0c68fc9bfa99e8047e8a5c185b51",
-      "title_hash": "1b8d7779914934fe552a588cda1e4dc30e661b08",
-      "source": "GeekNews",
-      "title": "GNU Emacs에서 lsp-mode에서 Eglot으로 이동하기",
-      "link": "https://news.hada.io/topic?id=29435",
-      "published_at": "2026-05-12T18:03:32+00:00",
-      "summary": "Wandering Thoughts와 CSpace 일부는 오래된 브라우저 User-Agent 가 크롤러 방지 규칙에 걸리면 차단 페이지를 표시함 2025년 초 대량 크롤러가 늘었고, 일부는 LLM 학습용 데이터 수집 목적처럼 보이며 오래된 Chrome User-Agent를 사용함 사이트 부하를...",
-      "fetched_at": "2026-05-12T23:37:47.990410+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agent"
-      ],
-      "detail_slug": "047043fecb5d0c68fc9bfa99e8047e8a5c185b51",
-      "is_english_source": false,
-      "sent_at": "2026-05-12T23:40:55.696308+00:00"
     }
   ],
   "topic_digests": {
