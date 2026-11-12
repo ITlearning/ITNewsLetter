@@ -1,6 +1,595 @@
 {
   "items": [
     {
+      "id": "9da7abdcda8a92ee96e55218d7121eb6f38979fc",
+      "title_hash": "1f78285f679e4ad1ae65553e1302ae8d6cb6ea0d",
+      "source": "GeekNews",
+      "title": "Show GN: Line - 기분선과 암호화 일기",
+      "link": "https://news.hada.io/topic?id=37040&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-12T06:30:10+00:00",
+      "summary": "하루의 사건과 기분을 선으로 돌아보는 한국어 일기 베타 Line을 만들었습니다. 가입 없이 공개 연혁 예시를 먼저 볼 수 있고, 개인 일기는 기기 내 암호화 저장과 수동 백업·복원으로 관리합니다. 개인 일기에서는 ‘암호화 저장’을 눌러 수정 내용을 보관해야 합니다. 비밀번호 분실 복구와 자동 동기화는 없습니다. 백업을 따로 보관해 주세요. 공개 파일로 내보내면 본문은 빠져도 제목·날짜·기분은 남습니다. 독립 보안감사는 받지 않았으며, 침해된 기기·브라우저나 메모리의 완전한 보호를 보장하지 않습니다. Claude와 Codex를 활용해 개발했습니다. 기분선 읽기와 백업 과정에서 막히는 부분에 대한 피드백을 받고 싶습니다. …",
+      "fetched_at": "2026-11-12T08:41:48.940171+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "codex"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "codex",
+        "claude + code"
+      ],
+      "detail_slug": "9da7abdcda8a92ee96e55218d7121eb6f38979fc",
+      "is_english_source": false,
+      "sent_at": "2026-11-12T08:44:11.642373+00:00"
+    },
+    {
+      "id": "ebec674f4489836f7fb3b05fde3e37d733c98294",
+      "title_hash": "1161429a0f94be54493f9a0ab357feaf29ab8cc3",
+      "source": "GeekNews",
+      "title": "마법의 시대에 Emacs는 어디로 가는가",
+      "link": "https://news.hada.io/topic?id=37038&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-12T05:34:18+00:00",
+      "summary": "AI에 원하는 작업을 말하는 방식이 자리 잡으면서, Emacs 사용자가 내세우던 편집 속도, 맞춤화, LISP의 표현력 이 예전 같은 경쟁 우위를 갖기 어려워짐 excali-mode.el 은 Emacs의 새 캔버스 기능을 활용하려고 Excalidraw의 애플리케이션 스택을 재구현한 사례로, 과거라면 엄두 내기 어려웠을 작업을 토큰 비용으로 시도함 cooked.el 은 일반 텍스트 버퍼처럼 사용할 수 있는 터미널 모드를 만들면서 Rust 기반 터미널 에뮬레이터까지 자체 구현함 AI로 개인 취향에 맞는 일회성 소프트웨어를 만드는 흐름은 소프트웨어의 Emacs화 로 이어 …",
+      "fetched_at": "2026-11-12T08:41:48.940171+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust"
+      ],
+      "detail_slug": "ebec674f4489836f7fb3b05fde3e37d733c98294",
+      "is_english_source": false,
+      "sent_at": "2026-11-12T08:44:11.642373+00:00"
+    },
+    {
+      "id": "633231fcd38570d9e6c832d3ccc295ca06dc759d",
+      "title_hash": "1eee656ce78ed588e43b3e41111fd314929c955d",
+      "source": "GeekNews",
+      "title": "Show HN: Yogurt - 무료이며 프라이버시를 보호하는 오픈소스 Granola 대안",
+      "link": "https://news.hada.io/topic?id=37025&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-12T01:37:18+00:00",
+      "summary": "Yogurt 는 비공개 AI 회의 노트를 위한 무료 오픈소스 앱임 회의에 봇을 추가하지 않고 통화를 녹음함 회의 요약 화면에서 계획과 담당자별 다음 단계 , 개인 알림을 확인할 수 있음 Mac, Windows, Linux 용 다운로드를 제공함 MIT 라이선스 로 공개되며, 로컬 빌드와 실행을 위한 문서를 제공함 봇 없이 녹음하는 AI 회의 노트 Yogurt 는 프라이버시를 내세우는 무료 오픈소스 AI 회의 노트 앱임 통화를 녹음할 때 회의 봇을 추가하지 않음 공개된 회의 요약 화면에는 출시 계획 회의의 계획, 담당자별 다음 단계 , 개인 알림이 표시됨 지원 환 …",
+      "fetched_at": "2026-11-12T08:41:48.940171+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "출시"
+      ],
+      "detail_slug": "633231fcd38570d9e6c832d3ccc295ca06dc759d",
+      "is_english_source": false,
+      "sent_at": "2026-11-12T08:44:11.642373+00:00"
+    },
+    {
+      "id": "7f5fb44db05503b548f40b2acd62a3621e484090",
+      "title_hash": "2b1d1356b72a41d1c281d6cfb470efa24e7bda8a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Emacs in the Age of Magic",
+      "link": "https://commandlinesystems.com/magic.txt",
+      "published_at": "2026-11-11T20:26:32+00:00",
+      "summary": "HN story type: story HN points: 216 HN comments: 93 HN top comments: esFran: There are several points of view here. Some people claim they will never need to \"program\" again because the LLM will do everything. That text editors are dead... and so is the career of programmer or software engineer. That nowadays, with Claude Code, you can reimplement anything (given a large enough context window, of course). That it is like being an expert in every programming language and system out there. T... jefurii: > [W]e are here to declare our intent to use and develop a version of Emacs that is free from LLM-generated contributions regardless of whatever policy GNU decides upon. We invite them to weigh the costs and do the right thing, in which case we will continue to support them. But if they are not willing to do so, we will continue to use and develop an LLM-free version of Emacs anyway, even if it is not GNU Emacs. h... vhantz: > I believe a sufficiently interested emacs developer with a $100 plan and a long weekend could hammer out a pretty good first cut. That no one's yet done it is clear evidence that no one really wanted these things so much as they wanted to talk about it. The disappearance of bikeshedding doesn't look like an obvious one but it's a huge loss. Imagine if every scientist resolved to refer to already written books an...",
+      "fetched_at": "2026-11-12T08:41:48.940171+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50458208",
+      "hn_story_type": "story",
+      "hn_points": "216",
+      "hn_comments_count": "93",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50458208",
+      "hn_item_text": "",
+      "hn_comment_preview": "esFran: There are several points of view here. Some people claim they will never need to \"program\" again because the LLM will do everything. That text editors are dead... and so is the career of programmer or software engineer. That nowadays, with Claude Code, you can reimplement anything (given a large enough context window, of course). That it is like being an expert in every programming language and system out there. T...\njefurii: > [W]e are here to declare our intent to use and develop a version of Emacs that is free from LLM-generated contributions regardless of whatever policy GNU decides upon. We invite them to weigh the costs and do the right thing, in which case we will continue to support them. But if they are not willing to do so, we will continue to use and develop an LLM-free version of Emacs anyway, even if it is not GNU Emacs. h...\nvhantz: > I believe a sufficiently interested emacs developer with a $100 plan and a long weekend could hammer out a pretty good first cut. That no one's yet done it is clear evidence that no one really wanted these things so much as they wanted to talk about it. The disappearance of bikeshedding doesn't look like an obvious one but it'...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "47",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=23,practical_tech=4,tools_agents=23,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 23,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 23,
+          "strong_hits": [
+            "claude code",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "career"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "llm",
+        "claude + code"
+      ],
+      "detail_slug": "7f5fb44db05503b548f40b2acd62a3621e484090",
+      "is_english_source": true,
+      "sent_at": "2026-11-12T08:44:11.642373+00:00"
+    },
+    {
+      "id": "dedd2ba019c7d7d7623b1f039c96cf7fa9d4276c",
+      "title_hash": "8d1594ea0bbe6204d5e70d32226b78fac162f99b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Lock Your GitHub Actions",
+      "link": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "published_at": "2026-11-11T22:16:41+00:00",
+      "summary": "HN story type: story HN points: 237 HN comments: 47 HN top comments: woodruffw: The advice here is really great (as I'd expect from Hugo), but as the maintainer of zizmor I want to note some caveats with the current iteration of workflow lockfiles: - They only lock normal action calls. If your workflows invoke other reusable workflows, you need to keep those hash-pinned manually for now. - Composite actions are not themselves locked. Instead, they get locked transitively through their callsit... Already__Taken: Quoting someone else's blog I've forgotten but you're trading the trust in the repo owner not moving a tag for trusting whoever merges the commit hash to have checked that's a release in the repo you want and not _some_ forks commit. All forks on github are the same repo you can pin any commit, merged upstream or not. IMO Github should make Immutable tags mandatory to publish on https://github.com/marketplace klodolph: I think my main advice is to avoid GH actions at all, unless avoiding them is somehow painful. There is just a long bad history here.",
+      "fetched_at": "2026-11-12T08:41:48.940171+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50459485",
+      "hn_story_type": "story",
+      "hn_points": "237",
+      "hn_comments_count": "47",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50459485",
+      "hn_item_text": "",
+      "hn_comment_preview": "woodruffw: The advice here is really great (as I'd expect from Hugo), but as the maintainer of zizmor I want to note some caveats with the current iteration of workflow lockfiles: - They only lock normal action calls. If your workflows invoke other reusable workflows, you need to keep those hash-pinned manually for now. - Composite actions are not themselves locked. Instead, they get locked transitively through their callsit...\nAlready__Taken: Quoting someone else's blog I've forgotten but you're trading the trust in the repo owner not moving a tag for trusting whoever merges the commit hash to have checked that's a release in the repo you want and not _some_ forks commit. All forks on github are the same repo you can pin any commit, merged upstream or not. IMO Github should make Immutable tags mandatory to publish on https://github.com/marketplace\nklodolph: I think my main advice is to avoid GH actions at all, unless avoiding them is somehow painful. There is just a long bad history here.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=5,strategy_insight=7,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 5,
+        "strategy_insight": 7,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [
+            "workflow"
+          ],
+          "support_hits": [
+            "workflow"
+          ],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust"
+      ],
+      "detail_slug": "dedd2ba019c7d7d7623b1f039c96cf7fa9d4276c",
+      "is_english_source": true,
+      "sent_at": "2026-11-12T08:44:11.642373+00:00"
+    },
+    {
+      "id": "d5a59e15e67025d1e7f922de01c2695939da2152",
+      "title_hash": "30ca510d10a5765fe8879e9b6d996def9b6df3c6",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Humble Bundle just killed most of their security through vibecoding",
+      "link": "https://forums.spacebattles.com/threads/humble-bundle-just-completely-killed-most-of-their-security-through-vibecoding.1346295/",
+      "published_at": "2026-11-12T06:52:48+00:00",
+      "summary": "HN story type: story HN points: 174 HN comments: 65 HN top comments: 1313ed01: Can someone there please just click the rollback button now and we can all forget this ever happened. I don't think that new site can be saved. The old site was fine. Just leave it like it was. I bought a bundle as recently as last month. Three bundles I think. If they just focus on finding more fun bundles to sell and don't touch the site code again, ever, it will be fine. I have been happily buying things I usua... trvz: This is not AI's fault. In fact, they had to probably fight the LLM to get it this simple. I'm a subscriber to Humble Bundle Choice (their monthly offering), and it has been a pain to receive a code via email at every login. Ekaros: Perfect example of when rewrite is functionally worse for users and done for sake of doing it... I wondered why I did not get email code from them for login. Then it arrive one hour later... Seems like pretty big oversight...",
+      "fetched_at": "2026-11-12T08:41:48.940171+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50463899",
+      "hn_story_type": "story",
+      "hn_points": "174",
+      "hn_comments_count": "65",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50463899",
+      "hn_item_text": "",
+      "hn_comment_preview": "1313ed01: Can someone there please just click the rollback button now and we can all forget this ever happened. I don't think that new site can be saved. The old site was fine. Just leave it like it was. I bought a bundle as recently as last month. Three bundles I think. If they just focus on finding more fun bundles to sell and don't touch the site code again, ever, it will be fine. I have been happily buying things I usua...\ntrvz: This is not AI's fault. In fact, they had to probably fight the LLM to get it this simple. I'm a subscriber to Humble Bundle Choice (their monthly offering), and it has been a pain to receive a code via email at every login.\nEkaros: Perfect example of when rewrite is functionally worse for users and done for sake of doing it... I wondered why I did not get email code from them for login. Then it arrive one hour later... Seems like pretty big oversight...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "42",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=15,tools_agents=18,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 18,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 18,
+          "strong_hits": [
+            "cli",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli",
+        "llm",
+        "ai + coding"
+      ],
+      "detail_slug": "d5a59e15e67025d1e7f922de01c2695939da2152",
+      "is_english_source": true,
+      "sent_at": "2026-11-12T08:44:11.642373+00:00"
+    },
+    {
+      "id": "8858b1f6dfb1fcdce122f0f48c8a011fa6e17ae6",
+      "title_hash": "c8988ce858ce7105fdda79e8a9e7098465b5dd90",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Bad ideas that aren't bad anymore",
+      "link": "https://devonestes.com/bad-ideas-that-arent-bad-anymore",
+      "published_at": "2026-11-12T03:18:13+00:00",
+      "summary": "HN story type: story HN points: 44 HN comments: 19 HN top comments: ro_sharp: Why do so many people think that code reviews are primarily about mistrust or spotting mistakes? IMO they’re primarily about ensuring shared understanding and agreement, not just about how things are changing now, but how they’ll change in the future.. ahartmetz: >Introducing a language or tool nobody on the team knows [is not a bad idea anymore] OK, now I'm sure that the guy is full of shit. ketzu: > But a lot of the reason rewrites were so dangerous is that they took forever, and the old system kept changing underneath yo I think a bigger reason is that people don't understand why the current system is the way it is. That risk is increasing with lower j understanding of the codebase. (doesn't apply as much to building the same thing in a different language)",
+      "fetched_at": "2026-11-12T08:41:48.940171+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50462613",
+      "hn_story_type": "story",
+      "hn_points": "44",
+      "hn_comments_count": "19",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50462613",
+      "hn_item_text": "",
+      "hn_comment_preview": "ro_sharp: Why do so many people think that code reviews are primarily about mistrust or spotting mistakes? IMO they’re primarily about ensuring shared understanding and agreement, not just about how things are changing now, but how they’ll change in the future..\nahartmetz: >Introducing a language or tool nobody on the team knows [is not a bad idea anymore] OK, now I'm sure that the guy is full of shit.\nketzu: > But a lot of the reason rewrites were so dangerous is that they took forever, and the old system kept changing underneath yo I think a bigger reason is that people don't understand why the current system is the way it is. That risk is increasing with lower j understanding of the codebase. (doesn't apply as much to building the same thing in a different language)",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "48",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=24,practical_tech=9,tools_agents=9,strategy_insight=24,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 9,
+        "strategy_insight": 24,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 24,
+          "strong_hits": [
+            "code review",
+            "trust"
+          ],
+          "support_hits": [
+            "mistakes",
+            "future",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "code review"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "code review",
+        "trust",
+        "mistakes",
+        "future",
+        "why",
+        "code + review"
+      ],
+      "detail_slug": "8858b1f6dfb1fcdce122f0f48c8a011fa6e17ae6",
+      "is_english_source": true,
+      "sent_at": "2026-11-12T08:44:11.642373+00:00"
+    },
+    {
       "id": "b49f81646f6a72ac12ebf99c43bd1ce16e8724bf",
       "title_hash": "5e91d929d462a6174e9612dcc28b49cb6ff283d7",
       "source": "GeekNews",
@@ -166011,602 +166600,6 @@
       "hn_reaction_summary": "HN 반응은 흥미롭지만 조심스럽다는 쪽에 가까웠다. 아이디어와 완성도는 좋게 보면서도, 예전 분산형 Git 이슈 트래커들이 부딪혔던 문제를 이번에는 어떻게 넘을지가 핵심 논점으로 떠올랐다.\n- 긍정 쪽에서는 저장소 로컬 이슈 관리, 개인 태스크 관리, 웹 도구로 이동하는 번거로움 감소를 장점으로 봤다.\n- 신중론에서는 과거 비슷한 도구들이 설계상 한계를 안고 사라졌다는 점을 짚었다. 특히 개발자 중심 도구에 머물 가능성을 우려했다.\n- 반복해서 나온 실무 포인트는 UI 선택지다. TUI 자체는 매력적이지만 팀 전체 채택은 어렵기 때문에, 웹 UI나 로컬 서버 같은 대안 인터페이스가 필요하다는 의견이 나왔다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-16T03:25:57.318411+00:00"
-    },
-    {
-      "id": "420ae568a4d354abcca30885f39d9b0d5c649d28",
-      "title_hash": "0ae14182a98d99eccb02b434d8937518c82715f8",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "A 0-click exploit chain for the Pixel 10",
-      "link": "https://projectzero.google/2026/05/pixel-10-exploit.html",
-      "published_at": "2026-05-15T13:39:54+00:00",
-      "summary": "HN story type: story HN points: 347 HN comments: 159 HN top comments: krupan: I followed the link to the Pixel 9 bug/exploit and saw this: \"Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user\" Haven't we learned our lesson on t... greesil: \"This is notably fast given that this is the first time that an Android driver bug I reported was patched within 90 days of the vendor first learning about the vulnerability.\" This makes me feel better about Google, but also makes me kind of frightened of the rest of Android. I wonder what Apple's response time is? revolvingthrow: Semi-related: has the rate of published exploits picked up as if late, or is it simply the fact that there’s hype around ai as security tool (offense or defense) so it’s simply in the news more often? Feels like there’s something new every other day - linux, windows, mobile, various commonplace tools used by everybody, the list goes on",
-      "fetched_at": "2026-05-16T03:22:53.169565+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48148460",
-      "hn_story_type": "story",
-      "hn_points": "347",
-      "hn_comments_count": "159",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48148460",
-      "hn_item_text": "",
-      "hn_comment_preview": "krupan: I followed the link to the Pixel 9 bug/exploit and saw this: \"Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user\" Haven't we learned our lesson on t...\ngreesil: \"This is notably fast given that this is the first time that an Android driver bug I reported was patched within 90 days of the vendor first learning about the vulnerability.\" This makes me feel better about Google, but also makes me kind of frightened of the rest of Android. I wonder what Apple's response time is?\nrevolvingthrow: Semi-related: has the rate of published exploits picked up as if late, or is it simply the fact that there’s hype around ai as security tool (offense or defense) so it’s simply in the news more often? Feels like there’s something new every other day - linux, windows, mobile, various commonplace tools used by everybody, the list goes on",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=9,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 9,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "code + security"
-      ],
-      "detail_slug": "420ae568a4d354abcca30885f39d9b0d5c649d28",
-      "is_english_source": true,
-      "translated_title": "픽셀 10 겨냥한 제로클릭 공격 체인",
-      "short_summary": "픽셀 10을 노린 제로클릭 공격 체인이 공개되면서, 사용자가 메시지를 열기 전 미디어를 처리하는 경로가 다시 주목받고 있다. HN에서는 AI 기능 확대가 공격면을 넓혔다는 지적과 함께, 구글의 패치 속도와 안드로이드 생태계의 대응 격차가 함께 거론됐다.",
-      "why_it_matters": "이번 이슈는 스마트폰의 편의 기능이 보안 구조를 어떻게 바꾸는지 보여준다. 특히 메시지를 열기 전 자동 분석과 미디어 디코딩이 이뤄지는 흐름이 실무 보안팀에게 새 점검 포인트로 떠오른다.\n- AI 기반 메시지 검색·요약 기능이 늘수록, 사용자가 아무것도 누르지 않아도 노출되는 제로클릭 공격면이 커질 수 있다.\n- 구글이 비교적 빠르게 패치했다는 반응은 있었지만, 같은 안드로이드 계열이라도 제조사와 부품 벤더마다 대응 속도가 다를 수 있다는 점이 더 큰 운영 리스크로 읽힌다.\n- 기업 단말 관리 관점에서는 앱 권한보다 미디어 처리 경로, 기본 메시지 앱, 보안 업데이트 배포 시점을 더 촘촘히 봐야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 놀라움보다 익숙한 불안에 가깝다. 새 AI 기능이 또 다른 취약점 경로를 만들고 있다는 우려와, 그래도 구글의 패치 속도는 예전보다 낫다는 엇갈린 평가가 함께 나왔다.\n- 가장 많이 반복된 반응은 메시지를 열기 전 콘텐츠를 미리 분석하는 구조가 왜 계속 확대되느냐는 문제제기였다.\n- 구글이 90일 안에 드라이버 버그를 고친 점은 긍정적으로 봤지만, 다른 안드로이드 벤더들도 같은 수준으로 움직이느냐에는 회의적인 시선이 많았다.\n- 최근 익스플로잇 공개가 부쩍 많아 보이는 이유가 실제 증가인지, AI 보안 이슈가 뉴스 주목도를 키운 결과인지 따져보는 논점도 이어졌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-16T03:25:57.318411+00:00"
-    },
-    {
-      "id": "dce6aa4c2151af0798e8b008be69a36385f201c1",
-      "title_hash": "bdbfb0673dfaf6bff2526fac95d34fa2efee0a8d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "California bill would require patches or refunds when online games shut down",
-      "link": "https://arstechnica.com/gaming/2026/05/bill-to-keep-online-games-playable-clears-key-hurdle-in-california/",
-      "published_at": "2026-05-15T19:48:48+00:00",
-      "summary": "HN story type: story HN points: 366 HN comments: 223 HN top comments: georgeecollins: It seems like the fair solution to this problem is to open source server code if you are going to cease support for an online game. That way the community has the opportunity to run their own servers if they want to. I also really support giving 60 day notice if an online game is going to shut down. Places I have worked have had policies like that for games they are sun setting and I think the best game publishers... tyleo: I happen to be shutting down an online game right now. https://www.tyleo.com/blog/sunsetting-rec-room-how-to-give-a... The sad truth is that these things have high operating costs, especially if they need moderation. I would guess this bill just makes it more risky to make the games in the first place. It’s already brutally hard to make money on games. I feel like the effect of this might just be that shutting an... mrandish: I doubt it's possible for legislation to mandate meaningful compliance regarding something as dynamic and rapidly evolving as online games. Despite good intentions, such legislation often results in unintended consequences including distorting the market, creating perverse incentives or even making the problem worse. Serious problems are already apparent. Games offered “solely for the duration of [a] subscription....",
-      "fetched_at": "2026-05-16T03:22:53.169565+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48152994",
-      "hn_story_type": "story",
-      "hn_points": "366",
-      "hn_comments_count": "223",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48152994",
-      "hn_item_text": "",
-      "hn_comment_preview": "georgeecollins: It seems like the fair solution to this problem is to open source server code if you are going to cease support for an online game. That way the community has the opportunity to run their own servers if they want to. I also really support giving 60 day notice if an online game is going to shut down. Places I have worked have had policies like that for games they are sun setting and I think the best game publishers...\ntyleo: I happen to be shutting down an online game right now. https://www.tyleo.com/blog/sunsetting-rec-room-how-to-give-a... The sad truth is that these things have high operating costs, especially if they need moderation. I would guess this bill just makes it more risky to make the games in the first place. It’s already brutally hard to make money on games. I feel like the effect of this might just be that shutting an...\nmrandish: I doubt it's possible for legislation to mandate meaningful compliance regarding something as dynamic and rapidly evolving as online games. Despite good intentions, such legislation often results in unintended consequences including distorting the market, creating perverse incentives or even making the problem worse. Seri...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=-2,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": -2,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "open source",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": -2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "api"
-      ],
-      "detail_slug": "dce6aa4c2151af0798e8b008be69a36385f201c1",
-      "is_english_source": true,
-      "translated_title": "캘리포니아, 온라인 게임 종료 시 패치·환불 의무화 추진",
-      "short_summary": "캘리포니아에서 온라인 게임 서비스를 종료할 때 이용자가 계속 플레이할 수 있는 패치나 환불을 요구하는 법안이 논의되고 있다. HN에서는 이용자 보호 취지에는 공감하면서도 서버 운영비와 입법 현실성을 두고 의견이 갈렸다.",
-      "why_it_matters": "라이브 서비스 게임의 종료 책임을 법으로 따지려는 움직임이 본격화하고 있다. 개발사와 퍼블리셔는 출시 이후 운영만이 아니라 종료 방식까지 제품 설계의 일부로 준비해야 할 가능성이 커졌다.\n- 서버 의존형 게임은 서비스 종료 때 약관만으로 정리하기 어려워질 수 있다. 종료 후에도 작동하는 패치나 환불 기준을 미리 설계해야 한다.\n- 싱글플레이 전환, 제한 기능 오프라인화, 커뮤니티 서버 허용처럼 서비스 종료 뒤를 염두에 둔 아키텍처 판단이 실무 이슈로 올라온다.\n- 소규모 스튜디오는 운영비와 모더레이션 부담에 더해 법적 리스크까지 계산해야 해서, 라이브 서비스 장르 진입을 더 보수적으로 볼 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 이용자 보호에는 우호적이지만, 법으로 어디까지 강제할 수 있느냐를 두고 팽팽하게 갈렸다. 감정적 비난보다는 실제 운영 경험을 바탕으로 한 현실론이 많이 붙었다.\n- 찬성 쪽은 서비스 종료 시 서버 코드를 공개하거나 최소 60일 전에 공지해 커뮤니티가 이어받을 기회를 줘야 한다는 의견을 반복했다.\n- 반대 쪽은 온라인 게임은 서버 유지, 부정행위 대응, 모더레이션 비용이 커서 단순한 패치 의무로 풀 문제가 아니라고 봤다.\n- 실무자 관점에서는 구독형 게임 예외, 규제의 부작용, 그리고 이런 법안이 새 온라인 게임 출시 자체를 위축시킬 수 있다는 우려가 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-16T03:25:57.318411+00:00"
-    },
-    {
-      "id": "7a94e9a845f2de56bdcf6ae22f163d7d0f3fde36",
-      "title_hash": "61ad7440840ff551b507d7644a8a7bf619d40633",
-      "source": "GeekNews",
-      "title": "온타리오 감사관들, 의사용 AI 노트 작성기가 기본 사실을 반복적으로 틀린다고 밝혀",
-      "link": "https://news.hada.io/topic?id=29542",
-      "published_at": "2026-05-15T22:35:05+00:00",
-      "summary": "온타리오가 의료 제공자용으로 승인한 AI Scribe 시스템 20개 에서 핵심 정보 누락, 오정보 삽입, 발화되지 않은 내용 생성이 확인됨 조달 평가는 모의 의사-환자 녹음 과 AI 생성 진료 메모를 의료 전문가가 대조하는 방식이었고, 9개 시스템은 치료 계획 제안까지 ...",
-      "fetched_at": "2026-05-15T23:10:20.931756+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "7a94e9a845f2de56bdcf6ae22f163d7d0f3fde36",
-      "is_english_source": false,
-      "sent_at": "2026-05-15T23:13:15.425649+00:00"
-    },
-    {
-      "id": "8533bdd906b68222cb2b214dcec17dadd3c2f733",
-      "title_hash": "221434a77abc9b46dd8df4da6c198fee04b0b8fa",
-      "source": "GeekNews",
-      "title": "영국 정부, Palantir 소프트웨어를 내부 구축 난민 시스템으로 교체",
-      "link": "https://news.hada.io/topic?id=29539",
-      "published_at": "2026-05-15T14:36:24+00:00",
-      "summary": "영국 MHCLG는 우크라이나 난민 거처 연결에 쓰던 Palantir IT 시스템 을 내부 개발 시스템으로 바꿔 매년 수백만 파운드를 절감함 Homes for Ukraine 는 2022년 3월 시작됐고, Palantir는 Foundry 기반 운영 시스템을 6개월간 무료로 구축한 뒤 유료 계약으로 이어짐...",
-      "fetched_at": "2026-05-15T23:10:20.931756+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "8533bdd906b68222cb2b214dcec17dadd3c2f733",
-      "is_english_source": false,
-      "sent_at": "2026-05-15T23:13:15.425649+00:00"
-    },
-    {
-      "id": "28a56976139f007d176ceb9d584a2b9b51aef556",
-      "title_hash": "1eeb100f0a6b20b417857b420a8cde29d678dacd",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "I believe there are entire companies right now under AI psychosis",
-      "link": "https://twitter.com/mitchellh/status/2055380239711457578",
-      "published_at": "2026-05-15T20:26:47+00:00",
-      "summary": "HN story type: story HN points: 494 HN comments: 213 HN top comments: zmmmmm: I think AI rescue consulting is going to be come a significant mode of high value consulting, similar to specialists who come in to try and deal with a security breach or do data recovery. Purely AI written systems will scale to a point of complexity that no human can ever understand and the defect close rate will taper down and the token burn per defect rate scale up and eventually AI changes will cause on averag... impulser_: I'm pretty sure he's talking about companies and people outsourcing their decision making and thinking to AI and not really about using AI itself. I don't think using AI to write code is AI psychosis or bad at all, but if you just prompt the AI and believe what it tell you then you have AI psychosis. You see this a lot with financial people and VC on twitter. They literally post screenshots of ChatGPT as their thi... taffydavid: This post calls out how you can't argue with these people because they say its fine to ship bugs because the agents will fix them so quickly and at a scale humans can't do!\" the top reply is from someone doing exactly that, arguing \"but the agents are so fast!\"",
-      "fetched_at": "2026-05-15T23:10:20.931756+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48153379",
-      "hn_story_type": "story",
-      "hn_points": "494",
-      "hn_comments_count": "213",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48153379",
-      "hn_item_text": "",
-      "hn_comment_preview": "zmmmmm: I think AI rescue consulting is going to be come a significant mode of high value consulting, similar to specialists who come in to try and deal with a security breach or do data recovery. Purely AI written systems will scale to a point of complexity that no human can ever understand and the defect close rate will taper down and the token burn per defect rate scale up and eventually AI changes will cause on averag...\nimpulser_: I'm pretty sure he's talking about companies and people outsourcing their decision making and thinking to AI and not really about using AI itself. I don't think using AI to write code is AI psychosis or bad at all, but if you just prompt the AI and believe what it tell you then you have AI psychosis. You see this a lot with financial people and VC on twitter. They literally post screenshots of ChatGPT as their thi...\ntaffydavid: This post calls out how you can't argue with these people because they say its fine to ship bugs because the agents will fix them so quickly and at a scale humans can't do!\" the top reply is from someone doing exactly that, arguing \"but the agents are so fast!\"",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=20,practical_tech=20,tools_agents=6,strategy_insight=7,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 20,
-        "tools_agents": 6,
-        "strategy_insight": 7,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 20,
-          "strong_hits": [
-            "security",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "prompt",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "rag",
-        "code + security"
-      ],
-      "detail_slug": "28a56976139f007d176ceb9d584a2b9b51aef556",
-      "is_english_source": true,
-      "translated_title": "이미 AI 망상에 빠진 회사들이 있다",
-      "short_summary": "이 글은 AI를 쓰는 것보다 판단과 책임까지 AI에 넘기는 조직 문화가 더 위험하다고 본다. HN에서도 무비판적 자동화가 코드 품질과 의사결정을 함께 흔든다는 반응이 많았다.",
-      "why_it_matters": "이 논점은 단순한 생산성 도구 이야기가 아니라 조직 운영 방식에 관한 경고에 가깝다. AI가 초안 작성 보조를 넘어 판단 대행자로 쓰이기 시작하면 속도는 빨라 보여도 통제력은 빠르게 약해질 수 있다.\n- 사람이 이해하지 못하는 AI 생성 코드가 쌓이면 장애가 났을 때 원인 추적과 수정 비용이 더 커질 수 있다.\n- '일단 배포하고 에이전트가 고치면 된다'는 인식은 코드 리뷰와 QA 기준을 느슨하게 만들 가능성이 크다.\n- 실무에서는 도입 여부보다 검증 책임, 승인 절차, 최종 판단권을 누가 쥐는지부터 다시 정리해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 AI 자체를 부정하기보다 AI의 답을 검증 없이 믿는 태도를 경계하는 쪽에 가까웠다. 특히 '도구 사용'과 '판단 위임'은 다르다는 선 긋기가 반복해서 나왔다.\n- AI 코딩 보조는 유용할 수 있지만 의사결정까지 통째로 맡기면 그때부터 문제가 시작된다는 의견이 많았다.\n- '버그를 내도 에이전트가 금방 고친다'는 낙관론은 결국 품질 기준만 낮춘다는 비판이 이어졌다.\n- 장기적으로는 사람이 이해하지 못하는 AI 산출물을 수습하는 'AI 구조 컨설팅'이 생길 수 있다는 전망도 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-15T23:13:15.425649+00:00"
-    },
-    {
-      "id": "e869234c9e189a466946e0363b8ade3ab17dd551",
-      "title_hash": "290a4be12611fd2fdfa6ca3866c3fbbce9bd48dc",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Image-blaster: Creates 3D environments, SFX, and meshes from a single image",
-      "link": "https://github.com/neilsonnn/image-blaster",
-      "published_at": "2026-05-15T15:42:37+00:00",
-      "summary": "HN story type: story HN points: 116 HN comments: 23 HN top comments: avaer: If you haven't tried AI modeling pipelines in the last year you'll be surprised. The star of the show here is https://platform.worldlabs.ai/ (author works there, I don't) which is really good. There's also Meshy.ai (which this repo doesn't seem to use?) for non-scene stuff that's right up there in quality. There's texturing, auto-rigging, etc. The latest VLLM models have true pixel image grounding which means you... tombert: This is cool as hell. I remember like seventeen years years ago, Microsoft had \"PhotoSynth\", which would make 3D environments based on a bunch of images, and seventeen-year-old-tombert thought it was one of the most amazing things to ever be done on a computer. Doing this with just one image makes this at least an order of magnitude cooler. I will be playing with this over the weekend. toisanji: I see it used worldlabs, i’ve tested it quite a bit and no results were not really that usable, it hallucinated so many parts outside of the wall that made no sense. He will be fine if hallucinated and it made sense but if it doesn’t make sense, I’m not sure what the point of inputting a single image is. I’ve actually found better luck using gpt image 2 instead.",
-      "fetched_at": "2026-05-15T23:10:20.931756+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48150069",
-      "hn_story_type": "story",
-      "hn_points": "116",
-      "hn_comments_count": "23",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48150069",
-      "hn_item_text": "",
-      "hn_comment_preview": "avaer: If you haven't tried AI modeling pipelines in the last year you'll be surprised. The star of the show here is https://platform.worldlabs.ai/ (author works there, I don't) which is really good. There's also Meshy.ai (which this repo doesn't seem to use?) for non-scene stuff that's right up there in quality. There's texturing, auto-rigging, etc. The latest VLLM models have true pixel image grounding which means you...\ntombert: This is cool as hell. I remember like seventeen years years ago, Microsoft had \"PhotoSynth\", which would make 3D environments based on a bunch of images, and seventeen-year-old-tombert thought it was one of the most amazing things to ever be done on a computer. Doing this with just one image makes this at least an order of magnitude cooler. I will be playing with this over the weekend.\ntoisanji: I see it used worldlabs, i’ve tested it quite a bit and no results were not really that usable, it hallucinated so many parts outside of the wall that made no sense. He will be fine if hallucinated and it made sense but if it doesn’t make sense, I’m not sure what the point of inputting a single image is. I’ve actually found better luck using gpt image 2 instead.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=7,tools_agents=15,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 15,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "github.com"
-      ],
-      "detail_slug": "e869234c9e189a466946e0363b8ade3ab17dd551",
-      "is_english_source": true,
-      "translated_title": "이미지 한 장으로 3D 공간과 메시, 효과음까지 생성",
-      "short_summary": "Image-blaster는 이미지 한 장만으로 3D 환경과 메시, 효과음을 만드는 생성 파이프라인으로 주목받았다. HN에서는 AI 3D 제작 도구의 진전을 반기면서도 단일 이미지 기반 생성의 환각과 실사용성 한계를 함께 짚었다.",
-      "why_it_matters": "AI 3D 제작이 데모를 넘어 시제품 제작 도구로 빠르게 내려오고 있다는 신호다. 장면 초안, 자산 탐색, 아이디어 검증 속도에 바로 영향을 줄 수 있다.\n- 레퍼런스 이미지 한 장으로 공간과 메시, 사운드까지 한 번에 뽑아 초기 콘셉트 작업 시간을 크게 줄일 여지가 있다.\n- 게임, XR, 시뮬레이션 팀은 빈 장면을 처음부터 쌓기보다 AI 결과물을 바탕으로 수정하는 흐름을 시험해볼 만하다.\n- 다만 구조가 어긋난 환각이 남아 있어 최종 산출물보다는 프리비즈, 피치용 데모, 내부 실험에 더 잘 맞는다는 점도 함께 봐야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 놀라움과 경계가 함께 섞였다. 최근 1년 사이 AI 모델링 파이프라인이 눈에 띄게 좋아졌다는 평가가 많았지만, 결과 품질에 대한 의심도 적지 않았다.\n- 긍정 쪽은 예전 PhotoSynth를 떠올리며, 여러 장이 아니라 한 장의 이미지로 3D 환경을 만드는 점이 특히 인상적이라고 봤다.\n- 회의적인 반응은 장면 바깥 구조를 멋대로 채우는 식의 환각이 심하면 단일 이미지 입력의 장점이 흐려진다고 지적했다.\n- 실무 논점으로는 World Labs, Meshy, GPT Image 2 같은 대안을 어떻게 조합할지와 실제 작업물로 이어질 정도의 품질이 나오는지가 반복해서 언급됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-15T23:13:15.425649+00:00"
-    },
-    {
-      "id": "246bd2df11c8ea1bd555f1a76d81c37374c82436",
-      "title_hash": "d10bcd5257486cd25246fde7ec22bb69b392970f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Microscale Thermite Reaction",
-      "link": "https://sciencedemonstrations.fas.harvard.edu/presentations/microscale-thermite-reaction",
-      "published_at": "2026-05-15T20:03:17+00:00",
-      "summary": "HN story type: story HN points: 40 HN comments: 14 HN top comments: jiggawatts: Based on the title I was expecting to see “energetic materials”, which are carefully engineered variants of thermite. For example, alternating layers of aluminium and iron oxide can be deposited in the same manner as seen in chip production by evaporating the materials in a vacuum chamber. This allows layers tens of nanometers thin, essentially a perfect mixing and a very intimate contact between the reactants. So... imzadi: Does the second rusty ball really need to be a rusty ball since it is covered in foil? krunck: Please try this at home. You all have rusty iron ball laying around, right?",
-      "fetched_at": "2026-05-15T23:10:20.931756+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48153142",
-      "hn_story_type": "story",
-      "hn_points": "40",
-      "hn_comments_count": "14",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48153142",
-      "hn_item_text": "",
-      "hn_comment_preview": "jiggawatts: Based on the title I was expecting to see “energetic materials”, which are carefully engineered variants of thermite. For example, alternating layers of aluminium and iron oxide can be deposited in the same manner as seen in chip production by evaporating the materials in a vacuum chamber. This allows layers tens of nanometers thin, essentially a perfect mixing and a very intimate contact between the reactants. So...\nimzadi: Does the second rusty ball really need to be a rusty ball since it is covered in foil?\nkrunck: Please try this at home. You all have rusty iron ball laying around, right?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "production",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "production",
-        "rust"
-      ],
-      "detail_slug": "246bd2df11c8ea1bd555f1a76d81c37374c82436",
-      "is_english_source": true,
-      "translated_title": "미세 스케일 서마이트 반응 실험",
-      "short_summary": "미세한 스케일에서 서마이트 반응을 보여주는 HN 프론트페이지 글이다. 댓글에서는 박막 적층형 energetic materials 사례가 함께 언급됐고, 실험 구성의 타당성과 재현성에 대한 반응도 나왔다.",
-      "why_it_matters": "이 글은 익숙한 화학 반응도 미세 공정과 정밀한 재료 배치 관점에서 다시 볼 수 있음을 보여준다. 반도체식 증착, 박막 적층, 반응 제어 같은 실무 감각과 맞닿아 있어 재료·공정 엔지니어에게 특히 흥미로운 소재다.\n- 댓글에서 나온 것처럼 알루미늄과 산화철을 나노미터 단위로 가깝게 쌓으면 반응성 논의가 완전히 다른 맥락으로 넘어간다. 단순 시연보다 공정 설계의 문제로 읽히는 지점이다.\n- 미세 스케일 반응은 에너지 방출을 더 세밀하게 다루려는 분야와 맞물린다. 센서, 점화, 특수 공정처럼 작은 영역에서 반응을 다뤄야 하는 사람에게 참고할 만한 시각을 준다.\n- 동시에 보기 좋은 실험과 실제로 쓸 수 있는 공정은 다르다. 실무에서는 재현성, 재료 조합, 제작 난이도를 따로 따져야 한다는 점도 자연스럽게 드러난다.",
-      "hn_reaction_summary": "댓글 분위기는 가벼운 구경거리보다는 기술 맥락을 더 붙이려는 쪽에 가까웠다. 다만 실험 세팅이 얼마나 설득력 있는지, 집에서 따라 할 수 있는 성격의 시연인지는 농담 섞인 거리두기도 보였다.\n- 가장 눈에 띄는 반응은 '이 정도면 energetic materials 쪽 이야기가 더 나와야 한다'는 보충이다. 반도체 공정처럼 박막을 교대로 쌓는 방식이 언급되며 기술적 깊이를 더했다.\n- 실험 구성에 대한 의문도 있었다. 녹슨 쇠구슬을 포일로 감쌌다면 정말 녹슨 표면이 필요하냐는 식으로, 반응 조건이 핵심인지 연출인지 묻는 시선이다.\n- 안전성과 재현성은 농담으로 소비됐다. '집에서 해보라'는 식의 반응은 흥미는 있지만 일반적인 DIY 실험으로 보기엔 거리감이 있다는 분위기를 보여준다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-15T23:13:15.425649+00:00"
     }
   ],
   "topic_digests": {
