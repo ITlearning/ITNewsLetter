@@ -1,6 +1,508 @@
 {
   "items": [
     {
+      "id": "5180bec1a2d8a3b2d7428961bdf37de907e47027",
+      "title_hash": "0361270acbaa0d47929b65353250ab371b62deab",
+      "source": "GeekNews",
+      "title": "22년 된 PostgreSQL 타입 혼동 기법을 원격 코드 실행으로 발전시키기",
+      "link": "https://news.hada.io/topic?id=37104&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-13T08:34:27+00:00",
+      "summary": "복합 타입의 필드 타입을 바꿔도 준비된 쿼리에 남는 이전 값 을 이용해, 다른 타입의 네이티브 함수가 해당 데이터를 처리하도록 만들고 원격 코드 실행으로 연결함 PostgreSQL의 Datum 은 자체 타입 정보를 갖지 않음 . 외부 타입 메타데이터와 실제 값이 어긋나면 정수, 포인터, 내부 객체를 잘못 해석할 수 있음 uuid 필드를 bytea 로 변경 해 제어 가능한 UUID 바이트를 내부 확장 객체 참조로 해석시켰으며, 최소 권한 로그인 역할로 최초 충돌을 재현함 같은 타입 혼동을 배열과 unnest() 에 적용해 메모리 주소를 유출 하고, 위조한 확장 …",
+      "fetched_at": "2026-11-13T13:37:30.637112+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "62",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=17,practical_tech=17,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "postgres",
+            "uuid",
+            "sql"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "postgres",
+        "uuid",
+        "sql",
+        "코드"
+      ],
+      "detail_slug": "5180bec1a2d8a3b2d7428961bdf37de907e47027",
+      "is_english_source": false,
+      "sent_at": "2026-11-13T13:39:44.815793+00:00"
+    },
+    {
+      "id": "7b1794e82e9ee9f8cd2f6f22c88633c974c44479",
+      "title_hash": "e057befb511144948a6e23c6bf53cf338d1718a0",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "link": "https://status.claude.com/incidents/nn11wk485zfn",
+      "published_at": "2026-11-13T10:18:13+00:00",
+      "summary": "HN story type: story HN points: 306 HN comments: 256 HN top comments: Topfi: Depending on what your job is, this is either the adult equivalent of a snow day or some of the greatest stress in a long time. I have experienced, half a decade ago during some more frequent but less lengthy O365 errors that there are some higher ups who get when this is not something you can fix and some you very much can't. Wishing strength to any \"but it's our mail\" and \"but we bought the Claude\" meetings that... cmiles8: The odd thing about these outages is that when they become so big that everyone is impacted then the severity almost drops, since everyone is impacted and thus just shrugs their shoulders. xamde: Many Claude session suddenly require a re-login, which first worked but now gives OAuth request failed Temporarily unable to authenticate. Please retry. Can this be fall-out from the Microsoft outage?",
+      "fetched_at": "2026-11-13T13:37:30.637112+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50481187",
+      "hn_story_type": "story",
+      "hn_points": "306",
+      "hn_comments_count": "256",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50481187",
+      "hn_item_text": "",
+      "hn_comment_preview": "Topfi: Depending on what your job is, this is either the adult equivalent of a snow day or some of the greatest stress in a long time. I have experienced, half a decade ago during some more frequent but less lengthy O365 errors that there are some higher ups who get when this is not something you can fix and some you very much can't. Wishing strength to any \"but it's our mail\" and \"but we bought the Claude\" meetings that...\ncmiles8: The odd thing about these outages is that when they become so big that everyone is impacted then the severity almost drops, since everyone is impacted and thus just shrugs their shoulders.\nxamde: Many Claude session suddenly require a re-login, which first worked but now gives OAuth request failed Temporarily unable to authenticate. Please retry. Can this be fall-out from the Microsoft outage?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "42",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=4,tools_agents=18,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 18,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 18,
+          "strong_hits": [
+            "claude code",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "claude + code"
+      ],
+      "detail_slug": "7b1794e82e9ee9f8cd2f6f22c88633c974c44479",
+      "is_english_source": true,
+      "sent_at": "2026-11-13T13:39:44.815793+00:00"
+    },
+    {
+      "id": "5a9a1e68451eb3082da2699ec80dd378e22fe546",
+      "title_hash": "d515eeedc2df96a17a9f521e4f1554eadcb2b398",
+      "source": "GeekNews",
+      "title": "Show GN: 여기서맛나 - 함께 만날 장소를 쉽게 정할 수 있게 도와주는 투표 툴",
+      "link": "https://news.hada.io/topic?id=37109&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-13T11:14:36+00:00",
+      "summary": "약속을 잡을 때 여러 장소들 중 어디서 만나는게 좋을지 정하는 과정이 불편하지는 않으셨나요? 카톡이랑 네이버/다음 지도를 왔다 갔다 하며 여러 음식점들을 확인하는게 귀찮지는 않으셨나요? 이 과정을 더 편하게 만들고자 '여기서맛나'라는 웹앱을 만들었습니다. 이용 순서는 다음과 같습니다. 모임을 만듭니다. 음식점이나 카페의 링크들을 추가 합니다. 네이버지도, 다음지도, 캐치테이블, 구글맵을 지원 합니다. 모임의 링크를 만나는 사람들에게 전달합니다. 링크를 받은 사람은 투표를 합니다. '여기서맛나'의 특징들 입니다. …",
+      "fetched_at": "2026-11-13T13:37:30.637112+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "51",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 6,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "툴"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "툴"
+      ],
+      "detail_slug": "5a9a1e68451eb3082da2699ec80dd378e22fe546",
+      "is_english_source": false,
+      "sent_at": "2026-11-13T13:39:44.815793+00:00"
+    },
+    {
+      "id": "4c83b2b738eae3482a97071b82746ff92a579423",
+      "title_hash": "a17c43e1e95e543ded3eee7688c38341bb778a1e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Claude Is Down",
+      "link": "https://status.claude.com/history",
+      "published_at": "2026-11-13T10:20:09+00:00",
+      "summary": "HN story type: story HN points: 154 HN comments: 126 HN top comments: biofox: Just got kicked out while finalising a presentation I'm about to give in 39 minutes. Wish me luck! julesrms: This is where putting a provider-agnostic code agent between you and claude can save your bacon. I can't speak for how other agents work, but in juggler the conversations are stored in a cross-model format, so if claude runs out of tokens or goes titsup during something urgent, I can just switch models to GPT and carry on without needing to restart the task. micw: My strategy: diversification. I run deepseek harness (which I made a vs code integration for and extended it a lot with plugins) and integrated it with my codex and claude subscriptions as well as an openrouter account. This way I can switch models and providers during my sessions and does not get blocked on such things. Useful for - outages - running out of quota - failing agents e.g. because of \"cyber\" flaging",
+      "fetched_at": "2026-11-13T13:37:30.637112+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50481220",
+      "hn_story_type": "story",
+      "hn_points": "154",
+      "hn_comments_count": "126",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50481220",
+      "hn_item_text": "",
+      "hn_comment_preview": "biofox: Just got kicked out while finalising a presentation I'm about to give in 39 minutes. Wish me luck!\njulesrms: This is where putting a provider-agnostic code agent between you and claude can save your bacon. I can't speak for how other agents work, but in juggler the conversations are stored in a cross-model format, so if claude runs out of tokens or goes titsup during something urgent, I can just switch models to GPT and carry on without needing to restart the task.\nmicw: My strategy: diversification. I run deepseek harness (which I made a vs code integration for and extended it a lot with plugins) and integrated it with my codex and claude subscriptions as well as an openrouter account. This way I can switch models and providers during my sessions and does not get blocked on such things. Useful for - outages - running out of quota - failing agents e.g. because of \"cyber\" flaging",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=4,tools_agents=22,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 22,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "codex",
+            "ide"
+          ],
+          "support_hits": [
+            "plugin",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "codex",
+        "ide",
+        "plugin",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "4c83b2b738eae3482a97071b82746ff92a579423",
+      "is_english_source": true,
+      "sent_at": "2026-11-13T13:39:44.815793+00:00"
+    },
+    {
+      "id": "f7510fee4717570c5c222f62fb24e1172d43e290",
+      "title_hash": "97ab8785fd8fec1ccdc6b6735019e8a0226b0f73",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Rust 1.100",
+      "link": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "published_at": "2026-11-12T18:39:05+00:00",
+      "summary": "HN story type: story HN points: 752 HN comments: 277 HN top comments: nirinor: Woohoo, that's a release! My personal favorites: - Stabilize never type - Stabilize custom allocators - Introduced minimum publish age configurations, also known as dependency cooldowns. When the relevant config is set, the resolver ignores versions published more recently than that, unless they are already in Cargo.lock. (RFC 3923) docs #17335 - cargo-install: now uses the existing lockfile in the .crate tarball... n_u: > Cargo now reports unused dependencies to users, e.g. > warning: unused dependency `tracing-subscriber` --> Cargo.toml:23:1 | 23 | tracing-subscriber.workspace = true | ^^^^^^^^^^^^^^^^^^ | = note: `cargo::unused_dependencies` is set to `warn` by default help: consider removing the dependency on `tracing-subscriber` Heck yes ammar_az: This release is so big that multiple useful stabilized API aren't event mentioned in the blog post like: - bool::toggle() https://doc.rust-lang.org/stable/std/primitive.bool.html#met... - Box::map() https://doc.rust-lang.org/stable/std/boxed/struct.Box.html#m... - str::trim_prefix(), str::trim_suffix, Path::trim_prefix()",
+      "fetched_at": "2026-11-13T13:37:30.637112+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50472038",
+      "hn_story_type": "story",
+      "hn_points": "752",
+      "hn_comments_count": "277",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50472038",
+      "hn_item_text": "",
+      "hn_comment_preview": "nirinor: Woohoo, that's a release! My personal favorites: - Stabilize never type - Stabilize custom allocators - Introduced minimum publish age configurations, also known as dependency cooldowns. When the relevant config is set, the resolver ignores versions published more recently than that, unless they are already in Cargo.lock. (RFC 3923) docs #17335 - cargo-install: now uses the existing lockfile in the .crate tarball...\nn_u: > Cargo now reports unused dependencies to users, e.g. > warning: unused dependency `tracing-subscriber` --> Cargo.toml:23:1 | 23 | tracing-subscriber.workspace = true | ^^^^^^^^^^^^^^^^^^ | = note: `cargo::unused_dependencies` is set to `warn` by default help: consider removing the dependency on `tracing-subscriber` Heck yes\nammar_az: This release is so big that multiple useful stabilized API aren't event mentioned in the blog post like: - bool::toggle() https://doc.rust-lang.org/stable/std/primitive.bool.html#met... - Box::map() https://doc.rust-lang.org/stable/std/boxed/struct.Box.html#m... - str::trim_prefix(), str::trim_suffix, Path::trim_prefix()",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "rust",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "api"
+      ],
+      "detail_slug": "f7510fee4717570c5c222f62fb24e1172d43e290",
+      "is_english_source": true,
+      "sent_at": "2026-11-13T13:39:44.815793+00:00"
+    },
+    {
+      "id": "81c14836aaf76f727318609c62e15faca459d227",
+      "title_hash": "6ceab32a1390cb670e7c0f2955c2d4d126008349",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Dawn of the Data Intelligence Engineer",
+      "link": "https://motherduck.com/blog/the-data-intelligence-engineer/",
+      "published_at": "2026-11-13T09:08:18+00:00",
+      "summary": "HN story type: story HN points: 73 HN comments: 54 HN top comments: agenticfish: It's frustrating how the data discipline is split up into so many different job titles. I regularly have to work with data engineers, data analysts, analytics engineers, data scientists, machine learning scientists, and machine learning engineers. Each view their role really narrowly, so you need to pull in a lot of people to get something done. It's often easier to just do the work yourself. I get that some speci... aleda145: I think there are big risks with just labelling it as \"wild west\" and let users do whatever they want there. It's always been possible to massage your data to fit whatwver case you want to make. Previously you had to go through a data analyst and convince them to let go of their principles. Now you can just let an agent figure it out. So how do you make sure insights are actually shareable (and trustable) with oth... zodwick: While in general I agree with most of what's said, some of these feel like \"Horseless Carriages\". Like for example >It doesn't know how your company counts revenue, or which of several similar-looking tables is the real one (it is revenue_cpx_new_revised_v2_use_this_one ) This assumption mostly only holds for non-clean data ( which is mostly a result of humans being lazy and backlog being clogged up ). As AI start...",
+      "fetched_at": "2026-11-13T13:37:30.637112+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50480480",
+      "hn_story_type": "story",
+      "hn_points": "73",
+      "hn_comments_count": "54",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50480480",
+      "hn_item_text": "",
+      "hn_comment_preview": "agenticfish: It's frustrating how the data discipline is split up into so many different job titles. I regularly have to work with data engineers, data analysts, analytics engineers, data scientists, machine learning scientists, and machine learning engineers. Each view their role really narrowly, so you need to pull in a lot of people to get something done. It's often easier to just do the work yourself. I get that some speci...\naleda145: I think there are big risks with just labelling it as \"wild west\" and let users do whatever they want there. It's always been possible to massage your data to fit whatwver case you want to make. Previously you had to go through a data analyst and convince them to let go of their principles. Now you can just let an agent figure it out. So how do you make sure insights are actually shareable (and trustable) with oth...\nzodwick: While in general I agree with most of what's said, some of these feel like \"Horseless Carriages\". Like for example >It doesn't know how your company counts revenue, or which of several similar-looking tables is the real one (it is revenue_cpx_new_revised_v2_use_this_one ) This assumption mostly only holds for non-clean da...",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "41",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=17,practical_tech=9,tools_agents=9,strategy_insight=17,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 9,
+        "strategy_insight": 17,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "agentic"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 17,
+          "strong_hits": [
+            "principles",
+            "learning",
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "principles",
+        "learning",
+        "trust"
+      ],
+      "detail_slug": "81c14836aaf76f727318609c62e15faca459d227",
+      "is_english_source": true,
+      "sent_at": "2026-11-13T13:39:44.815793+00:00"
+    },
+    {
       "id": "2d532813d2817674eec022658fc0a64ba92abb09",
       "title_hash": "98b01afdd8dc22afaae793093a4785f301568afa",
       "source": "GeekNews",
@@ -166148,505 +166650,6 @@
       "hn_reaction_summary": "댓글 분위기는 한쪽으로 쏠리지 않았다. 비용은 계속 내려간다는 낙관론과, 그래서 오히려 기업이 자체 스택으로 이동할 것이라는 회의론이 정면으로 부딪혔다.\n- 낙관론 쪽은 알고리즘 개선과 하드웨어 발전으로 토큰 비용이 계속 낮아질 것이라고 본다. 희소성 공포에 너무 빨리 베팅하지 말라는 반응이 반복됐다.\n- 반대편은 대기업이 이미 GPU를 사들이며 오픈소스 기반 에이전트 스택을 준비 중이라고 본다. 비용보다 데이터 위치와 통제권이 더 큰 이유로 자주 언급됐다.\n- 실무자가 읽을 만한 논점은 시점이다. 최상위 폐쇄형 모델의 우위가 오래 갈지, 아니면 몇 달 늦은 오픈소스로도 충분해질지가 토론의 중심이었다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-17T17:06:03.024869+00:00"
-    },
-    {
-      "id": "4677c68b5e3fa73d8a19aa32fc9ee2569f5c1a1a",
-      "title_hash": "c7ec4b60e2225b6aae797fba015ed649cf384ddf",
-      "source": "GeekNews",
-      "title": "Zerostack - 순수 Rust로 작성된 Unix에서 영감을 받은 코딩 에이전트",
-      "link": "https://news.hada.io/topic?id=29584",
-      "published_at": "2026-05-17T07:37:27+00:00",
-      "summary": "zerostack 은 Rust로 작성된 최소형 코딩 에이전트로, 여러 LLM 제공자와 사용자 지정 제공자를 함께 지원함 파일 읽기·쓰기·편집, grep, 파일 찾기, 디렉터리 목록, 권한 게이트가 붙은 Bash 실행 , MCP, Exa 웹 도구를 제공함 약 7천 LoC",
-      "fetched_at": "2026-05-17T12:52:00.614776+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=5,tools_agents=14,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 14,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "에이전트",
-            "mcp"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "mcp"
-      ],
-      "detail_slug": "4677c68b5e3fa73d8a19aa32fc9ee2569f5c1a1a",
-      "is_english_source": false,
-      "sent_at": "2026-05-17T12:54:46.692898+00:00"
-    },
-    {
-      "id": "9e0d6133013bbe5f4f2807e172b78e4a44b22496",
-      "title_hash": "92aabf35ac42ab26878c87ecadf829d06424e27e",
-      "source": "GeekNews",
-      "title": "일론 머스크, Cursor 인수 계약 후 &quot;Cursor 데이터로 Grok V9 보강 훈련 예정&quot;",
-      "link": "https://news.hada.io/topic?id=29587",
-      "published_at": "2026-05-17T10:35:00+00:00",
-      "summary": "일론 머스크가 5월 15~17일 X(트위터)에서 Grok 신규 모델의 훈련 현황을 직접 공개함 현재 공개 버전(v4.3)은 0.5T 파라미터의 V8 파운데이션 모델 기반이며, 며칠 간격으로 개선 중 내부에서 개발 중인 V9는 1.5T 파라미터로 \"방금 훈련을 마쳤다\"고 밝힘 머스크는 이 ...",
-      "fetched_at": "2026-05-17T12:52:00.614776+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=-4,tools_agents=9,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 9,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "인수"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "cursor"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "인수"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "인수"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cursor"
-      ],
-      "detail_slug": "9e0d6133013bbe5f4f2807e172b78e4a44b22496",
-      "is_english_source": false,
-      "sent_at": "2026-05-17T12:54:46.692898+00:00"
-    },
-    {
-      "id": "40ecb4e0d9cf6e313814b0a2437069fc5ecfb932",
-      "title_hash": "2253bc7914535bb0b82fc7f01aed1fd1deea2403",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Apple Silicon costs more than OpenRouter",
-      "link": "https://www.williamangel.net/blog/2026/05/17/offline-llm-energy-use.html",
-      "published_at": "2026-05-17T12:09:23+00:00",
-      "summary": "HN story type: story HN points: 32 HN comments: 18 HN top comments: bastawhiz: This isn't a good analysis, and it's because it keeps rounding everything up. He rounds up the cost of electricity by 10%. He has a range of power use, takes the high end (which is 2x the low end) and multiplies it by the inflated electricity cost. But then they talk about using a newly purchased Mac to do the inference, running at full capacity, 24/7. Why would you do that? Apple silicon is fast but the author po... applfanboysbgon: Unless I'm misunderstanding, this is counting the entire laptop in the cost of generating tokens. The calculation seems to omit that, in addition to receiving LLM output, you have also received a laptop in exchange for your money. If you intend to put this machine in a dark corner and run it solely as a token-munching server, a laptop would be an exceptionally poor choice of technology for this purpose. But if you... michaelbuckbee: Slightly different slice into this a very similar situation (local vs OpenRouter AI inference). But in _every_ metric other than privacy it was better to run via OpenRouter than a local model, and not by a small amount. Direct link to the comparison charts: https://sendcheckit.com/blog/ai-powered-subject-line-alterna...",
-      "fetched_at": "2026-05-17T12:52:00.614776+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48168198",
-      "hn_story_type": "story",
-      "hn_points": "32",
-      "hn_comments_count": "18",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48168198",
-      "hn_item_text": "",
-      "hn_comment_preview": "bastawhiz: This isn't a good analysis, and it's because it keeps rounding everything up. He rounds up the cost of electricity by 10%. He has a range of power use, takes the high end (which is 2x the low end) and multiplies it by the inflated electricity cost. But then they talk about using a newly purchased Mac to do the inference, running at full capacity, 24/7. Why would you do that? Apple silicon is fast but the author po...\napplfanboysbgon: Unless I'm misunderstanding, this is counting the entire laptop in the cost of generating tokens. The calculation seems to omit that, in addition to receiving LLM output, you have also received a laptop in exchange for your money. If you intend to put this machine in a dark corner and run it solely as a token-munching server, a laptop would be an exceptionally poor choice of technology for this purpose. But if you...\nmichaelbuckbee: Slightly different slice into this a very similar situation (local vs OpenRouter AI inference). But in _every_ metric other than privacy it was better to run via OpenRouter than a local model, and not by a small amount. Direct link to the comparison charts: https://sendcheckit.com/blog/ai-powered-subject-line-...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=9,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 9,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "inference"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "inference",
-        "local + run"
-      ],
-      "detail_slug": "40ecb4e0d9cf6e313814b0a2437069fc5ecfb932",
-      "is_english_source": true,
-      "translated_title": "애플 실리콘 추론 비용, OpenRouter보다 높다",
-      "short_summary": "애플 실리콘 맥에서 로컬 추론을 돌리는 비용이 OpenRouter보다 높을 수 있다는 비교가 HN에 올라왔다. 다만 댓글에서는 전기료와 기기값 가정이 과하다는 반론이 이어졌다.",
-      "why_it_matters": "로컬 추론과 API 사용 사이에서 판단해야 하는 팀이라면, 단순 토큰 단가보다 장비를 어떻게 쓰는지부터 다시 따져볼 필요가 있다.\n- 새 맥을 추론 전용 장비처럼 24시간 돌린다는 전제라면 비용 계산이 크게 달라진다. 개인 실험과 서비스 운영을 같은 기준으로 보면 오판하기 쉽다.\n- 이미 가진 장비를 틈틈이 쓰는 경우와 프라이버시가 우선인 경우에는 손익분기점이 달라질 수 있다. 로컬이 늘 더 싸다는 인식도 다시 점검해야 한다.\n- 실무에서는 가격만 볼 일이 아니다. 지연 시간, 운영 부담, 모델 선택 폭, 데이터 반출 여부까지 함께 비교해야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 회의적이다. 결론보다 계산 전제가 현실적인지 따지는 반응이 더 많이 보인다.\n- 전기요금을 높게 잡고 전력 사용량도 상단값만 택해 비용을 부풀렸다는 지적이 반복됐다.\n- 노트북 가격 전체를 토큰 생성 비용에 넣는 건 무리라는 반론이 나왔다. 맥북은 추론 결과만이 아니라 일반 컴퓨터로서의 가치도 함께 산다는 주장이다.\n- 일부는 프라이버시를 빼면 OpenRouter 쪽이 속도, 운영 편의, 비용 면에서 더 낫다는 경험담을 보탰다. 다만 이 역시 사용 패턴에 따라 달라진다는 의견이 뒤따랐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-17T12:54:46.692898+00:00"
-    },
-    {
-      "id": "c38fca2cb30d2688dd9e8cdb265b4aead3da90b5",
-      "title_hash": "ae7e26e91f35c1058e205de1da5b75b7f433512d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "I don't think AI will make your processes go faster",
-      "link": "https://frederickvanbrabant.com/blog/2026-05-15-i-dont-think-ai-will-make-your-processes-go-faster/",
-      "published_at": "2026-05-17T12:13:45+00:00",
-      "summary": "HN story type: story HN points: 23 HN comments: 6 HN top comments: kj4211cash: On the one hand, this is a clean post that explains exactly what a lot of us have been thinking and seeing on the job at large organizations doing tech work. Dear Author, I agree with you 110% and want everybody else to come to understand what you have written. On the other hand, it feels like we've been over this tens of times recently, on HN specifically and IRL at work. Another blog post isn't going to convince... usernametaken29: Instead of mandatory AI workshops simply cancel all meetings with more than 3 people and no written agenda. Instead block the meeting time for productive work. That’ll be 2000$ of advisory fees for the insane productivity gains I just unlocked you. You’re welcome praneetbrar: If the underlying workflow is noisy, ambiguous, or overloaded with coordination overhead, faster generation just produces more low-context output to review and reconcile.",
-      "fetched_at": "2026-05-17T12:52:00.614776+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48168221",
-      "hn_story_type": "story",
-      "hn_points": "23",
-      "hn_comments_count": "6",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48168221",
-      "hn_item_text": "",
-      "hn_comment_preview": "kj4211cash: On the one hand, this is a clean post that explains exactly what a lot of us have been thinking and seeing on the job at large organizations doing tech work. Dear Author, I agree with you 110% and want everybody else to come to understand what you have written. On the other hand, it feels like we've been over this tens of times recently, on HN specifically and IRL at work. Another blog post isn't going to convince...\nusernametaken29: Instead of mandatory AI workshops simply cancel all meetings with more than 3 people and no written agenda. Instead block the meeting time for productive work. That’ll be 2000$ of advisory fees for the insane productivity gains I just unlocked you. You’re welcome\npraneetbrar: If the underlying workflow is noisy, ambiguous, or overloaded with coordination overhead, faster generation just produces more low-context output to review and reconcile.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "workflow"
-          ],
-          "support_hits": [
-            "workflow"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "workflow"
-      ],
-      "detail_slug": "c38fca2cb30d2688dd9e8cdb265b4aead3da90b5",
-      "is_english_source": true,
-      "translated_title": "AI가 들어와도 업무 프로세스는 더 빨라지지 않는다",
-      "short_summary": "이 글은 AI가 작성 속도는 높여도 조직의 의사결정과 협업 흐름이 엉켜 있으면 전체 업무는 빨라지지 않는다고 짚는다. HN에서도 병목은 도구보다 회의, 조율, 불명확한 프로세스라는 반응이 이어졌다.",
-      "why_it_matters": "AI를 붙였는데도 현장 속도가 기대만큼 오르지 않는 이유를 설명하는 글이다. 생성 자체보다 검토와 조율이 더 큰 비용이라는 점을 다시 확인하게 한다.\n- 요구사항이 모호하거나 승인 단계가 많으면 AI 산출물이 늘수록 리뷰 부담도 함께 커진다.\n- 생산성을 높이려면 새 도구 교육보다 회의 수, 문서 책임, 의사결정 경로부터 손보는 편이 빠르다.\n- 실무에서는 'AI를 쓸까'보다 어떤 업무가 반복 가능하고 어디서 병목이 생기는지 먼저 드러내는 작업이 필요하다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 공감 쪽이다. 다만 이런 지적이 이제는 낯설지 않다는 피로감도 함께 묻어난다.\n- 큰 조직에서 진짜 병목은 AI 자체보다 회의와 조율 비용이라는 경험담이 반복됐다.\n- 의무적인 AI 워크숍보다 안건 없는 회의를 줄이는 편이 더 낫다는 냉소 섞인 반응이 눈에 띄었다.\n- 워크플로가 지저분한 상태에서 생성 속도만 올리면 결국 저맥락 결과물을 더 많이 검토하게 된다는 지적이 핵심 논점으로 모였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-17T12:54:46.692898+00:00"
-    },
-    {
-      "id": "2ae1f351c7d24c09662939fe04d5ca480bb49803",
-      "title_hash": "82b53e0889bd72bb0e45fdd2128475f73baf4f94",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Native all the way, until you need text",
-      "link": "https://justsitandgrin.im/posts/native-all-the-way-until-you-need-text/",
-      "published_at": "2026-05-17T11:49:46+00:00",
-      "summary": "HN story type: story HN points: 50 HN comments: 26 HN top comments: danielvaughn: I remember being a junior engineer in 2015, and being asked to render a clickable link within a paragraph in an iOS app. Swift had just been released so we were still entirely on the ObjC/UIKit stack. It was an absolute nightmare. I _barely_ managed to make it work. I haven't really touched iOS since about 2016, so I assumed the new SwiftUI stuff would have this stuff built in. Obviously. Kind of insane that it wa... splittydev: I've had pretty much the same experience with my AI chat app. Nothing works well. Markdown rendering is slow and laggy, streaming is slow and laggy, everything locks up the UI. I've tried at least 5 of the most popular text editor components for UIKit and SwiftUI on GitHub, and all were broken in one way or another, buggy, and slow as well. It's ridiculous. Wowfunhappy: If you're on macOS, WebKit is a native OS framework. Using WebKit to render Markdown seems completely appropriate. Now, if you're rendering everything with WebKit, that's ridiculous, in the same way rendering everything with PDFKit would be ridiculous. But for a Markdown view, WebKit seems like a logical choice. There's no need to subsequently flip the table and replace everything with a Chromium web app.",
-      "fetched_at": "2026-05-17T12:52:00.614776+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48168058",
-      "hn_story_type": "story",
-      "hn_points": "50",
-      "hn_comments_count": "26",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48168058",
-      "hn_item_text": "",
-      "hn_comment_preview": "danielvaughn: I remember being a junior engineer in 2015, and being asked to render a clickable link within a paragraph in an iOS app. Swift had just been released so we were still entirely on the ObjC/UIKit stack. It was an absolute nightmare. I _barely_ managed to make it work. I haven't really touched iOS since about 2016, so I assumed the new SwiftUI stuff would have this stuff built in. Obviously. Kind of insane that it wa...\nsplittydev: I've had pretty much the same experience with my AI chat app. Nothing works well. Markdown rendering is slow and laggy, streaming is slow and laggy, everything locks up the UI. I've tried at least 5 of the most popular text editor components for UIKit and SwiftUI on GitHub, and all were broken in one way or another, buggy, and slow as well. It's ridiculous.\nWowfunhappy: If you're on macOS, WebKit is a native OS framework. Using WebKit to render Markdown seems completely appropriate. Now, if you're rendering everything with WebKit, that's ridiculous, in the same way rendering everything with PDFKit would be ridiculous. But for a Markdown view, WebKit seems like a logical choice. There's no need to subsequently flip the table and replace ever...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "framework",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "framework",
-        "rag"
-      ],
-      "detail_slug": "2ae1f351c7d24c09662939fe04d5ca480bb49803",
-      "is_english_source": true,
-      "translated_title": "네이티브로 가다가 텍스트에서 막히는 순간",
-      "short_summary": "네이티브 앱 개발은 매끄럽게 가다가도 링크, 마크다운, 스트리밍 텍스트처럼 복잡한 텍스트 UI를 만나면 갑자기 난도가 뛰어오른다는 문제를 다룬다. HN에서는 SwiftUI와 UIKit 모두 이 지점이 여전히 거칠다는 반응이 이어졌다.",
-      "why_it_matters": "AI 앱, 문서형 UI, 채팅 제품이 늘면서 텍스트 렌더링은 더 이상 주변 기능이 아니다. 네이티브만으로 끝내려던 팀도 이 구간에서는 아키텍처 판단을 다시 하게 된다.\n- 링크가 섞인 문단, 마크다운, 스트리밍 출력이 들어오면 화면 구성보다 텍스트 처리 성능과 안정성이 병목이 되기 쉽다.\n- SwiftUI만으로 해결될 것이라 기대했다가 UIKit 브리지나 WebKit 같은 우회 수단을 다시 검토하는 사례가 늘 수 있다.\n- 실무에서는 '전부 네이티브'보다 텍스트 화면에 한해 별도 렌더링 전략을 두는 쪽이 개발 속도와 유지보수 측면에서 더 현실적일 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 공감 쪽에 가까웠다. 특히 iOS에서 클릭 가능한 텍스트나 마크다운 같은 기본적인 요구가 생각보다 까다롭다는 경험담이 반복됐다.\n- 오래전 UIKit 시절부터 텍스트 처리가 고생스러웠는데 SwiftUI가 나와도 기대만큼 풀리지 않았다는 반응이 많았다.\n- AI 채팅 앱처럼 스트리밍 텍스트가 많은 제품에서는 느린 렌더링과 UI 멈춤이 실제 문제라는 지적이 나왔다.\n- 한편 마크다운 뷰 정도라면 WebKit을 쓰는 건 과한 타협이 아니라는 의견도 있었고, 앱 전체를 웹으로 감싸는 것과는 구분해서 봐야 한다는 선 긋기도 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-17T12:54:46.692898+00:00"
-    },
-    {
-      "id": "c5349b66ca282e476a313ba444316175e62c093f",
-      "title_hash": "d419081a9c3f6f3617ac6bbb2cd09495fc4188f1",
-      "source": "GeekNews",
-      "title": "Stripe Link CLI - AI 에이전트가 사용자 대신 결제할 수 있게 해주는 CLI",
-      "link": "https://news.hada.io/topic?id=29579",
-      "published_at": "2026-05-17T00:31:01+00:00",
-      "summary": "AI 에이전트가 Link 지갑에서 일회용 결제 자격증명 을 발급받아 사용자 대신 구매를 완료하되, 실제 카드 정보는 저장하지 않는 커맨드라인 도구 두 가지 자격증명 유형 지원: 어디서든 사용 가능한 가상 카드(PAN) 와 Machine Payment Protocols 기반의 S...",
-      "fetched_at": "2026-05-17T08:43:15.853761+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=0,tools_agents=14,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 14,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "에이전트",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "cli"
-      ],
-      "detail_slug": "c5349b66ca282e476a313ba444316175e62c093f",
-      "is_english_source": false,
-      "sent_at": "2026-05-17T08:45:29.550784+00:00"
     }
   ],
   "topic_digests": {
