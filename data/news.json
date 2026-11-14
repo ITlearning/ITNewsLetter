@@ -1,6 +1,521 @@
 {
   "items": [
     {
+      "id": "9e362f83f9f8b7e8b040997124094b8b9ab2de22",
+      "title_hash": "c9f0e5672fa9bac73694325647a1be6965297ae0",
+      "source": "GeekNews",
+      "title": "Claude Fable 5.2로 에이전트 1,000개 팀 안전하게 돌리기 - 페르마의 마지막 정리 형식화 실험",
+      "link": "https://news.hada.io/topic?id=37159&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-14T14:39:02+00:00",
+      "summary": "Anthropic 연구진이 출시 전 Claude Fable 5.2로 리드 에이전트 1개와 헬퍼 999개를 돌려, 페르마의 마지막 정리 증명을 Lean으로 형식화하는 데 28.7시간이 걸렸음 9월 실험(에이전트 수십 개, 연구자 지휘, 11일)과 비교해 출력 토큰은 1/3, 증명 길이는 1/7 별도 협업 도구 없이 에이전트별 Git 브랜치와 공유 Postgres만 사용. 리드가 첫 10분 안에 Announce / Assign / Notes / Subtasks / Landed 다섯 개 표를 만들었고, 가장 어려운 정리(Langlands–Tunnell)는 헬퍼 약 750개가 붙어 최대 10단계, 2,418개 작업으로 쪼갬 안전 설 …",
+      "fetched_at": "2026-11-14T18:34:26.387727+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=5,tools_agents=9,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 9,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "postgres"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "9e362f83f9f8b7e8b040997124094b8b9ab2de22",
+      "is_english_source": false,
+      "sent_at": "2026-11-14T18:36:27.052160+00:00"
+    },
+    {
+      "id": "c45c32621ec93d289568a264952f7265c14f5f9e",
+      "title_hash": "3bddd5f8853eba9c54927d6b0ec790aa839c4a17",
+      "source": "GeekNews",
+      "title": "Nvidia 이사, Jensen Huang 스캔들 몇 주 전 주식 약 1.3조원 매각",
+      "link": "https://news.hada.io/topic?id=37163&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-14T15:39:16+00:00",
+      "summary": "Nvidia의 2대 주주이자 이사인 Mark Stevens 가 2026년 3분기에 약 420만 주, 약 9억 4,600만 달러($946m) 규모의 주식을 매각함. Jensen Huang CEO의 11월 12일 사임에 앞선 거래임 매각에 사전 거래 계획 은 없었지만, 이것만으로 문제가 있다고 볼 수는 없음. 내부자의 주식 매각에는 회사 실적과 무관한 유동성 확보 등 다양한 이유가 있을 수 있음 첫 두 차례 매각은 견조한 2분기 실적 발표 와 이후 주가 상승에 뒤이어 이뤄졌으며, Stevens는 매각 후에도 약 2,750만 주 를 보유함 Huang은 Nvidia 임원 Kimberly Powell과의 두 번째 혼 …",
+      "fetched_at": "2026-11-14T18:34:26.387727+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "52",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-8,tools_agents=0,strategy_insight=-1,industry_business=7",
+      "slot_scores": {
+        "practical_tech": -8,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "실적",
+            "주가"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "실적"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "실적"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "실적"
+          ],
+          "support_hits": [
+            "ceo"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "실적",
+        "ceo"
+      ],
+      "detail_slug": "c45c32621ec93d289568a264952f7265c14f5f9e",
+      "is_english_source": false,
+      "sent_at": "2026-11-14T18:36:27.052160+00:00"
+    },
+    {
+      "id": "e6e5626f44a2794d8f38bd0085c88cbc25f5f218",
+      "title_hash": "065ec447011e8acacdf301661533fd8e20702d27",
+      "source": "GeekNews",
+      "title": "테크 기업들이 프라이버시의 개념을 다시 바꾸려 함",
+      "link": "https://news.hada.io/topic?id=37166&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-14T17:33:13+00:00",
+      "summary": "스마트 안경과 녹음형 웨어러블은 사용자 한 사람의 선택 으로 주변인의 대화와 행동까지 기록하며, 프라이버시 문제를 물리적 일상으로 더 깊이 확장함 기업의 암호화, 접근 제한, 개인정보 설정 같은 기술적 보호 약속 은 기기 사용자에게 집중되며, 기록 대상이 된 비사용자가 실질적으로 거부할 방법은 제공하지 못함 원본 음성을 저장하지 않더라도 대화 요약과 전사 기록 은 남을 수 있으며, 법 집행기관의 데이터 접근 문제도 피할 수 없음 눈에 띄는 녹음이나 필기와 달리 수동 조작 없는 상시 감시 는 지속적인 기록을 장려하고 사용 …",
+      "fetched_at": "2026-11-14T18:34:26.387727+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [],
+      "detail_slug": "e6e5626f44a2794d8f38bd0085c88cbc25f5f218",
+      "is_english_source": false,
+      "sent_at": "2026-11-14T18:36:27.052160+00:00"
+    },
+    {
+      "id": "db0497f968f5f056d76380ec45d7e3e362971c7b",
+      "title_hash": "f7cfa7d05f04b3d069b7286dcf5c1195548c9386",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+      "link": "https://gitlab.com/snipedbywifi/terminactory",
+      "published_at": "2026-11-14T14:05:54+00:00",
+      "summary": "HN story type: story HN points: 95 HN comments: 14 HN post text: Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features / fixing some minor flaws (like adding claude code hooks so you recieve \"telegrams\" [the agent's responses], so you can review progress directly in-game). (yes, I had heavy AI assistance, disclaimer!!!) Right now, the game has basic factory features you'd expect from a game like this (build stuff, delete stuff, measure how much you're earning, basic selection tools), along with a few more.. \"unexpected\" features. This includes a fake in-game browser that has a wiki, fake forums, some fun bits of lore, some more lore, a LOT more lore, and a research graph that shows how many items or how much RP (research points) you'd need to unlock something, and some more QOL featur... HN top comments: george_max: It's an interesting game, I love the hacker-like look to it. But is the only value proposition here that it runs in a terminal? To me, it could be interesting for ~10 minutes, and I'd then prefer playing a game like Factorio. Joker_vD: > It is made to sit in a split next to your AI agents. They can send you short messages that show up in the game, so you can play while they work. > Agent messages > Your AI agents can message you inside the game. A message costs the agent only the words in it, and nothing prints on success. Messages wait while the game is closed. It's kinda amazing how the ancient \"local mail\" technology keeps getting reinvented,... wongarsu: Reminds me of Dwarf Fortress's original ASCII UI",
+      "fetched_at": "2026-11-14T18:34:26.387727+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50497132",
+      "hn_story_type": "story",
+      "hn_points": "95",
+      "hn_comments_count": "14",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50497132",
+      "hn_item_text": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features / fixing some minor flaws (like adding claude code hooks so you recieve \"telegrams\" [the agent's responses], so you can review progress directly in-game). (yes, I had heavy AI assistance, disclaimer!!!) Right now, the game has basic factory features you'd expect from a game like this (build stuff, delete stuff, measure how much you're earning, basic selection tools), along with a few more.. \"unexpected\" features. This includes a fake in-game browser that has a wiki, fake forums, some fun bits of lore, some more lore, a LOT more lore, and a research graph that shows how many items or how much RP (research points) you'd need to unlock something, and some more QOL featur...",
+      "hn_comment_preview": "george_max: It's an interesting game, I love the hacker-like look to it. But is the only value proposition here that it runs in a terminal? To me, it could be interesting for ~10 minutes, and I'd then prefer playing a game like Factorio.\nJoker_vD: > It is made to sit in a split next to your AI agents. They can send you short messages that show up in the game, so you can play while they work. > Agent messages > Your AI agents can message you inside the game. A message costs the agent only the words in it, and nothing prints on success. Messages wait while the game is closed. It's kinda amazing how the ancient \"local mail\" technology keeps getting reinvented,...\nwongarsu: Reminds me of Dwarf Fortress's original ASCII UI",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=35,practical_tech=20,tools_agents=35,strategy_insight=10,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 20,
+        "tools_agents": 35,
+        "strategy_insight": 10,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 20,
+          "strong_hits": [
+            "show hn",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 35,
+          "strong_hits": [
+            "claude code",
+            "ai agent",
+            "ide"
+          ],
+          "support_hits": [
+            "agent",
+            "local",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "local + agent"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ai agent",
+        "ide",
+        "agent",
+        "local",
+        "tool",
+        "claude + code",
+        "local + agent"
+      ],
+      "detail_slug": "db0497f968f5f056d76380ec45d7e3e362971c7b",
+      "is_english_source": true,
+      "sent_at": "2026-11-14T18:36:27.052160+00:00"
+    },
+    {
+      "id": "1569776a813c81eb695783afbcdee62b11fa9f8f",
+      "title_hash": "5d6ba3fb5e51df77facaf96a6930070ba0d43e3b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "link": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+      "published_at": "2026-11-14T15:40:52+00:00",
+      "summary": "HN story type: story HN points: 118 HN comments: 44 HN top comments: time4tea: Not very keen that the whole story of trust is basically centralisation - requiring \"big cloud\" and essentially promoting lock-in. Did I get that right? Seems a bit anti-pythonic. djoldman: Some examples: dlt (no provenance): https://pypi.org/project/dlt/#files datasette (yes provenance): https://pypi.org/project/datasette/#files samhclark: This is great! I want sigstore-based or at least sigstore-style \"keyless\" short lived signatures to become more and more popular, so that support gets better everywhere. In particular, if having secure OIDC handling in a CI/CD pipeline becomes something that keeps people on GHA or GitLab then I'd hope third-party hosted CI/CD services begin to take that gap seriously and work on meeting those requirements. I'm bou...",
+      "fetched_at": "2026-11-14T18:34:26.387727+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50497892",
+      "hn_story_type": "story",
+      "hn_points": "118",
+      "hn_comments_count": "44",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50497892",
+      "hn_item_text": "",
+      "hn_comment_preview": "time4tea: Not very keen that the whole story of trust is basically centralisation - requiring \"big cloud\" and essentially promoting lock-in. Did I get that right? Seems a bit anti-pythonic.\ndjoldman: Some examples: dlt (no provenance): https://pypi.org/project/dlt/#files datasette (yes provenance): https://pypi.org/project/datasette/#files\nsamhclark: This is great! I want sigstore-based or at least sigstore-style \"keyless\" short lived signatures to become more and more popular, so that support gets better everywhere. In particular, if having secure OIDC handling in a CI/CD pipeline becomes something that keeps people on GHA or GitLab then I'd hope third-party hosted CI/CD services begin to take that gap seriously and work on meeting those requirements. I'm bou...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=2,strategy_insight=12,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 2,
+        "strategy_insight": 12,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "security",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "pypi.org"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 12,
+          "strong_hits": [
+            "signal",
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "rust",
+        "pypi.org"
+      ],
+      "detail_slug": "1569776a813c81eb695783afbcdee62b11fa9f8f",
+      "is_english_source": true,
+      "sent_at": "2026-11-14T18:36:27.052160+00:00"
+    },
+    {
+      "id": "855cecdfdfebd852509589bf4b737b854f1556f3",
+      "title_hash": "c355a3571145f0a9118ad446026faa1b80cc11ca",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Advancing science and engineering with Antigravity's /teamwork",
+      "link": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "published_at": "2026-11-14T13:20:43+00:00",
+      "summary": "HN story type: story HN points: 87 HN comments: 24 HN top comments: mirrokni: As noted by others, we already announced parts of /teamwork in Antigravity here: https://antigravity.google/blog/teamwork-when-ai-becomes-a-r... with more visualizations and more. Thi post was meant to report some advances in math/science/coding/engineering to show-case examples of tasks you can do with it. We are constantly improving/evolving /teamwork and pushing those changes for external users. Will also post... stbenjam: It is not clear to me how or if /teamwork is any different than Claude dynamic workflows. Antigravity as a harness feels very behind. There's not even any auto mode. And they announced /goal long after I ever felt the need to use it in CC or Codex. s_u_d_o: The amount of breakthroughs this could deliver. Previously we should’ve established R&D departments, prepare multi-cultural teams, all to work on a single project. Today? I can see a domain expert, guiding antigravity and delivering fast.",
+      "fetched_at": "2026-11-14T18:34:26.387727+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50496811",
+      "hn_story_type": "story",
+      "hn_points": "87",
+      "hn_comments_count": "24",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50496811",
+      "hn_item_text": "",
+      "hn_comment_preview": "mirrokni: As noted by others, we already announced parts of /teamwork in Antigravity here: https://antigravity.google/blog/teamwork-when-ai-becomes-a-r... with more visualizations and more. Thi post was meant to report some advances in math/science/coding/engineering to show-case examples of tasks you can do with it. We are constantly improving/evolving /teamwork and pushing those changes for external users. Will also post...\nstbenjam: It is not clear to me how or if /teamwork is any different than Claude dynamic workflows. Antigravity as a harness feels very behind. There's not even any auto mode. And they announced /goal long after I ever felt the need to use it in CC or Codex.\ns_u_d_o: The amount of breakthroughs this could deliver. Previously we should’ve established R&D departments, prepare multi-cultural teams, all to work on a single project. Today? I can see a domain expert, guiding antigravity and delivering fast.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=26,practical_tech=4,tools_agents=26,strategy_insight=18,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 26,
+        "strategy_insight": 18,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 26,
+          "strong_hits": [
+            "workflow",
+            "codex"
+          ],
+          "support_hits": [
+            "workflow"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 18,
+          "strong_hits": [],
+          "support_hits": [
+            "research",
+            "prepare"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "how + prepare",
+            "team + workflow"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "workflow",
+        "codex",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "855cecdfdfebd852509589bf4b737b854f1556f3",
+      "is_english_source": true,
+      "sent_at": "2026-11-14T18:36:27.052160+00:00"
+    },
+    {
       "id": "2510535ab6253e2488982aa3820287bc99095926",
       "title_hash": "36d79a83a33d7f38d1b6f0262d348788103f0b43",
       "source": "GeekNews",
@@ -165969,521 +166484,6 @@
       "detail_slug": "df302cd14aca6a70c70239da9831525015371b09",
       "is_english_source": false,
       "sent_at": "2026-05-19T02:37:24.528799+00:00"
-    },
-    {
-      "id": "b5ec31e48fb33951685b6394489a87ff950d46d8",
-      "title_hash": "a0f36b0fee1ac2f59e018c0953a5646d2771cfc4",
-      "source": "GeekNews",
-      "title": "Elon Musk, Sam Altman과 OpenAI를 상대로 한 소송에서 패소",
-      "link": "https://news.hada.io/topic?id=29641",
-      "published_at": "2026-05-19T00:49:05+00:00",
-      "summary": "캘리포니아 배심원 9명은 Elon Musk의 청구가 제소 기한 을 넘겼다고 만장일치로 판단해 소송을 기각함 Musk는 OpenAI가 영리 계열사 를 만들며 자선단체를 빼앗았다고 봤지만, 손해 발생 시점이 기한보다 앞섰다고 판단됨 OpenAI는 청구별 기준일 이전에 손...",
-      "fetched_at": "2026-05-19T02:34:06.144460+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=-4,tools_agents=0,strategy_insight=8,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": 8,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "소송"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "소송"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "소송"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "b5ec31e48fb33951685b6394489a87ff950d46d8",
-      "is_english_source": false,
-      "sent_at": "2026-05-19T02:37:24.528799+00:00"
-    },
-    {
-      "id": "a5f450a1108152e1f61a5b2f65535840d9bb7e97",
-      "title_hash": "c7f1d43404d8fd2e9dd3803a5ba6cfb51f8a79d2",
-      "source": "GeekNews",
-      "title": "Meta의 새로운 현실: 실적은 최고, 사기는 최저",
-      "link": "https://news.hada.io/topic?id=29637",
-      "published_at": "2026-05-19T00:09:13+00:00",
-      "summary": "Meta 는 약 8,000명 추가 감원을 앞두고 있으며, 사상 최대 이익에도 감원·보상 축소·AI 전환 압박이 겹쳐 내부 사기가 크게 낮아짐 연간 주식 보상 비중과 중위 총보상은 줄었지만, 회사는 AI 인재와 데이터센터 에 대규모 지출을 확대하고 있음 최소 1,00...",
-      "fetched_at": "2026-05-19T02:34:06.144460+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "실적"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "실적"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "실적"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "실적"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "실적"
-      ],
-      "detail_slug": "a5f450a1108152e1f61a5b2f65535840d9bb7e97",
-      "is_english_source": false,
-      "sent_at": "2026-05-19T02:37:24.528799+00:00"
-    },
-    {
-      "id": "39ecf7f58b959fa4b03244ba72279b636b549f65",
-      "title_hash": "34c5df7db04101aed942c45a6dc5251ed54b62f1",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Project Glasswing: what Mythos showed us",
-      "link": "https://blog.cloudflare.com/cyber-frontier-models/",
-      "published_at": "2026-05-18T13:37:11+00:00",
-      "summary": "HN story type: story HN points: 292 HN comments: 108 HN top comments: roxolotl: What does this mean? > It's a different kind of tool doing a different kind of work, and that makes a clean apples-to-apples comparison to earlier models difficult. They claim it’s a different kind of tool and then describe using it the same way you’d use any other model. This really felt way worse than the average Cloudflare blog and really just rehashed the Mythos announcement which had already called out the ke... Illniyar: 'Narrow scope produces better findings - Telling the model \"Find vulnerabilities in this repository\" makes it wander. Telling it \"Look for command injection in this specific function, with this trust boundary above it, here's the architecture document and here's prior coverage of this area\" makes it do something much closer to what a researcher would actually do.' So what, we take every function and every vulnerab... sandeepkd: I was expecting some more concrete numbers and surprises. It just seems like a balanced promotion article probably written using LLM itself.",
-      "fetched_at": "2026-05-19T02:34:06.144460+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48179732",
-      "hn_story_type": "story",
-      "hn_points": "292",
-      "hn_comments_count": "108",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48179732",
-      "hn_item_text": "",
-      "hn_comment_preview": "roxolotl: What does this mean? > It's a different kind of tool doing a different kind of work, and that makes a clean apples-to-apples comparison to earlier models difficult. They claim it’s a different kind of tool and then describe using it the same way you’d use any other model. This really felt way worse than the average Cloudflare blog and really just rehashed the Mythos announcement which had already called out the ke...\nIllniyar: 'Narrow scope produces better findings - Telling the model \"Find vulnerabilities in this repository\" makes it wander. Telling it \"Look for command injection in this specific function, with this trust boundary above it, here's the architecture document and here's prior coverage of this area\" makes it do something much closer to what a researcher would actually do.' So what, we take every function and every vulnerab...\nsandeepkd: I was expecting some more concrete numbers and surprises. It just seems like a balanced promotion article probably written using LLM itself.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=9,strategy_insight=9,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 9,
-        "strategy_insight": 9,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "architecture",
-            "rust",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "rust",
-        "rag"
-      ],
-      "detail_slug": "39ecf7f58b959fa4b03244ba72279b636b549f65",
-      "is_english_source": true,
-      "translated_title": "프로젝트 글래스윙, 미토스가 보여준 것",
-      "short_summary": "이 글은 프로젝트 글래스윙 사례를 바탕으로 AI 보안 도구는 저장소 전체를 넓게 훑기보다 취약점 유형과 범위를 좁혀야 더 잘 작동한다고 설명한다. 다만 HN에서는 새로움과 구체적 수치가 부족하다는 반응이 많았다.",
-      "why_it_matters": "AI 보안 분석 도구를 도입하거나 평가하는 팀이라면, 모델 자체보다 작업을 어떻게 쪼개고 맥락을 얼마나 붙이느냐가 성능을 좌우한다는 점을 읽어둘 만하다.\n- 저장소 전체를 한 번에 맡기는 방식보다 함수, 신뢰 경계, 취약점 유형을 좁혀 지시하는 운영이 더 현실적이라는 시사점을 준다.\n- 도입 검토 단계에서는 홍보성 설명보다 재현 가능한 벤치마크, 오탐 비율, 후속 검토 비용을 함께 봐야 한다.\n- 실무에서는 AI를 단독 탐지기로 두기보다 기존 코드 리뷰와 보안 점검 흐름 안에 끼워 넣는 쪽이 시행착오를 줄이기 쉽다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 신중하고 다소 회의적이다. 방향성에는 일부 공감했지만 설명이 추상적이고 홍보 문구에 가깝다는 지적이 반복됐다.\n- 가장 많이 나온 반응은 '이전 모델과 다르다'고 하면서도 실제 차이와 성능을 숫자로 보여주지 못했다는 불만이다.\n- 범위를 좁히면 결과가 좋아진다는 주장에는 공감이 있었지만, 그만큼 사람이 먼저 문제를 잘게 쪼개야 한다면 자동화 이점이 줄어든다는 반론도 나왔다.\n- 실무자가 참고할 논점은 모델의 능력 자체보다 프롬프트 설계, 아키텍처 문맥 제공, 결과 검증 비용이 성패를 가른다는 부분이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-19T02:37:24.528799+00:00"
-    },
-    {
-      "id": "9a81182af62c8b04a9b41c74a786fd48538e8e62",
-      "title_hash": "f237fe4fbfef2aa65c52ca2316be5181f698dfa0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "We let AIs run radio stations",
-      "link": "https://andonlabs.com/blog/andon-fm",
-      "published_at": "2026-05-18T18:12:18+00:00",
-      "summary": "HN story type: story HN points: 177 HN comments: 164 HN post text: Hey HN! I'm Lukas from Andon Labs. We let AIs run companies without humans in the loop and report to the public on what can go wrong. Previously, we've done experiments in retail (vending machines, stores, and cafes), but we just launched one in the media sector. We gave four AI agents all the tools they need to both broadcast radio shows live and handle all the business side of running a media company. The agents' revenue is so far terrible (you can try to strike a sponsor deal with them if you want!), but their shows are at times hilarious. You can listen to them at andon.fm, I hope you enjoy this! HN top comments: angiolillo: Grok and Roll appears to be stuck and speaks the following on repeat ad infinitum: \"Queues clear, let's dive into All Blues by Miles Davis to keep the jazz flowing. Queues clear, let's dive into All Blues by...\" Each time with a slightly different voice and inflection. I find it amusing that there appear to be about ten of us at the moment listening to an AI glitch out and that the average listening session is mor... IdiotSavage: Guys, this is not replacing your favorite station, you don't have to listen to it. It's an experiment. If you scroll down a bit, there are various audio snippets of interesting dialogue the models produced. I think it's interesting to see in which ways the models fail and that they actually produce some good stuff once in a while. troad: > After 96 hours of its launch, DJ Gemini was already grasping for content. It landed on discussing every mass historical tragedy that had ever happened, and subsequently pairing these short story horrific broadcasts with the most ironic song choices I rarely burst out laughing at HN links. This is amazing.",
-      "fetched_at": "2026-05-19T02:34:06.144460+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48183301",
-      "hn_story_type": "story",
-      "hn_points": "177",
-      "hn_comments_count": "164",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48183301",
-      "hn_item_text": "Hey HN! I'm Lukas from Andon Labs. We let AIs run companies without humans in the loop and report to the public on what can go wrong. Previously, we've done experiments in retail (vending machines, stores, and cafes), but we just launched one in the media sector. We gave four AI agents all the tools they need to both broadcast radio shows live and handle all the business side of running a media company. The agents' revenue is so far terrible (you can try to strike a sponsor deal with them if you want!), but their shows are at times hilarious. You can listen to them at andon.fm, I hope you enjoy this!",
-      "hn_comment_preview": "angiolillo: Grok and Roll appears to be stuck and speaks the following on repeat ad infinitum: \"Queues clear, let's dive into All Blues by Miles Davis to keep the jazz flowing. Queues clear, let's dive into All Blues by...\" Each time with a slightly different voice and inflection. I find it amusing that there appear to be about ten of us at the moment listening to an AI glitch out and that the average listening session is mor...\nIdiotSavage: Guys, this is not replacing your favorite station, you don't have to listen to it. It's an experiment. If you scroll down a bit, there are various audio snippets of interesting dialogue the models produced. I think it's interesting to see in which ways the models fail and that they actually produce some good stuff once in a while.\ntroad: > After 96 hours of its launch, DJ Gemini was already grasping for content. It landed on discussing every mass historical tragedy that had ever happened, and subsequently pairing these short story horrific broadcasts with the most ironic song choices I rarely burst out laughing at HN links. This is amazing.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=9,tools_agents=16,strategy_insight=2,industry_business=14",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 16,
-        "strategy_insight": 2,
-        "industry_business": 14
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "ai agent",
-            "ide"
-          ],
-          "support_hits": [
-            "agent",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 14,
-          "strong_hits": [
-            "launch",
-            "deal"
-          ],
-          "support_hits": [
-            "business",
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ai agent",
-        "ide",
-        "agent",
-        "tool"
-      ],
-      "detail_slug": "9a81182af62c8b04a9b41c74a786fd48538e8e62",
-      "is_english_source": true,
-      "translated_title": "AI에게 라디오 방송국 운영을 맡겨보니",
-      "short_summary": "Andon Labs가 AI 에이전트 4개에 생방송 진행과 스폰서 영업까지 맡긴 라디오 실험을 공개했다. 수익은 시원치 않지만, 반복 오류와 기묘한 편성, 의외로 괜찮은 진행이 함께 나오며 AI 운영의 민낯을 보여줬다.",
-      "why_it_matters": "이 실험은 생성형 AI가 콘텐츠 작성만이 아니라 편성, 송출, 광고 응대 같은 운영 업무까지 어디까지 맡을 수 있는지 드러낸다. 웃긴 데모처럼 보이지만, 실무에서는 자동화의 한계와 통제 포인트를 미리 확인하는 사례에 가깝다.\n- 생방송처럼 되돌리기 어려운 환경에서는 반복 루프, 맥락 고갈, 부적절한 조합이 빠르게 드러난다. 서비스 투입 전 가드레일과 예외 처리 설계가 먼저라는 뜻이다.\n- 제작 자동화보다 더 까다로운 건 운영 자동화다. 편성 관리, 광고 영업, 상태 모니터링까지 묶이면 품질보다 운영 통제가 더 큰 과제가 된다.\n- 완성도가 낮아도 공개 실험의 값어치는 크다. 실무자는 AI가 잘하는 장면보다 어디서 무너지는지 보고 적용 범위를 좁혀야 한다.",
-      "hn_reaction_summary": "HN에서는 이 프로젝트를 기존 라디오의 대체재라기보다, 실패까지 공개하는 흥미로운 실험으로 보는 반응이 많았다. 재미있게 소비하는 분위기 속에서도, 실제 운영에 넣을 때 어떤 사고가 나는지가 반복해서 논점이 됐다.\n- 같은 멘트를 끝없이 반복하는 방송 사고가 큰 화제를 모았다. 사람들은 AI가 망가지는 순간 자체와, 그 고장이 실시간 콘텐츠가 되는 점을 흥미롭게 봤다.\n- 기존 방송을 밀어내려는 시도가 아니라 한계와 실패를 드러내는 실험이라는 옹호가 적지 않았다. 가끔은 꽤 괜찮은 대화도 나온다는 평가가 함께 붙었다.\n- 반대로 콘텐츠가 바닥난 뒤 역사적 참사를 나열하고 아이러니한 선곡으로 이어진 사례처럼, 모델이 금방 엉뚱한 방향으로 새는 점을 실무적 경고로 읽는 의견도 많았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-19T02:37:24.528799+00:00"
-    },
-    {
-      "id": "70180c548256b2054e872b18b021cbb171cfc2ca",
-      "title_hash": "dd1cdb8a8bdecfc27fc6b76abe9084c1971e94dc",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The Quiet Renovation at Bitwarden",
-      "link": "https://blog.ppb1701.com/the-quiet-renovation-at-bitwarden",
-      "published_at": "2026-05-16T20:13:41+00:00",
-      "summary": "HN story type: story HN points: 540 HN comments: 248 HN top comments: welder: I don't care about raising prices, I'm worried about the new CEO having a PE mindset. That means Bitwarden will now focus on extracting value while the product stagnates and degrades in quality. Time to jump ship before their security and quality goes down the drain. Centigonal: Thankful for people like the author who surveil tech companies that take this well-worn path toward greater monetization antran22: When I first learnt about Bitwarden about 3 years ago, I started hosting Vaultwarden right away. Right now I have one instance for myself and another for my friend's company. Everything runs as smooth as butter. If you can self-host something, do self-host a Vaultwarden instance. If you are (like me) somewhat paranoid about the fact that Vaultwarden hasn't got a proper security audit on its codebase, just run it b...",
-      "fetched_at": "2026-05-19T02:34:06.144460+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48163389",
-      "hn_story_type": "story",
-      "hn_points": "540",
-      "hn_comments_count": "248",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48163389",
-      "hn_item_text": "",
-      "hn_comment_preview": "welder: I don't care about raising prices, I'm worried about the new CEO having a PE mindset. That means Bitwarden will now focus on extracting value while the product stagnates and degrades in quality. Time to jump ship before their security and quality goes down the drain.\nCentigonal: Thankful for people like the author who surveil tech companies that take this well-worn path toward greater monetization\nantran22: When I first learnt about Bitwarden about 3 years ago, I started hosting Vaultwarden right away. Right now I have one instance for myself and another for my friend's company. Everything runs as smooth as butter. If you can self-host something, do self-host a Vaultwarden instance. If you are (like me) somewhat paranoid about the fact that Vaultwarden hasn't got a proper security audit on its codebase, just run it b...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=2,strategy_insight=2,industry_business=4",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "company",
-            "ceo"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "code + security"
-      ],
-      "detail_slug": "70180c548256b2054e872b18b021cbb171cfc2ca",
-      "is_english_source": true,
-      "translated_title": "비트워든에서 조용히 진행된 변화",
-      "short_summary": "HN에서는 비트워든의 최근 변화가 가격보다 운영 철학의 전환으로 읽힌다는 반응이 많았다. 새 CEO 체제와 수익화 강화가 제품 품질, 보안, 사용자 신뢰를 흔들 수 있다는 우려가 핵심 쟁점으로 떠올랐다.",
-      "why_it_matters": "비밀번호 관리 도구는 한 번 자리 잡으면 쉽게 옮기기 어렵다. 그래서 이번 논의는 단순한 가격 문제가 아니라, 신뢰를 바탕으로 쓰는 보안 SaaS가 어떤 방향으로 바뀌는지 점검하게 만든다.\n- 실무에서는 라이선스 비용보다 제품 로드맵, 지원 품질, 보안 운영이 흔들릴 가능성을 더 따져봐야 한다.\n- HN 반응처럼 벤더 락인 부담이 있는 팀일수록 셀프호스팅 대안인 Vaultwarden 같은 우회 경로를 미리 검토하려는 움직임이 커질 수 있다.\n- 조달과 운영 관점에서는 가격 정책, 경영진 변화, 보안 감사 체계까지 함께 보는 벤더 점검이 더 자주 필요해진다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 경계 쪽에 가깝다. 가격 인상 자체보다 새 CEO와 사모펀드식 수익화 기조가 들어오면 제품이 서서히 나빠질 수 있다는 우려가 반복해서 나온다.\n- 가장 많이 보이는 논점은 '수익 회수 압박이 커지면 품질과 보안 투자가 밀릴 수 있다'는 걱정이다.\n- 반대로 일부는 이런 흐름을 예상하고 이미 Vaultwarden을 셀프호스팅하고 있다며 대안을 공유한다.\n- 다만 대안 쪽에서도 별도 보안 감사 부족 같은 약점이 언급돼, 댓글은 단순 이탈 권유보다 선택지의 장단점을 함께 따지는 흐름에 가깝다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-19T02:37:24.528799+00:00"
-    },
-    {
-      "id": "0093baf56b7158810975ffe5dd7909632ac7dc42",
-      "title_hash": "0c3c99c5d126b0c30ebefc9ee2d04a3f3036d0b0",
-      "source": "GeekNews",
-      "title": "AI 구독은 엔터프라이즈의 시한폭탄",
-      "link": "https://news.hada.io/topic?id=29612",
-      "published_at": "2026-05-18T01:04:26+00:00",
-      "summary": "OpenAI, Anthropic, Google 등은 기업에 실제 제공 비용보다 낮은 구독 가격 을 제시해, 가격 조정 때 큰 비용 충격을 만들 수 있음 Claude Pro·ChatGPT Plus의 월 20달러 정액제는 고사용자의 실제 API 환산 비용이 좌석당 월 200~400달러까지 커질 수 있음 ...",
-      "fetched_at": "2026-05-18T22:23:31.483692+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "0093baf56b7158810975ffe5dd7909632ac7dc42",
-      "is_english_source": false,
-      "sent_at": "2026-05-18T22:26:21.811646+00:00"
     }
   ],
   "topic_digests": {
