@@ -1,6 +1,573 @@
 {
   "items": [
     {
+      "id": "cc9b126c60488df80d879d9de88ab425bc0635cd",
+      "title_hash": "2c9112cfe4308a1bb876b2fe2f92725167ed5f19",
+      "source": "GeekNews",
+      "title": "vLLM으로 NVIDIA DGX Station 2대에서 GLM-5.3을 초당 607.8토큰으로 서빙하기",
+      "link": "https://news.hada.io/topic?id=37221&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-15T20:46:06+00:00",
+      "summary": "GLM-5.3 NVFP4 의 약 464GB 체크포인트를 DGX Station 2대의 GPU에 나눠 올리고, CPU 가중치 오프로딩 없이 하나의 OpenAI 호환 API로 서빙함 텐서 병렬화(TP=2) 로 두 GB300 GPU가 가중치와 연산을 분담하며, 모든 요청의 토큰 생성 과정에서 ConnectX-8 RDMA 연결로 부분 결과를 교환함 다중 토큰 예측(MTP) 으로 단계당 토큰 4개를 미리 생성해 검증하고, FP8 KV 캐시와 프리픽스 캐싱으로 캐시 메모리와 반복 프롬프트 처리 부담을 줄임 SPEED-Bench Coding 측정에서 전체 출력 처리량은 동시 요청 16개일 때 607.8토큰/초 로 정점을 기 …",
+      "fetched_at": "2026-11-15T23:27:22.610695+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=12,practical_tech=5,tools_agents=12,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 12,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "프롬프트",
+        "ai + coding"
+      ],
+      "detail_slug": "cc9b126c60488df80d879d9de88ab425bc0635cd",
+      "is_english_source": false,
+      "sent_at": "2026-11-15T23:29:26.987539+00:00"
+    },
+    {
+      "id": "afd09d7e6152759616323e11a652464c6072b2e0",
+      "title_hash": "c1c6080469c355401e6de3b9625154a91c19f23a",
+      "source": "GeekNews",
+      "title": "Lean으로 미국 세법 형식화하기",
+      "link": "https://news.hada.io/topic?id=37215&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-15T19:40:59+00:00",
+      "summary": "Lean 증명 검사기와 AI 로 미국 세법의 참조 오류를 검사하고, 2025년 가구 단위 연방소득세를 실행 가능한 모델로 만들어 세금 계산 오류와 허점을 탐색함 공식 법전에서 입법 문구 오류 138건 을 찾아 각각 Lean 증명서를 만들었으며, 법률별 Git 이력으로 오류를 도입한 법률까지 추적할 수 있음 가상 가구 5,000곳을 기존 세금 소프트웨어 3종과 비교한 결과, PolicyEngine-US와 4,993곳에서 모든 수치가 일치 했고 나머지는 EITC 표와 공식의 차이로 최대 11달러 차이가 났음 세금 계획 지식 없이 탐색해 기존 절세 전략을 재발견했고, …",
+      "fetched_at": "2026-11-15T23:27:22.610695+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 5,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "전략"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "전략"
+      ],
+      "detail_slug": "afd09d7e6152759616323e11a652464c6072b2e0",
+      "is_english_source": false,
+      "sent_at": "2026-11-15T23:29:26.987539+00:00"
+    },
+    {
+      "id": "1e508eb99306b9d1810d90ca7648af130afeca1c",
+      "title_hash": "02b7f5b718c77088efe6a7e198968bee33e96506",
+      "source": "GeekNews",
+      "title": "브라질 Caixa 보험사 침해 사고로 고객 760만 명 전원의 이름과 납세자 번호 노출",
+      "link": "https://news.hada.io/topic?id=37207&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-15T15:36:51+00:00",
+      "summary": "Caixa Seguridade의 피투자회사 Caixa Vida e Previdência(CVP) 에서 무단 접근으로 고객 개인정보가 외부에 복사된 사실을 확인함 노출된 정보는 이름과 CPF(브라질 개인 납세자 번호) 이며, 현재 고객 760만 명 전원이 포함되고 과거 고객 정보도 영향을 받음 일부 기록에는 주소, 전화번호, 이메일 주소, 생년월일도 포함됐으나, 예비 평가상 금융정보나 인증정보가 침해됐다는 증거는 없음 CVP는 공격에 사용된 수단을 차단하고 추가 보호 조치를 적용했으며, 외부 포렌식 전문업체 의 지원을 받아 사고 원인과 범위, 영향을 조사 중임 …",
+      "fetched_at": "2026-11-15T23:27:22.610695+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "투자"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자"
+      ],
+      "detail_slug": "1e508eb99306b9d1810d90ca7648af130afeca1c",
+      "is_english_source": false,
+      "sent_at": "2026-11-15T23:29:26.987539+00:00"
+    },
+    {
+      "id": "07405356dd2e55aeb947639a71219bc21c12b034",
+      "title_hash": "7d638b608baa326168125f4533531c2c764b5d1e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "WebGL Flight Simulator with seed generated terrain",
+      "link": "https://baron.by.dai.studio/",
+      "published_at": "2026-11-15T20:20:05+00:00",
+      "summary": "HN story type: story HN points: 46 HN comments: 8 HN top comments: rossng: How funny, I have been vibe coding a little paper plane folding and flying simulator this weekend and the agent picked a very similar visual style https://www.rossng.eu/paper-flight/ aflag: I think the interesting to know would be how much it cost to build and how much prompting was necessary. Overall it doesn't look like anything that I wouldn't be able to get by just prompting claude in claude code leetrout: Like an updated corncob 3d! Source available anywhere? Can you add rudder and elevator trim?",
+      "fetched_at": "2026-11-15T23:27:22.610695+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50510296",
+      "hn_story_type": "story",
+      "hn_points": "46",
+      "hn_comments_count": "8",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50510296",
+      "hn_item_text": "",
+      "hn_comment_preview": "rossng: How funny, I have been vibe coding a little paper plane folding and flying simulator this weekend and the agent picked a very similar visual style https://www.rossng.eu/paper-flight/\naflag: I think the interesting to know would be how much it cost to build and how much prompting was necessary. Overall it doesn't look like anything that I wouldn't be able to get by just prompting claude in claude code\nleetrout: Like an updated corncob 3d! Source available anywhere? Can you add rudder and elevator trim?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "47",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=23,practical_tech=4,tools_agents=23,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 23,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 23,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [
+            "prompt",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "prompt",
+        "agent",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "07405356dd2e55aeb947639a71219bc21c12b034",
+      "is_english_source": true,
+      "sent_at": "2026-11-15T23:29:26.987539+00:00"
+    },
+    {
+      "id": "659a977cd9cc5e63faabae958e9398a4c6f65b39",
+      "title_hash": "40cef909c3c9aa22f07e9edeb95be978c8242506",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "link": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "published_at": "2026-11-15T12:14:06+00:00",
+      "summary": "HN story type: story HN points: 189 HN comments: 24 HN top comments: programjames: This article is only about understanding the implementation of positional embeddings, but to really understand positional embeddings you have to understand the theory. Positional embeddings are group representations. This is how you find them, and this is also how you parameterize them to make them differentiable/learnable. To give a few examples: 1. Rotary positional embeddings are representations of the translat...",
+      "fetched_at": "2026-11-15T23:27:22.610695+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50506376",
+      "hn_story_type": "story",
+      "hn_points": "189",
+      "hn_comments_count": "24",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50506376",
+      "hn_item_text": "",
+      "hn_comment_preview": "programjames: This article is only about understanding the implementation of positional embeddings, but to really understand positional embeddings you have to understand the theory. Positional embeddings are group representations. This is how you find them, and this is also how you parameterize them to make them differentiable/learnable. To give a few examples: 1. Rotary positional embeddings are representations of the translat...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "embedding"
+          ],
+          "support_hits": [
+            "implementation"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "embedding",
+        "implementation"
+      ],
+      "detail_slug": "659a977cd9cc5e63faabae958e9398a4c6f65b39",
+      "is_english_source": true,
+      "sent_at": "2026-11-15T23:29:26.987539+00:00"
+    },
+    {
+      "id": "e75aad5df44e39fb1e230a44d0bba75191118535",
+      "title_hash": "4eeafea133f4bfed4f5dff32eabe4e651cb26aa5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "A short explainer on how El Niño works [video]",
+      "link": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+      "published_at": "2026-11-15T18:23:21+00:00",
+      "summary": "HN story type: story HN points: 141 HN comments: 45 HN top comments: breakyerself: Any time this stuff comes up it's important to understand that this el Nino is occuring in the context of a global climate that is warmer than any time in the last 125,000 years. The risks inherent to weather and climate are growing all the time. rene_d: I find the Climate Reanalyzer graphs very instructive - at a glance one can see how extreme the situation is: https://climatereanalyzer.org/clim/sst_daily guilhermeasper: This video mainly covers how it works in the United States, here's one for Brazilian people in the HN, from Manual do Mundo https://youtu.be/tWhcTTC-pyw",
+      "fetched_at": "2026-11-15T23:27:22.610695+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50509308",
+      "hn_story_type": "story",
+      "hn_points": "141",
+      "hn_comments_count": "45",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50509308",
+      "hn_item_text": "",
+      "hn_comment_preview": "breakyerself: Any time this stuff comes up it's important to understand that this el Nino is occuring in the context of a global climate that is warmer than any time in the last 125,000 years. The risks inherent to weather and climate are growing all the time.\nrene_d: I find the Climate Reanalyzer graphs very instructive - at a glance one can see how extreme the situation is: https://climatereanalyzer.org/clim/sst_daily\nguilhermeasper: This video mainly covers how it works in the United States, here's one for Brazilian people in the HN, from Manual do Mundo https://youtu.be/tWhcTTC-pyw",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli"
+      ],
+      "detail_slug": "e75aad5df44e39fb1e230a44d0bba75191118535",
+      "is_english_source": true,
+      "sent_at": "2026-11-15T23:29:26.987539+00:00"
+    },
+    {
+      "id": "96f38609ea50ffc73c20feb1d8fae253b76c59fc",
+      "title_hash": "58817efa3f95191ff02d5350786dd17abefab4fa",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
+      "link": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+      "published_at": "2026-11-15T17:53:31+00:00",
+      "summary": "HN story type: story HN points: 131 HN comments: 97 HN top comments: Animats: Intelligence has evolved on Earth at least three times - mammals, corvids, and octopuses. All the mammals have roughly the same brain architecture. But the corvids are not on the same evolutionary branch, and have a different neuron design and a different brain architecture. \"Such behavioral flexibility might seem unexpected because a layered cerebral cortex, the highest integration center in the mammalian brain,... 0xBA5ED: The title doesn't make sense because \"bridbrain\" doesn't imply slow decision making. WalterBright: They might think faster because the brain is smaller - a shorter distance for connections. For example, learning to play a piano is training the spine, not the brain. Because the feedback loop with the spine is shorter. It's the same with dancing. One is trained to not look at one's feet, because the feedback loop is too slow.",
+      "fetched_at": "2026-11-15T23:27:22.610695+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50509023",
+      "hn_story_type": "story",
+      "hn_points": "131",
+      "hn_comments_count": "97",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50509023",
+      "hn_item_text": "",
+      "hn_comment_preview": "Animats: Intelligence has evolved on Earth at least three times - mammals, corvids, and octopuses. All the mammals have roughly the same brain architecture. But the corvids are not on the same evolutionary branch, and have a different neuron design and a different brain architecture. \"Such behavioral flexibility might seem unexpected because a layered cerebral cortex, the highest integration center in the mammalian brain,...\n0xBA5ED: The title doesn't make sense because \"bridbrain\" doesn't imply slow decision making.\nWalterBright: They might think faster because the brain is smaller - a shorter distance for connections. For example, learning to play a piano is training the spine, not the brain. Because the feedback loop with the spine is shorter. It's the same with dancing. One is trained to not look at one's feet, because the feedback loop is too slow.",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "38",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=14,practical_tech=9,tools_agents=2,strategy_insight=14,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 2,
+        "strategy_insight": 14,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "architecture"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 14,
+          "strong_hits": [
+            "decision",
+            "learning"
+          ],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "decision",
+        "learning",
+        "research"
+      ],
+      "detail_slug": "96f38609ea50ffc73c20feb1d8fae253b76c59fc",
+      "is_english_source": true,
+      "sent_at": "2026-11-15T23:29:26.987539+00:00"
+    },
+    {
       "id": "b897fe51f2d23baa6d677acad05b3110665b8c5c",
       "title_hash": "efd37096369858ef58f6fc8f20b6d8b64251bc90",
       "source": "TechCrunch",
@@ -165661,608 +166228,6 @@
       "hn_reaction_summary": "댓글 분위기는 전반적으로 GCP에 매우 비판적이었다. 다만 감정적 성토만 이어진 것은 아니고, 정지 원인을 먼저 밝혀야 한다는 지적도 꾸준히 나왔다.\n\n- 가장 많이 반복된 반응은 사전 설명 없는 계정 정지에 대한 불신이었다. 일부는 운영 판단이 자동화에 과하게 기대는 것 아니냐는 냉소도 보였다.\n- Railway가 Google Cloud를 핵심 경로에서 빼겠다고 한 대목을 두고, B2B 인프라 공급자로서 신뢰가 흔들린 사례라는 해석이 많았다.\n- 반대로 몇몇은 타임라인 정리만으로는 부족하다고 봤다. 무엇이 계정 정지를 촉발했는지 루트 원인이 공개돼야 실무자가 배울 교훈이 생긴다는 의견이다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-20T20:35:40.600909+00:00"
-    },
-    {
-      "id": "cf8674df1d37d0cb4b6158c7d21c5cad83979628",
-      "title_hash": "cc4b284a67f1c22cfdc15526536d97ae073ed875",
-      "source": "GeekNews",
-      "title": "Show GN: Codex Relay - 모바일에서 코덱스 Terminal, Browser, Git, File Viewer, Markdown 탑재",
-      "link": "https://news.hada.io/topic?id=29706",
-      "published_at": "2026-05-20T13:56:42+00:00",
-      "summary": "100% 무료 오픈소스 기반 Codex Relay입니다. ChatGPT 앱에 공식으로 Codex Remote가 나왔지만, Terminal, Browser, Git, File Viewer, Markdown 등 추가기능이 들어가있어 같이 사용할 때 편한감이 있습니다. https://github.com/gronxb/codex-relay",
-      "fetched_at": "2026-05-20T16:22:08.704385+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "codex"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "codex"
-      ],
-      "detail_slug": "cf8674df1d37d0cb4b6158c7d21c5cad83979628",
-      "is_english_source": false,
-      "sent_at": "2026-05-20T16:25:21.227017+00:00"
-    },
-    {
-      "id": "f38bb56a5be65c4fa16a4d4afec8aadebcb0e035",
-      "title_hash": "776eee21154db68331d3f3c052646ee7e5b0a42a",
-      "source": "GeekNews",
-      "title": "Show GN: 액티브홀더스 - 주식 투자자의 보물창고",
-      "link": "https://news.hada.io/topic?id=29695",
-      "published_at": "2026-05-20T02:20:51+00:00",
-      "summary": "2017년 부터 주식 투자를 하기 시작했습니다. 피터 린치, 워렌 버핏, 코스톨라니. 대가들의 책을 읽었습니다. 주식을 산다는 건 회사를 사는 것이다. 돈을 잘 버는 회사를 사면 주가는 결국 따라올 것이다. 대가들의 공통적인 가르침이었습니다. 하지만... 몇 년 뒤 배운 뒷통",
-      "fetched_at": "2026-05-20T16:22:08.704385+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-8,tools_agents=0,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -8,
-        "tools_agents": 0,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -8,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자",
-            "주가"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "투자"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "투자"
-      ],
-      "detail_slug": "f38bb56a5be65c4fa16a4d4afec8aadebcb0e035",
-      "is_english_source": false,
-      "sent_at": "2026-05-20T16:25:21.227017+00:00"
-    },
-    {
-      "id": "02c1b4fa066d429a33cd2717c1fcae1c0f9b2ae5",
-      "title_hash": "ee4a41e10a7f812eb17be53d39ca82777f0282c8",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Formal Verification Gates for AI Coding Loops",
-      "link": "https://reubenbrooks.dev/blog/structural-backpressure-beats-smarter-agents/",
-      "published_at": "2026-05-20T15:25:45+00:00",
-      "summary": "HN story type: story HN points: 7 HN comments: 1 HN top comments: pyrex41: Author here. The TL;DR: move rules from prompts into types the compiler refuses to violate, then bounce the AI coding loop off those refusals. The repo is github.com/pyrex41/Shen-Backpressure. Builds a lot on Geoff Huntley's backpressure idea -- none of this is rocket science, just an effort to apply sound programming principles in a world of LLM coding agents.",
-      "fetched_at": "2026-05-20T16:22:08.704385+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48209323",
-      "hn_story_type": "story",
-      "hn_points": "7",
-      "hn_comments_count": "1",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48209323",
-      "hn_item_text": "",
-      "hn_comment_preview": "pyrex41: Author here. The TL;DR: move rules from prompts into types the compiler refuses to violate, then bounce the AI coding loop off those refusals. The repo is github.com/pyrex41/Shen-Backpressure. Builds a lot on Geoff Huntley's backpressure idea -- none of this is rocket science, just an effort to apply sound programming principles in a world of LLM coding agents.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "53",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=29,practical_tech=9,tools_agents=29,strategy_insight=7,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 29,
-        "strategy_insight": 7,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "compiler"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 29,
-          "strong_hits": [
-            "coding agent",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "ai coding",
-            "prompt",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "principles"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "compiler"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "ide",
-        "llm",
-        "ai coding",
-        "prompt",
-        "agent",
-        "ai + coding"
-      ],
-      "detail_slug": "02c1b4fa066d429a33cd2717c1fcae1c0f9b2ae5",
-      "is_english_source": true,
-      "translated_title": "AI 코딩 루프에 형식 검증 게이트 두기",
-      "short_summary": "프롬프트에 적은 규칙에 기대지 말고 타입 시스템과 컴파일러가 어길 수 없게 만들자는 제안이다. AI는 그 거절 신호를 다시 받아 코드를 고치는 루프로 연결된다.",
-      "why_it_matters": "AI 코딩 에이전트를 실제 개발 흐름에 넣기 시작하면, 자연어 지침만으로 품질을 붙잡는 방식은 금방 흔들린다. 이 글은 규칙을 타입과 컴파일 오류로 끌어내려 AI 수정 루프의 안전장치로 쓰자는 방향을 보여준다.\n- 프롬프트에만 적어 둔 규칙보다 컴파일러 제약이 더 단단하다. 리뷰 전에 막을 수 있는 실수를 앞단에서 줄일 수 있다.\n- 에이전트가 실패를 바로 읽고 다시 수정하는 루프를 만들면, 테스트 이전 단계에서도 자동 교정이 가능해진다.\n- 실무에서는 프롬프트 문구를 다듬는 것보다 타입, 스키마, 생성 코드 경계를 먼저 설계해야 한다는 시사점을 준다.",
-      "hn_reaction_summary": "현재 HN 반응은 아직 크지 않다. 댓글도 많지 않고, 분위기는 논쟁보다는 작성자가 핵심 아이디어와 구현 저장소를 직접 설명하는 쪽에 가깝다.\n- 눈에 띄는 포인트는 규칙을 프롬프트가 아니라 타입으로 옮기고, 컴파일러가 거부한 결과를 AI 코딩 루프에 되먹임하자는 주장이다.\n- 작성자는 Geoff Huntley의 backpressure 아이디어를 바탕으로 했다고 밝혔고, 새 이론이라기보다 검증된 프로그래밍 원칙의 적용이라고 설명했다.\n- 아직 뚜렷한 반론은 거의 없어서, 다음 논점은 이 방식이 실제 코드베이스에서 얼마나 유지비를 낮추고 품질을 붙잡는지로 옮겨갈 가능성이 크다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-20T16:25:21.227017+00:00"
-    },
-    {
-      "id": "3da7226d612bc99211b91176266e57ccc5929d83",
-      "title_hash": "bfcba4b92a7bf4d8232ec225cc74935caecbcefb",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "When Fast Fourier Transform Meets Transformer for Image Restoration (2024)",
-      "link": "https://github.com/deng-ai-lab/SFHformer",
-      "published_at": "2026-05-18T14:10:47+00:00",
-      "summary": "HN story type: story HN points: 44 HN comments: 4 HN top comments: sorenjan: See also: CosAE: Learnable Fourier Series for Image Restoration (2024) https://sifeiliu.net/CosAE-page/ TimorousBestie: There have been some interesting advances in trying to add spectral information to the data that a learning architecture has at its disposal, but there are a couple roadblocks that I don’t think have been solved yet. 1. Complex-valued NNs are not an easy generalization of real ones. 2. A localization in one domain implies non-local behavior in the other (this is the Fourier uncertainty principle). Fourier Neural O...",
-      "fetched_at": "2026-05-20T16:22:08.704385+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48180172",
-      "hn_story_type": "story",
-      "hn_points": "44",
-      "hn_comments_count": "4",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48180172",
-      "hn_item_text": "",
-      "hn_comment_preview": "sorenjan: See also: CosAE: Learnable Fourier Series for Image Restoration (2024) https://sifeiliu.net/CosAE-page/\nTimorousBestie: There have been some interesting advances in trying to add spectral information to the data that a learning architecture has at its disposal, but there are a couple roadblocks that I don’t think have been solved yet. 1. Complex-valued NNs are not an easy generalization of real ones. 2. A localization in one domain implies non-local behavior in the other (this is the Fourier uncertainty principle). Fourier Neural O...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=7,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 7,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "architecture"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "github.com"
-      ],
-      "detail_slug": "3da7226d612bc99211b91176266e57ccc5929d83",
-      "is_english_source": true,
-      "translated_title": "FFT와 트랜스포머를 결합한 이미지 복원 연구",
-      "short_summary": "2024년 연구로, 이미지 복원에 FFT와 트랜스포머를 함께 써 공간 정보와 주파수 정보를 동시에 활용하는 접근을 다룬다. HN에서는 방향은 흥미롭지만 복소수 신경망과 푸리에 기반 한계가 남아 있다는 반응이 나왔다.",
-      "why_it_matters": "이 연구는 이미지 복원에서 주파수 정보를 다시 전면에 올린다. 실무에서는 기존 방식 외에 FFT 결합형 아키텍처를 별도 축으로 검토하라는 신호에 가깝다.\n\n- 노이즈 제거, 블러 완화, 압축 손상 복원처럼 주파수 패턴이 뚜렷한 작업에서는 후보 모델군이 하나 더 늘어난 셈이다.\n- 공간 정보만 보는 설계보다 어떤 조건에서 이득이 나는지, 데이터셋과 해상도별로 다시 벤치마크해볼 만하다.\n- 실제 도입 전에는 복소수 연산 처리, 학습 안정성, 세부 질감 보존이 병목이 되는지 먼저 확인해야 한다.",
-      "hn_reaction_summary": "댓글 수는 많지 않지만 분위기는 기술적으로 꽤 촘촘하다. 아이디어 자체를 치켜세우기보다, 실제 구현과 이론에서 어디가 걸리는지를 짚는 반응이 많다.\n\n- 관련 연구로 CosAE가 함께 언급되며, 이 주제가 이미 여러 갈래로 탐색되고 있다는 점이 공유됐다.\n- 스펙트럼 정보를 모델에 넣는 시도는 매력적이지만, 복소수 신경망은 실수 기반 모델처럼 쉽게 확장되지 않는다는 지적이 나왔다.\n- 푸리에 불확정성 때문에 한 영역의 국소성이 다른 영역의 비국소성과 맞물려, 복원 성능을 안정적으로 끌어올리기 어렵다는 신중론도 보였다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-20T16:25:21.227017+00:00"
-    },
-    {
-      "id": "90545a009029e327dec28324ac5db8a896ec7f61",
-      "title_hash": "3fa6a82a774a0c7142e34be25ce1c068b990e62c",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Qwen3.7-Max: The Agent Frontier",
-      "link": "https://qwen.ai/blog?id=qwen3.7",
-      "published_at": "2026-05-20T10:35:02+00:00",
-      "summary": "HN story type: story HN points: 332 HN comments: 122 HN top comments: aliljet: Where can a user reasonably host this in an affordable way to access the local LLM revolution? goldenarm: The non-hallucination rate in AA-omniscience is SOTA, better than Opus 4.7, Gemini 3.1 Pro and GPT5.5! Congrats to the team briga: I was getting dangerously close to my weekly Claude Code limit last night so I had Claude set up Qwen3.6 with llama.cpp and OpenCode. Honestly it's a great (free!) alternative to Claude Code--certainly more than good enough for a lot of smaller less complex tasks. I'm excited to try this new version. The fact that open-source models are so close to the frontier is very impressive.",
-      "fetched_at": "2026-05-20T16:22:08.704385+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48205626",
-      "hn_story_type": "story",
-      "hn_points": "332",
-      "hn_comments_count": "122",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48205626",
-      "hn_item_text": "",
-      "hn_comment_preview": "aliljet: Where can a user reasonably host this in an affordable way to access the local LLM revolution?\ngoldenarm: The non-hallucination rate in AA-omniscience is SOTA, better than Opus 4.7, Gemini 3.1 Pro and GPT5.5! Congrats to the team\nbriga: I was getting dangerously close to my weekly Claude Code limit last night so I had Claude set up Qwen3.6 with llama.cpp and OpenCode. Honestly it's a great (free!) alternative to Claude Code--certainly more than good enough for a lot of smaller less complex tasks. I'm excited to try this new version. The fact that open-source models are so close to the frontier is very impressive.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=28,practical_tech=4,tools_agents=28,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 28,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 28,
-          "strong_hits": [
-            "claude code",
-            "llm"
-          ],
-          "support_hits": [
-            "agent",
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "local + agent"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "llm",
-        "agent",
-        "local",
-        "claude + code",
-        "local + agent"
-      ],
-      "detail_slug": "90545a009029e327dec28324ac5db8a896ec7f61",
-      "is_english_source": true,
-      "translated_title": "Qwen3.7-Max, 에이전트 성능 경쟁의 최전선",
-      "short_summary": "Qwen3.7-Max가 에이전트 작업 성능을 앞세워 HN에서 큰 관심을 모았다. 댓글에서는 저렴한 호스팅 가능성, 환각 억제 성능, Claude Code 대안으로서의 실용성이 함께 거론됐다.",
-      "why_it_matters": "오픈 모델이 에이전트형 작업에서도 상용 상위권을 바짝 추격한다는 기대가 커졌다. 실무에서는 성능 수치보다 비용, 배포 방식, 대체 가능성이 더 직접적인 판단 기준으로 읽힌다.\n- Claude Code 같은 유료 도구의 사용량 제한이 부담인 팀이라면, 덜 복잡한 작업 일부를 로컬이나 자체 호스팅 모델로 넘기는 운영 방식을 검토할 수 있다.\n- 관심이 벤치마크 자체보다 '얼마에 어디서 돌릴 수 있나'로 모인 점도 눈에 띈다. 이제는 모델 성능만큼 인프라 비용과 운영 난도가 경쟁력이다.\n- 환각 억제 성능 평가가 실제로 재현된다면 에이전트 자동화의 검토 부담을 줄일 여지가 있다. 다만 현업 적용 전에는 작업 유형별 검증이 먼저다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 기대감이 강했지만, 반응은 꽤 현실적이었다. 수치 경쟁보다 싸게 돌릴 수 있는지, 실제 업무에서 어디까지 대체할 수 있는지가 핵심 화제로 보였다.\n- 가장 먼저 나온 질문은 저렴한 호스팅 방안이었다. 로컬 LLM을 쓰고 싶어도 비용과 운영 난도가 여전히 진입장벽이라는 뜻이다.\n- 환각이 적고 상용 최상위 모델에 견줄 만하다는 평가에는 호응이 많았다. 오픈 모델이 최전선에 가까워졌다는 인식도 반복됐다.\n- 동시에 Claude Code의 무료 대안으로 쓸 만하다는 실사용 관점도 눈에 띄었다. 특히 작고 덜 복잡한 작업에서는 충분하다는 기대가 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-20T16:25:21.227017+00:00"
-    },
-    {
-      "id": "b1cd2c37415c1a3c8af5f7e437cd55959fbd8dc7",
-      "title_hash": "0574964b9ab4a4aed36fcc700acb8f01cd8bc9b6",
-      "source": "GeekNews",
-      "title": "Forge - 가드레일로 8B 모델을 에이전트 작업에서 53%에서 99%로 끌어올리는 도구",
-      "link": "https://news.hada.io/topic?id=29705",
-      "published_at": "2026-05-20T08:33:28+00:00",
-      "summary": "Forge 는 자체 호스팅 LLM의 도구 호출을 위한 신뢰성 계층으로, 다단계 에이전트 워크플로우에서 작은 로컬 모델의 안정성을 높이는 데 초점을 둠 핵심 기능은 잘못된 도구 호출을 복구하는 rescue parsing , 재시도 유도, 필수 단계 강제, VRAM 인식 토큰 예산, 계...",
-      "fetched_at": "2026-05-20T12:10:07.337494+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "61",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=0,tools_agents=16,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 16,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "워크플로우",
-            "에이전트"
-          ],
-          "support_hits": [
-            "에이전트 워크플로우"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "워크플로우",
-        "에이전트",
-        "에이전트 워크플로우"
-      ],
-      "detail_slug": "b1cd2c37415c1a3c8af5f7e437cd55959fbd8dc7",
-      "is_english_source": false,
-      "sent_at": "2026-05-20T12:13:14.315639+00:00"
-    },
-    {
-      "id": "b14c9b8b74d258336ba8c2d4712ee2862e787aba",
-      "title_hash": "38394de911e6b765c05c86674bb897cae5aa8a56",
-      "source": "GeekNews",
-      "title": "피자헛 가맹점주, AI 배달 시스템이 사업을 망쳤다며 1억 달러 소송",
-      "link": "https://news.hada.io/topic?id=29699",
-      "published_at": "2026-05-20T03:04:37+00:00",
-      "summary": "피자헛이 도입한 AI 배달 관리 플랫폼 \"Dragontail\"이 오히려 배달 지연과 매출 급감을 초래했다며, 대형 가맹점주가 1억 달러 규모 소송을 제기 핵심 요약 피자헛의 동북부 대형 가맹점주 Chaac Pizza Northeast (뉴욕·뉴저지·메릴랜",
-      "fetched_at": "2026-05-20T12:10:07.337494+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-3,tools_agents=0,strategy_insight=3,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -3,
-        "tools_agents": 0,
-        "strategy_insight": 3,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -3,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "주가",
-            "소송"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "소송"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "소송"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "소송"
-      ],
-      "detail_slug": "b14c9b8b74d258336ba8c2d4712ee2862e787aba",
-      "is_english_source": false,
-      "sent_at": "2026-05-20T12:13:14.315639+00:00"
     }
   ],
   "topic_digests": {
