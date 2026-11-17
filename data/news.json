@@ -1,6 +1,587 @@
 {
   "items": [
     {
+      "id": "dad99858a2755a6918ee8964a0d688f2efdc9cd6",
+      "title_hash": "64c4b12c91615ffd19c5504217bf9dfc6a9edde9",
+      "source": "GeekNews",
+      "title": "AI 슬롭은 왜 이렇게 읽기 짜증날까?",
+      "link": "https://news.hada.io/topic?id=37316&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-17T00:20:04+00:00",
+      "summary": "AI 슬롭이 읽기 괴로운 이유는 불명확한 글쓰기 에 있음. 단어를 다 알아도 누가 무엇을 했는지, 요점이 무엇인지 다시 짚어야 하는 문장 이 자주 나옴 업무에서는 이런 글이 Slack 메시지나 PR 설명처럼 그냥 넘길 수 없는 글 에 섞여 있어, 이미 복잡한 내용을 해독해야 하는 독자의 부담이 커짐 불명확한 글에서는 행위자와 행동을 숨기는 문장 , 모호한 표현, 내용 없는 문장과 잘못된 강조라는 세 가지 결함이 반복됨 Claude Code 응답에서 가장 흔한 결함은 모호한 표현 임. 특히 DB 준비 상태 확인이 사용자 세션 진입 경계에 위치한다 …",
+      "fetched_at": "2026-11-17T12:40:51.930326+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "dad99858a2755a6918ee8964a0d688f2efdc9cd6",
+      "is_english_source": false,
+      "sent_at": "2026-11-17T12:41:40.681262+00:00"
+    },
+    {
+      "id": "3480ae4a6bf455417f47061b7f7ac96aa596e363",
+      "title_hash": "70d8c0298d0499872c34d91ff6083edcf9d4a3b0",
+      "source": "GeekNews",
+      "title": "AT&amp;T, 허위 광고 소송에서 Comcast의 ‘광섬유 기반 Wi-Fi’는 케이블이라고 주장",
+      "link": "https://news.hada.io/topic?id=37339&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-17T08:34:15+00:00",
+      "summary": "AT&T가 Comcast를 허위 광고로 제소 함. Xfinity의 ‘fiber-powered’ 광고가 가정까지 광섬유로 연결되는 서비스라는 오해를 준다는 이유임 Xfinity 인터넷 대부분은 광섬유와 동축 케이블을 결합한 HFC 망 을 사용하며, 가정에 연결되는 마지막 구간은 동축 케이블임 AT&T는 해당 광고의 영구 금지와 광고로 얻은 이익 반환 을 요구함. 문구 자체가 허위가 아니더라도 상당수 소비자를 오도할 수 있다고 주장함 광고 자율규제 기구 NAD 는 Comcast의 케이블/광섬유 혼합망 고지 내용은 정확하지만 눈에 잘 띄지 않는다고 판단함. Comcast는 …",
+      "fetched_at": "2026-11-17T12:40:51.930326+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "55",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=10,practical_tech=-8,tools_agents=-4,strategy_insight=8,industry_business=10",
+      "slot_scores": {
+        "practical_tech": -8,
+        "tools_agents": -4,
+        "strategy_insight": 8,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송",
+            "규제"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송",
+            "규제"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "규제",
+            "소송"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "규제",
+        "소송"
+      ],
+      "detail_slug": "3480ae4a6bf455417f47061b7f7ac96aa596e363",
+      "is_english_source": false,
+      "sent_at": "2026-11-17T12:41:40.681262+00:00"
+    },
+    {
+      "id": "2d6fc90e81192a81f0262d936a6325565e5f080e",
+      "title_hash": "c9303ab6fdd94da0687ddaf06e78eff37fec46bb",
+      "source": "GeekNews",
+      "title": "Show GN: GRID 라이브러리 - HTML 태그로 디자인하는 100만 행 초고속 가상화 그리드 오픈소스입니다.",
+      "link": "https://news.hada.io/topic?id=37340&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-17T09:49:46+00:00",
+      "summary": "안녕하세요. 그리드 라이브러리 소개입니다. 자바스크립트 객체나 복잡한 설정 코드 대신, 익숙한 HTML 태그( , , )로 테이블 구조를 그대로 마크업하면 내부 엔진이 자동으로 고성능 가상화 그리드로 변환해 줍니다. DOM 가상화 기술을 통해 100만 행 이상의 대용량 데이터도 지연 없이 부드럽게 렌더링되며, Shadow DOM을 통한 완벽한 스타일 격리(Zero CSS Pollution)와 매끄러운 인라인 편집을 기본 제공합니다. 특히 공통코드, 콤보박스 바인딩, 합계(Sum)·소계(Subsum), 그리고 유연한 셀 커스텀이 직관적인 코드로 …",
+      "fetched_at": "2026-11-17T12:40:51.930326+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=4,practical_tech=4,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "코드",
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "코드",
+        "성능"
+      ],
+      "detail_slug": "2d6fc90e81192a81f0262d936a6325565e5f080e",
+      "is_english_source": false,
+      "sent_at": "2026-11-17T12:41:40.681262+00:00"
+    },
+    {
+      "id": "4daa1747153b2370516756c270c2aef668566706",
+      "title_hash": "6b58732ef1b10818ebcaecf2b6ba48b5c14dc01e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "How the Claude Code team thinks about verification",
+      "link": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "published_at": "2026-11-17T10:20:40+00:00",
+      "summary": "HN story type: story HN points: 56 HN comments: 68 HN top comments: gregwebs: This is the main thing that people are missing with their agentic coding. After I created this skill for verification, it completely changed my level of trust with AI coding. https://github.com/gregwebs/skills-sdlc/blob/main/skills/ver... The overall process that I am using does use a lot more time and AI spend than just asking AI to do something. I still do the latter for simple or noncritical changes. I had to s... OtherShrezzing: This article feels like the result of having unlimited tokens at your disposal. It’s got some very expensive practices, where near-free practices would produce the same or better results. There’s a long section in the middle where the article describes per-change verification via skill files and “ask Claude to use the chrome-for-Claude tool” when checking if changes have introduced regressions. But there’s already... girvo: > With them, you can run dozens or hundreds in parallel. Im already spending my $2k usd per month in tokens with just one or two agents. How do they expect me to do that?",
+      "fetched_at": "2026-11-17T12:40:51.930326+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50529612",
+      "hn_story_type": "story",
+      "hn_points": "56",
+      "hn_comments_count": "68",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50529612",
+      "hn_item_text": "",
+      "hn_comment_preview": "gregwebs: This is the main thing that people are missing with their agentic coding. After I created this skill for verification, it completely changed my level of trust with AI coding. https://github.com/gregwebs/skills-sdlc/blob/main/skills/ver... The overall process that I am using does use a lot more time and AI spend than just asking AI to do something. I still do the latter for simple or noncritical changes. I had to s...\nOtherShrezzing: This article feels like the result of having unlimited tokens at your disposal. It’s got some very expensive practices, where near-free practices would produce the same or better results. There’s a long section in the middle where the article describes per-change verification via skill files and “ask Claude to use the chrome-for-Claude tool” when checking if changes have introduced regressions. But there’s already...\ngirvo: > With them, you can run dozens or hundreds in parallel. Im already spending my $2k usd per month in tokens with just one or two agents. How do they expect me to do that?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=30,practical_tech=9,tools_agents=30,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 30,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 30,
+          "strong_hits": [
+            "claude code",
+            "agentic"
+          ],
+          "support_hits": [
+            "ai coding",
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "agentic",
+        "ai coding",
+        "agent",
+        "tool",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "4daa1747153b2370516756c270c2aef668566706",
+      "is_english_source": true,
+      "sent_at": "2026-11-17T12:41:40.681262+00:00"
+    },
+    {
+      "id": "72b1ee7d3b4edad28978eeaa69b47e2c9fef5e2a",
+      "title_hash": "30357b9a929ccd833038a1f3a7bbff2da2f134be",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Nimony: A New Compiler for Nim",
+      "link": "https://nimony.org/",
+      "published_at": "2026-11-16T01:05:22+00:00",
+      "summary": "HN story type: story HN points: 91 HN comments: 32 HN top comments: eterps: Nice, it looks like it supports option and result types as well: - https://nimony.org/stdlib/std/result.html - https://nimony.org/stdlib/std/options.html stakhanov: When I was doing the rounds roughly 10 years ago, trying to find a new programming language to learn, my money for \"next big thing\" landed on nim. I did some personal projects and absolutely loved it but, unfortunately, opportunities to work \"on the clock\" in nim never materialised and then rust started eating the world. Thanks, Andreas Rumpf, for sticking with it for all these years: This seems like a great oppor... polotics: This is great! Congrats to the Nim team for keeping the pedal to the metal! Sum-types, borrow-checking... Nim 3 is beautiful.",
+      "fetched_at": "2026-11-17T12:40:51.930326+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50512779",
+      "hn_story_type": "story",
+      "hn_points": "91",
+      "hn_comments_count": "32",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50512779",
+      "hn_item_text": "",
+      "hn_comment_preview": "eterps: Nice, it looks like it supports option and result types as well: - https://nimony.org/stdlib/std/result.html - https://nimony.org/stdlib/std/options.html\nstakhanov: When I was doing the rounds roughly 10 years ago, trying to find a new programming language to learn, my money for \"next big thing\" landed on nim. I did some personal projects and absolutely loved it but, unfortunately, opportunities to work \"on the clock\" in nim never materialised and then rust started eating the world. Thanks, Andreas Rumpf, for sticking with it for all these years: This seems like a great oppor...\npolotics: This is great! Congrats to the Nim team for keeping the pedal to the metal! Sum-types, borrow-checking... Nim 3 is beautiful.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "compiler",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "compiler"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "compiler",
+        "rust"
+      ],
+      "detail_slug": "72b1ee7d3b4edad28978eeaa69b47e2c9fef5e2a",
+      "is_english_source": true,
+      "sent_at": "2026-11-17T12:41:40.681262+00:00"
+    },
+    {
+      "id": "cb1c39080d4f0ce9e041497771bf3897255c636b",
+      "title_hash": "a5c1319e8834948b0ba6bf5e25c875c1e8803929",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "BugMeNot has closed",
+      "link": "https://www.bugmenot.com/",
+      "published_at": "2026-11-16T21:32:17+00:00",
+      "summary": "HN story type: story HN points: 596 HN comments: 271 HN top comments: a5seo: Bevan and Guy founded that site and realized that the UX was perfect for sharing coupons and launched RetailMeNot.com from it, leveraging BMN’s crazy high PageRank to propel RMN to the top of Google. Not to mention the ease of use and social aspects way ahead of its time. They were able to join a handful of retailer affiliate programs and were probably clearing tens of millions a year in affiliate commissions with... randomblock1: Not much info on this page, so here's the Wikipedia if you don't know what BugMeNot is (er, was): https://en.wikipedia.org/wiki/BugMeNot Alive-in-2025: There are a fair number of \"temporary or hidden email\" systems that can replace this. It's just the convenience factor of not having to create another stupid temp email just to log into a website for 5 minutes. Then do you save the password you had to create or create another account later. 1. Search for \"temporary email\", there are zillions of these. Some services detect that they are special temporary emails, ma...",
+      "fetched_at": "2026-11-17T12:40:51.930326+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50523601",
+      "hn_story_type": "story",
+      "hn_points": "596",
+      "hn_comments_count": "271",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50523601",
+      "hn_item_text": "",
+      "hn_comment_preview": "a5seo: Bevan and Guy founded that site and realized that the UX was perfect for sharing coupons and launched RetailMeNot.com from it, leveraging BMN’s crazy high PageRank to propel RMN to the top of Google. Not to mention the ease of use and social aspects way ahead of its time. They were able to join a handful of retailer affiliate programs and were probably clearing tens of millions a year in affiliate commissions with...\nrandomblock1: Not much info on this page, so here's the Wikipedia if you don't know what BugMeNot is (er, was): https://en.wikipedia.org/wiki/BugMeNot\nAlive-in-2025: There are a fair number of \"temporary or hidden email\" systems that can replace this. It's just the convenience factor of not having to create another stupid temp email just to log into a website for 5 minutes. Then do you save the password you had to create or create another account later. 1. Search for \"temporary email\", there are zillions of these. Some services detect that they are special temporary emails, ma...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "launch"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rag"
+      ],
+      "detail_slug": "cb1c39080d4f0ce9e041497771bf3897255c636b",
+      "is_english_source": true,
+      "sent_at": "2026-11-17T12:41:40.681262+00:00"
+    },
+    {
+      "id": "21405224ffc71fa694a2bdd2228fb85b292eb981",
+      "title_hash": "6b054700e16c7ff080ce15ca3d3843dc570df5f6",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Comcast's \"fiber-powered Wi-Fi\" is cable, AT&T says in false advertising case",
+      "link": "https://arstechnica.com/tech-policy/2026/11/comcast-falsely-advertises-cable-internet-as-fiber-powered-att-lawsuit-says/",
+      "published_at": "2026-11-16T20:48:08+00:00",
+      "summary": "HN story type: story HN points: 162 HN comments: 136 HN top comments: bob1029: Fiber is so much better than cable in an emergency. The equipment consumes significantly less power and is likely to stay up longer during a power outage. You get way more customers on each battery / generator. I had an FTTH provider with 100% of their network on natural gas standby generators. Went through a week long power outage without losing a single packet. You can support something like 100k households with... userbinator: While Comcast has deployed plenty of fiber throughout the US, its cable Internet service makes the final connection to homes with coaxial cable. This results in upload speeds being far slower than download speeds. In contrast, fiber-to-the-home service can provide symmetrical upload and download speeds. You can get symmetric DOCSIS, and apparently Comcast do offer that service[1]. Likewise, FTTH can be asymmetric... ben1040: Back in the days of rolling out U-Verse (their FTTN service), AT&T's advertising used exactly the same strategy of weasel-words to say \"fiber\" without making an actionable implication that it was fiber from A to Z. Phrases like \"fiber rich network\" and \"U-Verse uses fiber optic technology.\"",
+      "fetched_at": "2026-11-17T12:40:51.930326+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50523025",
+      "hn_story_type": "story",
+      "hn_points": "162",
+      "hn_comments_count": "136",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50523025",
+      "hn_item_text": "",
+      "hn_comment_preview": "bob1029: Fiber is so much better than cable in an emergency. The equipment consumes significantly less power and is likely to stay up longer during a power outage. You get way more customers on each battery / generator. I had an FTTH provider with 100% of their network on natural gas standby generators. Went through a week long power outage without losing a single packet. You can support something like 100k households with...\nuserbinator: While Comcast has deployed plenty of fiber throughout the US, its cable Internet service makes the final connection to homes with coaxial cable. This results in upload speeds being far slower than download speeds. In contrast, fiber-to-the-home service can provide symmetrical upload and download speeds. You can get symmetric DOCSIS, and apparently Comcast do offer that service[1]. Likewise, FTTH can be asymmetric...\nben1040: Back in the days of rolling out U-Verse (their FTTN service), AT&T's advertising used exactly the same strategy of weasel-words to say \"fiber\" without making an actionable implication that it was fiber from A to Z. Phrases like \"fiber rich network\" and \"U-Verse uses fiber optic technology.\"",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "34",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=10,practical_tech=2,tools_agents=3,strategy_insight=2,industry_business=10",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 3,
+        "strategy_insight": 2,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "deploy"
+          ],
+          "negative_hits": [
+            "lawsuit"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 3,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "lawsuit"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "customers",
+            "lawsuit"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "customers",
+        "lawsuit"
+      ],
+      "detail_slug": "21405224ffc71fa694a2bdd2228fb85b292eb981",
+      "is_english_source": true,
+      "sent_at": "2026-11-17T12:41:40.681262+00:00"
+    },
+    {
       "id": "0c8101c29e8a023133cf6710e1486784d8cad417",
       "title_hash": "d5bd56fedc33960611618dee076ad98a068ab1d4",
       "source": "GeekNews",
@@ -165326,630 +165907,6 @@
       "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이었다. 다만 '지금 당장 유용하다'는 평가와 함께, 오래 믿고 쓸 수 있는 데이터셋이 되려면 보완이 더 필요하다는 지적이 뒤따랐다.\n- 가장 반복된 호평은 가격과 스펙을 한 표에서 보는 점이 편하다는 것이었다.\n- 반론 쪽에서는 장기 업데이트 가능성, 가격 인하 추적, 공급자별 지연 시간 같은 운영 관점 데이터가 빠졌다는 지적이 나왔다.\n- UI 측면에서는 세부 정보를 가로 스크롤로 보게 한 방식보다 필터링과 더 직관적인 탐색 수단이 필요하다는 의견이 보였다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-22T23:03:23.176037+00:00"
-    },
-    {
-      "id": "5a829fa3647bd220a954b755bb676d28f5f70cd5",
-      "title_hash": "9ff73056afdd10fc8932bf17301954557d76aaa6",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "link": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "published_at": "2026-05-22T16:54:31+00:00",
-      "summary": "HN story type: story HN points: 84 HN comments: 17 HN top comments: fhn: Lawmakers want answers but they never provide answers themselves. Who watches the so-called watchers? Corruption on a massive scale on by lawmakers but when a key gets published, heads will roll? Keys are mistakenly published all the time by very smart people. Ever ran rm -rf *? Every destroy a production db? Ever power off the wrong server? Yes. m3047: CISA said “there is no indication that any sensitive data was compromised as a result of the incident.” Oh wow. Except for those secrets. niwtsol: What an egregious mistake. \"exhibits a pattern consistent with an individual operator using the repository as a working scratchpad or synchronization mechanism rather than a curated project repository\" - isn't is git 101 to not put creds in git? What pattern do they think this is consistent with?",
-      "fetched_at": "2026-05-22T23:00:39.251978+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48238429",
-      "hn_story_type": "story",
-      "hn_points": "84",
-      "hn_comments_count": "17",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48238429",
-      "hn_item_text": "",
-      "hn_comment_preview": "fhn: Lawmakers want answers but they never provide answers themselves. Who watches the so-called watchers? Corruption on a massive scale on by lawmakers but when a key gets published, heads will roll? Keys are mistakenly published all the time by very smart people. Ever ran rm -rf *? Every destroy a production db? Ever power off the wrong server? Yes.\nm3047: CISA said “there is no indication that any sensitive data was compromised as a result of the incident.” Oh wow. Except for those secrets.\nniwtsol: What an egregious mistake. \"exhibits a pattern consistent with an individual operator using the repository as a working scratchpad or synchronization mechanism rather than a curated project repository\" - isn't is git 101 to not put creds in git? What pattern do they think this is consistent with?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=20,practical_tech=20,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 20,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 20,
-          "strong_hits": [
-            "production",
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "production + incident"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "production",
-        "security",
-        "production + incident"
-      ],
-      "detail_slug": "5a829fa3647bd220a954b755bb676d28f5f70cd5",
-      "is_english_source": true,
-      "translated_title": "CISA 데이터 유출 수습에 미 의회 해명 요구",
-      "short_summary": "CISA의 데이터 유출 대응을 두고 미국 의원들이 해명을 요구했다. HN에서는 단순 실수로 넘길 일인지, 자격 증명 관리와 해명 방식 모두 허술했던 것 아니냐는 반응이 이어졌다.",
-      "why_it_matters": "이번 이슈는 공공기관도 저장소 운영과 비밀정보 관리에서 기본을 놓치면 곧바로 신뢰 문제로 번진다는 점을 보여준다. 특히 사고 자체보다 이후 설명이 설득력을 잃으면 현장 부담이 더 커진다.\n- Git 저장소에 키나 자격 증명이 남지 않도록 비밀정보 스캔, 커밋 차단, 키 순환 절차를 더 촘촘히 점검해야 한다.\n- \"민감한 데이터 유출 정황은 없다\"는 식의 메시지는 사실관계와 표현이 어긋나면 바로 역풍을 맞는다. 사고 공지 문안과 보고 체계도 실무 범위에 들어간다.\n- 보안팀뿐 아니라 개발팀과 운영팀도 개인 작업용 저장소 관행, 임시 스크래치패드 사용, 동기화 방식까지 함께 손봐야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 냉소적이다. 의회의 분노 표출도 믿기 어렵고, CISA의 해명 역시 납득하기 어렵다는 반응이 많다.\n- \"키 유출은 누구나 실수할 수 있다\"는 의견이 있는 반면, 자격 증명을 Git에 넣는 건 너무 기초적인 실패라는 비판이 반복됐다.\n- \"민감한 데이터는 안 털렸다\"면서 비밀정보 노출은 인정하는 듯한 설명이 가장 많이 비꼼을 샀다.\n- 몇몇 댓글은 사건 자체보다 감시기관과 입법권력이 서로 책임을 묻는 방식에 더 주목하며, 이중잣대와 책임 회피를 문제 삼았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-22T23:03:23.176037+00:00"
-    },
-    {
-      "id": "15c6031b246adef1e1e5e2d798102fa0662ca2ea",
-      "title_hash": "38662556482e5f7ef0aab8480c7049c8ecd9a7aa",
-      "source": "GeekNews",
-      "title": "2021년 MacBook에서 Gemma4-31B로 1년치 영상을 로컬 색인하기(50GB 스왑)",
-      "link": "https://news.hada.io/topic?id=29764",
-      "published_at": "2026-05-22T14:38:32+00:00",
-      "summary": "영상 아카이브 의 병목은 편집 도구보다 검색 불가능성이었고, 라벨 없는 클립을 영어로 질의 가능한 인덱스로 바꾸는 데 초점을 맞춤 로컬 우선 설계로 각 클립 옆에 .description.md 사이드카 파일 을 만들고, rating·조명·위치·전사·키워드·산문 설...",
-      "fetched_at": "2026-05-22T18:49:34.032556+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "병목"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "병목"
-      ],
-      "detail_slug": "15c6031b246adef1e1e5e2d798102fa0662ca2ea",
-      "is_english_source": false,
-      "sent_at": "2026-05-22T18:52:41.044624+00:00"
-    },
-    {
-      "id": "3741e4b54f0d1ba159db173d401947dbdc373055",
-      "title_hash": "0f38fa6f2cf3d87d5ae324c9d5a984b3c553cac8",
-      "source": "GeekNews",
-      "title": "Show GN: Marksmith - VS Code/Windsurf용 마크다운 생산성 확장",
-      "link": "https://news.hada.io/topic?id=29766",
-      "published_at": "2026-05-22T16:36:24+00:00",
-      "summary": "VS Code와 Windsurf에서 마크다운 작성 시 발생하는 잔작업을 줄이기 위해 만든 확장 프로그램 클립보드 컨텍스트 인식, 양방향 프리뷰, 문서 분석 기능을 하나의 패키지로 통합 Windsurf는 VS Code 포크 기반이므로 동일 API로 양쪽 모두 지원 만든 이유 웹/Word에서 복사한",
-      "fetched_at": "2026-05-22T18:49:34.032556+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "3741e4b54f0d1ba159db173d401947dbdc373055",
-      "is_english_source": false,
-      "sent_at": "2026-05-22T18:52:41.044624+00:00"
-    },
-    {
-      "id": "530d9f701d962f6a5625b2a59abdd53ec742a36b",
-      "title_hash": "765624268be1495735e39bcf87a3c9980c1ed4a2",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Launch HN: Superset (YC P26) – IDE for the agents era",
-      "link": "https://github.com/superset-sh/superset",
-      "published_at": "2026-05-22T14:53:55+00:00",
-      "summary": "HN story type: story HN points: 46 HN comments: 62 HN post text: Hey HN, we’re Avi, Kiet, and Satya. We’re building Superset ( https://github.com/superset-sh/superset ), an open-source agentic IDE for running coding agents like Claude Code, Codex, OpenCode etc in parallel. Demo: https://www.youtube.com/watch?v=YWDHn7gUwfg Try it: https://superset.sh/ We’re three engineers who’ve built and maintained large codebases, and we kept wanting to work on more than one thing at a time. Once CLI coding agents got good enough we found ourselves running several of them in parallel: triaging Github issues, adding a few ui features, reviewing PRs, researching a refactor, etc. The funny part was that we and a lot of our friends had all hacked together similar scripts around git worktrees. Worktrees are a nice primitive for this because each agent can get an isolated copy of the repo, but the workflows around them can feel pretty messy, setting up/tearing down environments and managing dev servers. We first posted here a few months ago when Superset was mostly an open-source terminal for managing git worktrees ( https://news.ycombinator.com/item?id=46368739 ). Since then, it has changed a lot based on feedback from people using it on real codebases, plus con... HN top comments: collin128: Just switched from Conductor to Superset and I'm a big fan. I really didn't like the extra stuff conductor added to the UX (the text rendering always drove me nuts). So far so good with Superset - even as a non-engineer builder. eikenberry: Why support each agent individually instead of using ACP and get much better agent coverage? frenchie4111: Wow - this looks like a fork of my project https://github.com/frenchie4111/harness It's crazy to see how we have independently landed in the same place Good luck to your project! Excited to see how our projects differ in the future",
-      "fetched_at": "2026-05-22T18:49:34.032556+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48236770",
-      "hn_story_type": "story",
-      "hn_points": "46",
-      "hn_comments_count": "62",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48236770",
-      "hn_item_text": "Hey HN, we’re Avi, Kiet, and Satya. We’re building Superset ( https://github.com/superset-sh/superset ), an open-source agentic IDE for running coding agents like Claude Code, Codex, OpenCode etc in parallel. Demo: https://www.youtube.com/watch?v=YWDHn7gUwfg Try it: https://superset.sh/ We’re three engineers who’ve built and maintained large codebases, and we kept wanting to work on more than one thing at a time. Once CLI coding agents got good enough we found ourselves running several of them in parallel: triaging Github issues, adding a few ui features, reviewing PRs, researching a refactor, etc. The funny part was that we and a lot of our friends had all hacked together similar scripts around git worktrees. Worktrees are a nice primitive for this because each agent can get an isolated copy of the repo, but the workflows around them can feel pretty messy, setting up/tearing down environments and managing dev servers. We first posted here a few months ago when Superset was mostly an open-source terminal for managing git worktrees ( https://news.ycombinator.com/item?id=46368739 ). Since then, it has changed a lot based on feedback from people using it on real codebases, plus con...",
-      "hn_comment_preview": "collin128: Just switched from Conductor to Superset and I'm a big fan. I really didn't like the extra stuff conductor added to the UX (the text rendering always drove me nuts). So far so good with Superset - even as a non-engineer builder.\neikenberry: Why support each agent individually instead of using ACP and get much better agent coverage?\nfrenchie4111: Wow - this looks like a fork of my project https://github.com/frenchie4111/harness It's crazy to see how we have independently landed in the same place Good luck to your project! Excited to see how our projects differ in the future",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "91",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=67,practical_tech=17,tools_agents=67,strategy_insight=20,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 67,
-        "strategy_insight": 20,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "refactor",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 67,
-          "strong_hits": [
-            "coding agent",
-            "claude code",
-            "worktree",
-            "workflow",
-            "agentic",
-            "codex",
-            "ide",
-            "cli"
-          ],
-          "support_hits": [
-            "workflow",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + workflow",
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 20,
-          "strong_hits": [],
-          "support_hits": [
-            "research",
-            "future",
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + review",
-            "future + work"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "launch"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "claude code",
-        "worktree",
-        "workflow",
-        "agentic",
-        "codex",
-        "ide",
-        "cli",
-        "agent",
-        "agent + workflow",
-        "claude + code",
-        "ai + coding",
-        "github.com"
-      ],
-      "detail_slug": "530d9f701d962f6a5625b2a59abdd53ec742a36b",
-      "is_english_source": true,
-      "translated_title": "Superset 출시, 에이전트 시대를 위한 IDE",
-      "short_summary": "Superset은 Claude Code, Codex 같은 코딩 에이전트를 여러 개 병렬로 돌리도록 만든 오픈소스 IDE다. git worktree 기반 실험을 발전시켜 환경 준비와 개발 서버 관리까지 한곳에서 다루는 쪽으로 다듬고 있다.",
-      "why_it_matters": "코딩 에이전트를 보조 도구로 쓰는 단계를 넘어, 여러 작업을 동시에 굴리는 방식이 이제 IDE 형태로 구체화되고 있다는 점이 눈에 띈다.\n- 이슈 분류, UI 수정, PR 리뷰, 리팩터링 조사처럼 성격이 다른 일을 에이전트별로 나눠 병렬 처리하는 흐름이 한층 쉬워질 수 있다.\n- 그동안 git worktree, 환경 세팅, 개발 서버 관리가 뒤엉켜 생기던 번거로움을 IDE가 흡수하면 팀 내부 스크립트에 덜 의존하게 된다.\n- 오픈소스 프로젝트라 특정 벤더에 깊게 묶이지 않은 채 도입 가능성을 검토해볼 수 있다는 점도 실무팀에는 반가운 대목이다.",
-      "hn_reaction_summary": "댓글 분위기는 전반적으로 호의적이지만, 제품 방향을 두고는 표준화와 차별성에 대한 질문도 함께 붙었다.\n- 실제 사용자는 Conductor보다 UX가 덜 거슬리고 더 깔끔하다는 반응을 보였고, 비개발자도 써보기 좋다는 평가가 나왔다.\n- 반면 개별 에이전트를 일일이 지원하기보다 ACP 같은 공통 프로토콜을 먼저 품는 편이 확장성에 낫지 않겠냐는 지적이 눈에 띄었다.\n- 비슷한 문제를 푼 다른 오픈소스와 닮았다는 반응도 있었는데, 그만큼 에이전트 병렬 실행 도구가 빠르게 하나의 제품군으로 자리 잡는 모습으로 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-22T18:52:41.044624+00:00"
-    },
-    {
-      "id": "ed0ccf2bb1983135d218d088f7535afe3f08b345",
-      "title_hash": "1e0953e620ee952e9c0f31a7383f1c61b3b834be",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Deno 2.8",
-      "link": "https://deno.com/blog/v2.8",
-      "published_at": "2026-05-22T11:23:30+00:00",
-      "summary": "HN story type: story HN points: 184 HN comments: 83 HN top comments: dan_rock_wilson: Deno: has a basic permission model that is very helpful, written in Rust, and native TypeScript support. I'm not deep in the webdev / node / Bun ecosystems, I've just been a happy user of Deno for small services for several years. Can someone explain why it sounds like there's such rapid growth of Bun? Is it just being used as a bundler, but not as JS runtime? Just the permission system alone (though I wish it ext... vmsp: I wonder how Deno's faring. Node's the stable solution and will be with us forever. You can now use TypeScript with it and, soon enough, you'll be able to build your app to a single executable -- including native deps. Bun's chaotic but, nonetheless, it's _fast_ and it's taking an interesting approach by including everything in the stdlib. Plus, bought by Anthropic. Deno had an awesome story with the sandbox and e... turadg: The new *deno pack* command is a nice addition for safe and simple packaging. For those using Node.js, a similar single command is available with https://www.npmjs.com/package/ts-node-pack Now that Node.js supports importing .ts modules, more repos can use them without a build step or putting any build artifacts in the checkout.",
-      "fetched_at": "2026-05-22T18:49:34.032556+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48234380",
-      "hn_story_type": "story",
-      "hn_points": "184",
-      "hn_comments_count": "83",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48234380",
-      "hn_item_text": "",
-      "hn_comment_preview": "dan_rock_wilson: Deno: has a basic permission model that is very helpful, written in Rust, and native TypeScript support. I'm not deep in the webdev / node / Bun ecosystems, I've just been a happy user of Deno for small services for several years. Can someone explain why it sounds like there's such rapid growth of Bun? Is it just being used as a bundler, but not as JS runtime? Just the permission system alone (though I wish it ext...\nvmsp: I wonder how Deno's faring. Node's the stable solution and will be with us forever. You can now use TypeScript with it and, soon enough, you'll be able to build your app to a single executable -- including native deps. Bun's chaotic but, nonetheless, it's _fast_ and it's taking an interesting approach by including everything in the stdlib. Plus, bought by Anthropic. Deno had an awesome story with the sandbox and e...\nturadg: The new *deno pack* command is a nice addition for safe and simple packaging. For those using Node.js, a similar single command is available with https://www.npmjs.com/package/ts-node-pack Now that Node.js supports importing .ts modules, more repos can use them without a build step or putting any build artifacts in the che...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "53",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=29,practical_tech=29,tools_agents=7,strategy_insight=4,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 29,
-        "tools_agents": 7,
-        "strategy_insight": 4,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 29,
-          "strong_hits": [
-            "typescript",
-            "runtime",
-            "sandbox",
-            "rust",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "sandbox"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "runtime"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "typescript",
-        "runtime",
-        "sandbox",
-        "rust",
-        "api"
-      ],
-      "detail_slug": "ed0ccf2bb1983135d218d088f7535afe3f08b345",
-      "is_english_source": true,
-      "translated_title": "Deno 2.8 공개, 배포 편의성 강화 주목",
-      "short_summary": "Deno 2.8이 공개되자 HN에서는 권한 기반 보안 모델과 네이티브 타입스크립트 지원이 다시 화제가 됐다. 새 패키징 흐름은 반겼지만 Node와 Bun 사이에서 입지가 얼마나 넓어질지는 더 지켜봐야 한다는 반응도 많았다.",
-      "why_it_matters": "이번 이야기는 Deno가 기술적으로 무엇을 잘하느냐보다, 지금 실무 선택지로 얼마나 설득력이 커졌는지에 더 초점이 모였다.\n- `deno pack`처럼 배포를 단순하게 만드는 흐름이 보이면 작은 서비스나 내부 도구를 빌드 없이 묶어 내보내는 선택이 쉬워진다.\n- 권한 모델과 타입스크립트 기본 지원은 보안 검토와 개발 경험 면에서 여전히 Deno의 차별점으로 읽힌다.\n- 다만 팀 도입 단계에서는 Node의 안정성, Bun의 속도와 성장세를 함께 비교해야 해서 런타임 표준을 바꿀 정도의 동력이 있는지가 실무 판단 포인트다.",
-      "hn_reaction_summary": "댓글 분위기는 호감과 유보가 함께 섞였다. Deno를 꾸준히 써 온 이용자는 장점을 또렷하게 짚었지만, 시장 판도는 아직 더 냉정하게 본다는 시선이 많았다.\n- 찬성 쪽에서는 권한 기반 샌드박스, Rust 기반 구현, 타입스크립트 기본 지원을 Deno의 뚜렷한 강점으로 봤다.\n- 비교 논점은 주로 Node 대 Bun 대 Deno 구도였다. Node는 오래 갈 안정 해법, Bun은 빠른 실행과 공격적 확장, Deno는 설계 완성도가 높은 대안으로 묘사됐다.\n- 반복된 질문은 \"좋은데 왜 더 크게 크지 못하나\"에 가까웠다. 기능 완성도만으로는 생태계와 관성의 벽을 넘기 어렵다는 현실론이 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-22T18:52:41.044624+00:00"
-    },
-    {
-      "id": "6468c586993d41d4d3e64f91fb912a176abe9eff",
-      "title_hash": "0fbdf96f3885315ab436bbdac1273cd383b919d7",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "A Forth-inspired language for writing websites",
-      "link": "https://robida.net/entries/2026/05/21/a-forth-inspired-language-for-writing-websites",
-      "published_at": "2026-05-22T15:00:50+00:00",
-      "summary": "HN story type: story HN points: 66 HN comments: 6 HN top comments: jng: LLM-based coding is enabling so much! The crazy weekend project now can have compilation to native code and web assembly, allow server-side or client-side rendering, manage multiple types of persistence, include adaptive compression, and do all of this without breaking a sweat. It's scary but I love it. WorldMaker: > I like how weird it is. I might use it for my site, who knows? If there's a place to use a weird and fun language it is certainly one's own personal blog. Sounds like a great opportunity, I think you should do it. hvs: HN Hug of Death: https://web.archive.org/web/20260522134016/https://robida.ne...",
-      "fetched_at": "2026-05-22T18:49:34.032556+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48236887",
-      "hn_story_type": "story",
-      "hn_points": "66",
-      "hn_comments_count": "6",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48236887",
-      "hn_item_text": "",
-      "hn_comment_preview": "jng: LLM-based coding is enabling so much! The crazy weekend project now can have compilation to native code and web assembly, allow server-side or client-side rendering, manage multiple types of persistence, include adaptive compression, and do all of this without breaking a sweat. It's scary but I love it.\nWorldMaker: > I like how weird it is. I might use it for my site, who knows? If there's a place to use a weird and fun language it is certainly one's own personal blog. Sounds like a great opportunity, I think you should do it.\nhvs: HN Hug of Death: https://web.archive.org/web/20260522134016/https://robida.ne...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "47",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=23,practical_tech=4,tools_agents=23,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 23,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 23,
-          "strong_hits": [
-            "ide",
-            "cli",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli",
-        "llm",
-        "ai + coding"
-      ],
-      "detail_slug": "6468c586993d41d4d3e64f91fb912a176abe9eff",
-      "is_english_source": true,
-      "translated_title": "웹사이트 제작을 위한 포스풍 언어",
-      "short_summary": "웹사이트를 만들기 위해 포스(Forth) 스타일을 끌어온 실험적 언어가 HN에서 주목받았다. 댓글에서는 LLM 덕분에 가능한 대담한 취미 프로젝트라는 반응과, 개인 사이트에 써보고 싶다는 호기심이 함께 나왔다.",
-      "why_it_matters": "웹 개발이 거대한 프레임워크 경쟁만으로 흘러가지는 않는다는 점을 보여주는 사례다. LLM 보조 개발이 붙으면서 언어와 런타임을 통째로 새로 짜는 실험도 훨씬 현실적인 선택지가 됐다.\n- 1인 개발자나 소규모 팀도 DSL, 렌더링 방식, 배포 경로를 함께 설계하는 식의 실험을 더 빠르게 밀어붙일 수 있다.\n- 당장 서비스 전면 도입보다 개인 사이트, 사내 도구, 콘텐츠 프로젝트처럼 범위가 좁은 곳에서 새로운 웹 제작 방식의 시험장이 될 가능성이 크다.\n- 실무에서는 생산성만 볼 일이 아니다. 디버깅, 온보딩, 유지보수 비용이 얼마나 커지는지도 함께 따져봐야 한다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이다. 완성도 검증보다는 '이상해서 더 흥미롭다'는 반응과, LLM 시대다운 프로젝트라는 평가가 먼저 보인다.\n- LLM 기반 코딩 덕분에 예전에는 무리였을 주말 프로젝트가 훨씬 큰 기술 범위를 다루게 됐다는 감탄이 반복됐다.\n- 이런 언어는 범용 서비스보다 개인 블로그나 취향 프로젝트에 더 잘 어울린다는 의견이 눈에 띄었다.\n- HN 유입으로 원문 접속이 어려웠다는 언급도 있어, 규모는 작아도 관심 자체는 꽤 강하게 붙은 스토리로 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-22T18:52:41.044624+00:00"
-    },
-    {
-      "id": "db17ba08b0266f3d45a9928ede6f32b8a1c5d906",
-      "title_hash": "7f7c2592bf97508262278751de27207c5783e8f1",
-      "source": "GeekNews",
-      "title": "Google의 Antigravity 미끼와 바꿔치기",
-      "link": "https://news.hada.io/topic?id=29755",
-      "published_at": "2026-05-22T00:48:38+00:00",
-      "summary": "Antigravity 2.0 자동 업데이트가 기존 IDE를 독립형 Codex 스타일 대화형 도구로 바꾸면서 실행 바로가기에서 IDE가 사라짐 기존 Antigravity IDE는 Google AI Ultra 플랜의 일상 도구였고, 계획-검토-구현 루프 가 끊기며 작업 방식이 중단됨 다운로드 페...",
-      "fetched_at": "2026-05-22T14:39:32.201688+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=0,tools_agents=14,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 14,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "codex",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "codex",
-        "ide"
-      ],
-      "detail_slug": "db17ba08b0266f3d45a9928ede6f32b8a1c5d906",
-      "is_english_source": false,
-      "sent_at": "2026-05-22T14:42:16.630784+00:00"
     }
   ],
   "topic_digests": {
