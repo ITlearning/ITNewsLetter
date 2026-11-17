@@ -1,6 +1,591 @@
 {
   "items": [
     {
+      "id": "0c8101c29e8a023133cf6710e1486784d8cad417",
+      "title_hash": "d5bd56fedc33960611618dee076ad98a068ab1d4",
+      "source": "GeekNews",
+      "title": "Windows 11, 사용하는 코딩 에이전트와 개발 도구 정보를 수집함",
+      "link": "https://news.hada.io/topic?id=37327&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-17T01:33:54+00:00",
+      "summary": "Windows의 MissionControlAggregator.dll 은 기존 시스템 이벤트에서 코딩 에이전트와 개발 도구 사용 여부를 감지해 로컬에 저장하고 진단 보고서를 생성함 보고서는 개발 도구 범주 12개, CLI 에이전트 4개, 데스크톱 에이전트 5개 의 관찰 여부를 비트맵으로 기록함. 조사한 보고서에서는 프롬프트나 소스 코드가 발견되지 않았음 선택적 진단 데이터 를 허용하면 해당 보고서가 Microsoft 전송 대기열에 들어가는 것을 확인함. 테스트한 미국 지역 Windows 11 Home 설치에서는 이 설정이 기본으로 켜져 있었음 테스트한 Windows 11 ARM6 …",
+      "fetched_at": "2026-11-17T08:36:36.888664+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "61",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=2,tools_agents=16,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 16,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "에이전트",
+            "cli"
+          ],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "cli",
+        "프롬프트"
+      ],
+      "detail_slug": "0c8101c29e8a023133cf6710e1486784d8cad417",
+      "is_english_source": false,
+      "sent_at": "2026-11-17T08:37:25.413272+00:00"
+    },
+    {
+      "id": "6a5df2ecb769ec833c045769a61f7bbb64672105",
+      "title_hash": "a7fe67b7e34af179dddbf2fec706ca438e6ddec4",
+      "source": "GeekNews",
+      "title": "AVA - AI 에이전트용 데이터 분석 및 시각화 프레임워크",
+      "link": "https://news.hada.io/topic?id=37317&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-17T00:30:02+00:00",
+      "summary": "앱이나 AI 에이전트에 자연어로 데이터를 분석하고 차트를 만드는 기능 을 붙이는 JavaScript 프레임워크 “1월과 2월 매출을 제품별로 비교해 줘”라고 물으면 SQL을 생성해 실행하고, 결과 데이터와 요약 을 반환. 실행한 쿼리도 확인할 수 있음 CSV, Excel, Parquet 파일과 PostgreSQL, MySQL 등 을 연결하고, 파일과 DB의 데이터를 한 쿼리에서 함께 분석 열 구조와 결측치를 살펴보고 할인 후 금액을 매출로 본다 같은 업무 기준을 분석에 반영. 데이터에서 살펴볼 만한 질문도 제안 분석 결과와 질문에 맞춰 차트 유형을 추천 하고, 앱 …",
+      "fetched_at": "2026-11-17T08:36:36.888664+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "postgres",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "postgres",
+        "sql"
+      ],
+      "detail_slug": "6a5df2ecb769ec833c045769a61f7bbb64672105",
+      "is_english_source": false,
+      "sent_at": "2026-11-17T08:37:25.413272+00:00"
+    },
+    {
+      "id": "337d7340916164d98084b81dece3428935631cf4",
+      "title_hash": "2e819c91c19b481f8b970ae481c65098600d93e4",
+      "source": "GeekNews",
+      "title": "화학은 사실 기하학이다",
+      "link": "https://news.hada.io/topic?id=37336&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-17T04:35:21+00:00",
+      "summary": "화학 반응 네트워크 이론 은 추정하기 어려운 수많은 반응 속도 상수 대신 네트워크 구조와 기하학을 이용해 농도 변화와 평형의 성질을 판단함 화학종을 좌표축으로, 반응을 벡터로 표현하면 농도 궤적이 움직일 수 있는 화학양론적 적합류 를 구할 수 있으며, 평형점은 이 영역과 평형점 집합의 교점에 놓임 결핍도 0 정리 는 복합체 수, 연결류 수, 반응 벡터 공간의 차원만으로 특정 조건에서 양의 평형점 존재 여부와 개수를 결정함 결핍도가 0이고 약가역적 인 네트워크에 질량 작용 동역학을 적용하면 각 양의 화학양론적 적합류에 평 …",
+      "fetched_at": "2026-11-17T08:36:36.888664+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단"
+      ],
+      "detail_slug": "337d7340916164d98084b81dece3428935631cf4",
+      "is_english_source": false,
+      "sent_at": "2026-11-17T08:37:25.413272+00:00"
+    },
+    {
+      "id": "36eea8022a8b7f1a1173df62aaa550585844bd22",
+      "title_hash": "f86939bbd73c5d03af101ce14703aed1d66ed1d4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Zigzag, a native Mac browser for people leaving Arc",
+      "link": "https://github.com/ZigaoWang/zigzag",
+      "published_at": "2026-11-14T13:17:10+00:00",
+      "summary": "HN story type: story HN points: 25 HN comments: 7 HN post text: Hello HN! I am Zigao, a high school student from Shanghai. I am new to HN so hello to y’all! I used Arc everyday, and I never had any issues with it. So when The Browser Company announced that they will shut down Arc on Dec 22 I was devastated. I don’t want to switch back to boring tabs along the top. Everything else i’ve tried is either a Chromium fork or an AI integrated browser that I don’t want. Therefore, I’ve been building my own browser for the last three weeks. Its name is Zigzag, a free and open source Mac browser that works just like Arc, written in Swift and based on WebKit. It is lightweight and fast. Zigzag has: - The stuff you missed from Arc (obviously, that’s the point)... - Import from Arc (or any other browser) brings everything (your spaces, pins, history, passwords, cookies, etc) - Chrome extension support! Even though its based on WebKit, you can install them from the Chrome Web Store. Extensions such as 1Password, Bitwarden, dark reader, Return Youtube Dislike, Tampermonkey all work) And most importantly: - Privacy: no account, no telemetry, no analytics - Free and open source: no one can shut it down, anyone can contribute and fork their own copy! - It’s t... HN top comments: ma101an: I used the browser for a while. I love it. It's \"really\" snappy. I can actually feel it, after using chromium for a while. Idk if Safari feels faster, but I am accustomed to the UX of Arc, so the same UX, to me, feels lot faster in Zigzag. So it's definitely a plus. Really I cannot overstate how fast/responsive it is. So smooth, no jank (I have 16GB M4 Air, when using Arc I can definitely see a small jank when ope... NetOpWibby: Every Arc clone lacks the one feature I miss the most and that’s the Portrait mode. Arc takes a screenshot of the current page in a minimal chrome wrapper and includes your desktop wallpaper. I noticed you have a file size comparison against common browsers but the one I’ve been using on the side is Search[1]; you browser is 18 MB, Search clocks in at 10.2 MB. [1]: https://searchbrowser.app HelloUsername: Related: \"Search – A small, fast WebKit browser for macOS\" 24.sep.2026 https://news.ycombinator.com/item?id=49828120 32 comments",
+      "fetched_at": "2026-11-17T08:36:36.888664+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50496787",
+      "hn_story_type": "story",
+      "hn_points": "25",
+      "hn_comments_count": "7",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50496787",
+      "hn_item_text": "Hello HN! I am Zigao, a high school student from Shanghai. I am new to HN so hello to y’all! I used Arc everyday, and I never had any issues with it. So when The Browser Company announced that they will shut down Arc on Dec 22 I was devastated. I don’t want to switch back to boring tabs along the top. Everything else i’ve tried is either a Chromium fork or an AI integrated browser that I don’t want. Therefore, I’ve been building my own browser for the last three weeks. Its name is Zigzag, a free and open source Mac browser that works just like Arc, written in Swift and based on WebKit. It is lightweight and fast. Zigzag has: - The stuff you missed from Arc (obviously, that’s the point)... - Import from Arc (or any other browser) brings everything (your spaces, pins, history, passwords, cookies, etc) - Chrome extension support! Even though its based on WebKit, you can install them from the Chrome Web Store. Extensions such as 1Password, Bitwarden, dark reader, Return Youtube Dislike, Tampermonkey all work) And most importantly: - Privacy: no account, no telemetry, no analytics - Free and open source: no one can shut it down, anyone can contribute and fork their own copy! - It’s t...",
+      "hn_comment_preview": "ma101an: I used the browser for a while. I love it. It's \"really\" snappy. I can actually feel it, after using chromium for a while. Idk if Safari feels faster, but I am accustomed to the UX of Arc, so the same UX, to me, feels lot faster in Zigzag. So it's definitely a plus. Really I cannot overstate how fast/responsive it is. So smooth, no jank (I have 16GB M4 Air, when using Arc I can definitely see a small jank when ope...\nNetOpWibby: Every Arc clone lacks the one feature I miss the most and that’s the Portrait mode. Arc takes a screenshot of the current page in a minimal chrome wrapper and includes your desktop wallpaper. I noticed you have a file size comparison against common browsers but the one I’ve been using on the side is Search[1]; you browser is 18 MB, Search clocks in at 10.2 MB. [1]: https://searchbrowser.app\nHelloUsername: Related: \"Search – A small, fast WebKit browser for macOS\" 24.sep.2026 https://news.ycombinator.com/item?id=49828120 32 comments",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=12,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "open source",
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "extension"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "open source",
+        "show hn",
+        "github.com"
+      ],
+      "detail_slug": "36eea8022a8b7f1a1173df62aaa550585844bd22",
+      "is_english_source": true,
+      "sent_at": "2026-11-17T08:37:25.413272+00:00"
+    },
+    {
+      "id": "c50aa91ba2932e6a83a3b13aa7ee61b093af0518",
+      "title_hash": "2c4bce0fb3c3392e05fcd6e060d3d3f91b4f42c8",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Grazing sheep in fields with solar arrays",
+      "link": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+      "published_at": "2026-11-16T17:27:46+00:00",
+      "summary": "HN story type: story HN points: 263 HN comments: 251 HN top comments: dogscatstrees: There's a stretch in California Interstate 5 near the town of Coalinga where you will see acres and acres of cows baking under the naked sun in the summertime and they huddle next to each other to find a brief relief of nonexistent protection from the searing sun. You just wonder why their owners cannot come up with a single idea on how to give them shade. It's cruelty. thelastgallon: There are lots of use cases for solar with livestock and livestock + agriculture. China has fish farms with solar, reflection from water increases efficiency by 5%: https://www.youtube.com/watch?v=MgQVV0_75j0 Livestock need shade, and grass doesn't need continuous shade grows better in shade in most tropical climates. If its too hot, grass dies off. Livestock also need ACs when temperatures reach 50+ centigrade, w... cprayingmantis: The introduction of solar is something that my rural Appalachian county has dealt with recently. There was considerable pushback from the 60+ crowd and NIMBY types just like there is for everything new and different, but we got three permitted and are waiting on them to begin construction. The thing that got me was there was a lot of people that just made whatever argument they could to try and stop it. All kinds...",
+      "fetched_at": "2026-11-17T08:36:36.888664+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50520182",
+      "hn_story_type": "story",
+      "hn_points": "263",
+      "hn_comments_count": "251",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50520182",
+      "hn_item_text": "",
+      "hn_comment_preview": "dogscatstrees: There's a stretch in California Interstate 5 near the town of Coalinga where you will see acres and acres of cows baking under the naked sun in the summertime and they huddle next to each other to find a brief relief of nonexistent protection from the searing sun. You just wonder why their owners cannot come up with a single idea on how to give them shade. It's cruelty.\nthelastgallon: There are lots of use cases for solar with livestock and livestock + agriculture. China has fish farms with solar, reflection from water increases efficiency by 5%: https://www.youtube.com/watch?v=MgQVV0_75j0 Livestock need shade, and grass doesn't need continuous shade grows better in shade in most tropical climates. If its too hot, grass dies off. Livestock also need ACs when temperatures reach 50+ centigrade, w...\ncprayingmantis: The introduction of solar is something that my rural Appalachian county has dealt with recently. There was considerable pushback from the 60+ crowd and NIMBY types just like there is for everything new and different, but we got three permitted and are waiting on them to begin construction. The thing that got me was there was a lot of people that just made...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=6,tools_agents=12,strategy_insight=4,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 12,
+        "strategy_insight": 4,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli"
+      ],
+      "detail_slug": "c50aa91ba2932e6a83a3b13aa7ee61b093af0518",
+      "is_english_source": true,
+      "sent_at": "2026-11-17T08:37:25.413272+00:00"
+    },
+    {
+      "id": "99171bc9ed9cf2c944b80e2fe8f749d0456ef6d7",
+      "title_hash": "07c260795b035e9cb3f5dbbf8e7793e5355cb769",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Test/verification technique effectiveness with Astra",
+      "link": "https://danluu.com/astra-testing/",
+      "published_at": "2026-11-16T07:33:51+00:00",
+      "summary": "HN story type: story HN points: 33 HN comments: 6 HN top comments: kooi: Nice post. Good motivation to look more at formal verification. There was that Aristotle post today which seems like a prompt driven, plug and play verifier using lean. Makes me think that LLM assisted formal requirements generation for a roll your own \"Aristotle\" is possible. Just thinking about our own projects in the signal processing domain. A nice path could be: human language -> temporal logic specs for blac... reedf1: The really powerful thing you've done here is begin to create a taxonomy of agent patterns. Given we are pretty much all engineers in this space; I am shocked at the lack of engineering taking place. People are picking patterns they find intuitive; for various invented reasons, this is fine in the beginning, but we need to start objectively measuring their performance. It needs to be said that there are an infinit... ArtRichards: I use what I would say is a TDD skill, but I couldn't find anywhere in the article what you meant by TDD? How did you prompt it to use TDD? Why was it less effective? I feel targeted ;)",
+      "fetched_at": "2026-11-17T08:36:36.888664+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50515035",
+      "hn_story_type": "story",
+      "hn_points": "33",
+      "hn_comments_count": "6",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50515035",
+      "hn_item_text": "",
+      "hn_comment_preview": "kooi: Nice post. Good motivation to look more at formal verification. There was that Aristotle post today which seems like a prompt driven, plug and play verifier using lean. Makes me think that LLM assisted formal requirements generation for a roll your own \"Aristotle\" is possible. Just thinking about our own projects in the signal processing domain. A nice path could be: human language -> temporal logic specs for blac...\nreedf1: The really powerful thing you've done here is begin to create a taxonomy of agent patterns. Given we are pretty much all engineers in this space; I am shocked at the lack of engineering taking place. People are picking patterns they find intuitive; for various invented reasons, this is fine in the beginning, but we need to start objectively measuring their performance. It needs to be said that there are an infinit...\nArtRichards: I use what I would say is a TDD skill, but I couldn't find anywhere in the article what you meant by TDD? How did you prompt it to use TDD? Why was it less effective? I feel targeted ;)",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=11,strategy_insight=9,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 11,
+        "strategy_insight": 9,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "performance"
+          ],
+          "support_hits": [
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [
+            "prompt",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "signal"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "testing"
+      ],
+      "detail_slug": "99171bc9ed9cf2c944b80e2fe8f749d0456ef6d7",
+      "is_english_source": true,
+      "sent_at": "2026-11-17T08:37:25.413272+00:00"
+    },
+    {
+      "id": "5d7a46882e164bc456c047408f72331075756856",
+      "title_hash": "5e75e96ff3a482878b52b6deaf022ca1098124d5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "link": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "published_at": "2026-11-16T23:00:34+00:00",
+      "summary": "HN story type: story HN points: 306 HN comments: 131 HN top comments: stickfigure: The whole concept of Google Tag Manager was that you could give marketing departments the ability to add \"tags\" to the website without having to involve engineering. That's how we got 10MB of javascript with every news article. I hope folks are re-evaluating that now. 0x68: Optimizely is slowly dying ever since they forced new customers into their DXP/Saas solution. Optimizely, or Episerver as it was previously called, was such a pleasure to work on - but since version 13 they more or less vendor locked you into their own authentication (Opti ID / Entra AD (?)) and their Optimizely Graph for search and content look up. You can keep self-hosting but you won't get access to Opti Id or... mcoliver: This stuff is so avoidable but unless we implement meaningful reprocussions things aren't going to change. There is no accountability. In this case optimizely should have had better systems to spot a release like this (internal cool downs, check and balances, phased rolouts, automatic security checks). And sites that have massive user bases (cnn, bbc, etc..) have zero excuse to not have the same. I would go so far...",
+      "fetched_at": "2026-11-17T08:36:36.888664+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50524767",
+      "hn_story_type": "story",
+      "hn_points": "306",
+      "hn_comments_count": "131",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50524767",
+      "hn_item_text": "",
+      "hn_comment_preview": "stickfigure: The whole concept of Google Tag Manager was that you could give marketing departments the ability to add \"tags\" to the website without having to involve engineering. That's how we got 10MB of javascript with every news article. I hope folks are re-evaluating that now.\n0x68: Optimizely is slowly dying ever since they forced new customers into their DXP/Saas solution. Optimizely, or Episerver as it was previously called, was such a pleasure to work on - but since version 13 they more or less vendor locked you into their own authentication (Opti ID / Entra AD (?)) and their Optimizely Graph for search and content look up. You can keep self-hosting but you won't get access to Opti Id or...\nmcoliver: This stuff is so avoidable but unless we implement meaningful reprocussions things aren't going to change. There is no accountability. In this case optimizely should have had better systems to spot a release like this (internal cool downs, check and balances, phased rolouts, automatic security checks). And sites that have massive user bases (cnn, bbc, etc..) have zero excuse to not have the same. I would go so far...",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "36",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=12,practical_tech=9,tools_agents=-2,strategy_insight=2,industry_business=12",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": -2,
+        "strategy_insight": 2,
+        "industry_business": 12
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 12,
+          "strong_hits": [
+            "customers",
+            "release"
+          ],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "customers",
+        "release",
+        "market"
+      ],
+      "detail_slug": "5d7a46882e164bc456c047408f72331075756856",
+      "is_english_source": true,
+      "sent_at": "2026-11-17T08:37:25.413272+00:00"
+    },
+    {
       "id": "36a4aef431b2ac0f974bf031b7de8c80b82e08e6",
       "title_hash": "5a65608f335957c13e45dba74bc3c6eeeeabceab",
       "source": "GeekNews",
@@ -165365,608 +165950,6 @@
       "detail_slug": "db17ba08b0266f3d45a9928ede6f32b8a1c5d906",
       "is_english_source": false,
       "sent_at": "2026-05-22T14:42:16.630784+00:00"
-    },
-    {
-      "id": "c608bdd955112114c901d5850d5aa11a9fff4c86",
-      "title_hash": "84a05d078dae945ba909ee3bff89a6002b795a50",
-      "source": "GeekNews",
-      "title": "AI는 그저 더 큰 규모의 무단 표절이다",
-      "link": "https://news.hada.io/topic?id=29751",
-      "published_at": "2026-05-22T00:42:38+00:00",
-      "summary": "AI 는 원저자의 동의 여부와 무관하게 입력물을 가져가 학습 하고, 그 결과를 판매하면서 원저자에게 보상하지 않음 AI 회사(및 AI 도구들) 의 고객도 프롬프트로 처리한 결과물을 다시 다른 고객에게 팔아, 인터넷 전반에서 복사된 것들로",
-      "fetched_at": "2026-05-22T14:39:32.201688+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "프롬프트"
-      ],
-      "detail_slug": "c608bdd955112114c901d5850d5aa11a9fff4c86",
-      "is_english_source": false,
-      "sent_at": "2026-05-22T14:42:16.630784+00:00"
-    },
-    {
-      "id": "b1e6c1e7e34f04d9f0888050f1fe47256cfd504c",
-      "title_hash": "2e8189f3095cd377ce3bf61b90f02c8f20126ffc",
-      "source": "GeekNews",
-      "title": "공격적인 AI 스크래퍼가 위키 운영을 꽤 힘들게 만들고 있음",
-      "link": "https://news.hada.io/topic?id=29744",
-      "published_at": "2026-05-22T00:17:48+00:00",
-      "summary": "AI 스크래퍼 트래픽은 공개 위키의 비용과 안정성을 흔들며, 완화하지 않으면 인간 활동 전체보다 약 10배 많은 컴퓨팅 자원을 쓸 수 있음 봇은 GPTBot 같은 식별 가능한 User Agent를 넘어 최신 Chrome 처럼 헤더를 꾸미고, 하루 100만 개 IP를 돌리는 주거용 프록...",
-      "fetched_at": "2026-05-22T14:39:32.201688+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agent"
-      ],
-      "detail_slug": "b1e6c1e7e34f04d9f0888050f1fe47256cfd504c",
-      "is_english_source": false,
-      "sent_at": "2026-05-22T14:42:16.630784+00:00"
-    },
-    {
-      "id": "20f32a0d23996c98c3bb676c96df2d3a785760ec",
-      "title_hash": "242e7899c6392270cad658fa7148480cfee011ec",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark",
-      "link": "https://modelrift.com/blog/openscad-llm-benchmark/",
-      "published_at": "2026-05-22T10:38:26+00:00",
-      "summary": "HN story type: story HN points: 163 HN comments: 67 HN top comments: jhot: Last weekend I bought my wife a bike off marketplace. It was in good condition but was missing one of the internal cable routing grommets. I gave Claude pictures of the pill-shaped hole by itself and with my digital calipers in the long and short directions. Gave it a short prompt and it gave me an openscad model with everything parametrized. I printed with no changes in tpu and it was nearly perfect on the first... mellosouls: Antigravity may well Top the whatever benchmark but: My Antigravity (forced) replacement for Gemini CLI requires me to log on via browser every time I use it, and my Antigravity IDE won't update at all, so: If it's ok I'd prefer they just work on reaching a baseline acceptable rollout before worrying about being Top in anything. Ps actual title: OpenSCAD LLM Benchmark: Building the Pantheon ponyous: I've run a tons of benchmarks for OpenSCAD for all kinds of models and setups, and what I realised is: - Models are very jagged (might excel in one type of 3d model, but not another) - Gemini models are the least jagged in my experience and have the best image understanding - Gemini models are also the most creative (which may be undesirable if you want precise CAD part) - Overall this benchmark doesn't prove much...",
-      "fetched_at": "2026-05-22T14:39:32.201688+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48234090",
-      "hn_story_type": "story",
-      "hn_points": "163",
-      "hn_comments_count": "67",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48234090",
-      "hn_item_text": "",
-      "hn_comment_preview": "jhot: Last weekend I bought my wife a bike off marketplace. It was in good condition but was missing one of the internal cable routing grommets. I gave Claude pictures of the pill-shaped hole by itself and with my digital calipers in the long and short directions. Gave it a short prompt and it gave me an openscad model with everything parametrized. I printed with no changes in tpu and it was nearly perfect on the first...\nmellosouls: Antigravity may well Top the whatever benchmark but: My Antigravity (forced) replacement for Gemini CLI requires me to log on via browser every time I use it, and my Antigravity IDE won't update at all, so: If it's ok I'd prefer they just work on reaching a baseline acceptable rollout before worrying about being Top in anything. Ps actual title: OpenSCAD LLM Benchmark: Building the Pantheon\nponyous: I've run a tons of benchmarks for OpenSCAD for all kinds of models and setups, and what I realised is: - Models are very jagged (might excel in one type of 3d model, but not another) - Gemini models are the least jagged in my experience and have the best image understanding - Gemini models are also the most creative (which may be undesirable if you want...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=9,tools_agents=17,strategy_insight=2,industry_business=3",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 17,
-        "strategy_insight": 2,
-        "industry_business": 3
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "benchmark"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 17,
-          "strong_hits": [
-            "ide",
-            "cli",
-            "llm"
-          ],
-          "support_hits": [
-            "prompt",
-            "setup"
-          ],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 3,
-          "strong_hits": [
-            "rollout"
-          ],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli",
-        "llm",
-        "prompt",
-        "setup"
-      ],
-      "detail_slug": "20f32a0d23996c98c3bb676c96df2d3a785760ec",
-      "is_english_source": true,
-      "translated_title": "Antigravity 2.0, OpenSCAD 건축 3D 벤치마크 선두",
-      "short_summary": "Antigravity 2.0가 OpenSCAD 기반 건축 3D 모델 생성 벤치마크에서 최고 성능을 기록했다. 다만 HN에서는 벤치마크의 대표성과 실제 제품 완성도는 별개라는 반응도 적지 않았다.",
-      "why_it_matters": "생성형 AI가 코드 작성 보조를 넘어 파라메트릭 3D 모델 초안까지 맡기 시작했다는 점에서 실무자들이 눈여겨볼 만한 흐름이다. 특히 OpenSCAD처럼 코드로 형상을 다루는 환경에서는 설계 반복 속도가 더 빨라질 수 있다.\n- 사진과 치수만으로 부품 초안을 뽑아 바로 출력해 보는 식의 작업이 한층 현실에 가까워졌다. 간단한 보수 부품이나 맞춤형 파츠 제작에서 체감 변화가 클 수 있다.\n- 건축형 3D 벤치마크 1위라는 결과는 모델 선택 기준에 영향을 준다. CAD 자동화나 설계 보조 도구를 검토하는 팀이라면 후보군을 다시 볼 이유가 생긴다.\n- 다만 벤치마크 성적만으로 현업 투입을 결정하긴 이르다. 형상 종류에 따라 성능 편차가 크고, 정밀한 부품 설계에서는 창의성보다 예측 가능성이 더 중요하다는 점이 같이 제기됐다.",
-      "hn_reaction_summary": "댓글 분위기는 기대와 견제가 함께 섞여 있다. AI가 OpenSCAD 모델을 꽤 그럴듯하게 뽑아 준 실제 경험담이 주목을 받았지만, 벤치마크 우승만으로 제품 역량을 단정하기 어렵다는 반론도 반복됐다.\n- 긍정 쪽에서는 사진과 캘리퍼 치수만으로 자전거 부품용 파라메트릭 모델을 거의 수정 없이 출력했다는 사례가 나왔다. 실용성이 이미 보이기 시작했다는 반응이다.\n- 회의적인 쪽에서는 모델이 과제별 편차가 크고, 특정 유형의 3D 모델에만 강할 수 있어 벤치마크 하나로 일반화하면 안 된다고 봤다.\n- 또 다른 축의 불만은 제품 완성도였다. 로그인 흐름이나 IDE 업데이트 같은 기본 사용성이 먼저 안정돼야 한다는 지적이 적지 않았다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-22T14:42:16.630784+00:00"
-    },
-    {
-      "id": "ebf8488930360c5d3ce249fba962aef384a2b545",
-      "title_hash": "f0f1d89f956b113993ec4820a2e65e988fac5f05",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: ShadowCat – file transfer through QR Codes in a Browser",
-      "link": "https://github.com/unprovable/ShadowCat",
-      "published_at": "2026-05-22T11:11:43+00:00",
-      "summary": "HN story type: story HN points: 52 HN comments: 21 HN top comments: divan: This method of animated QR data transfer is quite efficient with fountain codes. I had PoC implementation back in the day - Txqr [1] [2] [1] https://divan.dev/posts/animatedqr/ [2] https://divan.dev/posts/fountaincodes/ Recently I rewrote it in Dart/Flutter and finally implemented RaptorQ codes (way more efficient than Luby used in original Txqr). Testing it internally now, prepareing Appstores/GooglePlay/Web depl... lukew3: You should turn on github pages so we can see it live. Seems cool but I’m not at my pc rn anhldbk: I also implemented a static web with that idea: https://github.com/anhldbk/get-beam",
-      "fetched_at": "2026-05-22T14:39:32.201688+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48234287",
-      "hn_story_type": "story",
-      "hn_points": "52",
-      "hn_comments_count": "21",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48234287",
-      "hn_item_text": "",
-      "hn_comment_preview": "divan: This method of animated QR data transfer is quite efficient with fountain codes. I had PoC implementation back in the day - Txqr [1] [2] [1] https://divan.dev/posts/animatedqr/ [2] https://divan.dev/posts/fountaincodes/ Recently I rewrote it in Dart/Flutter and finally implemented RaptorQ codes (way more efficient than Luby used in original Txqr). Testing it internally now, prepareing Appstores/GooglePlay/Web depl...\nlukew3: You should turn on github pages so we can see it live. Seems cool but I’m not at my pc rn\nanhldbk: I also implemented a static web with that idea: https://github.com/anhldbk/get-beam",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=10,strategy_insight=10,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 10,
-        "strategy_insight": 10,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [
-            "implementation",
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [
-            "prepare"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "how + prepare"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "show hn",
-        "implementation",
-        "testing",
-        "github.com"
-      ],
-      "detail_slug": "ebf8488930360c5d3ce249fba962aef384a2b545",
-      "is_english_source": true,
-      "translated_title": "ShadowCat: 브라우저에서 QR 코드로 파일 전송하기",
-      "short_summary": "ShadowCat은 브라우저에서 연속 QR 코드를 띄워 파일을 주고받는 실험적 전송 방식이다. HN에서는 애니메이션 QR의 전송 효율과 오류 정정 방식, 그리고 실제로 써볼 수 있는 데모 공개 여부에 관심이 모였다.",
-      "why_it_matters": "브라우저와 카메라만으로 파일을 옮긴다는 점이 이 프로젝트의 핵심이다. 완성된 제품 소개라기보다, 설치 부담이 적은 전송 경로를 웹에서 어디까지 구현할 수 있는지 보여주는 사례에 가깝다.\n- 일반적인 공유 수단을 쓰기 어렵거나 번거로운 환경에서 대체 전송 방식으로 검토할 만한 아이디어를 던진다.\n- 실무 관점에서는 QR 프레임 속도, 카메라 인식률, 오류 정정 코드가 성능을 가르는 포인트로 보인다.\n- 웹 기반이라 배포 장벽은 낮지만, 파일 크기가 커질수록 전송 시간과 안정성 문제가 바로 현실적인 한계로 드러난다.",
-      "hn_reaction_summary": "댓글 분위기는 호기심과 구현 경험 공유 쪽에 가까웠다. 단순히 신기한 데모로 소비하기보다, 실제 전송 효율을 어떻게 끌어올릴지에 관심이 모였다.\n- 애니메이션 QR에 fountain code나 RaptorQ 같은 오류 정정 기법을 붙이면 효율이 꽤 좋아진다는 경험담이 나왔다.\n- 직접 시험해 보고 싶다는 반응이 있어 라이브 데모나 GitHub Pages를 열어 달라는 요청이 반복됐다.\n- 비슷한 오픈소스 구현도 함께 언급되면서, 아이디어 자체보다 속도와 안정성을 어떻게 비교할지가 읽을 만한 논점으로 떠올랐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-22T14:42:16.630784+00:00"
-    },
-    {
-      "id": "969f5b8d9e17b7a53d394596d1c4f41a81e3be98",
-      "title_hash": "3d490b9744f6807621ed179ef186bbe50f21d9d6",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The AI Elephant in the Room",
-      "link": "https://www.joshwcomeau.com/email/wham-launch-005-elephant-2-p/",
-      "published_at": "2026-05-22T13:22:42+00:00",
-      "summary": "HN story type: story HN points: 70 HN comments: 70 HN top comments: Waterluvian: I had an Iron Man moment last week where I was “vibe coding” a UI design with component tests live on the other screen. Iterating by asking it to move things, reduce emphasis of an element, exploring layout options, etc. The loop was near realtime and felt amazing. The code it generated was awful. The kind of garbage that people who don’t know any better would ship: it looked right and it worked. But it was instan... rob74: I agree with more or less everything in the article. \"Agentic coding\" is great, but you still need to have a good grasp of the overall architecture of your application, and actually check what the agent does, to get the best results. The problem is just that the question is not whether \"human developers will be necessary in the near future\", it's \" how many human developers will be needed in the near future\" - man... xnx: An \"elephant in the room\" is a big topic that no one is talking about. Everyone is talking about AI. Better headline: \"Why AI Multiplies Developer Skills Rather Than Replacing Them\"",
-      "fetched_at": "2026-05-22T14:39:32.201688+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48235526",
-      "hn_story_type": "story",
-      "hn_points": "70",
-      "hn_comments_count": "70",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48235526",
-      "hn_item_text": "",
-      "hn_comment_preview": "Waterluvian: I had an Iron Man moment last week where I was “vibe coding” a UI design with component tests live on the other screen. Iterating by asking it to move things, reduce emphasis of an element, exploring layout options, etc. The loop was near realtime and felt amazing. The code it generated was awful. The kind of garbage that people who don’t know any better would ship: it looked right and it worked. But it was instan...\nrob74: I agree with more or less everything in the article. \"Agentic coding\" is great, but you still need to have a good grasp of the overall architecture of your application, and actually check what the agent does, to get the best results. The problem is just that the question is not whether \"human developers will be necessary in the near future\", it's \" how many human developers will be needed in the near future\" - man...\nxnx: An \"elephant in the room\" is a big topic that no one is talking about. Everyone is talking about AI. Better headline: \"Why AI Multiplies Developer Skills Rather Than Replacing Them\"",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=9,tools_agents=15,strategy_insight=12,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 15,
-        "strategy_insight": 12,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "architecture"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "agentic"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 12,
-          "strong_hits": [],
-          "support_hits": [
-            "future",
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "future + work"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "launch"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agentic",
-        "agent",
-        "ai + coding"
-      ],
-      "detail_slug": "969f5b8d9e17b7a53d394596d1c4f41a81e3be98",
-      "is_english_source": true,
-      "translated_title": "개발 현장의 방 안의 코끼리, AI",
-      "short_summary": "이 글은 AI 코딩 도구가 개발 생산성을 크게 끌어올리지만, 구조를 판단하고 결과를 검증하는 사람의 역할은 더 또렷해진다고 본다. 쟁점은 대체 여부보다 앞으로 몇 명의 개발자가 필요해지느냐다.",
-      "why_it_matters": "AI 코딩은 이제 실험 단계보다 운영 방식의 문제에 가까워졌다. 빠른 시안 제작과 반복은 쉬워졌지만, 그 결과물을 제품 수준으로 끌어올리는 책임은 오히려 더 선명해지고 있다.\n- 화면 구성이나 테스트 초안은 훨씬 빨리 만들 수 있다. 대신 설계 기준 없이 붙이면 유지보수 비용이 뒤늦게 커질 수 있다.\n- 팀에서 필요한 역량도 달라진다. 코드를 처음부터 많이 쓰는 사람보다, 구조를 잡고 산출물을 검토하는 사람이 더 큰 차이를 만든다.\n- 채용과 역할 분담에도 영향이 간다. 단순 구현 인력 수요는 흔들릴 수 있지만, 아키텍처 판단과 품질 통제 역량은 더 비싸질 가능성이 크다.",
-      "hn_reaction_summary": "HN 반응은 대체로 \"AI는 분명 유용하지만 그대로 믿고 배포하면 위험하다\"는 쪽에 모였다. 열광과 경계가 함께 있었고, 실무 감각이 드러나는 댓글이 많았다.\n- 긍정론자들은 UI 시안, 레이아웃 탐색, 테스트를 곁들인 빠른 반복에서 AI의 체감 효용이 매우 크다고 봤다.\n- 회의론자들은 겉보기엔 돌아가도 내부 코드 품질이 나쁘면 결국 사람이 다시 읽고 고쳐야 한다는 점을 반복해서 짚었다.\n- 논점은 \"개발자가 사라지느냐\"보다 \"같은 일을 하는 데 필요한 개발자 수가 줄어드느냐\"로 옮겨가고 있다는 의견이 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-22T14:42:16.630784+00:00"
-    },
-    {
-      "id": "0146c5da032c1af99537a8339e3727b7c8863877",
-      "title_hash": "5d695a26f11a8d26133617f8310834810a1f4ced",
-      "source": "GeekNews",
-      "title": "agentmemory - AI 코딩 에이전트용 영구 메모리 시스템",
-      "link": "https://news.hada.io/topic?id=29754",
-      "published_at": "2026-05-22T00:46:01+00:00",
-      "summary": "AI 코딩 에이전트가 세션이 끝나면 잊어버리는 문제를 해결 도구 사용을 백그라운드에서 자동 캡처·압축, 다음 세션 시작 시 컨텍스트 주입 매 세션마다 스택·아키텍처 재설명 필요 없음 , 내장 메모리(CLAUDE.md)의 200줄 한계와 stale 문제 해소 Claude Code, Cu...",
-      "fetched_at": "2026-05-22T10:26:47.025647+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "67",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=22,practical_tech=2,tools_agents=22,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 22,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "아키텍처"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 22,
-          "strong_hits": [
-            "claude code",
-            "에이전트"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "아키텍처"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "에이전트",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "0146c5da032c1af99537a8339e3727b7c8863877",
-      "is_english_source": false,
-      "sent_at": "2026-05-22T10:30:13.711703+00:00"
-    },
-    {
-      "id": "996159b514e6a22fa680f4d5ace6bf56b830d17c",
-      "title_hash": "fda758bc8791e8beb40eb1acb394d53b5438ae2f",
-      "source": "GeekNews",
-      "title": "Firefox의 Web Serial 지원 발표",
-      "link": "https://news.hada.io/topic?id=29761",
-      "published_at": "2026-05-22T06:03:44+00:00",
-      "summary": "Firefox 151 데스크톱 부터 Web Serial API를 지원해 웹 앱이 네이티브 소프트웨어 없이 호환 직렬 장치와 통신할 수 있음 Web Serial 은 JavaScript로 직렬 장치를 읽고 쓰는 API로, 마이크로컨트롤러·3D 프린터·전력계 등에 직접 연결 가능함 Adafruit 워...",
-      "fetched_at": "2026-05-22T10:26:47.025647+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "996159b514e6a22fa680f4d5ace6bf56b830d17c",
-      "is_english_source": false,
-      "sent_at": "2026-05-22T10:30:13.711703+00:00"
     }
   ],
   "topic_digests": {
