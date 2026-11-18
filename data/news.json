@@ -1,6 +1,485 @@
 {
   "items": [
     {
+      "id": "026d13c332f70414072250626afd5dab31ba1778",
+      "title_hash": "d0d39c41153b89c65aa855573136bf22a5eed69b",
+      "source": "GeekNews",
+      "title": "Harvard 연구진, AI 코딩 에이전트가 병목을 코드 리뷰로 옮겼음을 확인",
+      "link": "https://news.hada.io/topic?id=37405&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T09:48:07+00:00",
+      "summary": "하버드 연구진이 655개 기업, 근로자 720,542명 의 업무 데이터를 분석함. AI 코딩 에이전트 도입 후 코드 작성량은 44.0% 증가 했지만, 실제 배포까지 완료한 작업의 증가 폭은 훨씬 작았음 완료한 Jira 이슈는 13.7%, 대규모 프로젝트나 기능을 나타내는 에픽은 18.0% 증가 했으나, 두 추정치 모두 통계적 유의성 기준에는 조금 못 미쳤음 PR 제출부터 병합까지 걸리는 시간은 56.1% 증가 함. 리뷰를 기다리는 시간뿐 아니라 실제 리뷰가 진행되는 시간도 길어졌고, PR당 리뷰 댓글은 38.6% 늘어남 이미 AI 코딩 보조 도구를 쓰던 기업에 에 …",
+      "fetched_at": "2026-11-18T13:07:36.085643+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "58",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=13,practical_tech=2,tools_agents=9,strategy_insight=13,industry_business=-2",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 13,
+        "industry_business": -2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "코드 리뷰",
+            "병목"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [
+            "코드 리뷰"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "코드 리뷰",
+        "병목"
+      ],
+      "detail_slug": "026d13c332f70414072250626afd5dab31ba1778",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T13:08:35.082133+00:00"
+    },
+    {
+      "id": "9ec28da7cada40f5c25d4fd57f28910a812b3f66",
+      "title_hash": "01d26698c56c31031f2e8f169fad826701ed7ba6",
+      "source": "GeekNews",
+      "title": "Show GN: Clippy HTML - Clippy의 진단을 정적 웹페이지로 바꿔주는 도구",
+      "link": "https://news.hada.io/topic?id=37406&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T10:08:50+00:00",
+      "summary": "Clippy의 경고를 rustdoc 스타일의 정적 웹페이지로 바꿔주는 도구입니다. 터미널에서 Clippy 경고를 읽는 게 불편하다 느껴 만들었습니다. 주요 기능은 다음과 같습니다. 한 화면에서 어떤 진단이 얼마나 나왔는지 확인 진단을 클릭해서 소스코드로 이동 검색 수정안을 diff로 확인 이 프로젝트의 코드에 이 도구를 사용해 만든 보고서 가 게시되어 있으니, 설치 없이 도구 형태를 확인해보실 수 있습니다. 사용 방법 cargo install cargo-clippy-html --locked cargo clippy-html --open cargo binstall도 사용 가능하며, 사용하시면서 …",
+      "fetched_at": "2026-11-18T13:07:36.085643+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=7,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli"
+      ],
+      "detail_slug": "9ec28da7cada40f5c25d4fd57f28910a812b3f66",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T13:08:35.082133+00:00"
+    },
+    {
+      "id": "bd28ad2124f6a290e5c1f9069b2bbd5e330e94bc",
+      "title_hash": "d8ea96a23fe2a0b253a615d8b53f170500dd7eab",
+      "source": "GeekNews",
+      "title": "USN-9131-1: CRaC JDK 25 vulnerabilities",
+      "link": "https://news.hada.io/topic?id=37395&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T05:43:01+00:00",
+      "summary": "Ubuntu Security Notices 의 USN-9131-1 글임. 게시일은 2026년 11월 17일이라고 함. CRaC JDK 25 에서 보안 문제 몇 건이 고쳐졌다고 함. 보안 수정 외에 버그 수정, 새 기능, 그리고 호환되지 않을 수 있는 변경도 패키지에 들어 있다고 함. 이 업데이트는 새 업스트림 릴리스를 쓰고, 추가 버그 수정도 들어 있다고 함. 일반 시스템 업데이트를 한 뒤 실행 중인 Java 애플리케이션을 다시 시작해야 필요한 변경이 모두 적용된다고 함.",
+      "fetched_at": "2026-11-18T13:07:36.085643+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security"
+      ],
+      "detail_slug": "bd28ad2124f6a290e5c1f9069b2bbd5e330e94bc",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T13:08:35.082133+00:00"
+    },
+    {
+      "id": "c4629651f540ff2976ce9f97350c765f03de31c7",
+      "title_hash": "f5db3e6874c7777e59e1b25917388dbd3d4870ad",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "link": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+      "published_at": "2026-11-18T04:14:04+00:00",
+      "summary": "HN story type: story HN points: 158 HN comments: 82 HN top comments: tristanj: It's pretty obvious that Gemini 4 Carbon is not token efficient. It also has relatively low tokens-per-second compared to other models. I can think of several reasons why this is the case: 1. Google has huge amounts of cash and compute. Their goal was to train a model that that has the highest quality & frontier performance, not create a model that's efficient to run and serve. They have other models for that, lik... horacemorace: I was just using this one today for some coding tinkering and it was super slow. But the way it solves problems with a light touch while still driving toward sensible architecture is refreshing after claude’s bulldozer attitude. It was able to integrate repeated creeping scope nicely with what it had already done. Very different feel than sonnet/opus, and even gemini 3.8. hetspookjee: Might be the only one in the thread but ever since Gemini 4 Argon. I’ve become a huge fan of the Google models. I do use Carbon most of the time since it’s become available but notice that i also am falling back more and more on Argon again without much difference. For security purposes argon has far fewer triggers. I only use the Google models as orchestrator for how they talk and analyse. I let it delegate every...",
+      "fetched_at": "2026-11-18T13:07:36.085643+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50541790",
+      "hn_story_type": "story",
+      "hn_points": "158",
+      "hn_comments_count": "82",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50541790",
+      "hn_item_text": "",
+      "hn_comment_preview": "tristanj: It's pretty obvious that Gemini 4 Carbon is not token efficient. It also has relatively low tokens-per-second compared to other models. I can think of several reasons why this is the case: 1. Google has huge amounts of cash and compute. Their goal was to train a model that that has the highest quality & frontier performance, not create a model that's efficient to run and serve. They have other models for that, lik...\nhoracemorace: I was just using this one today for some coding tinkering and it was super slow. But the way it solves problems with a light touch while still driving toward sensible architecture is refreshing after claude’s bulldozer attitude. It was able to integrate repeated creeping scope nicely with what it had already done. Very different feel than sonnet/opus, and even gemini 3.8.\nhetspookjee: Might be the only one in the thread but ever since Gemini 4 Argon. I’ve become a huge fan of the Google models. I do use Carbon most of the time since it’s become available but notice that i also am falling back more and more on Argon again without much difference. For security purposes argon has far fewer triggers. I only use the Google models as orchestrator f...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=8,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 8,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "architecture",
+            "performance",
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "architecture",
+        "performance",
+        "security"
+      ],
+      "detail_slug": "c4629651f540ff2976ce9f97350c765f03de31c7",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T13:08:35.082133+00:00"
+    },
+    {
+      "id": "ac8645bf302ce6f8f31c7904ed412678f76ea0c9",
+      "title_hash": "d1fafde40e7324ff21f0ab670002de02f8f044c0",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "350 years ago, Ole Rømer discovered that light has a finite speed",
+      "link": "https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969",
+      "published_at": "2026-11-17T19:25:27+00:00",
+      "summary": "HN story type: story HN points: 355 HN comments: 117 HN top comments: goache: I created a web comic based on this measurement! https://randomlyunique.com/plancky/2018/roemers-speed-of-lig... martinclayton: There's a charming small museum just (west) outside Copenhagen, that used to be the Ole Rømer Museum, worth considering for a visit if you are nearby. Site ( https://kroppedal.dk/astronomi/ ) is only in Danish, rough translation of part: \"The museum is situated just a stone's throw from the astronomer Ole Rømer’s Observatorium Tusculanum, where the world’s first meridian circle was built—marking the beginning of a... kstrauser: I don’t quite understand this. The length of the eclipse would be the same, right? Or was it more like that the eclipse ended 10 minutes earlier on the wall clock than expected? I guess what would surprise me about that is: 1. I didn’t know clocks were that good by then to make that reliably measurable. 2. I didn’t realize clocks of the time could measure the period of the eclipse that accurately. Like say one too...",
+      "fetched_at": "2026-11-18T13:07:36.085643+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50536813",
+      "hn_story_type": "story",
+      "hn_points": "355",
+      "hn_comments_count": "117",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50536813",
+      "hn_item_text": "",
+      "hn_comment_preview": "goache: I created a web comic based on this measurement! https://randomlyunique.com/plancky/2018/roemers-speed-of-lig...\nmartinclayton: There's a charming small museum just (west) outside Copenhagen, that used to be the Ole Rømer Museum, worth considering for a visit if you are nearby. Site ( https://kroppedal.dk/astronomi/ ) is only in Danish, rough translation of part: \"The museum is situated just a stone's throw from the astronomer Ole Rømer’s Observatorium Tusculanum, where the world’s first meridian circle was built—marking the beginning of a...\nkstrauser: I don’t quite understand this. The length of the eclipse would be the same, right? Or was it more like that the eclipse ended 10 minutes earlier on the wall clock than expected? I guess what would surprise me about that is: 1. I didn’t know clocks were that good by then to make that reliably measurable. 2. I didn’t realize clocks of the time could measure the period of the eclipse that accurately. Like say one too...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli"
+      ],
+      "detail_slug": "ac8645bf302ce6f8f31c7904ed412678f76ea0c9",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T13:08:35.082133+00:00"
+    },
+    {
+      "id": "28b9e56db1b5feafbe74c3a1684407f60ca55178",
+      "title_hash": "5a641ea88ff36cd0dde87444d838e5d0b31b6b44",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Energy-Based Reasoners: 385x more efficient inference",
+      "link": "https://energy-based-reasoners.github.io/",
+      "published_at": "2026-11-18T09:29:32+00:00",
+      "summary": "HN story type: story HN points: 122 HN comments: 17 HN top comments: Topfi: Recommend checking out Logical Intelligence, chaired by among others Yann LeCun, for more context on EBMs [0]. Has great potential in areas that LLMs traditionally do not perform that well in and, because they want to show the advantages of EBMs, also tends to be a great source of examples LLMs struggle with, like primary school level maths and counting (while ironically providing Millennium level Lean proofs). Do... program_whiz: A clarifying way to think about this for sudoku: For every clue, mark the probability of sampling its number in the row/col to zero. Also mark the probability of selecting a \"clue cell\" for modification to 0. Pick a random cell for modification, based on its \"energy\" (higher energy get modified first): 1. Every conflicting cell gets energy +1.0 (try to resolve conflicts before new empty cells). E.g. two 7s on the... xgk: The paper does not seem to define what Energy-Based means. The paper says: \"EBMs learn a scalar function that assigns an energy to a candidate prediction given an input.\" What codomain do those learned scalar function have? I guess real numbers? But is \"Energy\" just a synonym for the reals?",
+      "fetched_at": "2026-11-18T13:07:36.085643+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50543989",
+      "hn_story_type": "story",
+      "hn_points": "122",
+      "hn_comments_count": "17",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50543989",
+      "hn_item_text": "",
+      "hn_comment_preview": "Topfi: Recommend checking out Logical Intelligence, chaired by among others Yann LeCun, for more context on EBMs [0]. Has great potential in areas that LLMs traditionally do not perform that well in and, because they want to show the advantages of EBMs, also tends to be a great source of examples LLMs struggle with, like primary school level maths and counting (while ironically providing Millennium level Lean proofs). Do...\nprogram_whiz: A clarifying way to think about this for sudoku: For every clue, mark the probability of sampling its number in the row/col to zero. Also mark the probability of selecting a \"clue cell\" for modification to 0. Pick a random cell for modification, based on its \"energy\" (higher energy get modified first): 1. Every conflicting cell gets energy +1.0 (try to resolve conflicts before new empty cells). E.g. two 7s on the...\nxgk: The paper does not seem to define what Energy-Based means. The paper says: \"EBMs learn a scalar function that assigns an energy to a candidate prediction given an input.\" What codomain do those learned scalar function have? I guess real numbers? But is \"Energy\" just a synonym for the reals?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "inference"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "inference"
+      ],
+      "detail_slug": "28b9e56db1b5feafbe74c3a1684407f60ca55178",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T13:08:35.082133+00:00"
+    },
+    {
       "id": "322a845f52682427c449fceeb50534ea0700fbdf",
       "title_hash": "f4701b5ea9dc648ffe0113c4d6bdb4295427a832",
       "source": "GeekNews",
@@ -165458,486 +165937,6 @@
       "hn_reaction_summary": "댓글 분위기는 대체로 반기는 쪽이었다. 다만 단순한 추억팔이보다는 DOS의 역사적 위치, 그리고 종이 자료를 되살린 복원 과정에 더 의미를 두는 반응이 많았다.\n- \"뜻밖이지만 고맙다\"는 식의 호의적 반응이 눈에 띄었고, DOS가 IBM 계약을 여는 계기였다는 해석이 반복됐다.\n- DOS보다 BASIC 공개가 더 본질적이라는 의견도 나왔다. 초기 MS를 운영체제 회사보다 개발자 도구 회사로 보는 시선이 반영된 반응이다.\n- 종이 프린트에서 다시 OCR로 복원했다는 대목에 놀랐다는 댓글이 많았다. 코드 내용만큼 보존과 아카이빙 자체가 큰 화제로 읽혔다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-24T04:36:36.307929+00:00"
-    },
-    {
-      "id": "f0494cbe06060c1dbfc33635f0e6c25451441d36",
-      "title_hash": "48f8937cecc4ff786bf93fdc05d7cac42c78f1b0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "API proposed by Chrome: Declarative partial updates",
-      "link": "https://developer.chrome.com/blog/declarative-partial-updates",
-      "published_at": "2026-05-24T00:16:14+00:00",
-      "summary": "HN story type: story HN points: 18 HN comments: 1",
-      "fetched_at": "2026-05-24T04:27:56.316381+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48252957",
-      "hn_story_type": "story",
-      "hn_points": "18",
-      "hn_comments_count": "1",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48252957",
-      "hn_item_text": "",
-      "hn_comment_preview": "",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "developer."
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api",
-        "developer."
-      ],
-      "detail_slug": "f0494cbe06060c1dbfc33635f0e6c25451441d36",
-      "is_english_source": true,
-      "sent_at": "2026-05-24T04:36:36.307929+00:00"
-    },
-    {
-      "id": "594e6e25fba7eeafeb60495207f243fb57536da9",
-      "title_hash": "7df7f0a34723d5266d20ecea3dcfec8a43d3c357",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Wake up! 16b",
-      "link": "https://hellmood.111mb.de/wake_up_16b_writeup.html",
-      "published_at": "2026-05-24T00:30:50+00:00",
-      "summary": "HN story type: story HN points: 97 HN comments: 6 HN top comments: gnabgib: Discussion (209 points, 6 days ago, 34 comments) https://news.ycombinator.com/item?id=48173962 3form: Some other time, I really thought that a 32 byte demo I saw is the limit of how small the binary can get and still look good. That other demo didn't even have sound. This is hell of a good work. A masterpiece to retire after. (or more realistically, chase it on other architectures) kennywinker: Definitely thought this was a 16b parameter llm, not a 16 byte demo.",
-      "fetched_at": "2026-05-24T04:27:56.316381+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48253060",
-      "hn_story_type": "story",
-      "hn_points": "97",
-      "hn_comments_count": "6",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48253060",
-      "hn_item_text": "",
-      "hn_comment_preview": "gnabgib: Discussion (209 points, 6 days ago, 34 comments) https://news.ycombinator.com/item?id=48173962\n3form: Some other time, I really thought that a 32 byte demo I saw is the limit of how small the binary can get and still look good. That other demo didn't even have sound. This is hell of a good work. A masterpiece to retire after. (or more realistically, chase it on other architectures)\nkennywinker: Definitely thought this was a 16b parameter llm, not a 16 byte demo.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "architecture"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture"
-      ],
-      "detail_slug": "594e6e25fba7eeafeb60495207f243fb57536da9",
-      "is_english_source": true,
-      "translated_title": "‘Wake up! 16b’ 16바이트 데모 화제",
-      "short_summary": "Hacker News에서 16바이트 데모 ‘Wake up! 16b’가 화제를 모았다. 이 작은 크기로 시각 효과와 사운드까지 담아냈다는 점에 감탄이 이어졌다.",
-      "why_it_matters": "초경량 데모 하나가 다시 주목받은 이유는 단순한 기록 경쟁이 아니라, 극단적인 제약 안에서도 구현력과 최적화 감각이 여전히 통한다는 점을 보여주기 때문이다.\n- 16바이트 안에서 결과물을 성립시켰다는 반응은 코드 압축, 플랫폼 이해, 저수준 최적화가 아직도 강한 차별점이라는 뜻이다.\n- 임베디드, 게임, 웹 성능처럼 자원 제약이 큰 실무에서는 이런 감각이 번들 크기, 로딩 속도, 실행 효율로 바로 이어진다.\n- 제목을 LLM로 오해한 반응도 나와, 기술 콘텐츠에서는 네이밍과 맥락 설명이 독자의 이해를 크게 좌우한다.",
-      "hn_reaction_summary": "HN 반응은 대체로 감탄 쪽에 가까웠다. 특히 ‘이 정도 크기로 어디까지 보여줄 수 있나’라는 데모씬의 미학이 다시 살아났다는 분위기다.\n- 32바이트 정도가 사실상 한계라고 봤는데 그보다 더 작게 인상적인 결과를 냈다는 평가가 나왔다.\n- 사운드까지 들어갔다는 점이 눈길을 끌었다. 단순한 코드 골프를 넘어 완성된 작품으로 봤다는 반응이다.\n- 한편 일부는 제목의 16b를 LLM 파라미터 규모로 착각했다. 현재 HN 독자층의 관심이 AI 쪽에 강하게 쏠려 있다는 점도 드러났다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T04:36:36.307929+00:00"
-    },
-    {
-      "id": "f4a702acc92fe6316b27d87c85187f2aeba4e79f",
-      "title_hash": "268404bb70c0c7e667102797013ca2f732b4c22a",
-      "source": "GeekNews",
-      "title": "Antigravity 2.0, OpenSCAD 건축 3D LLM 벤치마크에서 1위",
-      "link": "https://news.hada.io/topic?id=29796",
-      "published_at": "2026-05-23T12:48:15+00:00",
-      "summary": "OpenSCAD Pantheon 벤치마크 는 참고 이미지 2장과 짧은 프롬프트만으로 AI 코딩 도구가 건축물을 파라메트릭 CAD 코드로 구현하는지 시험함 Google Antigravity 2.0 / Gemini 3.5 Flash High 는 품질 4.5/5로 최고점을 받았고, 실제 Pantheon 치수·비문·내부 코퍼 천...",
-      "fetched_at": "2026-05-24T00:16:14.340025+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=2,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "프롬프트"
-      ],
-      "detail_slug": "f4a702acc92fe6316b27d87c85187f2aeba4e79f",
-      "is_english_source": false,
-      "sent_at": "2026-05-24T00:19:34.923949+00:00"
-    },
-    {
-      "id": "da0890d7d52c6181ca486964f3eac7eb8bffa435",
-      "title_hash": "6971cad8a81a5b43837f595e010d84f62e81f243",
-      "source": "GeekNews",
-      "title": "직접 만들지 말라 …",
-      "link": "https://news.hada.io/topic?id=29811",
-      "published_at": "2026-05-24T00:03:15+00:00",
-      "summary": "Don't Roll Your Own ... 원칙은 암호화뿐 아니라 웹 UI에도 적용되며, 브라우저가 이미 안정적으로 제공하는 기능을 불필요하게 대체하지 않아야 함 자체 스크롤, 링크 처리, 텍스트 선택, 복사·붙여넣기 같은 기본 동작 대체 는 익숙한 입력 반응을 깨뜨려 사용자...",
-      "fetched_at": "2026-05-24T00:16:14.340025+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "원칙"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "원칙"
-      ],
-      "detail_slug": "da0890d7d52c6181ca486964f3eac7eb8bffa435",
-      "is_english_source": false,
-      "sent_at": "2026-05-24T00:19:34.923949+00:00"
-    },
-    {
-      "id": "55e8b36e971723ef17755980153f0be34fdc5034",
-      "title_hash": "64a00b9b236779887750e541a4015f6b31048834",
-      "source": "GeekNews",
-      "title": "영주권 신청자는 미국을 떠나 신청해야 한다고 Trump 행정부가 밝힘",
-      "link": "https://news.hada.io/topic?id=29810",
-      "published_at": "2026-05-23T22:34:43+00:00",
-      "summary": "Trump 행정부는 대부분의 영주권 신청자 에게 미국 내 신청 대신 본국 귀국 후 해외 영사 절차를 요구하려 함 USCIS 메모는 미국 내 영주권 부여를 “ 특별한 사정 ”으로 제한하려 하지만, 예외 대상은 공개되지 않음 변화 대상은 임시 비자로 합법 입국한 ...",
-      "fetched_at": "2026-05-24T00:16:14.340025+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "55e8b36e971723ef17755980153f0be34fdc5034",
-      "is_english_source": false,
-      "sent_at": "2026-05-24T00:19:34.923949+00:00"
-    },
-    {
-      "id": "807260983340fb8974bae035f89c5a2caf9c8a55",
-      "title_hash": "9b0b6957ba0f4446709f9039059f856b512f2745",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Bun.Image",
-      "link": "https://bun.com/docs/runtime/image",
-      "published_at": "2026-05-23T22:57:51+00:00",
-      "summary": "HN story type: story HN points: 24 HN comments: 9 HN top comments: furyofantares: This looks like one of the better pieces of LLM-output documentation I've seen. It's bad technical writing, but better than most of what I've seen come out of an LLM. --------------- Pre-empting the \"how can you tell\", here's some of the tells. > The API is shaped after Sharp: Constantly using \"shaped\" and \"shape\" is becoming an LLM-ism, much more common than in human writing. > The constructor accepts a path, byt... simonw: I really like this. Having image manipulation as a core standard library feature rather than an optional package makes complete sense to me for a web development platform in 2026. It's not like image manipulation is a poorly understood problem or a fast-moving field. wxw: > The API is shaped after Sharp: construct from an input, chain transforms, pick an output format, then await a terminal method. ( https://sharp.pixelplumbing.com/ ) Good! I like the pipeline workflow.",
-      "fetched_at": "2026-05-24T00:16:14.340025+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48252442",
-      "hn_story_type": "story",
-      "hn_points": "24",
-      "hn_comments_count": "9",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48252442",
-      "hn_item_text": "",
-      "hn_comment_preview": "furyofantares: This looks like one of the better pieces of LLM-output documentation I've seen. It's bad technical writing, but better than most of what I've seen come out of an LLM. --------------- Pre-empting the \"how can you tell\", here's some of the tells. > The API is shaped after Sharp: Constantly using \"shaped\" and \"shape\" is becoming an LLM-ism, much more common than in human writing. > The constructor accepts a path, byt...\nsimonw: I really like this. Having image manipulation as a core standard library feature rather than an optional package makes complete sense to me for a web development platform in 2026. It's not like image manipulation is a poorly understood problem or a fast-moving field.\nwxw: > The API is shaped after Sharp: construct from an input, chain transforms, pick an output format, then await a terminal method. ( https://sharp.pixelplumbing.com/ ) Good! I like the pipeline workflow.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=14,strategy_insight=2,industry_business=-2",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 14,
-        "strategy_insight": 2,
-        "industry_business": -2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "runtime",
-            "api"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "workflow",
-            "llm"
-          ],
-          "support_hits": [
-            "workflow"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [
-            "runtime"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "runtime",
-        "api",
-        "library"
-      ],
-      "detail_slug": "807260983340fb8974bae035f89c5a2caf9c8a55",
-      "is_english_source": true,
-      "translated_title": "Bun.Image, Bun 표준 기능이 된 이미지 처리",
-      "short_summary": "Bun이 이미지 처리 기능을 표준 기능으로 내놓은 점이 주목받았다. HN에서는 Sharp를 닮은 파이프라인 API는 반겼지만 문서는 AI가 쓴 듯 어색하다는 지적이 나왔다.",
-      "why_it_matters": "웹 런타임 안으로 이미지 처리가 더 깊게 들어오면 서버 측 리사이즈와 포맷 변환 같은 작업 흐름이 단순해질 수 있다. 특히 Sharp에 익숙한 팀이라면 적응 비용이 낮다는 점이 바로 실무 포인트로 읽힌다.\n- 별도 패키지에 크게 기대지 않고 런타임 차원에서 이미지 처리를 다루려는 흐름이 힘을 얻고 있다.\n- API가 Sharp식 체이닝에 가깝다면 기존 Node 이미지 파이프라인을 옮기거나 병행 운영할 때 학습 부담을 줄일 수 있다.\n- 반대로 문서 완성도가 낮으면 도입 초기에 팀 내부 검증과 예제 확보가 더 필요하다는 뜻이기도 하다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이지만 문서 품질을 두고는 날카로운 반응이 나왔다. 기능 자체의 방향성은 좋게 보면서도 실제 도입 판단은 문서 신뢰도와 사용감에 달렸다는 흐름이 보인다.\n- 긍정 쪽에서는 이미지 처리를 웹 개발 플랫폼의 기본 기능으로 넣는 발상이 납득된다는 반응이 나왔다.\n- Sharp와 비슷한 파이프라인 스타일은 익숙하고 손에 잘 잡힌다는 평가가 반복됐다.\n- 부정 쪽에서는 문장 표현이 지나치게 AI 문체 같고 기술 문서로서 다듬어지지 않았다는 지적이 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T00:19:34.923949+00:00"
     }
   ],
   "topic_digests": {
