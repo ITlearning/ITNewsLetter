@@ -1,6 +1,595 @@
 {
   "items": [
     {
+      "id": "322a845f52682427c449fceeb50534ea0700fbdf",
+      "title_hash": "f4701b5ea9dc648ffe0113c4d6bdb4295427a832",
+      "source": "GeekNews",
+      "title": "Show GN: Claude Code와 Codex를 한 화면에서 관리하는 macOS 개발 도구를 만들었습니다",
+      "link": "https://news.hada.io/topic?id=37400&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T07:00:32+00:00",
+      "summary": "안녕하세요. 개인적으로 개발하면서 불편했던 점을 해결하려고 codeme라는 데스크톱 앱을 만들었습니다. Claude Code나 Codex를 여러 개 실행하다 보면 터미널도 많아지고, 어떤 에이전트가 어떤 파일을 수정했는지 확인하기 번거롭더라고요. 그래서 Git worktree를 기반으로 에이전트마다 독립적인 작업 공간을 만들고, 진행 상황과 코드 변경 사항을 한 화면에서 확인할 수 있도록 구현했습니다. 주요 기능은 다음과 같습니다. Claude Code / Codex 멀티 에이전트 실행 Git worktree 생성 및 관리 에이전트가 변경한 코드만 따로 확인 …",
+      "fetched_at": "2026-11-18T09:02:40.473862+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "75",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=2,tools_agents=30,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 30,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 30,
+          "strong_hits": [
+            "claude code",
+            "worktree",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "worktree",
+        "codex",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "322a845f52682427c449fceeb50534ea0700fbdf",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T09:03:26.264476+00:00"
+    },
+    {
+      "id": "138556cbb7473e6bc798f35825f42e310798d594",
+      "title_hash": "c4108c5eb4449e8199be28a3bdd23838ec08ee66",
+      "source": "GeekNews",
+      "title": "Show GN: 고객이 직접 문자를 보내는(MO) 방식의 휴대폰 번호 인증 API (웹 SDK 출시)",
+      "link": "https://news.hada.io/topic?id=37398&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T06:02:33+00:00",
+      "summary": "예전에 \"고객이 직접 문자를 보내는(MO) 방식의 휴대폰 인증 API\"로 소개했던 옥토모입니다. 그사이 QR 인증 과 웹 SDK 가 추가되어 다시 공유합니다. 현재 1,000개가 넘는 애플리케이션이 연동해 쓰고 있고, 여러 기업의 서비스에서 실제 회원가입 인증에 사용되고 있습니다. 옥토모가 뭔가요 기존 SMS 인증(MT): 서비스가 사용자에게 인증 문자를 발송합니다. 건당 9~50원에 월 기본료가 붙고, 계약·심사에 1~2주가 걸리기도 합니다. 옥토모(MO): 사용자가 자기 휴대폰으로 지정된 번호(1666-3538)에 인증코드를 문자로 보내고, 서비스는 …",
+      "fetched_at": "2026-11-18T09:02:40.473862+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "53",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=8,practical_tech=8,tools_agents=4,strategy_insight=-1,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 8,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 8,
+          "strong_hits": [
+            "sdk",
+            "api"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [
+            "주가"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sdk",
+        "api",
+        "코드"
+      ],
+      "detail_slug": "138556cbb7473e6bc798f35825f42e310798d594",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T09:03:26.264476+00:00"
+    },
+    {
+      "id": "994ffe7398a2da6cb63bd52354c7a36415d5f4b7",
+      "title_hash": "0bd395cf90b7fb473fbb16db04c754efb9371b0a",
+      "source": "GeekNews",
+      "title": "IRS 로그인에 요구되는 ID.me 약관 동의",
+      "link": "https://news.hada.io/topic?id=37391&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T04:38:59+00:00",
+      "summary": "IRS 온라인 서비스에 ID.me로 로그인하는 납세자 는 민간 업체인 ID.me의 약관을 적용받음. 다만 IRS는 정부가 운영하는 Login.gov 로그인도 지원함 ID.me 약관은 소액사건을 제외한 분쟁을 원칙적으로 개별 중재 로 처리하며, 배심재판과 집단소송을 포기하도록 함. 최초 동의 후 30일 이내 적용 제외 를 신청할 수 있음 개인정보처리방침은 마케팅 활용과 기업 거래에 따른 정보 이전 을 허용함. 다만 정부 신원확인에 제공한 정보를 ID.me Shop 마케팅에 사용하는 데는 동의나 별도로 열거한 예외 조건이 필요함 계정을 폐쇄해도 계정 및 …",
+      "fetched_at": "2026-11-18T09:02:40.473862+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "52",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=0,strategy_insight=5,industry_business=7",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": 5,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "원칙"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "소송"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "소송",
+        "기업"
+      ],
+      "detail_slug": "994ffe7398a2da6cb63bd52354c7a36415d5f4b7",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T09:03:26.264476+00:00"
+    },
+    {
+      "id": "3a66b9cfe9df740535f0f841def781fbfb0ad46c",
+      "title_hash": "cbc869ffb82f46b17397e5dfd79baf89df4212ca",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "ID.me terms required for IRS sign-in",
+      "link": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+      "published_at": "2026-11-18T00:51:45+00:00",
+      "summary": "HN story type: story HN points: 345 HN comments: 148 HN top comments: bborrez: It is impossible to sign up for ID.me if you do not use a smartphone. I know a person who is in this situation who has bonds in Treasury Direct that they now apparently cannot cash out. It's absolutely nuts that a federal agency partnered with a disreputable third party that operates in this manner. The federal government says that all agencies need to offer logins via login.gov within two years [1]. For everyone'... jasonriddle: Just a heads up, not sure when this changed, but it looks like you can login to irs.gov using login.gov. See https://sa.www4.irs.gov/ola foresto: For anyone trying to leave TreasuryDirect because of ID.me: (Note the certified letter option in the third paragraph.) \"We will close your account at your request if there are no security holdings, you have no pending purchases, and if there is no tax information for the current year in it. After 24 months with no activities or securities purchased/held within your account the system automatically closes the accou...",
+      "fetched_at": "2026-11-18T09:02:40.473862+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50540437",
+      "hn_story_type": "story",
+      "hn_points": "345",
+      "hn_comments_count": "148",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50540437",
+      "hn_item_text": "",
+      "hn_comment_preview": "bborrez: It is impossible to sign up for ID.me if you do not use a smartphone. I know a person who is in this situation who has bonds in Treasury Direct that they now apparently cannot cash out. It's absolutely nuts that a federal agency partnered with a disreputable third party that operates in this manner. The federal government says that all agencies need to offer logins via login.gov within two years [1]. For everyone'...\njasonriddle: Just a heads up, not sure when this changed, but it looks like you can login to irs.gov using login.gov. See https://sa.www4.irs.gov/ola\nforesto: For anyone trying to leave TreasuryDirect because of ID.me: (Note the certified letter option in the third paragraph.) \"We will close your account at your request if there are no security holdings, you have no pending purchases, and if there is no tax information for the current year in it. After 24 months with no activities or securities purchased/held within your account the system automatically closes the accou...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "security",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "rag"
+      ],
+      "detail_slug": "3a66b9cfe9df740535f0f841def781fbfb0ad46c",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T09:03:26.264476+00:00"
+    },
+    {
+      "id": "ba3abeb3bc29c348403915ff4068c3824c7c857a",
+      "title_hash": "17cecc9963c69e85f87fda074c77a8bcb658efb1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "AI is killing All About Berlin",
+      "link": "https://nicolasbouliane.com/blog/death-by-ai",
+      "published_at": "2026-11-18T06:47:26+00:00",
+      "summary": "HN story type: story HN points: 257 HN comments: 216 HN top comments: jeppester: How do you all feel about the situation? Is it just okay that these humongous companies just took all our work without paying us a dime? Is it okay that they are replacing our jobs with tech that would never have existed had they not taken all that work? (or would have moved slower) Do you feel good supporting these companies by giving them money every month? What do you think will happen if these companies become... adamddev1: People are being conditioned to think that all the answers come from AI, or that AI knows everything. But AI is only getting (inaccurate shadows of) the info from these sources which it is simultaneously working to kill. (Websites like this, StackOverflow, human written code) What happens when there are no more sources and everyone just expects AI to answer everything or write everything? Recursive self-improvemen... helsinkiandrew: It's unfortunate for 'good' website creators/maintainers but many people would prefer an AI summary of multiple peoples views on \"getting a bank account in Germany\" generated from lots sites on the internet than clicking through links of content of unknown quality and possibly outdated information that may just prioritize the banks with the best affiliate commission. [1] https://allaboutberlin.com/guides/best-bank...",
+      "fetched_at": "2026-11-18T09:02:40.473862+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50542705",
+      "hn_story_type": "story",
+      "hn_points": "257",
+      "hn_comments_count": "216",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50542705",
+      "hn_item_text": "",
+      "hn_comment_preview": "jeppester: How do you all feel about the situation? Is it just okay that these humongous companies just took all our work without paying us a dime? Is it okay that they are replacing our jobs with tech that would never have existed had they not taken all that work? (or would have moved slower) Do you feel good supporting these companies by giving them money every month? What do you think will happen if these companies become...\nadamddev1: People are being conditioned to think that all the answers come from AI, or that AI knows everything. But AI is only getting (inaccurate shadows of) the info from these sources which it is simultaneously working to kill. (Websites like this, StackOverflow, human written code) What happens when there are no more sources and everyone just expects AI to answer everything or write everything? Recursive self-improvemen...\nhelsinkiandrew: It's unfortunate for 'good' website creators/maintainers but many people would prefer an AI summary of multiple peoples views on \"getting a bank account in Germany\" generated from lots sites on the internet than clicking through links of content of unknown quality and possibly outdated information that may just prio...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=6,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "guide"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli"
+      ],
+      "detail_slug": "ba3abeb3bc29c348403915ff4068c3824c7c857a",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T09:03:26.264476+00:00"
+    },
+    {
+      "id": "f878e89cb089f51e44d6e1f43ed858dfc4661183",
+      "title_hash": "99ca0913e1654101cb370cb7c386cda0031e813d",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "jQuery 4.1.0",
+      "link": "https://github.com/jquery/jquery/releases/tag/4.1.0",
+      "published_at": "2026-11-17T19:50:40+00:00",
+      "summary": "HN story type: story HN points: 318 HN comments: 164 HN top comments: noduerme: The composability of jQuery has been an inspiration for the way I design my own frameworks and tools. One thing I still regularly use jQuery for, though, that's rarely mentioned, is its event model. You can put a listener on any object, not just things in the DOM. Any data object can trigger an event. This is incredibly powerful for isolating logic from DOM elements and events. A frequent use case is for DOM eleme... hax0ron3: Although jQuery isn't very relevant these days, I still find its pattern of chaining a sequence of methods on a set chosen by a selector to be a beautiful example of going with a language's features. CM30: I'm a tad surprised jQuery still exists, though it's kinda neat it does. Always interesting to see historical projects with less and less modern day relevance get continued like this. And while most of the use cases for jQuery have long since died out with things like classList, querySelector, etc, I do feel there's probably value in a framework that focuses on minor enhancements to a site rather than being the ba...",
+      "fetched_at": "2026-11-18T09:02:40.473862+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50537156",
+      "hn_story_type": "story",
+      "hn_points": "318",
+      "hn_comments_count": "164",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50537156",
+      "hn_item_text": "",
+      "hn_comment_preview": "noduerme: The composability of jQuery has been an inspiration for the way I design my own frameworks and tools. One thing I still regularly use jQuery for, though, that's rarely mentioned, is its event model. You can put a listener on any object, not just things in the DOM. Any data object can trigger an event. This is incredibly powerful for isolating logic from DOM elements and events. A frequent use case is for DOM eleme...\nhax0ron3: Although jQuery isn't very relevant these days, I still find its pattern of chaining a sequence of methods on a set chosen by a selector to be a beautiful example of going with a language's features.\nCM30: I'm a tad surprised jQuery still exists, though it's kinda neat it does. Always interesting to see historical projects with less and less modern day relevance get continued like this. And while most of the use cases for jQuery have long since died out with things like classList, querySelector, etc, I do feel there's probably value in a framework that focuses on minor enhancements to a site rather than being the ba...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "framework"
+          ],
+          "support_hits": [
+            "query"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "framework",
+        "query",
+        "github.com"
+      ],
+      "detail_slug": "f878e89cb089f51e44d6e1f43ed858dfc4661183",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T09:03:26.264476+00:00"
+    },
+    {
+      "id": "10ee2aee60a78c8d66dbd46e7fe07db4c8c38a95",
+      "title_hash": "8bb356ee532eb390b1d77675e1ab1dcb25c774d6",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Interviewed at a YC startup, found out they used my LinkedIn without permission",
+      "link": "https://reddit.com/r/recruitinghell/comments/1xyr6ml/interviewed_at_a_yc_startup_spent_30_hours/",
+      "published_at": "2026-11-18T05:11:30+00:00",
+      "summary": "HN story type: story HN points: 348 HN comments: 84 HN top comments: ifh-hn: Admittedly I have zero experience job hunting in the US startup scene. But if a company I was interviewing for asked for the password to one of my personal accounts I would refuse. Would I do free work for them as well? Probably not. I find it hard to believe this stuff is a thing... dieselgate: It’s weird to visit reddit because I rarely go on now after their login changes—anyway here’s what I perceive to be the crux from the “article”: > During the trial, I connected my personal LinkedIn to their platform. It was a pre-requisite. Other comments make it seem like Author wrote their credentials on a paper or something but it’s not clear from what I understand. It seems like linking the account or somethin... NetOpWibby: The guy should've received at least $3000, right? Surely one of those leads went somewhere. https://standout.work/refer",
+      "fetched_at": "2026-11-18T09:02:40.473862+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50542135",
+      "hn_story_type": "story",
+      "hn_points": "348",
+      "hn_comments_count": "84",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50542135",
+      "hn_item_text": "",
+      "hn_comment_preview": "ifh-hn: Admittedly I have zero experience job hunting in the US startup scene. But if a company I was interviewing for asked for the password to one of my personal accounts I would refuse. Would I do free work for them as well? Probably not. I find it hard to believe this stuff is a thing...\ndieselgate: It’s weird to visit reddit because I rarely go on now after their login changes—anyway here’s what I perceive to be the crux from the “article”: > During the trial, I connected my personal LinkedIn to their platform. It was a pre-requisite. Other comments make it seem like Author wrote their credentials on a paper or something but it’s not clear from what I understand. It seems like linking the account or somethin...\nNetOpWibby: The guy should've received at least $3000, right? Surely one of those leads went somewhere. https://standout.work/refer",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "35",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=11,practical_tech=4,tools_agents=2,strategy_insight=2,industry_business=11",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 11
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 11,
+          "strong_hits": [
+            "startup"
+          ],
+          "support_hits": [
+            "platform",
+            "company",
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "startup",
+        "platform",
+        "company"
+      ],
+      "detail_slug": "10ee2aee60a78c8d66dbd46e7fe07db4c8c38a95",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T09:03:26.264476+00:00"
+    },
+    {
       "id": "c2fb44c52e68c1a91356ab8cafae2ef3253d7ee3",
       "title_hash": "18eb6f4e0d2cd1f1896f3394448fe7165ec85dea",
       "source": "GeekNews",
@@ -165349,591 +165938,6 @@
       "hn_reaction_summary": "댓글 분위기는 대체로 호의적이지만 문서 품질을 두고는 날카로운 반응이 나왔다. 기능 자체의 방향성은 좋게 보면서도 실제 도입 판단은 문서 신뢰도와 사용감에 달렸다는 흐름이 보인다.\n- 긍정 쪽에서는 이미지 처리를 웹 개발 플랫폼의 기본 기능으로 넣는 발상이 납득된다는 반응이 나왔다.\n- Sharp와 비슷한 파이프라인 스타일은 익숙하고 손에 잘 잡힌다는 평가가 반복됐다.\n- 부정 쪽에서는 문장 표현이 지나치게 AI 문체 같고 기술 문서로서 다듬어지지 않았다는 지적이 눈에 띄었다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-24T00:19:34.923949+00:00"
-    },
-    {
-      "id": "9ffb7910d0aebac39b01d250ce90c21e1b806fc2",
-      "title_hash": "fa89d6276c7cafd05bb5a467e796e5417f52e792",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Byrne's Euclid",
-      "link": "https://www.c82.net/euclid/",
-      "published_at": "2026-05-23T22:19:36+00:00",
-      "summary": "HN story type: story HN points: 6 HN comments: 3 HN top comments: WillAdams: A higher tech version is: https://mathcs.clarku.edu/~djoyce/java/elements/elements.htm... Refreeze5224: I took Euclidean geometry in high school, and having a book with colors like this would have made things so much easier to grasp. The color scheme is lovely too, and really makes me consider buying the poster. If you'd have told 15 year old me that I would one day really want a Euclid poster, I'd have called you insane! gnabgib: (2018) At the time (79 points, 12 comments) https://news.ycombinator.com/item?id=18697567 Earlier this year (97 points, 3 months ago, 23 comments) https://news.ycombinator.com/item?id=46867018",
-      "fetched_at": "2026-05-24T00:16:14.340025+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48252146",
-      "hn_story_type": "story",
-      "hn_points": "6",
-      "hn_comments_count": "3",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48252146",
-      "hn_item_text": "",
-      "hn_comment_preview": "WillAdams: A higher tech version is: https://mathcs.clarku.edu/~djoyce/java/elements/elements.htm...\nRefreeze5224: I took Euclidean geometry in high school, and having a book with colors like this would have made things so much easier to grasp. The color scheme is lovely too, and really makes me consider buying the poster. If you'd have told 15 year old me that I would one day really want a Euclid poster, I'd have called you insane!\ngnabgib: (2018) At the time (79 points, 12 comments) https://news.ycombinator.com/item?id=18697567 Earlier this year (97 points, 3 months ago, 23 comments) https://news.ycombinator.com/item?id=46867018",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "cli"
-      ],
-      "detail_slug": "9ffb7910d0aebac39b01d250ce90c21e1b806fc2",
-      "is_english_source": true,
-      "translated_title": "색으로 풀어낸 번의 유클리드",
-      "short_summary": "올리버 번이 색과 도형으로 재구성한 『유클리드』가 HN에 다시 올랐다. 반응은 크지 않았지만, 어려운 개념을 시각적으로 풀어낸 방식이 다시 눈길을 끌었다.",
-      "why_it_matters": "이 이야기는 고전 수학책 소개에 그치지 않는다. 복잡한 내용을 어떻게 더 잘 설명할지 고민하는 실무자에게도 바로 연결되는 사례다.\n- 텍스트만으로는 막히기 쉬운 개념도 색상, 도형, 배치만 바꿔 이해 속도를 끌어올릴 수 있다는 점을 보여준다.\n- 교육 콘텐츠나 기술 문서, 데이터 설명 화면을 만들 때 정보의 정확성 못지않게 시각적 구조 설계가 중요하다는 메시지를 준다.\n- 책, 포스터, 인터랙티브 자료처럼 같은 내용을 여러 형식으로 풀어내는 방식이 실제 사용자 반응을 넓힐 수 있다는 점도 읽힌다.",
-      "hn_reaction_summary": "댓글 수는 많지 않았지만 분위기는 대체로 호의적이었다. 특히 색을 활용한 설명이 학습 부담을 낮춘다는 반응이 반복됐다.\n- 한 댓글은 더 발전된 형태의 대안으로 인터랙티브 유클리드 자료를 소개하며, 정적인 책보다 탐색형 학습이 더 잘 맞을 수 있다는 점을 짚었다.\n- 다른 댓글은 학창 시절 이런 책이 있었다면 기하를 훨씬 쉽게 이해했을 것이라며 색 구성과 디자인 완성도를 높게 평가했다.\n- 예전에도 비슷한 글이 HN에서 여러 차례 관심을 받았다는 언급이 있어, 이 주제가 일시적 화제가 아니라 꾸준히 회자되는 소재라는 점도 드러났다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T00:19:34.923949+00:00"
-    },
-    {
-      "id": "04ad5c7f5f1cbaab894d295c585fcb7ca283b138",
-      "title_hash": "b88c50ccc247c6568a2b7546e3def9a796957dcf",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Anyone interested in a tool helps to explore C++ ASTs",
-      "link": "https://uvic-aurora.github.io/acav-manual/index.html",
-      "published_at": "2026-05-21T19:53:51+00:00",
-      "summary": "HN story type: story HN points: 7 HN comments: 1 HN post text: I built this software to help users who need to do static code analysis for C/C++ codebase. This can help you to explore the ASTs interactively. It can replace the Clang ast dump completely and also you can search the code/ASTs in a structual way. For example you can search a function which matches specific name or number of paremeters. HN top comments: leomicv: This is the repo: https://github.com/uvic-aurora/acav Feel free to leave a comment if you have any questions. Thanks!",
-      "fetched_at": "2026-05-24T00:16:14.340025+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48228106",
-      "hn_story_type": "story",
-      "hn_points": "7",
-      "hn_comments_count": "1",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48228106",
-      "hn_item_text": "I built this software to help users who need to do static code analysis for C/C++ codebase. This can help you to explore the ASTs interactively. It can replace the Clang ast dump completely and also you can search the code/ASTs in a structual way. For example you can search a function which matches specific name or number of paremeters.",
-      "hn_comment_preview": "leomicv: This is the repo: https://github.com/uvic-aurora/acav Feel free to leave a comment if you have any questions. Thanks!",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=4,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 4,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "show hn",
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "show hn",
-        "index"
-      ],
-      "detail_slug": "04ad5c7f5f1cbaab894d295c585fcb7ca283b138",
-      "is_english_source": true,
-      "translated_title": "C/C++ AST를 대화형으로 탐색하는 도구",
-      "short_summary": "C/C++ 정적 분석용으로 AST를 대화형으로 살펴보고 구조 기반으로 검색하는 도구를 소개한 HN 글이다. 작성자는 Clang AST dump를 대신하고 함수명이나 파라미터 수 조건으로 노드를 찾을 수 있다고 설명했다.",
-      "why_it_matters": "C/C++ 코드베이스를 다루는 팀이라면 AST를 텍스트 덤프로만 읽던 흐름에서 한 단계 벗어날 수 있다는 점이 눈에 띈다. 코드 이해와 정적 분석 자동화의 출발점을 더 손에 잡히는 방식으로 바꾸려는 시도다.\n- 대형 레거시 C/C++ 프로젝트에서 함수, 선언, 구조를 조건 검색으로 훑을 수 있어 코드 조사 시간이 줄어들 수 있다.\n- Clang AST dump를 직접 뒤지는 부담이 낮아져 룰 작성이나 리팩터링 후보 탐색을 더 빨리 시작할 여지가 있다.\n- 정적 분석 도구를 직접 만들거나 확장하는 팀이라면 AST 조회 경험이 좋아지는 것만으로도 내부 생산성 차이가 날 수 있다.",
-      "hn_reaction_summary": "아직 반응은 아주 초기 단계다. 포인트 7점에 댓글 1개 수준이라 뜨거운 찬반보다는 작성자가 저장소 링크를 남기고 관심 있는 사람의 피드백을 기다리는 분위기에 가깝다.\n- 현재 공개된 댓글에서는 성능, 정확도, 기존 도구 대비 우위 같은 본격 논쟁은 아직 보이지 않는다.\n- 반복된 논점보다는 '실제로 써볼 저장소가 있다'는 점과 작성자가 질문을 받겠다는 태도가 먼저 드러난다.\n- 실무자라면 댓글 반응보다 저장소 완성도, 검색 표현력, 기존 Clang 기반 워크플로와의 연결성을 직접 확인해보는 편이 낫다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T00:19:34.923949+00:00"
-    },
-    {
-      "id": "c7ad2473ced5f5232c35d061cfea07aa8fd2f661",
-      "title_hash": "19bd226c81a9d0db588dcfadbaeaed93dfc1071f",
-      "source": "GeekNews",
-      "title": "Microsoft, Claude Code 라이선스 취소 시작",
-      "link": "https://news.hada.io/topic?id=29800",
-      "published_at": "2026-05-23T15:46:53+00:00",
-      "summary": "Microsoft 는 12월부터 내부 개발자 수천 명에게 Claude Code 접근을 열었지만, 6개월 만에 확대 흐름을 되돌리고 있음 Claude Code는 프로젝트 매니저·디자이너·기타 직원의 코딩 실험에도 쓰이며 인기를 얻었지만, GitHub Copilot CLI 와 경쟁하게 됨 Mic...",
-      "fetched_at": "2026-05-23T20:03:37.901475+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "70",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=0,tools_agents=25,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 25,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 25,
-          "strong_hits": [
-            "claude code",
-            "copilot",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "copilot",
-        "cli",
-        "claude + code"
-      ],
-      "detail_slug": "c7ad2473ced5f5232c35d061cfea07aa8fd2f661",
-      "is_english_source": false,
-      "sent_at": "2026-05-23T20:08:14.713249+00:00"
-    },
-    {
-      "id": "74e58137beee4872cfc18ad4ac45b30b9a09f9ab",
-      "title_hash": "8621b4b5af83569f41fe92c4f23e727dc05b7cd1",
-      "source": "GeekNews",
-      "title": "Show GN: pi-web - pi coding agent를 브라우저에서 다룰 수 있는 모바일 최적화 오픈소스",
-      "link": "https://news.hada.io/topic?id=29804",
-      "published_at": "2026-05-23T16:17:57+00:00",
-      "summary": "Pi coding agent 라는 cli 기반 바이브 코딩 도구를 웹 브라우저에서 쓸 수 있는 오픈소스입니다. ( 니꼴라스도 추천한 Pi https://youtu.be/PzqRRYHHpbw ) 핸드폰으로 바이브코딩을 하고싶은데 Pi를 브라우저에서 다룰 수 있는...",
-      "fetched_at": "2026-05-23T20:03:37.901475+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "61",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=0,tools_agents=16,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 16,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "coding agent",
-            "cli"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "cli",
-        "agent"
-      ],
-      "detail_slug": "74e58137beee4872cfc18ad4ac45b30b9a09f9ab",
-      "is_english_source": false,
-      "sent_at": "2026-05-23T20:08:14.713249+00:00"
-    },
-    {
-      "id": "abe01b4b99fe8e2655a18b0d0abf37c1cba1addc",
-      "title_hash": "2f7633849412f3ef6a0ae93427fbdb6b399c8eac",
-      "source": "GeekNews",
-      "title": "Deno 2.8",
-      "link": "https://news.hada.io/topic?id=29799",
-      "published_at": "2026-05-23T15:43:54+00:00",
-      "summary": "deno add 와 deno install 이 CLI에서 접두사 없는 패키지 이름을 기본적으로 npm: 패키지로 처리해, 기존 Node 프로젝트에서 npm install · yarn · pnpm install 대신 쓰기 쉬워짐",
-      "fetched_at": "2026-05-23T20:03:37.901475+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cli"
-      ],
-      "detail_slug": "abe01b4b99fe8e2655a18b0d0abf37c1cba1addc",
-      "is_english_source": false,
-      "sent_at": "2026-05-23T20:08:14.713249+00:00"
-    },
-    {
-      "id": "684dc1da9e3483bda39a7d4f0486e9307e202a2e",
-      "title_hash": "35b85ba77e0e6e788e6e244af12297e75d86f7e8",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Making Deep Learning Go Brrrr from First Principles (2022)",
-      "link": "https://horace.io/brrr_intro.html",
-      "published_at": "2026-05-23T11:50:22+00:00",
-      "summary": "HN story type: story HN points: 124 HN comments: 45 HN top comments: marketingan: Deep learning is just glorified linear algebra. Master the progression: Feed-forward CNN RNN LSTM Attention. You don't even need a GPU to understand the climax; Karpathy’s llama2.c implements a full transformer inference engine in just ~300 lines of C using SIMD pragmas for CPU execution. ollin: This post is a classic! Also recommended: Horace also gave a related talk (covering the high-level picture of modern ML Systems) at Jane Street in Dec 2024 https://www.youtube.com/watch?v=139UPjoq7Kw tosh: > in the time that Python can perform a single FLOP, an A100 could have chewed through 9.75 million FLOPS wild",
-      "fetched_at": "2026-05-23T20:03:37.901475+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48246889",
-      "hn_story_type": "story",
-      "hn_points": "124",
-      "hn_comments_count": "45",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48246889",
-      "hn_item_text": "",
-      "hn_comment_preview": "marketingan: Deep learning is just glorified linear algebra. Master the progression: Feed-forward CNN RNN LSTM Attention. You don't even need a GPU to understand the climax; Karpathy’s llama2.c implements a full transformer inference engine in just ~300 lines of C using SIMD pragmas for CPU execution.\nollin: This post is a classic! Also recommended: Horace also gave a related talk (covering the high-level picture of modern ML Systems) at Jane Street in Dec 2024 https://www.youtube.com/watch?v=139UPjoq7Kw\ntosh: > in the time that Python can perform a single FLOP, an A100 could have chewed through 9.75 million FLOPS wild",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=3,strategy_insight=12,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 3,
-        "strategy_insight": 12,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "inference",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 3,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 12,
-          "strong_hits": [
-            "principles",
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "inference",
-        "rag"
-      ],
-      "detail_slug": "684dc1da9e3483bda39a7d4f0486e9307e202a2e",
-      "is_english_source": true,
-      "translated_title": "딥러닝이 왜 그렇게 빨라지는지 바닥부터 이해하기",
-      "short_summary": "딥러닝을 선형대수와 계산 구조 관점에서 차근차근 설명하는 글이 HN에서 다시 주목받았다. 댓글에서는 모델 원리와 하드웨어 성능 차이를 함께 이해하기 좋다는 반응이 많았다.",
-      "why_it_matters": "요즘은 모델 API를 바로 붙여 쓰는 일이 많지만, 성능과 비용 문제는 결국 계산 구조를 얼마나 이해하느냐에서 갈린다. 이 글은 딥러닝을 수학과 시스템 관점에서 함께 묶어 보게 해 준다.\n- 피드포워드에서 CNN, RNN, LSTM, 어텐션으로 이어지는 흐름을 한 번에 잡아줘 학습 순서를 정리하기 좋다.\n- GPU가 없어도 핵심 원리를 따라갈 수 있다는 점이 실무자에게 부담을 낮춘다. 작은 C 구현이나 CPU 실행 예시로도 감을 잡을 수 있다는 반응이 나왔다.\n- Python 코드와 A100 같은 가속기 사이의 성능 격차를 체감하게 해 줘, 병목을 어디서 줄여야 할지 보는 눈을 키우는 데 도움이 된다.",
-      "hn_reaction_summary": "HN 분위기는 대체로 호의적이었다. 오래된 글이지만 지금 다시 읽어도 밀도가 높다는 평가가 많았고, 댓글은 이론보다 구현 감각과 시스템 시야를 함께 챙기는 쪽으로 흘렀다.\n- \"딥러닝은 결국 선형대수의 확장판\"이라는 식으로, 복잡해 보여도 큰 줄기는 단순하다는 반응이 반복됐다.\n- Karpathy의 `llama2.c`처럼 짧은 C 코드로 트랜스포머 추론을 보여 주는 예시가 언급되며, GPU 없이도 구조를 이해할 수 있다는 점이 자주 강조됐다.\n- 한편 Python과 A100의 FLOP 차이를 두고 놀랍다는 반응도 많았다. 모델 이해만이 아니라 실행 환경과 성능 감각까지 같이 봐야 한다는 논점이 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-23T20:08:14.713249+00:00"
-    },
-    {
-      "id": "dfdff2606dcbce684c5f992acb8904e46686ffc6",
-      "title_hash": "889b26b01b5c1ac982da87f83d44034613d0aad1",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "- -dangerously-skip-reading-code",
-      "link": "https://olano.dev/blog/dangerously-skip/",
-      "published_at": "2026-05-23T09:37:16+00:00",
-      "summary": "HN story type: story HN points: 47 HN comments: 61 HN top comments: throwaw12: > my first bet would be specifications and tests You are missing another dimension how easy it would be to migrate if adding new feature hits a ceiling and LLM keeps breaking the system. Imagine all tests are passing and code is confirming the spec, but everything is denormalized because LLM thought this was a nice idea at the beginning since no one mentioned that requirement in the spec. After a while you want to... DavidVoid: > Product owners and engineers could initially collaborate on this spec and on test cases to enforce business rules. Those should be checked into the project repositories along with the implementing code. There would need to be automated pull-request checks verifying not only that tests pass but that code conforms to the spec. This specification, and not the code that materializes it, is what the team would need t... zoogeny: >... my first bet would be specifications ... and tests ... If I had to roll out such a development process today, I’d make a standardized Markdown specification the new unit of knowledge for the software project. I've found that adopting RFC Keywords (e.g. RFC 2119 [1]; MUST, SHOULD, MAY) at least makes the LLM report satisfaction. I'd love to see a proper study on the usage of RFC keywords and their effect on co...",
-      "fetched_at": "2026-05-23T20:03:37.901475+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48246232",
-      "hn_story_type": "story",
-      "hn_points": "47",
-      "hn_comments_count": "61",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48246232",
-      "hn_item_text": "",
-      "hn_comment_preview": "throwaw12: > my first bet would be specifications and tests You are missing another dimension how easy it would be to migrate if adding new feature hits a ceiling and LLM keeps breaking the system. Imagine all tests are passing and code is confirming the spec, but everything is denormalized because LLM thought this was a nice idea at the beginning since no one mentioned that requirement in the spec. After a while you want to...\nDavidVoid: > Product owners and engineers could initially collaborate on this spec and on test cases to enforce business rules. Those should be checked into the project repositories along with the implementing code. There would need to be automated pull-request checks verifying not only that tests pass but that code conforms to the spec. This specification, and not the code that materializes it, is what the team would need t...\nzoogeny: >... my first bet would be specifications ... and tests ... If I had to roll out such a development process today, I’d make a standardized Markdown specification the new unit of knowledge for the software project. I've found that adopting RFC Keywords (e.g. RFC 2119 [1]; MUST, SHOULD, MAY) at least makes the LLM report sat...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "business"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm"
-      ],
-      "detail_slug": "dfdff2606dcbce684c5f992acb8904e46686ffc6",
-      "is_english_source": true,
-      "translated_title": "코드를 읽지 않는 AI 개발, 정말 괜찮을까",
-      "short_summary": "AI가 코드를 쓰는 비중이 커질수록, 사람은 구현보다 명세와 테스트를 기준으로 일하게 될 수 있다는 문제를 던진 글이다. HN에서는 방향성엔 공감하면서도 구조 부채와 이식 비용을 더 걱정하는 반응이 많았다.",
-      "why_it_matters": "AI가 코드를 대량으로 만드는 흐름이 빨라지면서, 팀의 기준점이 구현 코드에서 명세와 테스트로 옮겨갈 수 있는지가 실무 이슈로 떠올랐다.\n- 기능 추가 속도보다 나중에 구조를 바꾸기 쉬운지가 더 큰 비용이 된다는 지적이 나왔다.\n- PR 단계에서 테스트 통과만 볼 게 아니라, 코드가 명세를 얼마나 따르는지 함께 검증해야 한다는 의견이 많았다.\n- 아키텍처 제약을 문서에 남기지 않으면 LLM이 단기적으로 편한 구조를 굳혀버릴 수 있다는 경고도 이어졌다.",
-      "hn_reaction_summary": "HN 반응은 호기심과 경계가 함께 섞였다. 코드 읽기를 줄일 수 있다는 발상은 흥미롭지만, 실제 팀 운영에서는 명세의 품질과 구조 부채 관리가 더 어렵다는 쪽에 무게가 실렸다.\n- 찬성 쪽은 제품 담당자와 개발자가 함께 쓴 명세와 테스트를 저장소의 기준물로 삼아야 한다고 봤다.\n- 유보 쪽은 테스트가 모두 통과해도 데이터 모델이나 경계 설계가 틀어지면 나중에 더 큰 대가를 치른다고 지적했다.\n- 몇몇은 RFC 2119 같은 키워드로 명세를 표준화하면 LLM 협업이 나아질 수 있다고 봤지만, 아직 검증이 더 필요하다는 반응도 있었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-23T20:08:14.713249+00:00"
     }
   ],
   "topic_digests": {
