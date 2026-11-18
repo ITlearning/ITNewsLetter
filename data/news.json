@@ -1,6 +1,586 @@
 {
   "items": [
     {
+      "id": "3956193fe871b5e739f60e1f6cfaec09c28c18e9",
+      "title_hash": "ed1138c795f9d0befe7156571fa58584b11f82e9",
+      "source": "GeekNews",
+      "title": "Show GN: Sidehand - 내가 타이핑하는 동안 창 뒤의 Windows 앱을 AI 에이전트가 조작하는 MCP 서버",
+      "link": "https://news.hada.io/topic?id=37409&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T13:13:23+00:00",
+      "summary": "AI 에이전트에게 데스크톱 앱을 맡기면 마우스가 움직이고 창이 앞으로 튀어나와서, 끝날 때까지 PC를 못 쓰게 됩니다. 제가 다른 창에서 계속 타이핑하는 동안 에이전트는 뒤에 가려진 앱에서 일하게 하고 싶어서 만들었습니다. Sidehand는 Windows 10/11용 MCP 서버입니다(CLI와 pi 확장도 있습니다). Claude Code, Codex, Cursor 같은 MCP 클라이언트가 지금 쓰는 창 뒤에 있는 앱을 읽고 조작합니다. 입력, 클릭, 목록 선택, 체크를 하고 화면은 스크린샷 대신 텍스트로 읽습니다. 마우스 커서는 움직이지 않고 키보드도 가져가지 않습니다. 컨트롤 하나가 한 줄입니다. 벤치마크 작업 하나에 277토큰이 들었고, 비교한 다른 도구는 2,488에서 13,425토큰이었습니다. …",
+      "fetched_at": "2026-11-18T17:12:49.291452+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "90",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=45,practical_tech=0,tools_agents=45,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 45,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 45,
+          "strong_hits": [
+            "claude code",
+            "cursor",
+            "codex",
+            "에이전트",
+            "mcp",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "cursor",
+        "codex",
+        "에이전트",
+        "mcp",
+        "ide",
+        "cli",
+        "claude + code"
+      ],
+      "detail_slug": "3956193fe871b5e739f60e1f6cfaec09c28c18e9",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T17:13:31.732880+00:00"
+    },
+    {
+      "id": "09e9564baaad12fddd338cbae15d3a9fcd11b547",
+      "title_hash": "f81f68d75834a3baa1aa5afceaf6253d23864480",
+      "source": "GeekNews",
+      "title": "GitHub 저장소 페이지 리디자인 제안 (2019)",
+      "link": "https://news.hada.io/topic?id=37393&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T05:02:27+00:00",
+      "summary": "GitHub 저장소 페이지의 정보 구조와 화면 배치 개선안 으로, 중첩 탐색과 불필요한 장식을 줄이고 같은 화면에 더 많은 프로젝트 정보를 담는 데 초점을 맞춤 두 단계로 나뉜 탭을 단일 탐색 메뉴 로 합치고 장식적인 아이콘을 제거해, 저장소 어디서든 Releases 같은 항목에 바로 접근하도록 바꿈 Watch의 현재 상태 를 드롭다운에 명확히 표시하고, 저장소 설명과 주제를 공통 영역으로 옮기는 등 요소의 의미와 위치를 일치시킴 첫 화면을 Code 대신 Overview 로 구성해 파일 목록 옆에 최근 커밋을 배치하고, 기여자와 활동량, 언어 통계 …",
+      "fetched_at": "2026-11-18T17:12:49.291452+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "release"
+      ],
+      "detail_slug": "09e9564baaad12fddd338cbae15d3a9fcd11b547",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T17:13:31.732880+00:00"
+    },
+    {
+      "id": "96f71d3acfee6bfd333e1eb74de3e3a9e6060749",
+      "title_hash": "a2e5f43d263adee13cb6a9ecff9f0dde2ec01bd0",
+      "source": "GeekNews",
+      "title": "GitHub에서 사라진 마이크로소프트의 ONNX Runtime",
+      "link": "https://news.hada.io/topic?id=37390&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T03:30:59+00:00",
+      "summary": "GitHub에서 사라진 마이크로소프트의 ONNX Runtime",
+      "fetched_at": "2026-11-18T17:12:49.291452+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "runtime"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "runtime"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "runtime"
+      ],
+      "detail_slug": "96f71d3acfee6bfd333e1eb74de3e3a9e6060749",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T17:13:31.732880+00:00"
+    },
+    {
+      "id": "43fb7b13777fa100901b67f7f137484942be720f",
+      "title_hash": "12a91a481e95e050a1efca66543c72f291b5c579",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "CVE-2026-99312: KVM Guest-to-Host Escape",
+      "link": "https://www.terra.security/blog/kvm-guest-to-host-escape",
+      "published_at": "2026-11-18T16:06:21+00:00",
+      "summary": "HN story type: story HN points: 39 HN comments: 17 HN top comments: praseodym: The blog post is very difficult to read, I suspect that unfortunately it’s fully written by an LLM. fwsgonzo: Don't disable nested, it's still better security than everything else, and having it on means access to real hardware virtualization. Second, the article is AI-written. It really should be rewritten by a human. jacobgold: Our infrastructure will become so much more secure but we're in for a bumpy ride through 2027.",
+      "fetched_at": "2026-11-18T17:12:49.291452+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50548004",
+      "hn_story_type": "story",
+      "hn_points": "39",
+      "hn_comments_count": "17",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50548004",
+      "hn_item_text": "",
+      "hn_comment_preview": "praseodym: The blog post is very difficult to read, I suspect that unfortunately it’s fully written by an LLM.\nfwsgonzo: Don't disable nested, it's still better security than everything else, and having it on means access to real hardware virtualization. Second, the article is AI-written. It really should be rewritten by a human.\njacobgold: Our infrastructure will become so much more secure but we're in for a bumpy ride through 2027.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=9,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm"
+      ],
+      "detail_slug": "43fb7b13777fa100901b67f7f137484942be720f",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T17:13:31.732880+00:00"
+    },
+    {
+      "id": "31ddaec36624be0e51ccdaa27e2bca8cb4d64b06",
+      "title_hash": "28b732655e42d6b85a0869e7404a19dada5352ea",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
+      "link": "https://rshekhar.com/voyager/",
+      "published_at": "2026-11-18T16:18:51+00:00",
+      "summary": "HN story type: story HN points: 18 HN comments: 1 HN post text: Voyager 1 reached one light-day from Earth today. On the site you can: - see where both Voyagers are right now - open a nuclear battery to its 24 plutonium spheres - go into the data computer, down to a single memory chip - see how the Golden Record's cover explains how to play it - watch how Voyager 1 was fixed by radio - see which dish on Earth is listening to them, live I also made a 4-minute film from it: https://www.youtube.com/watch?v=kpzsRo-c1_A HN top comments: thelbartworks: maybe when you show the journey you can adapt the zoom",
+      "fetched_at": "2026-11-18T17:12:49.291452+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50548161",
+      "hn_story_type": "story",
+      "hn_points": "18",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50548161",
+      "hn_item_text": "Voyager 1 reached one light-day from Earth today. On the site you can: - see where both Voyagers are right now - open a nuclear battery to its 24 plutonium spheres - go into the data computer, down to a single memory chip - see how the Golden Record's cover explains how to play it - watch how Voyager 1 was fixed by radio - see which dish on Earth is listening to them, live I also made a 4-minute film from it: https://www.youtube.com/watch?v=kpzsRo-c1_A",
+      "hn_comment_preview": "thelbartworks: maybe when you show the journey you can adapt the zoom",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "show hn"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "show hn",
+        "how to"
+      ],
+      "detail_slug": "31ddaec36624be0e51ccdaa27e2bca8cb4d64b06",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T17:13:31.732880+00:00"
+    },
+    {
+      "id": "f9772a3bf74e55bceeff5b1a88b41d2ad27e2836",
+      "title_hash": "72fe3e95161ffb0cbb66cc44976a404dd5f9f082",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "U.S. AirForce is looking for old storage Media (CF or PC cards)",
+      "link": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
+      "published_at": "2026-11-18T15:35:44+00:00",
+      "summary": "HN story type: story HN points: 54 HN comments: 23 HN top comments: jotux: Cool coincidence. In a past job, I specifically made replacement PCMCIA cards for these (and other) planes. Instead of making cards with a controller and onboard storage, we made cards with an FPGA/microcontroller and a microSD card soldered to the PCB. We did this specifically because these aircraft use (at least partially) broken implementations of the PCMCIA protocol, and we'd update the bus protocol per aircra... CobaltFire: For anyone wondering what these are used for: All current US military aircraft (at least up through the F-35) use CF cards to take mission planning from the laptops in the SCIF (or whatever unclass space they are using) to the aircraft. As an aside, LCACs (among other platforms) also use these systems and cards. So this is a pretty widespread use case. bityard: HN headline is wrong/misleading. This is more of a survey to identify _potential_ suppliers of NEW CF/PC memory cards. It's not a request for bids, nor asking civilians to root around their junk drawers for cards to send off to the military. Reading between the lines, they are likely evaluating multiple options for modernizing whatever F-22 system this is, and need to find out if going this route is even feasible.",
+      "fetched_at": "2026-11-18T17:12:49.291452+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50547583",
+      "hn_story_type": "story",
+      "hn_points": "54",
+      "hn_comments_count": "23",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50547583",
+      "hn_item_text": "",
+      "hn_comment_preview": "jotux: Cool coincidence. In a past job, I specifically made replacement PCMCIA cards for these (and other) planes. Instead of making cards with a controller and onboard storage, we made cards with an FPGA/microcontroller and a microSD card soldered to the PCB. We did this specifically because these aircraft use (at least partially) broken implementations of the PCMCIA protocol, and we'd update the bus protocol per aircra...\nCobaltFire: For anyone wondering what these are used for: All current US military aircraft (at least up through the F-35) use CF cards to take mission planning from the laptops in the SCIF (or whatever unclass space they are using) to the aircraft. As an aside, LCACs (among other platforms) also use these systems and cards. So this is a pretty widespread use case.\nbityard: HN headline is wrong/misleading. This is more of a survey to identify _potential_ suppliers of NEW CF/PC memory cards. It's not a request for bids, nor asking civilians to root around their junk drawers for cards to send off to the military. Reading between the lines, they are likely evaluating multiple options for modernizing whatever F-22 system this is, and need to find out if going this...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=7,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "storage"
+          ],
+          "support_hits": [
+            "implementation"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "storage",
+        "implementation"
+      ],
+      "detail_slug": "f9772a3bf74e55bceeff5b1a88b41d2ad27e2836",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T17:13:31.732880+00:00"
+    },
+    {
+      "id": "61432b6660c7e109011d722c8623ea5522b63148",
+      "title_hash": "093b328d0111a354851ae21fa8de040a20ff626f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Microsoft AI: Seven new world-class models at scalable price-performance",
+      "link": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "published_at": "2026-11-18T16:08:24+00:00",
+      "summary": "HN story type: story HN points: 68 HN comments: 36 HN top comments: ahmedfromtunis: I think Microsoft should provide some of its models as open source/weight if they hope to secure any market share. Otherwise, it's Windows Phone OS all over again. M4R5H4LL: The Ignite keynote looked so shallow and opportunistic to leadership. You wonder if they have any clout anymore, and it feels like the engineers have abandoned the ship. I am working day to day with AI Engineering, and it feels I have zero reason to do business using any of their tech stack. This clearly started with the dev division re-org, they completely missed the memo. There is zero innovation, and it is more... cricketsandmops: I found their transcription model to be one of the best i have used",
+      "fetched_at": "2026-11-18T17:12:49.291452+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50548021",
+      "hn_story_type": "story",
+      "hn_points": "68",
+      "hn_comments_count": "36",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50548021",
+      "hn_item_text": "",
+      "hn_comment_preview": "ahmedfromtunis: I think Microsoft should provide some of its models as open source/weight if they hope to secure any market share. Otherwise, it's Windows Phone OS all over again.\nM4R5H4LL: The Ignite keynote looked so shallow and opportunistic to leadership. You wonder if they have any clout anymore, and it feels like the engineers have abandoned the ship. I am working day to day with AI Engineering, and it feels I have zero reason to do business using any of their tech stack. This clearly started with the dev division re-org, they completely missed the memo. There is zero innovation, and it is more...\ncricketsandmops: I found their transcription model to be one of the best i have used",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "39",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=15,practical_tech=14,tools_agents=3,strategy_insight=2,industry_business=15",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 3,
+        "strategy_insight": 2,
+        "industry_business": 15
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "performance",
+            "open source"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 3,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 15,
+          "strong_hits": [
+            "market share"
+          ],
+          "support_hits": [
+            "business",
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "market + share"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "market share",
+        "business",
+        "market",
+        "market + share"
+      ],
+      "detail_slug": "61432b6660c7e109011d722c8623ea5522b63148",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T17:13:31.732880+00:00"
+    },
+    {
       "id": "026d13c332f70414072250626afd5dab31ba1778",
       "title_hash": "d0d39c41153b89c65aa855573136bf22a5eed69b",
       "source": "GeekNews",
@@ -165364,579 +165944,6 @@
       "detail_slug": "55e10863feb61f1d27264177345360bb59817c26",
       "is_english_source": false,
       "sent_at": "2026-05-24T08:50:15.306864+00:00"
-    },
-    {
-      "id": "25f458e646f63290d8826afe9f9c67fbc0990274",
-      "title_hash": "c49c36614136254b45ce96feccf5ddc424851699",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Neoclassical C++: segmented iterators revisited",
-      "link": "https://boostedcpp.net/2026/05/18/neoclassical-c-segmented-iterators-revisited-1/",
-      "published_at": "2026-05-22T14:06:44+00:00",
-      "summary": "HN story type: story HN points: 24 HN comments: 2 HN top comments: willtemperley: Genuine question, where does te average developer go to learn CPP in 2026? Despite the usual complaints it’s alive and well and Rust will not replace it. CPP has become infinitely easier to write for me. That’s an exact figure, my total output of usable CPP lines was zero prior to LLMs. I do however need to at least be able to write basic CPP to evaluate the code I’m generating. It’s just so hard to comb through a... FpUser: >\"where does te average developer go to learn CPP \" ain't nothing better than books and doing some real project",
-      "fetched_at": "2026-05-24T08:45:43.114283+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48236057",
-      "hn_story_type": "story",
-      "hn_points": "24",
-      "hn_comments_count": "2",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48236057",
-      "hn_item_text": "",
-      "hn_comment_preview": "willtemperley: Genuine question, where does te average developer go to learn CPP in 2026? Despite the usual complaints it’s alive and well and Rust will not replace it. CPP has become infinitely easier to write for me. That’s an exact figure, my total output of usable CPP lines was zero prior to LLMs. I do however need to at least be able to write basic CPP to evaluate the code I’m generating. It’s just so hard to comb through a...\nFpUser: >\"where does te average developer go to learn CPP \" ain't nothing better than books and doing some real project",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "rust",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "rag"
-      ],
-      "detail_slug": "25f458e646f63290d8826afe9f9c67fbc0990274",
-      "is_english_source": true,
-      "translated_title": "Neoclassical C++: 분할 이터레이터 다시 보기",
-      "short_summary": "현대 C++ 문맥에서 segmented iterator를 다시 짚는 글이 HN 전면에 올랐다. 댓글은 기법 자체보다 2026년에 C++를 어떻게 배우고 LLM이 학습과 생산성을 어떻게 바꾸는지에 더 쏠렸다.",
-      "why_it_matters": "분할 이터레이터를 다시 논하는 흐름은 C++ 라이브러리 설계와 성능 지향 코드가 여전히 현재진행형이라는 신호로 읽힌다. 특히 비연속 자료구조를 다루는 방식과 추상화 비용을 다시 따져볼 실무자에게 참고점이 된다.\n- 컨테이너 내부 구조를 감추면서도 순회 성능을 챙겨야 하는 라이브러리 코드에서 어떤 추상화가 통하는지 점검할 계기가 된다.\n- Rust가 곧바로 대체하지 못하는 영역에서 C++ 설계 감각이 여전히 필요하다는 분위기가 함께 드러난다.\n- LLM으로 C++ 코드를 더 쉽게 만들 수 있어도, 생성된 코드를 검토할 최소한의 언어 이해는 더 중요해졌다는 메시지로 이어진다.",
-      "hn_reaction_summary": "HN 반응은 기술 세부 토론보다는 \"지금 C++를 어디서 배우느냐\"는 학습 문제로 빠르게 옮겨갔다. 댓글 수는 적지만, 실무 감각과 학습 경로를 두고 공감대가 분명하게 보인다.\n- 한쪽은 LLM 덕분에 C++ 진입 장벽이 낮아졌다고 봤지만, 코드 검토를 위해서라도 기초 문법과 관용구는 직접 익혀야 한다는 전제가 붙었다.\n- 다른 쪽은 결국 책과 실제 프로젝트만 한 학습법이 없다고 정리했다. 전통적인 학습 경로에 힘을 싣는 반응이다.\n- 전체적으로는 새 기법의 우열보다 C++를 계속 써야 하는 현실, 그리고 AI 보조 시대의 공부법이 더 큰 논점으로 읽힌다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T08:50:15.306864+00:00"
-    },
-    {
-      "id": "7d020c9d6d58ba6562ec63a9b537723f50fded6b",
-      "title_hash": "a62eee10b31a36b738f675c764f157f8483dbea1",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "My I3-Emacs Integration",
-      "link": "https://khz.ac/software/i3-integration.html",
-      "published_at": "2026-05-23T23:13:42+00:00",
-      "summary": "HN story type: story HN points: 65 HN comments: 17 HN top comments: SubiculumCode: Side note: I am really enjoying HN today with the set of stories with personal hacks like this i3-emacs integration, someone's desk setup, someone's writer-deck laptop install, the kinda hilarious but also hecka geeky thermal ttrpg thingamabob, and the 16 byte wake up demo. Fun geeky stuff that isn't AI,and I love AI, but it ain't everything. timonoko: Unrelated, but me and Gemini just invented \"C-x 4\" for multiscreens. (defun my-external-readonly-split () \"Open the current file in an external xfce4-terminal as read-only.\" (interactive) (if buffer-file-name (start-process \"xfce-terminal-split\" nil \"xfce4-terminal\" \"-x\" \"emacs\" \"-nw\" \"--eval\" \"(find-file-read-only (pop command-line-args-left))\" buffer-file-name) (message \"Current buffer is not visiting a file!\"))... Zambyte: Ooo this is nice. I may have to try to get this working with my personal setup using Emacs and Sway. My long term vision is to make an Emacs implementation that is compatible only in philosophy. It would use Guile instead of Elisp, default to bindings that are more familiar to people coming from more modern systems, and would be built from the beginning with concurrency and graphics in mind. For now it remains a d...",
-      "fetched_at": "2026-05-24T08:45:43.114283+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48252535",
-      "hn_story_type": "story",
-      "hn_points": "65",
-      "hn_comments_count": "17",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48252535",
-      "hn_item_text": "",
-      "hn_comment_preview": "SubiculumCode: Side note: I am really enjoying HN today with the set of stories with personal hacks like this i3-emacs integration, someone's desk setup, someone's writer-deck laptop install, the kinda hilarious but also hecka geeky thermal ttrpg thingamabob, and the 16 byte wake up demo. Fun geeky stuff that isn't AI,and I love AI, but it ain't everything.\ntimonoko: Unrelated, but me and Gemini just invented \"C-x 4\" for multiscreens. (defun my-external-readonly-split () \"Open the current file in an external xfce4-terminal as read-only.\" (interactive) (if buffer-file-name (start-process \"xfce-terminal-split\" nil \"xfce4-terminal\" \"-x\" \"emacs\" \"-nw\" \"--eval\" \"(find-file-read-only (pop command-line-args-left))\" buffer-file-name) (message \"Current buffer is not visiting a file!\"))...\nZambyte: Ooo this is nice. I may have to try to get this working with my personal setup using Emacs and Sway. My long term vision is to make an Emacs implementation that is compatible only in philosophy. It would use Guile instead of Elisp, default to bindings that are more familiar to people coming from more modern systems, and would be built from the beginning with concurrency and graphics in mind. Fo...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=6,tools_agents=9,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "setup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "setup"
-      ],
-      "detail_slug": "7d020c9d6d58ba6562ec63a9b537723f50fded6b",
-      "is_english_source": true,
-      "translated_title": "i3와 Emacs를 한 흐름으로 묶는 작업 환경",
-      "short_summary": "i3 윈도 매니저와 Emacs를 한 작업 흐름으로 엮는 개인 통합 설정이 소개됐다. HN에서는 AI 얘기에서 벗어난 손맛 나는 해킹 사례로 받아들여졌고, 각자 환경에 맞춘 확장 아이디어도 이어졌다.",
-      "why_it_matters": "화려한 신기능보다 매일 쓰는 도구를 더 촘촘히 붙여 생산성을 끌어올리는 방식이라 실무자가 바로 참고해 볼 만하다.\n- 에디터와 창 관리가 따로 놀지 않으면 파일 열기, 포커스 이동, 분할 화면 전환 같은 반복 동작이 짧아진다.\n- i3뿐 아니라 Sway 같은 타일링 환경에도 응용 여지가 있어, 팀 표준 도구를 바꾸지 않고도 개인 생산성 개선 실험을 해볼 수 있다.\n- AI 보조 도구가 넘치는 시기에도 로컬 워크플로를 어떻게 짜느냐가 체감 효율을 크게 바꾼다는 점을 보여준다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이었다. 큰 논쟁보다는 '나도 내 환경에 붙여보고 싶다'는 식의 응용과 변형 아이디어가 중심이었다.\n- AI 일색이 아닌, 취향과 손작업이 살아 있는 해킹 글이라 반갑다는 반응이 눈에 띄었다.\n- 멀티스크린용 단축키나 외부 터미널 읽기 전용 열기처럼 각자 쓰는 Emacs 확장 코드를 곁들이는 댓글이 이어졌다.\n- 일부는 Emacs의 철학은 살리되 Guile, 동시성, 그래픽을 전제로 새 구현을 만들고 싶다는 더 큰 방향까지 꺼냈다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T08:50:15.306864+00:00"
-    },
-    {
-      "id": "fe0aa69a968c0532b9209b3603330b1e9daf248e",
-      "title_hash": "be55def641961390452ccf1b1de16b15f9c3be3a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Time to talk about my writerdeck",
-      "link": "https://veronicaexplains.net/my-first-writerdeck/",
-      "published_at": "2026-05-23T18:45:37+00:00",
-      "summary": "HN story type: story HN points: 368 HN comments: 210 HN top comments: CobrastanJorji: This is an awesome setup. I like it, good job. That said, I do think there's a bit of irony to solving your \"paying attention to writing\" problem by setting up your OS from scratch, choosing to swap out the default networking stack, installing a novel flavor of your preferred text editor because you're \"trying to get to know it a bit more,\" customizing your battery readouts, tweaking the login sequence, and then,... throw10920: There's a pattern that I notice a lot on HN. \"To solve this problem, I engineered an entire system from scratch.\" Response: \"That's a cool solution. But, isn't it a lot more work than this straightforward solution?\" (the user is right - the complicated solution is massively more work than the straightforward one) Response: \"Yes, but it's a cool project - it's OK to not be the most efficient all the time.\" (also ri... kaashif: This reads like someone with ADHD took Adderall and accidentally focused hard for a day on the wrong thing. It has happened to me. I guess if this writerdeck works persistently for many projects then fine. But if every 2 projects the writerdeck gets revamped then it seems like a way to get a dopamine hit or distract ones self. Nothing wrong with that, but it doesn't seem like it's a net benefit in terms of focus.",
-      "fetched_at": "2026-05-24T08:45:43.114283+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48250144",
-      "hn_story_type": "story",
-      "hn_points": "368",
-      "hn_comments_count": "210",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48250144",
-      "hn_item_text": "",
-      "hn_comment_preview": "CobrastanJorji: This is an awesome setup. I like it, good job. That said, I do think there's a bit of irony to solving your \"paying attention to writing\" problem by setting up your OS from scratch, choosing to swap out the default networking stack, installing a novel flavor of your preferred text editor because you're \"trying to get to know it a bit more,\" customizing your battery readouts, tweaking the login sequence, and then,...\nthrow10920: There's a pattern that I notice a lot on HN. \"To solve this problem, I engineered an entire system from scratch.\" Response: \"That's a cool solution. But, isn't it a lot more work than this straightforward solution?\" (the user is right - the complicated solution is massively more work than the straightforward one) Response: \"Yes, but it's a cool project - it's OK to not be the most efficient all the time.\" (also ri...\nkaashif: This reads like someone with ADHD took Adderall and accidentally focused hard for a day on the wrong thing. It has happened to me. I guess if this writerdeck works persistently for many projects then fine. But if every 2 projects the writerdeck gets revamped then it seems like a way to get a dopamine hit or distract o...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 9,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "setup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "setup"
-      ],
-      "detail_slug": "fe0aa69a968c0532b9209b3603330b1e9daf248e",
-      "is_english_source": true,
-      "translated_title": "글에만 집중하려고 만든 나만의 writerdeck",
-      "short_summary": "작성자는 글쓰기에만 몰입하려고 운영체제와 편집기, 네트워크 설정까지 손본 전용 writerdeck를 소개했다. Hacker News에서는 발상은 재미있지만 집중을 위한 수단이 오히려 더 큰 프로젝트가 됐다는 반응이 많이 나왔다.",
-      "why_it_matters": "단순한 작업 환경 자랑이 아니라, 방해 요소를 줄이기 위해 컴퓨팅 환경 자체를 다시 설계하는 흐름을 보여주는 사례다. 실무에서는 생산성 도구를 어디까지 손봐야 하는지 다시 생각하게 만든다.\n- 글쓰기나 문서 작업처럼 맥락 전환 비용이 큰 업무에서는 앱 몇 개를 바꾸는 수준을 넘어 OS와 입력 환경까지 통제하려는 시도가 늘고 있다.\n- 다만 전용 환경을 깊게 꾸밀수록 유지보수 부담이 커진다. 집중을 얻는 대신 설정 자체가 새 업무가 될 수 있다는 점이 실무적인 쟁점이다.\n- 팀 차원에서는 이런 사례가 개인 최적화와 표준화 사이의 경계를 묻는다. 혼자 빠르게 몰입하는 데는 유리하지만 협업 환경에 그대로 옮기기는 쉽지 않다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 호의적이지만, 감탄과 의심이 함께 섞여 있다. 멋진 취미 프로젝트라는 평가와 함께 정말 글쓰기에 도움이 되느냐는 질문이 반복해서 나왔다.\n- 가장 많이 나온 반응은 '집중하려고 만든 환경이 오히려 지나치게 공들인 시스템이 됐다'는 아이러니다.\n- 반대로 효율만 따질 필요는 없고, 이런 과한 설계 자체가 즐거운 개인 프로젝트일 수 있다는 옹호도 적지 않았다.\n- 실무자가 읽을 만한 논점은 분명하다. 생산성 문제를 도구 재설계로 풀 때 그것이 지속 가능한 개선인지, 아니면 미루기의 세련된 형태인지 구분해야 한다는 점이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T08:50:15.306864+00:00"
-    },
-    {
-      "id": "42ba9dfd429e6353c6dac9a47f9ccd93b09acccc",
-      "title_hash": "ab1ff930a9963d9a9085f9e1df3b267edbbfae3b",
-      "source": "GeekNews",
-      "title": "Google의 IBM화?",
-      "link": "https://news.hada.io/topic?id=29817",
-      "published_at": "2026-05-24T01:46:04+00:00",
-      "summary": "Google의 수직 통합 은 TSMC 실리콘, TPU, 자체 데이터센터, 모델, 검색엔진까지 가진 강점에서 조직과 제품의 부담으로 바뀐 상태로 보임 Railway의 GCP 계정 차단 은 대형 고객도 예고 없는 자동 삭제와 연락 창구 부재를 겪을 수 있다는 Google Cloud 신뢰 문제를...",
-      "fetched_at": "2026-05-24T04:27:56.316381+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "신뢰"
-      ],
-      "detail_slug": "42ba9dfd429e6353c6dac9a47f9ccd93b09acccc",
-      "is_english_source": false,
-      "sent_at": "2026-05-24T04:36:36.307929+00:00"
-    },
-    {
-      "id": "1b7214d23e0705e56df02817bb5b6dbfb19bec86",
-      "title_hash": "0d2616c4f7556a442d60962e6d8245f5fa04167c",
-      "source": "GeekNews",
-      "title": "Electrobun 2.0은 Rust 재작성으로 인해 Bun에서 분리될 예정",
-      "link": "https://news.hada.io/topic?id=29815",
-      "published_at": "2026-05-24T01:00:45+00:00",
-      "summary": "Electrobun 2.0 은 yt-dlp가 내린 결정과 비슷하게 Bun의 Rust 재작성 때문에, Bun 의존을 줄이는 방향으로 바뀌며, 런타임 의존 구조도 달라질 예정임 분리 결정에는 Anthropic 이 인간 리뷰, 합리적인 롤아웃, 안정화 과정을 충분히 거치지 않는다...",
-      "fetched_at": "2026-05-24T04:27:56.316381+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust"
-      ],
-      "detail_slug": "1b7214d23e0705e56df02817bb5b6dbfb19bec86",
-      "is_english_source": false,
-      "sent_at": "2026-05-24T04:36:36.307929+00:00"
-    },
-    {
-      "id": "a77b1a59376efbb3e0ca72550276efb0b583405a",
-      "title_hash": "155147cb8010cc90f1254a6f00e27f9bcbc97121",
-      "source": "GeekNews",
-      "title": "AI는 아직 수익성이 있는가?",
-      "link": "https://news.hada.io/topic?id=29816",
-      "published_at": "2026-05-24T01:04:49+00:00",
-      "summary": "프런티어 AI 기업 들의 누적 지출과 매출을 합산하면, 2026년 5월 현재 AI 산업 전체는 아직 수익을 내지 못하고 있음 산업 전체 누적 지출은 1.4조 달러 , 누적 매출은 6,130억 달러 이며, 페이지는 로드 이후 AI 지출 카운터도 보여줌 Am...",
-      "fetched_at": "2026-05-24T04:27:56.316381+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=4",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "기업",
-            "산업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "a77b1a59376efbb3e0ca72550276efb0b583405a",
-      "is_english_source": false,
-      "sent_at": "2026-05-24T04:36:36.307929+00:00"
-    },
-    {
-      "id": "511106152b8f89a12ca46400e0f338bbfecabee4",
-      "title_hash": "bdc03b8079be90d05b869af6cb4ad023de239e8a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Microsoft open-sources \"the earliest DOS source code discovered to date\"",
-      "link": "https://arstechnica.com/gadgets/2026/04/microsoft-open-sources-the-earliest-dos-source-code-discovered-to-date/",
-      "published_at": "2026-05-24T01:21:13+00:00",
-      "summary": "HN story type: story HN points: 104 HN comments: 22 HN post text: https://opensource.microsoft.com/blog/2026/04/28/continuing-... HN top comments: jmward01: It is rare that I say this but, thanks MS! Arguably just as, if not more, important is the BASIC that they wrote. That was what they actually wanted to do. DOS just got them the contract with IBM. For decades MS was really a developer tools company with a side biz of writing operating systems and other misc software. They also open sourced that BASIC code too [1]. [1] https://opensource.microsoft.com/blog/2025/09/... gnabgib: Discussion, on the source, at the time (79 points, 24 days ago, 19 comments) https://news.ycombinator.com/item?id=47957494 Or on the GitHub clone (162 points, 15 comments) https://news.ycombinator.com/item?id=47946813 locusofself: wow, they had to OCR it back in from paper printouts > This source code is old enough that it hadn’t been stored digitally. “A dedicated team of historians and preservationists led by Yufeng Gao and Rich Cini,” calling itself the “DOS Disassembly Group,” painstakingly transcribed and scanned in code from paper printouts provided by Paterson. This process was made even more difficult because modern OCR software str...",
-      "fetched_at": "2026-05-24T04:27:56.316381+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48253386",
-      "hn_story_type": "story",
-      "hn_points": "104",
-      "hn_comments_count": "22",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48253386",
-      "hn_item_text": "https://opensource.microsoft.com/blog/2026/04/28/continuing-...",
-      "hn_comment_preview": "jmward01: It is rare that I say this but, thanks MS! Arguably just as, if not more, important is the BASIC that they wrote. That was what they actually wanted to do. DOS just got them the contract with IBM. For decades MS was really a developer tools company with a side biz of writing operating systems and other misc software. They also open sourced that BASIC code too [1]. [1] https://opensource.microsoft.com/blog/2025/09/...\ngnabgib: Discussion, on the source, at the time (79 points, 24 days ago, 19 comments) https://news.ycombinator.com/item?id=47957494 Or on the GitHub clone (162 points, 15 comments) https://news.ycombinator.com/item?id=47946813\nlocusofself: wow, they had to OCR it back in from paper printouts > This source code is old enough that it hadn’t been stored digitally. “A dedicated team of historians and preservationists led by Yufeng Gao and Rich Cini,” calling itself the “DOS Disassembly Group,” painstakingly transcribed and scanned in code from paper printouts provided by Paterson. This process was made even more difficult because modern OCR software str...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=9,tools_agents=15,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 15,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "tool + calling"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "tool",
-        "tool + calling"
-      ],
-      "detail_slug": "511106152b8f89a12ca46400e0f338bbfecabee4",
-      "is_english_source": true,
-      "translated_title": "마이크로소프트, 확인된 가장 오래된 DOS 소스 공개",
-      "short_summary": "마이크로소프트가 지금까지 발견된 것 중 가장 이른 DOS 소스 코드를 오픈소스로 공개했다. HN에서는 코드 자체보다 IBM 계약의 출발점과 복원 과정의 상징성에 더 시선이 모였다.",
-      "why_it_matters": "이번 공개는 오래된 코드를 하나 더 푼 사건이라기보다, PC 산업 초기에 마이크로소프트가 어떤 기술과 사업 감각으로 움직였는지 보여 주는 사료가 늘었다는 점에서 볼 만하다.\n- 초창기 DOS의 코드와 구조를 보면 제한된 하드웨어 환경에서 호환성과 납기를 어떻게 맞췄는지 읽을 수 있다.\n- 종이 출력물에서 OCR과 수작업 전사를 거쳐 복원했다는 점은 소프트웨어 보존이 얼마나 불안정한지 드러낸다. 기업 입장에선 레거시 자산 관리의 현실적인 경고이기도 하다.\n- 앞서 공개된 BASIC 소스와 함께 보면 초기 마이크로소프트의 무게중심이 운영체제보다 개발자 도구에 가까웠다는 맥락도 더 또렷해진다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 반기는 쪽이었다. 다만 단순한 추억팔이보다는 DOS의 역사적 위치, 그리고 종이 자료를 되살린 복원 과정에 더 의미를 두는 반응이 많았다.\n- \"뜻밖이지만 고맙다\"는 식의 호의적 반응이 눈에 띄었고, DOS가 IBM 계약을 여는 계기였다는 해석이 반복됐다.\n- DOS보다 BASIC 공개가 더 본질적이라는 의견도 나왔다. 초기 MS를 운영체제 회사보다 개발자 도구 회사로 보는 시선이 반영된 반응이다.\n- 종이 프린트에서 다시 OCR로 복원했다는 대목에 놀랐다는 댓글이 많았다. 코드 내용만큼 보존과 아카이빙 자체가 큰 화제로 읽혔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T04:36:36.307929+00:00"
     }
   ],
   "topic_digests": {
