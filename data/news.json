@@ -1,6 +1,610 @@
 {
   "items": [
     {
+      "id": "9aeac48ea7da12de9920aaf1585ac009a6a96cdb",
+      "title_hash": "12e09452e0fe8ca2466b72543523ad2f1df08d50",
+      "source": "GeekNews",
+      "title": "Show GN: Rebut - 구독 API 크레딧으로 AI가 작성한 코드를 독립 리뷰하는 MCP",
+      "link": "https://news.hada.io/topic?id=37373&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-17T23:15:07+00:00",
+      "summary": "Claude Code나 Codex가 코드를 수정한 뒤, 같은 세션에서 놓친 결함이 있는지 다른 모델에도 물어보고 싶었습니다. 구독에 포함된 API 크레딧을 이런 검토에 써보려고 Rebut을 만들었습니다. Rebut은 선택한 코드·diff와 요구사항을 OpenAI Responses API 또는 Anthropic Claude API에 보내고, 발견한 문제를 파일·줄 번호, 근거, 수정 제안과 함께 반환하는 오픈소스 MCP입니다. 예를 들어 Claude Code가 작성한 변경을 GPT-6.2 Astra에, Codex가 작성한 변경을 Claude에 검토시킬 수 있습니다. 검토 모델에는 저장소 탐색이나 셸 실행 권한을 주지 않습니다. 기본은 로컬 실행입니다. 여러 기기에서 검토 예산과 요청 장부를 공유하고 싶다면 Cloudflare Worker를 별도로 배포할 수 있습니다. …",
+      "fetched_at": "2026-11-18T00:53:36.032287+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=9,tools_agents=25,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 25,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [
+            "로컬 실행",
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "mcp"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "mcp",
+        "claude + code"
+      ],
+      "detail_slug": "9aeac48ea7da12de9920aaf1585ac009a6a96cdb",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T00:54:31.155891+00:00"
+    },
+    {
+      "id": "26e195884589a1fe5b9b7f8c980283ef3eba0ed9",
+      "title_hash": "7d570e90e2d3207059ddb0ea1e05b287c25182fa",
+      "source": "GeekNews",
+      "title": "Phrack 73호 공개, 보안 연구와 해킹 문화를 다루는 매거진",
+      "link": "https://news.hada.io/topic?id=37371&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-17T22:37:23+00:00",
+      "summary": "새 운영진이 편집한 세 번째 발행물인 Phrack 73호 가 공개됨. 지난해보다 규모를 늘려 주요 논문 23편과 Line Noise 추가 글 8편을 담음 취약점 악용과 리버스 엔지니어링 부터 머신러닝, 하드웨어까지 다루며, vDSO를 통한 컨테이너 탈출과 Skia를 통한 Chromium 렌더러 샌드박스 탈출 연구 등을 수록함 머신러닝 백도어와 AI 신뢰 를 검토하는 연구와, PhrackCTF에서 WinFSP 제로데이 2건 발견 으로 이어진 사례도 실림 Phrack World History 에는 SSH1 CRC32 취약점, 블루박싱, 2003년 Linux 커널 백도어 시도, 대여형 봇넷의 초기 발견을 …",
+      "fetched_at": "2026-11-18T00:53:36.032287+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "58",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=13,practical_tech=2,tools_agents=4,strategy_insight=13,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 13,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "컨테이너"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "noise",
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "컨테이너"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "noise",
+        "신뢰"
+      ],
+      "detail_slug": "26e195884589a1fe5b9b7f8c980283ef3eba0ed9",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T00:54:31.155891+00:00"
+    },
+    {
+      "id": "eb8f1ec3bc478eeef38fe5cbc377c870c22d97e9",
+      "title_hash": "a24c4144b3371dae78b6a7c9a2db58b7962d7aa9",
+      "source": "GeekNews",
+      "title": "실제로 등장한 curl의 Rust 재작성 프로젝트들",
+      "link": "https://news.hada.io/topic?id=37377&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T00:02:29+00:00",
+      "summary": "urlx 와 curl, rewritten in Rust 가 curl과 libcurl의 Rust 재구현을 내세우며 등장했지만, 특정 시점의 코드를 재현하는 일과 프로젝트를 장기간 유지하는 일은 다름 AI 에이전트의 재작성에는 기존 C 코드 , 풍부한 문서, API 사용 사례와 수천 개의 테스트가 토대가 됨 재작성에 걸린 3주 남짓 동안 원본 curl에는 300개 이상의 커밋 과 200개가 조금 넘는 버그 수정이 반영됐으며, 재작성 프로젝트들은 이 수정들을 갖추지 못한 상태임 2026년 확인된 curl 취약점 81개 중 14개, 17.3% 는 메모리 안전 언어로 피할 수 있었을 가능성이 높 …",
+      "fetched_at": "2026-11-18T00:53:36.032287+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=12,practical_tech=12,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "rust",
+            "api"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "api",
+        "코드"
+      ],
+      "detail_slug": "eb8f1ec3bc478eeef38fe5cbc377c870c22d97e9",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T00:54:31.155891+00:00"
+    },
+    {
+      "id": "8ed88f4454283003c8a87b7fe8eb3574d1197baa",
+      "title_hash": "34707a8f3a2d94f9b87bfed96e1fd6ad3b152765",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Archive Team is archiving the Apple Support Community (closes November 20, 2026)",
+      "link": "https://wiki.archiveteam.org/index.php/Apple_Discussions",
+      "published_at": "2026-11-17T23:32:58+00:00",
+      "summary": "HN story type: story HN points: 44 HN comments: 11 HN top comments: digitaldragon: You can see the live progress here: https://tracker.archiveteam.org/applediscussions/ Related: The Apple Support Community will permanently close on November 20, 2026 - https://news.ycombinator.com/item?id=50449440 EarthAmbassador: I never understood the point of the blind leading the blind within the Apple Support Community. There was quite a bit of misinformation there, but not nearly enough official instruction from Apple itself. Am I wrong about this? xp84: I support anyone’s noble attempts to avoid loss of information, and these forums do at least track the long history of reported issues with Apple products, so, good for them. But if ever there was a more frustrating support forum, this one was it. Only Apple could pull off something so audacious: hosting a support forum with zero paid representatives present, while still having almost every thread feature one or m...",
+      "fetched_at": "2026-11-18T00:53:36.032287+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50539747",
+      "hn_story_type": "story",
+      "hn_points": "44",
+      "hn_comments_count": "11",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50539747",
+      "hn_item_text": "",
+      "hn_comment_preview": "digitaldragon: You can see the live progress here: https://tracker.archiveteam.org/applediscussions/ Related: The Apple Support Community will permanently close on November 20, 2026 - https://news.ycombinator.com/item?id=50449440\nEarthAmbassador: I never understood the point of the blind leading the blind within the Apple Support Community. There was quite a bit of misinformation there, but not nearly enough official instruction from Apple itself. Am I wrong about this?\nxp84: I support anyone’s noble attempts to avoid loss of information, and these forums do at least track the long history of reported issues with Apple products, so, good for them. But if ever there was a more frustrating support forum, this one was it. Only Apple could pull off something so audacious: hosting a support forum with zero paid representatives present, while still having almost every thread feature one or m...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "index",
+            "rust",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "index",
+        "rust",
+        "rag"
+      ],
+      "detail_slug": "8ed88f4454283003c8a87b7fe8eb3574d1197baa",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T00:54:31.155891+00:00"
+    },
+    {
+      "id": "1fdb21a647c61a8245bde777a9eab9ad3c52cca1",
+      "title_hash": "24841e95164d03a483bc08335a223b1e051cdf52",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "GPT‑6.2 Astra and Sol",
+      "link": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "published_at": "2026-11-17T17:46:43+00:00",
+      "summary": "HN story type: story HN points: 1063 HN comments: 673 HN top comments: chriddyp: Pretty incredible cost reductions. In our data analytics exam [1], Astra went from ~$20 (V6) to ~$4 (V6.2) and Sol went from $2.6 (V6.1) to $1.2 (V6.2). Similar accuracy in both. It's cheaper both because of token reduction (20%) but it also took less tool calls to answer the questions. In some cases, it \"finished early\" and didn't find the answer we were looking for. Also very fast. Both Astra & Sol are the 2 fas... thefourthchime: PacBench results. GPT-6.2 Astra scored 92 in 6.6 min for $2.04, vs Kimi K3.1 Pro (93 in 11.5 min for $0.68); it lost points for the web-page layout around the maze and an orange ghost that often never leaves the house. Model: https://jonclegg.github.io/pacman-bakeoff/#gpt-6.2-astra Closest: https://jonclegg.github.io/pacman-bakeoff/#kimi-k3.1-pro PacBench results. GPT-6.2 Sol scored 87 in 6.3 min for $0.49, vs Mus... Topfi: Office work has never been OpenAIs strength, no shame in that by itself, but these Slideshow examples look particularly awful, far worse than what I myself got out of GPT-5.6 Sol about two weeks ago in a single prompt. Same for Workbooks and memos, those examples read inferior to some pre Opus 4.5 and Kimi K2 Thinking docs I have kept around. It's ok for a model not to be great at these, but these are some very po...",
+      "fetched_at": "2026-11-18T00:53:36.032287+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50535230",
+      "hn_story_type": "story",
+      "hn_points": "1063",
+      "hn_comments_count": "673",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50535230",
+      "hn_item_text": "",
+      "hn_comment_preview": "chriddyp: Pretty incredible cost reductions. In our data analytics exam [1], Astra went from ~$20 (V6) to ~$4 (V6.2) and Sol went from $2.6 (V6.1) to $1.2 (V6.2). Similar accuracy in both. It's cheaper both because of token reduction (20%) but it also took less tool calls to answer the questions. In some cases, it \"finished early\" and didn't find the answer we were looking for. Also very fast. Both Astra & Sol are the 2 fas...\nthefourthchime: PacBench results. GPT-6.2 Astra scored 92 in 6.6 min for $2.04, vs Kimi K3.1 Pro (93 in 11.5 min for $0.68); it lost points for the web-page layout around the maze and an orange ghost that often never leaves the house. Model: https://jonclegg.github.io/pacman-bakeoff/#gpt-6.2-astra Closest: https://jonclegg.github.io/pacman-bakeoff/#kimi-k3.1-pro PacBench results. GPT-6.2 Sol scored 87 in 6.3 min for $0.49, vs Mus...\nTopfi: Office work has never been OpenAIs strength, no shame in that by itself, but these Slideshow examples look particularly awful, far worse than what I myself got out of GPT-5.6 Sol about two weeks ago in a single prompt. Same for Workbooks and memos, those examples read inferior to some pre Opus 4.5 and Kimi K2 Thinking do...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=11,practical_tech=9,tools_agents=11,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 11,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "index"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "prompt",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "prompt",
+        "tool"
+      ],
+      "detail_slug": "1fdb21a647c61a8245bde777a9eab9ad3c52cca1",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T00:54:31.155891+00:00"
+    },
+    {
+      "id": "32a7607a027f8a36ef9ee12533a9f7d58f653ac4",
+      "title_hash": "a64d1facd569887c64e904bbc6f3c37e927db263",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Microsoft's ONNX Runtime has disappeared from GitHub",
+      "link": "https://github.com/microsoft/onnxruntime",
+      "published_at": "2026-11-17T23:18:49+00:00",
+      "summary": "HN story type: story HN points: 79 HN comments: 15 HN top comments: dangoodmanUT: This is why we vendor everything. You never know when it's going to vanish hiddenvulkcan: Maybe related to one of their packages that was compromised? Not sure if GitHub was the attack vector, but possibly tidying stuff up Source: https://opensourcemalware.com/blog/agent-framework-pypi-comp... spdustin: I wonder if they found new vectors that backdoor'ed models could exploit, like that discussed in the most recent Phrack [^0] [0]: https://phrack.org/issues/73/backdoor-attacks-against-machin...",
+      "fetched_at": "2026-11-18T00:53:36.032287+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50539610",
+      "hn_story_type": "story",
+      "hn_points": "79",
+      "hn_comments_count": "15",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50539610",
+      "hn_item_text": "",
+      "hn_comment_preview": "dangoodmanUT: This is why we vendor everything. You never know when it's going to vanish\nhiddenvulkcan: Maybe related to one of their packages that was compromised? Not sure if GitHub was the attack vector, but possibly tidying stuff up Source: https://opensourcemalware.com/blog/agent-framework-pypi-comp...\nspdustin: I wonder if they found new vectors that backdoor'ed models could exploit, like that discussed in the most recent Phrack [^0] [0]: https://phrack.org/issues/73/backdoor-attacks-against-machin...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=4,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 7,
+        "strategy_insight": 4,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "framework",
+            "runtime"
+          ],
+          "support_hits": [
+            "vector"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "runtime"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "framework",
+        "runtime",
+        "vector",
+        "github.com"
+      ],
+      "detail_slug": "32a7607a027f8a36ef9ee12533a9f7d58f653ac4",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T00:54:31.155891+00:00"
+    },
+    {
+      "id": "8a3148708f6bcc34386b2622a3ef51df805cc2ca",
+      "title_hash": "50ab8b5f35210b1954d8ffc0b5c002aa60e70fc6",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "MAI Code 2 and Code 2 Flash",
+      "link": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "published_at": "2026-11-17T18:25:13+00:00",
+      "summary": "HN story type: story HN points: 276 HN comments: 130 HN top comments: pseudosavant: I'd hate to be OpenAI and Anthropic. They are better than the rest of the available models currently, but only by a few months. That is a very tenuous lead and doesn't speak to much of a sustainable competitive moat for either company. The have to keep sprinting as fast as possible on the hamster wheel to just stay ahead. origini: If these benchmarks can hold up in real life, we are seeing again and again an intelligence explosion in front of our eyes and devaluation of intelligence. Anyone has more background how they were able to catch up that fast? Distillation of GPT due to their OpenAI acess to the model might make most sense but they probably are not allowed to do that. LaurensBER: We just cancelled our Github Copilot subscription. It was hard to even justify the 19,- dollar tier. All it gave us was some credits (at API prices) which most people burned through in days, some in hours, code reviews (that we couldn't customize) and another service to manage. Having AI integrated in Github is a decent idea but just like Microsoft Copilot, it's just not good enough at the moment. These two models...",
+      "fetched_at": "2026-11-18T00:53:36.032287+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50535885",
+      "hn_story_type": "story",
+      "hn_points": "276",
+      "hn_comments_count": "130",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50535885",
+      "hn_item_text": "",
+      "hn_comment_preview": "pseudosavant: I'd hate to be OpenAI and Anthropic. They are better than the rest of the available models currently, but only by a few months. That is a very tenuous lead and doesn't speak to much of a sustainable competitive moat for either company. The have to keep sprinting as fast as possible on the hamster wheel to just stay ahead.\norigini: If these benchmarks can hold up in real life, we are seeing again and again an intelligence explosion in front of our eyes and devaluation of intelligence. Anyone has more background how they were able to catch up that fast? Distillation of GPT due to their OpenAI acess to the model might make most sense but they probably are not allowed to do that.\nLaurensBER: We just cancelled our Github Copilot subscription. It was hard to even justify the 19,- dollar tier. All it gave us was some credits (at API prices) which most people burned through in days, some in hours, code reviews (that we couldn't customize) and another service to manage. Having AI integrated in Github is a decent idea but just like Microsoft Copilot, it's just not good enough at the moment. These two models...",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "37",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=13,practical_tech=10,tools_agents=12,strategy_insight=13,industry_business=-1",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 12,
+        "strategy_insight": 13,
+        "industry_business": -1
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "benchmark",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "copilot",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "code review"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -1,
+          "strong_hits": [
+            "valuation"
+          ],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [
+            "code review",
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "code review",
+        "code + review"
+      ],
+      "detail_slug": "8a3148708f6bcc34386b2622a3ef51df805cc2ca",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T00:54:31.155891+00:00"
+    },
+    {
       "id": "480e1787c926b19d3ca2da58f32048af74869bd9",
       "title_hash": "58034b02098fc12f12c4d5dca0e106473e6002ad",
       "source": "GeekNews",
@@ -165303,615 +165907,6 @@
       "detail_slug": "f39848958533e7ead743bba7893dfb6c5928e6fa",
       "is_english_source": false,
       "sent_at": "2026-05-23T11:41:26.352888+00:00"
-    },
-    {
-      "id": "acdbaa7086a4bcf0169b4902e0c15fbd9f13db20",
-      "title_hash": "df5d5b8a77b819f9c5ba24397b21fbb0a8ea9ca1",
-      "source": "GeekNews",
-      "title": "5년과 500만 달러의 교훈: 웹 개발용 새 프로그래밍 언어를 만든 것은 실수였다 | Wasp",
-      "link": "https://news.hada.io/topic?id=29778",
-      "published_at": "2026-05-23T00:19:02+00:00",
-      "summary": "Y Combinator 출신 풀스택 웹 프레임워크 Wasp가 5년간 자체 DSL 기반 언어 개발을 시도한 끝에 이를 포기하고 TypeScript로 전환하는 결정을 공개 \"JS판 Rails/Laravel\"을 지향하며 React·Node.js·Prisma 위에서 앱 사양을 선언적으로 기술 하는 구조로 ...",
-      "fetched_at": "2026-05-23T11:38:39.566604+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "52",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=7,practical_tech=5,tools_agents=4,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "typescript"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [
-            "실수",
-            "교훈"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "실수",
-        "교훈"
-      ],
-      "detail_slug": "acdbaa7086a4bcf0169b4902e0c15fbd9f13db20",
-      "is_english_source": false,
-      "sent_at": "2026-05-23T11:41:26.352888+00:00"
-    },
-    {
-      "id": "5aa5b7cea3fad345b7d5ab6833918dc5b6c24665",
-      "title_hash": "62f167db0bb3b0d16edf2384dfdd7df1ac4b0888",
-      "source": "GeekNews",
-      "title": "우간다 난민 캠프로 노트북 보내기",
-      "link": "https://news.hada.io/topic?id=29792",
-      "published_at": "2026-05-23T09:39:38+00:00",
-      "summary": "Django 는 서부 우간다 난민 캠프에서 University of London 원격 CS 학위를 듣고 있었지만, 전기·인터넷·노트북 모두 불안정했음 기존 노트북이 12V 배터리 연결 실수로 고장 나 오래된 MacBook을 보냈고, Australia Post 첫 시도는 리튬 배터리 문제로 반송됨",
-      "fetched_at": "2026-05-23T11:38:39.566604+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "실수"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "실수"
-      ],
-      "detail_slug": "5aa5b7cea3fad345b7d5ab6833918dc5b6c24665",
-      "is_english_source": false,
-      "sent_at": "2026-05-23T11:41:26.352888+00:00"
-    },
-    {
-      "id": "c29e2bcf64d3127aa9178c7fe14bf6019b9157c1",
-      "title_hash": "76b870d56cc0df003b57a7a2fe2a78a33b9912cb",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Rubish: A Unix shell written in pure Ruby",
-      "link": "https://github.com/amatsuda/rubish",
-      "published_at": "2026-05-23T06:32:00+00:00",
-      "summary": "HN story type: story HN points: 60 HN comments: 25 HN top comments: saysjonathan: Tangential: I would love to see more interpreted languages offer shells with native constructs for operating as daily drivers shells (not just REPLs). When I first started learning Ruby I used `rush`[0] as my main shell. Being immersed in the language, even if there were a few helpers for shell operations, really helped me reason better about Ruby and think in the language. `scsh`[1] was enlightening as well. Ulti... faangguyindia: People think Ruby is a slow language, but little do they know Ruby is a slower language than Go. But ruby these days is faster than Python. Alifatisk: I have to confess, seeing Claude as a contributor made me sigh, but I still skimmed through and it looked quite thorough and well thought out. So, I don't know if this sits on the thin line between a vibe coded project and an LLM assisted project.",
-      "fetched_at": "2026-05-23T11:38:39.566604+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48245262",
-      "hn_story_type": "story",
-      "hn_points": "60",
-      "hn_comments_count": "25",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48245262",
-      "hn_item_text": "",
-      "hn_comment_preview": "saysjonathan: Tangential: I would love to see more interpreted languages offer shells with native constructs for operating as daily drivers shells (not just REPLs). When I first started learning Ruby I used `rush`[0] as my main shell. Being immersed in the language, even if there were a few helpers for shell operations, really helped me reason better about Ruby and think in the language. `scsh`[1] was enlightening as well. Ulti...\nfaangguyindia: People think Ruby is a slow language, but little do they know Ruby is a slower language than Go. But ruby these days is faster than Python.\nAlifatisk: I have to confess, seeing Claude as a contributor made me sigh, but I still skimmed through and it looked quite thorough and well thought out. So, I don't know if this sits on the thin line between a vibe coded project and an LLM assisted project.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=7,tools_agents=16,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 16,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "llm",
-        "claude + code",
-        "github.com"
-      ],
-      "detail_slug": "c29e2bcf64d3127aa9178c7fe14bf6019b9157c1",
-      "is_english_source": true,
-      "translated_title": "순수 Ruby로 만든 유닉스 셸 Rubish",
-      "short_summary": "Rubish는 순수 Ruby로 구현한 유닉스 셸이다. HN에서는 언어 안에서 셸 작업을 풀어내는 발상에 관심이 모였고, 성능 체감과 AI 보조 개발에 대한 시선도 함께 나왔다.",
-      "why_it_matters": "셸과 애플리케이션 코드를 같은 언어 감각으로 다루고 싶다면 눈여겨볼 만한 사례다. 특히 Ruby를 이미 쓰는 환경에서는 자동화와 개발 도구 설계 방식에 작게나마 변화를 줄 수 있다.\n- Ruby 스크립트와 커맨드라인 작업의 문법 간극을 줄여 개인용 도구나 운영 스크립트를 한 흐름으로 묶기 쉬워진다.\n- 실무 도입을 가를 변수는 단순한 실행 속도보다 명령 호환성, 기존 유닉스 도구와의 연결, 팀의 학습 부담에 가깝다.\n- 개발 환경 전체를 바꾸기보다 반복 작업 자동화나 내부 CLI 같은 좁은 영역에서 먼저 시험해 볼 만한 접근으로 읽힌다.",
-      "hn_reaction_summary": "댓글 분위기는 호기심과 신중론이 함께 섞였다. 아이디어 자체는 반가워했지만, 실제로 일상용 셸로 버틸 수 있느냐를 따지는 반응이 많았다.\n- 해석형 언어도 REPL을 넘어서 주력 셸이 될 수 있어야 한다는 의견이 나왔고, 예전 `rush`, `scsh` 경험담도 이어졌다.\n- Ruby 성능에 대한 농담과 비교가 오갔지만, 셸 용도에서는 속도보다 사용감과 통합성이 더 큰 쟁점이라는 흐름도 보였다.\n- 저장소에 Claude 기여 흔적이 보인다는 점을 경계하는 시선이 있었지만, 막상 구현은 꽤 신중하게 짜였다는 평가도 함께 나왔다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-23T11:41:26.352888+00:00"
-    },
-    {
-      "id": "27b286de705af90fe59456a6b2fe4e1e93b05e00",
-      "title_hash": "373afdec68cb7b7665fff9f862bb8c592732e289",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Yeunjoo Choi from Igalia on Chromium",
-      "link": "https://theconsensus.dev/p/2026/05/20/yeunjoo-choi-from-igalia-on-chromium.html",
-      "published_at": "2026-05-20T12:49:20+00:00",
-      "summary": "HN story type: story HN points: 24 HN comments: 3 HN top comments: huzaifasinan: Fascinating read. The insight about open-source communities being more welcoming than expected is encouraging. Also interesting how enterprise browsers require separate policy engines, not just Chromium's built-in tools. The MPArch refactoring work sounds massive. Thanks for sharing this.",
-      "fetched_at": "2026-05-23T11:38:39.566604+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48206828",
-      "hn_story_type": "story",
-      "hn_points": "24",
-      "hn_comments_count": "3",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48206828",
-      "hn_item_text": "",
-      "hn_comment_preview": "huzaifasinan: Fascinating read. The insight about open-source communities being more welcoming than expected is encouraging. Also interesting how enterprise browsers require separate policy engines, not just Chromium's built-in tools. The MPArch refactoring work sounds massive. Thanks for sharing this.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=4,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 4,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "refactor",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "enterprise"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "refactor",
-        "rag"
-      ],
-      "detail_slug": "27b286de705af90fe59456a6b2fe4e1e93b05e00",
-      "is_english_source": true,
-      "translated_title": "이갈리아 최연주가 말하는 크로미움 개발 현장",
-      "short_summary": "Igalia의 최연주가 Chromium 개발 경험과 오픈소스 커뮤니티의 분위기를 들려준다. HN에서는 엔터프라이즈 브라우저의 정책 엔진과 대규모 MPArch 리팩터링 이야기에 관심이 모였다.",
-      "why_it_matters": "브라우저 엔진을 직접 만지는 일과 이를 제품 환경에 맞게 운영하는 일이 얼마나 다른지 짚어주는 사례다. Chromium 위에 서비스를 얹는 팀이라면 실무 감각을 얻을 만하다.\n- 오픈소스 커뮤니티가 예상보다 배타적이지 않았다는 대목은, 외부 기여를 망설이던 개발자에게 진입 장벽을 다시 보게 만든다.\n- 엔터프라이즈 브라우저는 Chromium 기본 기능만으로 끝나지 않고 별도 정책 엔진이 필요하다는 점이 드러난다. 기업용 배포와 통제 기능을 다루는 팀에 바로 닿는 이야기다.\n- MPArch 같은 대형 리팩터링은 브라우저 구조 변화가 단기 기능 추가보다 훨씬 긴 호흡의 투자라는 점을 보여준다.",
-      "hn_reaction_summary": "댓글 수는 많지 않았지만 분위기는 대체로 호의적이었다. 기술적 디테일이 살아 있고, Chromium 바깥에서 제품을 만드는 현실까지 드러난다는 반응이 눈에 띄었다.\n- 오픈소스 커뮤니티가 생각보다 환대한다는 대목에 공감하는 반응이 있었다. 신규 기여자 관점에서 반가운 신호로 읽혔다.\n- 단순히 Chromium을 가져다 쓰는 것과 기업용 브라우저를 운영하는 것은 다르다는 점, 특히 별도 정책 엔진이 필요하다는 점이 흥미로운 포인트로 꼽혔다.\n- MPArch 리팩터링 규모가 크다는 언급도 반복됐다. 브라우저 내부 구조 개편이 얼마나 긴 시간과 공수를 요구하는지 보여준다는 평가다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-23T11:41:26.352888+00:00"
-    },
-    {
-      "id": "81446375651d052ff2648172dc7f117d4e4bb7af",
-      "title_hash": "11c54e5e922710c0ce8d7c45b07abf2d33264baf",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "A Wayland Compositor in Minecraft",
-      "link": "https://modrinth.com/mod/waylandcraft",
-      "published_at": "2026-05-20T20:19:46+00:00",
-      "summary": "HN story type: story HN points: 225 HN comments: 50 HN post text: https://github.com/EVV1E/waylandcraft https://www.youtube.com/watch?v=cTkEM7b0IQw HN top comments: nxobject: This is amazing. And it's all done in 8 KLOC – half of it Java, half of it Rust. Link to source: https://github.com/EVV1E/waylandcraft yakattak: I can't wait to have windowing bugs and UI issues but in Minecraft! Jokes aside, I've grown to love \"XYZ in Minecraft\". It's like a newer (still 2011 was a long time ago!) version of \"Doom on XYZ\". schobi: I'm impressed by the coding skill to achieve a seamless integration and \"usability\". But other than a demo \"because we can\" I'm confused on what this could ever be useful for. AR/VR prototyping? Virtual showroom? Or maybe for an online presentation? Stream a video of playing Minecraft and get fancy slide transitions? \"let's go to the next slide\" and \"now we enter dangerous territory\".. \"over here I can show you ho...",
-      "fetched_at": "2026-05-23T11:38:39.566604+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48213529",
-      "hn_story_type": "story",
-      "hn_points": "225",
-      "hn_comments_count": "50",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48213529",
-      "hn_item_text": "https://github.com/EVV1E/waylandcraft https://www.youtube.com/watch?v=cTkEM7b0IQw",
-      "hn_comment_preview": "nxobject: This is amazing. And it's all done in 8 KLOC – half of it Java, half of it Rust. Link to source: https://github.com/EVV1E/waylandcraft\nyakattak: I can't wait to have windowing bugs and UI issues but in Minecraft! Jokes aside, I've grown to love \"XYZ in Minecraft\". It's like a newer (still 2011 was a long time ago!) version of \"Doom on XYZ\".\nschobi: I'm impressed by the coding skill to achieve a seamless integration and \"usability\". But other than a demo \"because we can\" I'm confused on what this could ever be useful for. AR/VR prototyping? Virtual showroom? Or maybe for an online presentation? Stream a video of playing Minecraft and get fancy slide transitions? \"let's go to the next slide\" and \"now we enter dangerous territory\".. \"over here I can show you ho...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "37",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=9,tools_agents=13,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 13,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 13,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "ai + coding"
-      ],
-      "detail_slug": "81446375651d052ff2648172dc7f117d4e4bb7af",
-      "is_english_source": true,
-      "translated_title": "마인크래프트 안의 웨일랜드 컴포지터",
-      "short_summary": "마인크래프트 안에서 웨일랜드 컴포지터를 구현한 프로젝트가 HN에서 화제를 모았다. 작은 코드베이스로 자바와 러스트를 엮어 실제 창 관리 환경처럼 보이게 만든 점이 특히 주목받았다.",
-      "why_it_matters": "겉으로는 장난 같은 데모지만, 비전통적 런타임 위에 그래픽·입력·창 관리 계층을 얹는 일이 어디까지 가능한지 보여주는 사례다. 실무에서는 게임 엔진, 가상 공간, 원격 협업 UI를 다루는 팀이 참고할 만한 감각이 있다.\n- 자바와 러스트를 섞어 비교적 작은 규모로 구현했다는 점이 눈에 띈다. 복잡한 시스템 통합도 설계에 따라 훨씬 가볍게 가져갈 수 있다는 신호다.\n- AR·VR, 가상 쇼룸, 온라인 발표 같은 맥락에서 '3D 공간 안의 데스크톱 UI'를 시험하는 프로토타입 발상으로 이어질 수 있다.\n- 당장 제품에 넣을 기능이라기보다, 입력 처리와 렌더링 파이프라인을 색다른 환경에 이식하는 실험이 개발자 도구와 인터페이스 설계에 어떤 힌트를 주는지 살펴볼 만하다.",
-      "hn_reaction_summary": "댓글 분위기는 감탄과 농담, 그리고 실용성에 대한 의문이 함께 섞인 쪽에 가깝다. 기술적으로는 꽤 매끈하다는 평가가 많았지만, '그래서 어디에 쓰나'라는 반응도 반복해서 나왔다.\n- 가장 많이 나온 호평은 구현 난도 대비 완성도다. 특히 약 8KLOC 규모에 자바와 러스트를 반반 써서 만들었다는 점이 인상적이라는 반응이 있었다.\n- 한편으로는 '이제 마인크래프트 안에서도 창 버그를 보게 생겼다'는 식의 농담이 이어졌다. 예전의 'Doom on XYZ' 밈을 떠올리게 한다는 반응도 있었다.\n- 회의적인 쪽은 데모 이상의 쓰임새를 묻는다. 반대로 일부는 AR·VR 프로토타이핑, 가상 발표, 온라인 전시 같은 틈새 활용 가능성을 거론했다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-23T11:41:26.352888+00:00"
-    },
-    {
-      "id": "8a44b903862e061a10db60226684f5529f4d904f",
-      "title_hash": "82b880b822c4b3cbc45069d74433c95de8475633",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Microsoft starts canceling Claude Code licenses",
-      "link": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
-      "published_at": "2026-05-22T17:32:04+00:00",
-      "summary": "HN story type: story HN points: 198 HN comments: 142 HN post text: https://archive.ph/WfCta HN top comments: tra3: There's definitely a way to use Claude code that is token conscious. I've tried throwing unsupervised agentic software factory workflows against the wall, and they burned through my tokens like nobody's business but didn't produce much. Supervised, human-in-the-loop process on the other hand is much more productive but doesn't consume nearly as much. Maybe that's why everyone's pushing agentic approaches so much. relevant_stats: So, snippet from the article says the following: > I understand that Microsoft is planning to remove most of its Claude Code licenses and push many of its developers to use Copilot CLI instead. While Claude Code has been a popular addition, it has also undermined Microsoft’s new GitHub Copilot CLI coding tool — a command line version of GitHub Copilot that runs outside of development apps like Visual Studio Code.... proxysna: Feels about right. I've launched an internal demo of Claude Code and Deepseek on the same day and we burned through our monthly allowance for Claude in just over a week, with more than a half of that budget being spent in one day. With DS people are unable to go through that same amount of money in a month, not even close. With that Claude feels like an expensive toy, while DS is a shovel, purely because developer...",
-      "fetched_at": "2026-05-23T07:27:13.124361+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48238896",
-      "hn_story_type": "story",
-      "hn_points": "198",
-      "hn_comments_count": "142",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48238896",
-      "hn_item_text": "https://archive.ph/WfCta",
-      "hn_comment_preview": "tra3: There's definitely a way to use Claude code that is token conscious. I've tried throwing unsupervised agentic software factory workflows against the wall, and they burned through my tokens like nobody's business but didn't produce much. Supervised, human-in-the-loop process on the other hand is much more productive but doesn't consume nearly as much. Maybe that's why everyone's pushing agentic approaches so much.\nrelevant_stats: So, snippet from the article says the following: > I understand that Microsoft is planning to remove most of its Claude Code licenses and push many of its developers to use Copilot CLI instead. While Claude Code has been a popular addition, it has also undermined Microsoft’s new GitHub Copilot CLI coding tool — a command line version of GitHub Copilot that runs outside of development apps like Visual Studio Code....\nproxysna: Feels about right. I've launched an internal demo of Claude Code and Deepseek on the same day and we burned through our monthly allowance for Claude in just over a week, with more than a half of that budget being spent in one day. With DS people are unable to go through that same amount of money in a month, not even close. Wit...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "85",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=61,practical_tech=4,tools_agents=61,strategy_insight=4,industry_business=7",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 61,
-        "strategy_insight": 4,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 61,
-          "strong_hits": [
-            "claude code",
-            "coding tool",
-            "workflow",
-            "copilot",
-            "agentic",
-            "ide",
-            "cli"
-          ],
-          "support_hits": [
-            "coding tool",
-            "workflow",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "agent + workflow",
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "launch"
-          ],
-          "support_hits": [
-            "business"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "coding tool",
-        "workflow",
-        "copilot",
-        "agentic",
-        "ide",
-        "cli",
-        "agent",
-        "agent + workflow",
-        "claude + code",
-        "ai + coding"
-      ],
-      "detail_slug": "8a44b903862e061a10db60226684f5529f4d904f",
-      "is_english_source": true,
-      "translated_title": "마이크로소프트, Claude Code 라이선스 회수 시작",
-      "short_summary": "마이크로소프트가 사내 Claude Code 라이선스를 대거 줄이고 GitHub Copilot CLI로 돌리려 한다는 내용이다. HN에서는 높은 토큰 비용과 무감독 에이전트식 사용의 비효율이 배경으로 자주 거론됐다.",
-      "why_it_matters": "이 소식은 코딩 AI 도입 기준이 성능 경쟁에서 운영 가능성으로 옮겨가고 있음을 보여준다. 기업 입장에서는 코드 품질 못지않게 비용 통제, 기본 도구와의 결합, 사내 표준화가 더 앞에 나오기 시작했다.\n- 대규모 조직일수록 모델 성능 차이보다 월간 사용량을 예측할 수 있는지, 예산이 갑자기 튀지 않는지가 구매 판단에 더 크게 작용할 수 있다.\n- 사내 표준이 Copilot CLI 같은 자사 도구로 묶이면 개발자는 개인적으로 선호하던 AI 도구보다 회사가 정한 워크플로에 맞춰 일하게 될 가능성이 크다.\n- 실무에서는 긴 에이전트 실행을 통째로 맡기는 방식보다, 사람이 중간중간 확인하는 짧은 루프가 비용과 결과물 면에서 다시 주목받을 수 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 \"그럴 만하다\"에 가깝다. Claude Code의 체감 생산성은 인정하면서도, 기업 환경에서는 토큰 비용이 너무 빠르게 불어나고 방임형 에이전트 사용이 특히 낭비를 키운다는 반응이 많았다.\n- 가장 많이 나온 포인트는 비용이다. 감독 없이 큰 작업을 던지면 한 주 만에 예산을 태웠다는 경험담이 반복됐다.\n- 반대편에서는 도구 자체보다 사용 방식이 문제라는 의견도 나왔다. 사람이 루프 안에 들어오면 토큰 사용을 꽤 줄이면서 산출물 품질도 더 낫다는 주장이다.\n- 실무자가 볼 쟁점은 모델 우열보다 운영 정책에 가깝다. 어떤 CLI를 쓰든 사용 한도, 승인 단계, 비용 가시화가 먼저라는 인식이 강했다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-23T07:30:35.598097+00:00"
-    },
-    {
-      "id": "8b50625a8ca3e61964b721a0e4d7a10793d6d3ce",
-      "title_hash": "d4cebb4b5dd2451ab1b93a6cbdce5f6bcc3a1e6b",
-      "source": "GeekNews",
-      "title": "리걸 프롬프트에서 Boolean이 중요한 이유",
-      "link": "https://news.hada.io/topic?id=29787",
-      "published_at": "2026-05-23T02:46:57+00:00",
-      "summary": "리걸 프롬프트에서 Boolean은 단순한 검색 연산자가 아니라 법률 AI의 판단 구조를 통제하는 핵심 장치다. AND는 모든 필수 요건을 빠짐없이 검토하게 하고, OR는 선택적 요건을 과도하게 요구하지 않게 하며, NOT은 예외·면책·배제 사유를 놓치지 않게 한다. 또한 IF-THEN-ELSE 구조는 사실관계나 증거가 부족한 경우...",
-      "fetched_at": "2026-05-23T07:27:13.124361+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=6,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "8b50625a8ca3e61964b721a0e4d7a10793d6d3ce",
-      "is_english_source": false,
-      "sent_at": "2026-05-23T07:30:35.598097+00:00"
     }
   ],
   "topic_digests": {
