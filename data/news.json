@@ -1,6 +1,630 @@
 {
   "items": [
     {
+      "id": "e8d4dbf6bc4a60c74f676c910b4c287abc618b26",
+      "title_hash": "707bbce4fb883f8d5cdf56b46f7d55913a6dedbe",
+      "source": "GeekNews",
+      "title": "Microsoft AI, 가격 대비 성능을 앞세운 새 모델 7종 공개",
+      "link": "https://news.hada.io/topic?id=37419&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T18:35:21+00:00",
+      "summary": "Microsoft AI가 보안, 코딩, 이미지, 음성, 의사결정 분야의 새 모델 7종 을 출시함. 실제 엔지니어링 작업을 수행하는 에이전트를 24시간 운영할 수 있는 가격대를 목표로 함 MAI Code 2 는 Microsoft의 일상적인 기업 코딩 벤치마크 평균에서 GPT-6.1 Sol 성능의 98%를 약 40% 가격에 제공함 MAI Cyber 2 Flash 는 CyberGym-E2E에서 GPT-6 Astra보다 높은 품질을 작업당 비용 2% 미만으로 제공하며, 상시 보안 모니터링과 방어를 겨냥함 MAI Image 2.7 은 Artificial Analysis 이미지 편집 평가에서 1위를 기록했으며, 첫 실시간 음성 대 음 …",
+      "fetched_at": "2026-11-18T21:17:41.912039+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=-1,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": -1,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "e8d4dbf6bc4a60c74f676c910b4c287abc618b26",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T21:18:28.344395+00:00"
+    },
+    {
+      "id": "959e314bd519e6b70764b66901165fc3ca4b445f",
+      "title_hash": "adb7b11d6146eb83eb9bb403be6a1ba110e6f288",
+      "source": "GeekNews",
+      "title": "모든 작업에 LLM이 필요한 것은 아니다",
+      "link": "https://news.hada.io/topic?id=37415&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T16:33:33+00:00",
+      "summary": "PostHog는 예/아니오나 정해진 선택지와 그 확률을 반환하는 의사결정 모델 을 활용함. 개인정보 탐지, 요청에 맞는 모델 선택, 검색 결과 재정렬처럼 짧은 판단을 반복하는 작업 에 적용 고비용 LLM 호출 전에 간단한 판단을 맡기면 불필요한 호출을 줄일 수 있으며, 개인정보 검사에서는 요약의 98.7%가 LLM 호출을 건너뜀 SQL 조회 결과에 맞는 차트 추천 에도 활용함. 다만 모델이나 버전이 바뀌면 같은 확률 점수의 의미도 달라질 수 있어, 실제 정답을 붙인 데이터로 임계값을 다시 보정 해야 함 의사결정 모델은 눈앞의 입력을 한 번에 …",
+      "fetched_at": "2026-11-18T21:17:41.912039+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=5,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단"
+      ],
+      "detail_slug": "959e314bd519e6b70764b66901165fc3ca4b445f",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T21:18:28.344395+00:00"
+    },
+    {
+      "id": "af440022845a1bb36ca01091fb2f6c879ecb5201",
+      "title_hash": "9196a20921d9feb474070eed526e92ee5b3b6e1c",
+      "source": "GeekNews",
+      "title": "Quad9, 프랑스에서 철수: DNS 리졸버가 불법 복제 대응에 적절하지 않은 이유",
+      "link": "https://news.hada.io/topic?id=37413&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T15:37:51+00:00",
+      "summary": "무료 보안 DNS Quad9가 2026년 11월 24일부터 프랑스의 DNS 질의에 응답하지 않을 예정 임. 스포츠 불법 스트리밍 도메인 차단을 거부해 제재금을 부과받았으며, 약 20건의 추가 소송에 따른 누적 비용을 감당하기 어려운 상황임 프랑스의 동적 차단 명령 은 ISP를 넘어 공개 DNS, VPN, CDN, 검색엔진으로 확대됨. 2026년 법 개정으로 Arcom이 운영하는 자동 실시간 차단 체계까지 추가됨 Quad9에는 전 세계 차단, 프랑스만 차단, 소송 지속 모두 큰 제약이 있음. 각각 해외 사용자에게 프랑스 법을 적용하는 문제, 사용자 위치를 법적으로 확정하기 어려운 문제, 비영리 조직의 자원 소진을 초래함 …",
+      "fetched_at": "2026-11-18T21:17:41.912039+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=0,strategy_insight=3,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": 3,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "소송"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "소송"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "소송"
+      ],
+      "detail_slug": "af440022845a1bb36ca01091fb2f6c879ecb5201",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T21:18:28.344395+00:00"
+    },
+    {
+      "id": "a01cb222a30210231ba229f6b9a1857677b71f88",
+      "title_hash": "f6613d2470bed155f01ba3291cd025fb7ce130ac",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+      "link": "https://news.ycombinator.com/item?id=50548660",
+      "published_at": "2026-11-18T16:53:42+00:00",
+      "summary": "HN story type: story HN points: 60 HN comments: 19 HN post text: Hi HN, we're Shane, Sam, and Abhi. Almost two years ago, we shared Mastra, our open-source TypeScript agent framework, on Show HN: https://news.ycombinator.com/item?id=43103073 . It got a few hundred upvotes; a couple of weeks later our downloads had doubled, and we were off to the races. Today we're sharing Mastra Factory, the open-source software factory we built to help maintain Mastra itself. At Mastra, we now average nearly 4M downloads per week, and with Factory our team now merges hundreds of PRs a week across the mastra-ai GitHub org. Last week, Factory opened and merged 238 PRs, alongside 630 merged PRs from humans. There's a lot of debate about what a software factory is. For us Factory is a configurable agentic kanban board that's @-taggable in Slack. Under the hood, it uses Mastra’s durable agents for long-running sessions, our conversational memory system, a markdown based wiki with source citations to incorporate company knowledge, signals that subscribe to PR comments wired up into sessions, and a customizable cloud sandbox with our coding harness (working on supporting Claude Code, Codex etc). When we started out, we modeled Factory around our existing workflow-o... HN top comments: jaf12duke: What have you learned from people who use Mastra today versus what you/they were doing in the beginning? yoz: Links: https://factory.mastra.ai https://github.com/mastra-ai/template-factory moltar: Just to clarify, as I couldn’t confirm this from the docs. Do agents run with their own identity or is it assuming engineer github identity?",
+      "fetched_at": "2026-11-18T21:17:41.912039+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50548660",
+      "hn_story_type": "story",
+      "hn_points": "60",
+      "hn_comments_count": "19",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50548660",
+      "hn_item_text": "Hi HN, we're Shane, Sam, and Abhi. Almost two years ago, we shared Mastra, our open-source TypeScript agent framework, on Show HN: https://news.ycombinator.com/item?id=43103073 . It got a few hundred upvotes; a couple of weeks later our downloads had doubled, and we were off to the races. Today we're sharing Mastra Factory, the open-source software factory we built to help maintain Mastra itself. At Mastra, we now average nearly 4M downloads per week, and with Factory our team now merges hundreds of PRs a week across the mastra-ai GitHub org. Last week, Factory opened and merged 238 PRs, alongside 630 merged PRs from humans. There's a lot of debate about what a software factory is. For us Factory is a configurable agentic kanban board that's @-taggable in Slack. Under the hood, it uses Mastra’s durable agents for long-running sessions, our conversational memory system, a markdown based wiki with source citations to incorporate company knowledge, signals that subscribe to PR comments wired up into sessions, and a customizable cloud sandbox with our coding harness (working on supporting Claude Code, Codex etc). When we started out, we modeled Factory around our existing workflow-o...",
+      "hn_comment_preview": "jaf12duke: What have you learned from people who use Mastra today versus what you/they were doing in the beginning?\nyoz: Links: https://factory.mastra.ai https://github.com/mastra-ai/template-factory\nmoltar: Just to clarify, as I couldn’t confirm this from the docs. Do agents run with their own identity or is it assuming engineer github identity?",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "86",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=62,practical_tech=29,tools_agents=62,strategy_insight=13,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 29,
+        "tools_agents": 62,
+        "strategy_insight": 13,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 29,
+          "strong_hits": [
+            "typescript",
+            "framework",
+            "sandbox",
+            "show hn",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 62,
+          "strong_hits": [
+            "claude code",
+            "workflow",
+            "sandbox",
+            "agentic",
+            "codex",
+            "ide"
+          ],
+          "support_hits": [
+            "template",
+            "workflow",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + sandbox",
+            "agent + workflow",
+            "claude + code",
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "signal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "team + workflow"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "workflow",
+        "sandbox",
+        "agentic",
+        "codex",
+        "ide",
+        "template",
+        "agent",
+        "agent + sandbox",
+        "agent + workflow",
+        "claude + code",
+        "ai + coding"
+      ],
+      "detail_slug": "a01cb222a30210231ba229f6b9a1857677b71f88",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T21:18:28.344395+00:00"
+    },
+    {
+      "id": "57733d19a4da6348aeec61c4c8a437c980cf6e76",
+      "title_hash": "3b9b467c00e09ae5de3c32b7aff9daa2d09e7b99",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Nobody blocks a keyboard – Rooted Android as a physical USB Deck",
+      "link": "https://github.com/mr-anjaneyam/Emittr",
+      "published_at": "2026-11-16T14:18:15+00:00",
+      "summary": "HN story type: story HN points: 39 HN comments: 37 HN post text: Hey HN, I built Emittr because, i frequently deal with air-gapped or locked-down systems where USB storage is disabled and third party software cannot be installed. Nobody blocks a physical keyboard, so i used the Linux Kernel's USB gadget subsystem (ConfigFS at /dev/hidg0) to turn a rooted android phone to a real USB HID Keyboard and mouse. 1. No installation on target device. It talks to motherboard USB controller, so it works in every locked down OS as well, BIOS, GRUB, etc. 2. Out of band bridge : we don't store passwords or authenticators on rooted phone. Emittr exposes a web UI on LAN, so we can send keystrokes from our main phones. 3. Types long scripts (chatgpt debuggings), SSH keys or passwords at ~1000 WPM without touching the host's clipboard. 4. OS can see this only as a genuine HID keyboard/mouse. Zero host footprint as no drivers, software or background scripts on target machine. 5. Uses USB-IF 0x0238 via on-screen joysticks instead of synthetic Shift + Scroll hacks. Feel free to check the work and try if you have a rooted android handy. GitHub: https://github.com/mr-anjaneyam/Emittr Webpage: https://emittr.srianjaneyam.me/ I'm planning to record and add few demos... HN top comments: jasode: >, so it works in every locked down OS as well, BIOS, GRUB, etc. Fyi... Apple MacBook laptops and iPhones block USB peripherals (including keyboards) unless the password is first entered on the real builtin keyboard or touchscreen to approve it. Supposedly, Apple does this to prevent gadgets like yours from brute-forcing passwords. arde: Now, if it could also use the camera to forward video it would turn into a full KVM-over-IP. Or it could parse the camera input for text output or automation. Or it could use STT for its input, so it would enable easy verbal interaction with any device. yjftsjthsd-h: > Out of band bridge : we don't store passwords or authenticators on rooted phone. Emittr exposes a web UI on LAN, so we can send keystrokes from our main phones. Depending on threat model (do you trust the network?), that seems less secure than keeping credentials on-device.",
+      "fetched_at": "2026-11-18T21:17:41.912039+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50517840",
+      "hn_story_type": "story",
+      "hn_points": "39",
+      "hn_comments_count": "37",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50517840",
+      "hn_item_text": "Hey HN, I built Emittr because, i frequently deal with air-gapped or locked-down systems where USB storage is disabled and third party software cannot be installed. Nobody blocks a physical keyboard, so i used the Linux Kernel's USB gadget subsystem (ConfigFS at /dev/hidg0) to turn a rooted android phone to a real USB HID Keyboard and mouse. 1. No installation on target device. It talks to motherboard USB controller, so it works in every locked down OS as well, BIOS, GRUB, etc. 2. Out of band bridge : we don't store passwords or authenticators on rooted phone. Emittr exposes a web UI on LAN, so we can send keystrokes from our main phones. 3. Types long scripts (chatgpt debuggings), SSH keys or passwords at ~1000 WPM without touching the host's clipboard. 4. OS can see this only as a genuine HID keyboard/mouse. Zero host footprint as no drivers, software or background scripts on target machine. 5. Uses USB-IF 0x0238 via on-screen joysticks instead of synthetic Shift + Scroll hacks. Feel free to check the work and try if you have a rooted android handy. GitHub: https://github.com/mr-anjaneyam/Emittr Webpage: https://emittr.srianjaneyam.me/ I'm planning to record and add few demos...",
+      "hn_comment_preview": "jasode: >, so it works in every locked down OS as well, BIOS, GRUB, etc. Fyi... Apple MacBook laptops and iPhones block USB peripherals (including keyboards) unless the password is first entered on the real builtin keyboard or touchscreen to approve it. Supposedly, Apple does this to prevent gadgets like yours from brute-forcing passwords.\narde: Now, if it could also use the camera to forward video it would turn into a full KVM-over-IP. Or it could parse the camera input for text output or automation. Or it could use STT for its input, so it would enable easy verbal interaction with any device.\nyjftsjthsd-h: > Out of band bridge : we don't store passwords or authenticators on rooted phone. Emittr exposes a web UI on LAN, so we can send keystrokes from our main phones. Depending on threat model (do you trust the network?), that seems less secure than keeping credentials on-device.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=20,strategy_insight=7,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 20,
+        "strategy_insight": 7,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "storage",
+            "show hn",
+            "rust"
+          ],
+          "support_hits": [
+            "debugging"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "automation",
+            "ide",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "storage",
+        "show hn",
+        "rust",
+        "debugging",
+        "github.com"
+      ],
+      "detail_slug": "57733d19a4da6348aeec61c4c8a437c980cf6e76",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T21:18:28.344395+00:00"
+    },
+    {
+      "id": "1436ddd4d6843b36093dbce2b80e510262f868fb",
+      "title_hash": "0962d89ea2d482dd6054e424526bb9898baac794",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Search Browser – Minimalist WebKit browser with Chrome extension support",
+      "link": "https://searchbrowser.app/",
+      "published_at": "2026-11-18T20:04:31+00:00",
+      "summary": "HN story type: story HN points: 24 HN comments: 10 HN top comments: camkego: Shouldn't the intro paragraph carefully, clearly explain the benefits? This is the intro paragraph \"Search is a browser for the Mac with nothing in the way. About ten megabytes, the engine already in macOS, and a window that opens in a third of a second. Free, for any Mac on macOS 14 or later.\" I just think \"with nothing in the way\", is really lacking as the value proposition. fnoobnar: “ Two ways to hold it. Titles across the top, or down the side. The grey slides to the tab you pick either way, and a pinned site is one letter.” I really can’t stand LLM language. HelloUsername: Discussion on 24.sep.2026 https://news.ycombinator.com/item?id=49828120 32 comments Also related recently: \"Show HN: Zigzag, a native Mac browser for people leaving Arc \" https://news.ycombinator.com/item?id=50496787 74 comments",
+      "fetched_at": "2026-11-18T21:17:41.912039+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50551398",
+      "hn_story_type": "story",
+      "hn_points": "24",
+      "hn_comments_count": "10",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50551398",
+      "hn_item_text": "",
+      "hn_comment_preview": "camkego: Shouldn't the intro paragraph carefully, clearly explain the benefits? This is the intro paragraph \"Search is a browser for the Mac with nothing in the way. About ten megabytes, the engine already in macOS, and a window that opens in a third of a second. Free, for any Mac on macOS 14 or later.\" I just think \"with nothing in the way\", is really lacking as the value proposition.\nfnoobnar: “ Two ways to hold it. Titles across the top, or down the side. The grey slides to the tab you pick either way, and a pinned site is one letter.” I really can’t stand LLM language.\nHelloUsername: Discussion on 24.sep.2026 https://news.ycombinator.com/item?id=49828120 32 comments Also related recently: \"Show HN: Zigzag, a native Mac browser for people leaving Arc \" https://news.ycombinator.com/item?id=50496787 74 comments",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "show hn",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "extension"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "show hn",
+        "rag"
+      ],
+      "detail_slug": "1436ddd4d6843b36093dbce2b80e510262f868fb",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T21:18:28.344395+00:00"
+    },
+    {
+      "id": "54f941e7fe88d11ccf6f84e2e531b4a21fbe89a4",
+      "title_hash": "83f80036560b9ea428d642586d156f2aa2f28c5c",
+      "source": "TechCrunch",
+      "title": "Spend management platform Payhawk announces $280M raise, 2B valuation",
+      "link": "https://techcrunch.com/2026/11/18/spend-management-platform-payhawk-announces-280m-raise-2b-valuation/",
+      "published_at": "2026-11-18T19:29:41+00:00",
+      "summary": "Founded in 2018, Payhawk is an enterprise financial management platform that helps companies track and manage expenses and procurement using AI agents.",
+      "fetched_at": "2026-11-18T21:17:41.912039+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "35",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=29,practical_tech=-4,tools_agents=7,strategy_insight=-4,industry_business=29",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 7,
+        "strategy_insight": -4,
+        "industry_business": 29
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ai agent"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "announces"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 29,
+          "strong_hits": [
+            "enterprise",
+            "announces",
+            "valuation"
+          ],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "enterprise + platform"
+          ],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "enterprise",
+        "announces",
+        "valuation",
+        "platform",
+        "enterprise + platform",
+        "techcrunch.com"
+      ],
+      "detail_slug": "54f941e7fe88d11ccf6f84e2e531b4a21fbe89a4",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T21:18:28.344395+00:00"
+    },
+    {
       "id": "3956193fe871b5e739f60e1f6cfaec09c28c18e9",
       "title_hash": "ed1138c795f9d0befe7156571fa58584b11f82e9",
       "source": "GeekNews",
@@ -165402,548 +166026,6 @@
       "detail_slug": "ca7ecc0f716f674c21168e30c8aa685c3a35d297",
       "is_english_source": false,
       "sent_at": "2026-05-24T13:07:13.917446+00:00"
-    },
-    {
-      "id": "3d12e5bcbd2f5f1acbac7394d473356519f40880",
-      "title_hash": "96ccb252f0f856af9a562d723836872159ee15fe",
-      "source": "GeekNews",
-      "title": "&lt;dl&gt;에 관하여 (2021)",
-      "link": "https://news.hada.io/topic?id=29821",
-      "published_at": "2026-05-24T10:40:35+00:00",
-      "summary": "은 이름–값 쌍 목록을 의미적으로 표현하는 HTML 요소로, 편의시설·청구 항목·기술 용어집 같은 UI 패턴에 적합함 설명 목록은 이름 과 값 을 ...",
-      "fetched_at": "2026-05-24T13:02:08.888500+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "3d12e5bcbd2f5f1acbac7394d473356519f40880",
-      "is_english_source": false,
-      "sent_at": "2026-05-24T13:07:13.917446+00:00"
-    },
-    {
-      "id": "d0388855a6bffeba10dba96616674af23d766131",
-      "title_hash": "25287a276857ac3debd1f452896b7472b6d6cd69",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Alexander Grothendieck Revolutionized 20th-Century Mathematics",
-      "link": "https://www.quantamagazine.org/how-alexander-grothendieck-revolutionized-20th-century-mathematics-20260520/",
-      "published_at": "2026-05-24T03:19:02+00:00",
-      "summary": "HN story type: story HN points: 82 HN comments: 16 HN top comments: susam: One of my favourite Grothendieck stories from https://www.ams.org/notices/200410/fea-grothendieck-part2.pd... >: > One striking characteristic of Grothendieck's mode of thinking is that it seemed to rely so little on examples. This can be seen in the legend of the so-called \"Grothendieck prime\". In a mathematical conversation, someone suggested to Grothendieck that they should consider a particular prime number. \"... mkprc: For anyone interested in Grothendieck's opinions on kimchi … https://mikepierce.github.io/grothendieck-kimchi/translation... jcreinhold: If anyone's interested in Grothendieck's writing, which is primarily in French, I threw his \"Séminaires de Géométrie Algébrique\" (SGA, Algebraic Geometry Seminars) and \"Éléments de Géométrie Algébrique\" (EGA, Elements of Algebraic Geometry) into an LLM to translate it to English. It's spotty in some sections, so I intend to do another pass, but it's better than my remedial French. EGA: https://github.com/jcreinhol...",
-      "fetched_at": "2026-05-24T13:02:08.888500+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48254020",
-      "hn_story_type": "story",
-      "hn_points": "82",
-      "hn_comments_count": "16",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48254020",
-      "hn_item_text": "",
-      "hn_comment_preview": "susam: One of my favourite Grothendieck stories from https://www.ams.org/notices/200410/fea-grothendieck-part2.pd... >: > One striking characteristic of Grothendieck's mode of thinking is that it seemed to rely so little on examples. This can be seen in the legend of the so-called \"Grothendieck prime\". In a mathematical conversation, someone suggested to Grothendieck that they should consider a particular prime number. \"...\nmkprc: For anyone interested in Grothendieck's opinions on kimchi … https://mikepierce.github.io/grothendieck-kimchi/translation...\njcreinhold: If anyone's interested in Grothendieck's writing, which is primarily in French, I threw his \"Séminaires de Géométrie Algébrique\" (SGA, Algebraic Geometry Seminars) and \"Éléments de Géométrie Algébrique\" (EGA, Elements of Algebraic Geometry) into an LLM to translate it to English. It's spotty in some sections, so I intend to do another pass, but it's better than my remedial French. EGA: https://github.com/jcreinhol...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm"
-      ],
-      "detail_slug": "d0388855a6bffeba10dba96616674af23d766131",
-      "is_english_source": true,
-      "translated_title": "알렉산더 그로텐디크가 바꾼 20세기 수학",
-      "short_summary": "이 글은 알렉산더 그로텐디크가 극도로 추상적인 개념과 새로운 틀로 20세기 수학의 흐름을 바꾼 과정을 돌아본다. HN에서는 그의 독특한 사고방식과 난해한 저작을 다시 읽으려는 움직임이 함께 거론됐다.",
-      "why_it_matters": "수학사 인물 소개에 가까운 글이지만, 지금 다시 읽히는 이유는 추상화의 힘과 지식 접근 방식의 변화가 함께 보이기 때문이다. HN 댓글 맥락에서는 업적 회고를 넘어, 어려운 원전을 오늘의 도구로 다시 소화하려는 흐름이 눈에 띈다.\n- 프랑스어로 쓰인 SGA·EGA를 LLM으로 영어 번역해 읽고 있다는 반응이 나왔다. 예전에는 소수만 닿을 수 있던 지식이 더 넓게 풀리는 장면으로 읽힌다.\n- 예시보다 구조를 먼저 세우는 그로텐디크식 사고는 복잡한 시스템 설계나 연구 인프라처럼 오래 가는 틀을 만드는 일과도 맞닿아 있다.\n- 동시에 추상화가 너무 앞서면 학습 비용이 커진다는 경고도 함께 남는다. 실무에서도 개념의 우아함만 볼 게 아니라, 설명 가능성과 온보딩 비용을 같이 봐야 한다.",
-      "hn_reaction_summary": "HN 반응은 대체로 경외와 호기심 쪽에 가깝다. 댓글은 업적을 단순히 찬양하기보다, 그의 사고방식이 얼마나 특이했는지와 그 저작을 오늘 어떻게 읽을 수 있는지에 관심이 모였다.\n- Grothendieck prime 일화처럼 구체적 예보다 구조를 먼저 보는 스타일을 보여 주는 댓글이 반복해서 언급됐다.\n- 프랑스어 원전을 LLM으로 영어 번역해 공유했다는 반응도 있었다. 인물 회고가 자료 접근성 논의로 자연스럽게 이어진 셈이다.\n- 가벼운 에피소드와 찬사가 많았지만, 한편으로는 이런 초고도 추상화가 얼마나 읽히고 가르쳐질 수 있느냐는 거리감도 함께 드러났다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T13:07:13.917446+00:00"
-    },
-    {
-      "id": "bb5b8d4b75aae5d647aee253fc27a2c2b542685d",
-      "title_hash": "9380023bea8583b3224b1bf8397eb31ff8dd92be",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Mastering Dyalog APL",
-      "link": "https://mastering.dyalog.com/README.html",
-      "published_at": "2026-05-24T11:42:15+00:00",
-      "summary": "HN story type: story HN points: 24 HN comments: 2 HN top comments: pjmlp: I have no use for APL, yet this looks like a great bookmark for rainy days. raghavchamadiya: Nice to see this getting the Jupyter Notebook treatment. The original book was already one of the better introductions to APL. Interactive examples make a huge difference for a language where half the learning curve is just building muscle memory with the symbols",
-      "fetched_at": "2026-05-24T13:02:08.888500+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48256475",
-      "hn_story_type": "story",
-      "hn_points": "24",
-      "hn_comments_count": "2",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48256475",
-      "hn_item_text": "",
-      "hn_comment_preview": "pjmlp: I have no use for APL, yet this looks like a great bookmark for rainy days.\nraghavchamadiya: Nice to see this getting the Jupyter Notebook treatment. The original book was already one of the better introductions to APL. Interactive examples make a huge difference for a language where half the learning curve is just building muscle memory with the symbols",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 2,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rag"
-      ],
-      "detail_slug": "bb5b8d4b75aae5d647aee253fc27a2c2b542685d",
-      "is_english_source": true,
-      "translated_title": "Dyalog APL을 제대로 익히는 법",
-      "short_summary": "Dyalog APL 입문서를 Jupyter Notebook 형태로 접할 수 있게 한 자료가 HN에 올랐다. 기호가 많은 언어 특성상, 직접 실행해 보는 예제가 학습 장벽을 낮춘다는 반응이 나왔다.",
-      "why_it_matters": "이번 항목은 APL처럼 진입장벽이 높은 언어도 실행형 학습 자료로 다시 묶으면 접근성이 크게 달라진다는 점을 보여준다.\n- 기존에 평판이 좋던 APL 입문서를 노트북 형식으로 옮기면서 읽기용 문서가 아니라 따라 치고 바로 확인하는 학습 흐름이 됐다.\n- 기호 입력과 반복 숙달이 큰 비중을 차지하는 언어라서, 인터랙티브 예제는 문법 설명보다 더 직접적인 학습 도구로 작동한다.\n- 실무에서도 생소한 언어나 DSL, 데이터 도구를 사내 교육할 때 정적 문서보다 실행 가능한 예제 패키지가 더 나은 온보딩 방식이 될 수 있다.",
-      "hn_reaction_summary": "댓글 수는 2개로 많지 않지만 분위기는 대체로 호의적이다. 당장 쓸 일은 없어도 저장해 둘 만한 자료라는 반응과, 인터랙티브 형식이 학습 경험을 살린다는 평가가 눈에 띈다.\n- 원래 책 자체가 APL 입문서로 괜찮았다는 전제가 있어, 이번 공개는 내용 자체보다 전달 방식의 개선에 더 시선이 모였다.\n- Jupyter Notebook으로 옮긴 점에 대해 긍정적 반응이 있었고, 특히 기호 중심 언어에서 손에 익히는 과정에 도움이 된다는 의견이 나왔다.\n- 뚜렷한 반론이나 논쟁보다는 '지금 당장 쓸 일은 없어도 배워볼 만하다'는 가벼운 관심과 학습 자료로서의 가치 평가가 중심이었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T13:07:13.917446+00:00"
-    },
-    {
-      "id": "24f4f54123a82fc04b0af3e86aac16edb54c68ad",
-      "title_hash": "1bbf00fbb201a5efb4a8505ced5d11eb89cdc9ad",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Why is Vivado 2026.1 dropping Linux support for free tier?",
-      "link": "https://adaptivesupport.amd.com/s/question/0D5Pd00001YQLdMKAX/why-is-vivado-20261-dropping-linux-support-for-free-tier-?language=en_US",
-      "published_at": "2026-05-24T04:14:52+00:00",
-      "summary": "HN story type: story HN points: 217 HN comments: 101 HN top comments: akarambir: The official replies are addressing questions that nobody has asked. The main issue is why Linux support is being removed from the Basic tier while Windows is still allowed. To grow the ecosystem, AMD needs more people working on their hardware. Restricting Linux will only alienates students, hobbyists, and devs who want to adopt AMD tech. - From long term AMD user nmaludy: We've had good experiences with Lattice parts. Their software tools are free for all of their basic chips. They only charge for licensing when you use the higher end SKUs with SerDes. Example, you can use and develop on an ECP5 or Certus using their free license, but then you need a paid license to work on ECP5-5G or CertusPro chips. They're not perfect, but they're better to work with than Xilinx. Also, their dat... danborn26: Dropping Linux support on the free tier feels like a huge step backward for hobbyists and students. So many academic and open source FPGA workflows rely entirely on Linux environments.",
-      "fetched_at": "2026-05-24T13:02:08.888500+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48254309",
-      "hn_story_type": "story",
-      "hn_points": "217",
-      "hn_comments_count": "101",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48254309",
-      "hn_item_text": "",
-      "hn_comment_preview": "akarambir: The official replies are addressing questions that nobody has asked. The main issue is why Linux support is being removed from the Basic tier while Windows is still allowed. To grow the ecosystem, AMD needs more people working on their hardware. Restricting Linux will only alienates students, hobbyists, and devs who want to adopt AMD tech. - From long term AMD user\nnmaludy: We've had good experiences with Lattice parts. Their software tools are free for all of their basic chips. They only charge for licensing when you use the higher end SKUs with SerDes. Example, you can use and develop on an ECP5 or Certus using their free license, but then you need a paid license to work on ECP5-5G or CertusPro chips. They're not perfect, but they're better to work with than Xilinx. Also, their dat...\ndanborn26: Dropping Linux support on the free tier feels like a huge step backward for hobbyists and students. So many academic and open source FPGA workflows rely entirely on Linux environments.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "35",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=11,practical_tech=9,tools_agents=11,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 11,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "workflow"
-          ],
-          "support_hits": [
-            "workflow",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "workflow",
-        "tool"
-      ],
-      "detail_slug": "24f4f54123a82fc04b0af3e86aac16edb54c68ad",
-      "is_english_source": true,
-      "translated_title": "Vivado 2026.1 무료판, 왜 리눅스를 뺐나",
-      "short_summary": "Hacker News에서는 AMD가 Vivado 2026.1 Basic 무료판에서 리눅스 지원을 빼고 윈도우만 남긴 이유를 두고 비판이 이어졌다. 학생, 취미 개발자, 오픈소스 FPGA 작업 흐름을 외면한 결정이라는 반응이 많았다.",
-      "why_it_matters": "이번 논쟁은 단순한 운영체제 취향 문제가 아니다. FPGA를 배우고 실험하고 자동화하는 현장에서는 리눅스가 기본인 경우가 많아서, 무료판의 지원 축소가 진입 장벽 자체를 높일 수 있다는 우려가 나온다.\n\n- 대학 연구실, 메이커 프로젝트, 오픈소스 FPGA 툴체인은 리눅스 환경 의존도가 높다. 무료판에서 막히면 교육과 프로토타이핑 흐름이 바로 끊긴다.\n- 윈도우는 남기고 리눅스만 제외한 점이 특히 반발을 키웠다. 비용 절감보다 사용자층 선별로 읽히면서 생태계 확장 전략과 어긋난다는 지적이 붙는다.\n- 실무적으로는 자동화 빌드, CI, 원격 개발 환경 구성이 더 까다로워질 수 있다. 장기적으로는 Lattice 같은 대안을 검토하는 팀이 늘어날 여지도 있다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 부정적이다. 핵심 불만은 '왜 리눅스만 무료판에서 빠지느냐'는 점인데, AMD의 공식 답변이 그 질문을 제대로 다루지 못했다는 반응이 반복됐다.\n\n- 학생과 취미 개발자에게는 뒤로 가는 결정이라는 평가가 많다. 학계와 오픈소스 워크플로 상당수가 리눅스 기반이라는 경험담이 이어졌다.\n- 몇몇 댓글은 Lattice 사례를 들며 비교했다. 기본 칩은 무료로 넓게 풀고 고급 SKU에서 과금하는 방식이 Xilinx보다 낫다는 의견이 눈에 띄었다.\n- 단순 불만을 넘어서 생태계 전략 문제로 보는 시각도 많다. 신규 사용자를 끌어와야 할 무료판에서 오히려 진입층을 밀어내고 있다는 비판이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-24T13:07:13.917446+00:00"
-    },
-    {
-      "id": "c37eef0033963bbdc785d08205169714f6011e3d",
-      "title_hash": "0eeb4fc3a2226b89f06de242845f65c7a87590ab",
-      "source": "GeekNews",
-      "title": "Minecraft 모드로 구현된 Wayland 컴포지터",
-      "link": "https://news.hada.io/topic?id=29819",
-      "published_at": "2026-05-24T05:00:55+00:00",
-      "summary": "waylandcraft 는 Minecraft 안에 완전한 기능의 Wayland 컴포지터를 추가해, 월드 안에서 앱과 창을 실행할 수 있게 함 창 사이 드래그 앤 드롭 을 지원하며, 비디오 플레이어를 HUD에 고정하는 사용 방식도 가능함 실행 환경은 Linux 전용",
-      "fetched_at": "2026-05-24T08:45:43.114283+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "c37eef0033963bbdc785d08205169714f6011e3d",
-      "is_english_source": false,
-      "sent_at": "2026-05-24T08:50:15.306864+00:00"
-    },
-    {
-      "id": "6872028c58c106f4ce5c2011c7e0ed40987ed292",
-      "title_hash": "0c7eaa89e740b3911e4c88c59c0b974f6a4ef99e",
-      "source": "GeekNews",
-      "title": "microsoft/mimalloc - 고성능 범용 메모리 할당자",
-      "link": "https://news.hada.io/topic?id=29812",
-      "published_at": "2026-05-24T00:31:01+00:00",
-      "summary": "malloc을 드롭인 교체 가능한 범용 할당자 로, 코드 수정 없이 기존 프로그램에 적용 가능 jemalloc, tcmalloc보다 빠르면서 메모리도 덜 씀 : tcmalloc 대비 13%, jemalloc 대비 2.5배 이상 빠름 특정 벤치마크 1등이 아니라, 어떤 워크로드든 꾸...",
-      "fetched_at": "2026-05-24T08:45:43.114283+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=4,practical_tech=4,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "코드",
-            "성능"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "코드",
-        "성능"
-      ],
-      "detail_slug": "6872028c58c106f4ce5c2011c7e0ed40987ed292",
-      "is_english_source": false,
-      "sent_at": "2026-05-24T08:50:15.306864+00:00"
-    },
-    {
-      "id": "55e10863feb61f1d27264177345360bb59817c26",
-      "title_hash": "d88ca2a72c92f0900a9811d65764100bed9bfc24",
-      "source": "GeekNews",
-      "title": "Show GN: 주말 동안 만든 인공지능 키우기 (AI Model Idle)",
-      "link": "https://news.hada.io/topic?id=29818",
-      "published_at": "2026-05-24T04:38:58+00:00",
-      "summary": "AI 업계에서 실제로 벌어지는 모든 일을 idle 게임 메커니즘으로 옮겼습니다. 데이터를 모으고, 컴퓨팅을 사고, 모델을 학습시키고, 제품으로 팔고, 위기를 넘기고, 직원을 자르고, 그 직원이 다시 회사를 고소하는.... 그 흐름 전부가 게임 안에 있습니다.7가지 지표(Data, Compute, Research, Model Quality",
-      "fetched_at": "2026-05-24T08:45:43.114283+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "55e10863feb61f1d27264177345360bb59817c26",
-      "is_english_source": false,
-      "sent_at": "2026-05-24T08:50:15.306864+00:00"
     }
   ],
   "topic_digests": {
