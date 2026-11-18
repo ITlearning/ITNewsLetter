@@ -1,6 +1,605 @@
 {
   "items": [
     {
+      "id": "c2fb44c52e68c1a91356ab8cafae2ef3253d7ee3",
+      "title_hash": "18eb6f4e0d2cd1f1896f3394448fe7165ec85dea",
+      "source": "GeekNews",
+      "title": "MAI Code 2와 Code 2 Flash - 일상적인 기업 코딩의 가격 대비 성능에 초점을 맞춘 모델",
+      "link": "https://news.hada.io/topic?id=37368&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-17T21:41:05+00:00",
+      "summary": "Microsoft AI가 MAI Code 2와 Code 2 Flash 를 공개함. Code 2는 심층 디버깅과 여러 파일에 걸친 구현에, Flash는 코드 설명과 간단한 수정 등 대량 반복 작업에 초점을 둠 Microsoft 평가에서 Code 2 는 4개 코딩 벤치마크 평균으로 GPT-6.1 Sol 성능의 98%를 비용 40%로 제공함. 비용 계산에는 50% 프로모션 가격 이 적용됨 Code 2 Flash 는 3개 코딩 벤치마크 평균 통과율 61.0% 로, GPT-6 Luna의 55.1%, Claude Haiku 5.5의 53.9%를 웃돌았음. 작업당 비용은 0.052달러 UI와 대시보드, 시각화 구현 에도 최적화됨. 258명이 참여한 블라인 …",
+      "fetched_at": "2026-11-18T04:58:17.731694+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=10,practical_tech=4,tools_agents=10,strategy_insight=3,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 10,
+        "strategy_insight": 3,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "코드",
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude + code"
+      ],
+      "detail_slug": "c2fb44c52e68c1a91356ab8cafae2ef3253d7ee3",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T04:58:55.219776+00:00"
+    },
+    {
+      "id": "f72c858434be301c95917ec24c2b2936b88efc42",
+      "title_hash": "cb91d3c5e86e4a3c8ad3cc86752882431e7c72ae",
+      "source": "GeekNews",
+      "title": "jQuery 4.1.0 - 폼 연결 커스텀 요소 지원과 선택자 ReDoS 수정",
+      "link": "https://news.hada.io/topic?id=37372&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-17T22:40:23+00:00",
+      "summary": "jQuery 4.1.0 은 직렬화 모듈에 폼 연결 커스텀 요소 지원을 추가하고, Ajax API와 선택자 처리를 개선함 jqXHR에 responseURL 필드 를 추가하고, Ajax 전송 구현을 위한 대체 completeCallback API를 지원함 선택자의 식별자 매칭에서 ReDoS 를 수정하고, Safari 27의 정규식 인터프리터 버그를 우회함 CSS 처리에 createElementNS 를 사용해 XML 문서를 지원하며, 코어에서는 기존 요소 조회 메서드 대신 querySelectorAll 을 사용함 jQuery.uniqueSort 의 중복 제거 를 최적화하고, 잘못된 이스케이프 코드 포인트를 U+FFFD 로 디코딩하도록 …",
+      "fetched_at": "2026-11-18T04:58:17.731694+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=9,practical_tech=9,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [
+            "query",
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api",
+        "query",
+        "코드"
+      ],
+      "detail_slug": "f72c858434be301c95917ec24c2b2936b88efc42",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T04:58:55.219776+00:00"
+    },
+    {
+      "id": "c0532a132ec03281f85485cbbc42dbf24ddf5ed3",
+      "title_hash": "508cc37a855f3b0b6f0e05d602ebe61997bf6e13",
+      "source": "GeekNews",
+      "title": "B2B 요금 모델: 사용자 수 기반 과금을 대체하는 3가지 방식",
+      "link": "https://news.hada.io/topic?id=37378&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-18T00:20:02+00:00",
+      "summary": "AI 에이전트가 같은 업무를 처리하는 데 필요한 유료 계정 수가 줄면 , 사용자 수로 과금하는 공급업체는 제품의 효율이 높아질수록 매출이 줄 수 있음 사용량 과금 은 API 호출량처럼 쓴 만큼, 작업 완료 과금 은 처리한 송장이나 해결한 문의 건수만큼, 성과 과금 은 비용 절감이나 매출 회수처럼 합의한 사업 결과가 났을 때 요금을 매김 사용량 과금은 지출 예측 , 작업 완료 과금은 완료 기준과 추론 원가, 성과 과금은 결과의 인과관계 입증 이 주요 과제임 B2B/AI 기업 230여 곳 을 조사한 결과, 사용자별 구독료에 AI 사용량 요금을 더하 …",
+      "fetched_at": "2026-11-18T04:58:17.731694+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=5,tools_agents=9,strategy_insight=3,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "c0532a132ec03281f85485cbbc42dbf24ddf5ed3",
+      "is_english_source": false,
+      "sent_at": "2026-11-18T04:58:55.219776+00:00"
+    },
+    {
+      "id": "f86cb55ebecf9ba6c415e53f8f91e7b51a3d3c25",
+      "title_hash": "3e013d3927bbdd8e9b2b720451ebd4de0caf6b96",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Phrack 73 Released",
+      "link": "https://phrack.org/issues/73/introduction_md",
+      "published_at": "2026-11-17T18:31:25+00:00",
+      "summary": "HN story type: story HN points: 320 HN comments: 48 HN top comments: ptek: Shout out to gamma and skyp3r for the bluebox article. I miss those days. :'( !A2DC RoxBox Dialer, Chicken Dialer 2.5 and Arrested Dialer Workshop 004B for the win :) https://demozoo.org/productions/tagged/phreaking-tool/ for screenshots :D ashleyn: The computer security space has changed quite a bit from when I first learned of Phrack in the 90s-00s and would see plenty of \"how to pwn the phone company\" type articles. So like...when I see an exploit in the latest issue of Phrack (like the docker escape in this issue)...has it already been responsibly disclosed, given a CVE, etc? Or do they just drop 'em out of nowhere? trilogic: Interesting: https://archives.phrack.org/issues/73/10.txt 2600, ccc.de, astalavista sk box, spaghettihackers and warez... cool stuff. Brrr, thinking to revive emule.",
+      "fetched_at": "2026-11-18T04:58:17.731694+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50535992",
+      "hn_story_type": "story",
+      "hn_points": "320",
+      "hn_comments_count": "48",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50535992",
+      "hn_item_text": "",
+      "hn_comment_preview": "ptek: Shout out to gamma and skyp3r for the bluebox article. I miss those days. :'( !A2DC RoxBox Dialer, Chicken Dialer 2.5 and Arrested Dialer Workshop 004B for the win :) https://demozoo.org/productions/tagged/phreaking-tool/ for screenshots :D\nashleyn: The computer security space has changed quite a bit from when I first learned of Phrack in the 90s-00s and would see plenty of \"how to pwn the phone company\" type articles. So like...when I see an exploit in the latest issue of Phrack (like the docker escape in this issue)...has it already been responsibly disclosed, given a CVE, etc? Or do they just drop 'em out of nowhere?\ntrilogic: Interesting: https://archives.phrack.org/issues/73/10.txt 2600, ccc.de, astalavista sk box, spaghettihackers and warez... cool stuff. Brrr, thinking to revive emule.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "45",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=4,strategy_insight=2,industry_business=3",
+      "slot_scores": {
+        "practical_tech": 21,
+        "tools_agents": 4,
+        "strategy_insight": 2,
+        "industry_business": 3
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 21,
+          "strong_hits": [
+            "production",
+            "security",
+            "docker"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 3,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "production",
+        "security",
+        "docker",
+        "how to"
+      ],
+      "detail_slug": "f86cb55ebecf9ba6c415e53f8f91e7b51a3d3c25",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T04:58:55.219776+00:00"
+    },
+    {
+      "id": "0b0f5e7101aff21f1de9558c199c14dd21d6e7a3",
+      "title_hash": "0559e5d0d595294176f5c62abf05a804677919d1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "link": "https://revscope.co/blog/search-seo-geo-2026/",
+      "published_at": "2026-11-18T00:17:58+00:00",
+      "summary": "HN story type: story HN points: 205 HN comments: 140 HN top comments: pcarolan: When you typed who is on snl tonight? You used to get 10 pages of clickbait that made you scroll down endlessly for the answer. The best product for most questions is to just give you the answer. That said, the death of discovery is worth mourning. I hope someone solves it but this was dying before ai came along. SEO killed the web, AI killed SEO, and so it goes… asdfasgasdgasdg: If Google didn’t put those there, people would be going to other LLMs to get their answers quickly. I don’t know how this ends but I strongly doubt any unilateral effort to withhold llm service by Google changes the medium term outcome. stickfigure: Chatgpt has reduced my use of Google search by a lot more than 40%. In the long run will there be room in the market for Google's (free, presumably low-spec) AI search results? Paid services give you models that provide much better answers.",
+      "fetched_at": "2026-11-18T04:58:17.731694+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50540178",
+      "hn_story_type": "story",
+      "hn_points": "205",
+      "hn_comments_count": "140",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50540178",
+      "hn_item_text": "",
+      "hn_comment_preview": "pcarolan: When you typed who is on snl tonight? You used to get 10 pages of clickbait that made you scroll down endlessly for the answer. The best product for most questions is to just give you the answer. That said, the death of discovery is worth mourning. I hope someone solves it but this was dying before ai came along. SEO killed the web, AI killed SEO, and so it goes…\nasdfasgasdgasdg: If Google didn’t put those there, people would be going to other LLMs to get their answers quickly. I don’t know how this ends but I strongly doubt any unilateral effort to withhold llm service by Google changes the medium term outcome.\nstickfigure: Chatgpt has reduced my use of Google search by a lot more than 40%. In the long run will there be room in the market for Google's (free, presumably low-spec) AI search results? Paid services give you models that provide much better answers.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "37",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=4,tools_agents=13,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 13,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 13,
+          "strong_hits": [
+            "ide",
+            "cli",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "llm"
+      ],
+      "detail_slug": "0b0f5e7101aff21f1de9558c199c14dd21d6e7a3",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T04:58:55.219776+00:00"
+    },
+    {
+      "id": "26ff9680d9b149ec22f85933bc42ac2d4aa4fa39",
+      "title_hash": "b01f5573fcbad43de93d47b16351b38ecb6737fc",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Cerebras Disaggregated Inference",
+      "link": "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+      "published_at": "2026-11-18T00:56:23+00:00",
+      "summary": "HN story type: story HN points: 49 HN comments: 13 HN top comments: aabdi: 5x throughput more than b4, same 10x tokens/s as compared to standard. looks like disagg/wide ep is applicable to cerebras chips as well. kind of amazing. https://www.cerebras.ai/blog/how-we-deploy-trillion-paramete... hephaes7us: It sounds like this might mean they could do real prefix caching? Cerebras would be much more interesting to me if cache hits resulted in a commensurate savings on my end. augment_me: Have they solved the issue yet where they need to keep running ghost tokens to keep the board hot to prevent it from cracking, which causes massive energy draw in idle, and reduces lifetime by 3 times the estimate? https://culperresearch.com/wp-content/uploads/2026/10/Culper...",
+      "fetched_at": "2026-11-18T04:58:17.731694+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50540472",
+      "hn_story_type": "story",
+      "hn_points": "49",
+      "hn_comments_count": "13",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50540472",
+      "hn_item_text": "",
+      "hn_comment_preview": "aabdi: 5x throughput more than b4, same 10x tokens/s as compared to standard. looks like disagg/wide ep is applicable to cerebras chips as well. kind of amazing. https://www.cerebras.ai/blog/how-we-deploy-trillion-paramete...\nhephaes7us: It sounds like this might mean they could do real prefix caching? Cerebras would be much more interesting to me if cache hits resulted in a commensurate savings on my end.\naugment_me: Have they solved the issue yet where they need to keep running ghost tokens to keep the board hot to prevent it from cracking, which causes massive energy draw in idle, and reduces lifetime by 3 times the estimate? https://culperresearch.com/wp-content/uploads/2026/10/Culper...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=7,strategy_insight=0,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 7,
+        "strategy_insight": 0,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "inference",
+            "cache"
+          ],
+          "support_hits": [
+            "deploy"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [
+            "launches"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "launches"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "inference",
+        "cache",
+        "deploy"
+      ],
+      "detail_slug": "26ff9680d9b149ec22f85933bc42ac2d4aa4fa39",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T04:58:55.219776+00:00"
+    },
+    {
+      "id": "3484e126e3b81f5aa1270c42dc7445e6eeddf66b",
+      "title_hash": "95917a1e581833ea32a6e91f3c380d166335f420",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "link": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "published_at": "2026-11-17T21:16:12+00:00",
+      "summary": "HN story type: story HN points: 105 HN comments: 160 HN top comments: AlwaysRock: All I do all day is review ai written code. my own or teammates. I really do not enjoy it. sivanmz: I can’t finish reviewing a current PR. Every change I request only raises new questions. SOTA models on high. I intend to avoid agents for my next issue, only research. lz400: A lot of this university research on AI feels dated. This is something we all faced months ago. Many times they're also reaching conclusions using obsolete models, etc. Feels like things move too fast for traditional research cycles to catch up to AI dev",
+      "fetched_at": "2026-11-18T04:58:17.731694+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50538303",
+      "hn_story_type": "story",
+      "hn_points": "105",
+      "hn_comments_count": "160",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50538303",
+      "hn_item_text": "",
+      "hn_comment_preview": "AlwaysRock: All I do all day is review ai written code. my own or teammates. I really do not enjoy it.\nsivanmz: I can’t finish reviewing a current PR. Every change I request only raises new questions. SOTA models on high. I intend to avoid agents for my next issue, only research.\nlz400: A lot of this university research on AI feels dated. This is something we all faced months ago. Many times they're also reaching conclusions using obsolete models, etc. Feels like things move too fast for traditional research cycles to catch up to AI dev",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "44",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=20,practical_tech=4,tools_agents=17,strategy_insight=20,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 17,
+        "strategy_insight": 20,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "coding agent"
+          ],
+          "support_hits": [
+            "ai coding",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 20,
+          "strong_hits": [
+            "code review",
+            "bottleneck"
+          ],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "code review"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "code review",
+        "bottleneck",
+        "research",
+        "code + review"
+      ],
+      "detail_slug": "3484e126e3b81f5aa1270c42dc7445e6eeddf66b",
+      "is_english_source": true,
+      "sent_at": "2026-11-18T04:58:55.219776+00:00"
+    },
+    {
       "id": "9aeac48ea7da12de9920aaf1585ac009a6a96cdb",
       "title_hash": "12e09452e0fe8ca2466b72543523ad2f1df08d50",
       "source": "GeekNews",
@@ -165335,578 +165934,6 @@
       "hn_reaction_summary": "HN 반응은 호기심과 경계가 함께 섞였다. 코드 읽기를 줄일 수 있다는 발상은 흥미롭지만, 실제 팀 운영에서는 명세의 품질과 구조 부채 관리가 더 어렵다는 쪽에 무게가 실렸다.\n- 찬성 쪽은 제품 담당자와 개발자가 함께 쓴 명세와 테스트를 저장소의 기준물로 삼아야 한다고 봤다.\n- 유보 쪽은 테스트가 모두 통과해도 데이터 모델이나 경계 설계가 틀어지면 나중에 더 큰 대가를 치른다고 지적했다.\n- 몇몇은 RFC 2119 같은 키워드로 명세를 표준화하면 LLM 협업이 나아질 수 있다고 봤지만, 아직 검증이 더 필요하다는 반응도 있었다.",
       "ai_model": "codex-cli",
       "sent_at": "2026-05-23T20:08:14.713249+00:00"
-    },
-    {
-      "id": "341b91ece70f3e974cbddd8210a34fc3342c593c",
-      "title_hash": "5791f37b68a336139867aef93aef0975d41a72ba",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Oura says it gets government demands for user data",
-      "link": "https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/",
-      "published_at": "2026-05-23T14:09:57+00:00",
-      "summary": "HN story type: story HN points: 212 HN comments: 129 HN top comments: JumpCrisscross: > the once-responsive Oura has not yet replied to any of my inquiries, or committed to releasing the numbers Illinois has a tight biometric-privacy law [1]. I’d bet Oura isn’t particularly careful about prohibiting e.g. a Texas police department querying the protected information of Illinois residents. [1] https://en.wikipedia.org/wiki/Biometric_Information_Privacy_... sz4kerto: \"In my previous blog, I revealed that Oura data is not end-to-end encrypted. That means that an Oura user's health data can be unscrambled at certain points as it travels from a person's ring, through their phone app, over the internet, and as it lands on Oura's servers.\" Very strange -- it seems to be conflating end-to-end encryption with encryption-in-transit. neves: Is it from the evil govs of China or Russia? Oh, no...",
-      "fetched_at": "2026-05-23T20:03:37.901475+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48247876",
-      "hn_story_type": "story",
-      "hn_points": "212",
-      "hn_comments_count": "129",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48247876",
-      "hn_item_text": "",
-      "hn_comment_preview": "JumpCrisscross: > the once-responsive Oura has not yet replied to any of my inquiries, or committed to releasing the numbers Illinois has a tight biometric-privacy law [1]. I’d bet Oura isn’t particularly careful about prohibiting e.g. a Texas police department querying the protected information of Illinois residents. [1] https://en.wikipedia.org/wiki/Biometric_Information_Privacy_...\nsz4kerto: \"In my previous blog, I revealed that Oura data is not end-to-end encrypted. That means that an Oura user's health data can be unscrambled at certain points as it travels from a person's ring, through their phone app, over the internet, and as it lands on Oura's servers.\" Very strange -- it seems to be conflating end-to-end encryption with encryption-in-transit.\nneves: Is it from the evil govs of China or Russia? Oh, no...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "35",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [
-            "query"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "query"
-      ],
-      "detail_slug": "341b91ece70f3e974cbddd8210a34fc3342c593c",
-      "is_english_source": true,
-      "translated_title": "오우라, 정부가 사용자 데이터 제공 요구한다고 밝혀",
-      "short_summary": "스마트링 업체 오우라가 정부로부터 사용자 데이터 제공 요구를 받고 있다고 밝혔다. HN에서는 공개 범위의 불투명함, 생체정보 보호, 암호화 설명의 정확성을 두고 논쟁이 이어졌다.",
-      "why_it_matters": "웨어러블 건강 데이터는 단순한 사용 기록이 아니라 생체정보와 생활 패턴이 함께 담긴 민감한 데이터다. 정부 요청이 실제로 들어온다는 사실은 서비스 신뢰와 법적 대응 체계를 다시 따져보게 만든다.\n\n- 투명성 보고가 충분하지 않으면 어떤 기관이 무엇을 얼마나 요구하는지 사용자가 알기 어렵다.\n- 지역마다 생체정보 보호 규정이 달라 수사기관 요청과 기업 대응 기준이 충돌할 수 있다.\n- 실무에서는 암호화 범위, 데이터 최소 수집, 보관 로그 같은 운영 정책이 이제 제품 신뢰의 핵심 점검 항목이 된다.",
-      "hn_reaction_summary": "댓글 분위기는 대체로 경계와 불신 쪽에 가깝다. 단순히 정부 요청이 있다는 사실보다 오우라가 어디까지 막고 무엇을 공개하는지가 더 큰 쟁점으로 읽힌다.\n\n- 일리노이주처럼 생체정보 보호가 강한 지역의 데이터도 다른 관할 기관이 들여다볼 수 있는지 우려가 반복됐다.\n- 암호화 설명을 두고는 종단간 암호화와 전송구간 암호화를 섞어 말한 것 아니냐는 반론이 나왔다.\n- 중국이나 러시아 같은 외부 위협보다 자국 정부나 지역 경찰의 접근이 더 현실적인 문제라는 지적도 눈에 띄었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-23T20:08:14.713249+00:00"
-    },
-    {
-      "id": "89e906c08eadcd6b3371bd4d98b953f23b06695f",
-      "title_hash": "b46d48a9d88733bd5af771af2f04692d013df6d3",
-      "source": "GeekNews",
-      "title": "Show GN: 조금씩 생기는 운영 CS 클로드로 자동화하기",
-      "link": "https://news.hada.io/topic?id=29794",
-      "published_at": "2026-05-23T12:31:40+00:00",
-      "summary": "요새 회사에서 여러 개의 프로젝트를 병행하다 보니 CS관련해서 힘든 점이 많더라고요. 그래서 그냥 출근 후 제 맥북에 웹 서버 틀어놓고, 운영 담당자가 거기 접속해서 작은 CS 는 자동화할 수 있도록 간단하게 만들어 봤습니다. 예) \"어제 주문 중 배송 안 된 건 몇 개야?\" →",
-      "fetched_at": "2026-05-23T15:51:45.918315+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "자동화"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "자동화"
-      ],
-      "detail_slug": "89e906c08eadcd6b3371bd4d98b953f23b06695f",
-      "is_english_source": false,
-      "sent_at": "2026-05-23T15:54:58.140533+00:00"
-    },
-    {
-      "id": "554989b977326acdb311655d0c5c25b837302d7e",
-      "title_hash": "abe93c4696fd975b8ef64786da4cc583799a98c1",
-      "source": "GeekNews",
-      "title": "DeepSeek이 V4 Pro 가격 할인을 영구화함",
-      "link": "https://news.hada.io/topic?id=29797",
-      "published_at": "2026-05-23T12:51:15+00:00",
-      "summary": "DeepSeek-V4-Pro API 가격은 75% 할인 프로모션 종료 뒤에도 공식적으로 기존 가격의 1/4 수준으로 유지됨 과금은 100만 토큰당 가격을 기준으로 하며, 입력 토큰과 출력 토큰 사용량에 따라 잔액에서 직접 차감됨 지원 모델은 ...",
-      "fetched_at": "2026-05-23T15:51:45.918315+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "554989b977326acdb311655d0c5c25b837302d7e",
-      "is_english_source": false,
-      "sent_at": "2026-05-23T15:54:58.140533+00:00"
-    },
-    {
-      "id": "d9e5ca29114cf4ae4c5e3092e59c7966590234d9",
-      "title_hash": "b47ce4fb776e0a6bdc04f853fabbd2587ff5cdaf",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The FBI Wants 'Near Real-Time' Access to US License Plate Readers",
-      "link": "https://www.wired.com/story/security-news-this-week-fbi-license-plate-reader-real-time-access/",
-      "published_at": "2026-05-23T13:57:02+00:00",
-      "summary": "HN story type: story HN points: 40 HN comments: 15 HN top comments: majorchord: SCOTUS has already ruled that tracking people's movement over time without a warrant is a Fourth Amendment violation. https://en.wikipedia.org/wiki/Carpenter_v._United_States roxolotl: There’s a lot of local US candidates running this year on pushing back on the federal government. Realistically there’s not a ton that can be done at the level of a mayor or even state senator. However removing local passive surveillance is something that can make a genuine impact. I’d love to see people running on banning red light/license plate cameras and other passive surveillance tools. If the data is never c... SubiculumCode: Are license plates a federal or state requirement?",
-      "fetched_at": "2026-05-23T15:51:45.918315+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48247737",
-      "hn_story_type": "story",
-      "hn_points": "40",
-      "hn_comments_count": "15",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48247737",
-      "hn_item_text": "",
-      "hn_comment_preview": "majorchord: SCOTUS has already ruled that tracking people's movement over time without a warrant is a Fourth Amendment violation. https://en.wikipedia.org/wiki/Carpenter_v._United_States\nroxolotl: There’s a lot of local US candidates running this year on pushing back on the federal government. Realistically there’s not a ton that can be done at the level of a mayor or even state senator. However removing local passive surveillance is something that can make a genuine impact. I’d love to see people running on banning red light/license plate cameras and other passive surveillance tools. If the data is never c...\nSubiculumCode: Are license plates a federal or state requirement?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "45",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=6,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 21,
-        "tools_agents": 6,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 21,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "code + security",
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "code + security",
-        "local + run"
-      ],
-      "detail_slug": "d9e5ca29114cf4ae4c5e3092e59c7966590234d9",
-      "is_english_source": true,
-      "translated_title": "FBI, 미국 번호판 판독기 실시간 접근 추진",
-      "short_summary": "미 연방수사국이 미국 내 번호판 판독기 데이터에 거의 실시간으로 접근하려 한다는 내용이 HN에서 주목받았다. 댓글에선 수사 편의보다 장기 위치 추적과 영장 없는 감시 위험을 더 크게 봤다.",
-      "why_it_matters": "번호판 판독 데이터가 사후 조회 중심에서 거의 실시간 추적으로 넘어가면 수사 도구의 성격 자체가 달라진다. 공공기관과 관련 조직은 기술 연계보다 먼저 법적 기준과 운영 통제를 점검해야 하는 상황이다.\n- 실시간성이 붙는 순간 차량 식별을 넘어 이동 경로와 생활 패턴 분석까지 가능해진다. 위치정보 수집 범위와 보관 정책이 바로 실무 이슈가 된다.\n- 지방정부와 수사기관은 연방기관 연계 요청에 대비해 접근 권한, 감사 로그, 영장 기준을 더 촘촘히 정리해야 한다.\n- 감시 인프라를 둘러싼 규제 논쟁이 다시 커질 수 있다. 위치 데이터, 스마트시티, 공공 CCTV 연계 업무를 맡는 팀도 영향을 피하기 어렵다.",
-      "hn_reaction_summary": "HN 분위기는 대체로 회의적이었다. 수사 효율보다 헌법상 프라이버시와 지역 단위 감시 축소 가능성에 더 관심이 모였다.\n- 가장 자주 나온 쟁점은 영장 없는 장기 이동 추적 문제였다. 일부 댓글은 연속적 위치 추적이 기존 사법 판단과 충돌할 수 있다고 봤다.\n- 연방 차원 대응보다 지방정부가 번호판 카메라나 수동 감시 장비 자체를 줄이는 편이 더 현실적이라는 주장도 반복됐다.\n- 번호판 부착 의무가 연방 규정인지 주 규정인지처럼 관할과 책임선을 따지는 질문도 나왔다. 기술보다 제도 설계가 더 큰 논점이라는 반응이다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-23T15:54:58.140533+00:00"
-    },
-    {
-      "id": "fb9ec3c217f4fb85ac4a55dc42ee6c458efe4aed",
-      "title_hash": "ae4210d0351dce779af37c8266126ad6eaee79ef",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "BambuStudio has been violating PrusaSlicer AGPL license since their fork",
-      "link": "https://xcancel.com/josefprusa/status/2054602354851254330",
-      "published_at": "2026-05-23T08:24:57+00:00",
-      "summary": "HN story type: story HN points: 287 HN comments: 107 HN top comments: jonas_jensen: Can I just say: thank you for posting an xcancel link and not linking to X directly! I forgot Xcancel was a thing, I might actually start using it occasionally now. dsign: I can't help but wonder how could, Bambulabs or the Chinese government, actually mine that data? In my mind, 3D models fail into two categories: artistic and utilitarian, though there's a continuum between those two. With the artistic side, the Chinese government could find itself in possession of tons and tons of Western miniatures. With the utilitarian side, they will find themselves in possession of lots and lo... comandillos: Cannot agree more with Josef on how dangerous this is for our intellectual property; Of course there laws and mechanisms in China for the government to obtain any information retained by their companies under any possible justification, but the US does so, and thanks to the Cloud Act they can simply decide to do the same with any of the big players sitting in their territory (even to servers located out of their t...",
-      "fetched_at": "2026-05-23T15:51:45.918315+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48245862",
-      "hn_story_type": "story",
-      "hn_points": "287",
-      "hn_comments_count": "107",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48245862",
-      "hn_item_text": "",
-      "hn_comment_preview": "jonas_jensen: Can I just say: thank you for posting an xcancel link and not linking to X directly! I forgot Xcancel was a thing, I might actually start using it occasionally now.\ndsign: I can't help but wonder how could, Bambulabs or the Chinese government, actually mine that data? In my mind, 3D models fail into two categories: artistic and utilitarian, though there's a continuum between those two. With the artistic side, the Chinese government could find itself in possession of tons and tons of Western miniatures. With the utilitarian side, they will find themselves in possession of lots and lo...\ncomandillos: Cannot agree more with Josef on how dangerous this is for our intellectual property; Of course there laws and mechanisms in China for the government to obtain any information retained by their companies under any possible justification, but the US does so, and thanks to the Cloud Act they can simply decide to do the same with any of the big players sitting in their territory (even to servers located out of their t...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "31",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "fb9ec3c217f4fb85ac4a55dc42ee6c458efe4aed",
-      "is_english_source": true,
-      "translated_title": "BambuStudio, PrusaSlicer 포크 뒤 AGPL 위반 논란",
-      "short_summary": "BambuStudio가 PrusaSlicer를 포크한 뒤 AGPL 의무를 지키지 않았다는 문제가 HN에서 크게 주목받았다. 댓글은 라이선스 준수뿐 아니라 3D 모델 데이터, 클라우드, 지식재산 우려로 빠르게 번졌다.",
-      "why_it_matters": "이번 논란은 3D 프린팅 소프트웨어를 고를 때 기능만 볼 일이 아니라는 점을 보여준다. 오픈소스 라이선스 준수와 설계 데이터의 이동 경로를 함께 따져야 한다는 얘기다.\n\n- AGPL 위반 주장이 사실이라면 포크 기반 제품을 만드는 회사는 소스 공개 범위와 배포 절차를 다시 점검해야 한다.\n- 슬라이서가 클라우드와 연결돼 있다면 출력 파일, 모델 이력, 장비 메타데이터가 어디로 가는지 실무 차원의 검토가 필요하다.\n- 팀이나 업체 입장에서는 로컬 우선 워크플로, 대체 슬라이서, 오픈 포맷 지원 여부를 미리 확인해 두는 쪽이 안전하다.",
-      "hn_reaction_summary": "HN 댓글 분위기는 단순한 비난 일색보다는 논점이 여러 갈래로 갈렸다. 라이선스 위반 문제에 공감하는 반응이 많았지만 데이터 수집과 지정학적 해석을 두고는 의견이 엇갈렸다.\n\n- 한쪽은 오픈소스를 바탕으로 성장한 뒤 의무를 외면하면 생태계 신뢰가 무너진다고 봤다.\n- 다른 쪽은 3D 모델의 민감도는 용도마다 다르고, 특정 국가만 특별히 위험하다고 보는 시선은 과하다고 반박했다.\n- 실무자가 읽을 만한 쟁점으로는 클라우드가 실제로 무엇을 모으는지, 로컬 전용 운영이 가능한지, 기업 환경에서 통제 가능한지가 반복해서 언급됐다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-23T15:54:58.140533+00:00"
-    },
-    {
-      "id": "eb88c949f5c84aefb475e68c58c61a43da0750c5",
-      "title_hash": "1c2fd94cfbcaf9d9a86e27430754aea1c5d95b17",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Improving C# Memory Safety",
-      "link": "https://devblogs.microsoft.com/dotnet/improving-csharp-memory-safety/",
-      "published_at": "2026-05-21T16:54:48+00:00",
-      "summary": "HN story type: story HN points: 85 HN comments: 11 HN top comments: superjan: What you can do in C# today is convert any unsafe pointer to Span whenever you get your hands on it, and pass around slices. You can still drop down to ‘fixed’ when it turns out you need it for performance. pjmlp: Most likely a side effect related to Windows team finally giving some C# love, instead of COM and C++, given the comparisons between C# 16 with Rust and Swift in a few article sections. SideburnsOfDoom: > The unsafe keyword is being redesigned OK, I see a lot of C# code often and over a long time. I see the \"unsafe\" keyword used approximately never. I'm sure that this is useful for some cases. But not everyday things for most of us. If we did use it, it would be carefully isolated in a library for a specific purpose.",
-      "fetched_at": "2026-05-23T15:51:45.918315+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "48225782",
-      "hn_story_type": "story",
-      "hn_points": "85",
-      "hn_comments_count": "11",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=48225782",
-      "hn_item_text": "",
-      "hn_comment_preview": "superjan: What you can do in C# today is convert any unsafe pointer to Span whenever you get your hands on it, and pass around slices. You can still drop down to ‘fixed’ when it turns out you need it for performance.\npjmlp: Most likely a side effect related to Windows team finally giving some C# love, instead of COM and C++, given the comparisons between C# 16 with Rust and Swift in a few article sections.\nSideburnsOfDoom: > The unsafe keyword is being redesigned OK, I see a lot of C# code often and over a long time. I see the \"unsafe\" keyword used approximately never. I'm sure that this is useful for some cases. But not everyday things for most of us. If we did use it, it would be carefully isolated in a library for a specific purpose.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "performance",
-            "rust"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "rust",
-        "library"
-      ],
-      "detail_slug": "eb88c949f5c84aefb475e68c58c61a43da0750c5",
-      "is_english_source": true,
-      "translated_title": "C# 메모리 안전성 강화, 어디까지 바뀌나",
-      "short_summary": "C#의 메모리 안전성을 더 끌어올리려는 방향이 HN에서 주목받았다. 댓글에서는 `unsafe` 재설계 자체보다 Span 같은 안전한 추상화로 얼마나 대체할 수 있는지가 더 많이 논의됐다.",
-      "why_it_matters": "이번 논의는 C#이 관리형 언어에 머무르지 않고 시스템 프로그래밍과 고성능 코드 영역까지 어떻게 넓어질지를 보여준다. 특히 Rust·Swift와 비교되는 흐름 속에서, 실무에서는 포인터를 직접 다루는 구간을 더 좁히는 방향이 관심사로 읽힌다.\n- 네이티브 연동이나 저수준 최적화가 필요한 팀이라면 raw pointer를 그대로 퍼뜨리기보다 Span, slice, 제한된 `fixed` 구간으로 감싸는 패턴이 더 표준에 가까워질 수 있다.\n- 일반 업무 코드에는 변화가 작아 보여도, 라이브러리와 런타임 레벨에서 안전한 경계를 먼저 잘 만들어 두면 이후 유지보수 부담이 줄어든다.\n- 마이크로소프트가 Windows·시스템 계층에도 C# 활용 폭을 넓히려는 신호로 해석할 수 있어, 언어 기능 변화가 프레임워크 설계와 네이티브 인터롭 관행까지 이어질 가능성이 있다.",
-      "hn_reaction_summary": "HN 반응은 대체로 차분했고, 언어 차원의 메모리 안전성 강화 취지에는 공감하면서도 실제 체감 범위는 제한적이라는 시각이 함께 나왔다. 댓글 수는 많지 않았지만 실무 감각이 묻어나는 의견이 반복됐다.\n- 찬성 쪽은 이미 오늘도 unsafe pointer를 Span으로 바꿔 넘기고 slice 중심으로 다루면 위험 구간을 줄일 수 있다고 봤다.\n- 신중론은 `unsafe` 자체를 일상적으로 쓰는 개발자가 많지 않아서, 이번 변화가 대다수 애플리케이션 코드에 바로 크게 와닿지는 않을 것이라고 말했다.\n- 반복된 논점은 결국 저수준 성능이 필요할 때만 `fixed` 같은 탈출구를 쓰고, 나머지는 안전한 추상화로 묶는 방식이 실무적으로 가장 현실적이라는 점이었다.",
-      "ai_model": "codex-cli",
-      "sent_at": "2026-05-23T15:54:58.140533+00:00"
-    },
-    {
-      "id": "f39848958533e7ead743bba7893dfb6c5928e6fa",
-      "title_hash": "485bbf7c3f1b614333a5d4364bae62f6f92213be",
-      "source": "GeekNews",
-      "title": "Show GN: 떠오른 아이디어를 바로 기획문서로 바꿔주는 /idea2planning",
-      "link": "https://news.hada.io/topic?id=29793",
-      "published_at": "2026-05-23T09:48:58+00:00",
-      "summary": "Product Manager와 Product Designer가 자주 마주하는 과제 중 하나는, 막연한 아이디어를 1-pager, PRD, 와이어프레임 같은 구조화된 기획 문서로 구체화하는 일입니다. 이번에 만든 /idea2planning 스킬은, 그동안 IT 업계에서 실제로 사용해왔던 다양한 기획 문서들을 기반으로 템플릿과 작성 흐름을",
-      "fetched_at": "2026-05-23T11:38:39.566604+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "f39848958533e7ead743bba7893dfb6c5928e6fa",
-      "is_english_source": false,
-      "sent_at": "2026-05-23T11:41:26.352888+00:00"
     }
   ],
   "topic_digests": {
