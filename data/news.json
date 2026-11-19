@@ -1,6 +1,569 @@
 {
   "items": [
     {
+      "id": "1be9b2f4f21ff2d599626af41071f1b98b1ef707",
+      "title_hash": "3df83e2bed308b5f55f553bb2063133181f96dab",
+      "source": "GeekNews",
+      "title": "nginx2root - nginx 원격 코드 실행 취약점 5개와 Linux 커널 권한 상승 취약점",
+      "link": "https://news.hada.io/topic?id=37438&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-19T00:08:42+00:00",
+      "summary": "Xint가 서로 다른 설정에 영향을 주는 nginx 비인증 원격 코드 실행 취약점 5개 와 별도의 Linux SCTP 취약점을 발견함. nginx 취약점은 각각 독립적으로 워커 권한의 명령 실행으로 이어짐 가장 광범위한 CVE-2026-123007 은 HTTP/2가 활성화된 미패치 서버에 영향을 주며, nginx 1.9.5부터 1.31.8까지 취약 코드가 포함됨 nginx 취약점을 SCTP 커널 취약점 과 연결해 호스트 root 권한을 확보하고 Docker 컨테이너 탈출에도 성공함. SCTP 접근 가능 여부는 커널, 모듈, 컨테이너 제한에 따라 달라짐 수정 릴리스 1.31.9가 공개되면 업데이 …",
+      "fetched_at": "2026-11-19T05:27:37.168531+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=9,practical_tech=9,tools_agents=4,strategy_insight=3,industry_business=-8",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -8
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "docker"
+          ],
+          "support_hits": [
+            "컨테이너",
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "docker",
+            "컨테이너"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "docker",
+        "컨테이너",
+        "코드"
+      ],
+      "detail_slug": "1be9b2f4f21ff2d599626af41071f1b98b1ef707",
+      "is_english_source": false,
+      "sent_at": "2026-11-19T05:28:22.229191+00:00"
+    },
+    {
+      "id": "c8449ffac273d55081c7458e1e4362ebecf271fd",
+      "title_hash": "fee6b129dba8575f010c05fef14d1dc063643ad6",
+      "source": "GeekNews",
+      "title": "Codeberg 도메인이 계정에서 갑자기 사라져 사이트 접속 불가",
+      "link": "https://news.hada.io/topic?id=37437&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-19T00:05:42+00:00",
+      "summary": "codeberg.org 가 아직 원인이 확인되지 않은 도메인 문제로 접속 불가 상태가 됨 도메인은 만료되거나 이전되지 않았는데도 Codeberg 계정에서 완전히 사라짐 Codeberg는 이와 관련한 이메일 알림을 받지 못함 공지 시점에 도메인은 clientHold 상태임 Codeberg는 원인 파악과 해결을 위해 도메인 등록업체에 연락을 시도 중 이며, 해결에 시간이 걸릴 수 있음 도메인 상태와 접속 장애 codeberg.org 는 원인이 아직 확인되지 않은 도메인 문제로 접속할 수 없는 상태임 도메인은 만료나 이전 없이 Codeberg 계정에서 완전히 사라졌으며, 관 …",
+      "fetched_at": "2026-11-19T05:27:37.168531+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cli"
+      ],
+      "detail_slug": "c8449ffac273d55081c7458e1e4362ebecf271fd",
+      "is_english_source": false,
+      "sent_at": "2026-11-19T05:28:22.229191+00:00"
+    },
+    {
+      "id": "f1b55a64ead146a5e9968323ab815fd89ea5f9a0",
+      "title_hash": "189086944c418e512a2d715dca1524f69ca237e5",
+      "source": "GeekNews",
+      "title": "Show HN: Voyager 1을 메모리 칩 하나까지 분해해 보기",
+      "link": "https://news.hada.io/topic?id=37453&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-19T03:32:09+00:00",
+      "summary": "Voyager 는 1977년 발사된 두 탐사선의 현재 위치를 살펴보고, Voyager 1을 메모리 칩 수준까지 분해해 볼 수 있는 체험임 태양계 보기와 탐사선 근접 보기 를 오가며 지구나 이름이 표시된 천체로 이동할 수 있음 탐사선의 10개 베이 를 열고, 베이와 모듈, 칩 사이를 탐색하거나 다시 조립할 수 있음 발사부터의 여정 재생 과 시간 재생/일시 정지를 지원하며, 현재 시점으로 돌아갈 수 있음 두 탐사선은 여전히 성간 공간에서 지구와 통신 중 이며, 화면에 표시된 Voyager 1까지의 거리는 259억 km, 신호 도달 시간은 24시간임 탐사선의 위 …",
+      "fetched_at": "2026-11-19T05:27:37.168531+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신호"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신호"
+      ],
+      "detail_slug": "f1b55a64ead146a5e9968323ab815fd89ea5f9a0",
+      "is_english_source": false,
+      "sent_at": "2026-11-19T05:28:22.229191+00:00"
+    },
+    {
+      "id": "cb7dab9c9283970d85defaa77386626e4667d6fc",
+      "title_hash": "ec07d2d98bb620fe3191c6ee93ab01b00a355a7f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "LLM assisted reverse engineering",
+      "link": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+      "published_at": "2026-11-18T22:29:13+00:00",
+      "summary": "HN story type: story HN points: 119 HN comments: 33 HN top comments: saidinesh5: Yesterday night, i reverse engineered the cloud connection plugin to my cctv camera in about 2 hours with Gemini. Started off with me searching for what Chinese OEM made the product. Then tried out existing GitHub projects to see if it works but they were failing. Spent 15 minutes to write a script that started their desktop software on a different network namespace and ran tcpdump in it. Captured exactly only the... hexapus: I have zero experience reverse engineering and very little with software development. Most of my work has been in DevOps/SRE space with an emphasis on infrastructure. I am surrounded by code, but other than terraform, and the occasional python script, I don't really write much of it. Not too long ago, I successfully reverse engineered an abandoned audio effects plugin, as well as a discontinued instrument with an... Retr0id: > This is variation of scientific method and it significantly helps agents when they are getting stuck on some problem. Stops it going in circles. By forcing it to do definitive experiments. No endless guessing and trying random things. These \"guessing loops\" are my main annoyance when REing with Claude (mostly Opus 4.8, due to the restrictions on newer models). On harder/larger targets, I have to constantly babys...",
+      "fetched_at": "2026-11-19T05:27:37.168531+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50553225",
+      "hn_story_type": "story",
+      "hn_points": "119",
+      "hn_comments_count": "33",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50553225",
+      "hn_item_text": "",
+      "hn_comment_preview": "saidinesh5: Yesterday night, i reverse engineered the cloud connection plugin to my cctv camera in about 2 hours with Gemini. Started off with me searching for what Chinese OEM made the product. Then tried out existing GitHub projects to see if it works but they were failing. Spent 15 minutes to write a script that started their desktop software on a different network namespace and ran tcpdump in it. Captured exactly only the...\nhexapus: I have zero experience reverse engineering and very little with software development. Most of my work has been in DevOps/SRE space with an emphasis on infrastructure. I am surrounded by code, but other than terraform, and the occasional python script, I don't really write much of it. Not too long ago, I successfully reverse engineered an abandoned audio effects plugin, as well as a discontinued instrument with an...\nRetr0id: > This is variation of scientific method and it significantly helps agents when they are getting stuck on some problem. Stops it going in circles. By forcing it to do definitive experiments. No endless guessing and trying random things. These \"guessing loops\" are my main annoyance when REing with Claude (mostly Opus 4.8, due...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=4,tools_agents=17,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 17,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [
+            "plugin",
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "llm",
+        "plugin",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "cb7dab9c9283970d85defaa77386626e4667d6fc",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T05:28:22.229191+00:00"
+    },
+    {
+      "id": "c2529e1515a23e5d90d52c4f2a1dc3ebec620ea6",
+      "title_hash": "1f467b46365df1d91d54831eeb0effcc353fa018",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Unauthenticated remote code execution in Nginx",
+      "link": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "published_at": "2026-11-18T15:19:55+00:00",
+      "summary": "HN story type: story HN points: 1246 HN comments: 541 HN post text: https://www.cve.org/CVERecord?id=CVE-2026-123633 https://www.cve.org/CVERecord?id=CVE-2026-123007 HN top comments: black3r: The bug was apparently fixed in open source repo a week earlier, this could've been abused by anyone smart enough to monitor repos like this for exploitable bugfixes for a week (the commit message even included \"Reported by Xint.io\" and I'm guessing skilled black hats would know about Xint) Given that in this case the workaround is as simple as disabling http2, there is honestly no reason why F5/Nginx or any of th... fduran: Small consolation but HTTP/2 is not enabled by default in Nginx and \"only\" 12% of servers run it (still huge at Internet scale) https://w3techs.com/technologies/segmentation/ce-http2/web_s... malikNF: Hey so, does anyone know of a good tutorial on getting in to woodwork?",
+      "fetched_at": "2026-11-19T05:27:37.168531+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50547374",
+      "hn_story_type": "story",
+      "hn_points": "1246",
+      "hn_comments_count": "541",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50547374",
+      "hn_item_text": "https://www.cve.org/CVERecord?id=CVE-2026-123633 https://www.cve.org/CVERecord?id=CVE-2026-123007",
+      "hn_comment_preview": "black3r: The bug was apparently fixed in open source repo a week earlier, this could've been abused by anyone smart enough to monitor repos like this for exploitable bugfixes for a week (the commit message even included \"Reported by Xint.io\" and I'm guessing skilled black hats would know about Xint) Given that in this case the workaround is as simple as disabling http2, there is honestly no reason why F5/Nginx or any of th...\nfduran: Small consolation but HTTP/2 is not enabled by default in Nginx and \"only\" 12% of servers run it (still huge at Internet scale) https://w3techs.com/technologies/segmentation/ce-http2/web_s...\nmalikNF: Hey so, does anyone know of a good tutorial on getting in to woodwork?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=2,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 2,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "open source"
+          ],
+          "support_hits": [
+            "tutorial"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "open source",
+        "tutorial"
+      ],
+      "detail_slug": "c2529e1515a23e5d90d52c4f2a1dc3ebec620ea6",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T05:28:22.229191+00:00"
+    },
+    {
+      "id": "d75d5fad138d999af69cde3e603569f1f400ae06",
+      "title_hash": "b6fcea6a9f83990e79a5c51758bbfa722b03c933",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Gemini 4 Neon",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "published_at": "2026-11-18T21:34:07+00:00",
+      "summary": "HN story type: story HN points: 631 HN comments: 553 HN top comments: stillpointlab: I'm getting fatigued with the constant introduction of names and the impenetrability of mapping these brand new names to use cases. I think internally, Google, Anthropic and OpenAI are thinking \"It's so easy, you just use Neon for X, Carbon for Y\" - but most of the world is trying to map Sol, Astra, Neon, Opus, Fable, Mythos, Carbon, Haiku, etc. I just hope they finally land on a naming scheme they are happy with... HJain13: So if I am getting this right? +--------------------------------+--------------+--------+--------+----------+ | Lab | XL | L | M | S | +--------------------------------+--------------+--------+--------+----------+ | Google (Gemini 4 Family #1) | | Argon | | | | Google (Gemini 4 Family #2) | | Carbon | Neon | Hydrogen | | Anthropic (Claude 5.2 Family) | Fable/Mythos | | | | | Anthropic (Claude 5.5 Family) | | Opus... impulser_: Is there any theory on what is Anthropic's secret sauce? I have been using the latest Gemini models and they just don't seem as good as Opus 5.5 despite the benchmarks. Yeah it comparable on some tasks maybe slightly better but as an overall general intelligent model nothing compared to Opus 5.5 and it hard for me to understand why. Opus feels like human level intelligent like I'm talking to a coworker basically w...",
+      "fetched_at": "2026-11-19T05:27:37.168531+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50552424",
+      "hn_story_type": "story",
+      "hn_points": "631",
+      "hn_comments_count": "553",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50552424",
+      "hn_item_text": "",
+      "hn_comment_preview": "stillpointlab: I'm getting fatigued with the constant introduction of names and the impenetrability of mapping these brand new names to use cases. I think internally, Google, Anthropic and OpenAI are thinking \"It's so easy, you just use Neon for X, Carbon for Y\" - but most of the world is trying to map Sol, Astra, Neon, Opus, Fable, Mythos, Carbon, Haiku, etc. I just hope they finally land on a naming scheme they are happy with...\nHJain13: So if I am getting this right? +--------------------------------+--------------+--------+--------+----------+ | Lab | XL | L | M | S | +--------------------------------+--------------+--------+--------+----------+ | Google (Gemini 4 Family #1) | | Argon | | | | Google (Gemini 4 Family #2) | | Carbon | Neon | Hydrogen | | Anthropic (Claude 5.2 Family) | Fable/Mythos | | | | | Anthropic (Claude 5.5 Family) | | Opus...\nimpulser_: Is there any theory on what is Anthropic's secret sauce? I have been using the latest Gemini models and they just don't seem as good as Opus 5.5 despite the benchmarks. Yeah it comparable on some tasks maybe slightly better but as an overall general intelligent model nothing compared to Opus 5.5 and it hard for me to und...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=6,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 2,
+        "strategy_insight": 6,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "benchmark"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "research",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "benchmark"
+      ],
+      "detail_slug": "d75d5fad138d999af69cde3e603569f1f400ae06",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T05:28:22.229191+00:00"
+    },
+    {
+      "id": "212d239b987554c00102297cc31e0f3391bce55f",
+      "title_hash": "ff14dc62547bc7355b0fd8311f56aeb0a45f6461",
+      "source": "TechCrunch",
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "link": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "published_at": "2026-11-18T22:58:11+00:00",
+      "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+      "fetched_at": "2026-11-19T05:27:37.168531+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "21",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=15,practical_tech=0,tools_agents=7,strategy_insight=0,industry_business=15",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 7,
+        "strategy_insight": 0,
+        "industry_business": 15
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ai agent"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 15,
+          "strong_hits": [
+            "customers"
+          ],
+          "support_hits": [
+            "business",
+            "ceo"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "customers",
+        "business",
+        "ceo",
+        "techcrunch.com"
+      ],
+      "detail_slug": "212d239b987554c00102297cc31e0f3391bce55f",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T05:28:22.229191+00:00"
+    },
+    {
       "id": "88c12c866a00e0244ea402f89a59ea78c593da4b",
       "title_hash": "730230aabc18b3234a51a60b08e392f58543c172",
       "source": "GeekNews",
@@ -165451,587 +166014,6 @@
       "detail_slug": "5a65faa52df184fa3af025f39a01b2c517d12641",
       "is_english_source": false,
       "sent_at": "2026-09-29T17:14:02.574099+00:00"
-    },
-    {
-      "id": "1e62ad2402561fa7bee421fde9906f1c91375ab0",
-      "title_hash": "00c814e8af888b73127828a028855a6ad04f101d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
-      "link": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "published_at": "2026-09-29T09:03:41+00:00",
-      "summary": "HN story type: story HN points: 369 HN comments: 119 HN top comments: pbasista: Tangential: I have recently noticed that e.g. ChatGPT, when used from a web browser, periodically sends unfinished prompts to their servers, namely to the `conversation/prepare` endpoint, without waiting for the user to actually send it. This partial prompt data might potentially be used to \"pre-warm\" some kind of cache. But it may also be used to track the user's writing cadence, error correction style and evolut... kdaniel_03: It's the same lesson as the Navier-Stokes credit fight earlier this month. Buckmaster and Alpoge had their unpublished drafts in private Codex sessions and OpenAI says nobody saw them but admits de-identified product data may have improved its models. There it's training data, here it's ad trackers. Either way, prompts and results that should stay private don't. Thats why even though open models aren't perfect it... postalcoder: My least favorite trend I’ve noticed with so many AI chat services is they seem to equate a UUID in the url with privacy. Perplexity does this. Visiting a past perplexity search url exposes your full conversation.",
-      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49890226",
-      "hn_story_type": "story",
-      "hn_points": "369",
-      "hn_comments_count": "119",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49890226",
-      "hn_item_text": "",
-      "hn_comment_preview": "pbasista: Tangential: I have recently noticed that e.g. ChatGPT, when used from a web browser, periodically sends unfinished prompts to their servers, namely to the `conversation/prepare` endpoint, without waiting for the user to actually send it. This partial prompt data might potentially be used to \"pre-warm\" some kind of cache. But it may also be used to track the user's writing cadence, error correction style and evolut...\nkdaniel_03: It's the same lesson as the Navier-Stokes credit fight earlier this month. Buckmaster and Alpoge had their unpublished drafts in private Codex sessions and OpenAI says nobody saw them but admits de-identified product data may have improved its models. There it's training data, here it's ad trackers. Either way, prompts and results that should stay private don't. Thats why even though open models aren't perfect it...\npostalcoder: My least favorite trend I’ve noticed with so many AI chat services is they seem to equate a UUID in the url with privacy. Perplexity does this. Visiting a past perplexity search url exposes your full conversation.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "45",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=21,practical_tech=14,tools_agents=21,strategy_insight=6,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 21,
-        "strategy_insight": 6,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "cache",
-            "uuid"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 21,
-          "strong_hits": [
-            "ai agent",
-            "codex",
-            "ide"
-          ],
-          "support_hits": [
-            "prompt",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "prepare",
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ai agent",
-        "codex",
-        "ide",
-        "prompt",
-        "agent"
-      ],
-      "detail_slug": "1e62ad2402561fa7bee421fde9906f1c91375ab0",
-      "is_english_source": true,
-      "sent_at": "2026-09-29T17:14:02.574099+00:00"
-    },
-    {
-      "id": "50ee66a423d86f1cdb179d70e1d6a595dae6bb08",
-      "title_hash": "3d409c61b5dbe1d21709f9a783820056787b57bf",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Using any C++ library in Godot",
-      "link": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
-      "published_at": "2026-09-29T08:40:37+00:00",
-      "summary": "HN story type: story HN points: 136 HN comments: 46 HN top comments: TedDallas: I’m using CPP with Godot for runtime procedural mesh generation. Works like a charm. It’s nice to have this option when you need it. valorzard: If you know rust, the Godot rust bindings for GDExtension are also really good and let you use any Rust library in Godot (including tokio and async rust if you really want) https://godot-rust.github.io/ voodooEntity: Was playing arround recently building an RTS with godot until i just hit the ceilling of what i could handle with gdscript performance wise. Than started to move alot of heavy logic to c++ simulation : tedious indeed but the results speak for themself. Basically allows me to use godot for things like menus dialogues and similar stuff while running the true heavy work in a c++ simulation.",
-      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49890051",
-      "hn_story_type": "story",
-      "hn_points": "136",
-      "hn_comments_count": "46",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49890051",
-      "hn_item_text": "",
-      "hn_comment_preview": "TedDallas: I’m using CPP with Godot for runtime procedural mesh generation. Works like a charm. It’s nice to have this option when you need it.\nvalorzard: If you know rust, the Godot rust bindings for GDExtension are also really good and let you use any Rust library in Godot (including tokio and async rust if you really want) https://godot-rust.github.io/\nvoodooEntity: Was playing arround recently building an RTS with godot until i just hit the ceilling of what i could handle with gdscript performance wise. Than started to move alot of heavy logic to c++ simulation : tedious indeed but the results speak for themself. Basically allows me to use godot for things like menus dialogues and similar stuff while running the true heavy work in a c++ simulation.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "45",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=4,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 21,
-        "tools_agents": 4,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 21,
-          "strong_hits": [
-            "performance",
-            "runtime",
-            "rust"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "extension"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "runtime"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "runtime",
-        "rust",
-        "library"
-      ],
-      "detail_slug": "50ee66a423d86f1cdb179d70e1d6a595dae6bb08",
-      "is_english_source": true,
-      "sent_at": "2026-09-29T17:14:02.574099+00:00"
-    },
-    {
-      "id": "83e109aba6fd9f2c23374cba9ec8271b69da954d",
-      "title_hash": "227bceed2b5ad6244d2ac34c1edf44e7b4880757",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: NSL – WSL for Linux",
-      "link": "https://frostyard.github.io/nsl/",
-      "published_at": "2026-09-29T14:51:36+00:00",
-      "summary": "HN story type: story HN points: 21 HN comments: 21 HN post text: One of the things that Windows really got right is WSL2. I drive an atomic Linux distro for daily use, but wanted a way to develop with multiple different distros with that same WSL UX. NSL is my answer. It is a faithful reproduction of the developer experience, powered by a single VM that hosts one or more systemd-nspawn containers with your development instances. Host file edits and port sharing come along for the ride, just like WSL. Take a look and tell me what you think... It's yet another step in my long journey to keep my host installation free from all the changing and breaking dev dependencies that force a reinstall every few months. HN top comments: 0x457: I'm confused why VM + systemd-nspawn? From my understaing WSL 2 runs a single VM + something like systemd-nspawn per \"linux installation\", but it runs a VM because it needs linux kernel. Why not just do systemd-nspawn if you alread on linux? rao-v: I have to say this is nice packaging. It is weirdly not obvious how nice it is to cleanly use a different “machine” inside your desktop. I never thought I’d prefer WSL to even my MacBook for working with remote servers and dev but somehow I do. I of course know the many ways to roll something like this for myself, yes dev containers are better for many things etc. but it’s wierd how good the ergonomics of a WSL li... rpcope1: So you've just basically reimplemented LXC?",
-      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49894351",
-      "hn_story_type": "story",
-      "hn_points": "21",
-      "hn_comments_count": "21",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49894351",
-      "hn_item_text": "One of the things that Windows really got right is WSL2. I drive an atomic Linux distro for daily use, but wanted a way to develop with multiple different distros with that same WSL UX. NSL is my answer. It is a faithful reproduction of the developer experience, powered by a single VM that hosts one or more systemd-nspawn containers with your development instances. Host file edits and port sharing come along for the ride, just like WSL. Take a look and tell me what you think... It's yet another step in my long journey to keep my host installation free from all the changing and breaking dev dependencies that force a reinstall every few months.",
-      "hn_comment_preview": "0x457: I'm confused why VM + systemd-nspawn? From my understaing WSL 2 runs a single VM + something like systemd-nspawn per \"linux installation\", but it runs a VM because it needs linux kernel. Why not just do systemd-nspawn if you alread on linux?\nrao-v: I have to say this is nice packaging. It is weirdly not obvious how nice it is to cleanly use a different “machine” inside your desktop. I never thought I’d prefer WSL to even my MacBook for working with remote servers and dev but somehow I do. I of course know the many ways to roll something like this for myself, yes dev containers are better for many things etc. but it’s wierd how good the ergonomics of a WSL li...\nrpcope1: So you've just basically reimplemented LXC?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 7,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "production",
-            "container",
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "production",
-        "container",
-        "show hn"
-      ],
-      "detail_slug": "83e109aba6fd9f2c23374cba9ec8271b69da954d",
-      "is_english_source": true,
-      "sent_at": "2026-09-29T17:14:02.574099+00:00"
-    },
-    {
-      "id": "ae53b3ca84720f2f0b34ff1dd72465a342676ddd",
-      "title_hash": "ec1ceba7f32aabd822e449759dfae97ca07e73c9",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Google ending ChromeOS support two years early",
-      "link": "https://www.theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674",
-      "published_at": "2026-09-29T14:12:15+00:00",
-      "summary": "HN story type: story HN points: 98 HN comments: 75 HN top comments: TheqO: > Googlebooks are the big G’s replacement for Chromebooks, the web-centric computers it launched in 2011 and which run ChromeOS. Chromebooks have won plenty of admirers in the education sector, especially schools which see them as a fine way to get decent and well-priced computers into kids’ hands without having to take on the burden of managing a full OS. The newer Googlebook range uses more powerful processors t... steveBK123: Extremely sarcastic take but - shouldn't the 10x productivity boost of LLMs like their own in-house Gemini make maintaining software easier? Nothing in terms of feature release / quality / maintenance I am seeing out Big Software would lead me to believe there's been any productivity increase. fauigerzigerk: So for new devices, they will support ChromeOS for another 8 years and then offer an upgrade to Googlebook OS. I get that this is not 10 years support for ChromeOS. But it is 10 years of supported software upgrades for these devices. Perhaps the real issue is not the OS that runs on the devices themselves but support for the existing device management approach.",
-      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49893653",
-      "hn_story_type": "story",
-      "hn_points": "98",
-      "hn_comments_count": "75",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49893653",
-      "hn_item_text": "",
-      "hn_comment_preview": "TheqO: > Googlebooks are the big G’s replacement for Chromebooks, the web-centric computers it launched in 2011 and which run ChromeOS. Chromebooks have won plenty of admirers in the education sector, especially schools which see them as a fine way to get decent and well-priced computers into kids’ hands without having to take on the burden of managing a full OS. The newer Googlebook range uses more powerful processors t...\nsteveBK123: Extremely sarcastic take but - shouldn't the 10x productivity boost of LLMs like their own in-house Gemini make maintaining software easier? Nothing in terms of feature release / quality / maintenance I am seeing out Big Software would lead me to believe there's been any productivity increase.\nfauigerzigerk: So for new devices, they will support ChromeOS for another 8 years and then offer an upgrade to Googlebook OS. I get that this is not 10 years support for ChromeOS. But it is 10 years of supported software upgrades for these devices. Perhaps the real issue is not the OS that runs on the devices themselves but support for the existing device management approach.",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "36",
-      "priority_signal": "slot=industry_business,boost=24,slot_score=12,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=12",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 12
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 12,
-          "strong_hits": [
-            "release",
-            "launch"
-          ],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "release",
-        "launch",
-        "platform"
-      ],
-      "detail_slug": "ae53b3ca84720f2f0b34ff1dd72465a342676ddd",
-      "is_english_source": true,
-      "sent_at": "2026-09-29T17:14:02.574099+00:00"
-    },
-    {
-      "id": "db4de78fbc673c8df421a96aa536ad5fe0fff764",
-      "title_hash": "dc1b6a5dc0c49b28c78ea83db24ebcc56c4428b5",
-      "source": "GeekNews",
-      "title": "cf - Cloudflare API를 위한 에이전트형 CLI",
-      "link": "https://news.hada.io/topic?id=34473",
-      "published_at": "2026-09-29T04:35:45+00:00",
-      "summary": "Cloudflare가 cf 공개 베타 를 출시해, Wrangler의 약 280개 작업을 넘어 3,000개 이상의 전체 Cloudflare API 작업 을 하나의 CLI에서 사용할 수 있게 함 에이전트가 처음 사용하는 도구에서도 필요한 작업을 찾도록 자연어 명령 검색 을 제공하며,...",
-      "fetched_at": "2026-09-29T12:50:41.516642+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "59",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=5,tools_agents=14,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 14,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "에이전트",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "cli"
-      ],
-      "detail_slug": "db4de78fbc673c8df421a96aa536ad5fe0fff764",
-      "is_english_source": false,
-      "sent_at": "2026-09-29T12:56:22.590547+00:00"
-    },
-    {
-      "id": "61e1e786f2fbf70ab1c49068c774ee12de002d8c",
-      "title_hash": "e5dc8bb8fd91b28d922eae7edf2b64330ce0c455",
-      "source": "GeekNews",
-      "title": "서버 모니터링 분석 가이드",
-      "link": "https://news.hada.io/topic?id=34478",
-      "published_at": "2026-09-29T06:11:16+00:00",
-      "summary": "대시보드 설치 가이드는 많지만 그래프를 실제로 읽고 진단하는 방법 에 대한 가이드는 드물다는 문제의식에서 모니터링을 어떻게 읽고 행동할지 정리한 글 수많은 그래프는 구글 SRE의 네 가지 황금 신호(트래픽·지연 시간·에러·포화도)로 묶이며, 증상(지연·에러)을 먼저 파...",
-      "fetched_at": "2026-09-29T12:50:41.516642+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신호"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "신호"
-      ],
-      "detail_slug": "61e1e786f2fbf70ab1c49068c774ee12de002d8c",
-      "is_english_source": false,
-      "sent_at": "2026-09-29T12:56:22.590547+00:00"
-    },
-    {
-      "id": "a0b1571ccaefe2a2f2ca538b56b8f11506e92645",
-      "title_hash": "0a4d6a8341e995ed63226f267a6ef6046d0b8400",
-      "source": "GeekNews",
-      "title": "NobodyWho - 앱과 게임에 로컬 AI를 넣는 온디바이스 추론 엔진",
-      "link": "https://news.hada.io/topic?id=34463",
-      "published_at": "2026-09-29T00:30:02+00:00",
-      "summary": "클라우드 API 대신 사용자의 기기에서 AI 모델을 실행 해, 앱과 게임에 대화·이미지 이해·음성 기능을 넣는 오픈소스 추론 엔진 모델을 내려받으면 인터넷 연결이나 API 키 없이 실행 할 수 있으며, 사용자 입력을 외부 서버로 보내지 않고 처리 가능 Pytho...",
-      "fetched_at": "2026-09-29T12:50:41.516642+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "api"
-      ],
-      "detail_slug": "a0b1571ccaefe2a2f2ca538b56b8f11506e92645",
-      "is_english_source": false,
-      "sent_at": "2026-09-29T12:56:22.590547+00:00"
     }
   ],
   "topic_digests": {
