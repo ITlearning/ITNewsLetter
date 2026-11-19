@@ -1,6 +1,600 @@
 {
   "items": [
     {
+      "id": "b5bdf2b0baa49b7e7406607d2c2a6e5f226c0eae",
+      "title_hash": "edbdcfa2aec0f5d52fd780cb9ad946c01f0e08ee",
+      "source": "GeekNews",
+      "title": "너희 AI 안전장치 따위 엿 먹어라",
+      "link": "https://news.hada.io/topic?id=37484&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-19T19:47:32+00:00",
+      "summary": "자신이 관리하는 제품의 보안을 점검하던 시니어 제품 엔지니어가 Claude Code의 안전장치 에 가로막혀, 한 줄로 고칠 수 있는 취약점 수정 작업을 중단당함 보안 작업 예외 승인 에는 영업일 기준 수일의 대기, 데이터 보존 예외 포기, 신분증이나 여권 제출이 필요하며, 신청해도 승인받지 못할 수 있음 자신의 기술 스택에 해당하는 공개 공격 개념증명 코드 로 자체 서비스를 공격할 수 있는지 확인하는 작업도 차단됐으며, 이전 모델을 사용하라는 안내도 해결책이 되지 못함 공격자는 안전장치 없는 모델을 사용할 수 있는데 방어자는 …",
+      "fetched_at": "2026-11-19T21:47:04.103530+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=2,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "b5bdf2b0baa49b7e7406607d2c2a6e5f226c0eae",
+      "is_english_source": false,
+      "sent_at": "2026-11-19T21:47:51.443082+00:00"
+    },
+    {
+      "id": "5580ba68b70fd0c2eb30816c96cb43f6e01effeb",
+      "title_hash": "695299833a7d8ecfd37a8dda760cd2fb5a96e2cd",
+      "source": "GeekNews",
+      "title": "Anthropic, Nasdaq 상장 첫날 시가총액 약 2,600조원 도달",
+      "link": "https://news.hada.io/topic?id=37482&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-19T19:41:32+00:00",
+      "summary": "Claude 개발사 Anthropic 이 역대 최대인 810억 달러($81b) 규모 IPO 에서 기업가치 1조 5,000억 달러를 인정받으며, AI 산업의 성장 기대와 투자 위험을 시험대에 올림 기술주 전반의 매도세 속에서도 공모주 수요 는 강했지만, 막대한 인프라 지출과 늘어나는 부채를 향후 수익이 정당화할 수 있는지에 대한 의구심은 커지고 있음 최초로 상장하는 최첨단 AI 기업 으로서 업계의 평가 기준이 될 전망이며, 장기 수익성은 여전히 불확실함 Amazon과 Google 등을 상대로 한 컴퓨팅 계약 약정이 약 9,000억 달러 에 달하며, 일부 미래 연산 자원 …",
+      "fetched_at": "2026-11-19T21:47:04.103530+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "59",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=14,practical_tech=-6,tools_agents=0,strategy_insight=-1,industry_business=14",
+      "slot_scores": {
+        "practical_tech": -6,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 14
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -6,
+          "strong_hits": [],
+          "support_hits": [
+            "인프라"
+          ],
+          "negative_hits": [
+            "ipo",
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 14,
+          "strong_hits": [
+            "ipo",
+            "투자"
+          ],
+          "support_hits": [
+            "기업",
+            "산업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ipo",
+        "투자",
+        "기업",
+        "산업"
+      ],
+      "detail_slug": "5580ba68b70fd0c2eb30816c96cb43f6e01effeb",
+      "is_english_source": false,
+      "sent_at": "2026-11-19T21:47:51.443082+00:00"
+    },
+    {
+      "id": "1c3a8139b49cac40779149dc6a22baa16aa52548",
+      "title_hash": "bf4bdaca3f3ece51c12a16d776b178092c1c00b4",
+      "source": "GeekNews",
+      "title": "SQLite 기반 분산 고성능 블롭 스토리지",
+      "link": "https://news.hada.io/topic?id=37478&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-19T17:34:22+00:00",
+      "summary": "Zerodha가 SQLite를 저장 엔진으로 사용하는 Rust 기반 오픈소스 Blobasaur 를 개발해 기존 SSDB를 대체함. 수 KB부터 수 MB까지의 JSON 블롭을 일반 하드웨어에서 초당 수천 회 읽고 쓰며 한 자릿수 밀리초 지연을 유지함 SQLite의 단일 작성자 제약은 여러 데이터베이스 파일로 샤딩 하고, 샤드별 쓰기를 묶어 커밋하는 방식으로 해결함. 디스크 변수를 제외한 벤치마크에서 16개 샤드는 단일 샤드보다 쓰기 처리량이 3.3배 높았음 Redis 프로토콜 과 Redis Cluster 클라이언트를 지원하며, 노드 간 파티셔닝과 노드 내부 샤딩을 결합함. 다만 노드 간 슬롯 배치는 정적이며 실시간 재배치와 자동 장애 조치는 아직 지원하지 않음 …",
+      "fetched_at": "2026-11-19T21:47:04.103530+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "57",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=12,practical_tech=12,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "rust",
+            "sql"
+          ],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "sql",
+        "성능"
+      ],
+      "detail_slug": "1c3a8139b49cac40779149dc6a22baa16aa52548",
+      "is_english_source": false,
+      "sent_at": "2026-11-19T21:47:51.443082+00:00"
+    },
+    {
+      "id": "5b1eeecf476ac79c638571021fb63aebf6cf619c",
+      "title_hash": "1c7f2a99aef52c5fc9832fbe128ae066787b5510",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "UK government forced to admit it issued Apple a secret encryption order",
+      "link": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+      "published_at": "2026-11-19T16:21:03+00:00",
+      "summary": "HN story type: story HN points: 381 HN comments: 166 HN top comments: natch: Apple has significantly weakened its security assurances in a way that is arguably deceptive. They used to say nobody can access your data, not even Apple. Now they say Apple cannot access your data. People will point out that your key is created on your device, lives on your device, and never leaves your device, but that is just your key. Your key is likely a KEK (key encryption key) that opens another key (not “... fweimer: Primary source: https://investigatorypowerstribunal.org.uk/judgement/1-mr-vi... The key finding seems to be that the media learned of the technical capability notice through confidential security briefings, and not a leak (“one of those irregular verbs”). The contents of the note remains secret for now. puppycodes: Sorta thought this was alreay common knowledge? Unfortunately the UK has never respected privacy or free speech as a right.",
+      "fetched_at": "2026-11-19T21:47:04.103530+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50562113",
+      "hn_story_type": "story",
+      "hn_points": "381",
+      "hn_comments_count": "166",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50562113",
+      "hn_item_text": "",
+      "hn_comment_preview": "natch: Apple has significantly weakened its security assurances in a way that is arguably deceptive. They used to say nobody can access your data, not even Apple. Now they say Apple cannot access your data. People will point out that your key is created on your device, lives on your device, and never leaves your device, but that is just your key. Your key is likely a KEK (key encryption key) that opens another key (not “...\nfweimer: Primary source: https://investigatorypowerstribunal.org.uk/judgement/1-mr-vi... The key finding seems to be that the media learned of the technical capability notice through confidential security briefings, and not a leak (“one of those irregular verbs”). The contents of the note remains secret for now.\npuppycodes: Sorta thought this was alreay common knowledge? Unfortunately the UK has never respected privacy or free speech as a right.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "39",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "code + security"
+      ],
+      "detail_slug": "5b1eeecf476ac79c638571021fb63aebf6cf619c",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T21:47:51.443082+00:00"
+    },
+    {
+      "id": "19bfbb6da51e19fffaee63ea8d0d0f866ed12c91",
+      "title_hash": "c859afbf88e1029655370fc3dd24e33ab1b62891",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Someone reported java4shell bug in September 2026",
+      "link": "https://github.com/openjdk/jdk/pull/32781",
+      "published_at": "2026-11-19T11:47:03+00:00",
+      "summary": "HN story type: story HN points: 303 HN comments: 82 HN top comments: black3r: The very first referenced issue in that PR discussion sheds a bit more light on this: https://github.com/adoptium/adoptium-support/issues/1480 This PR's author says there on October 1st: \"Got an email from Oracle asking me to NOT proceed with a PR until receiving approval.\" and then on October 28th: \"It's taken over by Oracle. Nothing required from us.\" wood_spirit: So the implication is that the LLM that assisted the Calif researchers might have read this previous bug report and not independently discovered it? Botifier: Oracles comment for the merged commit is the exact same as in that PR word for word: https://github.com/openjdk/jdk/commit/5177a70b385c16f26ede19... https://github.com/openjdk/jdk/pull/32781/changes/d2f942c478...",
+      "fetched_at": "2026-11-19T21:47:04.103530+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50558906",
+      "hn_story_type": "story",
+      "hn_points": "303",
+      "hn_comments_count": "82",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50558906",
+      "hn_item_text": "",
+      "hn_comment_preview": "black3r: The very first referenced issue in that PR discussion sheds a bit more light on this: https://github.com/adoptium/adoptium-support/issues/1480 This PR's author says there on October 1st: \"Got an email from Oracle asking me to NOT proceed with a PR until receiving approval.\" and then on October 28th: \"It's taken over by Oracle. Nothing required from us.\"\nwood_spirit: So the implication is that the LLM that assisted the Calif researchers might have read this previous bug report and not independently discovered it?\nBotifier: Oracles comment for the merged commit is the exact same as in that PR word for word: https://github.com/openjdk/jdk/commit/5177a70b385c16f26ede19... https://github.com/openjdk/jdk/pull/32781/changes/d2f942c478...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "34",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=10,practical_tech=7,tools_agents=10,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 10,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "llm",
+        "github.com"
+      ],
+      "detail_slug": "19bfbb6da51e19fffaee63ea8d0d0f866ed12c91",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T21:47:51.443082+00:00"
+    },
+    {
+      "id": "9b50e27977c2e42a2346b9732d0705ee5f800861",
+      "title_hash": "cc7c71e0fe03ccb1a405d306277e7b85adf04a24",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "link": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "published_at": "2026-11-19T17:30:44+00:00",
+      "summary": "HN story type: story HN points: 289 HN comments: 118 HN top comments: easterncalculus: 81 comments so far (82 as of now) and I haven't found one that is actually about the papers or even TFA. What are we doing here? simonw: It tickled me that this was a bullet point in the Fable 5.2 announcement. I like that we're now at a point where \"solved two open problems in the physics of black holes\" is the kind of thing that shows up in a frontier model launch. dap: \"Claude solves\" feels reflective of the constant, problematic anthropomorphizing of the machine. For how it's problematic, look at \"it broke out of the sandbox\" vs. \"we failed to build an adequate sandbox\". What does it mean for Claude to solve it? What was the prompt? I didn't read it all, but the word \"prompt\" does not appear in the blog post, either abstract, or either paper.",
+      "fetched_at": "2026-11-19T21:47:04.103530+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50563148",
+      "hn_story_type": "story",
+      "hn_points": "289",
+      "hn_comments_count": "118",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50563148",
+      "hn_item_text": "",
+      "hn_comment_preview": "easterncalculus: 81 comments so far (82 as of now) and I haven't found one that is actually about the papers or even TFA. What are we doing here?\nsimonw: It tickled me that this was a bullet point in the Fable 5.2 announcement. I like that we're now at a point where \"solved two open problems in the physics of black holes\" is the kind of thing that shows up in a frontier model launch.\ndap: \"Claude solves\" feels reflective of the constant, problematic anthropomorphizing of the machine. For how it's problematic, look at \"it broke out of the sandbox\" vs. \"we failed to build an adequate sandbox\". What does it mean for Claude to solve it? What was the prompt? I didn't read it all, but the word \"prompt\" does not appear in the blog post, either abstract, or either paper.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=9,strategy_insight=4,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 9,
+        "strategy_insight": 4,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "sandbox"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "sandbox"
+          ],
+          "support_hits": [
+            "prompt"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "launch"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sandbox"
+      ],
+      "detail_slug": "9b50e27977c2e42a2346b9732d0705ee5f800861",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T21:47:51.443082+00:00"
+    },
+    {
+      "id": "5361a0213f18a982f0715538bc9f76830da4f6af",
+      "title_hash": "3e01ec183ac6fdce608812a6b546ddcd13aa205a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "link": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "published_at": "2026-11-19T18:47:16+00:00",
+      "summary": "HN story type: story HN points: 36 HN comments: 58 HN top comments: smath: I'm honest worried about alignment. It feels like human society hasn't really even figured out alignment for itself -- i.e. we don't have a good way of making sure that we organize units (businesses, politics, healthcare, etc) in ways that are aligned with 'good outcomes'. I think at least part of this is that we don't have a way to agree on what 'good' means and for who. In this scenario, I find it unlikely that... pyaamb: If we're going to slow AI let it be with renewable-energy only mandates for AI datacenters. It sets incentives in place for hyperscalers to prioritize energy solutions as opposed to buying politicians throwaway13337: It's so weird that the framing of AI is always about company vs government regulation. They're both power concentrating entities. The real danger of AI are these very entities. Both of them. When the value of labor is nil, democratic values fall away. Real AI alignment comes from individual ownership and control of that means of production. That is, if what 'alignment' means to you is compatible with human liberty...",
+      "fetched_at": "2026-11-19T21:47:04.103530+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50564366",
+      "hn_story_type": "story",
+      "hn_points": "36",
+      "hn_comments_count": "58",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50564366",
+      "hn_item_text": "",
+      "hn_comment_preview": "smath: I'm honest worried about alignment. It feels like human society hasn't really even figured out alignment for itself -- i.e. we don't have a good way of making sure that we organize units (businesses, politics, healthcare, etc) in ways that are aligned with 'good outcomes'. I think at least part of this is that we don't have a way to agree on what 'good' means and for who. In this scenario, I find it unlikely that...\npyaamb: If we're going to slow AI let it be with renewable-energy only mandates for AI datacenters. It sets incentives in place for hyperscalers to prioritize energy solutions as opposed to buying politicians\nthrowaway13337: It's so weird that the framing of AI is always about company vs government regulation. They're both power concentrating entities. The real danger of AI are these very entities. Both of them. When the value of labor is nil, democratic values fall away. Real AI alignment comes from individual ownership and control of that means of production. That is, if what 'alignment' means to you is compatible with human liberty...",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "39",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=15,practical_tech=5,tools_agents=3,strategy_insight=2,industry_business=15",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 3,
+        "strategy_insight": 2,
+        "industry_business": 15
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "production"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "regulation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 3,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "regulation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 15,
+          "strong_hits": [
+            "regulation"
+          ],
+          "support_hits": [
+            "business",
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + regulation"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "regulation",
+        "business",
+        "company",
+        "ai + regulation"
+      ],
+      "detail_slug": "5361a0213f18a982f0715538bc9f76830da4f6af",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T21:47:51.443082+00:00"
+    },
+    {
       "id": "d49953852d019a95a156e91f13f54cd0bda6ed05",
       "title_hash": "1c172e59fdcba9d5393766973a86ce5bc53df0c3",
       "source": "GeekNews",
@@ -165461,564 +166055,6 @@
       "detail_slug": "d6ca31effafcc02dff17ffd95a572103f814dafb",
       "is_english_source": true,
       "sent_at": "2026-09-30T09:55:59.556871+00:00"
-    },
-    {
-      "id": "d82e401d2d27c0d518bf5e2cc6c9948b63c9bdc9",
-      "title_hash": "06cf6269abf5b71853bb20c960d403accc5ea426",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "September 2026: The world today, as seen by one Polish guy",
-      "link": "https://tomwojcik.com/posts/2026-09-21/september-2026-the-world-today/",
-      "published_at": "2026-09-30T07:12:31+00:00",
-      "summary": "HN story type: story HN points: 201 HN comments: 91 HN top comments: Tade0: I feel like this is overdramatized a bit. For instance: it's mentioned that EU gas storage is at 67% and Germany's at 56%. What is not mentioned though is that Poland's storage is at 97% because the previous administration, for better or worse, was paranoid enough to invest in a sizeable marine gas terminal and the current one stocked up early. Regarding real estate: adjusted for inflation prices peaked 2.5 years... jakozaur: I'm Polish, but this is such a pessimistic, overdramatic take. The visualisations are impressive, but you're living in Poland's golden age. See this Hacker News story with 1,000+ upvotes: https://news.ycombinator.com/item?id=48062117 The war in Ukraine is a tragedy, but it has proved that Russia is weak. The price shock will speed up the transition to renewables, and Iran is losing its grip on Hormuz. So many of t... roenxi: > Every generation believes it is living through the end of something. Many generations are. Last century saw the collapse of the British and Soviet empires - titans by any measure - through mismanagement. Europe as an international power was also broken (compared to how they used to be). I can easily imagine 1900s me fleeing to America in fear of the end times and feeling quite justified in his choices with hinds...",
-      "fetched_at": "2026-09-30T09:53:18.905472+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49905487",
-      "hn_story_type": "story",
-      "hn_points": "201",
-      "hn_comments_count": "91",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49905487",
-      "hn_item_text": "",
-      "hn_comment_preview": "Tade0: I feel like this is overdramatized a bit. For instance: it's mentioned that EU gas storage is at 67% and Germany's at 56%. What is not mentioned though is that Poland's storage is at 97% because the previous administration, for better or worse, was paranoid enough to invest in a sizeable marine gas terminal and the current one stocked up early. Regarding real estate: adjusted for inflation prices peaked 2.5 years...\njakozaur: I'm Polish, but this is such a pessimistic, overdramatic take. The visualisations are impressive, but you're living in Poland's golden age. See this Hacker News story with 1,000+ upvotes: https://news.ycombinator.com/item?id=48062117 The war in Ukraine is a tragedy, but it has proved that Russia is weak. The price shock will speed up the transition to renewables, and Iran is losing its grip on Hormuz. So many of t...\nroenxi: > Every generation believes it is living through the end of something. Many generations are. Last century saw the collapse of the British and Soviet empires - titans by any measure - through mismanagement. Europe as an international power was also broken (compared to how they used to be). I can easily imagine 1900s me fleeing to...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "storage"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "storage"
-      ],
-      "detail_slug": "d82e401d2d27c0d518bf5e2cc6c9948b63c9bdc9",
-      "is_english_source": true,
-      "sent_at": "2026-09-30T09:55:59.556871+00:00"
-    },
-    {
-      "id": "5ac932f8f9ca293a06c400c8e03a9f21f2032f27",
-      "title_hash": "5820c656268c201a989b03331306731cc676c276",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "RSS Feeds for Last.fm",
-      "link": "https://lfm.xiffy.nl/",
-      "published_at": "2026-09-30T03:00:05+00:00",
-      "summary": "HN story type: story HN points: 72 HN comments: 14 HN top comments: TFNA: As mentioned in the HN submission, Last.fm went through a redesign already over a decade ago. It stripped so much functionality that the site became useless except for merely tracking one's own listens, and there were already libre alternatives for that. Last.fm is one of my go-to examples of how the internet has become a lonelier place. The old Last.fm was deeply linked with real life: it would show upcoming gigs... cobertos: Self-hosted Koito[0] and glad I left Last.fm. Not even a good first-party export, gotta use some hacked together third-party one to get your data out. [0]: https://github.com/gabehf/koito winrid: > But I also wept. How is it possible that two almost identical endpoints have the key names differ on several spots or complete absent. average legacy PHP backend :)",
-      "fetched_at": "2026-09-30T09:53:18.905472+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49903862",
-      "hn_story_type": "story",
-      "hn_points": "72",
-      "hn_comments_count": "14",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49903862",
-      "hn_item_text": "",
-      "hn_comment_preview": "TFNA: As mentioned in the HN submission, Last.fm went through a redesign already over a decade ago. It stripped so much functionality that the site became useless except for merely tracking one's own listens, and there were already libre alternatives for that. Last.fm is one of my go-to examples of how the internet has become a lonelier place. The old Last.fm was deeply linked with real life: it would show upcoming gigs...\ncobertos: Self-hosted Koito[0] and glad I left Last.fm. Not even a good first-party export, gotta use some hacked together third-party one to get your data out. [0]: https://github.com/gabehf/koito\nwinrid: > But I also wept. How is it possible that two almost identical endpoints have the key names differ on several spots or complete absent. average legacy PHP backend :)",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rag"
-      ],
-      "detail_slug": "5ac932f8f9ca293a06c400c8e03a9f21f2032f27",
-      "is_english_source": true,
-      "sent_at": "2026-09-30T09:55:59.556871+00:00"
-    },
-    {
-      "id": "24425856be62ccb77358adf5c6caeb9414f61f39",
-      "title_hash": "190ca29db99388e46b302902aa8f9a157b60ea97",
-      "source": "TechCrunch",
-      "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
-      "link": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
-      "published_at": "2026-09-29T19:52:37+00:00",
-      "summary": "The new round is anticipated to be the company's last before its delayed 2027 public debut.",
-      "fetched_at": "2026-09-30T09:53:18.905472+00:00",
-      "source_priority_boost": "6",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "19",
-      "priority_signal": "slot=industry_business,boost=6,slot_score=13,practical_tech=-4,tools_agents=0,strategy_insight=0,industry_business=13",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": 0,
-        "industry_business": 13
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "valuation"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 13,
-          "strong_hits": [
-            "valuation"
-          ],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "techcrunch.com"
-          ]
-        }
-      },
-      "matched_terms": [
-        "valuation",
-        "company",
-        "techcrunch.com"
-      ],
-      "detail_slug": "24425856be62ccb77358adf5c6caeb9414f61f39",
-      "is_english_source": true,
-      "sent_at": "2026-09-30T09:55:59.556871+00:00"
-    },
-    {
-      "id": "5343a76f0eb749fab13657108b66927c6e6249b2",
-      "title_hash": "4737d23f6854e58ac214da3cdf2ea38fe596f077",
-      "source": "GeekNews",
-      "title": "Show GN: Barracks - macOS에서 여러 Claude/ChatGPT 앱 돌리기",
-      "link": "https://news.hada.io/topic?id=34527",
-      "published_at": "2026-09-30T03:03:15+00:00",
-      "summary": "Claude(Code) & ChatGPT(Codex)를 CLI 대신 앱으로 쓰기 시작한 지 좀 됐는데 두 앱 모두 앱 내 계정 스위치를 지원하지 않아 --user-data-dir 를 설정해서 띄우는 방식으로 여러 인스턴스를 띄워 사용했으나 관리가 귀찮고 앱 업데이트 때마다 다른 앱을 끄기 전까지 업데이트가 되지 않거나 앱이 튕...",
-      "fetched_at": "2026-09-30T05:43:11.222134+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "65",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 20,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "codex",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "codex",
-        "cli",
-        "claude + code"
-      ],
-      "detail_slug": "5343a76f0eb749fab13657108b66927c6e6249b2",
-      "is_english_source": false,
-      "sent_at": "2026-09-30T05:45:51.379503+00:00"
-    },
-    {
-      "id": "b6976cc0c05612f6dc716d108fb77fac81248917",
-      "title_hash": "721498d7299bb59f6b369c54372a85ab4d3c7b8a",
-      "source": "GeekNews",
-      "title": "OpenAI, Jev와 경쟁할 Luna 기반 Decision API 공개",
-      "link": "https://news.hada.io/topic?id=34528",
-      "published_at": "2026-09-30T03:27:13+00:00",
-      "summary": "OpenAI가 DevDay에서 소형 모델 Luna 기반의 Decision API를 공개 개발자가 질문, 답변 후보, 맥락을 입력하면 미리 정한 답변 후보에 신뢰도 점수를 제공하는 방식 주요 활용처는 콘텐츠 분류, 요청 라우팅, AI 에이전트의 다음 행동 선택 OpenAI 발표 기준 응답 시간은 1...",
-      "fetched_at": "2026-09-30T05:43:11.222134+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "58",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=13,practical_tech=5,tools_agents=9,strategy_insight=13,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 9,
-        "strategy_insight": 13,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 13,
-          "strong_hits": [
-            "decision",
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "decision",
-        "신뢰"
-      ],
-      "detail_slug": "b6976cc0c05612f6dc716d108fb77fac81248917",
-      "is_english_source": false,
-      "sent_at": "2026-09-30T05:45:51.379503+00:00"
-    },
-    {
-      "id": "46a341da11ea7346c1290f16e2783c458e0552db",
-      "title_hash": "d7b428264afbaa8b48f6bed38cf24a46000d8cb9",
-      "source": "GeekNews",
-      "title": "Rust에서 Arc 다운캐스팅을 갈망하며",
-      "link": "https://news.hada.io/topic?id=34532",
-      "published_at": "2026-09-30T04:04:06+00:00",
-      "summary": "동시성 캐시의 큰 값을 매번 복제하는 대신 Arc 를 사용하면, 전체 데이터를 복제하지 않고 읽기 접근이 가능한 소유 값을 저렴하게 복제할 수 있음 하지만 Arc 내부의 String 을 패턴 매칭으로 꺼내 Ar...",
-      "fetched_at": "2026-09-30T05:43:11.222134+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust"
-      ],
-      "detail_slug": "46a341da11ea7346c1290f16e2783c458e0552db",
-      "is_english_source": false,
-      "sent_at": "2026-09-30T05:45:51.379503+00:00"
-    },
-    {
-      "id": "f2dc44ab78b8b30ca30c9c3d937c3e2722d22186",
-      "title_hash": "552209da36729abe96a5c0c8f7669a1f1c771212",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "PSSA: A non-transformer language model written from scratch in Rust",
-      "link": "https://github.com/Sparticle62ops/pssa",
-      "published_at": "2026-09-30T03:19:54+00:00",
-      "summary": "HN story type: story HN points: 45 HN comments: 12 HN top comments: janalsncm: OP, you should not have written this in Rust. It should be in PyTorch, which is by far the most popular. We can’t tell if this architecture is good or whether there is a problem in your implementation. You can test the whole thing for free on a GPU with Google Colab. Test both the transformer and your new architecture on a larger dataset. Something that maxes out the GPU for an hour each run. Also, the readme ment... Marcuss2: How would it compare to current state of the art tested state space layers like Kimi Delta Attention? a19486: Homie just had some tokens to burn at the end of the month and “in Rust” is pure HN clickbait.",
-      "fetched_at": "2026-09-30T05:43:11.222134+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49903993",
-      "hn_story_type": "story",
-      "hn_points": "45",
-      "hn_comments_count": "12",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49903993",
-      "hn_item_text": "",
-      "hn_comment_preview": "janalsncm: OP, you should not have written this in Rust. It should be in PyTorch, which is by far the most popular. We can’t tell if this architecture is good or whether there is a problem in your implementation. You can test the whole thing for free on a GPU with Google Colab. Test both the transformer and your new architecture on a larger dataset. Something that maxes out the GPU for an hour each run. Also, the readme ment...\nMarcuss2: How would it compare to current state of the art tested state space layers like Kimi Delta Attention?\na19486: Homie just had some tokens to burn at the end of the month and “in Rust” is pure HN clickbait.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=10,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 10,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "architecture",
-            "rust"
-          ],
-          "support_hits": [
-            "implementation"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "architecture",
-        "rust",
-        "implementation",
-        "github.com"
-      ],
-      "detail_slug": "f2dc44ab78b8b30ca30c9c3d937c3e2722d22186",
-      "is_english_source": true,
-      "sent_at": "2026-09-30T05:45:51.379503+00:00"
     }
   ],
   "topic_digests": {
