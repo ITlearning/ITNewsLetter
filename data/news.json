@@ -1,6 +1,583 @@
 {
   "items": [
     {
+      "id": "ed2ccd88817c0f61510527bc75cd9fe029f90aaf",
+      "title_hash": "f108adf4265c97a463a24f76d0bb1e1750593698",
+      "source": "GeekNews",
+      "title": "Show GN: 크리스마스 Claude Code 플러그인 SantaClaude",
+      "link": "https://news.hada.io/topic?id=37463&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-19T07:49:55+00:00",
+      "summary": "크리스마스가 다가오고 있어서 터미널에서 볼 수 있는 클로드 플러그인을 만들어봤습니다. /santaclaude-pane 으로 하단에 고정되는 pane에 산타클로드를 띄울 수 있습니다. 테마는 3가지가 있습니다. /santaclaude-color frost/classic/candle 으로 테마 3가지 중 한가지를 선택할 수 있습니다. 컨텍스트가 찰 수록 눈이 쌓입니다. 마우스를 호버하거나 클릭하면 산타클로드가 점프를 하고 가끔 덤블링도 합니다. 감사합니다",
+      "fetched_at": "2026-11-19T09:32:33.805544+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 15,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "claude code"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "claude + code"
+      ],
+      "detail_slug": "ed2ccd88817c0f61510527bc75cd9fe029f90aaf",
+      "is_english_source": false,
+      "sent_at": "2026-11-19T09:33:16.328969+00:00"
+    },
+    {
+      "id": "dddc9e12a857858cafbd6704f3ed31be186eee33",
+      "title_hash": "d422d6cc50a30b6e3d000e642d4316609bf569d8",
+      "source": "GeekNews",
+      "title": "Anthropic, 기업공개 공모가 확정",
+      "link": "https://news.hada.io/topic?id=37465&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-19T08:34:48+00:00",
+      "summary": "Anthropic 이 Class A 보통주의 기업공개(IPO) 공모가를 주당 83달러 로 확정함 공모 물량은 9억 8,000만 주 이며, Anthropic이 매각하는 주식과 일부 기존 주주가 매각하는 주식으로 구성됨 기존 주주의 매각 대금은 Anthropic에 유입되지 않음 2026년 11월 19일 Nasdaq Global Select Market에서 종목 기호 ANT 로 거래를 시작할 예정임 인수단에는 30일간 최대 1억 4,700만 주 의 Class A 보통주를 추가 매입할 수 있는 옵션이 부여됨 공모 가격과 물량 Class A 보통주 의 공모가는 주당 83달러 로 확정됨 총 980,000,000주 를 공모하며, 매각 …",
+      "fetched_at": "2026-11-19T09:32:33.805544+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "59",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=14,practical_tech=-12,tools_agents=0,strategy_insight=-1,industry_business=14",
+      "slot_scores": {
+        "practical_tech": -12,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 14
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -12,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "ipo",
+            "인수",
+            "주가"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 14,
+          "strong_hits": [
+            "ipo",
+            "인수"
+          ],
+          "support_hits": [
+            "market",
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ipo",
+        "인수",
+        "market",
+        "기업"
+      ],
+      "detail_slug": "dddc9e12a857858cafbd6704f3ed31be186eee33",
+      "is_english_source": false,
+      "sent_at": "2026-11-19T09:33:16.328969+00:00"
+    },
+    {
+      "id": "d3bbc70ed696f33005535bba993cefef77856986",
+      "title_hash": "57e4ffdec58992cfa14beffc0dbeba4c2f0f7ea8",
+      "source": "GeekNews",
+      "title": "우리에겐 진심으로 신경 쓰는 똑똑한 사람들이 필요하다",
+      "link": "https://news.hada.io/topic?id=37446&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-19T01:34:56+00:00",
+      "summary": "복잡하고 취약한 시스템을 실제로 지탱하는 것은 시스템을 깊이 이해하고 끝까지 신경 쓰는 사람들 임 오래되고 결함이 많은 ACH 가 실무에서는 안전하고 저렴하며 신뢰할 만한 시스템으로 통하는 데에는, 문제를 수정하거나 우회하고 수동으로 처리하는 사람들의 역할이 있음 최근 여러 서비스와 인프라 장애의 공통 원인은 이런 사람들의 부족 일 수 있음. 다만 내부 정보가 아니라 복잡한 시스템을 다뤄온 경험에 근거한 추정임 경영진이 사람의 작업과 생성형 AI를 단순한 산출물 로 비교하면, 이상 징후 감지와 예외 처리처럼 시스템을 …",
+      "fetched_at": "2026-11-19T09:32:33.805544+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "인프라"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "d3bbc70ed696f33005535bba993cefef77856986",
+      "is_english_source": false,
+      "sent_at": "2026-11-19T09:33:16.328969+00:00"
+    },
+    {
+      "id": "ebb758f3926069a89a7f4e4576954f1024b6a809",
+      "title_hash": "cd734906afb8003f237d204c349c8b967dbf719b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Distributed, high-performance blob storage on SQLite",
+      "link": "https://zerodha.tech/blog/high-performance-distributed-blob-storage/",
+      "published_at": "2026-11-19T08:39:45+00:00",
+      "summary": "HN story type: story HN points: 9 HN comments: 0",
+      "fetched_at": "2026-11-19T09:32:33.805544+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50557537",
+      "hn_story_type": "story",
+      "hn_points": "9",
+      "hn_comments_count": "0",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50557537",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "performance",
+            "distributed",
+            "storage",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "distributed",
+        "storage",
+        "sql"
+      ],
+      "detail_slug": "ebb758f3926069a89a7f4e4576954f1024b6a809",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T09:33:16.328969+00:00"
+    },
+    {
+      "id": "2a19b65a12c0cbce6eca494c60e188d90451f485",
+      "title_hash": "3dafcaec687548bef375c4a336a81f35b649f11c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Inside Deutsche Bank",
+      "link": "https://www.inside-db.com/",
+      "published_at": "2026-11-18T15:38:33+00:00",
+      "summary": "HN story type: story HN points: 686 HN comments: 233 HN top comments: ltrg: I was involved with this project as a reporter, though others from my organisation did most of the work. HN readers may be interested to know a bit about the tech stack. The 15 million or so documents, mostly Outlook mailbox exports, were provided to partners in the consortium via a tool called OpenAleph [1], which is maintained by DARC and based on ElasticSearch and a schema called FollowTheMoney [2], developed s... gwbas1c: The page needs to summarize critical points without needing to hop into links. The linked articles require dedicated time to read, (which is good.) Many people will open this, see that it requires time to read, and move on without understanding the major points of the scandal. A higher level summary will get the point across much more quickly. mlmonkey: > The Data > Our reporters will continue to evaluate the material journalistically over the > coming months. We will not publish the raw data online. One of my biggest gripes about journalism today is that biased actors will change the narrative to fit their biases via selective omission of facts, thereby putting forth a misleading version. One doesn't have to actually _lie_ to deceive the public; one can just hid...",
+      "fetched_at": "2026-11-19T09:32:33.805544+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50547620",
+      "hn_story_type": "story",
+      "hn_points": "686",
+      "hn_comments_count": "233",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50547620",
+      "hn_item_text": "",
+      "hn_comment_preview": "ltrg: I was involved with this project as a reporter, though others from my organisation did most of the work. HN readers may be interested to know a bit about the tech stack. The 15 million or so documents, mostly Outlook mailbox exports, were provided to partners in the consortium via a tool called OpenAleph [1], which is maintained by DARC and based on ElasticSearch and a schema called FollowTheMoney [2], developed s...\ngwbas1c: The page needs to summarize critical points without needing to hop into links. The linked articles require dedicated time to read, (which is good.) Many people will open this, see that it requires time to read, and move on without understanding the major points of the scandal. A higher level summary will get the point across much more quickly.\nmlmonkey: > The Data > Our reporters will continue to evaluate the material journalistically over the > coming months. We will not publish the raw data online. One of my biggest gripes about journalism today is that biased actors will change the narrative to fit their biases via selective omission of facts, thereby putting forth a misleading version. One doesn't have to actually _lie_ to deceive the public; one...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "tool"
+      ],
+      "detail_slug": "2a19b65a12c0cbce6eca494c60e188d90451f485",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T09:33:16.328969+00:00"
+    },
+    {
+      "id": "75b6193376a50dab5664553bff272327b2863054",
+      "title_hash": "651a68e1d299133e80a4758e9a5e62d76d1faace",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Multiple vulnerabilities in Regexp and String case conversion",
+      "link": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
+      "published_at": "2026-11-18T23:52:50+00:00",
+      "summary": "HN story type: story HN points: 251 HN comments: 87 HN top comments: tptacek: There's what I think is probably an awesome bug here. Windows-1252 encoding has a representation for lowercase German sharp 's' (ß), but not one for the uppercase. If you upcase a string containing a sharp 's', it gets normalized to \"SS\", which increases the length of the string by one character. The 1252 case conversion code doesn't handle this; it looks like it checks for headroom in the buffer one character at... pentestercrab: str = (\"\\x82\\xA0\" + (\"A\" * (2**32 + 4))).force_encoding(Encoding::Shift_JIS) puts \"str.bytesize: #{str.bytesize}\" puts \"str.encoding: #{str.encoding}\" puts \"str.valid_encoding?: #{str.valid_encoding?}\" new_str = str.downcase puts \"new_str.bytesize: #{new_str.bytesize}\" puts \"new_str.bytes: #{new_str.bytes}\" puts \"new_str.encoding: #{new_str.encoding}\" outputs on an unfixed version: str.bytesize: 4294967302 str.enc... nickcw: > CVE identifiers have been requested for these vulnerabilities but have not been assigned yet, so this advisory refers to them by their GitHub Security Advisory (GHSA) identifiers. It sounds like they are using GitHub to assign CVEs. We do the same at the rclone project. GitHub are running at a 4 week delay assigning CVEs! They used to do it in 2-3 days.",
+      "fetched_at": "2026-11-19T09:32:33.805544+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50554038",
+      "hn_story_type": "story",
+      "hn_points": "251",
+      "hn_comments_count": "87",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50554038",
+      "hn_item_text": "",
+      "hn_comment_preview": "tptacek: There's what I think is probably an awesome bug here. Windows-1252 encoding has a representation for lowercase German sharp 's' (ß), but not one for the uppercase. If you upcase a string containing a sharp 's', it gets normalized to \"SS\", which increases the length of the string by one character. The 1252 case conversion code doesn't handle this; it looks like it checks for headroom in the buffer one character at...\npentestercrab: str = (\"\\x82\\xA0\" + (\"A\" * (2**32 + 4))).force_encoding(Encoding::Shift_JIS) puts \"str.bytesize: #{str.bytesize}\" puts \"str.encoding: #{str.encoding}\" puts \"str.valid_encoding?: #{str.valid_encoding?}\" new_str = str.downcase puts \"new_str.bytesize: #{new_str.bytesize}\" puts \"new_str.bytes: #{new_str.bytes}\" puts \"new_str.encoding: #{new_str.encoding}\" outputs on an unfixed version: str.bytesize: 4294967302 str.enc...\nnickcw: > CVE identifiers have been requested for these vulnerabilities but have not been assigned yet, so this advisory refers to them by their GitHub Security Advisory (GHSA) identifiers. It sounds like they are using GitHub to assign CVEs. We do the same at the rclone project. GitHub are running at a 4 week delay assigning CVEs...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "39",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=13,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 13,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 13,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "code + security"
+      ],
+      "detail_slug": "75b6193376a50dab5664553bff272327b2863054",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T09:33:16.328969+00:00"
+    },
+    {
+      "id": "8f8789f0d4b315bd67db6c2c5ee5b6495656afbc",
+      "title_hash": "560dd8b6c10fb159ed9dbefbec3c12eebd9fa1a1",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Anthropic prices initial public offering",
+      "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "published_at": "2026-11-18T23:30:09+00:00",
+      "summary": "HN story type: story HN points: 207 HN comments: 308 HN top comments: throwa356262: Remember the dotcom? Do you remember companies like AltaVista or maybe pets.com? Anthropic and OpenAI are the AltaVista of the AI era. With first starter advantage but no real moat and very good at spending money. I am still waiting for the Google of this era to show its face. Edit: every time I question these crazy valuations I get down voted really quickly. blfr: People are saying that Anthropic has no moat which sounds right but at the same time they have left everyone behind: Google is trying lately but seemed very lost over the last years despite inventing the thing; OpenAI cannot match Opus 5.5 and Fable atm; and it seems like anti-distillation efforts really did put a dent in the speed of Chinese model development. Meanwhile Claude is getting really good. It's a decen... purple_ferret: I am totally blown away that a company that was formed in 2021 will have a 1.5 trillion market cap on the public market... to put into context, a valuation not achieved by Apple until 2020",
+      "fetched_at": "2026-11-19T09:32:33.805544+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50553843",
+      "hn_story_type": "story",
+      "hn_points": "207",
+      "hn_comments_count": "308",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50553843",
+      "hn_item_text": "",
+      "hn_comment_preview": "throwa356262: Remember the dotcom? Do you remember companies like AltaVista or maybe pets.com? Anthropic and OpenAI are the AltaVista of the AI era. With first starter advantage but no real moat and very good at spending money. I am still waiting for the Google of this era to show its face. Edit: every time I question these crazy valuations I get down voted really quickly.\nblfr: People are saying that Anthropic has no moat which sounds right but at the same time they have left everyone behind: Google is trying lately but seemed very lost over the last years despite inventing the thing; OpenAI cannot match Opus 5.5 and Fable atm; and it seems like anti-distillation efforts really did put a dent in the speed of Chinese model development. Meanwhile Claude is getting really good. It's a decen...\npurple_ferret: I am totally blown away that a company that was formed in 2021 will have a 1.5 trillion market cap on the public market... to put into context, a valuation not achieved by Apple until 2020",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "33",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=9,practical_tech=0,tools_agents=-2,strategy_insight=2,industry_business=9",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": -2,
+        "strategy_insight": 2,
+        "industry_business": 9
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "valuation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 9,
+          "strong_hits": [
+            "valuation"
+          ],
+          "support_hits": [
+            "company",
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "valuation",
+        "company",
+        "market"
+      ],
+      "detail_slug": "8f8789f0d4b315bd67db6c2c5ee5b6495656afbc",
+      "is_english_source": true,
+      "sent_at": "2026-11-19T09:33:16.328969+00:00"
+    },
+    {
       "id": "1be9b2f4f21ff2d599626af41071f1b98b1ef707",
       "title_hash": "3df83e2bed308b5f55f553bb2063133181f96dab",
       "source": "GeekNews",
@@ -165419,601 +165996,6 @@
       "detail_slug": "38202e410acffe4889734202afa261ebe7f6235b",
       "is_english_source": false,
       "sent_at": "2026-09-29T21:26:26.824873+00:00"
-    },
-    {
-      "id": "5a8ace589e3f846ed4c52a20e141d4b9f2724390",
-      "title_hash": "7ccdbca04653b21a4a17938b392e9e57da2acdff",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Dots: Always-on agents",
-      "link": "https://openai.com/index/introducing-dots/",
-      "published_at": "2026-09-29T17:07:57+00:00",
-      "summary": "HN story type: story HN points: 385 HN comments: 299 HN top comments: aditya_rs: I feel like a lot of these always on agents tie users deeply into the platform. Unlike models that you can swap between with relative ease, with an agent because of the integrations to other platforms, work history and so on it would be harder to switch, since in effect they are essentially your computer on the cloud. Tin foil hat version of me thinks that all the closed model companies want to desperately build a... johnfahey: OpenAI won a lot of good favor for the generous Codex subscription and the efficiency of their models, but now that many people have switched over from Claude, they think they can leverage their position to peddle a stream of unnecessary products, and crack down on the generous limits[1] that brought everyone to Codex in the first place. Anthropic did the same thing. Earlier this year, Claude subs and Claude Code... jwpapi: This is one part of AI I hadn’t success with. I have very little need to run Agents over night, as my throughput is limited by my approval. Each work usually needs revisions, sometimes the bug is just a symptom of the root problem, sometimes I need to rethink how users want to use the app. Sometimes I need research. I get how i prefer an already researched-version of a bug versus a raw bug notice, but I can do thi...",
-      "fetched_at": "2026-09-29T21:23:58.372851+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49896604",
-      "hn_story_type": "story",
-      "hn_points": "385",
-      "hn_comments_count": "299",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49896604",
-      "hn_item_text": "",
-      "hn_comment_preview": "aditya_rs: I feel like a lot of these always on agents tie users deeply into the platform. Unlike models that you can swap between with relative ease, with an agent because of the integrations to other platforms, work history and so on it would be harder to switch, since in effect they are essentially your computer on the cloud. Tin foil hat version of me thinks that all the closed model companies want to desperately build a...\njohnfahey: OpenAI won a lot of good favor for the generous Codex subscription and the efficiency of their models, but now that many people have switched over from Claude, they think they can leverage their position to peddle a stream of unnecessary products, and crack down on the generous limits[1] that brought everyone to Codex in the first place. Anthropic did the same thing. Earlier this year, Claude subs and Claude Code...\njwpapi: This is one part of AI I hadn’t success with. I have very little need to run Agents over night, as my throughput is limited by my approval. Each work usually needs revisions, sometimes the bug is just a symptom of the root problem, sometimes I need to rethink how users want to use the app. Sometimes I need research. I get ho...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=19,tools_agents=20,strategy_insight=4,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 20,
-        "strategy_insight": 4,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "index",
-            "api",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "codex"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "5a8ace589e3f846ed4c52a20e141d4b9f2724390",
-      "is_english_source": true,
-      "sent_at": "2026-09-29T21:26:26.824873+00:00"
-    },
-    {
-      "id": "e122e8fcc27d7b8ebb63128880772541a333d327",
-      "title_hash": "634935ad18919905b830265c5571f32f874cc6b0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "link": "https://openai.com/index/introducing-gpt-6-1-sol/",
-      "published_at": "2026-09-29T17:06:45+00:00",
-      "summary": "HN story type: story HN points: 639 HN comments: 571 HN top comments: proxysna: I am yet to spend $200 on deepseek this year. Not sure what kind of usage can justify $200/month of either openai or anthropic, i'm not even talking about $500. Deepseek is faster, IMO intelligence difference is negligible and it so much cheaper that i no longer care about how much i use it. I never hit any daily/weekly quota or anything like that while working or tinkering. At this point i am OK with being 6 mont... revolvingthrow: There was a model called Astra-Minor, found in the files a few days ago. I assume Sol 6.1 is this, as a last minute panic rename due to Sol 6 being underwhelming while Opus 5.5 turned out really strong. I can't really explain releasing Sol 6 in any other way, especially mere days ago. minimaxir: > Cached input costs just $0.10 per million tokens—95% less than standard input pricing and 50% less than GPT‑6 Sol’s cached input pricing This is the actual big announcement. 50% cheaper cache than GPT-6 Sol will get you far more mileage on Codex.",
-      "fetched_at": "2026-09-29T21:23:58.372851+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49896586",
-      "hn_story_type": "story",
-      "hn_points": "639",
-      "hn_comments_count": "571",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49896586",
-      "hn_item_text": "",
-      "hn_comment_preview": "proxysna: I am yet to spend $200 on deepseek this year. Not sure what kind of usage can justify $200/month of either openai or anthropic, i'm not even talking about $500. Deepseek is faster, IMO intelligence difference is negligible and it so much cheaper that i no longer care about how much i use it. I never hit any daily/weekly quota or anything like that while working or tinkering. At this point i am OK with being 6 mont...\nrevolvingthrow: There was a model called Astra-Minor, found in the files a few days ago. I assume Sol 6.1 is this, as a last minute panic rename due to Sol 6 being underwhelming while Opus 5.5 turned out really strong. I can't really explain releasing Sol 6 in any other way, especially mere days ago.\nminimaxir: > Cached input costs just $0.10 per million tokens—95% less than standard input pricing and 50% less than GPT‑6 Sol’s cached input pricing This is the actual big announcement. 50% cheaper cache than GPT-6 Sol will get you far more mileage on Codex.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "cache",
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "codex"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cache",
-        "index"
-      ],
-      "detail_slug": "e122e8fcc27d7b8ebb63128880772541a333d327",
-      "is_english_source": true,
-      "sent_at": "2026-09-29T21:26:26.824873+00:00"
-    },
-    {
-      "id": "a40986841c3747cb5a44a3570ec331c218e32278",
-      "title_hash": "69eaf8d1eb481ebdf64db7ad9f756c711cb10b96",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Jeeves. Reasoning improves Jev-like decision models",
-      "link": "https://github.com/PostHog/jeeves",
-      "published_at": "2026-09-29T11:13:54+00:00",
-      "summary": "HN story type: story HN points: 212 HN comments: 85 HN top comments: sharih: What is the point of this, if it is p90 17 seconds? Might as well use an LLM. The beauty of Jev is that it is dirt cheap and insanely fast. TN1ck: I just did a run with a benchmark I just used to test other models against. (It's about detecting irony in german soccer tweets). On my M5 Pro with 48GB it took over 30min to decide on just 100 tweets, the thinking definitely takes long. It performed quite below Jev, but above other open decision models I tested (68 correct vs 79 correct for Jev - see [1]). I'm running it for the moderation benchmark as well, but... thm: Ask Jeeves - Only took us 30 years to come full circle.",
-      "fetched_at": "2026-09-29T21:23:58.372851+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49891290",
-      "hn_story_type": "story",
-      "hn_points": "212",
-      "hn_comments_count": "85",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49891290",
-      "hn_item_text": "",
-      "hn_comment_preview": "sharih: What is the point of this, if it is p90 17 seconds? Might as well use an LLM. The beauty of Jev is that it is dirt cheap and insanely fast.\nTN1ck: I just did a run with a benchmark I just used to test other models against. (It's about detecting irony in german soccer tweets). On my M5 Pro with 48GB it took over 30min to decide on just 100 tweets, the thinking definitely takes long. It performed quite below Jev, but above other open decision models I tested (68 correct vs 79 correct for Jev - see [1]). I'm running it for the moderation benchmark as well, but...\nthm: Ask Jeeves - Only took us 30 years to come full circle.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=12,tools_agents=15,strategy_insight=7,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 15,
-        "strategy_insight": 7,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "benchmark"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "github.com"
-      ],
-      "detail_slug": "a40986841c3747cb5a44a3570ec331c218e32278",
-      "is_english_source": true,
-      "sent_at": "2026-09-29T21:26:26.824873+00:00"
-    },
-    {
-      "id": "fcb12700197a19e116286dba23d31c59d655101e",
-      "title_hash": "843d8254e539b09146aa75e99f8109d1a7951211",
-      "source": "TechCrunch",
-      "title": "Oura shelves its $2.2B IPO, citing ‘uncertainty’ in the market",
-      "link": "https://techcrunch.com/2026/09/29/oura-shelves-its-2-2b-ipo-citing-uncertainty-in-the-market/",
-      "published_at": "2026-09-29T14:56:55+00:00",
-      "summary": "The postponement of the IPO will delay some of the company's plans for its proceeds from the IPO, as well as those of its shareholders.",
-      "fetched_at": "2026-09-29T21:23:58.372851+00:00",
-      "source_priority_boost": "6",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "27",
-      "priority_signal": "slot=industry_business,boost=6,slot_score=21,practical_tech=-4,tools_agents=-4,strategy_insight=0,industry_business=21",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": -4,
-        "strategy_insight": 0,
-        "industry_business": 21
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "ipo"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 21,
-          "strong_hits": [
-            "ipo"
-          ],
-          "support_hits": [
-            "company",
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "market + share"
-          ],
-          "domain_hits": [
-            "techcrunch.com"
-          ]
-        }
-      },
-      "matched_terms": [
-        "ipo",
-        "company",
-        "market",
-        "market + share",
-        "techcrunch.com"
-      ],
-      "detail_slug": "fcb12700197a19e116286dba23d31c59d655101e",
-      "is_english_source": true,
-      "sent_at": "2026-09-29T21:26:26.824873+00:00"
-    },
-    {
-      "id": "561ea138ce7b659704c4a64c2343d56516124a0b",
-      "title_hash": "cfff0fe67a1d8b61c4dd3ff495f7c5de56d99db0",
-      "source": "GeekNews",
-      "title": "Show GN: Blyck Video Understanding - Claude·Codex가 영상을 시각 근거와 함께 분석·검색하게 해주는 MCP",
-      "link": "https://news.hada.io/topic?id=34498",
-      "published_at": "2026-09-29T17:05:19+00:00",
-      "summary": "직접 만든 영상 분석 MCP 서버를 소개합니다. 무엇인가요 Claude Desktop, Claude Code, Codex, ChatGPT Desktop에 연결하는 영상 분석 도구(MCP 서버 + 스킬)입니다. 공개 YouTube 링크나 직접 올린 영상 파일을 분석해서 결과를 시간순 타임라인 으로 계정에 저장하",
-      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "75",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=0,tools_agents=30,strategy_insight=3,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 30,
-        "strategy_insight": 3,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 30,
-          "strong_hits": [
-            "claude code",
-            "codex",
-            "mcp",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "codex",
-        "mcp",
-        "ide",
-        "claude + code"
-      ],
-      "detail_slug": "561ea138ce7b659704c4a64c2343d56516124a0b",
-      "is_english_source": false,
-      "sent_at": "2026-09-29T17:14:02.574099+00:00"
-    },
-    {
-      "id": "6d2658411cb382c1a3efb7d3f71a3296daff6015",
-      "title_hash": "f859685ab5f31122565f88df38976b72747aa260",
-      "source": "GeekNews",
-      "title": "Jeeves - 추론으로 Jev 계열 의사결정 모델 개선하기",
-      "link": "https://news.hada.io/topic?id=34496",
-      "published_at": "2026-09-29T16:40:54+00:00",
-      "summary": "Jeeves 는 Qwen3.5-9B에 LoRA와 포인터 헤드를 결합하고, SFT와 CISPO로 판단 전에 추론하도록 학습한 의사결정 분류 모델임 추론 사용 시 테스트 종합 정확도 0.889 , JevBench 공개 문항 정확도 0.935를 기록함. 다만 JevBench 이외의 Kev/Jev 비교는 같은 데이터 ...",
-      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "6d2658411cb382c1a3efb7d3f71a3296daff6015",
-      "is_english_source": false,
-      "sent_at": "2026-09-29T17:14:02.574099+00:00"
-    },
-    {
-      "id": "5a65faa52df184fa3af025f39a01b2c517d12641",
-      "title_hash": "9c85caf4ea628996d891f1a8c093835188e9559f",
-      "source": "GeekNews",
-      "title": "델리는 어떻게 전력 손실을 50%에서 5%로 줄였나",
-      "link": "https://news.hada.io/topic?id=34493",
-      "published_at": "2026-09-29T15:37:21+00:00",
-      "summary": "델리는 설비 손실, 전력 절도, 요금 미납을 함께 줄이는 개혁 으로 전력 손실률을 2002년 50% 이상에서 2026년 5~6%로 낮추고, 전력 공급 신뢰도 지표를 약 70%에서 99.9% 이상으로 높임 전력산업 구조 개편과 책임 강화 가 기술 투자의 기반이 됨. 배전 사업을 민간...",
-      "fetched_at": "2026-09-29T17:09:37.305263+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "52",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=0,strategy_insight=4,industry_business=7",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": 4,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "투자"
-          ],
-          "support_hits": [
-            "산업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "투자",
-        "산업"
-      ],
-      "detail_slug": "5a65faa52df184fa3af025f39a01b2c517d12641",
-      "is_english_source": false,
-      "sent_at": "2026-09-29T17:14:02.574099+00:00"
     }
   ],
   "topic_digests": {
