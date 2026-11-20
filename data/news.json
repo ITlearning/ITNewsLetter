@@ -1,6 +1,563 @@
 {
   "items": [
     {
+      "id": "dfcf2bc9d9ba94021bd5939e909f156058f0a7e0",
+      "title_hash": "368a695e838b808887711d0001bb8dfc997e6526",
+      "source": "GeekNews",
+      "title": "Postgres 19 REPACK: 더 빠른 내장 테이블 비대화 정리",
+      "link": "https://news.hada.io/topic?id=37536&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-20T17:52:44+00:00",
+      "summary": "Postgres 19는 확장 없이 테이블을 재구축하는 REPACK SQL 명령을 추가함. CONCURRENTLY 를 사용하면 대부분의 작업 동안 읽기와 쓰기를 유지하며, 마지막 파일 교체 시에만 짧게 잠금을 획득함 일반 VACUUM 이 죽은 튜플의 공간을 내부 재사용 가능 상태로 만드는 것과 달리, REPACK은 테이블을 다시 작성해 디스크 공간을 OS에 반환 함 온라인 재구축은 트리거 대신 WAL 기반 논리 디코딩 으로 동시 변경을 반영함. 테스트에서는 VACUUM FULL보다 오래 걸렸지만, 전체 작업 동안 테이블을 잠그지 않는 이점이 있음 USING INDEX 로 행을 인덱 …",
+      "fetched_at": "2026-11-20T18:11:43.100558+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=15,practical_tech=15,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "postgres",
+            "index",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "postgres",
+        "index",
+        "sql"
+      ],
+      "detail_slug": "dfcf2bc9d9ba94021bd5939e909f156058f0a7e0",
+      "is_english_source": false,
+      "sent_at": "2026-11-20T18:12:29.187710+00:00"
+    },
+    {
+      "id": "2e643eb53353cebf38d1e683427b0f47a86ade23",
+      "title_hash": "3fac3ef0d6b22afdd3e28e527f6a01b7d2a91ce1",
+      "source": "GeekNews",
+      "title": "Signal은 사용자의 프라이버시 보호에 진지함",
+      "link": "https://news.hada.io/topic?id=37530&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-20T16:37:14+00:00",
+      "summary": "Signal 이 모바일 운영체제에 내장된 AI 에이전트의 대화 데이터 수집을 막기 위해, iOS 27과 AI 비서의 화면 접근을 감지할 수 있는 Android 환경에 스크린샷 차단 조치를 적용함 운영체제의 화면 읽기 기반 AI 기능 은 Signal 데이터를 수집해 로컬 데이터베이스나 원격 서버에서 활용할 수 있으며, 수집 이후에는 Signal이 통제하거나 대화 참여자의 프라이버시를 독립적으로 보장할 수 없음 스크린샷 차단은 불완전한 방어책 으로, 파일시스템을 통한 데이터 접근까지 막지는 못하며 사용자가 보호를 해제하면 자신과 대화 상대의 콘텐츠가 AI에 노출될 수 있음 …",
+      "fetched_at": "2026-11-20T18:11:43.100558+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "signal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "2e643eb53353cebf38d1e683427b0f47a86ade23",
+      "is_english_source": false,
+      "sent_at": "2026-11-20T18:12:29.187710+00:00"
+    },
+    {
+      "id": "dfc627cba6114f69cdffa2bae78abecf2efdf39d",
+      "title_hash": "89cd75476713c7bac261d1ba3bc52ffc3e033a50",
+      "source": "GeekNews",
+      "title": "코드 작성을 멈추면 코드 리뷰 실력도 떨어진다",
+      "link": "https://news.hada.io/topic?id=37534&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-20T17:46:44+00:00",
+      "summary": "코드를 직접 쓰지 않고 지시와 리뷰만으로 전문성을 유지하거나 높이기는 어려우며, 직접 연습하는 과정 이 개발 역량 유지와 향상에 필요함 쟁점은 AI가 만든 코드의 단기적인 품질 이 아니라, 직접 작업하는 개발자와 그렇지 않은 개발자의 숙련도 변화 에 있음 소프트웨어 엔지니어링이 코드 작성보다 넓은 활동이더라도, 코드의 작동 방식과 좋은 코드의 특성, 변경하기 쉬운 구조를 이해하려면 Claude가 만든 코드를 리뷰하는 것만으로는 부족함 코드에 직접 관여하는 정도는 달라질 수 있지만, 모든 엔지니어에게 문제 해결 연습 은 필 …",
+      "fetched_at": "2026-11-20T18:11:43.100558+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "코드 리뷰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "코드 리뷰"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "코드 리뷰"
+      ],
+      "detail_slug": "dfc627cba6114f69cdffa2bae78abecf2efdf39d",
+      "is_english_source": false,
+      "sent_at": "2026-11-20T18:12:29.187710+00:00"
+    },
+    {
+      "id": "63e8196e4777dc3009cacf4bdf5905d287a9e541",
+      "title_hash": "d9a8599eb7bd8f76d70f9ac254ca7230575d3825",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "PostgreSQL 19: A hands-on tour with runnable browser examples",
+      "link": "https://certuvia.com/blog/postgres-19",
+      "published_at": "2026-11-20T17:08:56+00:00",
+      "summary": "HN story type: story HN points: 13 HN comments: 1",
+      "fetched_at": "2026-11-20T18:11:43.100558+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50578117",
+      "hn_story_type": "story",
+      "hn_points": "13",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50578117",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "postgres",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "postgres",
+        "sql"
+      ],
+      "detail_slug": "63e8196e4777dc3009cacf4bdf5905d287a9e541",
+      "is_english_source": true,
+      "sent_at": "2026-11-20T18:12:29.187710+00:00"
+    },
+    {
+      "id": "c891e8120a259c75a1cafc6db5a3148af67110bf",
+      "title_hash": "6c0cef8c9196b7ff46f60791f662a4a58a6e8d36",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+      "link": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+      "published_at": "2026-11-20T09:43:19+00:00",
+      "summary": "HN story type: story HN points: 467 HN comments: 243 HN top comments: seanhunter: I think this idea is often misunderstood and used as an excuse by people who don’t want to make any effort to understand a complex concept and want to blame the results of their laziness on the explanation or the explainer. There are things where you may be given an explanation in simple terms, but the concept requires effort on the part of the recipient of the explanation to really understand. I’ll give an exampl... mr_mitm: The article is just a bunch of quotes from Richard Feynman and John Gruber. There is little insight and I even think the article is misrepresenting the quotes. Feynman said \"if you can't explain it on a freshmen level \". Leaving out that qualifier distorts the statement. The other quote about the magnets is also overly reductive. Saying \"I don't understand it in terms you're more familiar with\" is not an admission... riazrizvi: Also understanding comes in different forms. You can understand something conceptually, in which case you can re-express it with alternate, more familiar metaphors, like LLMs are trained to do. But you can also understand something via aligned embodied execution. Like you understand how to balance on a bicycle, where you're not aware of your hip movements but you do them. Ppl diminish things when they have a narro...",
+      "fetched_at": "2026-11-20T18:11:43.100558+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50572355",
+      "hn_story_type": "story",
+      "hn_points": "467",
+      "hn_comments_count": "243",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50572355",
+      "hn_item_text": "",
+      "hn_comment_preview": "seanhunter: I think this idea is often misunderstood and used as an excuse by people who don’t want to make any effort to understand a complex concept and want to blame the results of their laziness on the explanation or the explainer. There are things where you may be given an explanation in simple terms, but the concept requires effort on the part of the recipient of the explanation to really understand. I’ll give an exampl...\nmr_mitm: The article is just a bunch of quotes from Richard Feynman and John Gruber. There is little insight and I even think the article is misrepresenting the quotes. Feynman said \"if you can't explain it on a freshmen level \". Leaving out that qualifier distorts the statement. The other quote about the magnets is also overly reductive. Saying \"I don't understand it in terms you're more familiar with\" is not an admission...\nriazrizvi: Also understanding comes in different forms. You can understand something conceptually, in which case you can re-express it with alternate, more familiar metaphors, like LLMs are trained to do. But you can also understand something via aligned embodied execution. Like you understand how to balance on a bicycle, where you'...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=6,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm"
+      ],
+      "detail_slug": "c891e8120a259c75a1cafc6db5a3148af67110bf",
+      "is_english_source": true,
+      "sent_at": "2026-11-20T18:12:29.187710+00:00"
+    },
+    {
+      "id": "916beffeff63fb4918ecf8f153d24a51430ce29a",
+      "title_hash": "f4955d7a8f538f44af8bcb89be4d6bb9ed323e1b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "I'll never buy Framework hardware again",
+      "link": "https://poolp.org/posts/2026-11-20/ill-never-buy-framework-hardware-again/",
+      "published_at": "2026-11-20T16:06:30+00:00",
+      "summary": "HN story type: story HN points: 498 HN comments: 324 HN top comments: rpdillon: I've stayed pretty quiet about this, but as an early and enthusiastic Framework supporter, I cannot recommend them to anyone. I bought the Framework 13 before launch, and received a machine from the first batch. I later bought their main board upgrade kit and their screen upgrade kit and I did a full upgrade on the machine and rebuilt it. The reason I could justify that was that I would take the old main board and... nrp: I’m digging into this with the team, along with comments in this post. Longevity has to include a streamlined and effective support experience in addition to the hardware being repairable. There are several changes we made earlier this year to drastically shorten the number of back-and-forths to issuing replacement parts when submitting a support request, and we’re working to streamline that further. We’re also im... quantum5: Three months ago, we had https://news.ycombinator.com/item?id=49345220 . Framework bricked my laptop with a recommended BIOS update and said it wasn't their problem because warranty ended, and that I had to buy a whole new motherboard from their store. This feels like the same treatment. I had to figure out how to fix it myself without any help from Framework. After it got to the front page of HN, Framework promis...",
+      "fetched_at": "2026-11-20T18:11:43.100558+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50576855",
+      "hn_story_type": "story",
+      "hn_points": "498",
+      "hn_comments_count": "324",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50576855",
+      "hn_item_text": "",
+      "hn_comment_preview": "rpdillon: I've stayed pretty quiet about this, but as an early and enthusiastic Framework supporter, I cannot recommend them to anyone. I bought the Framework 13 before launch, and received a machine from the first batch. I later bought their main board upgrade kit and their screen upgrade kit and I did a full upgrade on the machine and rebuilt it. The reason I could justify that was that I would take the old main board and...\nnrp: I’m digging into this with the team, along with comments in this post. Longevity has to include a streamlined and effective support experience in addition to the hardware being repairable. There are several changes we made earlier this year to drastically shorten the number of back-and-forths to issuing replacement parts when submitting a support request, and we’re working to streamline that further. We’re also im...\nquantum5: Three months ago, we had https://news.ycombinator.com/item?id=49345220 . Framework bricked my laptop with a recommended BIOS update and said it wasn't their problem because warranty ended, and that I had to buy a whole new motherboard from their store. This feels like the same treatment. I had to figure out how to fix it myself...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=2,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "framework"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "launch"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "framework",
+        "how to"
+      ],
+      "detail_slug": "916beffeff63fb4918ecf8f153d24a51430ce29a",
+      "is_english_source": true,
+      "sent_at": "2026-11-20T18:12:29.187710+00:00"
+    },
+    {
+      "id": "b66de4a26a80a69091fbdd276d207d82e0912570",
+      "title_hash": "555e08a32514bee9cf372a61e9d21fd7987011ee",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "What people are building, discovered through new domains",
+      "link": "https://startups.novumsignals.com/",
+      "published_at": "2026-11-20T09:54:33+00:00",
+      "summary": "HN story type: story HN points: 128 HN comments: 61 HN top comments: xpct: Isn't it the first principle of a product's landing page to say what it solves? Almost none of these do.. EagleEdge: What Hacker News has been building since 2009? I have compiled 23,935 answers to “What are you working on?” from 14,897 people on https://stillworkingonit.vercel.app/ bloopernova: I wouldn't want to be GitHub's DevOps team right now. The explosion in usage must be nigh-overwhelming.",
+      "fetched_at": "2026-11-20T18:11:43.100558+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50572448",
+      "hn_story_type": "story",
+      "hn_points": "128",
+      "hn_comments_count": "61",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50572448",
+      "hn_item_text": "",
+      "hn_comment_preview": "xpct: Isn't it the first principle of a product's landing page to say what it solves? Almost none of these do..\nEagleEdge: What Hacker News has been building since 2009? I have compiled 23,935 answers to “What are you working on?” from 14,897 people on https://stillworkingonit.vercel.app/\nbloopernova: I wouldn't want to be GitHub's DevOps team right now. The explosion in usage must be nigh-overwhelming.",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=4,tools_agents=2,strategy_insight=7,industry_business=7",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 7,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "signal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "startup"
+          ],
+          "support_hits": [
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "signal"
+      ],
+      "detail_slug": "b66de4a26a80a69091fbdd276d207d82e0912570",
+      "is_english_source": true,
+      "sent_at": "2026-11-20T18:12:29.187710+00:00"
+    },
+    {
       "id": "7193e52324d6f88045fd94cffdcbcbe01877d1b3",
       "title_hash": "71d73a1039833435071426acb8bc3e81e3396edd",
       "source": "GeekNews",
@@ -165454,596 +166011,6 @@
       "detail_slug": "9919f8b04e476e6703ac6a6ea4d7a3fdceee9af4",
       "is_english_source": true,
       "sent_at": "2026-10-01T06:47:43.289399+00:00"
-    },
-    {
-      "id": "86b3230e6e901b62940612331393b7b8d33a3715",
-      "title_hash": "41a86bc44b7d7842c6c9f7407e18c0664d44f80d",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Fuck Android Developer Verification Program",
-      "link": "https://twitter.com/0xcrypto/status/2105515822643114182",
-      "published_at": "2026-10-01T04:32:38+00:00",
-      "summary": "HN story type: story HN points: 90 HN comments: 18 HN top comments: bramhaag: My account got closed for inactivity while I had multiple apps published. Google does not understand the concept of a finished app apparently, and requires you to continuously push updates or else you permanently lose your account with no way of reopening it. nev3rfail: Yes, fuck it. This is beyond insane, apparently I cant distribute apps just in GitHub \"releases\" section anymore without Google's approval. I hope some EU antimonopoly something will fry their asses. SillyUsername: It gets better, I too had my account closed for inactivity, but I STILL get emails from them I can't stop because I can't log in to change email preferences.",
-      "fetched_at": "2026-10-01T06:44:53.792998+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49917761",
-      "hn_story_type": "story",
-      "hn_points": "90",
-      "hn_comments_count": "18",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49917761",
-      "hn_item_text": "",
-      "hn_comment_preview": "bramhaag: My account got closed for inactivity while I had multiple apps published. Google does not understand the concept of a finished app apparently, and requires you to continuously push updates or else you permanently lose your account with no way of reopening it.\nnev3rfail: Yes, fuck it. This is beyond insane, apparently I cant distribute apps just in GitHub \"releases\" section anymore without Google's approval. I hope some EU antimonopoly something will fry their asses.\nSillyUsername: It gets better, I too had my account closed for inactivity, but I STILL get emails from them I can't stop because I can't log in to change email preferences.",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "29",
-      "priority_signal": "slot=industry_business,boost=24,slot_score=5,practical_tech=4,tools_agents=2,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "release"
-      ],
-      "detail_slug": "86b3230e6e901b62940612331393b7b8d33a3715",
-      "is_english_source": true,
-      "sent_at": "2026-10-01T06:47:43.289399+00:00"
-    },
-    {
-      "id": "c03b63867e7d608c6da5e428a7c147d4f1bc521a",
-      "title_hash": "fb0a503e1a5f17681c854c151b63fc183b40b8f0",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Gemini 4 Argon",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "published_at": "2026-09-30T20:04:37+00:00",
-      "summary": "HN story type: story HN points: 1033 HN comments: 694 HN post text: See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236 HN top comments: taylorfinley: Ten days ago I had an experience with Gemini 3.8 flash that made me wonder if I was being routed to a different model under test. I was trying to use rocm with llama.cpp on my 128gb Strix Halo but could only get it to run Vulkan. I pasted the error message into agy and it proceeded to attach GDB to my GPU driver, reverse-engineer the kernel queue ioctl interface, and author an LD_PRELOAD C shim to get ROCm llama.c... nickysielicki: The important take away here: the leapfrogging we’ve seen this year doesn’t seem to be a temporary thing. The famous theory of Dario Amodei was that AI was this winner-takes-all field where the first team to get a head start would never cede ground back. The term he liked to use was, “concentrating”. This is yet another datapoint that he was wrong about that. AI seems more distributed amongst neoclouds and traditi... babelfish: > We’ll continue to gather feedback from early testers as we iterate on guardrails before making Argon available to developers, enterprises, and consumers as soon as possible. Gemini not beating the \"can't release a model\" allegations",
-      "fetched_at": "2026-10-01T02:34:20.607592+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49913571",
-      "hn_story_type": "story",
-      "hn_points": "1033",
-      "hn_comments_count": "694",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49913571",
-      "hn_item_text": "See also: Gemini 4 Argon (High): Intelligence, Performance and Price Analysis - https://news.ycombinator.com/item?id=49914236",
-      "hn_comment_preview": "taylorfinley: Ten days ago I had an experience with Gemini 3.8 flash that made me wonder if I was being routed to a different model under test. I was trying to use rocm with llama.cpp on my 128gb Strix Halo but could only get it to run Vulkan. I pasted the error message into agy and it proceeded to attach GDB to my GPU driver, reverse-engineer the kernel queue ioctl interface, and author an LD_PRELOAD C shim to get ROCm llama.c...\nnickysielicki: The important take away here: the leapfrogging we’ve seen this year doesn’t seem to be a temporary thing. The famous theory of Dario Amodei was that AI was this winner-takes-all field where the first team to get a head start would never cede ground back. The term he liked to use was, “concentrating”. This is yet another datapoint that he was wrong about that. AI seems more distributed amongst neoclouds and traditi...\nbabelfish: > We’ll continue to gather feedback from early testers as we iterate on guardrails before making Argon available to developers, enterprises, and consumers as soon as possible. Gemini not beating the \"can't release a model\" allegations",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=4,industry_business=10",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 2,
-        "strategy_insight": 4,
-        "industry_business": 10
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "performance",
-            "distributed"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 10,
-          "strong_hits": [
-            "enterprise",
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "distributed"
-      ],
-      "detail_slug": "c03b63867e7d608c6da5e428a7c147d4f1bc521a",
-      "is_english_source": true,
-      "sent_at": "2026-10-01T02:37:03.580947+00:00"
-    },
-    {
-      "id": "360d5b47f093ca55aac01a61ec055206a34d9202",
-      "title_hash": "98b593bf48208c1fa1ccf0870c9c74bcabd7e518",
-      "source": "GeekNews",
-      "title": "Traycer - 여러 코딩 에이전트의 문맥과 협업을 한곳에서 관리",
-      "link": "https://news.hada.io/topic?id=34575",
-      "published_at": "2026-10-01T00:30:02+00:00",
-      "summary": "여러 코딩 에이전트를 병렬로 실행하고 모델과 제공자가 달라도 작업 문맥을 공유 하는 오픈소스 오케스트레이션 앱 Claude Code, Codex, Cursor, OpenCode 등 기존에 사용하는 에이전트와 구독을 연결 하거나 Traycer 자체 추론 서비스를 이용 같은 에이전...",
-      "fetched_at": "2026-10-01T02:34:20.607592+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "75",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=0,tools_agents=30,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 30,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 30,
-          "strong_hits": [
-            "claude code",
-            "cursor",
-            "codex",
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "cursor",
-        "codex",
-        "에이전트",
-        "claude + code"
-      ],
-      "detail_slug": "360d5b47f093ca55aac01a61ec055206a34d9202",
-      "is_english_source": false,
-      "sent_at": "2026-10-01T02:37:03.580947+00:00"
-    },
-    {
-      "id": "cbee905aa5c3ce754f61f684eff1052b9441c208",
-      "title_hash": "a3ff60ba9027cd9ed14ef2dd4f817842ce756c09",
-      "source": "GeekNews",
-      "title": "Anthropic의 IPO 투자설명서에 담긴 AI 비전과 급증하는 비용",
-      "link": "https://news.hada.io/topic?id=34569",
-      "published_at": "2026-09-30T22:38:39+00:00",
-      "summary": "Anthropic의 IPO 투자설명서 에서 빠른 매출 성장과 막대한 비용이 드러남. AI가 산업화·전기·인터넷보다 경제를 크게 바꿀 것이라는 전망 아래 대규모 투자를 추진 중임 2025년 매출은 전년의 12배인 약 46억 달러 로 늘었지만 영업손실은 약 80억 달러였으며, 컴퓨...",
-      "fetched_at": "2026-10-01T02:34:20.607592+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "57",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=12,practical_tech=-8,tools_agents=0,strategy_insight=-1,industry_business=12",
-      "slot_scores": {
-        "practical_tech": -8,
-        "tools_agents": 0,
-        "strategy_insight": -1,
-        "industry_business": 12
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -8,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "ipo",
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 12,
-          "strong_hits": [
-            "ipo",
-            "투자"
-          ],
-          "support_hits": [
-            "산업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ipo",
-        "투자",
-        "산업"
-      ],
-      "detail_slug": "cbee905aa5c3ce754f61f684eff1052b9441c208",
-      "is_english_source": false,
-      "sent_at": "2026-10-01T02:37:03.580947+00:00"
-    },
-    {
-      "id": "a20f5ef8ca096c5ee86f990e5e0f9f2a022093ef",
-      "title_hash": "16b7c2b5c85788d060efa0284a0d46118ee7f0e5",
-      "source": "GeekNews",
-      "title": "Firebase Analytics 오류로 iOS 앱 실행 시 종료 장애 발생, 현재 복구",
-      "link": "https://news.hada.io/topic?id=34570",
-      "published_at": "2026-09-30T22:41:39+00:00",
-      "summary": "Firebase Analytics를 사용하는 iOS 앱에서 실행 직후 종료되는 장애 가 발생함. 앱을 업데이트하지 않았는데도 이미 배포된 여러 버전에서 동시에 문제가 나타남 SDK가 서버에서 받은 형식이 잘못된 응답을 처리하다 예외를 발생 시켰으며, 최초 보고에서는 응답 수...",
-      "fetched_at": "2026-10-01T02:34:20.607592+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "sdk"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "sdk"
-      ],
-      "detail_slug": "a20f5ef8ca096c5ee86f990e5e0f9f2a022093ef",
-      "is_english_source": false,
-      "sent_at": "2026-10-01T02:37:03.580947+00:00"
-    },
-    {
-      "id": "d8deb85fe36a2224e6f9f05439c2f6f83511e0ca",
-      "title_hash": "303ce790124bf5f56dadd2b1091d9d7d235f60fe",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
-      "link": "https://lathoa.ai/en",
-      "published_at": "2026-09-30T14:38:57+00:00",
-      "summary": "HN story type: story HN points: 29 HN comments: 14 HN post text: I made this for kids around 10 to 14. A robot called Errol solves a math problem step by step and one of the steps is wrong. The kid has to find it and say what's wrong with it. Sometimes nothing is wrong, so just saying \"there's a mistake\" every time doesn't work. The user needs to enter an explanation if she finds an error to gain more XP; speed matters also for more points. There is no direct interaction or chatting with an LLM. Lathoa's harness is stable and has many evaluation steps to catch inconsistencies and prompt injections. You can play one on the homepage without signing up. The part that surprised me: it's hard to get an LLM to be wrong on purpose. Half the time it gives you the right answer and calls it wrong, or a \"mistake\" that's actually correct. So every case gets checked before a kid sees it. Where it can, a plain arithmetic check redoes the math exactly. A second model also solves the problem without seeing Errol's work. If anything disagrees, the case is thrown away. The weak spot is that the second model can make the same mistake as the first. The arithmetic check is there for that, but it only works on English cases so far. German and Greek write decimals... HN top comments: lazyasciiart: This is a category of exercise that is used in Khan Academy and in classroom math, yes. https://learningfocused.com/blogs/lesson-planning/unlocking-... __MatrixMan__: Reminds me of LIGO, which injected fake results until the humans got good at handling them, then later announced that one of the results wasn't fake. Seems at first like an upside-down way to discover gravitational waves, but I think it's a pattern worth exploring in more cases. To paraphrase Doctorow: > This is why the TSA are some of the most water-bottle-findingest **ers, but regularly overlook firearms when a... demibabs: Pls get rid of the “critical thinking app (dot) ages 10-14” thing at the top of the hero. It’s one of the most obvious signs a site was generated by an LLM. It also seems like the text on the site (and your post here) is AI-generated, which doesn’t inspire confidence. I’m a fan of the idea behind this, though. Cool project.",
-      "fetched_at": "2026-10-01T02:34:20.607592+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49909648",
-      "hn_story_type": "story",
-      "hn_points": "29",
-      "hn_comments_count": "14",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49909648",
-      "hn_item_text": "I made this for kids around 10 to 14. A robot called Errol solves a math problem step by step and one of the steps is wrong. The kid has to find it and say what's wrong with it. Sometimes nothing is wrong, so just saying \"there's a mistake\" every time doesn't work. The user needs to enter an explanation if she finds an error to gain more XP; speed matters also for more points. There is no direct interaction or chatting with an LLM. Lathoa's harness is stable and has many evaluation steps to catch inconsistencies and prompt injections. You can play one on the homepage without signing up. The part that surprised me: it's hard to get an LLM to be wrong on purpose. Half the time it gives you the right answer and calls it wrong, or a \"mistake\" that's actually correct. So every case gets checked before a kid sees it. Where it can, a plain arithmetic check redoes the math exactly. A second model also solves the problem without seeing Errol's work. If anything disagrees, the case is thrown away. The weak spot is that the second model can make the same mistake as the first. The arithmetic check is there for that, but it only works on English cases so far. German and Greek write decimals...",
-      "hn_comment_preview": "lazyasciiart: This is a category of exercise that is used in Khan Academy and in classroom math, yes. https://learningfocused.com/blogs/lesson-planning/unlocking-...\n__MatrixMan__: Reminds me of LIGO, which injected fake results until the humans got good at handling them, then later announced that one of the results wasn't fake. Seems at first like an upside-down way to discover gravitational waves, but I think it's a pattern worth exploring in more cases. To paraphrase Doctorow: > This is why the TSA are some of the most water-bottle-findingest **ers, but regularly overlook firearms when a...\ndemibabs: Pls get rid of the “critical thinking app (dot) ages 10-14” thing at the top of the hero. It’s one of the most obvious signs a site was generated by an LLM. It also seems like the text on the site (and your post here) is AI-generated, which doesn’t inspire confidence. I’m a fan of the idea behind this, though. Cool project.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=11,tools_agents=14,strategy_insight=9,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 14,
-        "strategy_insight": 9,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "valuation"
-          ],
-          "phrase_hits": [
-            "error + handling"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 14,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "prompt"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "valuation"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "prompt"
-      ],
-      "detail_slug": "d8deb85fe36a2224e6f9f05439c2f6f83511e0ca",
-      "is_english_source": true,
-      "sent_at": "2026-10-01T02:37:03.580947+00:00"
-    },
-    {
-      "id": "afe002b307459ff0e4cafca80a3cb0418909b88c",
-      "title_hash": "b2e9bf743368d7f27afad57ba929e51f2c7bf206",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "10-year Treasury yield climbs above 5.3% to a level not seen in 24 years",
-      "link": "https://www.wsj.com/finance/investing/surging-yields-bring-the-bond-market-back-to-the-turn-of-the-century-2b74773f",
-      "published_at": "2026-10-01T01:40:50+00:00",
-      "summary": "HN story type: story HN points: 53 HN comments: 35 HN top comments: petcat: You want to see what's really bad, a train wreck in slow motion, just look at what France is doing. They've been subject to EU Excessive Deficit Procedures for multiple years, must bring deficit-to-GDP ratio from ~5.8% down to 3% within 3 years despite virtually no GDP growth and complete political and societal paralysis about reducing any public benefit or welfare whatsoever. ECB will most likely get involved aft... hliyan: In a world of continuous population growth, there is some excuse (but not justification) for running governments at deficit, which is essentially a bet that future generations will produce enough to meet their needs and fulfill debt obligations from past generations. When population growth halts, so should deficit spending. Smith himself, in The Wealth of Nations : \"What is prudence in the conduct of every private... GenerWork: The primary issue is Social Security. It’s the biggest driver of spending, and nobody wants to do anything to cap its costs such as means testing or straight up lowering the amount it can pay out. As for the people that will inevitably bleat about how this is just horrible and we need to lift the cap on taxable SS income, that wouldn’t solve the core problem either unless you pair it with spending caps or cuts.",
-      "fetched_at": "2026-10-01T02:34:20.607592+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49916668",
-      "hn_story_type": "story",
-      "hn_points": "53",
-      "hn_comments_count": "35",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49916668",
-      "hn_item_text": "",
-      "hn_comment_preview": "petcat: You want to see what's really bad, a train wreck in slow motion, just look at what France is doing. They've been subject to EU Excessive Deficit Procedures for multiple years, must bring deficit-to-GDP ratio from ~5.8% down to 3% within 3 years despite virtually no GDP growth and complete political and societal paralysis about reducing any public benefit or welfare whatsoever. ECB will most likely get involved aft...\nhliyan: In a world of continuous population growth, there is some excuse (but not justification) for running governments at deficit, which is essentially a bet that future generations will produce enough to meet their needs and fulfill debt obligations from past generations. When population growth halts, so should deficit spending. Smith himself, in The Wealth of Nations : \"What is prudence in the conduct of every private...\nGenerWork: The primary issue is Social Security. It’s the biggest driver of spending, and nobody wants to do anything to cap its costs such as means testing or straight up lowering the amount it can pay out. As for the people that will inevitably bleat about how this is just horrible and we need to lift the cap on taxable SS income, that...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "35",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=3,strategy_insight=10,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 3,
-        "strategy_insight": 10,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "security"
-          ],
-          "support_hits": [
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 3,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "future + work"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "testing"
-      ],
-      "detail_slug": "afe002b307459ff0e4cafca80a3cb0418909b88c",
-      "is_english_source": true,
-      "sent_at": "2026-10-01T02:37:03.580947+00:00"
     }
   ],
   "topic_digests": {
