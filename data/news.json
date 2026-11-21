@@ -1,6 +1,506 @@
 {
   "items": [
     {
+      "id": "b8241d21cc383895d742c8bea6c9c589cd3a1632",
+      "title_hash": "fc310be404c5607bfe766c2f76d6a629c51f0ea5",
+      "source": "GeekNews",
+      "title": "Show GN: codemap-search - 코딩 에이전트용 단일 바이너리 Rust 코드 탐색 MCP 서버",
+      "link": "https://news.hada.io/topic?id=37568&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-21T09:36:47+00:00",
+      "summary": "codemap-search는 Claude Code나 Codex 같은 코딩 에이전트에서 로컬 저장소를 탐색할 때 쓰는 단일 바이너리 Rust MCP 서버입니다. 직접 만들어 오픈소스로 공개했고, 별도 런타임이나 DB 없이 설치해 바로 붙일 수 있습니다. 처음에는 Serena를 계기로 코드 탐색 MCP에 관심이 생겼는데, 기존 도구들과 비교해 보니 환경에 따라 탐색 효율이 꽤 갈렸습니다. Codex처럼 셸에서 rg를 조합할 때는 어느 정도 버티지만, 셸 없이 read/find/grep 위주로 도는 환경에서는 호출 횟수가 늘고 출력 상한에 걸리면서 중간 경로를 놓치는 경우가 많았습니다. 그렇다고 LSP나 무거운 그래프 DB를 올리면 색인 부담이 커져서, Tree-sitter와 Tantivy BM25, 호출 관계 추적에 read/find/grep까지 하나로 묶어 중간 지점을 맞춰 봤습니다. Grafana(약 2.4만 파일)에서 rg 기준군과 오픈소스 MCP 4종(Graphify, zvec-grep, codebase-memory-mcp, CodeGraph)을 세 환경에서 비교해 봤습니다. Serena는 색인에만 30분 넘게 걸려 뺐고, 단일 저장소·단일 모델·3문항 기준이라 한계는 있습니다. 토큰은 5개 MCP 다 rg 기준군보다 더 썼습니다. 대신 정확도에서는 codemap-search가 세 환경 모두 가장 높았고(96~98/108 vs rg 86~89/108), 기본 도구로 빠지거나 출력 상한에 잘리거나 테스트·생성 파일을 인용하는 일이 없었습니다(테스트·생성 파일 제외·포함은 설정에서 관리할 수 있습니다). Grafana 색인은 13~16초, 디스크 약 137MB 수준입니다. …",
+      "fetched_at": "2026-11-21T10:31:44.477220+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "75",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=7,tools_agents=30,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 30,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 30,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트",
+            "mcp"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "mcp",
+        "claude + code"
+      ],
+      "detail_slug": "b8241d21cc383895d742c8bea6c9c589cd3a1632",
+      "is_english_source": false,
+      "sent_at": "2026-11-21T10:32:28.444836+00:00"
+    },
+    {
+      "id": "750ee83e6ce0593ff1a4a0e6d2c8e1561a573532",
+      "title_hash": "d14f69a74d5cb52ac7f68d12e3739b7b88812209",
+      "source": "GeekNews",
+      "title": "Vim Classic 8.3.1 출시, Python 2 지원 제거 및 Vim 패치 반영",
+      "link": "https://news.hada.io/topic?id=37566&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-21T09:01:01+00:00",
+      "summary": "안정성과 장기 지원(LTS) 을 지향하는 Vim 포크, Vim Classic의 두 번째 릴리스 8.3.1 이 출시됨 Vim 8.2.3237까지의 적용 가능한 패치 를 반영해 다수의 버그 수정, 소규모 기능 추가, Vim 플러그인 호환성 개선을 포함함 이번 릴리스부터 Python 2 지원을 제거 함 Vim Classic은 생성형 AI 도구의 도움 없이 유지보수되는 프로젝트임 SourceHut 에서 릴리스 압축 파일과 서명을 내려받을 수 있으며, 공개된 PGP 키 로 서명을 검증할 수 있음 릴리스 성격과 주요 변경 Vim Classic 8.3.1 은 널리 쓰이는 텍스트 편집기 Vim의 안정적인 장기 지 …",
+      "fetched_at": "2026-11-21T10:31:44.477220+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "출시"
+      ],
+      "detail_slug": "750ee83e6ce0593ff1a4a0e6d2c8e1561a573532",
+      "is_english_source": false,
+      "sent_at": "2026-11-21T10:32:28.444836+00:00"
+    },
+    {
+      "id": "6a6db6893bb0deaefe52c47f710f7b3210418559",
+      "title_hash": "0924acf923964e18950651d0ea496e65a00187fb",
+      "source": "GeekNews",
+      "title": "DreamCoder: Mastering Emacs 저자가 만든 코딩 하네스와 IDE",
+      "link": "https://news.hada.io/topic?id=37564&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-21T07:39:07+00:00",
+      "summary": "DreamCoder 는 15개월간 개발과 베타 테스트를 거쳐 공개된 AI 코딩 하네스로, 브라우저에서 타일링 창 관리자와 대화창, 터미널을 함께 제공함 사람 중심 인터페이스 에 초점을 맞춰 창 크기를 자동 조정하고, 여러 작업 공간에서 실행 중인 AI의 진행 상태와 사용자 개입 필요 여부를 미니맵으로 보여줌 백그라운드 서브 에이전트, MCP , 스킬, 훅을 지원하며, Emacs에서 영감을 받은 키보드 조작과 마우스 사용을 모두 수용함 오픈 웨이트 로컬 모델 을 중요하게 다루며, Pi, OpenCode, Codex 설정을 가져와 모델 구성을 옮길 수 있음 개발 …",
+      "fetched_at": "2026-11-21T10:31:44.477220+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "69",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=24,practical_tech=0,tools_agents=24,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 24,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 24,
+          "strong_hits": [
+            "codex",
+            "에이전트",
+            "mcp",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "codex",
+        "에이전트",
+        "mcp",
+        "ide"
+      ],
+      "detail_slug": "6a6db6893bb0deaefe52c47f710f7b3210418559",
+      "is_english_source": false,
+      "sent_at": "2026-11-21T10:32:28.444836+00:00"
+    },
+    {
+      "id": "b95b0d7b20524f10fa201f9ba01364e9b52fd6c5",
+      "title_hash": "2154ded5f4f6556fc140eadf35f5bf59026be5e3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "link": "http://ricapar.net/ClawDOS/",
+      "published_at": "2026-11-21T05:38:01+00:00",
+      "summary": "HN story type: story HN points: 66 HN comments: 21 HN top comments: linzhangrun: Seriously speaking, I feel the market is sorely lacking an Agent for the large number of existing devices running WinXP, Win7, and the like. Not for developing on them, but for all kinds of debugging work it would be very useful; nowadays I'm used to just directing an Agent for everything. Tiberium: It feels very cute and mischievous to start agents in unusual environments (DOS, Linux running on a feature phone, Windows 95, etc) and see how they react :) netnchen: I have to say this is really creative to try create a coding agent on DOS!",
+      "fetched_at": "2026-11-21T10:31:44.477220+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50586292",
+      "hn_story_type": "story",
+      "hn_points": "66",
+      "hn_comments_count": "21",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50586292",
+      "hn_item_text": "",
+      "hn_comment_preview": "linzhangrun: Seriously speaking, I feel the market is sorely lacking an Agent for the large number of existing devices running WinXP, Win7, and the like. Not for developing on them, but for all kinds of debugging work it would be very useful; nowadays I'm used to just directing an Agent for everything.\nTiberium: It feels very cute and mischievous to start agents in unusual environments (DOS, Linux running on a feature phone, Windows 95, etc) and see how they react :)\nnetnchen: I have to say this is really creative to try create a coding agent on DOS!",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "37",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=6,tools_agents=13,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 13,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "debugging"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 13,
+          "strong_hits": [
+            "coding agent"
+          ],
+          "support_hits": [
+            "ai coding",
+            "agent"
+          ],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding agent",
+        "ai coding",
+        "agent",
+        "ai + coding"
+      ],
+      "detail_slug": "b95b0d7b20524f10fa201f9ba01364e9b52fd6c5",
+      "is_english_source": true,
+      "sent_at": "2026-11-21T10:32:28.444836+00:00"
+    },
+    {
+      "id": "d24b8007e89c2837f51ce24f7fc1c61e178ac892",
+      "title_hash": "d6499d10d6a7896f5cca9aa8cab4a455dae08cb3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Catching Crumbs from the Table [pdf]",
+      "link": "https://gwern.net/doc/fiction/science-fiction/2000-chiang.pdf",
+      "published_at": "2026-11-20T23:52:54+00:00",
+      "summary": "HN story type: story HN points: 13 HN comments: 1 HN top comments: gchamonlive: what is the role of human scientists in an age when the frontiers of scientific inquiry have moved beyond the comprehensibility of humans? AI is yet to leave the domain of human comprehensibility, but it sure is giving lots for mathematician to work on and feel frustrated about making sense of the latest breakthrough synthesized by AI, yet to be confirmed. So this short story is very much related.",
+      "fetched_at": "2026-11-21T10:31:44.477220+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50584082",
+      "hn_story_type": "story",
+      "hn_points": "13",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50584082",
+      "hn_item_text": "",
+      "hn_comment_preview": "gchamonlive: what is the role of human scientists in an age when the frontiers of scientific inquiry have moved beyond the comprehensibility of humans? AI is yet to leave the domain of human comprehensibility, but it sure is giving lots for mathematician to work on and feel frustrated about making sense of the latest breakthrough synthesized by AI, yet to be confirmed. So this short story is very much related.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust"
+      ],
+      "detail_slug": "d24b8007e89c2837f51ce24f7fc1c61e178ac892",
+      "is_english_source": true,
+      "sent_at": "2026-11-21T10:32:28.444836+00:00"
+    },
+    {
+      "id": "b833675c55140c09736e5671cefeb19a7a3e8322",
+      "title_hash": "4d6d94b856c2b427eb1bb008d8284202e12d48c3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Fewer slides, more dragons",
+      "link": "https://www.breakingchange.blog/p/fewer-slides-more-dragons",
+      "published_at": "2026-11-19T05:46:36+00:00",
+      "summary": "HN story type: story HN points: 34 HN comments: 11 HN top comments: bobbyraduloff: If my manager were to use this, I'd be genuinely concerned about the direction they're setting. It speaks to a lack of focus and inability to prioritize the important parts of a problem. I'd make me wonder what the decision making process was like for everything else and if things were picked because they're flashy and cool or because of their intrinsic value... giladd: Comments here say that these colorful techniques for info presentation are not needed when your audience is professional and already knows the context of the discussed topic. While true, many organizations don't have that, certainly not for all members at all levels! Sometimes taking a marketing approach for passing information or ideas is the right call. Not all colleges are engaged, knowledgeable or even decent... Purplish5583: I have been making presentations with AI and it has been fun. I can explain and animated way better. Markdown, Pandoc, Revel.js. And animated svg.",
+      "fetched_at": "2026-11-21T10:31:44.477220+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50556482",
+      "hn_story_type": "story",
+      "hn_points": "34",
+      "hn_comments_count": "11",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50556482",
+      "hn_item_text": "",
+      "hn_comment_preview": "bobbyraduloff: If my manager were to use this, I'd be genuinely concerned about the direction they're setting. It speaks to a lack of focus and inability to prioritize the important parts of a problem. I'd make me wonder what the decision making process was like for everything else and if things were picked because they're flashy and cool or because of their intrinsic value...\ngiladd: Comments here say that these colorful techniques for info presentation are not needed when your audience is professional and already knows the context of the discussed topic. While true, many organizations don't have that, certainly not for all members at all levels! Sometimes taking a marketing approach for passing information or ideas is the right call. Not all colleges are engaged, knowledgeable or even decent...\nPurplish5583: I have been making presentations with AI and it has been fun. I can explain and animated way better. Markdown, Pandoc, Revel.js. And animated svg.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=3,strategy_insight=7,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 3,
+        "strategy_insight": 7,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 3,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rag"
+      ],
+      "detail_slug": "b833675c55140c09736e5671cefeb19a7a3e8322",
+      "is_english_source": true,
+      "sent_at": "2026-11-21T10:32:28.444836+00:00"
+    },
+    {
       "id": "1139df2672d2b234515b2b32798c061c9432f66a",
       "title_hash": "3cfaadba4a947ca84aeaea3154ed22c1adf1b913",
       "source": "GeekNews",
@@ -165516,545 +166016,6 @@
       "detail_slug": "9e941f5b1f1da18fd5334ec7a38abccd1c625af9",
       "is_english_source": true,
       "sent_at": "2026-10-01T23:28:40.635268+00:00"
-    },
-    {
-      "id": "958fb3534a4d120220215535a56f08a0f49262b1",
-      "title_hash": "5ccb5ce2a492079394e15dafa1e9a29573a66f5b",
-      "source": "GeekNews",
-      "title": "Clef - 오픈소스 의사결정 모델과 새로운 RL 파인튜닝 플랫폼",
-      "link": "https://news.hada.io/topic?id=34621",
-      "published_at": "2026-10-01T18:49:49+00:00",
-      "summary": "Cloudflare가 Clef와 Clef-flash 를 Workers AI에 출시하고 Apache 2.0 라이선스로 공개함. 자유로운 텍스트 생성 대신, 입력과 질문에 대해 타입이 정해진 답과 확률을 반환해 에이전트의 분류와 행동 결정을 지원함 이미지 입력과 64k 컨텍스트 를 지원하며 Jev AP...",
-      "fetched_at": "2026-10-01T19:16:00.107983+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "958fb3534a4d120220215535a56f08a0f49262b1",
-      "is_english_source": false,
-      "sent_at": "2026-10-01T19:18:34.991126+00:00"
-    },
-    {
-      "id": "1173302570376bcce256e84002068eecb8cd6bfb",
-      "title_hash": "6f21522bf197b2f1b02dceae3db981c3897b5163",
-      "source": "GeekNews",
-      "title": "버그 찾기",
-      "link": "https://news.hada.io/topic?id=34618",
-      "published_at": "2026-10-01T18:03:28+00:00",
-      "summary": "Rust regex 와 regex_lite 의 결과를 비교하는 퍼저 로 구버전의 알려진 버그와 또 다른 버그를 발견함. 최신 버전에서는 버그를 찾지 못함 알고리듬 테스트에서는 정답을 판별할 오라클(oracle) 과 결과를 대조하는 것이 중요하며, 신뢰성...",
-      "fetched_at": "2026-10-01T19:16:00.107983+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=5,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "신뢰"
-      ],
-      "detail_slug": "1173302570376bcce256e84002068eecb8cd6bfb",
-      "is_english_source": false,
-      "sent_at": "2026-10-01T19:18:34.991126+00:00"
-    },
-    {
-      "id": "850138c0ce6c77520d68da3fde6dc2a3fb5f6b89",
-      "title_hash": "dce0bd838d8ce0a8eb178561b5f56636201e7f9b",
-      "source": "GeekNews",
-      "title": "휴가에서 돌아오나요? 미국 정부는 영장 없이 휴대전화를 수색할 수 있음",
-      "link": "https://news.hada.io/topic?id=34606",
-      "published_at": "2026-10-01T14:36:41+00:00",
-      "summary": "이민자 권익 활동가 Thomas Kennedy 가 미국 재입국 과정에서 국경 요원이 휴대전화 데이터를 복사했다고 의심하며, 해당 데이터 삭제를 요구하는 소송을 연방정부에 제기함 소장에 따르면 요원은 휴대전화를 넘기지 않으면 심문이 길어지고 기기를 무기한 보관할 수 있다고 압박했으...",
-      "fetched_at": "2026-10-01T19:16:00.107983+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=0,strategy_insight=3,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": 3,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "소송"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "소송"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "소송"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "소송"
-      ],
-      "detail_slug": "850138c0ce6c77520d68da3fde6dc2a3fb5f6b89",
-      "is_english_source": false,
-      "sent_at": "2026-10-01T19:18:34.991126+00:00"
-    },
-    {
-      "id": "a10c72dcb15694302b4dceea0396e892b552d370",
-      "title_hash": "c6812ef353804e8f3de2a1d6308252326a7ea627",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Ask HN: Who is hiring? (October 2026)",
-      "link": "https://news.ycombinator.com/item?id=49922569",
-      "published_at": "2026-10-01T15:02:07+00:00",
-      "summary": "HN story type: story HN points: 84 HN comments: 80 HN post text: Please state the location and include REMOTE for remote work, REMOTE (US) or similar if the country is restricted, and ONSITE when remote work is not an option. Please only post if you personally are part of the hiring company—no recruiting firms or job boards. One post per company. If it isn't a household name, explain what your company does. Please only post if you are actively filling a position and are committed to replying to applicants. Commenters: please don't reply to job posts to complain about something. It's off topic here. Readers: please only email if you are personally interested in the job. Searchers: try https://hnwork.app , https://nthesis.ai/public/hn-who-is-hiring , https://dheerajck.github.io/hnwhoishiring/ , http://nchelluri.github.io/hnjobs/ , https://hnjobs.emilburzo.com . Don't miss this other fine thread: Who wants to be hired? https://news.ycombinator.com/item?id=49922568 HN top comments: paddy_m: Location: Boston, MA Remote: Yes (preferred) Willing to relocate: No Technologies: Python, TypeScript, Rust, SQL | pandas, polars, Arrow, DuckDB/DataFusion, Parquet, PostgreSQL | React, ag-grid, FastAPI, Django | MCP servers, LLM tool design, agent evals Email: paddy@paddymullen.com I build data tools, from the dataframe backend to the browser. I created and maintain Buckaroo ( https://github.com/paddymul/buckaroo... chrisjorge24: Hiring: AI, Data, DevOps & Full Stack Engineers | Remote — Americas We’re hiring engineers to join our distributed engineering team: - DevOps Engineer: Terraform, Kubernetes, Docker, AWS/Azure/GCP, ArgoCD, GitHub Actions, Airflow, Kafka - AI Engineer: LLMs, ML, neural networks, AI system design, SageMaker/Vertex AI, Docker/Kubernetes - Data Engineer: Python, SQL, ETL/ELT pipelines, Airflow, dbt, data warehouses/la... somethingnew: Discord | Senior Software Engineer, Application Security | REMOTE (US West Coast) or San Francisco, CA | $196K-$245K base + equity Discord is where communities and friend groups spend time together, on desktop, mobile, and now more and more inside games and third-party apps built on our platform. That surface area, plus a huge, engaged, occasionally adversarial user base, makes application security a genuinely har...",
-      "fetched_at": "2026-10-01T19:16:00.107983+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49922569",
-      "hn_story_type": "story",
-      "hn_points": "84",
-      "hn_comments_count": "80",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49922569",
-      "hn_item_text": "Please state the location and include REMOTE for remote work, REMOTE (US) or similar if the country is restricted, and ONSITE when remote work is not an option. Please only post if you personally are part of the hiring company—no recruiting firms or job boards. One post per company. If it isn't a household name, explain what your company does. Please only post if you are actively filling a position and are committed to replying to applicants. Commenters: please don't reply to job posts to complain about something. It's off topic here. Readers: please only email if you are personally interested in the job. Searchers: try https://hnwork.app , https://nthesis.ai/public/hn-who-is-hiring , https://dheerajck.github.io/hnwhoishiring/ , http://nchelluri.github.io/hnjobs/ , https://hnjobs.emilburzo.com . Don't miss this other fine thread: Who wants to be hired? https://news.ycombinator.com/item?id=49922568",
-      "hn_comment_preview": "paddy_m: Location: Boston, MA Remote: Yes (preferred) Willing to relocate: No Technologies: Python, TypeScript, Rust, SQL | pandas, polars, Arrow, DuckDB/DataFusion, Parquet, PostgreSQL | React, ag-grid, FastAPI, Django | MCP servers, LLM tool design, agent evals Email: paddy@paddymullen.com I build data tools, from the dataframe backend to the browser. I created and maintain Buckaroo ( https://github.com/paddymul/buckaroo...\nchrisjorge24: Hiring: AI, Data, DevOps & Full Stack Engineers | Remote — Americas We’re hiring engineers to join our distributed engineering team: - DevOps Engineer: Terraform, Kubernetes, Docker, AWS/Azure/GCP, ArgoCD, GitHub Actions, Airflow, Kafka - AI Engineer: LLMs, ML, neural networks, AI system design, SageMaker/Vertex AI, Docker/Kubernetes - Data Engineer: Python, SQL, ETL/ELT pipelines, Airflow, dbt, data warehouses/la...\nsomethingnew: Discord | Senior Software Engineer, Application Security | REMOTE (US West Coast) or San Francisco, CA | $196K-$245K base + equity Discord is where communities and friend groups spend time together, on desktop, mobile, and now more and more inside games and third-party apps built on our platform. That surface area, p...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "73",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=49,practical_tech=49,tools_agents=21,strategy_insight=2,industry_business=-8",
-      "slot_scores": {
-        "practical_tech": 49,
-        "tools_agents": 21,
-        "strategy_insight": 2,
-        "industry_business": -8
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 49,
-          "strong_hits": [
-            "distributed",
-            "kubernetes",
-            "typescript",
-            "postgres",
-            "security",
-            "docker",
-            "rust",
-            "api",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 21,
-          "strong_hits": [
-            "mcp",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "agent",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -8,
-          "strong_hits": [],
-          "support_hits": [
-            "platform",
-            "company"
-          ],
-          "negative_hits": [
-            "kubernetes",
-            "docker",
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "distributed",
-        "kubernetes",
-        "typescript",
-        "postgres",
-        "security",
-        "docker",
-        "rust",
-        "api",
-        "sql"
-      ],
-      "detail_slug": "a10c72dcb15694302b4dceea0396e892b552d370",
-      "is_english_source": true,
-      "sent_at": "2026-10-01T19:18:34.991126+00:00"
-    },
-    {
-      "id": "7df91bb086a883e1bdd14dc59763535428c0f47c",
-      "title_hash": "0cbfd637e4dd273e4d59453bf13591b495169ae6",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Open-source model routing for coding agents at Astra-level performance",
-      "link": "https://news.ycombinator.com/item?id=49911500",
-      "published_at": "2026-09-30T16:58:24+00:00",
-      "summary": "HN story type: story HN points: 32 HN comments: 3 HN post text: A few months ago we started building a model router for coding agents because we thought we could outperform any single model with an ensemble approach. Recently we’ve achieved that milestone and I want to talk about how we did it. First of all, a quick explanation: the Weave Router ( https://github.com/weave-os/router ) plugs into any coding agent (e.g. Claude Code or Codex) and intelligently switches between LLMs. So, for example, Astra handles tricky debugging or complex system design tasks, and Deepseek v4 Flash handles simple frontend updates. What we’re announcing today is our new routing model, which we’re calling Weave Router 2.0. We benchmarked 2.0 against GPT-6 Astra on Terminal Bench 4.0 and SWE Atlas. On both benchmarks, the router had equivalent pass rates. On Terminal Bench, the router hit 52% of Astra’s cost, and completed tasks 2.2x faster. On SWE Atlas, the router cost 54% as much as Astra and ran 2.5x faster. (Full results on our website at https://weaveos.com/router !) It turns out training a model to route effectively - taking into consideration model capabilities, costs, cache awareness, and more - is a really hard problem! I want to talk about three ways we... HN top comments: thefourthchime: Interesting work, and thanks for describing how your router works internally. It's definitely a fascinating subject. How would you say this compares to Cursor's auto mode? redrove: Is the model you trained available as open weights?",
-      "fetched_at": "2026-10-01T19:16:00.107983+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49911500",
-      "hn_story_type": "story",
-      "hn_points": "32",
-      "hn_comments_count": "3",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49911500",
-      "hn_item_text": "A few months ago we started building a model router for coding agents because we thought we could outperform any single model with an ensemble approach. Recently we’ve achieved that milestone and I want to talk about how we did it. First of all, a quick explanation: the Weave Router ( https://github.com/weave-os/router ) plugs into any coding agent (e.g. Claude Code or Codex) and intelligently switches between LLMs. So, for example, Astra handles tricky debugging or complex system design tasks, and Deepseek v4 Flash handles simple frontend updates. What we’re announcing today is our new routing model, which we’re calling Weave Router 2.0. We benchmarked 2.0 against GPT-6 Astra on Terminal Bench 4.0 and SWE Atlas. On both benchmarks, the router had equivalent pass rates. On Terminal Bench, the router hit 52% of Astra’s cost, and completed tasks 2.2x faster. On SWE Atlas, the router cost 54% as much as Astra and ran 2.5x faster. (Full results on our website at https://weaveos.com/router !) It turns out training a model to route effectively - taking into consideration model capabilities, costs, cache awareness, and more - is a really hard problem! I want to talk about three ways we...",
-      "hn_comment_preview": "thefourthchime: Interesting work, and thanks for describing how your router works internally. It's definitely a fascinating subject. How would you say this compares to Cursor's auto mode?\nredrove: Is the model you trained available as open weights?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "70",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=46,practical_tech=26,tools_agents=46,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 26,
-        "tools_agents": 46,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 26,
-          "strong_hits": [
-            "performance",
-            "benchmark",
-            "show hn",
-            "cache"
-          ],
-          "support_hits": [
-            "debugging"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 46,
-          "strong_hits": [
-            "coding agent",
-            "claude code",
-            "cursor",
-            "codex",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code",
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "claude code",
-        "cursor",
-        "codex",
-        "ide",
-        "llm",
-        "agent",
-        "claude + code",
-        "ai + coding"
-      ],
-      "detail_slug": "7df91bb086a883e1bdd14dc59763535428c0f47c",
-      "is_english_source": true,
-      "sent_at": "2026-10-01T19:18:34.991126+00:00"
-    },
-    {
-      "id": "8244c111b7ebaeeb1ab1bda029701a170385076a",
-      "title_hash": "80cbdc3adac0643c8cc3bfb877be36f5cbfcf93f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Ask HN: Who wants to be hired? (October 2026)",
-      "link": "https://news.ycombinator.com/item?id=49922568",
-      "published_at": "2026-10-01T15:02:07+00:00",
-      "summary": "HN story type: story HN points: 50 HN comments: 174 HN post text: Share your information if you are looking for work. Please use this format: Location: Remote: Willing to relocate: Technologies: Résumé/CV: Email: Please only post if you are personally looking for work. Agencies, recruiters, job boards, and so on, are off topic here. Readers: please only email these addresses to discuss work opportunities. Searchers: try https://nthesis.ai/public/hn-wants-to-be-hired , https://www.wantstobehired.com . HN top comments: mamcx: Senior Rust / Database Engineer Location: Medellín, Colombia · Remote: Yes · Willing to relocate: No Software engineer with 30+ years of experience building production-ready business applications and 3+ years as a core database engineer working on high-performance RDBMS technology. Founder and principal engineer of a small ISV, with a long track record of owning complex systems end-to-end—from low-level design and... DhawalModi: Location: Fremont, CA, USA Remote: Fine w/ Remote or Hybrid or In-office Willing to relocate: No, want to stay in Bay area Technologies: Python, C++, PyTorch, OpenCV, Spring Boot, React, TypeScript, PostgreSQL, OracleSQL, Linux/Shell. Website: https://dhawal-modi.github.io/ Résumé/CV: https://dhawal-modi.github.io/data/Resume.pdf Email: dhawal [dot] modi07 [at] gmail [dot] com I’m an ML Engineer with a software en... mrfoo: Location: EU Remote: yes Willing to relocate: no Technologies: https://flrn.dev/skills Résumé/CV: https://flrn.dev/experience Email: https://flrn.dev/contact | jinx-haven-wham@duck.com Interested in Devex and internal tooling roles.",
-      "fetched_at": "2026-10-01T19:16:00.107983+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49922568",
-      "hn_story_type": "story",
-      "hn_points": "50",
-      "hn_comments_count": "174",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49922568",
-      "hn_item_text": "Share your information if you are looking for work. Please use this format: Location: Remote: Willing to relocate: Technologies: Résumé/CV: Email: Please only post if you are personally looking for work. Agencies, recruiters, job boards, and so on, are off topic here. Readers: please only email these addresses to discuss work opportunities. Searchers: try https://nthesis.ai/public/hn-wants-to-be-hired , https://www.wantstobehired.com .",
-      "hn_comment_preview": "mamcx: Senior Rust / Database Engineer Location: Medellín, Colombia · Remote: Yes · Willing to relocate: No Software engineer with 30+ years of experience building production-ready business applications and 3+ years as a core database engineer working on high-performance RDBMS technology. Founder and principal engineer of a small ISV, with a long track record of owning complex systems end-to-end—from low-level design and...\nDhawalModi: Location: Fremont, CA, USA Remote: Fine w/ Remote or Hybrid or In-office Willing to relocate: No, want to stay in Bay area Technologies: Python, C++, PyTorch, OpenCV, Spring Boot, React, TypeScript, PostgreSQL, OracleSQL, Linux/Shell. Website: https://dhawal-modi.github.io/ Résumé/CV: https://dhawal-modi.github.io/data/Resume.pdf Email: dhawal [dot] modi07 [at] gmail [dot] com I’m an ML Engineer with a software en...\nmrfoo: Location: EU Remote: yes Willing to relocate: no Technologies: https://flrn.dev/skills Résumé/CV: https://flrn.dev/experience Email: https://flrn.dev/contact | jinx-haven-wham@duck.com Interested in Devex and internal tooling roles.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "69",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=45,practical_tech=45,tools_agents=4,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 45,
-        "tools_agents": 4,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 45,
-          "strong_hits": [
-            "performance",
-            "production",
-            "typescript",
-            "database",
-            "postgres",
-            "rust",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "database + performance"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "business"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "production",
-        "typescript",
-        "database",
-        "postgres",
-        "rust",
-        "sql",
-        "database + performance"
-      ],
-      "detail_slug": "8244c111b7ebaeeb1ab1bda029701a170385076a",
-      "is_english_source": true,
-      "sent_at": "2026-10-01T19:18:34.991126+00:00"
     }
   ],
   "topic_digests": {
