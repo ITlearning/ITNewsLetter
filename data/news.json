@@ -1,6 +1,587 @@
 {
   "items": [
     {
+      "id": "34738a9f70a11aefc0e9d38e3456cf61e9d4fb6c",
+      "title_hash": "bd22f06698efd972c2153159d4b88888f06f87c5",
+      "source": "GeekNews",
+      "title": "Show GN: NeuroTerm, 사람과 AI 에이전트가 함께 쓰는 터미널",
+      "link": "https://news.hada.io/topic?id=37615&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-22T06:22:54+00:00",
+      "summary": "Computer Use가 AI 에이전트에게 화면을 보여주고 마우스와 키보드를 조작하게 하는 것이라면, Terminal Use 는 에이전트가 터미널을 직접 읽고 작업할 수 있게 하는 기능입니다. 임베디드 개발에 Claude Code와 Codex를 쓰면서 이 기능이 필요하다고 느꼈습니다. 코드는 에이전트가 작성하지만, 보드의 시리얼 로그는 제가 복사해서 전달해야 했거든요. 커널이 어디서 멈췄는지, 드라이버가 어떤 에러를 냈는지 에이전트도 직접 볼 수 있으면 좋겠다고 생각했습니다. 그래서 NeuroTerm 을 만들었습니다. 단순히 에이전트에게 터미널 접근 …",
+      "fetched_at": "2026-11-22T11:01:04.293023+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "70",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=25,practical_tech=2,tools_agents=25,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 25,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "codex",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "codex",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "34738a9f70a11aefc0e9d38e3456cf61e9d4fb6c",
+      "is_english_source": false,
+      "sent_at": "2026-11-22T11:01:57.972694+00:00"
+    },
+    {
+      "id": "df5f2e9218e0e615cd044b7aa503771779a7ccd5",
+      "title_hash": "03e96fcd13c3aad195daac9c805ee8eafd639a30",
+      "source": "GeekNews",
+      "title": "앞으로 나올 100개의 Rust GUI를 위한 조언",
+      "link": "https://news.hada.io/topic?id=37620&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-22T08:34:07+00:00",
+      "summary": "Rust UI 는 기존 크로스플랫폼 GUI의 성능과 메모리 부담을 줄일 대안이며, AI가 Rust 코드 작성 비용을 낮추면서 다양한 UI 구현을 시도할 여지가 커지고 있음 네이티브 UI 의 가치는 플랫폼마다 다르며, 특히 모바일에서는 고유의 시각 효과와 입력 동작을 맞추기 위해 네이티브 UI와 Rust 공통 비즈니스 로직을 결합하는 방식이 유력함 Parley와 AccessKit 으로 텍스트 레이아웃과 접근성의 기반은 상당히 갖춰졌지만, 충실한 접근성 통합과 시스템 컴포지터 활용에는 여전히 해결할 과제가 있음 즉시 모드 는 코드가 적고 단순하지만, 생 …",
+      "fetched_at": "2026-11-22T11:01:04.293023+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=9,practical_tech=9,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "코드",
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "코드",
+        "성능"
+      ],
+      "detail_slug": "df5f2e9218e0e615cd044b7aa503771779a7ccd5",
+      "is_english_source": false,
+      "sent_at": "2026-11-22T11:01:57.972694+00:00"
+    },
+    {
+      "id": "648d424db6dc30dcfb977ebb79487658b12e0e4c",
+      "title_hash": "962f5d3c8f5d97b1a29b8fcf654499d4776e9ba3",
+      "source": "GeekNews",
+      "title": "사내 설치형 Git 서버·CI/CD 비교 – GitLab·Gitea·OneDev·GitHub Enterprise Server, 무료판에서 되는 ...",
+      "link": "https://news.hada.io/topic?id=37621&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-22T09:14:29+00:00",
+      "summary": "코드를 외부 클라우드에 올릴 수 없는 조건에서 Git 저장소와 CI/CD를 사내에 직접 설치하려고, 후보를 공식 문서 기준으로 비교한 기록. 버전·가격은 2026년 10월 기준이라 도입 전에 각 공식 사이트에서 최신 정보를 확인할 것 ● 먼저 빠진 후보 GitHub Enterprise Server: 무료판 없음, 최소 구성도 CPU 4코어·메모리 32GB, Actions를 켜면 8코어·64GB에 외부 저장소(S3 등) 필요 Gogs: 가장 가볍지만 CI/CD가 없음 Jenkins: GitLab·Gitea 모두 CI를 직접 하므로, 이미 표준으로 쓰는 회사가 아니면 시스템만 하나 늘어남 ● 사양은 …",
+      "fetched_at": "2026-11-22T11:01:04.293023+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=2,tools_agents=4,strategy_insight=3,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "enterprise"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "enterprise"
+      ],
+      "detail_slug": "648d424db6dc30dcfb977ebb79487658b12e0e4c",
+      "is_english_source": false,
+      "sent_at": "2026-11-22T11:01:57.972694+00:00"
+    },
+    {
+      "id": "ca55ddd05d74bf0e1c52ec219c0ad11d7e119e9f",
+      "title_hash": "80953866491641b5856a6bc164f4c52e5ef34a6f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+      "link": "https://github.com/EL4CTEO/fast-anything",
+      "published_at": "2026-11-22T04:10:09+00:00",
+      "summary": "HN story type: story HN points: 36 HN comments: 24 HN top comments: diegocg: Better yet, stop writing large codebases in lenguajes that will have performance troubles. hendler: It's also OK to rewrite in Rust because it's not just about performance. The fast part in other Python, Ruby, etc may be written in C/C++, or call an external library, and be the vulnerable part. perdy: We took this route in a Python web framework I maintain: route matching, JSON encoding, request body parsing, compression and some other specific parts moved to Rust with PyO3, everything else stayed in Python.",
+      "fetched_at": "2026-11-22T11:01:04.293023+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50596155",
+      "hn_story_type": "story",
+      "hn_points": "36",
+      "hn_comments_count": "24",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50596155",
+      "hn_item_text": "",
+      "hn_comment_preview": "diegocg: Better yet, stop writing large codebases in lenguajes that will have performance troubles.\nhendler: It's also OK to rewrite in Rust because it's not just about performance. The fast part in other Python, Ruby, etc may be written in C/C++, or call an external library, and be the vulnerable part.\nperdy: We took this route in a Python web framework I maintain: route matching, JSON encoding, request body parsing, compression and some other specific parts moved to Rust with PyO3, everything else stayed in Python.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "48",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=11,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 24,
+        "tools_agents": 11,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 24,
+          "strong_hits": [
+            "performance",
+            "framework",
+            "rust"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 11,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "framework",
+        "rust",
+        "library",
+        "github.com"
+      ],
+      "detail_slug": "ca55ddd05d74bf0e1c52ec219c0ad11d7e119e9f",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T11:01:57.972694+00:00"
+    },
+    {
+      "id": "c0ccce52a7892fcc381f80c37870abce6a79466e",
+      "title_hash": "5cd3be3d8f8536be2e71dd2b11006576ad517f0b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Is 'fork' missing operation in sandboxes?",
+      "link": "https://avrea.com/blog/avrea-sandboxes-computers-should-be-forkable",
+      "published_at": "2026-11-19T13:28:43+00:00",
+      "summary": "HN story type: story HN points: 7 HN comments: 5 HN top comments: thepoet: Nice writeup. The step after forking paused sandboxes would be to fork live running sandboxes with the RAM, device state and disk all being forked. Get the same execution point with all processes still running rather than having to resume. You then also have to take care of kernel RNG state, boot ID, clocks, cached session keys etc. before the forked version starts meaningful work. Disclosure: I am working an open... jstanley: I'm curious how you handle open TCP sockets etc. at forking time? Do all sockets just get closed on one branch of the fork? EDIT: I see you're only cloning filesystem contents, never mind. damezumari: I wrote up about our sandboxes. Everyone and their dog is offering them, but I think the fork operation is somewhat interesting at least for our own use - being able to fire copies of sandbox with a single API call has been convenient for our agentic use (reusing all earlier setup steps has saved lots of time and tokens). Disclaimer: I know there's some more effort 'snapshotting' and other concepts elsewhere too,...",
+      "fetched_at": "2026-11-22T11:01:04.293023+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50559820",
+      "hn_story_type": "story",
+      "hn_points": "7",
+      "hn_comments_count": "5",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50559820",
+      "hn_item_text": "",
+      "hn_comment_preview": "thepoet: Nice writeup. The step after forking paused sandboxes would be to fork live running sandboxes with the RAM, device state and disk all being forked. Get the same execution point with all processes still running rather than having to resume. You then also have to take care of kernel RNG state, boot ID, clocks, cached session keys etc. before the forked version starts meaningful work. Disclosure: I am working an open...\njstanley: I'm curious how you handle open TCP sockets etc. at forking time? Do all sockets just get closed on one branch of the fork? EDIT: I see you're only cloning filesystem contents, never mind.\ndamezumari: I wrote up about our sandboxes. Everyone and their dog is offering them, but I think the fork operation is somewhat interesting at least for our own use - being able to fire copies of sandbox with a single API call has been convenient for our agentic use (reusing all earlier setup steps has saved lots of time and tokens). Disclaimer: I know there's some more effort 'snapshotting' and other concepts elsewhere too,...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "46",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=22,practical_tech=19,tools_agents=22,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 22,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "sandbox",
+            "cache",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 22,
+          "strong_hits": [
+            "sandbox",
+            "agentic"
+          ],
+          "support_hits": [
+            "agent",
+            "setup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "agent + sandbox"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "sandbox",
+        "agentic",
+        "agent",
+        "setup",
+        "agent + sandbox"
+      ],
+      "detail_slug": "c0ccce52a7892fcc381f80c37870abce6a79466e",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T11:01:57.972694+00:00"
+    },
+    {
+      "id": "ac5a8d7df100eebb48beb1e04b9c163d631adf93",
+      "title_hash": "42eeb06ff07ecb538c0c7f4518aaddf6629a704c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "My monitor was cutting my download speed by 75%",
+      "link": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "published_at": "2026-11-21T10:36:32+00:00",
+      "summary": "HN story type: story HN points: 592 HN comments: 277 HN top comments: senko: This reminds me of a (completely different, but felt equally) bizzare problem with ghostty (the terminal emulator) on Linux and Steam, specifically Baldur's Gate 3. At the start of the game after an update, BG3 compiles the (Vulkan) shaders. To avoid hammering the computer, it checks the load, including I/O pressure, and then throttles itself. It turns out that Ghostty uses io_uring, and even if it's not doing any... manarth: Better description: \"My USB network switch was cutting my download speed\". The fact that it's a monitor is a little bit irrelevant. fancyfredbot: Since lots of comments misunderstood the article, the extra latency from going through the monitor meant his laptop couldn't acknowledge the packets quickly enough. That led a buffer on the ethernet adapter to fill and that led it to drop packets. A different adapter which required less frequent acknowledgement fixed the problem for him. It is quite a nice post which gets to the bottom of incredibly opaque behavio...",
+      "fetched_at": "2026-11-22T11:01:04.293023+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50587875",
+      "hn_story_type": "story",
+      "hn_points": "592",
+      "hn_comments_count": "277",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50587875",
+      "hn_item_text": "",
+      "hn_comment_preview": "senko: This reminds me of a (completely different, but felt equally) bizzare problem with ghostty (the terminal emulator) on Linux and Steam, specifically Baldur's Gate 3. At the start of the game after an update, BG3 compiles the (Vulkan) shaders. To avoid hammering the computer, it checks the load, including I/O pressure, and then throttles itself. It turns out that Ghostty uses io_uring, and even if it's not doing any...\nmanarth: Better description: \"My USB network switch was cutting my download speed\". The fact that it's a monitor is a little bit irrelevant.\nfancyfredbot: Since lots of comments misunderstood the article, the extra latency from going through the monitor meant his laptop couldn't acknowledge the packets quickly enough. That led a buffer on the ethernet adapter to fill and that led it to drop packets. A different adapter which required less frequent acknowledgement fixed the problem for him. It is quite a nice post which gets to the bottom of incredibly opaque behavio...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "latency"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "latency"
+      ],
+      "detail_slug": "ac5a8d7df100eebb48beb1e04b9c163d631adf93",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T11:01:57.972694+00:00"
+    },
+    {
+      "id": "4ce53216c0e31185ded6c9dfe4f20db6631c738e",
+      "title_hash": "3acbf073000d253ba0ef9b36f05404f318294f89",
+      "source": "TechCrunch",
+      "title": "A tale of two Nvidias",
+      "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "published_at": "2026-11-21T21:07:42+00:00",
+      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "fetched_at": "2026-11-22T11:01:04.293023+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "19",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=13,practical_tech=-4,tools_agents=-4,strategy_insight=-4,industry_business=13",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": -4,
+        "strategy_insight": -4,
+        "industry_business": 13
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "earnings"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "earnings"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "earnings"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 13,
+          "strong_hits": [
+            "earnings"
+          ],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "earnings",
+        "company",
+        "techcrunch.com"
+      ],
+      "detail_slug": "4ce53216c0e31185ded6c9dfe4f20db6631c738e",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T11:01:57.972694+00:00"
+    },
+    {
       "id": "180c7ce2afa07792c80bcbdec05a69c60d5a6198",
       "title_hash": "2393840acbfc5c6b91e1c6c6e92fc09004a4cfc0",
       "source": "GeekNews",
@@ -165336,592 +165917,6 @@
       "detail_slug": "90d9948f3cd6feaf706024aabdc2f0c7495eb7d7",
       "is_english_source": true,
       "sent_at": "2026-10-03T00:30:12.292680+00:00"
-    },
-    {
-      "id": "f9142eb5c9af5e48dc12bef63aa5e97455c1ef27",
-      "title_hash": "2b53851c6c002e02fad959092ce8abbb706ed96f",
-      "source": "TechCrunch",
-      "title": "Last 24 hours: Exhibit at TechCrunch Disrupt 2026 and reach 10,000+ tech leaders",
-      "link": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
-      "published_at": "2026-10-02T14:00:00+00:00",
-      "summary": "Today is the last day to book your exhibit table at TechCrunch Disrupt 2026. From October 13–15, 10,000+ founders, investors, operators, and tech leaders will arrive at San Francisco’s Moscone West looking for companies, products, ideas, and people worth knowing. The question is: Will they find your startup?",
-      "fetched_at": "2026-10-03T00:27:49.042441+00:00",
-      "source_priority_boost": "6",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "19",
-      "priority_signal": "slot=industry_business,boost=6,slot_score=13,practical_tech=0,tools_agents=5,strategy_insight=0,industry_business=13",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 5,
-        "strategy_insight": 0,
-        "industry_business": 13
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 5,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 13,
-          "strong_hits": [
-            "startup"
-          ],
-          "support_hits": [
-            "startup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "techcrunch.com"
-          ]
-        }
-      },
-      "matched_terms": [
-        "startup",
-        "techcrunch.com"
-      ],
-      "detail_slug": "f9142eb5c9af5e48dc12bef63aa5e97455c1ef27",
-      "is_english_source": true,
-      "sent_at": "2026-10-03T00:30:12.292680+00:00"
-    },
-    {
-      "id": "8ea11f848402f9710788ab23c3b562877b193c07",
-      "title_hash": "1cab4239080c93a379b371b98c2e8e350f9b5fcf",
-      "source": "GeekNews",
-      "title": "AI는 나를 슬프게 한다",
-      "link": "https://news.hada.io/topic?id=34673",
-      "published_at": "2026-10-02T16:43:09+00:00",
-      "summary": "AI로 취업 기회를 얻을 수 있는 개발자에게도 코딩 에이전트에 지시하는 직업 은 매력보다 두려움으로 다가올 수 있음. 직접 만드는 기술과 통제권, 창의성을 잃는다는 감각이 그 중심에 있음 창업 기회의 축소 에 대한 불안도 큼. 다른 사람이 짧은 프롬프트로 재현...",
-      "fetched_at": "2026-10-02T20:18:03.376278+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "56",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=0,tools_agents=11,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 11,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "프롬프트"
-      ],
-      "detail_slug": "8ea11f848402f9710788ab23c3b562877b193c07",
-      "is_english_source": false,
-      "sent_at": "2026-10-02T20:20:29.622232+00:00"
-    },
-    {
-      "id": "39582d448c7b9b263b75b126d74e5b9f0d079877",
-      "title_hash": "4c493314a4187c8cda332058225618ec152f0826",
-      "source": "GeekNews",
-      "title": "법원, EFF에 동의: 유타주 VPN 법은 기술적으로 불가능한 일을 요구함",
-      "link": "https://news.hada.io/topic?id=34675",
-      "published_at": "2026-10-02T18:40:46+00:00",
-      "summary": "미국 연방법원이 유타주 연령 확인법 SB 73의 VPN 관련 조항 집행을 예비 금지명령으로 중단 함. 법원은 이 조항이 유타주 밖의 기업과 사람들에게 상당한 부담을 지워 헌법에 위배될 가능성이 있다고 판단함 SB 73은 성인 웹사이트에 VPN 사용자 차단 또는 실제 위치 확인...",
-      "fetched_at": "2026-10-02T20:18:03.376278+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "39582d448c7b9b263b75b126d74e5b9f0d079877",
-      "is_english_source": false,
-      "sent_at": "2026-10-02T20:20:29.622232+00:00"
-    },
-    {
-      "id": "b69f86e5e54fe7711ba4f86a2a3223b0abd293e3",
-      "title_hash": "dedc90c01c57fb95ac428c1689556ded91a62ff7",
-      "source": "GeekNews",
-      "title": "Supabase, Turso 인수 추진",
-      "link": "https://news.hada.io/topic?id=34676",
-      "published_at": "2026-10-02T18:43:46+00:00",
-      "summary": "Supabase가 Turso를 인수 해 AI 에이전트가 대규모로 생성하는 소프트웨어에 맞는 데이터베이스 인프라를 구축함 Supabase는 이미 매주 100만 개 이상의 데이터베이스 를 생성하고 있으며, 에이전트의 소프트웨어 개발이 늘어나면 데이터베이스 수요가 현재 전 세계의...",
-      "fetched_at": "2026-10-02T20:18:03.376278+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=-2,tools_agents=9,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": -2,
-        "tools_agents": 9,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -2,
-          "strong_hits": [],
-          "support_hits": [
-            "인프라"
-          ],
-          "negative_hits": [
-            "인수"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "인수"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "인수"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "b69f86e5e54fe7711ba4f86a2a3223b0abd293e3",
-      "is_english_source": false,
-      "sent_at": "2026-10-02T20:20:29.622232+00:00"
-    },
-    {
-      "id": "575d0f01a9e88c803f3e4a7a9a15bba5e1ea5437",
-      "title_hash": "4a34f37416d32e58afa5a9cbfc19e179d8e79b7f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Made an open-source Lego AI generator",
-      "link": "https://github.com/anteloc/ldraw-nova",
-      "published_at": "2026-10-02T20:00:15+00:00",
-      "summary": "HN story type: story HN points: 7 HN comments: 2 HN post text: Hi there :-) New on HN, first time posting. Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language. This LDraw is literally an \"assembly\" language, a low-level programming language that describes how to assemble LEGO pieces together into models, one placement instruction at a time. When executed by specific tools, like e.g. LDView, LeoCAD, Studio... these instructions become LEGO CAD models, that can be interacted with, modified, etc. Or, in other words: one LDraw source file in .mpd or .ldr format is equivalent to one LEGO CAD model. So, the idea I had was: if I manage for maybe ChatGPT or Claude to generate high-quality LDraw source files... then, they would actually be generating high-quality LEGO CAD models, right? Then, after months of iterations and trying one thing after the other... it worked!!! Long story short: using GPT-6 Astra and Opus 5.5, I've managed to create a python toolset, instructions, and docs for agents in general. Now, these can be used by them to generate LDraw models. I've packed it all as a dockerized web app for others to try and experiment, with several providers (and agents) to choos... HN top comments: antelocnova: Hi there :-) New on HN, first time posting, and (I guess) my post on Show HN was rejected... Anyway, I hope I'm not bothering anyone by posting this outside Show HN, or posting almost the same thing twice. Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language. This LDraw is literally an \"assembly\" language, a low-level programming language that de...",
-      "fetched_at": "2026-10-02T20:18:03.376278+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49937916",
-      "hn_story_type": "story",
-      "hn_points": "7",
-      "hn_comments_count": "2",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49937916",
-      "hn_item_text": "Hi there :-) New on HN, first time posting. Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language. This LDraw is literally an \"assembly\" language, a low-level programming language that describes how to assemble LEGO pieces together into models, one placement instruction at a time. When executed by specific tools, like e.g. LDView, LeoCAD, Studio... these instructions become LEGO CAD models, that can be interacted with, modified, etc. Or, in other words: one LDraw source file in .mpd or .ldr format is equivalent to one LEGO CAD model. So, the idea I had was: if I manage for maybe ChatGPT or Claude to generate high-quality LDraw source files... then, they would actually be generating high-quality LEGO CAD models, right? Then, after months of iterations and trying one thing after the other... it worked!!! Long story short: using GPT-6 Astra and Opus 5.5, I've managed to create a python toolset, instructions, and docs for agents in general. Now, these can be used by them to generate LDraw models. I've packed it all as a dockerized web app for others to try and experiment, with several providers (and agents) to choos...",
-      "hn_comment_preview": "antelocnova: Hi there :-) New on HN, first time posting, and (I guess) my post on Show HN was rejected... Anyway, I hope I'm not bothering anyone by posting this outside Show HN, or posting almost the same thing twice. Past year, around December, I started experimenting with making ChatGPT and Claude generate source code in LDraw language. This LDraw is literally an \"assembly\" language, a low-level programming language that de...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=19,tools_agents=20,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 20,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "show hn",
-            "docker"
-          ],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "agent",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "docker"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "agent",
-        "tool",
-        "claude + code",
-        "github.com"
-      ],
-      "detail_slug": "575d0f01a9e88c803f3e4a7a9a15bba5e1ea5437",
-      "is_english_source": true,
-      "sent_at": "2026-10-02T20:20:29.622232+00:00"
-    },
-    {
-      "id": "48a7d516d2418fee8ad40b6d1e4f6f2fe636a43d",
-      "title_hash": "bf007e1c0824f7a398bfcfa1fcb47fdcdda7373f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "From the creator of Redis; run LLM locally with ds4",
-      "link": "https://dwarfstar.sh/",
-      "published_at": "2026-10-02T18:01:16+00:00",
-      "summary": "HN story type: story HN points: 36 HN comments: 3 HN top comments: simoiacos: Nothing comparable but inspired from DwarfStar I wrote a little inference engine for Intel Xe-LP (no XMX) 32GB laptops. The only model supported right now is a quantized Gemma-4, but I don't exclude in the future to support other MoE of similar size. Too bad we have no Qwen 3.8 35B-A3B yet. I'm also looking into expanding the protocol and the engine to support various steering techniques. https://github.com/simone... 123-11292: Cannot read the vibe coded website because it hangs and lags. So recently opposition to the local LLM narrative pops up here and there and we get reassurance immediately. Is this automated by AI now? Make a sentiment analysis and produce slop articles that suppress last week's opposition? doctorpangloss: the problem is the dsv4 checkpoint so quantized isn't very good",
-      "fetched_at": "2026-10-02T20:18:03.376278+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49936575",
-      "hn_story_type": "story",
-      "hn_points": "36",
-      "hn_comments_count": "3",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49936575",
-      "hn_item_text": "",
-      "hn_comment_preview": "simoiacos: Nothing comparable but inspired from DwarfStar I wrote a little inference engine for Intel Xe-LP (no XMX) 32GB laptops. The only model supported right now is a quantized Gemma-4, but I don't exclude in the future to support other MoE of similar size. Too bad we have no Qwen 3.8 35B-A3B yet. I'm also looking into expanding the protocol and the engine to support various steering techniques. https://github.com/simone...\n123-11292: Cannot read the vibe coded website because it hangs and lags. So recently opposition to the local LLM narrative pops up here and there and we get reassurance immediately. Is this automated by AI now? Make a sentiment analysis and produce slop articles that suppress last week's opposition?\ndoctorpangloss: the problem is the dsv4 checkpoint so quantized isn't very good",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=15,practical_tech=15,tools_agents=9,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 15,
-        "tools_agents": 9,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 15,
-          "strong_hits": [
-            "inference"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "inference",
-        "local + run"
-      ],
-      "detail_slug": "48a7d516d2418fee8ad40b6d1e4f6f2fe636a43d",
-      "is_english_source": true,
-      "sent_at": "2026-10-02T20:20:29.622232+00:00"
-    },
-    {
-      "id": "ea59d9303f7239cd5580ced40e884a89ca24957a",
-      "title_hash": "18447426285aed418e8eece163f6eaee1237ff0b",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "One month coding with GLM 5.3 Flash",
-      "link": "https://wagtail.org/blog/one-month-on-glm-53-flash/",
-      "published_at": "2026-10-02T15:29:15+00:00",
-      "summary": "HN story type: story HN points: 39 HN comments: 28 HN top comments: epistasis: One thing about these numbers that's absolutely shocking to me is how low the energy use is: > That model’s usage was well within our budget ($68, about 4kWh of energy use / 365 grams of carbon emissions). The energy cost is literally 1% of the total cost. For context, 4kWh of energy would drive you about 15 miles in an EV, about half of the average person's driving miles. It's boiling 10 gallons of water. With th... monksy: GLM5.3-flash has been fantastic for me to make minor fixes in ambigious ways. \"Fix x feature, whats going wrong. \" It does the job. aktenlage: > Unfortunately there are still consequences to it. I chose the 'wrong' model for the prototype, and we spent 450M tokens / $150 / 5kWh of energy use almost overnight. The MCP server itself works well and we now have a great demo of the capabilities, so it’s not for nothing: > Nonetheless, it’s a good reminder to be careful with model selection and with agentic patterns. We could have achieved similar results for...",
-      "fetched_at": "2026-10-02T20:18:03.376278+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49934620",
-      "hn_story_type": "story",
-      "hn_points": "39",
-      "hn_comments_count": "28",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49934620",
-      "hn_item_text": "",
-      "hn_comment_preview": "epistasis: One thing about these numbers that's absolutely shocking to me is how low the energy use is: > That model’s usage was well within our budget ($68, about 4kWh of energy use / 365 grams of carbon emissions). The energy cost is literally 1% of the total cost. For context, 4kWh of energy would drive you about 15 miles in an EV, about half of the average person's driving miles. It's boiling 10 gallons of water. With th...\nmonksy: GLM5.3-flash has been fantastic for me to make minor fixes in ambigious ways. \"Fix x feature, whats going wrong. \" It does the job.\naktenlage: > Unfortunately there are still consequences to it. I chose the 'wrong' model for the prototype, and we spent 450M tokens / $150 / 5kWh of energy use almost overnight. The MCP server itself works well and we now have a great demo of the capabilities, so it’s not for nothing: > Nonetheless, it’s a good reminder to be careful with model selection and with agentic patterns. We could have achieved similar results for...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "44",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=9,tools_agents=20,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 20,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "agentic",
-            "mcp"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agentic",
-        "mcp",
-        "agent",
-        "ai + coding"
-      ],
-      "detail_slug": "ea59d9303f7239cd5580ced40e884a89ca24957a",
-      "is_english_source": true,
-      "sent_at": "2026-10-02T20:20:29.622232+00:00"
     }
   ],
   "topic_digests": {
