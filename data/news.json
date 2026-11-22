@@ -1,6 +1,500 @@
 {
   "items": [
     {
+      "id": "6354a3a31bf1dc4a66009d20498b8627e782d95f",
+      "title_hash": "e8acc9efa2d8b28c3a7476e74d9ba526f0eaaf68",
+      "source": "GeekNews",
+      "title": "Pandex - MCP로 AI 에이전트에 공식 유럽 법률 자료 제공",
+      "link": "https://news.hada.io/topic?id=37640&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-22T16:41:35+00:00",
+      "summary": "Pandex 는 EU와 유럽 7개국의 법령 및 최고법원 판결을 발행 기관에서 직접 수집해 하나의 API와 MCP 서버로 제공함 법률 AI, 규정 준수 모니터링, 법률 검색 제품 을 대상으로 하며, 국가마다 별도의 수집기를 만드는 대신 공통 API와 스키마로 자료에 접근할 수 있음 법령의 과거 버전과 시행일 , 원문에 연결된 인용 정보를 제공해 근거 있는 답변과 관할권별 법률 변경 추적을 지원함 기관별로 수집 완료, 부분 수집, 미보유 상태 를 공개하며, 계정 요구나 접근 차단 등으로 수집하지 못한 자료도 확인할 수 있음 베타 기간에는 하루 1, …",
+      "fetched_at": "2026-11-22T19:11:08.808040+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=5,tools_agents=14,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 14,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "에이전트",
+            "mcp"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "mcp"
+      ],
+      "detail_slug": "6354a3a31bf1dc4a66009d20498b8627e782d95f",
+      "is_english_source": false,
+      "sent_at": "2026-11-22T19:11:50.210652+00:00"
+    },
+    {
+      "id": "58a7d6c2964a2b7f1fb4ec1f86a7ca6773e60168",
+      "title_hash": "a324b060bf2009465dc4fb4a14ac7ba534057451",
+      "source": "GeekNews",
+      "title": "Fast-Anything: 전체를 Rust로 재작성하지 말고, 느린 5%만 재작성하라",
+      "link": "https://news.hada.io/topic?id=37645&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-22T17:39:38+00:00",
+      "summary": "fast-anything 은 앱의 병목 함수를 찾아 코딩 에이전트가 해당 함수만 Rust로 이식하게 하고, 실제 호출 기록으로 결과를 검증한 뒤 교체하는 도구임 실행 시간과 이식 가능성으로 후보를 선정하며, Rust 호출 경계를 수백만 번 넘지 않도록 가능한 한 가장 바깥쪽 루프 를 이식함 실제 호출과 추가 경계 사례에서 결과와 오류 동작이 일치해야 하며, 정확하더라도 호출당 실행 시간이 더 느린 이식본 은 활성화하지 않음 프로젝트가 공개한 예제 실행에서 Python 유사 문자열 중복 제거는 4.91초에서 42ms로 116배 , TypeScript는 3.11초에 …",
+      "fetched_at": "2026-11-22T19:11:08.808040+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "55",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [
+            "typescript",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "병목"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "typescript",
+        "rust"
+      ],
+      "detail_slug": "58a7d6c2964a2b7f1fb4ec1f86a7ca6773e60168",
+      "is_english_source": false,
+      "sent_at": "2026-11-22T19:11:50.210652+00:00"
+    },
+    {
+      "id": "ac10db40924fd84ddbe308b0273d6ffdb170141f",
+      "title_hash": "bb6b995b3e06e7db6b0822dfa529bdb20e1b6c60",
+      "source": "GeekNews",
+      "title": "AI는 모두에게 같은 조언을 하고 있다",
+      "link": "https://news.hada.io/topic?id=37639&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-22T15:34:29+00:00",
+      "summary": "30개 기업의 AI 65개에 127,918회 질문 한 실험에서, 개인 정보 없이 받은 일상 조언이 특정 답으로 쏠림. 책 추천의 73%는 『죽음의 수용소에서』, 사업 아이디어의 76%는 구독 상자 서비스였음 금융과 진로 조언 도 수렴함. 구체적인 대상을 고른 응답 중 98%는 1만 달러 투자처로 광범위한 지수 펀드를, 90%는 대학 전공으로 컴퓨터과학을 선택함 같은 대화에서 추가 추천 을 받으면 다양해 보이지만, 새 대화에서는 기본 답으로 돌아옴. 6개 모델 모두 한 대화에서는 서로 다른 책 8권을 추천했으나, 새 대화 8개에서는 같은 책을 반복함 …",
+      "fetched_at": "2026-11-22T19:11:08.808040+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "52",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=7",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": -1,
+        "industry_business": 7
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 7,
+          "strong_hits": [
+            "투자"
+          ],
+          "support_hits": [
+            "기업"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자",
+        "기업"
+      ],
+      "detail_slug": "ac10db40924fd84ddbe308b0273d6ffdb170141f",
+      "is_english_source": false,
+      "sent_at": "2026-11-22T19:11:50.210652+00:00"
+    },
+    {
+      "id": "59ee3eb71e564372f8d5f589c219e252ee240a8b",
+      "title_hash": "9fae40abf79291955f774da71e4eb6ef7d5baef5",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Perplexity and Intelligence",
+      "link": "https://openai.com/index/perplexity-and-intelligence/",
+      "published_at": "2026-11-22T17:06:27+00:00",
+      "summary": "HN story type: story HN points: 188 HN comments: 134 HN top comments: thrw045: Maybe I misunderstand the technicalities behind compression and prediction but there is something wrong with them in terms of LLMs. You can't really compress knowledge all the time. You can for example talk to ChatGPT about religion - just tell it that you are on a hard journey and you hope God is on your side or something like this, and it will become a full on preacher of the gospels. In other words it hasn't re... jrflo: This trend is pretty shocking to me. I assumed that we had moved beyond cross-entropy loss being important with the increasing use of RL, it's wild that the trend is so clear. Really nice to have such a simple benchmark instead of the increasingly convoluted ones that are getting spun up every day. Also, I wonder what happened with GPT 4.5? I think o1 was the start of true reasoning models, right? I was using Clau... ACCount39: Interesting that GPT-4.5 is the only discontinuity on the graph. The oversized monster LLM has performed worse than CoT-trained o1 and o3 on the benchmarks, so CoT + RL clearly provided better \"real world performance\" improvements - let alone \"price/performance.\" But if pre-training perplexity on held-out data really does measure something like \"base model IQ\" or \"base model g factor\", then it does support the hyp...",
+      "fetched_at": "2026-11-22T19:11:08.808040+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50601525",
+      "hn_story_type": "story",
+      "hn_points": "188",
+      "hn_comments_count": "134",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50601525",
+      "hn_item_text": "",
+      "hn_comment_preview": "thrw045: Maybe I misunderstand the technicalities behind compression and prediction but there is something wrong with them in terms of LLMs. You can't really compress knowledge all the time. You can for example talk to ChatGPT about religion - just tell it that you are on a hard journey and you hope God is on your side or something like this, and it will become a full on preacher of the gospels. In other words it hasn't re...\njrflo: This trend is pretty shocking to me. I assumed that we had moved beyond cross-entropy loss being important with the increasing use of RL, it's wild that the trend is so clear. Really nice to have such a simple benchmark instead of the increasingly convoluted ones that are getting spun up every day. Also, I wonder what happened with GPT 4.5? I think o1 was the start of true reasoning models, right? I was using Clau...\nACCount39: Interesting that GPT-4.5 is the only discontinuity on the graph. The oversized monster LLM has performed worse than CoT-trained o1 and o3 on the benchmarks, so CoT + RL clearly provided better \"real world performance\" improvements - let alone \"price/performance.\" But if pre-training perplexity on held-out data really does meas...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=12,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "performance",
+            "benchmark",
+            "index"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "benchmark",
+        "index"
+      ],
+      "detail_slug": "59ee3eb71e564372f8d5f589c219e252ee240a8b",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T19:11:50.210652+00:00"
+    },
+    {
+      "id": "e30fdffa27cd4f8b36dfd5378faba23d816a9563",
+      "title_hash": "2eccdac9f6811db4478d9441d28cdab979b3f284",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "I joined the NTP Pool, but not with my Stratum 1 Pi",
+      "link": "https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/",
+      "published_at": "2026-11-22T15:35:24+00:00",
+      "summary": "HN story type: story HN points: 55 HN comments: 14 HN top comments: Avamander: For the price and complexity of building a good Linux-based time server I'd heavily recommend looking at FPGA-based solutions instead. x86 platforms also have PCIe PTM and TGPIO options available[0], which are tad better than the common ARM equivalents and GPIO interrupts. In general Pi-s are relatively bad for timekeeping. Not just the NIC (which can be replaced by hats with their own), there are also oscillator... bityard: I thought I remembered reading that they did not allow VPSes to be part of the pool because of the historical issues around VMs and timing, combined with the fact that the VPS operator could make host-level changes at any time that could impact the accuracy of the host. But now I'm not finding anything about that. Maybe they have enough monitoring and automation that running nptd on bare metal is not a strict requ... zodwick: One of those posts which truly hits you in the face and calls you an idiot for how much you don't know. Definitely a rabbit hole I'm going down this week. Thanks",
+      "fetched_at": "2026-11-22T19:11:08.808040+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50600622",
+      "hn_story_type": "story",
+      "hn_points": "55",
+      "hn_comments_count": "14",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50600622",
+      "hn_item_text": "",
+      "hn_comment_preview": "Avamander: For the price and complexity of building a good Linux-based time server I'd heavily recommend looking at FPGA-based solutions instead. x86 platforms also have PCIe PTM and TGPIO options available[0], which are tad better than the common ARM equivalents and GPIO interrupts. In general Pi-s are relatively bad for timekeeping. Not just the NIC (which can be replaced by hats with their own), there are also oscillator...\nbityard: I thought I remembered reading that they did not allow VPSes to be part of the pool because of the historical issues around VMs and timing, combined with the fact that the VPS operator could make host-level changes at any time that could impact the accuracy of the host. But now I'm not finding anything about that. Maybe they have enough monitoring and automation that running nptd on bare metal is not a strict requ...\nzodwick: One of those posts which truly hits you in the face and calls you an idiot for how much you don't know. Definitely a rabbit hole I'm going down this week. Thanks",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "31",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "automation"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "automation"
+      ],
+      "detail_slug": "e30fdffa27cd4f8b36dfd5378faba23d816a9563",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T19:11:50.210652+00:00"
+    },
+    {
+      "id": "af0bf66ad9036fc92b28e068935bc390cc057e62",
+      "title_hash": "136e17a23d62789a3b768f5a732000fcb50a1980",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Testing Terraform with AWS Emulator",
+      "link": "https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/",
+      "published_at": "2026-11-22T13:00:36+00:00",
+      "summary": "HN story type: story HN points: 22 HN comments: 3 HN top comments: 0xbadcafebee: The problem with testing with Terraform or any other tool is that the emulator won't accurately reflect real-world behavior. The real world services have a bunch of logic and code of them which isn't all replicated in the emulator. The only thing the emulator does is replicate the API. It's a bit like trying to build a model of a house by building the model to look like the outside of the house. Gives you an idea... whinvik: Nice. Now for GCP to also release such a tool",
+      "fetched_at": "2026-11-22T19:11:08.808040+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50599309",
+      "hn_story_type": "story",
+      "hn_points": "22",
+      "hn_comments_count": "3",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50599309",
+      "hn_item_text": "",
+      "hn_comment_preview": "0xbadcafebee: The problem with testing with Terraform or any other tool is that the emulator won't accurately reflect real-world behavior. The real world services have a bunch of logic and code of them which isn't all replicated in the emulator. The only thing the emulator does is replicate the API. It's a bit like trying to build a model of a house by building the model to look like the outside of the house. Gives you an idea...\nwhinvik: Nice. Now for GCP to also release such a tool",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=9,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 9,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api",
+        "testing"
+      ],
+      "detail_slug": "af0bf66ad9036fc92b28e068935bc390cc057e62",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T19:11:50.210652+00:00"
+    },
+    {
       "id": "082a1f3f90e21c27641a28690ab2f2c2cad0d128",
       "title_hash": "b2e83d3e5ff27d9b51f8a6ba6252a93e1424600d",
       "source": "GeekNews",
@@ -165423,508 +165917,6 @@
       "detail_slug": "f1eeb74643701bca0ce95899323fd89e0e8def21",
       "is_english_source": true,
       "sent_at": "2026-10-03T08:49:23.348171+00:00"
-    },
-    {
-      "id": "272ab90a9a8e8400a2e61a0305718959f2a8cc2e",
-      "title_hash": "5c77a61965e9e172fd51ea99eb1adc33b31a7b68",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Understanding Frontier Artificial Intelligence",
-      "link": "https://casp.ac/reports/intelligence-explosion",
-      "published_at": "2026-10-03T07:06:02+00:00",
-      "summary": "HN story type: story HN points: 22 HN comments: 8 HN top comments: lordnacho: At what point is human intelligence going to hold back machine intelligence? Imagine you are evaluating what the machine should do when it is improving itself. It does a bunch of work and returns with \"I supervaluated the liminal overdecomposition from the previous homological calibulation pass. It shows us that subtransitory mulutination will underspecify the tensor of stermullification. Where do you want to go f... sgt101: This is much better: https://www.rameznaam.com/p/471bbae4-1163-4048-944b-18f8b0bf... kennywinker: Color me skeptical. LLMs seem to make writing code faster, so of course that means that people can iterate on ideas faster, but I have yet to see actual creative output from an LLM that wasn't coached into it or random juxtaposition.",
-      "fetched_at": "2026-10-03T08:46:57.707413+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49942002",
-      "hn_story_type": "story",
-      "hn_points": "22",
-      "hn_comments_count": "8",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49942002",
-      "hn_item_text": "",
-      "hn_comment_preview": "lordnacho: At what point is human intelligence going to hold back machine intelligence? Imagine you are evaluating what the machine should do when it is improving itself. It does a bunch of work and returns with \"I supervaluated the liminal overdecomposition from the previous homological calibulation pass. It shows us that subtransitory mulutination will underspecify the tensor of stermullification. Where do you want to go f...\nsgt101: This is much better: https://www.rameznaam.com/p/471bbae4-1163-4048-944b-18f8b0bf...\nkennywinker: Color me skeptical. LLMs seem to make writing code faster, so of course that means that people can iterate on ideas faster, but I have yet to see actual creative output from an LLM that wasn't coached into it or random juxtaposition.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm"
-      ],
-      "detail_slug": "272ab90a9a8e8400a2e61a0305718959f2a8cc2e",
-      "is_english_source": true,
-      "sent_at": "2026-10-03T08:49:23.348171+00:00"
-    },
-    {
-      "id": "e7137b4b7409c58a95e8ae73f98aaf4818c99618",
-      "title_hash": "9ab1fddd4d2881118f26765dc393fd72e94af076",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "An Update on Orion for Linux and Windows",
-      "link": "https://blog.kagi.com/update-orion-linux-windows",
-      "published_at": "2026-10-03T04:53:57+00:00",
-      "summary": "HN story type: story HN points: 31 HN comments: 13 HN top comments: RandomGerm4n: I've never understood what niche Orion is supposed to fill. People who value privacy would be more likely to use an open-source browser. Firefox and Brave already serve that purpose. Maybe it's less important to Mac users, but on Linux, a proprietary browser is a major deal-breaker for most people. Plus, it's less convenient if the browser isn't simply included in the repository as a result. Orion should have been... petepete: So as a non-Apple-using Kagi subscriber since Beta, I kind of wish they'd just concentrate on search - the thing I'm paying for. Yes, it's good, and I'll keep using it for the foreseeable future, but it's not an unassailable lead. aucisson_masque: I found the move to release Orion on Linux and windows weird. If you were Google and you wanted to spread your search engine to the world, it would be fine but such a small company. And the market share would still have been abysmal on the platforms. Great thing that they release it before abandoning it, truely a great move ! And hopefully they keep making it better on macOS and iOS.",
-      "fetched_at": "2026-10-03T08:46:57.707413+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49941447",
-      "hn_story_type": "story",
-      "hn_points": "31",
-      "hn_comments_count": "13",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49941447",
-      "hn_item_text": "",
-      "hn_comment_preview": "RandomGerm4n: I've never understood what niche Orion is supposed to fill. People who value privacy would be more likely to use an open-source browser. Firefox and Brave already serve that purpose. Maybe it's less important to Mac users, but on Linux, a proprietary browser is a major deal-breaker for most people. Plus, it's less convenient if the browser isn't simply included in the repository as a result. Orion should have been...\npetepete: So as a non-Apple-using Kagi subscriber since Beta, I kind of wish they'd just concentrate on search - the thing I'm paying for. Yes, it's good, and I'll keep using it for the foreseeable future, but it's not an unassailable lead.\naucisson_masque: I found the move to release Orion on Linux and windows weird. If you were Google and you wanted to spread your search engine to the world, it would be fine but such a small company. And the market share would still have been abysmal on the platforms. Great thing that they release it before abandoning it, truely a great move ! And hopefully they keep making it better on macOS and iOS.",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "51",
-      "priority_signal": "slot=industry_business,boost=24,slot_score=27,practical_tech=4,tools_agents=-2,strategy_insight=4,industry_business=27",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": -2,
-        "strategy_insight": 4,
-        "industry_business": 27
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": -2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 27,
-          "strong_hits": [
-            "market share",
-            "release",
-            "deal"
-          ],
-          "support_hits": [
-            "platform",
-            "company",
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "market + share"
-          ],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "market share",
-        "release",
-        "deal",
-        "platform",
-        "company",
-        "market",
-        "market + share"
-      ],
-      "detail_slug": "e7137b4b7409c58a95e8ae73f98aaf4818c99618",
-      "is_english_source": true,
-      "sent_at": "2026-10-03T08:49:23.348171+00:00"
-    },
-    {
-      "id": "d23f8c74ec21b4f51b75481fc3a3bc9c23689017",
-      "title_hash": "78ce4fd212df1ba5bfd955aef36dc2d93f25ea80",
-      "source": "GeekNews",
-      "title": "Show GN: 가격 — 클립당 10원 최고의 쇼츠 편집 에이전트 쇼츠존",
-      "link": "https://news.hada.io/topic?id=34697",
-      "published_at": "2026-10-03T02:08:55+00:00",
-      "summary": "안녕하세요, 쇼츠존(Shorts Zone) 만들고 있는 있습니다. 롱폼 영상 하나 올리면 편집 에이전트가 통째로 다 보고, 어디를 잘라야 쇼츠가 되는지부터 자막·리프레이밍·타이틀까지 알아서 끝내주는 서비스예요. 지금까지 나온 쇼츠 자동화 툴들 여러 개 써봤는데 \"똑똑함\"과",
-      "fetched_at": "2026-10-03T04:37:19.963311+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "61",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=0,tools_agents=16,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 16,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "에이전트",
-            "자동화"
-          ],
-          "support_hits": [
-            "툴"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "자동화",
-        "툴"
-      ],
-      "detail_slug": "d23f8c74ec21b4f51b75481fc3a3bc9c23689017",
-      "is_english_source": false,
-      "sent_at": "2026-10-03T04:39:40.831813+00:00"
-    },
-    {
-      "id": "591b8b6bbae9c0f949c0d8c79467326caa2a45c8",
-      "title_hash": "c99a5c85d5388341c191fc9b864b777bc8c1924d",
-      "source": "GeekNews",
-      "title": "PicoMQ - S3 기반 실시간 데이터 스트림 서버",
-      "link": "https://news.hada.io/topic?id=34694",
-      "published_at": "2026-10-03T00:30:02+00:00",
-      "summary": "채팅, 기기 이벤트, 작업 이력과 에이전트 대화를 순서대로 저장하고 실시간으로 전달 하는 스트림 서버 읽던 위치부터 이어받거나 과거 기록을 다시 읽을 수 있어 실시간 구독과 이벤트 이력 보관에 활용 모든 레코드와 쓰기 복구 로그인 WAL을 S3 호환...",
-      "fetched_at": "2026-10-03T04:37:19.963311+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "591b8b6bbae9c0f949c0d8c79467326caa2a45c8",
-      "is_english_source": false,
-      "sent_at": "2026-10-03T04:39:40.831813+00:00"
-    },
-    {
-      "id": "c211300750b13e106afe819121a44e1e2b1f2fbd",
-      "title_hash": "adada72022a0920a9da3c24edca3efde88834c7f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Court agrees with EFF: Utah's VPN law demands a technical impossibility",
-      "link": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-      "published_at": "2026-10-01T22:23:07+00:00",
-      "summary": "HN story type: story HN points: 564 HN comments: 251 HN top comments: twiclo: I'm not looking to get into a debate on the law just curious why these websites can't force accounts for everyone just like the gambling sites do. SoftTalker: > platforms are left with an impossible choice: completely block all VPN traffic nationwide or withdraw access from Utah entirely Is it even possible to reliably know that a connection is from a VPN? Anyone can proxy through a random hosting provider. usernomdeguerre: >As we’ve said time and time again: the internet will always route around censorship. Is this still true, or has it become a truism? It seems nations like Iran and China (and events like Kashmir come to mind) have progressed the state-of-the-art and playbook to where we can't actually say it definitively will route around it. Now seeing that the US and EU are flirting with these similar restrictions it's making me...",
-      "fetched_at": "2026-10-03T04:37:19.963311+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49927754",
-      "hn_story_type": "story",
-      "hn_points": "564",
-      "hn_comments_count": "251",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49927754",
-      "hn_item_text": "",
-      "hn_comment_preview": "twiclo: I'm not looking to get into a debate on the law just curious why these websites can't force accounts for everyone just like the gambling sites do.\nSoftTalker: > platforms are left with an impossible choice: completely block all VPN traffic nationwide or withdraw access from Utah entirely Is it even possible to reliably know that a connection is from a VPN? Anyone can proxy through a random hosting provider.\nusernomdeguerre: >As we’ve said time and time again: the internet will always route around censorship. Is this still true, or has it become a truism? It seems nations like Iran and China (and events like Kashmir come to mind) have progressed the state-of-the-art and playbook to where we can't actually say it definitively will route around it. Now seeing that the US and EU are flirting with these similar restrictions it's making me...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=6,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 6,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "playbook",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "playbook",
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "playbook",
-        "ide"
-      ],
-      "detail_slug": "c211300750b13e106afe819121a44e1e2b1f2fbd",
-      "is_english_source": true,
-      "sent_at": "2026-10-03T04:39:40.831813+00:00"
-    },
-    {
-      "id": "18449347a529525e9dea1d438c9e0e5fdfbf0bb1",
-      "title_hash": "d76565e814ed793821dc0457ac32ff38a333b0bd",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Muse Gadgets",
-      "link": "https://gadgets.muse.ai",
-      "published_at": "2026-10-02T19:26:54+00:00",
-      "summary": "HN story type: story HN points: 158 HN comments: 75 HN top comments: belval: I'll go against the grain and say that I like this, I genuinely don't think this is anything but some internal team being excited about their product and giving you some firmware to connect stuff to their agents. Meta the trillion dollar company will not move at all from this. zmmmmm: The general theme of meta's approach across the board here is interesting - basically, they are trying to win in part by taking risks others aren't willing to. I can imagine they saw that all the success is coming so far when a someone is willing to cross a boundary that wasn't previously thought acceptable - from releasing ChatGPT in the first place, to things like OpenClaw. So now they are actively distributing... bartwr: I'm generally skeptical and critical of most things that Meta is doing (\"fool me once...\") and I definitely won't trust them enough to use their agents and give them any more data than I already do, but this is a super cute and fun idea! I love microcontrollers and DIY IoT as a hobby, a huge fan of ESP32s (so affordable and perfectly packaged in ready-to-use boards), and I can see how such easy, vibe-coded project...",
-      "fetched_at": "2026-10-03T04:37:19.963311+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49937504",
-      "hn_story_type": "story",
-      "hn_points": "158",
-      "hn_comments_count": "75",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49937504",
-      "hn_item_text": "",
-      "hn_comment_preview": "belval: I'll go against the grain and say that I like this, I genuinely don't think this is anything but some internal team being excited about their product and giving you some firmware to connect stuff to their agents. Meta the trillion dollar company will not move at all from this.\nzmmmmm: The general theme of meta's approach across the board here is interesting - basically, they are trying to win in part by taking risks others aren't willing to. I can imagine they saw that all the success is coming so far when a someone is willing to cross a boundary that wasn't previously thought acceptable - from releasing ChatGPT in the first place, to things like OpenClaw. So now they are actively distributing...\nbartwr: I'm generally skeptical and critical of most things that Meta is doing (\"fool me once...\") and I definitely won't trust them enough to use their agents and give them any more data than I already do, but this is a super cute and fun idea! I love microcontrollers and DIY IoT as a hobby, a huge fan of ESP32s (so affordable and perfectly packaged in ready-to-use boards), and I can see how such easy, vibe-coded project...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=9,strategy_insight=7,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 9,
-        "strategy_insight": 7,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust"
-      ],
-      "detail_slug": "18449347a529525e9dea1d438c9e0e5fdfbf0bb1",
-      "is_english_source": true,
-      "sent_at": "2026-10-03T04:39:40.831813+00:00"
     }
   ],
   "topic_digests": {
