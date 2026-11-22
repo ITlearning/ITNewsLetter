@@ -1,6 +1,570 @@
 {
   "items": [
     {
+      "id": "180c7ce2afa07792c80bcbdec05a69c60d5a6198",
+      "title_hash": "2393840acbfc5c6b91e1c6c6e92fc09004a4cfc0",
+      "source": "GeekNews",
+      "title": "결재 서류를 쌓아 두던 부장에서 보고받는 사장으로 – Claude Code 매니저 세션 만들기",
+      "link": "https://news.hada.io/topic?id=37609&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-22T04:52:21+00:00",
+      "summary": "Claude Code 세션 여러 개를 동시에 돌리며 모든 응답을 직접 읽고 결정하다 보니, 세션이 늘수록 읽을 양이 늘고 언제 어느 세션에 가야 하는지도 알기 어려워짐. 에디터 탭의 응답 표시는 \"서브에이전트 결과를 기다리는 중\" 같은 중간 보고에도 똑같이 켜짐. 에이전트는 사용자가 지금 맥락을 알고 있는지 모르므로 응답 길이를 지침으로 고정할 수 없음. 그래서 기본은 요점과 결정할 것만 받고, 필요할 때만 상세 설명 → 워커 세션 원문 순으로 내려가는 구조를 택함. 에이전트가 묻는 것 중 상당수는 합의된 계획의 다음 단계처럼 답이 정해진 질문이었음. 워커 지침에 \"이런 건 알아서 하라\"를 넣는 대신, 판단 권한을 별도의 매니저 세션에 둠(회사의 전결·결재 개념). 전결 / 사후 보고 / 결재(판단만 필요) / 결재(직접 지시 필요)로 나누고, 처음에는 \"전결했다면 이렇게 했을 것\"만 보고하는 수습 기간을 거쳐 신뢰가 쌓이는 만큼 전결 범위를 넓힘. …",
+      "fetched_at": "2026-11-22T06:56:08.906202+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=13,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 20,
+        "strategy_insight": 13,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 13,
+          "strong_hits": [
+            "판단",
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "180c7ce2afa07792c80bcbdec05a69c60d5a6198",
+      "is_english_source": false,
+      "sent_at": "2026-11-22T06:56:49.693918+00:00"
+    },
+    {
+      "id": "d493d6215eab58e62bbc67ff81186748c1edf862",
+      "title_hash": "acec371ce434fd2031ca52503bf8457277cede27",
+      "source": "GeekNews",
+      "title": "젠슨 황의 추락은 실리콘밸리 가속주의자들에게 악재임",
+      "link": "https://news.hada.io/topic?id=37608&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-22T04:36:58+00:00",
+      "summary": "Nvidia를 이끌던 젠슨 황의 사임 은 AI의 빠른 발전을 지지하는 실리콘밸리 가속주의 진영에 큰 타격임 가속주의자들 은 AI가 계속해서 매우 빠른 속도로 발전하기를 원함 황은 이 운동에서 가장 신뢰받는 대변인 이었으며, 가속주의 진영은 이미 수세에 몰려 있었음 사임 전 마지막 인터뷰들 중 하나에서 AI 발전 속도에 대한 불안을 부추기는 목소리를 “ 과도하게 공포를 조장한다 ”며 비판함 같은 인터뷰에서 AI 규제에 반대 하는 입장을 밝힘 가속주의 진영이 잃은 대변인 실리콘밸리의 가속주의자들 은 AI가 매우 빠른 속도로 계속 발전하 …",
+      "fetched_at": "2026-11-22T06:56:08.906202+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=-4,tools_agents=0,strategy_insight=8,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 0,
+        "strategy_insight": 8,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "규제"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "규제"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "규제"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "d493d6215eab58e62bbc67ff81186748c1edf862",
+      "is_english_source": false,
+      "sent_at": "2026-11-22T06:56:49.693918+00:00"
+    },
+    {
+      "id": "7f16260905d3157a7099c2532f9b08ce94e4687a",
+      "title_hash": "93f503e7e7189fef80fd0c75e8e0c683bd78add0",
+      "source": "GeekNews",
+      "title": "ClawDOS - DOS용 AI 코딩 에이전트",
+      "link": "https://news.hada.io/topic?id=37604&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-22T03:32:52+00:00",
+      "summary": "ClawDOS 는 4.77MHz 8088, RAM 640KB, CGA를 갖춘 IBM PC XT에서 실행되는 AI 코딩 에이전트로, Claude와 대화하며 파일 편집부터 프로그램 작성, 컴파일, 실행까지 수행함 176KB DOS 하네스 가 API 요청 생성, 스트리밍 응답 파싱, 도구 실행과 대화 저장을 직접 처리하며, 별도 PC는 TLS 연결을 중계함 컴파일할 때는 하네스가 상태를 저장하고 메모리에서 빠져나와 Turbo C에 약 450KB를 확보해 주며, 작업 후 같은 대화로 복귀해 실행 결과를 전달함 화면 캡처와 지속 메모리 를 지원해 실행 중인 프로그램의 CGA 화면을 Claude에 전달하 …",
+      "fetched_at": "2026-11-22T06:56:08.906202+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=5,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "7f16260905d3157a7099c2532f9b08ce94e4687a",
+      "is_english_source": false,
+      "sent_at": "2026-11-22T06:56:49.693918+00:00"
+    },
+    {
+      "id": "960c393571c9a1478e93d069cb4967043909abfe",
+      "title_hash": "191bc5abbbdc384e9e90fb0e16bb6f3e2a70e015",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "link": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "published_at": "2026-11-22T05:11:43+00:00",
+      "summary": "HN story type: story HN points: 4 HN comments: 0",
+      "fetched_at": "2026-11-22T06:56:08.906202+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50596511",
+      "hn_story_type": "story",
+      "hn_points": "4",
+      "hn_comments_count": "0",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50596511",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=2,industry_business=6",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 6
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "security",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "supply + chain"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "rag"
+      ],
+      "detail_slug": "960c393571c9a1478e93d069cb4967043909abfe",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T06:56:49.693918+00:00"
+    },
+    {
+      "id": "1ccb8b3777350abfe3728ce1ee0d6c1606b54a99",
+      "title_hash": "0fa1a2a2ad12351f6b5fb5ef88ecac1976b5eace",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Why there are still no non-WebKit browsers on iOS",
+      "link": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+      "published_at": "2026-11-20T15:03:31+00:00",
+      "summary": "HN story type: story HN points: 544 HN comments: 289 HN top comments: st3fan: You also cannot work on this outside of Europe. Developers have to use VPN or special networks to make iOS think they are in Europe. Otherwise you cannot build and run with a custom engine. It is completely bonkers. Apple is smart enough to just allow this world wide AND still make huge profits. spogbiper: Why is Apple so hell bent on preventing alternate browser engines in iOS? Is there a financial benefit for Apple in forcing their own engine on every user? At the surface level this just seems silly so I must be missing something. dadoum: There are non-WebKit browsers on iOS but they don't qualify for notarization: - Reynard: Gecko-based, iOS 13+, extension support https://github.com/minh-ton/reynard-browser - Blinker-Fluid: Chromium-based, iOS 12+, content blocker https://github.com/Nodesclock/Blinker-fluid I am guessing neither of them are relying on BrowserEngineKit nor following the safe programming guidelines Apple enforces for them to be dist...",
+      "fetched_at": "2026-11-22T06:56:08.906202+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50575644",
+      "hn_story_type": "story",
+      "hn_points": "544",
+      "hn_comments_count": "289",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50575644",
+      "hn_item_text": "",
+      "hn_comment_preview": "st3fan: You also cannot work on this outside of Europe. Developers have to use VPN or special networks to make iOS think they are in Europe. Otherwise you cannot build and run with a custom engine. It is completely bonkers. Apple is smart enough to just allow this world wide AND still make huge profits.\nspogbiper: Why is Apple so hell bent on preventing alternate browser engines in iOS? Is there a financial benefit for Apple in forcing their own engine on every user? At the surface level this just seems silly so I must be missing something.\ndadoum: There are non-WebKit browsers on iOS but they don't qualify for notarization: - Reynard: Gecko-based, iOS 13+, extension support https://github.com/minh-ton/reynard-browser - Blinker-Fluid: Chromium-based, iOS 12+, content blocker https://github.com/Nodesclock/Blinker-fluid I am guessing neither of them are relying on BrowserEngineKit nor following the safe programming guidelines Apple enforces for them to be dist...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=6,tools_agents=9,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 9,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "guide"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "extension"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "extension"
+      ],
+      "detail_slug": "1ccb8b3777350abfe3728ce1ee0d6c1606b54a99",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T06:56:49.693918+00:00"
+    },
+    {
+      "id": "a9e6933a03be68324779c0d30a21d4c65b9cdbd8",
+      "title_hash": "0bc6a3de6741b5d8ba6fb2c906b36eb5d0dc6dfd",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: The Riemann Proof Handbook",
+      "link": "https://github.com/tamnd/riemann-handbook",
+      "published_at": "2026-11-22T05:46:30+00:00",
+      "summary": "HN story type: story HN points: 6 HN comments: 0",
+      "fetched_at": "2026-11-22T06:56:08.906202+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50596664",
+      "hn_story_type": "story",
+      "hn_points": "6",
+      "hn_comments_count": "0",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50596664",
+      "hn_item_text": "",
+      "hn_comment_preview": "",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=5,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 5,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "show hn",
+        "github.com"
+      ],
+      "detail_slug": "a9e6933a03be68324779c0d30a21d4c65b9cdbd8",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T06:56:49.693918+00:00"
+    },
+    {
+      "id": "e8eae0f5baf95f5b15ce838a14810e60683946c8",
+      "title_hash": "8c57a2d5c778f40e6464de8a40b2b4ff73a9c071",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The Most Popular Car Colors in America",
+      "link": "https://www.iseecars.com/most-popular-car-colors-study",
+      "published_at": "2026-11-22T02:47:18+00:00",
+      "summary": "HN story type: story HN points: 22 HN comments: 36 HN top comments: uptrails: None of the past four cars I purchased had a color I liked. Either the factory options were limited, or all they actually had in stock was white, gray-gray, dark-gray, and pale-blue-gray. I wonder if this is what most customers want or if it's what they're least likely to hate (i.e., no one loves the colors, but no one will walk away because they don't like the color that's in stock). I suspect it's the latter. nine_k: If I had to buy a car, I would pick the white color, purely for practical reasons. * Slowest to heat up in the sun. * Best visible in the night. * Fairly well visible on most natural and artificial backgrounds, except snow. * Every repair shop has matching paint. * Something something resale value, but I won't care much. This applies to living in Northeast US; maybe if I lived in Alaska, or Alberta, Canada, or in... gangstead: The article shows a lot of data but doesn’t offer any explanation of whether this is driven by supply or demand. Car makers seem to prefer making as few colors as possible. Are they offering/building fewer colors? Car buyers I guess aren’t willing to pay extra for color so they just choose from the bland options available.",
+      "fetched_at": "2026-11-22T06:56:08.906202+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50595725",
+      "hn_story_type": "story",
+      "hn_points": "22",
+      "hn_comments_count": "36",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50595725",
+      "hn_item_text": "",
+      "hn_comment_preview": "uptrails: None of the past four cars I purchased had a color I liked. Either the factory options were limited, or all they actually had in stock was white, gray-gray, dark-gray, and pale-blue-gray. I wonder if this is what most customers want or if it's what they're least likely to hate (i.e., no one loves the colors, but no one will walk away because they don't like the color that's in stock). I suspect it's the latter.\nnine_k: If I had to buy a car, I would pick the white color, purely for practical reasons. * Slowest to heat up in the sun. * Best visible in the night. * Fairly well visible on most natural and artificial backgrounds, except snow. * Every repair shop has matching paint. * Something something resale value, but I won't care much. This applies to living in Northeast US; maybe if I lived in Alaska, or Alberta, Canada, or in...\ngangstead: The article shows a lot of data but doesn’t offer any explanation of whether this is driven by supply or demand. Car makers seem to prefer making as few colors as possible. Are they offering/building fewer colors? Car buyers I guess aren’t willing to pay extra for color so they just choose from the bland options available.",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "29",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=5,practical_tech=4,tools_agents=2,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "customers"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "customers"
+      ],
+      "detail_slug": "e8eae0f5baf95f5b15ce838a14810e60683946c8",
+      "is_english_source": true,
+      "sent_at": "2026-11-22T06:56:49.693918+00:00"
+    },
+    {
       "id": "282ba9f253a3722a7c98a741241a8029dfe41b24",
       "title_hash": "e6883aa82de030c76756bbcfa1fe078c10028fb3",
       "source": "GeekNews",
@@ -165358,572 +165922,6 @@
       "detail_slug": "ea59d9303f7239cd5580ced40e884a89ca24957a",
       "is_english_source": true,
       "sent_at": "2026-10-02T20:20:29.622232+00:00"
-    },
-    {
-      "id": "9f440892723fa1c8234b20cdb2d758c77a1aaffa",
-      "title_hash": "a3b9ee753cecf6b706713e3b58c61c9cc4c9d696",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Our Project Suncatcher prototype satellite is in orbit",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/",
-      "published_at": "2026-10-02T11:13:02+00:00",
-      "summary": "HN story type: story HN points: 27 HN comments: 24 HN top comments: dang: Recent and related: Google's first Suncatcher orbital data center test launches October 1 - https://news.ycombinator.com/item?id=49837350 - Sept 2026 (96 comments) Google’s Project Suncatcher to put ML infrastructure in space - https://news.ycombinator.com/item?id=49830606 - Sept 2026 (551 comments) andyjohnson0: The usp of data centres in space is extraterritoriality. That's all it is. dgellow: Cool, we will finally have actual data to see if that’s possible or not. My understanding is that doing compute in space for ML is pretty absurd, but the discussion will be way more interesting with real numbers. I still think it’s mostly a way to put pressure on politicians, « you either give us tax cut, fast tracked permits, and let us do what we want with the land or we go to space and you get no benefits »",
-      "fetched_at": "2026-10-02T20:18:03.376278+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49932191",
-      "hn_story_type": "story",
-      "hn_points": "27",
-      "hn_comments_count": "24",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49932191",
-      "hn_item_text": "",
-      "hn_comment_preview": "dang: Recent and related: Google's first Suncatcher orbital data center test launches October 1 - https://news.ycombinator.com/item?id=49837350 - Sept 2026 (96 comments) Google’s Project Suncatcher to put ML infrastructure in space - https://news.ycombinator.com/item?id=49830606 - Sept 2026 (551 comments)\nandyjohnson0: The usp of data centres in space is extraterritoriality. That's all it is.\ndgellow: Cool, we will finally have actual data to see if that’s possible or not. My understanding is that doing compute in space for ML is pretty absurd, but the discussion will be way more interesting with real numbers. I still think it’s mostly a way to put pressure on politicians, « you either give us tax cut, fast tracked permits, and let us do what we want with the land or we go to space and you get no benefits »",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "29",
-      "priority_signal": "slot=industry_business,boost=24,slot_score=5,practical_tech=4,tools_agents=2,strategy_insight=0,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 2,
-        "strategy_insight": 0,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [
-            "launches"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "launches"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "launches"
-      ],
-      "detail_slug": "9f440892723fa1c8234b20cdb2d758c77a1aaffa",
-      "is_english_source": true,
-      "sent_at": "2026-10-02T20:20:29.622232+00:00"
-    },
-    {
-      "id": "884d1f39ab65ec30d5256e22860a868beb045482",
-      "title_hash": "1c8ac1b15c7808235e926301000f6a51e15e423d",
-      "source": "GeekNews",
-      "title": "Show GN: oh-my-jev - Jev-Style 판단 모델을 벤치마크하고 테스트하고 직접 파인튜닝까지 가능한 오픈소스 도구",
-      "link": "https://news.hada.io/topic?id=34649",
-      "published_at": "2026-10-02T00:56:22+00:00",
-      "summary": "소개 판단 모델이란 \"어느 팀으로 보낼까\", \"규정 위반인가\" 같은 정해진 질문에 문장 대신 선택지별 확률로 답하는 모델임. TypeSafe의 Jev가 대표적이고, 공개 이후 오픈 복제 모델이 빠르게 늘어남 oh-my-jev는 이런 모델을 한곳에서 서빙, 비교, 학습하는 CLI와 웹 UI",
-      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cli"
-      ],
-      "detail_slug": "884d1f39ab65ec30d5256e22860a868beb045482",
-      "is_english_source": false,
-      "sent_at": "2026-10-02T16:11:01.697483+00:00"
-    },
-    {
-      "id": "3e8cc7dbd5e9c070ae03a29fdab02fcb8f20dd23",
-      "title_hash": "348dfc2e897d2a8dd951620270c6fd81a15b6d03",
-      "source": "GeekNews",
-      "title": "컨텍스트 언어 모델",
-      "link": "https://news.hada.io/topic?id=34653",
-      "published_at": "2026-10-02T04:35:24+00:00",
-      "summary": "Context Language Models(CLMs) 는 현재 컨텍스트를 파일로 취급하고 모델이 직접 편집하도록 해, 외부 하네스에 고정된 관리 전략 대신 필요한 정보를 스스로 유지하고 갱신함 기존 모델에 추가 학습 없이 적용한 CLM은 BrowseComp-Plus 에서 가장 강력한 비교 방법...",
-      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "50",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "전략"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "전략"
-      ],
-      "detail_slug": "3e8cc7dbd5e9c070ae03a29fdab02fcb8f20dd23",
-      "is_english_source": false,
-      "sent_at": "2026-10-02T16:11:01.697483+00:00"
-    },
-    {
-      "id": "4d17f1d4bf5612772a1d479392c7a99359910e79",
-      "title_hash": "e0eae38ea1943810a054142bcedd2742beef7742",
-      "source": "GeekNews",
-      "title": "터보 하스켈(Turbo Haskell)",
-      "link": "https://news.hada.io/topic?id=34669",
-      "published_at": "2026-10-02T12:33:48+00:00",
-      "summary": "THC 는 GHC가 최적화한 Core를 자체 Truffle/GraalVM 런타임에서 컴파일하고 실행해, Haskell을 JVM에서 구동하는 JIT 컴파일러임 GHC 9.14.1의 모든 prim-op 과 Template Haskell, Linear Haskell을 지원하며, Native Image 기반 AOT 컴파일 로 GHC...",
-      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=6,practical_tech=0,tools_agents=6,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 6,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "template"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "template"
-      ],
-      "detail_slug": "4d17f1d4bf5612772a1d479392c7a99359910e79",
-      "is_english_source": false,
-      "sent_at": "2026-10-02T16:11:01.697483+00:00"
-    },
-    {
-      "id": "21209a677e1b107d08680cfbfef7037e405a8711",
-      "title_hash": "a5f60d219faa8d5f094ad7c722cfb5ceba317b66",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Big Tech ruined the cloud, so we're renaming ours",
-      "link": "https://www.home-assistant.io/blog/2026/10/02/big-tech-ruined-the-cloud-so-were-renaming-ours/",
-      "published_at": "2026-10-02T14:57:22+00:00",
-      "summary": "HN story type: story HN points: 135 HN comments: 46 HN top comments: benabus: I feel like Cloud means something now, and as part of the general lexicon, it's okay to use it for what it means. At this point, Cloud kind of means that it's a service hosted somewhere on the Internet, that you don't control directly, usually that you pay for. Sounds like they're still doing that. Changing the name to distance yourself from AWS and Google Cloud is fine, but \"Link\" doesn't really tell you anything... voidnullvalue: Nabu Kasa keeps ignoring the elephant in the room of security and permissions. They have no native ability to set user groups and permissions. I guess it doesn't sell cloud subscriptions. I cant keep my children from affecting devices they shouldn't. I ended up replacing my automation with mqtt paimapi: I'll wait for someone to do a network call audit before I trust something like this I've been working on a small project running mitmproxy on a lot of 'privacy-focused' baby-tracking apps and only one of the ones I've tested doesn't send back a bevy of analytics data (none of which they openly promise to anonymize) some of the worst culprits had things like the Facebook SDK and Google Ads installed and sending dat...",
-      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49934228",
-      "hn_story_type": "story",
-      "hn_points": "135",
-      "hn_comments_count": "46",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49934228",
-      "hn_item_text": "",
-      "hn_comment_preview": "benabus: I feel like Cloud means something now, and as part of the general lexicon, it's okay to use it for what it means. At this point, Cloud kind of means that it's a service hosted somewhere on the Internet, that you don't control directly, usually that you pay for. Sounds like they're still doing that. Changing the name to distance yourself from AWS and Google Cloud is fine, but \"Link\" doesn't really tell you anything...\nvoidnullvalue: Nabu Kasa keeps ignoring the elephant in the room of security and permissions. They have no native ability to set user groups and permissions. I guess it doesn't sell cloud subscriptions. I cant keep my children from affecting devices they shouldn't. I ended up replacing my automation with mqtt\npaimapi: I'll wait for someone to do a network call audit before I trust something like this I've been working on a small project running mitmproxy on a lot of 'privacy-focused' baby-tracking apps and only one of the ones I've tested doesn't send back a bevy of analytics data (none of which they openly promise to anonymize) some of the worst culprits had things like the Facebook SDK and Google Ads installed and sending dat...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=7,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 24,
-        "tools_agents": 7,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 24,
-          "strong_hits": [
-            "security",
-            "rust",
-            "sdk",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "automation"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "rust",
-        "sdk",
-        "api"
-      ],
-      "detail_slug": "21209a677e1b107d08680cfbfef7037e405a8711",
-      "is_english_source": true,
-      "sent_at": "2026-10-02T16:11:01.697483+00:00"
-    },
-    {
-      "id": "873d9ad3a36dfc5466fe21dd4f71629c040e0479",
-      "title_hash": "847a39713f0e9176513a7a18f7f0bdc05aa0f865",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The Four Horsemen of Agentic Coding",
-      "link": "https://distantprovince.substack.com/p/the-four-horsemen-of-agentic-coding",
-      "published_at": "2026-10-02T15:19:56+00:00",
-      "summary": "HN story type: story HN points: 12 HN comments: 1 HN top comments: JV00: Disagree on the slop point. By now the code of frontier models works well, and the need to read it is gone. The Claude word salad problem was pretty much solved with the 5.5 opus release. The other 3 points made in article make sense though.",
-      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49934511",
-      "hn_story_type": "story",
-      "hn_points": "12",
-      "hn_comments_count": "1",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49934511",
-      "hn_item_text": "",
-      "hn_comment_preview": "JV00: Disagree on the slop point. By now the code of frontier models works well, and the need to read it is gone. The Claude word salad problem was pretty much solved with the 5.5 opus release. The other 3 points made in article make sense though.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=4,tools_agents=15,strategy_insight=5,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 15,
-        "strategy_insight": 5,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "agentic"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "substack.com"
-          ]
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "agentic",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "873d9ad3a36dfc5466fe21dd4f71629c040e0479",
-      "is_english_source": true,
-      "sent_at": "2026-10-02T16:11:01.697483+00:00"
-    },
-    {
-      "id": "e1922af2846db5da07119893b3d5d00cc0858d77",
-      "title_hash": "f6926c49b040b26e4ee86f5d8665c80939e69179",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
-      "link": "https://blog.cloudflare.com/clef-decision-models/",
-      "published_at": "2026-10-01T16:18:57+00:00",
-      "summary": "HN story type: story HN points: 581 HN comments: 210 HN top comments: djray: Unrelated to the subject matter, but something that I never fail to appreciate is just how well-written the majority of Cloudflare's posts are. (There was an article on Merkle Tree Certificates which was phenomenal.) There is real skill in creating an informative work which condenses complex technical subject matter into something that a technically-inclined non-expert can understand. manlymuppet: Am I hearing this right, that they made a decision model based on Typesafe's new paradigm, and actually made a model better than Jev based on Typesafe's own ranking? And it's only been a few weeks. dgacmu: Since it supports vision, I tested it (an 8 bit quant) against one of my pet problems of coin classification (US coins, but not beauty shots of them, just lots of cell phone images on a piece of paper). It did .. horribly. About 41% accuracy. My local gemma4:27b gets 53% and runs 4x faster. Not too surprising but seemed worth poking at it.",
-      "fetched_at": "2026-10-02T16:08:45.701415+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49923692",
-      "hn_story_type": "story",
-      "hn_points": "581",
-      "hn_comments_count": "210",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49923692",
-      "hn_item_text": "",
-      "hn_comment_preview": "djray: Unrelated to the subject matter, but something that I never fail to appreciate is just how well-written the majority of Cloudflare's posts are. (There was an article on Merkle Tree Certificates which was phenomenal.) There is real skill in creating an informative work which condenses complex technical subject matter into something that a technically-inclined non-expert can understand.\nmanlymuppet: Am I hearing this right, that they made a decision model based on Typesafe's new paradigm, and actually made a model better than Jev based on Typesafe's own ranking? And it's only been a few weeks.\ndgacmu: Since it supports vision, I tested it (an 8 bit quant) against one of my pet problems of coin classification (US coins, but not beauty shots of them, just lots of cell phone images on a piece of paper). It did .. horribly. About 41% accuracy. My local gemma4:27b gets 53% and runs 4x faster. Not too surprising but seemed worth poking at it.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "34",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=10,practical_tech=10,tools_agents=9,strategy_insight=7,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 10,
-        "tools_agents": 9,
-        "strategy_insight": 7,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + run"
-          ],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "cli"
-          ],
-          "support_hits": [
-            "local"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "platform"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "local + run"
-      ],
-      "detail_slug": "e1922af2846db5da07119893b3d5d00cc0858d77",
-      "is_english_source": true,
-      "sent_at": "2026-10-02T16:11:01.697483+00:00"
     }
   ],
   "topic_digests": {
