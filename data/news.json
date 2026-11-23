@@ -1,6 +1,579 @@
 {
   "items": [
     {
+      "id": "5a6795de72ac28eec6fcd53ff7b6e4855951c6f3",
+      "title_hash": "8c5d21c0dcf21a7348b814efb9977a3b9c9a90f6",
+      "source": "GeekNews",
+      "title": "SSH 키를 디스크에 보관하지 말자",
+      "link": "https://news.hada.io/topic?id=37734&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-23T22:32:46+00:00",
+      "summary": "비밀번호 관리자에 백업해 두더라도 디스크에 남아 있는 SSH 개인 키 는 악성 코드의 디스크 스캔으로 유출될 수 있음 Bitwarden SSH 에이전트 로 키를 사용하도록 전환하면, 비밀번호 관리자에 보관한 키를 활용하면서 디스크의 개인 키 파일을 삭제할 수 있음 ssh 의 IdentityAgent 와 터미널의 SSH_AUTH_SOCK 을 설정해 SSH 명령과 관련 도구가 Bitwarden 에이전트를 사용하도록 연결함 최신 Git의 SSH 키 기반 커밋 서명 도 함께 설정했으며, 서명 전용 키를 분리해 커밋 생성과 저장소 푸시에 서로 다른 키를 사용함 몇 주간의 개인 사용 …",
+      "fetched_at": "2026-11-23T23:45:57.869849+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "61",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=2,tools_agents=16,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 16,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "에이전트",
+            "ide"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "ide",
+        "agent"
+      ],
+      "detail_slug": "5a6795de72ac28eec6fcd53ff7b6e4855951c6f3",
+      "is_english_source": false,
+      "sent_at": "2026-11-23T23:46:44.255275+00:00"
+    },
+    {
+      "id": "b3f8b5f72b769469f28b826192a91dc3844c0562",
+      "title_hash": "e3e50b862053ad62674d902444ff9a1bd214e7e1",
+      "source": "GeekNews",
+      "title": "Show GN: WebDecoy Node SDK - Node.js에서 봇 탐지 규칙을 로컬로 검증",
+      "link": "https://news.hada.io/topic?id=37730&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-23T20:29:12+00:00",
+      "summary": "WebDecoy 팀에서 만든 MIT 라이선스 TypeScript SDK입니다. Express 예제에서 정상 요청과 테스트용 경로 요청을 비교해, 차단을 켜기 전에 로컬 규칙이 어디에 반응하는지 확인할 수 있습니다. v0.29.0을 Node.js v26.5.0에서 확인했습니다. 정상 경로는 두 모드에서 모두 통과했습니다. 테스트용 경로는 두 모드에서 같은 차단 판정을 받았지만, 모니터 모드에서는 핸들러가 실행되어 200을 반환했고 차단 모드에서는 SDK가 403을 반환했습니다. 브라우저에서 실행하는 Express 예제 (계정과 API 키 불필요): https://stackblitz.com/github/WebDecoy/node/tree/main/playgrounds/express?file=app.mjs …",
+      "fetched_at": "2026-11-23T23:45:57.869849+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=15,practical_tech=15,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "typescript",
+            "sdk",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "typescript",
+        "sdk",
+        "api"
+      ],
+      "detail_slug": "b3f8b5f72b769469f28b826192a91dc3844c0562",
+      "is_english_source": false,
+      "sent_at": "2026-11-23T23:46:44.255275+00:00"
+    },
+    {
+      "id": "baa184fd9b611b6d42567da627b30481657e5b81",
+      "title_hash": "178bee7d3f96586b62122b62bc4d194e47d46742",
+      "source": "GeekNews",
+      "title": "보안 지옥의 다음 단계",
+      "link": "https://news.hada.io/topic?id=37719&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-23T15:32:32+00:00",
+      "summary": "AI를 활용한 취약점 보고가 쏟아져도, 실제 위험을 판단하고 패치를 검증하는 일은 유지관리자에게 남음 . 무효한 신고를 걸러낸 뒤에도 수정의 타당성과 기존 기능이 깨지지 않는지 확인해야 해 부담이 커짐 ReDoS 같은 성능 버그 가 실제 취약점인지는 공격 경로와 소프트웨어 사용 방식에 달려 있으며, 이를 판단하려면 상당한 전문 지식이 필요함 CVE와 보안 스캐너 는 실제 영향의 차이를 충분히 반영하지 못해, 영향을 받지 않는 패키지에도 불필요한 보안 업데이트나 버전 변경을 유발함 많은 프로젝트가 LTS나 보안 브랜치 를 갖추지 …",
+      "fetched_at": "2026-11-23T23:45:57.869849+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단"
+      ],
+      "detail_slug": "baa184fd9b611b6d42567da627b30481657e5b81",
+      "is_english_source": false,
+      "sent_at": "2026-11-23T23:46:44.255275+00:00"
+    },
+    {
+      "id": "af26c8d6c6837c66da6e9896141f0e0df5e3c9b0",
+      "title_hash": "a8ef6a33d5756233a4d64b1fc9922cd041430121",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+      "link": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+      "published_at": "2026-11-23T13:42:38+00:00",
+      "summary": "HN story type: story HN points: 106 HN comments: 20 HN post text: We built NariQ: 3-bit-or-lower quantizations of Qwen3.8-27B that retain near-BF16 quality across agentic tasks, math, multilingual reasoning, and image understanding. To our knowledge, this is the first 3-bit-or-lower quantization that retains BF16 lvl performance on long-horizon agentic tasks. Benchmarks (BF16 / 3-bit / 2.5-bit / 2-bit): - DeepSWE: 39.8 / 41.0 / 41.9 / 28.6 - Terminal-Bench 2.1: 62.6 / 63.8 / 60.2 / 52.4 - AIME 25+26: 97.7 / 98.3 / 96.5 / 86.0 - MSGM: 94.0 / 93.1 / 91.8 / 90.6 - RealWorldQA: 82.4 / 82.4 / 81.3 / 80.9 Decode speed is comparable to other quants on an RTX PRO 6000. Context-length results below (3-bit / 2.5-bit / 2-bit / Unsloth UD-IQ3_XXS): - 4K: 88.9 / 99.2 / 111.7 / 94.7 - 16K: 84.5 / 93.8 / 105.1 / 89.8 - 64K: 70.7 / 77.5 / 85.0 / 74.8 Running these currently require our llama.cpp fork: ( https://github.com/nari-labs/nari-llama.cpp ) Feedback and questions welcome. We'd love to hear how these perform on your workloads. HN top comments: rao-v: I've been skeptical of these high compute QAT style quant efforts because they tend to over optimize on benchmark-like datasets, so in real usage they don't quite deliver the \"almost as good\" guarentee the benchmark comparisions suggest. This project actually does the sort of basic checks I want (and typically don't get)! They show results on multiple types of long horizon tasks (not just coding etc.) and even use... jedbrooke: > Apple M-series (Metal): build from source; on an M3 Pro (18 GB) decode is about 3.8 tok/s with the 3.0bpw file (4.9 with 2.0bpw), far slower than CUDA. Other Macs are untested. I wonder if it would be possible to squeeze it into a 16GB mac. Comparisons to Bonsai 2 27B would be useful too. Qwen 3.8 27B has truly been such a gift to the self hosted model landscape. “normie” hardware like a 16GB macbook being able... hugmynutus: The fact the control model performed *that much better* in your harness compared to unsloth is fairly concerning. As it greatly undermines your point about the model. Interesting approach nevertheless.",
+      "fetched_at": "2026-11-23T23:45:57.869849+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50611402",
+      "hn_story_type": "story",
+      "hn_points": "106",
+      "hn_comments_count": "20",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50611402",
+      "hn_item_text": "We built NariQ: 3-bit-or-lower quantizations of Qwen3.8-27B that retain near-BF16 quality across agentic tasks, math, multilingual reasoning, and image understanding. To our knowledge, this is the first 3-bit-or-lower quantization that retains BF16 lvl performance on long-horizon agentic tasks. Benchmarks (BF16 / 3-bit / 2.5-bit / 2-bit): - DeepSWE: 39.8 / 41.0 / 41.9 / 28.6 - Terminal-Bench 2.1: 62.6 / 63.8 / 60.2 / 52.4 - AIME 25+26: 97.7 / 98.3 / 96.5 / 86.0 - MSGM: 94.0 / 93.1 / 91.8 / 90.6 - RealWorldQA: 82.4 / 82.4 / 81.3 / 80.9 Decode speed is comparable to other quants on an RTX PRO 6000. Context-length results below (3-bit / 2.5-bit / 2-bit / Unsloth UD-IQ3_XXS): - 4K: 88.9 / 99.2 / 111.7 / 94.7 - 16K: 84.5 / 93.8 / 105.1 / 89.8 - 64K: 70.7 / 77.5 / 85.0 / 74.8 Running these currently require our llama.cpp fork: ( https://github.com/nari-labs/nari-llama.cpp ) Feedback and questions welcome. We'd love to hear how these perform on your workloads.",
+      "hn_comment_preview": "rao-v: I've been skeptical of these high compute QAT style quant efforts because they tend to over optimize on benchmark-like datasets, so in real usage they don't quite deliver the \"almost as good\" guarentee the benchmark comparisions suggest. This project actually does the sort of basic checks I want (and typically don't get)! They show results on multiple types of long horizon tasks (not just coding etc.) and even use...\njedbrooke: > Apple M-series (Metal): build from source; on an M3 Pro (18 GB) decode is about 3.8 tok/s with the 3.0bpw file (4.9 with 2.0bpw), far slower than CUDA. Other Macs are untested. I wonder if it would be possible to squeeze it into a 16GB mac. Comparisons to Bonsai 2 27B would be useful too. Qwen 3.8 27B has truly been such a gift to the self hosted model landscape. “normie” hardware like a 16GB macbook being able...\nhugmynutus: The fact the control model performed *that much better* in your harness compared to unsloth is fairly concerning. As it greatly undermines your point about the model. Interesting approach nevertheless.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "39",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=14,tools_agents=15,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 15,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "performance",
+            "benchmark"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 15,
+          "strong_hits": [
+            "agentic"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "agentic",
+        "agent",
+        "ai + coding"
+      ],
+      "detail_slug": "af26c8d6c6837c66da6e9896141f0e0df5e3c9b0",
+      "is_english_source": true,
+      "sent_at": "2026-11-23T23:46:44.255275+00:00"
+    },
+    {
+      "id": "0ca718c6204c9c00f5a56756c1bc9562586c4eb3",
+      "title_hash": "2afa8b6fa0fbef5c3c933170d045b362ae45f014",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
+      "link": "https://stalw.art/blog/microsoft-exchange-replacement/",
+      "published_at": "2026-11-23T22:32:29+00:00",
+      "summary": "HN story type: story HN points: 75 HN comments: 34 HN top comments: andreashaerter: The lock-in effect is inherent to the protocol and the clients. Furthermore, supporting MAPI and similar standards merely buys time and saves on licensing costs when your target is OSS. While I recognize the practical benefit for an administrator, in my view, anything that expands the protocol stack surrounding Microsoft email ultimately does a disservice to the remainder of the still-existing, open email ecosystem. Bender: Will Stalwart always have a free/community version? I ask because long ago a company formerly named Stalker had a free version of a decent mail server called Communigate that was free to use for a small number of clients. The unlicensed version added an email footer advertisement. It was a decent mail server for its time but their rug pull encouraged people to create and distribute license key generators. 999900000999: Very strange. My QA background is saying no. Don’t use janky Exchange if you need Exchange. Whoever makes the call to switch to this is going to get fired the moment emails don’t get delivered. Even if it’s not Stalwart’s fault. The risk to reward is too much. Do no quality FOSS solutions exist for email ?",
+      "fetched_at": "2026-11-23T23:45:57.869849+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50620349",
+      "hn_story_type": "story",
+      "hn_points": "75",
+      "hn_comments_count": "34",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50620349",
+      "hn_item_text": "",
+      "hn_comment_preview": "andreashaerter: The lock-in effect is inherent to the protocol and the clients. Furthermore, supporting MAPI and similar standards merely buys time and saves on licensing costs when your target is OSS. While I recognize the practical benefit for an administrator, in my view, anything that expands the protocol stack surrounding Microsoft email ultimately does a disservice to the remainder of the still-existing, open email ecosystem.\nBender: Will Stalwart always have a free/community version? I ask because long ago a company formerly named Stalker had a free version of a decent mail server called Communigate that was free to use for a small number of clients. The unlicensed version added an email footer advertisement. It was a decent mail server for its time but their rug pull encouraged people to create and distribute license key generators.\n999900000999: Very strange. My QA background is saying no. Don’t use janky Exchange if you need Exchange. Whoever makes the call to switch to this is going to get fired the moment emails don’t get delivered. Even if it’s not Stalwart’s fault. The risk to reward is too much. Do no quality FOSS solutions exist for email ?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "api",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "api",
+        "rag"
+      ],
+      "detail_slug": "0ca718c6204c9c00f5a56756c1bc9562586c4eb3",
+      "is_english_source": true,
+      "sent_at": "2026-11-23T23:46:44.255275+00:00"
+    },
+    {
+      "id": "d2ca8eeb78db133771c70df1cad63cee00765df8",
+      "title_hash": "b1664ccf479c9b5335bd340df26c2a74b0c11f48",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Ladybird is now in alpha",
+      "link": "https://ladybird.org/posts/alpha/",
+      "published_at": "2026-11-23T16:13:12+00:00",
+      "summary": "HN story type: story HN points: 1288 HN comments: 311 HN top comments: alentred: I am seriously impressed, BRAVO for this! I have tried a few websites that I considered tricky (from overloaded news websites to some more esoteric like ProxMox) and all seems to be in order. I am seriously impressed by the latter, I honestly didn't expect NoVNC [web view for remote virtual display] to be even snappier than it is in Firefox. I don't know of course if this ever becomes my daily driver, but I am sur... freakynit: This actually worked amazingly well. I tested a lot of sites.. a few that were already opened in my firefox, and a few many others.. Every single one of them rendered correctly. This is truly amazing.. a new browser written from scratch that actually works! The only minor issue: page scrolling is a bit jerky.. not much.. just a little bit.. it's noticeable. A huge lots of congratulations to the Ladybird team. What... kvuj: Ladybird ditching a bunch of self developed libraries for production grade ones (like sqlite or skia) helped them immensely improve their browser. But I can't help but feel nostalgic at the original hacker spirit of LB+SerenityOS.",
+      "fetched_at": "2026-11-23T23:45:57.869849+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50614249",
+      "hn_story_type": "story",
+      "hn_points": "1288",
+      "hn_comments_count": "311",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50614249",
+      "hn_item_text": "",
+      "hn_comment_preview": "alentred: I am seriously impressed, BRAVO for this! I have tried a few websites that I considered tricky (from overloaded news websites to some more esoteric like ProxMox) and all seems to be in order. I am seriously impressed by the latter, I honestly didn't expect NoVNC [web view for remote virtual display] to be even snappier than it is in Firefox. I don't know of course if this ever becomes my daily driver, but I am sur...\nfreakynit: This actually worked amazingly well. I tested a lot of sites.. a few that were already opened in my firefox, and a few many others.. Every single one of them rendered correctly. This is truly amazing.. a new browser written from scratch that actually works! The only minor issue: page scrolling is a bit jerky.. not much.. just a little bit.. it's noticeable. A huge lots of congratulations to the Ladybird team. What...\nkvuj: Ladybird ditching a bunch of self developed libraries for production grade ones (like sqlite or skia) helped them immensely improve their browser. But I can't help but feel nostalgic at the original hacker spirit of LB+SerenityOS.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "production",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "production",
+        "sql"
+      ],
+      "detail_slug": "d2ca8eeb78db133771c70df1cad63cee00765df8",
+      "is_english_source": true,
+      "sent_at": "2026-11-23T23:46:44.255275+00:00"
+    },
+    {
+      "id": "0ed11d7acb158ce93dec1dad79b439b0353833a6",
+      "title_hash": "cafd6d64c5f9cb476cdeafd47373420a867b6169",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "What does it mean to understand what we built?",
+      "link": "https://brooker.co.za/blog/2026/11/16/understanding.html",
+      "published_at": "2026-11-22T01:34:57+00:00",
+      "summary": "HN story type: story HN points: 16 HN comments: 4 HN top comments: sandinmyjoints: I have been doing some research on different kinds of understanding. Language learning has notions of receptive vs. productive knowledge. Receptive knowledge lets someone read or listen and understand. Productive knowledge lets them speak or write. Learners can typically understand far more than they can produce. Memory psychology has recognition vs. recall. Recognition means identifying the right answer when it's... discreteevent: > I believe that the goal of understanding code is, longer-term, holding us back from understanding what matters. And then goes on to say that understanding needs to be redefined as things like \"makes the users life better\" That's not understanding. You're in AI. You've won the world. Why can't you be happy with that? Stop fucking around with language in an effort to corral even more of it and so make it useless t...",
+      "fetched_at": "2026-11-23T23:45:57.869849+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50595365",
+      "hn_story_type": "story",
+      "hn_points": "16",
+      "hn_comments_count": "4",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50595365",
+      "hn_item_text": "",
+      "hn_comment_preview": "sandinmyjoints: I have been doing some research on different kinds of understanding. Language learning has notions of receptive vs. productive knowledge. Receptive knowledge lets someone read or listen and understand. Productive knowledge lets them speak or write. Learners can typically understand far more than they can produce. Memory psychology has recognition vs. recall. Recognition means identifying the right answer when it's...\ndiscreteevent: > I believe that the goal of understanding code is, longer-term, holding us back from understanding what matters. And then goes on to say that understanding needs to be redefined as things like \"makes the users life better\" That's not understanding. You're in AI. You've won the world. Why can't you be happy with that? Stop fucking around with language in an effort to corral even more of it and so make it useless t...",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "35",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=11,practical_tech=4,tools_agents=7,strategy_insight=11,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 7,
+        "strategy_insight": 11,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 11,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [
+            "research",
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "learning",
+        "research",
+        "why"
+      ],
+      "detail_slug": "0ed11d7acb158ce93dec1dad79b439b0353833a6",
+      "is_english_source": true,
+      "sent_at": "2026-11-23T23:46:44.255275+00:00"
+    },
+    {
       "id": "8544b93b322bd6bd008c9954f7100d5ca7483b21",
       "title_hash": "4d20032fe2c92ad0850167acc70eafce0db5d07e",
       "source": "GeekNews",
@@ -165318,580 +165891,6 @@
       "detail_slug": "4e46531cf4a0eafa76fa2810d11c92f07185fe75",
       "is_english_source": true,
       "sent_at": "2026-10-04T13:56:24.014732+00:00"
-    },
-    {
-      "id": "68eec42286206e21dc31527718defdb7dbcfc290",
-      "title_hash": "ceb91e850180777b60775c405f9010955aafcb07",
-      "source": "TechCrunch",
-      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
-      "link": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
-      "published_at": "2026-10-02T19:15:51+00:00",
-      "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
-      "fetched_at": "2026-10-04T13:53:42.659956+00:00",
-      "source_priority_boost": "6",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "17",
-      "priority_signal": "slot=industry_business,boost=6,slot_score=11,practical_tech=0,tools_agents=0,strategy_insight=0,industry_business=11",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 0,
-        "strategy_insight": 0,
-        "industry_business": 11
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 11,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "techcrunch.com"
-          ]
-        }
-      },
-      "matched_terms": [
-        "deal",
-        "techcrunch.com"
-      ],
-      "detail_slug": "68eec42286206e21dc31527718defdb7dbcfc290",
-      "is_english_source": true,
-      "sent_at": "2026-10-04T13:56:24.014732+00:00"
-    },
-    {
-      "id": "9a0951d9c833464fd163675130784de25fed7a3f",
-      "title_hash": "1e3d13be58480e5ef3d4a90f6c4aa36f3472ccc9",
-      "source": "GeekNews",
-      "title": "Claude Code 스킬 패턴 — 반복 작업을 재사용 가능한 스킬로 설계하는 법과 실무에서 쌓으며 배운 것",
-      "link": "https://news.hada.io/topic?id=34752",
-      "published_at": "2026-10-04T07:06:36+00:00",
-      "summary": "Claude Code 스킬을 설계하는 원칙과, 여러 스킬을 실제 개발 흐름에서 같이 쓰면서 확인한 점을 정리했습니다. 스킬의 description 은 설명문이 아니라 트리거 . \"무엇을 하는가\"보다 \"언제 써야 하는가\"를 적어야 에이전트가 제때 고름 본문",
-      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "65",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=0,tools_agents=20,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 20,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 20,
-          "strong_hits": [
-            "claude code",
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "원칙"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "에이전트",
-        "claude + code"
-      ],
-      "detail_slug": "9a0951d9c833464fd163675130784de25fed7a3f",
-      "is_english_source": false,
-      "sent_at": "2026-10-04T09:45:58.578741+00:00"
-    },
-    {
-      "id": "f7d2fa9ca097606875017e0af8425277042b6bd0",
-      "title_hash": "7276bde0a12b764533f3e2fc613d1a6cf60a9fd1",
-      "source": "GeekNews",
-      "title": "에이전트에게 필요한 것은 메모리가 아니라 문서다",
-      "link": "https://news.hada.io/topic?id=34750",
-      "published_at": "2026-10-04T06:34:13+00:00",
-      "summary": "에이전트가 프로젝트를 이해하려면 과거 대화 조각을 검색하는 메모리보다 프로젝트 문서 가 필요함. 기능의 위치, 구현 이유, 합의 사항, 중요하게 여기는 기준을 함께 파악할 수 있어야 함 대화를 조각내 저장하고 프롬프트마다 유사한 항목을 주입하는 RAG 기반 메모리",
-      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "56",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=5,tools_agents=11,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 11,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [
-            "프롬프트"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "프롬프트"
-      ],
-      "detail_slug": "f7d2fa9ca097606875017e0af8425277042b6bd0",
-      "is_english_source": false,
-      "sent_at": "2026-10-04T09:45:58.578741+00:00"
-    },
-    {
-      "id": "81edafbc439abc6fbf0d7ee93d3cd16abb45ba87",
-      "title_hash": "318c14ee1d2b430e595ce047d52d73af0f319b9f",
-      "source": "GeekNews",
-      "title": "LeCun, AI의 인류 멸종과 최근 ‘일탈’ 사건에 “전혀 우려 없다”",
-      "link": "https://news.hada.io/topic?id=34754",
-      "published_at": "2026-10-04T09:35:53+00:00",
-      "summary": "Yann LeCun 은 AI가 인류를 멸종시킬 가능성과 최근 에이전트 일탈 사건을 전혀 우려하지 않으며, 사건 원인을 인간의 감독 부족과 잘못된 시스템 설계에서 찾음 샌드박스와 사이버보안 을 제대로 설계하면 이런 사건을 완전히 예방할 수 있다는 입장으로, 에이전트는...",
-      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "81edafbc439abc6fbf0d7ee93d3cd16abb45ba87",
-      "is_english_source": false,
-      "sent_at": "2026-10-04T09:45:58.578741+00:00"
-    },
-    {
-      "id": "5bb73ce72dc396d537a47711fd05bf2947667d97",
-      "title_hash": "e65c7e1d7dc97726460ca9411491fc02772d3524",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "In Ukraine, distributed renewables foil Russia's assaults",
-      "link": "https://energytransition.org/2026/09/in-ukraine-distributed-renewables-foil-russias-assaults/",
-      "published_at": "2026-10-04T08:39:58+00:00",
-      "summary": "HN story type: story HN points: 43 HN comments: 12 HN top comments: thelastgallon: Fossil fuel supply chain makes your country very vulnerable! https://github.com/Lkruitwagen/global-fossil-fuel-supply-cha... : The resulting complex network has 6.09mn nodes and 15.70mn edges and is implemented in a graph database. With estimates of annual coal, gas, and oil demand in 13,229 global population centres and 8,165 global power stations, we use a minimum-cost flow method to estimate global asset-level... gnull: This is greenwashing. The article suggests that renewables are somehow more helpful in a war when your grid is targeted by drones and missiles. It doesn't do a comparison to back it up though. Decentralized power production vs. centralized does make sense: decentralized doesn't offer a single point of failure taking out which causes a lot of damage. But can't energy from fossil fuels be generated in a decentralize... jmyeet: I've been thinking about this (more [1]) and I do believe smaller grids will be the future for many reasons. I guess this is another reason. But the transition from large grids to small grids has no obvious, easy path because a large grid without total market saturation falls apart as maintenance is averaged over fewer and fewer users. One side benefit though is that it would stop utilities being able to push data...",
-      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49951881",
-      "hn_story_type": "story",
-      "hn_points": "43",
-      "hn_comments_count": "12",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49951881",
-      "hn_item_text": "",
-      "hn_comment_preview": "thelastgallon: Fossil fuel supply chain makes your country very vulnerable! https://github.com/Lkruitwagen/global-fossil-fuel-supply-cha... : The resulting complex network has 6.09mn nodes and 15.70mn edges and is implemented in a graph database. With estimates of annual coal, gas, and oil demand in 13,229 global population centres and 8,165 global power stations, we use a minimum-cost flow method to estimate global asset-level...\ngnull: This is greenwashing. The article suggests that renewables are somehow more helpful in a war when your grid is targeted by drones and missiles. It doesn't do a comparison to back it up though. Decentralized power production vs. centralized does make sense: decentralized doesn't offer a single point of failure taking out which causes a lot of damage. But can't energy from fossil fuels be generated in a decentralize...\njmyeet: I've been thinking about this (more [1]) and I do believe smaller grids will be the future for many reasons. I guess this is another reason. But the transition from large grids to small grids has no obvious, easy path because a large grid without total market saturation falls apart as maintenance is averaged over fewer and f...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=24,practical_tech=24,tools_agents=3,strategy_insight=10,industry_business=8",
-      "slot_scores": {
-        "practical_tech": 24,
-        "tools_agents": 3,
-        "strategy_insight": 10,
-        "industry_business": 8
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 24,
-          "strong_hits": [
-            "distributed",
-            "production",
-            "database",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 3,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 10,
-          "strong_hits": [],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "future + work"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 8,
-          "strong_hits": [],
-          "support_hits": [
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "supply + chain"
-          ],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "distributed",
-        "production",
-        "database",
-        "rag"
-      ],
-      "detail_slug": "5bb73ce72dc396d537a47711fd05bf2947667d97",
-      "is_english_source": true,
-      "sent_at": "2026-10-04T09:45:58.578741+00:00"
-    },
-    {
-      "id": "3e210219d0b0835c8a09059b1c745d22a11d9a6c",
-      "title_hash": "868fb597648e91324a9904878a05580f79e6d83b",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
-      "link": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
-      "published_at": "2026-10-03T17:44:29+00:00",
-      "summary": "HN story type: story HN points: 125 HN comments: 161 HN post text: https://archive.ph/TyDPf HN top comments: dzink: A huge chunk of humans are sedated with infinite supply of cortex-disabling short form video and games. Another huge chunk are too distracted by having to scrape by for a living and work multiple jobs or raise kids and survive financially until exhausted. That second group will keep increasing as the first flows into it. The rest are aging, disabled, or too young and pegging themselves majorly in the first categor... edot: Absolutely based. Finally someone of stature in the industry calling this whole fear overblown. Bill Gates sounded like a nontechnical goofball in his Ezra Klein interview where he basically just screamed that the Terminator is real. There are lots of real worries (government use to suppress the people with minimal manpower or popular support, brainrot and fake news, unemployment due to the belief that LLMs can re... yewenjie: LeCun has been consistently wrong for the last ten years, I am not sure why he keeps being amplified. Edit: I am sure, it's denial.",
-      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49946228",
-      "hn_story_type": "story",
-      "hn_points": "125",
-      "hn_comments_count": "161",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49946228",
-      "hn_item_text": "https://archive.ph/TyDPf",
-      "hn_comment_preview": "dzink: A huge chunk of humans are sedated with infinite supply of cortex-disabling short form video and games. Another huge chunk are too distracted by having to scrape by for a living and work multiple jobs or raise kids and survive financially until exhausted. That second group will keep increasing as the first flows into it. The rest are aging, disabled, or too young and pegging themselves majorly in the first categor...\nedot: Absolutely based. Finally someone of stature in the industry calling this whole fear overblown. Bill Gates sounded like a nontechnical goofball in his Ezra Klein interview where he basically just screamed that the Terminator is real. There are lots of real worries (government use to suppress the people with minimal manpower or popular support, brainrot and fake news, unemployment due to the belief that LLMs can re...\nyewenjie: LeCun has been consistently wrong for the last ten years, I am not sure why he keeps being amplified. Edit: I am sure, it's denial.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=4,industry_business=4",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 4,
-        "industry_business": 4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "industry",
-            "ceo"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm"
-      ],
-      "detail_slug": "3e210219d0b0835c8a09059b1c745d22a11d9a6c",
-      "is_english_source": true,
-      "sent_at": "2026-10-04T09:45:58.578741+00:00"
-    },
-    {
-      "id": "158c92c5f5ee5b360c43d503df4404382d583f47",
-      "title_hash": "f4780fa66bad46f9f1b8337c344b6e93c4d7255b",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "We're working on a new RuneScape MMO",
-      "link": "https://play.runescape.com/4",
-      "published_at": "2026-10-04T01:12:22+00:00",
-      "summary": "HN story type: story HN points: 64 HN comments: 23 HN top comments: My_Name: Initially, I misread the headline as referring to RuneQuest, the Betamax of tabletop fantasy role playing. Better than D&D, but which didn't win the popularity contest. It is one of three games I would love to see made into software, with the other two being Traveller and Paranoia (the computer is your friend, trust the computer) Foxhuls: For anyone unaware this is stated to essentially be the MMO continuation of Runescape Dragonwilds which was a survival and crafting game that recently released into 1.0 after its commercial success. Fizz43: Everything Jagex touches turns to shit. They are not good at creating. At best they are a steward for already created IP and the community provides that taste that makes it good.",
-      "fetched_at": "2026-10-04T09:43:47.118764+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49949588",
-      "hn_story_type": "story",
-      "hn_points": "64",
-      "hn_comments_count": "23",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49949588",
-      "hn_item_text": "",
-      "hn_comment_preview": "My_Name: Initially, I misread the headline as referring to RuneQuest, the Betamax of tabletop fantasy role playing. Better than D&D, but which didn't win the popularity contest. It is one of three games I would love to see made into software, with the other two being Traveller and Paranoia (the computer is your friend, trust the computer)\nFoxhuls: For anyone unaware this is stated to essentially be the MMO continuation of Runescape Dragonwilds which was a survival and crafting game that recently released into 1.0 after its commercial success.\nFizz43: Everything Jagex touches turns to shit. They are not good at creating. At best they are a steward for already created IP and the community provides that taste that makes it good.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=12,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 12,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "rust",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 12,
-          "strong_hits": [
-            "taste",
-            "trust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "rag"
-      ],
-      "detail_slug": "158c92c5f5ee5b360c43d503df4404382d583f47",
-      "is_english_source": true,
-      "sent_at": "2026-10-04T09:45:58.578741+00:00"
     }
   ],
   "topic_digests": {
