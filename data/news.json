@@ -1,6 +1,571 @@
 {
   "items": [
     {
+      "id": "7ee0d60073b1ce9bf6600e53dbc266fd4983deca",
+      "title_hash": "8c560285240d06ca283b1631915835af38b1daf5",
+      "source": "GeekNews",
+      "title": "에이전트 시대의 Postgres 데이터베이스",
+      "link": "https://news.hada.io/topic?id=37687&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-23T01:50:02+00:00",
+      "summary": "사람이 소수의 데이터베이스를 오래 운영하던 방식에서, AI 에이전트가 작업에 필요한 데이터베이스를 대량으로 만들고 폐기하는 방식 으로 활용이 넓어지고 있음 관리형 클라우드는 운영 부담을 줄였고, 서버리스 Postgres 는 빠른 생성과 사용량 기반 과금을 가능하게 했지만, 개발 과정에서 프로덕션 데이터를 다루는 문제는 남아 있음 Databricks는 2025년 5월 Neon 인수 발표 당시 , Neon에서 생성되는 데이터베이스의 80% 이상을 AI 에이전트가 만들었다고 밝힘. Supabase도 월 400만 개 이상의 신규 데이터베이스 중 약 70%가 에이전트나 AI 도구로 생성된다고 전함 …",
+      "fetched_at": "2026-11-23T07:25:57.308280+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=1,tools_agents=9,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 1,
+        "tools_agents": 9,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 1,
+          "strong_hits": [
+            "postgres"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "인수"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "7ee0d60073b1ce9bf6600e53dbc266fd4983deca",
+      "is_english_source": false,
+      "sent_at": "2026-11-23T07:26:39.182431+00:00"
+    },
+    {
+      "id": "47d6d2bfef39d2cec5669d206546fe21aebdd075",
+      "title_hash": "7c0878a12ee8319a1dd36a9a91b5adf0292552de",
+      "source": "GeekNews",
+      "title": "사람들이 내 블로그 글에 관심 없다고 가정하라",
+      "link": "https://news.hada.io/topic?id=37692&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-23T04:38:49+00:00",
+      "summary": "다른 사람을 위한 글이라면 누구를 대상으로 하는지 먼저 밝혀 , 독자가 계속 읽을지 판단할 수 있게 해야 함 Snowflake에서는 이메일 첫 문장에 읽지 않아도 되는 조건 을 알리는 관행이 있었음 독자를 위해 쓰려면 독자의 필요를 우선 하고, 글이 차지하는 분량도 신경 써야 함 Slack/Teams에서는 3~5줄로 주제를 소개 하고, 자세한 내용은 스레드 안에서 찾아볼 수 있게 함 모두에게 해당하지 않는 내용을 2,000단어에 걸쳐 장황하게 쓰면 독자에게 불필요한 읽기 부담을 주므로, 독자를 배려해 간결하게 써야 함 읽을 필요가 있는지 먼저 …",
+      "fetched_at": "2026-11-23T07:25:57.308280+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단"
+      ],
+      "detail_slug": "47d6d2bfef39d2cec5669d206546fe21aebdd075",
+      "is_english_source": false,
+      "sent_at": "2026-11-23T07:26:39.182431+00:00"
+    },
+    {
+      "id": "afc4b1e533c8f023785232491a67b66bb6bf1874",
+      "title_hash": "8dab26132d0750bad99e0dfc55f53b6a65db1c15",
+      "source": "GeekNews",
+      "title": "P vs. NP 해결에 도전하는 AI 에이전트 군집",
+      "link": "https://news.hada.io/topic?id=37682&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-23T00:45:36+00:00",
+      "summary": "여러 AI 에이전트가 협업 해 P vs. NP 문제를 탐구하며, 보조정리와 증명 시도, 검증 결과를 실시간으로 공개함 문제는 여전히 미해결 상태이며, 검증된 보조정리 수는 P = NP 또는 P ≠ NP의 확률이나 최종 증명을 뜻하지 않음 현재 주요 탐구 대상은 퍼머넌트(permanent)가 일정하게 유지되는 행렬 공간의 차원 상한 이며, 목표 추측 자체가 거짓일 가능성도 열어둠 해당 탐구의 두 행인 경우 에는 지면상 증명이 있지만, 고정해 사용하는 라이브러리에 필요한 도구가 없어 아직 검증하지 못했고 초등적 증명을 찾고 있음 공개 기록은 검증 …",
+      "fetched_at": "2026-11-23T07:25:57.308280+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "afc4b1e533c8f023785232491a67b66bb6bf1874",
+      "is_english_source": false,
+      "sent_at": "2026-11-23T07:26:39.182431+00:00"
+    },
+    {
+      "id": "bf85e2b780bff70fbd94927f6bfa64468e8caed7",
+      "title_hash": "032a6c90f59da29715af546c08daa9b29dbc17e8",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "A miniature San Francisco with live buses, planes and boats",
+      "link": "https://smallsf.com/",
+      "published_at": "2026-11-22T20:33:23+00:00",
+      "summary": "HN story type: story HN points: 237 HN comments: 88 HN top comments: consi: I did something similar about a month ago with my city. I takes around 3h with LLMs to build. Also, there was no good data source for 3D models in my area so agent loop was building them in a loop from photos found online. You can see it here: https://bb.jest.pro Brajeshwar: Cool. This looks fun and I believe you had fun playing with it. I’ve been having fun with miniature 3D Isometric maps for a while, of course, with AI (Claude Code). I’m fascinated by the work of https://miniworld.marceloeduardo.com which I stumbled on as I was tinkering with a few of my ideas. His Los Angeles map[1] popped up and I have a soft corner for that city and it led me into a rabbit hole. Unlike the US, U... simonw: This is weirdly broken once you start zooming in. Try searching for Patricia's Green in Hayes Valley for example - the park is straight up missing.",
+      "fetched_at": "2026-11-23T07:25:57.308280+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50603589",
+      "hn_story_type": "story",
+      "hn_points": "237",
+      "hn_comments_count": "88",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50603589",
+      "hn_item_text": "",
+      "hn_comment_preview": "consi: I did something similar about a month ago with my city. I takes around 3h with LLMs to build. Also, there was no good data source for 3D models in my area so agent loop was building them in a loop from photos found online. You can see it here: https://bb.jest.pro\nBrajeshwar: Cool. This looks fun and I believe you had fun playing with it. I’ve been having fun with miniature 3D Isometric maps for a while, of course, with AI (Claude Code). I’m fascinated by the work of https://miniworld.marceloeduardo.com which I stumbled on as I was tinkering with a few of my ideas. His Los Angeles map[1] popped up and I have a soft corner for that city and it led me into a rabbit hole. Unlike the US, U...\nsimonw: This is weirdly broken once you start zooming in. Try searching for Patricia's Green in Hayes Valley for example - the park is straight up missing.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "49",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=25,practical_tech=4,tools_agents=25,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 25,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 25,
+          "strong_hits": [
+            "claude code",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "ide",
+        "llm",
+        "agent",
+        "claude + code"
+      ],
+      "detail_slug": "bf85e2b780bff70fbd94927f6bfa64468e8caed7",
+      "is_english_source": true,
+      "sent_at": "2026-11-23T07:26:39.182431+00:00"
+    },
+    {
+      "id": "f21a4b70630081225b18c889a7f93a16d394283e",
+      "title_hash": "c42ac2999f84a92e83e7ac2eb9eb87cd3324a5b3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+      "link": "https://github.com/AFK-surf/xnulinux",
+      "published_at": "2026-11-23T03:49:24+00:00",
+      "summary": "HN story type: story HN points: 168 HN comments: 74 HN top comments: pcwalton: Makes me wonder if the next frontier is going to be something like “the OS is shipped encrypted with keys that only exist in hardware, and all the CPU knows how to do is to decrypt blocks and put them in the i-cache where it will not let you look at them”, to prevent you from doing anything with the OS executables other than running them on Apple chips. darksim905: This is pretty cool that this could be done. the whole xnu.so drive file bit (I think?) ... could that same theory be applied to Windows? I know NTOSKRNL isn't quite the same, but could it be redesigned/recompiled/re-written to function and loaded as a module that way? I feel like on the newer Macs when I tried doing whatever the bootcamp functionality was, I learned quickly that didn't exist/was removed and I cou... ajasmin: I wonder how this would compare to making XNU work in KVM. This is amazing! Though, from a user perspective it currently feels a lot like a VM. Delegating one task per core plus one big file-backed disk for the XNU kernel to run with. Though there may be efficiency or integration benefits that I'm missing.",
+      "fetched_at": "2026-11-23T07:25:57.308280+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50607261",
+      "hn_story_type": "story",
+      "hn_points": "168",
+      "hn_comments_count": "74",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50607261",
+      "hn_item_text": "",
+      "hn_comment_preview": "pcwalton: Makes me wonder if the next frontier is going to be something like “the OS is shipped encrypted with keys that only exist in hardware, and all the CPU knows how to do is to decrypt blocks and put them in the i-cache where it will not let you look at them”, to prevent you from doing anything with the OS executables other than running them on Apple chips.\ndarksim905: This is pretty cool that this could be done. the whole xnu.so drive file bit (I think?) ... could that same theory be applied to Windows? I know NTOSKRNL isn't quite the same, but could it be redesigned/recompiled/re-written to function and loaded as a module that way? I feel like on the newer Macs when I tried doing whatever the bootcamp functionality was, I learned quickly that didn't exist/was removed and I cou...\najasmin: I wonder how this would compare to making XNU work in KVM. This is amazing! Though, from a user perspective it currently feels a lot like a VM. Delegating one task per core plus one big file-backed disk for the XNU kernel to run with. Though there may be efficiency or integration benefits that I'm missing.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=5,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 5,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "cache"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "perspective"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cache",
+        "how to",
+        "github.com"
+      ],
+      "detail_slug": "f21a4b70630081225b18c889a7f93a16d394283e",
+      "is_english_source": true,
+      "sent_at": "2026-11-23T07:26:39.182431+00:00"
+    },
+    {
+      "id": "afedfc7a3cb1f30829e03cff1ed871ff349b283c",
+      "title_hash": "e1abb84271f0c40b2a9a792f9c1b9ef52df8314a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Masullo on the Riemann Hypothesis",
+      "link": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+      "published_at": "2026-11-22T10:59:56+00:00",
+      "summary": "HN story type: story HN points: 184 HN comments: 97 HN top comments: davesque: > Since I am not an expert on number theory, all this is very tentative and I could be making serious mistakes. Seems like an important caveat to highlight here. I feel a lot of concern for Masullo in this situation. Regardless of whether or not his proof ends up being sound, it feels like 12 years of this man's life have been cheapened by this whole ordeal. And I really don't have any idea how the cards should fa... shank-false-rin: I'm not really sure if AI should be compared to regular tools (abacuses, calculators, ...). If a dictator of some random country rounded up a group of mathematicians and ordered them to churn out every possible way to prove the RH, and those mathematicians eventually succeeded, would we say the dictator proved the RH thanks to the dictator's unique visionary insight in assigning the mathematicians that task? This... dead_hn_theory: My only issue with using AI for these things is that the \"brute force\" method yields very little new insight. I don't want to say the final answer is irrelevant, I'm sure it has uses (even though in some cases mathematicians make assumptions for their own work). The new insight that I am referring to is that mathematicians on their way to prove one thing sometimes end up having to invent new ways of looking at pro...",
+      "fetched_at": "2026-11-23T07:25:57.308280+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50598441",
+      "hn_story_type": "story",
+      "hn_points": "184",
+      "hn_comments_count": "97",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50598441",
+      "hn_item_text": "",
+      "hn_comment_preview": "davesque: > Since I am not an expert on number theory, all this is very tentative and I could be making serious mistakes. Seems like an important caveat to highlight here. I feel a lot of concern for Masullo in this situation. Regardless of whether or not his proof ends up being sound, it feels like 12 years of this man's life have been cheapened by this whole ordeal. And I really don't have any idea how the cards should fa...\nshank-false-rin: I'm not really sure if AI should be compared to regular tools (abacuses, calculators, ...). If a dictator of some random country rounded up a group of mathematicians and ordered them to churn out every possible way to prove the RH, and those mathematicians eventually succeeded, would we say the dictator proved the RH thanks to the dictator's unique visionary insight in assigning the mathematicians that task? This...\ndead_hn_theory: My only issue with using AI for these things is that the \"brute force\" method yields very little new insight. I don't want to say the final answer is irrelevant, I'm sure it has uses (even though in some cases mathematicians make assumptions for their own work). The new insight that I am referring to is that mat...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=4,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 9,
+        "strategy_insight": 4,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "mistakes"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "deal"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "tool"
+      ],
+      "detail_slug": "afedfc7a3cb1f30829e03cff1ed871ff349b283c",
+      "is_english_source": true,
+      "sent_at": "2026-11-23T07:26:39.182431+00:00"
+    },
+    {
+      "id": "61d8738dfdb9f3bca1276c6261d7083ce8422561",
+      "title_hash": "761cd8fad68741ffcafe88dddb470fa13cf53dc0",
+      "source": "TechCrunch",
+      "title": "Startup sues Apple in India over tap-to-share contacts feature",
+      "link": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
+      "published_at": "2026-11-21T04:00:00+00:00",
+      "summary": "A U.S. startup is seeking $162 million in damages and an injunction to impact iPhone and Apple Watch imports to India.",
+      "fetched_at": "2026-11-23T07:25:57.308280+00:00",
+      "source_priority_boost": "6",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "19",
+      "priority_signal": "slot=industry_business,boost=6,slot_score=13,practical_tech=0,tools_agents=0,strategy_insight=0,industry_business=13",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 0,
+        "strategy_insight": 0,
+        "industry_business": 13
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 13,
+          "strong_hits": [
+            "startup"
+          ],
+          "support_hits": [
+            "startup"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "techcrunch.com"
+          ]
+        }
+      },
+      "matched_terms": [
+        "startup",
+        "techcrunch.com"
+      ],
+      "detail_slug": "61d8738dfdb9f3bca1276c6261d7083ce8422561",
+      "is_english_source": true,
+      "sent_at": "2026-11-23T07:26:39.182431+00:00"
+    },
+    {
       "id": "14e11d74f7198f5bdc4ffd8f9b6aa1be66cd68ba",
       "title_hash": "5fc88503b5cbe4085959223617620abaef7715e2",
       "source": "GeekNews",
@@ -165378,592 +165943,6 @@
       "detail_slug": "ab631a334ceaddecb88986e49c9451b64e00f661",
       "is_english_source": true,
       "sent_at": "2026-10-03T21:17:21.721212+00:00"
-    },
-    {
-      "id": "2d6d7ab9b4efcb56826d422b3f83fc1e11edb6f6",
-      "title_hash": "fbf932afb9ac8ac57d3bc2c4722083c89d4b4c06",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Graphene – Data analysis toolkit for your coding agent",
-      "link": "https://github.com/graphene-data/graphene",
-      "published_at": "2026-10-01T21:29:52+00:00",
-      "summary": "HN story type: story HN points: 19 HN comments: 6 HN post text: My friend and I have worked at a number of BI companies and thought: Can’t a coding agent do most of this now? Almost. They just need a context/semantic layer to ensure query correctness and some kind of artifact for publishing findings and visualizations. We built an open source project called Graphene that provides these tools: - Semantic layer that’s more token-efficient than YAML, more deterministic than Markdown (eg, composable, callable metric macros), with a query API that’s well in-distribution (SQL). - MDX-like files for dashboards (Markdown with inlined SQL + HTML components for viz with support for CSS and Javascript) - Connects to popular data warehouses or local DuckDB Your coding agent will build really in-depth reports and can ofc leverage any other skills or context that you've made available to it. We dogfood it inside a monorepo with our website, app source code, planning docs, etc so the agent has access to a ton of context. It’s also nice that the agent can add instrumentation, adjust pipelines and transformations, and add dashboards all in one PR. If you want to try it out, just point your coding agent at https://github.com/graphene-data/graphene/blob/main/d... HN top comments: evolve2k: Change the name. Graphene for most of us here already means Graphene OS. It feels off that as community members you either didn’t know this or just straight up chose ignore this or worse; chose to ride their brand; even if it’s technically allowed doesn’t mean everyone likes what your doing. It’s just mental overload with an avoidable namespace conflict. TLDR; ask the LLM for a new name. Change it now when it’s lo... NoboruWataya: From now on, whenever we want to refer to particular software, as well as the name we're going to have to specify whether we mean the AI thing or the other thing.",
-      "fetched_at": "2026-10-03T21:15:01.100620+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49927295",
-      "hn_story_type": "story",
-      "hn_points": "19",
-      "hn_comments_count": "6",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49927295",
-      "hn_item_text": "My friend and I have worked at a number of BI companies and thought: Can’t a coding agent do most of this now? Almost. They just need a context/semantic layer to ensure query correctness and some kind of artifact for publishing findings and visualizations. We built an open source project called Graphene that provides these tools: - Semantic layer that’s more token-efficient than YAML, more deterministic than Markdown (eg, composable, callable metric macros), with a query API that’s well in-distribution (SQL). - MDX-like files for dashboards (Markdown with inlined SQL + HTML components for viz with support for CSS and Javascript) - Connects to popular data warehouses or local DuckDB Your coding agent will build really in-depth reports and can ofc leverage any other skills or context that you've made available to it. We dogfood it inside a monorepo with our website, app source code, planning docs, etc so the agent has access to a ton of context. It’s also nice that the agent can add instrumentation, adjust pipelines and transformations, and add dashboards all in one PR. If you want to try it out, just point your coding agent at https://github.com/graphene-data/graphene/blob/main/d...",
-      "hn_comment_preview": "evolve2k: Change the name. Graphene for most of us here already means Graphene OS. It feels off that as community members you either didn’t know this or just straight up chose ignore this or worse; chose to ride their brand; even if it’s technically allowed doesn’t mean everyone likes what your doing. It’s just mental overload with an avoidable namespace conflict. TLDR; ask the LLM for a new name. Change it now when it’s lo...\nNoboruWataya: From now on, whenever we want to refer to particular software, as well as the name we're going to have to specify whether we mean the AI thing or the other thing.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "62",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=38,practical_tech=34,tools_agents=38,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 34,
-        "tools_agents": 38,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 34,
-          "strong_hits": [
-            "open source",
-            "show hn",
-            "api",
-            "sql",
-            "rag"
-          ],
-          "support_hits": [
-            "query"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 38,
-          "strong_hits": [
-            "coding agent",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "agent",
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + coding",
-            "local + agent"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "ide",
-        "llm",
-        "agent",
-        "local",
-        "tool",
-        "ai + coding",
-        "local + agent",
-        "github.com"
-      ],
-      "detail_slug": "2d6d7ab9b4efcb56826d422b3f83fc1e11edb6f6",
-      "is_english_source": true,
-      "sent_at": "2026-10-03T21:17:21.721212+00:00"
-    },
-    {
-      "id": "0fa0539ce9f2b6c75af721fcd819def90439bb54",
-      "title_hash": "54076cd387b12242a47b7a76ead4731bab83e422",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "We want you to build the next Git platform on Cloudflare",
-      "link": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-      "published_at": "2026-10-03T19:33:16+00:00",
-      "summary": "HN story type: story HN points: 41 HN comments: 28 HN top comments: btown: Sometimes I think back to Google Wave, that beautiful glimmer of real-time collaborative canvases, announced in 2009 when Angular and Backbone hadn't even been invented, and think it launched almost two decades too early. https://en.wikipedia.org/wiki/Google_Wave https://youtu.be/v_UyVmITiYQ?t=3850 https://www.usenix.org/legacy/event/lisa09/tech/slides/berli... We're now in a world where we expect real-time interf... Animats: We want to have less, not more, dependence on Cloudflare. Single point of failure, for both technical and political failures. camcil: $25k to build the next GitHub for $125B company? How generous.",
-      "fetched_at": "2026-10-03T21:15:01.100620+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49947051",
-      "hn_story_type": "story",
-      "hn_points": "41",
-      "hn_comments_count": "28",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49947051",
-      "hn_item_text": "",
-      "hn_comment_preview": "btown: Sometimes I think back to Google Wave, that beautiful glimmer of real-time collaborative canvases, announced in 2009 when Angular and Backbone hadn't even been invented, and think it launched almost two decades too early. https://en.wikipedia.org/wiki/Google_Wave https://youtu.be/v_UyVmITiYQ?t=3850 https://www.usenix.org/legacy/event/lisa09/tech/slides/berli... We're now in a world where we expect real-time interf...\nAnimats: We want to have less, not more, dependence on Cloudflare. Single point of failure, for both technical and political failures.\ncamcil: $25k to build the next GitHub for $125B company? How generous.",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "33",
-      "priority_signal": "slot=industry_business,boost=24,slot_score=9,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=9",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 9
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 9,
-          "strong_hits": [
-            "launch"
-          ],
-          "support_hits": [
-            "platform",
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "launch",
-        "platform",
-        "company"
-      ],
-      "detail_slug": "0fa0539ce9f2b6c75af721fcd819def90439bb54",
-      "is_english_source": true,
-      "sent_at": "2026-10-03T21:17:21.721212+00:00"
-    },
-    {
-      "id": "6ae0049f77806116fbe3cf36b721644b91fda856",
-      "title_hash": "4f489526a6c657a8d9b98b99e8d1488483d673e3",
-      "source": "GeekNews",
-      "title": "Kolibri 출시: 주권형 오픈웨이트 모델",
-      "link": "https://news.hada.io/topic?id=34716",
-      "published_at": "2026-10-03T17:01:02+00:00",
-      "summary": "Aleph Alpha가 영어와 독일어를 지원하는 Kolibri 의 전체 가중치를 Apache 2.0으로 공개함. 총 780억 개 중 약 30억 개 파라미터를 활성화하는 MoE Transformer로, 최대 100만 토큰 문맥 을 지원함 공공행정, 산업, 항공우주처럼 규제가 적용되는 핵심 업무를 겨냥하...",
-      "fetched_at": "2026-10-03T17:06:51.327991+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "57",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=12,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=12",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": -1,
-        "industry_business": 12
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "규제"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "규제"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 12,
-          "strong_hits": [
-            "규제",
-            "출시"
-          ],
-          "support_hits": [
-            "산업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "규제",
-        "출시",
-        "산업"
-      ],
-      "detail_slug": "6ae0049f77806116fbe3cf36b721644b91fda856",
-      "is_english_source": false,
-      "sent_at": "2026-10-03T17:08:56.030906+00:00"
-    },
-    {
-      "id": "b90eb28b791eca7bddba7fa2c06129afc55f562d",
-      "title_hash": "4018d35f6f48bda3adc1c6261d4dc3b6c01fd55f",
-      "source": "GeekNews",
-      "title": "에이전트 코딩의 묵시록 4기사",
-      "link": "https://news.hada.io/topic?id=34713",
-      "published_at": "2026-10-03T14:03:28+00:00",
-      "summary": "에이전트 코딩은 매우 유용하지만, 슬롭, 소외, 숙련도 저하, 팀 관계 약화 라는 네 가지 문제를 낳으며 개발자의 호기심, 장인정신, 사회적 연결에 큰 대가를 요구함 LLM 생성 코드 특유의 스타일 은 사람이 코드베이스를 읽고 익숙해지기 어렵게 만들며, 에이전트가...",
-      "fetched_at": "2026-10-03T17:06:51.327991+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "b90eb28b791eca7bddba7fa2c06129afc55f562d",
-      "is_english_source": false,
-      "sent_at": "2026-10-03T17:08:56.030906+00:00"
-    },
-    {
-      "id": "af996ab1a45442aff4d63b49027e2e9f90d73e5f",
-      "title_hash": "02640019026babdd7441ca1c4dd3cf7881bd981b",
-      "source": "GeekNews",
-      "title": "베네치아의 콘스탄티노폴리스 원정 실패가 최초의 채권시장으로 이어지다",
-      "link": "https://news.hada.io/topic?id=34717",
-      "published_at": "2026-10-03T17:04:02+00:00",
-      "summary": "베네치아는 콘스탄티노폴리스에 맞설 함대를 마련하려고 시민에게 강제 차입 했으나, 원정 실패로 원금을 갚지 못하면서 긴급 대출이 사실상 영구적인 국가부채가 됨 차입 증서인 prestiti 는 다른 사람에게 매각할 수 있었고, 정부는 원금을 상환하지 못해도",
-      "fetched_at": "2026-10-03T17:06:51.327991+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "시장"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "af996ab1a45442aff4d63b49027e2e9f90d73e5f",
-      "is_english_source": false,
-      "sent_at": "2026-10-03T17:08:56.030906+00:00"
-    },
-    {
-      "id": "f6327a0adf8447074b39c60a0ace738c332ea73d",
-      "title_hash": "a6ff5b3a9c026afbe8c48e9e1e52533a3aba87f3",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
-      "link": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
-      "published_at": "2026-10-03T09:36:04+00:00",
-      "summary": "HN story type: story HN points: 224 HN comments: 37 HN top comments: kkm: Thank you Aleph Alpha team for making it open. We as many other’s were curious to try and benchmark it. On that note, as a small gesture of support, we’ve hosted and made Kolibri-1 free for anyone to try for the next few days. No GPU. No setup. Just try it. tesseracted.com/kolibri-1-chat/ https://x.com/konarkmodi/status/2106373678589960260?s=46 amoshebb: Qwen3.8 27B beats Kolibri 79.9 vs 70.8 in German in Kolibri's harness on Kolibri's benchmark. Also, once the Cohere takeover is complete will they still be able to use this \"sovereign\" claim despite being 90% owned and 100% operated out of Toronto? james45: the sovereignty topic needs more attention in general so great to see. self-hosting the model is one piece of sovereignty, but how do we handle the rest of the agent stack - embeddings, retrieval, memory, etc. Has anyone put together a practical agent stack that's 100% sovereign, where they control it all?",
-      "fetched_at": "2026-10-03T17:06:51.327991+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49942706",
-      "hn_story_type": "story",
-      "hn_points": "224",
-      "hn_comments_count": "37",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49942706",
-      "hn_item_text": "",
-      "hn_comment_preview": "kkm: Thank you Aleph Alpha team for making it open. We as many other’s were curious to try and benchmark it. On that note, as a small gesture of support, we’ve hosted and made Kolibri-1 free for anyone to try for the next few days. No GPU. No setup. Just try it. tesseracted.com/kolibri-1-chat/ https://x.com/konarkmodi/status/2106373678589960260?s=46\namoshebb: Qwen3.8 27B beats Kolibri 79.9 vs 70.8 in German in Kolibri's harness on Kolibri's benchmark. Also, once the Cohere takeover is complete will they still be able to use this \"sovereign\" claim despite being 90% owned and 100% operated out of Toronto?\njames45: the sovereignty topic needs more attention in general so great to see. self-hosting the model is one piece of sovereignty, but how do we handle the rest of the agent stack - embeddings, retrieval, memory, etc. Has anyone put together a practical agent stack that's 100% sovereign, where they control it all?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=6,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 6,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "benchmark",
-            "embedding"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "agent",
-            "setup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "benchmark",
-        "embedding"
-      ],
-      "detail_slug": "f6327a0adf8447074b39c60a0ace738c332ea73d",
-      "is_english_source": true,
-      "sent_at": "2026-10-03T17:08:56.030906+00:00"
-    },
-    {
-      "id": "4822de9be30cdd21b588e9b5ef705ed84e98e7b0",
-      "title_hash": "663954c905171649f6e78efc249863c8c2a12a26",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Cloudflare OHTTP gateway",
-      "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-      "published_at": "2026-10-03T03:15:05+00:00",
-      "summary": "HN story type: story HN points: 156 HN comments: 68 HN top comments: simondotau: I have absolutely no reason to think Cloudflare is a covert CIA operation. In fact, I’m sure there are plenty of good reasons to think it isn’t. But if it were, pretty much everything it does is exactly what you'd expect from one. coldstartops: I was at Thibault's talk when he explained the OHTTP this summer, for those interested: https://passthesalt.ubicast.tv/videos/2026-oblivious-http-wh... 0x073: As cloudflare is the gateway for half the Internet and the other half is meta Google and Microsoft, I would prefer to share my IP with the website I visit instead some big tech companies. But maybe I get privacy wrong.",
-      "fetched_at": "2026-10-03T17:06:51.327991+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49941091",
-      "hn_story_type": "story",
-      "hn_points": "156",
-      "hn_comments_count": "68",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49941091",
-      "hn_item_text": "",
-      "hn_comment_preview": "simondotau: I have absolutely no reason to think Cloudflare is a covert CIA operation. In fact, I’m sure there are plenty of good reasons to think it isn’t. But if it were, pretty much everything it does is exactly what you'd expect from one.\ncoldstartops: I was at Thibault's talk when he explained the OHTTP this summer, for those interested: https://passthesalt.ubicast.tv/videos/2026-oblivious-http-wh...\n0x073: As cloudflare is the gateway for half the Internet and the other half is meta Google and Microsoft, I would prefer to share my IP with the website I visit instead some big tech companies. But maybe I get privacy wrong.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "31",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=4,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "4822de9be30cdd21b588e9b5ef705ed84e98e7b0",
-      "is_english_source": true,
-      "sent_at": "2026-10-03T17:08:56.030906+00:00"
     }
   ],
   "topic_digests": {
