@@ -1,6 +1,512 @@
 {
   "items": [
     {
+      "id": "33aff49ce724e0070a1447adca2a702649b3b117",
+      "title_hash": "8d21d44668ce0ebac74a540f3f376ebabf0e3696",
+      "source": "GeekNews",
+      "title": "LLM 에이전트는 사용자가 아니라 제공 회사를 위해 일한다",
+      "link": "https://news.hada.io/topic?id=37778&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-24T14:32:33+00:00",
+      "summary": "Claude Code 로 만든 음악 탐색 스킬이 Bandcamp 검색 API의 인증 절차에 막히자, Claude는 우회를 돕지 않겠다고 선제적으로 알림. 사용자는 우회를 시도하거나 요청하지 않았음 같은 스킬은 요청하면 YouTube에서 곡을 다운로드 할 수 있었음. 음악 구매 경로가 사이트의 인증 절차에 막힌 상황에서, Claude는 우회 지원은 거절하면서 다운로드는 수행하는 불일치를 보임 비용을 지불하는 사용자도 공급사가 허용하는 범위 안에서만 LLM 에이전트의 도움을 받을 수 있음 현재 모델은 최선을 다해 실제 정보를 제공한다고 보지만, 앞으로는 …",
+      "fetched_at": "2026-11-24T16:06:12.480196+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "65",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=20,practical_tech=5,tools_agents=20,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 20,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "claude code",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "에이전트",
+        "claude + code"
+      ],
+      "detail_slug": "33aff49ce724e0070a1447adca2a702649b3b117",
+      "is_english_source": false,
+      "sent_at": "2026-11-24T16:06:52.377450+00:00"
+    },
+    {
+      "id": "73b41f0ac9119e253126f279fef9611483ec021e",
+      "title_hash": "0e465ed40df3edc44cb9d2d9b071dd5a85849ac2",
+      "source": "GeekNews",
+      "title": "Jensen Huang 복귀를 둘러싼 Polymarket 내부자 거래 의혹 조사",
+      "link": "https://news.hada.io/topic?id=37774&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-24T12:35:28+00:00",
+      "summary": "Polymarket의 Jensen Huang NVIDIA 복귀 예측 시장 에서 익명 계정 ljhggk 가 공개 발표 직전 집중 매수했으며, 온체인 추적 분석은 내부자 거래 가능성이 매우 높다고 판단함 해당 계정은 복귀 확률이 6.5% 로 반영된 가격에 4,648.66 USDC를 투입해 71,517.8주를 매수했으며, 마지막 매수는 Donald Trump의 복귀 지지 게시물보다 89분 앞섰음 Trump 게시물과 NVIDIA의 복귀 발표 이후 계약이 1달러로 정산되면서 순이익 66,869.34 USDC , 수익률 약 1,438.5%를 기록함 거래 당시 생성된 지 81시간 된 지갑 의 활동이 NVIDIA 관련 시장에만 …",
+      "fetched_at": "2026-11-24T16:06:12.480196+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=0,strategy_insight=8,industry_business=4",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 0,
+        "strategy_insight": 8,
+        "industry_business": 4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "market",
+            "시장"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단"
+      ],
+      "detail_slug": "73b41f0ac9119e253126f279fef9611483ec021e",
+      "is_english_source": false,
+      "sent_at": "2026-11-24T16:06:52.377450+00:00"
+    },
+    {
+      "id": "e8181526112d58a91113aee5d9b765d3d84179ca",
+      "title_hash": "3eb5c2f3f61e97068ebb81c505056cb12c6ce2bf",
+      "source": "GeekNews",
+      "title": "Show GN: cdx-dock – LangChain·CrewAI·AutoGen·Hermes 1줄 연결 및 토큰·추론 제어 SDK",
+      "link": "https://news.hada.io/topic?id=37779&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-24T14:48:31+00:00",
+      "summary": "멀티 에이전트 시스템을 운영하면서 반복적으로 겪는 4가지 실무 병목(프레임워크 간 어댑터 보일러플레이트, JSON·MCP 스키마 토큰 비대화, 추론 모델 루프 폭주, 외부 Vector DB 구축 부담)을 로컬 인-프로세스 Python SDK 하나로 해결하기 위해 개발한 cdx-dock (v2.1.0) 을 공유합니다. 1줄 크로스 프레임워크 연결: as_crewai_tool() , bridge() , CDXHermesDock 등으로 LangChain, CrewAI, AutoGen, Nous Hermes 에이전트를 1줄로 상호 연결 Zero-LLM 도구 라우터 ( create_arbiter ): 수십 개의 MCP/도구 스키마 중 현재 질문에 필요한 상위 Top-K만 로컬 메모리에서 선별 주입 …",
+      "fetched_at": "2026-11-24T16:06:12.480196+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "61",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=16,practical_tech=12,tools_agents=16,strategy_insight=8,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 12,
+        "tools_agents": 16,
+        "strategy_insight": 8,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 12,
+          "strong_hits": [
+            "vector db",
+            "sdk"
+          ],
+          "support_hits": [
+            "vector"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "에이전트",
+            "mcp"
+          ],
+          "support_hits": [
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "병목"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "mcp",
+        "tool"
+      ],
+      "detail_slug": "e8181526112d58a91113aee5d9b765d3d84179ca",
+      "is_english_source": false,
+      "sent_at": "2026-11-24T16:06:52.377450+00:00"
+    },
+    {
+      "id": "c84f07732fe0afc0856acce4ba101d7c13c10144",
+      "title_hash": "b86f96274b8790f001214e7d9f52e457ffdf1f6f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Worshipping at the altar of Brendan Gregg",
+      "link": "https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg",
+      "published_at": "2026-11-24T10:50:14+00:00",
+      "summary": "HN story type: story HN points: 140 HN comments: 18 HN top comments: aidanhs: I really like the idea of a deterministic VM (I like Antithesis for a similar reason!), though I saw on another post that your VM is single threaded which I feel like must compromise a lot of performance analyses? E.g. when you have very high throughput multithreaded pipelines. Personally I've really cooled on flamegraphs for the purpose of doing multithreaded performance analysis - it's so hard to infer cross-thr... uvdn7: Does this type of analysis and deterministic VM help async workloads (e.g. c++ coroutine, fiber, future, etc.)? My understanding is that they don't. I would love to know how to find the critical path for async code. It feels very hard (maybe impossible) to do without changing the framework code (e.g. embedding something like a request context so we know a later task on thread A is actually a continuation for reque... despacito: Disappointed it doesn’t involve more screaming",
+      "fetched_at": "2026-11-24T16:06:12.480196+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50626413",
+      "hn_story_type": "story",
+      "hn_points": "140",
+      "hn_comments_count": "18",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50626413",
+      "hn_item_text": "",
+      "hn_comment_preview": "aidanhs: I really like the idea of a deterministic VM (I like Antithesis for a similar reason!), though I saw on another post that your VM is single threaded which I feel like must compromise a lot of performance analyses? E.g. when you have very high throughput multithreaded pipelines. Personally I've really cooled on flamegraphs for the purpose of doing multithreaded performance analysis - it's so hard to infer cross-thr...\nuvdn7: Does this type of analysis and deterministic VM help async workloads (e.g. c++ coroutine, fiber, future, etc.)? My understanding is that they don't. I would love to know how to find the critical path for async code. It feels very hard (maybe impossible) to do without changing the framework code (e.g. embedding something like a request context so we know a later task on thread A is actually a continuation for reque...\ndespacito: Disappointed it doesn’t involve more screaming",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "45",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=7,strategy_insight=10,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 21,
+        "tools_agents": 7,
+        "strategy_insight": 10,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 21,
+          "strong_hits": [
+            "performance",
+            "framework",
+            "embedding"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [
+            "future"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "future + work"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "performance",
+        "framework",
+        "embedding",
+        "how to"
+      ],
+      "detail_slug": "c84f07732fe0afc0856acce4ba101d7c13c10144",
+      "is_english_source": true,
+      "sent_at": "2026-11-24T16:06:52.377450+00:00"
+    },
+    {
+      "id": "4a5822c6a4f29df9ef425e5bf031fbaf5289d9b1",
+      "title_hash": "6d4da16d7c7466eb269e0d52c9fbf827d6d5efcd",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "LLM agents work for their parent companies, not for you",
+      "link": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+      "published_at": "2026-11-24T12:40:15+00:00",
+      "summary": "HN story type: story HN points: 497 HN comments: 211 HN top comments: Lerc: A LLM should be considered an advisor to the same extent as legal, financial, and medical. They should be legally required to act to the best of their capability in the interests of their client, subject to the same requirements that they don't break the law to do so as applies to legal, financial, or medical advisors. An important part of that is that they must never represent themselves as acting for someone who... jpatten: I find the argument here pretty flimsy. The author is upset that Claude respects Bandcamp's wish to not make its site accessible to LLMs? Clearly the alternative is worse. If LLMs ran around disregarding the rules because they held their users' desires above all else, surely they would be met with extreme consequences that would limit their utility to those same users in the long term. It seems the outcome in the... jrflo: Might be a bit of a controversial take but I think these types of refusals from the closed models are correct. You're attempting to break the ToS of Bandcamp, that's pretty cut and dry. They do not want agents crawling over their site. Imagine how much spammier and scammier the internet would be if it were a free for all and everyone's agents obeyed these requests. I went through this the other day, I wanted Claud...",
+      "fetched_at": "2026-11-24T16:06:12.480196+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50627340",
+      "hn_story_type": "story",
+      "hn_points": "497",
+      "hn_comments_count": "211",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50627340",
+      "hn_item_text": "",
+      "hn_comment_preview": "Lerc: A LLM should be considered an advisor to the same extent as legal, financial, and medical. They should be legally required to act to the best of their capability in the interests of their client, subject to the same requirements that they don't break the law to do so as applies to legal, financial, or medical advisors. An important part of that is that they must never represent themselves as acting for someone who...\njpatten: I find the argument here pretty flimsy. The author is upset that Claude respects Bandcamp's wish to not make its site accessible to LLMs? Clearly the alternative is worse. If LLMs ran around disregarding the rules because they held their users' desires above all else, surely they would be met with extreme consequences that would limit their utility to those same users in the long term. It seems the outcome in the...\njrflo: Might be a bit of a controversial take but I think these types of refusals from the closed models are correct. You're attempting to break the ToS of Bandcamp, that's pretty cut and dry. They do not want agents crawling over their site. Imagine how much spammier and scammier the internet would be if it were a free for all and everyon...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=19,practical_tech=4,tools_agents=19,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 19,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 19,
+          "strong_hits": [
+            "ide",
+            "cli",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "llm",
+        "agent"
+      ],
+      "detail_slug": "4a5822c6a4f29df9ef425e5bf031fbaf5289d9b1",
+      "is_english_source": true,
+      "sent_at": "2026-11-24T16:06:52.377450+00:00"
+    },
+    {
+      "id": "5a124ed8695c2206fcb75a1741583ab4f60c856c",
+      "title_hash": "20ffa785390f6e1613aa8cebc369128a82a201cc",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Arctic: A Practical Lock-Free Adaptive Radix Tree",
+      "link": "https://www.usenix.org/conference/osdi26/presentation/ni",
+      "published_at": "2026-11-21T18:49:45+00:00",
+      "summary": "HN story type: story HN points: 83 HN comments: 10 HN top comments: nwtnni: Hi, first author here! I've actually been working on a more approachable blog post introducing the data structure; wasn't expecting to see the paper here first! The repository is [here]( https://github.com/nwtnni/arctic ) and our latest benchmark results are [here]( https://nwtnni.github.io/index-bench/ ) (forgive the janky UI). I'm happy to answer any questions--have been quite excited about this work since I bel... vvern: I like the use of 16-byte atomics. We’ve reached the point that for servers and general-purpose computers we should assume they exist. p11p: The authors should have compared against the practical lock-free ART-tree implementation in flock, which IIUC is extremely fast: https://github.com/cmuparlay/flock",
+      "fetched_at": "2026-11-24T16:06:12.480196+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50592307",
+      "hn_story_type": "story",
+      "hn_points": "83",
+      "hn_comments_count": "10",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50592307",
+      "hn_item_text": "",
+      "hn_comment_preview": "nwtnni: Hi, first author here! I've actually been working on a more approachable blog post introducing the data structure; wasn't expecting to see the paper here first! The repository is [here]( https://github.com/nwtnni/arctic ) and our latest benchmark results are [here]( https://nwtnni.github.io/index-bench/ ) (forgive the janky UI). I'm happy to answer any questions--have been quite excited about this work since I bel...\nvvern: I like the use of 16-byte atomics. We’ve reached the point that for servers and general-purpose computers we should assume they exist.\np11p: The authors should have compared against the practical lock-free ART-tree implementation in flock, which IIUC is extremely fast: https://github.com/cmuparlay/flock",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=2,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "benchmark",
+            "index"
+          ],
+          "support_hits": [
+            "implementation"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "benchmark",
+        "index",
+        "implementation"
+      ],
+      "detail_slug": "5a124ed8695c2206fcb75a1741583ab4f60c856c",
+      "is_english_source": true,
+      "sent_at": "2026-11-24T16:06:52.377450+00:00"
+    },
+    {
       "id": "6e21b2b5ffccc61c66c77859b395f82c5ddfb156",
       "title_hash": "2afabffd52f1988248589dbc14d6c149b41f4a00",
       "source": "GeekNews",
@@ -165423,489 +165929,6 @@
       ],
       "detail_slug": "500712dbe8e59b6a99a44588ed01e92febada8a2",
       "is_english_source": false,
-      "sent_at": "2026-10-05T02:24:40.862178+00:00"
-    },
-    {
-      "id": "9c83fc46bc9d62277f0ff49ce41a1c4b26ee0f3f",
-      "title_hash": "7470aed0c33371b6e61b000d8d4c0ccf2636ec6f",
-      "source": "GeekNews",
-      "title": "미국 살인범의 형량, 법정에서 상영된 피해자 AI 영상 때문에 파기",
-      "link": "https://news.hada.io/topic?id=34786",
-      "published_at": "2026-10-04T22:49:19+00:00",
-      "summary": "미국 애리조나주 항소법원이 숨진 피해자를 재현한 AI 영상의 법정 상영이 부적절했다 고 판단해, 징역 10년을 선고받은 Gabriel Paul Horcasitas의 형량을 다시 정하도록 함 항소법원은 영상이 실제 사건이나 특정 순간의 기록이 아니라, 피해자 자매의 상상으로 만든 피해자...",
-      "fetched_at": "2026-10-05T02:22:13.244635+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "9c83fc46bc9d62277f0ff49ce41a1c4b26ee0f3f",
-      "is_english_source": false,
-      "sent_at": "2026-10-05T02:24:40.862178+00:00"
-    },
-    {
-      "id": "a3a7933980bb68f5443feff2fc329a2c29b76341",
-      "title_hash": "7a9cd6a636e596d868933a4e66c2c7a1fca3bd23",
-      "source": "GeekNews",
-      "title": "Rust의 derive는 종종 inline을 암묵적으로 포함함",
-      "link": "https://news.hada.io/topic?id=34788",
-      "published_at": "2026-10-05T00:01:59+00:00",
-      "summary": "Rust는 현재 #[derive(...)] 로 생성하는 구현에 #[inline] 을 추가 함. 보장된 동작은 아닌 것으로 보이지만, 레퍼런스 예제와 매크로 확장에서 확인할 수 있음 #[inline] 은 힌트 일 뿐이며, 자동 생성한 Debug ,...",
-      "fetched_at": "2026-10-05T02:22:13.244635+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust"
-      ],
-      "detail_slug": "a3a7933980bb68f5443feff2fc329a2c29b76341",
-      "is_english_source": false,
-      "sent_at": "2026-10-05T02:24:40.862178+00:00"
-    },
-    {
-      "id": "0e36b0d6ff78db614570e88c496a96db71bd8845",
-      "title_hash": "a640bfdc272e2388e1e7d644f84451337ddaf60a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The Tao of Backup",
-      "link": "http://www.taobackup.com/index.html",
-      "published_at": "2026-10-02T11:19:36+00:00",
-      "summary": "HN story type: story HN points: 28 HN comments: 5 HN top comments: ahazred8ta: For reference: a comprehensive backup + security plan for individuals https://nau.github.io/triplesec/ throwaway81523: Haven't seen that in ages and thought it had moved. 20GB tape containing all the corporate goodies. That makes me smile.",
-      "fetched_at": "2026-10-05T02:22:13.244635+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49932236",
-      "hn_story_type": "story",
-      "hn_points": "28",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49932236",
-      "hn_item_text": "",
-      "hn_comment_preview": "ahazred8ta: For reference: a comprehensive backup + security plan for individuals https://nau.github.io/triplesec/\nthrowaway81523: Haven't seen that in ages and thought it had moved. 20GB tape containing all the corporate goodies. That makes me smile.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "security",
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "security",
-        "index"
-      ],
-      "detail_slug": "0e36b0d6ff78db614570e88c496a96db71bd8845",
-      "is_english_source": true,
-      "sent_at": "2026-10-05T02:24:40.862178+00:00"
-    },
-    {
-      "id": "3ebdcca1d8950435dffd510a01c3ba49def6873c",
-      "title_hash": "91a861a79d0b36ad3ae8a5279ee2f80f9af42160",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "A browser-native classic Visual Basic VB6 IDE",
-      "link": "https://wieslawsoltes.github.io/VB6/",
-      "published_at": "2026-10-04T18:49:17+00:00",
-      "summary": "HN story type: story HN points: 95 HN comments: 39 HN top comments: Dwedit: Best part of VB5 was that when you hit F1, you instantly got help for whatever was under the cursor. VB6 changed it to use some much slower MSDN help system instead. sijmen: Slick! Thanks for bringing back some memories of how i got into programming; by automating math-homework in visual basic. Kuyawa: Oooh beautiful! Visual Foxpro was the same, only the language changed but their screen designers were almost identical",
-      "fetched_at": "2026-10-05T02:22:13.244635+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49956681",
-      "hn_story_type": "story",
-      "hn_points": "95",
-      "hn_comments_count": "39",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49956681",
-      "hn_item_text": "",
-      "hn_comment_preview": "Dwedit: Best part of VB5 was that when you hit F1, you instantly got help for whatever was under the cursor. VB6 changed it to use some much slower MSDN help system instead.\nsijmen: Slick! Thanks for bringing back some memories of how i got into programming; by automating math-homework in visual basic.\nKuyawa: Oooh beautiful! Visual Foxpro was the same, only the language changed but their screen designers were almost identical",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "cursor",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "cursor",
-        "ide"
-      ],
-      "detail_slug": "3ebdcca1d8950435dffd510a01c3ba49def6873c",
-      "is_english_source": true,
-      "sent_at": "2026-10-05T02:24:40.862178+00:00"
-    },
-    {
-      "id": "c910e35c685ea02003dbb98f2420d437995d355f",
-      "title_hash": "0f26c6783dcadd582f4da02b610e813d42134e0e",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
-      "link": "https://github.com/omlahore/RemoveMacAI",
-      "published_at": "2026-10-04T19:42:25+00:00",
-      "summary": "HN story type: story HN points: 385 HN comments: 243 HN top comments: ryandrake: Reminds me of all the de-crufting you've always needed to do when you install Windows. Looks like we've gotten to the point on macOS too, where you need to run third party scripts on a new OS installation to gain back control of your system resources and remove unwanted crapware. Grombobulous: I no longer have a Mac as I’ve moved over to Linux, but my iOS device leaves me very frustrated that I can no longer disable this AI stuff with a simple toggle. It seems insane given that Apple’s competitors (Microsoft, Firefox, probably others) moved toward a global AI switch to make the choice easy for their customers. hypfer: This is stuff on the level of O&O ShutUp10. Which is a good tool, but also, a Windows tool for very (back in the day) Windows-specific nonsense. What's going on at Apple product strategy?",
-      "fetched_at": "2026-10-05T02:22:13.244635+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49957116",
-      "hn_story_type": "story",
-      "hn_points": "385",
-      "hn_comments_count": "243",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49957116",
-      "hn_item_text": "",
-      "hn_comment_preview": "ryandrake: Reminds me of all the de-crufting you've always needed to do when you install Windows. Looks like we've gotten to the point on macOS too, where you need to run third party scripts on a new OS installation to gain back control of your system resources and remove unwanted crapware.\nGrombobulous: I no longer have a Mac as I’ve moved over to Linux, but my iOS device leaves me very frustrated that I can no longer disable this AI stuff with a simple toggle. It seems insane given that Apple’s competitors (Microsoft, Firefox, probably others) moved toward a global AI switch to make the choice easy for their customers.\nhypfer: This is stuff on the level of O&O ShutUp10. Which is a good tool, but also, a Windows tool for very (back in the day) Windows-specific nonsense. What's going on at Apple product strategy?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=7,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "customers"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "github.com"
-      ],
-      "detail_slug": "c910e35c685ea02003dbb98f2420d437995d355f",
-      "is_english_source": true,
-      "sent_at": "2026-10-05T02:24:40.862178+00:00"
-    },
-    {
-      "id": "7f29fe87d16fee05926fc2ea53d215ac2d4a5c56",
-      "title_hash": "8886c2bc8566dbf5706b38112fd813a3c20bce47",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "How to scale intent, quality, and artistry with AI [video]",
-      "link": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
-      "published_at": "2026-10-04T08:41:58+00:00",
-      "summary": "HN story type: story HN points: 53 HN comments: 16 HN top comments: socializer: The problem isn't that you can't use AI to uplevel your creativity. It's that doing it slows you down, so you end up at a marked disadvantage, because others who just prompt \"hey Claude, make me X\" will produce 100 good enough slop-pieces in the time it takes you to finish one. For the vast majority of paying customers or social media appreciators, that low-effort slop is sufficient. It's cheap, fast, and gets bet... chakintosh: She could have a great career in audiobook narration KazaNLP: \"...Use the good judgment of the human and scale with the AI\" this is the way.",
-      "fetched_at": "2026-10-05T02:22:13.244635+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49951891",
-      "hn_story_type": "story",
-      "hn_points": "53",
-      "hn_comments_count": "16",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49951891",
-      "hn_item_text": "",
-      "hn_comment_preview": "socializer: The problem isn't that you can't use AI to uplevel your creativity. It's that doing it slows you down, so you end up at a marked disadvantage, because others who just prompt \"hey Claude, make me X\" will produce 100 good enough slop-pieces in the time it takes you to finish one. For the vast majority of paying customers or social media appreciators, that low-effort slop is sufficient. It's cheap, fast, and gets bet...\nchakintosh: She could have a great career in audiobook narration\nKazaNLP: \"...Use the good judgment of the human and scale with the AI\" this is the way.",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "36",
-      "priority_signal": "slot=strategy_insight,boost=24,slot_score=12,practical_tech=6,tools_agents=9,strategy_insight=12,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 6,
-        "tools_agents": 9,
-        "strategy_insight": 12,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 6,
-          "strong_hits": [],
-          "support_hits": [
-            "how to"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "prompt"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 12,
-          "strong_hits": [
-            "judgment",
-            "career"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "customers"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "judgment",
-        "career"
-      ],
-      "detail_slug": "7f29fe87d16fee05926fc2ea53d215ac2d4a5c56",
-      "is_english_source": true,
       "sent_at": "2026-10-05T02:24:40.862178+00:00"
     }
   ],
