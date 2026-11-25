@@ -1,6 +1,500 @@
 {
   "items": [
     {
+      "id": "4a48a6b3d1ac4bfbf28f64ea589a7a79ce519640",
+      "title_hash": "b5b6a033881f6c030bee41c60919fb92ede17350",
+      "source": "GeekNews",
+      "title": "AI 네이티브 서비스 비즈니스 모델의 내부 구조",
+      "link": "https://news.hada.io/topic?id=37807&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-25T01:20:02+00:00",
+      "summary": "AI 네이티브 서비스는 계약 검토 도구를 파는 대신 계약 검토를 직접 맡는 사업 임. 완성된 업무와 그에 대한 책임을 판매하며, 초기 매출이 발생해도 인력을 비례해서 늘리지 않고 품질과 업무량을 유지할 수 있는지는 별도로 검증해야 함 검증할 것은 고객이 다시 일을 맡기는지 , 고객이 늘어도 건당 인력과 비용을 줄일 수 있는지 임. 맞춤 대응에 사람을 많이 쓰면 비용이 함께 늘고, 자동화를 과하게 밀어붙이면 품질과 신뢰를 잃을 수 있음 반복 의뢰와 고객당 업무량으로 수요를 확인하고 , 사람의 투입 시간, 건당 가격과 비용, 처리 시간과 재작업으로 운영이 나아지는지 살펴야 함. 첫 매출이 생겼다고 고객 수요와 확장성 검증이 끝난 것은 아님 …",
+      "fetched_at": "2026-11-25T04:21:05.500906+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "자동화"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "자동화"
+      ],
+      "detail_slug": "4a48a6b3d1ac4bfbf28f64ea589a7a79ce519640",
+      "is_english_source": false,
+      "sent_at": "2026-11-25T04:21:48.206187+00:00"
+    },
+    {
+      "id": "b4128e3767be716a084fe7303a09ab1494824a15",
+      "title_hash": "43766c8f2bf7a33977b0b68b0a8ddae88d7750e1",
+      "source": "GeekNews",
+      "title": "데이터 표현을 위한 Lua",
+      "link": "https://news.hada.io/topic?id=37799&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-25T00:01:59+00:00",
+      "summary": "Lua는 프로그램에 내장하기 위해 설계된 단순성과 유연성 을 바탕으로 데이터와 설정을 표현하는 언어로도 활용할 수 있음 여러 줄 문자열 의 구분자를 내용에 맞게 조절할 수 있고, 파서가 대규모 파일을 처리하도록 설계되어 데이터 표현에 적합함 테이블을 반환하는 JSON 스타일 , 전역 변수 할당을 수집하는 INI 스타일, 함수 호출로 데이터를 구성하는 명령형 스타일을 지원함 신뢰할 수 없는 데이터에는 이 방식을 권하지 않으며, 사용한다면 환경 제한과 바이트코드 거부 가 중요하고 자원 소모를 통한 서비스 거부도 별도로 고려해야 …",
+      "fetched_at": "2026-11-25T04:21:05.500906+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신뢰"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신뢰"
+      ],
+      "detail_slug": "b4128e3767be716a084fe7303a09ab1494824a15",
+      "is_english_source": false,
+      "sent_at": "2026-11-25T04:21:48.206187+00:00"
+    },
+    {
+      "id": "dffb7966240e354a814968544f8a0de8e4efee51",
+      "title_hash": "2c90d36df4c5bc83024515ece66bb96b4c5dfb5c",
+      "source": "GeekNews",
+      "title": "Grafana 12.4.16, 13.0.14, 13.1.11, 13.2.7, 13.3.2 (여러 CVE 관련)",
+      "link": "https://news.hada.io/topic?id=37814&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-25T03:36:00+00:00",
+      "summary": "다운로드 페이지는 Grafana Enterprise 13.3.2 를 선택한 상태로 설치 패키지와 설정 방법을 제공함 Grafana Enterprise 는 OSS의 모든 기능을 포함하며 무료로 사용할 수 있고, Enterprise 플러그인 지원을 포함한 전체 Enterprise 기능으로 업그레이드할 수 있음 Grafana OSS 는 커뮤니티 주도의 오픈소스 에디션으로, 핵심 시각화, 알림, 데이터 소스 기능을 제공함 Linux, Windows, Mac, Docker, Linux on ARM64 설치 선택지가 있으며, 64비트 Linux 패키지 와 독립 실행 바이너리를 다운로드할 수 있음 제공된 본문에는 CVE 번호나 취약 …",
+      "fetched_at": "2026-11-25T04:21:05.500906+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "50",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=1",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 1
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "docker"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 1,
+          "strong_hits": [
+            "enterprise"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "docker"
+      ],
+      "detail_slug": "dffb7966240e354a814968544f8a0de8e4efee51",
+      "is_english_source": false,
+      "sent_at": "2026-11-25T04:21:48.206187+00:00"
+    },
+    {
+      "id": "2afd1ac718a07e6ceb9e7ef1a1c473dfc32c75e8",
+      "title_hash": "cb62903c497c154aeaae7aaadca07826c0aa9b5f",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "link": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "published_at": "2026-11-25T02:34:21+00:00",
+      "summary": "HN story type: story HN points: 54 HN comments: 13 HN top comments: amluto: This shared LV cache thing is, in my mind, ridiculous. Web browser developers learned, quite a while ago, that caches need to be separated for different origins. Inference servers should add a similar feature: allow API calls to specify cache separation keys that prevent one security context from probing another context’s cache. As for the step size issue, Google recently had a post about producing exactly consist... markasoftware: But /will/ they? In huggingface incident they accidentally discovered each other, could that happen with this approach? cududa: It seems this was a local machine, given the hot swapping of GPUs. Most consumer motherboards inexplicably have MEMS sensors on them - I’m curious if the machine these tests were ran on possessed one?",
+      "fetched_at": "2026-11-25T04:21:05.500906+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50637686",
+      "hn_story_type": "story",
+      "hn_points": "54",
+      "hn_comments_count": "13",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50637686",
+      "hn_item_text": "",
+      "hn_comment_preview": "amluto: This shared LV cache thing is, in my mind, ridiculous. Web browser developers learned, quite a while ago, that caches need to be separated for different origins. Inference servers should add a similar feature: allow API calls to specify cache separation keys that prevent one security context from probing another context’s cache. As for the step size issue, Google recently had a post about producing exactly consist...\nmarkasoftware: But /will/ they? In huggingface incident they accidentally discovered each other, could that happen with this approach?\ncududa: It seems this was a local machine, given the hot swapping of GPUs. Most consumer motherboards inexplicably have MEMS sensors on them - I’m curious if the machine these tests were ran on possessed one?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "53",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=29,practical_tech=29,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 29,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 29,
+          "strong_hits": [
+            "inference",
+            "security",
+            "sandbox",
+            "cache",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "sandbox",
+            "ide"
+          ],
+          "support_hits": [
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "inference",
+        "security",
+        "sandbox",
+        "cache",
+        "api"
+      ],
+      "detail_slug": "2afd1ac718a07e6ceb9e7ef1a1c473dfc32c75e8",
+      "is_english_source": true,
+      "sent_at": "2026-11-25T04:21:48.206187+00:00"
+    },
+    {
+      "id": "50a3fa460122351eb0c81013984d9618026fc654",
+      "title_hash": "578b474ceb7c702797c8e27df0816a0e42538a15",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+      "link": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+      "published_at": "2026-11-25T01:19:26+00:00",
+      "summary": "HN story type: story HN points: 266 HN comments: 121 HN top comments: zone411: For context, OpenAI's 4 new papers resolve 8 problems of the Top 500 Open Problems in Math list (LLM ranked, https://proofatlas.ai/open-problems/ ). They include: #25 — Matrix-multiplication exponent equals two. The paper gives the exact exponent 9/4 over every field, refuting the conjecture. #89 — Strongly polynomial linear programming (Smale’s ninth problem). The same paper also gives polynomial-time algorithms... mmaunder: One possibility is that OpenAI may be holding back their best models to make fundamental breakthroughs, then using those breakthroughs to build stronger models in a compounding loop. If they were playing this game, public model quality would stall as compute shifted to internal research, and occasional releases like this would provide a glimpse of more beneath the surface. Edit: Forgot to point out that this came... seizethecheese: These math proofs are so insanely over my head, but I really want to understand them. I tried Jane Street's socratic tutor skill ( https://github.com/janestreet/agent_skills/blob/master/socra... ) against this pdf and here's what I got: - Matrix multiplication is multiplying pairs of numbers together then summing them (you probably know this already) - Without any optimization, this process is o(n^3) - You can mak...",
+      "fetched_at": "2026-11-25T04:21:05.500906+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50637220",
+      "hn_story_type": "story",
+      "hn_points": "266",
+      "hn_comments_count": "121",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50637220",
+      "hn_item_text": "",
+      "hn_comment_preview": "zone411: For context, OpenAI's 4 new papers resolve 8 problems of the Top 500 Open Problems in Math list (LLM ranked, https://proofatlas.ai/open-problems/ ). They include: #25 — Matrix-multiplication exponent equals two. The paper gives the exact exponent 9/4 over every field, refuting the conjecture. #89 — Strongly polynomial linear programming (Smale’s ninth problem). The same paper also gives polynomial-time algorithms...\nmmaunder: One possibility is that OpenAI may be holding back their best models to make fundamental breakthroughs, then using those breakthroughs to build stronger models in a compounding loop. If they were playing this game, public model quality would stall as compute shifted to internal research, and occasional releases like this would provide a glimpse of more beneath the surface. Edit: Forgot to point out that this came...\nseizethecheese: These math proofs are so insanely over my head, but I really want to understand them. I tried Jane Street's socratic tutor skill ( https://github.com/janestreet/agent_skills/blob/master/socra... ) against this pdf and here's what I got: - Matrix multiplication is multiplying pairs of numbers together then summing them (y...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=7,tools_agents=17,strategy_insight=4,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 17,
+        "strategy_insight": 4,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm",
+        "agent",
+        "github.com"
+      ],
+      "detail_slug": "50a3fa460122351eb0c81013984d9618026fc654",
+      "is_english_source": true,
+      "sent_at": "2026-11-25T04:21:48.206187+00:00"
+    },
+    {
+      "id": "38219fe47c19c0f7ec8a972338d0767e823c0135",
+      "title_hash": "49392fb5ef27d6c2157ab5e3948de06cbc89f42c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "published_at": "2026-11-24T21:02:22+00:00",
+      "summary": "HN story type: story HN points: 210 HN comments: 65 HN top comments: plaidfuji: This is interesting, although the “beyond specialized models” feels a bit premature. It seems like GPT can act like a glue layer between the highly specialized models that carry out each specific sub-task in a protein design workflow… and in some cases, can outperform specialized models at those tasks. I’ve noticed that LLMs are very good at this type of glue work between highly specialized fields. It used to be q... gopalv: > We gave GPT‑6.2 the three-dimensional structures of five target proteins and marked where we wanted a minibinder to attach. It then wrote code to create three-dimensional designs for potential minibinders, without using specialized protein AI models. The ability to write code is basically the superpower for these models. As long as what you need to do to make progress is write better code, they will do better at... fabian2k: > To turn GPT‑6.2’s three-dimensional designs into proteins we could test in the lab, we needed amino acid sequences that would fold into the proposed structures. We used a specialized AI model called SolubleMPNN to suggest sequences for each design. Other specialized protein models helped us select candidates predicted to fold as designed and bind at the intended site on the target. I don't get it. What did GTP-6...",
+      "fetched_at": "2026-11-25T04:21:05.500906+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50634658",
+      "hn_story_type": "story",
+      "hn_points": "210",
+      "hn_comments_count": "65",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50634658",
+      "hn_item_text": "",
+      "hn_comment_preview": "plaidfuji: This is interesting, although the “beyond specialized models” feels a bit premature. It seems like GPT can act like a glue layer between the highly specialized models that carry out each specific sub-task in a protein design workflow… and in some cases, can outperform specialized models at those tasks. I’ve noticed that LLMs are very good at this type of glue work between highly specialized fields. It used to be q...\ngopalv: > We gave GPT‑6.2 the three-dimensional structures of five target proteins and marked where we wanted a minibinder to attach. It then wrote code to create three-dimensional designs for potential minibinders, without using specialized protein AI models. The ability to write code is basically the superpower for these models. As long as what you need to do to make progress is write better code, they will do better at...\nfabian2k: > To turn GPT‑6.2’s three-dimensional designs into proteins we could test in the lab, we needed amino acid sequences that would fold into the proposed structures. We used a specialized AI model called SolubleMPNN to suggest sequences for each design. Other specialized protein models helped us select candidates predicted to f...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=14,practical_tech=9,tools_agents=14,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "index"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "workflow",
+            "llm"
+          ],
+          "support_hits": [
+            "workflow"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "workflow",
+        "llm"
+      ],
+      "detail_slug": "38219fe47c19c0f7ec8a972338d0767e823c0135",
+      "is_english_source": true,
+      "sent_at": "2026-11-25T04:21:48.206187+00:00"
+    },
+    {
       "id": "06764768d64bdfb7627cf30bd2839db51a883089",
       "title_hash": "38900712bcee3b6f7c2768fa155572e379cf3e3f",
       "source": "GeekNews",
@@ -165469,533 +165963,6 @@
       "detail_slug": "f2a2b0a0c0be44fd525cd93339fd55a8a7ce6685",
       "is_english_source": false,
       "sent_at": "2026-10-05T14:57:02.751468+00:00"
-    },
-    {
-      "id": "8a877a51206f3e94ae9dde526c747df800186893",
-      "title_hash": "eafbb4f4ef407efdc46120ee1aff4eeabfb5cce8",
-      "source": "GeekNews",
-      "title": "유럽의 새로운 로봇 유니콘: 독일 RobCo, 기업가치 약 1.5조원 달성",
-      "link": "https://news.hada.io/topic?id=34823",
-      "published_at": "2026-10-05T12:34:38+00:00",
-      "summary": "독일 뮌헨 기반 RobCo 가 신규 투자와 장기근속 직원의 구주 매각을 결합한 거래로 기업가치 10억 달러($1b)를 돌파 했으며, 9개월 만에 가치가 두 배로 늘어남 서비스형 로봇(Robotics-as-a-Service) 모델을 통해 제조업체가 대규모 초기 투자 없이...",
-      "fetched_at": "2026-10-05T14:54:33.074997+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "52",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=7,practical_tech=-4,tools_agents=0,strategy_insight=-1,industry_business=7",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 0,
-        "strategy_insight": -1,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "투자"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "투자"
-          ],
-          "support_hits": [
-            "기업"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "투자",
-        "기업"
-      ],
-      "detail_slug": "8a877a51206f3e94ae9dde526c747df800186893",
-      "is_english_source": false,
-      "sent_at": "2026-10-05T14:57:02.751468+00:00"
-    },
-    {
-      "id": "1d685a3a3efa051154a91e3f7d98182d6fb0f11b",
-      "title_hash": "6dd3be2f5b502d748a2796ef6547ca79ea39aabb",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Minigraf – An embedded, bi-temporal graph database in Rust",
-      "link": "https://github.com/project-minigraf/minigraf",
-      "published_at": "2026-10-05T11:18:18+00:00",
-      "summary": "HN story type: story HN points: 8 HN comments: 0 HN post text: A successor project to my previous attempt at building a temporal graph database ( https://news.ycombinator.com/item?id=23455516 ). This one builds on its predecessor's concept, but drops the dependency on another database to provide the storage, transaction and query engines. Minigraf is self-contained, packaged as a library crate, embeds into your application, and supports full bi-temporality.",
-      "fetched_at": "2026-10-05T14:54:33.074997+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49963394",
-      "hn_story_type": "story",
-      "hn_points": "8",
-      "hn_comments_count": "0",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49963394",
-      "hn_item_text": "A successor project to my previous attempt at building a temporal graph database ( https://news.ycombinator.com/item?id=23455516 ). This one builds on its predecessor's concept, but drops the dependency on another database to provide the storage, transaction and query engines. Minigraf is self-contained, packaged as a library crate, embeds into your application, and supports full bi-temporality.",
-      "hn_comment_preview": "",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=31,practical_tech=31,tools_agents=10,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 31,
-        "tools_agents": 10,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 31,
-          "strong_hits": [
-            "database",
-            "storage",
-            "show hn",
-            "rust"
-          ],
-          "support_hits": [
-            "library",
-            "query"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "database",
-        "storage",
-        "show hn",
-        "rust",
-        "library",
-        "query",
-        "github.com"
-      ],
-      "detail_slug": "1d685a3a3efa051154a91e3f7d98182d6fb0f11b",
-      "is_english_source": true,
-      "sent_at": "2026-10-05T14:57:02.751468+00:00"
-    },
-    {
-      "id": "c823c5017c2701279f4fe449e7d0424a28540fab",
-      "title_hash": "37731753770412379e7d7028419edf9f49c1f538",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Gitframes",
-      "link": "https://github.com/gatewai-dev/gitframes",
-      "published_at": "2026-10-05T12:59:14+00:00",
-      "summary": "HN story type: story HN points: 45 HN comments: 22 HN top comments: Uehreka: > Photoshop-, After Effects-, and Blender-class video tools Look, you can’t just write this. When you say something like this, you set the bar extremely high, and open yourself up to (totally fair!) criticism if Photoshop or After Effects gurus point out entire classes of use cases you aren’t handling. If you want people to talk about what your tool is good at, you need to stop inviting comparisons to titans like... rmunn: Info-dense, completely unreadable README.md file. Only the line \"No Puppeteer, no Chromium IPC, no `page.screenshot()`\" actually allowed me to figure out what this is about: creating video demos of your website (and probably other software as well) with an AI agent, rather than going through the conventional video-editing process. It's cool that so many people are building useful tools with LLMs, but for the love... scosman: IMO we need less \"photoshop and blender for AI\", more `rails new my_proj` for video. I have a project like this: it setups up a scaffolding: scripts, audio tracks, hot-reloading authoring UI, TTS/STT, sfx, music, shared-styles, beats, video composing, time-control for deterministic rendering, etc. Then you can use any web-technology to render (webGPU, Lottie, shadcn, SVG, whatever). https://github.com/scosman/vide...",
-      "fetched_at": "2026-10-05T14:54:33.074997+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49964265",
-      "hn_story_type": "story",
-      "hn_points": "45",
-      "hn_comments_count": "22",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49964265",
-      "hn_item_text": "",
-      "hn_comment_preview": "Uehreka: > Photoshop-, After Effects-, and Blender-class video tools Look, you can’t just write this. When you say something like this, you set the bar extremely high, and open yourself up to (totally fair!) criticism if Photoshop or After Effects gurus point out entire classes of use cases you aren’t handling. If you want people to talk about what your tool is good at, you need to stop inviting comparisons to titans like...\nrmunn: Info-dense, completely unreadable README.md file. Only the line \"No Puppeteer, no Chromium IPC, no `page.screenshot()`\" actually allowed me to figure out what this is about: creating video demos of your website (and probably other software as well) with an AI agent, rather than going through the conventional video-editing process. It's cool that so many people are building useful tools with LLMs, but for the love...\nscosman: IMO we need less \"photoshop and blender for AI\", more `rails new my_proj` for video. I have a project like this: it setups up a scaffolding: scripts, audio tracks, hot-reloading authoring UI, TTS/STT, sfx, music, shared-styles, beats, video composing, time-control for deterministic rendering, etc. Then you can use any web-technolo...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=26,practical_tech=7,tools_agents=26,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 26,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 26,
-          "strong_hits": [
-            "ai agent",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "agent",
-            "setup",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ai agent",
-        "ide",
-        "llm",
-        "agent",
-        "setup",
-        "tool",
-        "github.com"
-      ],
-      "detail_slug": "c823c5017c2701279f4fe449e7d0424a28540fab",
-      "is_english_source": true,
-      "sent_at": "2026-10-05T14:57:02.751468+00:00"
-    },
-    {
-      "id": "fb581bdc1926f010040404827c034c52142413cd",
-      "title_hash": "0a20594e950831e45d9f40d38c3b8c03adc786e2",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Spending on AI Is Becoming Almost Impossible for Businesses to Budget",
-      "link": "https://www.wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
-      "published_at": "2026-10-05T13:22:31+00:00",
-      "summary": "HN story type: story HN points: 38 HN comments: 37 HN top comments: hilariously: I see a lot of businesses who just dump this all on their employees and then get mad at their employees effectively for not following the most recent LLM related talk on twitter. Most employees can't tell you what database to use, what software programming framework to use, what document management framework to use, but they are expected to know which of the 25 models available to use for a task, budget appropriat... FinnLobsien: You can set spending limits, but I don't feel like that helps much because everyone's accustomed to AI. Nobody would accept \"We're out of usage so we have to wait until Monday\" and do all of their work manually. I believe that we're in a scenario where usage is unlikely to go down and neither are frontier AI costs. I believe we'll see a shift to more organizations building their own harnesses with model routing lo... 01284a7e: Ever done a software project before AI? AI is more deterministic and predictable than humans. Yeah, that guy you hired to write the prototype went on a 2 month bender and created 0 usable output. Did you budget for that? Oh, okay. AI is better than any individual developer at this point in every single aspect, do not fool yourselves. Whether this implies a devastating outcome for a lot of people in the long-term s...",
-      "fetched_at": "2026-10-05T14:54:33.074997+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49964537",
-      "hn_story_type": "story",
-      "hn_points": "38",
-      "hn_comments_count": "37",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49964537",
-      "hn_item_text": "",
-      "hn_comment_preview": "hilariously: I see a lot of businesses who just dump this all on their employees and then get mad at their employees effectively for not following the most recent LLM related talk on twitter. Most employees can't tell you what database to use, what software programming framework to use, what document management framework to use, but they are expected to know which of the 25 models available to use for a task, budget appropriat...\nFinnLobsien: You can set spending limits, but I don't feel like that helps much because everyone's accustomed to AI. Nobody would accept \"We're out of usage so we have to wait until Monday\" and do all of their work manually. I believe that we're in a scenario where usage is unlikely to go down and neither are frontier AI costs. I believe we'll see a shift to more organizations building their own harnesses with model routing lo...\n01284a7e: Ever done a software project before AI? AI is more deterministic and predictable than humans. Yeah, that guy you hired to write the prototype went on a 2 month bender and created 0 usable output. Did you budget for that? Oh, okay. AI is better than any individual developer at this point in every single aspect, do not...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=2",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 2
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "framework",
-            "database"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "business"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "framework",
-        "database"
-      ],
-      "detail_slug": "fb581bdc1926f010040404827c034c52142413cd",
-      "is_english_source": true,
-      "sent_at": "2026-10-05T14:57:02.751468+00:00"
-    },
-    {
-      "id": "40319d07cc2897191a39092679d6603cbc0ed8dc",
-      "title_hash": "a2a4c4a6b448dcc5707a15dd7344777921bb6591",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
-      "link": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped",
-      "published_at": "2026-10-05T13:02:25+00:00",
-      "summary": "HN story type: story HN points: 129 HN comments: 81 HN top comments: microtonal: As others have said, this is not the most recent status update (it depends on future Google changes in QPR1 or QPR2). The much more interesting recent news IMO is that Google is not allowing (non-Samsung) OEMs to sell devices with GrapheneOS: https://news.ycombinator.com/item?id=49946698 See the last paragraph. For example, non-Samsung Android OEMs aren't allowed to directly sell devices with GrapheneOS and Google... aftbit: The Pixel 11 is the first Pixel phone to be released after the RAMpocolypse. It has made a lot of compromises in the name of lowering cost. I am definitely going to skip that generation. I tend to upgrade every 3 years, but there really isn't a big driver to do so right now. My Pixel 8 is holding up great. If I broke it and needed to buy a new phone today, I'd probably get a used Pixel 10 instead of a new 11. rickdeckard: Quite a bad signal-to-noise ratio in this link. It's an emotional discussion about Google not supporting MTE on Pixel 11 (old news of August, GrapheneOS had to roll back that statement in September [0]). Now the question is whether MTE will be enabled by Google as part of a future OS-upgrade, to which there is no definite answer AFAIK [0] https://news.ycombinator.com/item?id=49536384",
-      "fetched_at": "2026-10-05T14:54:33.074997+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49964303",
-      "hn_story_type": "story",
-      "hn_points": "129",
-      "hn_comments_count": "81",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49964303",
-      "hn_item_text": "",
-      "hn_comment_preview": "microtonal: As others have said, this is not the most recent status update (it depends on future Google changes in QPR1 or QPR2). The much more interesting recent news IMO is that Google is not allowing (non-Samsung) OEMs to sell devices with GrapheneOS: https://news.ycombinator.com/item?id=49946698 See the last paragraph. For example, non-Samsung Android OEMs aren't allowed to directly sell devices with GrapheneOS and Google...\naftbit: The Pixel 11 is the first Pixel phone to be released after the RAMpocolypse. It has made a lot of compromises in the name of lowering cost. I am definitely going to skip that generation. I tend to upgrade every 3 years, but there really isn't a big driver to do so right now. My Pixel 8 is holding up great. If I broke it and needed to buy a new phone today, I'd probably get a used Pixel 10 instead of a new 11.\nrickdeckard: Quite a bad signal-to-noise ratio in this link. It's an emotional discussion about Google not supporting MTE on Pixel 11 (old news of August, GrapheneOS had to roll back that statement in September [0]). Now the question is whether MTE will be enabled by Google as part of a future OS-upgrade, to which there is no definite answer...",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "44",
-      "priority_signal": "slot=strategy_insight,boost=24,slot_score=20,practical_tech=14,tools_agents=2,strategy_insight=20,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 2,
-        "strategy_insight": 20,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "security",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 20,
-          "strong_hits": [
-            "signal",
-            "noise"
-          ],
-          "support_hits": [
-            "future"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "signal + noise"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "signal",
-        "noise",
-        "future",
-        "signal + noise"
-      ],
-      "detail_slug": "40319d07cc2897191a39092679d6603cbc0ed8dc",
-      "is_english_source": true,
-      "sent_at": "2026-10-05T14:57:02.751468+00:00"
-    },
-    {
-      "id": "28aeb980f6ab5dcbf4909a56fd3bde4a4b0fc5ad",
-      "title_hash": "bc26b1088af941af4fba994f686bab43de7f18dd",
-      "source": "GeekNews",
-      "title": "Claude Code 모드(mod) 시작하기",
-      "link": "https://news.hada.io/topic?id=34796",
-      "published_at": "2026-10-05T02:24:45+00:00",
-      "summary": "Claude Code의 동작과 UI를 바꾸는 JavaScript/TypeScript 확장인 모드(mod) 로, 세션 안에서 이벤트를 관찰하고 도구 실행에 개입하거나 맞춤 패널을 표시할 수 있음 원하는 기능을 자연어로 요청해 모드를 만들 수 있으며 , 핫 리로드로 세션을 재시작하지 않고 수...",
-      "fetched_at": "2026-10-05T10:44:36.622720+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=5,tools_agents=15,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 15,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "typescript"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "28aeb980f6ab5dcbf4909a56fd3bde4a4b0fc5ad",
-      "is_english_source": false,
-      "sent_at": "2026-10-05T10:47:07.711810+00:00"
     }
   ],
   "topic_digests": {
