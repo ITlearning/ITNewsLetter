@@ -1,6 +1,578 @@
 {
   "items": [
     {
+      "id": "028b0ab2c3160deaec1eadc00a90284a05079ce3",
+      "title_hash": "0a94072e84b28a17d463c70bde874d33262454ca",
+      "source": "GeekNews",
+      "title": "Marginalia Search, 자금, C++, Rust, AI와 이런저런 이야기",
+      "link": "https://news.hada.io/topic?id=37838&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-25T13:33:27+00:00",
+      "summary": "Marginalia Search 는 주요 구성 요소를 대부분 갖춘 상태로, 최근 몇 달간 대형 기능 추가보다 버그 수정과 기술 부채 정리에 집중함 SerpApi의 1만 달러 후원 에 더해 기부와 API 키 매출이 여름 이후 매달 증가했지만, 아직 지속적으로 자립 가능한 운영 상태는 아님 CPU 병목과 Java의 오프힙 메모리 처리 불편을 해소하고자 인덱스 코드를 C++로 옮기는 실험 을 진행 중이며, 전환 여부와 성능 개선 폭은 확정되지 않음 C++를 택한 이유는 기존 경험과 도구 숙련도 이며, 버퍼 풀과 역색인 일부를 옮긴 결과 성능과 별개로 구현의 표현력 …",
+      "fetched_at": "2026-11-25T16:36:24.331623+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=14,practical_tech=14,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "rust",
+            "api"
+          ],
+          "support_hits": [
+            "코드",
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "병목"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "api",
+        "코드",
+        "성능"
+      ],
+      "detail_slug": "028b0ab2c3160deaec1eadc00a90284a05079ce3",
+      "is_english_source": false,
+      "sent_at": "2026-11-25T16:37:06.474705+00:00"
+    },
+    {
+      "id": "96880d3bc45fcc82128a30e643cc7bd639cfe1b4",
+      "title_hash": "e56ebdaeebaed075b48d3bfa20aae83494162903",
+      "source": "GeekNews",
+      "title": "개당 3달러로 미국 재무부 서브도메인 탈취하기",
+      "link": "https://news.hada.io/topic?id=37841&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-25T15:40:50+00:00",
+      "summary": "Intruder가 해제된 AWS Elastic IP를 가리키는 방치된 DNS 레코드 를 이용해 서브도메인 28개를 장악했으며, 성공 건당 비용은 약 3달러 였음 48시간 동안 고유 IP 45만 개를 할당받아 검사했으며, 이는 AWS가 공개한 EC2 IPv4 주소 공간의 0.56% 에 해당함 탈취 대상에는 미국 재무부 서브도메인 5개 가 포함됐으며, 관련 버그 바운티 프로그램을 통해 신고하고 수정함 탈취한 서브도메인은 TLS 인증서 발급과 피싱 , 기존 자동화가 전송하는 자격 증명 수집에 악용될 수 있으며, 상위 도메인 쿠키 설정에 따라 세션 탈취 도 가능함 AWS는 고 …",
+      "fetched_at": "2026-11-25T16:36:24.331623+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "자동화"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "자동화"
+      ],
+      "detail_slug": "96880d3bc45fcc82128a30e643cc7bd639cfe1b4",
+      "is_english_source": false,
+      "sent_at": "2026-11-25T16:37:06.474705+00:00"
+    },
+    {
+      "id": "2a576a5e19626bcf5d5740d6869050b723743249",
+      "title_hash": "b189ae3a40b8411dbddaf90db32d3200f1d4dc54",
+      "source": "GeekNews",
+      "title": "Google, 정수 소인수분해와 이산로그 등을 다룬 Cogentic 논문 공개",
+      "link": "https://news.hada.io/topic?id=37842&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-25T15:43:50+00:00",
+      "summary": "Google, 정수 소인수분해와 이산로그 등을 다룬 Cogentic 논문 공개",
+      "fetched_at": "2026-11-25T16:36:24.331623+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=-4,tools_agents=4,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "인수"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "인수"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "인수"
+      ],
+      "detail_slug": "2a576a5e19626bcf5d5740d6869050b723743249",
+      "is_english_source": false,
+      "sent_at": "2026-11-25T16:37:06.474705+00:00"
+    },
+    {
+      "id": "c45e35263ff97493f4e3da0e0481bfa455c70075",
+      "title_hash": "3c102e91ec2d35fe27b0c1936883977830a01621",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The short age of dragon riders",
+      "link": "https://atilloy.com/2026/11/16/the-short-age-of-dragon-riders/",
+      "published_at": "2026-11-23T05:33:34+00:00",
+      "summary": "HN story type: story HN points: 201 HN comments: 119 HN top comments: jazzypants: It's a well written article, but I disagree with it completely. It doesn't seem entirely internally cohesive. First, he says this: > As of November 2026, the best public models still lack research taste. They execute beautifully when given a clear goal but are worse than the best researchers at coming up with good questions, or at having the sparks of creativity needed to get out of a dead end. They do not have as... doginasuit: > I think we deserve all the bad things that will happen to us if we react like such sore losers. Likewise, we deserve all the bad things that will happen if we assume were going to lose in the first quarter. Is it not even that the other team is outplaying us, yet. The author acknowledges that AI lacks critical faculties for intellectual work. They are just getting better at a rate we didn't expect, and so it see... lubujackson: I think it will become clear at some point that AI can continue to improve but its usefulness to humans will remain heavily bound by our human understanding of its output. Consider chess engines, a precursor to AI absorbing human knowledge work. Chess engines may be unbeatable by humans, but humans continue to play chess (in fact, more than ever). Humans study games from engines, taking what is understandable and...",
+      "fetched_at": "2026-11-25T16:36:24.331623+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50607849",
+      "hn_story_type": "story",
+      "hn_points": "201",
+      "hn_comments_count": "119",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50607849",
+      "hn_item_text": "",
+      "hn_comment_preview": "jazzypants: It's a well written article, but I disagree with it completely. It doesn't seem entirely internally cohesive. First, he says this: > As of November 2026, the best public models still lack research taste. They execute beautifully when given a clear goal but are worse than the best researchers at coming up with good questions, or at having the sparks of creativity needed to get out of a dead end. They do not have as...\ndoginasuit: > I think we deserve all the bad things that will happen to us if we react like such sore losers. Likewise, we deserve all the bad things that will happen if we assume were going to lose in the first quarter. Is it not even that the other team is outplaying us, yet. The author acknowledges that AI lacks critical faculties for intellectual work. They are just getting better at a rate we didn't expect, and so it see...\nlubujackson: I think it will become clear at some point that AI can continue to improve but its usefulness to humans will remain heavily bound by our human understanding of its output. Consider chess engines, a precursor to AI absorbing human knowledge work. Chess engines may be unbeatable by humans, but humans continue to play c...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=9,tools_agents=12,strategy_insight=9,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 12,
+        "strategy_insight": 9,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "cursor",
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "taste"
+          ],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "cursor",
+        "ide"
+      ],
+      "detail_slug": "c45e35263ff97493f4e3da0e0481bfa455c70075",
+      "is_english_source": true,
+      "sent_at": "2026-11-25T16:37:06.474705+00:00"
+    },
+    {
+      "id": "583dce1a7c277fc2ff3821f117e31c5b18f0e8a5",
+      "title_hash": "5a196d40e7e0ab026c5fba7e926f188a7b575719",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Investigating degraded experiences across GitHub products",
+      "link": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+      "published_at": "2026-11-25T15:59:23+00:00",
+      "summary": "HN story type: story HN points: 59 HN comments: 27 HN top comments: matthewkosarek: I guess we're all having an early Thanksgiving :) Jokes aside - this is quite frustrating that it keeps happening, and it increasingly interferes with my work (many reviews to tend to today). I hope they figure this out soon. allthetime: I’m loving self-hosted forgejo. Near immediate responses to push/pulls. Mirror to wherever for backup & uptime guarantees. I feel like it’s time for whoever can to abandon Microsoft. KaiserPro: Those of us in/near the GMT time zone: time for the pub.",
+      "fetched_at": "2026-11-25T16:36:24.331623+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50643720",
+      "hn_story_type": "story",
+      "hn_points": "59",
+      "hn_comments_count": "27",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50643720",
+      "hn_item_text": "",
+      "hn_comment_preview": "matthewkosarek: I guess we're all having an early Thanksgiving :) Jokes aside - this is quite frustrating that it keeps happening, and it increasingly interferes with my work (many reviews to tend to today). I hope they figure this out soon.\nallthetime: I’m loving self-hosted forgejo. Near immediate responses to push/pulls. Mirror to wherever for backup & uptime guarantees. I feel like it’s time for whoever can to abandon Microsoft.\nKaiserPro: Those of us in/near the GMT time zone: time for the pub.",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "33",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=9,practical_tech=9,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust"
+      ],
+      "detail_slug": "583dce1a7c277fc2ff3821f117e31c5b18f0e8a5",
+      "is_english_source": true,
+      "sent_at": "2026-11-25T16:37:06.474705+00:00"
+    },
+    {
+      "id": "5822dc74c26921d20301e5427a842b680b7f1e53",
+      "title_hash": "f7b94ef4686987dc8b98b30084fa1d5281cd854a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+      "link": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+      "published_at": "2026-11-25T13:33:07+00:00",
+      "summary": "HN story type: story HN points: 234 HN comments: 194 HN top comments: martythemaniak: I don't think the recent spate of math discoveries should be very surprising. Consider 10 years ago when AlphaGo beat Lee Sedol, what was really happening there? You had an very large search space (all possible Go moves) that humans had been navigating by a combination of intuition, trial-and-error and passing knowledge between master-student. Then a program was build that could explore that search space both from... fidotron: There are rumors about, from credible people, that this is the tip of something bigger: https://x.com/aran_nayebi/status/2125596838120046846 dpweb: Some say don't go into Computer Science. I'd argue it's never been a more exciting time to get into Computer Science.",
+      "fetched_at": "2026-11-25T16:36:24.331623+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50642086",
+      "hn_story_type": "story",
+      "hn_points": "234",
+      "hn_comments_count": "194",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50642086",
+      "hn_item_text": "",
+      "hn_comment_preview": "martythemaniak: I don't think the recent spate of math discoveries should be very surprising. Consider 10 years ago when AlphaGo beat Lee Sedol, what was really happening there? You had an very large search space (all possible Go moves) that humans had been navigating by a combination of intuition, trial-and-error and passing knowledge between master-student. Then a program was build that could explore that search space both from...\nfidotron: There are rumors about, from credible people, that this is the tip of something bigger: https://x.com/aran_nayebi/status/2125596838120046846\ndpweb: Some say don't go into Computer Science. I'd argue it's never been a more exciting time to get into Computer Science.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "34",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=10,practical_tech=7,tools_agents=10,strategy_insight=4,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 10,
+        "strategy_insight": 4,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "github.com"
+      ],
+      "detail_slug": "5822dc74c26921d20301e5427a842b680b7f1e53",
+      "is_english_source": true,
+      "sent_at": "2026-11-25T16:37:06.474705+00:00"
+    },
+    {
+      "id": "7a9270ff7179ab590d34b90a9e966700b1bf0eb9",
+      "title_hash": "870544a730986cea6d0a3e9f12efea017a341afd",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
+      "link": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
+      "published_at": "2026-11-25T14:12:29+00:00",
+      "summary": "HN story type: story HN points: 120 HN comments: 106 HN top comments: chvid: Huawei is a massive company; the US forcing them out of 5G infrastructure and mobile phones forced them seek new business including in AI, lithography, and self-driving cars. throwa356262: Huawei is already locked out of the US market. Does it really matter to them what US courts come up with? ftchd: The case is about 2011/2012, not today (well it could be about current events but I'm saying the original events happened in 2011).",
+      "fetched_at": "2026-11-25T16:36:24.331623+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50642496",
+      "hn_story_type": "story",
+      "hn_points": "120",
+      "hn_comments_count": "106",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50642496",
+      "hn_item_text": "",
+      "hn_comment_preview": "chvid: Huawei is a massive company; the US forcing them out of 5G infrastructure and mobile phones forced them seek new business including in AI, lithography, and self-driving cars.\nthrowa356262: Huawei is already locked out of the US market. Does it really matter to them what US courts come up with?\nftchd: The case is about 2011/2012, not today (well it could be about current events but I'm saying the original events happened in 2011).",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "30",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=6,practical_tech=4,tools_agents=-2,strategy_insight=2,industry_business=6",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": -2,
+        "strategy_insight": 2,
+        "industry_business": 6
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "business",
+            "company",
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "business",
+        "company",
+        "market"
+      ],
+      "detail_slug": "7a9270ff7179ab590d34b90a9e966700b1bf0eb9",
+      "is_english_source": true,
+      "sent_at": "2026-11-25T16:37:06.474705+00:00"
+    },
+    {
       "id": "896cec41f7d324780b2739b288ea0d49b1071ac5",
       "title_hash": "1bd9c3427e4f3058644f3abc91ee6c182c750c98",
       "source": "GeekNews",
@@ -165356,585 +165928,6 @@
       "detail_slug": "d8b89f7c068e1dfd8f57d7ecae6381fdb79bce78",
       "is_english_source": false,
       "sent_at": "2026-10-06T03:25:02.359221+00:00"
-    },
-    {
-      "id": "e69fa3164637ef339bbd9c442e169f28f963a619",
-      "title_hash": "bc6e7761a5ed9992ed7f6e2611095e74b373a5e4",
-      "source": "GeekNews",
-      "title": "고처리량 AI-SQL 엔진 구축하기",
-      "link": "https://news.hada.io/topic?id=34860",
-      "published_at": "2026-10-06T01:05:02+00:00",
-      "summary": "Quail 은 SQL 안에서 AI로 문서를 분류하거나 문서 간 관계를 판별하는 엔진으로, 데이터 전체에 걸친 수십만~수백만 번의 모델 호출을 빠르게 처리함 호출을 하나씩 추론 서버에 보내는 대신 쿼리 실행 계획과 모델 추론을 함께 최적화 해, 같은 문서를 반복해서 읽...",
-      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "sql"
-      ],
-      "detail_slug": "e69fa3164637ef339bbd9c442e169f28f963a619",
-      "is_english_source": false,
-      "sent_at": "2026-10-06T03:25:02.359221+00:00"
-    },
-    {
-      "id": "66e330ba26040855b7839a899c27f3eb2b4afa96",
-      "title_hash": "119f590ebcec4b0654ea24d10516883fd0076626",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Ephemeral Testing",
-      "link": "https://lemire.me/blog/2026/10/05/ephemeral-testing/",
-      "published_at": "2026-10-05T23:06:36+00:00",
-      "summary": "HN story type: story HN points: 37 HN comments: 13 HN top comments: bakies: Not unthinkable at all. Been doing this for several years as an opt-in on pr tags usually but now with agents writing code I have it on by default. I've got several skills files about accessing with a read only account and gitops done through the PR. It's an excellent dev environment for the agents. bunderbunder: I had good results with a similar technique this summer. I was designing a DSL to help make a colleague’s work easier, and I tested it by having a coding agent re-implement some of their notebooks using a draft of the DSL. The LLM output was a decent enough approximation of “typical” use, and it uncovered some warts I didn’t catch by testing it myself. As its designer, I simply wouldn’t have thought to try using i... simonw: I've been using this pattern quite a bit recently for API design, and I really like it. The big challenge with designing an API is that the only way to be confident in the design is to build a bunch of different things on top of it. But why invest all that effort in an API that you don't think is ready yet? With coding agents the cost of building those prototypes drops to almost nothing. I can exercise a proposed...",
-      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49972008",
-      "hn_story_type": "story",
-      "hn_points": "37",
-      "hn_comments_count": "13",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49972008",
-      "hn_item_text": "",
-      "hn_comment_preview": "bakies: Not unthinkable at all. Been doing this for several years as an opt-in on pr tags usually but now with agents writing code I have it on by default. I've got several skills files about accessing with a read only account and gitops done through the PR. It's an excellent dev environment for the agents.\nbunderbunder: I had good results with a similar technique this summer. I was designing a DSL to help make a colleague’s work easier, and I tested it by having a coding agent re-implement some of their notebooks using a draft of the DSL. The LLM output was a decent enough approximation of “typical” use, and it uncovered some warts I didn’t catch by testing it myself. As its designer, I simply wouldn’t have thought to try using i...\nsimonw: I've been using this pattern quite a bit recently for API design, and I really like it. The big challenge with designing an API is that the only way to be confident in the design is to build a bunch of different things on top of it. But why invest all that effort in an API that you don't think is ready yet? With coding agents the cost of building those prototypes drops to almost nothing. I can exercise a proposed...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=19,practical_tech=11,tools_agents=19,strategy_insight=4,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 19,
-        "strategy_insight": 4,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [
-            "testing"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 19,
-          "strong_hits": [
-            "coding agent",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "coding agent",
-        "ide",
-        "llm",
-        "agent"
-      ],
-      "detail_slug": "66e330ba26040855b7839a899c27f3eb2b4afa96",
-      "is_english_source": true,
-      "sent_at": "2026-10-06T03:25:02.359221+00:00"
-    },
-    {
-      "id": "2e2d5313ab57a05b219c1ba5438fa4a4022dcf71",
-      "title_hash": "bd28253b1505b6d2b5b73cb044da4ea95965f046",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Photoc – Command-line tools for photographers",
-      "link": "https://github.com/ahmetomerv/photoc",
-      "published_at": "2026-10-03T13:42:23+00:00",
-      "summary": "HN story type: story HN points: 5 HN comments: 2 HN top comments: ctech_: The preview-by-default safety model is a nice touch. Are you planning to add RAW metadata support beyond Sony ARW, or is keeping the dependency surface small a deliberate design choice?",
-      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49944196",
-      "hn_story_type": "story",
-      "hn_points": "5",
-      "hn_comments_count": "2",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49944196",
-      "hn_item_text": "",
-      "hn_comment_preview": "ctech_: The preview-by-default safety model is a nice touch. Are you planning to add RAW metadata support beyond Sony ARW, or is keeping the dependency surface small a deliberate design choice?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "show hn",
-        "github.com"
-      ],
-      "detail_slug": "2e2d5313ab57a05b219c1ba5438fa4a4022dcf71",
-      "is_english_source": true,
-      "sent_at": "2026-10-06T03:25:02.359221+00:00"
-    },
-    {
-      "id": "1a2e09b5d8be1ecf569029e3ad203cf08d3f4941",
-      "title_hash": "875210eeb5fbebd54dda3987098ebbbad4cede4a",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Photopea creator weighs in on Photosuite project",
-      "link": "https://github.com/eolix/photosuite/issues/77",
-      "published_at": "2026-10-06T00:41:44+00:00",
-      "summary": "HN story type: story HN points: 29 HN comments: 12 HN top comments: agar: If your answer to \"here is an example of 1:1 copying of my code and I can do the same for every line in your app\" (Github comment 7, from the Photopea author) is to copy/paste a justification from an LLM (comment 8, from the Photosuite author), you've lost the argument. The hard reality though is any site written in JavaScript is now part of an LLM's training set and can (and will be) be trivially rewritten into s... lenny3: I just find it surprising that the author is complaining about \"stolen code\" while having been piggybacking (and earning money) from unattributed OSS code for years... https://github.com/photopea/photopea/issues/9042 cautiouscat: I wonder if the issue is being responded to by an agent. A lot of the responses sound like stuff Claude writes.",
-      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49972730",
-      "hn_story_type": "story",
-      "hn_points": "29",
-      "hn_comments_count": "12",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49972730",
-      "hn_item_text": "",
-      "hn_comment_preview": "agar: If your answer to \"here is an example of 1:1 copying of my code and I can do the same for every line in your app\" (Github comment 7, from the Photopea author) is to copy/paste a justification from an LLM (comment 8, from the Photosuite author), you've lost the argument. The hard reality though is any site written in JavaScript is now part of an LLM's training set and can (and will be) be trivially rewritten into s...\nlenny3: I just find it surprising that the author is complaining about \"stolen code\" while having been piggybacking (and earning money) from unattributed OSS code for years... https://github.com/photopea/photopea/issues/9042\ncautiouscat: I wonder if the issue is being responded to by an agent. A lot of the responses sound like stuff Claude writes.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "42",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=18,practical_tech=7,tools_agents=18,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 18,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 18,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "llm",
-        "agent",
-        "claude + code",
-        "github.com"
-      ],
-      "detail_slug": "1a2e09b5d8be1ecf569029e3ad203cf08d3f4941",
-      "is_english_source": true,
-      "sent_at": "2026-10-06T03:25:02.359221+00:00"
-    },
-    {
-      "id": "85d45f799a12387035cdef1fefdda38c11c10c42",
-      "title_hash": "443ba1bf9d23c457373e77788adadb8d2af5dfde",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "AI tutoring with Khanmigo in a two-year school experiment",
-      "link": "https://edworkingpapers.com/ai26-1551",
-      "published_at": "2026-10-06T00:00:45+00:00",
-      "summary": "HN story type: story HN points: 43 HN comments: 30 HN top comments: iamarobot: As a high schooler, the amount of AI forced down our throats is on another level. We have assignments with Claude Prose, tutors that hallucinate, and even gemini in the apps we use to access our assignments. Even my friend's brother(a 4th grader) uses AI to generate pictures for his slideshow about \"Penguins\". Education is definitely facing a turn, but is it for the worse? Link: https://workspaceupdates.googleblog... ChaitanyaSai: We saw this when it was released, and it's not because of any amazing prescience. https://blog.comini.in/p/why-khanmigo-will-fail It's just quite obvious when you run a school (we do). It's because AI is focused on making the mechanics easy. But as long as we focus on measurement (how much are they learning) and start from there, the near-term focus is inevitable on the surface mechanics of learning (can they deco... thelastgallon: Related: Why Sal Khan’t: On Learning by Making but Teaching by Telling https://news.ycombinator.com/item?id=49409862 Sal Khan: The amazing AI super tutor for students and teachers [video] | Hacker News https://news.ycombinator.com/item?id=35791433 New York City Bans A.I. in Elementary and Middle Schools https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-n... Tutoring company tells parents to save their mon...",
-      "fetched_at": "2026-10-06T03:22:31.183531+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49972419",
-      "hn_story_type": "story",
-      "hn_points": "43",
-      "hn_comments_count": "30",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49972419",
-      "hn_item_text": "",
-      "hn_comment_preview": "iamarobot: As a high schooler, the amount of AI forced down our throats is on another level. We have assignments with Claude Prose, tutors that hallucinate, and even gemini in the apps we use to access our assignments. Even my friend's brother(a 4th grader) uses AI to generate pictures for his slideshow about \"Penguins\". Education is definitely facing a turn, but is it for the worse? Link: https://workspaceupdates.googleblog...\nChaitanyaSai: We saw this when it was released, and it's not because of any amazing prescience. https://blog.comini.in/p/why-khanmigo-will-fail It's just quite obvious when you run a school (we do). It's because AI is focused on making the mechanics easy. But as long as we focus on measurement (how much are they learning) and start from there, the near-term focus is inevitable on the surface mechanics of learning (can they deco...\nthelastgallon: Related: Why Sal Khan’t: On Learning by Making but Teaching by Telling https://news.ycombinator.com/item?id=49409862 Sal Khan: The amazing AI super tutor for students and teachers [video] | Hacker News https://news.ycombinator.com/item?id=35791433 New York City Bans A.I. in Elementary and Middle Schools https://ww...",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "33",
-      "priority_signal": "slot=strategy_insight,boost=24,slot_score=9,practical_tech=4,tools_agents=7,strategy_insight=9,industry_business=7",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 7,
-        "strategy_insight": 9,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "learning",
-        "why"
-      ],
-      "detail_slug": "85d45f799a12387035cdef1fefdda38c11c10c42",
-      "is_english_source": true,
-      "sent_at": "2026-10-06T03:25:02.359221+00:00"
-    },
-    {
-      "id": "e117dfd07e887bbaef4de9f2f235a9041fb2b3a8",
-      "title_hash": "a1ec4d2248ff879a601d3d0e282ca613904cbb99",
-      "source": "GeekNews",
-      "title": "Borland Turbo BASIC",
-      "link": "https://news.hada.io/topic?id=34840",
-      "published_at": "2026-10-05T20:43:52+00:00",
-      "summary": "Turbo BASIC 은 Robert \"Bob\" Zale이 만든 BASIC/Z에서 출발했으며, Borland가 1987년 인수해 MS-DOS용으로 출시한 BASIC 컴파일러임 GWBASIC의 .BAS 파일은 64KB 로 제한됐지만, Turbo BASIC은 사용 가능한 메모리에 들어가는 한 더 큰 프로...",
-      "fetched_at": "2026-10-05T23:13:23.078059+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "55",
-      "priority_signal": "slot=industry_business,boost=45,slot_score=10,practical_tech=-4,tools_agents=4,strategy_insight=-5,industry_business=10",
-      "slot_scores": {
-        "practical_tech": -4,
-        "tools_agents": 4,
-        "strategy_insight": -5,
-        "industry_business": 10
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "인수"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -5,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "인수",
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 10,
-          "strong_hits": [
-            "인수",
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "인수",
-        "출시"
-      ],
-      "detail_slug": "e117dfd07e887bbaef4de9f2f235a9041fb2b3a8",
-      "is_english_source": false,
-      "sent_at": "2026-10-05T23:15:32.621186+00:00"
-    },
-    {
-      "id": "6f58e2614f31d289900011a9b5496f42ea2dba81",
-      "title_hash": "ecd4b2530d992eb353dda9c5ec6a4e94261e8e17",
-      "source": "GeekNews",
-      "title": "Opus 5.5 에이전트, 상온 자성 반도체 후보 두 가지 발견",
-      "link": "https://news.hada.io/topic?id=34847",
-      "published_at": "2026-10-05T22:36:17+00:00",
-      "summary": "Claude Opus 5.5 에이전트 팀과 연구자가 YBaMnFeO₅를 설계 하고 기존 물질 KV[Cr(CN)₆]를 재발견 함. 계산상 두 물질은 완벽한 결정에서 순 스핀 자기모멘트가 0이면서도 전자 상태를 스핀별로 분리하는 반도체 후보임 Luttinger 보상 자성체 는 ...",
-      "fetched_at": "2026-10-05T23:13:23.078059+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "6f58e2614f31d289900011a9b5496f42ea2dba81",
-      "is_english_source": false,
-      "sent_at": "2026-10-05T23:15:32.621186+00:00"
     }
   ],
   "topic_digests": {
