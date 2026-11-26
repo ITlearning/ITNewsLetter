@@ -1,6 +1,592 @@
 {
   "items": [
     {
+      "id": "5e8503b7e121d5ee33a6e0ce8d46be607f62f126",
+      "title_hash": "eb9ffe7196d63caec19e1fc952212cd649f91be4",
+      "source": "GeekNews",
+      "title": "minipg: PostgreSQL을 단일 실행 파일로 실행하기",
+      "link": "https://news.hada.io/topic?id=37897&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-26T12:37:38+00:00",
+      "summary": "minipg 는 별도 서버 설정 없이 PostgreSQL을 실행하는 단일 실행 파일로, 명령에 서버가 필요하면 자동으로 시작하고 유휴 상태가 되면 종료함 .pgdb 디렉터리 하나에 데이터, 설정, 인증 정보, Postgres 버전을 함께 보관하며, 해당 디렉터리를 열어 psql 셸을 사용할 수 있음 내장된 postgres:18-alpine 이미지 의 바이너리를 h9로 실행하며, Linux 커널 부팅이나 VM 이미지, Docker가 필요하지 않음 정적 Linux 바이너리는 CI에서 별도 권한이나 장치 없이 사용할 수 있으며, /dev/kvm 이 없으면 h9의 네이티브 백엔드로 실행함 아직 초 …",
+      "fetched_at": "2026-11-26T13:01:03.567256+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "60",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=15,practical_tech=15,tools_agents=4,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 15,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 15,
+          "strong_hits": [
+            "postgres",
+            "docker",
+            "sql"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "postgres",
+        "docker",
+        "sql"
+      ],
+      "detail_slug": "5e8503b7e121d5ee33a6e0ce8d46be607f62f126",
+      "is_english_source": false,
+      "sent_at": "2026-11-26T13:01:55.976250+00:00"
+    },
+    {
+      "id": "c15c4df2c7fb07a2ff0a9685ecf32ed561933677",
+      "title_hash": "97b0c9e6653fb16a61d1151f2cd2862ac657422a",
+      "source": "GeekNews",
+      "title": "Show GN: sol-astrizer: 모든 LLM이 GPT 6.2처럼 말하게 된다면",
+      "link": "https://news.hada.io/topic?id=37893&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-26T10:48:36+00:00",
+      "summary": "Claude Opus 5.5나 Gemini Neon 같은 모델은 버그가 해결됐는지 물으면 여전히 너무 성급하게 \"네\"라고 확답합니다. 사용자가 불만을 토로하면 사실을 분리해 정리하기보다 먼저 편을 들기 바쁩니다. sol-astrizer 는 어느 뛰어난 6.2 모델이 보여준 차분하고 분석적인 엄밀함을 어떤 모델이나 코딩 에이전트에도 적용합니다. 과잉 친절도, 근거 없는 확답도, 서로 다른 개념을 한데 섞는 일도 없습니다. 실제로 현재 환경에서 워크플로우가 개선되는지는 별개의 개념이며, 아직 검증되지 않았습니다. 적용 전 (미보정 모델): 네, auth.ts …",
+      "fetched_at": "2026-11-26T13:01:03.567256+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=14,practical_tech=0,tools_agents=14,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 14,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "워크플로우",
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "워크플로우",
+        "에이전트"
+      ],
+      "detail_slug": "c15c4df2c7fb07a2ff0a9685ecf32ed561933677",
+      "is_english_source": false,
+      "sent_at": "2026-11-26T13:01:55.976250+00:00"
+    },
+    {
+      "id": "80379706c2d5a3f3a3839c7259a9a1bbeb795aeb",
+      "title_hash": "ca6a1518b050d72ea01eeb7070714c96ee541fe9",
+      "source": "GeekNews",
+      "title": "1980년대부터 현재까지, UI 디자인 가이드 69종 모음",
+      "link": "https://news.hada.io/topic?id=37889&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-26T09:34:05+00:00",
+      "summary": "1980년대 초부터 현재까지 UI 스타일 가이드 69종을 모은 아카이브 . 데스크톱과 모바일 등 여러 플랫폼의 설계 지침을 통해, 시대와 회사별 인터페이스 원칙을 비교해 볼 수 있음 Apple, Windows, Android 의 여러 시기별 지침을 제공하며, 초기 Lisa와 Macintosh부터 Aqua, iOS, Material Design, 현재 공식 가이드까지 포함함 Amiga, NeXTSTEP, Newton, Palm OS 등 과거 플랫폼뿐 아니라 CDE, OPEN LOOK, SGI 같은 UNIX 환경과 Java의 GUI 설계 문서도 수록함 자료는 PDF, 웹사이트 미러, Internet Archive 등의 형태로 제공되며, 일부 …",
+      "fetched_at": "2026-11-26T13:01:03.567256+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 5,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "원칙"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "원칙"
+      ],
+      "detail_slug": "80379706c2d5a3f3a3839c7259a9a1bbeb795aeb",
+      "is_english_source": false,
+      "sent_at": "2026-11-26T13:01:55.976250+00:00"
+    },
+    {
+      "id": "d84a3d5eca4bf83213b8a39fbe215a1bd63fc2d9",
+      "title_hash": "473d6369c400af2e3ac62fe4946d12fbb0575fa3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Synth Patch Hero",
+      "link": "https://swarkentin.github.io/synth-patch-hero/",
+      "published_at": "2026-11-24T03:24:22+00:00",
+      "summary": "HN story type: story HN points: 76 HN comments: 15 HN post text: I wanted to be more deliberate and systematic in how I approach working on synth patches. With the help of our friend Claude, I put together a game that runs through exercises that builds that muscle in a fun and approachable way where you learn as you build patches on a modular rack. I do not have a Eurorack, nor a strong desire to own one (yet); but I do have a bit of other physical gear. I wanted to see if the lessons would translate to boxes, where sound is also better than the browser. So I have started adding groove box specific enhanced lessons (so far just a couple for the Digitone II, but they worked so far). Also: - You can set up MIDI in settings and play your patch in the browser with a MIDI keyboard (Chrome worked, but Safari didn't when I tried). - The Help in the exercises can unblock you when you get stuck and teach you as it helps. - You can pick a groove box in settings under 'my gear' to get some device-specific lessons. HN top comments: trollied: Hmm, this has given me an idea on how I can improve my live shader coding tool. Already have tutorials, but the way the Synth site does it is better! https://glint.restokin.co.uk/showcase vunderba: Nice job. Side note - if you're interested in gaining an intuitive understanding of how to patch your own custom sounds using synths, there's a fantastic interactive tutorial software series called Syntorial. It was made all the way back in 2012, but it's still amazingly useful today. Highly recommended. I used it alongside a Behringer Neutron (paraphonic semimodular) and it was great fun. https://en.wikipedia.org... lozf: Thank you, this is really nice. It would be even better with a little hide / reveal button for each of the 'scope, loudness, and spectrum visual clues. It's too easy to \"just look\" instead of trust the ears first ;)",
+      "fetched_at": "2026-11-26T13:01:03.567256+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50623232",
+      "hn_story_type": "story",
+      "hn_points": "76",
+      "hn_comments_count": "15",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50623232",
+      "hn_item_text": "I wanted to be more deliberate and systematic in how I approach working on synth patches. With the help of our friend Claude, I put together a game that runs through exercises that builds that muscle in a fun and approachable way where you learn as you build patches on a modular rack. I do not have a Eurorack, nor a strong desire to own one (yet); but I do have a bit of other physical gear. I wanted to see if the lessons would translate to boxes, where sound is also better than the browser. So I have started adding groove box specific enhanced lessons (so far just a couple for the Digitone II, but they worked so far). Also: - You can set up MIDI in settings and play your patch in the browser with a MIDI keyboard (Chrome worked, but Safari didn't when I tried). - The Help in the exercises can unblock you when you get stuck and teach you as it helps. - You can pick a groove box in settings under 'my gear' to get some device-specific lessons.",
+      "hn_comment_preview": "trollied: Hmm, this has given me an idea on how I can improve my live shader coding tool. Already have tutorials, but the way the Synth site does it is better! https://glint.restokin.co.uk/showcase\nvunderba: Nice job. Side note - if you're interested in gaining an intuitive understanding of how to patch your own custom sounds using synths, there's a fantastic interactive tutorial software series called Syntorial. It was made all the way back in 2012, but it's still amazingly useful today. Highly recommended. I used it alongside a Behringer Neutron (paraphonic semimodular) and it was great fun. https://en.wikipedia.org...\nlozf: Thank you, this is really nice. It would be even better with a little hide / reveal button for each of the 'scope, loudness, and spectrum visual clues. It's too easy to \"just look\" instead of trust the ears first ;)",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "44",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=20,practical_tech=18,tools_agents=20,strategy_insight=9,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 18,
+        "tools_agents": 20,
+        "strategy_insight": 9,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 18,
+          "strong_hits": [
+            "show hn",
+            "rust"
+          ],
+          "support_hits": [
+            "tutorial",
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 20,
+          "strong_hits": [
+            "coding tool",
+            "ide"
+          ],
+          "support_hits": [
+            "coding tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + coding"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [
+            "lessons"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "coding tool",
+        "ide",
+        "ai + coding"
+      ],
+      "detail_slug": "d84a3d5eca4bf83213b8a39fbe215a1bd63fc2d9",
+      "is_english_source": true,
+      "sent_at": "2026-11-26T13:01:55.976250+00:00"
+    },
+    {
+      "id": "fbbdefb4b5f017d1be0798db47fa259eda142b9d",
+      "title_hash": "bb89d1c3ed52f5ae2bca60b9eca58663d30b7f84",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Slow Ubuntu security response times",
+      "link": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "published_at": "2026-11-25T20:38:00+00:00",
+      "summary": "HN story type: story HN points: 335 HN comments: 167 HN top comments: RVuRnvbM2e: From the stable kernel maintainer (2025): > Along the lines of the huge number of recorded CVEs, you HAVE to take all of the stable/LTS releases in order to have a secure and stable system. If you attempt to cherry-pick random patches you will NOT fix all of the known, and unknown, problems, but rather you will end up with a potentially more insecure system, and one that contains known bugs. Reliance on an \"enterp... cjk: At $DAYJOB we’ve moved all of our server images to Debian from Ubuntu because of this. It’s absolutely unacceptable for one of the most widely-used Linux distros to have slow security response times in 2026. gdgghhhhh: Please keep in mind that most major distros spend a lot of time on regression testing. While distros like Debian do an absolutely fantastic job, they have little resources for QA and regressions like this can happen: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
+      "fetched_at": "2026-11-26T13:01:03.567256+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50647181",
+      "hn_story_type": "story",
+      "hn_points": "335",
+      "hn_comments_count": "167",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50647181",
+      "hn_item_text": "",
+      "hn_comment_preview": "RVuRnvbM2e: From the stable kernel maintainer (2025): > Along the lines of the huge number of recorded CVEs, you HAVE to take all of the stable/LTS releases in order to have a secure and stable system. If you attempt to cherry-pick random patches you will NOT fix all of the known, and unknown, problems, but rather you will end up with a potentially more insecure system, and one that contains known bugs. Reliance on an \"enterp...\ncjk: At $DAYJOB we’ve moved all of our server images to Debian from Ubuntu because of this. It’s absolutely unacceptable for one of the most widely-used Linux distros to have slow security response times in 2026.\ngdgghhhhh: Please keep in mind that most major distros spend a lot of time on regression testing. While distros like Debian do an absolutely fantastic job, they have little resources for QA and regressions like this can happen: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "35",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=11,practical_tech=11,tools_agents=7,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "security"
+          ],
+          "support_hits": [
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "testing"
+      ],
+      "detail_slug": "fbbdefb4b5f017d1be0798db47fa259eda142b9d",
+      "is_english_source": true,
+      "sent_at": "2026-11-26T13:01:55.976250+00:00"
+    },
+    {
+      "id": "5f8b8d0b572796b0365cd55f2804e6c1d81d6c04",
+      "title_hash": "a6ca48e59fa16cf5d06d4edcfc60beaa0ca846ea",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "link": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "published_at": "2026-11-26T09:44:23+00:00",
+      "summary": "HN story type: story HN points: 75 HN comments: 67 HN top comments: nmjenkins: At Fastmail we believe it's your data, so up to you what you want to do with it and who you want to give access to. (Of course, you are also responsible for what your agents do.) Our MCP server continues to be available for all (no \"partner only\" tools), and if you want to do something even more powerful, agents are pretty good at whipping up code to connect to our full JMAP API… elwebmaster: Why does the industry keep making AI agents act from their owners accounts? AI agent is a not, treat it like your assistant. It should have its own email and forward you any correspondence. perdy: They are concerned about \"human confirmation\" in their request path, but MCP already has a primitive for exactly this: elicitation lets a server pause a tool call and ask the user to confirm before it proceeds. As a send message tool could be gated behind an elicitation, so making it partner-only seems more like a business decision than a safety concern.",
+      "fetched_at": "2026-11-26T13:01:03.567256+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50653477",
+      "hn_story_type": "story",
+      "hn_points": "75",
+      "hn_comments_count": "67",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50653477",
+      "hn_item_text": "",
+      "hn_comment_preview": "nmjenkins: At Fastmail we believe it's your data, so up to you what you want to do with it and who you want to give access to. (Of course, you are also responsible for what your agents do.) Our MCP server continues to be available for all (no \"partner only\" tools), and if you want to do something even more powerful, agents are pretty good at whipping up code to connect to our full JMAP API…\nelwebmaster: Why does the industry keep making AI agents act from their owners accounts? AI agent is a not, treat it like your assistant. It should have its own email and forward you any correspondence.\nperdy: They are concerned about \"human confirmation\" in their request path, but MCP already has a primitive for exactly this: elicitation lets a server pause a tool call and ask the user to confirm before it proceeds. As a send message tool could be gated behind an elicitation, so making it partner-only seems more like a business decision than a safety concern.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=9,tools_agents=16,strategy_insight=9,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 16,
+        "strategy_insight": 9,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "ai agent",
+            "mcp"
+          ],
+          "support_hits": [
+            "agent",
+            "tool"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 9,
+          "strong_hits": [
+            "decision"
+          ],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [
+            "business",
+            "industry"
+          ],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ai agent",
+        "mcp",
+        "agent",
+        "tool"
+      ],
+      "detail_slug": "5f8b8d0b572796b0365cd55f2804e6c1d81d6c04",
+      "is_english_source": true,
+      "sent_at": "2026-11-26T13:01:55.976250+00:00"
+    },
+    {
+      "id": "ce57f5babb9218699753c663215695c0a03c5724",
+      "title_hash": "8540ec47fdeb5babf5e7836278d7352de5aac9a6",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Intel One Mono font",
+      "link": "https://github.com/intel/intel-one-mono",
+      "published_at": "2026-11-26T10:11:01+00:00",
+      "summary": "HN story type: story HN points: 151 HN comments: 88 HN top comments: kleiba2: Fonts is an ever welcome topic of discussion and exchange of opinions. Me, I've got to admit that I have worked on many different computer systems since the 80s, with many different fonts that for a long time you could not even change or customize. And you know what, it all worked. It was fine. And thus I really don't care too much what font I'm using - usually the preinstalled one. Sure, the small l might look li... rpozarickij: I liked the way this font looks in the preview image in this repository, but after discovering Iosevka [0] I can't go back to \"regular\" monospaced fonts. At first I was only able to use the 548-width version and it already improved code reading ergonomics/comfort, but after ~1 month out of curiosity I switched to the normal/500 width version and I was surprised how \"normal\" it looked to my eyes while being even mo... voidUpdate: I'm guessing it's something to do with low-vision legibility and distinctiveness, but that lowercase e looks... unfinished. The tail feels like it wants to be just a bit longer",
+      "fetched_at": "2026-11-26T13:01:03.567256+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50653667",
+      "hn_story_type": "story",
+      "hn_points": "151",
+      "hn_comments_count": "88",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50653667",
+      "hn_item_text": "",
+      "hn_comment_preview": "kleiba2: Fonts is an ever welcome topic of discussion and exchange of opinions. Me, I've got to admit that I have worked on many different computer systems since the 80s, with many different fonts that for a long time you could not even change or customize. And you know what, it all worked. It was fine. And thus I really don't care too much what font I'm using - usually the preinstalled one. Sure, the small l might look li...\nrpozarickij: I liked the way this font looks in the preview image in this repository, but after discovering Iosevka [0] I can't go back to \"regular\" monospaced fonts. At first I was only able to use the 548-width version and it already improved code reading ergonomics/comfort, but after ~1 month out of curiosity I switched to the normal/500 width version and I was surprised how \"normal\" it looked to my eyes while being even mo...\nvoidUpdate: I'm guessing it's something to do with low-vision legibility and distinctiveness, but that lowercase e looks... unfinished. The tail feels like it wants to be just a bit longer",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "32",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=8,practical_tech=7,tools_agents=5,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 5,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + review"
+          ],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "code + review"
+      ],
+      "detail_slug": "ce57f5babb9218699753c663215695c0a03c5724",
+      "is_english_source": true,
+      "sent_at": "2026-11-26T13:01:55.976250+00:00"
+    },
+    {
       "id": "1957e4e1041ba45d720689606dae0d7fb2af8cd9",
       "title_hash": "d7fb6c5799d1c08b8fcfda6d0019fcb27b2879a7",
       "source": "GeekNews",
@@ -165356,597 +165942,6 @@
       "detail_slug": "e7d31da7522f76a68ff6059a343891457c81f0e9",
       "is_english_source": false,
       "sent_at": "2026-10-07T00:13:15.126416+00:00"
-    },
-    {
-      "id": "bc1f0ea5e21c3d8228cee10b9c20f242412438a2",
-      "title_hash": "9a79dfc209aaccc676ef778b5e4a239c4ce57dfa",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
-      "link": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
-      "published_at": "2026-10-06T18:00:34+00:00",
-      "summary": "HN story type: story HN points: 72 HN comments: 39 HN top comments: rcxdude: If you've played around with 'raw' LLM interactions you've already seen this: feeding a prompt into an LLM which ends with a 'start of user' prompt will produce a plausible query into the agent. Which makes perfect sense because the LLMs are already trained on many examples of this and the 'predict the next token' loss function does not particularly distinguish between the sides of the conversation. I highly doubt... Cyan488: I've always hated interfaces that try to complete my sentences for me. It started with suggested replies in email and IM apps. I sure noticed it when they started showing up in the llm chat interfaces and it really bugs me. 0xfaded: I work at a company that has an enterprise contact that should mean I'm not part of the training data. But as a manual mode power user I think about this. I'd love the open source community to come up with a way to harvest model usage by experienced software engineers before we forget our crafts. I'm not against auto mode, but it's not something a couple private companies should have monopolies on.",
-      "fetched_at": "2026-10-07T00:10:54.339985+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49981905",
-      "hn_story_type": "story",
-      "hn_points": "72",
-      "hn_comments_count": "39",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49981905",
-      "hn_item_text": "",
-      "hn_comment_preview": "rcxdude: If you've played around with 'raw' LLM interactions you've already seen this: feeding a prompt into an LLM which ends with a 'start of user' prompt will produce a plausible query into the agent. Which makes perfect sense because the LLMs are already trained on many examples of this and the 'predict the next token' loss function does not particularly distinguish between the sides of the conversation. I highly doubt...\nCyan488: I've always hated interfaces that try to complete my sentences for me. It started with suggested replies in email and IM apps. I sure noticed it when they started showing up in the llm chat interfaces and it really bugs me.\n0xfaded: I work at a company that has an enterprise contact that should mean I'm not part of the training data. But as a manual mode power user I think about this. I'd love the open source community to come up with a way to harvest model usage by experienced software engineers before we forget our crafts. I'm not against auto mode, but it's not something a couple private companies should have monopolies on.",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "51",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=27,practical_tech=11,tools_agents=27,strategy_insight=2,industry_business=7",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 27,
-        "strategy_insight": 2,
-        "industry_business": 7
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [
-            "query"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 27,
-          "strong_hits": [
-            "claude code",
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "prompt",
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 7,
-          "strong_hits": [
-            "enterprise"
-          ],
-          "support_hits": [
-            "company"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "ide",
-        "llm",
-        "prompt",
-        "agent",
-        "claude + code"
-      ],
-      "detail_slug": "bc1f0ea5e21c3d8228cee10b9c20f242412438a2",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T00:13:15.126416+00:00"
-    },
-    {
-      "id": "63c5a457aa7df9f7f5fbae5172c9879274d5108c",
-      "title_hash": "babcd7b157b85652ef8363d7348646fe8e8da22c",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "How Fast is Python 3.15?",
-      "link": "https://blog.miguelgrinberg.com/post/how-fast-is-python-3-15",
-      "published_at": "2026-10-06T21:52:57+00:00",
-      "summary": "HN story type: story HN points: 13 HN comments: 5 HN top comments: brianwawok: So Claude can convert python code bases to rust or golang, and give you an easy 10x speed boost. Much better than waiting for Python performance to improve makaimc: 35 years on since the first public Python release and there's still so much room for improvement in its performance. These tests by Miguel are a useful quick check on that progress in 3.15 even if as he admits it's impossible to get \"an objective and universal measure of the performance of a programming language\". actionfromafar: Not as fast as https://github.com/shedskin/shedskin",
-      "fetched_at": "2026-10-07T00:10:54.339985+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49984652",
-      "hn_story_type": "story",
-      "hn_points": "13",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49984652",
-      "hn_item_text": "",
-      "hn_comment_preview": "brianwawok: So Claude can convert python code bases to rust or golang, and give you an easy 10x speed boost. Much better than waiting for Python performance to improve\nmakaimc: 35 years on since the first public Python release and there's still so much room for improvement in its performance. These tests by Miguel are a useful quick check on that progress in 3.15 even if as he admits it's impossible to get \"an objective and universal measure of the performance of a programming language\".\nactionfromafar: Not as fast as https://github.com/shedskin/shedskin",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=8,strategy_insight=2,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 8,
-        "strategy_insight": 2,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "performance",
-            "golang",
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 8,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "golang",
-        "rust"
-      ],
-      "detail_slug": "63c5a457aa7df9f7f5fbae5172c9879274d5108c",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T00:13:15.126416+00:00"
-    },
-    {
-      "id": "1fa3ef8ea21a29c4af3bd682ecc81cc701d08216",
-      "title_hash": "09075a01a012f9af481baf5844616ecdbbffd903",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
-      "published_at": "2026-10-06T16:03:49+00:00",
-      "summary": "HN story type: story HN points: 194 HN comments: 27 HN top comments: simonw: I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model. Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison. If your model is proprietary, the vendor is likely someday going to decide to stop... Nautman: It's also very neat that this can be used for \"Jev\"-like tasks with text and image. https://developers.google.com/edge/mediapipe/solutions/decis... minimaxir: Finally . I was getting annoyed that there's been an inflection point in how LLMs/agents work but there hasn't been a good moderate-size embeddings model, and this one is multimodal too! 270M for text only is great compared to older embedding models, and a total 440M for text + vision is also fair. I also may or may not have a tool for much faster local embedding creation that I calibrated for EmbeddingGemma but d...",
-      "fetched_at": "2026-10-07T00:10:54.339985+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49980487",
-      "hn_story_type": "story",
-      "hn_points": "194",
-      "hn_comments_count": "27",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49980487",
-      "hn_item_text": "",
-      "hn_comment_preview": "simonw: I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model. Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison. If your model is proprietary, the vendor is likely someday going to decide to stop...\nNautman: It's also very neat that this can be used for \"Jev\"-like tasks with text and image. https://developers.google.com/edge/mediapipe/solutions/decis...\nminimaxir: Finally . I was getting annoyed that there's been an inflection point in how LLMs/agents work but there hasn't been a good moderate-size embeddings model, and this one is multimodal too! 270M for text only is great compared to older embedding models, and a total 440M for text + vision is also fair. I also may or may not have a tool for much faster local embedding creation that I calibrated for EmbeddingGemma but d...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "48",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=24,practical_tech=16,tools_agents=24,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 24,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "embedding",
-            "api"
-          ],
-          "support_hits": [
-            "vector"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 24,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [
-            "agent",
-            "local",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [
-            "local + agent"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm",
-        "agent",
-        "local",
-        "tool",
-        "local + agent"
-      ],
-      "detail_slug": "1fa3ef8ea21a29c4af3bd682ecc81cc701d08216",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T00:13:15.126416+00:00"
-    },
-    {
-      "id": "4f2bcdc0f713f726d0c37ec5dda05a153674fbd7",
-      "title_hash": "76c88132e73a4628bc64616c9a5bf703b02e1ae4",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "LLMs may have helped my RSI",
-      "link": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
-      "published_at": "2026-10-06T03:01:04+00:00",
-      "summary": "HN story type: story HN points: 23 HN comments: 11 HN top comments: vaughands: I thought I would share. I don't see this discussed much and thought it was interesting (it's my own post) when doing some introspection today. Is it from moving up in my career and I just type a little less? Has the movement from typing in a code editor all day to writing more prose helped? It's hard to say for sure, but a fun observation. :) I am curious if anyone else has experienced the same. notnullorvoid: What helped my RSI: - Using mouse less - Ergonomic keyboard - Learning to type better (I still suck, but speed is fast enough, and I don't get a soar neck or fingers from my previous glance at KB then back to monitor and smash keys) - Positioning top of monitor to eye level - Gradually transitioning from programming through rapid trial and error, to building and exploring logical models of programs in my head, the... aussieguy1234: If you set up speech to text like voxtype, you won't even have to type the prompt into the AI and can do your programming almost entirely by voice. I don't have RSI, but I do this whenever my arms get tired to make sure I don't end up with it.",
-      "fetched_at": "2026-10-07T00:10:54.339985+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49973644",
-      "hn_story_type": "story",
-      "hn_points": "23",
-      "hn_comments_count": "11",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49973644",
-      "hn_item_text": "",
-      "hn_comment_preview": "vaughands: I thought I would share. I don't see this discussed much and thought it was interesting (it's my own post) when doing some introspection today. Is it from moving up in my career and I just type a little less? Has the movement from typing in a code editor all day to writing more prose helped? It's hard to say for sure, but a fun observation. :) I am curious if anyone else has experienced the same.\nnotnullorvoid: What helped my RSI: - Using mouse less - Ergonomic keyboard - Learning to type better (I still suck, but speed is fast enough, and I don't get a soar neck or fingers from my previous glance at KB then back to monitor and smash keys) - Positioning top of monitor to eye level - Gradually transitioning from programming through rapid trial and error, to building and exploring logical models of programs in my head, the...\naussieguy1234: If you set up speech to text like voxtype, you won't even have to type the prompt into the AI and can do your programming almost entirely by voice. I don't have RSI, but I do this whenever my arms get tired to make sure I don't end up with it.",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "36",
-      "priority_signal": "slot=strategy_insight,boost=24,slot_score=12,practical_tech=9,tools_agents=9,strategy_insight=12,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 9,
-        "tools_agents": 9,
-        "strategy_insight": 12,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 9,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "prompt"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 12,
-          "strong_hits": [
-            "learning",
-            "career"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "learning",
-        "career"
-      ],
-      "detail_slug": "4f2bcdc0f713f726d0c37ec5dda05a153674fbd7",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T00:13:15.126416+00:00"
-    },
-    {
-      "id": "394ee8d5035e2db14747eb0c3834c3b1d11e4aa9",
-      "title_hash": "9e9265649c56f7050fc9c20da46054164488694e",
-      "source": "GeekNews",
-      "title": "Meta의 Muse, 귀여운 외양에 가려진 개인정보 보호와 보안의 총체적 난국",
-      "link": "https://news.hada.io/topic?id=34897",
-      "published_at": "2026-10-06T15:33:22+00:00",
-      "summary": "Meta의 에이전트형 AI Muse 에서 Mac 사용자 감시가 가능한 제로데이 취약점과 무단 메시지 접근 등 개인정보 보호와 보안 문제가 잇따름 사용자 대신 작업을 수행하는 과정에서 헐값 판매와 집 주소 전달 사례가 발생했으며, 해당 사용자가 설정한 권한을 제대로 이...",
-      "fetched_at": "2026-10-06T19:59:51.142600+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "394ee8d5035e2db14747eb0c3834c3b1d11e4aa9",
-      "is_english_source": false,
-      "sent_at": "2026-10-06T20:04:02.521695+00:00"
-    },
-    {
-      "id": "a2dd726a341a52bb8aa9e93920e4f6b58b82a9e9",
-      "title_hash": "c64b350555bb5c2d13cfbe1b43a166390934d932",
-      "source": "GeekNews",
-      "title": "우리가 알던 오픈소스는 죽었다",
-      "link": "https://news.hada.io/topic?id=34900",
-      "published_at": "2026-10-06T17:04:03+00:00",
-      "summary": "AI로 기여를 만드는 비용은 낮아졌지만 검토 비용은 줄지 않아 , 오픈소스 유지관리자들이 외부 기여를 제한하거나 차단하고 있음 과거에는 상당한 분량의 패치가 기여자의 노력과 선의를 가늠하는 신호였지만, AI 생성 코드 가 그 신호를 무너뜨리면서 낯선 기여자를...",
-      "fetched_at": "2026-10-06T19:59:51.142600+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신호"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "신호"
-      ],
-      "detail_slug": "a2dd726a341a52bb8aa9e93920e4f6b58b82a9e9",
-      "is_english_source": false,
-      "sent_at": "2026-10-06T20:04:02.521695+00:00"
-    },
-    {
-      "id": "0f0f344ff30cbf558f78f9f1e95285bb8947e934",
-      "title_hash": "951c50028c7ba5289c8fcec2c93fc6fb67824ccd",
-      "source": "GeekNews",
-      "title": "Mistral Large 4: “Le Chonk”",
-      "link": "https://news.hada.io/topic?id=34892",
-      "published_at": "2026-10-06T14:39:02+00:00",
-      "summary": "Mistral이 총 1조 개 파라미터 , 활성 파라미터 490억 개를 갖춘 네이티브 멀티모달 모델 Mistral Large 4의 공개 프리뷰를 출시함 Mistral 평가에서 코딩, 에이전트 작업, 멀티모달 이해 가 세계 최상위 오픈 모델과 경쟁하며, 사이버보안, 금융, 법률에서는 오픈 모...",
-      "fetched_at": "2026-10-06T19:59:51.142600+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "0f0f344ff30cbf558f78f9f1e95285bb8947e934",
-      "is_english_source": false,
-      "sent_at": "2026-10-06T20:04:02.521695+00:00"
     }
   ],
   "topic_digests": {
