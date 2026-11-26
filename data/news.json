@@ -1,6 +1,511 @@
 {
   "items": [
     {
+      "id": "768917ce4d72948e5ec5f467e7fb350edcdc4459",
+      "title_hash": "272c4ec913cca471dbf90a36d035bc3704c4c95d",
+      "source": "GeekNews",
+      "title": "LLM으로 문서 없는 9달러 AliExpress ‘YP3’ MP3 플레이어에 Rockbox 포팅하기",
+      "link": "https://news.hada.io/topic?id=37853&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-25T21:34:31+00:00",
+      "summary": "RAM이 512 KiB뿐인 9달러 MP3 플레이어에 오픈소스 음악 재생 펌웨어 Rockbox를 이식 함. LLM이 코드를 작성하고 사람이 개발 방향과 테스트를 맡아, 약 일주일 만에 부팅과 음악 재생에 성공한 뒤 한 달가량 최적화와 버그 수정을 진행함 메모리에 맞춰 일부 기능을 줄였지만 MP3, AAC, Opus, FLAC 등 다양한 형식과 Bluetooth 재생을 지원 함. 코덱과 플러그인이 같은 메모리 공간을 사용해, 게임 같은 플러그인을 실행하면 음악은 중단됨 펌웨어 역공학과 하드웨어 검증 을 기기 분해나 납땜 없이 수행함. 에이전트가 기존 플래시 도구, Ghidra, 웹캠, 오디오 입력, Bluetooth 어댑터로 기기를 관찰하고 제어함 …",
+      "fetched_at": "2026-11-26T00:46:13.502134+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "768917ce4d72948e5ec5f467e7fb350edcdc4459",
+      "is_english_source": false,
+      "sent_at": "2026-11-26T00:46:58.811564+00:00"
+    },
+    {
+      "id": "9bc568f250e24ddcc8275ff8c7b3a3dfc4626db8",
+      "title_hash": "dc71d931b9e6da46eb02ff0dd0294265a2e00830",
+      "source": "GeekNews",
+      "title": "Jev는 아마도 Qwen3.5-35B-A3B 기반일 것",
+      "link": "https://news.hada.io/topic?id=37859&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-26T00:18:27+00:00",
+      "summary": "TypeSafe의 판단용 모델 Jev 를 자기 식별 응답, 토큰 수와 지연 시간의 상관관계, 처리량으로 분석한 결과, Qwen3.5-35B-A3B 가 가장 유력한 기반 모델 후보로 좁혀짐 입력이 길어져도 안정적인 지연 시간과 가격 대비 높은 정확도는 일부 전문가만 활성화하는 희소 MoE 구조와 부합함 모델 계열을 묻는 간접 질문에는 두 Jev 버전 모두 Qwen을 74% 확률로 선택 했지만, 자기 식별 응답만으로 계보를 입증할 수는 없음 9,984개 프롬프트에서 Qwen 토크나이저의 토큰 수 가 Jev API의 보고값보다 지연 시간을 더 잘 예측했으며, 처리량도 Qwe …",
+      "fetched_at": "2026-11-26T00:46:13.502134+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=5,tools_agents=6,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 5,
+        "tools_agents": 6,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 5,
+          "strong_hits": [
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "프롬프트"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단"
+      ],
+      "detail_slug": "9bc568f250e24ddcc8275ff8c7b3a3dfc4626db8",
+      "is_english_source": false,
+      "sent_at": "2026-11-26T00:46:58.811564+00:00"
+    },
+    {
+      "id": "1a75c68e2e5b12455814e03b1940145d9d3b01be",
+      "title_hash": "1d8913242f30dac96746bbab37f81996bcdd83ca",
+      "source": "GeekNews",
+      "title": "Relax - Rust 코드를 바로 실행하고 수정 사항을 반영하는 JIT 컴파일러",
+      "link": "https://news.hada.io/topic?id=37860&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-26T00:30:02+00:00",
+      "summary": "전체 빌드가 끝날 때까지 기다리지 않고 Rust 프로그램을 실행 하는 개발 도구 함수가 처음 호출될 때 컴파일하고, 자주 실행되는 함수는 백그라운드에서 최적화 실행 중 함수를 수정하면 상태를 유지한 채 새 코드로 교체 해, 앱을 다시 켜고 이전 화면까지 이동하는 과정을 줄임 구조체의 메모리 배치나 매크로 등 변경은 재시작 필요 대형 3D 게임 개발 사례에서 빌드 후 실행까지 약 3분 걸리던 작업을 M4 MacBook에서 소스부터 첫 화면까지 11초 에 처리. 캐시가 있는 다음 실행은 1.15초 파일을 저장하면 변경한 함수를 거친 테스트를 …",
+      "fetched_at": "2026-11-26T00:46:13.502134+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "코드"
+      ],
+      "detail_slug": "1a75c68e2e5b12455814e03b1940145d9d3b01be",
+      "is_english_source": false,
+      "sent_at": "2026-11-26T00:46:58.811564+00:00"
+    },
+    {
+      "id": "90580d5efadad1c30ab15f7594518e41f8e879e9",
+      "title_hash": "235ac69a35f7e5ef75775ccc70f4504ea688136b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Defang Security Incident",
+      "link": "https://defang.io/blog/post/security-incident-november-2026/",
+      "published_at": "2026-11-25T21:47:16+00:00",
+      "summary": "HN story type: story HN points: 49 HN comments: 17 HN top comments: skinfaxi: >We used a separate GitHub App for local development and testing. It was installed on two of our own repositories and had more permissions than it needed, including permission to change deployment environments. Acting as that app, the attacker pushed a commit to one of those repositories and tagged it as a release. Our production environment trusted release tags, so their code ran in our CI with access to our prod... lajr: So if you installed the Defang GitHub App, the attacker can: - push commits and branches - change repo settings - deploy and activate trusted workflows which can access any of the cloud credentials you have - even more (secret overwrite, protection rules) This seems like it could have a very large blast radius amingilani: It must have been very hard to write this post. I'm sorry folks. #HugOps",
+      "fetched_at": "2026-11-26T00:46:13.502134+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50648035",
+      "hn_story_type": "story",
+      "hn_points": "49",
+      "hn_comments_count": "17",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50648035",
+      "hn_item_text": "",
+      "hn_comment_preview": "skinfaxi: >We used a separate GitHub App for local development and testing. It was installed on two of our own repositories and had more permissions than it needed, including permission to change deployment environments. Acting as that app, the attacker pushed a commit to one of those repositories and tagged it as a release. Our production environment trusted release tags, so their code ran in our CI with access to our prod...\nlajr: So if you installed the Defang GitHub App, the attacker can: - push commits and branches - change repo settings - deploy and activate trusted workflows which can access any of the cloud credentials you have - even more (secret overwrite, protection rules) This seems like it could have a very large blast radius\namingilani: It must have been very hard to write this post. I'm sorry folks. #HugOps",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "59",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=35,practical_tech=35,tools_agents=16,strategy_insight=7,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 35,
+        "tools_agents": 16,
+        "strategy_insight": 7,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 35,
+          "strong_hits": [
+            "production",
+            "security",
+            "rust"
+          ],
+          "support_hits": [
+            "deployment",
+            "testing"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "production + incident",
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 16,
+          "strong_hits": [
+            "workflow",
+            "ide"
+          ],
+          "support_hits": [
+            "workflow",
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "trust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "production",
+        "security",
+        "rust",
+        "deployment",
+        "testing",
+        "production + incident",
+        "code + security"
+      ],
+      "detail_slug": "90580d5efadad1c30ab15f7594518e41f8e879e9",
+      "is_english_source": true,
+      "sent_at": "2026-11-26T00:46:58.811564+00:00"
+    },
+    {
+      "id": "082d13a033fe2169a7a982234076c401e847a28e",
+      "title_hash": "5e856dd1aa64170ebe3079bccb77876fcb9a4672",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "link": "https://scottaaronson.blog/?p=10379",
+      "published_at": "2026-11-25T19:11:27+00:00",
+      "summary": "HN story type: story HN points: 826 HN comments: 686 HN post text: See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220 HN top comments: atbpaca: I have mixed feelings about these mathematical proofs generated by AI. I understand this is major win for AI from a technology standpoint. However, what is left to challenge humans if all the major Clay problems are solved? Is math going to become boring as AI-assisted software engineering? Having said that, I wonder if AI can provide a shorter demonstration of the Fermat theorem (solved by a human). utopiah: I'm wondering how much of that would have happened with \"just\" Lean, MathLib, and a lot of computing power but no LLM or GenAI. Was this \"great Mathocalypse\" already in the making for say a decade (Lean 2013, MathLib 2017, etc with obviously much older initiatives) and the timing is only fortuitous now because large corporations subsidize their compute time for marketing purposes? Sure finding a slightly faster wa... gorgoiler: Physics was “solved” by the end of the 19th century. We had motion, electric and magnetic fields, thermodynamics, etc all wrapped up. Then came along quantum mechanics / electrodynamics and we had to push the solved part into the corner and call it classical Physics before getting on with all the new, unsolved stuff. What is the new world of non-classical math going to look like? I’m glad to be here to find out. I...",
+      "fetched_at": "2026-11-26T00:46:13.502134+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50646108",
+      "hn_story_type": "story",
+      "hn_points": "826",
+      "hn_comments_count": "686",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50646108",
+      "hn_item_text": "See also The matrix multiplication exponent is nine fourths [pdf] - https://news.ycombinator.com/item?id=50637220",
+      "hn_comment_preview": "atbpaca: I have mixed feelings about these mathematical proofs generated by AI. I understand this is major win for AI from a technology standpoint. However, what is left to challenge humans if all the major Clay problems are solved? Is math going to become boring as AI-assisted software engineering? Having said that, I wonder if AI can provide a shorter demonstration of the Fermat theorem (solved by a human).\nutopiah: I'm wondering how much of that would have happened with \"just\" Lean, MathLib, and a lot of computing power but no LLM or GenAI. Was this \"great Mathocalypse\" already in the making for say a decade (Lean 2013, MathLib 2017, etc with obviously much older initiatives) and the timing is only fortuitous now because large corporations subsidize their compute time for marketing purposes? Sure finding a slightly faster wa...\ngorgoiler: Physics was “solved” by the end of the 19th century. We had motion, electric and magnetic fields, thermodynamics, etc all wrapped up. Then came along quantum mechanics / electrodynamics and we had to push the solved part into the corner and call it classical Physics before getting on with all the new, unsolved stuff. What is the new world of...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "37",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=13,practical_tech=4,tools_agents=13,strategy_insight=2,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 13,
+        "strategy_insight": 2,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 13,
+          "strong_hits": [
+            "ai-assisted",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "market"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "market"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ai-assisted",
+        "ide",
+        "llm"
+      ],
+      "detail_slug": "082d13a033fe2169a7a982234076c401e847a28e",
+      "is_english_source": true,
+      "sent_at": "2026-11-26T00:46:58.811564+00:00"
+    },
+    {
+      "id": "7e052f5e24fa2c662c08597288aef46861149666",
+      "title_hash": "e1c09b9b24b9a0a90699b89babb60d4d0247777a",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The polynomial Hirsch conjecture is false [pdf]",
+      "link": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+      "published_at": "2026-11-25T17:34:34+00:00",
+      "summary": "HN story type: story HN points: 118 HN comments: 30 HN top comments: Luke2642: I always like to try to translate it to a really simple English version: You can represent many problems like logistics with a list of linear requirements so valid combinations form a multi-dimensional geometric shape where every corner of that shape and inside that shape represents a 'valid' but probably not optimal solution, e.g. every package gets delivered by a driver, but not the lowest fuel or time, and 'val... GIFtheory: For context, this means that there is no polynomial-time simplex algorithm (which is an algorithm for linear programming (optimization)). The original version of the conjecture was an attempt to explain why the simplex method seemed to work surprisingly well in practice, but it was disproved in 2010 (after 50+ years!). This seems like more of a mopping up result. jwpapi: I think we can assume now that most major math and complexity problems will soon be solved It seems like some things will be impossible for us ever to perfectly calculate, however I assume the post math problems era to be a good time for algorithms improvements. That at one point will be done too, and we then come to production limits which will have more focus then as the problem space will me smaller. We might h...",
+      "fetched_at": "2026-11-26T00:46:13.502134+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50644980",
+      "hn_story_type": "story",
+      "hn_points": "118",
+      "hn_comments_count": "30",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50644980",
+      "hn_item_text": "",
+      "hn_comment_preview": "Luke2642: I always like to try to translate it to a really simple English version: You can represent many problems like logistics with a list of linear requirements so valid combinations form a multi-dimensional geometric shape where every corner of that shape and inside that shape represents a 'valid' but probably not optimal solution, e.g. every package gets delivered by a driver, but not the lowest fuel or time, and 'val...\nGIFtheory: For context, this means that there is no polynomial-time simplex algorithm (which is an algorithm for linear programming (optimization)). The original version of the conjecture was an attempt to explain why the simplex method seemed to work surprisingly well in practice, but it was disproved in 2010 (after 50+ years!). This seems like more of a mopping up result.\njwpapi: I think we can assume now that most major math and complexity problems will soon be solved It seems like some things will be impossible for us ever to perfectly calculate, however I assume the post math problems era to be a good time for algorithms improvements. That at one point will be done too, and we then come to production limits which will have more focus then as the probl...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=10,strategy_insight=4,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 10,
+        "strategy_insight": 4,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "production",
+            "api"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 10,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "production",
+        "api",
+        "github.com"
+      ],
+      "detail_slug": "7e052f5e24fa2c662c08597288aef46861149666",
+      "is_english_source": true,
+      "sent_at": "2026-11-26T00:46:58.811564+00:00"
+    },
+    {
       "id": "3c284fa316749a9b2288cf427acc1f6895b680f8",
       "title_hash": "53debb8835e47bc5a0db6033a92fb5fca4692b2c",
       "source": "GeekNews",
@@ -165457,492 +165962,6 @@
       "detail_slug": "c6ffd58446c3b00f937a24f7b116785d1515f0d1",
       "is_english_source": false,
       "sent_at": "2026-10-06T11:43:11.288705+00:00"
-    },
-    {
-      "id": "62ca2552d2efc19ed8c23d9724a465d1b620e0cb",
-      "title_hash": "3b72667c3a808c2485c0c2a73c9d00b9b0a5f2a6",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Gleam doesn't compile to Erlang source anymore",
-      "link": "https://gleam.run/news/gleam-doesnt-compile-to-erlang-source-anymore/",
-      "published_at": "2026-10-06T08:08:20+00:00",
-      "summary": "HN story type: story HN points: 33 HN comments: 6 HN top comments: zachrip: Shout out to Giacomo's twitch streams. He has taught me about some features of Gleam, Rust, and on top of that he's just a very chill person. He takes time away from his focus to answer questions politely and without judgement. There are dozens of programming streams where the streamer forgets to leave their ego at the door and he is not one of them. I highly recommend following it. 0x69420: to those curious, erlang abstract form[1] is the AST representation used by the erlang compiler/etc. per link 1, you can see that you have easy access to this representation from the standard library; it's really comfy when you need it! it's also the target elixir compiles down to, and the representation manipulated by parse transforms, which in base erlang are the way syntactic sugar (notably qlc and some of the... vortegne: Congratulations to the team! I love Gleam and am genuinely having fun every time I write Gleam code.",
-      "fetched_at": "2026-10-06T11:40:35.353474+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49975619",
-      "hn_story_type": "story",
-      "hn_points": "33",
-      "hn_comments_count": "6",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49975619",
-      "hn_item_text": "",
-      "hn_comment_preview": "zachrip: Shout out to Giacomo's twitch streams. He has taught me about some features of Gleam, Rust, and on top of that he's just a very chill person. He takes time away from his focus to answer questions politely and without judgement. There are dozens of programming streams where the streamer forgets to leave their ego at the door and he is not one of them. I highly recommend following it.\n0x69420: to those curious, erlang abstract form[1] is the AST representation used by the erlang compiler/etc. per link 1, you can see that you have easy access to this representation from the standard library; it's really comfy when you need it! it's also the target elixir compiles down to, and the representation manipulated by parse transforms, which in base erlang are the way syntactic sugar (notably qlc and some of the...\nvortegne: Congratulations to the team! I love Gleam and am genuinely having fun every time I write Gleam code.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "45",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=21,practical_tech=21,tools_agents=2,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 21,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 21,
-          "strong_hits": [
-            "compiler",
-            "elixir",
-            "rust"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "compiler"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "compiler",
-        "elixir",
-        "rust",
-        "library"
-      ],
-      "detail_slug": "62ca2552d2efc19ed8c23d9724a465d1b620e0cb",
-      "is_english_source": true,
-      "sent_at": "2026-10-06T11:43:11.288705+00:00"
-    },
-    {
-      "id": "6ae8310332e385f381f94437ddf26ec00eb3db98",
-      "title_hash": "1fdf31ab3b71f7bb4516927b9a4991e281eae503",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Competitive Programmer's Handbook (2018) [pdf]",
-      "link": "https://cses.fi/book/book.pdf",
-      "published_at": "2026-10-03T13:24:01+00:00",
-      "summary": "HN story type: story HN points: 222 HN comments: 54 HN top comments: lifeisloving: Ive been doing codeforces, Rosalind, codewars and leetcode casually in my spare time to detox from heavy daily agent use. Ive been relearning a ton that either over-reliance on llms caused me to forget, or just lost due to time. Its been extremely fun. I really missed the feeling of thinking really hard and arriving at a solution. I hope we dont lose this desire as a species. dang: Related. Others? Competitive Programmer's Handbook (2017) [pdf] - https://news.ycombinator.com/item?id=17605395 - July 2018 (14 comments) Competitive Programmer's Handbook (2017) [pdf] - https://news.ycombinator.com/item?id=16952222 - April 2018 (121 comments) A Competitive Programmer's Handbook - https://news.ycombinator.com/item?id=14115826 - April 2017 (157 comments) Competitive programmers handbook - https://n... delis-thumbs-7e: Antti is a wonderful teacher, he is one of my lecturers. His courses are pretty hard, since they go into very very bread and bones of CS (algorithms, memory allocation, etc), but I always feel I 10x’d my understanding after them. Seems he has a new book out (I haven’t read it): https://link.springer.com/book/10.1007/978-3-032-07453-9",
-      "fetched_at": "2026-10-06T11:40:35.353474+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49944049",
-      "hn_story_type": "story",
-      "hn_points": "222",
-      "hn_comments_count": "54",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49944049",
-      "hn_item_text": "",
-      "hn_comment_preview": "lifeisloving: Ive been doing codeforces, Rosalind, codewars and leetcode casually in my spare time to detox from heavy daily agent use. Ive been relearning a ton that either over-reliance on llms caused me to forget, or just lost due to time. Its been extremely fun. I really missed the feeling of thinking really hard and arriving at a solution. I hope we dont lose this desire as a species.\ndang: Related. Others? Competitive Programmer's Handbook (2017) [pdf] - https://news.ycombinator.com/item?id=17605395 - July 2018 (14 comments) Competitive Programmer's Handbook (2017) [pdf] - https://news.ycombinator.com/item?id=16952222 - April 2018 (121 comments) A Competitive Programmer's Handbook - https://news.ycombinator.com/item?id=14115826 - April 2017 (157 comments) Competitive programmers handbook - https://n...\ndelis-thumbs-7e: Antti is a wonderful teacher, he is one of my lecturers. His courses are pretty hard, since they go into very very bread and bones of CS (algorithms, memory allocation, etc), but I always feel I 10x’d my understanding after them. Seems he has a new book out (I haven’t read it): https://link.springer.com/book/10.1007/978-3-032-07453-9",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "33",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=9,practical_tech=4,tools_agents=9,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 9,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "learning"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "llm",
-        "agent"
-      ],
-      "detail_slug": "6ae8310332e385f381f94437ddf26ec00eb3db98",
-      "is_english_source": true,
-      "sent_at": "2026-10-06T11:43:11.288705+00:00"
-    },
-    {
-      "id": "06a3bc606b24757e6388864108f6892eeb99b336",
-      "title_hash": "3b1816dbd919f6f3b4d26b00712f9fbc33acf569",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Friendship ended with Deno, now Node is my best friend",
-      "link": "https://dbushell.com/2026/10/03/deno-to-node/",
-      "published_at": "2026-10-05T22:30:02+00:00",
-      "summary": "HN story type: story HN points: 196 HN comments: 116 HN top comments: theandrewbailey: Side note: I parse this domain name as \"D-Bus hell\", and I expect a rant about how Linux IPC is completely broken, then I remember that this is somebody's blog. yearesadpeople: I've read OP blog and writings for a time. The one takeaway - for me - is how negative/defensive the writing is. And, I'm not sure why it has to be that way. --- Node kept doing its thing when Bun, Deno, etc. was all the rage. And I do respect Node team for trying to improve little by little. It's not an ideal runtime but, it is _trying_... and that's a positive story. isyouaint: I helped Deno bring the Standard Library to v1 [as a contractor] and have always loved the team and philosophy. But these days I’m saddened by what seems to be their slow decline into obscurity. After the layoffs, there seems to be no roadmap, no comms, etc. I’m just so curious as to where they’re heading and still hope the best for it. I’ve always liked Deno more than Node and Bun.",
-      "fetched_at": "2026-10-06T11:40:35.353474+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49971719",
-      "hn_story_type": "story",
-      "hn_points": "196",
-      "hn_comments_count": "116",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49971719",
-      "hn_item_text": "",
-      "hn_comment_preview": "theandrewbailey: Side note: I parse this domain name as \"D-Bus hell\", and I expect a rant about how Linux IPC is completely broken, then I remember that this is somebody's blog.\nyearesadpeople: I've read OP blog and writings for a time. The one takeaway - for me - is how negative/defensive the writing is. And, I'm not sure why it has to be that way. --- Node kept doing its thing when Bun, Deno, etc. was all the rage. And I do respect Node team for trying to improve little by little. It's not an ideal runtime but, it is _trying_... and that's a positive story.\nisyouaint: I helped Deno bring the Standard Library to v1 [as a contractor] and have always loved the team and philosophy. But these days I’m saddened by what seems to be their slow decline into obscurity. After the layoffs, there seems to be no roadmap, no comms, etc. I’m just so curious as to where they’re heading and still hope the best for it. I’ve always liked Deno more than Node and Bun.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=12,strategy_insight=4,industry_business=1",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 12,
-        "strategy_insight": 4,
-        "industry_business": 1
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "runtime",
-            "rag"
-          ],
-          "support_hits": [
-            "library"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "cli"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 1,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "runtime"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "runtime",
-        "rag",
-        "library"
-      ],
-      "detail_slug": "06a3bc606b24757e6388864108f6892eeb99b336",
-      "is_english_source": true,
-      "sent_at": "2026-10-06T11:43:11.288705+00:00"
-    },
-    {
-      "id": "b55d928ebe27791375ba7c2230e5a3215f09b912",
-      "title_hash": "1ab34532ec291988caec0e6fb2ab1470065e4278",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "The lamps in my house",
-      "link": "https://arslan.io/2026/10/05/the-lamps-in-my-house/",
-      "published_at": "2026-10-05T14:12:14+00:00",
-      "summary": "HN story type: story HN points: 230 HN comments: 99 HN top comments: m463: I have a lamp I really really like¹: https://www.amazon.com/dp/B0D5LS2KQW I don't know how honeywell of all companies is selling this, but I figure they have engineers that they turned loose on and got out of their way. It is just super nice. Elegant looking, not expensive, very high quality illumination that can get bright, smoothly dimmable with a knob. a knob to adjust lighting is a good design. In comparison,... bob1029: Lamps are a fantastic way to light an interior space. Recessed ceiling lights do not establish hierarchy in the dimensions that humans are most interested in. Getting the lighting source close to eye level is the key to success. At some level this turns into an accessibility and comfort issue. People with limited vision can take strong advantage of well placed lights. Highlights and shadows are some of the most fu... choult: What a wonderful post - I really enjoy seeing other peoples taste laid out in such an accessible manner. I love the reference to Druk/Another Round in the section on the Louis Poulsen PH 5. Such a great film.",
-      "fetched_at": "2026-10-06T11:40:35.353474+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49965152",
-      "hn_story_type": "story",
-      "hn_points": "230",
-      "hn_comments_count": "99",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49965152",
-      "hn_item_text": "",
-      "hn_comment_preview": "m463: I have a lamp I really really like¹: https://www.amazon.com/dp/B0D5LS2KQW I don't know how honeywell of all companies is selling this, but I figure they have engineers that they turned loose on and got out of their way. It is just super nice. Elegant looking, not expensive, very high quality illumination that can get bright, smoothly dimmable with a knob. a knob to adjust lighting is a good design. In comparison,...\nbob1029: Lamps are a fantastic way to light an interior space. Recessed ceiling lights do not establish hierarchy in the dimensions that humans are most interested in. Getting the lighting source close to eye level is the key to success. At some level this turns into an accessibility and comfort issue. People with limited vision can take strong advantage of well placed lights. Highlights and shadows are some of the most fu...\nchoult: What a wonderful post - I really enjoy seeing other peoples taste laid out in such an accessible manner. I love the reference to Druk/Another Round in the section on the Louis Poulsen PH 5. Such a great film.",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "31",
-      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=4,tools_agents=2,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 2,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "taste"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "taste"
-      ],
-      "detail_slug": "b55d928ebe27791375ba7c2230e5a3215f09b912",
-      "is_english_source": true,
-      "sent_at": "2026-10-06T11:43:11.288705+00:00"
-    },
-    {
-      "id": "d9b51f246a3da926135a51e6899acc306b7575a1",
-      "title_hash": "7873c126da81e32af8e0df6f700232123ff98c14",
-      "source": "GeekNews",
-      "title": "Common Lisp이 이제 최고의 프로그래밍 언어인 이유",
-      "link": "https://news.hada.io/topic?id=34876",
-      "published_at": "2026-10-06T06:38:20+00:00",
-      "summary": "LLM이 코드 작성 속도를 높이면서 개발의 병목은 프로그램이 실제로 작동하는지 확인하는 피드백 루프 로 옮겨감. Common Lisp은 실행 중인 프로그램의 함수를 바로 교체할 수 있어 재빌드와 재시작에 드는 대기를 줄임 디버거에서 수정 후 실행을 재개하는 방식 은 ...",
-      "fetched_at": "2026-10-06T07:32:34.904387+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=2,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 2,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "병목"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "병목"
-      ],
-      "detail_slug": "d9b51f246a3da926135a51e6899acc306b7575a1",
-      "is_english_source": false,
-      "sent_at": "2026-10-06T07:34:48.502557+00:00"
-    },
-    {
-      "id": "3a18d8f34b3c42236106a994adb76a4493de7906",
-      "title_hash": "208dc7d8be46f8b353d5c4dd37f872a062f0c917",
-      "source": "GeekNews",
-      "title": "Show GN: 오마이스피드 - 테슬라 기본 브라우저에서 쓸 수 있는 과속 단속 카메라 알림용 웹지도",
-      "link": "https://news.hada.io/topic?id=34880",
-      "published_at": "2026-10-06T07:07:05+00:00",
-      "summary": "테슬라를 타면서 불편했던 게 하나 있습니다. 프리미엄 커넥티비티를 구독하지 않으면 과속 단속 카메라 경고음이 없습니다. 그래서 브라우저에서 바로 열리는 지도를 만들었습니다. • 설치·가입·광고가 없습니다. 주소만 열면 됩니다 • 위치는 브라우저 밖으로 나가지 않습니다. GPS 값을 서버로 보내",
-      "fetched_at": "2026-10-06T07:32:34.904387+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "3a18d8f34b3c42236106a994adb76a4493de7906",
-      "is_english_source": false,
-      "sent_at": "2026-10-06T07:34:48.502557+00:00"
     }
   ],
   "topic_digests": {
