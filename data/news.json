@@ -1,6 +1,486 @@
 {
   "items": [
     {
+      "id": "bdc6982737100470f832b27a6ca9da53fc7c655a",
+      "title_hash": "ce381f45cdd30d23424ecce0b9a2dbc12e8329bb",
+      "source": "GeekNews",
+      "title": "Rustc의 차세대 트레이트 해결기 최적화",
+      "link": "https://news.hada.io/topic?id=37900&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-26T14:03:51+00:00",
+      "summary": "Rust 1.102.0에 도입될 차세대 트레이트 해결기 는 기존 구현의 건전성 버그를 줄이기 위한 교체 작업이며, 안정화 막바지에는 성능 이 주요 걸림돌이었음 트레이트 해결기는 타입이 특정 트레이트 조건을 만족하는지 impl , 컴파일러 내장 규칙, where 조건으로 증명하며, 하나의 질의가 여러 하위 질의 로 확장될 수 있음 Rust 타입 시스템은 튜링 완전 하므로 단일 질의도 복잡한 계산으로 이어질 수 있고, 새 해결기의 달라진 가정이 기존 코드에 큰 성능 회귀를 일으키기도 함 최적화는 캐싱 과 단순 질의의 캐시 우회 를 함께 사용함. 캐시 …",
+      "fetched_at": "2026-11-26T17:06:12.450311+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=9,practical_tech=9,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 9,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 9,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "코드",
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "코드",
+        "성능"
+      ],
+      "detail_slug": "bdc6982737100470f832b27a6ca9da53fc7c655a",
+      "is_english_source": false,
+      "sent_at": "2026-11-26T17:06:57.048990+00:00"
+    },
+    {
+      "id": "d3292fdfd7cb03017318fd25b55700ac0a375b08",
+      "title_hash": "a229e94eb30f4380b5b75aa44743d4c4e589f390",
+      "source": "GeekNews",
+      "title": "과학자들은 인공지능 에이전트에 대해 어디까지 허용 범위를 정해야 할까요?",
+      "link": "https://news.hada.io/topic?id=37880&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-26T05:35:14+00:00",
+      "summary": "Ai2 의 Kyle Wiggers 가 huggingface.co 에 올린 글임. 게시일은 2026년 11월 25일. 자연과학, 응용과학, 사회과학 분야 과학자 17명대상으로 AI 에이전트의 책임 있는 개발에 대해 인터뷰했다고 함. 연구자가 에이전트 도움을 어디서 반길지, 무엇이 잘못될 수 있는지, 자기 연구에 에이전트를 맡기려면 어떤 안전장치가 필요한지 물었다고 함. 그 시스템은 도구를 쓰고, 자율의 정도를 달리하며 연구 일을 할 수 있다고 함. 연구 일을 AI 에 맡겨도 그 일이 어떻게 이뤄지는지에 대한 과학자의 책임은 없어지지 않는다고 함.",
+      "fetched_at": "2026-11-26T17:06:12.450311+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 9,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트"
+      ],
+      "detail_slug": "d3292fdfd7cb03017318fd25b55700ac0a375b08",
+      "is_english_source": false,
+      "sent_at": "2026-11-26T17:06:57.048990+00:00"
+    },
+    {
+      "id": "3ac0f18e22937d8187560d543c68f216096dc7eb",
+      "title_hash": "445338a9f31578fa95383de5b706ecef4192b277",
+      "source": "GeekNews",
+      "title": "베어메탈 Qwen - 순수 어셈블리 24KB OS에서 Qwen3-0.6B 실행",
+      "link": "https://news.hada.io/topic?id=37891&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-26T10:33:17+00:00",
+      "summary": "Qwen3-0.6B를 직접 실행하는 부팅 가능한 x86-64 OS 로, Linux나 Windows 없이 동작하며 C, Rust, libc를 사용하지 않음 기본 구성의 정적 커널은 24,252바이트 이며, 별도의 614MiB 모델을 물리 RAM에서 제로 카피 로 연결하고 2MiB 대형 페이지로 접근함 74~94ms 콜드 부팅 후 대화할 수 있으며, 턴 사이에 KV 캐시를 유지해 이전 대화를 다시 계산하지 않는 다중 턴 채팅을 지원함 AMD EPYC 7642의 QEMU KVM 환경에서 16 vCPU 기준 약 134.9토큰/초 의 디코딩 성능을 기록했고, 1~32 vCPU 검증에서 Phase 1과 토큰 및 출력 바이트가 일치함 …",
+      "fetched_at": "2026-11-26T17:06:12.450311+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "52",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "성능"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "성능"
+      ],
+      "detail_slug": "3ac0f18e22937d8187560d543c68f216096dc7eb",
+      "is_english_source": false,
+      "sent_at": "2026-11-26T17:06:57.048990+00:00"
+    },
+    {
+      "id": "e67f99af73f937ffbe0e0202871733c0245d93c3",
+      "title_hash": "c51f9dbdd43909f77a167d26ee030063c8c99c52",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Euro-Office comes to your desktop with the Nextcloud Office Desktop app",
+      "link": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+      "published_at": "2026-11-26T11:50:49+00:00",
+      "summary": "HN story type: story HN points: 316 HN comments: 131 HN top comments: nathan_phoenix: Beware that this is a controversial fork of ONLYOFFICE. Also, being developed by a consortium of companies doesn't sound too reassuring, seems bureaucratic... ModernTimes: Seems to be an embedded Chromium Embedded Framework app? (For the interface, the core is C++). So I was ready to dislike it BUT I've trying out the \"Excel\" and it feels and looks superb. I've also been test driving the vibe-coded GridCraft (by the PhotoCraft people) but this feels even better? I've been desperate to get away from OpenOffice and now 2 options come along at once. eriksjolund: The ONLYOFFICE release 10.0.0 (12 October 2026) https://github.com/ONLYOFFICE/DocumentServer/blob/master/CHA... lists 46 security related fixes. At first sight it seems some (or all) of them are missing here: https://github.com/Euro-Office/DocumentServer/blob/main/CHAN...",
+      "fetched_at": "2026-11-26T17:06:12.450311+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50654289",
+      "hn_story_type": "story",
+      "hn_points": "316",
+      "hn_comments_count": "131",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50654289",
+      "hn_item_text": "",
+      "hn_comment_preview": "nathan_phoenix: Beware that this is a controversial fork of ONLYOFFICE. Also, being developed by a consortium of companies doesn't sound too reassuring, seems bureaucratic...\nModernTimes: Seems to be an embedded Chromium Embedded Framework app? (For the interface, the core is C++). So I was ready to dislike it BUT I've trying out the \"Excel\" and it feels and looks superb. I've also been test driving the vibe-coded GridCraft (by the PhotoCraft people) but this feels even better? I've been desperate to get away from OpenOffice and now 2 options come along at once.\neriksjolund: The ONLYOFFICE release 10.0.0 (12 October 2026) https://github.com/ONLYOFFICE/DocumentServer/blob/master/CHA... lists 46 security related fixes. At first sight it seems some (or all) of them are missing here: https://github.com/Euro-Office/DocumentServer/blob/main/CHAN...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "44",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=20,practical_tech=20,tools_agents=2,strategy_insight=2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 20,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 20,
+          "strong_hits": [
+            "framework",
+            "security"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "code + security"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "release"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "framework",
+        "security",
+        "code + security"
+      ],
+      "detail_slug": "e67f99af73f937ffbe0e0202871733c0245d93c3",
+      "is_english_source": true,
+      "sent_at": "2026-11-26T17:06:57.048990+00:00"
+    },
+    {
+      "id": "1b025421fccf154660cdf4e3e00aa5e43b6d6500",
+      "title_hash": "2e65bce759a8f9e2db44a7901558768ebb4479a4",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "45°C inlets just killed the chiller. Most people haven't noticed yet",
+      "link": "https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831",
+      "published_at": "2026-11-26T13:48:11+00:00",
+      "summary": "HN story type: story HN points: 134 HN comments: 64 HN top comments: helsinkiandrew: Discussion on Nvidia blog post (429 comments) https://news.ycombinator.com/item?id=48660178 I wonder if moving from 30-35 to 45 degrees has an impact on component lifespan iamniels: This means that locations where the temperature never comes close to 45C are becoming much more attractive than many of the deserts where many datacenters are being built currently. Not having to pay the CAPEX and OPEX for evaporative cooling is a big difference I imagine. I have developed water cooled car electronics and there we had to work with 80C coolant with peaks to 105C. And MTBF figures had to be low, so... throw0101c: ASHRAE TC 9.9, \"Mission Critical Facilities\", members are IT folks, and they have defined a Category/Class \"A4\" that have dry-bulb operating temperatures in the 5-45˚C range: * https://www.upsite.com/blog/the-importance-of-mutual-underst... There's also: > For those familiar with the liquid cooling guidelines, the most obvious change will be that of the Liquid Cooling class designations. Previously, the classes we...",
+      "fetched_at": "2026-11-26T17:06:12.450311+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50655278",
+      "hn_story_type": "story",
+      "hn_points": "134",
+      "hn_comments_count": "64",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50655278",
+      "hn_item_text": "",
+      "hn_comment_preview": "helsinkiandrew: Discussion on Nvidia blog post (429 comments) https://news.ycombinator.com/item?id=48660178 I wonder if moving from 30-35 to 45 degrees has an impact on component lifespan\niamniels: This means that locations where the temperature never comes close to 45C are becoming much more attractive than many of the deserts where many datacenters are being built currently. Not having to pay the CAPEX and OPEX for evaporative cooling is a big difference I imagine. I have developed water cooled car electronics and there we had to work with 80C coolant with peaks to 105C. And MTBF figures had to be low, so...\nthrow0101c: ASHRAE TC 9.9, \"Mission Critical Facilities\", members are IT folks, and they have defined a Category/Class \"A4\" that have dry-bulb operating temperatures in the 5-45˚C range: * https://www.upsite.com/blog/the-importance-of-mutual-underst... There's also: > For those familiar with the liquid cooling guidelines, the most obvious change will be that of the Liquid Cooling class designations. Previously, the classes we...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "31",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=7,practical_tech=6,tools_agents=7,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 7,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "guide"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide"
+      ],
+      "detail_slug": "1b025421fccf154660cdf4e3e00aa5e43b6d6500",
+      "is_english_source": true,
+      "sent_at": "2026-11-26T17:06:57.048990+00:00"
+    },
+    {
+      "id": "1200cf169503ad225f8dd7c1add4bcae2dca1f87",
+      "title_hash": "7977a7dd4a8b01f3d3069d93f48f7bb9805624a8",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+      "link": "https://michidk.github.io/sidebyside/",
+      "published_at": "2026-11-26T15:00:06+00:00",
+      "summary": "HN story type: story HN points: 26 HN comments: 8 HN top comments: hobofan: Very cool! I'm strongly assuming this is built in the basis of trynix and unkernel that have been posted here the past days. setheron: so funny, I just published https://github.com/fzakaria/tabc and wrote about it https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-... *edit: love seeing the stuff unkernel and trynix can demonstrate. Let me know what you think of tabc :) smallerize: Why is it downloading an onnx runtime package?",
+      "fetched_at": "2026-11-26T17:06:12.450311+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50656036",
+      "hn_story_type": "story",
+      "hn_points": "26",
+      "hn_comments_count": "8",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50656036",
+      "hn_item_text": "",
+      "hn_comment_preview": "hobofan: Very cool! I'm strongly assuming this is built in the basis of trynix and unkernel that have been posted here the past days.\nsetheron: so funny, I just published https://github.com/fzakaria/tabc and wrote about it https://fzakaria.com/2026/11/25/browser-tabs-as-a-container-... *edit: love seeing the stuff unkernel and trynix can demonstrate. Let me know what you think of tabc :)\nsmallerize: Why is it downloading an onnx runtime package?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "43",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=4,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 19,
+        "tools_agents": 7,
+        "strategy_insight": 4,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 19,
+          "strong_hits": [
+            "container",
+            "runtime",
+            "show hn"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 7,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "runtime"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "container",
+        "runtime",
+        "show hn"
+      ],
+      "detail_slug": "1200cf169503ad225f8dd7c1add4bcae2dca1f87",
+      "is_english_source": true,
+      "sent_at": "2026-11-26T17:06:57.048990+00:00"
+    },
+    {
       "id": "5e8503b7e121d5ee33a6e0ce8d46be607f62f126",
       "title_hash": "eb9ffe7196d63caec19e1fc952212cd649f91be4",
       "source": "GeekNews",
@@ -165454,494 +165934,6 @@
       "detail_slug": "fb363d47b762538b1e0f01a1ce7947d3dfa6a846",
       "is_english_source": true,
       "sent_at": "2026-10-07T04:22:51.290096+00:00"
-    },
-    {
-      "id": "b0a4f2071e39a8a64232313c350782d8cc5e7bdd",
-      "title_hash": "4f203bb71f290279052a7bcb87c45a792f2b958e",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "ESP32-C3 Adblock",
-      "link": "https://github.com/M-Abozaid/esp32-c3-adblock",
-      "published_at": "2026-10-07T01:39:21+00:00",
-      "summary": "HN story type: story HN points: 25 HN comments: 5 HN top comments: 1vuio0pswjnm7: Whitelist/allowlist is easier, e.g., it's smaller Depends on the user but not everyone is visiting new websites everyday Even for those that are, the number of domain-IP mappings needed will be relatively small Definitely under 140,000 Most DNS data I use is \"static\", it rarely changes. As such most times I don't have to make DNS queries. I store the domain-IP mappings in proxy memory; this is faster than DNS No \"... muti: Weird how the readme talks about hash collisions, but not in the way I would expect. Two blocked domains with the same hash isn't a problem, they both need to be blocked. Where hash collisions matter is false positives, e.g. if hash(google.com) = hash(adserver.com). There does appear to be a web dashboard and /unblock api so should be straightforward to resolve. fwip: Cool idea, latency might be too high, wish the docs weren't all AI vomit.",
-      "fetched_at": "2026-10-07T04:20:30.502786+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49986862",
-      "hn_story_type": "story",
-      "hn_points": "25",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49986862",
-      "hn_item_text": "",
-      "hn_comment_preview": "1vuio0pswjnm7: Whitelist/allowlist is easier, e.g., it's smaller Depends on the user but not everyone is visiting new websites everyday Even for those that are, the number of domain-IP mappings needed will be relatively small Definitely under 140,000 Most DNS data I use is \"static\", it rarely changes. As such most times I don't have to make DNS queries. I store the domain-IP mappings in proxy memory; this is faster than DNS No \"...\nmuti: Weird how the readme talks about hash collisions, but not in the way I would expect. Two blocked domains with the same hash isn't a problem, they both need to be blocked. Where hash collisions matter is false positives, e.g. if hash(google.com) = hash(adserver.com). There does appear to be a web dashboard and /unblock api so should be straightforward to resolve.\nfwip: Cool idea, latency might be too high, wish the docs weren't all AI vomit.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=10,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 17,
-        "tools_agents": 10,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 17,
-          "strong_hits": [
-            "latency",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 10,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "latency",
-        "api",
-        "github.com"
-      ],
-      "detail_slug": "b0a4f2071e39a8a64232313c350782d8cc5e7bdd",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T04:22:51.290096+00:00"
-    },
-    {
-      "id": "2c9acd98c71ffc6926234e6047d3a3e8dcad9717",
-      "title_hash": "2ae4915c84c0b61c4986725907cc51bb3c6501db",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Decisions API is in public beta",
-      "link": "https://developers.openai.com/api/docs/guides/decisions",
-      "published_at": "2026-10-06T20:57:25+00:00",
-      "summary": "HN story type: story HN points: 188 HN comments: 82 HN top comments: simonw: curl https://api.openai.com/v1/decisions \\ -H \"Authorization: Bearer $(llm keys get openai)\" \\ -H \"Content-Type: application/json\" \\ --data ' { \"model\": \"gpt-6-luna\", \"input\": [{ \"role\": \"user\", \"content\": [ {\"type\": \"input_text\", \"text\": \"I am angry about the new product feature\"} ] }], \"questions\": [{ \"type\": \"predicate\", \"name\": \"complaint\", \"instructions\": \"Is this a complaint?\" }, { \"type\": \"predicate\", \"name... TSiege: The response to Jev should be the nail in the coffin over whether or not the AI business is a commodity market. Out of no where Jev appeared as the next round of the price wars. Jev showed the value of System One models. A fast yes/no/confidence score not only is cheaper but also often all people want. Open source versions flood hugging face and now the big players are giving up a potentially big driver of output... Topfi: Ran my decisions evals (still rudimentary, less than 600 calls (UI component selection, chat charting, tag selection, PKM stuff)) on this via OpenRouter against Jev and Mercury Decide. Jev because it has replaced my mt0 efforts by sheer force of affordability (more importantly, the limits running on a MacBook Neo bring even after vocab pruning and quant insanity) and Mercury Decide because I do like dLLM efforts (...",
-      "fetched_at": "2026-10-07T04:20:30.502786+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49984025",
-      "hn_story_type": "story",
-      "hn_points": "188",
-      "hn_comments_count": "82",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49984025",
-      "hn_item_text": "",
-      "hn_comment_preview": "simonw: curl https://api.openai.com/v1/decisions \\ -H \"Authorization: Bearer $(llm keys get openai)\" \\ -H \"Content-Type: application/json\" \\ --data ' { \"model\": \"gpt-6-luna\", \"input\": [{ \"role\": \"user\", \"content\": [ {\"type\": \"input_text\", \"text\": \"I am angry about the new product feature\"} ] }], \"questions\": [{ \"type\": \"predicate\", \"name\": \"complaint\", \"instructions\": \"Is this a complaint?\" }, { \"type\": \"predicate\", \"name...\nTSiege: The response to Jev should be the nail in the coffin over whether or not the AI business is a commodity market. Out of no where Jev appeared as the next round of the price wars. Jev showed the value of System One models. A fast yes/no/confidence score not only is cheaper but also often all people want. Open source versions flood hugging face and now the big players are giving up a potentially big driver of output...\nTopfi: Ran my decisions evals (still rudimentary, less than 600 calls (UI component selection, chat charting, tag selection, PKM stuff)) on this via OpenRouter against Jev and Mercury Decide. Jev because it has replaced my mt0 efforts by sheer force of affordability (more importantly, the limits running on a MacBook Neo bring even after v...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=8,strategy_insight=7,industry_business=4",
-      "slot_scores": {
-        "practical_tech": 16,
-        "tools_agents": 8,
-        "strategy_insight": 7,
-        "industry_business": 4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 16,
-          "strong_hits": [
-            "open source",
-            "api"
-          ],
-          "support_hits": [
-            "guide"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 8,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [
-            "business",
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "api",
-        "guide"
-      ],
-      "detail_slug": "2c9acd98c71ffc6926234e6047d3a3e8dcad9717",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T04:22:51.290096+00:00"
-    },
-    {
-      "id": "ee14fb63904ce58f135619d80cb311d0136e69f5",
-      "title_hash": "8be18992323a2fab7b9c7f2781ef97f256ec2726",
-      "source": "TechCrunch",
-      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
-      "link": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
-      "published_at": "2026-10-06T20:00:30+00:00",
-      "summary": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
-      "fetched_at": "2026-10-07T04:20:30.502786+00:00",
-      "source_priority_boost": "6",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "29",
-      "priority_signal": "slot=industry_business,boost=6,slot_score=23,practical_tech=-8,tools_agents=0,strategy_insight=0,industry_business=23",
-      "slot_scores": {
-        "practical_tech": -8,
-        "tools_agents": 0,
-        "strategy_insight": 0,
-        "industry_business": 23
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": -8,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "valuation",
-            "ipo"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 23,
-          "strong_hits": [
-            "valuation",
-            "startup",
-            "ipo"
-          ],
-          "support_hits": [
-            "startup"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "techcrunch.com"
-          ]
-        }
-      },
-      "matched_terms": [
-        "valuation",
-        "startup",
-        "ipo",
-        "techcrunch.com"
-      ],
-      "detail_slug": "ee14fb63904ce58f135619d80cb311d0136e69f5",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T04:22:51.290096+00:00"
-    },
-    {
-      "id": "8c6a0489d143c32a6f53a1f1c62f79ab3b325d64",
-      "title_hash": "77686cd5b01cf5306d4921fe818892a7f9480884",
-      "source": "GeekNews",
-      "title": "EmbeddingGemma 2 - 개방형 경량 멀티모달 임베딩 모델",
-      "link": "https://news.hada.io/topic?id=34907",
-      "published_at": "2026-10-06T22:34:20+00:00",
-      "summary": "Google이 텍스트·코드·이미지·영상·오디오를 같은 벡터 공간에 표현해 서로 검색할 수 있는 EmbeddingGemma 2 를 출시함. Gemma 4 기반의 7억 4,000만 파라미터 모델이며 Apache-2.0 라이선스로 공개됨 모듈식 구조 로 텍스트 전용 작업에는 2억 7,000만 파라미터만...",
-      "fetched_at": "2026-10-07T00:10:54.339985+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=-1,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 4,
-        "strategy_insight": -1,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "embedding"
-          ],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": -1,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "출시"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "출시"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "embedding",
-        "코드"
-      ],
-      "detail_slug": "8c6a0489d143c32a6f53a1f1c62f79ab3b325d64",
-      "is_english_source": false,
-      "sent_at": "2026-10-07T00:13:15.126416+00:00"
-    },
-    {
-      "id": "f06c919a9f96e95e592bb9a06fadfeedcc01e2d0",
-      "title_hash": "98f708a88469a7e437f70dc216f6a5527a693d0a",
-      "source": "GeekNews",
-      "title": "이메일을 직접 호스팅하는 분들, 무엇을 사용하시나요?",
-      "link": "https://news.hada.io/topic?id=34914",
-      "published_at": "2026-10-07T00:02:22+00:00",
-      "summary": "현재 여러 도메인의 메일함이나 캐치올 주소를 위해 maddy 로 이메일을 직접 호스팅하고 있으며, 사소한 문제 중 일부는 본인 쪽 원인이고 일부는 원인을 알 수 없음 가장 큰 불편은 iOS 기본 이메일 클라이언트 의 연결과 메시지...",
-      "fetched_at": "2026-10-07T00:10:54.339985+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "49",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=4,practical_tech=0,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [],
-      "detail_slug": "f06c919a9f96e95e592bb9a06fadfeedcc01e2d0",
-      "is_english_source": false,
-      "sent_at": "2026-10-07T00:13:15.126416+00:00"
-    },
-    {
-      "id": "e7d31da7522f76a68ff6059a343891457c81f0e9",
-      "title_hash": "4daf98752d14cf2d186a378741a3b3f7837e0242",
-      "source": "GeekNews",
-      "title": "Tapo Rust/Python 라이브러리, TP-Link의 TPAP 프로토콜 지원 추가",
-      "link": "https://news.hada.io/topic?id=34906",
-      "published_at": "2026-10-06T21:33:39+00:00",
-      "summary": "비공식 Tapo 클라이언트 tapo v0.11.1 이 TPAP를 지원해, 일부 기기 예외를 제외하면 앱의 Third-Party Compatibility 설정을 끈 채 연결할 수 있음 클라이언트가 기기의 프로토콜을 자동 판별하므로 기존 코드 변경 없이 IP 주소 연결과 di...",
-      "fetched_at": "2026-10-07T00:10:54.339985+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "52",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=7,practical_tech=7,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [
-            "코드"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust",
-        "코드"
-      ],
-      "detail_slug": "e7d31da7522f76a68ff6059a343891457c81f0e9",
-      "is_english_source": false,
-      "sent_at": "2026-10-07T00:13:15.126416+00:00"
     }
   ],
   "topic_digests": {
