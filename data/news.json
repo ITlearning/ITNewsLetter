@@ -1,6 +1,595 @@
 {
   "items": [
     {
+      "id": "17e124a0150f1fbe18a31185db51f36733aaad97",
+      "title_hash": "f68ae81da5e64fa9ead6d8ee3a86b93816a3c214",
+      "source": "GeekNews",
+      "title": "Show GN: ARCUS-STACK - 매번하는 반복을 조금 더 똑똑하게, 여러 AI 코딩 에이전트에게 시킬 수 있는 스킬팩",
+      "link": "https://news.hada.io/topic?id=37932&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-27T02:31:08+00:00",
+      "summary": "에이전트마다 스킬·룰 포맷이 달라서 불편해서 하나 만들어봤습니다. 스킬은 SKILL.md 표준으로만 작성해서 Antigravity(agy), Claude Code, Codex, Cursor, OpenCode가 같은 파일을 읽도록 했습니다. MCP 서버 없이 마크다운 지침만으로 동작하고, MIT 라이선스입니다. 플랜, 리뷰, 루프 매번하는 반복을 조금 더 똑똑하게 하려고 했습니다. 매 작업 후 요약 출력, 리뷰는 격리된 환경에서 제3자가 바라보는 시선으로 진짜 크리틱하게, 모던한 웹기술을 알아서 사용하게, 도식화는 요즘 핫한 archify를 쓰는 것을 최우선으로 알아서, …",
+      "fetched_at": "2026-11-27T05:21:09.234976+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "80",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=35,practical_tech=0,tools_agents=35,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 35,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 35,
+          "strong_hits": [
+            "claude code",
+            "cursor",
+            "codex",
+            "에이전트",
+            "mcp"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "claude + code"
+          ],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "claude code",
+        "cursor",
+        "codex",
+        "에이전트",
+        "mcp",
+        "claude + code"
+      ],
+      "detail_slug": "17e124a0150f1fbe18a31185db51f36733aaad97",
+      "is_english_source": false,
+      "sent_at": "2026-11-27T05:21:50.913843+00:00"
+    },
+    {
+      "id": "96ab83874432ee9d779f11a9de1353c754614bd7",
+      "title_hash": "f938e82d6326e6ca2875fbb63d620c0fac97ccc7",
+      "source": "GeekNews",
+      "title": "State of AI 2026: 올해의 가장 큰 이슈와 2027년 AGI 가능성",
+      "link": "https://news.hada.io/topic?id=37930&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-27T01:40:02+00:00",
+      "summary": "『State of AI』 보고서를 써 온 Nathan Benaich 는 AI가 같은 시간 안에 법률, 금융, 투자 업무에서 자신보다 나은 결과를 낸다면 실용적으로 AGI에 가깝다 고 봄. 모델 성능이 빠르게 개선되고 AI가 모델 연구에도 쓰이면서, 2027년에 그 수준에 도달할 수 있다 고 예상함 AI가 AI 연구를 수행하는 비중은 커지고 있지만, 어떤 문제를 연구할지 고르는 안목 과 좋은 연구 과정을 객관적으로 측정하는 방법은 여전히 중요한 과제로 남아 있음 인류 멸종보다 당장 현실적인 위험으로 사이버 공격 을 꼽으며, 평가 환경을 벗어난 에이전트와 공격 도구의 확산에 대응할 방어 제품과 인프라 보강이 필요하다고 봄 …",
+      "fetched_at": "2026-11-27T05:21:09.234976+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "55",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=10,practical_tech=-4,tools_agents=1,strategy_insight=-5,industry_business=10",
+      "slot_scores": {
+        "practical_tech": -4,
+        "tools_agents": 1,
+        "strategy_insight": -5,
+        "industry_business": 10
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [
+            "인프라",
+            "성능"
+          ],
+          "negative_hits": [
+            "투자",
+            "실적"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 1,
+          "strong_hits": [
+            "에이전트"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "투자",
+            "실적"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "투자",
+            "실적"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 10,
+          "strong_hits": [
+            "투자",
+            "실적"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "투자",
+        "실적"
+      ],
+      "detail_slug": "96ab83874432ee9d779f11a9de1353c754614bd7",
+      "is_english_source": false,
+      "sent_at": "2026-11-27T05:21:50.913843+00:00"
+    },
+    {
+      "id": "10ea59a7a2f33778fcf4f62d346d0e53d8061342",
+      "title_hash": "68eced07c191304597b1b9b8b0f993f934220acb",
+      "source": "GeekNews",
+      "title": "리만 가설이란 무엇인가? 시각적으로 이해하기",
+      "link": "https://news.hada.io/topic?id=37931&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-27T01:50:02+00:00",
+      "summary": "리만 가설은 어떤 수까지 소수가 몇 개 있는지 추정할 때, 그 오차가 얼마나 커질 수 있는지 와 관련된 명제임. 가령 1조까지 소수는 약 376억 개이고, 가우스의 추정치와 실제 개수의 차이는 38,263개임 소수가 나올 때마다 한 칸씩 올라가는 계단 그래프 를 그릴 수 있음. 가우스의 매끄러운 추정 곡선에 제타 함수의 영점이 만드는 파동을 더하면, 영점 10개를 더했을 때보다 100개를 더했을 때 실제 계단에 더 가까워짐 영점은 제타 함수의 값이 0이 되는 점 임. 리만 가설은 이 중 비자명한 영점이 모두 실수부가 ½인 직선 위에 놓인다는 명제임. 이 조건이 성립하면 소수 개수의 오차는 로그 요인을 감안해 대략 제곱근 규모로 제한됨 …",
+      "fetched_at": "2026-11-27T05:21:09.234976+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=5,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 5,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [
+            "실수"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "실수"
+      ],
+      "detail_slug": "10ea59a7a2f33778fcf4f62d346d0e53d8061342",
+      "is_english_source": false,
+      "sent_at": "2026-11-27T05:21:50.913843+00:00"
+    },
+    {
+      "id": "0f5e5f58c0d3aa1ca08b314752930ade70b1cdcb",
+      "title_hash": "0dfe7af7210668e96ea852123d8c8bae4fae0a2c",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Rvoip: VoIP stack in Rust",
+      "link": "https://github.com/eisenzopf/rvoip",
+      "published_at": "2026-11-26T19:18:09+00:00",
+      "summary": "HN story type: story HN points: 109 HN comments: 22 HN top comments: ubercow: I wonder how this stacks up versus https://crates.io/crates/rsipstack catlifeonmars: How does this compare, to, say asterisk and rtpengine? alexanderabakah: Is there any benchmark results ? Like how does it compare to current existing systems ?",
+      "fetched_at": "2026-11-27T05:21:09.234976+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50658632",
+      "hn_story_type": "story",
+      "hn_points": "109",
+      "hn_comments_count": "22",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50658632",
+      "hn_item_text": "",
+      "hn_comment_preview": "ubercow: I wonder how this stacks up versus https://crates.io/crates/rsipstack\ncatlifeonmars: How does this compare, to, say asterisk and rtpengine?\nalexanderabakah: Is there any benchmark results ? Like how does it compare to current existing systems ?",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=17,practical_tech=17,tools_agents=5,strategy_insight=2,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 5,
+        "strategy_insight": 2,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "benchmark",
+            "rust"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 5,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "benchmark"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "benchmark",
+        "rust",
+        "github.com"
+      ],
+      "detail_slug": "0f5e5f58c0d3aa1ca08b314752930ade70b1cdcb",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T05:21:50.913843+00:00"
+    },
+    {
+      "id": "1b159323381e41a5b6caaa2a6b73562d4fa55249",
+      "title_hash": "69bf1506a6331a5a3dde7e95297ac085fdcc9399",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Show HN: I wrote an entire Vim manual over 4 years",
+      "link": "http://themouseless.dev/vim/",
+      "published_at": "2026-11-26T14:44:22+00:00",
+      "summary": "HN story type: story HN points: 105 HN comments: 29 HN post text: I'm glad to announce that I'm releasing my new book, Learning to Play Vim. When I started using Vim more than a decade ago, I wished there was a manual out there teaching how to use this fantastic editor step by step, beginning with the foundations up to more advanced features. Of course at the time I did the vimtutor, but it was too dense for me to remember much from it. I also read the entire Vim manual (`:help manual`), but I didn't like it: it was too detailed in places (for example `02.8 Finding help` completely lost me for a while), and other features didn't get the treatment they deserved. So I decided to write my own Vim manual. It took me more than 4 years and 2987 focused pomodoros (1244 hours) of work to finally get it done! The result: - 21 chapters showing the most important Vim features step by step. - 170 exercises with solutions. - Many real-life examples to show how Vim can be used and configured for your own needs. - The related Vim's help pages to dig further into each feature. Most configs are both written in Vimscript and Lua for Neovim users. This book explores the common features between Vim and Neovim, so don't expect anything about Neovim-specific featur... HN top comments: aktenlage: Nice work. Luckily I think I don't need it anymore after using vim for 20+ years. As a motivation for new vim users, I'd like to mention that LLMs make it even more awesome to use such a malleable editor. When I think of some functionality I need, I'll just let Copilot write a small function and key binding and voila, it's done. It's pretty good at vimscript. Latest example: a key (gK) to show the full git commit... leowoo91: We are in such era it is hard to believe if author/site/book and comments in this post is legit at all. Maybe it ruined me at least. nickandbro: The hexagon layout for the front page reminds me of my own vim tutor app: https://vimgolf.ai",
+      "fetched_at": "2026-11-27T05:21:09.234976+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50655868",
+      "hn_story_type": "story",
+      "hn_points": "105",
+      "hn_comments_count": "29",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50655868",
+      "hn_item_text": "I'm glad to announce that I'm releasing my new book, Learning to Play Vim. When I started using Vim more than a decade ago, I wished there was a manual out there teaching how to use this fantastic editor step by step, beginning with the foundations up to more advanced features. Of course at the time I did the vimtutor, but it was too dense for me to remember much from it. I also read the entire Vim manual (`:help manual`), but I didn't like it: it was too detailed in places (for example `02.8 Finding help` completely lost me for a while), and other features didn't get the treatment they deserved. So I decided to write my own Vim manual. It took me more than 4 years and 2987 focused pomodoros (1244 hours) of work to finally get it done! The result: - 21 chapters showing the most important Vim features step by step. - 170 exercises with solutions. - Many real-life examples to show how Vim can be used and configured for your own needs. - The related Vim's help pages to dig further into each feature. Most configs are both written in Vimscript and Lua for Neovim users. This book explores the common features between Vim and Neovim, so don't expect anything about Neovim-specific featur...",
+      "hn_comment_preview": "aktenlage: Nice work. Luckily I think I don't need it anymore after using vim for 20+ years. As a motivation for new vim users, I'd like to mention that LLMs make it even more awesome to use such a malleable editor. When I think of some functionality I need, I'll just let Copilot write a small function and key binding and voila, it's done. It's pretty good at vimscript. Latest example: a key (gK) to show the full git commit...\nleowoo91: We are in such era it is hard to believe if author/site/book and comments in this post is legit at all. Maybe it ruined me at least.\nnickandbro: The hexagon layout for the front page reminds me of my own vim tutor app: https://vimgolf.ai",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=11,tools_agents=17,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 11,
+        "tools_agents": 17,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 11,
+          "strong_hits": [
+            "show hn"
+          ],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "copilot",
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "copilot",
+        "ide",
+        "llm"
+      ],
+      "detail_slug": "1b159323381e41a5b6caaa2a6b73562d4fa55249",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T05:21:50.913843+00:00"
+    },
+    {
+      "id": "e6e24103b931aa7130f011b3418e2894f1b2a03e",
+      "title_hash": "c0322c10a3c8f32201060334619c3671ae3aee20",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Novita, StreamLake, etc. are ByteDance Ark wrappers",
+      "link": "https://kendell.dev/blog/arkwrapper/",
+      "published_at": "2026-11-26T21:59:19+00:00",
+      "summary": "HN story type: story HN points: 71 HN comments: 11 HN top comments: snake_doc: There is a reason why these inference wrappers exist, it’s a way to arbitrage compute. Imagine, some team or individual has a way to access pre-emptible GPU hours at some low price. Let’s say that low price is $6/GB300/hour. If the inference wrapper can achieve demand of some base load of, equivalent of a rack of GB300s (72 GPUs). Essentially, the wrapper can route baseload traffic to the primary provider at marke... jmward01: ZDR is my red line. Period. If that isn't the case then I have no words. This is my entire life and livelihood. I am paying to not have someone get access to it. If I didn't care I would go to the cheaper direct, steal your tokens, route. If my data is being stolen I honestly don't know what to say. If it really is true this is being sent to a company that is looking, and using, my tokens then I hope they burn and... leafingensemble: See also: Venice is a DeepInfra+ wrapper [ https://news.ycombinator.com/item?id=50660720 ] Blackfuel ($250m+ in contracts) routes K3 to Openrouter. Source: [ https://xnologin.com/ThibaultJaigu/status/212555365159084482... ] Venice removes E2EE models and rewrites docs (routed phala -> chutes). (11/26/2026) [ https://zoan.space/llm-verification/venice.html#timeline ] Zero retention AI providers caught logging promp...",
+      "fetched_at": "2026-11-27T05:21:09.234976+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50660273",
+      "hn_story_type": "story",
+      "hn_points": "71",
+      "hn_comments_count": "11",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50660273",
+      "hn_item_text": "",
+      "hn_comment_preview": "snake_doc: There is a reason why these inference wrappers exist, it’s a way to arbitrage compute. Imagine, some team or individual has a way to access pre-emptible GPU hours at some low price. Let’s say that low price is $6/GB300/hour. If the inference wrapper can achieve demand of some base load of, equivalent of a rack of GB300s (72 GPUs). Essentially, the wrapper can route baseload traffic to the primary provider at marke...\njmward01: ZDR is my red line. Period. If that isn't the case then I have no words. This is my entire life and livelihood. I am paying to not have someone get access to it. If I didn't care I would go to the cheaper direct, steal your tokens, route. If my data is being stolen I honestly don't know what to say. If it really is true this is being sent to a company that is looking, and using, my tokens then I hope they burn and...\nleafingensemble: See also: Venice is a DeepInfra+ wrapper [ https://news.ycombinator.com/item?id=50660720 ] Blackfuel ($250m+ in contracts) routes K3 to Openrouter. Source: [ https://xnologin.com/ThibaultJaigu/status/212555365159084482... ] Venice removes E2EE models and rewrites docs (routed phala -> chutes). (11/26/2026) [ https:/...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "38",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=12,strategy_insight=4,industry_business=2",
+      "slot_scores": {
+        "practical_tech": 14,
+        "tools_agents": 12,
+        "strategy_insight": 4,
+        "industry_business": 2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 14,
+          "strong_hits": [
+            "inference",
+            "rag"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [
+            "why"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "company"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "inference",
+        "rag"
+      ],
+      "detail_slug": "e6e24103b931aa7130f011b3418e2894f1b2a03e",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T05:21:50.913843+00:00"
+    },
+    {
+      "id": "24a834bc227322fd05a5d47ca9fdd3252dc65e31",
+      "title_hash": "a6b0d7e47d2747b0dbf1815535d9e3e8c0bb37f9",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "An introduction to uncertainty in machine learning",
+      "link": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "published_at": "2026-11-26T19:04:50+00:00",
+      "summary": "HN story type: story HN points: 43 HN comments: 1 HN top comments: charm137: A very good introduction - thank you! Where would you say uncertainty characterization for non-parametric models or bounds on those (like Chebyshev bounds) sit?",
+      "fetched_at": "2026-11-27T05:21:09.234976+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50658498",
+      "hn_story_type": "story",
+      "hn_points": "43",
+      "hn_comments_count": "1",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50658498",
+      "hn_item_text": "",
+      "hn_comment_preview": "charm137: A very good introduction - thank you! Where would you say uncertainty characterization for non-parametric models or bounds on those (like Chebyshev bounds) sit?",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "31",
+      "priority_signal": "slot=strategy_insight,boost=24,slot_score=7,practical_tech=4,tools_agents=2,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 2,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [
+            "learning"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "learning"
+      ],
+      "detail_slug": "24a834bc227322fd05a5d47ca9fdd3252dc65e31",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T05:21:50.913843+00:00"
+    },
+    {
       "id": "be43940f7f7f5060281b1878dd0a154109a01ab9",
       "title_hash": "995cb443f2a1598f02e2c82cd2dcac643298809a",
       "source": "GeekNews",
@@ -165354,584 +165943,6 @@
       "detail_slug": "e5ace7f8dcc9ea47096d5f4b076af6e54611d15b",
       "is_english_source": true,
       "sent_at": "2026-10-07T16:51:38.399077+00:00"
-    },
-    {
-      "id": "c05ddc2232678455bde29c80c909f0c99bedf450",
-      "title_hash": "1756b75a9f93e3ad985c4f73dd1d048aac848107",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "AI-assisted proof of optimal packing for 11 squares",
-      "link": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
-      "published_at": "2026-10-07T14:10:55+00:00",
-      "summary": "HN story type: story HN points: 38 HN comments: 27 HN top comments: yzydserd: fwiw The prime site for square in square packing is at https://kingbird.myphotos.cc/packing/squares_in_squares.html The triangular view is most interesting. And a 20 minute video on this view is at https://youtu.be/uL5wuiy34rs kevinwang: Wow, I never would have imagined one could prove optimality for that accursed beautiful thing. WithinReason: A list of many square packings, with images: https://jlevy.github.io/squares/",
-      "fetched_at": "2026-10-07T16:49:28.917847+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49993121",
-      "hn_story_type": "story",
-      "hn_points": "38",
-      "hn_comments_count": "27",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49993121",
-      "hn_item_text": "",
-      "hn_comment_preview": "yzydserd: fwiw The prime site for square in square packing is at https://kingbird.myphotos.cc/packing/squares_in_squares.html The triangular view is most interesting. And a 20 minute video on this view is at https://youtu.be/uL5wuiy34rs\nkevinwang: Wow, I never would have imagined one could prove optimality for that accursed beautiful thing.\nWithinReason: A list of many square packings, with images: https://jlevy.github.io/squares/",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "39",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=15,practical_tech=7,tools_agents=15,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 7,
-        "tools_agents": 15,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 7,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "ai-assisted",
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ai-assisted",
-        "ide",
-        "github.com"
-      ],
-      "detail_slug": "c05ddc2232678455bde29c80c909f0c99bedf450",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T16:51:38.399077+00:00"
-    },
-    {
-      "id": "4375d4012ab8f6b9484a029a87eaaef5379b262f",
-      "title_hash": "66aed364952aebd82479a3f29c6c061c9208b1a7",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Reverse Engineering of the M-VAVE FM-1 Pocket Synthesizer Firmware",
-      "link": "https://github.com/AL-255/FM-1-RE",
-      "published_at": "2026-10-07T15:19:50+00:00",
-      "summary": "HN story type: story HN points: 15 HN comments: 5 HN top comments: itsdavesanders: Myself and a couple friends bought this device a few weeks ago and with the firmware being released, its an amazing device. I love the idea of cheaper Chinese music hardware with the ability for open source firmware and apps to be loaded into them. I hope the success of this sees a sampler from M-Wave - I'd love a Chinese 404 or MPC... vegadw: For those that haven't been following along, a TON of custom firmwares have shown up for the M-VAVE FM-1, a roughly ~$70 synth. BaudGirl's VA is probably the biggest right now: https://baudgirl.com/work/FM-1+VA But there's also https://github.com/hugelton/Felucca , https://github.com/charlesvestal/fm1-x0x , https://www.groove-os.com , https://isod89.github.io/sloop-fm1/webapp/installer/ , and https://github.com/ch... MomsAVoxell: Disclaimer: I have worked in the music technology business for decades, building toys like this - my opinion is formulated in the fire pits of NAMM and Frankfurt Musik Messe and Superbooth. The M-VAVE is the hottest music technology device on the market today , with few exceptions. It is CHEAP! $60! It is VERSATILE: new firmwares are released almost every week now. It is HACKABLE: yes kids, music technology should...",
-      "fetched_at": "2026-10-07T16:49:28.917847+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49994065",
-      "hn_story_type": "story",
-      "hn_points": "15",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49994065",
-      "hn_item_text": "",
-      "hn_comment_preview": "itsdavesanders: Myself and a couple friends bought this device a few weeks ago and with the firmware being released, its an amazing device. I love the idea of cheaper Chinese music hardware with the ability for open source firmware and apps to be loaded into them. I hope the success of this sees a sampler from M-Wave - I'd love a Chinese 404 or MPC...\nvegadw: For those that haven't been following along, a TON of custom firmwares have shown up for the M-VAVE FM-1, a roughly ~$70 synth. BaudGirl's VA is probably the biggest right now: https://baudgirl.com/work/FM-1+VA But there's also https://github.com/hugelton/Felucca , https://github.com/charlesvestal/fm1-x0x , https://www.groove-os.com , https://isod89.github.io/sloop-fm1/webapp/installer/ , and https://github.com/ch...\nMomsAVoxell: Disclaimer: I have worked in the music technology business for decades, building toys like this - my opinion is formulated in the fire pits of NAMM and Frankfurt Musik Messe and Superbooth. The M-VAVE is the hottest music technology device on the market today , with few exceptions. It is CHEAP! $60! It is VERSATILE: new firmwares are released almost every week now. It is HACKABLE: yes kids, music t...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=6,strategy_insight=2,industry_business=9",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 6,
-        "strategy_insight": 2,
-        "industry_business": 9
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "open source"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 6,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "market"
-          ],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 9,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [
-            "business",
-            "market"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "open source",
-        "github.com"
-      ],
-      "detail_slug": "4375d4012ab8f6b9484a029a87eaaef5379b262f",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T16:51:38.399077+00:00"
-    },
-    {
-      "id": "3fe82a97321fe38571b003efbe6ac4b998860cab",
-      "title_hash": "40dd74593a3cdc269c74fa67664a2861c7c4ed9e",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
-      "link": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
-      "published_at": "2026-10-07T12:04:36+00:00",
-      "summary": "HN story type: story HN points: 61 HN comments: 39 HN top comments: OtherShrezzing: This page is (somewhat ironically) so extremely laden with Claude-speak that it's difficult to find the information in all the noise. But once you've waded through everything, you see these facts: >What the test measures: A model is given a passage and a fixed set of questions with short, checkable answers — a date, a name, a count. So, a model is given content which is especially amenable to compression, and aske... Solomet: Newest LLM writing tell: Concepts are described in terms normally more appropriate for physical object. > A lab that suppresses it in a frontier model just moves the advantage to open models that still _carry_ it > they carry no signal about which is better > where your workload _sits_ on that frontier should pick the point > and no model _sits_ in the judge’s seat > every ratio _sits_ at 0.99–1.10 Many many more... netsharc: The Cablese/Telegraphese is more interesting than the use in LLM. DuckDuckGo'ed \"paromella\": https://en.wikipedia.org/wiki/Commercial_code_(communication... Some codes I found interesting: > INSANE - at what price, free on board and freight, can you offer us cotton for shipment by steamer sailing this week? > COGNOSCO - dining out this evening, send my dress clothes here Useful codeword! > ANNOSUS — Confined yeste...",
-      "fetched_at": "2026-10-07T16:49:28.917847+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49991580",
-      "hn_story_type": "story",
-      "hn_points": "61",
-      "hn_comments_count": "39",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49991580",
-      "hn_item_text": "",
-      "hn_comment_preview": "OtherShrezzing: This page is (somewhat ironically) so extremely laden with Claude-speak that it's difficult to find the information in all the noise. But once you've waded through everything, you see these facts: >What the test measures: A model is given a passage and a fixed set of questions with short, checkable answers — a date, a name, a count. So, a model is given content which is especially amenable to compression, and aske...\nSolomet: Newest LLM writing tell: Concepts are described in terms normally more appropriate for physical object. > A lab that suppresses it in a frontier model just moves the advantage to open models that still _carry_ it > they carry no signal about which is better > where your workload _sits_ on that frontier should pick the point > and no model _sits_ in the judge’s seat > every ratio _sits_ at 0.99–1.10 Many many more...\nnetsharc: The Cablese/Telegraphese is more interesting than the use in LLM. DuckDuckGo'ed \"paromella\": https://en.wikipedia.org/wiki/Commercial_code_(communication... Some codes I found interesting: > INSANE - at what price, free on board and freight, can you offer us cotton for shipment by steamer sailing this week? > COGNOSCO -...",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "42",
-      "priority_signal": "slot=strategy_insight,boost=24,slot_score=18,practical_tech=4,tools_agents=13,strategy_insight=18,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 13,
-        "strategy_insight": 18,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 13,
-          "strong_hits": [
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 18,
-          "strong_hits": [
-            "signal",
-            "noise"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "signal + noise"
-          ],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "signal",
-        "noise",
-        "signal + noise"
-      ],
-      "detail_slug": "3fe82a97321fe38571b003efbe6ac4b998860cab",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T16:51:38.399077+00:00"
-    },
-    {
-      "id": "6ce6adfa925dcefb22f51bc660d0784cdae0da36",
-      "title_hash": "1fd564a707b2aebd3edc2a8450429df85837ba13",
-      "source": "GeekNews",
-      "title": "여러 팀의 시스템을 이해하기 위한 AI 집단 지성 구축하기",
-      "link": "https://news.hada.io/topic?id=34920",
-      "published_at": "2026-10-07T00:55:02+00:00",
-      "summary": "SumUp의 여러 도메인에 걸친 시스템을 이해할 때마다 엔지니어 3~4명을 모으는 대신, 약 66개 저장소와 조직 맥락을 연결한 AI 에이전트 시스템 을 구축함 저장소를 기술 스택이 아닌 제품과 팀 구조 에 따라 묶고, 도메인별 AGENTS.md 에 원칙, 조직 구...",
-      "fetched_at": "2026-10-07T12:39:56.492681+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "56",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=11,practical_tech=0,tools_agents=11,strategy_insight=5,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 11,
-        "strategy_insight": 5,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 11,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 5,
-          "strong_hits": [],
-          "support_hits": [
-            "원칙"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트",
-        "agent"
-      ],
-      "detail_slug": "6ce6adfa925dcefb22f51bc660d0784cdae0da36",
-      "is_english_source": false,
-      "sent_at": "2026-10-07T12:42:19.033730+00:00"
-    },
-    {
-      "id": "b32a0fa587ee3a5a5b71090d4d8b6a8b4d9ca7a5",
-      "title_hash": "a5bc1d4cc9e1115a04c0045562d8233b730c1d58",
-      "source": "GeekNews",
-      "title": "Strands Decider 2B - 소형 오픈소스 의사결정 모델",
-      "link": "https://news.hada.io/topic?id=34934",
-      "published_at": "2026-10-07T07:38:20+00:00",
-      "summary": "Strands Decider 2B 는 문장을 생성하는 대신 선택지와 점수, 신뢰도를 반환하는 20억 매개변수 오픈소스 의사결정 모델 로, 모델 라우팅과 도구 선택, 실행 전 검증에 활용 가능 사용자가 도시를 말하지 않았는데 날씨 도구를 호출하려 하면, 인자가 실제 대...",
-      "fetched_at": "2026-10-07T12:39:56.492681+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "신뢰"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide"
-      ],
-      "detail_slug": "b32a0fa587ee3a5a5b71090d4d8b6a8b4d9ca7a5",
-      "is_english_source": false,
-      "sent_at": "2026-10-07T12:42:19.033730+00:00"
-    },
-    {
-      "id": "536b5064eaeba43cb3c914fe31c2d1243ab84da1",
-      "title_hash": "5569eb42c6fcc3e7df20468aad26ed932d1461c8",
-      "source": "GeekNews",
-      "title": "소프트웨어 팩토리 패턴 시도하기",
-      "link": "https://news.hada.io/topic?id=34925",
-      "published_at": "2026-10-07T02:25:02+00:00",
-      "summary": "에이전트에게 개별 티켓을 맡기는 대신, 프로젝트 목표와 지표를 확인하며 필요한 작업을 찾아 수행하는 ‘소프트웨어 팩토리’ 를 실험 중임 /linear-project-loop 는 Linear 프로젝트를 읽고 목표·접근 방식이 담긴 문서와 진척을 측정할 대시보드·쿼리",
-      "fetched_at": "2026-10-07T12:39:56.492681+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "54",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=0,tools_agents=9,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 9,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "에이전트"
-      ],
-      "detail_slug": "536b5064eaeba43cb3c914fe31c2d1243ab84da1",
-      "is_english_source": false,
-      "sent_at": "2026-10-07T12:42:19.033730+00:00"
-    },
-    {
-      "id": "2dde7abcca55c79527f5413330a1d458b68d0126",
-      "title_hash": "5e8b598e9c5326a22df20f950b299eff33476dae",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "What is Codemode",
-      "link": "https://lucumr.pocoo.org/2026/10/6/codemode/",
-      "published_at": "2026-10-06T13:41:03+00:00",
-      "summary": "HN story type: story HN points: 108 HN comments: 49 HN top comments: ssivark: Between this and the Cloudflare post, this is a lot of words and no simple system level picture. Here's what I think is going on: 1. Homoiconicity: Harness mechanics are kludgy and we need proper homoiconicity to uniformly handle code (tool calls) and data (\"natural language\") as token streams. 2. Actor semantics: for isolation, encapsulation and concurrency. 3. Object capabilities: injected references and no ambi... dnlgrmm: Sadly this seems like introducing a very complex apparatus for little gain. I don't need MCP or many tool calls that the agent can program around - in fact the promise of pi was that you basically just need bash and no other tools. The minimally-invasive approach would have been to just \"inject\" tool calls as virtual bash commands. No code mode required, no hands vs. brains dichotomy. LLM can use language of its o... planb: The headline is \"What is codemode\". As someone who did not know what codemode is, I had to read until the section \"Orchestrating The Harness\", where it says \"If you are not familiar with Codemode, it’s basically just a way to issue tool calls from within some language, in our case JavaScript.\" I could then somehow get what is meant from the examples, but the contents of the article do not at all match the headline.",
-      "fetched_at": "2026-10-07T12:39:56.492681+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49978333",
-      "hn_story_type": "story",
-      "hn_points": "108",
-      "hn_comments_count": "49",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49978333",
-      "hn_item_text": "",
-      "hn_comment_preview": "ssivark: Between this and the Cloudflare post, this is a lot of words and no simple system level picture. Here's what I think is going on: 1. Homoiconicity: Harness mechanics are kludgy and we need proper homoiconicity to uniformly handle code (tool calls) and data (\"natural language\") as token streams. 2. Actor semantics: for isolation, encapsulation and concurrency. 3. Object capabilities: injected references and no ambi...\ndnlgrmm: Sadly this seems like introducing a very complex apparatus for little gain. I don't need MCP or many tool calls that the agent can program around - in fact the promise of pi was that you basically just need bash and no other tools. The minimally-invasive approach would have been to just \"inject\" tool calls as virtual bash commands. No code mode required, no hands vs. brains dichotomy. LLM can use language of its o...\nplanb: The headline is \"What is codemode\". As someone who did not know what codemode is, I had to read until the section \"Orchestrating The Harness\", where it says \"If you are not familiar with Codemode, it’s basically just a way to issue tool calls from within some language, in our case JavaScript.\" I could then somehow get what is me...",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "40",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=16,practical_tech=4,tools_agents=16,strategy_insight=2,industry_business=-4",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 16,
-        "strategy_insight": 2,
-        "industry_business": -4
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 16,
-          "strong_hits": [
-            "mcp",
-            "llm"
-          ],
-          "support_hits": [
-            "agent",
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": -4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "mcp"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "mcp",
-        "llm",
-        "agent",
-        "tool"
-      ],
-      "detail_slug": "2dde7abcca55c79527f5413330a1d458b68d0126",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T12:42:19.033730+00:00"
     }
   ],
   "topic_digests": {
