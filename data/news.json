@@ -1,6 +1,588 @@
 {
   "items": [
     {
+      "id": "be43940f7f7f5060281b1878dd0a154109a01ab9",
+      "title_hash": "995cb443f2a1598f02e2c82cd2dcac643298809a",
+      "source": "GeekNews",
+      "title": "Google, AI 에이전트의 Workspace 접근에 자사 MCP 의무화… 공개 Gmail MCP로는 메일 발송 불가",
+      "link": "https://news.hada.io/topic?id=37919&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-26T21:39:40+00:00",
+      "summary": "2027년 2월 1일부터 AI 에이전트가 Gmail이나 Drive 등 Google Workspace 데이터에 접근하려면 Google 공식 MCP 서버나 Workspace CLI를 사용해야 함 공개 Gmail MCP 서버는 검색, 읽기, 초안 생성은 지원하지만 발송, 답장, 전달, 초안 수정은 파트너 전용 이라 기존 이메일 에이전트의 작업 흐름을 그대로 옮기기 어려움 Workspace 사용자 데이터는 진행 중인 사용자 승인 작업 에만 처리할 수 있으며, 접근 과정에서 만든 임베딩이나 메모리 인덱스 등은 30일을 넘겨 보관할 수 없음 무료 Standard 등급은 제품별 프로젝트당 하루 5,000 …",
+      "fetched_at": "2026-11-27T01:16:11.618165+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "64",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=19,practical_tech=0,tools_agents=19,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 19,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 19,
+          "strong_hits": [
+            "에이전트",
+            "mcp",
+            "cli"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "mcp"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "에이전트",
+        "mcp",
+        "cli"
+      ],
+      "detail_slug": "be43940f7f7f5060281b1878dd0a154109a01ab9",
+      "is_english_source": false,
+      "sent_at": "2026-11-27T01:16:56.933936+00:00"
+    },
+    {
+      "id": "9af2e177174c96b15009b4db09b43f94b69bb8c4",
+      "title_hash": "eebf278cb46b9bda941717a3a336de6f632e6f86",
+      "source": "GeekNews",
+      "title": "tidy - Prettier 스타일로 코드를 정리하는 Rust 기반 고속 포매터",
+      "link": "https://news.hada.io/topic?id=37927&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-27T00:30:02+00:00",
+      "summary": "Prettier와 같은 코드 스타일을 빠르게 적용 하는 포매터로, Node.js 없이 단일 실행 파일로 동작 JavaScript, TypeScript, JSX, HTML, Vue, CSS, SCSS, Less 등 웹 개발 언어 지원 Markdown, JSON, YAML, GraphQL 외에 TOML, XML, Dockerfile, INI 까지 별도 플러그인 없이 처리 파일 안에 포함된 다른 언어도 함께 정리 HTML과 Vue의 스타일과 스크립트, Markdown 코드 블록과 프런트매터 JavaScript 템플릿 문자열 안의 CSS, GraphQL, HTML, Markdown 자체 벤치마크에서 12,071개 파일 검사에 280ms , Prettier의 18.5초보다 약 66배 빠른 …",
+      "fetched_at": "2026-11-27T01:16:11.618165+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "62",
+      "priority_signal": "slot=practical_tech,boost=45,slot_score=17,practical_tech=17,tools_agents=4,strategy_insight=3,industry_business=-4",
+      "slot_scores": {
+        "practical_tech": 17,
+        "tools_agents": 4,
+        "strategy_insight": 3,
+        "industry_business": -4
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 17,
+          "strong_hits": [
+            "typescript",
+            "docker",
+            "rust"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 3,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "typescript",
+        "docker",
+        "rust",
+        "코드"
+      ],
+      "detail_slug": "9af2e177174c96b15009b4db09b43f94b69bb8c4",
+      "is_english_source": false,
+      "sent_at": "2026-11-27T01:16:56.933936+00:00"
+    },
+    {
+      "id": "7e35364089c104b18f36f5253b831ee17abea946",
+      "title_hash": "338f16bed2c10687055c7cadd1c2b0f442b3e557",
+      "source": "GeekNews",
+      "title": "YouTube Ad Punisher - 광고가 재생되면 YouTube 페이지를 자동으로 새로고침",
+      "link": "https://news.hada.io/topic?id=37921&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-26T21:45:40+00:00",
+      "summary": "YouTube Ad Punisher 는 광고를 감지하면 재생 위치를 저장하고 페이지를 새로고침한 뒤 해당 위치에서 영상을 이어 재생하는 브라우저 확장 프로그램임 광고 요청을 차단하는 대신 페이지 재로딩 을 이용함. 프로젝트는 YouTube가 새로고침마다 광고 제공 여부를 다시 판단하며, 보통 1~2회 뒤 광고 없이 영상이 재생된다고 설명함 새로고침이 반복될 때를 위한 보조 탭 전환 과 외부 미러 이동 기능도 안내하지만, README의 두 설명 사이에 실행 순서나 관계는 명확하지 않음 감지한 광고의 광고주, 길이, 영상, 재생 위치 등을 로컬 기록 …",
+      "fetched_at": "2026-11-27T01:16:11.618165+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "판단"
+      ],
+      "detail_slug": "7e35364089c104b18f36f5253b831ee17abea946",
+      "is_english_source": false,
+      "sent_at": "2026-11-27T01:16:56.933936+00:00"
+    },
+    {
+      "id": "806491dbfd8c356b5a7b390c43aa5b05cd3debda",
+      "title_hash": "4f29f136bdda8a692d8ec9d34f77615cb3209bed",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "AI made self-hosting fun again",
+      "link": "https://janlukas.blog/posts/ai-self-hosting",
+      "published_at": "2026-11-26T21:47:45+00:00",
+      "summary": "HN story type: story HN points: 274 HN comments: 148 HN top comments: n4bz0r: > For my VPS infrastructure, I’ve also started building my own Debian-based bootc image (after thinking about it for some time). > I still remember what updating a service used to look like: bumping the version and adjusting the Docker Compose file on my laptop, pushing the changes to the Git remote, SSHing into the server, pulling the changes, and finally deploying them. Now, a single Git push is enough. If a pus... cliche: > When implementing an idea becomes so easy, it’s perhaps more important than ever to occasionally ask myself whether it’s actually worth implementing in the first place. Wish I had this restraint. I’ve been vibing everything I can think of. It’s got to the point I made a small platform on top of k3s so that the agent can yolo deploy into a homeserver behind Tailscale. Once deployed it becomes natural selection fo... jjcm: In some ways it's better, in some ways it's worse. It's certainly easier than ever to spin up a VPS/cloudflare proxy and deploy. Agents can pretty much do that end to end. The bigger issue is you're then accountable for keeping up with security. Previously that meant using fail2ban and running a system update every few months. Now it means patching within 24hrs of a CVE9+ dropping, which is happening at an acceler...",
+      "fetched_at": "2026-11-27T01:16:11.618165+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50660180",
+      "hn_story_type": "story",
+      "hn_points": "274",
+      "hn_comments_count": "148",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50660180",
+      "hn_item_text": "",
+      "hn_comment_preview": "n4bz0r: > For my VPS infrastructure, I’ve also started building my own Debian-based bootc image (after thinking about it for some time). > I still remember what updating a service used to look like: bumping the version and adjusting the Docker Compose file on my laptop, pushing the changes to the Git remote, SSHing into the server, pulling the changes, and finally deploying them. Now, a single Git push is enough. If a pus...\ncliche: > When implementing an idea becomes so easy, it’s perhaps more important than ever to occasionally ask myself whether it’s actually worth implementing in the first place. Wish I had this restraint. I’ve been vibing everything I can think of. It’s got to the point I made a small platform on top of k3s so that the agent can yolo deploy into a homeserver behind Tailscale. Once deployed it becomes natural selection fo...\njjcm: In some ways it's better, in some ways it's worse. It's certainly easier than ever to spin up a VPS/cloudflare proxy and deploy. Agents can pretty much do that end to end. The bigger issue is you're then accountable for keeping up with security. Previously that meant using fail2ban and running a system update every few months. Now...",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=14,strategy_insight=2,industry_business=-2",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 14,
+        "strategy_insight": 2,
+        "industry_business": -2
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "security",
+            "docker"
+          ],
+          "support_hits": [
+            "deploy"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 14,
+          "strong_hits": [
+            "ide",
+            "cli"
+          ],
+          "support_hits": [
+            "agent"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [
+            "docker"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "security",
+        "docker",
+        "deploy"
+      ],
+      "detail_slug": "806491dbfd8c356b5a7b390c43aa5b05cd3debda",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T01:16:56.933936+00:00"
+    },
+    {
+      "id": "d40b9c5b86639cf60ed23508144ea44d0829b732",
+      "title_hash": "335592ea4da370e06f4c6d8a3d4e23a639394ec7",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+      "link": "https://github.com/antonpictures/youtube-punisher",
+      "published_at": "2026-11-26T17:36:47+00:00",
+      "summary": "HN story type: story HN points: 255 HN comments: 324 HN top comments: noitpmeder: Is this actually an issue? Using uBlock Origin on firefox I don't think I have seen a youtube-forced ad in YEARS. And then adding in the SponsorBlock extension gets me around anything embedded into the video itself. SponsorBlock is actually awesome, and for those that like to see internet numbers go up, it tells you how much your own submissions have saved other users over the years (the 11 snippets I've added hav... Grombobulous: The amount of effort people will go to avoid paying for content they spend hours watching is fascinating. YouTube is the #1 streaming video service in the world. Bigger than Disney, bigger than HBO, bigger than Netflix. I say this not to point out that Google needs your money as obviously they don’t, but I say this to point out that it’s a treasure trove of content. YouTube Premium is absolutely worth the asking p... jonplackett: I’m all for ad blockers in most places but I have completely caved in on YouTube. My reasons are 1. YouTube seems to pay creators reasonably 2. Being able to use the YT app without the crippling of things like background playback and downloads is very useful. 3. YouTube seems get YouTube music free, so cancelled Spotify with more or less paid for it. I know I’ve given in. And I accept it",
+      "fetched_at": "2026-11-27T01:16:11.618165+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50657530",
+      "hn_story_type": "story",
+      "hn_points": "255",
+      "hn_comments_count": "324",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50657530",
+      "hn_item_text": "",
+      "hn_comment_preview": "noitpmeder: Is this actually an issue? Using uBlock Origin on firefox I don't think I have seen a youtube-forced ad in YEARS. And then adding in the SponsorBlock extension gets me around anything embedded into the video itself. SponsorBlock is actually awesome, and for those that like to see internet numbers go up, it tells you how much your own submissions have saved other users over the years (the 11 snippets I've added hav...\nGrombobulous: The amount of effort people will go to avoid paying for content they spend hours watching is fascinating. YouTube is the #1 streaming video service in the world. Bigger than Disney, bigger than HBO, bigger than Netflix. I say this not to point out that Google needs your money as obviously they don’t, but I say this to point out that it’s a treasure trove of content. YouTube Premium is absolutely worth the asking p...\njonplackett: I’m all for ad blockers in most places but I have completely caved in on YouTube. My reasons are 1. YouTube seems to pay creators reasonably 2. Being able to use the YT app without the crippling of things like background playback and downloads is very useful. 3. YouTube seems get YouTube music free, so cancelled Sp...",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=7,tools_agents=12,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 12,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [
+            "extension"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "github.com"
+          ]
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "extension",
+        "github.com"
+      ],
+      "detail_slug": "d40b9c5b86639cf60ed23508144ea44d0829b732",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T01:16:56.933936+00:00"
+    },
+    {
+      "id": "d427a90db6b734684c8d125dcdaecaf98eb8b2b0",
+      "title_hash": "28cea6da051f5c48ac330d2b68d99de93490826e",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Largest 2D Chart library in the world using BUI: BlenderUI",
+      "link": "https://bui.preetham.top/charts/",
+      "published_at": "2026-11-26T18:37:24+00:00",
+      "summary": "HN story type: story HN points: 52 HN comments: 9 HN top comments: andai: This is an addon for BlenderUI, which has apparently been decoupled from Blender: (Edit: decoupled by same author, not by Blender.) https://github.com/ppmpreetham/BUI Blender's UI code is mostly C, as I recall. The readme says it supports dear imgui API, tkinter, html and js (including react etc), Qt syntax, Rust, Lua ... that's a lot! Also seems to support the browser via wasm, though it might be a bit heavy for... alienbaby: Hm, pinch and zoom in/out seemed broke on android/chrome char8: \"starting the chart engine\" Yeah it's exactly for this reason i use Svelte, with charts rendered in play HTML using the browser's native DOM e.g https://www.layerchart.com/",
+      "fetched_at": "2026-11-27T01:16:11.618165+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50658193",
+      "hn_story_type": "story",
+      "hn_points": "52",
+      "hn_comments_count": "9",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50658193",
+      "hn_item_text": "",
+      "hn_comment_preview": "andai: This is an addon for BlenderUI, which has apparently been decoupled from Blender: (Edit: decoupled by same author, not by Blender.) https://github.com/ppmpreetham/BUI Blender's UI code is mostly C, as I recall. The readme says it supports dear imgui API, tkinter, html and js (including react etc), Qt syntax, Rust, Lua ... that's a lot! Also seems to support the browser via wasm, though it might be a bit heavy for...\nalienbaby: Hm, pinch and zoom in/out seemed broke on android/chrome\nchar8: \"starting the chart engine\" Yeah it's exactly for this reason i use Svelte, with charts rendered in play HTML using the browser's native DOM e.g https://www.layerchart.com/",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "40",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=16,practical_tech=16,tools_agents=2,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 16,
+        "tools_agents": 2,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 16,
+          "strong_hits": [
+            "rust",
+            "api"
+          ],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "rust",
+        "api",
+        "library"
+      ],
+      "detail_slug": "d427a90db6b734684c8d125dcdaecaf98eb8b2b0",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T01:16:56.933936+00:00"
+    },
+    {
+      "id": "15b26c2df9766f9afa1d4a4b8daacff8e1fea971",
+      "title_hash": "ed2a25cb92220254321b2f98d9c0054e1a92cf0b",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "The USAID Files",
+      "link": "https://reclaimthenet.org/usaid-files",
+      "published_at": "2026-11-25T23:15:52+00:00",
+      "summary": "HN story type: story HN points: 120 HN comments: 126 HN top comments: Bender: File archive [1] via rsync 1.1GB [1] - # rsync -avh 172.239.129.211::_archive_/usaid csense: I'm struggling to understand exactly what this website is claiming the government did wrong. > The documents reveal that as the agency was working with the tech giants, its lawyers were advising staff on how to make sure this cooperation remains secret. “Keep it out of the Washington Post” – this is how one of the lawyers put it in a July 8, 2024 briefing I'd like to read that briefing for more context, but none o... asveikau: USAID did a lot of things. Some dubious, some obviously good. For example, I think you'd have to be a little unhinged to think their global funding for HIV/AIDS wasn't necessary.",
+      "fetched_at": "2026-11-27T01:16:11.618165+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50649040",
+      "hn_story_type": "story",
+      "hn_points": "120",
+      "hn_comments_count": "126",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50649040",
+      "hn_item_text": "",
+      "hn_comment_preview": "Bender: File archive [1] via rsync 1.1GB [1] - # rsync -avh 172.239.129.211::_archive_/usaid\ncsense: I'm struggling to understand exactly what this website is claiming the government did wrong. > The documents reveal that as the agency was working with the tech giants, its lawyers were advising staff on how to make sure this cooperation remains secret. “Keep it out of the Washington Post” – this is how one of the lawyers put it in a July 8, 2024 briefing I'd like to read that briefing for more context, but none o...\nasveikau: USAID did a lot of things. Some dubious, some obviously good. For example, I think you'd have to be a little unhinged to think their global funding for HIV/AIDS wasn't necessary.",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "29",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=5,practical_tech=2,tools_agents=-2,strategy_insight=-2,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": -2,
+        "strategy_insight": -2,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "how to"
+          ],
+          "negative_hits": [
+            "funding"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "funding"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "funding"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "funding"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "funding"
+      ],
+      "detail_slug": "15b26c2df9766f9afa1d4a4b8daacff8e1fea971",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T01:16:56.933936+00:00"
+    },
+    {
       "id": "bd469c75f0250590263557859b243dea99f0170f",
       "title_hash": "61ae2279a0fb4c1520babdd16a54e1f02d5d9e96",
       "source": "GeekNews",
@@ -165350,583 +165932,6 @@
       "detail_slug": "2dde7abcca55c79527f5413330a1d458b68d0126",
       "is_english_source": true,
       "sent_at": "2026-10-07T12:42:19.033730+00:00"
-    },
-    {
-      "id": "deb7d51681750d61c2110656ba450a63993d7d53",
-      "title_hash": "974fc24b4a1842f149aa8119a543f691899c4459",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Strands Decider 2B: a small, open-source, decision model",
-      "link": "https://strandsagents.com/blog/introducing-strands-decider/",
-      "published_at": "2026-10-07T02:02:11+00:00",
-      "summary": "HN story type: story HN points: 215 HN comments: 61 HN top comments: real_faxenoff: As a regular user of a bunch of specialized micromodels, I'll tell you this: you won't be happy with such a model (and its JEV counterparts) running permanently in the background on your PC's CPU. You need to offload their processing to the NPU. There are many pitfalls along the way, but the result is worth it. NPU performance will be twice as high, while power consumption will be four times lower. No additional f... adenta: At this point I can't wait for a comedian to release a decision model backed by humans. Meet Jerry- it's literally a guy named Jerry answering your questions. mattvr: Why is everyone calling binary choices `noul`? Does this have some meaning or is it just copying Jev’s API?",
-      "fetched_at": "2026-10-07T12:39:56.492681+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49987076",
-      "hn_story_type": "story",
-      "hn_points": "215",
-      "hn_comments_count": "61",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49987076",
-      "hn_item_text": "",
-      "hn_comment_preview": "real_faxenoff: As a regular user of a bunch of specialized micromodels, I'll tell you this: you won't be happy with such a model (and its JEV counterparts) running permanently in the background on your PC's CPU. You need to offload their processing to the NPU. There are many pitfalls along the way, but the result is worth it. NPU performance will be twice as high, while power consumption will be four times lower. No additional f...\nadenta: At this point I can't wait for a comedian to release a decision model backed by humans. Meet Jerry- it's literally a guy named Jerry answering your questions.\nmattvr: Why is everyone calling binary choices `noul`? Does this have some meaning or is it just copying Jev’s API?",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=9,strategy_insight=9,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 9,
-        "strategy_insight": 9,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "performance",
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 9,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [
-            "agent"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "decision"
-          ],
-          "support_hits": [
-            "why"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "performance",
-        "api"
-      ],
-      "detail_slug": "deb7d51681750d61c2110656ba450a63993d7d53",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T12:42:19.033730+00:00"
-    },
-    {
-      "id": "353f1e1f66e63414b3083193f95536c945e7b293",
-      "title_hash": "2ac25511039d9c42c6ed7e698eb3dc721c2ec068",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Sharing AI progress in mathematics",
-      "link": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
-      "published_at": "2026-10-06T22:17:21+00:00",
-      "summary": "HN story type: story HN points: 1014 HN comments: 990 HN post text: https://github.com/openai/math https://github.com/openai/math/tree/main/preprints HN top comments: jboggan: I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it. But it's supposedly proven here - problem 180. I don't know what... winfieldchen: > We prove the Unique Games Conjecture The Unique Games Conjecture (sorry, \"Unique Games Theorem\" now!) is huge. It was a very significant pillar supporting many of the limits of the polynomial-time approximation algorithms in the graduate-level randomized and approximate algorithms course I took in theoretical computer science. Textbooks will have to be re-written. Here is an explainer: https://share.gemini.googl... Spacecosmonaut: Mathematical problems are ideal as benchmarks for AI because they have clear problem statements, clear axioms and results that can be verified easily (for lean proofs). I can't blame these companies for using them, although it's unfortunate that human mathematicians seem to become early casualties of AI progress. I suppose openAI could have focussed their efforts on a subset of open problems that have a clear real...",
-      "fetched_at": "2026-10-07T12:39:56.492681+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49984923",
-      "hn_story_type": "story",
-      "hn_points": "1014",
-      "hn_comments_count": "990",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49984923",
-      "hn_item_text": "https://github.com/openai/math https://github.com/openai/math/tree/main/preprints",
-      "hn_comment_preview": "jboggan: I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it. But it's supposedly proven here - problem 180. I don't know what...\nwinfieldchen: > We prove the Unique Games Conjecture The Unique Games Conjecture (sorry, \"Unique Games Theorem\" now!) is huge. It was a very significant pillar supporting many of the limits of the polynomial-time approximation algorithms in the graduate-level randomized and approximate algorithms course I took in theoretical computer science. Textbooks will have to be re-written. Here is an explainer: https://share.gemini.googl...\nSpacecosmonaut: Mathematical problems are ideal as benchmarks for AI because they have clear problem statements, clear axioms and results that can be verified easily (for lean proofs). I can't blame these companies for using them, although it's unfortunate that human mathematicians seem to become early casualties of AI progress. I...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=1",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 1
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "benchmark",
-            "index"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 1,
-          "strong_hits": [
-            "deal"
-          ],
-          "support_hits": [],
-          "negative_hits": [
-            "benchmark"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "benchmark",
-        "index"
-      ],
-      "detail_slug": "353f1e1f66e63414b3083193f95536c945e7b293",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T12:42:19.033730+00:00"
-    },
-    {
-      "id": "b8c05313368889b3a0e8bde07f8043b12d27210e",
-      "title_hash": "cd9ce22c625ad693f52d738d376eac7bad90f3be",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
-      "link": "https://astrohelm.app/",
-      "published_at": "2026-10-04T14:01:09+00:00",
-      "summary": "HN story type: story HN points: 23 HN comments: 10 HN post text: Hello HN! As an amateur astronomer living in New York City, finding objects in the night sky has always been a huge challenge. I thought about using the smartphone's gyroscope and magnetometer, but the accuracy left a lot to be desired. Then I learned about plate solving: given a picture of the sky, we can determine exactly where in the sky the camera was pointing by identifying the star pattern. This was a much better fit - as long as the phone and the optics are rigidly connected, we can repeatedly photograph the sky and determine the pointing direction with very high accuracy. A lot of work was done to design an algorithm that works reliably with smartphone cameras, which have limited light sensitivity and wider field of view which includes buildings and trees. I experimented a lot with machine learning, and to my surprise, traditional CV methods actually performed better at extracting stars from the image. The result is AstroHelm, an iOS and Android app that helps figure out where your telescope or camera is pointing, and guides you to the object of your choice. Just follow an arrow on screen, and the object will land right in your eyepiece or viewfinder. Everything happens... HN top comments: chantepierre: Hey, I'd actually use that. I build telescopes (see personal site in profile) and only do visual astronomy. I voluntarily prefer to use old-ish phones, i.e. currently I am using an iPhone SE 2022. Do you think the weak signal under the night sky would work with your plate solving ? skypanther: This looks like a nice alternative to PiFinder. No extra hardware required. https://www.pifinder.io/ danbruc: - Accurate up to within 10 arcseconds (1/360 of a degree) - Computes coordinates in less than a second For comparison, the sky moves 15 arcseconds per second. So without a motorized mount to keep the telescope on target, the accuracy will be short-lived.",
-      "fetched_at": "2026-10-07T12:39:56.492681+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49954015",
-      "hn_story_type": "story",
-      "hn_points": "23",
-      "hn_comments_count": "10",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49954015",
-      "hn_item_text": "Hello HN! As an amateur astronomer living in New York City, finding objects in the night sky has always been a huge challenge. I thought about using the smartphone's gyroscope and magnetometer, but the accuracy left a lot to be desired. Then I learned about plate solving: given a picture of the sky, we can determine exactly where in the sky the camera was pointing by identifying the star pattern. This was a much better fit - as long as the phone and the optics are rigidly connected, we can repeatedly photograph the sky and determine the pointing direction with very high accuracy. A lot of work was done to design an algorithm that works reliably with smartphone cameras, which have limited light sensitivity and wider field of view which includes buildings and trees. I experimented a lot with machine learning, and to my surprise, traditional CV methods actually performed better at extracting stars from the image. The result is AstroHelm, an iOS and Android app that helps figure out where your telescope or camera is pointing, and guides you to the object of your choice. Just follow an arrow on screen, and the object will land right in your eyepiece or viewfinder. Everything happens...",
-      "hn_comment_preview": "chantepierre: Hey, I'd actually use that. I build telescopes (see personal site in profile) and only do visual astronomy. I voluntarily prefer to use old-ish phones, i.e. currently I am using an iPhone SE 2022. Do you think the weak signal under the night sky would work with your plate solving ?\nskypanther: This looks like a nice alternative to PiFinder. No extra hardware required. https://www.pifinder.io/\ndanbruc: - Accurate up to within 10 arcseconds (1/360 of a degree) - Computes coordinates in less than a second For comparison, the sky moves 15 arcseconds per second. So without a motorized mount to keep the telescope on target, the accuracy will be short-lived.",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "36",
-      "priority_signal": "slot=strategy_insight,boost=24,slot_score=12,practical_tech=11,tools_agents=7,strategy_insight=12,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 11,
-        "tools_agents": 7,
-        "strategy_insight": 12,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 11,
-          "strong_hits": [
-            "show hn"
-          ],
-          "support_hits": [
-            "guide"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 12,
-          "strong_hits": [
-            "learning",
-            "signal"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "learning",
-        "signal"
-      ],
-      "detail_slug": "b8c05313368889b3a0e8bde07f8043b12d27210e",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T12:42:19.033730+00:00"
-    },
-    {
-      "id": "6d1068c696b61e1cf938c57040b48123677a8af3",
-      "title_hash": "cca9c14e2e9922a4f870cacb4e8ffbf4864aea00",
-      "source": "GeekNews",
-      "title": "Claude Code의 가장 영리한 기능은 사용자를 위한 것이 아니다",
-      "link": "https://news.hada.io/topic?id=34928",
-      "published_at": "2026-10-07T04:32:37+00:00",
-      "summary": "Claude Code의 다음 메시지 제안은 타이핑을 줄이는 편의 기능을 넘어, 모델 학습에 유용한 피드백을 얻는 장치일 수 있음 . 사용자가 제안을 그대로 보내거나 고치는 행동에서 개발자의 선호를 읽을 수 있기 때문임 좋아요/싫어요는 참여가 적고 불만을 가진 사용자에게 편중되기 쉬...",
-      "fetched_at": "2026-10-07T08:30:10.411567+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "60",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=15,practical_tech=0,tools_agents=15,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 15,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 15,
-          "strong_hits": [
-            "claude code"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "claude + code"
-      ],
-      "detail_slug": "6d1068c696b61e1cf938c57040b48123677a8af3",
-      "is_english_source": false,
-      "sent_at": "2026-10-07T08:32:37.106364+00:00"
-    },
-    {
-      "id": "1881921d485e852b075c03224cee00a7d4c4abf5",
-      "title_hash": "4a2f0156bd15b9e33a5c6a9bf261c4370c1a9820",
-      "source": "GeekNews",
-      "title": "소프트웨어로서의 브랜드",
-      "link": "https://news.hada.io/topic?id=34918",
-      "published_at": "2026-10-07T00:45:01+00:00",
-      "summary": "브랜드팀이 같은 발표 자료와 디자인을 반복해서 만드는 대신, 이미 내린 디자인 결정을 소프트웨어로 구현 하면 새로운 아이디어와 중요한 작업에 집중할 수 있음 Figma와 AI는 누구나 제작할 수 있게 했지만 판단력과 안목까지 나눠주지는 못함 . 팀 구조가 그대로...",
-      "fetched_at": "2026-10-07T08:30:10.411567+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "strategy_insight",
-      "primary_slot_label": "전략·인사이트",
-      "priority_bucket": "general",
-      "priority_score": "53",
-      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=0,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "판단"
-      ],
-      "detail_slug": "1881921d485e852b075c03224cee00a7d4c4abf5",
-      "is_english_source": false,
-      "sent_at": "2026-10-07T08:32:37.106364+00:00"
-    },
-    {
-      "id": "78441edfb290b5833c7ec08268518901b69da50d",
-      "title_hash": "2231f25d2dadf5b704c83db6709ea708dd7aa3b1",
-      "source": "GeekNews",
-      "title": "Penguin Mail - AI를 탑재한 Linux용 오픈소스 Rust 이메일 클라이언트",
-      "link": "https://news.hada.io/topic?id=34931",
-      "published_at": "2026-10-07T06:32:25+00:00",
-      "summary": "Penguin Mail 은 Gmail, Microsoft, IMAP/POP3 계정의 이메일과 캘린더, 연락처를 사용자 컴퓨터의 한 앱에서 관리하는 Linux용 클라이언트임 통합 받은편지함 과 계정별 보기를 지원하며, 시스템 트레이에서도 동기화를 유지하고 읽지 않은 메일 수와 조작 가능한 알...",
-      "fetched_at": "2026-10-07T08:30:10.411567+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "50",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=5,practical_tech=5,tools_agents=4,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 5,
-        "tools_agents": 4,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 5,
-          "strong_hits": [
-            "rust"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rust"
-      ],
-      "detail_slug": "78441edfb290b5833c7ec08268518901b69da50d",
-      "is_english_source": false,
-      "sent_at": "2026-10-07T08:32:37.106364+00:00"
-    },
-    {
-      "id": "f31a976486d2ace34891bf2f6b341339ac177d63",
-      "title_hash": "6c7ea6e55fa12e8f02f0805a8676741c7956b43f",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Treg (OpenRouter for Tools)",
-      "link": "https://github.com/superdesigndev/treg",
-      "published_at": "2026-10-06T16:29:59+00:00",
-      "summary": "HN story type: story HN points: 25 HN comments: 5 HN top comments: florianpipes: Treg is really cool. It's a set of stateless APIs to get access to data sources with one single subscription. This is one half of the coin for GTM automation. The other half requires state: webhooks, signals, schedules. Here, a tools like pipe0 or clay still have the edge. Pieczasz: Seems too good to be true, open-source, supports many free tools, the only part that I'm concerned about is how long will the website be up, because I bet some of those providers are not gonna appreciate it radicality: Have not tried yet, but did see in the readme it supports x402 protocol for payments, that’s nice. 1) double checking whether it actually does, does it? 2) Which chains are supported, and how’s the x402 being handled - your service self hosted or third party?",
-      "fetched_at": "2026-10-07T08:30:10.411567+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49980790",
-      "hn_story_type": "story",
-      "hn_points": "25",
-      "hn_comments_count": "5",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49980790",
-      "hn_item_text": "",
-      "hn_comment_preview": "florianpipes: Treg is really cool. It's a set of stateless APIs to get access to data sources with one single subscription. This is one half of the coin for GTM automation. The other half requires state: webhooks, signals, schedules. Here, a tools like pipe0 or clay still have the edge.\nPieczasz: Seems too good to be true, open-source, supports many free tools, the only part that I'm concerned about is how long will the website be up, because I bet some of those providers are not gonna appreciate it\nradicality: Have not tried yet, but did see in the readme it supports x402 protocol for payments, that’s nice. 1) double checking whether it actually does, does it? 2) Which chains are supported, and how’s the x402 being handled - your service self hosted or third party?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "41",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=12,tools_agents=17,strategy_insight=7,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 17,
-        "strategy_insight": 7,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "api"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 17,
-          "strong_hits": [
-            "automation",
-            "ide"
-          ],
-          "support_hits": [
-            "tool"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "github.com"
-          ]
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 7,
-          "strong_hits": [
-            "signal"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "automation",
-        "ide",
-        "tool",
-        "github.com"
-      ],
-      "detail_slug": "f31a976486d2ace34891bf2f6b341339ac177d63",
-      "is_english_source": true,
-      "sent_at": "2026-10-07T08:32:37.106364+00:00"
     }
   ],
   "topic_digests": {
