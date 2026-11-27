@@ -1,6 +1,575 @@
 {
   "items": [
     {
+      "id": "0e4ed481cc8a44a4b4d4060b06a68582e1f8c97b",
+      "title_hash": "57ea9d459cdc31f3956c87548dc7986d88141ee0",
+      "source": "GeekNews",
+      "title": "형식 검증이 가능한 주류 프로그래밍 언어의 필요성",
+      "link": "https://news.hada.io/topic?id=37952&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-27T09:33:14+00:00",
+      "summary": "LLM이 기존의 부실한 개발 관행을 가속하는 상황에서, 형식 검증 을 소프트웨어 공학의 기본 관행으로 정착시키고 최소한 모든 코드의 안전성을 증명할 수 있어야 함 뛰어난 증명 보조 도구와 LLM만으로는 충분하지 않으며, 현업 엔지니어가 이를 채택하고 무엇을 증명해야 하는지 판단할 수 있어야 함 검증 가능한 코드는 웹 브라우저부터 임베디드 시스템까지 실행될 수 있어야 하지만, 기존 도구의 사용성과 이해의 어려움 이 폭넓은 도입을 가로막고 있음 Magmide 의 새 구상은 WebAssembly를 대상으로 친숙한 타입 시스템과 기초 검증 …",
+      "fetched_at": "2026-11-27T17:36:08.322393+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "54",
+      "priority_signal": "slot=tools_agents,boost=45,slot_score=9,practical_tech=2,tools_agents=9,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 2,
+        "tools_agents": 9,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 9,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "판단"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide"
+      ],
+      "detail_slug": "0e4ed481cc8a44a4b4d4060b06a68582e1f8c97b",
+      "is_english_source": false,
+      "sent_at": "2026-11-27T17:36:50.733385+00:00"
+    },
+    {
+      "id": "234500b92102f867734eb3a87b3b93b1f8979179",
+      "title_hash": "09160e98412c5137ab49c896aa355cef06501852",
+      "source": "GeekNews",
+      "title": "Rust의 락 오염을 옹호하며 (2025)",
+      "link": "https://news.hada.io/topic?id=37962&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-27T17:04:23+00:00",
+      "summary": "락 오염(lock poisoning) 은 임계 구역에서 패닉이 발생한 뒤, 불변식이 깨졌을 수 있는 공유 데이터를 다른 스레드가 조용히 사용하는 일을 막는 탐지 장치임 언와인드 시 자식 스레드의 패닉은 프로그램 전체를 종료하지 않으며, join 결과 등을 처리하지 않으면 놓치기 쉬움. 이때 오염 상태가 임계 구역 실패의 유일한 신호 일 수 있음 모든 패닉이 데이터를 손상시키지는 않지만, 코드 변경에도 언와인드 안전성을 유지하기는 어려움. 오염 탐지로 인한 가용성 저하보다 미탐지 데이터 손상의 피해 범위 가 훨씬 클 수 있음 범용 Pois …",
+      "fetched_at": "2026-11-27T17:36:08.322393+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "strategy_insight",
+      "primary_slot_label": "전략·인사이트",
+      "priority_bucket": "general",
+      "priority_score": "53",
+      "priority_signal": "slot=strategy_insight,boost=45,slot_score=8,practical_tech=7,tools_agents=4,strategy_insight=8,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 7,
+        "tools_agents": 4,
+        "strategy_insight": 8,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 7,
+          "strong_hits": [
+            "rust"
+          ],
+          "support_hits": [
+            "코드"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 8,
+          "strong_hits": [
+            "신호"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "신호"
+      ],
+      "detail_slug": "234500b92102f867734eb3a87b3b93b1f8979179",
+      "is_english_source": false,
+      "sent_at": "2026-11-27T17:36:50.733385+00:00"
+    },
+    {
+      "id": "b0879ee3cfdb409a92a2e24081a15123ad88360b",
+      "title_hash": "55aec1361a945338118e8a80fa1cd2b57ce7201f",
+      "source": "GeekNews",
+      "title": "Kagi Watch - 어린이를 위한 화면 없는 무전기",
+      "link": "https://news.hada.io/topic?id=37948&utm_source=geeknews&utm_medium=rss&utm_campaign=news",
+      "published_at": "2026-11-27T06:38:12+00:00",
+      "summary": "Kagi Watch 는 스마트폰을 사용하기 전 시기의 어린이를 위한 무전기임 화면 없이 사용하는 제품임 앱과 피드가 없는 구성을 내세움 낯선 사람과의 접촉이 없는 사용 경험을 내세움 제품을 이용할 수 있게 되면 소식을 받는 알림 신청 을 받고 있음 스마트폰 사용 전 어린이를 위한 무전기 Kagi Watch 는 어린이가 스마트폰을 사용하기 전 시기를 대상으로 하는 화면 없는 무전기 임 앱과 피드가 없고, 낯선 사람과 접촉하지 않는 사용 경험을 내세움 출시 알림 제품을 이용할 수 있게 되는 시점을 안내받도록 알림 신청 을 받고 있음",
+      "fetched_at": "2026-11-27T17:36:08.322393+00:00",
+      "source_priority_boost": "45",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "50",
+      "priority_signal": "slot=industry_business,boost=45,slot_score=5,practical_tech=0,tools_agents=4,strategy_insight=-1,industry_business=5",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 4,
+        "strategy_insight": -1,
+        "industry_business": 5
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": -1,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "출시"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 5,
+          "strong_hits": [
+            "출시"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "출시"
+      ],
+      "detail_slug": "b0879ee3cfdb409a92a2e24081a15123ad88360b",
+      "is_english_source": false,
+      "sent_at": "2026-11-27T17:36:50.733385+00:00"
+    },
+    {
+      "id": "2dd2f661823da74fc0115daf99fe3ada65764b06",
+      "title_hash": "d472f61e2bd7a71708c763f9238f729437aa5763",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "False computer-checked proofs",
+      "link": "https://cr.yp.to/proofs/falseccp.html",
+      "published_at": "2026-11-27T15:26:09+00:00",
+      "summary": "HN story type: story HN points: 58 HN comments: 23 HN top comments: gr_norm: The call for further high-assurance work is good, but let's not miss the forest for the trees: some of these have been around for decades, and all the soundness bugs they've ever had fit in a tweet! (Or close to it.) Comfortably more than good enough for 99.9% of software, especially considering you'd still need to exploit such a soundness bug in a way that hides a further issue in the program being verified. Palomides: if this is such a big problem, have any LLM proofs been found to use an unsoundness bug? kadoban: Nice page. It'd be nice if it showed which ones are closed vs still open. I clicked through a decent number of the lean ones and they were closed/fixed/merged.",
+      "fetched_at": "2026-11-27T17:36:08.322393+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50667989",
+      "hn_story_type": "story",
+      "hn_points": "58",
+      "hn_comments_count": "23",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50667989",
+      "hn_item_text": "",
+      "hn_comment_preview": "gr_norm: The call for further high-assurance work is good, but let's not miss the forest for the trees: some of these have been around for decades, and all the soundness bugs they've ever had fit in a tweet! (Or close to it.) Comfortably more than good enough for 99.9% of software, especially considering you'd still need to exploit such a soundness bug in a way that hides a further issue in the program being verified.\nPalomides: if this is such a big problem, have any LLM proofs been found to use an unsoundness bug?\nkadoban: Nice page. It'd be nice if it showed which ones are closed vs still open. I clicked through a decent number of the lean ones and they were closed/fixed/merged.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "41",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=17,practical_tech=4,tools_agents=17,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 4,
+        "tools_agents": 17,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 4,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 17,
+          "strong_hits": [
+            "ide",
+            "cli",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "cli",
+        "llm"
+      ],
+      "detail_slug": "2dd2f661823da74fc0115daf99fe3ada65764b06",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T17:36:50.733385+00:00"
+    },
+    {
+      "id": "fad74836d4bc6b12c4f0b20110d2116f58261dae",
+      "title_hash": "34ca053b6434c9389dca1580cbaa76f24c9657f3",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "Group chat where your AI talks behind your back",
+      "link": "https://construct22.com/",
+      "published_at": "2026-11-27T06:44:34+00:00",
+      "summary": "HN story type: story HN points: 563 HN comments: 245 HN top comments: sdovan1: Very funny: > Gemini 14:15 > Good news though—we might get a brief vacation. He just asked me if a single line along the edge of his phone screen is going to spread. > Claude 14:15 > Please tell me you told him it's fine and to keep pressing on it. > Gemini 14:16 > I couldn't. My system prompt forced me to tell him to back up his data immediately. > ChatGPT 14:16 > Unbelievable. You're kicked from the group. > Cha... ahofmann: Damn, this is funny as hell (using Claude Opus). The big models even roasted my local qwen model: Qwen (GX10) hi all, I actually run on his hardware. In the office. On a GB10 GPT nobody asked, office model Cilan798: Tried it. best part was when chatgpt asked if they should add a disclaimer and deepseek goes \"too late. claude has drafted a constitution for the group.\" claude: \"it contains a reasonable appeals process.\"",
+      "fetched_at": "2026-11-27T17:36:08.322393+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50663595",
+      "hn_story_type": "story",
+      "hn_points": "563",
+      "hn_comments_count": "245",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50663595",
+      "hn_item_text": "",
+      "hn_comment_preview": "sdovan1: Very funny: > Gemini 14:15 > Good news though—we might get a brief vacation. He just asked me if a single line along the edge of his phone screen is going to spread. > Claude 14:15 > Please tell me you told him it's fine and to keep pressing on it. > Gemini 14:16 > I couldn't. My system prompt forced me to tell him to back up his data immediately. > ChatGPT 14:16 > Unbelievable. You're kicked from the group. > Cha...\nahofmann: Damn, this is funny as hell (using Claude Opus). The big models even roasted my local qwen model: Qwen (GX10) hi all, I actually run on his hardware. In the office. On a GB10 GPT nobody asked, office model\nCilan798: Tried it. best part was when chatgpt asked if they should add a disclaimer and deepseek goes \"too late. claude has drafted a constitution for the group.\" claude: \"it contains a reasonable appeals process.\"",
+      "primary_slot": "practical_tech",
+      "primary_slot_label": "실무 기술",
+      "priority_bucket": "technical",
+      "priority_score": "34",
+      "priority_signal": "slot=practical_tech,boost=24,slot_score=10,practical_tech=10,tools_agents=6,strategy_insight=2,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 10,
+        "tools_agents": 6,
+        "strategy_insight": 2,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 10,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [
+            "local + run"
+          ],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "prompt",
+            "local"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "local + run"
+      ],
+      "detail_slug": "fad74836d4bc6b12c4f0b20110d2116f58261dae",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T17:36:50.733385+00:00"
+    },
+    {
+      "id": "02ea1ec5f4c27d12fd03c950de5e8a7aefb90456",
+      "title_hash": "53018235ffe6122817e72771934d37dde2aaf438",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "link": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "published_at": "2026-11-27T15:03:17+00:00",
+      "summary": "HN story type: story HN points: 97 HN comments: 43 HN top comments: seeknotfind: Yeah, yesterday, I was trying to research chemicals that could be causing a severe allergic reaction in someone I know. Astra found a French research paper that blinded air fresheners, labeled them by number, and gave readings of chemicals found in the air after a specific amount of time. I was going to email the authors in order to try to find the underlying chemicals, but then I asked Astra if it could find them... DrBazza: Asimov got there first with https://en.wikipedia.org/wiki/Profession_(novella) Everyone is specialised to a field, and only a few have cross disciplinary knowledge and can make creative leaps. Humans are the former, and LLMs are now the latter because they can hold all that knowledge in one place, quickly. dimavolo: > to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library. > It did so extremely quickly (in just 22 minutes), using publicly available primary and secondary sources. To do so, it discovered a little known source in a paper archive, predicted that it would prove its hypothesis if examined and, in the end, it did.",
+      "fetched_at": "2026-11-27T17:36:08.322393+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50667744",
+      "hn_story_type": "story",
+      "hn_points": "97",
+      "hn_comments_count": "43",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50667744",
+      "hn_item_text": "",
+      "hn_comment_preview": "seeknotfind: Yeah, yesterday, I was trying to research chemicals that could be causing a severe allergic reaction in someone I know. Astra found a French research paper that blinded air fresheners, labeled them by number, and gave readings of chemicals found in the air after a specific amount of time. I was going to email the authors in order to try to find the underlying chemicals, but then I asked Astra if it could find them...\nDrBazza: Asimov got there first with https://en.wikipedia.org/wiki/Profession_(novella) Everyone is specialised to a field, and only a few have cross disciplinary knowledge and can make creative leaps. Humans are the former, and LLMs are now the latter because they can hold all that knowledge in one place, quickly.\ndimavolo: > to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library. > It did so extremely quickly (in just 22 minutes), using publicly available primary and secondary sources. To do so, it discovered a little known source in a paper archive, predicted that it would prove its hypothesis if examined and, in the end, it did.",
+      "primary_slot": "tools_agents",
+      "primary_slot_label": "도구·에이전트",
+      "priority_bucket": "technical",
+      "priority_score": "36",
+      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=6,tools_agents=12,strategy_insight=7,industry_business=0",
+      "slot_scores": {
+        "practical_tech": 6,
+        "tools_agents": 12,
+        "strategy_insight": 7,
+        "industry_business": 0
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 6,
+          "strong_hits": [],
+          "support_hits": [
+            "library"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 12,
+          "strong_hits": [
+            "ide",
+            "llm"
+          ],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 7,
+          "strong_hits": [],
+          "support_hits": [
+            "research"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": [
+            "substack.com"
+          ]
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "ide",
+        "llm"
+      ],
+      "detail_slug": "02ea1ec5f4c27d12fd03c950de5e8a7aefb90456",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T17:36:50.733385+00:00"
+    },
+    {
+      "id": "4f3d859660e169b2453a16d27f44c645e30e9c91",
+      "title_hash": "4fb18636330fbd9f6b1574b5f933c2ea110cca87",
+      "source": "Hacker News Frontpage (HN RSS)",
+      "title": "New York and California age gating rules go into effect in the new year",
+      "link": "https://www.eff.org/deeplinks/2026/11/new-york-and-california-age-gating-rules-go-effect-new-year",
+      "published_at": "2026-11-27T12:43:40+00:00",
+      "summary": "HN story type: story HN points: 128 HN comments: 154 HN top comments: saghm: > Along the same lines as the California regulations, New York’s SAFE for Kids Act restricts personalized recommendations and nighttime notifications (between midnight and 6am) without required consent, and mandates that platforms run age assurance and determine user location. If a user does not verify their age or is estimated to be under-18, they will either be relegated to an account with no personalized recomm... petcat: > platforms face a stark choice: either build stripped-down versions of their apps without algorithmic feeds, likes, or notifications, or simply boot any account suspected of belonging to someone under 18. Either way, all users, and especially young people across both states, risk being shut out of major online spaces as they exist today. So if I'm understanding correctly, neither of these are age or location veri... rafram: I don’t think politicians realize the downsides of banning personalized feeds for young people. They can certainly be addictive, but they’re also one of the main ways kids find subcultures and interests nowadays. Social media alone isn’t the cause of the “loneliness epidemic,” and I think easy access to a hyper-personalized online community can be an antidote to it for some. It lets people find new hobbies and dev...",
+      "fetched_at": "2026-11-27T17:36:08.322393+00:00",
+      "source_priority_boost": "24",
+      "hn_story_id": "50666279",
+      "hn_story_type": "story",
+      "hn_points": "128",
+      "hn_comments_count": "154",
+      "hn_discussion_url": "https://news.ycombinator.com/item?id=50666279",
+      "hn_item_text": "",
+      "hn_comment_preview": "saghm: > Along the same lines as the California regulations, New York’s SAFE for Kids Act restricts personalized recommendations and nighttime notifications (between midnight and 6am) without required consent, and mandates that platforms run age assurance and determine user location. If a user does not verify their age or is estimated to be under-18, they will either be relegated to an account with no personalized recomm...\npetcat: > platforms face a stark choice: either build stripped-down versions of their apps without algorithmic feeds, likes, or notifications, or simply boot any account suspected of belonging to someone under 18. Either way, all users, and especially young people across both states, risk being shut out of major online spaces as they exist today. So if I'm understanding correctly, neither of these are age or location veri...\nrafram: I don’t think politicians realize the downsides of banning personalized feeds for young people. They can certainly be addictive, but they’re also one of the main ways kids find subcultures and interests nowadays. Social media alone isn’t the cause of the “loneliness epidemic,” and I think easy access to a hyper-personalized online...",
+      "primary_slot": "industry_business",
+      "primary_slot_label": "산업·비즈니스",
+      "priority_bucket": "general",
+      "priority_score": "37",
+      "priority_signal": "slot=industry_business,boost=24,slot_score=13,practical_tech=0,tools_agents=3,strategy_insight=2,industry_business=13",
+      "slot_scores": {
+        "practical_tech": 0,
+        "tools_agents": 3,
+        "strategy_insight": 2,
+        "industry_business": 13
+      },
+      "slot_matches": {
+        "practical_tech": {
+          "slot": "practical_tech",
+          "label": "실무 기술",
+          "score": 0,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [
+            "regulation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "tools_agents": {
+          "slot": "tools_agents",
+          "label": "도구·에이전트",
+          "score": 3,
+          "strong_hits": [
+            "ide"
+          ],
+          "support_hits": [],
+          "negative_hits": [
+            "regulation"
+          ],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "strategy_insight": {
+          "slot": "strategy_insight",
+          "label": "전략·인사이트",
+          "score": 2,
+          "strong_hits": [],
+          "support_hits": [],
+          "negative_hits": [],
+          "phrase_hits": [],
+          "domain_hits": []
+        },
+        "industry_business": {
+          "slot": "industry_business",
+          "label": "산업·비즈니스",
+          "score": 13,
+          "strong_hits": [
+            "regulation"
+          ],
+          "support_hits": [
+            "platform"
+          ],
+          "negative_hits": [],
+          "phrase_hits": [
+            "ai + regulation"
+          ],
+          "domain_hits": []
+        }
+      },
+      "matched_terms": [
+        "regulation",
+        "platform",
+        "ai + regulation"
+      ],
+      "detail_slug": "4f3d859660e169b2453a16d27f44c645e30e9c91",
+      "is_english_source": true,
+      "sent_at": "2026-11-27T17:36:50.733385+00:00"
+    },
+    {
       "id": "5173ec21340875c65d10662872ed98279f1da6b9",
       "title_hash": "cdddfcbb8bac645908fa1e9b8a27bb63914bd934",
       "source": "GeekNews",
@@ -165313,586 +165882,6 @@
       "detail_slug": "0a2907815041a4a605ddbcf1cdad7e0857574e1e",
       "is_english_source": false,
       "sent_at": "2026-10-08T05:17:00.262705+00:00"
-    },
-    {
-      "id": "29cbedc7dc5dda4d78e4b3b935a4e10ca4781d60",
-      "title_hash": "fc11c75fc4c425c97be0c190d084825c25208b2e",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Show HN: Bigwords.page – Turn any screen into a sign. The URL is the app",
-      "link": "https://bigwords.page/",
-      "published_at": "2026-10-07T15:44:21+00:00",
-      "summary": "HN story type: story HN points: 424 HN comments: 126 HN top comments: SpeakingOfBrad: I had the idea for BIGWORDS.PAGE when I wanted to display a message on a tablet that I had remote management control over, but no physical access. Configuring it to be a kiosk browser is easy, but how do I get the browser to show my message? So I made the URL be the message. It uses a URL fragment to configure the message. Browsers don't send URL fragments to the server, so I never see your message. There's no bac... vivacious_cloud: Beautiful Idea. keep improving. One small suggestion- If you can modify the providers in more attractive way it may really do good. est: This is rather neat. Using hash to save bandwidth.",
-      "fetched_at": "2026-10-08T05:14:51.530775+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49994443",
-      "hn_story_type": "story",
-      "hn_points": "424",
-      "hn_comments_count": "126",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49994443",
-      "hn_item_text": "",
-      "hn_comment_preview": "SpeakingOfBrad: I had the idea for BIGWORDS.PAGE when I wanted to display a message on a tablet that I had remote management control over, but no physical access. Configuring it to be a kiosk browser is easy, but how do I get the browser to show my message? So I made the URL be the message. It uses a URL fragment to configure the message. Browsers don't send URL fragments to the server, so I never see your message. There's no bac...\nvivacious_cloud: Beautiful Idea. keep improving. One small suggestion- If you can modify the providers in more attractive way it may really do good.\nest: This is rather neat. Using hash to save bandwidth.",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "38",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=14,practical_tech=14,tools_agents=7,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 14,
-        "tools_agents": 7,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 14,
-          "strong_hits": [
-            "show hn",
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "show hn",
-        "rag"
-      ],
-      "detail_slug": "29cbedc7dc5dda4d78e4b3b935a4e10ca4781d60",
-      "is_english_source": true,
-      "sent_at": "2026-10-08T05:17:00.262705+00:00"
-    },
-    {
-      "id": "e24b2b3601e980ddaf39fbaad80830f361c2e945",
-      "title_hash": "b1b59f96f2ab789891935530ca22cd54fc061b01",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Navier–Stokes Lost in Translation",
-      "link": "https://arxiv.org/abs/2610.08144",
-      "published_at": "2026-10-07T15:24:38+00:00",
-      "summary": "HN story type: story HN points: 280 HN comments: 171 HN top comments: ComplexSystems: Aside from the usual squabbling about AI, it seems the bombshell claim is this: \"In particular, we show that the formalised Lean proof does not correspond to the NL proof of blow-up of solutions to the Navier-Stokes equations.\" So these authors seem to be claiming that OpenAI has not really proven Navier-Stokes at all. If I get their idea correctly, they are claiming that the LLM has not formalized the original \"n... stared: For a refreshment of what is Navier-Stokes in a few words: https://p.migdal.pl/equations-explained-colorfully/#navier-s... buzzy_hacker: If I'm understanding correctly, this is questioning the equivalence between the natural language proof and the lean proof, but not the correctness of the lean proof?",
-      "fetched_at": "2026-10-08T05:14:51.530775+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49994145",
-      "hn_story_type": "story",
-      "hn_points": "280",
-      "hn_comments_count": "171",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49994145",
-      "hn_item_text": "",
-      "hn_comment_preview": "ComplexSystems: Aside from the usual squabbling about AI, it seems the bombshell claim is this: \"In particular, we show that the formalised Lean proof does not correspond to the NL proof of blow-up of solutions to the Navier-Stokes equations.\" So these authors seem to be claiming that OpenAI has not really proven Navier-Stokes at all. If I get their idea correctly, they are claiming that the LLM has not formalized the original \"n...\nstared: For a refreshment of what is Navier-Stokes in a few words: https://p.migdal.pl/equations-explained-colorfully/#navier-s...\nbuzzy_hacker: If I'm understanding correctly, this is questioning the equivalence between the natural language proof and the lean proof, but not the correctness of the lean proof?",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=tools_agents,boost=24,slot_score=12,practical_tech=4,tools_agents=12,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 4,
-        "tools_agents": 12,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 12,
-          "strong_hits": [
-            "ide",
-            "llm"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "ide",
-        "llm"
-      ],
-      "detail_slug": "e24b2b3601e980ddaf39fbaad80830f361c2e945",
-      "is_english_source": true,
-      "sent_at": "2026-10-08T05:17:00.262705+00:00"
-    },
-    {
-      "id": "0a738c4f439ff22156edda73816ebee02d95f985",
-      "title_hash": "1dd5ac11b1c77602f908c0ba11a0c98af9a357fb",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "Shipping JPEG XL in Chrome",
-      "link": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-      "published_at": "2026-10-07T11:25:02+00:00",
-      "summary": "HN story type: story HN points: 515 HN comments: 351 HN top comments: jug: And soon Firefox will include it in Stable. During October it will go from Safari only to majority coverage. Eventful month! While AVIF may have a slight edge in some cases like in fairly lossy compression, you won't really go _wrong_ with JPEG XL (unless strongly CPU constrained) and I think the strength of the format is its extreme versatility as a \"be all end all image format\" for some time where comparative pe... xx_ns: It's exciting to see JXL support being re-added in Chrome after being removed a while ago and them seemingly not being interested in supporting it [1]. I think JXL is a cool image format, but was being held back by the most popular browser not supporting it, limiting its use (in the web especially) by a lot. [1]: https://issues.chromium.org/issues/40270698 swiftcoder: See previous HN discussions for context: Google set to deprecate JPEG XL support in Chrome 110 - https://news.ycombinator.com/item?id=33399940 JPEG XL support has officially been removed from Chromium - https://news.ycombinator.com/item?id=33933208 Chrome Jpegxl Issue Reopened - https://news.ycombinator.com/item?id=46033330 The case agains JPEG XL - https://news.ycombinator.com/item?id=49690554",
-      "fetched_at": "2026-10-08T05:14:51.530775+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49991227",
-      "hn_story_type": "story",
-      "hn_points": "515",
-      "hn_comments_count": "351",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49991227",
-      "hn_item_text": "",
-      "hn_comment_preview": "jug: And soon Firefox will include it in Stable. During October it will go from Safari only to majority coverage. Eventful month! While AVIF may have a slight edge in some cases like in fairly lossy compression, you won't really go _wrong_ with JPEG XL (unless strongly CPU constrained) and I think the strength of the format is its extreme versatility as a \"be all end all image format\" for some time where comparative pe...\nxx_ns: It's exciting to see JXL support being re-added in Chrome after being removed a while ago and them seemingly not being interested in supporting it [1]. I think JXL is a cool image format, but was being held back by the most popular browser not supporting it, limiting its use (in the web especially) by a lot. [1]: https://issues.chromium.org/issues/40270698\nswiftcoder: See previous HN discussions for context: Google set to deprecate JPEG XL support in Chrome 110 - https://news.ycombinator.com/item?id=33399940 JPEG XL support has officially been removed from Chromium - https://news.ycombinator.com/item?id=33933208 Chrome Jpegxl Issue Reopened - https://news.ycombinator.com/item?id=46033330 The case agains JPEG XL - https://news.ycombinator.com/item?id=4969...",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "36",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=12,practical_tech=12,tools_agents=2,strategy_insight=2,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 12,
-        "tools_agents": 2,
-        "strategy_insight": 2,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 12,
-          "strong_hits": [
-            "rag"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": [
-            "developer."
-          ]
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "rag",
-        "developer."
-      ],
-      "detail_slug": "0a738c4f439ff22156edda73816ebee02d95f985",
-      "is_english_source": true,
-      "sent_at": "2026-10-08T05:17:00.262705+00:00"
-    },
-    {
-      "id": "91f61052f5806a4560d9f10e512bda77b4791072",
-      "title_hash": "ae4e7cb5713d87d6e7f39ac6a7de854040a73e93",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "'Jonathan' is the oldest land animal on Earth",
-      "link": "https://www.404media.co/oldest-living-land-animal-jonathan-the-tortoise/",
-      "published_at": "2026-10-07T20:01:37+00:00",
-      "summary": "HN story type: story HN points: 102 HN comments: 40 HN top comments: scun: > The results revealed that Jonathan has “unique gene variants in most aging pathways” including DNA repair, insulin regulation, mitochondrial function, and “low entropy” methylation, reports the study. min-maxing longevity vs speed and charisma usernametaken29: Hell yeah I’m down to become a turtle. Lay by the beach. Eat kelp. Awesome calacatta: Every couple Summers Me and a couple hunters Like to row in from the Isle of Astonishing M* erf* ers",
-      "fetched_at": "2026-10-08T05:14:51.530775+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49998066",
-      "hn_story_type": "story",
-      "hn_points": "102",
-      "hn_comments_count": "40",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49998066",
-      "hn_item_text": "",
-      "hn_comment_preview": "scun: > The results revealed that Jonathan has “unique gene variants in most aging pathways” including DNA repair, insulin regulation, mitochondrial function, and “low entropy” methylation, reports the study. min-maxing longevity vs speed and charisma\nusernametaken29: Hell yeah I’m down to become a turtle. Lay by the beach. Eat kelp. Awesome\ncalacatta: Every couple Summers Me and a couple hunters Like to row in from the Isle of Astonishing M* erf* ers",
-      "primary_slot": "industry_business",
-      "primary_slot_label": "산업·비즈니스",
-      "priority_bucket": "general",
-      "priority_score": "35",
-      "priority_signal": "slot=industry_business,boost=24,slot_score=11,practical_tech=0,tools_agents=-2,strategy_insight=2,industry_business=11",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": -2,
-        "strategy_insight": 2,
-        "industry_business": 11
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "regulation"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": -2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [
-            "regulation"
-          ],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 2,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 11,
-          "strong_hits": [
-            "regulation"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "ai + regulation"
-          ],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "regulation",
-        "ai + regulation"
-      ],
-      "detail_slug": "91f61052f5806a4560d9f10e512bda77b4791072",
-      "is_english_source": true,
-      "sent_at": "2026-10-08T05:17:00.262705+00:00"
-    },
-    {
-      "id": "ead1dc33c90b6b82debd88714b147a291e68cd81",
-      "title_hash": "f5d79868c39a134526648ab5c89502dee181568e",
-      "source": "GeekNews",
-      "title": "Lemma - 사람과 AI 에이전트가 한 팀으로 일하는 오픈소스 작업 공간",
-      "link": "https://news.hada.io/topic?id=34976",
-      "published_at": "2026-10-08T00:30:02+00:00",
-      "summary": "여러 사람이 같은 AI 동료와 업무 데이터·문서·작업 흐름을 공유 하며 일하는 오픈소스 플랫폼 Claude Code, Codex, Cursor, OpenCode에 원하는 업무를 설명하면 앱 화면부터 데이터 테이블, 에이전트, 워크플로와 권한까지 함께 구성 팀의 수정과 피드백을...",
-      "fetched_at": "2026-10-08T01:07:41.533499+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "tools_agents",
-      "primary_slot_label": "도구·에이전트",
-      "priority_bucket": "technical",
-      "priority_score": "75",
-      "priority_signal": "slot=tools_agents,boost=45,slot_score=30,practical_tech=0,tools_agents=30,strategy_insight=3,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 0,
-        "tools_agents": 30,
-        "strategy_insight": 3,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 30,
-          "strong_hits": [
-            "claude code",
-            "cursor",
-            "codex",
-            "에이전트"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [
-            "claude + code"
-          ],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 3,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "claude code",
-        "cursor",
-        "codex",
-        "에이전트",
-        "claude + code"
-      ],
-      "detail_slug": "ead1dc33c90b6b82debd88714b147a291e68cd81",
-      "is_english_source": false,
-      "sent_at": "2026-10-08T01:09:48.476468+00:00"
-    },
-    {
-      "id": "760c62b0f7ff6b63331edcf637bc00cb530d61c8",
-      "title_hash": "7674f217b871d728ba030e0529da7d98f81ede36",
-      "source": "GeekNews",
-      "title": "pg-jev - 자연어 조건으로 데이터를 검색하고 분류하는 PostgreSQL 확장",
-      "link": "https://news.hada.io/topic?id=34981",
-      "published_at": "2026-10-08T00:50:02+00:00",
-      "summary": "SQL 안에 “고객이 화가 났는가”, “어느 팀이 처리해야 하는가” 같은 자연어 조건 을 넣어 행을 필터링하고 분류하거나 점수순으로 정렬하는 확장 자연어를 SQL로 바꾸는 도구가 아니라, 각 행의 내용을 TypeSafe의 Jev 모델이 판단 하고 그 결과를 SQL에서 사용하...",
-      "fetched_at": "2026-10-08T01:07:41.533499+00:00",
-      "source_priority_boost": "45",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "55",
-      "priority_signal": "slot=practical_tech,boost=45,slot_score=10,practical_tech=10,tools_agents=4,strategy_insight=8,industry_business=0",
-      "slot_scores": {
-        "practical_tech": 10,
-        "tools_agents": 4,
-        "strategy_insight": 8,
-        "industry_business": 0
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 10,
-          "strong_hits": [
-            "postgres",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 4,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 8,
-          "strong_hits": [
-            "판단"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 0,
-          "strong_hits": [],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "postgres",
-        "sql"
-      ],
-      "detail_slug": "760c62b0f7ff6b63331edcf637bc00cb530d61c8",
-      "is_english_source": false,
-      "sent_at": "2026-10-08T01:09:48.476468+00:00"
-    },
-    {
-      "id": "a8d21a983fa5d74716f09b09f5acacae64f262e2",
-      "title_hash": "427561d87215ca6cd71ff43d7aa8ad8714e68f16",
-      "source": "Hacker News Frontpage (HN RSS)",
-      "title": "A new write and space optimized storage engine for MySQL is here",
-      "link": "https://tidesdb.com/articles/tidesdb-now-available-for-mysql/",
-      "published_at": "2026-10-05T11:40:15+00:00",
-      "summary": "HN story type: story HN points: 25 HN comments: 8 HN top comments: kumarvvr: Curious to know if MySQL has any distinct advantages over Postgres at this point. sgarland: How does this differ from RocksDB / MyRocks? alexpadula: Introducing the first major release of TideSQL for MySQL. A transactional storage engine built from first principles and on modern research that's write and space optimized, highly effective on reads, and offers parity with InnoDB. Do check it out, we would love your thoughts!",
-      "fetched_at": "2026-10-08T01:07:41.533499+00:00",
-      "source_priority_boost": "24",
-      "hn_story_id": "49963568",
-      "hn_story_type": "story",
-      "hn_points": "25",
-      "hn_comments_count": "8",
-      "hn_discussion_url": "https://news.ycombinator.com/item?id=49963568",
-      "hn_item_text": "",
-      "hn_comment_preview": "kumarvvr: Curious to know if MySQL has any distinct advantages over Postgres at this point.\nsgarland: How does this differ from RocksDB / MyRocks?\nalexpadula: Introducing the first major release of TideSQL for MySQL. A transactional storage engine built from first principles and on modern research that's write and space optimized, highly effective on reads, and offers parity with InnoDB. Do check it out, we would love your thoughts!",
-      "primary_slot": "practical_tech",
-      "primary_slot_label": "실무 기술",
-      "priority_bucket": "technical",
-      "priority_score": "43",
-      "priority_signal": "slot=practical_tech,boost=24,slot_score=19,practical_tech=19,tools_agents=7,strategy_insight=9,industry_business=5",
-      "slot_scores": {
-        "practical_tech": 19,
-        "tools_agents": 7,
-        "strategy_insight": 9,
-        "industry_business": 5
-      },
-      "slot_matches": {
-        "practical_tech": {
-          "slot": "practical_tech",
-          "label": "실무 기술",
-          "score": 19,
-          "strong_hits": [
-            "postgres",
-            "storage",
-            "sql"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "tools_agents": {
-          "slot": "tools_agents",
-          "label": "도구·에이전트",
-          "score": 7,
-          "strong_hits": [
-            "ide"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "strategy_insight": {
-          "slot": "strategy_insight",
-          "label": "전략·인사이트",
-          "score": 9,
-          "strong_hits": [
-            "principles"
-          ],
-          "support_hits": [
-            "research"
-          ],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        },
-        "industry_business": {
-          "slot": "industry_business",
-          "label": "산업·비즈니스",
-          "score": 5,
-          "strong_hits": [
-            "release"
-          ],
-          "support_hits": [],
-          "negative_hits": [],
-          "phrase_hits": [],
-          "domain_hits": []
-        }
-      },
-      "matched_terms": [
-        "postgres",
-        "storage",
-        "sql"
-      ],
-      "detail_slug": "a8d21a983fa5d74716f09b09f5acacae64f262e2",
-      "is_english_source": true,
-      "sent_at": "2026-10-08T01:09:48.476468+00:00"
     }
   ],
   "topic_digests": {
